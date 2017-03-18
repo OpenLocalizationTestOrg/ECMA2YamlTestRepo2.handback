@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">348b5c3711e610eb848c0d47b2411c0c6ee2499f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Permissions.PublisherIdentityPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5c144b3868cce063c3d3927744b07e5a7d698794</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e266256d4b0336185ff7459a664fdc5cec8472d1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the identity of a software publisher.</source>
+          <target state="translated">表示软件发布者的标识。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Starting with the <ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, identity permissions are not used.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>1&gt; 第一页为<ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>，不使用标识权限。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  In the .NET Framework versions 1.0 and 1.1, identity permissions cannot have an &lt;xref:System.Security.Permissions.PermissionState&gt; permission state value.</source>
+          <target state="translated">&gt;&gt; 在.NET framework 1.0 和 1.1 版中，标识权限不能有&lt;xref:System.Security.Permissions.PermissionState&gt;权限状态值。&lt;/xref:System.Security.Permissions.PermissionState&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Starting with the .NET Framework version 2.0, identity permissions can have any permission state value.</source>
+          <target state="translated">从.NET Framework 2.0 版开始，标识权限可以具有任何权限状态值。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This means that in 2.0 and later versions, identity permissions have the same behavior as permissions that implement the &lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt; interface.</source>
+          <target state="translated">这意味着，在 2.0 及更高版本中，标识权限具有相同的行为实现的权限&lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt;接口。&lt;/xref:System.Security.Permissions.IUnrestrictedPermission&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>That is, a demand for an identity always succeeds, regardless of the identity of the assembly, if the assembly has been granted full trust.</source>
+          <target state="translated">也就是说，要求的标识始终成功，而不考虑程序集，标识程序集已被授予完全信任。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  In the .NET Framework versions 1.0 and 1.1, demands on the identity permissions are effective, even when the calling assembly is fully trusted.</source>
+          <target state="translated">&gt;&gt; 在.NET framework 1.0 和 1.1 版中，对标识权限的要求是有效，调用程序集是完全受信任时也如此。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>That is, although the calling assembly has full trust, a demand for an identity permission fails if the assembly does not meet the demanded criteria.</source>
+          <target state="translated">即，尽管调用程序集具有完全信任，则将失败标识权限的要求，如果程序集不符合要求的条件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Starting with the .NET Framework version 2.0, demands for identity permissions are ineffective if the calling assembly has full trust.</source>
+          <target state="translated">从.NET Framework 2.0 版开始，标识权限的需求较为低效如果调用程序集具有完全信任权限。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This assures consistency for all permissions, eliminating the treatment of identity permissions as a special case.</source>
+          <target state="translated">这可确保对所有其他权限，消除标识权限的处理方式的一致性。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  By default, code access security does not check for &lt;xref:System.Security.Policy.Publisher&gt; evidence.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 默认情况下，代码访问安全性不会检查&lt;xref:System.Security.Policy.Publisher&gt;证据。&lt;/xref:System.Security.Policy.Publisher&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Unless your computer has a custom code group based on the &lt;xref:System.Security.Policy.PublisherMembershipCondition&gt; class, you can improve performance by bypassing Authenticode signature verification.</source>
+          <target state="translated">除非你的计算机拥有基于的自定义代码组&lt;xref:System.Security.Policy.PublisherMembershipCondition&gt;类，你可以通过跳过验证码签名验证提高性能。&lt;/xref:System.Security.Policy.PublisherMembershipCondition&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This is accomplished by configuring the runtime to not provide &lt;xref:System.Security.Policy.Publisher&gt; evidence for code access security.</source>
+          <target state="translated">这通过配置运行时不提供实现&lt;xref:System.Security.Policy.Publisher&gt;代码访问安全性的证据。&lt;/xref:System.Security.Policy.Publisher&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information about how to configure this option and which applications can use it, see the  element.</source>
+          <target state="translated">有关如何配置此选项以及详细信息的应用程序可以使用它，请参阅元素。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PublisherIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified Authenticode X.509v3 certificate.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Permissions.PublisherIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与指定的验证码 X.509v3 证书的类。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The X.509 certificate defines the identity of the specified software publisher, as established by Authenticode code signing.</source>
+          <target state="translated">X.509 证书定义指定的软件发行者中，的标识由 Authenticode 代码签名。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An X.509 certificate representing the software publisher's identity.</source>
+          <target state="translated">表示软件发布者的标识 X.509 证书。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid certificate.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">certificate</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是有效的证书。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PublisherIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Permissions.PublisherIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用指定的类<bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Creates either a fully restricted (<ph id="ph1">`None`</ph>) or <ph id="ph2">`Unrestricted`</ph> permission.</source>
+          <target state="translated">创建完全受限制 (<ph id="ph1">`None`</ph>) 或<ph id="ph2">`Unrestricted`</ph>权限。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In the .NET Framework versions 1.0 and 1.1, identity permissions cannot have an &lt;xref:System.Security.Permissions.PermissionState&gt; permission state value.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; 在.NET Framework 1.0 和 1.1 版中，标识权限不能具有&lt;xref:System.Security.Permissions.PermissionState&gt;权限状态值。&lt;/xref:System.Security.Permissions.PermissionState&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Starting with the .NET Framework version 2.0, identity permissions can have any permission state value.</source>
+          <target state="translated">从.NET Framework 2.0 版开始，标识权限可以具有任何权限状态值。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This means that in 2.0 and later versions, identity permissions have the same behavior as permissions that implement the &lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt; interface.</source>
+          <target state="translated">这意味着，在 2.0 及更高版本中，标识权限具有相同的行为实现的权限&lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt;接口。&lt;/xref:System.Security.Permissions.IUnrestrictedPermission&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>That is, a demand for an identity always succeeds, regardless of the identity of the assembly, if the assembly has been granted full trust.</source>
+          <target state="translated">也就是说，要求的标识始终成功，而不考虑程序集，标识程序集已被授予完全信任。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework versions 1.0 and 1.1, demands on the identity permissions are effective, even when the calling assembly is fully trusted.</source>
+          <target state="translated">在.NET framework 1.0 和 1.1 版中，对标识权限的要求是有效，调用程序集是完全受信任时也如此。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>That is, although the calling assembly has full trust, a demand for an identity permission fails if the assembly does not meet the demanded criteria.</source>
+          <target state="translated">即，尽管调用程序集具有完全信任，则将失败标识权限的要求，如果程序集不符合要求的条件。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Starting with the .NET Framework version 2.0, demands for identity permissions are ineffective if the calling assembly has full trust.</source>
+          <target state="translated">从.NET Framework 2.0 版开始，标识权限的需求较为低效如果调用程序集具有完全信任权限。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This assures consistency for all permissions, eliminating the treatment of identity permissions as a special case.</source>
+          <target state="translated">这可确保对所有其他权限，消除标识权限的处理方式的一致性。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是有效的值的<bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets an Authenticode X.509v3 certificate that represents the identity of the software publisher.</source>
+          <target state="translated">获取或设置表示软件发行者的身份的 Authenticode X.509v3 证书。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An X.509 certificate representing the identity of the software publisher.</source>
+          <target state="translated">表示软件发行者的身份的 X.509 证书。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The Certificate is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">证书<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Certificate is not a valid certificate.</source>
+          <target state="translated">证书不是有效的证书。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The property cannot be set because the identity is ambiguous.</source>
+          <target state="translated">无法设置属性，因为其标识不明确。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Creates and returns an identical copy of the current permission.</source>
+          <target state="translated">创建并返回当前权限的相同副本。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A copy of a permission represents the same access to resources as the original permission.</source>
+          <target state="translated">与原始权限情况下，一份权限表示对资源的相同的访问权限。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission.</source>
+          <target state="translated">当前权限的副本。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Reconstructs a permission with a specified state from an XML encoding.</source>
+          <target state="translated">重新构造具有指定状态的 XML 编码的权限。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The XML encoding to use to reconstruct the permission.</source>
+          <target state="translated">编码用于重新构造权限的 XML。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid permission element.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">esd</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是有效的权限元素。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">esd</ph><ept id="p1">&lt;/code&gt;</ept> parameter's version number is not valid.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">esd</ph> <ept id="p1">&lt;/code&gt;</ept>参数的版本号无效。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Creates and returns a permission that is the intersection of the current permission and the specified permission.</source>
+          <target state="translated">创建并返回是当前权限和指定的权限的交集的权限。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The intersection of two permissions is a permission that describes the set of operations they both describe in common.</source>
+          <target state="translated">以下两个权限的交集是描述组的二者共同描述的操作的权限。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Only a demand that passes both original permissions will pass the intersection.</source>
+          <target state="translated">仅通过两个原始权限的请求将通过该交集。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt; only supports set operations (&lt;xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt;, Intersect, and &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt;) when the current permission is equal to the specified permission.</source>
+          <target state="translated">&lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt;仅支持 set 操作 (&lt;xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt;，Intersect 和&lt;xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt;) 时当前权限等同于指定的权限。&lt;/xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt; &lt;/xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt;&lt;/xref:System.Security.Permissions.PublisherIdentityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A permission to intersect with the current permission.</source>
+          <target state="translated">要与当前权限相交的权限。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">它必须与当前权限属于同一类型。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the intersection of the current permission and the specified permission.</source>
+          <target state="translated">表示当前权限和指定的权限的交集的一个新权限。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This new permission is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the intersection is empty.</source>
+          <target state="translated">此新权限为<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果交集为空。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>并且不是与当前权限属于同一类型。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Determines whether the current permission is a subset of the specified permission.</source>
+          <target state="translated">确定当前权限是否为指定权限的子集。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The current permission is a subset of the specified permission if the two permissions are equal.</source>
+          <target state="translated">如果两个权限相等，则当前权限是指定权限的子集。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If this method returns <ph id="ph1">`true`</ph>, the current permission represents the same access to the protected resource as the specified permission.</source>
+          <target state="translated">如果此方法返回<ph id="ph1">`true`</ph>，当前的权限表示对与指定权限的受保护资源的相同的访问权限。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt; supports set operations (IsSubsetOf, &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt;, and &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt;) only when the current permission is equal to the specified permission.</source>
+          <target state="translated">&lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt;支持 set 操作 (IsSubsetOf， &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt;，和&lt;xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt;) 仅当当前权限是否等于指定的权限时。&lt;/xref:System.Security.Permissions.PublisherIdentityPermission.Union%2A&gt; &lt;/xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt;&lt;/xref:System.Security.Permissions.PublisherIdentityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A permission that is to be tested for the subset relationship.</source>
+          <target state="translated">将要测试子集关系的权限。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This permission must be of the same type as the current permission.</source>
+          <target state="translated">此权限必须是与当前权限属于同一类型。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current permission is a subset of the specified permission; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果当前权限是指定权限; 的子集否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>并且不是与当前权限属于同一类型。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Creates an XML encoding of the permission and its current state.</source>
+          <target state="translated">创建权限及其当前状态的 XML 编码。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>An XML encoding of the permission, including any state information.</source>
+          <target state="translated">权限，包括任何状态信息的 XML 编码。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Creates a permission that is the union of the current permission and the specified permission.</source>
+          <target state="translated">创建兼具当前权限和指定的权限的权限。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The result of a call to the Union method is a permission that represents all the operations represented by both the current permission and the specified permission.</source>
+          <target state="translated">对联合方法的结果是调用的由当前权限和指定的权限表示所表示的所有操作的权限。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Any demand that passes either permission passes their union.</source>
+          <target state="translated">任何请求都会通过任一权限传递其联合。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt; class only supports set operations (&lt;xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt;, &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt;, and Union) when the current permission is equal to the specified permission.</source>
+          <target state="translated">&lt;xref:System.Security.Permissions.PublisherIdentityPermission&gt;类仅支持一组操作 (&lt;xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt;， &lt;xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt;，和联合) 时当前权限等同于指定的权限。&lt;/xref:System.Security.Permissions.PublisherIdentityPermission.Intersect%2A&gt; &lt;/xref:System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf%2A&gt; &lt;/xref:System.Security.Permissions.PublisherIdentityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A permission to combine with the current permission.</source>
+          <target state="translated">若要与当前权限合并的权限。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">它必须与当前权限属于同一类型。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the union of the current permission and the specified permission.</source>
+          <target state="translated">表示同时兼具当前权限和指定的权限的新权限。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>参数不是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>并且不是与当前权限属于同一类型。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>-or-       The two permissions are not equal.</source>
+          <target state="translated">-或者-这两个权限不相等。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

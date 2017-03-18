@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b90800bf25ee07e938a378813f6c4ad0b8f2c6f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Tracking.UserTrackPoint.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bdb0039b9219327ceb4b85a313e10c89523210e4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6a2faddcb5345bfc50a98ab3c1bb608115ccf31</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a point, associated with a user event, to be tracked in the potential execution path of a root workflow instance.</source>
+          <target state="translated">루트 워크플로 인스턴스의 잠재적 실행 경로에서 추적 되는 사용자 이벤트와 연결 된 지점을 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">이 클래스는 상속 될 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       An activity designer or a workflow designer may use the overloaded &lt;xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt; and &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt; methods to instrument the workflow to emit data to the runtime tracking infrastructure as a user event.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>활동 디자이너나 워크플로 디자이너는 오버 로드 된 사용할 수 있습니다 &lt;xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt;및 &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt;런타임 추적 인프라가 사용자 이벤트로 데이터를 내보낼 워크플로를 계측 하는 방법.&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext.TrackData%2A?displayProperty=fullName&gt; &lt;/xref:System.Workflow.ComponentModel.Activity.TrackData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data emitted is referred to as user data.</source>
+          <target state="translated">내보낸 데이터를 사용자 데이터 라고 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike activity status events, and workflow status events, which occur only on status changes, user events can occur at any location that is instrumented in a workflow.</source>
+          <target state="translated">활동 상태 이벤트 및 상태가 변경 될 때만 발생 하는 워크플로 상태 이벤트와 달리 사용자 이벤트는 워크플로에서 계측 되는 모든 위치에서 발생할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are many reasons to instrument a workflow to emit user events.</source>
+          <target state="translated">사용자 이벤트를 내보내는 워크플로 계측 하는 방법은 여러 가지가 있습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a workflow designer may want to communicate logical state information about the progress of a workflow, or an activity designer might want to provide an opportunity to activity members at times other than an activity status change.</source>
+          <target state="translated">예를 들어, 워크플로 디자이너는 워크플로 진행률에 대 한 논리적 상태 정보를 전달 하는 경우가 또는 활동 디자이너를 활동 멤버에는 활동 상태 변경 이외의 기회를 제공 해야 할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A UserTrackPoint defines a point of interest in the potential execution path of a root workflow instance associated with a user event.</source>
+          <target state="translated">UserTrackPoint은 사용자 이벤트와 연결 된 루트 워크플로 인스턴스의 잠재적 실행 경로에 관심 지점을 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A UserTrackPoint contains locations that are included in matching, locations that are excluded from matching, and any additional data that should be extracted from the workflow instance when the track point is matched.</source>
+          <target state="translated">UserTrackPoint 일치에 포함 되는 위치, 일치에서 제외 되는 위치 및 추적 지점이 일치할 때 워크플로 인스턴스에서 추출 되어야 하는 추가 데이터를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add a UserTrackPoint to &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile.UserTrackPoints%2A?displayProperty=fullName&gt; to instruct the runtime tracking infrastructure to send a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; to the tracking service when the track point is matched.</source>
+          <target state="translated">UserTrackPoint를 추가할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile.UserTrackPoints%2A?displayProperty=fullName&gt;런타임 추적 인프라가 보낼 지시 하는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;추적 지점이 일치할 때 추적 서비스에.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile.UserTrackPoints%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user data is returned in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">사용자 데이터는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt; 반환</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A single UserTrackPoint may be matched at multiple points in the workflow instance.</source>
+          <target state="translated">단일 UserTrackPoint 워크플로 인스턴스의 여러 지점에서 일치할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; contains match conditions for a location associated with a user event in the potential execution path of a workflow instance.</source>
+          <target state="translated">A &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;워크플로 인스턴스의 잠재적 실행 경로에 있는 사용자 이벤트와 연결 된 위치에 대 한 일치 조건을 포함 합니다.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; objects to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt; to define locations that should be included in matching for the track point.</source>
+          <target state="translated">추가할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;개체를 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt;추적 지점에 대 한 일치에 포함 해야 하는 위치를 정의할 수 있습니다.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, you can add &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; objects to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt; to define locations that should be excluded from matching for the track point.</source>
+          <target state="translated">마찬가지로, 추가할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;개체를 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt;추적 지점 일치에서 제외 해야 하는 위치를 정의할 수 있습니다.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add &lt;xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt; objects and &lt;xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt; objects to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt; to specify data that should be extracted from the workflow instance when the track point is matched.</source>
+          <target state="translated">추가할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt;개체 및 &lt;xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt;개체를 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt;추적 지점이 일치할 때 워크플로 인스턴스에서 추출 되어야 하는 데이터를 지정할 수 있습니다.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt; &lt;/xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extracted data will be returned in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">추출 된 데이터가 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt; 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt; to specify additional information associated with the track point.</source>
+          <target state="translated">에 추가할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt;추적 지점과 연결 된 추가 정보를 지정 합니다.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These annotations will be returned in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">이러한 주석은 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A?displayProperty=fullName&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A?displayProperty=fullName&gt; 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example of how to use this class, see the <bpt id="p1">[</bpt>Tracking Using User Track Points Sample<ept id="p1">](http://msdn.microsoft.com/en-us/d894a18a-a4c6-467e-9a42-8be025ecd4d5)</ept>.</source>
+          <target state="translated">이 클래스를 사용 하는 방법의 예제를 보려면는 <bpt id="p1">[</bpt>Tracking 사용 하 여 사용자 추적 지점 샘플<ept id="p1">](http://msdn.microsoft.com/en-us/d894a18a-a4c6-467e-9a42-8be025ecd4d5)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default constructor initializes an empty track point.</source>
+          <target state="translated">기본 생성자는 빈 추적 지점을 초기화합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No matching locations, excluded locations, data extracts or annotations are specified.</source>
+          <target state="translated">없는 일치 하는 위치, 제외 된 위치가, 데이터 추출 물 또는 주석이 지정 됩니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must configure the track point by adding at least one &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt;.</source>
+          <target state="translated">추가 하 여 하나 이상의 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; 추적 지점을 구성 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may optionally add the appropriate objects to &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt;, and &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt;.</source>
+          <target state="translated">에 해당 개체를 추가할 수 있습니다 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt;, &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt;, 및 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Annotations%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.Extracts%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the collection of annotations associated with the track point.</source>
+          <target state="translated">추적 지점과 연결 된 주석 컬렉션을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add to Annotations to specify annotations to be returned in Annotations when the track point is matched.</source>
+          <target state="translated">주석은 추적 지점이 일치할 때 주석에서 반환 될 주석을 지정할에 추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Annotations is empty, no annotations are associated with the track point.</source>
+          <target state="translated">주석이 비어 있으면 없는 주석은 추적 지점과 연결 됩니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Annotations are <ph id="ph1">`strings`</ph> that you define that contain information associated with the track point.</source>
+          <target state="translated">주석은 <ph id="ph1">`strings`</ph> 추적 지점과 연결 된 정보를 포함 하는 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, an annotation could contain information about the possible execution path the workflow can take from this track point, or it could contain information to be displayed in a user interface.</source>
+          <target state="translated">예를 들어 주석은 워크플로가이 추적 지점에서 사용할 수 있는 실행 경로 대 한 정보를 포함 하거나 사용자 인터페이스에 표시 될 정보를 포함할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingAnnotationCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingAnnotationCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The default is an empty collection.</source>
+          <target state="translated">기본값은 빈 컬렉션입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the collection of locations that should be excluded from the track point by the runtime tracking infrastructure.</source>
+          <target state="translated">런타임 추적 인프라가 추적 지점에서 제외 해야 하는 위치 컬렉션을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any of the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; objects in ExcludedLocations is matched for a particular user event, the track point will not be matched and no &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; will be sent to the tracking service.</source>
+          <target state="translated">경우는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;ExcludedLocations의 개체는 특정 사용자 이벤트에 대 한 일치, 추적 지점은 일치 되지 되지 않은 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;를 추적 서비스로 전송 됩니다.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ExcludedLocations is empty, there are no excluded locations.</source>
+          <target state="translated">ExcludedLocations 비어 있으면 제외 된 위치가 없습니다 있습니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use ExcludedLocations to exclude specific locations from being tracked by the runtime tracking infrastructure.</source>
+          <target state="translated">런타임 추적 인프라에서 추적 중인에서 특정 위치를 제외할 ExcludedLocations를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can exclude a subset of locations that are specified in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt; in order to more precisely refine the locations that should be tracked by the track point.</source>
+          <target state="translated">에 지정 된 위치의 하위 집합을 제외할 수는 예를 들어 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt;추적 지점별 추적 해야 하는 위치를 보다 정확 하 게 구체화 하기 위해.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.MatchingLocations%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocationCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies locations to be excluded from the track point.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocationCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 추적 지점에서 제외할 위치를 지정 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default is an empty collection.</source>
+          <target state="translated">기본값은 빈 컬렉션입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets a collection that specifies data to be extracted from the workflow instance and sent to the tracking service.</source>
+          <target state="translated">워크플로 인스턴스에서 추출 하 고 추적 서비스로 보낼 데이터를 지정 하는 컬렉션을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the track point is matched, the runtime tracking infrastructure sends a &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; to the tracking service.</source>
+          <target state="translated">추적 지점이 일치할 때, 런타임 추적 인프라 보냅니다는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;를 추적 서비스로.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user data is returned in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">사용자 데이터는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.UserData%2A?displayProperty=fullName&gt; 반환</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime tracking infrastructure can also extract data specified in Extracts from the workflow instance and send this in the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;.</source>
+          <target state="translated">런타임 추적 인프라가 워크플로 인스턴스에서 추출에 지정 된 데이터를 추출할 수 있고이 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; 보낼</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extracted data is encapsulated in &lt;xref:System.Workflow.Runtime.Tracking.TrackingDataItem&gt; records and returned in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">추출 된 데이터를 &lt;xref:System.Workflow.Runtime.Tracking.TrackingDataItem&gt;기록 하 고 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord.Body%2A?displayProperty=fullName&gt; 반환&lt;/xref:System.Workflow.Runtime.Tracking.TrackingDataItem&gt; 에 캡슐화 되어</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add &lt;xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt; objects to Extracts to specify member data that should be extracted from the activity associated with the user event and you can add &lt;xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt; objects to Extracts to specify member data that should be extracted from the root activity of the workflow.</source>
+          <target state="translated">추가할 수 있습니다 &lt;xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt;사용자 이벤트와 관련 된 활동에서 추출 되어야 하는 멤버 데이터를 지정 하는 추출 하는 개체를 추가할 수 &lt;xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt;워크플로의 루트 활동에서 추출 되어야 하는 멤버 데이터를 지정 하는 추출 하는 개체입니다.&lt;/xref:System.Workflow.Runtime.Tracking.WorkflowDataTrackingExtract&gt; &lt;/xref:System.Workflow.Runtime.Tracking.ActivityDataTrackingExtract&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.ExtractCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies data to be extracted and sent to the tracking service.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.ExtractCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 를 추출 하 고 추적 서비스로 보낼 데이터를 지정 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The default is an empty collection.</source>
+          <target state="translated">기본값은 빈 컬렉션입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets the collection of locations that should be included in matching for the track point by the runtime tracking infrastructure.</source>
+          <target state="translated">런타임 추적 인프라가 추적 지점에 대 한 일치에 포함 해야 하는 위치 컬렉션을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If MatchingLocations is empty, the track point cannot be matched by the runtime tracking infrastructure.</source>
+          <target state="translated">MatchingLocations이 비어 있으면 런타임 추적 인프라에서 추적 지점을 일치 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must add at least one &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; to MatchingLocations for the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt; to participate in matching.</source>
+          <target state="translated">하나 이상 추가 해야 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;에 대 한 MatchingLocations에는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt;일치에 참여 하려면.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The track point will be matched if any of the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; objects in MatchingLocations is matched and none of the &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; objects in &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt; is matched.</source>
+          <target state="translated">추적 지점을 일치 시킬는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;MatchingLocations의 개체와 일치 하지는 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;개체 &lt;xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt;일치 하는.&lt;/xref:System.Workflow.Runtime.Tracking.UserTrackPoint.ExcludedLocations%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt; &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingLocation&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocationCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the locations to be matched for the track point.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.UserTrackingLocationCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 추적 지점에 일치 시킬 수 있는 위치를 지정 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default is an empty collection.</source>
+          <target state="translated">기본값은 빈 컬렉션입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

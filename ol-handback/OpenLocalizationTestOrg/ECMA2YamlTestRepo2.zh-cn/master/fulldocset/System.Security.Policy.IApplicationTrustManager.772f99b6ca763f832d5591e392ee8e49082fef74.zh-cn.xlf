@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9f9b7fe42101fb41726dd3150b1f44cf76e8fe6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Policy.IApplicationTrustManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b795b2ae15e685c4c0aceaeeef1ebc6133b503cf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7cab1406cb62f6664bd9c309de2b282bb6541cf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Determines whether an application should be executed and which set of permissions should be granted to it.</source>
+          <target state="translated">确定是否应执行应用程序以及哪个权限集应授予给它。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Trust managers must implement the IApplicationTrustManager interface.</source>
+          <target state="translated">信任管理器必须实现 IApplicationTrustManager 接口。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The host calls the &lt;xref:System.Security.Policy.IApplicationTrustManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt; method to determine whether an application should be executed and which permissions should be granted to the application.</source>
+          <target state="translated">宿主调用&lt;xref:System.Security.Policy.IApplicationTrustManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt;方法来确定是否应执行应用程序和应用程序应授予哪些权限。&lt;/xref:System.Security.Policy.IApplicationTrustManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In the <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph> and later, there is only one trust manager, which can be a custom implementation of the IApplicationTrustManager interface.</source>
+          <target state="translated">在<ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>和更高版本，没有只有一个信任关系管理器，它可以是 IApplicationTrustManager 接口的自定义实现。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The default trust manager implementation prompts the user for permission to install the application and to elevate the permissions granted to the application.</source>
+          <target state="translated">默认信任关系管理器实现提示用户输入的权限安装应用程序和提升到应用程序授予的权限。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Other trust manager implementations might provide different user experiences.</source>
+          <target state="translated">其他信任关系管理器实现可能提供不同的用户体验。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, an implementation might check an enterprise list for trusted applications instead of prompting the user for that information.</source>
+          <target state="translated">例如，实现可能会检查受信任的应用程序，而不是提示用户输入此信息为企业列表。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Determines whether an application should be executed and which set of permissions should be granted to it.</source>
+          <target state="translated">确定是否应执行应用程序以及哪个权限集应授予给它。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The DetermineApplicationTrust method is called by the host to determine whether an application should be executed and which set of permissions it should be granted.</source>
+          <target state="translated">通过主机来确定是否应执行应用程序和哪一组权限它应被授予调用 DetermineApplicationTrust 方法。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>DetermineApplicationTrust returns an &lt;xref:System.Security.Policy.ApplicationTrust&gt; object with a &lt;xref:System.Security.Policy.ApplicationTrust.DefaultGrantSet%2A&gt; property that contains a permission set representing the permissions to be granted to each assembly executing within the context of the application.</source>
+          <target state="translated">DetermineApplicationTrust 返回&lt;xref:System.Security.Policy.ApplicationTrust&gt;对象&lt;xref:System.Security.Policy.ApplicationTrust.DefaultGrantSet%2A&gt;属性，它包含权限集，代表为每个应用程序的上下文中执行的程序集授予的权限。&lt;/xref:System.Security.Policy.ApplicationTrust.DefaultGrantSet%2A&gt; &lt;/xref:System.Security.Policy.ApplicationTrust&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The granted permissions do not apply to assemblies in the global assembly cache.</source>
+          <target state="translated">全局程序集缓存中的程序集不适用于授予的权限。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Policy.ApplicationTrust&gt; object also has an &lt;xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt; property that the trust manager sets to indicate whether the application should be trusted.</source>
+          <target state="translated">&lt;xref:System.Security.Policy.ApplicationTrust&gt;对象还具有&lt;xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt;信任关系管理器设置以指示是否应该信任应用程序的属性。&lt;/xref:System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun%2A&gt; &lt;/xref:System.Security.Policy.ApplicationTrust&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If the trust manager indicates that the application can be trusted, the host activates the application and grants its assemblies the set of permissions provided in the &lt;xref:System.Security.Policy.ApplicationTrust&gt; collection.</source>
+          <target state="translated">如果信任关系管理器指示应用程序可以是受信任，主机激活该应用程序，并授予其程序集的中提供的权限集&lt;xref:System.Security.Policy.ApplicationTrust&gt;集合。&lt;/xref:System.Security.Policy.ApplicationTrust&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The activation context for the application.</source>
+          <target state="translated">应用程序的激活上下文。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The trust manager context for the application.</source>
+          <target state="translated">应用程序的信任管理器上下文。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An object that contains security decisions about the application.</source>
+          <target state="translated">包含有关应用程序的安全决策的对象。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

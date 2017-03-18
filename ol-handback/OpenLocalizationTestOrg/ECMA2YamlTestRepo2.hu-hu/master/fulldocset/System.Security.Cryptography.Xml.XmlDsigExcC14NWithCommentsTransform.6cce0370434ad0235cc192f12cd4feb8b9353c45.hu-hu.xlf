@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4ddb81dae56ef2b1dd115f014daddb3ff123e39c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ece9a5c246c0e2700057cf8ccf7abd69877f3bc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">230dfee9ed47647f299163ae9945db8b1ec4be50</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the exclusive C14N XML canonicalization transform for a digital signature as defined by the World Wide Web Consortium (W3C), with comments.</source>
+          <target state="translated">A kizárólagos C14N XML-kanonizálási átalakítónak digitális aláírást jelöli a World Wide Web Consortium (W3C) által meghatározott megjegyzésekkel.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlDsigExcC14NWithCommentsTransform class represents the exclusive C14N XML canonicalization transform with comments.</source>
+          <target state="translated">A XmlDsigExcC14NWithCommentsTransform osztály a kizárólagos C14N XML-kanonizálási átalakítónak megjegyzésekkel jelöli.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class is similar to the &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt; class, which allows a signer to create a digest using the canonical form of an XML document.</source>
+          <target state="translated">Ez az osztály hasonlít a &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;osztály, amely lehetővé teszi egy aláíró egy kivonatoló használatával a kanonikus alakja az XML-dokumentum létrehozása.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the XmlDsigExcC14NWithCommentsTransform class excludes ancestor context from a canonicalized subdocument.</source>
+          <target state="translated">Azonban a XmlDsigExcC14NWithCommentsTransform osztály elődjében környezetben kizárja a szabványosított aldokumentum.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the XmlDsigExcC14NWithCommentsTransform class when you need to canonicalize an XML subdocument so that it is independent from its XML context.</source>
+          <target state="translated">A XmlDsigExcC14NWithCommentsTransform osztályt használja, ha egy XML-aldokumentum kanonizálására úgy, hogy az XML-környezetből független van szüksége.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, applications such as Web services that use signed XML within complex communication protocols often need to canonicalize XML in this manner.</source>
+          <target state="translated">Például alkalmazások például webszolgáltatásokat használó aláírt XML belül összetett kommunikációs protokollokat gyakran kell XML kanonizálására ily módon.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such applications often envelop XML within various dynamically constructed elements, which can substantially change the document and cause XML signature verification to fail.</source>
+          <target state="translated">Az ilyen alkalmazások XML gyakran ciklusnak belül a különböző dinamikusan létrehozott elemek, így lényegesen módosítani a dokumentumot és XML-aláírás ellenőrzésének sikertelenségét okozhatja.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlDsigExcC14NWithCommentsTransform class solves this problem by excluding such ancestor context from the canonical subdocument.</source>
+          <target state="translated">A XmlDsigExcC14NWithCommentsTransform osztály által ilyen elődje környezetben kizárását a kanonikus aldokumentum megoldja ezt a problémát.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that you cannot directly create a new instance of a canonicalization transform class.</source>
+          <target state="translated">Vegye figyelembe, hogy nem közvetlenül hozzon létre egy új példányt a kanonizálási átalakító osztály.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify a canonicalization transform, pass the Uniform Resource Identifier (URI) that describes the transform to the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A&gt; property, which is accessible from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; property.</source>
+          <target state="translated">A kanonizálási átalakító megadásához adja át az egységes erőforrás-azonosító (URI), amely leírja a transzformáció számára a &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A&gt;tulajdonság, amely elérhető a &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;tulajdonság.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To acquire a reference to the canonicalization transform, use the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethodObject%2A&gt; property, which is accessible from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; property.</source>
+          <target state="translated">A kanonizálási átalakító mutató hivatkozás beszerzéséhez használja a &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethodObject%2A&gt;tulajdonság, amely elérhető a &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;tulajdonság.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethodObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The URI that describes the XmlDsigExcC14NWithCommentsTransform class is defined by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NWithCommentsTransformUrl&gt; field.</source>
+          <target state="translated">Határozza meg az URI, amely leírja a XmlDsigExcC14NWithCommentsTransform osztály a &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NWithCommentsTransformUrl&gt;mező.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigExcC14NWithCommentsTransformUrl&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the exclusive C14N transform, see the XMLDSIG specification, which is available from the World Wide Web Consortium (W3C) at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">A kizárólagos C14N átalakítása kapcsolatos további információkért tekintse meg a webes Consortium (W3C) www.w3.org/TR/xmldsig-core/, elérhető XMLDSIG specifikációja.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The canonicalization algorithm is defined in the W3C Canonical XML specification, which is available at www.w3.org/2001/10/xml-exc-c14n.</source>
+          <target state="translated">A kanonikus W3C XML specifikációját, amely www.w3.org/2001/10/xml-exc-c14n érhető el a szabványosító algoritmus van meghatározva.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class specifying a list of namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a szabványos szabványosító algoritmus használatával kanonizálására névtérelőtagokat listájának megadását.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`inclusiveNamespacesPrefixList`</ph> parameter contains a whitespace-delimited list of namespace prefixes to canonicalize using the standard canonicalization algorithm rather than the exclusive canonicalization algorithm.</source>
+          <target state="translated">A <ph id="ph1">`inclusiveNamespacesPrefixList`</ph> paraméter a kizárólagos szabványosító algoritmus helyett a szabványos szabványosító algoritmus kanonizálására névtérelőtagokat szóköz elválasztott listáját tartalmazza.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify the default namespace, which does not have a prefix, pass the special prefix "#default".</source>
+          <target state="translated">Az alapértelmezett névtér, amely nem tartozik előtag, adja át a "#default" különleges előtag.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The namespace prefixes to canonicalize using the standard canonicalization algorithm.</source>
+          <target state="translated">A névtérelőtagokat kanonizálására a szabványos szabványosító algoritmus használatával.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7cf4339072cbb550d51837d9210e99b91e46374a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Services.WSFederationMessage.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c8a071622b055f1a7a58bcf2fbc3bd0137bf611</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8f8bf6e9826ea52fea131676a3ca7123f85ec35f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a WS-Federation message and defines the base class from which more specialized WS-Federation message classes derive.</source>
+          <target state="translated">表示 WS 联合身份验证消息，并定义专用化程度的 WS 联合身份验证消息类派生自的基类。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The WSFederationMessage class represents either a WS-Federation request or a WS-Federation response.</source>
+          <target state="translated">WSFederationMessage 类表示的 WS 联合身份验证请求或 WS 联合身份验证响应。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>More specialized classes that represent specific WS-Federation messages derive from WSFederationMessage; for example, the &lt;xref:System.IdentityModel.Services.SignInRequestMessage&gt; class, which represents a WS-Federation sign-in request message.</source>
+          <target state="translated">表示特定的 WS 联合身份验证消息的专用化程度的类派生自 WSFederationMessage;例如，&lt;xref:System.IdentityModel.Services.SignInRequestMessage&gt;类，该类表示 WS 联合身份验证登录请求消息。&lt;/xref:System.IdentityModel.Services.SignInRequestMessage&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The WSFederationMessage class exposes several properties that can be used to set or access individual message parameters.</source>
+          <target state="translated">WSFederationMessage 该类会公开可用于设置或访问单个消息参数的多个属性。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>These parameters can also be set or accessed through the &lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt; dictionary.</source>
+          <target state="translated">这些参数也可以设置或通过访问&lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt;字典。&lt;/xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, you can read the wencoding parameter in the message either through the &lt;xref:System.IdentityModel.Services.WSFederationMessage.Encoding%2A&gt; property or by specifying “wencoding” as the key to the &lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt; dictionary.</source>
+          <target state="translated">例如，你可以读取消息中的 wencoding 参数是&lt;xref:System.IdentityModel.Services.WSFederationMessage.Encoding%2A&gt;属性或通过作为键与指定"wencoding"&lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt;字典。&lt;/xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt; &lt;/xref:System.IdentityModel.Services.WSFederationMessage.Encoding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The WSFederationMessage contains static methods that you can call to create the appropriate WS-Federation message from: a URL that includes a query string; a base URL and a collection of WS-Federation parameter names and values; or form post data in an HTTP request.</source>
+          <target state="translated">WSFederationMessage 包含你可以调用创建从适当的 WS 联合身份验证消息的静态方法︰ 包含查询字符串; 的 URL基 URL 和 WS 联合身份验证参数名称和值; 的集合或窗体将数据发布在 HTTP 请求中。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.WSFederationMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the base URL to which the message applies and the action to be performed (the wa message parameter).</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.IdentityModel.Services.WSFederationMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类的基 URL 从其消息应用和执行操作才能执行 （wa 消息参数）。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The base URL to which the WS-Federation message applies.</source>
+          <target state="translated">WS 联合身份验证消息应用到基 URL。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This is the URL without any query parameters.</source>
+          <target state="translated">这是不带任何查询参数的 URL。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.IdentityModel.Services.FederationMessage.BaseUri*&gt; property.</source>
+          <target state="translated">集&lt;xref:System.IdentityModel.Services.FederationMessage.BaseUri*&gt;属性。&lt;/xref:System.IdentityModel.Services.FederationMessage.BaseUri*&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The wa parameter of the message.</source>
+          <target state="translated">消息的 wa 参数。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Specifies the action to be performed; for example “wsignin1.0” for a WS-Federation sign-in request.</source>
+          <target state="translated">指定要执行; 的操作例如，"wsignin1.0"WS 联合身份验证登录请求。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.IdentityModel.Services.WSFederationMessage.Action*&gt; property.</source>
+          <target state="translated">集&lt;xref:System.IdentityModel.Services.WSFederationMessage.Action*&gt;属性。&lt;/xref:System.IdentityModel.Services.WSFederationMessage.Action*&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;baseUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;baseUri&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;action&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;action&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或空字符串。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;baseUri&lt;/code&gt;</ph> is not a valid, absolute URI.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;baseUri&lt;/code&gt;</ph>不是一个有效的绝对 URI。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wa parameter of the message.</source>
+          <target state="translated">获取或设置消息的 wa 参数。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The wa parameter specifies the action to be performed.</source>
+          <target state="translated">Wa 参数指定要执行的操作。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, for sign-in scenarios the Action property is set to “wsignin1.0” and for sign-out scenarios, the property is set to “wsignout1.0” .</source>
+          <target state="translated">例如，针对的 Action 属性设置为"wsignin1.0"的登录方案和注销的方案，该属性设置为"wsignout1.0"。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The wa parameter is required, so this property cannot be set to <ph id="ph1">`null`</ph> or an empty string.</source>
+          <target state="translated">Wa 参数是必需的因此无法将此属性设置为<ph id="ph1">`null`</ph>或空字符串。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The value of the wa parameter.</source>
+          <target state="translated">Wa 参数的值。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or empty occurs.</source>
+          <target state="translated">尝试设置一个值，是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或空发生。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wctx parameter of the message.</source>
+          <target state="translated">获取或设置消息的 wctx 参数。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Specifies a context value that must be returned with the issued token if it is passed in the request.</source>
+          <target state="translated">指定必须返回与颁发的令牌中，如果在请求中传递的上下文值。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The value is opaque, that is, its semantics are known only by the originator of the message (typically a relying party – RP); it is not interpreted by the receiver of the message or any intermediaries.</source>
+          <target state="translated">值是不透明的也就是说，其语义已知只能由发起方的消息 （通常信赖方 – RP）;它无法解释消息或任何中介的接收方。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The wctx parameter is optional.</source>
+          <target state="translated">Wctx 参数是可选的。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Set the Context property to <ph id="ph1">`null`</ph> or an empty string to remove the wctx parameter from the message.</source>
+          <target state="translated">将上下文属性设置为<ph id="ph1">`null`</ph>或一个空字符串，以从消息中删除 wctx 参数。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  If your application receives a WS-Federation message with the wctx parameter set, it should ensure that the same value is returned in any response to the sender, or forwarded if the message is passed on to another party.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; 如果你的应用程序收到的 wctx 参数集使用 WS 联合身份验证消息时，它应确保相同的值是在对发送方的任何响应中返回或转发如果消息将传递给另一方。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The value of the wctx parameter.</source>
+          <target state="translated">Wctx 参数的值。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Creates a WS-Federation message from the form post received in the specified request.</source>
+          <target state="translated">从指定的请求中收到窗体发布创建 WS 联合身份验证的消息。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If a message can be created, the method returns an appropriate implementation of &lt;xref:System.IdentityModel.Services.WSFederationMessage&gt; based on the wa parameter submitted in the form post; for example, if wa parameter is "wsignout1.0" then a &lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt; object is returned.</source>
+          <target state="translated">如果可以创建一条消息，该方法返回正确地实现&lt;xref:System.IdentityModel.Services.WSFederationMessage&gt;"wsignout1.0"wa 参数是否基于 post; 例如，在窗体中提交 wa 参数则&lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt;返回对象。&lt;/xref:System.IdentityModel.Services.SignOutRequestMessage&gt; &lt;/xref:System.IdentityModel.Services.WSFederationMessage&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the base URL and the collection of form variables submitted by the client from the request and invokes the &lt;xref:System.IdentityModel.Services.WSFederationMessage.CreateFromNameValueCollection%2A&gt; method.</source>
+          <target state="translated">获取基 URL 和通过请求的客户端提交的窗体变量集合，并调用&lt;xref:System.IdentityModel.Services.WSFederationMessage.CreateFromNameValueCollection%2A&gt;方法。&lt;/xref:System.IdentityModel.Services.WSFederationMessage.CreateFromNameValueCollection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The request that contains the form post.</source>
+          <target state="translated">包含窗体发布请求的请求。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The message that was created or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a message cannot be created.</source>
+          <target state="translated">已创建的消息或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果无法创建一条消息。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;request&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Creates a WS-Federation message from a <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of parameters.</source>
+          <target state="translated">创建从 WS 联合身份验证消息<bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的参数。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The parameter collection must contain an entry for the wa parameter, which specifies the action to be performed.</source>
+          <target state="translated">参数集合必须包含 wa 参数，它指定要执行的操作的条目。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the wa entry is not a recognized action, an exception is thrown.</source>
+          <target state="translated">如果 wa 条目不是可识别的操作，将引发异常。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The parameter collection should contain appropriate parameters for the kind of message specified by the wa parameter in the collection.</source>
+          <target state="translated">参数集合应包含适当参数的集合中的 wa 参数指定的消息的种类。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The method will return an appropriate implementation of &lt;xref:System.IdentityModel.Services.WSFederationMessage&gt; based on the wa parameter.</source>
+          <target state="translated">该方法将返回正确地实现&lt;xref:System.IdentityModel.Services.WSFederationMessage&gt;基于 wa 参数。&lt;/xref:System.IdentityModel.Services.WSFederationMessage&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The following table lists the &lt;xref:System.IdentityModel.Services.WSFederationMessage&gt; implementation returned for various parameter combinations.</source>
+          <target state="translated">下表列出&lt;xref:System.IdentityModel.Services.WSFederationMessage&gt;实现返回各种参数组合。&lt;/xref:System.IdentityModel.Services.WSFederationMessage&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>|Type returned|wa query parameter specified|Comments|   |-------------------|----------------------------------|--------------|   |&lt;xref:System.IdentityModel.Services.AttributeRequestMessage&gt;|wattr1.0|--|   |&lt;xref:System.IdentityModel.Services.PseudonymRequestMessage&gt;|wpseudo1.0|--|   |&lt;xref:System.IdentityModel.Services.SignInRequestMessage&gt;|wsignin1.0|<ph id="ph1">`collection`</ph> must contain either a wtrealm or a wreply parameter.</source>
+          <target state="translated">|返回类型 | wa 查询参数指定 |注释 |  |-------------------|----------------------------------|--------------|  |&lt;xref:System.IdentityModel.Services.AttributeRequestMessage&gt;| wattr1.0 | |  |&lt;xref:System.IdentityModel.Services.PseudonymRequestMessage&gt;| wpseudo1.0 | |  |&lt;xref:System.IdentityModel.Services.SignInRequestMessage&gt;| wsignin1.0 |<ph id="ph1">`collection`</ph> wtrealm 或 wreply 参数必须包含。&lt;/xref:System.IdentityModel.Services.SignInRequestMessage&gt; &lt;/xref:System.IdentityModel.Services.PseudonymRequestMessage&gt; &lt;/xref:System.IdentityModel.Services.AttributeRequestMessage&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`collection`</ph> contains a wresult or a wresultptr parameter, a sign-in response message is returned (see next row).|   |&lt;xref:System.IdentityModel.Services.SignInResponseMessage&gt;|wsignin1.0|Returned if <ph id="ph2">`collection`</ph> contains a wresult or wresultptr parameter.</source>
+          <target state="translated">如果<ph id="ph1">`collection`</ph>包含 wresult 或 wresultptr 参数，将登录响应消息返回 （请参阅下一步的行）。 |  |&lt;xref:System.IdentityModel.Services.SignInResponseMessage&gt;| wsignin1.0 |时返回的<ph id="ph2">`collection`</ph>包含 wresult 或 wresultptr 参数。&lt;/xref:System.IdentityModel.Services.SignInResponseMessage&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Only one may be present.</source>
+          <target state="translated">只有一个可能会出现。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If both are present, an exception is thrown.|   |&lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt;|wsignout1.0|--|   |&lt;xref:System.IdentityModel.Services.SignOutCleanupRequestMessage&gt;|wsignoutcleanup1.0|--|</source>
+          <target state="translated">如果两者都存在，将引发异常。 |  |&lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt;| wsignout1.0 | |  |&lt;xref:System.IdentityModel.Services.SignOutCleanupRequestMessage&gt;| wsignoutcleanup1.0 |-|&lt;/xref:System.IdentityModel.Services.SignOutCleanupRequestMessage&gt; &lt;/xref:System.IdentityModel.Services.SignOutRequestMessage&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The base URL to which the message is intended.</source>
+          <target state="translated">此消息适用基 URL。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the parameters for the message.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含消息的参数。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The message that was created or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a message cannot be created.</source>
+          <target state="translated">已创建的消息或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果无法创建一条消息。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;baseUrl&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;baseUrl&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;collection&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;collection&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The wa parameter in the parameter collection is not recognized.</source>
+          <target state="translated">无法识别的参数集合中的 wa 参数。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A sign-in response message has both the wresult and wresultptr parameter in the parameter collection.</source>
+          <target state="translated">登录响应消息的参数集合中具有 wresult 和 wresultptr 参数。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>(A valid sign-in response message has the wa parameter equal to “wsignin1.0” and either the wresult or the wresultptr parameter, but not both.)</source>
+          <target state="translated">（有效登录响应消息具有相等的 wa 参数与"wsignin1.0"或者 wresult 或 wresultptr 参数，但不要同时。）</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Creates a WS-Federation message from the specified URI.</source>
+          <target state="translated">从指定的 URI 创建 WS 联合身份验证的消息。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The parameters are assumed to be specified in the query string.</source>
+          <target state="translated">假定参数查询字符串中指定。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Returns an appropriate implementation of &lt;xref:System.IdentityModel.Services.WSFederationMessage&gt; based on the wa parameter in the query string; for example, if wa parameter is "wsignout1.0" then a &lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt; object is returned.</source>
+          <target state="translated">返回正确地实现&lt;xref:System.IdentityModel.Services.WSFederationMessage&gt;根据 wa 参数在查询字符串中; 例如，如果 wa 参数为"wsignout1.0"则&lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt;返回对象。&lt;/xref:System.IdentityModel.Services.SignOutRequestMessage&gt; &lt;/xref:System.IdentityModel.Services.WSFederationMessage&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Other exceptions may be thrown depending on the combination and values of parameters present in the query string.</source>
+          <target state="translated">具体取决于参数查询字符串中提供的值和组合可能会引发其他异常。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Invokes the &lt;xref:System.IdentityModel.Services.WSFederationMessage.TryCreateFromUri%2A&gt; method.</source>
+          <target state="translated">调用&lt;xref:System.IdentityModel.Services.WSFederationMessage.TryCreateFromUri%2A&gt;方法。&lt;/xref:System.IdentityModel.Services.WSFederationMessage.TryCreateFromUri%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The URI from which to create the message.</source>
+          <target state="translated">从中创建消息 URI。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Message parameters are specified in the query string.</source>
+          <target state="translated">消息参数查询字符串中指定。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The wa parameter must be present.</source>
+          <target state="translated">Wa 参数必须存在。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The message that was created.</source>
+          <target state="translated">已创建的消息。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;requestUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;requestUri&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A message cannot be created from the specified URI.</source>
+          <target state="translated">无法从指定的 URI 创建一条消息。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wencoding parameter of the message.</source>
+          <target state="translated">获取或设置消息的 wencoding 参数。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Specifies the encoding style to be used for any XML embedded in the message.</source>
+          <target state="translated">指定要用于任何 XML 的编码样式嵌入消息中。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The wencoding parameter is optional.</source>
+          <target state="translated">Wencoding 参数是可选的。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Set the Encoding property to <ph id="ph1">`null`</ph> or an empty string to remove the wencoding parameter from the message.</source>
+          <target state="translated">将编码属性设置为<ph id="ph1">`null`</ph>或一个空字符串，以从消息中删除 wencoding 参数。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The value of the wencoding parameter.</source>
+          <target state="translated">Wencoding 参数的值。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Attempts to create a WS-Federation message from the specified URI.</source>
+          <target state="translated">尝试从指定的 URI 创建 WS 联合身份验证消息。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The parameters are assumed to be specified as a query string.</source>
+          <target state="translated">假定参数指定为查询字符串。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>If a message can be created, the method returns an appropriate implementation of &lt;xref:System.IdentityModel.Services.WSFederationMessage&gt; based on the wa parameter in the query string; for example, if wa parameter is "wsignout1.0" then a &lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt; object is returned.</source>
+          <target state="translated">如果可以创建一条消息，该方法返回正确地实现&lt;xref:System.IdentityModel.Services.WSFederationMessage&gt;根据 wa 参数在查询字符串中; 例如，如果 wa 参数为"wsignout1.0"则&lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt;返回对象。&lt;/xref:System.IdentityModel.Services.SignOutRequestMessage&gt; &lt;/xref:System.IdentityModel.Services.WSFederationMessage&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Invokes the &lt;xref:System.IdentityModel.Services.WSFederationMessage.CreateFromNameValueCollection%2A&gt; method.</source>
+          <target state="translated">调用&lt;xref:System.IdentityModel.Services.WSFederationMessage.CreateFromNameValueCollection%2A&gt;方法。&lt;/xref:System.IdentityModel.Services.WSFederationMessage.CreateFromNameValueCollection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The URI from which to create the message.</source>
+          <target state="translated">从中创建消息 URI。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Message parameters are specified in the query string.</source>
+          <target state="translated">消息参数查询字符串中指定。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The wa parameter must be present.</source>
+          <target state="translated">Wa 参数必须存在。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the message that was created or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a message could not be created.</source>
+          <target state="translated">此方法返回时，包含已创建的消息或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果无法创建一条消息。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This parameter is treated as uninitialized.</source>
+          <target state="translated">处理此参数未经初始化即。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a message was successfully created; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果已成功创建一条消息;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;requestUri&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;requestUri&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

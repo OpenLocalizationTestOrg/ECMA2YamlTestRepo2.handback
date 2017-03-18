@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8872bd957f0aae3a668fcfce4632f820905d791</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.SessionState.IHttpSessionState.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b785b2d53dd175629894d9ce4bb7153f5de6f57</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b86a43463ca17329aa8de2b1ee04c62af43c3878</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the contract to implement a custom session-state container.</source>
+          <target state="translated">カスタム セッション状態のコンテナーを実装するためのコントラクトを定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A session-state container provides access to the session-state values and related information for the current session.</source>
+          <target state="translated">セッション状態のコンテナーでは、セッション状態の値と関連情報については、現在のセッションへのアクセスを提供します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Session information included in a session-state container is exposed to application code through the &lt;xref:System.Web.SessionState.HttpSessionState&gt; class using the &lt;xref:System.Web.HttpContext.Session%2A&gt; property.</source>
+          <target state="translated">セッション状態のコンテナーに含まれるセッション情報が使用してアプリケーション コードに公開されている、&lt;xref:System.Web.SessionState.HttpSessionState&gt;クラスを使用して、&lt;xref:System.Web.HttpContext.Session%2A&gt;プロパティ&lt;/xref:System.Web.HttpContext.Session%2A&gt;&lt;/xref:System.Web.SessionState.HttpSessionState&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.HttpSessionState&gt; class is a wrapper class for a session-state container.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.HttpSessionState&gt;クラスは、セッション状態のコンテナーのラッパー クラスです&lt;/xref:System.Web.SessionState.HttpSessionState&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The ASP.NET implementation of a session-state container is the &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt; class.</source>
+          <target state="translated">セッション状態のコンテナーの ASP.NET の実装は&lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt;クラス&lt;/xref:System.Web.SessionState.HttpSessionStateContainer&gt;です。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>At the beginning of a request, during the &lt;xref:System.Web.HttpApplication.AcquireRequestState&gt; event, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; creates and populates an &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt; object and assigns it to the current &lt;xref:System.Web.HttpContext&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;&lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt;&lt;xref:System.Web.HttpApplication.AcquireRequestState&gt;イベント&lt;/xref:System.Web.HttpApplication.AcquireRequestState&gt;&lt;/xref:System.Web.SessionState.HttpSessionStateContainer&gt;&lt;/xref:System.Web.SessionState.SessionStateModule&gt;中に、要求の開始時</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>At the end of a request, during the &lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt; event, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; retrieves the &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt; object from the current &lt;xref:System.Web.HttpContext&gt; and performs any required session work, such as writing the session values to the session store, or abandoning the session.</source>
+          <target state="translated">要求の終了時中に、&lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt;イベント、&lt;xref:System.Web.SessionState.SessionStateModule&gt;を取得、&lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt;オブジェクトから現在の&lt;xref:System.Web.HttpContext&gt;セッション ストアへのセッションの値の書き込みや、セッションを破棄など、任意の必要なセッション作業を実行します&lt;/xref:System.Web.HttpContext&gt;&lt;/xref:System.Web.SessionState.HttpSessionStateContainer&gt;&lt;/xref:System.Web.SessionState.SessionStateModule&gt;&lt;/xref:System.Web.HttpApplication.ReleaseRequestState&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the request is abruptly terminated, such as through a redirect, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; performs the same cleanup by calling the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.EndRequest%2A&gt; method.</source>
+          <target state="translated">要求が突然終了した場合、このようなリダイレクトを介する、&lt;xref:System.Web.SessionState.SessionStateModule&gt;呼び出すことによって同じのクリーンアップを実行する、&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.EndRequest%2A&gt;メソッド&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.EndRequest%2A&gt;&lt;/xref:System.Web.SessionState.SessionStateModule&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To create a custom session-state container, create a class that implements the IHttpSessionState interface.</source>
+          <target state="translated">カスタム セッション状態のコンテナーを作成するには、IHttpSessionState インターフェイスを実装するクラスを作成します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you are creating your own custom session-state container, you must also replace the &lt;xref:System.Web.SessionState.SessionStateModule&gt; with your own custom module.</source>
+          <target state="translated">独自のカスタム セッション状態コンテナーを作成する場合も置き換える必要があります、&lt;xref:System.Web.SessionState.SessionStateModule&gt;カスタム モジュールにします&lt;/xref:System.Web.SessionState.SessionStateModule&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Your custom module will create an instance of your custom session-state container and add it to the current &lt;xref:System.Web.HttpContext&gt; using the &lt;xref:System.Web.SessionState.SessionStateUtility.AddHttpSessionStateToContext%2A&gt; method.</source>
+          <target state="translated">カスタム モジュールは、カスタム セッション状態のコンテナーのインスタンスが作成され、現在追加&lt;xref:System.Web.HttpContext&gt;を使用して、&lt;xref:System.Web.SessionState.SessionStateUtility.AddHttpSessionStateToContext%2A&gt;メソッド&lt;/xref:System.Web.SessionState.SessionStateUtility.AddHttpSessionStateToContext%2A&gt;&lt;/xref:System.Web.HttpContext&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>An example of a custom session-state module is included in the &lt;xref:System.Web.SessionState.SessionStateUtility&gt; class overview.</source>
+          <target state="translated">カスタム セッション状態モジュールの例に含まれる、&lt;xref:System.Web.SessionState.SessionStateUtility&gt;クラスの概要&lt;/xref:System.Web.SessionState.SessionStateUtility&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Ends the current session.</source>
+          <target state="translated">現在のセッションを終了します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Abandon method is used to clear out session data and raise the <bpt id="p1">**</bpt>Session_OnEnd<ept id="p1">**</ept> event defined in the Global.asax file for the ASP.NET application.</source>
+          <target state="translated">セッション データをクリアし、発生する、電話放棄呼メソッドが使用される、 <bpt id="p1">**</bpt>Session_OnEnd<ept id="p1">**</ept> ASP.NET アプリケーションの Global.asax ファイルで定義されたイベント。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Adds a new item to the session-state collection.</source>
+          <target state="translated">セッション状態コレクションに新しい項目を追加します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The name of the item to add to the session-state collection.</source>
+          <target state="translated">セッション状態コレクションに追加する項目の名前。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The value of the item to add to the session-state collection.</source>
+          <target state="translated">セッション状態コレクションに追加する項目の値。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Clears all values from the session-state item collection.</source>
+          <target state="translated">セッション状態の項目コレクションからすべての値をクリアします。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Clear performs the same function as &lt;xref:System.Web.SessionState.IHttpSessionState.RemoveAll%2A&gt;.</source>
+          <target state="translated">クリア テキストが&lt;xref:System.Web.SessionState.IHttpSessionState.RemoveAll%2A&gt;。&lt;/xref:System.Web.SessionState.IHttpSessionState.RemoveAll%2A&gt;と同じ機能を実行します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets the code-page identifier for the current session.</source>
+          <target state="translated">取得または現在のセッションのコード ページ識別子を設定します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A character set (code page) is used to interpret multi-byte character data, determining character value, and therefore sort order.</source>
+          <target state="translated">文字セット (コード ページ) がマルチ バイト文字データ、文字値の決定を解釈し、並べ替え順序を使用します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Code-page settings apply only to multi-byte character data, not to Unicode character data.</source>
+          <target state="translated">コード ページの設定は、されていない Unicode 文字データへのマルチ バイト文字データにのみ適用されます。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This CodePage property is provided for compatibility with earlier versions of ASP only.</source>
+          <target state="translated">この CodePage プロパティは、ASP の旧バージョンのみとの互換性用に提供されます。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you do not need to maintain backward compatibility with ASP pages, use the &lt;xref:System.Text.Encoding.CodePage%2A&gt; property of the &lt;xref:System.Web.HttpResponse.ContentEncoding%2A&gt; property instead.</source>
+          <target state="translated">ASP ページとの下位互換性を維持する必要がない場合を使用して、&lt;xref:System.Text.Encoding.CodePage%2A&gt;のプロパティ、&lt;xref:System.Web.HttpResponse.ContentEncoding%2A&gt;プロパティ代わりにします&lt;/xref:System.Web.HttpResponse.ContentEncoding%2A&gt;&lt;/xref:System.Text.Encoding.CodePage%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The code-page identifier for the current session.</source>
+          <target state="translated">現在のセッションのコード ページ識別子です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the application is configured for cookieless sessions.</source>
+          <target state="translated">アプリケーションが cookie なしのセッションのように構成するかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The CookieMode property returns a &lt;xref:System.Web.HttpCookieMode&gt; enumeration value that is based on the value of the <ph id="ph1">`cookieless`</ph> attribute of the &lt;xref:System.Web.Configuration.SystemWebSectionGroup.SessionState%2A&gt; configuration element.</source>
+          <target state="translated">CookieMode プロパティから返される、&lt;xref:System.Web.HttpCookieMode&gt;列挙値の値に基づいている、<ph id="ph1">`cookieless`</ph>の属性、&lt;xref:System.Web.Configuration.SystemWebSectionGroup.SessionState%2A&gt;構成要素&lt;/xref:System.Web.Configuration.SystemWebSectionGroup.SessionState%2A&gt;&lt;/xref:System.Web.HttpCookieMode&gt;。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`cookieless`</ph> attribute is set to <ph id="ph2">`true`</ph>, then the CookieMode property returns &lt;xref:System.Web.HttpCookieMode&gt;; otherwise, the CookieMode property returns &lt;xref:System.Web.HttpCookieMode&gt;.</source>
+          <target state="translated">場合、<ph id="ph1">`cookieless`</ph>属性に設定されている<ph id="ph2">`true`</ph>、CookieMode プロパティは、&lt;xref:System.Web.HttpCookieMode&gt;それ以外の CookieMode プロパティ&lt;xref:System.Web.HttpCookieMode&gt;.&lt;/xref:System.Web.HttpCookieMode&gt;&lt;/xref:System.Web.HttpCookieMode&gt;から返されます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicate whether the application is configured for cookieless sessions.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>アプリケーションが cookie なしのセッションのように構成するかどうかを示す値。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Copies the collection of session-state item values to a one-dimensional array, starting at the specified index in the array.</source>
+          <target state="translated">セッション状態の項目の値のコレクションを配列内の指定したインデックスから始まる&amp;1; 次元配列にコピーします。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Array&gt; that receives the session values.</source>
+          <target state="translated">&lt;xref:System.Array&gt;セッションの値を受け取る&lt;/xref:System.Array&gt;。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The index in <ph id="ph1">`array`</ph> where copying starts.</source>
+          <target state="translated">内のインデックス<ph id="ph1">`array`</ph>コピーの開始場所。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the number of items in the session-state item collection.</source>
+          <target state="translated">セッション状態の項目のコレクション内の項目数を取得します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The number of items in the session-state item collection.</source>
+          <target state="translated">セッション状態のアイテム コレクション内の項目の数。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that can be used to read all the session-state item values in the current session.</source>
+          <target state="translated">現在のセッションですべてのセッション状態の項目の値の読み取りに使用できる列挙子を返します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; that can iterate through the values in the session-state item collection.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;セッション状態のアイテム コレクション内の値を反復処理することができます&lt;/xref:System.Collections.IEnumerator&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the session ID is embedded in the URL or stored in an HTTP cookie.</source>
+          <target state="translated">セッション ID が URL に埋め込まれているか、HTTP cookie に格納されているかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>For information on cookieless sessions, see <bpt id="p1">[</bpt>Session Identifiers<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Cookie なしのセッションについては、次を参照してください。<bpt id="p1">[</bpt>セッション識別子<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the session is embedded in the URL; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>セッションが URL に埋め込まれている場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the session was created with the current request.</source>
+          <target state="translated">現在の要求でセッションが作成されたかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the session was created with the current request; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>現在の要求でセッションが作成された場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the session is read-only.</source>
+          <target state="translated">セッションが読み取り専用かどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Session state is set to read-only by setting the &lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; page attribute to <ph id="ph1">`ReadOnly`</ph>.</source>
+          <target state="translated">セッション状態が設定読み取り専用に設定して、&lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;ページの属性に<ph id="ph1">`ReadOnly`</ph>&lt;/xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the session is read-only; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合は、セッションが読み取り専用です。それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether access to the collection of session-state values is synchronized (thread safe).</source>
+          <target state="translated">セッション状態の値のコレクションへのアクセスが同期されているかどうかを示す値 (スレッド セーフである) を取得します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if access to the collection is synchronized (thread safe); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合は、コレクションへのアクセスが同期されている (スレッド セーフである)それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets or sets a session-state item value by numerical index.</source>
+          <target state="translated">取得または数値のインデックスを使用してセッション状態の項目の値を設定します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The numerical index of the session-state item value.</source>
+          <target state="translated">セッション状態の項目の値の数値インデックス。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The session-state item value specified in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">index</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">指定されたセッション状態の項目の値、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">index</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーター。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets or sets a session-state item value by name.</source>
+          <target state="translated">取得または名前でセッション状態の項目の値を設定します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The key name of the session-state item value.</source>
+          <target state="translated">セッション状態の項目の値のキー名。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The session-state item value specified in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">指定されたセッション状態の項目の値、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーター。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the keys for all values stored in the session-state item collection.</source>
+          <target state="translated">セッション状態の項目のコレクションに格納されているすべての値のキーのコレクションを取得します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection&gt; that contains all the session-item keys.</source>
+          <target state="translated">&lt;xref:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection&gt;セッション項目のすべてのキーを格納している&lt;/xref:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets or sets the locale identifier (LCID) of the current session.</source>
+          <target state="translated">取得または現在のセッションのロケール識別子 (LCID) を設定します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>This <ph id="ph1">`LCID`</ph> property is provided for compatibility with earlier versions of ASP only.</source>
+          <target state="translated">これは、<ph id="ph1">`LCID`</ph>プロパティは ASP の旧バージョンのみと互換性のために提供します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you do not need to maintain backward compatibility with ASP pages, use the &lt;xref:System.Globalization.CultureInfo.LCID%2A&gt; property instead.</source>
+          <target state="translated">ASP ページとの下位互換性を維持する必要がない場合を使用して、&lt;xref:System.Globalization.CultureInfo.LCID%2A&gt;プロパティ代わりにします&lt;/xref:System.Globalization.CultureInfo.LCID%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>ASP.NET does not store the locale identifier in session state.</source>
+          <target state="translated">ASP.NET では、セッション状態でロケール識別子は保存されません。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The LCID property calls the &lt;xref:System.Globalization.CultureInfo.LCID%2A&gt; to get and set the identifier.</source>
+          <target state="translated">LCID プロパティの呼び出し、&lt;xref:System.Globalization.CultureInfo.LCID%2A&gt;を取得し、識別子を設定します&lt;/xref:System.Globalization.CultureInfo.LCID%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt; instance that specifies the culture of the current session.</source>
+          <target state="translated">A&lt;xref:System.Globalization.CultureInfo&gt;インスタンスが、現在のセッションのカルチャを指定します&lt;/xref:System.Globalization.CultureInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the current session-state mode.</source>
+          <target state="translated">現在のセッション状態モードを取得します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For information on different session-state modes, see <bpt id="p1">[</bpt>Session-State Modes<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">別のセッション状態モードについては、次を参照してください。<bpt id="p1">[</bpt>セッション状態モード<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Deletes an item from the session-state item collection.</source>
+          <target state="translated">セッション状態の項目コレクションから項目を削除します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The name of the item to delete from the session-state item collection.</source>
+          <target state="translated">セッション状態の項目コレクションから削除する項目の名前。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Clears all values from the session-state item collection.</source>
+          <target state="translated">セッション状態の項目コレクションからすべての値をクリアします。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>RemoveAll performs the same function as &lt;xref:System.Web.SessionState.IHttpSessionState.Clear%2A&gt;.</source>
+          <target state="translated">RemoveAll &lt;xref:System.Web.SessionState.IHttpSessionState.Clear%2A&gt;。&lt;/xref:System.Web.SessionState.IHttpSessionState.Clear%2A&gt;と同じ機能を実行します。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Deletes an item at a specified index from the session-state item collection.</source>
+          <target state="translated">セッション状態の項目コレクションから指定したインデックス位置にある項目を削除します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The index of the item to remove from the session-state collection.</source>
+          <target state="translated">セッション状態コレクションから削除する項目のインデックス。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets the unique session identifier for the session.</source>
+          <target state="translated">セッションの一意のセッション識別子を取得します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The session ID.</source>
+          <target state="translated">セッション id です。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets a collection of objects declared by <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;object Runat=&amp;quot;Server&amp;quot; Scope=&amp;quot;Session&amp;quot;/&amp;gt;" name="&amp;lt;object Runat=&amp;quot;Server&amp;quot; Scope=&amp;quot;Session&amp;quot;/&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> tags within the ASP.NET application file Global.asax.</source>
+          <target state="translated">宣言されたオブジェクトのコレクションを取得<bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;object Runat=&amp;quot;Server&amp;quot; Scope=&amp;quot;Session&amp;quot;/&amp;gt;" name="&amp;lt;object Runat=&amp;quot;Server&amp;quot; Scope=&amp;quot;Session&amp;quot;/&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Global.asax ASP.NET アプリケーションのファイル内のタグ。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`StaticObjects`</ph> is provided for compatibility with earlier versions of ASP.</source>
+          <target state="translated"><ph id="ph1">`StaticObjects`</ph>ASP の旧バージョンとの互換性を提供します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpStaticObjectsCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing objects declared in the Global.asax file.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpStaticObjectsCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Global.asax ファイルで宣言されたオブジェクトを含むです。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets an object that can be used to synchronize access to the collection of session-state values.</source>
+          <target state="translated">セッション状態の値のコレクションへのアクセスを同期するために使用できるオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An object that can be used to synchronize access to the collection.</source>
+          <target state="translated">コレクションへのアクセスを同期するために使用できるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets and sets the time-out period (in minutes) allowed between requests before the session-state provider terminates the session.</source>
+          <target state="translated">取得し、セッション状態プロバイダーがセッションを終了する前に、要求間で許可されているタイムアウト期間内 (分) を設定します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The time-out period, in minutes.</source>
+          <target state="translated">タイムアウト期間 (分) です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

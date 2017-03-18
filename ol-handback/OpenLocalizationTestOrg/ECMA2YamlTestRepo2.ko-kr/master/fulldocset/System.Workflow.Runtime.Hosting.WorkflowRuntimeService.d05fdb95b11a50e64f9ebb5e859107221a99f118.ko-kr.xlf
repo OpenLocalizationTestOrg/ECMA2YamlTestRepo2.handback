@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f0ea2cc3d70d31ea2b618485cb1cc69efee45358</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Hosting.WorkflowRuntimeService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a17340b147f684bab395979662a3c1a6c352cc95</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e866d941252268361f63c1128395e15319ffa83c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the abstract base class from which the workflow runtime engine core services are derived.</source>
+          <target state="translated">워크플로 런타임 엔진의 핵심 서비스가 파생 되는 추상 기본 클래스를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       Services that derive from the WorkflowRuntimeService class can be started and stopped by the workflow runtime engine.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>WorkflowRuntimeService 클래스에서 파생 된 서비스를 시작 하 고 워크플로 런타임 엔진에서 중지할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order in which the services are started or stopped, however, is indeterminate, and services may require the support of other services in order to properly initialize themselves when they are started, and, conversely, may require the to support of other services in order to properly shut down when they are stopped.</source>
+          <target state="translated">하지만 서비스는 제대로 초기화 되기 위해 시작 되 고 때, 반대로 해야 다른 서비스 지원이 필요할 수 있습니다 및 순서는 서비스의 시작 또는 중지이 명확 하지는 하기 위해 다른 서비스의 제대로 종료 중지 될 때입니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To address this problem, the workflow runtime engine provides two-phase mechanisms for starting and stopping services.</source>
+          <target state="translated">이 문제를 해결 하기 위해 워크플로 런타임 엔진 서비스 시작 및 중지 하기 위한&amp;2; 단계 메커니즘을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.Workflow.Runtime.WorkflowRuntime.StartRuntime%2A&gt; is called, the workflow runtime engine invokes the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; method for each of its services that derive from the WorkflowRuntimeService class.</source>
+          <target state="translated">때 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.StartRuntime%2A&gt;호출 되는 워크플로 런타임 엔진이 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;각 WorkflowRuntimeService 클래스에서 파생 되는 서비스에 대 한 메서드&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; 를 호출&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.StartRuntime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After all of these services have been started, the workflow runtime engine raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt; event, which causes the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt; method to be invoked for each workflow runtime engine service.</source>
+          <target state="translated">워크플로 런타임 엔진에서 발생 이러한 모든 서비스가 시작 된 후의 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt;이벤트를 발생는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt;각 워크플로 런타임 엔진 서비스에 대 한 호출 될 메서드를.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your service can override the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt; method to participate in this two phase process.</source>
+          <target state="translated">서비스를 재정의할 수는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt;이&amp;2; 단계 프로세스에 참여 하는 메서드.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, when &lt;xref:System.Workflow.Runtime.WorkflowRuntime.StopRuntime%2A&gt; is called, the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; method, the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt; event, and the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt; method provide this two-phase mechanism.</source>
+          <target state="translated">마찬가지로, &lt;xref:System.Workflow.Runtime.WorkflowRuntime.StopRuntime%2A&gt;호출 됩니다는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt;메서드를는 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt;이벤트, 및 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt;메서드가&amp;2; 단계 메커니즘을 제공 합니다.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.StopRuntime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The State property contains a &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt; value that indicates whether the service is in the process of starting or stopping or is completely started or stopped.</source>
+          <target state="translated">State 속성을 포함 한 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;서비스가 시작 또는 중지 되거나 완전히 시작 또는 중지 여부를 나타내는 값입니다.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Services that derive from the WorkflowRuntimeService class can raise the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.ServicesExceptionNotHandled?displayProperty=fullName&gt; event when they encounter a condition that causes an unhandled exception by calling &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.RaiseServicesExceptionNotHandledEvent%2A&gt;.</source>
+          <target state="translated">WorkflowRuntimeService 클래스에서 파생 된 서비스 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.ServicesExceptionNotHandled?displayProperty=fullName&gt; &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.RaiseServicesExceptionNotHandledEvent%2A&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.RaiseServicesExceptionNotHandledEvent%2A&gt; 를 호출 하 여 처리 되지 않은 예외가 발생 하는 조건에 도달할 때 이벤트&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.ServicesExceptionNotHandled?displayProperty=fullName&gt; 를 발생 시킬 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Services derived from the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService&gt; class, the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt; class, the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService&gt; class, and the &lt;xref:System.Workflow.Runtime.Tracking.TrackingService&gt; class ultimately derives from the WorkflowRuntimeService class.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService&gt;클래스는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt;클래스는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService&gt;클래스 및 &lt;xref:System.Workflow.Runtime.Tracking.TrackingService&gt;궁극적으로 WorkflowRuntimeService 클래스에서 파생 된 클래스&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowCommitWorkBatchService&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowSchedulerService&gt; 에서 파생 된 서비스</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우의 새 인스턴스를 초기화 합니다.는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State%2A&gt; is initialized to &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State%2A&gt;&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt; 초기화&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, represents the method that will be called when the workflow runtime engine raises the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime.Started"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 워크플로 런타임 엔진에서 발생 하는 경우 호출 될 메서드를 나타냅니다는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime.Started"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt; class implements a two-phase starting mechanism so that workflow runtime engine services may perform any initialization that depends on other services after the workflow runtime engine has invoked the  &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; method for all of its workflow runtime engine services.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;클래스가 워크플로 런타임 엔진 서비스가 워크플로 런타임 엔진이 호출한 후에 다른 서비스에 의존 하는 모든 초기화를 수행할 수 있도록&amp;2; 단계 시작 메커니즘을 구현 하는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;모든 워크플로 런타임 엔진 서비스에 대 한 메서드.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the workflow runtime engine has called the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; method of all of its workflow runtime engine services, it raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt; event.</source>
+          <target state="translated">워크플로 런타임 엔진이 호출 된 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;발생 모든 워크플로 런타임 엔진 서비스의 메서드를는 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt;이벤트.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override the OnStarted method to provide any final startup functionality required by your service when the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt; event is raised.</source>
+          <target state="translated">서비스에 필요한 최종 시작 기능을 제공 하려면 OnStarted 메서드를 재정의할 수 있습니다 때는 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt;이벤트가 발생 합니다.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The mechanics of subscribing and unsubscribing from the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt; event is handled internally.</source>
+          <target state="translated">구독 및 구독의 메커니즘은 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt;이벤트 내부적으로 처리 됩니다.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If your service is added to the workflow runtime engine by a call to &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A&gt; after the workflow runtime engine has already been started, the workflow runtime engine will call &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; on your service.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 서비스를 호출 하 여 워크플로 런타임 엔진에 추가 하는 경우 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A&gt;워크플로 런타임 엔진은 호출 하는 워크플로 런타임 엔진이 이미 시작 된 후 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;서비스에서.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, in this situation, the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started&gt; event has already occurred, therefore, your service may have to perform any initialization that it would ordinarily perform in OnStarted from inside the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; method.</source>
+          <target state="translated">그러나이 경우에에서는 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started&gt;이벤트가 이미 발생 한, 따라서 서비스 내에서 OnStarted에서 수행할 일반적으로 모든 초기화를 수행 하도록 할 수는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;메서드.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Started&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can test &lt;xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt; to determine whether the workflow runtime engine has been started.</source>
+          <target state="translated">테스트할 수 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt;워크플로 런타임 엔진이 시작 되었는지 여부를 확인 하려면.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State%2A&gt; is set to &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt; before OnStarted is invoked.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State%2A&gt;로 설정 되어 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;OnStarted가 호출 되기 전에.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of OnStarted performs no action.</source>
+          <target state="translated">OnStarted의 기본 구현은 아무 작업도 수행 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, represents the method that will be called when the workflow runtime engine raises the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime.Stopped"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 워크플로 런타임 엔진에서 발생 하는 경우 호출 될 메서드를 나타냅니다는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime.Stopped"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt; class implements a two-phase stopping mechanism so that workflow runtime engine services may retain some functionality after their &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; method is invoked by the workflow runtime engine in order that they may, if necessary, support the shutdown of other services.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;클래스는 워크플로 런타임 엔진 서비스 후 몇 가지 기능을 유지할 수 있도록&amp;2; 단계 중지 메커니즘을 구현 해당 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt;메서드는 지 수, 필요한 경우 원하는 다른 서비스의 종료를 워크플로 런타임 엔진에서 호출 됩니다.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the workflow runtime engine has called the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; method of all of its workflow runtime engine services, it raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt; event.</source>
+          <target state="translated">워크플로 런타임 엔진이 호출 된 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt;발생 모든 워크플로 런타임 엔진 서비스의 메서드를는 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt;이벤트.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override the OnStopped method to provide any final shutdown functionality required by your service when the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt; event is raised.</source>
+          <target state="translated">서비스에 필요한 최종 종료 기능을 제공 하려면 OnStopped 메서드를 재정의할 수 있습니다 때는 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt;이벤트가 발생 합니다.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The mechanics of subscribing and unsubscribing from the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt; event is handled internally.</source>
+          <target state="translated">구독 및 구독의 메커니즘은 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt;이벤트 내부적으로 처리 됩니다.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If your &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt; is removed from the workflow runtime engine by a call to &lt;xref:System.Workflow.Runtime.WorkflowRuntime.RemoveService%2A&gt; while the workflow runtime engine is running, the workflow runtime engine will call &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; on your service.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 경우 프로그램 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;를 호출 하 여 워크플로 런타임 엔진에서 제거 되 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.RemoveService%2A&gt;워크플로 런타임 엔진은 호출 하는 워크플로 런타임 엔진이 실행 되는 동안 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt;서비스에서.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.RemoveService%2A&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, in this situation, the OnStopped method will not be called for your service.</source>
+          <target state="translated">그러나이 경우 OnStopped 메서드가 호출 되지 않습니다 서비스에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, your service may have to perform any final shutdown that it would ordinarily perform in OnStopped from inside the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; method.</source>
+          <target state="translated">따라서, 서비스 내에서 OnStopped에서 수행할 일반적으로 모든 최종 종료를 수행 해야 할 수는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt;메서드.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can test &lt;xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt; to determine whether the workflow runtime engine is running.</source>
+          <target state="translated">테스트할 수 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt;워크플로 런타임 엔진이 실행 되 고 있는지 확인 하려면.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State%2A&gt; is set to &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt; before OnStopped is invoked.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State%2A&gt;로 설정 되어 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;OnStopped가 호출 되기 전에.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of OnStopped performs no action.</source>
+          <target state="translated">OnStopped의 기본 구현은 아무 작업도 수행 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime.ServicesExceptionNotHandled"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime.ServicesExceptionNotHandled"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your service can call RaiseServicesExceptionNotHandledEvent to raise the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.ServicesExceptionNotHandled?displayProperty=fullName&gt; event when it encounters an exception that it cannot handle during its execution.</source>
+          <target state="translated">서비스를 발생 시키는 RaiseServicesExceptionNotHandledEvent를 호출할 수는 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.ServicesExceptionNotHandled?displayProperty=fullName&gt;이벤트는 실행 중 처리할 수 없는 예외가 발생 하면.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.ServicesExceptionNotHandled?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should pass the &lt;xref:System.Guid&gt; of the workflow instance associated with the unhandled exception.</source>
+          <target state="translated">전달 해야는 &lt;xref:System.Guid&gt;처리 되지 않은 예외와 연결 된 워크플로 인스턴스의.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a timer service might pass the &lt;xref:System.Guid&gt; associated with the timer for which the exception occurred.</source>
+          <target state="translated">예를 들어 타이머 서비스 전달는 &lt;xref:System.Guid&gt;예외가 발생 한 타이머와 연결 된.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The exception that could not be handled.</source>
+          <target state="translated">처리할 수 없는 예외입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the workflow instance associated with the unhandled exception.</source>
+          <target state="translated">&lt;xref:System.Guid&gt;처리 되지 않은 예외와 연결 된 워크플로 인스턴스의.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this service.</source>
+          <target state="translated">가져옵니다는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 서비스에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime engine sets this property before it calls &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; on the service.</source>
+          <target state="translated">호출 하기 전에이 속성을 설정 하는 워크플로 런타임 엔진이 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;서비스.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, starts the service and changes the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State*&gt; to <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 시작 되는 서비스 작업 및 변경 된 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State*&gt;를 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Start is invoked by the workflow runtime engine on all of its services that derive from the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt; class when &lt;xref:System.Workflow.Runtime.WorkflowRuntime.StartRuntime%2A&gt; is called.</source>
+          <target state="translated">시작 서비스에서 파생 되는 모든 워크플로 런타임 엔진에 의해 호출 되는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;클래스 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.StartRuntime%2A&gt;호출 됩니다.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.StartRuntime%2A&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Start is also invoked by the workflow runtime engine when a workflow runtime engine service is added to the workflow runtime engine by a call to &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A&gt; after the workflow runtime engine has already started.</source>
+          <target state="translated">워크플로 런타임 엔진 서비스를 호출 하 여 워크플로 런타임 엔진에 추가 될 때 워크플로 런타임 엔진에 의해 시작 호출 또한 됩니다 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A&gt;워크플로 런타임 엔진이 이미 시작 된 후.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of Start tracks whether the service has been started and uses this information to throw the appropriate exception if the service is started while it is already running.</source>
+          <target state="translated">시작의 기본 구현은 서비스가 시작 되었는지 이미 실행 되는 동안 서비스를 시작 하는 경우 적절 한 예외를 throw 하는 데이 정보를 사용 여부를 추적 합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can provide additional functionality necessary to have your service started by the workflow runtime engine by overriding this method.</source>
+          <target state="translated">이 메서드를 재정의 하 여 워크플로 런타임 엔진에 의해 시작 서비스 하도록 하는 데 필요한 추가 기능을 제공할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no guarantee about which, if any, services will be running when the workflow runtime engine calls Start on your service.</source>
+          <target state="translated">에 대 한 보장 되지 않습니다는 워크플로 런타임 엔진이 서비스에서 시작을 호출할 때 서비스를 실행할 수 있는 경우.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, in the Start method, you should only perform any initialization that does not depend on functionality provided by other services.</source>
+          <target state="translated">따라서에서 Start 메서드를 다른 서비스에서 제공 하는 기능에 의존 하지 않는 초기화만 수행 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes functionality provided by core services such as the scheduler service.</source>
+          <target state="translated">이 스케줄러 서비스 같은 핵심 서비스에서 제공 하는 기능이 포함 됩니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime engine raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt; event after it has called the Start method of all of its workflow runtime engine services.</source>
+          <target state="translated">워크플로 런타임 엔진에서 발생 된 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt;호출한 후 Start 메서드 모든 워크플로 런타임 엔진 서비스 이벤트.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Started?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your service requires additional initialization after all of the workflow runtime engine services have been started, you can override the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt; method in order to perform this initialization when the Start event is raised.</source>
+          <target state="translated">모든 워크플로 런타임 엔진 서비스가 시작 된 후 추가 초기화가 필요한 서비스를 재정의할 수 있습니다는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt;시작 이벤트가 발생할 때이 초기화를 수행 하기 위해 메서드.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If your service is added to the workflow runtime engine by a call to &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A&gt; after the workflow runtime engine has already been started, the workflow runtime engine will call Start on your service.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 서비스를 호출 하 여 워크플로 런타임 엔진에 추가 하는 경우 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A&gt;워크플로 런타임 엔진이 이미 시작 된 후 워크플로 런타임 엔진이 서비스에서 시작을 호출 합니다.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, in this situation, the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started&gt; event has already occurred, therefore, your service may have to perform any initialization that it would ordinarily perform in &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt; from inside the Start method.</source>
+          <target state="translated">그러나이 경우에에서는 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started&gt;이미 발생 한 이벤트, 서비스가에서 일반적으로 수행 하는 모든 초기화를 수행 해야 할 수는 따라서 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt;에서 Start 메서드 내.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStarted%2A&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Started&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can test &lt;xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt; to determine whether the workflow runtime engine has been started.</source>
+          <target state="translated">테스트할 수 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt;워크플로 런타임 엔진이 시작 되었는지 여부를 확인 하려면.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Start should only be called by the workflow runtime engine.</source>
+          <target state="translated">시작은 워크플로 런타임 엔진 에서만 호출 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Runtime*&gt; is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)       -or-       The service has already been started.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Runtime*&gt;가 null 참조 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual basic에서) 또는 서비스가 이미 시작 되었습니다.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Runtime*&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets the state of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">상태를 가져옵니다는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt; class implements two-phase mechanisms for both starting and stopping a workflow runtime engine service.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;클래스를 시작 및 중지 워크플로 런타임 엔진 서비스에 대 한&amp;2; 단계 메커니즘을 구현 합니다.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first phase of the start mechanism begins when the workflow runtime engine calls the implementation of the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; method for the service.</source>
+          <target state="translated">워크플로 런타임 엔진의 구현을 호출할 때 시작 메커니즘의 첫 번째 단계가 시작 된 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;메서드는 서비스에 대 한.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should call the base implementation of &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt;, which sets State to &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;.</source>
+          <target state="translated">이 메서드에서 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt; 상태를 설정 하는&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Start%2A&gt; 의 기본 구현을 호출 해야</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The second phase occurs after the workflow runtime engine starts all of its workflow runtime engine services when it raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started&gt; event.</source>
+          <target state="translated">발생 시킬 때 워크플로 런타임 엔진 서비스의 모든 워크플로 런타임 엔진이 시작 된 후 두 번째 단계는 발생 된 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Started&gt;이벤트.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Started&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt; internally manages a subscription to this event and its handler will set State to &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;내부적으로이 이벤트에 대 한 구독을 관리 처리기는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt; 상태 설정&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The two-phase mechanism for stopping a workflow runtime engine service begins when the workflow runtime engine calls the implementation of the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; method for the service.</source>
+          <target state="translated">워크플로 런타임 엔진의 구현을 호출할 때 워크플로 런타임 엔진 서비스를 중지 하는&amp;2; 단계 메커니즘 시작 되는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt;메서드는 서비스에 대 한.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should call the base implementation of &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt;, which sets State to &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;.</source>
+          <target state="translated">이 메서드에서 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt; 상태를 설정 하는&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Stop%2A&gt; 의 기본 구현을 호출 해야</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After it has stopped all of its workflow runtime engine services, the workflow runtime engine raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped&gt; event.</source>
+          <target state="translated">워크플로 런타임 엔진에서 발생 모든 워크플로 런타임 엔진 서비스를 중지 한 후의 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped&gt;이벤트.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Stopped&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt; internally manages a subscription to this event and its handler will set State to &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;내부적으로이 이벤트에 대 한 구독을 관리 처리기는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt;.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState&gt; 상태 설정&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">중 하나는 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, stops the service and changes the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State*&gt; to <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 중지는 서비스 작업 및 변경 된 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State*&gt;를 <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Hosting.WorkflowRuntimeServiceState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.State*&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Stop is invoked by the workflow runtime engine on all of its services that derive from the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt; class when &lt;xref:System.Workflow.Runtime.WorkflowRuntime.StopRuntime%2A&gt; is called.</source>
+          <target state="translated">Stop 모든에서 파생 되는 서비스에서 워크플로 런타임 엔진에 의해 호출 되는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;클래스 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.StopRuntime%2A&gt;호출 됩니다.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.StopRuntime%2A&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Stop is also invoked by the workflow runtime engine when a workflow runtime engine service is removed from the workflow runtime engine by a call to &lt;xref:System.Workflow.Runtime.WorkflowRuntime.RemoveService%2A&gt;.</source>
+          <target state="translated">중지 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.RemoveService%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.RemoveService%2A&gt; 를 호출 하 여 워크플로 런타임 엔진에서 워크플로 런타임 엔진 서비스를 제거할 때에 워크플로 런타임 엔진에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of Stop tracks whether the service has been started and uses this information to throw the appropriate exception if the service is stopped before it is started.</source>
+          <target state="translated">정지의 기본 구현은 서비스가 시작 된 서비스를 시작 하기 전에 중지 되 면 해당 예외를 throw 하는 데이 정보를 사용 여부를 추적 합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can provide additional functionality necessary to have your service stopped by the workflow runtime engine by overriding this method.</source>
+          <target state="translated">이 메서드를 재정의 하 여 워크플로 런타임 엔진에 의해 중지 서비스 하도록 하는 데 필요한 추가 기능을 제공할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no guarantee about which, if any, services will be stopped or running when Stop is called on your service.</source>
+          <target state="translated">보장이 없습니다 있는 경우 어떠한 서비스가 중지 또는 중지 서비스에서 호출 될 때 실행 중입니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime engine raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt; event after it has called the Stop method of all of its workflow runtime engine services.</source>
+          <target state="translated">워크플로 런타임 엔진에서 발생 된 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt;호출한 후 Stop 메서드가 모든 워크플로 런타임 엔진 서비스 이벤트.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your service may need to retain some residual functionality to support other services until all the workflow runtime engine services have had their stop methods invoked by the workflow runtime engine.</source>
+          <target state="translated">서비스에 있을 때까지 모든 워크플로 런타임 엔진 서비스가 워크플로 런타임 엔진이 호출한 중지 메서드가 다른 서비스를 지원 하기 위한 추가 기능을 유지 해야 할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your service must retain such functionality, you can override the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt; method to perform any additional action required to finish stopping your service when the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt; event is raised.</source>
+          <target state="translated">서비스에서 이러한 기능을 유지 해야 하는 경우 재정의할 수 있습니다는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt;메서드를 서비스 중지를 완료 하는 데 필요한 추가 작업을 수행할 때는 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt;이벤트가 발생 합니다.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.Stopped?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If your &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt; is removed from the workflow runtime engine by a call to &lt;xref:System.Workflow.Runtime.WorkflowRuntime.RemoveService%2A&gt; while the workflow runtime engine is running, the workflow runtime engine will call Stop on your service.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 경우 프로그램 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;를 호출 하 여 워크플로 런타임 엔진에서 제거 되 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.RemoveService%2A&gt;워크플로 런타임 엔진이 실행 되는 동안 워크플로 런타임 엔진이 서비스에서 중지를 호출 합니다.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.RemoveService%2A&gt; &lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, in this situation, the &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt; method will not be called for your service.</source>
+          <target state="translated">그러나이 경우에에서는 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt;서비스에 대 한 메서드 호출 되지 것입니다.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, your service may have to perform any additional shutdown functionality that it would ordinarily perform in &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt; from inside the Stop method.</source>
+          <target state="translated">서비스에이에서 일반적으로 수행 하는 추가 종료 기능을 수행 해야 할 수는 따라서 &lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt;에서 Stop 메서드가 내부.&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.OnStopped%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can test &lt;xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt; to determine whether the workflow runtime engine is running.</source>
+          <target state="translated">테스트할 수 &lt;xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt;워크플로 런타임 엔진이 실행 되 고 있는지 확인 하려면.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.IsStarted%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Stop should only be called by the workflow runtime engine.</source>
+          <target state="translated">중지는 워크플로 런타임 엔진 에서만 호출 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Runtime*&gt; is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Runtime*&gt;가 null 참조 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Visual basic에서).&lt;/xref:System.Workflow.Runtime.Hosting.WorkflowRuntimeService.Runtime*&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-or-       The service has not yet been started.</source>
+          <target state="translated">-또는-서비스가 아직 시작 되지 않았습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

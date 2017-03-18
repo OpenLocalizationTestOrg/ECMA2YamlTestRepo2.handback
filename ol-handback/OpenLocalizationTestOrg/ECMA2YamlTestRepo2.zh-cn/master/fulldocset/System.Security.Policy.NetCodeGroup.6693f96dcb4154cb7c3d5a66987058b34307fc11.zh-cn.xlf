@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c717b36d0a6075fe1c04136eda5dc7caa2564151</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Policy.NetCodeGroup.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ede94f0369f568eaa04a9a01f2be36a990c977ca</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3666e05ed38e03d8c128672f7155ae5335d8233</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Grants Web permission to the site from which the assembly was downloaded.</source>
+          <target state="translated">授予对程序集已从其下载网站的 Web 权限。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Code groups are the building blocks of code access security policy.</source>
+          <target state="translated">代码组是代码访问安全性策略的构建基块。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Each policy level consists of a root code group that can have one or more child code groups.</source>
+          <target state="translated">每个策略级别包含可具有一个或多个子代码组的根代码组。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Each child code group can have its own child code groups; this behavior extends to any number of levels, forming a tree.</source>
+          <target state="translated">每个子代码组可以具有其自己的子代码组;此行为扩展到任意数量的级别，从而形成一个树。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Each code group has a membership condition that determines if a given assembly belongs to the group, based on the evidence for that assembly.</source>
+          <target state="translated">每个代码组有一个确定如果给定的程序集所属的组中，基于该程序集的证据的成员资格条件。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Only code groups whose membership conditions match a given assembly, along with their child code groups, apply code access security policy.</source>
+          <target state="translated">只有代码组的成员资格条件匹配给定的程序集，以及它们的子代码组，将应用代码访问安全性策略。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>NetCodeGroup has the same merge semantics as that of &lt;xref:System.Security.Policy.UnionCodeGroup&gt;; it forms the union of the &lt;xref:System.Security.Policy.PolicyStatement&gt; objects of all matching child code groups and the &lt;xref:System.Security.Policy.PolicyStatement&gt; it generates from the input &lt;xref:System.Security.Policy.Url&gt; evidence.</source>
+          <target state="translated">NetCodeGroup 具有的合并语义相同&lt;xref:System.Security.Policy.UnionCodeGroup&gt;; 程序集形成的联合&lt;xref:System.Security.Policy.PolicyStatement&gt;对象的所有匹配的子代码组和&lt;xref:System.Security.Policy.PolicyStatement&gt;它从输入生成&lt;xref:System.Security.Policy.Url&gt;证据。&lt;/xref:System.Security.Policy.Url&gt; &lt;/xref:System.Security.Policy.PolicyStatement&gt; &lt;/xref:System.Security.Policy.PolicyStatement&gt; &lt;/xref:System.Security.Policy.UnionCodeGroup&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>However, NetCodeGroup returns a permission containing a dynamically calculated &lt;xref:System.Net.WebPermission&gt; that grants connect access to the site from which the code is run; &lt;xref:System.Security.Policy.UnionCodeGroup&gt; simply returns a static permission set.</source>
+          <target state="translated">但是，NetCodeGroup 返回到从中运行代码; 站点包含动态计算的&lt;xref:System.Net.WebPermission&gt;授予连接访问权限&lt;xref:System.Security.Policy.UnionCodeGroup&gt;只是返回一个静态的权限集。&lt;/xref:System.Security.Policy.UnionCodeGroup&gt; &lt;/xref:System.Net.WebPermission&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When a NetCodeGroup is created, it contains the default connection access rules shown in the following table.</source>
+          <target state="translated">当创建 NetCodeGroup 时，它包含下表中所示的默认连接访问规则。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>|URI Scheme|Rule|   |----------------|----------|   |file|No connection access to the origin server is permitted.|   |http|HTTP and HTTPS access is permitted using the origin port.|   |https|HTTPS access is permitted using the origin port.|       You can control the scheme and port that code is permitted to use when connecting back to its site of origin by passing a &lt;xref:System.Security.Policy.CodeConnectAccess&gt; object with the appropriate &lt;xref:System.Security.Policy.CodeConnectAccess.Scheme%2A&gt; and &lt;xref:System.Security.Policy.CodeConnectAccess.Port%2A&gt; property values to the &lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt; method.</source>
+          <target state="translated">|URI 方案 |规则 |  |----------------|----------|  | 文件 |无法连接到源服务器访问。 |  | http |允许使用源端口进行 HTTP 和 HTTPS 访问。 |  | https |使用源端口允许 HTTPS 访问。 |      你可以控制的方案和代码允许通过传递回其源站点的连接时要使用的端口&lt;xref:System.Security.Policy.CodeConnectAccess&gt;使用相应的对象&lt;xref:System.Security.Policy.CodeConnectAccess.Scheme%2A&gt;和&lt;xref:System.Security.Policy.CodeConnectAccess.Port%2A&gt;属性值复制到&lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt;方法。&lt;/xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess.Port%2A&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess.Scheme%2A&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can create a connection access rule that applies when the origin scheme is not present in the evidence or is not recognized by specifying &lt;xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt; ("") as the scheme.</source>
+          <target state="translated">你可以创建应用于原始方案证据中不存在或无法识别指定的连接访问规则&lt;xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt;("") 的架构。&lt;/xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can also create a connection access rule that applies when there is no connection access rule with a matching scheme by specifying &lt;xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt; ("*") as the scheme.</source>
+          <target state="translated">你还可以创建通过指定具有匹配方案没有连接访问规则时适用的连接访问规则&lt;xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt;("*") 的架构。&lt;/xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If code does not submit the URI scheme as evidence, access is permitted using any scheme back to the origin site.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 如果代码未提交证据形式的 URI 方案，回到源站点使用任何一种方案允许访问。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When a &lt;xref:System.Security.Policy.NetCodeGroup&gt; is created, it contains the default connection access rules shown in the following table.</source>
+          <target state="translated">当&lt;xref:System.Security.Policy.NetCodeGroup&gt;是创建，包含下表中所示的默认连接访问规则。&lt;/xref:System.Security.Policy.NetCodeGroup&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>|Scheme|Rule|   |------------|----------|   |file|No connection access to the origin server is permitted.|   |http|HTTP and HTTPS access is permitted using the origin port.|   |https|HTTPS access is permitted using the origin port.|</source>
+          <target state="translated">|方案 |规则 |  |------------|----------|  | 文件 |无法连接到源服务器访问。 |  | http |允许使用源端口进行 HTTP 和 HTTPS 访问。 |  | https |使用源端口允许 HTTPS 访问。 |</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A membership condition that tests evidence to determine whether this code group applies code access security policy.</source>
+          <target state="translated">测试以确定此代码组是否应用代码访问安全性策略的证据成员资格条件。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">membershipCondition</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">membershipCondition</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The type of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">membershipCondition</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not valid.</source>
+          <target state="translated">一种<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">membershipCondition</ph> <ept id="p1">&lt;/code&gt;</ept>参数无效。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Contains a value used to specify connection access for code with an unknown or unrecognized origin scheme.</source>
+          <target state="translated">包含用来指定具有未知或无法识别源方案的代码的连接访问的值。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When calling the &lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt; method, you specify a scheme and an associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; object.</source>
+          <target state="translated">在调用时&lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt;方法，你指定方案和一个关联&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对象。&lt;/xref:System.Security.Policy.CodeConnectAccess&gt; &lt;/xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Any &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects that you add to the &lt;xref:System.Security.Policy.NetCodeGroup&gt; using AbsentOriginScheme as the origin scheme are applied when the code's origin scheme is not present in its evidence, or is not a scheme recognized by the &lt;xref:System.Security.Policy.NetCodeGroup&gt; object.</source>
+          <target state="translated">任何&lt;xref:System.Security.Policy.CodeConnectAccess&gt;将添加到对象&lt;xref:System.Security.Policy.NetCodeGroup&gt;时代码的原始方案中不存在的证据，或被识别不一种方案使用 AbsentOriginScheme 作为原始方案应用&lt;xref:System.Security.Policy.NetCodeGroup&gt;对象。&lt;/xref:System.Security.Policy.NetCodeGroup&gt; &lt;/xref:System.Security.Policy.NetCodeGroup&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To specify the &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects to use when the code's origin scheme does not match any of the schemes contained in the set of origin schemes added to the current &lt;xref:System.Security.Policy.NetCodeGroup&gt; object, use the &lt;xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt; value.</source>
+          <target state="translated">若要指定&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对象代码的原始方案与任何添加到当前的原始方案集中包含的方案都不匹配时要使用&lt;xref:System.Security.Policy.NetCodeGroup&gt;对象，请使用&lt;xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt;值。&lt;/xref:System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme&gt; &lt;/xref:System.Security.Policy.NetCodeGroup&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The value of the AbsentOriginScheme field is an empty string ("").</source>
+          <target state="translated">AbsentOriginScheme 字段的值为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Adds the specified connection access to the current code group.</source>
+          <target state="translated">将指定的连接访问权限添加到当前代码组。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You can add multiple &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects for the same <ph id="ph1">`origin scheme`</ph>.</source>
+          <target state="translated">你可以添加多个&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对同一对象<ph id="ph1">`origin scheme`</ph>。&lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If an <ph id="ph1">`origin scheme`</ph> already has one or more associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects, specifying <ph id="ph2">`null`</ph> for <ph id="ph3">`connectAccess`</ph> has no effect.</source>
+          <target state="translated">如果<ph id="ph1">`origin scheme`</ph>已具有一个或多个关联&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对象，指定<ph id="ph2">`null`</ph>为<ph id="ph3">`connectAccess`</ph>不起作用。&lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If the origin scheme does not have associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects, specifying <ph id="ph1">`null`</ph> for <ph id="ph2">`connectAccess`</ph> prevents code with an origin scheme that matches <ph id="ph3">`originScheme`</ph> from accessing its origin server.</source>
+          <target state="translated">如果没有关联的原始方案&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对象，指定<ph id="ph1">`null`</ph>为<ph id="ph2">`connectAccess`</ph>可防止使用与匹配的源方案的代码<ph id="ph3">`originScheme`</ph>访问其源服务器。&lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; containing the scheme to match against the code's scheme.</source>
+          <target state="translated">A&lt;xref:System.String&gt;包含要与代码的方案匹配的方案。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Policy.CodeConnectAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the scheme and port code can use to connect back to its origin server.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Policy.CodeConnectAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它指定的方案和端口的代码可以使用以连接回其原始服务器。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph> contains characters that are not permitted in schemes.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph>包含在方案中不允许使用的字符。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph><ph id="ph2"> = </ph><bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup.AbsentOriginScheme"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph3">&lt;code&gt;connectAccess&lt;/code&gt;</ph> specifies <bpt id="p2">&lt;xref href="System.Security.Policy.CodeConnectAccess.OriginScheme"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> as its scheme.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;originScheme&lt;/code&gt;</ph><ph id="ph2"> = </ph><bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup.AbsentOriginScheme"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph3">&lt;code&gt;connectAccess&lt;/code&gt;</ph> specifies <bpt id="p2">&lt;xref href="System.Security.Policy.CodeConnectAccess.OriginScheme"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> as its scheme.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Contains a value used to specify any other unspecified origin scheme.</source>
+          <target state="translated">包含用来指定任何其他未指定的源方案的值。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When calling the &lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt; method, you specify a scheme and an associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; object.</source>
+          <target state="translated">在调用时&lt;xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt;方法，你指定方案和一个关联&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对象。&lt;/xref:System.Security.Policy.CodeConnectAccess&gt; &lt;/xref:System.Security.Policy.NetCodeGroup.AddConnectAccess%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can use the value of the AnyOtherOriginScheme field to specify the &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects that should be used for any scheme that is not explicitly contained in the set of origin schemes added to the current &lt;xref:System.Security.Policy.NetCodeGroup&gt; object.</source>
+          <target state="translated">你可以使用 AnyOtherOriginScheme 字段的值来指定&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对象应该用于未显式包含的一套原始方案添加到当前的任何方案&lt;xref:System.Security.Policy.NetCodeGroup&gt;对象。&lt;/xref:System.Security.Policy.NetCodeGroup&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects specified with the AnyOtherOriginScheme field are only used if the code's origin scheme does not match any of the schemes contained in the set of origin schemes added to the current &lt;xref:System.Security.Policy.NetCodeGroup&gt; object.</source>
+          <target state="translated">&lt;xref:System.Security.Policy.CodeConnectAccess&gt;如果代码的原始方案不匹配任何添加到当前的原始方案集中包含的方案，则只会使用与 AnyOtherOriginScheme 字段指定的对象&lt;xref:System.Security.Policy.NetCodeGroup&gt;对象。&lt;/xref:System.Security.Policy.NetCodeGroup&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To specify the &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects to apply when the code's origin scheme is not available in its evidence or is not recognized, use the &lt;xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt; value.</source>
+          <target state="translated">若要指定&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对象来在代码的原始方案在的证据中不可用或无法识别时, 应用使用&lt;xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt;值。&lt;/xref:System.Security.Policy.NetCodeGroup.AbsentOriginScheme&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value of the AnyOtherOriginScheme field is "*".</source>
+          <target state="translated">AnyOtherOriginScheme 字段的值是"*"。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a string representation of the attributes of the policy statement for the code group.</source>
+          <target state="translated">获取的字符串表示形式的代码组的策略语句的属性。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Always <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Always <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Makes a deep copy of the current code group.</source>
+          <target state="translated">生成当前代码组的深层副本。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This method makes a deep copy of the code group, meaning that copies of all objects the code group contains are also made.</source>
+          <target state="translated">此方法生成的代码组中，这意味着所有代码组所包含的对象的副本还所做的深层副本。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An equivalent copy of the current code group, including its membership conditions and child code groups.</source>
+          <target state="translated">当前代码组，包括其成员资格条件和子代码组等效副本。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified code group is equivalent to the current code group.</source>
+          <target state="translated">确定指定的代码组是否等效于当前代码组。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The following data are used to determine the equality of two &lt;xref:System.Security.Policy.NetCodeGroup&gt; objects:      -   The &lt;xref:System.Security.Policy.CodeGroup.Name%2A&gt; and &lt;xref:System.Security.Policy.CodeGroup.Description%2A&gt; properties.</source>
+          <target state="translated">以下数据用于确定是否相等的两个&lt;xref:System.Security.Policy.NetCodeGroup&gt;对象:-&lt;xref:System.Security.Policy.CodeGroup.Name%2A&gt;和&lt;xref:System.Security.Policy.CodeGroup.Description%2A&gt;属性。&lt;/xref:System.Security.Policy.CodeGroup.Description%2A&gt; &lt;/xref:System.Security.Policy.CodeGroup.Name%2A&gt; &lt;/xref:System.Security.Policy.NetCodeGroup&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt; property.</source>
+          <target state="translated">-&lt;xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt;属性。&lt;/xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-   The set of origin schemes and the associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects.</source>
+          <target state="translated">-的原始方案和关联集&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对象。&lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to compare with the current code group.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Policy.NetCodeGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要与当前代码组进行比较的对象。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified code group is equivalent to the current code group; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果指定的代码组等效于当前代码组;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets the connection access information for the current code group.</source>
+          <target state="translated">获取当前代码组的连接访问信息。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In each dictionary entry, the &lt;xref:System.Collections.DictionaryEntry.Key%2A&gt; property value is the origin scheme, and the &lt;xref:System.Collections.DictionaryEntry.Value%2A&gt; property value is the array of associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects.</source>
+          <target state="translated">在每个字典条目，&lt;xref:System.Collections.DictionaryEntry.Key%2A&gt;属性值都为原始方案中，与&lt;xref:System.Collections.DictionaryEntry.Value%2A&gt;属性值的数组关联&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对象。&lt;/xref:System.Security.Policy.CodeConnectAccess&gt; &lt;/xref:System.Collections.DictionaryEntry.Value%2A&gt; &lt;/xref:System.Collections.DictionaryEntry.Key%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If there are no associated &lt;xref:System.Security.Policy.CodeConnectAccess&gt; objects, &lt;xref:System.Collections.DictionaryEntry.Value%2A?displayProperty=fullName&gt; returns an empty array.</source>
+          <target state="translated">如果没有关联&lt;xref:System.Security.Policy.CodeConnectAccess&gt;对象，&lt;xref:System.Collections.DictionaryEntry.Value%2A?displayProperty=fullName&gt;返回一个空数组。&lt;/xref:System.Collections.DictionaryEntry.Value%2A?displayProperty=fullName&gt; &lt;/xref:System.Security.Policy.CodeConnectAccess&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.DictionaryEntry&gt; array containing connection access information.</source>
+          <target state="translated">A&lt;xref:System.Collections.DictionaryEntry&gt;数组，其中包含连接访问权限信息。&lt;/xref:System.Collections.DictionaryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the hash code of the current code group.</source>
+          <target state="translated">获取当前代码组的哈希代码。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The hash code of the current code group.</source>
+          <target state="translated">当前代码组的哈希代码。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the logic to use for merging groups.</source>
+          <target state="translated">获取要用于合并组的逻辑。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The string "Union".</source>
+          <target state="translated">字符串"联合"。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets the name of the <bpt id="p1">&lt;xref href="System.Security.NamedPermissionSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the code group.</source>
+          <target state="translated">获取的名称<bpt id="p1">&lt;xref href="System.Security.NamedPermissionSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>代码组。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Always the string "Same site Web."</source>
+          <target state="translated">始终字符串"同一站点 Web。"</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Removes all connection access information for the current code group.</source>
+          <target state="translated">删除当前代码组的所有连接访问权限信息。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Use this method to remove the system-supplied default connection access rules.</source>
+          <target state="translated">使用此方法删除系统提供的默认连接访问规则。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default rules are shown in the following table.</source>
+          <target state="translated">下表中显示的默认规则。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>|Scheme|Rule|   |------------|----------|   |file|No connection access to the origin server is permitted.|   |http|HTTP and HTTPS access is permitted using the origin port.|   |https|HTTPS access is permitted using the origin port.|</source>
+          <target state="translated">|方案 |规则 |  |------------|----------|  | 文件 |无法连接到源服务器访问。 |  | http |允许使用源端口进行 HTTP 和 HTTPS 访问。 |  | https |使用源端口允许 HTTPS 访问。 |</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Resolves policy for the code group and its descendants for a set of evidence.</source>
+          <target state="translated">代码组的策略以及及其子代的证据集的解析。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Given evidence for an assembly to be loaded, this method evaluates the code group by first checking the membership condition against the specified evidence.</source>
+          <target state="translated">给定要加载程序集的证据，则此方法通过先检查针对指定的证据的成员资格条件计算的代码组。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If there is a match, this method returns a policy statement for the code group, including evaluation of child code groups.</source>
+          <target state="translated">如果没有匹配项，则此方法返回的代码组，其中包括的子代码组评估的策略语句。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The operation of this method is as follows:       If the membership condition does not match the specified evidence, return <ph id="ph1">`null`</ph>; otherwise, set the permission set to be returned (P) equal to the code group's policy statement and continue.</source>
+          <target state="translated">此方法的操作，如下所示是︰ 如果成员资格条件与指定的证据不匹配，则返回<ph id="ph1">`null`</ph>; 否则为组的权限集返回 (P) 等于代码组的策略语句并继续。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For each child code group, resolve the code group with the same evidence; if the result is not <ph id="ph1">`null`</ph>, return that policy statement.</source>
+          <target state="translated">对于每个子代码组，使用相同的证据; 解析代码组如果结果不为<ph id="ph1">`null`</ph>，返回该策略语句。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If no child code group matched, return P (the parent's policy statement).</source>
+          <target state="translated">如果没有子代码组匹配，则返回 P （父级的策略语句）。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the assembly.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Policy.Evidence"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>程序集。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Policy.PolicyStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that consists of the permissions granted by the code group with optional attributes, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the code group does not apply (the membership condition does not match the specified evidence).</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Policy.PolicyStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含具有可选属性的代码组授予的权限，或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果代码组不适用 （成员资格条件不匹配指定的证据）。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>More than one code group (including the parent code group and any child code groups) is marked <bpt id="p1">&lt;xref href="System.Security.Policy.PolicyStatementAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">标记 （包括父代码组和任何子代码组） 的多个代码组<bpt id="p1">&lt;xref href="System.Security.Policy.PolicyStatementAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Resolves matching code groups.</source>
+          <target state="translated">解析匹配的代码组。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Given evidence for an assembly to be loaded, this method evaluates the code group by first checking the membership condition against the specified evidence.</source>
+          <target state="translated">给定要加载程序集的证据，则此方法通过先检查针对指定的证据的成员资格条件计算的代码组。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If there is a match, this method returns a root code group.</source>
+          <target state="translated">如果没有匹配项，则此方法返回的根代码组。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The code group that is returned may contain child code groups, which, in turn, may also have child code groups, so the return value reflects the complete set of code groups that were matched by the evidence provided.</source>
+          <target state="translated">返回代码组可以包含子代码组，其，反过来，可能也具有子代码组，因此返回的值反映了由提供的证据相匹配的代码组的完整集合。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The evidence for the assembly.</source>
+          <target state="translated">程序集的证据。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The complete set of code groups that were matched by the evidence.</source>
+          <target state="translated">一套完整的证据相匹配的代码组。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

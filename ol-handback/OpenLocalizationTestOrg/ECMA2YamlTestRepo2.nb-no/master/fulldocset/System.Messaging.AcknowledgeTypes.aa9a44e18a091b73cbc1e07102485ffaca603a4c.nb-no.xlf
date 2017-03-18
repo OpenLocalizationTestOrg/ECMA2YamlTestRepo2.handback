@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a508efce93571ff0820406ef3cd83961ac62d776</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.AcknowledgeTypes.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bf082fa3c751c7122b19628eaf6dd2627d661d60</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ffb688fc15bf965b207bd8b03cfbc03ff8a45bb0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the types of acknowledgment message that Message Queuing returns to the sending application.</source>
+          <target state="translated">Angir hvilke typer bekreftelsesmelding som Message Queuing returnerer til avsenderprogrammet.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AcknowledgeTypes class provides a set of flags that you can combine to request one or more categories of acknowledgment messages.</source>
+          <target state="translated">Klassen AcknowledgeTypes inneholder et sett med flagg du kan kombinere for å be om én eller flere kategorier av bekreftelsesmeldinger.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an application sends a message, it can request that Message Queuing return acknowledgment messages indicating the success or failure of the original message.</source>
+          <target state="translated">Når et program sender en melding, kan det be om at Message Queuing returnere bekreftelsesmeldinger som angir vellykket eller mislykket av den opprinnelige meldingen.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Message Queuing sends these acknowledgment messages to the administration queue you specify.</source>
+          <target state="translated">Message Queuing sender bekreftelse meldingene til administrasjonskøen du angir.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Acknowledgment types can be divided broadly into four groups: positive arrival acknowledgments, positive read acknowledgments, negative arrival acknowledgments, and negative read acknowledgments.</source>
+          <target state="translated">Bekreftelse typer kan deles reparasjoner i fire grupper: positive overgangen bekreftelser, positivt skrivebeskyttede bekreftelser, negativ overgangen bekreftelser og negative skrivebeskyttede bekreftelser.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Requesting acknowledgments enables your application to receive notification of certain occurrences—for example, a message reaching its destination queue, a message being retrieved, or a time-out preventing a message from reaching or being retrieved from the destination queue.</source>
+          <target state="translated">Be om bekreftelser aktiverer programmet til å bli varslet om bestemte forekomster – for eksempel en melding nådd målkøen, en melding som hentes eller et tidsavbrudd for hindrer at en melding nådde eller hentes fra målkøen.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are using the &lt;xref:System.Messaging.Message&gt; class to send messages to a queue, you specify the types of acknowledgments your application should receive in the &lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt; property, as well as the administration queue that receives the acknowledgment messages in the &lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt; property.</source>
+          <target state="translated">Når du bruker den &lt;xref:System.Messaging.Message&gt;klasse for å sende meldinger til en kø, du angi hvilke typer bekreftelser programmet skal motta i den &lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt;egenskapen, i tillegg til administrasjonskøen som mottar bekreftelsesmeldinger i den &lt;xref:System.Messaging.Message.AdministrationQueue%2A&gt;egenskapen.&lt;/xref:System.Messaging.Message.AdministrationQueue%2A&gt; &lt;/xref:System.Messaging.Message.AcknowledgeType%2A&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use the &lt;xref:System.Messaging.Message&gt; class to read acknowledgment messages in the administration queue, the instance's &lt;xref:System.Messaging.Message.Acknowledgment%2A&gt; property indicates the condition responsible for the acknowledgment message, for example, if a time-out expired before the original message was read from the queue.</source>
+          <target state="translated">Når du bruker den &lt;xref:System.Messaging.Message&gt;klassen for å lese bekreftelsesmeldinger i administrasjon køens, forekomsten &lt;xref:System.Messaging.Message.Acknowledgment%2A&gt;egenskapen angir betingelsen som er ansvarlig for bekreftelsesmelding, for eksempel hvis et tidsavbrudd utløpt før den opprinnelige meldingen ble lest fra køen.&lt;/xref:System.Messaging.Message.Acknowledgment%2A&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A mask used to request positive acknowledgment if the original message reaches the queue or negative acknowledgment if the time-to-reach-queue timer expires or if the original message cannot be authenticated.</source>
+          <target state="translated">En maske som brukes til å be om positiv bekreftelse hvis den opprinnelige meldingen når køen eller negativ bekreftelse tidtakeren tiden for å nå køen er utløpt, eller hvis den opprinnelige meldingen ikke kan godkjennes.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A mask used to request positive acknowledgment if the original message is received from the queue before its time-to-be-received timer expires or negative acknowledgment otherwise.</source>
+          <target state="translated">En maske som brukes til å be om positiv bekreftelse om den opprinnelige meldingen ble mottatt fra køen før tidtakeren tiden-til-mottak er utløpt eller negativ bekreftelse ellers.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A mask used to request a negative acknowledgment when the original message fails to be received from the queue.</source>
+          <target state="translated">En maske som brukes til å be om en negativ bekreftelse når den opprinnelige meldingen mislykkes mottas fra køen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using the &lt;xref:System.Messaging.MessageQueue.Peek%2A?displayProperty=fullName&gt; method does not remove a message from the queue, so this acknowledgment type could be returned even if you did peek the message.</source>
+          <target state="translated">Ved hjelp av den &lt;xref:System.Messaging.MessageQueue.Peek%2A?displayProperty=fullName&gt;metoden ikke fjerner meldingen fra køen slik slike bekreftelse kan returneres selv om du tillatelsene kikke på meldingen.&lt;/xref:System.Messaging.MessageQueue.Peek%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the &lt;xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt; method (or the related asynchronous &lt;xref:System.Messaging.MessageQueue.BeginReceive%2A?displayProperty=fullName&gt; method) removes a message from the queue.</source>
+          <target state="translated">Bare den &lt;xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt;metoden (eller den relaterte asynkrone &lt;xref:System.Messaging.MessageQueue.BeginReceive%2A?displayProperty=fullName&gt;metoden) fjerner meldingen fra køen.&lt;/xref:System.Messaging.MessageQueue.BeginReceive%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.MessageQueue.Receive%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A mask used to request that no acknowledgment messages (positive or negative) be posted.</source>
+          <target state="translated">En maske som brukes til å be om at ingen bekreftelsesmeldinger (positivet eller negativt) posteres.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A mask used to request a negative acknowledgment when the original message cannot reach the queue.</source>
+          <target state="translated">En maske som brukes til å be om en negativ bekreftelse når den opprinnelige meldingen ikke kan nå køen.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This can happen when the time-to-reach-queue timer expires or if a message cannot be authenticated.</source>
+          <target state="translated">Dette kan skje når tiden for å nå køen tiden er utløpt, eller hvis en melding som ikke kan godkjennes.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A mask used to request a negative acknowledgment when an error occurs that prevents the original message from being received from the queue before its time-to-be-received timer expires.</source>
+          <target state="translated">En masken som brukes til å be om en negativ bekreftelse når det oppstår en feil som hindrer at den opprinnelige meldingen mottas fra køen før tidtakeren tiden-til-mottak er utløpt.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A mask used to request a positive acknowledgment when the original message reaches the queue.</source>
+          <target state="translated">En maske som brukes til å be om en positiv bekreftelse når den opprinnelige meldingen når køen.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A mask used to request a positive acknowledgment when the original message is successfully retrieved from the queue.</source>
+          <target state="translated">En maske som brukes til å be om en positiv bekreftelse når den opprinnelige meldingen ble hentet fra køen.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

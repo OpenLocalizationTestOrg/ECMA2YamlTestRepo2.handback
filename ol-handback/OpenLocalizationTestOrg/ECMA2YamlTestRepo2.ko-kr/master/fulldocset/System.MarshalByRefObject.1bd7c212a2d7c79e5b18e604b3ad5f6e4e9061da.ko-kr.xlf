@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">579f9c16abb22a2b2476ae0ea2cfa6be42e8b022</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.MarshalByRefObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb845523bbc82f8b7c9e2b9f257083516801e7d9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb057e9c33ce8cf40a25274cfb0511bb390cae10</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables access to objects across application domain boundaries in applications that support remoting.</source>
+          <target state="translated">개체에 액세스할 수는 응용 프로그램에서 응용 프로그램 도메인 경계를 넘어 지원 remoting에 해당 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application domain is a partition in an operating system process where one or more applications reside.</source>
+          <target state="translated">응용 프로그램 도메인은 하나 이상의 응용 프로그램이 있는 운영 체제 프로세스의 파티션입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects in the same application domain communicate directly.</source>
+          <target state="translated">동일한 응용 프로그램 도메인의 개체는 직접 통신 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects in different application domains communicate either by transporting copies of objects across application domain boundaries, or by using a proxy to exchange messages.</source>
+          <target state="translated">다른 응용 프로그램 도메인의 개체에는 응용 프로그램 도메인 경계를 넘어 개체의 복사본을 전송 하거나 메시지를 교환 하는 프록시를 사용 하 여 통신 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>MarshalByRefObject is the base class for objects that communicate across application domain boundaries by exchanging messages using a proxy.</source>
+          <target state="translated">MarshalByRefObject는 프록시를 사용 하 여 메시지를 교환 하 여 응용 프로그램 도메인 경계에 걸쳐 통신 하는 개체에 대 한 기본 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that do not inherit from MarshalByRefObject are implicitly marshal by value.</source>
+          <target state="translated">MarshalByRefObject에서 상속 되지 않는 개체는 암시적으로 값별로 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a remote application references a marshal by value object, a copy of the object is passed across application domain boundaries.</source>
+          <target state="translated">마샬링을 값 개체에서 참조 하는 원격 응용 프로그램, 응용 프로그램 도메인 경계를 넘어 개체의 복사본이 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>MarshalByRefObject objects are accessed directly within the boundaries of the local application domain.</source>
+          <target state="translated">MarshalByRefObject 개체는 로컬 응용 프로그램 도메인의 경계 내에서 직접 액세스 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first time an application in a remote application domain accesses a MarshalByRefObject, a proxy is passed to the remote application.</source>
+          <target state="translated">처음으로 원격 응용 프로그램 도메인에서 응용 프로그램에 액세스 하는 MarshalByRefObject 프록시 원격 응용 프로그램에 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent calls on the proxy are marshaled back to the object residing in the local application domain.</source>
+          <target state="translated">프록시에 대 한 후속 호출 로컬 응용 프로그램 도메인에 있는 개체로 다시 마샬링됩니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Types must inherit from MarshalByRefObject when the type is used across application domain boundaries, and the state of the object must not be copied because the members of the object are not usable outside the application domain where they were created.</source>
+          <target state="translated">형식 유형 응용 프로그램 도메인 경계에 걸쳐 사용 되 고 개체의 상태 개체의 멤버가 자신이 만들어진 응용 프로그램 도메인 외부에서 사용할 수 없기 때문에 복사 하면 안 때 MarshalByRefObject에서 상속 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you derive an object from MarshalByRefObject for use across application domain boundaries, you should not override any of its members, nor should you call its methods directly.</source>
+          <target state="translated">개체 MarshalByRefObject에서 사용 하기 위해 응용 프로그램 도메인 경계를 넘어을 파생할 경우에 해당 구성원을 재정의 하지 않아야 함 하거나 해야 하는 메서드를 직접 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime recognizes that classes derived from  MarshalByRefObject should be marshaled across app domain boundaries.</source>
+          <target state="translated">런타임에서 MarshalByRefObject에서 파생 된 클래스를 응용 프로그램 도메인 경계를 넘어 마샬링되어야 한다는 것을 인식 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Creates an object that contains all the relevant information required to generate a proxy used to communicate with a remote object.</source>
+          <target state="translated">원격 개체와 통신 하는 데 프록시를 생성 하는 데 필요한 모든 관련 정보를 포함 하는 개체를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TheCreateObjRef method is called by remote object creation methods such as &lt;xref:System.AppDomain.CreateInstance%2A?displayProperty=fullName&gt; and &lt;xref:System.AppDomain.CreateInstanceAndUnwrap%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">TheCreateObjRef 메서드는 원격 개체 생성 방법 &lt;xref:System.AppDomain.CreateInstance%2A?displayProperty=fullName&gt;및 &lt;xref:System.AppDomain.CreateInstanceAndUnwrap%2A?displayProperty=fullName&gt;.&lt;/xref:System.AppDomain.CreateInstanceAndUnwrap%2A?displayProperty=fullName&gt; &lt;/xref:System.AppDomain.CreateInstance%2A?displayProperty=fullName&gt; 등</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most cases, there is no need to override this method.</source>
+          <target state="translated">대부분의 경우에서이 메서드를 재정의 하지 않아도가 있습니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object that the new <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will reference.</source>
+          <target state="translated">&lt;xref:System.Type&gt;개체의 하는 새 <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 참조 합니다.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Information required to generate a proxy.</source>
+          <target state="translated">프록시를 생성 하는 데 필요한 정보입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This instance is not a valid remoting object.</source>
+          <target state="translated">이 인스턴스는 올바른 원격 개체 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">직접 실행 호출자를 인프라 수 있는 권한이 없습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Retrieves the current lifetime service object that controls the lifetime policy for this instance.</source>
+          <target state="translated">이 인스턴스에 대 한 수명 정책을 제어 하는 수명이 현재 서비스 개체를 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about lifetime services, see the &lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt; class.</source>
+          <target state="translated">수명 서비스에 대 한 자세한 내용은 &lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt;클래스&lt;/xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt; 를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An object of type <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to control the lifetime policy for this instance.</source>
+          <target state="translated">형식의 개체 <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 인스턴스에 대 한 수명 정책을 제어 하는 데 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">직접 실행 호출자를 인프라 수 있는 권한이 없습니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Obtains a lifetime service object to control the lifetime policy for this instance.</source>
+          <target state="translated">이 인스턴스에 대 한 수명 정책을 제어를 수명 서비스 개체를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about lifetime services, see the &lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt; class.</source>
+          <target state="translated">수명 서비스에 대 한 자세한 내용은 &lt;xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt;클래스&lt;/xref:System.Runtime.Remoting.Lifetime.LifetimeServices&gt; 를 참조 하십시오.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An object of type <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to control the lifetime policy for this instance.</source>
+          <target state="translated">형식의 개체 <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.ILease"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 인스턴스에 대 한 수명 정책을 제어 하는 데 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This is the current lifetime service object for this instance if one exists; otherwise, a new lifetime service object initialized to the value of the <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseManagerPollTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">이 한이 인스턴스에 대 한 서비스 개체가 있는지 현재 수명 새 수명을 서비스 개체의 값으로 초기화 하는 그렇지 않은 경우는 <ph id="ph1">&amp;lt;</ph>xref:System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseManagerPollTime%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> 속성입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">직접 실행 호출자를 인프라 수 있는 권한이 없습니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Creates a shallow copy of the current <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">현재의 단순 복사본을 만듭니다 <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MemberwiseClone method creates a shallow copy by creating a new &lt;xref:System.MarshalByRefObject&gt; object, and then copying the nonstatic fields of the current &lt;xref:System.MarshalByRefObject&gt; object to the new object.</source>
+          <target state="translated">MemberwiseClone 메서드 새 단순 복사본을 만듭니다. &lt;xref:System.MarshalByRefObject&gt;개체를 현재의 비정적 필드를 복사 하 여 &lt;xref:System.MarshalByRefObject&gt;개체를 새 개체입니다.&lt;/xref:System.MarshalByRefObject&gt; &lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a field is a value type, a bit-by-bit copy of the field is performed.</source>
+          <target state="translated">필드 값 형식이 필드의 비트 단위로 복사가 수행 됩니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a field is a reference type, the reference is copied but the referred object is not; therefore, the original object and its clone refer to the same object.</source>
+          <target state="translated">필드 참조 형식인 경우 참조를 복사할 수 있지만 참조 된 개체는 필요는 없습니다. 따라서 원래 개체와 해당 복제 같은 개체를 참조 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, consider a &lt;xref:System.MarshalByRefObject&gt; object called X that references objects A and B. Object B, in turn, references object C. A shallow copy of X creates new object X2 that also references objects A and B. In contrast, a deep copy of X creates a new object X2 that references the new objects A2 and B2, which are copies of A and B. B2, in turn, references the new object C2, which is a copy C. Use a class that implements the &lt;xref:System.ICloneable&gt; interface to perform a deep or shallow copy of an object.</source>
+          <target state="translated">예를 들어 &lt;xref:System.MarshalByRefObject&gt;개체를 참조 하는 개체 B 및 a, X 라는&amp;3;. 개체를 참조 X의 단순 복사본을 만듭니다 개체 A와 B를 참조 하는 새 개체 X2 반면, X의 전체 복사본을 새 개체 X2 A2 및 b&amp;2;를 A의 복사본 인 새 개체를 참조 하는 만들고 B. b&amp;2;를 참조 합니다.&amp;3;. 사용 하 여 구현 하는 클래스 복사본 인 새 개체 c&amp;2;는 &lt;xref:System.ICloneable&gt;개체의 전체 또는 단순 복사를 수행 하는 인터페이스입니다.&lt;/xref:System.ICloneable&gt; &lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The identity of a &lt;xref:System.MarshalByRefObject&gt; object is defined as the remote server object that is the target of a remoting client call.</source>
+          <target state="translated">id는 &lt;xref:System.MarshalByRefObject&gt;원격 클라이언트 호출의 대상이 되는 원격 서버 개체를 개체 이루어집니다.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the memberwise clone of a &lt;xref:System.MarshalByRefObject&gt; object has the same identity as the original object, which is typically not the correct behavior for clones of server-side objects that are marshaled across a remoting boundary to the client side.</source>
+          <target state="translated">멤버 수준 복제를 기본적으로는 &lt;xref:System.MarshalByRefObject&gt;개체에는 보통 되지 않은 클라이언트 쪽 원격 경계를 넘어 마샬링되는 서버 쪽 개체의 복제본에 대 한 올바른 동작은 원래 개체와 동일한 id.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specify <ph id="ph1">`false`</ph>, which is usually appropriate, to delete the identity of the clone and cause a new identity to be assigned when the clone is marshaled across a remoting boundary, or <ph id="ph2">`true`</ph> to cause the clone to retain the identity of the original &lt;xref:System.MarshalByRefObject&gt; object.</source>
+          <target state="translated">지정 <ph id="ph1">`false`</ph>, 일반적으로 적절 하 게 복제의 id를 삭제 하 고 원격 경계를 넘어 복제본 마샬링될 때 할당 될 새 id를 일으킬 변수인 또는 <ph id="ph2">`true`</ph> 원래 id 유지 하도록 복제본을 &lt;xref:System.MarshalByRefObject&gt;개체입니다.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MemberwiseClone method is intended to be used by developers implementing remote server objects.</source>
+          <target state="translated">MemberwiseClone 메서드는 원격 서버 개체를 구현 하는 개발자가 사용 하는 데 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to delete the current <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object's identity, which will cause the object to be assigned a new identity when it is marshaled across a remoting boundary.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>현재 삭제 하려면 <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 원격 경계를 넘어 마샬링하는 경우 새 id를 할당할 하면 개체가 개체의 id입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A value of <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is usually appropriate.</source>
+          <target state="translated">값이 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 일반적으로 적합 합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to copy the current <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object's identity to its clone, which will cause remoting client calls to be routed to the remote server object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>현재 복사 하려면 <bpt id="p2">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 개체의 id를 해당 복제 하는 원격 서버 개체에 게 라우팅되도록 원격 클라이언트 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A shallow copy of the current <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">현재의 단순 복사본을 <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

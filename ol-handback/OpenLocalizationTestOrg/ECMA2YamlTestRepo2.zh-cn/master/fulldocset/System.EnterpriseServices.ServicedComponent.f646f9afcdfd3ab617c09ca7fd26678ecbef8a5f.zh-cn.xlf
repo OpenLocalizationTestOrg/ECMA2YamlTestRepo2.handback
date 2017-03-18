@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">01bf4aec7c861a499b01bf4f9c5747fe341480bb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.EnterpriseServices.ServicedComponent.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c8af81d4c22f696629d6a4d6c9568ffefb4f5c8b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8a7f5066c8d0b6deaee907673ccdac9e5701d590</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the base class of all classes using COM+ services.</source>
+          <target state="translated">表示使用 COM + 服务的所有类的基类。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Under certain conditions, a class that is derived from ServicedComponent that runs in a COM+ application may stop responding.</source>
+          <target state="translated">某些情况下，从 COM + 应用程序中运行的 ServicedComponent 派生的类可能会停止响应。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This problem is caused by an Activity deadlock.</source>
+          <target state="translated">此问题是由活动死锁引起的。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Activities can deadlock on multithreaded applications because of an asynchronous cleanup of component references.</source>
+          <target state="translated">在多线程应用程序由于异步清理组件引用的情况下，活动可以死锁。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To work around this problem, call the &lt;xref:System.EnterpriseServices.ServicedComponent.Dispose%2A&gt; method when you complete work with objects derived from ServicedComponent.</source>
+          <target state="translated">若要解决此问题，请调用&lt;xref:System.EnterpriseServices.ServicedComponent.Dispose%2A&gt;方法完成处理的对象派生自 ServicedComponent。&lt;/xref:System.EnterpriseServices.ServicedComponent.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>http://support.microsoft.com/default.aspx?scid=kb;en-us;327443<ept id="p1">](http://support.microsoft.com/default.aspx?scid=kb;en-us;327443)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>http://support.microsoft.com/default.aspx?scid=kb;en-us;327443<ept id="p1">](http://support.microsoft.com/default.aspx?scid=kb;en-us;327443)</ept>。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Client code must call <ph id="ph2">`Dispose`</ph> on serviced components to ensure proper operation.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 必须调用客户端代码<ph id="ph2">`Dispose`</ph>服务以确保正确地执行操作的组件上。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This constructor is called by derived class constructors to initialize state in this type.</source>
+          <target state="translated">派生的类构造函数来初始化此类型中的状态将调用此构造函数。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Called by the infrastructure when the object is created or allocated from a pool.</source>
+          <target state="translated">创建或从池中分配的对象时，由基础结构调用。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Override this method to add custom initialization code to objects.</source>
+          <target state="translated">重写此方法以将自定义的初始化代码添加到对象。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This method is called by the infrastructure before the object is put back into the pool.</source>
+          <target state="translated">该对象放回到池之前，将由基础结构调用此方法。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Override this method to vote on whether the object is put back into the pool.</source>
+          <target state="translated">重写此方法，以决定是否对象放回到到池中。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the serviced component can be pooled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果可以建立池维护的组件;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Called by the infrastructure just after the constructor is called, passing in the constructor string.</source>
+          <target state="translated">调用的构造函数，在构造函数字符串中传递后立即由基础结构调用。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Override this method to make use of the construction string value.</source>
+          <target state="translated">重写此方法来执行构造字符串值的使用。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The construction string.</source>
+          <target state="translated">构造字符串中。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Called by the infrastructure when the object is about to be deactivated.</source>
+          <target state="translated">对象将被停用时由基础结构调用。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Override this method to add custom finalization code to objects when just-in-time (JIT) compiled code or object pooling is used.</source>
+          <target state="translated">重写此方法时实时 (JIT) 编译的代码或使用对象池将自定义终止代码添加到对象。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">释放使用的所有资源<bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Finalizes the object and removes the associated COM+ context.</source>
+          <target state="translated">确定对象，并删除关联的 COM + 上下文。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>It is recommended to explicitly release COM+ objects and external resources before the garbage collector frees the object.</source>
+          <target state="translated">建议垃圾回收器释放对象前显式释放 COM + 对象和外部资源。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If the external resource is scarce or expensive, better performance can be achieved by explicitly releasing COM+ resources when they are no longer needed.</source>
+          <target state="translated">如果外部资源是不足或成本高昂，可以通过显式释放 COM + 资源，在不再需要时实现更好的性能。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Explicit control is provided by the Dispose method.</source>
+          <target state="translated">由 Dispose 方法提供显式控制。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Calling Dispose allows the resources used by the &lt;xref:System.EnterpriseServices.ServicedComponent&gt; to be reallocated for other purposes.</source>
+          <target state="translated">调用 Dispose 允许使用的资源&lt;xref:System.EnterpriseServices.ServicedComponent&gt;可以重新分配用于其他目的。&lt;/xref:System.EnterpriseServices.ServicedComponent&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>For more information about Dispose, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关释放的详细信息，请参阅<bpt id="p1">[</bpt>清洗向上非托管资源<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">释放由非托管的资源<bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，还可以释放托管的资源。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This method is called by the public <ph id="ph1">`Dispose`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">此方法称为由公共<ph id="ph1">`Dispose`</ph>方法和&lt;xref:System.Object.Finalize%2A&gt;方法。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose`</ph>调用受保护<ph id="ph2">`Dispose(Boolean)`</ph>方法替换<ph id="ph3">`disposing`</ph>参数设置为<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;调用<ph id="ph1">`Dispose`</ph>与<ph id="ph2">`disposing`</ph>设置为<ph id="ph3">`false`</ph>。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.EnterpriseServices.ServicedComponent&gt; references.</source>
+          <target state="translated">当<ph id="ph1">`disposing`</ph>参数是<ph id="ph2">`true`</ph>，此方法释放由任何托管对象持有的全部资源此&lt;xref:System.EnterpriseServices.ServicedComponent&gt;引用。&lt;/xref:System.EnterpriseServices.ServicedComponent&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose`</ph> method of each referenced object.</source>
+          <target state="translated">此方法调用<ph id="ph1">`Dispose`</ph>每个引用对象的方法。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要释放托管和非托管资源;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>若要仅释放非托管的资源。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Finalizes the object and removes the associated COM+ reference.</source>
+          <target state="translated">确定对象，并删除关联的 COM + 参考。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>It is preferable to use the <ph id="ph1">`Dispose`</ph> design pattern rather than DisposeObject.</source>
+          <target state="translated">最好使用<ph id="ph1">`Dispose`</ph>设计模式，而不是 DisposeObject。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The object to dispose.</source>
+          <target state="translated">要释放的对象。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Ensures that, in the COM+ context, the <bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class object's <bpt id="p2">&lt;xref uid="langword_csharp_done" name="done" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> bit is set to <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> after a remote method invocation.</source>
+          <target state="translated">确保在 COM + 上下文中， <bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>类对象的<bpt id="p2">&lt;xref uid="langword_csharp_done" name="done" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>位设置为<bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>远程方法调用后。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.EnterpriseServices.IRemoteDispatch.RemoteDispatchAutoDone%2A&gt; method does not belong to the published interface of the &lt;xref:System.EnterpriseServices.ServicedComponent&gt; class and does not need to be implemented elsewhere.</source>
+          <target state="translated">&lt;xref:System.EnterpriseServices.IRemoteDispatch.RemoteDispatchAutoDone%2A&gt;方法不属于的已发布界面&lt;xref:System.EnterpriseServices.ServicedComponent&gt;类并不需要在其他位置实现。&lt;/xref:System.EnterpriseServices.ServicedComponent&gt; &lt;/xref:System.EnterpriseServices.IRemoteDispatch.RemoteDispatchAutoDone%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A string converted from a response object that implements the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMethodReturnMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">一个字符串，转换从响应对象实现<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMethodReturnMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接口。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Does not ensure that, in the COM+ context, the <bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class object's <bpt id="p2">&lt;xref uid="langword_csharp_done" name="done" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> bit is set to <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> after a remote method invocation.</source>
+          <target state="translated">不能确保在 COM + 上下文中， <bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>类对象的<bpt id="p2">&lt;xref uid="langword_csharp_done" name="done" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>位设置为<bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>远程方法调用后。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.EnterpriseServices.IRemoteDispatch.RemoteDispatchNotAutoDone%2A&gt; method does not belong to the published interface of the &lt;xref:System.EnterpriseServices.ServicedComponent&gt; class and does not need to be implemented elsewhere.</source>
+          <target state="translated">&lt;xref:System.EnterpriseServices.IRemoteDispatch.RemoteDispatchNotAutoDone%2A&gt;方法不属于的已发布界面&lt;xref:System.EnterpriseServices.ServicedComponent&gt;类并不需要在其他位置实现。&lt;/xref:System.EnterpriseServices.ServicedComponent&gt; &lt;/xref:System.EnterpriseServices.IRemoteDispatch.RemoteDispatchNotAutoDone%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A string to be converted into a request object that implements the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">要转换为实现一个请求对象的字符串<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接口。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A string converted from a response object that implements the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMethodReturnMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">一个字符串，转换从响应对象实现<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMethodReturnMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接口。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Obtains certain information about the <bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class instance.</source>
+          <target state="translated">获取有关的某些信息<bpt id="p1">&lt;xref href="System.EnterpriseServices.ServicedComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类实例。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>IServicedComponentInfo.GetComponentInfo(Int32, String<ph id="ph1">\[</ph><ph id="ph2">\]</ph>)<ept id="p1">](assetId:///M:System.EnterpriseServices.IServicedComponentInfo.GetComponentInfo(System.Int32@,System.String[]@)?qualifyHint=False&amp;autoUpgrade=True)</ept> method does not belong to the published interface of the &lt;xref:System.EnterpriseServices.ServicedComponent&gt; class and does not need to be implemented elsewhere.</source>
+          <target state="translated"><bpt id="p1">[</bpt>IServicedComponentInfo.GetComponentInfo (Int32、 String<ph id="ph1">\[</ph><ph id="ph2">\]</ph>)<ept id="p1">](assetId:///M:System.EnterpriseServices.IServicedComponentInfo.GetComponentInfo(System.Int32@,System.String[]@)?qualifyHint=False&amp;autoUpgrade=True)</ept>方法不属于的已发布界面&lt;xref:System.EnterpriseServices.ServicedComponent&gt;类并不需要在其他位置实现。&lt;/xref:System.EnterpriseServices.ServicedComponent&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A bitmask where 0x00000001 is a key for the serviced component's process ID, 0x00000002 is a key for the application domain ID, and 0x00000004 is a key for the serviced component's remote URI.</source>
+          <target state="translated">位掩码其中 0x00000001 是维护的组件的进程 ID 的键、 0x00000002 是应用程序域 ID，密钥和 0x00000004 是维护的组件的远程 URI 的密钥。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

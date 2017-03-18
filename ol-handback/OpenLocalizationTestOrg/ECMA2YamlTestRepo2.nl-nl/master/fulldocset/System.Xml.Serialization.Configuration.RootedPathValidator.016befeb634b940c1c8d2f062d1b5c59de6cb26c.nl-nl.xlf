@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d157e7517d098f2a6c58093b7a53f2a7f1230493</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.Serialization.Configuration.RootedPathValidator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a262e388a2c29bcb34a48f79c3e575a37897a3a2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e5986ebfa8a5b073b637ca9943c9a065b3bb11ff</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Validates the rules governing the use of the <ph id="ph1">`tempFilesLocation`</ph> configuration switch.</source>
+          <target state="translated">Valideert de regels voor het gebruik van de <ph id="ph1">`tempFilesLocation`</ph> configuratieswitch.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When adding a <ph id="ph1">`WebReference`</ph> object to a Web service in the <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>, files are created by the Web service discovery process.</source>
+          <target state="translated">Bij het toevoegen van een <ph id="ph1">`WebReference`</ph> object met een webservice in de <ph id="ph2">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>, bestanden worden gemaakt door het detectieproces voor Web-service.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Web service clients learn where to find the Web service description (WSDL) document by adding a <ph id="ph1">`WebReference`</ph> object.</source>
+          <target state="translated">Web serviceclients informatie over het document beschrijving (WSDL) van Web service door toe te voegen een <ph id="ph1">`WebReference`</ph> object.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web service clients then save the discovered documents to the disk by using the <ph id="ph1">`WriteAll`</ph> method.</source>
+          <target state="translated">De Web service clients vervolgens de gedetecteerde documenten opslaan in de schijf met behulp van de <ph id="ph1">`WriteAll`</ph> methode.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the discovered documents may be .xsd schema files or service descriptions.</source>
+          <target state="translated">De gedetecteerde documenten zijn mogelijk XSD-schema-bestanden of servicebeschrijvingen.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At the end of the process, the client deletes the files.</source>
+          <target state="translated">Aan het einde van het proces, de client de bestanden worden verwijderd.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can change the default location of the files in the temporary folder by using the <ph id="ph1">`tempFilesLocation`</ph> switch in the <ph id="ph2">`&lt;xmlSerializer&gt;`</ph> element, specified in the Machine.config configuration file, as in the following example.</source>
+          <target state="translated">U kunt de standaardlocatie van de bestanden in de tijdelijke map wijzigen met behulp van de <ph id="ph1">`tempFilesLocation`</ph> switch in de <ph id="ph2">`&lt;xmlSerializer&gt;`</ph> element, dat is opgegeven in het bestand van de configuratie van Machine.config.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   &lt;configuration&gt;     &lt;system.web&gt;     &lt;system.xml.serialization&gt;       &lt;xmlSerializer tempFilesLocation=".."/&gt;     &lt;/system.xml.serialization&gt;   &lt;/configuration&gt;   ```</ph>       The value of <ph id="ph2">`tempFilesLocation`</ph> must be an absolute path.</source>
+          <target state="translated"><ph id="ph1">```   &lt;configuration&gt;     &lt;system.web&gt;     &lt;system.xml.serialization&gt;       &lt;xmlSerializer tempFilesLocation=".."/&gt;     &lt;/system.xml.serialization&gt;   &lt;/configuration&gt;   ```</ph>De waarde van <ph id="ph2">`tempFilesLocation`</ph> moet een absoluut pad.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the path specified is not absolute, the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> generates a &lt;xref:System.Configuration.ConfigurationErrorsException&gt; exception when the configuration section is referenced.</source>
+          <target state="translated">Als het opgegeven pad niet absoluut is, de <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> genereert een &lt;xref:System.Configuration.ConfigurationErrorsException&gt;uitzondering als de configuratiesectie wordt verwezen.&lt;/xref:System.Configuration.ConfigurationErrorsException&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the property is truncated to remove leading and trailing white spaces.</source>
+          <target state="translated">De waarde van de eigenschap is afgekapt zodat voorloopspaties en afsluitende spaties verwijderen.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If value of the <ph id="ph1">`tempFilesLocation`</ph> property is composed of white space, the default %TMP% location is used for the compilation.</source>
+          <target state="translated">Als de waarde van de <ph id="ph1">`tempFilesLocation`</ph> eigenschap uit witruimte bestaat, de standaardlocatie % TMP % wordt gebruikt voor het compileren.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The same default behavior occurs when no <ph id="ph1">`tempFilesLocation`</ph> switch is specified.</source>
+          <target state="translated">Het standaardgedrag dezelfde deze gebeurtenis treedt op wanneer er zich geen <ph id="ph1">`tempFilesLocation`</ph> schakeloptie is opgegeven.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.Serialization.XmlSerializer&gt; does not check to see whether the path exists.</source>
+          <target state="translated">De &lt;xref:System.Xml.Serialization.XmlSerializer&gt;controleert niet of het pad bestaat.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it does not, a &lt;xref:System.IO.DirectoryNotFoundException&gt; is generated.</source>
+          <target state="translated">Als dit niet, een &lt;xref:System.IO.DirectoryNotFoundException&gt;wordt gegenereerd.&lt;/xref:System.IO.DirectoryNotFoundException&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is identical to the default behavior of the <ph id="ph1">`XmlSerializer`</ph> if the %TMP% path does not exist.</source>
+          <target state="translated">Dit is gelijk aan het standaardgedrag van de <ph id="ph1">`XmlSerializer`</ph> als het pad % TMP % niet bestaat.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xml.Serialization.Configuration.RootedPathValidator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Xml.Serialization.Configuration.RootedPathValidator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Determines whether the type of the object can be validated.</source>
+          <target state="translated">Hiermee wordt bepaald of het type van het object kan worden gevalideerd.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The type of the object.</source>
+          <target state="translated">Het type van het object.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p2">&lt;/code&gt;</ept> parameter matches a valid <bpt id="p3">&lt;xref uid="langword_csharp_XMLSerializer" name="XMLSerializer" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p2">&lt;/code&gt;</ept> parameter overeenkomt met een geldige <bpt id="p3">&lt;xref uid="langword_csharp_XMLSerializer" name="XMLSerializer" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> object; anders <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Determines whether the value of an object is valid.</source>
+          <target state="translated">Hiermee wordt bepaald of de waarde van een object geldig is.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`XmlSerializer`</ph> object to validate is passed as a parameter of the <ph id="ph2">`Validate`</ph> method.</source>
+          <target state="translated">De <ph id="ph1">`XmlSerializer`</ph> te valideren object wordt doorgegeven als een parameter van de <ph id="ph2">`Validate`</ph> methode.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The value of an object.</source>
+          <target state="translated">De waarde van een object.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

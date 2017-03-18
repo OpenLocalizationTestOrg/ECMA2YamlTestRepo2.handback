@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ed390a79f71af58d16e1894cdcc8682faea8f675</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Policy.FirstMatchCodeGroup.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e59e64c2713e8400e61dfca88b96f791a854ce9b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">04c2045505121c944cfb769fb3b59a8c097c14f4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows security policy to be defined by the union of the policy statement of a code group and that of the first child code group that matches.</source>
+          <target state="translated">允许安全策略，以定义由代码组的策略语句，并确保与匹配的第一个子代码组的联合。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">此类不能被继承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Code groups are the building blocks of code access security policy.</source>
+          <target state="translated">代码组是代码访问安全性策略的构建基块。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Each policy level consists of a root code group that can have child code groups.</source>
+          <target state="translated">每个策略级别包含可以有子代码组的根代码组。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Each child code group can have their own child code groups; this behavior extends to any number of levels, forming a tree.</source>
+          <target state="translated">每个子代码组可以具有它们自己的子代码组;此行为扩展到任意数量的级别，从而形成一个树。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Each code group has a membership condition that determines if a given assembly belongs to it based on the evidence for that assembly.</source>
+          <target state="translated">每个代码组有一个确定是否给定的程序集属于基于该程序集的证据的成员资格条件。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Only code groups whose membership conditions match a given assembly and their child code groups apply policy.</source>
+          <target state="translated">其成员资格条件匹配给定的程序集的唯一代码组和它们的子代码组应用策略。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Like any code group, FirstMatchCodeGroup only applies when its membership condition matches evidence for an assembly.</source>
+          <target state="translated">任何代码组，如 FirstMatchCodeGroup 仅适用时其成员资格条件匹配的程序集的证据。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If there is a match, it tests the membership condition of each child in order, stopping when the first match occurs.</source>
+          <target state="translated">如果没有匹配项，它会按顺序，在出现第一个匹配项时停止测试每个子级的成员资格条件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The result of FirstMatchCodeGroup is the union of the policy statement of the root code group and the policy statement of the first child group of that code group that matches.</source>
+          <target state="translated">FirstMatchCodeGroup 的结果是根代码组的策略语句和匹配该代码组的第一个子组的策略语句的联合。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>FirstMatchCodeGroup is intended for programmatic use by application domain hosts to set domain policy.</source>
+          <target state="translated">FirstMatchCodeGroup 被适用于以编程方式使用的应用程序域主机可将域策略设置。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Policy.FirstMatchCodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Policy.FirstMatchCodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This constructor creates a basic code group and should be called from the constructors of custom code groups.</source>
+          <target state="translated">此构造函数创建的基本代码组，并应该从自定义代码组的构造函数中调用。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Child code groups can be added using the &lt;xref:System.Security.Policy.CodeGroup.AddChild%2A&gt; method.</source>
+          <target state="translated">可以使用添加子代码组&lt;xref:System.Security.Policy.CodeGroup.AddChild%2A&gt;方法。&lt;/xref:System.Security.Policy.CodeGroup.AddChild%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A membership condition that tests evidence to determine whether this code group applies policy.</source>
+          <target state="translated">测试以确定此代码组是否应用策略的证据成员资格条件。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The policy statement for the code group in the form of a permission set and attributes to grant code that matches the membership condition.</source>
+          <target state="translated">策略声明的权限集和属性的窗体中的代码组授予与成员资格条件匹配的代码。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The type of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">membershipCondition</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not valid.</source>
+          <target state="translated">一种<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">membershipCondition</ph> <ept id="p1">&lt;/code&gt;</ept>参数无效。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-or-       The type of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">policy</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not valid.</source>
+          <target state="translated">-的一种<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">policy</ph> <ept id="p1">&lt;/code&gt;</ept>参数无效。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Makes a deep copy of the code group.</source>
+          <target state="translated">生成的代码组的深层副本。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This method makes a deep copy of the code group, meaning that copies of all objects it contains are made, as well.</source>
+          <target state="translated">此方法也生成代码组，这意味着，它包含的所有对象的副本进行的深层的副本。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An equivalent copy of the code group, including its membership conditions and child code groups.</source>
+          <target state="translated">代码组，包括其成员资格条件和子代码组等效副本。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets the merge logic.</source>
+          <target state="translated">获取合并逻辑。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The string "First Match".</source>
+          <target state="translated">字符串"第一个匹配项"。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Resolves policy for the code group and its descendants for a set of evidence.</source>
+          <target state="translated">代码组的策略以及及其子代的证据集的解析。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Given evidence for an assembly to be loaded, this method evaluates the code group by first checking the membership condition against the specified evidence.</source>
+          <target state="translated">给定要加载程序集的证据，则此方法通过先检查针对指定的证据的成员资格条件计算的代码组。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If there is a match, this method returns a policy statement for the code group, including evaluation of child code groups.</source>
+          <target state="translated">如果没有匹配项，则此方法返回的代码组，其中包括的子代码组评估的策略语句。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For first-match code groups, each child code group's membership condition is tested against the evidence in the order in which they were added; only the first match is resolved with the evidence set.</source>
+          <target state="translated">对于第一个匹配项的代码组，每个子代码组的成员资格条件测试针对在其中添加; 顺序的证据仅第一个匹配项已解决的证据集。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If there are no matches, the policy statement of the parent first-match code group applies.</source>
+          <target state="translated">如果没有匹配项，则父第一个匹配项的代码组的策略语句适用。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The matching child code group type determines how all child groups under it are applied, depending on how the &lt;xref:System.Security.Policy.CodeGroup.Resolve%2A&gt; methods of these child groups work.</source>
+          <target state="translated">匹配的子代码组类型确定如何应用在其下的所有子组，具体取决于如何&lt;xref:System.Security.Policy.CodeGroup.Resolve%2A&gt;这些子组的方法的工作原理。&lt;/xref:System.Security.Policy.CodeGroup.Resolve%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The .NET Framework security system uses &lt;xref:System.Security.Policy.CodeGroup.Resolve%2A&gt; on the policy levels to determine which permissions to grant to loaded code from the resulting policy statements and the code request on the assembly.</source>
+          <target state="translated">.NET Framework 安全系统使用&lt;xref:System.Security.Policy.CodeGroup.Resolve%2A&gt;上以确定要从生成的策略声明和代码为加载代码授予哪些权限请求程序集上的策略级别。&lt;/xref:System.Security.Policy.CodeGroup.Resolve%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This operation of this method is as follows:       If the membership condition does not match the specified evidence, return <ph id="ph1">`null`</ph>; otherwise, set the permission set to be returned (P) equal to the code group's policy statement and continue.</source>
+          <target state="translated">此方法的此操作，如下所示是︰ 如果成员资格条件与指定的证据不匹配，则返回<ph id="ph1">`null`</ph>; 否则为组的权限集返回 (P) 等于代码组的策略语句并继续。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For each child code group, resolve the code group with the same evidence; if the result is not <ph id="ph1">`null`</ph>, return that policy statement.</source>
+          <target state="translated">对于每个子代码组，使用相同的证据; 解析代码组如果结果不为<ph id="ph1">`null`</ph>，返回该策略语句。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If no child code group matched, return P (the parent's policy statement).</source>
+          <target state="translated">如果没有子代码组匹配，则返回 P （父级的策略语句）。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The evidence for the assembly.</source>
+          <target state="translated">程序集的证据。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A policy statement consisting of the permissions granted by the code group with optional attributes, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the code group does not apply (the membership condition does not match the specified evidence).</source>
+          <target state="translated">包含具有可选属性的代码组授予的权限的策略语句或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果代码组不适用 （成员资格条件不匹配指定的证据）。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>More than one code group (including the parent code group and any child code groups) is marked <bpt id="p1">&lt;xref href="System.Security.Policy.PolicyStatementAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">标记 （包括父代码组和任何子代码组） 的多个代码组<bpt id="p1">&lt;xref href="System.Security.Policy.PolicyStatementAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Resolves matching code groups.</source>
+          <target state="translated">解析匹配的代码组。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Given evidence for an assembly to be loaded, this method evaluates the code group by first checking the membership condition against the specified evidence.</source>
+          <target state="translated">给定要加载程序集的证据，则此方法通过先检查针对指定的证据的成员资格条件计算的代码组。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If there is a match, this method returns a root code group.</source>
+          <target state="translated">如果没有匹配项，则此方法返回的根代码组。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The code group that is returned contains child code groups, which in turn can have child code groups as necessary to reflect the complete set of code groups that were matched by the evidence provided.</source>
+          <target state="translated">返回的代码组包含子代码组，因而也就可以有子代码组，根据需要以反映由提供的证据相匹配的代码组的完整集合。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For first-match code groups, each child code group's membership condition is tested against the evidence in the order in which they were added; only the first match is resolved with the evidence set.</source>
+          <target state="translated">对于第一个匹配项的代码组，每个子代码组的成员资格条件测试针对在其中添加; 顺序的证据仅第一个匹配项已解决的证据集。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If there are no matches, the policy statement of the parent first-match code group applies.</source>
+          <target state="translated">如果没有匹配项，则父第一个匹配项的代码组的策略语句适用。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The matching child code group type determines how all child groups under it are applied, depending on how the &lt;xref:System.Security.Policy.CodeGroup.ResolveMatchingCodeGroups%2A&gt; methods of these child groups work.</source>
+          <target state="translated">匹配的子代码组类型确定如何应用在其下的所有子组，具体取决于如何&lt;xref:System.Security.Policy.CodeGroup.ResolveMatchingCodeGroups%2A&gt;这些子组的方法的工作原理。&lt;/xref:System.Security.Policy.CodeGroup.ResolveMatchingCodeGroups%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The evidence for the assembly.</source>
+          <target state="translated">程序集的证据。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Policy.CodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the root of the tree of matching code groups.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Policy.CodeGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它是匹配的代码组的树的根。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">evidence</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

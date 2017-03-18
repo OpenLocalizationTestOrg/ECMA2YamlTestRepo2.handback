@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">88d9f70cae73a8b02ed5d481753a5d0654c206c5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.SiteMapProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac694d9a14fbd4362720aefe80d28dae0ec9beb0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0f85a32aa4efa066b2d51dfd3edc254d0cf323a0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a common base class for all site map data providers, and a way for developers to implement custom site map data providers that can be used with the ASP.NET site map infrastructure as persistent stores for <bpt id="p1">&lt;xref href="System.Web.SiteMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">すべてのサイト マップ データ プロバイダー、および開発者が、ASP.NET サイト マップ インフラストラクチャとの永続的ストアとして使用できるカスタムのサイト マップ データ プロバイダーを実装するための方法に共通の基本クラスを提供<bpt id="p1">&lt;xref href="System.Web.SiteMap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.StaticSiteMapProvider&gt; and &lt;xref:System.Web.XmlSiteMapProvider&gt; classes represent the default implementations of the abstract SiteMapProvider class.</source>
+          <target state="translated">&lt;xref:System.Web.StaticSiteMapProvider&gt;&lt;xref:System.Web.XmlSiteMapProvider&gt;クラスが抽象 SiteMapProvider クラスの既定の実装を表します&lt;/xref:System.Web.XmlSiteMapProvider&gt;&lt;/xref:System.Web.StaticSiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; uses an XML file named Web.sitemap to store site map data.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;Web.sitemap という XML ファイルを使用してサイト マップ データを格納します&lt;/xref:System.Web.XmlSiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For more information on about the Web.sitemap file, see <bpt id="p1">[</bpt>ASP.NET Site Maps<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Web.sitemap ファイルに関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>ASP.NET サイト マップ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The SiteMapProvider class supports the concept of a site map provider hierarchy, by declaring the &lt;xref:System.Web.SiteMapProvider.RootProvider%2A&gt; and &lt;xref:System.Web.SiteMapProvider.ParentProvider%2A&gt; properties.</source>
+          <target state="translated">SiteMapProvider クラスは、宣言することで、マップ プロバイダー、サイトの階層の概念をサポートしている、&lt;xref:System.Web.SiteMapProvider.RootProvider%2A&gt;と&lt;xref:System.Web.SiteMapProvider.ParentProvider%2A&gt;プロパティ&lt;/xref:System.Web.SiteMapProvider.ParentProvider%2A&gt;&lt;/xref:System.Web.SiteMapProvider.RootProvider%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A SiteMapProvider can be a child or parent of another provider.</source>
+          <target state="translated">SiteMapProvider には、別のプロバイダーの親または子を指定できます。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>This enables scenarios where different content areas of a site are owned or implemented by different development groups that maintain their own site maps and site map providers.</source>
+          <target state="translated">これにより、サイトのさまざまなコンテンツ領域を所有または、独自のサイト マップとサイト マップ プロバイダーを管理する別の開発グループによって実装される場合です。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>All SiteMapProvider objects are configured in the Web.config files.</source>
+          <target state="translated">SiteMapProvider のすべてのオブジェクトは、Web.config ファイルで構成されます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Any site map providers that are declared in these configuration files are loaded at run time and are used to load and process site navigation data.</source>
+          <target state="translated">これらの構成ファイルで宣言されているすべてのサイト マップ プロバイダーでは、実行時に読み込まれ、読み込んでサイト ナビゲーションのデータを処理するために使用します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SiteMap&gt; object, which keeps track of all the providers that are available to it through its &lt;xref:System.Web.SiteMap.Providers%2A&gt; property collection, provides programmatic access to the navigation data that is managed by the providers.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMap&gt;を通じて利用できるすべてのプロバイダーを追跡するオブジェクト、&lt;xref:System.Web.SiteMap.Providers%2A&gt;プロパティ コレクションが、プロバイダーによって管理されているナビゲーション データにプログラムでアクセスを提供します&lt;/xref:System.Web.SiteMap.Providers%2A&gt;&lt;/xref:System.Web.SiteMap&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The following code example demonstrates the format that is used to declare a site map provider in a Web.config file.</source>
+          <target state="translated">次のコード例では、Web.config ファイル内のサイト マップ プロバイダーの宣言に使用される形式を示します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;siteMap defaultProvider="&lt;name&gt;"&gt;     &lt;providers&gt;       &lt;add         name="&lt;friendly name&gt;"         type="&lt;fully qualified class name&gt;, &lt;assembly name (optional)&gt;"          siteMapFile = "&lt;file name&gt;" /&gt;     &lt;/providers&gt;   &lt;/siteMap&gt;   ```</ph>       The site navigation data that is loaded by these providers is used by other components of the site map infrastructure, such as the &lt;xref:System.Web.UI.WebControls.SiteMapPath&gt; and &lt;xref:System.Web.UI.WebControls.TreeView&gt; controls, to display site map information for users.</source>
+          <target state="translated"><ph id="ph1">```   &lt;siteMap defaultProvider="&lt;name&gt;"&gt;     &lt;providers&gt;       &lt;add         name="&lt;friendly name&gt;"         type="&lt;fully qualified class name&gt;, &lt;assembly name (optional)&gt;"          siteMapFile = "&lt;file name&gt;" /&gt;     &lt;/providers&gt;   &lt;/siteMap&gt;   ```</ph>これらのプロバイダーによって読み込まれているサイト ナビゲーションのデータがなどのサイト マップ インフラストラクチャの他のコンポーネントで使用が、&lt;xref:System.Web.UI.WebControls.SiteMapPath&gt;と&lt;xref:System.Web.UI.WebControls.TreeView&gt;コントロール、ユーザーのサイト マップ情報を表示します&lt;/xref:System.Web.UI.WebControls.TreeView&gt;&lt;/xref:System.Web.UI.WebControls.SiteMapPath&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you implement your own site map provider, you can place the source file in the App_Code directory of your ASP.NET application, and then the assembly will be compiled automatically.</source>
+          <target state="translated">独自のサイト マップ プロバイダーを実装する場合、ASP.NET アプリケーションの App_Code ディレクトリにソース ファイルを配置することができ、アセンブリを自動的にコンパイルされますが、します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can also place your own site map provider in the Global Assembly Cache (GAC), and provide a fully-qualified reference to it in the Web.config file.</source>
+          <target state="translated">また、独自のサイト マップ プロバイダーをグローバル アセンブリ キャッシュ (GAC) 内に配置して、Web.config ファイルへの完全修飾参照を提供できます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information on compiler services, see <bpt id="p1">[</bpt>Working with Assemblies and the Global Assembly Cache<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">コンパイラ サービスの詳細については、次を参照してください。<bpt id="p1">[</bpt>アセンブリとグローバル アセンブリ キャッシュ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the node collection that is maintained by the site map provider.</source>
+          <target state="translated">追加、 <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトをサイト マップ プロバイダーによって保持されているノードのコレクション。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Classes deriving from the &lt;xref:System.Web.SiteMapProvider&gt; class can override the AddNode method and provide logic for adding a &lt;xref:System.Web.SiteMapNode&gt; object to the node collection that is maintained by the site map provider.</source>
+          <target state="translated">派生するクラス、&lt;xref:System.Web.SiteMapProvider&gt;クラスが AddNode メソッドのオーバーライドし、追加のロジックを指定、&lt;xref:System.Web.SiteMapNode&gt;サイト マップ プロバイダーによって保持されているノードのコレクションにオブジェクトを&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The default implementation of the &lt;xref:System.Web.SiteMapProvider.AddNode%2A&gt; method throws a &lt;xref:System.NotImplementedException&gt; exception.</source>
+          <target state="translated">既定の実装、&lt;xref:System.Web.SiteMapProvider.AddNode%2A&gt;メソッドがスローされます、&lt;xref:System.NotImplementedException&gt;例外です&lt;/xref:System.NotImplementedException&gt;&lt;/xref:System.Web.SiteMapProvider.AddNode%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the node collection maintained by the provider.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>プロバイダーによって保持されているノードのコレクションに追加します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the node collection that is maintained by the site map provider and specifies the parent <bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">追加、 <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>サイト マップ プロバイダーによって保持され、親を指定するノードのコレクションにオブジェクト<bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Classes deriving from the &lt;xref:System.Web.SiteMapProvider&gt; class can override the AddNode method and provide logic for adding a &lt;xref:System.Web.SiteMapNode&gt; object with a specified parent to the node collection that is maintained by the site map provider.</source>
+          <target state="translated">派生するクラス、&lt;xref:System.Web.SiteMapProvider&gt;クラスが AddNode メソッドのオーバーライドし、追加のロジックを指定、&lt;xref:System.Web.SiteMapNode&gt;サイト マップ プロバイダーによって保持されているノードのコレクションに指定された親を持つオブジェクト&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Web.XmlSiteMapProvider.AddNode%2A?displayProperty=fullName&gt; method adds the &lt;xref:System.Web.SiteMapNode&gt; object that is specified by <ph id="ph1">`node`</ph> to the &lt;xref:System.Web.SiteMapNodeCollection&gt; collection that is maintained by the &lt;xref:System.Web.XmlSiteMapProvider&gt; object and creates a parent/child relationship between the &lt;xref:System.Web.SiteMapNode&gt; object that is specified by <ph id="ph2">`node`</ph> and <ph id="ph3">`parentNode`</ph>.</source>
+          <target state="translated">たとえば、&lt;xref:System.Web.XmlSiteMapProvider.AddNode%2A?displayProperty=fullName&gt;メソッドを追加、&lt;xref:System.Web.SiteMapNode&gt;で指定されたオブジェクト<ph id="ph1">`node`</ph>を&lt;xref:System.Web.SiteMapNodeCollection&gt;によって保持されているコレクション、&lt;xref:System.Web.XmlSiteMapProvider&gt;オブジェクトし、の間の親/子リレーションシップを作成、&lt;xref:System.Web.SiteMapNode&gt;で指定されたオブジェクト<ph id="ph2">`node`</ph>と<ph id="ph3">`parentNode`</ph>&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.XmlSiteMapProvider&gt;&lt;/xref:System.Web.SiteMapNodeCollection&gt;&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.XmlSiteMapProvider.AddNode%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The default implementation of the &lt;xref:System.Web.SiteMapProvider.AddNode%2A&gt; method throws a &lt;xref:System.NotImplementedException&gt; exception.</source>
+          <target state="translated">既定の実装、&lt;xref:System.Web.SiteMapProvider.AddNode%2A&gt;メソッドがスローされます、&lt;xref:System.NotImplementedException&gt;例外です&lt;/xref:System.NotImplementedException&gt;&lt;/xref:System.Web.SiteMapProvider.AddNode%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the node collection maintained by the provider.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>プロバイダーによって保持されているノードのコレクションに追加します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the parent of <ph id="ph1">`node`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の親である<ph id="ph1">`node`</ph>です。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In all cases.</source>
+          <target state="translated">すべての場合。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the currently requested page.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を現在の要求されたページを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SiteMapProvider.SiteMapResolve&gt; event is raised before attempting to retrieve a &lt;xref:System.Web.SiteMapNode&gt; object, to enable event subscribers to return an instance of the &lt;xref:System.Web.SiteMapNode&gt; class.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapProvider.SiteMapResolve&gt;イベントは、&lt;xref:System.Web.SiteMapNode&gt;&lt;xref:System.Web.SiteMapNode&gt;クラス&lt;/xref:System.Web.SiteMapNode&gt;のインスタンスを返すイベント サブスクライバーを有効にする、オブジェクト&lt;/xref:System.Web.SiteMapNode&gt;を取得する前に発生します。&lt;/xref:System.Web.SiteMapProvider.SiteMapResolve&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If there are no event subscribers, the &lt;xref:System.Web.SiteMapProvider&gt; class calls the &lt;xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt; method using the current HTTP context to retrieve a &lt;xref:System.Web.SiteMapNode&gt; that represents the currently requested page.</source>
+          <target state="translated">イベント サブスクライバーが存在しない場合、&lt;xref:System.Web.SiteMapProvider&gt;クラスの呼び出し、&lt;xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt;を取得する現在の HTTP コンテキストを使用して、メソッド、 &lt;xref:System.Web.SiteMapNode&gt;、現在の要求されたページを表す&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt;&lt;/xref:System.Web.SiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If the currently requested page does not correspond with a &lt;xref:System.Web.SiteMapNode&gt;, <ph id="ph1">`null`</ph> is returned.</source>
+          <target state="translated">現在の要求されたページに対応していない場合、 &lt;xref:System.Web.SiteMapNode&gt;、<ph id="ph1">`null`</ph>が返されます&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If security trimming is enabled and the user is not permitted to access the &lt;xref:System.Web.SiteMapNode&gt;, <ph id="ph1">`null`</ph> is returned.</source>
+          <target state="translated">かどうかは、セキュリティ トリミングを有効にし、ユーザーがアクセスを許可されていません、 &lt;xref:System.Web.SiteMapNode&gt;、<ph id="ph1">`null`</ph>が返されます&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the currently requested page; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if the <bpt id="p3">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> is not found or cannot be returned for the current user.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在の要求されたページを表す、それ以外の<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>場合、 <bpt id="p3">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>が見つからないか、現在のユーザーに対して返されることはできません。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value indicating whether localized values of <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attributes are returned.</source>
+          <target state="translated">取得またはローカライズされたかどうかを示すブール値を設定の値<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>属性が返されます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The EnableLocalization property is used for the get accessor of the &lt;xref:System.Web.SiteMapNode.Title%2A&gt; and &lt;xref:System.Web.SiteMapNode.Description%2A&gt; properties, as well as additional &lt;xref:System.Web.SiteMapNode.Attributes%2A&gt; properties of a &lt;xref:System.Web.SiteMapNode&gt; object.</source>
+          <target state="translated">EnableLocalization プロパティの get アクセサーの使用、&lt;xref:System.Web.SiteMapNode.Title%2A&gt;と&lt;xref:System.Web.SiteMapNode.Description%2A&gt;プロパティ、追加&lt;xref:System.Web.SiteMapNode.Attributes%2A&gt;のプロパティ、&lt;xref:System.Web.SiteMapNode&gt;オブジェクト&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapNode.Attributes%2A&gt;&lt;/xref:System.Web.SiteMapNode.Description%2A&gt;&lt;/xref:System.Web.SiteMapNode.Title%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a localized value of the <bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> attributes are returned; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ローカライズされた値の場合、 <bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>属性は、返される、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, retrieves a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the page at the specified URL.</source>
+          <target state="translated">派生クラスでオーバーライドされると、取得、 <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> url で指定したページを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Web.SiteMapProvider&gt; class must implement the abstract FindSiteMapNode method.</source>
+          <target state="translated">派生したクラス、&lt;xref:System.Web.SiteMapProvider&gt;クラスが抽象 FindSiteMapNode メソッドを実装する必要があります&lt;/xref:System.Web.SiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The URL provided can be a virtual or absolute URL.</source>
+          <target state="translated">指定された URL は、仮想、または絶対 URL を指定できます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It might also be a URL that uses application-relative syntax, such as <ph id="ph1">`~/apprelativedirectory`</ph>.</source>
+          <target state="translated">など、アプリケーション相対構文を使用する URL にもあります<ph id="ph1">`~/apprelativedirectory`</ph>です。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Ensure that any implementation of the FindSiteMapNode method parse and handle application-relative syntax properly.</source>
+          <target state="translated">FindSiteMapNode メソッド解析のすべての導入することを確認し、アプリケーション相対構文を適切に処理します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class, which is the default site map provider for ASP.NET, uses the URL of a &lt;xref:System.Web.SiteMapNode&gt; object as a key in the various collections that the classes maintain.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;ASP.NET 用の既定のサイト マップ プロバイダーには、クラスの URL を使用して、&lt;xref:System.Web.SiteMapNode&gt;オブジェクト クラスを保持するさまざまなコレクション内のキーとして&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.XmlSiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Therefore, if a &lt;xref:System.Web.SiteMapNode&gt; provides a URL, it must be unique within the scope of the site map provider.</source>
+          <target state="translated">したがって場合、 &lt;xref:System.Web.SiteMapNode&gt;url、サイト マップ プロバイダーのスコープ内で一意である必要があります&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If no URL is provided, a unique identifier is generated to identify the &lt;xref:System.Web.SiteMapNode&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapNode&gt;。&lt;/xref:System.Web.SiteMapNode&gt;を識別する一意の識別子が生成された URL が指定されていない場合</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A URL that identifies the page for which to retrieve a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得する対象のページを識別する URL、 <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the page identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">rawURL</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, if no corresponding <bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> is found or if security trimming is enabled and the <bpt id="p5">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> cannot be returned for the current user.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>で識別されるページを表す<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">rawURL</ph> <ept id="p2">&lt;/code&gt;</ept>、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>いない対応する場合は、 <bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>が見つかったまたはセキュリティ トリミングが有効になっている場合、 <bpt id="p5">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept>現在のユーザーに対して返されることはできません。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Retrieves a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the currently requested page using the specified <bpt id="p2">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を指定して、現在要求されたページを表すオブジェクト<bpt id="p2">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The FindSiteMapNode method calls the abstract &lt;xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt; method to retrieve a &lt;xref:System.Web.SiteMapNode&gt; object for the currently requested page based on the raw URL or the virtual path of the request.</source>
+          <target state="translated">FindSiteMapNode メソッドは、抽象&lt;xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt;を取得する方法、&lt;xref:System.Web.SiteMapNode&gt;オブジェクトの現在の要求されたページに基づいての生の URL または要求の仮想パス&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If no corresponding &lt;xref:System.Web.SiteMapNode&gt; is found in the &lt;xref:System.Web.SiteMap&gt;, <ph id="ph1">`null`</ph> is returned.</source>
+          <target state="translated">対応するない場合&lt;xref:System.Web.SiteMapNode&gt;で見つかった、 &lt;xref:System.Web.SiteMap&gt;、<ph id="ph1">`null`</ph>が返されます&lt;/xref:System.Web.SiteMap&gt;&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt; method does not check whether a &lt;xref:System.Web.SiteMapNode&gt; is accessible to a user, by default.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt;メソッドをチェックしないかどうか、&lt;xref:System.Web.SiteMapNode&gt;既定では、ユーザーがアクセスできる&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to match node information with the URL of the requested page.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要求されたページの URL を使用してノードの情報と一致するために使用します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the currently requested page; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if no corresponding <bpt id="p3">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> can be found in the <bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> or if the page context is <bpt id="p5">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在の要求されたページを表す、それ以外の<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>いない対応する場合は、 <bpt id="p3">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>は含まれて、 <bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>ページ コンテキストの場合、または<bpt id="p5">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Retrieves a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object based on a specified key.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトが、指定したキーに基づいています。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SiteMapProvider&gt; implementation returns <ph id="ph1">`null`</ph> in all cases.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapProvider&gt;実装を返します<ph id="ph1">`null`</ph>常にします&lt;/xref:System.Web.SiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Web.SiteMapProvider&gt; class can override the FindSiteMapNodeFromKey method to provide lookup functionality based on a unique key (instead of a URL, which is used by the &lt;xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt; method).</source>
+          <target state="translated">派生したクラス、&lt;xref:System.Web.SiteMapProvider&gt;クラスは、一意のキーに基づく参照機能を提供する FindSiteMapNodeFromKey メソッドをオーバーライドできます (によって使用される、URL ではなく、&lt;xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt;メソッド).&lt;/xref:System.Web.SiteMapProvider.FindSiteMapNode%2A&gt; &lt;/xref:System.Web.SiteMapProvider&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Implement the FindSiteMapNodeFromKey method if your site map provider implementation uses the &lt;xref:System.Web.SiteMapNode.Key%2A?displayProperty=fullName&gt; property of a &lt;xref:System.Web.SiteMapNode&gt; object as a primary identifier in a site map structure.</source>
+          <target state="translated">サイト マップ プロバイダーの実装で使用する場合は、FindSiteMapNodeFromKey メソッドを実装して、&lt;xref:System.Web.SiteMapNode.Key%2A?displayProperty=fullName&gt;のプロパティ、&lt;xref:System.Web.SiteMapNode&gt;オブジェクト サイト マップ構造内の主な識別子として&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapNode.Key%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.StaticSiteMapProvider&gt; class provides an implementation that handles searching for site map nodes that do not define a URL.</source>
+          <target state="translated">&lt;xref:System.Web.StaticSiteMapProvider&gt;クラス URL を定義しないサイト マップ ノードの検索を処理する実装を提供します&lt;/xref:System.Web.StaticSiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class, which is the default site map provider for ASP.NET, uses the URL of a &lt;xref:System.Web.SiteMapNode&gt; as a key in the various collections that the classes maintain.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;ASP.NET 用の既定のサイト マップ プロバイダーには、クラスの URL を使用して、&lt;xref:System.Web.SiteMapNode&gt;クラスを保持するさまざまなコレクション内のキーとして&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.XmlSiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Therefore, if a node provides a URL, it must be unique within the scope of the site map provider.</source>
+          <target state="translated">そのため、ノードは、URL を提供する場合、サイト マップ プロバイダーのスコープ内で一意な場合があります。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If no URL is provided, a unique identifier is generated to identify the &lt;xref:System.Web.SiteMapNode&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapNode&gt;。&lt;/xref:System.Web.SiteMapNode&gt;を識別する一意の識別子が生成された URL が指定されていない場合</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A lookup key with which a <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is created.</source>
+          <target state="translated">使用するルックアップ キー、 <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を作成します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the page identified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, if no corresponding <bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> is found or if security trimming is enabled and the <bpt id="p5">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept> cannot be returned for the current user.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>で識別されるページを表す<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p2">&lt;/code&gt;</ept>、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>いない対応する場合は、 <bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>が見つかったまたはセキュリティ トリミングが有効になっている場合、 <bpt id="p5">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept>現在のユーザーに対して返されることはできません。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, retrieves the child nodes of a specific <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">派生クラスでオーバーライドされると、特定の子ノードを取得<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Web.SiteMapProvider&gt; class must implement the abstract GetChildNodes method.</source>
+          <target state="translated">派生したクラス、&lt;xref:System.Web.SiteMapProvider&gt;クラスが抽象 GetChildNodes メソッドを実装する必要があります&lt;/xref:System.Web.SiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for which to retrieve all child nodes.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>をすべての子ノードを取得します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A read-only <bpt id="p1">&lt;xref href="System.Web.SiteMapNodeCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the immediate child nodes of the specified <bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or an empty collection, if no child nodes exist.</source>
+          <target state="translated">読み取り専用<bpt id="p1">&lt;xref href="System.Web.SiteMapNodeCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、指定の直接の子ノードを格納している<bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>または子ノードが存在しない場合、空のコレクション。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Provides an optimized lookup method for site map providers when retrieving the node for the currently requested page and fetching the parent and ancestor site map nodes for the current page.</source>
+          <target state="translated">マップの現在のページのノードを現在の要求されたページのノードを取得して、親サイトと親サイトのフェッチ時に、サイト マップ プロバイダー最適化された検索メソッドを提供します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default implementation of the GetCurrentNodeAndHintAncestorNodes method returns the &lt;xref:System.Web.SiteMapProvider.CurrentNode%2A&gt; property; however, site map providers can override the GetCurrentNodeAndHintAncestorNodes method and provide an optimized implementation that uses custom caching mechanisms to return the current &lt;xref:System.Web.SiteMapNode&gt;, as well as the parent and ancestor nodes of the parent.</source>
+          <target state="translated">GetCurrentNodeAndHintAncestorNodes メソッドの既定の実装を返します、&lt;xref:System.Web.SiteMapProvider.CurrentNode%2A&gt;プロパティですただし、サイト マップ プロバイダー GetCurrentNodeAndHintAncestorNodes メソッドをオーバーライドできを現在を返すカスタムのキャッシュ メカニズムを使用する最適化された実装を提供する&lt;xref:System.Web.SiteMapNode&gt;、親の親および祖先のノードだけでなく。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapProvider.CurrentNode%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`upLevel`</ph> parameter is used to specify how many levels of parent and ancestor nodes to retrieve.</source>
+          <target state="translated"><ph id="ph1">`upLevel`</ph>パラメーターを使用して取得する親および祖先のノードのレベル数を指定します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If preferred, the parent and ancestor nodes can be linked to the &lt;xref:System.Web.SiteMapNode&gt; object that is returned by the GetCurrentNodeAndHintAncestorNodes method, using the &lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt; property.</source>
+          <target state="translated">親および祖先のノードにリンクできる場合は、優先、 &lt;xref:System.Web.SiteMapNode&gt;GetCurrentNodeAndHintAncestorNodes メソッドによって返されるオブジェクトを使用して、&lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt;プロパティ&lt;/xref:System.Web.SiteMapNode.ParentNode%2A&gt;&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class, which is the default site map provider for ASP.NET, caches the entire site map in memory, which results in little or no overhead when querying the &lt;xref:System.Web.XmlSiteMapProvider&gt; for specific &lt;xref:System.Web.SiteMapNode&gt; objects.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;クラスは、ASP.NET の既定のサイト マップ プロバイダーには、キャッシュのクエリを実行するときに、ほとんどまたはまったくないオーバーヘッドで結果をメモリ内に、サイト全体のマップ、&lt;xref:System.Web.XmlSiteMapProvider&gt;特定の&lt;xref:System.Web.SiteMapNode&gt;オブジェクト&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.XmlSiteMapProvider&gt;&lt;/xref:System.Web.XmlSiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The number of ancestor site map node generations to get.</source>
+          <target state="translated">先祖サイト マップ ノード生成結果の数を取得します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A value of -1 indicates that all ancestors might be retrieved and cached by the provider.</source>
+          <target state="translated">値-1 は、すべての先祖が取得され、プロバイダーによってキャッシュされることを示します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the currently requested page; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if the <bpt id="p3">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> is not found or cannot be returned for the current user.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在の要求されたページを表す、それ以外の<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>場合、 <bpt id="p3">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>が見つからないか、現在のユーザーに対して返されることはできません。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;upLevel&lt;/code&gt;</ph> is less than -1.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;upLevel&lt;/code&gt;</ph>-1 未満です。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Provides an optimized lookup method for site map providers when retrieving the node for the currently requested page and fetching the site map nodes in the proximity of the current node.</source>
+          <target state="translated">マップ、現在のノードの近くでノードを現在の要求されたページのノードを取得して、サイトをフェッチするときは、サイト マップ プロバイダー最適化された検索メソッドを提供します。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The default implementation of the GetCurrentNodeAndHintNeighborhoodNodes method returns the &lt;xref:System.Web.SiteMapProvider.CurrentNode%2A&gt; property; however, site map providers can override the GetCurrentNodeAndHintNeighborhoodNodes method and provide an optimized implementation that uses custom caching mechanisms to return the current &lt;xref:System.Web.SiteMapNode&gt; object, as well as &lt;xref:System.Web.SiteMapNode&gt; objects that are in the proximity of the current &lt;xref:System.Web.SiteMapNode&gt;.</source>
+          <target state="translated">GetCurrentNodeAndHintNeighborhoodNodes メソッドの既定の実装を返します、&lt;xref:System.Web.SiteMapProvider.CurrentNode%2A&gt;プロパティですただし、サイト マップ プロバイダー GetCurrentNodeAndHintNeighborhoodNodes メソッドをオーバーライドでき、現在&lt;xref:System.Web.SiteMapNode&gt;のオブジェクトと&lt;xref:System.Web.SiteMapNode&gt;現在&lt;xref:System.Web.SiteMapNode&gt;。&lt;/xref:System.Web.SiteMapNode&gt;の近接内にあるオブジェクト&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapNode&gt;を返すカスタムのキャッシュ メカニズムを使用する最適化された実装を提供する&lt;/xref:System.Web.SiteMapProvider.CurrentNode%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`upLevel`</ph> parameter is used to specify how many levels of parent and ancestor nodes to retrieve and cache, along with their immediate children.</source>
+          <target state="translated"><ph id="ph1">`upLevel`</ph>パラメーターを使用して、親ノードと先祖ノードを取得し、キャッシュ、直下の子のレベル数を指定します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`downLevel`</ph> parameter is used to specify how many levels of descendant nodes from the current &lt;xref:System.Web.SiteMapNode&gt; to retrieve.</source>
+          <target state="translated"><ph id="ph1">`downLevel`</ph>パラメーターを使用して、現在の子孫のノードのレベル数を指定&lt;xref:System.Web.SiteMapNode&gt;を取得します&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If preferred, the ancestor and descendant nodes can be linked to the &lt;xref:System.Web.SiteMapNode&gt; that is returned by the       GetCurrentNodeAndHintNeighborhoodNodes method, using the &lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt; and &lt;xref:System.Web.SiteMapNode.ChildNodes%2A&gt; properties.</source>
+          <target state="translated">先祖と子孫ノードにリンクできる場合は、優先、 &lt;xref:System.Web.SiteMapNode&gt;GetCurrentNodeAndHintNeighborhoodNodes メソッドによって返されるを使用して、&lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt;と&lt;xref:System.Web.SiteMapNode.ChildNodes%2A&gt;プロパティ&lt;/xref:System.Web.SiteMapNode.ChildNodes%2A&gt;&lt;/xref:System.Web.SiteMapNode.ParentNode%2A&gt;&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If there are fewer ancestor or child node levels than are specified by <ph id="ph1">`upLevel`</ph> or <ph id="ph2">`downLevel`</ph>, only those that are available are retrieved.</source>
+          <target state="translated">レベル数が少ない先祖または子ノードで指定された数よりか<ph id="ph1">`upLevel`</ph>または<ph id="ph2">`downLevel`</ph>、使用可能なもののみが取得されます。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.XmlSiteMapProvider&gt; class, which is the default site map provider for ASP.NET, caches the entire site map in memory, which results in little or no overhead when querying the &lt;xref:System.Web.XmlSiteMapProvider&gt; for specific &lt;xref:System.Web.SiteMapNode&gt; objects.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;クラスは、ASP.NET の既定のサイト マップ プロバイダーには、キャッシュのクエリを実行するときに、ほとんどまたはまったくないオーバーヘッドで結果をメモリ内に、サイト全体のマップ、&lt;xref:System.Web.XmlSiteMapProvider&gt;特定の&lt;xref:System.Web.SiteMapNode&gt;オブジェクト&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.XmlSiteMapProvider&gt;&lt;/xref:System.Web.XmlSiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The number of ancestor <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> generations to fetch.</source>
+          <target state="translated">先祖の数<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>生成結果をフェッチします。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>0 indicates no ancestor nodes are retrieved and -1 indicates that all ancestors might be retrieved and cached by the provider.</source>
+          <target state="translated">0 は、-1 は、すべての先祖が取得され、プロバイダーによってキャッシュされていることを示します、祖先ノードが取得されないを示します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The number of child <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> generations to fetch.</source>
+          <target state="translated">子の数<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>生成結果をフェッチします。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>0 indicates no descendant nodes are retrieved and a -1 indicates that all descendant nodes might be retrieved and cached by the provider.</source>
+          <target state="translated">0 は、子孫ノードが取得されないと、-1 は、すべての子孫ノードが取得され、プロバイダーによってキャッシュされていることを示します。 を示します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the currently requested page; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if the <bpt id="p3">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> is not found or cannot be returned for the current user.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、現在の要求されたページを表す、それ以外の<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>場合、 <bpt id="p3">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>が見つからないか、現在のユーザーに対して返されることはできません。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;upLevel&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;downLevel&lt;/code&gt;</ph> is less than -1.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;upLevel&lt;/code&gt;</ph>または<ph id="ph2">&lt;code&gt;downLevel&lt;/code&gt;</ph>-1 未満です。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, retrieves the parent node of a specific <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">派生クラスでオーバーライドされると、特定の親ノードを取得<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for which to retrieve the parent node.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を親ノードを取得します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the parent of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">node</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, if the <bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> has no parent or security trimming is enabled and the parent node is not accessible to the current user.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の親を表す<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">node</ph> <ept id="p2">&lt;/code&gt;</ept>、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>場合、 <bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>親を持たないまたはセキュリティ トリミングを有効にし、親ノードは、現在のユーザーにアクセスできません。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>GetParentNode might also return <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the parent node belongs to a different provider.</source>
+          <target state="translated">GetParentNode を返す可能性がありますも<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>親ノードが別のプロバイダーに属している場合。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>In this case, use the &lt;xref:System.Web.SiteMapNode.ParentNode*&gt; property of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">node</ph><ept id="p1">&lt;/code&gt;</ept> instead.</source>
+          <target state="translated">このケースでは、使用して、&lt;xref:System.Web.SiteMapNode.ParentNode*&gt;プロパティ<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">node</ph> <ept id="p1">&lt;/code&gt;</ept>代わりにします&lt;/xref:System.Web.SiteMapNode.ParentNode*&gt;。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Provides an optimized lookup method for site map providers when retrieving an ancestor node for the currently requested page and fetching the descendant nodes for the ancestor.</source>
+          <target state="translated">サイト マップ プロバイダーが、現在の要求されたページと、先祖の子孫ノードをフェッチの祖先のノードを取得するときに、最適化された検索メソッドを提供します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The default implementation of the &lt;xref:System.Web.SiteMapProvider&gt; class provides a non-optimized implementation of the GetParentNodeRelativeToCurrentNodeAndHintDownFromParent method, calling the &lt;xref:System.Web.SiteMapProvider.GetCurrentNodeAndHintAncestorNodes%2A&gt; and &lt;xref:System.Web.SiteMapProvider.HintNeighborhoodNodes%2A&gt; methods; however, site map providers can override the GetParentNodeRelativeToCurrentNodeAndHintDownFromParent method and provide an optimized implementation that uses custom caching mechanisms to return the ancestor node and perform an optimized lookup of the other &lt;xref:System.Web.SiteMapNode&gt; objects.</source>
+          <target state="translated">既定の実装、&lt;xref:System.Web.SiteMapProvider&gt;クラス用に最適化された非 GetParentNodeRelativeToCurrentNodeAndHintDownFromParent メソッドの実装を提供を呼び出す、&lt;xref:System.Web.SiteMapProvider.GetCurrentNodeAndHintAncestorNodes%2A&gt;と&lt;xref:System.Web.SiteMapProvider.HintNeighborhoodNodes%2A&gt;メソッドですただし、サイト マップ プロバイダー GetParentNodeRelativeToCurrentNodeAndHintDownFromParent メソッドをオーバーライドして祖先のノードを返すと、その他の最適化の参照を実行するカスタムのキャッシュ メカニズムを使用する最適化された実装を提供&lt;xref:System.Web.SiteMapNode&gt;オブジェクト。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapProvider.HintNeighborhoodNodes%2A&gt; &lt;/xref:System.Web.SiteMapProvider.GetCurrentNodeAndHintAncestorNodes%2A&gt; &lt;/xref:System.Web.SiteMapProvider&gt; 。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`walkupLevels`</ph> parameter is used to specify how many levels of parent and ancestor nodes to traverse when retrieving the target node.</source>
+          <target state="translated"><ph id="ph1">`walkupLevels`</ph>パラメーターを使用して、ターゲット ノードを取得するときに走査する親および祖先のノードのレベル数を指定します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>If fewer levels exist than are requested, <ph id="ph1">`null`</ph> is returned.</source>
+          <target state="translated">要求より少ないレベルが存在しない場合<ph id="ph1">`null`</ph>が返されます。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`downLevel`</ph> parameter is used to specify how many levels of descendant nodes from the target ancestor node to retrieve.</source>
+          <target state="translated"><ph id="ph1">`downLevel`</ph>パラメーターを使用して取得する目的の先祖ノードの子孫のノードのレベル数を指定します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If preferred, the ancestor and descendant nodes can be linked to the &lt;xref:System.Web.SiteMapNode&gt; that is returned by the GetParentNodeRelativeToCurrentNodeAndHintDownFromParent method, using the &lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt; and &lt;xref:System.Web.SiteMapNode.ChildNodes%2A&gt; properties.</source>
+          <target state="translated">先祖と子孫ノードにリンクできる場合は、優先、 &lt;xref:System.Web.SiteMapNode&gt;GetParentNodeRelativeToCurrentNodeAndHintDownFromParent メソッドによって返されるを使用して、&lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt;と&lt;xref:System.Web.SiteMapNode.ChildNodes%2A&gt;プロパティ&lt;/xref:System.Web.SiteMapNode.ChildNodes%2A&gt;&lt;/xref:System.Web.SiteMapNode.ParentNode%2A&gt;&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The number of ancestor node levels to traverse when retrieving the requested ancestor node.</source>
+          <target state="translated">要求された先祖ノードを取得するときに走査する先祖ノードのレベルの数。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The number of descendant node levels to retrieve from the target ancestor node.</source>
+          <target state="translated">目的の先祖ノードから取得するための子孫ノード レベルの数。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents an ancestor <bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> of the currently requested page; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, if the current or ancestor <bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> is not found or cannot be returned for the current user.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>先祖を表す<bpt id="p2">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 、現在の要求されたページのそれ以外の<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>場合は、現在または先祖<bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>が見つからないか、現在のユーザーに対して返されることはできません。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;walkupLevels&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;relativeDepthFromWalkup&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;walkupLevels&lt;/code&gt;</ph>または<ph id="ph2">&lt;code&gt;relativeDepthFromWalkup&lt;/code&gt;</ph>が 0 未満です。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Provides an optimized lookup method for site map providers when retrieving an ancestor node for the specified <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and fetching its child nodes.</source>
+          <target state="translated">サイト マップ プロバイダーに指定された祖先のノードを取得するときに最適化された検索メソッドを提供<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトとその子ノードをフェッチします。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The default implementation of the &lt;xref:System.Web.SiteMapProvider&gt; class provides a non-optimized implementation of the GetParentNodeRelativeToNodeAndHintDownFromParent method, calling the &lt;xref:System.Web.SiteMapProvider.HintAncestorNodes%2A&gt; and &lt;xref:System.Web.SiteMapProvider.HintNeighborhoodNodes%2A&gt; methods; however, site map providers can override the GetParentNodeRelativeToNodeAndHintDownFromParent method and provide an optimized implementation that uses custom caching mechanisms to return the ancestor node and perform an optimized lookup of the other &lt;xref:System.Web.SiteMapNode&gt; objects.</source>
+          <target state="translated">既定の実装、&lt;xref:System.Web.SiteMapProvider&gt;クラス用に最適化された非 GetParentNodeRelativeToNodeAndHintDownFromParent メソッドの実装を提供を呼び出す、&lt;xref:System.Web.SiteMapProvider.HintAncestorNodes%2A&gt;と&lt;xref:System.Web.SiteMapProvider.HintNeighborhoodNodes%2A&gt;メソッドですただし、サイト マップ プロバイダー GetParentNodeRelativeToNodeAndHintDownFromParent メソッドをオーバーライドして祖先のノードを返すと、その他の最適化の参照を実行するカスタムのキャッシュ メカニズムを使用する最適化された実装を提供&lt;xref:System.Web.SiteMapNode&gt;オブジェクト。&lt;/xref:System.Web.SiteMapNode&gt; &lt;/xref:System.Web.SiteMapProvider.HintNeighborhoodNodes%2A&gt; &lt;/xref:System.Web.SiteMapProvider.HintAncestorNodes%2A&gt; &lt;/xref:System.Web.SiteMapProvider&gt; 。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The GetParentNodeRelativeToNodeAndHintDownFromParent method is very similar to the &lt;xref:System.Web.SiteMapProvider.GetParentNodeRelativeToCurrentNodeAndHintDownFromParent%2A&gt; method.</source>
+          <target state="translated">GetParentNodeRelativeToNodeAndHintDownFromParent メソッドとよく似ています、&lt;xref:System.Web.SiteMapProvider.GetParentNodeRelativeToCurrentNodeAndHintDownFromParent%2A&gt;メソッド&lt;/xref:System.Web.SiteMapProvider.GetParentNodeRelativeToCurrentNodeAndHintDownFromParent%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`walkupLevels`</ph> parameter is used to specify how many levels of parent and ancestor nodes to traverse when retrieving the target node.</source>
+          <target state="translated"><ph id="ph1">`walkupLevels`</ph>パラメーターを使用して、ターゲット ノードを取得するときに走査する親および祖先のノードのレベル数を指定します。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If fewer levels exist than are requested, <ph id="ph1">`null`</ph> is returned.</source>
+          <target state="translated">要求より少ないレベルが存在しない場合<ph id="ph1">`null`</ph>が返されます。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`downLevel`</ph> parameter is used to specify how many levels of descendant nodes from the target ancestor node to retrieve.</source>
+          <target state="translated"><ph id="ph1">`downLevel`</ph>パラメーターを使用して取得する目的の先祖ノードの子孫のノードのレベル数を指定します。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>If preferred, the ancestor and descendant nodes can be linked to the &lt;xref:System.Web.SiteMapNode&gt; that is returned by the GetParentNodeRelativeToNodeAndHintDownFromParent method, using the &lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt; and &lt;xref:System.Web.SiteMapNode.ChildNodes%2A&gt; properties.</source>
+          <target state="translated">先祖と子孫ノードにリンクできる場合は、優先、 &lt;xref:System.Web.SiteMapNode&gt;GetParentNodeRelativeToNodeAndHintDownFromParent メソッドによって返されるを使用して、&lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt;と&lt;xref:System.Web.SiteMapNode.ChildNodes%2A&gt;プロパティ&lt;/xref:System.Web.SiteMapNode.ChildNodes%2A&gt;&lt;/xref:System.Web.SiteMapNode.ParentNode%2A&gt;&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If there are fewer ancestor node levels than specified by the <ph id="ph1">`upLevel`</ph> parameter, <ph id="ph2">`null`</ph> is returned.</source>
+          <target state="translated">指定した以外の先祖ノード レベルの数が少ないがある場合、<ph id="ph1">`upLevel`</ph>パラメーター、<ph id="ph2">`null`</ph>が返されます。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>It is up to the provider implementer to decide how to handle the situation where the number of available descendant node levels is less than the value that is specified by the <ph id="ph1">`downLevel`</ph> parameter.</source>
+          <target state="translated">使用可能な子孫ノード レベルの数がで指定された値よりも小さい状況に対処する方法を決定する、プロバイダーの実装者は、<ph id="ph1">`downLevel`</ph>パラメーター。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that acts as a reference point for <ph id="ph1">`walkupLevels`</ph> and <ph id="ph2">`relativeDepthFromWalkup`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の参照ポイントとして機能する<ph id="ph1">`walkupLevels`</ph>と<ph id="ph2">`relativeDepthFromWalkup`</ph>です。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The number of ancestor node levels to traverse when retrieving the requested ancestor node.</source>
+          <target state="translated">要求された先祖ノードを取得するときに走査する先祖ノードのレベルの数。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The number of descendant node levels to retrieve from the target ancestor node.</source>
+          <target state="translated">目的の先祖ノードから取得するための子孫ノード レベルの数。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents an ancestor of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">node</ph><ept id="p2">&lt;/code&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, if the current or ancestor <bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> is not found or cannot be returned for the current user.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の先祖を表す<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">node</ph> <ept id="p2">&lt;/code&gt;</ept>、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>場合は、現在または先祖<bpt id="p4">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>が見つからないか、現在のユーザーに対して返されることはできません。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The value specified for <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">walkupLevels</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">relativeDepthFromWalkup</ph><ept id="p2">&lt;/code&gt;</ept> is less than 0.</source>
+          <target state="translated">指定された値<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">walkupLevels</ph> <ept id="p1">&lt;/code&gt;</ept>または<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">relativeDepthFromWalkup</ph> <ept id="p2">&lt;/code&gt;</ept>が 0 未満です。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, retrieves the root node of all the nodes that are currently managed by the current provider.</source>
+          <target state="translated">派生クラスでオーバーライドされると、現在のプロバイダーによって現在管理されているすべてのノードのルート ノードを取得します。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The GetRootNodeCore method enables a parent provider in a provider hierarchy to obtain a &lt;xref:System.Web.SiteMapNode&gt; object that acts as a frame of reference for building the provider hierarchy and the larger site map node hierarchy that is the sum of the site map data that each provider manages.</source>
+          <target state="translated">GetRootNodeCore メソッドを取得する、プロバイダー階層内の親プロバイダーを有効にする&lt;xref:System.Web.SiteMapNode&gt;各プロバイダーを管理するサイト マップ データの合計には、プロバイダー階層と大規模なサイト マップ ノード階層を構築の基準枠として機能するオブジェクト&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the root node of the set of nodes that the current provider manages.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を表す一連の現在のプロバイダーを管理ノードのルート ノードです。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Retrieves the root node of all the nodes that are currently managed by the specified site map provider.</source>
+          <target state="translated">指定したサイト マップ プロバイダーによって現在管理されているすべてのノードのルート ノードを取得します。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The default implementation calls the abstract &lt;xref:System.Web.SiteMapProvider.GetRootNodeCore%2A&gt; method on the specified <ph id="ph1">`provider`</ph>.</source>
+          <target state="translated">既定の実装を呼び出す、抽象&lt;xref:System.Web.SiteMapProvider.GetRootNodeCore%2A&gt;メソッドを指定した<ph id="ph1">`provider`</ph>&lt;/xref:System.Web.SiteMapProvider.GetRootNodeCore%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The provider that calls the &lt;xref:System.Web.SiteMapProvider.GetRootNodeCore*&gt;.</source>
+          <target state="translated">呼び出す&lt;xref:System.Web.SiteMapProvider.GetRootNodeCore*&gt;。&lt;/xref:System.Web.SiteMapProvider.GetRootNodeCore*&gt;プロバイダー</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the root node of the set of nodes that is managed by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">provider</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>で管理されているノードのセットのルート ノードを表す<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">provider</ph><ept id="p2">&lt;/code&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Provides a method that site map providers can override to perform an optimized retrieval of one or more levels of parent and ancestor nodes, relative to the specified <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">指定した基準とした、親および祖先のノードの&amp;1; つまたは複数のレベルの最適化された取得を実行するサイト マップ プロバイダー メソッドをオーバーライドできるは、 <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The default HintAncestorNodes method only checks for an <ph id="ph1">`upLevel`</ph> parameter that is less than -1 and a <ph id="ph2">`node`</ph> parameter that is <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">既定の HintAncestorNodes メソッドのみをチェック、 <ph id="ph1">`upLevel`</ph> -1 より小さい値であるパラメーターと<ph id="ph2">`node`</ph>パラメーターが<ph id="ph3">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Web.XmlSiteMapProvider&gt; class caches site map information in memory, the HintAncestorNodes method is not used.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;クラスは、メモリ内のサイト マップ情報をキャッシュ、HintAncestorNodes メソッドは使用されません&lt;/xref:System.Web.XmlSiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Site map providers can override the HintAncestorNodes method to perform an optimized retrieval of parent and ancestor nodes of the specified &lt;xref:System.Web.SiteMapNode&gt; object.</source>
+          <target state="translated">サイト マップ プロバイダーは、指定した親および祖先のノードの最適化された取得を実行する HintAncestorNodes メソッドをオーバーライドできます&lt;xref:System.Web.SiteMapNode&gt;オブジェクト&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`upLevel`</ph> parameter is used to specify how many levels of parent and ancestor nodes to traverse from the specified &lt;xref:System.Web.SiteMapNode&gt;.</source>
+          <target state="translated"><ph id="ph1">`upLevel`</ph>パラメーターを使用して、指定した&lt;xref:System.Web.SiteMapNode&gt;.&lt;/xref:System.Web.SiteMapNode&gt;から走査する親および祖先のノードのレベル数を指定</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If fewer levels exist than are requested, all available ancestor nodes are returned within the specified bound.</source>
+          <target state="translated">要求より少ないレベルがある場合は、指定したバインド内ですべての利用可能な先祖ノードが返されます。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If preferred, the parent node can be linked to the specified &lt;xref:System.Web.SiteMapNode&gt; using the &lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt; property.</source>
+          <target state="translated">希望する場合、親ノードにリンクすることができますを指定した&lt;xref:System.Web.SiteMapNode&gt;を使用して、&lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt;プロパティ&lt;/xref:System.Web.SiteMapNode.ParentNode%2A&gt;&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that acts as a reference point for <ph id="ph1">`upLevel`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の参照ポイントとして機能する<ph id="ph1">`upLevel`</ph>です。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The number of ancestor <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> generations to fetch.</source>
+          <target state="translated">先祖の数<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>生成結果をフェッチします。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>0 indicates no ancestor nodes are retrieved and -1 indicates that all ancestors might be retrieved and cached.</source>
+          <target state="translated">0 は、-1 は、すべての先祖が取得され、キャッシュされていることを示します、祖先ノードが取得されないを示します。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;upLevel&lt;/code&gt;</ph> is less than -1.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;upLevel&lt;/code&gt;</ph>-1 未満です。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Provides a method that site map providers can override to perform an optimized retrieval of nodes found in the proximity of the specified node.</source>
+          <target state="translated">サイト マップ プロバイダーに最適化された、指定したノードの近接検索で見つかったノードの取得を実行する優先するメソッドを提供します。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The default HintNeighborhoodNodes method only checks for an <ph id="ph1">`upLevel`</ph> and <ph id="ph2">`downLevel`</ph> parameters that are less than -1 and a <ph id="ph3">`node`</ph> parameter that is <ph id="ph4">`null`</ph>.</source>
+          <target state="translated">既定 HintNeighborhoodNodes メソッドのみをチェック、<ph id="ph1">`upLevel`</ph>と<ph id="ph2">`downLevel`</ph>-1 より小さい値は、パラメーター、および<ph id="ph3">`node`</ph>パラメーターが<ph id="ph4">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Web.XmlSiteMapProvider&gt; object caches site map information in memory, the HintNeighborhoodNodes method is not used.</source>
+          <target state="translated">&lt;xref:System.Web.XmlSiteMapProvider&gt;オブジェクトがメモリ内のサイト マップ情報をキャッシュ、HintNeighborhoodNodes メソッドは使用されません&lt;/xref:System.Web.XmlSiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Site map providers can override the HintNeighborhoodNodes method to perform an optimized lookup of the &lt;xref:System.Web.SiteMapNode&gt; objects in the proximity of the specified &lt;xref:System.Web.SiteMapNode&gt;.</source>
+          <target state="translated">サイト マップ プロバイダーは&lt;xref:System.Web.SiteMapNode&gt;、指定した&lt;xref:System.Web.SiteMapNode&gt;。&lt;/xref:System.Web.SiteMapNode&gt;近接内のオブジェクト&lt;/xref:System.Web.SiteMapNode&gt;の最適化の参照を実行する HintNeighborhoodNodes メソッドをオーバーライドできます。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`upLevel`</ph> parameter is used to specify how many levels of parent and ancestor nodes to traverse from the specified &lt;xref:System.Web.SiteMapNode&gt;.</source>
+          <target state="translated"><ph id="ph1">`upLevel`</ph>パラメーターを使用して、指定した&lt;xref:System.Web.SiteMapNode&gt;.&lt;/xref:System.Web.SiteMapNode&gt;から走査する親および祖先のノードのレベル数を指定</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`downLevel`</ph> parameter is used to specify how many levels of child nodes from the current node to retrieve.</source>
+          <target state="translated"><ph id="ph1">`downLevel`</ph>パラメーターを使用して取得する現在のノードから子ノードのレベル数を指定します。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>If preferred, the ancestor and descendant nodes can be linked to the &lt;xref:System.Web.SiteMapNode&gt; that is returned by the HintNeighborhoodNodes method, using the &lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt; and &lt;xref:System.Web.SiteMapNode.ChildNodes%2A&gt; properties.</source>
+          <target state="translated">先祖と子孫ノードにリンクできる場合は、優先、 &lt;xref:System.Web.SiteMapNode&gt;HintNeighborhoodNodes メソッドによって返されるを使用して、&lt;xref:System.Web.SiteMapNode.ParentNode%2A&gt;と&lt;xref:System.Web.SiteMapNode.ChildNodes%2A&gt;プロパティ&lt;/xref:System.Web.SiteMapNode.ChildNodes%2A&gt;&lt;/xref:System.Web.SiteMapNode.ParentNode%2A&gt;&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that acts as a reference point for <ph id="ph1">`upLevel`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の参照ポイントとして機能する<ph id="ph1">`upLevel`</ph>です。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The number of ancestor <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> generations to fetch.</source>
+          <target state="translated">先祖の数<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>生成結果をフェッチします。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>0 indicates no ancestor nodes are retrieved and -1 indicates that all ancestors (and their descendant nodes to the level of <ph id="ph1">`node`</ph>) might be retrieved and cached.</source>
+          <target state="translated">0 は、祖先のノードが取得されないを示し、-1 をことを示します。 すべての先祖 (とその子孫のノードのレベルに<ph id="ph1">`node`</ph>) 取得され、キャッシュがあります。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The number of descendant <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> generations to fetch.</source>
+          <target state="translated">子の数<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>生成結果をフェッチします。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>0 indicates no descendant nodes are retrieved and -1 indicates that all descendant nodes might be retrieved and cached.</source>
+          <target state="translated">0 は、-1 は、すべての子孫ノードが取得され、キャッシュされていることを示します、子孫ノードが取得されないを示します。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;upLevel&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;downLevel&lt;/code&gt;</ph> is less than -1.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;upLevel&lt;/code&gt;</ph>または<ph id="ph2">&lt;code&gt;downLevel&lt;/code&gt;</ph>-1 未満です。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;node&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation, including any resources that are needed to load site map data from persistent storage.</source>
+          <target state="translated">初期化、 <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>実装では、永続ストレージからのサイト マップ データを読み込むために必要なすべてのリソースも含まれます。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The Initialize method does not actually build a site map, it only prepares the state of the &lt;xref:System.Web.SiteMapProvider&gt; object to do so.</source>
+          <target state="translated">Initialize メソッドは実際に、サイト マップを作成していない、のみ&lt;xref:System.Web.SiteMapProvider&gt;にオブジェクト&lt;/xref:System.Web.SiteMapProvider&gt;の状態を準備</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The default implementation initializes the &lt;xref:System.Web.SiteMapProvider.SecurityTrimmingEnabled%2A&gt; property for the site map provider from the site navigation configuration.</source>
+          <target state="translated">既定の実装を初期化、 &lt;xref:System.Web.SiteMapProvider.SecurityTrimmingEnabled%2A&gt;、サイト マップ構成からプロバイダー、サイトのナビゲーション プロパティ&lt;/xref:System.Web.SiteMapProvider.SecurityTrimmingEnabled%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Web.SiteMapProvider&gt; can override the Initialize method to initialize any state and resources that are required to load site map data from persistent storage.</source>
+          <target state="translated">派生したクラス、&lt;xref:System.Web.SiteMapProvider&gt;任意の状態と永続的な記憶域からサイト マップ データを読み込むために必要なリソースを初期化するために初期化メソッドをオーバーライドできます&lt;/xref:System.Web.SiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>For example, if your derived class is using files to store site map data, any file initialization can be performed in the Initialize method.</source>
+          <target state="translated">たとえば、派生クラスでは、ファイルを使用する、サイト マップ データを格納する、Initialize メソッド、ファイル初期化を実行することができます。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>If the derived class uses some other type of data store, such as a relational database, initializing a database connection might be performed.</source>
+          <target state="translated">派生クラスが他の何らかのリレーショナル データベースなどのデータ ストアを使用する場合、データベース接続の初期化を実行することができます。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Additional attributes, such as file names or connection strings, are read by the ASP.NET configuration system and passed to the Initialize method with its &lt;xref:System.Collections.Specialized.NameValueCollection&gt; parameter.</source>
+          <target state="translated">ファイル名または接続文字列など、追加の属性が ASP.NET 構成システムによって読み取られ、初期化を使用してメソッドに渡される、&lt;xref:System.Collections.Specialized.NameValueCollection&gt;パラメーター&lt;/xref:System.Collections.Specialized.NameValueCollection&gt; 。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Configuration.Provider.ProviderBase.Name*&gt; of the provider to initialize.</source>
+          <target state="translated">&lt;xref:System.Configuration.Provider.ProviderBase.Name*&gt;のプロバイダーを初期化します&lt;/xref:System.Configuration.Provider.ProviderBase.Name*&gt;。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can contain additional attributes to help initialize the provider.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.NameValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>プロバイダーの初期化を支援する追加の属性を含めることができます。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>These attributes are read from the site map provider configuration in the Web.config file.</source>
+          <target state="translated">これらの属性は、Web.config ファイル内のサイト マップ プロバイダーの構成から読み込まれます。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Retrieves a Boolean value indicating whether the specified <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object can be viewed by the user in the specified context.</source>
+          <target state="translated">示すブール値を取得するかどうか、指定した<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトは、指定したコンテキスト内のユーザーによって表示できます。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The default behavior when security trimming is enabled is as described in the following table.</source>
+          <target state="translated">セキュリティ トリミングを有効にすると、既定の動作は、次の表で説明します。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>|Condition|Return Value|   |---------------|------------------|   |The &lt;xref:System.Web.SiteMapNode.Roles%2A&gt; exists on <ph id="ph1">`node`</ph> and the current user is in at least one of the specified roles.</source>
+          <target state="translated">|条件 |戻り値 |  |---------------|------------------|  |&lt;xref:System.Web.SiteMapNode.Roles%2A&gt;上に存在する<ph id="ph1">`node`</ph>し、現在のユーザーが、指定されたロールの少なくとも&amp;1; つ&lt;/xref:System.Web.SiteMapNode.Roles%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>- or -</source>
+          <target state="translated">- または -</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The current thread has an associated <ph id="ph1">`WindowsIdentity`</ph> that has file access to the requested URL and the URL is located within the directory structure for the application.</source>
+          <target state="translated">現在のスレッドに関連付けられています<ph id="ph1">`WindowsIdentity`</ph>を持つファイルのアクセスが要求された URL と URL がアプリケーションのディレクトリ構造内にあります。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>- or -</source>
+          <target state="translated">- または -</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The current user is authorized specifically for the requested URL in the <ph id="ph1">`authorization`</ph> element for the current application and the URL is located within the directory structure for the application.|<ph id="ph2">`true`</ph>|   |None of the preceding conditions is met.|<ph id="ph3">`false`</ph><ph id="ph4">|</ph></source>
+          <target state="translated">具体的には、要求された URL での現在のユーザーが承認されて、<ph id="ph1">`authorization`</ph>現在のアプリケーションと URL の要素は、アプリケーションのディレクトリ構造内に配置します |。<ph id="ph2">`true`</ph>|  |上記の条件を満たさない |。<ph id="ph3">`false`</ph><ph id="ph4">|</ph></target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains user information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ユーザー情報を格納します。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is requested by the user.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ユーザーが要求します。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if security trimming is enabled and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">node</ph><ept id="p2">&lt;/code&gt;</ept> can be viewed by the user or security trimming is not enabled; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>セキュリティ トリミングが有効になっている場合と<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">node</ph> <ept id="p2">&lt;/code&gt;</ept>表示できるユーザーまたはセキュリティがトリミングは有効になっている、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Gets or sets the parent <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current provider.</source>
+          <target state="translated">親の設定を取得または<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>現在のプロバイダーのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>All classes that implement the abstract &lt;xref:System.Web.SiteMapProvider&gt; class can support the concept of a site map provider hierarchy.</source>
+          <target state="translated">抽象を実装するすべてのクラス&lt;xref:System.Web.SiteMapProvider&gt;クラスは、サイト マップ プロバイダー階層の概念をサポートできます&lt;/xref:System.Web.SiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Any hierarchical relationships between providers are maintained outside the scope of a &lt;xref:System.Web.SiteMapProviderCollection&gt; collection by the providers themselves.</source>
+          <target state="translated">外側のスコープ プロバイダー間の階層リレーションシップが使用されます、&lt;xref:System.Web.SiteMapProviderCollection&gt;プロバイダー自体でのコレクション&lt;/xref:System.Web.SiteMapProviderCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>For an example of a functional provider hierarchy, see &lt;xref:System.Web.XmlSiteMapProvider&gt;.</source>
+          <target state="translated">機能プロバイダーの階層構造の例は、 &lt;xref:System.Web.XmlSiteMapProvider&gt;。&lt;/xref:System.Web.XmlSiteMapProvider&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The parent provider of the current <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">現在の親プロバイダー <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Removes the specified <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from the node collection that is maintained by the site map provider.</source>
+          <target state="translated">指定された削除<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>サイト マップ プロバイダーによって保持されているノードのコレクションからのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Classes deriving from the &lt;xref:System.Web.SiteMapProvider&gt; class can override the RemoveNode method and provide logic for removing &lt;xref:System.Web.SiteMapNode&gt; objects from the node collection that is maintained by the site map provider.</source>
+          <target state="translated">派生するクラス、&lt;xref:System.Web.SiteMapProvider&gt;クラスは、RemoveNode メソッドをオーバーライドしてを削除するためのロジックを提供できます&lt;xref:System.Web.SiteMapNode&gt;サイト マップ プロバイダーによって保持されているノードのコレクションからのオブジェクト&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The default implementation of the RemoveNode method throws a &lt;xref:System.NotImplementedException&gt; exception.</source>
+          <target state="translated">RemoveNode メソッドの既定の実装をスロー、&lt;xref:System.NotImplementedException&gt;例外です&lt;/xref:System.NotImplementedException&gt;。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove from the node collection maintained by the provider.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>プロバイダーによって保持されているノードのコレクションから削除します。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>In all cases.</source>
+          <target state="translated">すべての場合。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider.SiteMapResolve"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider.SiteMapResolve"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`context`</ph> parameter and a reference to the provider that called the ResolveSiteMapNode method are passed to the constructor of any associated &lt;xref:System.Web.SiteMapResolveEventArgs&gt; object.</source>
+          <target state="translated"><ph id="ph1">`context`</ph>パラメーターと ResolveSiteMapNode メソッドを呼び出して、プロバイダーへの参照が、関連付けられたすべてのコンストラクタに渡される&lt;xref:System.Web.SiteMapResolveEventArgs&gt;オブジェクト&lt;/xref:System.Web.SiteMapResolveEventArgs&gt;。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for which the site map currently exists.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>サイト マップが現在存在するためです。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> provided by the event handler delegate that is registered to handle the event or, if more than one delegate is registered to handle the event, the return value of the last delegate in the delegate chain; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>提供されるイベントを処理する登録されているイベント ハンドラーのデリゲートによって、イベント、委任チェーンの最後のデリゲートの戻り値を処理する&amp;1; つのデリゲートが登録されている数より多い場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Get or sets the resource key that is used for localizing <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attributes.</source>
+          <target state="translated">取得または設定のローカライズに使用されるリソース キー <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>属性。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The ResourceKey property is used with the &lt;xref:System.Web.SiteMapNode.GetImplicitResourceString%2A&gt; method of the &lt;xref:System.Web.SiteMapNode&gt; class.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapNode.GetImplicitResourceString%2A&gt;&lt;xref:System.Web.SiteMapNode&gt;クラス&lt;/xref:System.Web.SiteMapNode&gt;のメソッド&lt;/xref:System.Web.SiteMapNode.GetImplicitResourceString%2A&gt;では、ResourceKey プロパティを使用してください。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For the &lt;xref:System.Web.SiteMapNode.Title%2A&gt; and &lt;xref:System.Web.SiteMapNode.Description%2A&gt; properties, as well as any additional attributes that are defined in the &lt;xref:System.Web.SiteMapNode.Attributes%2A&gt; collection of the &lt;xref:System.Web.SiteMapNode&gt; object, the &lt;xref:System.Web.SiteMapNode.GetImplicitResourceString%2A&gt; method takes precedence over the &lt;xref:System.Web.SiteMapNode.GetExplicitResourceString%2A&gt; when the localization is enabled with the &lt;xref:System.Web.SiteMapProvider.EnableLocalization%2A&gt; property set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">&lt;xref:System.Web.SiteMapNode.Title%2A&gt;と&lt;xref:System.Web.SiteMapNode.Description%2A&gt;で定義されている追加の属性と同様に、プロパティ、&lt;xref:System.Web.SiteMapNode.Attributes%2A&gt;のコレクション、&lt;xref:System.Web.SiteMapNode&gt;オブジェクト、&lt;xref:System.Web.SiteMapNode.GetImplicitResourceString%2A&gt;メソッドよりも優先、&lt;xref:System.Web.SiteMapNode.GetExplicitResourceString%2A&gt;とローカライズが有効にすると、&lt;xref:System.Web.SiteMapProvider.EnableLocalization%2A&gt;プロパティに設定<ph id="ph1">`true`</ph>&lt;/xref:System.Web.SiteMapProvider.EnableLocalization%2A&gt;&lt;/xref:System.Web.SiteMapNode.GetExplicitResourceString%2A&gt;&lt;/xref:System.Web.SiteMapNode.GetImplicitResourceString%2A&gt;&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapNode.Attributes%2A&gt;&lt;/xref:System.Web.SiteMapNode.Description%2A&gt;&lt;/xref:System.Web.SiteMapNode.Title%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>A string containing the resource key name.</source>
+          <target state="translated">リソース キーの名前を含む文字列。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Gets the root <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the site map data that the current provider represents.</source>
+          <target state="translated">ルートを取得します<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>のサイト マップ データを現在のプロバイダーを表すオブジェクト。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The default implementation calls the abstract &lt;xref:System.Web.SiteMapProvider.GetRootNodeCore%2A&gt; method.</source>
+          <target state="translated">既定の実装を呼び出す、抽象&lt;xref:System.Web.SiteMapProvider.GetRootNodeCore%2A&gt;メソッド&lt;/xref:System.Web.SiteMapProvider.GetRootNodeCore%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The root <bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the current site map data provider.</source>
+          <target state="translated">ルート<bpt id="p1">&lt;xref href="System.Web.SiteMapNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>の現在のサイト マップ データ プロバイダー。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The default implementation performs security trimming on the returned node.</source>
+          <target state="translated">既定の実装では、返されたノードのセキュリティ トリミングを実行します。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Gets the root <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object in the current provider hierarchy.</source>
+          <target state="translated">ルートを取得します<bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>プロバイダーの現在の階層構造内のオブジェクト。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>All classes that implement the &lt;xref:System.Web.SiteMapProvider&gt; class can support the concept of a site map provider hierarchy.</source>
+          <target state="translated">実装するすべてのクラス、&lt;xref:System.Web.SiteMapProvider&gt;クラスは、サイト マップ プロバイダー階層の概念をサポートできます&lt;/xref:System.Web.SiteMapProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Any hierarchical relationships between providers are maintained outside the scope of a &lt;xref:System.Web.SiteMapProviderCollection&gt; collection by the providers themselves.</source>
+          <target state="translated">外側のスコープ プロバイダー間の階層リレーションシップが使用されます、&lt;xref:System.Web.SiteMapProviderCollection&gt;プロバイダー自体でのコレクション&lt;/xref:System.Web.SiteMapProviderCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>For an example of a functional provider hierarchy, see &lt;xref:System.Web.XmlSiteMapProvider&gt;.</source>
+          <target state="translated">機能プロバイダーの階層構造の例は、 &lt;xref:System.Web.XmlSiteMapProvider&gt;。&lt;/xref:System.Web.XmlSiteMapProvider&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the top-level site map provider in the provider hierarchy that the current provider belongs to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SiteMapProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>が現在のプロバイダーが属している、プロバイダー階層内の最上位サイト マップ プロバイダーはします。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>There is a circular reference to the current site map provider.</source>
+          <target state="translated">現在のサイト マップ プロバイダーに循環参照があります。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Gets a Boolean value indicating whether a site map provider filters site map nodes based on a user's role.</source>
+          <target state="translated">サイト マップ プロバイダーがユーザーのロールに基づくサイト マップ ノードをフィルター処理するかどうかを示すブール値を取得します。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Security trimming cannot be set programmatically—it is set in the configuration for the provider.</source>
+          <target state="translated">セキュリティのトリミングをプログラムで設定することはできません: プロバイダーの構成で設定されています。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the provider is configured to filter nodes based on role; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ノード ロールに基づくフィルター処理する、プロバイダーが構成されている場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Web.SiteMapProvider.CurrentNode*&gt; property is called.</source>
+          <target state="translated">発生したときに、&lt;xref:System.Web.SiteMapProvider.CurrentNode*&gt;プロパティが呼び出されます&lt;/xref:System.Web.SiteMapProvider.CurrentNode*&gt;。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>You can create a &lt;xref:System.Web.SiteMapNode&gt; representation of the currently requested page without implementing a custom site map provider by subscribing to the SiteMapResolve event.</source>
+          <target state="translated">作成することができます、 &lt;xref:System.Web.SiteMapNode&gt;SiteMapResolve イベントにサブスクライブすることによって、カスタムのサイト マップ プロバイダーを実装することがなく、現在要求されたページの表現&lt;/xref:System.Web.SiteMapNode&gt;。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Subscribers attach a &lt;xref:System.Web.SiteMapResolveEventHandler&gt; object to receive notification when the &lt;xref:System.Web.SiteMapProvider.CurrentNode%2A&gt; property is called and can return a custom &lt;xref:System.Web.SiteMapNode&gt; object instead of the default one that is returned by the &lt;xref:System.Web.SiteMapProvider.CurrentNode%2A&gt; property.</source>
+          <target state="translated">サブスクライバーのアタッチ、&lt;xref:System.Web.SiteMapResolveEventHandler&gt;通知を受信するオブジェクトと、&lt;xref:System.Web.SiteMapProvider.CurrentNode%2A&gt;プロパティが呼び出され、カスタムを返すことができます&lt;xref:System.Web.SiteMapNode&gt;によって返されるいずれか、既定ではなくオブジェクト、&lt;xref:System.Web.SiteMapProvider.CurrentNode%2A&gt;プロパティ&lt;/xref:System.Web.SiteMapProvider.CurrentNode%2A&gt;&lt;/xref:System.Web.SiteMapNode&gt;&lt;/xref:System.Web.SiteMapProvider.CurrentNode%2A&gt;&lt;/xref:System.Web.SiteMapResolveEventHandler&gt;。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">イベント処理の詳細については、次を参照してください。 <bpt id="p1">[</bpt>NIB: イベントの利用<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>です。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

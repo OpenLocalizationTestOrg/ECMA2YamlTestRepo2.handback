@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f02546ad90e504289210da4c2815ed63e307fabf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.ChannelDispatcherBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa253b10224a01e44938271eac4436adfe861d4d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b42c611decd4b7ec981ac85485ffabdbf9f731bc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Abstract base class for the channel dispatcher that accepts channels and associates them with a service.</source>
+          <target state="translated">채널 허용 하는 서비스에 연결 하는 채널 디스패처에 대 한 추상 기본 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is used by developers who want to keep the <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> programming model but replace the system-provided runtime.</source>
+          <target state="translated">이 유지 하려는 개발자가 사용는 <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> 프로그래밍 모델 하면서 시스템 제공 런타임 대체 합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such applications will pull messages out of channels and handle them directly with user-defined dispatchers.</source>
+          <target state="translated">이러한 응용 프로그램 채널에서 메시지를 사용자 정의 디스패처를 사용 하 여 직접 처리 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use ChannelDispatcherBase , create a class derived from it, extend &lt;xref:System.ServiceModel.ServiceHost&gt; and override &lt;xref:System.ServiceModel.ServiceHostBase.InitializeRuntime%2A&gt;, adding instances of your class derived from ChannelDispatcherBase to &lt;xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt;.</source>
+          <target state="translated">파생 된 클래스를 만든를 ChannelDispatcherBase 사용 하려면, &lt;xref:System.ServiceModel.ServiceHost&gt; &lt;xref:System.ServiceModel.ServiceHostBase.InitializeRuntime%2A&gt; &lt;xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt;.&lt;/xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt; ChannelDispatcherBase에서 파생 된 클래스의 인스턴스를 추가,&lt;/xref:System.ServiceModel.ServiceHostBase.InitializeRuntime%2A&gt; 재정의 및&lt;/xref:System.ServiceModel.ServiceHost&gt; 확장</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceModel.Channels.IChannelListener&gt; and the &lt;xref:System.ServiceModel.ServiceHost&gt;, associated with the ChannelDispatcherBase object are available for inspection or modification through the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Listener%2A&gt; and &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Host%2A&gt; respectively.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.IChannelListener&gt;및 &lt;xref:System.ServiceModel.ServiceHost&gt;연관 된 ChannelDispatcherBase 개체와 통해 검사 하거나 수정에 사용할 수 있는 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Listener%2A&gt;및 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Host%2A&gt;각각.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Host%2A&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Listener%2A&gt; &lt;/xref:System.ServiceModel.ServiceHost&gt; &lt;/xref:System.ServiceModel.Channels.IChannelListener&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceModel.ServiceHost&gt; calls the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Attach%28System.ServiceModel.ServiceHostBase%29&gt; or &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Detach%28System.ServiceModel.ServiceHostBase%29&gt; methods when adding or removing a ChannelDispatcherBase item from its &lt;xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt; collection.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.ServiceHost&gt;호출 된 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Attach%28System.ServiceModel.ServiceHostBase%29&gt;또는 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Detach%28System.ServiceModel.ServiceHostBase%29&gt;메서드를 추가 하거나 ChannelDispatcherBase 항목을 제거할 때 해당 &lt;xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt;컬렉션.&lt;/xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Detach%28System.ServiceModel.ServiceHostBase%29&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Attach%28System.ServiceModel.ServiceHostBase%29&gt;&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceModel.ServiceHost&gt; calls the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.CloseInput%2A&gt; during shutdown before closing InstanceContexts.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.ServiceHost&gt;호출 된 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.CloseInput%2A&gt;InstanceContexts를 닫기 전에 종료 하는 동안.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.CloseInput%2A&gt;&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> uses this call to close datagram channels and wait for all messages to get to an InstanceContext.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>이 호출을 사용 하 여 데이터 그램 채널을 닫고 모든 메시지를 InstanceContext로 가져올 때까지 대기 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.ChannelDispatcherBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceModel.Dispatcher.ChannelDispatcherBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, attaches the channel dispatcher to a specific host.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 특정 호스트에 채널 디스패처를 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can only be set when the instance of the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt; is in the &lt;xref:System.ServiceModel.CommunicationState&gt; state, as this is the only state that is both mutable and not disposed.</source>
+          <target state="translated">이 방법은 수만 설정 될 때의 인스턴스는 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;에 &lt;xref:System.ServiceModel.CommunicationState&gt;상태는 변경 가능 하면서 삭제 되지 않은 유일한 상태 이것이.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.ServiceModel.ServiceHost&gt; calls this method when the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt; is added to its &lt;xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt; collection.</source>
+          <target state="translated">A &lt;xref:System.ServiceModel.ServiceHost&gt;이 메서드를 호출 하는 경우는 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt;에 추가 됩니다 해당 &lt;xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt;컬렉션.&lt;/xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt; &lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This gives the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt; a chance to hook events and inspect the &lt;xref:System.ServiceModel.ServiceHost&gt;, and provides the value that should be returned from the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Host%2A&gt; property.</source>
+          <target state="translated">이렇게 하면는 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt;이벤트를 연결 하 고를 검사 하는 &lt;xref:System.ServiceModel.ServiceHost&gt;에서 반환 되어야 하는 값을 제공 된 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Host%2A&gt;속성.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase.Host%2A&gt; &lt;/xref:System.ServiceModel.ServiceHost&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the service.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 서비스에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The communication object is in an &lt;xref:System.ServiceModel.CommunicationState&gt; or &lt;xref:System.ServiceModel.CommunicationState&gt; state or the host is already set.</source>
+          <target state="translated">통신 개체가 &lt;xref:System.ServiceModel.CommunicationState&gt;또는 &lt;xref:System.ServiceModel.CommunicationState&gt;상태 이거나 호스트가 이미 설정 되어 있습니다.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The communication object is in a &lt;xref:System.ServiceModel.CommunicationState&gt; or &lt;xref:System.ServiceModel.CommunicationState&gt; state.</source>
+          <target state="translated">통신 개체가 &lt;xref:System.ServiceModel.CommunicationState&gt;또는 &lt;xref:System.ServiceModel.CommunicationState&gt;상태.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The communication object is in a &lt;xref:System.ServiceModel.CommunicationState&gt; state.</source>
+          <target state="translated">통신 개체가 &lt;xref:System.ServiceModel.CommunicationState&gt;상태.&lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, removes the endpoint dispatchers associated with the channel dispatcher.</source>
+          <target state="translated">파생된 클래스에서 재정의 하는 경우 채널 디스패처에 연결 된 끝점 디스패처를 제거 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceModel.ServiceHost&gt; calls this method during shutdown to give the dispatcher a chance to drain messages.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.ServiceHost&gt;종료 메시지를 비울 발송자 제공할 수 있도록 하는 동안이 메서드를 호출 합니다.&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt; uses this call to close datagram channels.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;이 호출을 사용 하 여 데이터 그램 채널을 닫습니다.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, detaches the channel dispatcher from a specific host.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 채널 디스패처를 특정 호스트에서 분리 합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceModel.ServiceHostBase&gt; can only be detached when the instance of the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt; is in the &lt;xref:System.ServiceModel.CommunicationState&gt; state, as this is the only state that is both mutable and not disposed.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.ServiceHostBase&gt;만 경우 분리할 수의 인스턴스는 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;에 &lt;xref:System.ServiceModel.CommunicationState&gt;상태는 변경 가능 하면서 삭제 되지 않은 유일한 상태 이것이.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt; &lt;/xref:System.ServiceModel.ServiceHostBase&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Should set the &lt;xref:System.ServiceModel.ServiceHostBase&gt; associated with the channel dispatcher to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">설정 해야는 &lt;xref:System.ServiceModel.ServiceHostBase&gt;를 채널 디스패처에 연결 된 <ph id="ph1">`null`</ph>.&lt;/xref:System.ServiceModel.ServiceHostBase&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceModel.ServiceHost&gt; calls this method when the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt; is removed from its &lt;xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt; collection.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.ServiceHost&gt;이 메서드를 호출 하는 경우는 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt;에서 제거 됩니다 해당 &lt;xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt;컬렉션.&lt;/xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt;&lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This gives the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt; a chance to unhook events and inspect the &lt;xref:System.ServiceModel.ServiceHost&gt;.</source>
+          <target state="translated">이렇게 하면 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt;기회 이벤트를 언 &lt;xref:System.ServiceModel.ServiceHost&gt;.&lt;/xref:System.ServiceModel.ServiceHost&gt; 검사&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The communication object is in an &lt;xref:System.ServiceModel.CommunicationState&gt; or &lt;xref:System.ServiceModel.CommunicationState&gt; state or the host is already set.</source>
+          <target state="translated">통신 개체가 &lt;xref:System.ServiceModel.CommunicationState&gt;또는 &lt;xref:System.ServiceModel.CommunicationState&gt;상태 이거나 호스트가 이미 설정 되어 있습니다.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The communication object is in a &lt;xref:System.ServiceModel.CommunicationState&gt; or &lt;xref:System.ServiceModel.CommunicationState&gt; state.</source>
+          <target state="translated">통신 개체가 &lt;xref:System.ServiceModel.CommunicationState&gt;또는 &lt;xref:System.ServiceModel.CommunicationState&gt;상태.&lt;/xref:System.ServiceModel.CommunicationState&gt; &lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The communication object is in a &lt;xref:System.ServiceModel.CommunicationState&gt; state.</source>
+          <target state="translated">통신 개체가 &lt;xref:System.ServiceModel.CommunicationState&gt;상태.&lt;/xref:System.ServiceModel.CommunicationState&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the service host associated with the channel dispatcher.</source>
+          <target state="translated">파생된 클래스에서 재정의 하는 경우 채널 디스패처에 연결 된 서비스 호스트를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each &lt;xref:System.ServiceModel.ServiceHost&gt; object can have many &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt; objects, each associated with a different &lt;xref:System.ServiceModel.Channels.IChannelListener&gt; for that service.</source>
+          <target state="translated">각 &lt;xref:System.ServiceModel.ServiceHost&gt;개체 수는 많은 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;개체, 연결 된 다른 &lt;xref:System.ServiceModel.Channels.IChannelListener&gt;해당 서비스에 대 한.&lt;/xref:System.ServiceModel.Channels.IChannelListener&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt; &lt;/xref:System.ServiceModel.ServiceHost&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host keeps a list of these &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt; objects in the &lt;xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt; collection.</source>
+          <target state="translated">이러한 목록을 저장 하는 호스트 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt;개체에 &lt;xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt;컬렉션.&lt;/xref:System.ServiceModel.ServiceHostBase.ChannelDispatchers%2A&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the service associated with the dispatcher.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ServiceModel.ServiceHostBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 디스패처에 연결 된 서비스에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the channel listener associated with the channel dispatcher.</source>
+          <target state="translated">파생된 클래스에서 재정의 하는 경우 채널 디스패처에 연결 된 채널 수신기를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt; associates an &lt;xref:System.ServiceModel.Channels.IChannelListener&gt; whose channels and messages this &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt; is dispatching.</source>
+          <target state="translated">A &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;연결는 &lt;xref:System.ServiceModel.Channels.IChannelListener&gt;해당 채널과 메시지이 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt;디스패치하지 않습니다.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcherBase&gt; &lt;/xref:System.ServiceModel.Channels.IChannelListener&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.IChannelListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the channel dispatcher.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ServiceModel.Channels.IChannelListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 채널 디스패처에 연결 된입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ede621ea232a1c9d62724d71256fce6b641420b8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.QueryStringParameter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4532e5127536d0a027b21f2283e40eeb7f86d213</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2b353066ec7b7dbeac90984d4e9475747cb9f6d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Binds the value of an HTTP request query-string field to a parameter object.</source>
+          <target state="translated">將 HTTP 要求查詢字串欄位的值繫結至參數物件。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>You can use the QueryStringParameter class to bind the value of a field that is passed as part of an HTTP request query string to a parameter that is used in a parameterized query or command.</source>
+          <target state="translated">您可以使用 QueryStringParameter 類別繫結欄位做為 HTTP 要求查詢字串的一部分使用的參數傳遞的參數型的查詢或命令的值。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The field is retrieved from the &lt;xref:System.Web.HttpRequest.QueryString%2A&gt; collection.</source>
+          <target state="translated">欄位會擷取從&lt;xref:System.Web.HttpRequest.QueryString%2A&gt;集合。&lt;/xref:System.Web.HttpRequest.QueryString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Controls that bind data to the parameter might throw an exception if a QueryStringParameter object is referenced, but no corresponding query-string name/value pair is passed.</source>
+          <target state="translated">將資料繫結至參數的控制項可能會擲回例外狀況，如果 QueryStringParameter 物件參考，但沒有對應的查詢字串名稱/值組傳遞。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Similarly, they might display no data if the query-string field name is passed without a corresponding value.</source>
+          <target state="translated">同樣地，它們可能會顯示任何資料，如果傳遞查詢字串欄位名稱，而且對應的值。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To avoid these situations, set the &lt;xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt; property where appropriate.</source>
+          <target state="translated">若要避免發生這些情況下，設定&lt;xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt;屬性適當的位置。&lt;/xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The QueryStringParameter class provides the &lt;xref:System.Web.UI.WebControls.QueryStringParameter.QueryStringField%2A&gt; property, which identifies the name of the query string value to bind to.</source>
+          <target state="translated">QueryStringParameter 類別提供&lt;xref:System.Web.UI.WebControls.QueryStringParameter.QueryStringField%2A&gt;屬性，其可識別要繫結至查詢字串值的名稱。&lt;/xref:System.Web.UI.WebControls.QueryStringParameter.QueryStringField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It also provides the properties that are inherited from the &lt;xref:System.Web.UI.WebControls.Parameter&gt; class.</source>
+          <target state="translated">它也提供的屬性，都繼承自&lt;xref:System.Web.UI.WebControls.Parameter&gt;類別。&lt;/xref:System.Web.UI.WebControls.Parameter&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The QueryStringParameter class does not validate the value that is passed; it provides the raw value.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; QueryStringParameter 類別不會驗證傳遞的值; 它提供未經處理的值。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>However, you can validate the value of a QueryStringParameter object in a data source control.</source>
+          <target state="translated">不過，您可以驗證 QueryStringParameter 中之物件的資料來源控制項的值。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To do so, handle the <ph id="ph1">`Selecting`</ph>, <ph id="ph2">`Updating`</ph>, <ph id="ph3">`Inserting`</ph>, or <ph id="ph4">`Deleting`</ph> event of the data source control and check the parameter value in the event handler.</source>
+          <target state="translated">若要這樣做，請處理<ph id="ph1">`Selecting`</ph>， <ph id="ph2">`Updating`</ph>， <ph id="ph3">`Inserting`</ph>，或<ph id="ph4">`Deleting`</ph>事件資料的原始檔控制，並檢查的事件處理常式的參數值。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If the value of the parameter does not pass the validation tests, you can cancel the data operation by setting the &lt;xref:System.ComponentModel.CancelEventArgs.Cancel%2A&gt; property of the associated &lt;xref:System.ComponentModel.CancelEventArgs&gt; class to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">如果參數的值未通過驗證測試，您可以藉由設定取消資料作業&lt;xref:System.ComponentModel.CancelEventArgs.Cancel%2A&gt;屬性相關聯的&lt;xref:System.ComponentModel.CancelEventArgs&gt;類別<ph id="ph1">`true`</ph>。&lt;/xref:System.ComponentModel.CancelEventArgs&gt; &lt;/xref:System.ComponentModel.CancelEventArgs.Cancel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new unnamed instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化新的具名執行個體的<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt; object that is created by using the QueryStringParameter constructor is initialized with default values for all its properties.</source>
+          <target state="translated">A&lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt;使用 QueryStringParameter 建構函式所建立的物件使用其所有屬性的預設值初始化。&lt;/xref:System.Web.UI.WebControls.QueryStringParameter&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The properties are initialized as follows:      -   &lt;xref:System.Web.UI.WebControls.QueryStringParameter.QueryStringField%2A&gt; is initialized to an empty string ("").</source>
+          <target state="translated">屬性會初始化，如下所示:-&lt;xref:System.Web.UI.WebControls.QueryStringParameter.QueryStringField%2A&gt;會初始化為空字串 ("")。&lt;/xref:System.Web.UI.WebControls.QueryStringParameter.QueryStringField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Web.UI.WebControls.Parameter.Name%2A&gt; is initialized to an empty string ("").</source>
+          <target state="translated">-&lt;xref:System.Web.UI.WebControls.Parameter.Name%2A&gt;會初始化為空字串 ("")。&lt;/xref:System.Web.UI.WebControls.Parameter.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Web.UI.WebControls.Parameter.Type%2A&gt; is initialized to &lt;xref:System.TypeCode?displayProperty=fullName&gt;.</source>
+          <target state="translated">-&lt;xref:System.Web.UI.WebControls.Parameter.Type%2A&gt;已初始化為&lt;xref:System.TypeCode?displayProperty=fullName&gt;.&lt;/xref:System.TypeCode?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.Parameter.Type%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Web.UI.WebControls.Parameter.Direction%2A&gt; is initialized to &lt;xref:System.Data.ParameterDirection&gt;.</source>
+          <target state="translated">-&lt;xref:System.Web.UI.WebControls.Parameter.Direction%2A&gt;已初始化為&lt;xref:System.Data.ParameterDirection&gt;.&lt;/xref:System.Data.ParameterDirection&gt; &lt;/xref:System.Web.UI.WebControls.Parameter.Direction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt; is initialized to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">-&lt;xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt;會初始化為<ph id="ph1">`null`</ph>。&lt;/xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, using the values of the instance that is specified by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">original</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，使用指定的執行個體的值<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">original</ph> <ept id="p2">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The QueryStringParameter constructor is a protected copy constructor that is used to clone a &lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt; instance.</source>
+          <target state="translated">QueryStringParameter 建構函式是用來複製的受保護的複製建構函式&lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt;執行個體。&lt;/xref:System.Web.UI.WebControls.QueryStringParameter&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The values of the &lt;xref:System.Web.UI.WebControls.QueryStringParameter.QueryStringField%2A&gt;, &lt;xref:System.Web.UI.WebControls.Parameter.Name%2A&gt;, and &lt;xref:System.Web.UI.WebControls.Parameter.Type%2A&gt; properties are transferred to the new instance.</source>
+          <target state="translated">值&lt;xref:System.Web.UI.WebControls.QueryStringParameter.QueryStringField%2A&gt;， &lt;xref:System.Web.UI.WebControls.Parameter.Name%2A&gt;，和&lt;xref:System.Web.UI.WebControls.Parameter.Type%2A&gt;屬性傳送到新的執行個體。&lt;/xref:System.Web.UI.WebControls.Parameter.Type%2A&gt; &lt;/xref:System.Web.UI.WebControls.Parameter.Name%2A&gt; &lt;/xref:System.Web.UI.WebControls.QueryStringParameter.QueryStringField%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance from which the current instance is initialized.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>初始化目前的執行個體的執行個體。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new named instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, using the specified string to identify which query-string field to bind to.</source>
+          <target state="translated">初始化新的具名執行個體<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，來識別要繫結的查詢字串欄位使用指定的字串。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt; object that is created by using the QueryStringParameter constructor is initialized with the specified parameter name that identifies the query-string field that the parameter binds to.</source>
+          <target state="translated">A&lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt;使用 QueryStringParameter 建構函式所建立的物件使用指定的參數名稱來識別繫結的參數的查詢字串欄位初始化。&lt;/xref:System.Web.UI.WebControls.QueryStringParameter&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.Parameter.Type%2A&gt; and &lt;xref:System.Web.UI.WebControls.Parameter.Direction%2A&gt; properties are initialized with default values.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Parameter.Type%2A&gt;和&lt;xref:System.Web.UI.WebControls.Parameter.Direction%2A&gt;屬性會初始化使用預設值。&lt;/xref:System.Web.UI.WebControls.Parameter.Direction%2A&gt; &lt;/xref:System.Web.UI.WebControls.Parameter.Type%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">參數的名稱。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The name of the query-string field that the parameter object is bound to.</source>
+          <target state="translated">參數物件的繫結至查詢字串欄位的名稱。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">預設為空字串 ("")。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes a new named instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, using the specified query-string field and the data type of the parameter.</source>
+          <target state="translated">初始化新的具名執行個體<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，使用指定的查詢字串欄位和參數的資料類型。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">參數的名稱。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The data type of the parameter.</source>
+          <target state="translated">參數的資料型別。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The name of the query-string field that the parameter object is bound to.</source>
+          <target state="translated">參數物件的繫結至查詢字串欄位的名稱。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">預設為空字串 ("")。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Initializes a new named and strongly typed instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, using the specified string to identify which query-string field to bind to.</source>
+          <target state="translated">初始化的新命名和強型別執行個體<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，來識別要繫結的查詢字串欄位使用指定的字串。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt; object that is created by using the QueryStringParameter constructor is initialized with the specified parameter name, the parameter type, and a string that identifies the query-string field that the parameter binds to.</source>
+          <target state="translated">A&lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt;使用 QueryStringParameter 建構函式所建立的物件使用指定的參數名稱、 參數類型和識別繫結的參數的查詢字串欄位的字串初始化。&lt;/xref:System.Web.UI.WebControls.QueryStringParameter&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.Parameter.Direction%2A&gt; and &lt;xref:System.Web.UI.WebControls.Parameter.ConvertEmptyStringToNull%2A&gt; properties are initialized with default values.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Parameter.Direction%2A&gt;和&lt;xref:System.Web.UI.WebControls.Parameter.ConvertEmptyStringToNull%2A&gt;屬性會初始化使用預設值。&lt;/xref:System.Web.UI.WebControls.Parameter.ConvertEmptyStringToNull%2A&gt; &lt;/xref:System.Web.UI.WebControls.Parameter.Direction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The name of the parameter.</source>
+          <target state="translated">參數的名稱。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The type that the parameter represents.</source>
+          <target state="translated">型別參數所代表。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default is &lt;xref:System.TypeCode&gt;.</source>
+          <target state="translated">預設值為&lt;xref:System.TypeCode&gt;.&lt;/xref:System.TypeCode&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The name of the query-string field that the parameter object is bound to.</source>
+          <target state="translated">參數物件的繫結至查詢字串欄位的名稱。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">預設為空字串 ("")。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Returns a duplicate of the current <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">傳回目前的複本<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>執行個體。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The Clone method calls the &lt;xref:System.Web.UI.WebControls.QueryStringParameter.%23ctor%2A&gt; constructor to initialize a new instance of the &lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt; class by using the values of the current instance.</source>
+          <target state="translated">再製方法呼叫&lt;xref:System.Web.UI.WebControls.QueryStringParameter.%23ctor%2A&gt;建構函式初始化的新執行個體&lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt;類別使用的目前執行個體的值。&lt;/xref:System.Web.UI.WebControls.QueryStringParameter&gt; &lt;/xref:System.Web.UI.WebControls.QueryStringParameter.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A duplicate of the current instance.</source>
+          <target state="translated">目前的執行個體的複本。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Updates and returns the value of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">更新，並傳回的值<bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt; object tries to bind to the query-string field every time that the Evaluate method is called.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt;物件會繫結至查詢字串欄位 Evaluate 方法會呼叫每次嘗試。&lt;/xref:System.Web.UI.WebControls.QueryStringParameter&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`context`</ph> parameter is used by the Evaluate method to retrieve the value of the specified query-string field from the query string.</source>
+          <target state="translated"><ph id="ph1">`context`</ph> Evaluate 方法使用參數來擷取查詢字串中指定的查詢字串欄位的值。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`control`</ph> parameter is ignored.</source>
+          <target state="translated"><ph id="ph1">`control`</ph>參數已忽略。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance of the request.</source>
+          <target state="translated">目前<bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要求的執行個體。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A Web server control that is associated with the ASP.NET Web page where the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is used.</source>
+          <target state="translated">Web 伺服器控制項所關聯之 ASP.NET Web 網頁 where <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.QueryStringParameter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件使用。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This parameter is not used.</source>
+          <target state="translated"><bpt id="p1">**</bpt>請注意<ept id="p1">**</ept>未使用此參數。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An object that represents the current value of the parameter.</source>
+          <target state="translated">物件，表示參數的目前值。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If the context or the request is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the Evaluate method returns <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果內容或要求<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，評估方法會傳回<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the query-string field that the parameter binds to.</source>
+          <target state="translated">取得或設定參數繫結至查詢字串欄位的名稱。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The QueryStringField property identifies a name/value pair that is passed with the query string.</source>
+          <target state="translated">QueryStringField 屬性識別傳遞查詢字串的名稱/值組。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The QueryStringField property identifies the name of the pair, whereas the &lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt; property binds to its corresponding value at run time.</source>
+          <target state="translated">QueryStringField 屬性會識別組的名稱，而&lt;xref:System.Web.UI.WebControls.QueryStringParameter&gt;在執行階段屬性繫結至其對應的值。&lt;/xref:System.Web.UI.WebControls.QueryStringParameter&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If the expected query-string name/value pair is not passed to the page with the query string, the &lt;xref:System.Web.UI.WebControls.QueryStringParameter.Evaluate%2A&gt; method then tries to bind the parameter to the value of the &lt;xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt; property.</source>
+          <target state="translated">如果預期的查詢字串名稱/值組不會傳遞至查詢字串，包含頁面&lt;xref:System.Web.UI.WebControls.QueryStringParameter.Evaluate%2A&gt;方法然後嘗試將參數繫結的值&lt;xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt; &lt;/xref:System.Web.UI.WebControls.QueryStringParameter.Evaluate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt; property is not set, the &lt;xref:System.Web.UI.WebControls.QueryStringParameter.Evaluate%2A&gt; method fails to bind the parameter to a value.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt;未設定屬性，&lt;xref:System.Web.UI.WebControls.QueryStringParameter.Evaluate%2A&gt;方法時，無法將參數繫結的值。&lt;/xref:System.Web.UI.WebControls.QueryStringParameter.Evaluate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Parameter.DefaultValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The name of the query-string field that the parameter binds to.</source>
+          <target state="translated">參數繫結至查詢字串欄位的名稱。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets or sets whether the value of the query string parameter is being validated or not.</source>
+          <target state="translated">取得或設定是否或未驗證查詢字串參數的值。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If the page property &lt;xref:System.Web.UI.Page.SkipFormActionValidation%2A&gt; is set to <ph id="ph1">`true`</ph>, and the ValidateInput property is set to <ph id="ph2">`false`</ph>, the query string parameter will not be validated.</source>
+          <target state="translated">如果頁面屬性&lt;xref:System.Web.UI.Page.SkipFormActionValidation%2A&gt;設<ph id="ph1">`true`</ph>，和 ValidateInput 屬性設定為<ph id="ph2">`false`</ph>，將不會驗證查詢字串參數。&lt;/xref:System.Web.UI.Page.SkipFormActionValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>However, if the page property &lt;xref:System.Web.UI.Page.SkipFormActionValidation%2A&gt; is set to <ph id="ph1">`true`</ph>, and the ValidateInput property is set to <ph id="ph2">`true`</ph>, the query string parameter will be validated.</source>
+          <target state="translated">不過，如果頁面屬性&lt;xref:System.Web.UI.Page.SkipFormActionValidation%2A&gt;設<ph id="ph1">`true`</ph>，和 ValidateInput 屬性設定為<ph id="ph2">`true`</ph>，將會驗證查詢字串參數。&lt;/xref:System.Web.UI.Page.SkipFormActionValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If the page property &lt;xref:System.Web.UI.Page.SkipFormActionValidation%2A&gt; is set to <ph id="ph1">`false`</ph>, the query string parameter will be validated regardless of whether the ValidateInput property is set to <ph id="ph2">`true`</ph> or <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">如果頁面屬性&lt;xref:System.Web.UI.Page.SkipFormActionValidation%2A&gt;設<ph id="ph1">`false`</ph>，將驗證查詢字串參數，不論 ValidateInput 屬性設定為<ph id="ph2">`true`</ph>或<ph id="ph3">`false`</ph>。&lt;/xref:System.Web.UI.Page.SkipFormActionValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the value of the query parameter is being validated; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果正在驗證查詢參數的值;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

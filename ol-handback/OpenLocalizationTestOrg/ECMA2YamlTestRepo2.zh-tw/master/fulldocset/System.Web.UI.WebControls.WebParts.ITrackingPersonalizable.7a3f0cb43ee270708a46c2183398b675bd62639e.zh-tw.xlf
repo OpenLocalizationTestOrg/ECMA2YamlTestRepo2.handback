@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f5f0fb84f5ab91f6e30b9b4e3d9713238b0506a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac923bc91f520128508df3305400daad7b2fe6dc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45c4f07c36d0d475b09a775a981fb424d8d52774</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows Web Parts controls to track the specific phases of the personalization load and save process.</source>
+          <target state="translated">可讓 Web 組件控制項，來追蹤特定的階段個人化載入和儲存程序。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This interface allows control developers to track different phases of the personalization life cycle, including the loading and saving of personalization data.</source>
+          <target state="translated">這個介面可讓控制項開發人員追蹤個人化生命週期，包括載入和儲存的個人化資料的不同階段。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In most cases, to use this interface you would create a custom &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; or &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; and implement this interface.</source>
+          <target state="translated">在大部分的情況下，您也會在使用這個介面建立自訂&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;或&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;和實作這個介面。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Additionally, controls that need to manage their own change ("dirty") tracking should implement this interface.</source>
+          <target state="translated">此外，需要管理他們自己的變更 （「 有所變更 」） 追蹤的控制項應該實作這個介面。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Controls that manage their own change tracking should return <ph id="ph1">`true`</ph> from the &lt;xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt; property.</source>
+          <target state="translated">管理他們自己的變更追蹤的控制項應該傳回<ph id="ph1">`true`</ph>從&lt;xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt;屬性。&lt;/xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`false`</ph> is returned, then ASP.NET is responsible for determining changes by comparing the property information loaded with the property information that was saved.</source>
+          <target state="translated">如果<ph id="ph1">`false`</ph>傳回，則 ASP.NET 負責決定藉由比較屬性資訊的變更載入已儲存的內容資訊。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Represents the beginning of the load phase for personalization information.</source>
+          <target state="translated">代表 「 載入 」 階段的個人化資訊開始。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Web Parts control set calls this method prior to applying personalization data.</source>
+          <target state="translated">Web 組件控制項集合會呼叫這個方法之前套用個人化資料。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A control that tracks its own change state should use this method to set an internal flag indicating that properties should not call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.</source>
+          <target state="translated">會追蹤變更狀態的控制項應該使用這個方法來設定內部的旗標，指出屬性不應該呼叫&lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>This is because property-setting methods can be called during the application of personalization data, subsequent to the call to BeginLoad.</source>
+          <target state="translated">這是因為個人化資料，之後 BeginLoad 呼叫應用程式時，可以呼叫屬性設定方法。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>In most scenarios, a control should not be considered changed ("dirty") just because its personalizable properties have been set based on data loaded from the underlying data store.</source>
+          <target state="translated">在大部分情況下，控制項應該不會考慮變更 （「 中途 」），因為它可個人化的屬性已設定根據從基礎資料存放區載入的資料。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is also called when personalization data is applied after importing a Web Parts control.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 匯入 Web 組件控制項之後套用個人化資料時，也會呼叫這個方法。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Represents the phase prior to extracting personalization data from a control.</source>
+          <target state="translated">表示階段之前從控制項擷取個人化資料。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The Web Parts control set calls this method prior to extracting personalization data from the control.</source>
+          <target state="translated">Web 組件控制項集合會呼叫這個方法之前從控制項擷取個人化資料。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Represents the phase after personalization data has been applied to a control.</source>
+          <target state="translated">表示階段的個人化資料套用至控制項之後。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Web Parts control set calls this method after personalization data has been applied to the control.</source>
+          <target state="translated">Web 組件控制項設定的呼叫這個方法之後個人化資料已套用至控制項。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A control that tracks its change state should use this method to reset its internal state to indicate that subsequent property-setting methods should call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.</source>
+          <target state="translated">會追蹤其變更狀態的控制項應該使用這個方法來重設其內部狀態，以指出後續屬性設定方法應該呼叫&lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>By the time the EndLoad method is called, the Web Parts control set has completed any application of personalization data to the control.</source>
+          <target state="translated">呼叫 EndLoad 方法時，Web 組件控制項集合已完成個人化資料的任何應用程式的控制項。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>As a result, subsequent changes to the control's state should be considered valid indicators that the control has changed (is "dirty").</source>
+          <target state="translated">如此一來，後續變更控制項的狀態應視為有效的指標，可控制已變更 （為 「 有所變更 」）。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is also called when personalization data is applied after importing a Web Parts control.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 匯入 Web 組件控制項之後套用個人化資料時，也會呼叫這個方法。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Represents the phase after personalization data has been extracted from a control.</source>
+          <target state="translated">表示已從控制項擷取個人化資料之後的階段。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The Web Parts control set calls this method after personalization data has been extracted from the control.</source>
+          <target state="translated">Web 組件控制項設定已從控制項擷取個人化資料之後，這個方法的呼叫。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Indicates whether the control tracks the status of its changes.</source>
+          <target state="translated">表示控制項是否正在追蹤其變更狀態。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If a control returns <ph id="ph1">`true`</ph> from this property, then it is the Web Parts control's responsibility to determine when it considers itself "dirty."</source>
+          <target state="translated">當控制項傳回<ph id="ph1">`true`</ph>從這個屬性，則 Web 組件控制項的必須決定當它會考慮本身 「 有所變更 」。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If a control determines that it has changed (is "dirty"), that control must call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt; on itself.</source>
+          <target state="translated">如果控制項可讓您判斷已變更 （即 「 有所變更 」），必須呼叫控制項&lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;本身。&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Web Parts control is responsible for determining when the control is considered changed ("dirty"); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果 Web 組件控制項有責任判斷當控制項被視為已變更 （「 中途 」）;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
