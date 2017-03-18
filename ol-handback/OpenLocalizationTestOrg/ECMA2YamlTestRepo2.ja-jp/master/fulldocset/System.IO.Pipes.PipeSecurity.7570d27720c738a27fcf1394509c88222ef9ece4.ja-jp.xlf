@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c309ba25ae401589ce9fd292029aa6598d91b5e1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IO.Pipes.PipeSecurity.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">827cd13cc98da5ae12f929cdc0255657aacaa5a0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5992340166ff86e23c4f50dc858026d5199d32db</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the access control and audit security for a pipe.</source>
+          <target state="translated">表すアクセス制御と監査セキュリティをパイプします。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The PipeSecurity class specifies the access rights for a pipe and how access attempts are audited.</source>
+          <target state="translated">PipeSecurity クラスでは、パイプとは、アクセス試行の監査のアクセス権を指定します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This class represents access and audit rights as a set of rules.</source>
+          <target state="translated">このクラスは、一連のルールとして、アクセスおよび監査権限を表します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Each access rule is represented by a &lt;xref:System.IO.Pipes.PipeAccessRule&gt; object, while each audit rule is represented by a &lt;xref:System.IO.Pipes.PipeAuditRule&gt; object.</source>
+          <target state="translated">各アクセス規則は、&lt;xref:System.IO.Pipes.PipeAccessRule&gt;オブジェクト、各監査規則がによって表されるときに、&lt;xref:System.IO.Pipes.PipeAuditRule&gt;オブジェクト&lt;/xref:System.IO.Pipes.PipeAuditRule&gt;&lt;/xref:System.IO.Pipes.PipeAccessRule&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The PipeSecurity class is an abstraction of the underlying Microsoft Windows file security system.</source>
+          <target state="translated">PipeSecurity クラスは、基になる Microsoft Windows ファイルのセキュリティ システムの抽象化です。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this system, each pipe has a discretionary access control list (DACL), which controls access to the pipe, and a system access control list (SACL), which specifies the access control attempts that are audited.</source>
+          <target state="translated">このシステムの各パイプがパイプへのアクセスを制御するには、随意アクセス制御リスト (DACL)、およびシステム アクセス制御リスト (SACL) は監査するアクセス制御の試行を指定します。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Pipes.PipeAccessRule&gt; and &lt;xref:System.IO.Pipes.PipeAuditRule&gt; classes are abstractions of the access control entries (ACEs) that comprise DACLs and SACLs.</source>
+          <target state="translated">&lt;xref:System.IO.Pipes.PipeAccessRule&gt;と&lt;xref:System.IO.Pipes.PipeAuditRule&gt;クラスは、Dacl と Sacl を構成するアクセス制御エントリ (Ace) の抽象化します&lt;/xref:System.IO.Pipes.PipeAuditRule&gt;&lt;/xref:System.IO.Pipes.PipeAccessRule&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The PipeSecurity class hides many of the details of DACLs and SACLs; you do not have to worry about ACE ordering or null DACLS.</source>
+          <target state="translated">PipeSecurity クラスを非表示に多くの Dacl と Sacl; の詳細ACE の順序または null DACL について心配する必要はありません。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Use the PipeSecurity class to retrieve, add, or change the access rules that represent the DACL and SACL of a pipe.</source>
+          <target state="translated">PipeSecurity クラスを使用すると、取得、追加、または、DACL とパイプの SACL を表すアクセス規則を変更します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To persist new or changed access or audit rules to a pipe, use the &lt;xref:System.IO.Pipes.PipeStream.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">新しいまたは変更されたアクセスを永続化または監査規則、パイプを使用して、&lt;xref:System.IO.Pipes.PipeStream.SetAccessControl%2A&gt;メソッド&lt;/xref:System.IO.Pipes.PipeStream.SetAccessControl%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To retrieve access or audit rules from an existing file, use the &lt;xref:System.IO.Pipes.PipeStream.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">アクセスを取得または監査規則、既存のファイルを使用して、&lt;xref:System.IO.Pipes.PipeStream.GetAccessControl%2A&gt;メソッド&lt;/xref:System.IO.Pipes.PipeStream.GetAccessControl%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This constructor creates an empty &lt;xref:System.IO.Pipes.PipeSecurity&gt; object that is not based on an existing pipe.</source>
+          <target state="translated">このコンス トラクターは、空を作成&lt;xref:System.IO.Pipes.PipeSecurity&gt;オブジェクトが、既存のパイプに基づいていないです&lt;/xref:System.IO.Pipes.PipeSecurity&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You can then populate the object with access control information and apply it to a pipe.</source>
+          <target state="translated">アクセス制御情報を持つオブジェクトを設定し、パイプに適用することができます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can add access or audit rules to the &lt;xref:System.IO.Pipes.PipeSecurity&gt; object using the &lt;xref:System.IO.Pipes.PipeSecurity.AddAccessRule%2A&gt; method.</source>
+          <target state="translated">アクセスを追加したり、監査規則を&lt;xref:System.IO.Pipes.PipeSecurity&gt;オブジェクトを使用して、&lt;xref:System.IO.Pipes.PipeSecurity.AddAccessRule%2A&gt;メソッド&lt;/xref:System.IO.Pipes.PipeSecurity.AddAccessRule%2A&gt;&lt;/xref:System.IO.Pipes.PipeSecurity&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>You can remove access or audit rules using the &lt;xref:System.IO.Pipes.PipeSecurity.RemoveAccessRule%2A&gt; method.</source>
+          <target state="translated">アクセス権を削除したり、監査規則を使用して、&lt;xref:System.IO.Pipes.PipeSecurity.RemoveAccessRule%2A&gt;メソッド&lt;/xref:System.IO.Pipes.PipeSecurity.RemoveAccessRule%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To persist new or changed access or audit rules to a pipe, use the &lt;xref:System.IO.Pipes.PipeStream.SetAccessControl%2A&gt; method.</source>
+          <target state="translated">新しいまたは変更されたアクセスを永続化または監査規則、パイプを使用して、&lt;xref:System.IO.Pipes.PipeStream.SetAccessControl%2A&gt;メソッド&lt;/xref:System.IO.Pipes.PipeStream.SetAccessControl%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To retrieve access or audit rules from an existing file, use the &lt;xref:System.IO.Pipes.PipeStream.GetAccessControl%2A&gt; method.</source>
+          <target state="translated">アクセスを取得または監査規則、既存のファイルを使用して、&lt;xref:System.IO.Pipes.PipeStream.GetAccessControl%2A&gt;メソッド&lt;/xref:System.IO.Pipes.PipeStream.GetAccessControl%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; of the securable object that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得、&lt;xref:System.Type&gt;に現在関連付けられているセキュリティ保護可能なオブジェクトの<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Security.AccessControl.ObjectSecurity&gt; class override the &lt;xref:System.Security.AccessControl.ObjectSecurity.AccessRightType%2A&gt; property and return the type they use to represent access rights.</source>
+          <target state="translated">派生したクラス、&lt;xref:System.Security.AccessControl.ObjectSecurity&gt;クラスのオーバーライド、&lt;xref:System.Security.AccessControl.ObjectSecurity.AccessRightType%2A&gt;プロパティと戻り値のアクセス権を表すために使用する型&lt;/xref:System.Security.AccessControl.ObjectSecurity.AccessRightType%2A&gt;&lt;/xref:System.Security.AccessControl.ObjectSecurity&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When you work with arrays or collections that contain multiple types of security objects, use this property to determine the correct enumeration type to use with each security object.</source>
+          <target state="translated">配列または複数の種類のセキュリティ オブジェクトを格納するコレクションを操作するときは、このプロパティを使用して、各セキュリティ オブジェクトで使用する適切な列挙型を判断します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The type of the securable object that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在関連付けられているセキュリティ保護可能なオブジェクトの種類<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.AccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified values.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.AccessControl.AccessRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値を指定しています。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The recommended way to create access control rules is to use the constructors of the &lt;xref:System.IO.Pipes.PipeAccessRule&gt; class.</source>
+          <target state="translated">アクセス制御規則を作成することをお勧めは&lt;xref:System.IO.Pipes.PipeAccessRule&gt;クラス&lt;/xref:System.IO.Pipes.PipeAccessRule&gt;のコンス トラクターを使用するには</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The identity that the access rule applies to.</source>
+          <target state="translated">アクセス ルールが適用される id。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>It must be an object that can be cast as a <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">オブジェクトとしてキャスト可能なをする必要があります、 <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The access mask of this rule.</source>
+          <target state="translated">この規則のアクセス マスク。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The access mask is a 32-bit collection of anonymous bits, the meaning of which is defined by the individual integrators</source>
+          <target state="translated">アクセス マスクの意味は、各インテグレーターによって定義された匿名ビットの 32 ビットのコレクションは、します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this rule is inherited from a parent container; otherwise false.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このルールは、親コンテナーから継承する場合それ以外の場合は false。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the inheritance properties of the access rule.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>アクセス規則の継承プロパティを指定する値。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.PropagationFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies whether inherited access rules are automatically propagated.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Security.AccessControl.PropagationFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>継承されたアクセス規則を自動的に反映させるかどうかを指定する値。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The propagation flags are ignored if <ph id="ph1">`inheritanceFlags`</ph> is set to <bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">場合、伝達フラグは無視されます<ph id="ph1">`inheritanceFlags`</ph>に設定されている<bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Specifies the valid access control type.</source>
+          <target state="translated">有効なアクセス制御の種類を指定します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.AccessControl.AccessRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.AccessControl.AccessRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このメソッドを作成するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;accessMask&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;inheritanceFlags&lt;/code&gt;</ph>, <ph id="ph3">&lt;code&gt;propagationFlags&lt;/code&gt;</ph>, or <ph id="ph4">&lt;code&gt;type&lt;/code&gt;</ph> specifies an invalid value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;accessMask&lt;/code&gt;</ph>、 <ph id="ph2">&lt;code&gt;inheritanceFlags&lt;/code&gt;</ph>、 <ph id="ph3">&lt;code&gt;propagationFlags&lt;/code&gt;</ph>、または<ph id="ph4">&lt;code&gt;type&lt;/code&gt;</ph>に無効な値を指定します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;identityReference&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;identityReference&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;accessMask&lt;/code&gt;</ph> is zero.</source>
+          <target state="translated">- または -<ph id="ph1">&lt;code&gt;accessMask&lt;/code&gt;</ph>ゼロです。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;identityReference&lt;/code&gt;</ph> is neither of type <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nor of a type, such as <bpt id="p2">&lt;xref href="System.Security.Principal.NTAccount"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, that can be converted to type <bpt id="p3">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;identityReference&lt;/code&gt;</ph>型のどちらも<bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>も、型のように<bpt id="p2">&lt;xref href="System.Security.Principal.NTAccount"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、型に変換できる<bpt id="p3">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; of the object that is associated with the access rules of the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得、 &lt;xref:System.Type&gt;、現在のアクセス ルールに関連付けられているオブジェクトの<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Security.AccessControl.ObjectSecurity&gt; class override the &lt;xref:System.Security.AccessControl.ObjectSecurity.AccessRuleType%2A&gt; property and return the type they use to represent access rights.</source>
+          <target state="translated">派生したクラス、&lt;xref:System.Security.AccessControl.ObjectSecurity&gt;クラスのオーバーライド、&lt;xref:System.Security.AccessControl.ObjectSecurity.AccessRuleType%2A&gt;プロパティと戻り値のアクセス権を表すために使用する型&lt;/xref:System.Security.AccessControl.ObjectSecurity.AccessRuleType%2A&gt;&lt;/xref:System.Security.AccessControl.ObjectSecurity&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>When you work with arrays or collections that contain multiple types of security objects, use this property to determine the correct enumeration type to use with each security object.</source>
+          <target state="translated">配列または複数の種類のセキュリティ オブジェクトを格納するコレクションを操作するときは、このプロパティを使用して、各セキュリティ オブジェクトで使用する適切な列挙型を判断します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The type of the object that is associated with the access rules of the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在のアクセス規則に関連付けられているオブジェクトの種類<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Adds an access rule to the Discretionary Access Control List (DACL) that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">アクセス規則を追加するを随意アクセス制御リスト (DACL) に現在関連付けられている<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The AddAccessRule method adds a new rule to the list of rules that a &lt;xref:System.IO.Pipes.PipeSecurity&gt; object contains.If an access control list (ACL) already exists for the specified rule, the AddAccessRule method will still add the rule, with one exception: a &lt;xref:System.IO.Pipes.PipeAccessRule&gt; object that is created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; value supersedes an object that is created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; value.</source>
+          <target state="translated">AddAccessRule メソッドは、新しいルールを&lt;xref:System.IO.Pipes.PipeSecurity&gt;オブジェクトに含まれているルールの一覧に追加します。AddAccessRule メソッドは&amp;1; つの例外、規則を追加しても、指定された規則のアクセス制御リスト (ACL) が既に存在する場合:&lt;xref:System.IO.Pipes.PipeAccessRule&gt;を使用して作成されたオブジェクトに、&lt;xref:System.Security.AccessControl.AccessControlType&gt;値を使用して作成されるオブジェクトに置き換えられる、&lt;xref:System.Security.AccessControl.AccessControlType&gt;値&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.IO.Pipes.PipeAccessRule&gt;&lt;/xref:System.IO.Pipes.PipeSecurity&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The access rule to add.</source>
+          <target state="translated">追加するアクセス規則。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Adds an audit rule to the System Access Control List (SACL)that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">監査規則を追加するをシステム アクセス制御リスト (SACL) に現在関連付けられている<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The AddAuditRule method adds a new audit rule to the list of rules that a &lt;xref:System.IO.Pipes.PipeSecurity&gt; object contains.</source>
+          <target state="translated">メソッドの一覧に新しい監査規則を追加する AddAuditRule ルールを&lt;xref:System.IO.Pipes.PipeSecurity&gt;オブジェクトが含まれます&lt;/xref:System.IO.Pipes.PipeSecurity&gt;。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If an audit rule already exists for the specified rule, the AddAuditRule method will still add the rule.</source>
+          <target state="translated">指定したルールの監査規則が既に存在する場合、AddAuditRule メソッドはまだルールを追加します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The audit rule to add.</source>
+          <target state="translated">追加する監査規則。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.AuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified values.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.AccessControl.AuditRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値を指定しています。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The recommended way to create audit rules is to use the constructors of the &lt;xref:System.IO.Pipes.PipeAuditRule&gt; class.</source>
+          <target state="translated">監査規則を作成することをお勧めは&lt;xref:System.IO.Pipes.PipeAuditRule&gt;クラス&lt;/xref:System.IO.Pipes.PipeAuditRule&gt;のコンス トラクターを使用するには</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The identity that the access rule applies to.</source>
+          <target state="translated">アクセス ルールが適用される id。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It must be an object that can be cast as a <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">オブジェクトとしてキャスト可能なをする必要があります、 <bpt id="p1">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The access mask of this rule.</source>
+          <target state="translated">この規則のアクセス マスク。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The access mask is a 32-bit collection of anonymous bits, the meaning of which is defined by the individual integrators</source>
+          <target state="translated">アクセス マスクの意味は、各インテグレーターによって定義された匿名ビットの 32 ビットのコレクションは、します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this rule is inherited from a parent container; otherwise, false..</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>このルールは、親コンテナーから継承する場合それ以外の場合は false.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the inheritance properties of the access rule.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>アクセス規則の継承プロパティを指定する値。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.PropagationFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies whether inherited access rules are automatically propagated.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Security.AccessControl.PropagationFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>継承されたアクセス規則を自動的に反映させるかどうかを指定する値。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The propagation flags are ignored if <ph id="ph1">`inheritanceFlags`</ph> is set to <bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">場合、伝達フラグは無視されます<ph id="ph1">`inheritanceFlags`</ph>に設定されている<bpt id="p1">&lt;xref href="System.Security.AccessControl.InheritanceFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.AccessControl.AuditFlags"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the valid access control type.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Security.AccessControl.AuditFlags"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コントロール型の有効なアクセス権を指定する値。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.AccessControl.AuditRule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that this method creates.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.AccessControl.AuditRule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このメソッドを作成するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">accessMask</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">inheritanceFlags</ph><ept id="p2">&lt;/code&gt;</ept>, <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">propagationFlags</ph><ept id="p3">&lt;/code&gt;</ept>, or <bpt id="p4">&lt;code&gt;</bpt><ph id="ph4">flags</ph><ept id="p4">&lt;/code&gt;</ept> properties specify an invalid value.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">accessMask</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">inheritanceFlags</ph><ept id="p2">&lt;/code&gt;</ept>, <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">propagationFlags</ph><ept id="p3">&lt;/code&gt;</ept>, or <bpt id="p4">&lt;code&gt;</bpt><ph id="ph4">flags</ph><ept id="p4">&lt;/code&gt;</ept> properties specify an invalid value.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">identityReference</ph><ept id="p1">&lt;/code&gt;</ept> property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">identityReference</ph><ept id="p1">&lt;/code&gt;</ept> property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">accessMask</ph><ept id="p1">&lt;/code&gt;</ept> property is zero.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">accessMask</ph> <ept id="p1">&lt;/code&gt;</ept>プロパティが&amp;0; です。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">identityReference</ph><ept id="p1">&lt;/code&gt;</ept> property is neither of type <bpt id="p2">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> nor of a type, such as <bpt id="p3">&lt;xref href="System.Security.Principal.NTAccount"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, that can be converted to type <bpt id="p4">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">identityReference</ph> <ept id="p1">&lt;/code&gt;</ept>プロパティは、型のどちらも<bpt id="p2">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>も、型のように<bpt id="p3">&lt;xref href="System.Security.Principal.NTAccount"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>、型に変換できる<bpt id="p4">&lt;xref href="System.Security.Principal.SecurityIdentifier"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; object associated with the audit rules of the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">取得、&lt;xref:System.Type&gt;オブジェクトの現在の監査規則に関連付けられている<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Security.AccessControl.ObjectSecurity&gt; class override the &lt;xref:System.Security.AccessControl.ObjectSecurity.AuditRuleType%2A&gt; property and return the type they use to represent access rights.</source>
+          <target state="translated">派生したクラス、&lt;xref:System.Security.AccessControl.ObjectSecurity&gt;クラスのオーバーライド、&lt;xref:System.Security.AccessControl.ObjectSecurity.AuditRuleType%2A&gt;プロパティと戻り値のアクセス権を表すために使用する型&lt;/xref:System.Security.AccessControl.ObjectSecurity.AuditRuleType%2A&gt;&lt;/xref:System.Security.AccessControl.ObjectSecurity&gt;。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>When you work with arrays or collections that contain multiple types of security objects, use this property to determine the correct enumeration type to use with each security object.</source>
+          <target state="translated">配列または複数の種類のセキュリティ オブジェクトを格納するコレクションを操作するときは、このプロパティを使用して、各セキュリティ オブジェクトで使用する適切な列挙型を判断します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The type of the object that is associated with the audit rules of the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在の監査規則に関連付けられているオブジェクトの種類<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Saves the specified sections of the security descriptor that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to permanent storage.</source>
+          <target state="translated">現在関連付けられているセキュリティ記述子の指定したセクションでは、保存<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>永続ストレージにオブジェクト。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The handle of the securable object that the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated with.</source>
+          <target state="translated">セキュリティ保護可能なハンドル オブジェクトを現在<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトに関連付けられています。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Saves the specified sections of the security descriptor that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to permanent storage.</source>
+          <target state="translated">現在関連付けられているセキュリティ記述子の指定したセクションでは、保存<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>永続ストレージにオブジェクト。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The name of the securable object that the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is associated with.</source>
+          <target state="translated">オブジェクトのセキュリティ保護可能な名前を現在<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトに関連付けられています。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Removes an access rule from the Discretionary Access Control List (DACL) that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">随意アクセス制御リスト (DACL) に現在関連付けられているアクセス規則を削除<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The RemoveAccessRule method removes either all matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rules or all matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rules from the current &lt;xref:System.IO.Pipes.PipeSecurity&gt; object.</source>
+          <target state="translated">RemoveAccessRule メソッドでは、すべて一致するかを削除&lt;xref:System.Security.AccessControl.AccessControlType&gt;アクセス ルールまたは照合&lt;xref:System.Security.AccessControl.AccessControlType&gt;現在からアクセス規則&lt;xref:System.IO.Pipes.PipeSecurity&gt;オブジェクト&lt;/xref:System.IO.Pipes.PipeSecurity&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For example, you can use this method to remove all &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rules for a user by passing a &lt;xref:System.IO.Pipes.PipeAccessRule&gt; object created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; value, the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value, and a user account.</source>
+          <target state="translated">たとえば、すべてを削除するこのメソッドを使用できます&lt;xref:System.Security.AccessControl.AccessControlType&gt;に対してアクセス規則、ユーザーを渡すことによって、&lt;xref:System.IO.Pipes.PipeAccessRule&gt;を使用して作成されたオブジェクト、&lt;xref:System.Security.AccessControl.AccessControlType&gt;値、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値、およびユーザー アカウント&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.IO.Pipes.PipeAccessRule&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The RemoveAccessRule method removes any deny rules that specify the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value or the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value.</source>
+          <target state="translated">RemoveAccessRule メソッドを指定する、拒否のルールの削除、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値または&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The access rule to remove.</source>
+          <target state="translated">削除するアクセス規則。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the operation is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>操作が成功した場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Removes the specified access rule from the Discretionary Access Control List (DACL) that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">随意アクセス制御リスト (DACL) に現在関連付けられている指定されたアクセス規則を削除<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Pipes.PipeSecurity.RemoveAccessRule%2A&gt; method removes either all matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rules or all matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rules from the current &lt;xref:System.IO.Pipes.PipeSecurity&gt; object.</source>
+          <target state="translated">&lt;xref:System.IO.Pipes.PipeSecurity.RemoveAccessRule%2A&gt;メソッドはすべて一致するか、削除&lt;xref:System.Security.AccessControl.AccessControlType&gt;アクセス ルールまたは照合&lt;xref:System.Security.AccessControl.AccessControlType&gt;現在からアクセス規則&lt;xref:System.IO.Pipes.PipeSecurity&gt;オブジェクト&lt;/xref:System.IO.Pipes.PipeSecurity&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.IO.Pipes.PipeSecurity.RemoveAccessRule%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For example, you can use this method to remove all &lt;xref:System.Security.AccessControl.AccessControlType&gt; access rules for a user by passing a &lt;xref:System.IO.Pipes.PipeAccessRule&gt; object created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; value, the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value, and a user account.</source>
+          <target state="translated">たとえば、すべてを削除するこのメソッドを使用できます&lt;xref:System.Security.AccessControl.AccessControlType&gt;に対してアクセス規則、ユーザーを渡すことによって、&lt;xref:System.IO.Pipes.PipeAccessRule&gt;を使用して作成されたオブジェクト、&lt;xref:System.Security.AccessControl.AccessControlType&gt;値、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値、およびユーザー アカウント&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.IO.Pipes.PipeAccessRule&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Pipes.PipeSecurity.RemoveAccessRule%2A&gt; method removes any deny rules that specify the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value or the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value.</source>
+          <target state="translated">&lt;xref:System.IO.Pipes.PipeSecurity.RemoveAccessRule%2A&gt;メソッドを指定する、拒否のルールの削除、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値または&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;&lt;/xref:System.IO.Pipes.PipeSecurity.RemoveAccessRule%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The access rule to remove.</source>
+          <target state="translated">削除するアクセス規則。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Removes an audit rule from the System Access Control List (SACL) that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">システム アクセス制御リスト (SACL) に現在関連付けられている監査規則を削除<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The RemoveAuditRule method removes either all matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rules or all matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rules from the current &lt;xref:System.IO.Pipes.PipeSecurity&gt; object.</source>
+          <target state="translated">RemoveAuditRule メソッドでは、すべて一致するかを削除&lt;xref:System.Security.AccessControl.AccessControlType&gt;監査規則、またはすべてに一致する&lt;xref:System.Security.AccessControl.AccessControlType&gt;監査規則を現在&lt;xref:System.IO.Pipes.PipeSecurity&gt;オブジェクト&lt;/xref:System.IO.Pipes.PipeSecurity&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For example, you can use this method to remove all &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rules for a user by passing a &lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt; object created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; value, the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value, and a user account.</source>
+          <target state="translated">たとえば、すべてを削除するこのメソッドを使用できます&lt;xref:System.Security.AccessControl.AccessControlType&gt;に関する監査規則、ユーザーを渡すことによって、&lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt;を使用して作成されたオブジェクト、&lt;xref:System.Security.AccessControl.AccessControlType&gt;値、&lt;xref:System.Security.AccessControl.AuditFlags&gt;値、およびユーザー アカウント&lt;/xref:System.Security.AccessControl.AuditFlags&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.Security.AccessControl.FileSystemAuditRule&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>When you do this, the RemoveAuditRule method removes any deny rules that specify the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value or the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value.</source>
+          <target state="translated">RemoveAuditRule メソッドは、拒否のルールを指定するを削除した場合、&lt;xref:System.Security.AccessControl.AuditFlags&gt;値または&lt;xref:System.Security.AccessControl.AuditFlags&gt;値&lt;/xref:System.Security.AccessControl.AuditFlags&gt;&lt;/xref:System.Security.AccessControl.AuditFlags&gt;。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The audit rule to remove.</source>
+          <target state="translated">削除する監査規則。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the audit rule was removed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept></source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>監査規則が削除された場合それ以外の場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Removes all audit rules that have the same security identifier as the specified audit rule from the System Access Control List (SACL) that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">指定された監査規則からのシステム アクセス制御リスト (SACL) に現在関連付けられていると同じセキュリティ識別子を持つすべての監査規則を削除<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The RemoveAuditRuleAll method removes all audit rules for the specified user.</source>
+          <target state="translated">RemoveAuditRuleAll メソッドでは、指定したユーザーのすべての監査規則を削除します。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>It ignores all values in the &lt;xref:System.IO.Pipes.PipeAuditRule&gt; object except the user account.</source>
+          <target state="translated">すべての値は無視されます、&lt;xref:System.IO.Pipes.PipeAuditRule&gt;ユーザー アカウントを除くオブジェクト&lt;/xref:System.IO.Pipes.PipeAuditRule&gt;。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The audit rule to remove.</source>
+          <target state="translated">削除する監査規則。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Removes the specified audit rule from the System Access Control List (SACL) that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">システム アクセス制御リスト (SACL) に現在関連付けられている指定された監査規則が削除<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The RemoveAuditRuleSpecific method removes the specified matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rule or the specified matching &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rule from the current &lt;xref:System.IO.Pipes.PipeSecurity&gt; object.</source>
+          <target state="translated">RemoveAuditRuleSpecific メソッドでは、指定した一致を削除&lt;xref:System.Security.AccessControl.AccessControlType&gt;ルールまたは指定した照合監査&lt;xref:System.Security.AccessControl.AccessControlType&gt;現在から監査規則&lt;xref:System.IO.Pipes.PipeSecurity&gt;オブジェクト&lt;/xref:System.IO.Pipes.PipeSecurity&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For example, you can use this method to remove a specified &lt;xref:System.Security.AccessControl.AccessControlType&gt; audit rule for a user by passing a &lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt; object created using the &lt;xref:System.Security.AccessControl.AccessControlType&gt; value, the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value, and a user account.</source>
+          <target state="translated">このメソッドを指定された削除を使用するなど、&lt;xref:System.Security.AccessControl.AccessControlType&gt;を渡すことによって、ユーザーの監査規則、&lt;xref:System.Security.AccessControl.FileSystemAuditRule&gt;を使用して作成されたオブジェクト、&lt;xref:System.Security.AccessControl.AccessControlType&gt;値、&lt;xref:System.Security.AccessControl.AuditFlags&gt;値、およびユーザー アカウント&lt;/xref:System.Security.AccessControl.AuditFlags&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;&lt;/xref:System.Security.AccessControl.FileSystemAuditRule&gt;&lt;/xref:System.Security.AccessControl.AccessControlType&gt;。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>When you do this, the RemoveAuditRuleSpecific method removes only a deny rule that specifies the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value.</source>
+          <target state="translated">RemoveAuditRuleSpecific メソッドは拒否規則のみを指定を削除した場合、&lt;xref:System.Security.AccessControl.AuditFlags&gt;値&lt;/xref:System.Security.AccessControl.AuditFlags&gt;。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>It does not remove any deny rules that specify the &lt;xref:System.Security.AccessControl.AuditFlags&gt; value.</source>
+          <target state="translated">指定する任意の拒否規則は削除されません、&lt;xref:System.Security.AccessControl.AuditFlags&gt;値&lt;/xref:System.Security.AccessControl.AuditFlags&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The audit rule to remove.</source>
+          <target state="translated">削除する監査規則。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Removes all access rules in the Discretionary Access Control List (DACL) that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and then adds the specified access rule.</source>
+          <target state="translated">随意アクセス制御リスト (DACL) に現在関連付けられているすべてのアクセス規則を削除<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトし、指定されたアクセス規則を追加します。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The ResetAccessRule method adds the specified access control list (ACL) rule or overwrites any identical ACL rules that match the <ph id="ph1">`rule`</ph> parameter.</source>
+          <target state="translated">ResetAccessRule メソッドを指定したアクセス制御リスト (ACL) の規則を追加またはと一致する同一の ACL ルールの上書き、<ph id="ph1">`rule`</ph>パラメーター。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For example, if the <ph id="ph1">`rule`</ph> parameter specifies a &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value and the ResetAccessRule method finds an identical ACL rule that specifies the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value, the identical rule will be overwritten.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`rule`</ph>パラメーターを指定します、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値と ResetAccessRule メソッドを指定すると同一の ACL ルールを検索、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値と同じルールが上書きされます&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If the ResetAccessRule method finds an identical ACL rule that specifies the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value, the identical rule will also be overwritten.</source>
+          <target state="translated">ResetAccessRule メソッドが同一の ACL ルールを検索するかどうかを指定する、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値と同じルールもは上書きされます&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The access rule to add.</source>
+          <target state="translated">追加するアクセス規則。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Sets an access rule in the Discretionary Access Control List (DACL) that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">随意アクセス制御リスト (DACL) に現在関連付けられているアクセス規則を設定<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The SetAccessRule method adds the specified access control list (ACL) rule or overwrites any identical ACL rules that match the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value of the <ph id="ph1">`rule`</ph> parameter.</source>
+          <target state="translated">SetAccessRule メソッドを指定したアクセス制御リスト (ACL) の規則を追加またはと一致する同一の ACL ルールの上書き、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;の値、<ph id="ph1">`rule`</ph>パラメーター&lt;/xref:System.IO.Pipes.PipeAccessRights&gt; 。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>For example, if the <ph id="ph1">`rule`</ph> parameter specifies a &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value and the SetAccessRule method finds an identical ACL rule that specifies the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value, the identical rule will be overwritten.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`rule`</ph>パラメーターを指定します、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値と SetAccessRule メソッドを指定すると同一の ACL ルールを検索、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値と同じルールが上書きされます&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If the SetAccessRule method finds an identical ACL rule that specifies the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value, the identical rule will not be overwritten.</source>
+          <target state="translated">SetAccessRule メソッドが同一の ACL ルールを検索するかどうかを指定する、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値と同じルールは上書きされません&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The rule to set.</source>
+          <target state="translated">設定するルール。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Sets an audit rule in the System Access Control List (SACL) that is associated with the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">システム アクセス制御リスト (SACL) に現在関連付けられている監査規則を設定<bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The SetAuditRule method adds the specified audit rule or overwrites any identical audit rules that match the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value of the <ph id="ph1">`rule`</ph> parameter.</source>
+          <target state="translated">SetAuditRule メソッドは指定された監査規則を追加するかに一致する任意のと同じ監査規則を上書き、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;の値、<ph id="ph1">`rule`</ph>パラメーター&lt;/xref:System.IO.Pipes.PipeAccessRights&gt; 。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For example, if the <ph id="ph1">`rule`</ph> parameter specifies a &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value and the SetAuditRule method finds an identical audit rule that specifies the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value, the identical rule will be overwritten.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`rule`</ph>パラメーターを指定します、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値と SetAuditRule メソッドを指定するのと同じ監査規則を検索、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値と同じルールが上書きされます&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If the SetAuditRule method finds an identical audit rule that specifies the &lt;xref:System.IO.Pipes.PipeAccessRights&gt; value, the identical rule will not be overwritten.</source>
+          <target state="translated">SetAuditRule メソッドが同じ監査規則を検索するかどうかを指定する、&lt;xref:System.IO.Pipes.PipeAccessRights&gt;値と同じルールは上書きされません&lt;/xref:System.IO.Pipes.PipeAccessRights&gt;。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The rule to set.</source>
+          <target state="translated">設定するルール。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rule</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
