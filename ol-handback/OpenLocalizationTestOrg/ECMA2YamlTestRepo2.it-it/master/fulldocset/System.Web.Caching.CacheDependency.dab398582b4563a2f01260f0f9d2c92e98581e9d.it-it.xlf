@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2506d1424591436893d9edc425e94b4b8e7c38a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Caching.CacheDependency.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7ff04b66c707c314d23c276a4ce936e797f5cb88</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a32a31cec348a0773b23059696a486031cb191a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Establishes a dependency relationship between an item stored in an ASP.NET application's <bpt id="p1">&lt;xref href="System.Web.Caching.Cache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and a file, cache key, an array of either, or another CacheDependency object.</source>
+          <target state="translated">Stabilisce una relazione di dipendenza tra un elemento archiviato in un'applicazione ASP.NET <bpt id="p1">&lt;xref href="System.Web.Caching.Cache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto e un file, chiave di cache, una matrice di uno o un altro oggetto CacheDependency.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The CacheDependency class monitors the dependency relationships so that when any of them changes, the cached item will be automatically removed.</source>
+          <target state="translated">La classe CacheDependency monitora le relazioni di dipendenza in modo che quando uno di essi viene modificato, l'elemento memorizzato nella cache verrà rimossi automaticamente.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you add an item to the cache that is dependent on another object, such as a file or array of files, the dependent item is automatically removed from the cache when the object changes.</source>
+          <target state="translated">Se si aggiunge un elemento nella cache dipendente da un altro oggetto, ad esempio un file o una matrice di file, l'elemento dipendente viene rimosso automaticamente dalla cache quando viene modificato l'oggetto.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, suppose you create a &lt;xref:System.Data.DataSet&gt; object based on data in an XML file.</source>
+          <target state="translated">Si supponga, ad esempio, creare un &lt;xref:System.Data.DataSet&gt;oggetto in base ai dati in un file XML.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add the &lt;xref:System.Data.DataSet&gt; to the cache with a CacheDependency object that makes the &lt;xref:System.Data.DataSet&gt; dependent on the XML file.</source>
+          <target state="translated">È possibile aggiungere il &lt;xref:System.Data.DataSet&gt;alla cache con un oggetto CacheDependency che rende il &lt;xref:System.Data.DataSet&gt;dipendente dal file XML.&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the XML file changes, the &lt;xref:System.Data.DataSet&gt; is removed from the cache.</source>
+          <target state="translated">Se il file XML viene modificato, il &lt;xref:System.Data.DataSet&gt;viene rimosso dalla cache.&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add items with dependencies to your application's cache with the &lt;xref:System.Web.Caching.Cache.Add%2A&gt; and &lt;xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt; methods.</source>
+          <target state="translated">È possibile aggiungere elementi con dipendenze da memorizzare nella cache dell'applicazione con il &lt;xref:System.Web.Caching.Cache.Add%2A&gt;e &lt;xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt;metodi.&lt;/xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.Caching.Cache.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot use the &lt;xref:System.Web.Caching.Cache.Item%2A&gt; property to add items to the cache with dependencies.</source>
+          <target state="translated">Non è possibile utilizzare il &lt;xref:System.Web.Caching.Cache.Item%2A&gt;proprietà per aggiungere elementi alla cache con dipendenze.&lt;/xref:System.Web.Caching.Cache.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set up a dependency, you create an instance of the CacheDependency class, specifying the files, keys, or directories on which the item is dependent, and then pass the dependency to the &lt;xref:System.Web.Caching.Cache.Add%2A&gt; or &lt;xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Per impostare una dipendenza, creare un'istanza della classe CacheDependency, specificando il file, chiavi o le directory in cui l'elemento è dipendente e quindi passare la dipendenza di &lt;xref:System.Web.Caching.Cache.Add%2A&gt;o &lt;xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt;metodo.&lt;/xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.Caching.Cache.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CacheDependency instance can represent a single file or directory, an array of files or directories, or an array of files or directories along with an array of cache keys (these represent other items stored in the &lt;xref:System.Web.Caching.Cache&gt; object).</source>
+          <target state="translated">L'istanza CacheDependency può rappresentare un singolo file o directory, una matrice di file o directory o una matrice di file o directory insieme a una matrice delle chiavi della cache (che rappresentano gli altri elementi archiviati nel &lt;xref:System.Web.Caching.Cache&gt;oggetto).&lt;/xref:System.Web.Caching.Cache&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to derive your own class from &lt;xref:System.Web.Caching.CacheDependency&gt;, implement this version of the CacheDependency constructor.</source>
+          <target state="translated">Se si desidera derivare la propria classe dal &lt;xref:System.Web.Caching.CacheDependency&gt;, implementare questa versione del costruttore CacheDependency.&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors a file or directory for changes.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe che consente di monitorare un file o directory per le modifiche.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The path to a file or directory that the cached object is dependent upon.</source>
+          <target state="translated">Il percorso di un file o directory quale dipende l'oggetto memorizzato nella cache.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When this resource changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando viene modificata la risorsa, l'oggetto memorizzato nella cache diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories) for changes.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe che esegue il monitoraggio di una matrice di percorsi (in file o directory) per le modifiche.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">Una matrice di percorsi (file o directory) quale dipende l'oggetto memorizzato nella cache.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando una di queste modifiche alle risorse, l'oggetto memorizzato nella cache diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors a file or directory for changes.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe che consente di monitorare un file o directory per le modifiche.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The path to a file or directory that the cached object is dependent upon.</source>
+          <target state="translated">Il percorso di un file o directory quale dipende l'oggetto memorizzato nella cache.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When this resource changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando viene modificata la risorsa, l'oggetto memorizzato nella cache diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The time against which to check the last modified date of the directory or file.</source>
+          <target state="translated">Ora in cui si desidera controllare la data ultima modifica della directory o file.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories) for changes and specifies a time when change monitoring begins.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe che esegue il monitoraggio di una matrice di percorsi (in file o directory) per le modifiche e specifica un'ora di inizio della verifica delle modifiche.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">Una matrice di percorsi (file o directory) quale dipende l'oggetto memorizzato nella cache.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando una di queste modifiche alle risorse, l'oggetto memorizzato nella cache diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The time against which to check the last modified date of the objects in the array.</source>
+          <target state="translated">Ora in cui si desidera controllare la data ultima modifica di oggetti nella matrice.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories), an array of cache keys, or both for changes.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe che esegue il monitoraggio di una matrice di percorsi (in file o directory), una matrice delle chiavi della cache o di modifiche.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">Una matrice di percorsi (file o directory) quale dipende l'oggetto memorizzato nella cache.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando una di queste modifiche alle risorse, l'oggetto memorizzato nella cache diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An array of cache keys that the new object monitors for changes.</source>
+          <target state="translated">Matrice delle chiavi della cache che il nuovo oggetto consente di monitorare le modifiche.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When any of these cache keys changes, the cached object associated with this dependency object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando una di queste modifiche delle chiavi di cache, l'oggetto associato all'oggetto di dipendenza diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories), an array of cache keys, or both for changes.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe che esegue il monitoraggio di una matrice di percorsi (in file o directory), una matrice delle chiavi della cache o di modifiche.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">Una matrice di percorsi (file o directory) quale dipende l'oggetto memorizzato nella cache.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando una di queste modifiche alle risorse, l'oggetto memorizzato nella cache diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An array of cache keys that the new object monitors for changes.</source>
+          <target state="translated">Matrice delle chiavi della cache che il nuovo oggetto consente di monitorare le modifiche.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When any of these cache keys changes, the cached object associated with this dependency object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando una di queste modifiche delle chiavi di cache, l'oggetto associato all'oggetto di dipendenza diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The date and time against which to check the last modified date of the objects passed in the <ph id="ph1">`filenames`</ph> and <ph id="ph2">`cachekeys`</ph> arrays.</source>
+          <target state="translated">La data e ora in base a cui si desidera controllare la data ultima modifica degli oggetti passato il <ph id="ph1">`filenames`</ph> e <ph id="ph2">`cachekeys`</ph> matrici.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories), an array of cache keys, or both for changes.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe che esegue il monitoraggio di una matrice di percorsi (in file o directory), una matrice delle chiavi della cache o di modifiche.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It also makes itself dependent upon a separate instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Si rende inoltre dipendente da un'istanza separata del <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">Una matrice di percorsi (file o directory) quale dipende l'oggetto memorizzato nella cache.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando una di queste modifiche alle risorse, l'oggetto memorizzato nella cache diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An array of cache keys that the new object monitors for changes.</source>
+          <target state="translated">Matrice delle chiavi della cache che il nuovo oggetto consente di monitorare le modifiche.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When any of these cache keys changes, the cached object associated with this dependency object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando una di queste modifiche delle chiavi di cache, l'oggetto associato all'oggetto di dipendenza diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Another instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that this instance is dependent upon.</source>
+          <target state="translated">Un'altra istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe cui dipende questa istanza.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories), an array of cache keys, or both for changes.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe che esegue il monitoraggio di una matrice di percorsi (in file o directory), una matrice delle chiavi della cache o di modifiche.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It also makes itself dependent upon another instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and a time when the change monitoring begins.</source>
+          <target state="translated">Si rende inoltre dipendente da un'altra istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe e un'ora di inizio della verifica delle modifiche.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">Una matrice di percorsi (file o directory) quale dipende l'oggetto memorizzato nella cache.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando una di queste modifiche alle risorse, l'oggetto memorizzato nella cache diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An array of cache keys that the new object monitors for changes.</source>
+          <target state="translated">Matrice delle chiavi della cache che il nuovo oggetto consente di monitorare le modifiche.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When any of these cache keys changes, the cached object associated with this dependency object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">Quando una di queste modifiche delle chiavi di cache, l'oggetto associato all'oggetto di dipendenza diventa obsoleto e viene rimosso dalla cache.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Another instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that this instance is dependent upon.</source>
+          <target state="translated">Un'altra istanza di <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe cui dipende questa istanza.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The time against which to check the last modified date of the objects in the arrays and the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">L'ora in cui si desidera controllare la data ultima modifica di oggetti nelle matrici e <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and any classes that derive from <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Rilascia le risorse usate dal <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe e le classi che derivano da <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any class that derives from the &lt;xref:System.Web.Caching.CacheDependency&gt; class is required to implement this method to clean up resources the derived class has used.</source>
+          <target state="translated">Qualsiasi classe che deriva dalla &lt;xref:System.Web.Caching.CacheDependency&gt;classe è necessaria implementare questo metodo per pulire le risorse ha utilizzato la classe derivata.&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Rilascia le risorse usate dal <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Completes initialization of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Completa l'inizializzazione del <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FinishInit method completes the initialization of the &lt;xref:System.Web.Caching.CacheDependency&gt; object.</source>
+          <target state="translated">Il metodo FinishInit completa l'inizializzazione del &lt;xref:System.Web.Caching.CacheDependency&gt;oggetto.&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by all &lt;xref:System.Web.Caching.CacheDependency&gt; constructors.</source>
+          <target state="translated">Questo metodo viene chiamato da tutti i &lt;xref:System.Web.Caching.CacheDependency&gt;costruttori.&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets the file dependencies.</source>
+          <target state="translated">Ottiene le dipendenze del file.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The file dependencies.</source>
+          <target state="translated">Dipendenze del file.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Retrieves a unique identifier for a <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Recupera un identificatore univoco per un <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be particularly useful for tracking multiple instances of the &lt;xref:System.Web.Caching.CacheDependency&gt; class associated with an item or an application.</source>
+          <target state="translated">Questo metodo può essere particolarmente utile per tenere traccia di più istanze di &lt;xref:System.Web.Caching.CacheDependency&gt;classe associata a un elemento o di un'applicazione.&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The identifier is a combination of either the file name (for a file dependency) or the key name (for a cache-key dependency) and a string that this method assigns to the dependency.</source>
+          <target state="translated">L'identificatore è una combinazione di nome file (per una dipendenza di file) o il nome della chiave (per una relazione di chiave di cache) e una stringa che assegna da questo metodo per la dipendenza.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In classes that derive from the &lt;xref:System.Web.Caching.CacheDependency&gt; class, you can override this method to customize how it generates the unique identifier.</source>
+          <target state="translated">Nelle classi che derivano dal &lt;xref:System.Web.Caching.CacheDependency&gt;(classe), è possibile eseguire l'override del metodo per personalizzare come viene generato l'identificatore univoco.&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The unique identifier for the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Identificatore univoco per il <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object has changed.</source>
+          <target state="translated">Ottiene un valore che indica se il <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto è stato modificato.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add an item to an ASP.NET application's &lt;xref:System.Web.Caching.Cache&gt; with a &lt;xref:System.Web.Caching.CacheDependency&gt;.</source>
+          <target state="translated">È possibile aggiungere un elemento a &lt;xref:System.Web.Caching.Cache&gt;con un &lt;xref:System.Web.Caching.CacheDependency&gt;.&lt;/xref:System.Web.Caching.CacheDependency&gt; un'applicazione ASP.NET&lt;/xref:System.Web.Caching.Cache&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Web.Caching.CacheDependency&gt; changes, the item added to the &lt;xref:System.Web.Caching.Cache&gt; is invalidated and removed from the cache.</source>
+          <target state="translated">Quando il &lt;xref:System.Web.Caching.CacheDependency&gt;Cambia, l'elemento aggiunto al &lt;xref:System.Web.Caching.Cache&gt;viene invalidato e rimosso dalla cache.&lt;/xref:System.Web.Caching.Cache&gt; &lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this property to determine whether a &lt;xref:System.Web.Caching.CacheDependency&gt; has changed, and recreate the item in the &lt;xref:System.Web.Caching.Cache&gt; if that has occurred.</source>
+          <target state="translated">È possibile utilizzare questa proprietà per determinare se un &lt;xref:System.Web.Caching.CacheDependency&gt;è stato modificato e ricreare l'elemento nella &lt;xref:System.Web.Caching.Cache&gt;se che si è verificato.&lt;/xref:System.Web.Caching.Cache&gt; &lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object has changed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> oggetto è stato modificato; in caso contrario, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il valore predefinito è <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Notifies the base <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that the dependency represented by a derived <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class has changed.</source>
+          <target state="translated">Notifica la base <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto che la dipendenza è rappresentata da un oggetto derivato <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> classe è stata modificata.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any class that derives from the &lt;xref:System.Web.Caching.CacheDependency&gt; class must implement this method.</source>
+          <target state="translated">Qualsiasi classe che deriva dalla &lt;xref:System.Web.Caching.CacheDependency&gt;classe deve implementare questo metodo.&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you derive from the &lt;xref:System.Web.Caching.CacheDependency&gt; class, you use the base functionality of any method or property that you have not overridden.</source>
+          <target state="translated">Quando si deriva dal &lt;xref:System.Web.Caching.CacheDependency&gt;(classe), utilizzare la funzionalità di base di qualsiasi metodo o proprietà non sottoposti a override.&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of the derived class, it represents the files, cache keys, database tables, or other arbitrary objects that you want to make a cached item dependent upon.</source>
+          <target state="translated">Quando si crea un'istanza della classe derivata, rappresenta i file, chiavi della cache, le tabelle del database o altri oggetti che si desidera impostare un elemento memorizzato nella cache dipendente da.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a dependency item changes, this method notifies the base functionality of the &lt;xref:System.Web.Caching.CacheDependency&gt; class that the item has changed, so that the values of the &lt;xref:System.Web.Caching.CacheDependency.HasChanged%2A&gt; and &lt;xref:System.Web.Caching.CacheDependency.UtcLastModified%2A&gt; properties can be updated.</source>
+          <target state="translated">Quando viene modificato un elemento dipendenza, questo metodo notifica la funzionalità di base del &lt;xref:System.Web.Caching.CacheDependency&gt;classe che l'elemento è stato modificato, in modo che i valori del &lt;xref:System.Web.Caching.CacheDependency.HasChanged%2A&gt;e &lt;xref:System.Web.Caching.CacheDependency.UtcLastModified%2A&gt;le proprietà possono essere aggiornate.&lt;/xref:System.Web.Caching.CacheDependency.UtcLastModified%2A&gt; &lt;/xref:System.Web.Caching.CacheDependency.HasChanged%2A&gt; &lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The source of the event.</source>
+          <target state="translated">L'origine dell'evento.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.EventArgs?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object that contains the event data.</source>
+          <target state="translated">Un <ph id="ph1">&amp;lt;</ph>xref:System.EventArgs?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> oggetto che contiene i dati dell'evento.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Marks the time when a dependency last changed.</source>
+          <target state="translated">Indica l'ora dell'ultima modifica una dipendenza.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The time when the dependency last changed.</source>
+          <target state="translated">Ora dell'ultima modifica della dipendenza.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the time when the dependency was last changed.</source>
+          <target state="translated">Ottiene l'ora dell'ultima modifica quando la dipendenza.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is measured in Coordinated Universal Time (UTC) (also known as Greenwich Mean Time).</source>
+          <target state="translated">Questa proprietà è misurata in Coordinated Universal Time (UTC) (noto anche come Greenwich Mean Time).</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The time when the dependency was last changed.</source>
+          <target state="translated">L'ora dell'ultima modifica quando la dipendenza.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

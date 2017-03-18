@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b7cc34f4ba3dd5f204326a45aef2983b3020b0b4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.ReceiveErrorHandling.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">412cec509fb36fe5410f1ddd315ec5a8fcf9b802</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb7506a78c7567753ba03c99378618e11fb8f6ce</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An enumeration that specifies handling for a poison message.</source>
+          <target state="translated">Uma enumeração que especifica o processamento de uma mensagem corrompida foi.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A poison message is a message that fails repeated attempts to deliver to the application.</source>
+          <target state="translated">Uma mensagem corrompida foi é uma mensagem que não consegue tentativas repetidas para disponibilizar a aplicação.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is applicable only when using a Message Queuing (MSMQ)-based binding.</source>
+          <target state="translated">Isto é aplicável apenas ao utilizar um enlace de colocação de mensagens MSMQ.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is <ph id="ph1">`Fault`</ph>, which faults the listener and therefore the ServiceHost.</source>
+          <target state="translated">O valor predefinido é <ph id="ph1">`Fault`</ph>, que faults o serviço de escuta e, por conseguinte, o ServiceHost.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case where the service was to fault because of a poison message, a &lt;xref:System.ServiceModel.MsmqPoisonMessageException&gt; is thrown.</source>
+          <target state="translated">No caso em que o serviço foi a falha devido a uma mensagem corrompida foi, um &lt;xref:System.ServiceModel.MsmqPoisonMessageException&gt;é emitida.&lt;/xref:System.ServiceModel.MsmqPoisonMessageException&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception contains the <ph id="ph1">`LookupId`</ph> of the MSMQ message that can be used to move the message out of the way using System.Messaging API.</source>
+          <target state="translated">A excepção contém a <ph id="ph1">`LookupId`</ph> da mensagem MSMQ que pode ser utilizada para mover a mensagem de forma a utilizar System.Messaging API.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Certain values of the ReceiveErrorHandling enumeration such as <ph id="ph1">`Reject`</ph> and <ph id="ph2">`Move`</ph> are only available on <ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>.</source>
+          <target state="translated">Determinados valores de enumeração ReceiveErrorHandling como <ph id="ph1">`Reject`</ph> e <ph id="ph2">`Move`</ph> só estão disponíveis em <ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You control poison message handling by setting the &lt;xref:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling%2A&gt; property to one of the values of this enumeration.</source>
+          <target state="translated">Controlar a mensagem corrompida foi processamento definindo a &lt;xref:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling%2A&gt;propriedade para um dos valores desta enumeração.&lt;/xref:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This option drops the poison message.</source>
+          <target state="translated">Esta opção ignora a mensagem corrompida foi.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The message never gets delivered to the application.</source>
+          <target state="translated">A mensagem obtém nunca entregue na aplicação.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the message's TTL had already expired at this point, then the message may appear in the sender's Dead Letter Queue.</source>
+          <target state="translated">Se o TTL da mensagem já tinha expirado neste momento, pode aparecer a mensagem na fila de não entregues do remetente.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If not, the message does not appear anywhere.</source>
+          <target state="translated">Caso contrário, a mensagem não aparecer em qualquer lugar.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This option indicates that the user does not really care if the message is lost.</source>
+          <target state="translated">Esta opção indica que o utilizador não realmente mais importantes para si se a mensagem é perdida.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applicable platforms: <ph id="ph1">[!INCLUDE[wxp](~/add/includes/wxp-md.md)]</ph>, <ph id="ph2">[!INCLUDE[ws2003](~/add/includes/ws2003-md.md)]</ph>, and <ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>.</source>
+          <target state="translated">Plataformas aplicáveis: <ph id="ph1">[!INCLUDE[wxp](~/add/includes/wxp-md.md)]</ph>, <ph id="ph2">[!INCLUDE[ws2003](~/add/includes/ws2003-md.md)]</ph>, e <ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This option sends a fault to the listener that caused the ServiceHost to fault.</source>
+          <target state="translated">Esta opção envia uma falha para o serviço de escuta que causou o ServiceHost para falhas.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The message must be removed from the application queue by some external mechanism before the application can continue to process messages from the queue.</source>
+          <target state="translated">A mensagem deve ser removida da fila aplicação por algum mecanismo externo antes da aplicação pode continuar a processar mensagens da fila.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applicable platforms: Windows XP, Windows Server 2003, and Windows Vista.</source>
+          <target state="translated">Plataformas aplicáveis: Windows XP, Windows Server 2003 e Windows Vista.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This moves the poison message to a Poison Message Queue for later processing by a poison message handling application.</source>
+          <target state="translated">Este passo muda a mensagem corrompida foi para uma fila de mensagens nocivas para processamento posterior por uma aplicação a processar a mensagem corrompida foi.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applicable platforms: <ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph> only.</source>
+          <target state="translated">Plataformas aplicáveis: <ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph> apenas.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This instructs MSMQ to send a negative acknowledgement back to the sending queue manager that the message cannot be received by the application.</source>
+          <target state="translated">Isto dá instruções ao MSMQ para enviar uma confirmação negativa novamente para o Gestor de fila de envio que não é possível receber a mensagem pela aplicação.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The message is placed in the sending queue manager's Dead Letter Queue.</source>
+          <target state="translated">A mensagem é colocada na fila de não entregues do Gestor de filas envio.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Applicable platforms: <ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph> only.</source>
+          <target state="translated">Plataformas aplicáveis: <ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph> apenas.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

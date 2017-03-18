@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">49dc82e4e8964c73db185e1ab40b739232c38599</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Web.JavascriptCallbackBehaviorAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98ee2cc4972db840b90b531d31d1581ed2b6ef45</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e86d52633dc51857773f21f32852244fab965805</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A contract behavior that allows you to set the URL query string parameter name to something other than the default “callback”.</source>
+          <target state="translated">Comportamento del contratto che consente di impostare il nome di parametro stringa di query URL su qualcosa diverso da quello predefinito "callback".</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>JSONP is a mechanism used to enable cross-site, scripting support in Web browsers.</source>
+          <target state="translated">JSONP è un meccanismo utilizzato per abilitare il cross-site scripting supporto nei Web browser.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It involves sending a request with a callback function name provided as a URL query string parameter value.</source>
+          <target state="translated">Prevede l'invio di una richiesta con il nome di una funzione di callback fornito come valore di parametro stringa di query URL.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service returns a response with the usual JSON payload wrapped in the call to the provided callback function as if it were a line of executable code.</source>
+          <target state="translated">Il servizio restituisce una risposta con il solito payload JSON incapsulato nella chiamata alla funzione di callback fornito come se fosse una riga di codice eseguibile.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following is an example of a URL used to call a service: <ph id="ph1">`http://baseAddress/Service/RESTService?callback=functionName`</ph>.</source>
+          <target state="translated">Di seguito è riportato un esempio di un URL utilizzato per chiamare un servizio: <ph id="ph1">`http://baseAddress/Service/RESTService?callback=functionName`</ph>.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When invoked, the service responds with the following JSON.</source>
+          <target state="translated">Quando viene richiamato, il servizio risponde con il codice JSON seguente.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   functionName({ “root”:”Something});   ```</ph>       The JavascriptCallbackBehaviorAttribute allows developers to specify the name of the URL query string parameter to interpret as the callback parameter.</source>
+          <target state="translated"><ph id="ph1">```   functionName({ “root”:”Something});   ```</ph>Il JavascriptCallbackBehaviorAttribute consente agli sviluppatori di specificare il nome del parametro della stringa di query URL da interpretare come parametro di callback.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is “callback” (not case sensitive).</source>
+          <target state="translated">Il valore predefinito è "callback" (non maiuscole / minuscole).</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example shows how this attribute is applied to a service contract.</source>
+          <target state="translated">L'esempio seguente mostra come questo attributo viene applicato a un contratto di servizio.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   [ServiceContract]   [JavascriptCallbackBehavior]   public class Service1   {       [OperationContract]       [WebGet(ResponseFormat=WebMessageFormat.Json)]       public string GetData()       {                        // ...       }   }   ```</ph>       This attribute only applies when it marks a service contract type that is used with the &lt;xref:System.ServiceModel.WebHttpBinding&gt; and the &lt;xref:System.ServiceModel.WebHttpBinding.CrossDomainScriptAccessEnabled%2A&gt; property of the binding is set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">```   [ServiceContract]   [JavascriptCallbackBehavior]   public class Service1   {       [OperationContract]       [WebGet(ResponseFormat=WebMessageFormat.Json)]       public string GetData()       {                        // ...       }   }   ```</ph>Questo attributo si applica solo quando contrassegna un tipo di contratto di servizio utilizzato con il &lt;xref:System.ServiceModel.WebHttpBinding&gt;e &lt;xref:System.ServiceModel.WebHttpBinding.CrossDomainScriptAccessEnabled%2A&gt;dell'associazione è impostata su <ph id="ph2">`true`</ph>.&lt;/xref:System.ServiceModel.WebHttpBinding.CrossDomainScriptAccessEnabled%2A&gt; &lt;/xref:System.ServiceModel.WebHttpBinding&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Web.JavascriptCallbackBehaviorAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.ServiceModel.Web.JavascriptCallbackBehaviorAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>An implementation of the &lt;xref:System.ServiceModel.Description.IContractBehavior.AddBindingParameters*&gt; method.</source>
+          <target state="translated">Un'implementazione del &lt;xref:System.ServiceModel.Description.IContractBehavior.AddBindingParameters*&gt;metodo.&lt;/xref:System.ServiceModel.Description.IContractBehavior.AddBindingParameters*&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The contract description.</source>
+          <target state="translated">La descrizione del contratto.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The service endpoint.</source>
+          <target state="translated">L'endpoint del servizio.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The binding parameters required to implement the behavior.</source>
+          <target state="translated">Parametri dell'associazione necessari per implementare il comportamento.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An implementation of the &lt;xref:System.ServiceModel.Description.IContractBehavior.ApplyClientBehavior*&gt; method.</source>
+          <target state="translated">Un'implementazione del &lt;xref:System.ServiceModel.Description.IContractBehavior.ApplyClientBehavior*&gt;metodo.&lt;/xref:System.ServiceModel.Description.IContractBehavior.ApplyClientBehavior*&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The contract description.</source>
+          <target state="translated">La descrizione del contratto.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The service endpoint.</source>
+          <target state="translated">L'endpoint del servizio.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The client runtime.</source>
+          <target state="translated">Il runtime del client.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An implementation of the &lt;xref:System.ServiceModel.Description.IContractBehavior.ApplyDispatchBehavior*&gt; method.</source>
+          <target state="translated">Un'implementazione del &lt;xref:System.ServiceModel.Description.IContractBehavior.ApplyDispatchBehavior*&gt;metodo.&lt;/xref:System.ServiceModel.Description.IContractBehavior.ApplyDispatchBehavior*&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The contract description.</source>
+          <target state="translated">La descrizione del contratto.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The service endpoint.</source>
+          <target state="translated">L'endpoint del servizio.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The dispatch runtime.</source>
+          <target state="translated">Il runtime della distribuzione.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets or sets the URL query string parameter name to use for cross-domain script access.</source>
+          <target state="translated">Ottiene o imposta il nome di parametro stringa di query URL da utilizzare per l'accesso di script tra domini.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property allows you to specify the name of the URL query string parameter used to identify the JSONP callback function name.</source>
+          <target state="translated">Questa proprietà consente di specificare il nome del parametro della stringa di query URL utilizzato per identificare il nome di funzione di callback JSONP.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is “callback”.</source>
+          <target state="translated">Il valore predefinito è "callback".</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The URL query string parameter name.</source>
+          <target state="translated">Il nome di parametro stringa query di URL.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An implementation of the &lt;xref:System.ServiceModel.Description.IContractBehavior.Validate*&gt; method.</source>
+          <target state="translated">Un'implementazione del &lt;xref:System.ServiceModel.Description.IContractBehavior.Validate*&gt;metodo.&lt;/xref:System.ServiceModel.Description.IContractBehavior.Validate*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The contract description.</source>
+          <target state="translated">La descrizione del contratto.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The service endpoint.</source>
+          <target state="translated">L'endpoint del servizio.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
