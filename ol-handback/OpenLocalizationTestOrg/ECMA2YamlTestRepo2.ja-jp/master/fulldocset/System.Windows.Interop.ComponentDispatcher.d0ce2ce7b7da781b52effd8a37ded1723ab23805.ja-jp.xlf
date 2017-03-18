@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">42f6f703297a095c149e4b0f5057745041e23d52</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Interop.ComponentDispatcher.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cfd76ac98e39727a875b8493b77b2323a99503f0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e1e3c30df6ff2fa79fd3596eb9a1b038207c2a3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables shared control of the message pump between <ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> and <ph id="ph2">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> in interoperation scenarios.</source>
+          <target state="translated">間でメッセージ ポンプの制御を共有できるように<ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph>と<ph id="ph2">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>相互運用シナリオでします。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Although the class itself is static, all members of ComponentDispatcher are specific to a particular thread.</source>
+          <target state="translated">クラス自体が静的、ComponentDispatcher のすべてのメンバーは特定のスレッドに固有です。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For example, if you examine the value of &lt;xref:System.Windows.Interop.ComponentDispatcher.IsThreadModal%2A&gt; on two different threads, you might get different values.</source>
+          <target state="translated">値を確認する場合など、 &lt;xref:System.Windows.Interop.ComponentDispatcher.IsThreadModal%2A&gt;、2 つの異なるスレッドに異なる値が取得する可能性があります&lt;/xref:System.Windows.Interop.ComponentDispatcher.IsThreadModal%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The methods are static but they are backed by per-thread data structures.</source>
+          <target state="translated">メソッドは静的ですがスレッドごとのデータ構造でのバックアップがします。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The static methods allow singleton access but the ComponentDispatcher is sorting out the appropriate per-thread operations.</source>
+          <target state="translated">静的メソッドは、単一のアクセスを許可するが、ComponentDispatcher がスレッドごとの適切な操作を並べ替えます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The owner of the message pump is defined by the code that calls the <ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> function  <bpt id="p1">[</bpt>GetMessage<ept id="p1">](http://msdn.microsoft.com/library/ms644936.aspx)</ept>.</source>
+          <target state="translated">呼び出すコードによってメッセージ ポンプの所有者が定義されている、<ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph>関数<bpt id="p1">[</bpt>GetMessage<ept id="p1">](http://msdn.microsoft.com/library/ms644936.aspx)</ept>です。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The owner calls &lt;xref:System.Windows.Interop.ComponentDispatcher.RaiseThreadMessage%2A&gt; for every keyboard message.</source>
+          <target state="translated">所有者呼び出し&lt;xref:System.Windows.Interop.ComponentDispatcher.RaiseThreadMessage%2A&gt;キーボード メッセージごとにします&lt;/xref:System.Windows.Interop.ComponentDispatcher.RaiseThreadMessage%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This method raises the &lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt; event with the messages contained in the event data.</source>
+          <target state="translated">このメソッドを発生させる、&lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt;イベントのデータが含まれてし、メッセージ イベントには&lt;/xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If that event is not handled, the owner raises the &lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadPreprocessMessage&gt; event with the messages contained in the event argument.</source>
+          <target state="translated">そのイベントが処理されない場合は、所有者が、&lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadPreprocessMessage&gt;イベントの引数に含まれるイベント メッセージを使用します&lt;/xref:System.Windows.Interop.ComponentDispatcher.ThreadPreprocessMessage&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Only keyboard messages are supported.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; キーボード メッセージのみがサポートされます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets the last message that was raised.</source>
+          <target state="translated">発生した最後のメッセージを取得します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The last message.</source>
+          <target state="translated">最後のメッセージ。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Occurs when a thread becomes modal.</source>
+          <target state="translated">スレッドがモーダルになったときに発生します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the thread is modal.</source>
+          <target state="translated">スレッドがモーダルかどうかを示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the thread is modal; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>スレッドがモーダル以外の場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Occurs when a modal thread becomes nonmodal.</source>
+          <target state="translated">モーダル スレッドがモーダルになったときに発生します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Called to indicate that a modal thread is no longer modal.</source>
+          <target state="translated">モーダル スレッドがモーダルでなくなったことを示すために呼び出されます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Called to indicate that the thread is modal.</source>
+          <target state="translated">スレッドがモーダルであることを示すために呼び出されます。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Called to indicate that a thread is idle.</source>
+          <target state="translated">スレッドがアイドル状態であることを示すと呼ばれます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Indicates that a new message is available for possible handling.</source>
+          <target state="translated">新しいメッセージが処理できることを示します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The owner of the message pump should call this method for every keyboard message.</source>
+          <target state="translated">メッセージ ポンプの所有者は、キーボード メッセージごとに、このメソッドを呼び出す必要があります。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The message and its associated data.</source>
+          <target state="translated">メッセージとその関連データです。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if one of the modules listening to the message loop processed the message.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>、メッセージを処理するメッセージ ループをリッスンしているモジュールのいずれかの場合。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The owner of the message loop should ignore the message.</source>
+          <target state="translated">メッセージ ループの所有者は、メッセージを無視する必要があります。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the message was not processed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>、、メッセージが処理されなかった場合。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>In this case, the owner of the message pump should call the <ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph> function <bpt id="p1">[</bpt>TranslateMessage<ept id="p1">](http://msdn.microsoft.com/library/ms644955.aspx)</ept> followed by <bpt id="p2">[</bpt>DispatchMessage<ept id="p2">](http://msdn.microsoft.com/library/ms644934.aspx)</ept>.</source>
+          <target state="translated">この場合、メッセージ ポンプの所有者を呼び出す必要があります、<ph id="ph1">[!INCLUDE[TLA2#tla_win32](~/add/includes/tla2sharptla-win32-md.md)]</ph>関数<bpt id="p1">[</bpt>TranslateMessage<ept id="p1">](http://msdn.microsoft.com/library/ms644955.aspx)</ept>続く<bpt id="p2">[</bpt>DispatchMessage<ept id="p2">](http://msdn.microsoft.com/library/ms644934.aspx)</ept>です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Occurs when the message pump receives a keyboard message.</source>
+          <target state="translated">メッセージ ポンプがキーボード メッセージを受け取ると発生します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Occurs when the thread is idle.</source>
+          <target state="translated">スレッドがアイドル状態のときに発生します。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If there are no messages in the queue, then the idle state announced by the ThreadIdle event is an efficient time to do processing.</source>
+          <target state="translated">キューにメッセージがない場合、は、処理を実行するための効率的な時間は ThreadIdle イベントにアナウンスされるアイドル状態です。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Occurs when the message pump receives a keyboard message.</source>
+          <target state="translated">メッセージ ポンプがキーボード メッセージを受け取ると発生します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This event should be raised after &lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt;, if that event is not handled.</source>
+          <target state="translated">後にこのイベントを発生させるか&lt;xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt;そのイベントが処理されない場合、&lt;/xref:System.Windows.Interop.ComponentDispatcher.ThreadFilterMessage&gt; 。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

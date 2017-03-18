@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e41eda21055d6e92115a5ca671798138ef93c8f0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.VisualBasic.Financial.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db5d8bc19f6308ebd75371f08dfff35e8a618740</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8167b10c1eac34e9192bba2c93c0833fb58a4b21</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_Financial" name="Financial" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> module contains procedures used to perform financial operations.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Financial" name="Financial" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>モジュールには、財務関連の操作を実行するための手順が含まれています。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This module supports the Visual Basic run-time library members that perform financial calculations such as depreciation, present and future values, interest rates, rates of return, and payments.</source>
+          <target state="translated">このモジュールは、減価償却、現在および将来の値、金利、戻り値、および支払いの速度などの財務計算を実行する Visual Basic ランタイム ライブラリ メンバーをサポートします。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the depreciation of an asset for a specific time period using the double-declining balance method or some other method you specify.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>倍率逓減法または指定したその他の方法を使用して、特定の期間の資産の減価償却を指定します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The double-declining balance method computes depreciation at an accelerated rate.</source>
+          <target state="translated">倍率逓減法では、迅速なレートで減価償却費を計算します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Depreciation is highest in the first period and decreases in successive periods.</source>
+          <target state="translated">減価償却では、最初の期間が最も高くし、連続する期間に減少します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Life`</ph> and <ph id="ph2">`Period`</ph> arguments must be expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Life`</ph>と<ph id="ph2">`Period`</ph>の引数は、同じ単位で表す必要があります。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Life`</ph> is given in months, <ph id="ph2">`Period`</ph> must also be given in months.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`Life`</ph>月単位で指定された<ph id="ph2">`Period`</ph>も月単位で指定する必要があります。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>All arguments must be positive numbers.</source>
+          <target state="translated">すべての引数は正の数値である必要があります。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`DDB`</ph> function uses the following formula to calculate depreciation for a given period:       Depreciation / Period = ((Cost – Salvage) * Factor) / Life</source>
+          <target state="translated"><ph id="ph1">`DDB`</ph>関数では、次の数式を使用して、特定の期間に対する減価償却費を計算する: 減価償却/期間 = ((Cost – Salvage) * 係数)/有効期間</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying initial cost of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>資産の初期コストを指定します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying value of the asset at the end of its useful life.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>耐用年数の最後の資産の値を指定します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying length of useful life of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>資産の耐用年数を指定します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying period for which asset depreciation is calculated.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>減価償却が計算される期間を指定します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying rate at which the balance declines.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>レートを減価償却を指定します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If omitted, 2 (double-declining method) is assumed.</source>
+          <target state="translated">省略した場合、2 (倍率逓減法) が使用されます。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the depreciation of an asset for a specific time period using the double-declining balance method or some other method you specify.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>倍率逓減法または指定したその他の方法を使用して、特定の期間の資産の減価償却を指定します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Factor&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph>= 0, <ph id="ph3">&lt;code&gt;Salvage&lt;/code&gt;</ph> <ph id="ph4">&amp;lt;</ph> 0, <ph id="ph5">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph6">&amp;lt;</ph>= 0, or <ph id="ph7">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph8">&amp;gt;</ph> <ph id="ph9">&lt;code&gt;Life.&lt;/code&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Factor&lt;/code&gt;</ph><ph id="ph2">&amp;lt;</ph>= 0, <ph id="ph3">&lt;code&gt;Salvage&lt;/code&gt;</ph> <ph id="ph4">&amp;lt;</ph> 0, <ph id="ph5">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph6">&amp;lt;</ph>= 0, or <ph id="ph7">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph8">&amp;gt;</ph><ph id="ph9">&lt;code&gt;Life.&lt;/code&gt;</ph></target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the future value of an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定期的な定額払いおよび固定金利をに基づいて年金の将来の値を指定します。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over time.</source>
+          <target state="translated">年金は、一連の支払いを時間の経過と共に行うです。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金には、住宅ローン) などのローンまたは (毎月のコスト削減プラン) など、投資収益率を指定できます。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Rate`</ph> and <ph id="ph2">`NPer`</ph> arguments must be calculated using payment periods expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>と<ph id="ph2">`NPer`</ph>引数は、同じ単位で支払い期間を使用して計算する必要があります。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Rate`</ph> is calculated using months, <ph id="ph2">`NPer`</ph> must also be calculated using months.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`Rate`</ph>か月間を使用して計算されます<ph id="ph2">`NPer`</ph>か月間を使用して計算する必要があります。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid out (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">すべての引数、預金) など配当は負の数値で表されます。(被除数をチェックします) などに受信したキャッシュは、正の数値で表されます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>一定期間金利を指定します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">たとえば、自動車ローンを 10% の年率 (年 4 月) で取得して毎月の支払いを行う場合期間ごとのレートは 0.1/12、0.0083 です。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>年金の支払い回数の合計数を指定します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has a total of 4 x 12 (or 48) payment periods.</source>
+          <target state="translated">たとえば、4 年カー ローンの毎月の支払いを行う場合、合計で 4 x 12 (または 48) の支払い期間があることにします。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying payment to be made each period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>それぞれの期間に支払いを指定します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Payments usually contain principal and interest that doesn't change over the life of the annuity.</source>
+          <target state="translated">通常、支払いには、プリンシパルと、年金の期間を変更しない関心が含まれます。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying present value (or lump sum) of a series of future payments.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>一連の将来の支払いの現在の値 (または一括) を指定します。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">たとえば、車を購入するコストを借用するときにローン額、自動車支払いを行うかの lender を存在値です。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">省略した場合、0 と見なされます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">型のオブジェクト<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>支払いが期限を指定します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This argument must be either <bpt id="p1">&lt;xref uid="langword_csharp_DueDate.EndOfPeriod" name="DueDate.EndOfPeriod" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if payments are due at the end of the payment period, or <bpt id="p2">&lt;xref uid="langword_csharp_DueDate.BegOfPeriod" name="DueDate.BegOfPeriod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if payments are due at the beginning of the period.</source>
+          <target state="translated">この引数はいずれかである必要があります<bpt id="p1">&lt;xref uid="langword_csharp_DueDate.EndOfPeriod" name="DueDate.EndOfPeriod" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>支払い期間の最後に支払う場合または<bpt id="p2">&lt;xref uid="langword_csharp_DueDate.BegOfPeriod" name="DueDate.BegOfPeriod" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>期間の先頭に支払う場合。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If omitted, <bpt id="p1">&lt;xref uid="langword_csharp_DueDate.EndOfPeriod" name="DueDate.EndOfPeriod" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is assumed.</source>
+          <target state="translated">省略した場合、 <bpt id="p1">&lt;xref uid="langword_csharp_DueDate.EndOfPeriod" name="DueDate.EndOfPeriod" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>と見なされます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the future value of an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定期的な定額払いおよび固定金利をに基づいて年金の将来の値を指定します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the interest payment for a given period of an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定期的な定額払いおよび固定金利に基づく指定された期間の年金の利払いを指定します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over time.</source>
+          <target state="translated">年金は、一連の支払いを時間の経過と共に行うです。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金には、住宅ローン) などのローンまたは (毎月のコスト削減プラン) など、投資収益率を指定できます。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Rate`</ph> and <ph id="ph2">`NPer`</ph> arguments must be calculated using payment periods expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>と<ph id="ph2">`NPer`</ph>引数は、同じ単位で支払い期間を使用して計算する必要があります。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Rate`</ph> is calculated using months, <ph id="ph2">`NPer`</ph> must also be calculated using months.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`Rate`</ph>か月間を使用して計算されます<ph id="ph2">`NPer`</ph>か月間を使用して計算する必要があります。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid out (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">すべての引数、預金) など配当は負の数値で表されます。(被除数をチェックします) などに受信したキャッシュは、正の数値で表されます。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>一定期間金利を指定します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">たとえば、自動車ローンを 10% の年率 (年 4 月) で取得して毎月の支払いを行う場合期間ごとのレートは 0.1/12、0.0083 です。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying payment period in the range 1 through <ph id="ph1">`NPer`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>~ 1 の範囲で支払い期間を指定する<ph id="ph1">`NPer`</ph>です。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>年金の支払い回数の合計数を指定します。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has a total of 4 x 12 (or 48) payment periods.</source>
+          <target state="translated">たとえば、4 年カー ローンの毎月の支払いを行う場合、合計で 4 x 12 (または 48) の支払い期間があることにします。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying present value, or value today, of a series of future payments or receipts.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>存在を指定することや、または値今日では、将来の支払いを処理または配信確認メッセージの一連の値します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">たとえば、車を購入するコストを借用するときにローン額、自動車支払いを行うかの lender を存在値です。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying future value or cash balance you want after you've made the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>将来の値または最終のお支払いを行った後にした場合を指定します。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that's its value after the final payment.</source>
+          <target state="translated">たとえば、ローンの将来の値が $0 が最終のお支払いの後にその値です。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 over 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">ただし、お子様の教育用 18 歳以上で $50,000 を保存する場合は、将来の値が $50,000 にします。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">省略した場合、0 と見なされます。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">型のオブジェクト<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>支払いが期限を指定します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">この引数はいずれかである必要があります<ph id="ph1">`DueDate.EndOfPeriod`</ph>支払い期間の最後に支払う場合または<ph id="ph2">`DueDate.BegOfPeriod`</ph>期間の先頭に支払う場合。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">省略した場合、<ph id="ph1">`DueDate.EndOfPeriod`</ph>と見なされます。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the interest payment for a given period of an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定期的な定額払いおよび固定金利に基づく指定された期間の年金の利払いを指定します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph>= 0 or <ph id="ph3">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph> <ph id="ph5">&lt;code&gt;NPer&lt;/code&gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Per&lt;/code&gt;</ph><ph id="ph2">&amp;lt;</ph>= 0 or <ph id="ph3">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph><ph id="ph5">&lt;code&gt;NPer&lt;/code&gt;</ph></target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the internal rate of return for a series of periodic cash flows (payments and receipts).</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>一連の定期的なキャッシュ フロー (支払いと受け取り) の内部利益率を指定します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The internal rate of return is the interest rate received for an investment consisting of payments and receipts that occur at regular intervals.</source>
+          <target state="translated">内部利益率は、支払いと受け取り一定の間隔で発生するので構成される投資に対する利率です。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`IRR`</ph> function uses the order of values within the array to interpret the order of payments and receipts.</source>
+          <target state="translated"><ph id="ph1">`IRR`</ph>関数では、配列内の値の順序を使用して、支払いと受け取りの順序を解釈します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Be sure to enter your payment and receipt values in the correct sequence.</source>
+          <target state="translated">必ず、正しいシーケンスで支払いと受信確認の値を入力してください。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The cash flow for each period does not need to be fixed, as it is for an annuity.</source>
+          <target state="translated">年金は、各期間のキャッシュ フローは修正するのには必要ありません。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`IRR`</ph> is calculated by iteration.</source>
+          <target state="translated"><ph id="ph1">`IRR`</ph>イテレーションによって計算されます。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Starting with the value of <ph id="ph1">`Guess`</ph>, <ph id="ph2">`IRR`</ph> cycles through the calculation until the result is accurate to within 0.00001 percent.</source>
+          <target state="translated">値で始まる<ph id="ph1">`Guess`</ph>、<ph id="ph2">`IRR`</ph>結果が 0.00001% 以内に正確になるまで、計算を切り替えます。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`IRR`</ph> cannot find a result after 20 tries, it fails.</source>
+          <target state="translated">場合<ph id="ph1">`IRR`</ph>20 後の結果が、失敗した場合に見つけることができません。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Array of <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying cash flow values.</source>
+          <target state="translated">配列<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>キャッシュ フローの値を指定します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The array must contain at least one negative value (a payment) and one positive value (a receipt).</source>
+          <target state="translated">配列には、少なくとも&amp;1; つの負の値 (支払) と&amp;1; つの正の値 (受信) を含める必要があります。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Object specifying value you estimate will be returned by <bpt id="p1">&lt;xref uid="langword_csharp_IRR" name="IRR" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">推定値を指定するオブジェクトによって返される<bpt id="p1">&lt;xref uid="langword_csharp_IRR" name="IRR" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`Guess`</ph> is 0.1 (10 percent).</source>
+          <target state="translated">省略した場合、 <ph id="ph1">`Guess`</ph> 0.1 (10%)。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the internal rate of return for a series of periodic cash flows (payments and receipts).</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>一連の定期的なキャッシュ フロー (支払いと受け取り) の内部利益率を指定します。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Array argument values are invalid or <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">Guess</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph>= -1.</source>
+          <target state="translated">配列引数の値が無効または<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">Guess</ph> <ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph>-1 を = です。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the modified internal rate of return for a series of periodic cash flows (payments and receipts).</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>一連の定期的なキャッシュ フロー (支払いと受け取り) の戻り値の変更された内部収益率を指定します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The modified internal rate of return is the internal rate of return when payments and receipts are financed at different rates.</source>
+          <target state="translated">変更された内部利益率は、内部の戻り値の支払いと受け取りを異なるレートで管理する場合です。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`MIRR`</ph> function takes into account both the cost of the investment (<ph id="ph2">`FinanceRate`</ph>) and the interest rate received on reinvestment of cash (<ph id="ph3">`ReinvestRate`</ph>).</source>
+          <target state="translated"><ph id="ph1">`MIRR`</ph>関数では、投資収益率のコストの両方を考慮に入れます (<ph id="ph2">`FinanceRate`</ph>) と収益利率 (<ph id="ph3">`ReinvestRate`</ph>)。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`FinanceRate`</ph> and <ph id="ph2">`ReinvestRatearguments`</ph> are percentages expressed as decimal values.</source>
+          <target state="translated"><ph id="ph1">`FinanceRate`</ph>と<ph id="ph2">`ReinvestRatearguments`</ph>10 進数値で表した比率です。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For example, 12 percent is expressed as 0.12.</source>
+          <target state="translated">たとえば、12% は、0.12 として表されます。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`MIRR`</ph> function uses the order of values within the array to interpret the order of payments and receipts.</source>
+          <target state="translated"><ph id="ph1">`MIRR`</ph>関数では、配列内の値の順序を使用して、支払いと受け取りの順序を解釈します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Be sure to enter your payment and receipt values in the correct sequence.</source>
+          <target state="translated">必ず、正しいシーケンスで支払いと受信確認の値を入力してください。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Array of <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying cash-flow values.</source>
+          <target state="translated">配列<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>キャッシュ フローの値を指定します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The array must contain at least one negative value (a payment) and one positive value (a receipt).</source>
+          <target state="translated">配列には、少なくとも&amp;1; つの負の値 (支払) と&amp;1; つの正の値 (受信) を含める必要があります。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying interest rate paid as the cost of financing.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>利率を指定する支払額です。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying interest rate received on gains from cash reinvestment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>現金利率の利率を指定します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the modified internal rate of return for a series of periodic cash flows (payments and receipts).</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>一連の定期的なキャッシュ フロー (支払いと受け取り) の戻り値の変更された内部収益率を指定します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Rank of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">ValueArray</ph><ept id="p1">&lt;/code&gt;</ept> does not equal 1, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">FinanceRate</ph><ept id="p2">&lt;/code&gt;</ept> = -1, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">ReinvestRate</ph><ept id="p3">&lt;/code&gt;</ept> = -1</source>
+          <target state="translated">Rank of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">ValueArray</ph><ept id="p1">&lt;/code&gt;</ept> does not equal 1, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">FinanceRate</ph><ept id="p2">&lt;/code&gt;</ept> = -1, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">ReinvestRate</ph><ept id="p3">&lt;/code&gt;</ept> = -1</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Division by zero has occurred.</source>
+          <target state="translated">0 による除算が発生しました。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the number of periods for an annuity based on periodic fixed payments and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定期定額払いおよび固定金利をに基づいて年金の期間の数を指定します。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over a period of time.</source>
+          <target state="translated">年金は、一連の支払いを一定期間の時間です。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金には、住宅ローン) などのローンまたは (毎月のコスト削減プラン) など、投資収益率を指定できます。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid out (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">すべての引数、預金) など配当は負の数値で表されます。(被除数をチェックします) などに受信したキャッシュは、正の数値で表されます。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>一定期間金利を指定します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">たとえば、自動車ローンを 10% の年率 (年 4 月) で取得して毎月の支払いを行う場合期間ごとのレートは 0.1/12、0.0083 です。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying payment to be made each period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>それぞれの期間に支払いを指定します。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Payments usually contain principal and interest that does not change over the life of the annuity.</source>
+          <target state="translated">通常、支払いには、プリンシパルと、年金の寿命が変化しない関心が含まれます。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying present value, or value today, of a series of future payments or receipts.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>存在を指定することや、または値今日では、将来の支払いを処理または配信確認メッセージの一連の値します。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">たとえば、車を購入するコストを借用するときにローン額、自動車支払いを行うかの lender を存在値です。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying future value or cash balance you want after you have made the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>将来の値または最終の支払いを行った後にするキャッシュのバランスを指定します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that is its value after the final payment.</source>
+          <target state="translated">たとえば、ローンの将来の値が $0 が最終のお支払いの後にその値です。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 over 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">ただし、お子様の教育用 18 歳以上で $50,000 を保存する場合は、将来の値が $50,000 にします。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">省略した場合、0 と見なされます。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">型のオブジェクト<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>支払いが期限を指定します。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">この引数はいずれかである必要があります<ph id="ph1">`DueDate.EndOfPeriod`</ph>支払い期間の最後に支払う場合または<ph id="ph2">`DueDate.BegOfPeriod`</ph>期間の先頭に支払う場合。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">省略した場合、<ph id="ph1">`DueDate.EndOfPeriod`</ph>と見なされます。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the number of periods for an annuity based on periodic fixed payments and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定期定額払いおよび固定金利をに基づいて年金の期間の数を指定します。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Rate&lt;/code&gt;</ph> = 0 and <ph id="ph2">&lt;code&gt;Pmt&lt;/code&gt;</ph> = 0</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Rate&lt;/code&gt;</ph>= 0 and <ph id="ph2">&lt;code&gt;Pmt&lt;/code&gt;</ph> = 0</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the net present value of an investment based on a series of periodic cash flows (payments and receipts) and a discount rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>一連の定期的なキャッシュ フロー (支払いと受け取り) および公定歩合に基づいて投資の正味現在価値を指定します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The net present value of an investment is the current value of a future series of payments and receipts.</source>
+          <target state="translated">投資の正味現在価値は、支払いと受け取りの将来のシリーズの現在の値です。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`NPV`</ph> function uses the order of values within the array to interpret the order of payments and receipts.</source>
+          <target state="translated"><ph id="ph1">`NPV`</ph>関数では、配列内の値の順序を使用して、支払いと受け取りの順序を解釈します。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Be sure to enter your payment and receipt values in the correct sequence.</source>
+          <target state="translated">必ず、正しいシーケンスで支払いと受信確認の値を入力してください。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`NPV`</ph> investment begins one period before the date of the first cash flow value and ends with the last cash flow value in the array.</source>
+          <target state="translated"><ph id="ph1">`NPV`</ph>投資した日付より前に、のキャッシュ フローの最初の値の&amp;1; つのピリオドを開始し、配列の最後のキャッシュ フローの値で終了します。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The net present value calculation is based on future cash flows.</source>
+          <target state="translated">正味現在価値の計算は、将来のキャッシュ フローに基づいています。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If your first cash flow occurs at the beginning of the first period, the first value must be added to the value returned by <ph id="ph1">`NPV`</ph> and must not be included in the cash flow values of <ph id="ph2">`ValueArray`</ph>.</source>
+          <target state="translated">によって返される値を最初の値を追加する必要があります、先頭の最初の期間の最初のキャッシュ フローする場合は、<ph id="ph1">`NPV`</ph>キャッシュ フローの値に含まれていない必要があります<ph id="ph2">`ValueArray`</ph>です。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`NPV`</ph> function is similar to the <ph id="ph2">`PV`</ph> function (present value) except that the <ph id="ph3">`PV`</ph> function allows cash flows to begin either at the end or the beginning of a period.</source>
+          <target state="translated"><ph id="ph1">`NPV`</ph>関数がに似ていますが、<ph id="ph2">`PV`</ph>関数 (現在の値) ことを除いて、<ph id="ph3">`PV`</ph>関数により、キャッシュ フローの終了またはピリオドの先頭での作業を開始します。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Unlike the variable <ph id="ph1">`NPV`</ph> cash flow values, <ph id="ph2">`PV`</ph> cash flows must be fixed throughout the investment.</source>
+          <target state="translated">変数とは異なり<ph id="ph1">`NPV`</ph>キャッシュ フローの値、<ph id="ph2">`PV`</ph>投資収益率全体でのキャッシュ フローを固定する必要があります。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying discount rate over the length of the period, expressed as a decimal.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>一定期間の割引率を指定することは、10 進数として表されます。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Array of <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying cash flow values.</source>
+          <target state="translated">配列<bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>キャッシュ フローの値を指定します。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The array must contain at least one negative value (a payment) and one positive value (a receipt).</source>
+          <target state="translated">配列には、少なくとも&amp;1; つの負の値 (支払) と&amp;1; つの正の値 (受信) を含める必要があります。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the net present value of an investment based on a series of periodic cash flows (payments and receipts) and a discount rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>一連の定期的なキャッシュ フロー (支払いと受け取り) および公定歩合に基づいて投資の正味現在価値を指定します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;ValueArray&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, rank of <ph id="ph2">&lt;code&gt;ValueArray&lt;/code&gt;</ph> <ph id="ph3">&amp;lt;</ph><ph id="ph4">&amp;gt;</ph> 1, or <ph id="ph5">&lt;code&gt;Rate&lt;/code&gt;</ph> = -1</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;ValueArray&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, rank of <ph id="ph2">&lt;code&gt;ValueArray&lt;/code&gt;</ph> <ph id="ph3">&amp;lt;</ph><ph id="ph4">&amp;gt;</ph> 1, or <ph id="ph5">&lt;code&gt;Rate&lt;/code&gt;</ph> = -1</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the payment for an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定期的な定額払いおよび固定金利をに基づいて年金の支払い額を指定します。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made during a period of time.</source>
+          <target state="translated">年金は、一連の支払いを時間の期間中に行うです。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金には、住宅ローン) などのローンまたは (毎月のコスト削減プラン) など、投資収益率を指定できます。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Rate`</ph> and <ph id="ph2">`NPer`</ph> arguments must be calculated using payment periods expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>と<ph id="ph2">`NPer`</ph>引数は、同じ単位で支払い期間を使用して計算する必要があります。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Rate`</ph> is calculated using months, <ph id="ph2">`NPer`</ph> must also be calculated using months.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`Rate`</ph>か月間を使用して計算されます<ph id="ph2">`NPer`</ph>か月間を使用して計算する必要があります。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">すべての引数、預金) などの支払額は負の数値で表されます。(被除数をチェックします) などに受信したキャッシュは、正の数値で表されます。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>利率の期間を指定します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">たとえば、自動車ローンを 10% の年率 (年 4 月) で取得して毎月の支払いを行う場合期間ごとのレートは 0.1/12、0.0083 です。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>年金の支払い回数の合計数を指定します。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has a total of 4 × 12 (or 48) payment periods.</source>
+          <target state="translated">たとえば、4 年カー ローンの毎月の支払いを行う場合、4 × 12 (または 48) の支払い期間の合計があることにします。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the present value (or lump sum) that a series of payments to be paid in the future is worth now.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>存在または値を指定 (一括の) 一連の今後の支払いが現在価値があります。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">たとえば、車を購入するコストを借用するときにローン額、自動車支払いを行うかの lender を存在値です。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying future value or cash balance you want after you have made the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>将来の値または最終の支払いを行った後にするキャッシュのバランスを指定します。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that is its value after the final payment.</source>
+          <target state="translated">たとえば、ローンの将来の値が $0 が最終のお支払いの後にその値です。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 during 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">ただし、18 歳以上のお子様の教育中 $50,000 を保存する場合は、将来の値が $50,000 にします。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">省略した場合、0 と見なされます。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">型のオブジェクト<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>支払いが期限を指定します。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">この引数はいずれかである必要があります<ph id="ph1">`DueDate.EndOfPeriod`</ph>支払い期間の最後に支払う場合または<ph id="ph2">`DueDate.BegOfPeriod`</ph>期間の先頭に支払う場合。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">省略した場合、<ph id="ph1">`DueDate.EndOfPeriod`</ph>と見なされます。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the payment for an annuity based on periodic, fixed payments and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定期的な定額払いおよび固定金利をに基づいて年金の支払い額を指定します。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;NPer&lt;/code&gt;</ph> = 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;NPer&lt;/code&gt;</ph> = 0.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the principal payment for a given period of an annuity based on periodic fixed payments and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定期定額払いおよび固定金利に基づく指定された期間の年金の支払い額をプリンシパルを指定します。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over a period of time.</source>
+          <target state="translated">年金は、一連の支払いを一定期間の時間です。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金には、住宅ローン) などのローンまたは (毎月のコスト削減プラン) など、投資収益率を指定できます。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Rate`</ph> and <ph id="ph2">`NPer`</ph> arguments must be calculated using payment periods expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>と<ph id="ph2">`NPer`</ph>引数は、同じ単位で支払い期間を使用して計算する必要があります。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Rate`</ph> is calculated using months, <ph id="ph2">`NPer`</ph> must also be calculated using months.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`Rate`</ph>か月間を使用して計算されます<ph id="ph2">`NPer`</ph>か月間を使用して計算する必要があります。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">すべての引数、預金) などの支払額は負の数値で表されます。(被除数をチェックします) などに受信したキャッシュは、正の数値で表されます。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>利率の期間を指定します。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">たとえば、自動車ローンを 10% の年率 (年 4 月) で取得して毎月の支払いを行う場合期間ごとのレートは 0.1/12、0.0083 です。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the payment period in the range 1 through <ph id="ph1">`NPer`</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>~ 1 の範囲で支払い期間を指定<ph id="ph1">`NPer`</ph>です。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>年金の支払い回数の合計数を指定します。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has a total of 4 x 12 (or 48) payment periods.</source>
+          <target state="translated">たとえば、4 年カー ローンの毎月の支払いを行う場合、合計で 4 x 12 (または 48) の支払い期間があることにします。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the current value of a series of future payments or receipts.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>一連の将来の支払いを処理または配信確認メッセージの現在の値を指定します。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">たとえば、車を購入するコストを借用するときにローン額、自動車支払いを行うかの lender を存在値です。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying future value or cash balance you want after you have made the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>将来の値または最終の支払いを行った後にするキャッシュのバランスを指定します。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that is its value after the final payment.</source>
+          <target state="translated">たとえば、ローンの将来の値が $0 が最終のお支払いの後にその値です。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 over 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">ただし、お子様の教育用 18 歳以上で $50,000 を保存する場合は、将来の値が $50,000 にします。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">省略した場合、0 と見なされます。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">型のオブジェクト<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>支払いが期限を指定します。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">この引数はいずれかである必要があります<ph id="ph1">`DueDate.EndOfPeriod`</ph>支払い期間の最後に支払う場合または<ph id="ph2">`DueDate.BegOfPeriod`</ph>期間の先頭に支払う場合。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">省略した場合、<ph id="ph1">`DueDate.EndOfPeriod`</ph>と見なされます。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the principal payment for a given period of an annuity based on periodic fixed payments and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>定期定額払いおよび固定金利に基づく指定された期間の年金の支払い額をプリンシパルを指定します。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph>=0 or <ph id="ph3">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph> <ph id="ph5">&lt;code&gt;NPer&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Per&lt;/code&gt;</ph><ph id="ph2">&amp;lt;</ph>=0 or <ph id="ph3">&lt;code&gt;Per&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph> <ph id="ph5">&lt;code&gt;NPer&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the present value of an annuity based on periodic, fixed payments to be paid in the future and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>今後支払われる定期的な定額払いおよび固定金利をに基づいて年金の現在の値を指定します。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over a period of time.</source>
+          <target state="translated">年金は、一連の支払いを一定期間の時間です。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金には、住宅ローン) などのローンまたは (毎月のコスト削減プラン) など、投資収益率を指定できます。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Rate`</ph> and <ph id="ph2">`NPer`</ph> arguments must be calculated using payment periods expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>と<ph id="ph2">`NPer`</ph>引数は、同じ単位で支払い期間を使用して計算する必要があります。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Rate`</ph> is calculated using months, <ph id="ph2">`NPer`</ph> must also be calculated using months.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`Rate`</ph>か月間を使用して計算されます<ph id="ph2">`NPer`</ph>か月間を使用して計算する必要があります。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid out (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">すべての引数、預金) など配当は負の数値で表されます。(被除数をチェックします) などに受信したキャッシュは、正の数値で表されます。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the interest rate per period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>利率の期間を指定します。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>For example, if you get a car loan at an annual percentage rate (APR) of 10 percent and make monthly payments, the rate per period is 0.1/12, or 0.0083.</source>
+          <target state="translated">たとえば、自動車ローンを 10% の年率 (年 4 月) で取得して毎月の支払いを行う場合期間ごとのレートは 0.1/12、0.0083 です。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>年金の支払い回数の合計数を指定します。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has 4 x 12 (or 48) payment periods.</source>
+          <target state="translated">たとえば、4 年カー ローンの毎月の支払いを行う場合、4 x 12 (または 48) の支払い期間があることにします。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the payment to be made each period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>それぞれの期間に支払いを指定します。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Payments usually contain principal and interest that does not change during the life of the annuity.</source>
+          <target state="translated">通常、支払には、プリンシパルと、年金の有効期間中に変化しない関心が含まれます。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the future value or cash balance you want after you make the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>最後の支払いを行った後にする将来の値または現金の残高を指定します。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that is its value after the final payment.</source>
+          <target state="translated">たとえば、ローンの将来の値が $0 が最終のお支払いの後にその値です。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 over 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">ただし、お子様の教育用 18 歳以上で $50,000 を保存する場合は、将来の値が $50,000 にします。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">省略した場合、0 と見なされます。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">型のオブジェクト<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>支払いが期限を指定します。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">この引数はいずれかである必要があります<ph id="ph1">`DueDate.EndOfPeriod`</ph>支払い期間の最後に支払う場合または<ph id="ph2">`DueDate.BegOfPeriod`</ph>期間の先頭に支払う場合。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">省略した場合、<ph id="ph1">`DueDate.EndOfPeriod`</ph>と見なされます。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the present value of an annuity based on periodic, fixed payments to be paid in the future and a fixed interest rate.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>今後支払われる定期的な定額払いおよび固定金利をに基づいて年金の現在の値を指定します。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the interest rate per period for an annuity.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>年金の毎期金利を指定します。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>An annuity is a series of fixed cash payments made over a period of time.</source>
+          <target state="translated">年金は、一連の支払いを一定期間の時間です。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>An annuity can be a loan (such as a home mortgage) or an investment (such as a monthly savings plan).</source>
+          <target state="translated">年金には、住宅ローン) などのローンまたは (毎月のコスト削減プラン) など、投資収益率を指定できます。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>For all arguments, cash paid out (such as deposits to savings) is represented by negative numbers; cash received (such as dividend checks) is represented by positive numbers.</source>
+          <target state="translated">すべての引数、預金) など配当は負の数値で表されます。(被除数をチェックします) などに受信したキャッシュは、正の数値で表されます。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Rate`</ph> is calculated by iteration.</source>
+          <target state="translated"><ph id="ph1">`Rate`</ph>イテレーションによって計算されます。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Starting with the value of <ph id="ph1">`Guess`</ph>, <ph id="ph2">`Rate`</ph> cycles through the calculation until the result is accurate to within 0.00001 percent.</source>
+          <target state="translated">値で始まる<ph id="ph1">`Guess`</ph>、<ph id="ph2">`Rate`</ph>結果が 0.00001% 以内に正確になるまで、計算を切り替えます。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Rate`</ph> cannot find a result after 20 tries, it fails.</source>
+          <target state="translated">場合<ph id="ph1">`Rate`</ph>20 後の結果が、失敗した場合に見つけることができません。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>If your guess is 10 percent and <ph id="ph1">`Rate`</ph> fails, try a different value for <ph id="ph2">`Guess`</ph>.</source>
+          <target state="translated">推定値が 10% の場合と<ph id="ph1">`Rate`</ph>失敗した場合、再試行の値が異なる<ph id="ph2">`Guess`</ph>です。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the total number of payment periods in the annuity.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>年金の支払い回数の合計数を指定します。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>For example, if you make monthly payments on a four-year car loan, your loan has a total of 4 * 12 (or 48) payment periods.</source>
+          <target state="translated">たとえば、4 年カー ローンの毎月の支払いを行う場合、合計で 4 * 12 (または 48) の支払い期間があることにします。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the payment to be made each period.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>それぞれの期間に支払いを指定します。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Payments usually contain principal and interest that doesn't change over the life of the annuity.</source>
+          <target state="translated">通常、支払いには、プリンシパルと、年金の期間を変更しない関心が含まれます。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the present value, or value today, of a series of future payments or receipts.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定の値または今日では、将来の支払いを処理または配信確認メッセージの一連の値します。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>For example, when you borrow money to buy a car, the loan amount is the present value to the lender of the monthly car payments you will make.</source>
+          <target state="translated">たとえば、車を購入するコストを借用するときにローン額、自動車支払いを行うかの lender を存在値です。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifies the future value or cash balance you want after you make the final payment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>最後の支払いを行った後にする将来の値または現金の残高を指定します。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>For example, the future value of a loan is $0 because that is its value after the final payment.</source>
+          <target state="translated">たとえば、ローンの将来の値が $0 が最終のお支払いの後にその値です。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>However, if you want to save $50,000 over 18 years for your child's education, then $50,000 is the future value.</source>
+          <target state="translated">ただし、お子様の教育用 18 歳以上で $50,000 を保存する場合は、将来の値が $50,000 にします。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>If omitted, 0 is assumed.</source>
+          <target state="translated">省略した場合、0 と見なされます。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Object of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies when payments are due.</source>
+          <target state="translated">型のオブジェクト<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.DueDate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>支払いが期限を指定します。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>This argument must be either <ph id="ph1">`DueDate.EndOfPeriod`</ph> if payments are due at the end of the payment period, or <ph id="ph2">`DueDate.BegOfPeriod`</ph> if payments are due at the beginning of the period.</source>
+          <target state="translated">この引数はいずれかである必要があります<ph id="ph1">`DueDate.EndOfPeriod`</ph>支払い期間の最後に支払う場合または<ph id="ph2">`DueDate.BegOfPeriod`</ph>期間の先頭に支払う場合。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`DueDate.EndOfPeriod`</ph> is assumed.</source>
+          <target state="translated">省略した場合、<ph id="ph1">`DueDate.EndOfPeriod`</ph>と見なされます。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">任意。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying value you estimate is returned by <bpt id="p2">&lt;xref uid="langword_csharp_Rate" name="Rate" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>によって返される推定値を指定する<bpt id="p2">&lt;xref uid="langword_csharp_Rate" name="Rate" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`Guess`</ph> is 0.1 (10 percent).</source>
+          <target state="translated">省略した場合、 <ph id="ph1">`Guess`</ph> 0.1 (10%)。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the interest rate per period for an annuity.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>年金の毎期金利を指定します。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;NPer&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph>= 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;NPer&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph>= 0.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the straight-line depreciation of an asset for a single period.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>単一期間に対する資産の定額償却を指定します。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The depreciation period must be expressed in the same unit as the <ph id="ph1">`Life`</ph> argument.</source>
+          <target state="translated">減価償却の期間と同じ単位で表す必要があります、<ph id="ph1">`Life`</ph>引数。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>All arguments must be positive numbers.</source>
+          <target state="translated">すべての引数は正の数値である必要があります。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying initial cost of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>資産の初期コストを指定します。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying value of the asset at the end of its useful life.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>耐用年数の最後の資産の値を指定します。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying length of the useful life of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>資産の耐用年数を指定します。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the straight-line depreciation of an asset for a single period.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>単一期間に対する資産の定額償却を指定します。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Life&lt;/code&gt;</ph> = 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Life&lt;/code&gt;</ph> = 0.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the sum-of-years digits depreciation of an asset for a specified period.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>逓減合計資産の減価償却を指定した期間を指定します。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Life`</ph> and <ph id="ph2">`Period`</ph> arguments must be expressed in the same units.</source>
+          <target state="translated"><ph id="ph1">`Life`</ph>と<ph id="ph2">`Period`</ph>の引数は、同じ単位で表す必要があります。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Life`</ph> is given in months, <ph id="ph2">`Period`</ph> must also be given in months.</source>
+          <target state="translated">たとえば場合、<ph id="ph1">`Life`</ph>月単位で指定された<ph id="ph2">`Period`</ph>も月単位で指定する必要があります。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>All arguments must be positive numbers.</source>
+          <target state="translated">すべての引数は正の数値である必要があります。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the initial cost of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>資産の初期コストを指定します。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the value of the asset at the end of its useful life.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>耐用年数の最後の資産の値を指定します。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the length of the useful life of the asset.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>資産の耐用年数の長さを指定します。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必須。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the period for which asset depreciation is calculated.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>減価償却が計算される期間を指定します。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the sum-of-years digits depreciation of an asset for a specified period.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>逓減合計資産の減価償却を指定した期間を指定します。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Salvage&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph> 0, <ph id="ph3">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph> <ph id="ph5">&lt;code&gt;Life&lt;/code&gt;</ph>, or <ph id="ph6">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph7">&amp;lt;</ph>=0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Salvage&lt;/code&gt;</ph><ph id="ph2">&amp;lt;</ph> 0, <ph id="ph3">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph4">&amp;gt;</ph> <ph id="ph5">&lt;code&gt;Life&lt;/code&gt;</ph>, or <ph id="ph6">&lt;code&gt;Period&lt;/code&gt;</ph> <ph id="ph7">&amp;lt;</ph>=0.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

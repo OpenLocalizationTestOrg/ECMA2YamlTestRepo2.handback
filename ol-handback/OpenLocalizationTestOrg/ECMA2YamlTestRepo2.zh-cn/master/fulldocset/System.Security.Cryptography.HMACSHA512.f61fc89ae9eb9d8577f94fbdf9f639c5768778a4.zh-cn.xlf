@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dd77ce9ae4bff918cb155252ff8cd46db0814bf3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.HMACSHA512.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2da3a69389553f0315eb1aa49a88841ad99f03db</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ebf21e8d035964fd6cf6399d5d5b7b76a7e73cfa</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Computes a Hash-based Message Authentication Code (HMAC) using the <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> hash function.</source>
+          <target state="translated">计算基于哈希的消息身份验证代码 (HMAC) 使用<bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>哈希函数。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>HMACSHA512 is a type of keyed hash algorithm that is constructed from the SHA-512 hash function and used as a Hash-based Message Authentication Code (HMAC).</source>
+          <target state="translated">HMACSHA512 是一种构造从 sha-512 哈希函数并用作基于哈希的消息身份验证代码 (hmac) 的加密哈希算法。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The HMAC process mixes a secret key with the message data and hashes the result.</source>
+          <target state="translated">HMAC 过程将机密密钥混合与消息数据，并进行哈希运算结果。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The hash value is mixed with the secret key again, and then hashed a second time.</source>
+          <target state="translated">哈希值是同样，混合的机密密钥，然后进行第二次哈希处理。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The output hash is 512 bits in length.</source>
+          <target state="translated">输出哈希值为 512 位的长度。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An HMAC can be used to determine whether a message sent over a nonsecure channel has been tampered with, provided that the sender and receiver share a secret key.</source>
+          <target state="translated">HMAC 可以用于确定是否通过非安全通道发送的消息已被篡改，前提是发送方和接收方共享机密密钥。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The sender computes the hash value for the original data and sends both the original data and hash value as a single message.</source>
+          <target state="translated">发件人计算原始数据的哈希值，并将原始数据和哈希值作为一条消息发送。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The receiver recalculates the hash value on the received message and checks that the computed HMAC matches the transmitted HMAC.</source>
+          <target state="translated">接收方将收到的消息哈希值重新计算，并检查计算的 HMAC 与传输的 HMAC 相匹配。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If the original and computed hash values match, the message is authenticated.</source>
+          <target state="translated">如果原始与计算所得的哈希值匹配，消息进行身份验证。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If they do not match, either the data or the hash value has been changed.</source>
+          <target state="translated">如果不匹配，已更改数据或哈希值。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>HMACs provide security against tampering because knowledge of the secret key is required to change the message and reproduce the correct hash value.</source>
+          <target state="translated">Hmac 提供安全性，以防止篡改因为更改消息和重新生成正确的哈希值需要的机密密钥。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>HMACSHA512 accepts keys of any size, and produces a hash sequence of length 512 bits.</source>
+          <target state="translated">HMACSHA512 接受任何大小的密钥，并产生 512 位的哈希序列的长度。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a randomly generated key.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类随机生成的密钥。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>With this constructor, a 64-byte, randomly generated key is used.</source>
+          <target state="translated">使用此构造函数，使用 64 字节的随机生成的密钥。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified key data.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与指定的密钥数据的类。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The secret key for <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> encryption.</source>
+          <target state="translated">机密密钥<bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>加密。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The key can be any length.</source>
+          <target state="translated">键可以是任意长度。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>However, the recommended size is 128 bytes.</source>
+          <target state="translated">但是，建议的大小是 128 个字节。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If the key is more than 128 bytes long, it is hashed (using SHA-512) to derive a 128-byte key.</source>
+          <target state="translated">如果密钥是 128 字节长，它哈希 （使用 SHA 512） 派生一个 128 字节的密钥。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If it is less than 128 bytes long, it is padded to 128 bytes.</source>
+          <target state="translated">如果它是小于 128 个字节长，它被填充到 128 个字节。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Provides a workaround for the <ph id="ph1">[!INCLUDE[dnprdnext](~/add/includes/dnprdnext-md.md)]</ph> implementation of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm, which is inconsistent with the <ph id="ph2">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph> implementation.</source>
+          <target state="translated">提供的一种解决方法<ph id="ph1">[!INCLUDE[dnprdnext](~/add/includes/dnprdnext-md.md)]</ph>实现<bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>算法，这与不一致<ph id="ph2">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph>实现。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The purpose of the ProduceLegacyHmacValues Boolean property is to enable <ph id="ph1">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph> applications to interact with <ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph> applications.</source>
+          <target state="translated">ProduceLegacyHmacValues 布尔值属性的目的是启用<ph id="ph1">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph>应用程序与交互<ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>应用程序。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>When you set this property to <ph id="ph1">`true`</ph>, the &lt;xref:System.Security.Cryptography.HMACSHA512&gt; object produces values that match the values produced by the <ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>.</source>
+          <target state="translated">当设置此属性为<ph id="ph1">`true`</ph>、&lt;xref:System.Security.Cryptography.HMACSHA512&gt;对象产生由生成的值相匹配的值<ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>。&lt;/xref:System.Security.Cryptography.HMACSHA512&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You should set this property only once after you create your HMAC object.</source>
+          <target state="translated">你创建 HMAC 对象之后，你应仅一次设置此属性。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You will need to reset your key afterwards, as shown in the following example.</source>
+          <target state="translated">你将需要重置你的密钥之后，如下面的示例中所示。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to enable <ph id="ph1">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph> applications to interact with <ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph> applications; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要启用<ph id="ph1">[!INCLUDE[net_v20sp1_long](~/add/includes/net-v20sp1-long-md.md)]</ph>应用程序与交互<ph id="ph2">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>应用程序; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

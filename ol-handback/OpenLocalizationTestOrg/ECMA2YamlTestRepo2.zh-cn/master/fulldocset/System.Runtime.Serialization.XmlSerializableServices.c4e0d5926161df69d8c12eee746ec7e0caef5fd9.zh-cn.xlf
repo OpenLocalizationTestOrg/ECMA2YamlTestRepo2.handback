@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f1a5cd3deca496b3f8c95394c0b8999aad3bcc78</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Serialization.XmlSerializableServices.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31a75d7e548ba223fa88e83e4986edefd0ada5b8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e39b6e5ebfc000be327935f57ed6d7438b20c63f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains methods for reading and writing XML.</source>
+          <target state="translated">包含用于读取和写入 XML 方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Using <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>, you can generate CLR types representing data contracts from XML schemas.</source>
+          <target state="translated">使用<ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph>，你可以生成从 XML 架构表示数据协定的 CLR 类型。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>In certain cases when doing so, the schemas may not all be represented as data contracts.</source>
+          <target state="translated">在执行此操作时某些情况下，架构可能无法表示作为数据协定。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In this case, you can use the &lt;xref:System.Runtime.Serialization.ImportOptions.ImportXmlType%2A&gt; property of the &lt;xref:System.Runtime.Serialization.ImportOptions&gt; class.</source>
+          <target state="translated">在这种情况下，你可以使用&lt;xref:System.Runtime.Serialization.ImportOptions.ImportXmlType%2A&gt;属性的&lt;xref:System.Runtime.Serialization.ImportOptions&gt;类。&lt;/xref:System.Runtime.Serialization.ImportOptions&gt; &lt;/xref:System.Runtime.Serialization.ImportOptions.ImportXmlType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Setting the property to <ph id="ph1">`true`</ph> specifies that these types are imported as XML types that implement the &lt;xref:System.Xml.Serialization.IXmlSerializable&gt; interface.</source>
+          <target state="translated">将属性设置为<ph id="ph1">`true`</ph>指定这些类型将导入为 XML 类型实现&lt;xref:System.Xml.Serialization.IXmlSerializable&gt;接口。&lt;/xref:System.Xml.Serialization.IXmlSerializable&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In the process, the generated types can store anything, but they are read and written as XML by the serializer.</source>
+          <target state="translated">在过程中，生成的类型可以存储任何内容，但它们是读取和写入为 XML 序列化程序。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The XmlSerializableServices is an abstract helper class that contains code that is used by the generated &lt;xref:System.Xml.Serialization.IXmlSerializable&gt; types to read and write XML.</source>
+          <target state="translated">XmlSerializableServices 是抽象的帮助器类，包含使用的代码由生成&lt;xref:System.Xml.Serialization.IXmlSerializable&gt;类型读取和写入 XML。&lt;/xref:System.Xml.Serialization.IXmlSerializable&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>It also contains code for generating schema for the generated types.</source>
+          <target state="translated">它还包含用于生成的类型生成架构的代码。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Note that details about the schemas are not stored.</source>
+          <target state="translated">请注意不存储有关架构的详细信息。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Only the name is stored in the generated type.</source>
+          <target state="translated">仅名称存储在生成的类型。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This class generates a default schema that represents the XML schema type <ph id="ph1">`anyType`</ph> with the appropriate schema type name as the contract name.</source>
+          <target state="translated">此类生成表示的 XML 架构类型的默认架构<ph id="ph1">`anyType`</ph>使用适当的架构类型名称作为协定名称。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Generates a default schema type given the specified type name and adds it to the specified schema set.</source>
+          <target state="translated">生成给定名称的指定的类型的默认架构类型，并将其添加到指定的架构集中。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This method contains code for generating a schema type for a data contract type with the specified type name.</source>
+          <target state="translated">此方法包含代码生成指定的类型名称的数据协定类型的架构类型。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add the generated schema type to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.Schema.XmlSchemaSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要添加到生成的架构类型。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the type name to assign the schema to.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlQualifiedName&gt;，它指定要向其分配架构的类型名称。&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">schemas</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">typeQName</ph><ept id="p2">&lt;/code&gt;</ept> argument is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">schemas</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">typeQName</ph><ept id="p2">&lt;/code&gt;</ept> argument is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Reads a set of XML nodes from the specified reader and returns the result.</source>
+          <target state="translated">从指定的读取器读取的一组 XML 节点，并返回结果。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This method reads all XML contained within the node the reader is positioned on when this call is made.</source>
+          <target state="translated">此方法读取包含在进行此调用时，读取器定位在节点的所有 XML。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This enables it to read and store all XML as an array of &lt;xref:System.Xml.XmlNode&gt; objects.</source>
+          <target state="translated">这使它能够读取并存储为一个数组的所有 XML&lt;xref:System.Xml.XmlNode&gt;对象。&lt;/xref:System.Xml.XmlNode&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>It is a helper method used by the types that implement &lt;xref:System.Xml.Serialization.IXmlSerializable&gt; and that use the &lt;xref:System.Xml.Serialization.IXmlSerializable.ReadXml%2A&gt; method.</source>
+          <target state="translated">它是实现类型使用的一个帮助器方法&lt;xref:System.Xml.Serialization.IXmlSerializable&gt;的使用&lt;xref:System.Xml.Serialization.IXmlSerializable.ReadXml%2A&gt;方法。&lt;/xref:System.Xml.Serialization.IXmlSerializable.ReadXml%2A&gt; &lt;/xref:System.Xml.Serialization.IXmlSerializable&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; used for reading.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlReader&gt;用于进行读取。&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">类型的数组<bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xmlReader</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xmlReader</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>While reading, a <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> node was encountered.</source>
+          <target state="translated">读取时<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>遇到节点。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Writes the supplied nodes using the specified writer.</source>
+          <target state="translated">写入使用指定的编写器提供的节点。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlWriter&gt; used for writing.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlWriter&gt;用于执行编写操作。&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to write.</source>
+          <target state="translated">类型的数组<bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>编写。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xmlWriter</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">xmlWriter</ph><ept id="p1">&lt;/code&gt;</ept> argument is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
