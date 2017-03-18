@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">33301b58e9960ac55c750df9b1eb56dd13de84be</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Messaging.MessageType.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0af104dbdc56f6c30d83c3c820f616df78a64845</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e5fec6749d4ff288574619989b2b37b653ef4a1c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Identifies the type of a message.</source>
+          <target state="translated">Identifica o tipo de uma mensagem.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A message can be a typical Message Queuing message, a positive (arrival and read) or negative (arrival and read) acknowledgment message, or a report message.</source>
+          <target state="translated">Uma mensagem pode ser uma mensagem típica do serviço de enfileiramento de mensagens, positivo (de chegada e de leitura) ou negativo (de chegada e de leitura) confirmação mensagem ou uma mensagem de relatório.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typical (<ph id="ph1">`Normal`</ph> type) messages are those that you send to a queue using either the &lt;xref:System.Messaging.Message&gt; class or any overload of the &lt;xref:System.Messaging.MessageQueue.Send%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Típica (<ph id="ph1">`Normal`</ph> tipo) mensagens são aqueles que você envia para uma fila usando o &lt;xref:System.Messaging.Message&gt;classe ou nenhuma sobrecarga do &lt;xref:System.Messaging.MessageQueue.Send%2A?displayProperty=fullName&gt;método.&lt;/xref:System.Messaging.MessageQueue.Send%2A?displayProperty=fullName&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Message Queuing generates acknowledgment messages whenever the sending application requests one.</source>
+          <target state="translated">O Message Queuing gera mensagens de confirmação sempre que o aplicativo de envio solicita um.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you send a message using the &lt;xref:System.Messaging.Message&gt; class, you can use its &lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt; property to specify the types of acknowledgments to receive.</source>
+          <target state="translated">Se você enviar uma mensagem usando o &lt;xref:System.Messaging.Message&gt;classe, você pode usar seu &lt;xref:System.Messaging.Message.AcknowledgeType%2A&gt;propriedade para especificar os tipos de receber as confirmações.&lt;/xref:System.Messaging.Message.AcknowledgeType%2A&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, Message Queuing can generate positive or negative messages to indicate that the original message arrived or was read.</source>
+          <target state="translated">Por exemplo, enfileiramento de mensagens pode gerar mensagens positivas ou negativas para indicar que a mensagem original chegou ou foi lido.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Message Queuing returns the appropriate acknowledgment message to the administration queue specified by the sending application.</source>
+          <target state="translated">O Message Queuing retorna a mensagem de confirmação apropriada para a fila de administração especificada pelo aplicativo de envio.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you receive or peek an acknowledgment message using a &lt;xref:System.Messaging.Message&gt;, its &lt;xref:System.Messaging.Message.Acknowledgment%2A&gt; property indicates the reason Message Queuing sent the acknowledgment.</source>
+          <target state="translated">Quando você receber ou exibir uma mensagem de confirmação usando um &lt;xref:System.Messaging.Message&gt;, sua &lt;xref:System.Messaging.Message.Acknowledgment%2A&gt;propriedade indica o motivo do enfileiramento de mensagens enviadas a confirmação.&lt;/xref:System.Messaging.Message.Acknowledgment%2A&gt; &lt;/xref:System.Messaging.Message&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Message Queuing generates report messages whenever a report queue is defined at the source queue manager.</source>
+          <target state="translated">O Message Queuing gera mensagens de relatório sempre que uma fila de relatórios é definida no Gerenciador de filas de origem.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When tracing is enabled (by setting the &lt;xref:System.Messaging.Message.UseTracing%2A?displayProperty=fullName&gt; property on the original message), Message Queuing sends a report message to the Message Queuing report queue each time the original message enters or leaves a Message Queuing server.</source>
+          <target state="translated">Quando o rastreamento está habilitado (definindo o &lt;xref:System.Messaging.Message.UseTracing%2A?displayProperty=fullName&gt;propriedade na mensagem original), enfileiramento de mensagens envia uma mensagem de relatório para a fila de enfileiramento de mensagens de relatório sempre que a mensagem original entra ou sai de um servidor de enfileiramento de mensagens.&lt;/xref:System.Messaging.Message.UseTracing%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An acknowledgment message.</source>
+          <target state="translated">Uma mensagem de confirmação.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A normal Message Queuing message.</source>
+          <target state="translated">Uma mensagem normal de enfileiramento de mensagens.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A report message.</source>
+          <target state="translated">Uma mensagem de relatório.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

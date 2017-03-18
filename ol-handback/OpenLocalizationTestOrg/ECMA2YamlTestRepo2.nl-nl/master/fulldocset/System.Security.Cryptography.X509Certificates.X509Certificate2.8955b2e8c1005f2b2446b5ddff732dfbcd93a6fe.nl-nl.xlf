@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">484ad91bf02ad1c9f61603286c2c14511823385d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.X509Certificates.X509Certificate2.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68f02a63c397fb0883c2c0a6cf9a86f741ee072b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">078ddbaea572c593c82d29ba83e0a9bcedfd9bf2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an X.509 certificate.</source>
+          <target state="translated">Vertegenwoordigt een X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The X.509 structure originated in the International Organization for Standardization (ISO) working groups.</source>
+          <target state="translated">De X.509-structuur afkomstig zijn van de International Organization for Standardization (ISO) werkgroepen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This structure can be used to represent various types of information including identity, entitlement, and holder attributes (permissions, age, sex, location, affiliation, and so forth).</source>
+          <target state="translated">Deze structuur kan worden gebruikt voor verschillende soorten gegevens, inclusief identiteit, rechten en houder kenmerken (machtigingen, leeftijd, geslacht, locatie, lidmaatschap, enzovoort).</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although the ISO specifications are most informative on the structure itself, the X509Certificate2 class is designed to model the usage scenarios defined in specifications issued by the Internet Engineering Task Force (IETF) Public Key Infrastructure, X.509 (PKIX) working group.</source>
+          <target state="translated">Hoewel de ISO-specificaties meest informatieve van de structuur zelf, is de klasse X509Certificate2 ontworpen als model voor het gebruiksscenario's gedefinieerd in de specificaties die zijn uitgegeven door de Internet Engineering Task Force (IETF) Public Key Infrastructure, werkgroep X.509 (PKIX).</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The most informative of these specifications is RFC 3280, "<bpt id="p1">[</bpt>Certificate and Certificate Revocation List (CRL) Profile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>."</source>
+          <target state="translated">De meeste van deze specificaties informatieve RFC 3280 gebruikt, is '<bpt id="p1">[</bpt>certificaat en de certificaatintrekkingslijst (CRL)-Certificaatprofiel intrekken<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>. "</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Starting with the <ph id="ph2">[!INCLUDE[net_v46](~/add/includes/net-v46-md.md)]</ph>, this type implements the &lt;xref:System.IDisposable&gt; interface.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Beginnen met de <ph id="ph2">[!INCLUDE[net_v46](~/add/includes/net-v46-md.md)]</ph>, dit type implementeert de &lt;xref:System.IDisposable&gt;interface.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you have finished using the type, you should dispose of it either directly or indirectly.</source>
+          <target state="translated">Wanneer u klaar bent met het type, moet u beschikken over het direct of indirect.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dispose of the type directly, call its &lt;xref:System.IDisposable.Dispose%2A&gt; method in a <ph id="ph1">`try`</ph><ph id="ph2">/</ph><ph id="ph3">`catch`</ph> block.</source>
+          <target state="translated">Aanroepen voor het rechtstreeks verwijderen van het type ervan &lt;xref:System.IDisposable.Dispose%2A&gt;methode in een <ph id="ph1">`try`</ph> <ph id="ph2">/</ph> <ph id="ph3">`catch`</ph> blok.&lt;/xref:System.IDisposable.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To dispose of it indirectly, use a language construct such as <ph id="ph1">`using`</ph> (in C#) or <ph id="ph2">`Using`</ph> (in Visual Basic).</source>
+          <target state="translated">Gebruiken om de buitengebruikstelling van het indirect, een taal constructie zoals <ph id="ph1">`using`</ph> (in C#) of <ph id="ph2">`Using`</ph> (in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the “Using an Object that Implements IDisposable” section in the &lt;xref:System.IDisposable&gt; interface topic.</source>
+          <target state="translated">Zie voor meer informatie de sectie 'Met behulp van een Object dat wordt geïmplementeerd IDisposable' in de &lt;xref:System.IDisposable&gt;interface onderwerp.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt;    &gt;  For apps that target the <ph id="ph1">[!INCLUDE[net_v452](~/add/includes/net-v452-md.md)]</ph> and earlier versions, the X509Certificate2 class does not implement the &lt;xref:System.IDisposable&gt; interface and therefore does not have a <ph id="ph2">`Dispose`</ph> method.</source>
+          <target state="translated">&gt;&gt; Voor apps die zijn gericht op de <ph id="ph1">[!INCLUDE[net_v452](~/add/includes/net-v452-md.md)]</ph> en eerdere versies, de klasse X509Certificate2 implementeert niet de &lt;xref:System.IDisposable&gt;interface en daarom geen een <ph id="ph2">`Dispose`</ph> methode.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates an empty &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object, unlike the other constructors for this class that use certificate information from a byte array, a pointer, or a certificate file.</source>
+          <target state="translated">Deze constructor maakt een lege &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object, in tegenstelling tot de andere constructors voor deze klasse die gebruikmaken van de certificaatgegevens van een byte-matrix, pointer of een certificaatbestand.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using information from a byte array.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van gegevens uit een bytematrix.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using certificate information from a byte array.</source>
+          <target state="translated">Deze constructor maakt u een nieuwe &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object certificaatgegevens van een bytematrix.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The byte array can be binary (DER) encoded or Base64-encoded X.509 data.</source>
+          <target state="translated">De bytematrix mag binair (DER), gecodeerd of Base64-gecodeerd x.509-gegevens.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The byte array can also be a PKCS7 (Authenticode) signed file; the signer certificate is used to create the object.</source>
+          <target state="translated">De bytematrix kan ook worden veroorzaakt een PKCS7 (Authenticode) ondertekend bestand. het certificaat van de ondertekenaar wordt gebruikt voor het object niet maken.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Als u maakt een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;certificaat door te geven van een ondertekende PKCS7-bestandsopslag voor <ph id="ph1">`rawData`</ph>, wordt de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;is gemaakt voor het certificaat dat de store ondertekend in plaats van een van de certificaten in het archief.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">Een byte-matrix met gegevens uit een X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using an unmanaged handle.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van een onbegeleide koppeling.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a handle for the Microsoft Cryptographic API certificate context, <ph id="ph1">`PCCERT_CONTEXT`</ph>.</source>
+          <target state="translated">Deze constructor maakt u een nieuwe &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object met een ingang voor de context van het certificaat Microsoft cryptografische API <ph id="ph1">`PCCERT_CONTEXT`</ph>.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the immediate caller of this constructor requires unmanaged code permission.</source>
+          <target state="translated">Houd er rekening mee dat de onmiddellijke aanroeper van deze constructor niet-beheerde Codemachtiging vereist.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The constructor creates a copy of the certificate context.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; De constructor maakt een kopie van de certificaatcontext.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not assume that the context structure you passed to the constructor is valid; it may have been released.</source>
+          <target state="translated">Niet wordt ervan uitgegaan dat de context-structuur die u hebt doorgegeven aan de constructor is geldig. het kan zijn uitgebracht.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can get a copy of the current <ph id="ph1">`PCCERT_CONTEXT`</ph> structure from the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate.Handle%2A&gt; property, but it is valid only during the lifetime of the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object.</source>
+          <target state="translated">U krijgt een kopie van de huidige <ph id="ph1">`PCCERT_CONTEXT`</ph> structuur, uit de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate.Handle%2A&gt;eigenschap, maar is geldig alleen tijdens de levensduur van de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate.Handle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A pointer to a certificate context in unmanaged code.</source>
+          <target state="translated">Een verwijzing naar een certificaatcontext in niet-beheerde code.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The C structure is called <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De C-structuur heet <bpt id="p1">&lt;xref uid="langword_csharp_PCCERT_CONTEXT" name="PCCERT_CONTEXT" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using an <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van een <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates a new instance of the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; class using an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; object.</source>
+          <target state="translated">Deze methode maakt u een nieuw exemplaar van de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;klasse met behulp van een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;object.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van de bestandsnaam van een certificaat.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a certificate file name.</source>
+          <target state="translated">Deze constructor maakt u een nieuwe &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object met de bestandsnaam van een certificaat.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It supports binary (DER) encoding or Base64 encoding.</source>
+          <target state="translated">Het ondersteunt binaire codering (DER) of Base64-codering.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Als u maakt een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;certificaat door te geven van een ondertekende PKCS7-bestandsopslag voor <ph id="ph1">`fileName`</ph>, wordt de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;is gemaakt voor het certificaat dat de store ondertekend in plaats van een van de certificaten in het archief.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">De naam van een certificaatbestand.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array and a password.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met een bytematrix en een wachtwoord.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">Deze constructor is gebruikt met PKCS12 (PFX)-bestanden met persoonlijke sleutel van het certificaat.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a key container.</source>
+          <target state="translated">Het aanroepen van deze constructor met het juiste wachtwoord, ontsleutelt de persoonlijke sleutel en opgeslagen in een sleutelcontainer.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Als u maakt een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certificaat door te geven van een ondertekende PKCS7-bestandsopslag voor <ph id="ph1">`rawData`</ph>, wordt de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;is gemaakt voor het certificaat dat de store ondertekend in plaats van een van de certificaten in het archief.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A byte array that contains data from an X.509 certificate.</source>
+          <target state="translated">Een bytematrix die de gegevens van een X.509-certificaat bevat.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array and a password.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met een bytematrix en een wachtwoord.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a byte array and a password that is needed to access the certificate data.</source>
+          <target state="translated">Deze constructor maakt u een nieuwe &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object met een bytematrix en een wachtwoord dat nodig is voor toegang tot de certificaatgegevens.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">Met PKCS12 (PFX)-bestanden met persoonlijke sleutel van het certificaat wordt gebruikt.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a key container.</source>
+          <target state="translated">Het aanroepen van deze constructor met het juiste wachtwoord, ontsleutelt de persoonlijke sleutel en opgeslagen in een sleutelcontainer.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Als u maakt een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;certificaat door te geven van een ondertekende PKCS7-bestandsopslag voor <ph id="ph1">`rawData`</ph>, wordt de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;is gemaakt voor het certificaat dat de store ondertekend in plaats van een van de certificaten in het archief.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">Een byte-matrix met gegevens uit een X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified serialization and stream context information.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van de opgegeven gegevens voor serialisatie en stroom context.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The serialization information required to deserialize the new <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De vereiste voor het deserialiseren van de nieuwe serialisatiegegevens <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Contextual information about the source of the stream to be deserialized.</source>
+          <target state="translated">Contextuele informatie over de bron van de stroom te deserialiseren.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name and a password.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de bestandsnaam van een certificaat en een wachtwoord.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">Deze constructor is gebruikt met PKCS12 (PFX)-bestanden met persoonlijke sleutel van het certificaat.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a key container.</source>
+          <target state="translated">Het aanroepen van deze constructor met het juiste wachtwoord, ontsleutelt de persoonlijke sleutel en opgeslagen in een sleutelcontainer.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Als u maakt een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certificaat door te geven van een ondertekende PKCS7-bestandsopslag voor <ph id="ph1">`fileName`</ph>, wordt de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;is gemaakt voor het certificaat dat de store ondertekend in plaats van een van de certificaten in het archief.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">De naam van een certificaatbestand.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name and a password used to access the certificate.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van de bestandsnaam van een certificaat en een wachtwoord gebruikt voor toegang tot het certificaat.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a certificate file name and a password needed to access the certificate.</source>
+          <target state="translated">Deze constructor maakt u een nieuwe &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object met de bestandsnaam van een certificaat en een wachtwoord nodig voor toegang tot het certificaat.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">Met PKCS12 (PFX)-bestanden met persoonlijke sleutel van het certificaat wordt gebruikt.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a key container.</source>
+          <target state="translated">Het aanroepen van deze constructor met het juiste wachtwoord, ontsleutelt de persoonlijke sleutel en opgeslagen in een sleutelcontainer.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Als u maakt een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;certificaat door te geven van een ondertekende PKCS7-bestandsopslag voor <ph id="ph1">`fileName`</ph>, wordt de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;is gemaakt voor het certificaat dat de store ondertekend in plaats van een van de certificaten in het archief.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">De naam van een certificaatbestand.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array, a password, and a key storage flag.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met een byte-matrix, een wachtwoord en een vlag sleutelopslag.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">Deze constructor is gebruikt met PKCS12 (PFX)-bestanden met persoonlijke sleutel van het certificaat.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a Microsoft Cryptographic API Cryptographic Service Provider (CSP).</source>
+          <target state="translated">Aanroepen van deze constructor met het juiste wachtwoord, ontsleutelt de persoonlijke sleutel en slaat deze op een Microsoft cryptografische API cryptografieprovider (CSP).</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Als u maakt een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certificaat door te geven van een ondertekende PKCS7-bestandsopslag voor <ph id="ph1">`rawData`</ph>, wordt de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;is gemaakt voor het certificaat dat de store ondertekend in plaats van een van de certificaten in het archief.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A byte array that contains data from an X.509 certificate.</source>
+          <target state="translated">Een bytematrix die de gegevens van een X.509-certificaat bevat.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">Een bitsgewijze combinatie van de opsomming waarden die bepalen waar en hoe het certificaat importeren.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a byte array, a password, and a key storage flag.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met een byte-matrix, een wachtwoord en een vlag sleutelopslag.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a byte array, a password that is needed to access the certificate data, and a key storage flag.</source>
+          <target state="translated">Deze constructor maakt u een nieuwe &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object met behulp van een byte-matrix, een wachtwoord dat nodig is voor toegang tot de gegevens van het certificaat en een vlag sleutelopslag.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used with PKCS12 (PFX) files that contain the certificate's private key.</source>
+          <target state="translated">Met PKCS12 (PFX)-bestanden met persoonlijke sleutel van het certificaat wordt gebruikt.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this constructor with the correct password decrypts the private key and saves it to a Microsoft Cryptographic API Cryptographic Service Provider (CSP).</source>
+          <target state="translated">Aanroepen van deze constructor met het juiste wachtwoord, ontsleutelt de persoonlijke sleutel en slaat deze op een Microsoft cryptografische API cryptografieprovider (CSP).</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`rawData`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Als u maakt een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;certificaat door te geven van een ondertekende PKCS7-bestandsopslag voor <ph id="ph1">`rawData`</ph>, wordt de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;is gemaakt voor het certificaat dat de store ondertekend in plaats van een van de certificaten in het archief.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">Een byte-matrix met gegevens uit een X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">Een bitsgewijze combinatie van de opsomming waarden die bepalen waar en hoe het certificaat importeren.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name, a password, and a key storage flag.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de bestandsnaam van een certificaat, een wachtwoord en een vlag sleutelopslag.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Als u maakt een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;certificaat door te geven van een ondertekende PKCS7-bestandsopslag voor <ph id="ph1">`fileName`</ph>, wordt de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;is gemaakt voor het certificaat dat de store ondertekend in plaats van een van de certificaten in het archief.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">De naam van een certificaatbestand.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">Een bitsgewijze combinatie van de opsomming waarden die bepalen waar en hoe het certificaat importeren.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using a certificate file name, a password used to access the certificate, and a key storage flag.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse een certificaatbestand met een naam, een wachtwoord gebruikt voor toegang tot het certificaat en een vlag sleutelopslag.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a new &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a certificate file name, a password needed to access the certificate, and a key storage flag.</source>
+          <target state="translated">Deze constructor maakt u een nieuwe &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object met behulp van een certificaatbestand naam, een wachtwoord nodig voor toegang tot het certificaat en een vlag sleutelopslag.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; certificate by specifying a PKCS7 signed file store for <ph id="ph1">`fileName`</ph>, the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; is created for the certificate that signed the store rather than for any of the certificates within the store.</source>
+          <target state="translated">Als u maakt een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;certificaat door te geven van een ondertekende PKCS7-bestandsopslag voor <ph id="ph1">`fileName`</ph>, wordt de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;is gemaakt voor het certificaat dat de store ondertekend in plaats van een van de certificaten in het archief.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">De naam van een certificaatbestand.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">Een bitsgewijze combinatie van de opsomming waarden die bepalen waar en hoe het certificaat importeren.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An error with the certificate occurs.</source>
+          <target state="translated">Er treedt een fout opgetreden bij het certificaat op.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For example:      -   The certificate file does not exist.</source>
+          <target state="translated">Bijvoorbeeld:-het certificaatbestand bestaat niet.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>-   The certificate is invalid.</source>
+          <target state="translated">-Het certificaat is ongeldig.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>-   The certificate's password is incorrect.</source>
+          <target state="translated">-De certificaat-wachtwoord is onjuist.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating that an X.509 certificate is archived.</source>
+          <target state="translated">Opgehaald of ingesteld van een waarde die aangeeft dat een X.509-certificaat is gearchiveerd.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is set only on a certificate that is associated with a store.</source>
+          <target state="translated">Deze eigenschap is alleen ingesteld voor een certificaat dat is gekoppeld aan een winkel.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the property is set and the certificate is added to a certificate store, the value is persisted.</source>
+          <target state="translated">Als de eigenschap is ingesteld en het certificaat is toegevoegd aan een certificaatarchief, wordt de waarde gehandhaafd.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the property is set on a certificate retrieved from a store, the value is persisted immediately.</source>
+          <target state="translated">Als de eigenschap is ingesteld op een certificaat dat is opgehaald uit een winkel, wordt de waarde onmiddellijk gehandhaafd.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In an X.509 store, archived certificates are not included in the returned &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2Collection&gt; object unless the Archived property is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">In een archief x.509-gearchiveerde certificaten zijn niet opgenomen in de geretourneerde &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2Collection&gt;object tenzij de gearchiveerd-eigenschap is ingesteld op <ph id="ph1">`true`</ph>.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2Collection&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No physical archival activity occurs when the Archived value is set or unset.</source>
+          <target state="translated">Er is geen fysieke archivering activiteit treedt op wanneer de waarde gearchiveerd is ingesteld of is niet in.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the certificate is archived, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the certificate is not archived.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het certificaat wordt gearchiveerd, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als het certificaat is niet gearchiveerd.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">Het certificaat is onleesbaar.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Extension"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Hiermee wordt een verzameling <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Extension"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The extensions defined in the X.509 v3 certificate format allow additional data to be included in the certificate.</source>
+          <target state="translated">De uitbreidingen die zijn gedefinieerd in de indeling van het X.509 v3-certificaat kunnen aanvullende gegevens moeten worden opgenomen in het certificaat.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A number of extensions are defined by ISO in the X.509 v3 definition as well as by PKIX in RFC 3280, "<bpt id="p1">[</bpt>Certificate and Certificate Revocation List (CRL) Profile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>."</source>
+          <target state="translated">Een aantal uitbreidingen zijn gedefinieerd in ISO in de X.509 v3-definitie, evenals op PKIX in RFC 3280 gebruikt, '<bpt id="p1">[</bpt>certificaat en de certificaatintrekkingslijst (CRL)-Certificaatprofiel intrekken<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>. "</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Common extensions include information regarding key usage (&lt;xref:System.Security.Cryptography.X509Certificates.X509KeyUsageExtension&gt;), key identifiers (&lt;xref:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension&gt;), certificate policies, revocation information (CRL Distribution Point extension), and other uses.</source>
+          <target state="translated">Algemene uitbreidingen bevatten informatie over het gebruik van de sleutel (&lt;xref:System.Security.Cryptography.X509Certificates.X509KeyUsageExtension&gt;), sleutel-id's (&lt;xref:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension&gt;), beleidsregels, intrekkingsgegevens (extensie CRL-distributiepunt) en andere maakt gebruik van het certificaat.&lt;/xref:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509KeyUsageExtension&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ExtensionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ExtensionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">Het certificaat is onleesbaar.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets the associated alias for a certificate.</source>
+          <target state="translated">Opgehaald of ingesteld van de bijbehorende alias voor een certificaat.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Friendly names are properties in the X.509 certificate store that can be set.</source>
+          <target state="translated">Beschrijvende namen zijn eigenschappen in het X.509-certificaatarchief kunnen worden ingesteld.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>They are used to enable a user to associate aliases with certificates so they can be easily identified.</source>
+          <target state="translated">Ze worden gebruikt voor een gebruiker te koppelen van aliassen met certificaten, zodat ze eenvoudig kunnen worden geïdentificeerd.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no friendly name exists for the certificate, an empty string ("") is returned.</source>
+          <target state="translated">Als er geen beschrijvende naam voor het certificaat, een lege tekenreeks bestaat ("") wordt geretourneerd.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The certificate's friendly name.</source>
+          <target state="translated">De beschrijvende naam van het certificaat.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">Het certificaat is onleesbaar.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Indicates the type of certificate contained in a byte array.</source>
+          <target state="translated">Geeft het type van het certificaat dat is opgenomen in een byte-matrix.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method enables you to discover the type of certificate in a file.</source>
+          <target state="translated">Deze methode kunt u voor het detecteren van het type certificaat in een bestand.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">Een byte-matrix met gegevens uit een X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;rawData&lt;/code&gt;</ph> has a zero length or is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;rawData&lt;/code&gt;</ph>heeft een lengte van nul of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Indicates the type of certificate contained in a file.</source>
+          <target state="translated">Geeft het type van het certificaat zich in een bestand.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method enables you to discover the type of certificate in a file.</source>
+          <target state="translated">Deze methode kunt u voor het detecteren van het type certificaat in een bestand.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">De naam van een certificaatbestand.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509ContentType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Gets the subject and issuer names from a certificate.</source>
+          <target state="translated">Hiermee haalt u het onderwerp en de verlener namen van een certificaat.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should always be used instead of parsing the certificate, since many of the name values can be located in multiple locations.</source>
+          <target state="translated">Deze methode moet altijd worden gebruikt in plaats van het parseren van het certificaat, aangezien veel van de waarden van de naam zich op meerdere locaties bevinden kunnen.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using this method ensures that the appropriate name is returned.</source>
+          <target state="translated">Met deze methode zorgt ervoor dat de juiste naam wordt geretourneerd.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509NameType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the subject.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509NameType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde voor het onderwerp.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the issuer name; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>de naam van de certificaatverlener; opnemen anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The name of the certificate.</source>
+          <target state="translated">De naam van het certificaat.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object contains a private key.</source>
+          <target state="translated">Hiermee wordt een waarde die aangeeft of een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object een persoonlijke sleutel bevat.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object contains a private key; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> object bevat een persoonlijke sleutel, anders wordt <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">De certificaatcontext is ongeldig.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with data from a byte array.</source>
+          <target state="translated">Vult een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met gegevens uit een byte-matrix.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to take a raw byte array of an X.509 certificate and populate the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object with its associated values.</source>
+          <target state="translated">Deze methode kan worden gebruikt moet worden overgenomen van een ruwe byte-matrix van een X.509-certificaat en het vullen van de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object met de bijbehorende waarden.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since this method accepts only a byte array, it can be used only for certificate types that do not require a password, including a Base64-encoded or DER-encoded X.509 certificate or a PFX/PKCS12 certificate.</source>
+          <target state="translated">Omdat deze methode alleen een byte-matrix accepteert, kan deze alleen voor de typen certificaten waarvoor een wachtwoord, met inbegrip van een Base64-gecodeerd of DER-gecodeerd X.509-certificaat of een certificaat PFX/PKCS12 niet hoeft worden gebruikt.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a PFX/PKCS12 certificate can contain more than one certificate.</source>
+          <target state="translated">Houd er rekening mee dat een certificaat PFX/PKCS12 meer dan één certificaat kan bevatten.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the first certificate associated with a private key is used or, if no private key is found, the first certificate is used.</source>
+          <target state="translated">In dat geval wordt het eerste certificaat dat is gekoppeld met een persoonlijke sleutel wordt gebruikt of als er geen persoonlijke sleutel wordt gevonden, het eerste certificaat wordt gebruikt.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">Een byte-matrix met gegevens uit een X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with information from a certificate file.</source>
+          <target state="translated">Vult een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met gegevens uit een certificaatbestand.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method uses a certificate file, such as a file with a .cer extension, that represents an X.509 certificate and populates the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object with the certificate the file contains.</source>
+          <target state="translated">Deze methode gebruikt een certificaatbestand, zoals een bestand met een CER-extensie, die staat voor een X.509-certificaat en vult de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object met het certificaat dat het bestand bevat.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used with several certificate types, including Base64-encoded or DER-encoded X.509 certificates, PFX/PKCS12 certificates, and signer certificates such as Authenticode.</source>
+          <target state="translated">Deze methode kan worden gebruikt met verschillende typen certificaten, met inbegrip van Base64-gecodeerd of DER-gecodeerd X.509-certificaten, PFX/PKCS12-certificaten en ondertekenaar certificaten zoals Authenticode.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a PFX/PKCS12 certificate can contain more than one certificate.</source>
+          <target state="translated">Houd er rekening mee dat een certificaat PFX/PKCS12 meer dan één certificaat kan bevatten.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the first certificate associated with a private key is used or, if no private key is found, the first certificate is used.</source>
+          <target state="translated">In dat geval wordt het eerste certificaat dat is gekoppeld met een persoonlijke sleutel wordt gebruikt of als er geen persoonlijke sleutel wordt gevonden, het eerste certificaat wordt gebruikt.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The name of a certificate.</source>
+          <target state="translated">De naam van een certificaat.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object using data from a byte array, a password, and a key storage flag.</source>
+          <target state="translated">Vult een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met gegevens van een byte-matrix, een wachtwoord en een vlag sleutelopslag.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this method for certificate types such as Base64-encoded or DER-encoded X.509 certificates, or PFX/PKCS12 certificates.</source>
+          <target state="translated">U kunt deze methode gebruiken voor de typen certificaten zoals Base64-gecodeerd of DER-gecodeerd X.509-certificaten of PFX/PKCS12-certificaten.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a PFX/PKCS12 certificate can contain more than one certificate.</source>
+          <target state="translated">Houd er rekening mee dat een certificaat PFX/PKCS12 meer dan één certificaat kan bevatten.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the first certificate associated with a private key is used or, if no private key is found, the first certificate is used.</source>
+          <target state="translated">In dat geval wordt het eerste certificaat dat is gekoppeld met een persoonlijke sleutel wordt gebruikt of als er geen persoonlijke sleutel wordt gevonden, het eerste certificaat wordt gebruikt.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>A byte array that contains data from an X.509 certificate.</source>
+          <target state="translated">Een bytematrix die de gegevens van een X.509-certificaat bevat.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">Een bitsgewijze combinatie van de opsomming waarden die bepalen waar en hoe het certificaat importeren.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object using data from a byte array, a password, and flags for determining how to import the private key.</source>
+          <target state="translated">Vult een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met gegevens van een byte-matrix, een wachtwoord en vlaggen voor het bepalen van het importeren van de persoonlijke sleutel.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to populate an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object using a password for the certificate represented by the byte array.</source>
+          <target state="translated">Deze methode kan worden gebruikt voor het vullen van een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object met een wachtwoord voor het certificaat dat wordt vertegenwoordigd door de bytematrix.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt; value can be used to control where and how to import the private key.</source>
+          <target state="translated">De &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt;waarde kan worden gebruikt om te bepalen waar en hoe de persoonlijke sleutel te importeren.&lt;/xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method accepts a byte array and can be used for certificate types such as Base64-encoded or DER-encoded X.509 certificates or PFX/PKCS12 certificates.</source>
+          <target state="translated">Deze methode accepteert byte-matrix en kan worden gebruikt voor de typen certificaten zoals Base64-gecodeerd of DER-gecodeerd X.509-certificaten of PFX/PKCS12-certificaten.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a PFX/PKCS12 certificate can contain more than one certificate.</source>
+          <target state="translated">Houd er rekening mee dat een certificaat PFX/PKCS12 meer dan één certificaat kan bevatten.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the first certificate associated with a private key is used or, if no private key is found, the first certificate is used.</source>
+          <target state="translated">In dat geval wordt het eerste certificaat dat is gekoppeld met een persoonlijke sleutel wordt gebruikt of als er geen persoonlijke sleutel wordt gevonden, het eerste certificaat wordt gebruikt.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>A byte array containing data from an X.509 certificate.</source>
+          <target state="translated">Een byte-matrix met gegevens uit een X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">Een bitsgewijze combinatie van de opsomming waarden die bepalen waar en hoe het certificaat importeren.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with information from a certificate file, a password, and a key storage flag.</source>
+          <target state="translated">Vult een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met gegevens uit een certificaatbestand, een wachtwoord en een vlag sleutelopslag.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Security Note<ept id="p1">**</ept> Never hard code a password within your source code.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Opmerking over beveiliging<ept id="p1">**</ept> nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">De naam van een certificaatbestand.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">Een bitsgewijze combinatie van de opsomming waarden die bepalen waar en hoe het certificaat importeren.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Populates an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with information from a certificate file, a password, and a <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509KeyStorageFlags"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Vult een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met gegevens uit een certificaatbestand, een wachtwoord, en een <bpt id="p2">&lt;xref href="System.Security.Cryptography.X509Certificates.X509KeyStorageFlags"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> waarde.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used populate an &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object with information from a certificate file, a password, and an &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt; value.</source>
+          <target state="translated">Deze methode kan worden gebruikt vullen een &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object met gegevens uit een certificaatbestand, een wachtwoord, en een &lt;xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt;waarde.&lt;/xref:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Never hard code a password within your source code.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Nooit harde code een wachtwoord in de broncode.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hard-coded passwords can be retrieved from an assembly using the <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, a hex editor, or by simply opening up the assembly in a text editor such as Notepad.exe.</source>
+          <target state="translated">Vastgelegde wachtwoorden opnieuw kunnen worden opgehaald uit een assembly met de <bpt id="p1">[</bpt>Ildasm.exe (IL Disassembler)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>, een hex-editor of door gewoon openen van de assembly in een teksteditor zoals Notepad.exe.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The name of a certificate file.</source>
+          <target state="translated">De naam van een certificaatbestand.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The password required to access the X.509 certificate data.</source>
+          <target state="translated">Het wachtwoord is vereist voor toegang tot de gegevens van het X.509-certificaat.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the enumeration values that control where and how to import the certificate.</source>
+          <target state="translated">Een bitsgewijze combinatie van de opsomming waarden die bepalen waar en hoe het certificaat importeren.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Gets the distinguished name of the certificate issuer.</source>
+          <target state="translated">Hiermee haalt u de DN-naam van de uitgever van het certificaat.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property contains the name of the certificate authority (CA) that issued the certificate.</source>
+          <target state="translated">Deze eigenschap bevat de naam van de certificeringsinstantie (CA) die het certificaat heeft uitgegeven.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To obtain the name of a certificate, use the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2.GetNameInfo%2A&gt; method.</source>
+          <target state="translated">Voor de naam van een certificaat verkrijgen, gebruikt u de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2.GetNameInfo%2A&gt;methode.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2.GetNameInfo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The distinguished name for the certificate is a textual representation of the certificate subject or issuer.</source>
+          <target state="translated">De DN-naam voor het certificaat is een tekstweergave van het certificaatonderwerp of de uitgever.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This representation consists of name attributes (for example, "CN=MyName, OU=MyOrgUnit, C=US").</source>
+          <target state="translated">Deze weergave bestaat uit het naamkenmerk (bijvoorbeeld "CN = MijnNaam, organisatie-eenheid = MyOrgUnit, C = US ').</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the name of the certificate issuer.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -object dat de naam van de uitgever van het certificaat bevat.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">De certificaatcontext is ongeldig.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Gets the date in local time after which a certificate is no longer valid.</source>
+          <target state="translated">Hiermee haalt de datum in plaatselijke tijd waarna een certificaat niet meer geldig is.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property indicates an expiration date on which the certificate becomes invalid.</source>
+          <target state="translated">Deze eigenschap geeft een vervaldatum waarop het certificaat ongeldig is.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; object that represents the expiration date for the certificate.</source>
+          <target state="translated">Een &lt;xref:System.DateTime&gt;-object met de vervaldatum voor het certificaat.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">Het certificaat is onleesbaar.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Gets the date in local time on which a certificate becomes valid.</source>
+          <target state="translated">Hiermee haalt de datum in plaatselijke tijd waarop een certificaat geldig wordt.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property indicates the date on which the certificate becomes valid.</source>
+          <target state="translated">Deze eigenschap geeft de datum waarop het certificaat geldig wordt.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.DateTime&gt; object that represents the effective date of the certificate.</source>
+          <target state="translated">Een &lt;xref:System.DateTime&gt;-object met de ingangsdatum van het certificaat.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">Het certificaat is onleesbaar.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the private key associated with a certificate.</source>
+          <target state="translated">Opgehaald of ingesteld de <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -object met de persoonlijke sleutel die is gekoppeld aan een certificaat.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently this property supports only RSA or DSA keys, so it returns either an &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt; or a &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; object.</source>
+          <target state="translated">Deze eigenschap ondersteunt momenteel alleen RSA of de DSA-sleutels, zodat deze een retourneert een &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;of een &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;object.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; &lt;/xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no private key is associated with the certificate, it returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Als er geen persoonlijke sleutel gekoppeld aan het certificaat is, retourneert <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!WARNING]</ph> &gt;  If you set this property to <ph id="ph2">`null`</ph> or to another key without first deleting it, a private key file is left on the disk.</source>
+          <target state="translated">&gt; <ph id="ph1">[!WARNING]</ph> &gt; Als u deze eigenschap instelt op <ph id="ph2">`null`</ph> of een andere sleutel zonder eerst te verwijderen wordt het bestand met een persoonlijke sleutel blijft op de schijf.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To properly delete the private key associated with this property, set <ph id="ph1">`PersistKeyInCsp`</ph> to <ph id="ph2">`false`</ph>, and then call the &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm.Clear%2A&gt; method.</source>
+          <target state="translated">Om de persoonlijke sleutel die is gekoppeld aan deze eigenschap correct hebt verwijderd, stel <ph id="ph1">`PersistKeyInCsp`</ph> naar <ph id="ph2">`false`</ph>, en roept u vervolgens de &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm.Clear%2A&gt;methode.&lt;/xref:System.Security.Cryptography.AsymmetricAlgorithm.Clear%2A&gt;</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, which is either an RSA or DSA cryptographic service provider.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object, dat een RSA- of DSA cryptografische serviceprovider.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The key value is not an RSA or DSA key, or the key is unreadable.</source>
+          <target state="translated">Waarde van de sleutel is niet een RSA of de DSA-sleutel of de sleutel is onleesbaar.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The value being set for this property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De waarde wordt ingesteld voor deze eigenschap is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The key algorithm for this private key is not supported.</source>
+          <target state="translated">De algoritme van de sleutel voor deze persoonlijke sleutel wordt niet ondersteund.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>The X.509 keys do not match.</source>
+          <target state="translated">De X.509-sleutels komen niet overeen.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The cryptographic service provider key is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De sleutel van cryptografische provider is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Gets a PublicKey object associated with a certificate.</source>
+          <target state="translated">Haalt een PublicKey-object dat is gekoppeld aan een certificaat.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property returns a PublicKey object, which contains the object identifier (&lt;xref:System.Security.Cryptography.Oid&gt;) representing the public key algorithm, the ASN.1-encoded parameters, and the ASN.1-encoded key value.</source>
+          <target state="translated">Deze eigenschap geeft een PublicKey-object de object-id bevat (&lt;xref:System.Security.Cryptography.Oid&gt;) voor de algoritme van openbare sleutel, de parameters ASN.1-codering en de sleutelwaarde ASN.1-gecodeerd.&lt;/xref:System.Security.Cryptography.Oid&gt;</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also obtain the key as an &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm&gt; object by referencing the PublicKey property.</source>
+          <target state="translated">Verder kunt u de sleutel als een &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm&gt;object door te verwijzen naar de eigenschap PublicKey.&lt;/xref:System.Security.Cryptography.AsymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property supports only RSA or DSA keys, so it returns either an &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt; or a &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; object that represents the public key.</source>
+          <target state="translated">Deze eigenschap ondersteunt alleen RSA of de DSA-sleutels, zodat deze een retourneert een &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;of een &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;-object met de openbare sleutel.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; &lt;/xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>A PublicKey object.</source>
+          <target state="translated">Een PublicKey-object.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>The key value is not an RSA or DSA key, or the key is unreadable.</source>
+          <target state="translated">Waarde van de sleutel is niet een RSA of de DSA-sleutel of de sleutel is onleesbaar.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Gets the raw data of a certificate.</source>
+          <target state="translated">Hiermee haalt u de onbewerkte gegevens van een certificaat.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>The raw data of the certificate as a byte array.</source>
+          <target state="translated">De onbewerkte gegevens van het certificaat als een byte-matrix.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Resets the state of an <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Hiermee stelt u de status van een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to reset the state of the certificate.</source>
+          <target state="translated">Deze methode kan worden gebruikt om in te stellen van de status van het certificaat.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also frees any resources associated with the certificate.</source>
+          <target state="translated">Deze maakt ook alle resources die zijn gekoppeld aan het certificaat.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>Gets the serial number of a certificate.</source>
+          <target state="translated">Hiermee haalt u het serienummer van een certificaat.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serial number of the certificate is part of the original X.509 protocol.</source>
+          <target state="translated">Het serienummer van het certificaat is onderdeel van het oorspronkelijke X.509-protocol.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serial number is a unique number issued by the certificate issuer, which is also called the Certificate Authority (CA).</source>
+          <target state="translated">Het serienummer is een uniek nummer dat is uitgegeven door de uitgever van het certificaat, ook wel de certificeringsinstantie (CA) genoemd.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>The serial number of the certificate.</source>
+          <target state="translated">Het serienummer van het certificaat.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>Gets the algorithm used to create the signature of a certificate.</source>
+          <target state="translated">Hiermee haalt u de algoritme gebruikt om de handtekening van een certificaat te maken.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The object identifier (&lt;xref:System.Security.Cryptography.Oid&gt;) identifies the type of signature algorithm used by the certificate.</source>
+          <target state="translated">De object-id (&lt;xref:System.Security.Cryptography.Oid&gt;) geeft het type algoritme voor handtekening gebruikt door het certificaat.&lt;/xref:System.Security.Cryptography.Oid&gt;</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>Returns the object identifier (<bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) of the signature algorithm.</source>
+          <target state="translated">Retourneert de object-id (<bpt id="p1">&lt;xref href="System.Security.Cryptography.Oid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) van het algoritme voor handtekening.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">Het certificaat is onleesbaar.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>Gets the subject distinguished name from a certificate.</source>
+          <target state="translated">Hiermee haalt u de DN-naam van een certificaat.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The subject distinguished name is the name of the user of the certificate.</source>
+          <target state="translated">De DN-naam voor onderwerp is de naam van de gebruiker van het certificaat.</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The distinguished name for the certificate is a textual representation of the subject or issuer of the certificate.</source>
+          <target state="translated">De DN-naam voor het certificaat is een tekstuele weergave genereren van het onderwerp of de uitgever van het certificaat.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This representation consists of name attributes, for example, "CN=MyName, OU=MyOrgUnit, C=US".</source>
+          <target state="translated">Deze weergave bestaat uit het naamkenmerk, bijvoorbeeld "CN = MijnNaam, organisatie-eenheid = MyOrgUnit, C = US '.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the name of the certificate subject.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X500DistinguishedName"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -object met de naam van de certificaathouder.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>The certificate context is invalid.</source>
+          <target state="translated">De certificaatcontext is ongeldig.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Gets the thumbprint of a certificate.</source>
+          <target state="translated">Hiermee haalt u de vingerafdruk van een certificaat.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The thumbprint is dynamically generated using the SHA1 algorithm and does not physically exist in the certificate.</source>
+          <target state="translated">De vingerafdruk van het dynamisch wordt gegenereerd op basis van het SHA1-algoritme en niet fysiek aanwezig in het certificaat.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since the thumbprint is a unique value for the certificate, it is commonly used to find a particular certificate in a certificate store.</source>
+          <target state="translated">Omdat de vingerafdruk van een unieke waarde voor het certificaat is, is het vaak gebruikt voor een bepaald certificaat niet vinden in een certificaatarchief.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The thumbprint of the certificate.</source>
+          <target state="translated">De vingerafdruk van het certificaat.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>Displays an X.509 certificate in text format.</source>
+          <target state="translated">Geeft een X.509-certificaat in tekstindeling.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As with all <ph id="ph1">`ToString`</ph> methods, the output might not be consistent across versions of the .NET Framework, so the method results should not be parsed for content.</source>
+          <target state="translated">Net als bij alle <ph id="ph1">`ToString`</ph> methoden, de uitvoer mogelijk niet consistent zijn tussen de versies van .NET Framework, zodat de resultaten van de methode moeten niet worden geparseerd voor inhoud.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the properties on the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object to obtain precise information about the content or use the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2.ToString%2A&gt; method to obtain information about the certificate.</source>
+          <target state="translated">Gebruik de eigenschappen op de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object verkrijgen van nauwkeurige informatie over de inhoud of met de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2.ToString%2A&gt;methode om informatie over het certificaat te verkrijgen.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2.ToString%2A&gt; &lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method displays the certificate in text format.</source>
+          <target state="translated">Deze methode wordt het certificaat tekst zonder opmaak.</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>The certificate information.</source>
+          <target state="translated">De gegevens van het certificaat.</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>Displays an X.509 certificate in text format.</source>
+          <target state="translated">Geeft een X.509-certificaat in tekstindeling.</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As with all <ph id="ph1">`ToString`</ph> methods, the output might not be consistent across versions of the .NET Framework, so the method results should not be parsed for content.</source>
+          <target state="translated">Net als bij alle <ph id="ph1">`ToString`</ph> methoden, de uitvoer mogelijk niet consistent zijn tussen de versies van .NET Framework, zodat de resultaten van de methode moeten niet worden geparseerd voor inhoud.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the properties on the &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt; object to obtain precise information.</source>
+          <target state="translated">Gebruik de eigenschappen op de &lt;xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;object om nauwkeurig gegevens te verkrijgen.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Certificate2&gt;</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method displays the certificate in text format.</source>
+          <target state="translated">Deze methode wordt het certificaat tekst zonder opmaak.</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`verbose`</ph> parameter is set to <ph id="ph2">`true`</ph>, the text display includes the public key, private key, and extensions.</source>
+          <target state="translated">Als de <ph id="ph1">`verbose`</ph> parameter is ingesteld op <ph id="ph2">`true`</ph>, de tekstweergave bevat de openbare sleutel, de persoonlijke sleutel en de uitbreidingen.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`verbose`</ph> is set to <ph id="ph2">`false`</ph>, the text display includes those fields available from the X.509 certificate, including thumbprint, serial number, subject and issuer names, and validity date information.</source>
+          <target state="translated">Als <ph id="ph1">`verbose`</ph> is ingesteld op <ph id="ph2">`false`</ph>, de tekstweergave die beschikbaar is via het x.509-certificaat met vingerafdruk, serienummer, gegevenscategorie namen en gegevens over de geldigheid velden bevat.</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to display the public key, private key, extensions, and so forth; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to display information that is similar to the <bpt id="p3">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> class, including thumbprint, serial number, subject and issuer names, and so on.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>om weer te geven van de openbare sleutel, persoonlijke sleutel, uitbreidingen en dergelijke; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> weergeven die vergelijkbaar is met de <bpt id="p3">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> klasse, met inbegrip van de vingerafdruk, serienummer en gegevenscategorie namen.</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>The certificate information.</source>
+          <target state="translated">De gegevens van het certificaat.</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>Performs a X.509 chain validation using basic validation policy.</source>
+          <target state="translated">Voert een x.509-keten validatie met behulp van basisvalidatietests beleid.</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method builds a simple chain for the certificate and applies the base policy to that chain.</source>
+          <target state="translated">Deze methode maakt een eenvoudige keten voor het certificaat en base beleid toegepast op die zijn gekoppeld.</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need more information about a failure, validate the certificate directly using the &lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt; object.</source>
+          <target state="translated">Als u meer informatie over een fout moet, valideren van het certificaat rechtstreeks met de &lt;xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;object.&lt;/xref:System.Security.Cryptography.X509Certificates.X509Chain&gt;</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the default chaining engine can be overridden using the &lt;xref:System.Security.Cryptography.CryptoConfig&gt; class.</source>
+          <target state="translated">Houd er rekening mee dat de standaard engine chaining kan worden genegeerd met de &lt;xref:System.Security.Cryptography.CryptoConfig&gt;klasse.&lt;/xref:System.Security.Cryptography.CryptoConfig&gt;</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On Microsoft Windows Server 2003, the default engine conforms to the specification described in RFC3280, "<bpt id="p1">[</bpt>Certificate and Certificate Revocation List (CRL) Profile<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>."</source>
+          <target state="translated">In Microsoft Windows Server 2003, de standaard-engine voldoet aan de specificatie die is beschreven in RFC3280, '<bpt id="p1">[</bpt>certificaat en de certificaatintrekkingslijst (CRL)-Certificaatprofiel intrekken<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=45286)</ept>. "</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the validation succeeds; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the validation fails.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de validatie slaagt; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de validatie mislukt.</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">Het certificaat is onleesbaar.</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>Gets the X.509 format version of a certificate.</source>
+          <target state="translated">Hiermee haalt u de versie van het X.509-indeling van een certificaat.</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are several versions of X.509 certificates.</source>
+          <target state="translated">Er zijn verschillende versies van het X.509-certificaten.</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property identifies which format the certificate uses.</source>
+          <target state="translated">Deze eigenschap geeft aan welke indeling u het certificaat gebruikt.</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, "3" is returned for a version 3 certificate.</source>
+          <target state="translated">Bijvoorbeeld, "3" geretourneerd voor een versie 3-certificaat.</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>The certificate format.</source>
+          <target state="translated">De indeling van het certificaat.</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>The certificate is unreadable.</source>
+          <target state="translated">Het certificaat is onleesbaar.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

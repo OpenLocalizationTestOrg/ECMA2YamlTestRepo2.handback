@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">43471ad8e1e6732b14091bf9c3004b3f166e0b48</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Permissions.StrongNameIdentityPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">52b4b2998bf00cdf20f4de23f9b9d5b74ef3b52d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b296742582310a2cef97ee483ebd3aa4ea93f803</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the identity permission for strong names.</source>
+          <target state="translated">厳密な名前の id アクセス許可を定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">このクラスは継承できません。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Starting with the <ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, identity permissions are not used.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; 以降で、 <ph id="ph2">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>、id アクセス許可は使用されません。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  In the .NET Framework versions 1.0 and 1.1, identity permissions cannot have an &lt;xref:System.Security.Permissions.PermissionState&gt; permission state value.</source>
+          <target state="translated">&gt;&gt; で .NET Framework version 1.0 および 1.1 では、id アクセス許可を持つことはできません、&lt;xref:System.Security.Permissions.PermissionState&gt;アクセス許可の状態の値&lt;/xref:System.Security.Permissions.PermissionState&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework version 2.0 and later, identity permissions can have any permission state value.</source>
+          <target state="translated">.NET Framework version 2.0 以降では、id アクセス許可、アクセス許可の状態値ことができます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This means that in version 2.0 and later versions, identity permissions have the same behavior as permissions that implement the &lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt; interface.</source>
+          <target state="translated">つまり、バージョン 2.0 以降で、id アクセス許可を実装するためのアクセス許可と同じ動作、&lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt;インターフェイス&lt;/xref:System.Security.Permissions.IUnrestrictedPermission&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>That is, a demand for an identity always succeeds, regardless of the identity of the assembly, if the assembly has been granted full trust.</source>
+          <target state="translated">つまり、id の要求は常に成功すると、アセンブリの id に関係なく、アセンブリに完全な信頼が付与されている場合。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use StrongNameIdentityPermission to confirm that the calling code is in a particular strong-named code assembly.</source>
+          <target state="translated">StrongNameIdentityPermission を使用して、呼び出し元のコードが、特定の厳密な名前のコードのアセンブリであることを確認します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Full demands for StrongNameIdentityPermission succeed only if all the assemblies in the stack have the correct evidence to satisfy the demand.</source>
+          <target state="translated">StrongNameIdentityPermission のフル アクセス要求は、スタック内のすべてのアセンブリがある適切な証拠を要求を満たす場合にのみ成功します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Link demands that use the &lt;xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt; attribute succeed only if the immediate caller has the correct evidence.</source>
+          <target state="translated">リンク要求を使用する、&lt;xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt;属性は、直前の呼び出し元に適切な証拠がある場合にのみ成功します&lt;/xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A strong name identity is based on a cryptographic public key called a binary large object (BLOB),  which is optionally combined with the name and version of a specific assembly.</source>
+          <target state="translated">厳密な名前 id は、暗号化を必要に応じて名前と特定のアセンブリのバージョンと組み合わせて使用するバイナリ ラージ オブジェクト (BLOB) と呼ばれる公開キーに基づいています。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The key defines a unique namespace and provides strong verification that the name is genuine, because the definition of the name must be in an assembly that is signed by the corresponding private key.</source>
+          <target state="translated">キーは、一意の名前空間を定義し、名前の定義が、対応する秘密キーによって署名されているアセンブリ内になければならないために、名前が、正規のものである厳密に検証を提供します。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Note that the validity of the strong name key is not dependent on a trust relationship or on any certificate necessarily being issued for the key.</source>
+          <target state="translated">厳密な名前キーの有効性の信頼関係または任意の証明書は、必ずしもキーに対して発行されている依存がないことに注意してください。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework versions 1.0 and 1.1, demands on the identity permissions are effective even when the calling assembly is fully trusted.</source>
+          <target state="translated">.NET Framework バージョン 1.0 および 1.1 では、id アクセス許可の要求は、呼び出し元のアセンブリが完全に信頼されている場合でも有効です。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>That is, even if the calling assembly has full trust, a demand for an identity permission fails if the assembly does not meet the demanded criteria.</source>
+          <target state="translated">呼び出し元のアセンブリに完全な信頼がある場合でも id アクセス許可の確認要求が失敗したアセンブリが要求されている条件を満たしていない場合。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework version 2.0 and later, demands for identity permissions are ineffective if the calling assembly has full trust.</source>
+          <target state="translated">.NET Framework のバージョンでは、id アクセス許可の 2.0 以降の要求は、呼び出し元アセンブリに完全な信頼がある場合は、有効ではありません。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This ensures consistency for all permissions and eliminates the treatment of identity permissions as a special case.</source>
+          <target state="translated">これにより、すべてのアクセス許可の整合性が確保され、特殊なケースとして id アクセス許可の処理方法を排除します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For a complete description of strong names, see the &lt;xref:System.Security.Policy.StrongName&gt; reference page.</source>
+          <target state="translated">厳密な名前の詳細については、次を参照してください、&lt;xref:System.Security.Policy.StrongName&gt;リファレンス ページ。&lt;/xref:System.Security.Policy.StrongName&gt; 。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about strong-named assemblies, see <bpt id="p1">[</bpt>Strong-Named Assemblies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">アセンブリの厳密な名前の詳細については、次を参照してください。<bpt id="p1">[</bpt>厳密な名前付きアセンブリ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The StrongNameIdentityPermission class is used to define strong-name requirements for accessing the public members of a type.</source>
+          <target state="translated">StrongNameIdentityPermission クラスは、型のパブリック メンバーにアクセスするための厳密な名前の要件を定義するために使用します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt; attribute can be used to define strong-name requirements at the assembly level.</source>
+          <target state="translated">&lt;xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt;アセンブリ レベルでの厳密な名前の要件を定義する属性を使用できます&lt;/xref:System.Security.Permissions.StrongNameIdentityPermissionAttribute&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework version 2.0 and later, you can also use the &lt;xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute&gt; attribute to specify that all nonpublic types in that assembly are visible to another assembly.</source>
+          <target state="translated">.NET Framework version 2.0 以降にも使用できます、&lt;xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute&gt;そのアセンブリ内のすべての非パブリックな型が別のアセンブリから参照できることを指定する属性&lt;/xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Friend Assemblies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。<bpt id="p1">[</bpt>フレンド アセンブリ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNameIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNameIdentityPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、指定したクラス<bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Creates either a fully restricted (<ph id="ph1">`None`</ph>) or <ph id="ph2">`Unrestricted`</ph> permission.</source>
+          <target state="translated">作成するか完全に制限 (<ph id="ph1">`None`</ph>) または<ph id="ph2">`Unrestricted`</ph>権限です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In the .NET Framework versions 1.0 and 1.1, identity permissions cannot have an &lt;xref:System.Security.Permissions.PermissionState&gt; permission state value.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;.NET Framework version 1.0 および 1.1 では、id アクセス許可が持つことはできません、&lt;xref:System.Security.Permissions.PermissionState&gt;アクセス許可の状態の値&lt;/xref:System.Security.Permissions.PermissionState&gt;。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework version 2.0 and later, identity permissions can have any permission state value.</source>
+          <target state="translated">.NET Framework version 2.0 以降では、id アクセス許可、アクセス許可の状態値ことができます。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This means that in version 2.0 and later versions, identity permissions have the same behavior as permissions that implement the &lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt; interface.</source>
+          <target state="translated">つまり、バージョン 2.0 以降で、id アクセス許可を実装するためのアクセス許可と同じ動作、&lt;xref:System.Security.Permissions.IUnrestrictedPermission&gt;インターフェイス&lt;/xref:System.Security.Permissions.IUnrestrictedPermission&gt;。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>That is, a demand for an identity always succeeds, regardless of the identity of the assembly, if the assembly has been granted full trust.</source>
+          <target state="translated">つまり、id の要求は常に成功すると、アセンブリの id に関係なく、アセンブリに完全な信頼が付与されている場合。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework versions 1.0 and 1.1, demands on the identity permissions are effective, even when the calling assembly is fully trusted.</source>
+          <target state="translated">.NET Framework バージョン 1.0 および 1.1 では、呼び出し元のアセンブリが完全に信頼されている場合でも id アクセス許可の要求は効果的です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>That is, although the calling assembly has full trust, a demand for an identity permission fails if the assembly does not meet the demanded criteria.</source>
+          <target state="translated">呼び出し元のアセンブリが、完全な信頼がありますが、id アクセス許可の確認要求が失敗したアセンブリが要求されている条件を満たしていない場合。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>In the .NET Framework version 2.0 and later, demands for identity permissions are ineffective if the calling assembly has full trust.</source>
+          <target state="translated">.NET Framework のバージョンでは、id アクセス許可の 2.0 以降の要求は、呼び出し元アセンブリに完全な信頼がある場合は、有効ではありません。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This assures consistency for all permissions, eliminating the treatment of identity permissions as a special case.</source>
+          <target state="translated">これにより、特殊なケースとして id アクセス許可の処理方法を排除すること、すべての権限の一貫性。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use this constructor with a permission state value of &lt;xref:System.Security.Permissions.PermissionState&gt; to create an identity permission that matches no strong names.</source>
+          <target state="translated">アクセス許可の状態値がこのコンス トラクターを使用して&lt;xref:System.Security.Permissions.PermissionState&gt;を厳密な名前と一致しない id アクセス許可を作成します&lt;/xref:System.Security.Permissions.PermissionState&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If you subsequently set the &lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt; and &lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Version%2A&gt; properties, a specific strong name identity can be represented by the permission.</source>
+          <target state="translated">その後に設定した場合、&lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt;と&lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Version%2A&gt;のアクセス許可によって、特定の厳密な名前 id のプロパティを表すことができます&lt;/xref:System.Security.Permissions.StrongNameIdentityPermission.Version%2A&gt;&lt;/xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>値。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">state</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid value of <bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">state</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターがの有効な値ではありません<bpt id="p2">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNameIdentityPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for the specified strong name identity.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNameIdentityPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>厳密な名前を指定した id のクラスです。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`name`</ph> and <ph id="ph2">`version`</ph> parameters can be <ph id="ph3">`null`</ph> only when the public key is used to identify the assembly.</source>
+          <target state="translated"><ph id="ph1">`name`</ph>と<ph id="ph2">`version`</ph>パラメーターを指定できます<ph id="ph3">`null`</ph>アセンブリを識別するに公開キーを使用する場合にのみです。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An empty string ("") should not be used in place of <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">空の文字列 ("") の代わりに使用しないで<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`name`</ph> is an empty string, an &lt;xref:System.ArgumentException&gt; is thrown.</source>
+          <target state="translated">場合<ph id="ph1">`name`</ph>、空の文字列、&lt;xref:System.ArgumentException&gt;がスローされます&lt;/xref:System.ArgumentException&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information on names and version numbers of assemblies, see <bpt id="p1">[</bpt>Strong-Named Assemblies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">名前とアセンブリのバージョン番号の詳細については、次を参照してください。<bpt id="p1">[</bpt>厳密な名前付きアセンブリ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The public key defining the strong name identity namespace.</source>
+          <target state="translated">厳密な名前 id の名前空間を定義する公開キー。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The simple name part of the strong name identity.</source>
+          <target state="translated">厳密な名前 id の簡易名の一部です。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This corresponds to the name of the assembly.</source>
+          <target state="translated">これは、アセンブリの名前に対応します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The version number of the identity.</source>
+          <target state="translated">Id のバージョン番号。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">blob</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">blob</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter is an empty string ("").</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが空の文字列 ("") です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Creates and returns an identical copy of the current permission.</source>
+          <target state="translated">作成して、現在のアクセス許可の完全なコピーを返します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A copy of a permission represents the same access to resources as the original permission.</source>
+          <target state="translated">アクセス許可のコピーは、元のアクセス許可リソースに対して同じアクセス権を表します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission.</source>
+          <target state="translated">現在のアクセス許可のコピー。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Reconstructs a permission with a specified state from an XML encoding.</source>
+          <target state="translated">XML エンコードから指定された状態で、アクセス許可を再構築します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This method is not used by application code.</source>
+          <target state="translated">このメソッドは、アプリケーション コードでは使用されません。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The XML encoding to use to reconstruct the permission.</source>
+          <target state="translated">XML エンコードを使用して、アクセス許可を再構築します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid permission element.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">e</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが有効なアクセス許可要素ではありません。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter's version number is not valid.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">e</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターのバージョン番号が無効です。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Creates and returns a permission that is the intersection of the current permission and the specified permission.</source>
+          <target state="translated">作成し、現在のアクセス許可と指定したアクセス許可の積集合であるアクセス許可を返します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The intersection of two permissions is a permission that describes the set of operations they both describe in common.</source>
+          <target state="translated">2 つのアクセス許可の積集合は、一連の両方に共通する操作を説明する権限です。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Only a demand that passes both original permissions will pass the intersection.</source>
+          <target state="translated">元の両方の権限を通過する要求だけでは、積集合を渡されます。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The intersection of two identical strong name identity permissions is the same permission.</source>
+          <target state="translated">2 つの同一の厳密な名前 id のアクセス許可の積集合は、同じアクセス許可がします。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The intersection of two different (not wildcard) expressions is an empty permission.</source>
+          <target state="translated">積集合の&amp;2; つの異なる (ワイルドカードではない) の式が空のアクセス許可。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The intersection of a wildcard expression and a matching strong name is the strong name.</source>
+          <target state="translated">ワイルドカードの式と一致する厳密な名前の交差部分は、厳密な名前です。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The intersection of two wildcard expressions that match is the longer, more specific of the two expressions.</source>
+          <target state="translated">一致する&amp;2; つのワイルドカードの式の積集合がより長く、2 つの式の詳細。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A permission to intersect with the current permission.</source>
+          <target state="translated">現在のアクセス許可と交差するアクセス許可。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">これは、現在のアクセス許可と同じ型でなければなりません。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the intersection of the current permission and the specified permission, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the intersection is empty.</source>
+          <target state="translated">現在のアクセス許可と指定したアクセス許可の積集合を表す新しいアクセス許可または<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>積集合が空の場合。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターではありません<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>と現在のアクセス許可と同じ型でもありません。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Determines whether the current permission is a subset of the specified permission.</source>
+          <target state="translated">現在のアクセス許可が指定したアクセス許可のサブセットであるかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The current permission is a subset of the specified permission if the current permission specifies a set of operations that is wholly contained by the specified permission.</source>
+          <target state="translated">現在のアクセス許可は、現在のアクセス許可を指定した権限によって完全に含まれる一連の操作を指定する場合、指定したアクセス許可のサブセットです。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For example, the other properties being equal, an identity with the &lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt; property containing the wildcard expression MyCompany.MyDepartment.* is identified as a subset of an identity with the &lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt; property MyCompany.MyDepartment.MyFile.</source>
+          <target state="translated">他のプロパティと等しいことでの id をたとえば、&lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt;と id のサブセットとして MyCompany.MyDepartment.* ワイルドカードの式を含むプロパティを識別、&lt;xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt;プロパティ MyCompany.MyDepartment.MyFile&lt;/xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt; &lt;/xref:System.Security.Permissions.StrongNameIdentityPermission.Name%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A permission that is to be tested for the subset relationship.</source>
+          <target state="translated">サブセットの関係をテストするのには権限です。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This permission must be of the same type as the current permission.</source>
+          <target state="translated">このアクセス許可は、現在のアクセス許可と同じ型でなければなりません。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current permission is a subset of the specified permission; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>現在のアクセス許可が指定した権限のサブセットの場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターではありません<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>と現在のアクセス許可と同じ型でもありません。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets or sets the simple name portion of the strong name identity.</source>
+          <target state="translated">取得または厳密な名前 id の簡易名の部分を設定します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The value of the Name property can be an exact name or can be modified by a wildcard character in the final position; for example, both MyCompany.MyDepartment.MyFile and MyCompany.MyDepartment.* are valid names.</source>
+          <target state="translated">Name プロパティの値が正確な名前を指定できます。 か、最後の位置ではワイルドカード文字で変更できます。たとえば、MyCompany.MyDepartment.MyFile と MyCompany.MyDepartment.* の両方は有効な名前です。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If you attempt to set the Name property to an empty string (""), an &lt;xref:System.ArgumentException&gt; is thrown.</source>
+          <target state="translated">空の文字列に Name プロパティを設定しようとするかどうか ("")、&lt;xref:System.ArgumentException&gt;がスローされます&lt;/xref:System.ArgumentException&gt;。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The simple name of the identity.</source>
+          <target state="translated">Id の簡易名。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The value is an empty string ("").</source>
+          <target state="translated">値は空の文字列 ("") です。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The property value cannot be retrieved because it contains an ambiguous identity.</source>
+          <target state="translated">あいまいな id が含まれているために、プロパティの値を取得できません。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Gets or sets the public key blob that defines the strong name identity namespace.</source>
+          <target state="translated">取得または厳密な名前 id の名前空間を定義する公開キー blob を設定します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNamePublicKeyBlob"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the public key of the identity, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is no key.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Permissions.StrongNamePublicKeyBlob"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、id の公開キーを格納しているか、 <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>キーがない場合。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The property value is set to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">プロパティ値に設定<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The property value cannot be retrieved because it contains an ambiguous identity.</source>
+          <target state="translated">あいまいな id が含まれているために、プロパティの値を取得できません。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Creates an XML encoding of the permission and its current state.</source>
+          <target state="translated">アクセス許可と、現在の状態の XML エンコードを作成します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This method is not typically used by application code.</source>
+          <target state="translated">通常、このメソッドはアプリケーション コードでは使用されません。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An XML encoding of the permission, including any state information.</source>
+          <target state="translated">状態情報を含む、アクセス許可の XML エンコード。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Creates a permission that is the union of the current permission and the specified permission.</source>
+          <target state="translated">現在のアクセス許可と、指定した権限の和集合であるアクセス許可を作成します。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The result of a call to Union is a permission that represents all the operations represented by both the current permission and the specified permission.</source>
+          <target state="translated">共用体への呼び出しの結果は、現在のアクセス許可と、指定した権限の両方で表されるすべての操作を表すアクセス許可です。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Any demand that passes either permission passes their union.</source>
+          <target state="translated">いずれかのアクセス許可に適合する要求は、その共用体を渡します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The union of a permission and <ph id="ph1">`null`</ph> is the permission that is not <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">アクセス許可の和集合と<ph id="ph1">`null`</ph>ではないアクセス許可は、<ph id="ph2">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The union of a permission and a subset of that permission is the permission that contains the other.</source>
+          <target state="translated">アクセス許可の和集合とそのアクセス許可のサブセットを含む、他のアクセス許可がします。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Any other combination results in an &lt;xref:System.ArgumentException&gt; exception being thrown.</source>
+          <target state="translated">その他の組み合わせの結果、&lt;xref:System.ArgumentException&gt;例外がスローされます&lt;/xref:System.ArgumentException&gt;。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A permission to combine with the current permission.</source>
+          <target state="translated">現在のアクセス許可と結合するアクセス許可。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">これは、現在のアクセス許可と同じ型でなければなりません。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the union of the current permission and the specified permission.</source>
+          <target state="translated">現在のアクセス許可と、指定した権限の和集合を表す新しいアクセス許可。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターではありません<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>と現在のアクセス許可と同じ型でもありません。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-or-       The two permissions are not equal and one is a subset of the other.</source>
+          <target state="translated">- または -&amp;2; つのアクセス許可が等しくないと、1 つは他方のサブセットです。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets or sets the version number of the identity.</source>
+          <target state="translated">取得または id のバージョン番号を設定します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The version of the identity.</source>
+          <target state="translated">Id のバージョン。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The property value cannot be retrieved because it contains an ambiguous identity.</source>
+          <target state="translated">あいまいな id が含まれているために、プロパティの値を取得できません。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

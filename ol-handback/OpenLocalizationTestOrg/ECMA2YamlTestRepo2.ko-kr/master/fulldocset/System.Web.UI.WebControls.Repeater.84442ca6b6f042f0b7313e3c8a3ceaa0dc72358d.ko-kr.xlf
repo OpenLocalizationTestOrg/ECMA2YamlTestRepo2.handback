@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">681b5d3bfe416be90e27e85c69c9dd647f1a981d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.Repeater.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7fc40cb678de5ea806749635534c4728e8e72020</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b059f6bfb0df1c2f25e76c752a2df3e7403ea0fb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A data-bound list control that allows custom layout by repeating a specified template for each item displayed in the list.</source>
+          <target state="translated">목록에 표시 된 각 항목에 대 한 지정된 된 템플릿을 반복 하 여 사용자 지정 레이아웃을 허용 하는 데이터 바인딩된 목록 컨트롤입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Data Binding<ept id="p2">](#data_binding)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Templates<ept id="p3">](#templates)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Declarative Syntax<ept id="p4">](#declarative_syntax)</ept>      <bpt id="p5">&lt;a name="introduction"&gt;</bpt><ept id="p5">&lt;/a&gt;</ept>    ## Introduction    The Repeater control is a basic templated data-bound list.</source>
+          <target state="translated">이 항목의:- <bpt id="p1">[</bpt>소개<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>데이터 바인딩<ept id="p2">](#data_binding)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>템플릿<ept id="p3">](#templates)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>선언적 구문<ept id="p4">](#declarative_syntax)</ept> <bpt id="p5">&lt;a name="introduction"&gt;</bpt> <ept id="p5">&lt;/a&gt;</ept> # # 소개 The 반복기 컨트롤은 기본 템플릿 기반 데이터 바인딩된 목록입니다.      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It has no built-in layout or styles, so you must explicitly declare all layout, formatting, and style tags within the control's templates.</source>
+          <target state="translated">모든 레이아웃, 서식 및 스타일 태그 컨트롤의 템플릿 내에서 명시적으로 선언 해야 하므로 없거나 기본 레이아웃 스타일에 있습니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Repeater control allows you to split markup tags across the templates.</source>
+          <target state="translated">반복기 컨트롤을 사용 하면 서식 파일에 태그를 분할할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a table using templates, include the begin table tag (<ph id="ph1">`&lt;table&gt;`</ph>) in the &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;, a single table row tag (<ph id="ph2">`&lt;tr&gt;`</ph>) in the &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;, and the end table tag (<ph id="ph3">`&lt;/table&gt;`</ph>) in the &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;.</source>
+          <target state="translated">템플릿을 사용 하 여 테이블을 만들려면 테이블 시작 태그를 포함 (<ph id="ph1">`&lt;table&gt;`</ph>)에 &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;, 단일 테이블 행 태그 (<ph id="ph2">`&lt;tr&gt;`</ph>)에 &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;, 및 테이블 끝 태그 (<ph id="ph3">`&lt;/table&gt;`</ph>) &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Repeater control has no built-in selection capabilities or editing support.</source>
+          <target state="translated">반복기 컨트롤에 기본 제공 선택 기능이 없으며 또는 편집을 지원 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Web.UI.WebControls.Repeater.ItemCommand&gt; event to process control events that are raised from the templates to the control.</source>
+          <target state="translated">사용할 수는 &lt;xref:System.Web.UI.WebControls.Repeater.ItemCommand&gt;컨트롤 이벤트를 처리할 컨트롤에는 서식 파일에서 발생 하는 이벤트입니다.&lt;/xref:System.Web.UI.WebControls.Repeater.ItemCommand&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 악의적인 클라이언트 스크립트가 포함 될 수 있습니다는 사용자 입력을 표시 하려면이 컨트롤을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">응용 프로그램에 표시 하기 전에 실행 스크립트, SQL 문 또는 다른 코드에 대 한 클라이언트에서 보낸 모든 정보를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">ASP.NET은 사용자 입력에 있는 스크립트 블록 및 HTML에 있는 입력된 요청 유효성 검사 기능을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">유효성 검사 서버 컨트롤이 사용자 입력을 평가 하기 위해 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>유효성 검사 서버 컨트롤 구문<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="data_binding"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Data Binding    The Repeater control provides two properties to support data binding.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="data_binding"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 데이터 반복기 컨트롤 바인딩 데이터 바인딩을 지원 하기 위해 두 개의 속성을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To bind data to any collection that implements the &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt; interface (such as a &lt;xref:System.Data.DataView?displayProperty=fullName&gt;, a &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt;, or an array), or the &lt;xref:System.ComponentModel.IListSource&gt; interface, use the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property to specify the data source.</source>
+          <target state="translated">데이터를 구현 하는 컬렉션에 바인딩하는 &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt;인터페이스 (와 같은 &lt;xref:System.Data.DataView?displayProperty=fullName&gt;, &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt;, 또는 배열), 또는 &lt;xref:System.ComponentModel.IListSource&gt;인터페이스를 사용 하 여는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;속성을 통해 데이터 소스를 지정 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; &lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.Collections.ArrayList?displayProperty=fullName&gt; &lt;/xref:System.Data.DataView?displayProperty=fullName&gt; &lt;/xref:System.Collections.IEnumerable?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property, you must manually write the code to perform data binding.</source>
+          <target state="translated">설정 하는 경우는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;속성을 직접 작성 해야 데이터 바인딩을 수행 하려면 코드.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To automatically bind the Repeater control to a data source represented by a data source control, set the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property to the &lt;xref:System.Web.UI.Control.ID%2A&gt; of the data source control to use.</source>
+          <target state="translated">반복기 컨트롤을 데이터 소스 제어에서 나타내는 데이터 소스를 자동으로 바인딩하려면 설정는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;속성을는 &lt;xref:System.Web.UI.Control.ID%2A&gt;사용 하도록 데이터 소스 컨트롤의.&lt;/xref:System.Web.UI.Control.ID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the &lt;xref:System.Web.UI.WebControls.BaseDataList.DataSourceID%2A&gt; property, the Repeater control automatically binds to the specified data source control on the first request.</source>
+          <target state="translated">설정 하는 경우는 &lt;xref:System.Web.UI.WebControls.BaseDataList.DataSourceID%2A&gt;속성, 반복기 컨트롤 첫 번째 요청에 지정 된 데이터 소스 제어에 자동 바인딩됩니다.&lt;/xref:System.Web.UI.WebControls.BaseDataList.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you do not need to explicitly call the &lt;xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt; method unless you have changed data-related properties of the Repeater control.</source>
+          <target state="translated">따라서 불필요 명시적으로 호출 하 여 &lt;xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt;메서드 반복기 컨트롤의 데이터와 관련 된 속성을 변경 하지 않은.&lt;/xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Repeater control binds its &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt; to either the data model declared and referenced by its &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property or the data source control specified by its &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property.</source>
+          <target state="translated">반복기 컨트롤에 바인딩하는 &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;및 &lt;xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt;는 데이터를 모델으로 선언 및 참조 해당 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;속성 또는 데이터 원본으로 지정 된 제어 해당 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;속성.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;, and &lt;xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt; are not data-bound.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;, 및 &lt;xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt;는 데이터에 바인딩되지 않습니다.&lt;/xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the Repeater control's data source is set but no data is returned, the control renders the &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt; and &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt; with no items.</source>
+          <target state="translated">컨트롤 렌더링 반복기 컨트롤의 데이터 원본이 설정 하는 경우 데이터가 반환 되지 않습니다는 &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;및 &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;항목이 없는.&lt;/xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source is <ph id="ph1">`null`</ph>, the Repeater is not rendered.</source>
+          <target state="translated">데이터 원본이 있으면 <ph id="ph1">`null`</ph>, 반복기 렌더링 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="templates"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Templates    At a minimum, every Repeater control must define an &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="templates"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 서식 파일에는 최소한, 모든 반복기 컨트롤 &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt; 정의 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, other optional templates described in the following table can be used to customize the appearance of the list.</source>
+          <target state="translated">그러나 다음 표에 설명 된 다른 옵션 템플릿은 목록 표시를 사용자 지정 데 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Template name|Description|   |-------------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;|Defines the content and layout of items within the list.</source>
+          <target state="translated">| 템플릿 이름 | 설명 |   |-------------------|-----------------|   | &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;| 목록에서 항목의 레이아웃과 콘텐츠를 정의 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This template is required.|   |&lt;xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt;|If defined, determines the content and layout of alternating (zero-based odd-indexed) items.</source>
+          <target state="translated">이 서식 파일은 필수입니다. |   | &lt;xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt;| 정의 된 경우 콘텐츠 및 대체의 레이아웃을 결정 (0부터 시작 홀수 인덱스) 항목.&lt;/xref:System.Web.UI.WebControls.Repeater.AlternatingItemTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not defined, &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt; is used.|   |&lt;xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt;|If defined, is rendered between items (and alternating items).</source>
+          <target state="translated">정의 되지 않은 &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;사용 됩니다. |   | &lt;xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt;| 정의 된 경우 항목 (및 대체 항목) 사이 렌더링 됩니다.&lt;/xref:System.Web.UI.WebControls.Repeater.SeparatorTemplate%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not defined, a separator is not rendered.|   |&lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;|If defined, determines the content and layout of the list header.</source>
+          <target state="translated">구분 기호가 정의 되지 않은 경우 렌더링 되지 않습니다. |   | &lt;xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;| 정의 된 경우 콘텐츠 및 목록 헤더의 레이아웃을 결정 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.HeaderTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not defined, a header is not rendered.|   |&lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;|If defined, determines the content and layout of the list footer.</source>
+          <target state="translated">정의 되지 않은 경우 헤더는 렌더링 되지 않습니다. |   | &lt;xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;| 정의 된 경우 콘텐츠 및 목록 바닥글의 레이아웃을 결정 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.FooterTemplate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If not defined, a footer is not rendered.|      <bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:Repeater       DataMember="string"       DataSource="string"       DataSourceID="string"       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnItemCommand="ItemCommand event handler"       OnItemCreated="ItemCreated event handler"       OnItemDataBound="ItemDataBound event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       runat="server"       Visible="True|False"   &gt;           &lt;AlternatingItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/AlternatingItemTemplate&gt;           &lt;FooterTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/FooterTemplate&gt;           &lt;HeaderTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/HeaderTemplate&gt;           &lt;ItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/ItemTemplate&gt;           &lt;SeparatorTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/SeparatorTemplate&gt;   &lt;/asp:Repeater&gt;   ```</ph></source>
+          <target state="translated">정의 되지 않은 바닥글은 렌더링 되지 않습니다. |      <bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt> <ept id="p1">&lt;/a&gt;</ept> # # 선언적 구문<ph id="ph1">```   &lt;asp:Repeater       DataMember="string"       DataSource="string"       DataSourceID="string"       EnableTheming="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnItemCommand="ItemCommand event handler"       OnItemCreated="ItemCreated event handler"       OnItemDataBound="ItemDataBound event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       runat="server"       Visible="True|False"   &gt;           &lt;AlternatingItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/AlternatingItemTemplate&gt;           &lt;FooterTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/FooterTemplate&gt;           &lt;HeaderTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/HeaderTemplate&gt;           &lt;ItemTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/ItemTemplate&gt;           &lt;SeparatorTemplate&gt;               &lt;!-- child controls --&gt;           &lt;/SeparatorTemplate&gt;   &lt;/asp:Repeater&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets or sets the object implementing <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how alternating items in the control are displayed.</source>
+          <target state="translated">구현 하는 개체를 가져오거나 <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 방식을 교대로 반복 되는 컨트롤에서 항목을 정의 하는 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to provide a different appearance for alternating items in the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control from what is specified in the &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;.</source>
+          <target state="translated">이 속성을 사용 하 여 대체 하는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;기능에서 컨트롤 &lt;xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Repeater.ItemTemplate%2A&gt; 에 지정 된&lt;/xref:System.Web.UI.WebControls.Repeater&gt; 에 대 한 항목에 다른 모양을 지정할 수</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 악의적인 클라이언트 스크립트가 포함 될 수 있습니다는 사용자 입력을 표시 하려면이 컨트롤을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">응용 프로그램에 표시 하기 전에 실행 스크립트, SQL 문 또는 다른 코드에 대 한 클라이언트에서 보낸 모든 정보를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">ASP.NET은 사용자 입력에 있는 스크립트 블록 및 HTML에 있는 입력된 요청 유효성 검사 기능을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">유효성 검사 서버 컨트롤이 사용자 입력을 평가 하기 위해 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>유효성 검사 서버 컨트롤 구문<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how alternating items are displayed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 방법을 대체 항목을 정의 하는 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Occurs when data methods are being called.</source>
+          <target state="translated">데이터 메서드가 호출 될 때 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The purpose of this event is to give you an opportunity to specify that the data methods to be called are on a different object than the &lt;xref:System.Web.UI.Page&gt; object.</source>
+          <target state="translated">이 이벤트의 목적은 데이터 메서드를 호출할 수 있는 다른 개체에 지정 하는 기회를 제공 하는 &lt;xref:System.Web.UI.Page&gt;개체입니다.&lt;/xref:System.Web.UI.Page&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the child controls of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">가져옵니다는 <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 의 자식 컨트롤을 포함 하는 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 제어 합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Controls collection to manage the child controls of the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">컨트롤 컬렉션을 사용 하 여의 자식 컨트롤을 관리 하는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is commonly used to retrieve a child control from the collection.</source>
+          <target state="translated">컬렉션에서 자식 컨트롤을 검색 하려면 일반적으로 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also add and remove child controls from the collection.</source>
+          <target state="translated">또한 추가 하 고 자식 컨트롤 컬렉션에서 제거할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To access a child control within a &lt;xref:System.Web.UI.WebControls.Repeater&gt; control, iterate through the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control's &lt;xref:System.Web.UI.WebControls.Repeater.Items%2A&gt; collection to retrieve the &lt;xref:System.Web.UI.WebControls.RepeaterItem&gt; for a given index.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 내에서 자식 컨트롤에 액세스 하는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;제어 하 고, 반복는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤의 &lt;xref:System.Web.UI.WebControls.Repeater.Items%2A&gt;검색할 컬렉션의 &lt;xref:System.Web.UI.WebControls.RepeaterItem&gt;지정된 된 인덱스에 대 한.&lt;/xref:System.Web.UI.WebControls.RepeaterItem&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.Items%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then call the <bpt id="p1">**</bpt>Repeater<ept id="p1">**</ept> item's inherited &lt;xref:System.Web.UI.Control.FindControl%2A&gt; method to retrieve a control with a particular ID.</source>
+          <target state="translated">그런 다음 호출에서 <bpt id="p1">**</bpt>반복기<ept id="p1">**</ept> 항목의 &lt;xref:System.Web.UI.Control.FindControl%2A&gt;특정 id 컨트롤을 검색 하는 메서드&lt;/xref:System.Web.UI.Control.FindControl%2A&gt; 를 상속 된</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the child controls of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 의 자식 컨트롤을 포함 하는 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 제어 합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Called by the ASP.NET page framework to notify server controls that use composition-based implementation to create any child controls they contain in preparation for posting back or rendering.</source>
+          <target state="translated">다시 게시 또는 렌더링은 준비 과정에서 모든 자식 컨트롤을 만드는 컴퍼지션 기반 구현을 사용 하는 서버 컨트롤에 알리기 위해 ASP.NET 페이지 프레임 워크에서 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Creates a control hierarchy, with or without the specified data source.</source>
+          <target state="translated">상관 없이 지정된 된 데이터 소스 컨트롤 계층 구조를 만듭니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Indicates whether to use the specified data source.</source>
+          <target state="translated">지정된 된 데이터 소스를 사용할 것인지를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Returns the &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt; value.</source>
+          <target state="translated">반환 된 &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;값.&lt;/xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first call to the &lt;xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt; property calls the CreateDataSourceSelectArguments method to return the &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt; value.</source>
+          <target state="translated">첫 번째 호출에서 &lt;xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt;반환할 CreateDataSourceSelectArguments 메서드를 호출 하는 속성의 &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt;값.&lt;/xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt; value.</source>
+          <target state="translated">&lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;값.&lt;/xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the specified item type and location within the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">만듭니다는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 특정된 항목 형식의 위치에 있는 개체는 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 제어 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The specified location within the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to place the created item.</source>
+          <target state="translated">내의 지정된 된 위치에서 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨트롤을 만든된 항목을 배치 합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the specified type of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> item to create.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ListItemType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 의 지정된 된 형식을 나타내는 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 만들 항목입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The new <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">새 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ModelDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is being created.</source>
+          <target state="translated">발생 경우는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ModelDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체가 만들어집니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The purpose of this event is to give you an opportunity to change the &lt;xref:System.Web.UI.WebControls.ModelDataSourceView&gt; instance in scenarios where you want to use a custom class that derives from the &lt;xref:System.Web.UI.WebControls.ModelDataSourceView&gt; class.</source>
+          <target state="translated">이 이벤트의 목적은 &lt;xref:System.Web.UI.WebControls.ModelDataSourceView&gt; &lt;xref:System.Web.UI.WebControls.ModelDataSourceView&gt;클래스&lt;/xref:System.Web.UI.WebControls.ModelDataSourceView&gt; 에서 파생 되는 사용자 지정 클래스를 사용 하려는 시나리오에서 인스턴스&lt;/xref:System.Web.UI.WebControls.ModelDataSourceView&gt; 를 변경 하는 기회를 제공 하려면</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Binds the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control and all its child controls to the specified data source.</source>
+          <target state="translated">바인딩하는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨트롤과 모든 자식 컨트롤에 지정된 된 데이터 원본입니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DataBind method to bind the data source specified by the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property to the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">DataBind 메서드를 사용 하 여 지정 된 데이터 원본에 바인딩할는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;속성을는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you bind a data source to the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control, the information in the data source is displayed in the control.</source>
+          <target state="translated">데이터 소스를 바인딩하는 경우는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;제어, 데이터 원본에 대 한 정보는 컨트롤에 표시 됩니다.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt; method is also commonly used to synchronize the data source and a data listing control after information in the data source is updated.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt;메서드 일반적으로 데이터 소스와 데이터 목록 컨트롤을 데이터 원본에 대 한 정보를 업데이트 한 후 동기화를 사용 합니다.&lt;/xref:System.Web.UI.WebControls.BaseDataList.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows any changes in the data source to also be updated in a data listing control.</source>
+          <target state="translated">이렇게 하면 변경을 내용을 데이터 원본의 데이터 목록 컨트롤에서에서 업데이트 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source for the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is specified by the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property, you do not need to explicitly call the DataBind method.</source>
+          <target state="translated">데이터 원본에 대 한는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;번째 컨트롤은는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;속성을 않아도를 명시적으로 DataBind 메서드를 호출 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET calls this method automatically to bind the specified data source control to the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">지정 된 데이터 소스 제어에 바인딩할 자동으로이 메서드를 호출 하는 ASP.NET의 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets or sets the specific table in the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt; to bind to the control.</source>
+          <target state="translated">특정 테이블에 가져오거나는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;컨트롤에 바인딩할.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source specified by the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property contains multiple sources of data, use the DataMember property to specify the specific source to bind to the control.</source>
+          <target state="translated">데이터 원본을 지정 하는 경우는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;여러 데이터 원본의 속성에 포함, DataMember 속성을 사용 하 여 특정 소스를 컨트롤에 바인딩되도록 지정 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you have a &lt;xref:System.Data.DataSet?displayProperty=fullName&gt; with multiple tables, you must specify which table to bind to the control.</source>
+          <target state="translated">예를 들어 한 &lt;xref:System.Data.DataSet?displayProperty=fullName&gt;여러 테이블을 가진 컨트롤에 바인딩할 테이블을 지정 해야 합니다.&lt;/xref:System.Data.DataSet?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you have specified the data source, use the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method to bind the data source to the control.</source>
+          <target state="translated">데이터 소스를 지정한 후 사용 하 여는 &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;컨트롤에 데이터 소스를 바인딩할 메서드.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">이 속성의 값은 뷰 상태에 저장 됩니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A string that specifies a table in the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource*&gt; 테이블을 지정 하는 문자열</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets or sets the data source that provides data for populating the list.</source>
+          <target state="translated">목록을 채우는 대 한 데이터를 제공 하는 데이터 소스를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to specify the source of data to populate the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">채우는 데이터의 원본을 지정 하려면이 속성을 사용 하 여 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DataSource can be any &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt; collection such as a &lt;xref:System.Data.DataView?displayProperty=fullName&gt; for accessing databases, a &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt;, or an array, or an &lt;xref:System.ComponentModel.IListSource&gt; object.</source>
+          <target state="translated">데이터 소스 하나가 될 수 있습니다 &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt;와 같은 컬렉션을 &lt;xref:System.Data.DataView?displayProperty=fullName&gt;데이터베이스에 액세스 하기 위한는 &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt;, 또는 배열 또는 &lt;xref:System.ComponentModel.IListSource&gt;개체입니다.&lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.Collections.ArrayList?displayProperty=fullName&gt; &lt;/xref:System.Data.DataView?displayProperty=fullName&gt; &lt;/xref:System.Collections.IEnumerable?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the DataSource property you must manually write the code to bind to the data source.</source>
+          <target state="translated">DataSource 속성을 설정 하는 경우에 데이터 원본에 바인딩하기 위한 코드를 직접 작성 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source specified by the DataSource property contains multiple sources of data, use the &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt; property to specify the specific source to bind to the control.</source>
+          <target state="translated">DataSource 속성으로 지정 된 데이터 원본에 여러 데이터 원본의 포함 되어 있으면는 &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;속성을 특정 소스를 컨트롤에 바인딩되도록 지정 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you have a &lt;xref:System.Data.DataSet?displayProperty=fullName&gt; with multiple tables, you must specify which table to bind to the control.</source>
+          <target state="translated">예를 들어 한 &lt;xref:System.Data.DataSet?displayProperty=fullName&gt;여러 테이블을 가진 컨트롤에 바인딩할 테이블을 지정 해야 합니다.&lt;/xref:System.Data.DataSet?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you have specified the data source, use the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method to bind the data source to the control.</source>
+          <target state="translated">데이터 소스를 지정한 후 사용 하 여는 &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;컨트롤에 데이터 소스를 바인딩할 메서드.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternately, you can use the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property to automatically bind to a data source represented by a data source control.</source>
+          <target state="translated">또는 사용할 수는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;속성을 자동으로 데이터 소스 컨트롤에서 나타내는 데이터 원본에 바인딩합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property, the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control automatically binds to the specified data source control.</source>
+          <target state="translated">설정 하는 경우는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;속성에는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤의 지정 된 데이터 소스 제어에 자동 바인딩됩니다.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need to write code that explicitly calls the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method unless you dynamically change properties of the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">코드를 작성 하는 명시적으로 호출할 필요가 없습니다는 &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;메서드의 속성을 동적으로 변경 하지 않는 한는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If values are specified for both the DataSource property and the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property, ASP.NET is not able to resolve the data source and a &lt;xref:System.Web.HttpException?displayProperty=fullName&gt; is thrown.</source>
+          <target state="translated">DataSource 속성에 대 한 값을 지정 하는 고 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;속성, ASP.NET은 데이터 소스를 확인할 수 없습니다 및 &lt;xref:System.Web.HttpException?displayProperty=fullName&gt;throw 됩니다.&lt;/xref:System.Web.HttpException?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerable&gt; or <bpt id="p1">&lt;xref href="System.ComponentModel.IListSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains a collection of values used to supply data to this control.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerable&gt;또는 <bpt id="p1">&lt;xref href="System.ComponentModel.IListSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이 컨트롤에 데이터를 제공 하는 데 사용 되는 값의 컬렉션을 포함 하는 개체입니다.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The DataSource object specified is not a supported source of data for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">지정 된 데이터 원본 개체에 대 한 데이터의 지원 되는 원본 않습니다는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제어 합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The data source cannot be resolved because a value is specified for both the DataSource property and the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt; property.</source>
+          <target state="translated">DataSource 속성에 대 한 값이 지정 하므로 데이터 소스를 확인할 수 없습니다 및 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;속성.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets the &lt;xref:System.Web.UI.Control.ID*&gt; property of the data source control that the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control should use to retrieve its data source.</source>
+          <target state="translated">가져오거나는 &lt;xref:System.Web.UI.Control.ID*&gt;데이터 원본의 속성을 제어 하는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨트롤이 해당 데이터 소스를 검색 하는 데 사용 해야 합니다.&lt;/xref:System.Web.UI.Control.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DataSourceID property to access the &lt;xref:System.Web.UI.Control.ID%2A&gt; property of the data source control that the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control should use to retrieve its data source.</source>
+          <target state="translated">DataSourceID 속성을 사용 하 여 액세스 하는 &lt;xref:System.Web.UI.Control.ID%2A&gt;데이터 원본의 속성을 제어 하는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤이 해당 데이터 소스를 검색 하는 데 사용 해야 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.Control.ID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source control that is referenced by the DataSourceID property can be any control that implements the &lt;xref:System.Web.UI.IDataSource&gt; interface.</source>
+          <target state="translated">DataSourceID 속성에서 참조 되는 데이터 소스 제어를 구현 하는 모든 컨트롤 수는 &lt;xref:System.Web.UI.IDataSource&gt;인터페이스.&lt;/xref:System.Web.UI.IDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source control must exist either in the same naming container as the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control that references it or in a parent control of the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">데이터 소스 제어와 같은 명명 컨테이너에 존재 해야 합니다는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;참조 하는 컨트롤의 부모 컨트롤 또는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you specify a value for the DataSourceID property, the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control binds to the specified data source control.</source>
+          <target state="translated">DataSourceID 속성에 대 한 값을 지정 하는 경우는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤의 지정 된 데이터 소스 제어에 바인딩됩니다.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need to write code that explicitly calls the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method.</source>
+          <target state="translated">코드를 작성 하는 명시적으로 호출할 필요가 없습니다는 &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;메서드.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can use the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property to specify the source of values to bind to the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">사용할 수 있습니다는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;속성에 바인딩할 값의 원본을 지정 하는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source must be a collection that implements the &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt; interface (such as the &lt;xref:System.Data.DataView?displayProperty=fullName&gt; or &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt; object) or the &lt;xref:System.ComponentModel.IListSource&gt; interface.</source>
+          <target state="translated">데이터 소스를 구현 하는 컬렉션 이어야 합니다는 &lt;xref:System.Collections.IEnumerable?displayProperty=fullName&gt;인터페이스 (예:는 &lt;xref:System.Data.DataView?displayProperty=fullName&gt;또는 &lt;xref:System.Collections.ArrayList?displayProperty=fullName&gt;개체) 또는 &lt;xref:System.ComponentModel.IListSource&gt;인터페이스.&lt;/xref:System.ComponentModel.IListSource&gt; &lt;/xref:System.Collections.ArrayList?displayProperty=fullName&gt; &lt;/xref:System.Data.DataView?displayProperty=fullName&gt; &lt;/xref:System.Collections.IEnumerable?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property, you must write the code to perform the data binding.</source>
+          <target state="translated">설정 하는 경우는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;속성이 데이터 바인딩을 수행 하려면 코드를 작성 해야 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If values are specified for both the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; and DataSourceID properties, ASP.NET is not able to resolve the data source and an &lt;xref:System.Web.HttpException?displayProperty=fullName&gt; exception is thrown.</source>
+          <target state="translated">값이 모두 지정 된 경우는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;DataSourceID 속성 ASP.NET 되었거나 데이터 원본을 확인할 수 없습니다 및 &lt;xref:System.Web.HttpException?displayProperty=fullName&gt;예외가 throw 됩니다.&lt;/xref:System.Web.HttpException?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is stored in view state.</source>
+          <target state="translated">이 속성의 값은 뷰 상태에 저장 됩니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_ID" name="ID" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property of the data source control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_ID" name="ID" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 데이터 소스 컨트롤의 속성입니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The data source cannot be resolved for one of the following reasons:      -   A value is specified for both the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt; and DataSourceID properties.</source>
+          <target state="translated">다음 이유 중 하나에 대 한 데이터 소스를 확인할 수 없습니다:-모두에 대 한 값이 지정 된 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;및 DataSourceID 속성.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource*&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>-   The data source specified by the DataSourceID property cannot be found on the page.</source>
+          <target state="translated">-DataSourceID 속성에 지정 된 데이터 원본 페이지에서 찾을 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-   The data source specified by the DataSourceID property does not implement <bpt id="p1">&lt;xref href="System.Web.UI.IDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-DataSourceID 속성에 지정 된 데이터 소스를 구현 하지 않는 <bpt id="p1">&lt;xref href="System.Web.UI.IDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether themes are applied to this control.</source>
+          <target state="translated">테마가이 컨트롤에 적용 되는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnableTheming property indicates whether themes are enabled.</source>
+          <target state="translated">EnableTheming 속성 테마를 사용할 수 있는지 여부를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the EnableTheming property is <ph id="ph1">`true`</ph>, the theme directory for the application is searched for control skins to apply.</source>
+          <target state="translated">EnableTheming 속성이 <ph id="ph1">`true`</ph>을 적용할 컨트롤 스킨에 대 한 응용 프로그램에 대 한 테마 디렉터리를 검색 합니다.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no skin for the particular control exists in the theme directory, skins are not applied.</source>
+          <target state="translated">테마 디렉터리에 특정 컨트롤에 대 한 스킨이 스킨 적용 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use themes; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>테마를 사용 하려면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Verifies that the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control requires data binding and that a valid data source control is specified before calling the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind*&gt; method.</source>
+          <target state="translated">확인은 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨트롤에 데이터 바인딩이 필요한 및 호출 하기 전에 유효한 데이터 소스 컨트롤이 지정 되었는지를 &lt;xref:System.Web.UI.WebControls.Repeater.DataBind*&gt;메서드.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind*&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you specify a value for the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property, ASP.NET automatically binds the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control to the specified data source control.</source>
+          <target state="translated">에 대 한 값을 지정 하는 경우는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;속성 asp는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤의 지정 된 데이터 소스 제어에.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When ASP.NET performs data binding for the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control, it first calls the EnsureDataBound method to verify that the control has not already been data bound and that a valid data source control that implements the &lt;xref:System.Web.UI.IDataSource&gt; interface is specified for its &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property.</source>
+          <target state="translated">ASP.NET에 대 한 데이터 바인딩을 수행 하는 경우는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤을 먼저 메서드를 호출 EnsureDataBound 컨트롤이 이미 없었습니다 데이터 바인딩된 하 고 구현 하는 유효한 데이터 소스 제어 하는 &lt;xref:System.Web.UI.IDataSource&gt;인터페이스에 대해 지정 된 해당 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;속성.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.IDataSource&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnsureDataBound method then calls the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method.</source>
+          <target state="translated">EnsureDataBound 메서드를 호출는 &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;메서드.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how the footer section of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is displayed.</source>
+          <target state="translated">가져오거나는 <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 정의 하는 방법의 바닥글 섹션은 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 컨트롤이 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to create a template that controls how the footer section of a &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is displayed.</source>
+          <target state="translated">이 속성을 사용 하 여 제어 하는 템플릿을 만드는 방법을의 바닥글 섹션은 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤이 표시 됩니다.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 악의적인 클라이언트 스크립트가 포함 될 수 있습니다는 사용자 입력을 표시 하려면이 컨트롤을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">응용 프로그램에 표시 하기 전에 실행 스크립트, SQL 문 또는 다른 코드에 대 한 클라이언트에서 보낸 모든 정보를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">ASP.NET은 사용자 입력에 있는 스크립트 블록 및 HTML에 있는 입력된 요청 유효성 검사 기능을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">유효성 검사 서버 컨트롤이 사용자 입력을 평가 하기 위해 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>유효성 검사 서버 컨트롤 구문<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how the footer section of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is displayed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 정의 하는 방법을의 바닥글 섹션은 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 컨트롤이 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IEnumerable&gt; interface from the data source.</source>
+          <target state="translated">반환 된 &lt;xref:System.Collections.IEnumerable&gt;데이터 원본의 인터페이스.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source is specified either by the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; property or by the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; and &lt;xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt; properties.</source>
+          <target state="translated">데이터 원본을 지정 하는 방법으로 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;속성 또는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;및 &lt;xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt;속성.&lt;/xref:System.Web.UI.WebControls.Repeater.SelectArguments%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An object implementing &lt;xref:System.Collections.IEnumerable&gt; that represents the data from the data source.</source>
+          <target state="translated">구현 하는 개체 &lt;xref:System.Collections.IEnumerable&gt;데이터 원본에서 데이터를 나타내는입니다.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how the header section of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is displayed.</source>
+          <target state="translated">가져오거나는 <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 정의 하는 방법을 헤더 섹션을는 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 컨트롤이 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to create a template that controls how the header section of a &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is displayed.</source>
+          <target state="translated">이 속성을 사용 하 여 제어 하는 템플릿을 만드는 방법을 헤더 섹션을는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤이 표시 됩니다.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 악의적인 클라이언트 스크립트가 포함 될 수 있습니다는 사용자 입력을 표시 하려면이 컨트롤을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">응용 프로그램에 표시 하기 전에 실행 스크립트, SQL 문 또는 다른 코드에 대 한 클라이언트에서 보낸 모든 정보를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">ASP.NET은 사용자 입력에 있는 스크립트 블록 및 HTML에 있는 입력된 요청 유효성 검사 기능을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">유효성 검사 서버 컨트롤이 사용자 입력을 평가 하기 위해 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>유효성 검사 서버 컨트롤 구문<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how the header section of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is displayed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 정의 하는 방법을 헤더 섹션을는 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 컨트롤이 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the control has been initialized.</source>
+          <target state="translated">컨트롤이 초기화 되었는지 여부를 나타내는 값을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Initialized property is a helper property that is used to determine whether data binding is required when the &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, or &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property is changed.</source>
+          <target state="translated">Initialized 속성은 데이터 바인딩이 필요한 지 확인할 때에 사용 되는 도우미 속성은 &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, 또는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;속성을 변경 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the control has been initialized, otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>컨트롤이 초기화 되었으면, 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Populates iteratively the specified <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with a sub-hierarchy of child controls.</source>
+          <target state="translated">반복적으로 지정 된 채웁니다 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 자식 컨트롤의 하위 계층 구조를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The control to be initialized from an inline template.</source>
+          <target state="translated">인라인 템플릿은에서 초기화 하는 컨트롤입니다.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt; property is set.</source>
+          <target state="translated">나타내는 값을 가져옵니다 여부는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;속성을 설정 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IsBoundUsingDataSourceID property is a helper property that determines whether the control is bound to an ASP.NET 2.0 data source control, such as an &lt;xref:System.Web.UI.WebControls.ObjectDataSource&gt; or a &lt;xref:System.Web.UI.WebControls.SqlDataSource&gt; control.</source>
+          <target state="translated">IsBoundUsingDataSourceID 속성은 컨트롤 ASP.NET 2.0 데이터 소스 제어에 같은 바인딩 되었는지 여부를 결정 하는 도우미 속성이 &lt;xref:System.Web.UI.WebControls.ObjectDataSource&gt;또는 &lt;xref:System.Web.UI.WebControls.SqlDataSource&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.SqlDataSource&gt; &lt;/xref:System.Web.UI.WebControls.ObjectDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt; property is set to a value other than an empty string (""); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>&lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;속성은 빈 문자열 이외의 값으로 설정 되어 있으면 (""); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID*&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether data binding is automatic.</source>
+          <target state="translated">데이터 바인딩이 자동 인지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data binding is automatic if the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is bound to a data source control or if model binders are in use.</source>
+          <target state="translated">데이터 바인딩이 자동 인지 하는 경우는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤을 데이터 소스 컨트롤에 바인딩된 또는 모델 바인더 사용 중인 경우.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data binding is automatic; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>데이터 바인딩이 자동; 인 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Occurs when a button is clicked in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">에 단추를 클릭할 때 발생는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제어 합니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is raised when a button in the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is clicked.</source>
+          <target state="translated">이 이벤트는에 있는 단추는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤을 클릭 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event causes a round-trip from the client to occur.</source>
+          <target state="translated">이 이벤트는 발생 하는 클라이언트에서 왕복을 하면 됩니다.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">이벤트를 처리 하는 방법에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>NIB: 이벤트 사용<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Occurs when an item is created in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">항목을 만들 때 발생는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 제어 합니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is raised when an item is created in the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control.</source>
+          <target state="translated">항목을 만들 때이 이벤트는 발생 된 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">이벤트를 처리 하는 방법에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>NIB: 이벤트 사용<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Occurs after an item in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is data-bound but before it is rendered on the page.</source>
+          <target state="translated">에 있는 항목 뒤에 오는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨트롤은 데이터 바인딩된 이지만 페이지에 렌더링 되기 전에 합니다.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is raised when an item in the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control is data-bound.</source>
+          <target state="translated">이 이벤트는 항목에는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤은 데이터 바인딩.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">이벤트를 처리 하는 방법에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>NIB: 이벤트 사용<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects in the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">컬렉션을 가져옵니다 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체에 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 제어 합니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.Repeater&gt; control populates the Items collection by enumerating every object in its &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤의 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; 의 모든 개체를 열거 하 여 항목 컬렉션을 채웁니다&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Items collection is then used by the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control to render each item in the control.</source>
+          <target state="translated">Items 컬렉션 사용 됩니다는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤 컨트롤의 각 항목을 렌더링 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">컬렉션 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The default is an empty <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 빈 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how items in the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control are displayed.</source>
+          <target state="translated">가져오거나는 <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 정의 하는 방법을 항목에 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 컨트롤 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to create a template that controls how items in the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control are displayed.</source>
+          <target state="translated">이 속성을 사용 하 여 제어 하는 템플릿을 만드는 방법을 항목에 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤 표시 됩니다.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  This control can be used to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 악의적인 클라이언트 스크립트가 포함 될 수 있습니다는 사용자 입력을 표시 하려면이 컨트롤을 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">응용 프로그램에 표시 하기 전에 실행 스크립트, SQL 문 또는 다른 코드에 대 한 클라이언트에서 보낸 모든 정보를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">ASP.NET은 사용자 입력에 있는 스크립트 블록 및 HTML에 있는 입력된 요청 유효성 검사 기능을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">유효성 검사 서버 컨트롤이 사용자 입력을 평가 하기 위해 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>유효성 검사 서버 컨트롤 구문<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how items in the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control are displayed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 정의 하는 방법 항목에 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 컨트롤 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The name of the model type for strongly typed data binding.</source>
+          <target state="translated">에 대 한 모델 유형 이름에는 강력한 데이터 바인딩을 형식입니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you set this property and use the &lt;xref:System.Web.UI.WebControls.Repeater.SelectMethod%2A&gt; property, the type that is returned by the Select method must be of the type specified by this property or must be capable of being cast to the type specified by this property.</source>
+          <target state="translated">이 속성을 설정 하 고 사용 하는 경우는 &lt;xref:System.Web.UI.WebControls.Repeater.SelectMethod%2A&gt;속성 Select 메서드에 의해 반환 되는 형식이이 속성에 지정 된 형식 이어야 합니다 또는이 속성에 지정 된 형식으로 캐스팅 되 수 있어야 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.SelectMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property automatically enables Dynamic Data functionality.</source>
+          <target state="translated">Dynamic Data 기능을 사용 하면 자동으로이 속성을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The name of the model type.</source>
+          <target state="translated">모델 형식의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Restores view-state information from a previous page request that was saved using the &lt;xref:System.Web.UI.WebControls.Repeater.SaveViewState*&gt; method.</source>
+          <target state="translated">사용 하 여 저장 된 이전 페이지 요청에서 뷰 상태 정보가 복원 되는 &lt;xref:System.Web.UI.WebControls.Repeater.SaveViewState*&gt;메서드.&lt;/xref:System.Web.UI.WebControls.Repeater.SaveViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>An object that represents the control state to restore.</source>
+          <target state="translated">복원할 컨트롤 상태를 나타내는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">EventArgs</ph><ept id="p2">&lt;/code&gt;</ept> parameter is an instance of <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.RepeaterCommandEventArgs"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">발생는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트 경우는 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">EventArgs</ph> <ept id="p2">&lt;/code&gt;</ept> 매개 변수는 인스턴스의 <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.RepeaterCommandEventArgs"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The source of the event.</source>
+          <target state="translated">이벤트의 소스입니다.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;이벤트 데이터를 포함 하는 개체입니다.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> was raised, otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우는 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 그렇지 않으면 발생 했으므로 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.CreatingModelDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.CreatingModelDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>An object that provides access to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ModelDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is being created.</source>
+          <target state="translated">에 대 한 액세스를 제공 하는 개체는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.ModelDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 생성 중인 개체입니다.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref uid="langword_csharp_DataBinding" name="DataBinding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref uid="langword_csharp_DataBinding" name="DataBinding" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;이벤트 데이터를 포함 하는 개체입니다.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Determines whether data binding is required.</source>
+          <target state="translated">데이터 바인딩이 필요한 지 여부를 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnDataPropertyChanged method is a helper method that is called when the &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, or &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; property is changed.</source>
+          <target state="translated">OnDataPropertyChanged 방법은 때 호출 되는 도우미 메서드는 &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, 또는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;속성이 변경 될.&lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>OnDataPropertyChanged is called during the data-binding phase of the control.</source>
+          <target state="translated">컨트롤의 데이터 바인딩 단계 동안 OnDataPropertyChanged 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.Web.UI.WebControls.Repeater.RequiresDataBinding*&gt; property to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">설정 된 &lt;xref:System.Web.UI.WebControls.Repeater.RequiresDataBinding*&gt;속성을 <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.WebControls.Repeater.RequiresDataBinding*&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnDataSourceViewChanged method is a helper method that participates in the data binding process.</source>
+          <target state="translated">OnDataSourceViewChanged 메서드는 데이터 바인딩 프로세스에 참여 하는 도우미 메서드입니다.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when the &lt;xref:System.Web.UI.DataSourceView&gt; object that is associated data source control raises its &lt;xref:System.Web.UI.DataSourceView.DataSourceViewChanged&gt; event.</source>
+          <target state="translated">이 메서드를 호출한 경우는 &lt;xref:System.Web.UI.DataSourceView&gt;개체를 연결 된 데이터 소스 컨트롤의 &lt;xref:System.Web.UI.DataSourceView.DataSourceViewChanged&gt;이벤트.&lt;/xref:System.Web.UI.DataSourceView.DataSourceViewChanged&gt; &lt;/xref:System.Web.UI.DataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The event causes the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control to bind data to the updated data.</source>
+          <target state="translated">이러한 이벤트로 인해는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤을 업데이트 된 데이터에 데이터를 바인딩할.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The source of the event.</source>
+          <target state="translated">이벤트의 소스입니다.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;이벤트 데이터를 포함 하는 개체입니다.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; object that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;이벤트 데이터를 포함 하는 개체입니다.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">이벤트를 발생 시키는 대리자를 통해 이벤트 처리기를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>NIB: 이벤트 사용<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterCommandEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the event data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterCommandEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트 데이터를 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCreated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemCreated"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">이벤트를 발생 시키는 대리자를 통해 이벤트 처리기를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>NIB: 이벤트 사용<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the event data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트 데이터를 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemDataBound"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater.ItemDataBound"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">이벤트를 발생 시키는 대리자를 통해 이벤트 처리기를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>NIB: 이벤트 사용<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the event data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트 데이터를 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event and performs other initialization.</source>
+          <target state="translated">발생는 <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트 하 고 다른 초기화를 수행 합니다.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnLoad method notifies the &lt;xref:System.Web.UI.WebControls.Repeater&gt; control that it should perform actions that are common to each HTTP request for the page that it is associated with, such as setting up a database query.</source>
+          <target state="translated">OnLoad 메서드 알립니다는 &lt;xref:System.Web.UI.WebControls.Repeater&gt;제어 하는 데이터베이스 쿼리를 설정 하는 등,와 연결 된 페이지에 대 한 각 HTTP 요청에 공통적인 작업을 수행 해야 한다고.&lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At this stage in the page life cycle, server controls in the hierarchy are created and initialized, view state is restored, and form controls reflect client-side data.</source>
+          <target state="translated">페이지 수명 주기에서이 단계에서는 서버 컨트롤 계층 구조에서 만들어지고 초기화 되며, 뷰 상태 복원 되 고, 양식 컨트롤이 클라이언트 데이터를 반영 합니다.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the event data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트 데이터를 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.PreRender"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref href="System.Web.UI.Control.PreRender"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.Control.PreRender&gt; event is used to perform any updates before the output for the server control is rendered to the page.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Control.PreRender&gt;이벤트는 서버 컨트롤은 페이지에 렌더링에 대 한 출력 하기 전에 업데이트를 수행 하는 데 사용 됩니다.&lt;/xref:System.Web.UI.Control.PreRender&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any changes in the view state of the server control can be saved during this event.</source>
+          <target state="translated">이 이벤트는 동안 서버 컨트롤의 뷰 상태의 변경 내용을 저장할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Such changes made in the rendering phase are not saved.</source>
+          <target state="translated">변경 내용에 렌더링 단계에서 저장 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object contains the event data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.WebControls.RepeaterItemEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트 데이터를 포함 하는 개체입니다.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control needs to bind to its specified data source.</source>
+          <target state="translated">나타내는 값을 가져오거나 여부는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정된 된 데이터 소스에 바인딩할 컨트롤이 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.Repeater&gt; control uses the RequiresDataBinding property to determine whether the control needs to call the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method to bind to its specified data source.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.Repeater&gt;컨트롤 RequiresDataBinding 속성을 사용 하 여 컨트롤 호출 해야 하는지 여부를 결정 하는 &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;메서드를 지정된 된 데이터 소스에 바인딩합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each time the set accessor is called on either the &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;, or &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt; property to change the data source after the &lt;xref:System.Web.UI.WebControls.Repeater.OnInit%2A&gt; method has already been called, ASP.NET sets the value of the RequiresDataBinding property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Set 접근자가 호출 될 때마다는 &lt;xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;, &lt;xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt;, 또는 &lt;xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt;후 데이터 원본을 변경 하려면 속성은 &lt;xref:System.Web.UI.WebControls.Repeater.OnInit%2A&gt;메서드가 이미 호출, RequiresDataBinding 속성의 값을 설정 하는 ASP.NET <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.WebControls.Repeater.OnInit%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataMember%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSourceID%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the RequiresDataBinding property is also set to <ph id="ph1">`true`</ph> when the &lt;xref:System.Web.UI.WebControls.Repeater.OnDataSourceViewChanged%2A&gt; method is called.</source>
+          <target state="translated">RequiresDataBinding 속성의 값으로 설정도 <ph id="ph1">`true`</ph> 때는 &lt;xref:System.Web.UI.WebControls.Repeater.OnDataSourceViewChanged%2A&gt;메서드를 호출 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.OnDataSourceViewChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET sets the value of the RequiresDataBinding property to <ph id="ph1">`false`</ph> immediately after the &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt; method is called.</source>
+          <target state="translated">RequiresDataBinding 속성의 값을 설정 하는 ASP.NET <ph id="ph1">`false`</ph> 바로 뒤의 &lt;xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;메서드를 호출 합니다.&lt;/xref:System.Web.UI.WebControls.Repeater.DataBind%2A&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control needs to bind to a data source; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우는 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 컨트롤을 데이터 원본에 바인딩할 해야 합니다. 그렇지 않으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Saves any view-state changes that have occurred since the time the page was posted back to the server.</source>
+          <target state="translated">페이지가 서버에 다시 게시 된 시간 이후에 발생 한 뷰 상태의 변경 내용을 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The control's current view state.</source>
+          <target state="translated">컨트롤의 현재 뷰 상태입니다.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>If there is no view state associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">컨트롤과 연결 된 뷰 상태가 없으면이 메서드가 반환 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceSelectArguments"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control uses when retrieving data from a data source control.</source>
+          <target state="translated">가져옵니다는 <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceSelectArguments"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 하는 개체는 <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Repeater"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 컨트롤에 데이터 소스 컨트롤에서 데이터를 검색할 때 사용 하 여 합니다.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first call to the &lt;xref:System.Web.UI.DataSourceSelectArguments&gt; object calls the &lt;xref:System.Web.UI.WebControls.Repeater.CreateDataSourceSelectArguments%2A&gt; method to create the &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt; object.</source>
+          <target state="translated">첫 번째 호출에서 &lt;xref:System.Web.UI.DataSourceSelectArguments&gt;호출 개체는 &lt;xref:System.Web.UI.WebControls.Repeater.CreateDataSourceSelectArguments%2A&gt;를 만들 방법을 &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt;개체.&lt;/xref:System.Web.UI.DataSourceSelectArguments.Empty%2A&gt; &lt;/xref:System.Web.UI.WebControls.Repeater.CreateDataSourceSelectArguments%2A&gt; &lt;/xref:System.Web.UI.DataSourceSelectArguments&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceSelectArguments"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object used to retrieve data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.DataSourceSelectArguments"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체 데이터를 검색 하는 데 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The default is the &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt; value.</source>
+          <target state="translated">기본값은는 &lt;xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;값.&lt;/xref:System.Web.UI.DataSourceSelectArguments.Empty*&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The name of the method to call in order to read data.</source>
+          <target state="translated">데이터를 읽기 위해 호출 하는 메서드의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property causes model binding to be used as the data binding method.</source>
+          <target state="translated">데이터 바인딩 방법으로 사용할 모델 바인딩을 사용 하면이 속성을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The name of the method.</source>
+          <target state="translated">메서드의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface that defines how the separator between items is displayed.</source>
+          <target state="translated">가져오거나는 <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 항목 간의 구분 기호가 표시 되는 방식을 정의 하는 인터페이스입니다.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the SeparatorTemplate property to create a template that controls how the separator between items is displayed.</source>
+          <target state="translated">항목 간의 구분 기호가 표시 되는 방식을 제어 하는 템플릿을 만들려면 SeparatorTemplate 속성을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  You can use the SeparatorTemplate property to display user input, which might include malicious client script.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; SeparatorTemplate 속성을 사용 하 여 클라이언트를 악의적인 스크립트가 포함 될 수 있습니다는 사용자 입력을 표시 합니다.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application.</source>
+          <target state="translated">응용 프로그램에 표시 하기 전에 실행 스크립트, SQL 문 또는 다른 코드에 대 한 클라이언트에서 보낸 모든 정보를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET provides an input request validation feature to block script and HTML in user input.</source>
+          <target state="translated">ASP.NET은 사용자 입력에 있는 스크립트 블록 및 HTML에 있는 입력된 요청 유효성 검사 기능을 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation server controls are also provided to assess user input.</source>
+          <target state="translated">유효성 검사 서버 컨트롤이 사용자 입력을 평가 하기 위해 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Validation Server Control Syntax<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>.</source>
+          <target state="translated">자세한 내용은 참조 <bpt id="p1">[</bpt>유효성 검사 서버 컨트롤 구문<ept id="p1">](http://msdn.microsoft.com/en-us/96d2c59e-693c-4079-9b53-b3ff0d9e9133)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines how the separator between items is displayed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.ITemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 항목 간의 구분 기호가 표시 되는 방식을 정의 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Causes tracking of view-state changes to the control so they can be stored in the control's <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">컨트롤의 저장할 수 있도록 컨트롤에 뷰 상태 변경의 추적 작업을 실행 <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

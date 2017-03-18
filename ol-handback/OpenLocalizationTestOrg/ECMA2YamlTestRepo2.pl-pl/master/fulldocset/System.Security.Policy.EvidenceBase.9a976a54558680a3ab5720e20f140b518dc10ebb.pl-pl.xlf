@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6bd41bd23923cd1e83baf604d9e93eb5b4acdcca</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Policy.EvidenceBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8b019a314527b977e513065c0b1f4b0e00bbd36b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d09e94a7c2ecc80f77d6076a0bdb9853a2e5680</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class from which all objects to be used as evidence must derive.</source>
+          <target state="translated">Udostępnia klasę podstawową, z których wszystkie obiekty, która będzie używana jako dowód muszą pochodzić.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before the <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, almost any object could be used as an evidence object if the hosting code wanted to apply it as evidence.</source>
+          <target state="translated">Przed <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, prawie każdego obiektu może być użyta jako obiekt dowód, jeśli chce zastosować go jako dowód hostingu kodu.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, some .NET Framework code recognized &lt;xref:System.Uri?displayProperty=fullName&gt; objects as evidence.</source>
+          <target state="translated">Na przykład niektóre kod .NET Framework rozpoznany &lt;xref:System.Uri?displayProperty=fullName&gt;obiekty jako dowód.&lt;/xref:System.Uri?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The common language runtime (CLR) considered evidence objects as &lt;xref:System.Object?displayProperty=fullName&gt; references, and did not apply any type safety to them.</source>
+          <target state="translated">Środowisko uruchomieniowe języka wspólnego (CLR) traktowane jako dowód obiekty jako &lt;xref:System.Object?displayProperty=fullName&gt;odwołuje się i nie może zastosować zabezpieczenie żadnych typów do nich.&lt;/xref:System.Object?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This presented a problem because there were implicit restrictions on which types could be used as evidence objects.</source>
+          <target state="translated">Przedstawione problem, ponieważ było niejawne ograniczeń, na których można używać typów jako dowód obiektów.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, any object used as evidence had to be serializable and could not be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">W szczególności dowolny obiekt używany jako dowód muszą być możliwy do serializacji i nie można go <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If these requirements were not met, the CLR threw an exception whenever an operation that required one of these assumptions was performed.</source>
+          <target state="translated">Jeśli te wymagania nie zostały spełnione, CLR zgłosiła wyjątek przy każdym wykonano operację, który wymagany jeden z tych założeń.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EvidenceBase class, which all evidence objects must derive from, was introduced in the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> to enable constraints on the types of objects that can be used as evidence and to provide the ability to add new features and requirements to all evidence objects.</source>
+          <target state="translated">Klasa EvidenceBase wszystkie obiekty dowód muszą pochodzić od, została wprowadzona w systemie <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> można włączyć ograniczenia dotyczące typów obiektów, które mogą być używane jako dowód i zapewniają możliwość dodawania nowych funkcji i wymagań dla wszystkich obiektów dowód.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EvidenceBase class ensures, upon instantiation, that the evidence object is serializable.</source>
+          <target state="translated">Klasa EvidenceBase zapewnia, podczas tworzenia wystąpienia, czy obiekt dowód jest możliwy do serializacji.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, it enables new evidence requirements to be created by adding new default implementations to the base class.</source>
+          <target state="translated">Ponadto umożliwia nowe wymagania dowód należy utworzyć przez dodanie nowych domyślnej implementacji do klasy podstawowej.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All the types used by the CLR as evidence objects have been updated in the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> to derive from EvidenceBase.</source>
+          <target state="translated">Wszystkie typy używane przez środowisko CLR jako dowód obiekty zostały zaktualizowane w <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> pochodzić z EvidenceBase.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Policy.EvidenceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Policy.EvidenceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All objects to be used as evidence must be serializable.</source>
+          <target state="translated">Wszystkie obiekty mają być używane jako dowód muszą podlegać serializacji.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must mark any derived types as serializable, because the serializable attribute does not propagate to derived classes.</source>
+          <target state="translated">Należy oznaczyć wszystkie typy pochodne jako możliwy do serializacji, ponieważ atrybutowi serializable nie są propagowane do klas pochodnych.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An object to be used as evidence is not serializable.</source>
+          <target state="translated">Obiekt ma być używany jako dowód nie jest możliwy do serializacji.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Creates a new object that is a complete copy of the current instance.</source>
+          <target state="translated">Tworzy nowy obiekt, który jest pełną kopią bieżącego wystąpienia.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The duplicate copy is a complete copy that includes all the evidence objects in the collection.</source>
+          <target state="translated">Duplikat jest kompletna kopia, która obejmuje wszystkie obiekty dowód w kolekcji.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A duplicate copy of this evidence object.</source>
+          <target state="translated">Kopię tego obiektu dowód.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

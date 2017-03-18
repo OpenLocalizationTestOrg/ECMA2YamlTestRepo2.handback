@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">77164873a0f7ac6c4a7e99acc8ed03c5cb9bc600</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.WebPartTracker.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5ad86ed0d18dd8a471157fcce5c00e5c41c421d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">98cc0bdc1367f799a1e3a87e08eea10eb3949223</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Monitors Web Parts connections for circular connections.</source>
+          <target state="translated">순환 연결에 대 한 웹 파트 연결을 모니터링합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Web Parts connection is a link or association between two &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; (or other server or user) controls that enables them to share data.</source>
+          <target state="translated">웹 파트 연결은 링크 또는 두 연결 &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;(또는 다른 서버 또는 사용자) 데이터를 공유할 수 있도록 하는 컨트롤입니다.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In every Web Parts connection, one control acts as a provider of data and another as a consumer of data.</source>
+          <target state="translated">모든 웹 파트 연결에서 한 컨트롤은 데이터와 데이터의 소비자로 다른 공급자 역할입니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a Web Parts control is both a provider and a consumer, and the provided data depends on the consumed data, there is the possibility of creating a connection that results in an infinite loop between Web Parts controls.</source>
+          <target state="translated">웹 파트 컨트롤은 소비자 및 공급자를 제공 된 데이터 소비 된 데이터에 따라 달라 집니다 웹 파트 컨트롤 간의 하면 무한 루프가 발생 하는 연결을 만들 가능성이 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These loops are called circular connections.</source>
+          <target state="translated">이 루프는 순환 연결 이라고 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A developer can prevent a circular connection by using the WebPartTracker class to track the number of connections for a provider connection point and a Web Parts control.</source>
+          <target state="translated">개발자는 공급자 연결 지점 및 웹 파트 컨트롤에 대 한 연결 수를 추적 하는 WebPartTracker 클래스를 사용 하 여 순환 연결을 방지할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The provider connection point and the control are specified in the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTracker.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">공급자 연결 지점 및 컨트롤에 지정 되어는 &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTracker.%23ctor%2A&gt;생성자.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTracker.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a circular connection is detected, the WebPartTracker object sets the &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.ConnectErrorMessage%2A?displayProperty=fullName&gt; property on the provider Web Parts control.</source>
+          <target state="translated">WebPartTracker 개체를 설정 하는 순환 연결 감지 되 면는 &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.ConnectErrorMessage%2A?displayProperty=fullName&gt;공급자 웹 파트 컨트롤에 대 한 속성.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.ConnectErrorMessage%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTracker.IsCircularConnection%2A&gt; property will return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.WebPartTracker.IsCircularConnection%2A&gt;속성은 반환 <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTracker.IsCircularConnection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartTracker"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartTracker"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The control to track for circular connections.</source>
+          <target state="translated">순환 연결에 대 한 추적 하는 컨트롤입니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The connection point used with <ph id="ph1">`webPart`</ph>.</source>
+          <target state="translated">사용할 연결 지점 <ph id="ph1">`webPart`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;providerConnectionPoint&lt;/code&gt;</ph> is not provided.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph>또는 <ph id="ph2">&lt;code&gt;providerConnectionPoint&lt;/code&gt;</ph> 제공 되지 않았습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;providerConnectionPoint&lt;/code&gt;</ph> is not a valid type.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;providerConnectionPoint&lt;/code&gt;</ph>올바른 유형이 아닙니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether a provider connection point is involved in more than one connection with a Web Parts control.</source>
+          <target state="translated">공급자 연결 지점 웹 파트 컨트롤에 둘 이상의 연결에 관련 되어 있는지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the provider connection point is used in more than one connection with the Web Parts control; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>공급자 연결 지점이 있는 경우 웹 파트 컨트롤;에 둘 이상의 연결에서 사용 되는 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</source>
+          <target state="translated">관련 확보, 해제 또는 관리 되지 않는 리소스를 다시 설정 된 응용 프로그램 정의 작업을 수행 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.IDisposable.Dispose%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">자세한 내용은 &lt;xref:System.IDisposable.Dispose%2A?displayProperty=fullName&gt;.&lt;/xref:System.IDisposable.Dispose%2A?displayProperty=fullName&gt; 을 참조 하십시오.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
