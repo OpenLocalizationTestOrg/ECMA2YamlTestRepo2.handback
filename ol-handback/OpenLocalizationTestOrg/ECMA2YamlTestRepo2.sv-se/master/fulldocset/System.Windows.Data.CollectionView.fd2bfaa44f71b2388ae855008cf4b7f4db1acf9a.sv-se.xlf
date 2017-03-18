@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aaf2aa83f6922555ef590c0acb5aab9393dcee10</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Data.CollectionView.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0899b418f5bdd3b0da4e1b6a6bc1baa46760bbd8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">787d4da777a23c570e530cdaa69e123110aef1d6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a view for grouping, sorting, filtering, and navigating a data collection.</source>
+          <target state="translated">Representerar en vy för gruppering, sortering, filtrering och navigera insamling av data.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should not create objects of this class in your code.</source>
+          <target state="translated">Du bör inte skapa objekt av den här klassen i koden.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a collection view for a collection that only implements &lt;xref:System.Collections.IEnumerable&gt;, create a &lt;xref:System.Windows.Data.CollectionViewSource&gt; object, add your collection to the &lt;xref:System.Windows.Data.CollectionViewSource.Source%2A&gt; property, and get the collection view from the &lt;xref:System.Windows.Data.CollectionViewSource.View%2A&gt; property.</source>
+          <target state="translated">Skapa en samling vy för en samling som bara implementerar &lt;xref:System.Collections.IEnumerable&gt;, skapa en &lt;xref:System.Windows.Data.CollectionViewSource&gt;objekt, lägga till samlingen till den &lt;xref:System.Windows.Data.CollectionViewSource.Source%2A&gt;egenskapen och get samlingen visa från den &lt;xref:System.Windows.Data.CollectionViewSource.View%2A&gt;egenskapen.&lt;/xref:System.Windows.Data.CollectionViewSource.View%2A&gt; &lt;/xref:System.Windows.Data.CollectionViewSource.Source%2A&gt; &lt;/xref:System.Windows.Data.CollectionViewSource&gt; &lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can think of a collection view as a layer on top of a binding source collection that allows you to navigate and display the collection based on sort, filter, and group queries, all without having to manipulate the underlying source collection itself.</source>
+          <target state="translated">Du kan se för en samling vy som ett lager ovanpå en bindning källsamling som gör det möjligt att navigera och visa samlingen baserat på Sortera, filtrera och gruppen frågor, allt utan att behöva ändra underliggande källa själva samlingen.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the source collection implements the &lt;xref:System.Collections.Specialized.INotifyCollectionChanged&gt; interface, the changes that raise the &lt;xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt; event are propagated to the views.</source>
+          <target state="translated">Om källmängden implementerar den &lt;xref:System.Collections.Specialized.INotifyCollectionChanged&gt;gränssnitt, ändringarna som genererar den &lt;xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt;händelse sprids till vyerna.&lt;/xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt; &lt;/xref:System.Collections.Specialized.INotifyCollectionChanged&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because a view does not change the underlying source collection, a source collection can have multiple views associated with it.</source>
+          <target state="translated">Eftersom vyn inte ändras den underliggande datakälla mängden, kan en samling för datakällan ha flera vyer som är associerade med den.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By using views, you can display the same data in different ways.</source>
+          <target state="translated">Du kan visa samma data på olika sätt med hjälp av vyer.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can use two views on a collection of <ph id="ph1">`Task`</ph> objects to show tasks sorted by priority on one part of the page and grouped by area on another part of the page.</source>
+          <target state="translated">Du kan till exempel använda två vyer på en samling av <ph id="ph1">`Task`</ph> objekt för att visa aktiviteter sorterade efter prioritet för en del av sidan och grupperade efter området på en annan del av sidan.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> applications, all collections have an associated default collection view.</source>
+          <target state="translated">I <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> program, alla samlingar har en associerad standardsamling visa.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rather than working with the collection directly, the binding engine always accesses the collection through the associated view.</source>
+          <target state="translated">I stället för att arbeta direkt med samlingen, den bindande motorn alltid har åtkomst till samlingen via den associerade vyn.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To get the default view, use the &lt;xref:System.Windows.Data.CollectionViewSource.GetDefaultView%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Standardvyn får använda den &lt;xref:System.Windows.Data.CollectionViewSource.GetDefaultView%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Windows.Data.CollectionViewSource.GetDefaultView%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An internal class based on CollectionView is the default view for collections that implement only &lt;xref:System.Collections.IEnumerable&gt;.</source>
+          <target state="translated">En intern klass som baseras på CollectionView är standardvyn för samlingar som implementerar endast &lt;xref:System.Collections.IEnumerable&gt;.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Data.ListCollectionView&gt; is the default view for collections that implement &lt;xref:System.Collections.IList&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Data.ListCollectionView&gt;är standardvyn för samlingar som implementerar &lt;xref:System.Collections.IList&gt;.&lt;/xref:System.Collections.IList&gt;&lt;/xref:System.Windows.Data.ListCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Data.BindingListCollectionView&gt; is the default view for collections that implement &lt;xref:System.ComponentModel.IBindingListView&gt; or &lt;xref:System.ComponentModel.IBindingList&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Data.BindingListCollectionView&gt;är standardvyn för samlingar som implementerar &lt;xref:System.ComponentModel.IBindingListView&gt;eller &lt;xref:System.ComponentModel.IBindingList&gt;.&lt;/xref:System.ComponentModel.IBindingList&gt; &lt;/xref:System.ComponentModel.IBindingListView&gt;&lt;/xref:System.Windows.Data.BindingListCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can create a view of your collection in <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> by using the &lt;xref:System.Windows.Data.CollectionViewSource&gt; class and then bind your control to that view.</source>
+          <target state="translated">Du kan också skapa en vy över din samling i <ph id="ph1">[!INCLUDE[TLA#tla_xaml](~/add/includes/tlasharptla-xaml-md.md)]</ph> med hjälp av den &lt;xref:System.Windows.Data.CollectionViewSource&gt;klassen och binda din kontroll till denna vy.&lt;/xref:System.Windows.Data.CollectionViewSource&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Data.CollectionViewSource&gt; class is the <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> representation of the CollectionView class.</source>
+          <target state="translated">Den &lt;xref:System.Windows.Data.CollectionViewSource&gt;klassen är den <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> representation av CollectionView klass&lt;/xref:System.Windows.Data.CollectionViewSource&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example, see <bpt id="p1">[</bpt>How to: Sort and Group Data Using a View in XAML<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Ett exempel finns <bpt id="p1">[</bpt>så här: sortera och gruppera Data med hjälp av en vy i XAML<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i "Bindning till samlingar" i <bpt id="p1">[</bpt>bindning översikt över<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set a view in <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>, use the &lt;xref:System.Windows.Data.CollectionViewSource&gt; class.</source>
+          <target state="translated">Ange en vy i <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph>, Använd &lt;xref:System.Windows.Data.CollectionViewSource&gt;klass.&lt;/xref:System.Windows.Data.CollectionViewSource&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Data.CollectionViewSource&gt; is the <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> representation of the CollectionView class, and it exposes the most commonly used members of the CollectionView class.</source>
+          <target state="translated">&lt;xref:System.Windows.Data.CollectionViewSource&gt;är den <ph id="ph1">[!INCLUDE[TLA2#tla_xaml](~/add/includes/tla2sharptla-xaml-md.md)]</ph> representation av klassen CollectionView och visar de vanligaste medlemmarna i klassen CollectionView.&lt;/xref:System.Windows.Data.CollectionViewSource&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_CollectionView"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    See Remarks</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_CollectionView"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML Text användning se anmärkning</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that represents a view of the specified collection.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass som representerar en vy över den angivna samlingen.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The instance of &lt;xref:System.Windows.Data.CollectionView&gt; is bound to the <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> thread dispatcher of the caller of this constructor.</source>
+          <target state="translated">Instansen av &lt;xref:System.Windows.Data.CollectionView&gt;är bunden till det <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> tråd dispatcher av anroparen av den här konstruktorn.&lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The underlying collection.</source>
+          <target state="translated">Den underliggande mängden.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether a thread other than the one that created the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> can change the &lt;xref:System.Windows.Data.CollectionView.SourceCollection*&gt;.</source>
+          <target state="translated">Hämtar ett värde som anger om en annan tråd än den som skapade den <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kan ändra &lt;xref:System.Windows.Data.CollectionView.SourceCollection*&gt;.&lt;/xref:System.Windows.Data.CollectionView.SourceCollection*&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a thread other than the one that created the <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> can change the &lt;xref:System.Windows.Data.CollectionView.SourceCollection*&gt;; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om en annan tråd än det konto som skapade den <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kan ändra den &lt;xref:System.Windows.Data.CollectionView.SourceCollection*&gt;, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.SourceCollection*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the view supports filtering.</source>
+          <target state="translated">Hämtar ett värde som anger om vyn stöder filtrering.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property returns <ph id="ph1">`false`</ph>, setting the &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt; property throws an exception.</source>
+          <target state="translated">Om den här egenskapen returnerar <ph id="ph1">`false`</ph>, ställ det &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt;egenskapen genererar ett undantag.&lt;/xref:System.Windows.Data.CollectionView.Filter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the view supports filtering; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om vyn har stöd för filtrering. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the view supports grouping.</source>
+          <target state="translated">Hämtar ett värde som anger om vyn stöder gruppering.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to test whether the view supports sorting before adding &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt;.</source>
+          <target state="translated">Använd den här egenskapen för att testa om vyn stöder sortering innan du lägger till &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derived classes override this property to indicate whether they support grouping.</source>
+          <target state="translated">Härledda klasser åsidosätta den här egenskapen för att ange om de stöder gruppering.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>i samtliga fall.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the view supports sorting.</source>
+          <target state="translated">Hämtar ett värde som anger om vyn stöder sortering.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to test whether the view supports sorting before adding &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;.</source>
+          <target state="translated">Använd den här egenskapen för att testa om vyn stöder sortering innan du lägger till &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derived classes override this property to indicate whether they support sorting.</source>
+          <target state="translated">Härledda klasser åsidosätta den här egenskapen för att ange om de stöder sortering.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>i samtliga fall.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Clears any pending changes from the change log.</source>
+          <target state="translated">Rensar väntande ändringar från ändringsloggen.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Clears unprocessed changed to the collection.</source>
+          <target state="translated">Rensar obearbetat ändras till samlingen.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Occurs when the view has changed.</source>
+          <target state="translated">Inträffar när vyn har ändrats.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Returns an object that you can use to compare items in the view.</source>
+          <target state="translated">Returnerar ett objekt som du kan använda för att jämföra objekt i vyn.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IComparer&gt; object that you can use to compare items in the view.</source>
+          <target state="translated">En &lt;xref:System.Collections.IComparer&gt;objekt som du kan använda för att jämföra objekt i vyn.&lt;/xref:System.Collections.IComparer&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the specified item belongs to the view.</source>
+          <target state="translated">Returnerar ett värde som anger om det angivna objektet tillhör vyn.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not make any assumptions about whether the item belongs to the underlying collection.</source>
+          <target state="translated">Den här metoden göra inte några antaganden om huruvida artikeln som hör till den underliggande mängden.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the caller knows that the item belongs to the underlying collection, it is more efficient to call the &lt;xref:System.Windows.Data.CollectionView.PassesFilter%2A&gt; method.</source>
+          <target state="translated">Om anroparen vet att artikeln som hör till den underliggande mängden, är det effektivare att anropa den &lt;xref:System.Windows.Data.CollectionView.PassesFilter%2A&gt;metoden.&lt;/xref:System.Windows.Data.CollectionView.PassesFilter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The object to check.</source>
+          <target state="translated">Objektet som används för att kontrollera.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the item belongs to the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om objektet tillhör vyn. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the number of records in the view.</source>
+          <target state="translated">Hämtar antalet poster i vyn.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a filter is set, this property value only includes items that pass the filter.</source>
+          <target state="translated">Om ett filter har angetts innehåller det här egenskapsvärdet endast objekt som skickar filtret.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying collection is of type &lt;xref:System.Collections.IEnumerable&gt;, this is an O(N) operation.</source>
+          <target state="translated">Om den underliggande mängden är av typen &lt;xref:System.Collections.IEnumerable&gt;, detta är en O(N) åtgärd.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is cached until the collection changes.</source>
+          <target state="translated">Det här värdet cachelagras tills samlingen ändras.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The number of records in the view, or –1 if the number of records is unknown.</source>
+          <target state="translated">Antalet poster i vyn eller –&amp;1; om antalet poster är okänt.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets the culture information to use during sorting.</source>
+          <target state="translated">Hämtar eller anger kulturen information ska användas vid sortering.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The culture information to use during sorting.</source>
+          <target state="translated">Kulturen information ska användas vid sortering.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Occurs after the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; has changed.</source>
+          <target state="translated">Inträffar när den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;har ändrats.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is changing.</source>
+          <target state="translated">Inträffar när den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;ändrar.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets the current item in the view.</source>
+          <target state="translated">Hämtar det aktuella objektet i vyn.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Insamlingsvyer stöder begreppet en aktuell post-pekare.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">När du navigerar mellan objekten i samlingsvyn flyttar du en post-pekare där du kan hämta det objekt som finns där viss i samlingen.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that moving the current record pointer has some interactions with any sorting or filtering that is applied to the collection.</source>
+          <target state="translated">Observera att flytta den aktuella poster pekaren har vissa interaktioner med alla sortera eller filtrera som används i samlingen.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sorting preserves the current record pointer on the last record selected, but the collection view is restructured around it.</source>
+          <target state="translated">Sortering bevarar aktuell post pekaren på den sista posten som valts, men samlingsvyn har strukturerats runt den.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(Perhaps the selected record was at the beginning of the list before, but now the selected record might be somewhere in the middle.) Filtering preserves the selected record if that selection remains in view after the filtering.</source>
+          <target state="translated">(Kanske den valda posten var i början av listan före, men nu den valda posten kan vara någonstans i mitten.) Filtrering bevaras den valda posten om markeringen visas fortfarande efter filtreringen.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the current record pointer is set to the first record of the filtered collection view.</source>
+          <target state="translated">Annars anges aktuell post pekaren till den första posten i samlingsvyn filtrerade.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current item of the collection is bound to automatically if the target of a binding is a singleton value.</source>
+          <target state="translated">Det aktuella objektet i mängden är bunden till automatiskt om målet för en bindning är en singleton-värde.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the target is an &lt;xref:System.Windows.Controls.ItemsControl&gt;, the current item is synchronized with the selected item.</source>
+          <target state="translated">Om målet är en &lt;xref:System.Windows.Controls.ItemsControl&gt;, det aktuella objektet är synkroniserad med det valda objektet.&lt;/xref:System.Windows.Controls.ItemsControl&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if a list box is bound to a collection, the CurrentItem is synchronized with the currently selected item.</source>
+          <target state="translated">Om en listruta är bunden till en samling, till exempel synkroniseras CurrentItem med det markerade objektet.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The current item of the view.</source>
+          <target state="translated">Det aktuella objektet i vyn.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>By default, the first item of the collection starts as the current item.</source>
+          <target state="translated">Som standard startar det första objektet i mängden som det aktuella objektet.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets the ordinal position of the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; within the (optionally sorted and filtered) view.</source>
+          <target state="translated">Hämtar ordningstalspositionen för den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;i vyn (eventuellt sorterade och filtrerade).&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The ordinal position of the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; within the (optionally sorted and filtered) view.</source>
+          <target state="translated">Ordningstalspositionen för den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;i vyn (eventuellt sorterade och filtrerade).&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Enters a defer cycle that you can use to merge changes to the view and delay automatic refresh.</source>
+          <target state="translated">Anger en Överlåt cykel som du kan använda för att infoga ändringarna med automatisk uppdatering vy och fördröjning.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The typical usage is to create a <ph id="ph1">`using`</ph> scope with this method and then place multiple view-changing calls within the scope.</source>
+          <target state="translated">Typisk användning är att skapa en <ph id="ph1">`using`</ph> omfång med den här metoden och placera flera anrop för ändring av vyn inom omfånget.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This delays automatic refresh until the defer cycle is exited.</source>
+          <target state="translated">Den här automatisk uppdatering för fördröjningar tills Överlåt cykeln har avslutats.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IDisposable&gt; object that you can use to dispose of the calling object.</source>
+          <target state="translated">En &lt;xref:System.IDisposable&gt;objekt som du kan använda för att ta bort det anropande objektet.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Removes the reference to the underlying collection from the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Tar bort referensen till den underliggande mängden från den <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to unsubscribe to events on the underlying collection and allow the &lt;xref:System.Windows.Data.CollectionView&gt; to be garbage collected.</source>
+          <target state="translated">Använd den här metoden för att avbryta prenumerationen på händelser i den underliggande mängden och tillåta att den &lt;xref:System.Windows.Data.CollectionView&gt;på att skräpinsamlas.&lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets or sets a method used to determine if an item is suitable for inclusion in the view.</source>
+          <target state="translated">Hämtar eller anger en metod som används för att avgöra om ett objekt är lämplig för att inkluderas i vyn.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Simpler implementations do not support filtering and throw a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Enklare implementationer inte stöder filtrering och utlösa &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Data.CollectionView.CanFilter%2A&gt; property to test if filtering is supported before assigning this property with a non-null value.</source>
+          <target state="translated">Använd den &lt;xref:System.Windows.Data.CollectionView.CanFilter%2A&gt;egenskapen för att testa om filtrering stöds innan den här egenskapen med ett icke-null-värde.&lt;/xref:System.Windows.Data.CollectionView.CanFilter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A delegate that represents the method used to determine if an item is suitable for inclusion in the view.</source>
+          <target state="translated">En delegat som representerar den metod som används för att avgöra om ett objekt är lämplig för att inkluderas i vyn.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The current implementation does not support filtering.</source>
+          <target state="translated">Den aktuella implementeringen stöder inte filtrering.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Returns an object that you can use to enumerate the items in the view.</source>
+          <target state="translated">Returnerar ett objekt som du kan använda för att räkna upp objekt i vyn.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object that you can use to enumerate the items in the view.</source>
+          <target state="translated">En &lt;xref:System.Collections.IEnumerator&gt;objekt som du kan använda för att räkna upp objekt i vyn.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Retrieves the item at the specified zero-based index in the view.</source>
+          <target state="translated">Hämtar objekt i angivna nollbaserade index i vyn.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method evaluates the index with any &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt; or &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt; property values that are set on the view.</source>
+          <target state="translated">Den här metoden utvärderar indexet med alla &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;eller &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt;egenskapsvärden som konfigureras på vyn.&lt;/xref:System.Windows.Data.CollectionView.Filter%2A&gt; &lt;/xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying collection is of type &lt;xref:System.Collections.IEnumerable&gt;, this is an O(N) operation.</source>
+          <target state="translated">Om den underliggande mängden är av typen &lt;xref:System.Collections.IEnumerable&gt;, detta är en O(N) åtgärd.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The zero-based index of the item to retrieve.</source>
+          <target state="translated">Det nollbaserade indexet för objektet du vill hämta.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The item at the specified zero-based index in the view.</source>
+          <target state="translated">Objektet med det angivna nollbaserade indexet i vyn.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;index&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;index&lt;/code&gt;</ph>är mindre än 0.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.ComponentModel.GroupDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that describes how the items in the collection are grouped in the view.</source>
+          <target state="translated">Hämtar en samling <bpt id="p1">&lt;xref href="System.ComponentModel.GroupDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som beskriver hur objekten i samlingen grupperas i vyn.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is always <ph id="ph1">`null`</ph> because the &lt;xref:System.Windows.Data.CollectionView&gt; class does not support grouping over its underlying collection.</source>
+          <target state="translated">Värdet för den här egenskapen är alltid <ph id="ph1">`null`</ph> eftersom den &lt;xref:System.Windows.Data.CollectionView&gt;klassen stöder inte gruppering över dess underliggande mängden.&lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived classes &lt;xref:System.Windows.Data.ListCollectionView&gt; and &lt;xref:System.Windows.Data.BindingListCollectionView&gt; do support grouping.</source>
+          <target state="translated">Härledda klasser &lt;xref:System.Windows.Data.ListCollectionView&gt;och &lt;xref:System.Windows.Data.BindingListCollectionView&gt;stöder gruppering.&lt;/xref:System.Windows.Data.BindingListCollectionView&gt; &lt;/xref:System.Windows.Data.ListCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>i samtliga fall.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the top-level groups that is constructed based on the &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions*&gt; property.</source>
+          <target state="translated">Hämtar en samling innehållsgrupperna som konstrueras utifrån den &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions*&gt;egenskapen.&lt;/xref:System.Windows.Data.CollectionView.GroupDescriptions*&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is always <ph id="ph1">`null`</ph> because the &lt;xref:System.Windows.Data.CollectionView&gt; class does not support grouping over its underlying collection.</source>
+          <target state="translated">Värdet för den här egenskapen är alltid <ph id="ph1">`null`</ph> eftersom den &lt;xref:System.Windows.Data.CollectionView&gt;klassen stöder inte gruppering över dess underliggande mängden.&lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived classes &lt;xref:System.Windows.Data.ListCollectionView&gt; and &lt;xref:System.Windows.Data.BindingListCollectionView&gt; do support grouping.</source>
+          <target state="translated">Härledda klasser &lt;xref:System.Windows.Data.ListCollectionView&gt;och &lt;xref:System.Windows.Data.BindingListCollectionView&gt;stöder gruppering.&lt;/xref:System.Windows.Data.BindingListCollectionView&gt; &lt;/xref:System.Windows.Data.ListCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>i samtliga fall.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Returns the index at which the specified item is located.</source>
+          <target state="translated">Returnerar index där det angivna objektet finns.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method returns an index other than -1, it must always be true that view[index-1] &lt; item &lt;= view[index], where the comparisons are done using the &lt;xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt; method of the view, if one exists.</source>
+          <target state="translated">Om den här metoden returnerar ett index än -1, måste alltid vara true vyn [index-1] &lt; item=""&gt; &lt;= view[index],="" where="" the="" comparisons="" are="" done="" using="" the=""&gt;&lt;/=&gt; &lt;xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt;metod för att visa, om sådan finns.&lt;/xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This particular behavior of the method is used by some &lt;xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt; event handlers to speed up reaction to insertion and deletion.</source>
+          <target state="translated">Problemet viss för metoden används av vissa &lt;xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt;händelsehanterare påskynda reaktion på infogning och borttagning.&lt;/xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the derived class does not override this method, a listener does a binary search using the &lt;xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Om den här metoden inte åsidosätter i den härledda klassen, en lyssnare har en binär Sök med hjälp av den &lt;xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Collections.IComparer.Compare%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The item to locate.</source>
+          <target state="translated">Objektet du vill hitta.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The index at which the specified item is located, or –1 if the item is unknown.</source>
+          <target state="translated">Indexet där det angivna objektet finns, eller -1 om objektet är okänt.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; of the view is beyond the end of the collection.</source>
+          <target state="translated">Hämtar ett värde som anger om den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;för vyn är utanför slutet av samlingen.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Insamlingsvyer stöder begreppet en aktuell post-pekare.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">När du navigerar mellan objekten i samlingsvyn flyttar du en post-pekare där du kan hämta det objekt som finns där viss i samlingen.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; of the view is beyond the end of the collection; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;för vyn är utanför slutet av samlingen; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; of the view is before the beginning of the collection.</source>
+          <target state="translated">Hämtar ett värde som anger om den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;för vyn är före början i mängden.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Insamlingsvyer stöder begreppet en aktuell post-pekare.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">När du navigerar mellan objekten i samlingsvyn flyttar du en post-pekare där du kan hämta det objekt som finns där viss i samlingen.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; of the view is before the beginning of the collection; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;för vyn är före början av samlingen; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p1">*</bpt>&gt; is at the &lt;xref:System.Windows.Data.CollectionView.CurrentPosition<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">Hämtar ett värde som anger om den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; på den &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p2">*</bpt>&gt; is in the view and at the &lt;xref:System.Windows.Data.CollectionView.CurrentPosition<ept id="p2">*</ept>&gt;; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; är i vyn och på den &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt;, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the underlying collection provides change notifications.</source>
+          <target state="translated">Hämtar ett värde som anger om den underliggande mängden ger ändringsmeddelanden.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the underlying collection provides change notifications; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den underliggande mängden innehåller ändringsmeddelanden; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the resulting (filtered) view is empty.</source>
+          <target state="translated">Hämtar ett värde som anger om den resulterande (filtrerade) vyn är tom.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting view is empty; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den resulterande vyn är tom. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether any object is subscribing to the events of this <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hämtar ett värde som anger om ett objekt prenumerera på händelser i denna <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if any object is subscribing to the events of this <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om ett objekt prenumerera på händelser i denna <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether there is an outstanding &lt;xref:System.Windows.Data.CollectionView.DeferRefresh*&gt; in use.</source>
+          <target state="translated">Hämtar ett värde som anger om det finns en utestående &lt;xref:System.Windows.Data.CollectionView.DeferRefresh*&gt;används.&lt;/xref:System.Windows.Data.CollectionView.DeferRefresh*&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is an outstanding &lt;xref:System.Windows.Data.CollectionView.DeferRefresh*&gt; in use; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det finns en utestående &lt;xref:System.Windows.Data.CollectionView.DeferRefresh*&gt;används; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.DeferRefresh*&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Sets the specified item to be the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; in the view.</source>
+          <target state="translated">Anger det angivna objektet ska vara den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;i vyn.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified item is not found, the method returns <ph id="ph1">`false`</ph> and the &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt; is positioned before the beginning of the collection in the view.</source>
+          <target state="translated">Om det angivna objektet inte hittas, metoden returnerar <ph id="ph1">`false`</ph> och &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;är placerad före början av samlingen i vyn.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Insamlingsvyer stöder begreppet en aktuell post-pekare.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">När du navigerar mellan objekten i samlingsvyn flyttar du en post-pekare där du kan hämta det objekt som finns där viss i samlingen.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i "Bindning till samlingar" i <bpt id="p1">[</bpt>bindning översikt över<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the current item of a view, see &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.</source>
+          <target state="translated">Mer information om det aktuella objektet i en vy finns i &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The item to set as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Objektet du vill ange som &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det resulterande &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;ligger inom vyn; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Sets the first item in the view as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Anger det första objektet i vyn som &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Insamlingsvyer stöder begreppet en aktuell post-pekare.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">När du navigerar mellan objekten i samlingsvyn flyttar du en post-pekare där du kan hämta det objekt som finns där viss i samlingen.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i "Bindning till samlingar" i <bpt id="p1">[</bpt>bindning översikt över<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is an item within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det resulterande &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;är ett objekt i vyn; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Sets the last item in the view as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Anger det sista objektet i vyn som &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Insamlingsvyer stöder begreppet en aktuell post-pekare.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">När du navigerar mellan objekten i samlingsvyn flyttar du en post-pekare där du kan hämta det objekt som finns där viss i samlingen.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i "Bindning till samlingar" i <bpt id="p1">[</bpt>bindning översikt över<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is an item within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det resulterande &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;är ett objekt i vyn; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Sets the item after the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p1">*</bpt>&gt; in the view as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">Anger objektet efter den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; i vyn som den &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Insamlingsvyer stöder begreppet en aktuell post-pekare.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">När du navigerar mellan objekten i samlingsvyn flyttar du en post-pekare där du kan hämta det objekt som finns där viss i samlingen.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i "Bindning till samlingar" i <bpt id="p1">[</bpt>bindning översikt över<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is an item within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det resulterande &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;är ett objekt i vyn; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Sets the item at the specified index to be the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; in the view.</source>
+          <target state="translated">Anger objektet med det angivna indexet ska den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;i vyn.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Insamlingsvyer stöder begreppet en aktuell post-pekare.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">När du navigerar mellan objekten i samlingsvyn flyttar du en post-pekare där du kan hämta det objekt som finns där viss i samlingen.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i "Bindning till samlingar" i <bpt id="p1">[</bpt>bindning översikt över<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The index to set the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; to.</source>
+          <target state="translated">Indexet för att ange den &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;att.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is an item within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det resulterande &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;är ett objekt i vyn; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Sets the item before the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p1">*</bpt>&gt; in the view as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">Anger objektet innan den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; i vyn som den &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Collection views support the concept of a current record pointer.</source>
+          <target state="translated">Insamlingsvyer stöder begreppet en aktuell post-pekare.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As you navigate through the objects in a collection view, you are moving a record pointer that allows you to retrieve the object that exists at that particular location in the collection.</source>
+          <target state="translated">När du navigerar mellan objekten i samlingsvyn flyttar du en post-pekare där du kan hämta det objekt som finns där viss i samlingen.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Binding to Collections" in <bpt id="p1">[</bpt>Data Binding Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i "Bindning till samlingar" i <bpt id="p1">[</bpt>bindning översikt över<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resulting &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt; is an item within the view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det resulterande &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;är ett objekt i vyn; annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the view needs to be refreshed.</source>
+          <target state="translated">Hämtar ett värde som anger om vyn behöver uppdateras.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property indicates if the internal state of the view has changed and requires a &lt;xref:System.Windows.Data.CollectionView.Refresh%2A&gt; method call.</source>
+          <target state="translated">Den här egenskapen anger om det interna tillståndet för vyn har ändrats och kräver en &lt;xref:System.Windows.Data.CollectionView.Refresh%2A&gt;metodanrop.&lt;/xref:System.Windows.Data.CollectionView.Refresh%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The typical scenario is if a &lt;xref:System.ComponentModel.SortDescription&gt; or similar has been added to the view while the view is in a deferred refresh cycle (see &lt;xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt;).</source>
+          <target state="translated">Vanligt scenario är om en &lt;xref:System.ComponentModel.SortDescription&gt;eller liknande har lagts till vyn medan vyn finns i en uppskjuten uppdateringsprocess (se &lt;xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt;).&lt;/xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt; &lt;/xref:System.ComponentModel.SortDescription&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this scenario, no explicit call to &lt;xref:System.Windows.Data.CollectionView.Refresh%2A&gt; is needed; as soon as the deferred refresh cycle ends, the view calls refresh automatically.</source>
+          <target state="translated">I det här scenariot, ingen explicit anrop till &lt;xref:System.Windows.Data.CollectionView.Refresh%2A&gt;krävs, så snart den uppskjutna uppdateringscykeln ends vyn anropar uppdateringen automatiskt.&lt;/xref:System.Windows.Data.CollectionView.Refresh%2A&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the view needs to be refreshed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om vyn måste uppdateras; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Gets the object that is in the collection to represent a new item.</source>
+          <target state="translated">Hämtar det objekt som ingår i samlingen för att representera ett nytt objekt.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Windows.Data.CollectionView&gt; that implements &lt;xref:System.ComponentModel.IEditableCollectionView&gt; has &lt;xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt; set to &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt; or &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;, the NewItemPlaceholder is added to the collection.</source>
+          <target state="translated">När en &lt;xref:System.Windows.Data.CollectionView&gt;som implementerar &lt;xref:System.ComponentModel.IEditableCollectionView&gt;har &lt;xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt;inställd på &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;eller &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;, NewItemPlaceholder läggs till i samlingen.&lt;/xref:System.ComponentModel.NewItemPlaceholderPosition&gt; &lt;/xref:System.ComponentModel.NewItemPlaceholderPosition&gt; &lt;/xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt; &lt;/xref:System.ComponentModel.IEditableCollectionView&gt; &lt;/xref:System.Windows.Data.CollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The NewItemPlaceholder always appears in the collection; it does not participate in grouping, sorting, or filtering.</source>
+          <target state="translated">NewItemPlaceholder visas alltid i samlingen; den ingår inte i gruppering, sortering och filtrering.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt; cannot be the NewItemPlaceholder.</source>
+          <target state="translated">Den &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;får inte vara NewItemPlaceholder.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Methods that perform relative navigation, such as the &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToNext%2A&gt;, skip the NewItemPlaceholder.</source>
+          <target state="translated">Metoder som utför relativa navigering som den &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToNext%2A&gt;, hoppa över NewItemPlaceholder.&lt;/xref:System.Windows.Data.CollectionView.MoveCurrentToNext%2A&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Data.CollectionView.MoveCurrentToFirst%2A&gt; and &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToLast%2A&gt; skip the NewItemPlaceholder if &lt;xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt; is set to &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt; or &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;, respectively.</source>
+          <target state="translated">&lt;xref:System.Windows.Data.CollectionView.MoveCurrentToFirst%2A&gt;och &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToLast%2A&gt;Hoppa över NewItemPlaceholder om &lt;xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt;är inställd på &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;eller &lt;xref:System.ComponentModel.NewItemPlaceholderPosition&gt;respektive.&lt;/xref:System.ComponentModel.NewItemPlaceholderPosition&gt; &lt;/xref:System.ComponentModel.NewItemPlaceholderPosition&gt; &lt;/xref:System.ComponentModel.IEditableCollectionView.NewItemPlaceholderPosition%2A&gt; &lt;/xref:System.Windows.Data.CollectionView.MoveCurrentToLast%2A&gt;&lt;/xref:System.Windows.Data.CollectionView.MoveCurrentToFirst%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Methods that perform absolute navigation, such as &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToPosition%2A&gt;, do nothing if the NewItemPlaceholder would be the &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.</source>
+          <target state="translated">Metoder som utför absolut navigering, till exempel &lt;xref:System.Windows.Data.CollectionView.MoveCurrentToPosition%2A&gt;, gör ingenting om NewItemPlaceholder skulle vara &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt; &lt;/xref:System.Windows.Data.CollectionView.MoveCurrentToPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The object that is in the collection to represent a new item.</source>
+          <target state="translated">Det objekt som ingår i samlingen för att representera ett nytt objekt.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the view can change which item is the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Returnerar ett värde som anger om vyn kan ändra vilket objekt är i &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a listener cancels the change; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om en lyssnare avbryter ändringen. Annars <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Data.CollectionView.AllowsCrossThreadChanges*&gt; property changes.</source>
+          <target state="translated">Inträffar när den &lt;xref:System.Windows.Data.CollectionView.AllowsCrossThreadChanges*&gt;egenskapsändringar.&lt;/xref:System.Windows.Data.CollectionView.AllowsCrossThreadChanges*&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Called by the base class to notify the derived class that an <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> event has been posted to the message queue.</source>
+          <target state="translated">Anropas av basklassen att meddela den härledda klassen som en <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> händelse har publicerats till meddelandekön.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt; object that is added to the change log.</source>
+          <target state="translated">Det &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;objekt som läggs till i loggen ändring&lt;/xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Take any sorting, filtering, or grouping criteria into consideration before calling this method to raise the &lt;xref:System.Windows.Data.CollectionView.CollectionChanged&gt; event.</source>
+          <target state="translated">Vidta någon sortering, filtrering eller gruppera kriterier beaktas innan du anropar den här metoden för att öka den &lt;xref:System.Windows.Data.CollectionView.CollectionChanged&gt;händelse.&lt;/xref:System.Windows.Data.CollectionView.CollectionChanged&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt; object to pass to the event handler.</source>
+          <target state="translated">Den &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;objektet ska skickas till händelsehanteraren.&lt;/xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method calls &lt;xref:System.Windows.Data.CollectionView.ProcessCollectionChanged%2A&gt; if it is on the correct <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph> thread dispatcher and has never been updated from a different thread, or posts the change to the dispatcher to process it on the correct thread.</source>
+          <target state="translated">Den här metoden anropar &lt;xref:System.Windows.Data.CollectionView.ProcessCollectionChanged%2A&gt;om den finns på rätt <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph> dispatcher-tråden och aldrig har uppdaterats från en annan tråd eller skickar ändringarna till dispatcher bearbeta på rätt tråd.&lt;/xref:System.Windows.Data.CollectionView.ProcessCollectionChanged%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The sender of the event.</source>
+          <target state="translated">Avsändaren av händelsen.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt; object to pass to the event handler.</source>
+          <target state="translated">Den &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;objektet ska skickas till händelsehanteraren.&lt;/xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Raises a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event that is not cancelable.</source>
+          <target state="translated">Genererar en <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse som inte är cancelable.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method sets &lt;xref:System.Windows.Data.CollectionView.CurrentPosition%2A&gt; to –1.</source>
+          <target state="translated">Den här metoden anger &lt;xref:System.Windows.Data.CollectionView.CurrentPosition%2A&gt;till –&amp;1;.&lt;/xref:System.Windows.Data.CollectionView.CurrentPosition%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by collection changes that affect the &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.</source>
+          <target state="translated">Den här metoden anropas av samlingsändringar som påverkar &lt;xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event with the specified arguments.</source>
+          <target state="translated">Genererar den <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CurrentChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> händelse med de angivna argumenten.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Information about the event.</source>
+          <target state="translated">Information om händelsen.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Raises the &lt;xref:System.ComponentModel.INotifyPropertyChanged.PropertyChanged&gt; event using the specified arguments.</source>
+          <target state="translated">Genererar den &lt;xref:System.ComponentModel.INotifyPropertyChanged.PropertyChanged&gt;händelse med de angivna argumenten.&lt;/xref:System.ComponentModel.INotifyPropertyChanged.PropertyChanged&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Arguments of the event being raised.</source>
+          <target state="translated">Argumenten för händelse som aktiveras.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the specified item in the underlying collection belongs to the view.</source>
+          <target state="translated">Returnerar ett värde som anger om det angivna objektet i den underliggande mängden tillhör vyn.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the &lt;xref:System.Windows.Data.CollectionView.Contains%2A&gt; method, this method assumes that the specified item belongs to the underlying collection.</source>
+          <target state="translated">Till skillnad från den &lt;xref:System.Windows.Data.CollectionView.Contains%2A&gt;metoden den här metoden förutsätter att det angivna objektet tillhör den underliggande mängden.&lt;/xref:System.Windows.Data.CollectionView.Contains%2A&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method takes filters into account.</source>
+          <target state="translated">Den här metoden beaktas filter.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you use this method during collection-changed notifications to determine if the added or removed item requires processing.</source>
+          <target state="translated">Normalt använder du den här metoden under Ändra samlingen meddelanden för att avgöra om objektet lagts till eller tagits bort kräver bearbetning.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The item to check.</source>
+          <target state="translated">Objektet du vill kontrollera.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified item belongs to the view or if there is not filter set on the collection view; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det angivna objektet tillhör vyn eller om det finns inte filtrera på samlingsvyn. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, processes a single change on the <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph> thread.</source>
+          <target state="translated">När åsidosätts i en härledd klass bearbetar en enda ändring i den <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph> tråd.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt; object to process.</source>
+          <target state="translated">Den &lt;xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;objekt-processen.&lt;/xref:System.Collections.Specialized.NotifyCollectionChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Ensures that all pending changes to the collection have been committed.</source>
+          <target state="translated">Garanterar att alla väntande ändringar i samlingen har utförts.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Occurs when a property value has changed.</source>
+          <target state="translated">Inträffar när ett värde för egenskapen har ändrats.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Re-creates the view.</source>
+          <target state="translated">Återskapar vyn.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set  the &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt;, &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;, or &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt; property; a refresh occurs.</source>
+          <target state="translated">När du anger den &lt;xref:System.Windows.Data.CollectionView.Filter%2A&gt;, &lt;xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt;, eller &lt;xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt;egenskapen; en uppdatering sker.&lt;/xref:System.Windows.Data.CollectionView.GroupDescriptions%2A&gt; &lt;/xref:System.Windows.Data.CollectionView.SortDescriptions%2A&gt; &lt;/xref:System.Windows.Data.CollectionView.Filter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not have to call the Refresh method immediately after you set one of those properties.</source>
+          <target state="translated">Du har inte att anropa metoden uppdateringen omedelbart när du ställer in något av dessa egenskaper.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about how to delay automatic refresh, see &lt;xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt;.</source>
+          <target state="translated">Uppdatera information om hur man dröjer med automatisk, se &lt;xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt;.&lt;/xref:System.Windows.Data.CollectionView.DeferRefresh%2A&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derived classes use the protected &lt;xref:System.Windows.Data.CollectionView.RefreshOverride%2A&gt; method to override the behavior of this method.</source>
+          <target state="translated">Härledda klasser som använder den skyddade &lt;xref:System.Windows.Data.CollectionView.RefreshOverride%2A&gt;metod för att åsidosätta beteendet för den här metoden.&lt;/xref:System.Windows.Data.CollectionView.RefreshOverride%2A&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Refreshes the view or specifies that the view needs to be refreshed when the defer cycle completes.</source>
+          <target state="translated">Visar eller döljer eller anger att vyn måste uppdateras när den Överlåt cykeln har slutförts.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Re-creates the view.</source>
+          <target state="translated">Återskapar vyn.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Sets the specified item and index as the values of the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Windows.Data.CollectionView.CurrentPosition<ept id="p1">*</ept>&gt; properties.</source>
+          <target state="translated">Anger det angivna objektet och index som värdena i den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; och &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; egenskaper.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The item to set as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Objektet du vill ange som &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>The value to set as the &lt;xref:System.Windows.Data.CollectionView.CurrentPosition*&gt; property value.</source>
+          <target state="translated">Värdet ska anges som den &lt;xref:System.Windows.Data.CollectionView.CurrentPosition*&gt;egenskapsvärde.&lt;/xref:System.Windows.Data.CollectionView.CurrentPosition*&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Sets the specified item and index as the values of the &lt;xref:System.Windows.Data.CollectionView.CurrentItem<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Windows.Data.CollectionView.CurrentPosition<ept id="p1">*</ept>&gt; properties.</source>
+          <target state="translated">Anger det angivna objektet och index som värdena i den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; och &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; egenskaper.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>This method can be called from a constructor of a derived class.</source>
+          <target state="translated">Den här metoden kan anropas från en konstruktor med en härledd klass.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this overload from constructor of a derived class.</source>
+          <target state="translated">Anropa den här överlagring från konstruktorn i en härledd klass.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not pass the &lt;xref:System.Windows.Data.CollectionView.Count%2A&gt; property, which is a virtual property, as <ph id="ph1">`count`</ph>.</source>
+          <target state="translated">Inte klarar den &lt;xref:System.Windows.Data.CollectionView.Count%2A&gt;-egenskap som är en virtuell egenskap som <ph id="ph1">`count`</ph>.&lt;/xref:System.Windows.Data.CollectionView.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, pass the count of the internal &lt;xref:System.Collections.IList&gt; that represents the collection.</source>
+          <target state="translated">I stället skickar antal det interna &lt;xref:System.Collections.IList&gt;som representerar samlingen.&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetCurrent is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetCurrent introducerades i .NET Framework version 3.5.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>versioner och beroenden<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The item to set as the &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.</source>
+          <target state="translated">Objektet du vill ange som &lt;xref:System.Windows.Data.CollectionView.CurrentItem*&gt;.&lt;/xref:System.Windows.Data.CollectionView.CurrentItem*&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The value to set as the &lt;xref:System.Windows.Data.CollectionView.CurrentPosition*&gt; property value.</source>
+          <target state="translated">Värdet ska anges som den &lt;xref:System.Windows.Data.CollectionView.CurrentPosition*&gt;egenskapsvärde.&lt;/xref:System.Windows.Data.CollectionView.CurrentPosition*&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The number of items in the <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Antal objekt i den <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.ComponentModel.SortDescription"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures that describes how the items in the collection are sorted in the view.</source>
+          <target state="translated">Hämtar en samling <bpt id="p1">&lt;xref href="System.ComponentModel.SortDescription"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> strukturer som beskriver hur objekten i samlingen sorteras i vyn.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot add a &lt;xref:System.ComponentModel.SortDescription&gt; to the returned (empty) collection because the base class &lt;xref:System.Windows.Data.CollectionView&gt; does not support sorting.</source>
+          <target state="translated">Du kan inte lägga till en &lt;xref:System.ComponentModel.SortDescription&gt;till den returnerade (tom) samlingen eftersom basklassen &lt;xref:System.Windows.Data.CollectionView&gt;stöder inte sortering.&lt;/xref:System.Windows.Data.CollectionView&gt; &lt;/xref:System.ComponentModel.SortDescription&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, use the derived classes &lt;xref:System.Windows.Data.ListCollectionView&gt; and &lt;xref:System.Windows.Data.BindingListCollectionView&gt; that do support sorting.</source>
+          <target state="translated">Använd i stället de härledda klasserna &lt;xref:System.Windows.Data.ListCollectionView&gt;och &lt;xref:System.Windows.Data.BindingListCollectionView&gt;som stöder sortering.&lt;/xref:System.Windows.Data.BindingListCollectionView&gt; &lt;/xref:System.Windows.Data.ListCollectionView&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, check the &lt;xref:System.Windows.Data.CollectionView.CanSort%2A&gt; property before adding or removing &lt;xref:System.ComponentModel.SortDescription&gt; objects to avoid an exception.</source>
+          <target state="translated">Kontrollera även den &lt;xref:System.Windows.Data.CollectionView.CanSort%2A&gt;egenskapen innan du lägger till eller ta bort &lt;xref:System.ComponentModel.SortDescription&gt;objekt för att undvika ett undantag.&lt;/xref:System.ComponentModel.SortDescription&gt; &lt;/xref:System.Windows.Data.CollectionView.CanSort%2A&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>An empty <bpt id="p1">&lt;xref href="System.ComponentModel.SortDescriptionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated">En tom <bpt id="p1">&lt;xref href="System.ComponentModel.SortDescriptionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i samtliga fall.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Returns the underlying unfiltered collection.</source>
+          <target state="translated">Returnerar den underliggande ofiltrerade mängden.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerable&gt; object that is the underlying collection.</source>
+          <target state="translated">En &lt;xref:System.Collections.IEnumerable&gt;objekt som är den underliggande mängden.&lt;/xref:System.Collections.IEnumerable&gt;</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IEnumerator&gt; object that you can use to enumerate the items in the view.</source>
+          <target state="translated">Returnerar ett &lt;xref:System.Collections.IEnumerator&gt;objekt som du kan använda för att räkna upp objekt i vyn.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object that you can use to enumerate the items in the view.</source>
+          <target state="translated">En &lt;xref:System.Collections.IEnumerator&gt;objekt som du kan använda för att räkna upp objekt i vyn.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether it has been necessary to update the change log because a <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> notification has been received on a different thread without first entering the <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> thread dispatcher.</source>
+          <target state="translated">Hämtar ett värde som anger om det har varit krävs för att uppdatera ändringsloggen eftersom en <bpt id="p1">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> meddelande har tagits emot på en annan tråd utan första att ange den <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> dispatcher-tråden.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if it has been necessary to update the change log because a <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> notification has been received on a different thread without first entering the <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> thread dispatcher; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det har varit krävs för att uppdatera ändringsloggen eftersom en <bpt id="p2">&lt;xref href="System.Windows.Data.CollectionView.CollectionChanged"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> meddelande har tagits emot på en annan tråd utan första att ange den <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph> dispatcher-tråden, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
