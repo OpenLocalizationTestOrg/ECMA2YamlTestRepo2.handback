@@ -1,11 +1,43 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [fulldocset\System.Workflow.ComponentModel.Serialization.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Workflow.ComponentModel.Serialization.yml) | InSyncHandedBackSuccess | [Details](#cff6a74bdb1f122bf371a339d2556c30a5ffebfb87374)
+ [fulldocset\System.Workflow.Runtime.Tracking.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Workflow.Runtime.Tracking.yml) | InSyncHandedBackSuccess | [Details](#7eeaaf431217ea58449126b5c0e31ad1dfa017f587475)
 
 ## Item Details
+##### <a name='cff6a74bdb1f122bf371a339d2556c30a5ffebfb87374'></a> Source: [fulldocset\System.Workflow.ComponentModel.Serialization.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Workflow.ComponentModel.Serialization.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Workflow.ComponentModel.Serialization.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ru-ru/blob/ef7f769b2248a52a5d90dbde5a698b4e0bc7bec5/fulldocset/System.Workflow.ComponentModel.Serialization.yml)
+* Handoff File: [System.Workflow.ComponentModel.Serialization.1218927344d141a36c0dede564e42455fc6a61f3.ru-ru.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/f5b7c794c0232d740d1abe0f184ad6404a10c89e/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ru-ru/master/fulldocset/System.Workflow.ComponentModel.Serialization.1218927344d141a36c0dede564e42455fc6a61f3.ru-ru.xlf)
+* Handoff Datetime: 2017-03-16 04:41:22
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Workflow.ComponentModel.Serialization.1218927344d141a36c0dede564e42455fc6a61f3.ru-ru.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/46e09402ae1cb9d06c0ac18cc30191fa707da613/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ru-ru/master/fulldocset/System.Workflow.ComponentModel.Serialization.1218927344d141a36c0dede564e42455fc6a61f3.ru-ru.xlf)
+* Handback Datetime: 2017-03-18 12:23:43
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-ko-kr-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-tw
+* [Back to Top](#report-top)
+
+##### <a name='7eeaaf431217ea58449126b5c0e31ad1dfa017f587475'></a> Source: [fulldocset\System.Workflow.Runtime.Tracking.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Workflow.Runtime.Tracking.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Workflow.Runtime.Tracking.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ru-ru/blob/ef7f769b2248a52a5d90dbde5a698b4e0bc7bec5/fulldocset/System.Workflow.Runtime.Tracking.yml)
+* Handoff File: [System.Workflow.Runtime.Tracking.c59a03ac456c4eac989a64f676a6743fba2632f2.ru-ru.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/f5b7c794c0232d740d1abe0f184ad6404a10c89e/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ru-ru/master/fulldocset/System.Workflow.Runtime.Tracking.c59a03ac456c4eac989a64f676a6743fba2632f2.ru-ru.xlf)
+* Handoff Datetime: 2017-03-16 04:41:22
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Workflow.Runtime.Tracking.c59a03ac456c4eac989a64f676a6743fba2632f2.ru-ru.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/46e09402ae1cb9d06c0ac18cc30191fa707da613/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ru-ru/master/fulldocset/System.Workflow.Runtime.Tracking.c59a03ac456c4eac989a64f676a6743fba2632f2.ru-ru.xlf)
+* Handback Datetime: 2017-03-18 12:23:43
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-ko-kr-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-tw
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
