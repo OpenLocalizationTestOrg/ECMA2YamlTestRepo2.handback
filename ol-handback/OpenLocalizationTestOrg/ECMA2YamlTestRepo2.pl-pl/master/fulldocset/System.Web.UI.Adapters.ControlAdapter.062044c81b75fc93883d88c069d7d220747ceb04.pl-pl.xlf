@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e66bdf702c73beb476713b6d57a9cf7c3804d354</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.Adapters.ControlAdapter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4679420755520bcc8fd17197a13a549433b6a722</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">223fa3433e6ec8a25fbbf260a3b3e0e8bd5baea3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Customizes rendering for the derived control to which the adapter is attached, to modify the default markup or behavior for specific browsers, and is the base class from which all control adapters inherit.</source>
+          <target state="translated">Dostosowuje renderowania dla formantu pochodnej, do której jest dołączona karty, aby zmodyfikować domyślne znaczników lub zachowanie dla przeglądarki, a jest klasy podstawowej, z których wszystkie kontrolki dziedziczą kart.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control adapters are components that override certain &lt;xref:System.Web.UI.Control&gt; class methods and events in its execution lifecycle to allow browser or markup-specific handling.</source>
+          <target state="translated">Formant karty są składniki, które zastępują niektórych &lt;xref:System.Web.UI.Control&gt;klas, metod i zdarzeń w jego cyklu życia wykonywania przeglądarki lub obsługa specyficzne dla znacznika.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework maps a single derived control adapter to a &lt;xref:System.Web.UI.Control&gt; object for each client request.</source>
+          <target state="translated">.NET Framework mapuje pojedynczego pochodnej formantu karty &lt;xref:System.Web.UI.Control&gt;obiekt dla każdego żądania klienta.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter modifies a control for a specific browser or class of browsers or acts as an arbitrary filter on some capability.</source>
+          <target state="translated">Karta modyfikuje kontroli dla konkretnej przeglądarki lub klasy przeglądarki lub działa jako filtr dowolnego na niektóre możliwości.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically the adapter is defined by the markup language that the browser uses (for example, XHTML or HTML 3.2).</source>
+          <target state="translated">Zazwyczaj karty jest definiowane przez język znaczników, który korzysta z przeglądarki (na przykład XHTML lub HTML 3.2).</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Much of the adaptability in rendering behavior can be encapsulated in the specialized classes that derive from the &lt;xref:System.Web.UI.HtmlTextWriter&gt; class.</source>
+          <target state="translated">Większość przystosowanie w sposób renderowania są umieszczane specjalne klas pochodzących od &lt;xref:System.Web.UI.HtmlTextWriter&gt;klasy.&lt;/xref:System.Web.UI.HtmlTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it is likely that a single adapter can be used for a number of browser class behaviors or that inclusion of the adaptability in the &lt;xref:System.Web.UI.HtmlTextWriter&gt; classes could make the use of a control adapter unnecessary.</source>
+          <target state="translated">W związku z tym istnieje duże prawdopodobieństwo, że jedna karta może służyć do liczba zachowania klasy przeglądarki lub że włączenia przystosowanie w &lt;xref:System.Web.UI.HtmlTextWriter&gt;klasy można wykorzystać formantu karty niepotrzebne.&lt;/xref:System.Web.UI.HtmlTextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter for a control class applies to all controls that inherit from that class, unless more specialized adapters are present.</source>
+          <target state="translated">Adaptera dla klasy formantu ma zastosowanie do wszystkich kontrolek, które dziedziczą z tej klasy, chyba że nie występują więcej specjalistyczne karty.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, an adapter for the &lt;xref:System.Web.UI.WebControls.BaseValidator&gt; class can be used for all <ph id="ph1">`Validator`</ph> objects.</source>
+          <target state="translated">Na przykład karta &lt;xref:System.Web.UI.WebControls.BaseValidator&gt;Klasa może być używana dla wszystkich <ph id="ph1">`Validator`</ph> obiektów.&lt;/xref:System.Web.UI.WebControls.BaseValidator&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Adapters typically do not inherit directly from the ControlAdapter class, but from one of the target-specific adapter base classes that provide additional functionality specific to the control type and target browser or the particular rendering required.</source>
+          <target state="translated">Kart zwykle nie dziedziczą bezpośrednio z klasy ControlAdapter, ale z jednej z klas podstawowych karty specyficznych dla obiektu docelowego, udostępniające funkcje dodatkowe, które są specyficzne dla typu formantu i docelowej przeglądarki lub konkretnej renderowanie wymagane.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls themselves do not necessarily require an adapter.</source>
+          <target state="translated">Formanty się nie wymaga karty.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If controls are extended through composition, generally the child control adapters are sufficient.</source>
+          <target state="translated">Jeśli formanty zostały rozszerzone za pośrednictwem kompozycji, zazwyczaj kart kontrolki podrzędne są wystarczające.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each control has explicit mappings to adapters through the .browser definition files.</source>
+          <target state="translated">Każdy formant ma jawnego mapowania do kart za pomocą .browser plików definicji.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, any access to the &lt;xref:System.Web.UI.Control.Adapter%2A?displayProperty=fullName&gt; property uses the &lt;xref:System.Web.HttpBrowserCapabilities&gt; object extracted from the browser definition files to perform the lookup for the mapping of the adapter to control.</source>
+          <target state="translated">W związku z tym wszelkie dostęp do &lt;xref:System.Web.UI.Control.Adapter%2A?displayProperty=fullName&gt;używa właściwości &lt;xref:System.Web.HttpBrowserCapabilities&gt;obiektu wyodrębniony z plików definicji przeglądarki do wyszukiwania mapowania kart do formantu.&lt;/xref:System.Web.HttpBrowserCapabilities&gt; &lt;/xref:System.Web.UI.Control.Adapter%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During processing, the .NET Framework intercepts calls to the overridable methods of a control that could be target-specific.</source>
+          <target state="translated">Podczas przetwarzania, .NET Framework przechwytuje wywołania nadpisywalnych metod formantu, który może być specyficznych dla obiektu docelowego.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control adapter is attached, the .NET Framework calls the associated adapter methods.</source>
+          <target state="translated">Jeśli karta kontroli jest dołączony, .NET Framework wywołuje metody skojarzonej karty.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter performs rendering for the control through the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method.</source>
+          <target state="translated">Karta wykonywane jest renderowanie formantu za pośrednictwem &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;metody.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If overridden, &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; potentially should not call the base class implementation because that performs a call back on the &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Jeśli została zastąpiona, &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;potencjalnie nie powinny wywoływać implementację klasy podstawowej, ponieważ który wykonuje wywołanie do &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;metody.&lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This might cause the rendering to occur twice, once by the adapter and once by the control.</source>
+          <target state="translated">Może to spowodować renderowania występuje dwa razy, raz przez kartę i raz przez formant.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; base method calls back on the &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; method of the control.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;Podstawy wywołania metody &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;metody formantu.&lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, if you override &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;, you should not call the base class implementation unless the rendering you implement is in addition to that provided by &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; of the control.</source>
+          <target state="translated">W związku z tym jeśli można zastąpić &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;, nie powinny wywoływać implementację klasy podstawowej, chyba że renderowania zaimplementowaniem oprócz są dostarczane przez &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;formantu.&lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must ensure that the .NET Framework performs interception for adapters of the child controls.</source>
+          <target state="translated">Należy się upewnić, że programu .NET Framework wykonuje przechwytywaniu kart formantów podrzędnych.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can do this by calling the &lt;xref:System.Web.UI.Adapters.ControlAdapter.RenderChildren%2A&gt; base method, which calls the &lt;xref:System.Web.UI.Control.RenderChildren%2A?displayProperty=fullName&gt; method of the control, from your &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; override.</source>
+          <target state="translated">Można to zrobić przez wywołanie metody &lt;xref:System.Web.UI.Adapters.ControlAdapter.RenderChildren%2A&gt;Podstawowa metoda, która wywołuje &lt;xref:System.Web.UI.Control.RenderChildren%2A?displayProperty=fullName&gt;metody formantu, z Twojego &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;przesłonić.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; &lt;/xref:System.Web.UI.Control.RenderChildren%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.RenderChildren%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; and &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; methods are called by the control immediately before and after (respectively) the control calls the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;i &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;metody są wywoływane przez kontrolkę, bezpośrednio przed i po (odpowiednio) wywołań kontroli &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;metody.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If pre- and post-rendering are the only browser-specific processing tasks required, using &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; and &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; might make it unnecessary to override &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;.</source>
+          <target state="translated">Jeśli przed i po renderowania są tylko przeglądarki dotyczące przetwarzania zadań wymaganych w użyciu &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;i &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;może być konieczne zastąpienie &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default behavior of the &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; and &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; methods is to call the corresponding methods of the &lt;xref:System.Web.UI.HtmlTextWriter&gt;.</source>
+          <target state="translated">Domyślne zachowanie &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;i &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;metod jest wywołanie odpowiednich metod &lt;xref:System.Web.UI.HtmlTextWriter&gt;.&lt;/xref:System.Web.UI.HtmlTextWriter&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To maintain its own state information, a control adapter can override the &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;, and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; methods.</source>
+          <target state="translated">Aby zachować informacje stanu, można zastąpić karty kontroli &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;, i &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;metody.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;, and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; are called when the private control and view states are saved and loaded, respectively.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;, i &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;są wywoływane podczas zapisywania i załadować odpowiednio prywatnej stanów widoku i kontroli.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnInit%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnLoad%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnPreRender%2A&gt;, and &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnUnload%2A&gt; base methods call back on the corresponding &lt;xref:System.Web.UI.Control&gt; class methods.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Adapters.ControlAdapter.OnInit%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnLoad%2A&gt;, &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnPreRender%2A&gt;, I &lt;xref:System.Web.UI.Adapters.ControlAdapter.OnUnload%2A&gt;Podstawowa do odpowiedniego wywołania metody &lt;xref:System.Web.UI.Control&gt;metody klasy.&lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnUnload%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnPreRender%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnLoad%2A&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter.OnInit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, any of these ControlAdapter methods that are overridden must call their base methods; otherwise, the event associated with the &lt;xref:System.Web.UI.Control&gt; class method will not be raised.</source>
+          <target state="translated">W związku z tym jednej z tych metod ControlAdapter, które są zastępowane należy wywołać ich metod bazowych; w przeciwnym razie zdarzenie skojarzone z &lt;xref:System.Web.UI.Control&gt;metody klasy nie zostanie wygenerowany.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls and adapters optionally implement the &lt;xref:System.Web.UI.IPostBackDataHandler&gt; and &lt;xref:System.Web.UI.IPostBackEventHandler&gt; interfaces.</source>
+          <target state="translated">Formanty i kart opcjonalnie stosować &lt;xref:System.Web.UI.IPostBackDataHandler&gt;i &lt;xref:System.Web.UI.IPostBackEventHandler&gt;interfejsów.&lt;/xref:System.Web.UI.IPostBackEventHandler&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework determines whether an adapter exists and whether the adapter implements these interfaces.</source>
+          <target state="translated">.NET Framework Określa, czy karta istnieje i czy adapter implementuje tych interfejsów.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it does, the adapter should override the &lt;xref:System.Web.UI.IPostBackDataHandler.LoadPostData%2A&gt;, &lt;xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt;, and &lt;xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent%2A&gt; methods, as necessary.</source>
+          <target state="translated">Jeśli tak, karta powinny zastępować &lt;xref:System.Web.UI.IPostBackDataHandler.LoadPostData%2A&gt;, &lt;xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt;, i &lt;xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent%2A&gt;metod, w razie potrzeby.&lt;/xref:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent%2A&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent%2A&gt; &lt;/xref:System.Web.UI.IPostBackDataHandler.LoadPostData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the postback data is not recognized in the adapter, it must call back on the control to process it.</source>
+          <target state="translated">Jeśli nie rozpoznano danych odświeżania strony na karcie, musi ona wywołania zwrotnego w formancie go przetworzyć.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent event handlers also must call back on the control.</source>
+          <target state="translated">Programy obsługi zdarzeń kolejnych również musi wywołania zwrotnego w formancie.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework internally constructs this adapter when it creates the corresponding &lt;xref:System.Web.UI.Control&gt; object.</source>
+          <target state="translated">Podczas tworzenia odpowiedniego środowiska .NET Framework wewnętrznie tworzy tej karty &lt;xref:System.Web.UI.Control&gt;obiektu.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Called prior to the rendering of a control.</source>
+          <target state="translated">Wywoływane przed renderowanie formantu.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>In a derived adapter class, generates opening tags that are required by a specific target but not needed by HTML browsers.</source>
+          <target state="translated">W klasie pochodnej karty generuje otwarcia tagów, które są wymagane przez określony element docelowy, ale nie jest wymagane przez przeglądarki HTML.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BeginRender method is called just before the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method, and is used to perform target-specific preprocessing before the rendering of the control.</source>
+          <target state="translated">Metoda BeginRender jest wywoływana tuż przed &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;metody i jest używany do wykonania przed renderowanie formantu przetwarzania wstępnego specyficznych dla obiektu docelowego.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the BeginRender method in combination with the &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt; method to ensure opening and closing tag consistency.</source>
+          <target state="translated">Użyj metody BeginRender w połączeniu z &lt;xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;metodę, aby zapewnić otwierający i zamykający tag spójności.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.EndRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing methods to render the target-specific output.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Zawierający metody do danych wyjściowych specyficznych dla obiektu docelowego renderowania.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the browser capabilities of the client making the current HTTP request.</source>
+          <target state="translated">Pobiera odwołanie do funkcji przeglądarki klienta wprowadzania bieżącego żądania HTTP.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object determines the client browser capabilities from the &lt;xref:System.Web.HttpBrowserCapabilities&gt; object that is returned by the Browser property.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;obiektu określa możliwości przeglądarki klienta z &lt;xref:System.Web.HttpBrowserCapabilities&gt;obiekt, który jest zwracany przez właściwość przeglądarki.&lt;/xref:System.Web.HttpBrowserCapabilities&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enables the &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object to render browser-specific markup or otherwise modify the behavior of the &lt;xref:System.Web.UI.Control&gt;.</source>
+          <target state="translated">Dzięki temu &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;obiektu do renderowania kodu znaczników specyficznych dla przeglądarki lub w przeciwnym razie modyfikowanie &lt;xref:System.Web.UI.Control&gt;.&lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpBrowserCapabilities"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying client browser and markup capabilities.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpBrowserCapabilities"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Określenie możliwości przeglądarki i znaczników klienta.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the control to which this control adapter is attached.</source>
+          <target state="translated">Pobiera odwołanie do formantu, do której jest dołączona ta karta formantu.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a derived control adapter is attached to a control, the .NET Framework calls certain adapter members instead of the control members.</source>
+          <target state="translated">Gdy karty pochodnej kontroli jest dołączony do formantu, .NET Framework wywołuje określone elementy karty zamiast członków kontroli.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which this <bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is attached.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Do której należy <bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> jest dołączony.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Creates the target-specific child controls for a composite control.</source>
+          <target state="translated">Tworzy formantów dla formantu złożonego za elementem podrzędnym specyficznych dla obiektu docelowego.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is a derived control adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the CreateChildControls method is overridden, the override is called instead of the &lt;xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">W przypadku karty pochodnej kontroli dołączony do &lt;xref:System.Web.UI.Control&gt;object i elementu CreateChildControls, gdy metoda zostanie przesłonięta zastąpienie jest wywoływana zamiast &lt;xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt;metody.&lt;/xref:System.Web.UI.Control.CreateChildControls%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, CreateChildControls can be used to create a target-specific child control set.</source>
+          <target state="translated">W związku z tym elementu CreateChildControls może służyć do utworzenia zestawu formant podrzędny specyficznych dla obiektu docelowego.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about combining controls to create a new control, see <bpt id="p1">[</bpt>Composite Controls<ept id="p1">](http://msdn.microsoft.com/en-us/fb174677-d845-467c-8bf3-cc096b2490b0)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji o łączeniu kontroli w celu utworzenia nowego formantu, zobacz <bpt id="p1">[</bpt>formanty złożone<ept id="p1">](http://msdn.microsoft.com/en-us/fb174677-d845-467c-8bf3-cc096b2490b0)</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Called after the rendering of a control.</source>
+          <target state="translated">Wywoływana po wykonaniu renderowania formantu.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>In a derived adapter class, generates closing tags that are required by a specific target but not needed by HTML browsers.</source>
+          <target state="translated">W klasie pochodnej karty generuje zamykające znaczniki, które są wymagane przez określony element docelowy, ale nie jest wymagane przez przeglądarki HTML.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EndRender method is called just after the &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt; method, and is used to perform target-specific postprocessing after the rendering of the control.</source>
+          <target state="translated">Zaraz po wywoływana jest metoda EndRender &lt;xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;metody i jest używany do wykonania po renderowania formantu postprocessing specyficznych dla obiektu docelowego.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.Render%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the EndRender method in combination with the &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt; method to ensure opening and closing tag consistency.</source>
+          <target state="translated">Użyj metody EndRender w połączeniu z &lt;xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;metodę, aby zapewnić otwierający i zamykający tag spójności.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.BeginRender%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing methods to render the target-specific output.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Zawierający metody do danych wyjściowych specyficznych dla obiektu docelowego renderowania.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Loads adapter control state information that was saved by &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState*&gt; during a previous request to the page where the control associated with this control adapter resides.</source>
+          <target state="translated">Ładuje karty kontroli informacji o stanie zapisanych przez &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState*&gt;podczas poprzedniego żądania do strony, gdzie znajduje się formantu skojarzony z tą kartą kontroli.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState*&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control state is the essential state information needed even if view state is disabled.</source>
+          <target state="translated">Stan kontrolki jest informacje o stanie niezbędne potrzebne, nawet jeśli stan widoku jest wyłączone.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an adapter needs to maintain its own control state information, it can override the LoadAdapterControlState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt; methods.</source>
+          <target state="translated">Jeśli karta musi zachować informacje kontroli stanu, można zastąpić LoadAdapterControlState i &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;metody.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter might need to maintain control state information when there are features that need to have state maintained across requests, independent from the state of the associated control.</source>
+          <target state="translated">Karta może być konieczne przechowuje informacji o stanie kontroli, gdy są funkcje, które muszą mieć stan przechowywanych w wielu żądań, niezależnie od stanu skojarzonym formancie.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a composite control consisting of a large textual display and a group of &lt;xref:System.Web.UI.WebControls.RadioButton&gt; controls might render as a single view on desktop computer browsers.</source>
+          <target state="translated">Na przykład formantu złożonego składające się z dużych wyświetlania tekstową i grupy &lt;xref:System.Web.UI.WebControls.RadioButton&gt;formanty może spowodować, że jako pojedynczy w przeglądarkach, komputer stacjonarny.&lt;/xref:System.Web.UI.WebControls.RadioButton&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On other browsers, it might split its rendering—one view for the textual display and the other for the radio button group.</source>
+          <target state="translated">W innych przeglądarkach mogą podzielić renderowania — jeden widok dla tekstową wyświetlania, a druga w grupie przycisków radiowych.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter would need to maintain its own target-specific information about the currently active view.</source>
+          <target state="translated">Karta potrzebny do obsługi własnych informacji specyficznych dla obiektu docelowego o aktualnie aktywny widok.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadAdapterControlState method is called immediately after the &lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt; method, in the <ph id="ph1">`LoadState`</ph> lifecycle stage.</source>
+          <target state="translated">Metoda LoadAdapterControlState jest wywoływana bezpośrednio po &lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;metody w <ph id="ph1">`LoadState`</ph> etap cyklu życia.&lt;/xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter control state is separate and in addition to the control state of the control.</source>
+          <target state="translated">Stan formantu karty jest oddzielne i oprócz stan formantu formantu.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter's control state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Zawierający informacje o stanie formantu karty jako <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Loads adapter view state information that was saved by &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState*&gt; during a previous request to the page where the control associated with this control adapter resides.</source>
+          <target state="translated">Ładuje karty Wyświetl informacje o stanie zapisanych przez &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState*&gt;podczas poprzedniego żądania do strony, gdzie znajduje się formantu skojarzony z tą kartą kontroli.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an adapter needs to maintain its own view state information, it can override the LoadAdapterViewState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt; methods.</source>
+          <target state="translated">Gdy adaptera musi zachować informacje widok stanu, można zastąpić LoadAdapterViewState i &lt;xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;metody.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.SaveAdapterViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter needs to maintain view state information when there is data that must be maintained across requests, independent from the view state of the associated control.</source>
+          <target state="translated">Karta musi zachować informacje o stanie widoku po dane, które muszą zostać zachowane żądań, niezależnie od stan widoku formantu skojarzony.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a grid control on desktop computer browsers might render as a single view of rows and columns of values.</source>
+          <target state="translated">Na przykład formantu siatki w przeglądarkach, komputerów stacjonarnych może spowodować, że jako pojedynczego widoku wierszy i kolumn wartości.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On other browsers, it might split its rendering into multiple separate views, such as a list of rows and details of a single row.</source>
+          <target state="translated">W innych przeglądarkach może ją podzielić renderowania do wielu oddzielnych widoków, takich jak lista wierszy i szczegółowe informacje o jeden wiersz.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter would need to maintain the data for the views that are not currently active in view state.</source>
+          <target state="translated">Karta potrzebny do przechowywania danych dla widoków, które nie są aktualnie aktywne w widoku stanu.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadAdapterViewState method is called immediately before the &lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt; method in the <ph id="ph1">`LoadState`</ph> lifecycle stage.</source>
+          <target state="translated">Metoda LoadAdapterViewState jest wywoływana bezpośrednio przed &lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;Metoda <ph id="ph1">`LoadState`</ph> etap cyklu życia.&lt;/xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter view state is separate and in addition to the view state of the control.</source>
+          <target state="translated">Karta stan widoku jest oddzielny oraz stan widoku formantu.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter view state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Zawierający informacje o stanie widoku karty jako <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnInit*&gt; method for the associated control.</source>
+          <target state="translated">Zastępuje &lt;xref:System.Web.UI.Control.OnInit*&gt;metodę skojarzony formant.&lt;/xref:System.Web.UI.Control.OnInit*&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnInit method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnInit%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">W przypadku karta jest podłączona do &lt;xref:System.Web.UI.Control&gt;obiekt i OnInit metoda zostanie przesłonięta zamiast jest wywoływana metoda przesłaniająca &lt;xref:System.Web.UI.Control.OnInit%2A?displayProperty=fullName&gt;metody.&lt;/xref:System.Web.UI.Control.OnInit%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override OnInit to perform target-specific processing in the <ph id="ph1">`Initialize`</ph> stage of the control lifecycle.</source>
+          <target state="translated">Zastąpienie metody OnInit do przetwarzania specyficznych dla obiektu docelowego w <ph id="ph1">`Initialize`</ph> etap cyklu kontrolki.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, these are functions that are performed when a control is created.</source>
+          <target state="translated">Zazwyczaj są funkcje, które są wykonywane, gdy formant zostanie utworzony.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;Zawierający dane zdarzenia.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnLoad*&gt; method for the associated control.</source>
+          <target state="translated">Zastępuje &lt;xref:System.Web.UI.Control.OnLoad*&gt;metodę skojarzony formant.&lt;/xref:System.Web.UI.Control.OnLoad*&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnLoad method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnLoad%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">W przypadku karty dołączony do &lt;xref:System.Web.UI.Control&gt;obiekt i OnLoad metoda zostanie przesłonięta zamiast wywoływana jest metoda zastąpienie &lt;xref:System.Web.UI.Control.OnLoad%2A?displayProperty=fullName&gt;metody.&lt;/xref:System.Web.UI.Control.OnLoad%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the OnLoad method to perform target-specific processing in the <ph id="ph1">`Load`</ph> stage of the control lifecycle.</source>
+          <target state="translated">Zastąp metodę OnLoad w celu przetwarzania specyficznych dla obiektu docelowego w <ph id="ph1">`Load`</ph> etap cyklu kontrolki.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, these are functions that should be performed for each client request.</source>
+          <target state="translated">Zazwyczaj są funkcje, które powinny być wykonywane dla każdego żądania klienta.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;Zawierający dane zdarzenia.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnPreRender*&gt; method for the associated control.</source>
+          <target state="translated">Zastępuje &lt;xref:System.Web.UI.Control.OnPreRender*&gt;metodę skojarzony formant.&lt;/xref:System.Web.UI.Control.OnPreRender*&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnPreRender method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnPreRender%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">W przypadku karta jest podłączona do &lt;xref:System.Web.UI.Control&gt;obiekt i OnPreRender metoda zostanie przesłonięta zamiast jest wywoływana metoda przesłaniająca &lt;xref:System.Web.UI.Control.OnPreRender%2A?displayProperty=fullName&gt;metody.&lt;/xref:System.Web.UI.Control.OnPreRender%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the OnPreRender method to perform target-specific processing in the <ph id="ph1">`PreRender`</ph> stage of the control lifecycle.</source>
+          <target state="translated">Zastąp metodę OnPreRender w celu przetwarzania specyficznych dla obiektu docelowego w <ph id="ph1">`PreRender`</ph> etap cyklu kontrolki.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, these are functions that immediately precede rendering of the control output.</source>
+          <target state="translated">Zazwyczaj są funkcje, które bezpośrednio poprzedzać renderowania formantu danych wyjściowych.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;Zawierający dane zdarzenia.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Overrides the &lt;xref:System.Web.UI.Control.OnUnload*&gt; method for the associated control.</source>
+          <target state="translated">Zastępuje &lt;xref:System.Web.UI.Control.OnUnload*&gt;metodę skojarzony formant.&lt;/xref:System.Web.UI.Control.OnUnload*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is an adapter attached to a &lt;xref:System.Web.UI.Control&gt; object and the OnUnload method is overridden, the override method is called instead of the &lt;xref:System.Web.UI.Control.OnUnload%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">W przypadku karta jest podłączona do &lt;xref:System.Web.UI.Control&gt;obiekt i OnUnload metoda zostanie przesłonięta zamiast jest wywoływana metoda przesłaniająca &lt;xref:System.Web.UI.Control.OnUnload%2A?displayProperty=fullName&gt;metody.&lt;/xref:System.Web.UI.Control.OnUnload%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the OnUnload method to do target-specific processing in the <ph id="ph1">`Unload`</ph> stage of the control lifecycle.</source>
+          <target state="translated">Zastąp metodę OnUnload w przetwarzania specyficznych dla obiektu docelowego w <ph id="ph1">`Unload`</ph> etap cyklu kontrolki.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, these are cleanup functions that precede disposition of the control.</source>
+          <target state="translated">Zazwyczaj są to funkcje oczyszczania, które należy poprzedzić dyspozycji formantu.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;Zawierający dane zdarzenia.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the page where the control associated with this adapter resides.</source>
+          <target state="translated">Pobiera odwołanie do strony, na którym znajduje się formantu skojarzony z tą kartą.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Page property provides access to the &lt;xref:System.Web.UI.Page?displayProperty=fullName&gt; object where the control is situated.</source>
+          <target state="translated">Właściwości strony zapewnia dostęp do &lt;xref:System.Web.UI.Page?displayProperty=fullName&gt;obiektu, w którym znajduje się kontrolka.&lt;/xref:System.Web.UI.Page?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides access to the page instance where the associated control is situated.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , który zapewnia dostęp do wystąpienia page, w którym znajduje się skojarzony formant.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the page adapter for the page where the associated control resides.</source>
+          <target state="translated">Pobiera odwołanie do karty strony dla strony, gdzie znajduje się skojarzony formant.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PageAdapter property provides access to the &lt;xref:System.Web.UI.Adapters.PageAdapter?displayProperty=fullName&gt; object for the &lt;xref:System.Web.UI.Page&gt; object where the &lt;xref:System.Web.UI.Control&gt; object associated with the current &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object is situated.</source>
+          <target state="translated">Właściwość PageAdapter zapewnia dostęp do &lt;xref:System.Web.UI.Adapters.PageAdapter?displayProperty=fullName&gt;obiekt do &lt;xref:System.Web.UI.Page&gt;obiektu gdzie &lt;xref:System.Web.UI.Control&gt;obiekt skojarzony z bieżącym &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;znajduje się obiekt.&lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt; &lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Page&gt; &lt;/xref:System.Web.UI.Adapters.PageAdapter?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PageAdapter property can be used to access other items at the page adapter level, such as common target-specific functions that could apply to several control types on the page.</source>
+          <target state="translated">Właściwość PageAdapter umożliwia dostęp do innych elementów na poziomie strony karty, takie jak typowych funkcji specyficznych dla obiektu docelowego, które można zastosować do kilku typów kontrolki na stronie.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.PageAdapter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the page where the control associated with the current <bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is situated.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.Adapters.PageAdapter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dla strony, gdzie formantu skojarzony z bieżącym <bpt id="p2">&lt;xref href="System.Web.UI.Adapters.ControlAdapter"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> znajduje się.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Generates the target-specific markup for the control to which the control adapter is attached.</source>
+          <target state="translated">Generuje kod znaczników specyficznych dla obiektu docelowego dla formantu, do której jest dołączona karty formantu.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the Render method to generate target-specific markup to send to the client browser.</source>
+          <target state="translated">Zastąp metodę renderowania do generowania znaczników specyficznych dla obiektu docelowego do wysłania do przeglądarki klienta.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Render method is called in place of the &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt; method if a &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt; object is attached to a &lt;xref:System.Web.UI.Control&gt; object.</source>
+          <target state="translated">Metoda renderowania jest wywoływana zamiast &lt;xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;metody Jeśli &lt;xref:System.Web.UI.Adapters.ControlAdapter&gt;obiekt jest dołączony do &lt;xref:System.Web.UI.Control&gt;obiektu.&lt;/xref:System.Web.UI.Control&gt; &lt;/xref:System.Web.UI.Adapters.ControlAdapter&gt; &lt;/xref:System.Web.UI.Control.Render%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use to render the target-specific output.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Na potrzeby danych wyjściowych specyficznych dla obiektu docelowego renderowania.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Generates the target-specific markup for the child controls in a composite control to which the control adapter is attached.</source>
+          <target state="translated">Generuje kod znaczników specyficznych dla obiektu docelowego dla formantów podrzędnych w formancie złożonego, do której jest dołączona formantu karty.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the RenderChildren method when it is necessary to generate target-specific markup for the child control set of a composite control, in addition to the markup for the individual child controls.</source>
+          <target state="translated">Zastąp metodę RenderChildren, gdy jest to niezbędne wygenerować kod znaczników specyficznych dla obiektu docelowego dla formantu podrzędnego zbiór formantu złożonego, oprócz kod znaczników dla formantów podrzędnych poszczególnych.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use to render the target-specific output.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Na potrzeby danych wyjściowych specyficznych dla obiektu docelowego renderowania.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Saves control state information for the control adapter.</source>
+          <target state="translated">Zapisuje kontrolować informacje o stanie dla formantu karty.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Control state is the essential state information needed even if view state is disabled.</source>
+          <target state="translated">Stan kontrolki jest informacje o stanie niezbędne potrzebne, nawet jeśli stan widoku jest wyłączone.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an adapter needs to maintain its own control state information, it can override the SaveAdapterControlState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt; methods.</source>
+          <target state="translated">Jeśli karta musi zachować informacje kontroli stanu, można zastąpić SaveAdapterControlState i &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;metody.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterControlState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter might need to maintain control state information when there are features that need to have state maintained across requests, independent from the state of the associated control.</source>
+          <target state="translated">Karta może być konieczne przechowuje informacji o stanie kontroli, gdy są funkcje, które muszą mieć stan przechowywanych w wielu żądań, niezależnie od stanu skojarzonym formancie.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a composite control consisting of a large textual display and a group of &lt;xref:System.Web.UI.WebControls.RadioButton&gt; controls might render as a single view on desktop computer browsers.</source>
+          <target state="translated">Na przykład formantu złożonego składające się z dużych wyświetlania tekstową i grupy &lt;xref:System.Web.UI.WebControls.RadioButton&gt;formanty może spowodować, że jako pojedynczy w przeglądarkach, komputer stacjonarny.&lt;/xref:System.Web.UI.WebControls.RadioButton&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On other browsers, it might split its rendering—one view for the textual display and the other for the radio button group.</source>
+          <target state="translated">W innych przeglądarkach mogą podzielić renderowania — jeden widok dla tekstową wyświetlania, a druga w grupie przycisków radiowych.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter would need to maintain its own target-specific information about the currently active view.</source>
+          <target state="translated">Karta potrzebny do obsługi własnych informacji specyficznych dla obiektu docelowego o aktualnie aktywny widok.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SaveAdapterControlState method is called immediately after the &lt;xref:System.Web.UI.Control.SaveControlState%2A?displayProperty=fullName&gt; method in the <ph id="ph1">`SaveState`</ph> lifecycle stage.</source>
+          <target state="translated">Metoda SaveAdapterControlState jest wywoływana bezpośrednio po &lt;xref:System.Web.UI.Control.SaveControlState%2A?displayProperty=fullName&gt;Metoda <ph id="ph1">`SaveState`</ph> etap cyklu życia.&lt;/xref:System.Web.UI.Control.SaveControlState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter control state is separate and in addition to the control state of the control.</source>
+          <target state="translated">Stan formantu karty jest oddzielne i oprócz stan formantu formantu.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter's control state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Zawierający informacje o stanie formantu karty jako <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Saves view state information for the control adapter.</source>
+          <target state="translated">Zapisuje Wyświetl informacje o stanie dla formantu karty.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an adapter needs to maintain its own view state information, it can override the SaveAdapterViewState and &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt; methods.</source>
+          <target state="translated">Jeśli karta musi zachować informacje widok stanu, można zastąpić SaveAdapterViewState i &lt;xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;metody.&lt;/xref:System.Web.UI.Adapters.ControlAdapter.LoadAdapterViewState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An adapter needs to maintain view state information when there is data that must be maintained across requests, independent from the associated view state of the control.</source>
+          <target state="translated">Karta musi zachować informacje o stanie widoku po dane, które muszą zostać zachowane żądań, niezależnie od stan widoku skojarzonego formantu.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a grid control on desktop computer browsers might render as a single view of rows and columns of values.</source>
+          <target state="translated">Na przykład formantu siatki w przeglądarkach, komputerów stacjonarnych może spowodować, że jako pojedynczego widoku wierszy i kolumn wartości.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On other browsers, it might split its rendering into multiple separate views, such as a list of rows and details of a single row.</source>
+          <target state="translated">W innych przeglądarkach może ją podzielić renderowania do wielu oddzielnych widoków, takich jak lista wierszy i szczegółowe informacje o jeden wiersz.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter would need to maintain the data for the views that are not currently active in view state.</source>
+          <target state="translated">Karta potrzebny do przechowywania danych dla widoków, które nie są aktualnie aktywne w widoku stanu.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SaveAdapterViewState method is called immediately before the &lt;xref:System.Web.UI.Control.SaveViewState%2A?displayProperty=fullName&gt; method in the <ph id="ph1">`SaveState`</ph> lifecycle stage.</source>
+          <target state="translated">Metoda SaveAdapterViewState jest wywoływana bezpośrednio przed &lt;xref:System.Web.UI.Control.SaveViewState%2A?displayProperty=fullName&gt;Metoda <ph id="ph1">`SaveState`</ph> etap cyklu życia.&lt;/xref:System.Web.UI.Control.SaveViewState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The adapter view state is separate and in addition to the view state of the control.</source>
+          <target state="translated">Karta stan widoku jest oddzielny oraz stan widoku formantu.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the adapter view state information as a <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Zawierający informacje o stanie widoku karty jako <bpt id="p1">&lt;xref href="System.Web.UI.StateBag"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eea1eb6d307b056bc5c03bde28ca53f9b77dae80</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.DesignerActionService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">46b60621c70d32f96d4946049da5f286f5a2b013</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92e0f76d5de3edd5a101a6b34a26f389755cd78f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Establishes a design-time service that manages the collection of <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for components.</source>
+          <target state="translated">Oppretter en utformingen-tjeneste som administrerer samlingen av <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekter for komponenter.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignerActionService class is responsible for managing the collection of &lt;xref:System.ComponentModel.Design.DesignerActionItem&gt; objects for each instance of a component that exists on a form at design time.</source>
+          <target state="translated">Klassen DesignerActionService er ansvarlig for å administrere samlingen av &lt;xref:System.ComponentModel.Design.DesignerActionItem&gt;objekter for hver forekomst av en komponent som finnes i et skjema under utformingen.&lt;/xref:System.ComponentModel.Design.DesignerActionItem&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class enables a direct push model of item creation, and is primarily intended for use by design-time tool developers, although it can also be used by component and custom control developers.</source>
+          <target state="translated">Denne klassen kan en direkte push-modell for opprettelse av element, og er primært ment for bruk av utformingen Verktøyutviklere, selv om det kan også brukes av komponenten og tilpasset kontrollutviklere.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Design-time tool developers will need to determine the list of items to display for a component and determine when this list changes.</source>
+          <target state="translated">Utformingen Verktøyutviklere må du finne listen over elementer å vise for en komponent og bestemmer når denne listen endres.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>They may also create add-ins that operate in conjunction with smart tag panel objects.</source>
+          <target state="translated">De kan også opprette tillegg som fungerer sammen med smart koden panelet objekter.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Advanced component developers may need to dynamically control the items associated with a component, thus replacing or supplementing the standard pull model.</source>
+          <target state="translated">Avanserte komponent utviklere må kanskje dynamisk kontrollerer elementer som er knyttet til en komponent dermed erstatter eller utfylle standard pull-modellen.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, panel commands can be altered depending on the context of their use and the design-time state of the component.</source>
+          <target state="translated">Kommandoer kan for eksempel endres avhengig av konteksten for bruk og tilstanden utformingen av komponenten.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The DesignerActionService is actually the driving service behind both the push and pull models; however, in the latter case it operates implicitly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; For DesignerActionService er faktisk motiverende tjenesten bak både push og pull modeller; imidlertid i det siste tilfellet den fungerer implisitt.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DesignerActionService provides a straightforward interface for accessing and manipulating the items for each component, including the following methods and events:      -   The &lt;xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt; method determines whether the DesignerActionService is currently managing a particular component.</source>
+          <target state="translated">DesignerActionService har et enkelt grensesnitt for tilgang til og redigere elementer for hver komponent, inkludert følgende metoder og hendelser: - &lt;xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt;metoden fastslår om DesignerActionService for øyeblikket administrerer en bestemt komponent.&lt;/xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt; method supports the enumeration of the lists of items.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;Metoden støtter opplisting av listen over elementer.&lt;/xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt; method allows adding a &lt;xref:System.ComponentModel.Design.DesignerActionList&gt; or &lt;xref:System.ComponentModel.Design.DesignerActionListCollection&gt; to the set of existing items for a component instance.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;Metoden kan legge til en &lt;xref:System.ComponentModel.Design.DesignerActionList&gt;eller &lt;xref:System.ComponentModel.Design.DesignerActionListCollection&gt;settet med eksisterende elementer for en Komponentforekomst.&lt;/xref:System.ComponentModel.Design.DesignerActionListCollection&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionList&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, the &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt; method removes one or all of the item lists associated with a component.</source>
+          <target state="translated">I motsetning den &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;metoden fjerner ett av eller alle listene over elementer som er tilknyttet en komponent.&lt;/xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph>     &gt;  The &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt; method represents the direct push model of associating panel items with a component.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Den &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;metoden representerer direkte push-modellen for å knytte elementer til en komponent.&lt;/xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, the pull model relies on overriding the &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; property of the designer class for that component.</source>
+          <target state="translated">I motsetning pull-modellen avhengig overstyrer den &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;for klassen Spørringsutformer for denne komponenten.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The design environment is responsible for adding these items into the current DesignerActionService when a component is created on the design surface.</source>
+          <target state="translated">Utformingsmiljøet i er ansvarlig for å legge til disse elementene i den gjeldende DesignerActionService når en komponent er opprettet på utformingsoverflaten.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph>     &gt;  The &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;, &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;, &lt;xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt;, and &lt;xref:System.ComponentModel.Design.DesignerActionService.Clear%2A&gt; methods only consider or affect push-model items.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; I &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;, &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;, &lt;xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt;, og &lt;xref:System.ComponentModel.Design.DesignerActionService.Clear%2A&gt;metoder Vurder å bare eller påvirke push-modellelementer.&lt;/xref:System.ComponentModel.Design.DesignerActionService.Clear%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Contains%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event indicates when the collection of items changes for a component.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;Hendelse angir når samlingen av elementer endres for en komponent.&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because it is often desirable to use some of the same panel items in both the component's design-time shortcut menu and its panel, a large degree of interoperability exists between &lt;xref:System.ComponentModel.Design.DesignerActionItem&gt; objects and designer verbs.</source>
+          <target state="translated">Fordi det er ofte ønskelig å bruke noen av de samme panel elementene i både komponentens utformingen hurtigmenyen og tilhørende panelet, stor grad av interoperabilitet finnes mellom &lt;xref:System.ComponentModel.Design.DesignerActionItem&gt;objekter og designer verb.&lt;/xref:System.ComponentModel.Design.DesignerActionItem&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a component designer does not explicitly specify a &lt;xref:System.ComponentModel.Design.DesignerActionList&gt; (that is, it does not contain an overridden &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; property), then a list will be created from existing designer verbs.</source>
+          <target state="translated">Når en komponent utformer ikke eksplisitt er angitt en &lt;xref:System.ComponentModel.Design.DesignerActionList&gt;(det vil si den ikke inneholder en overstyrte &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;egenskapen), og deretter opprettes en liste fra eksisterende designer verb.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionList&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These verbs are specified by the &lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt; property.</source>
+          <target state="translated">Disse verb som er angitt av den &lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt;egenskapen.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, an internal verb list class is used to contain the collection of verb item panel entries.</source>
+          <target state="translated">En intern verbet listen klassen brukes i dette tilfellet inneholder samlingen av verbet elementet panelet oppføringer.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want a &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt; to be used both as a panel entry and a design-time shortcut menu entry, then you can set the <ph id="ph1">`includeAsDesignerVerb`</ph> parameter in the item's constructor.</source>
+          <target state="translated">Hvis du vil bruke en &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;brukes både som en panelet-post og en oppføring for utforming snarveien-menyen, kan du angi den <ph id="ph1">`includeAsDesignerVerb`</ph> parameter i konstruktøren for elementet.&lt;/xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.ComponentModel.Design.DesignerActionUIService&gt; to control the display of your designer's &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;.</source>
+          <target state="translated">Bruk til &lt;xref:System.ComponentModel.Design.DesignerActionUIService&gt;å kontrollere visningen av din designer's &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionUIService&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A service provider is necessary for monitoring selection and component changes.</source>
+          <target state="translated">En leverandør er nødvendig for å overvåke utvalget og komponentendringer.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is expected to support the &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; and &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt; types.</source>
+          <target state="translated">Det er forventet å støtte av &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;og &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;typer.&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; class uses an internal table to manage components and their associated &lt;xref:System.ComponentModel.Design.DesignerActionList&gt; smart tags.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;klassen bruker en intern tabell til å behandle komponenter og tilknyttede &lt;xref:System.ComponentModel.Design.DesignerActionList&gt;smart koder.&lt;/xref:System.ComponentModel.Design.DesignerActionList&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, component developers will not need to create an instance of this class; instead, they can acquire an existing instance through a call to the &lt;xref:System.ComponentModel.Component.GetService%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Vanligvis trenger komponentutviklere ikke å opprette en forekomst av denne klassen. i stedet de kan skaffe en eksisterende forekomst via et kall til den &lt;xref:System.ComponentModel.Component.GetService%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.ComponentModel.Component.GetService%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The service provider for the current design-time environment.</source>
+          <target state="translated">-Leverandør for gjeldende utformingen-miljøet.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the current collection of managed smart tags.</source>
+          <target state="translated">Legger til en <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gjeldende-samlingen for forvaltet smart koder.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Add method represents the push model of adding smart tag items.</source>
+          <target state="translated">Add-metode representerer push-modellen for å legge til elementer for smart koden.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The alternate pull model relies on overriding the &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; property in the designer for the corresponding component.</source>
+          <target state="translated">Alternativ pull-modell, avhengig av overstyrer den &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;egenskapen i designer for den tilsvarende komponenten.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this method is called, the lists to be added are scanned for any &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt; with the &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt; property set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Når denne metoden kalles, lister som skal legges til skannes for noen &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;med den &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt;-egenskapen satt til <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These items are added to the list of designer verbs for this component, through a call to the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Disse elementene er lagt til i listen over verb som Spørringsutformer for denne komponenten via et kall til den &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Smart tags are managed on a component instance basis.</source>
+          <target state="translated">Smartkortet koder administreres på forekomsten basis komponent.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The managed collection may contain duplicate entries.</source>
+          <target state="translated">Den forvaltede samlingen kan inneholde duplikatoppføringer.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method raises the &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event.</source>
+          <target state="translated">Denne metoden opphøyer den &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;hendelsen.&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to associate the smart tags with.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> å knytte smart koder med.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the new smart tag items to be added.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder de nye smart kode elementene som skal legges til.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En eller begge parameterne er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionListCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the current collection of managed smart tags.</source>
+          <target state="translated">Legger til en <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionListCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gjeldende-samlingen for forvaltet smart koder.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Add method represents the push model of adding smart tag items.</source>
+          <target state="translated">Add-metode representerer push-modellen for å legge til elementer for smart koden.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The alternate pull model relies on overriding the &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; property in the designer for the corresponding component.</source>
+          <target state="translated">Alternativ pull-modell, avhengig av overstyrer den &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;egenskapen i designer for den tilsvarende komponenten.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this method is called, the lists to be added are scanned for any &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt; with the &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt; property set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Når denne metoden kalles, lister som skal legges til skannes for noen &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;med den &lt;xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt;-egenskapen satt til <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.Design.DesignerActionMethodItem.IncludeAsDesignerVerb%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionMethodItem&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These items are added to the list of designer verbs for this component, through a call to the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Disse elementene er lagt til i listen over verb som Spørringsutformer for denne komponenten via et kall til den &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Smart tags are managed on a component instance basis.</source>
+          <target state="translated">Smartkortet koder administreres på forekomsten basis komponent.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The managed collection may contain duplicate entries.</source>
+          <target state="translated">Den forvaltede samlingen kan inneholde duplikatoppføringer.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method raises the &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event.</source>
+          <target state="translated">Denne metoden opphøyer den &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;hendelsen.&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to associate the smart tags with.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> å knytte smart koder med.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionListCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the new smart tag items to be added.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionListCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder de nye smart kode elementene som skal legges til.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En eller begge parameterne er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Releases all components from management and clears all push-model smart tag lists.</source>
+          <target state="translated">Frigir alle komponentene fra administrasjon og tømmer alle push-modellen smartkodelister.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Clear method empties the internal table used to store information about components and their push-model smart tag lists.</source>
+          <target state="translated">Fjern for tømmer den interne tabellen som brukes til å lagre informasjon om komponenter og deres push-modellen smartkodelister.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because this method affects all components managed by the current service, and not just the current component, this method should be used judiciously.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Fordi denne metoden påvirker alle komponentene som administreres av gjeldende tjenesten og ikke bare den gjeldende komponenten, denne metoden skal brukes med varsomhet.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the design-time tool developer uses it when resetting a design surface.</source>
+          <target state="translated">Vanligvis bruker utvikleren utformingen verktøyet den under tilbakestilling av en utformingsoverflaten.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Component developers should use one of the &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt; methods instead to remove individual smart tag items or lists.</source>
+          <target state="translated">Komponentutviklere bør bruke en av de &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;metoder i stedet å fjerne individuelle smart koden som eller viser.&lt;/xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event is raised for each component that was previously managed by the current service.</source>
+          <target state="translated">En &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;hendelsen starter for hver komponent ble tidligere administreres av gjeldende service.&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Determines whether the current smart tag service manages the action lists for the specified component.</source>
+          <target state="translated">Bestemmer om tjenesten gjeldende smart koden administrerer listene handlingen for den angitte komponenten.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Contains method only recognizes push-model smart tags, which are associated to a component with the &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt; method.</source>
+          <target state="translated">Metoden inneholder bare gjenkjenner smart koder for push-modell, som er knyttet til en komponent med den &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although there is no structural limitation on the number of concurrent &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; instances created by a design-time tool, typically only a single instance of the service is created per design surface.</source>
+          <target state="translated">Selv om det finnes ingen strukturell begrensning på antall samtidige &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;forekomster opprettet i en utformingen-verktøyet, vanligvis bare én forekomst av tjenesten opprettes per utformingsoverflaten.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to search for.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> til å søke etter.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the component is managed by the current service; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis komponenten administreres av gjeldende tjenesten. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Occurs when a <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is removed or added for any component.</source>
+          <target state="translated">Forekommer når en <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionList"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fjernes eller legges til for alle komponenter.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the set of specialized classes associated with the DesignerActionListsChanged event.</source>
+          <target state="translated">Tabellen nedenfor viser settet med spesialiserte klasser som er knyttet til DesignerActionListsChanged-hendelsen.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Specialized type|Description|   |----------------------|-----------------|   |&lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt;|Adds information specific to smart tag list management.</source>
+          <target state="translated">| Spesialiserte typen | Beskrivelse |   |----------------------|-----------------|   | &lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt;| Legger til vil ha informasjon om smart koden listen management.&lt;/xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class is specialized from &lt;xref:System.EventArgs&gt;.|   |&lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventHandler&gt;|Connects the &lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt; with its handler.|   |&lt;xref:System.ComponentModel.Design.DesignerActionListsChangedType&gt;|Denotes whether a list has been added or removed.|       For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Denne klassen er spesialiserte fra &lt;xref:System.EventArgs&gt;. |   | &lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventHandler&gt;| Kobler &lt;xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt;behandlingsprogrammet. |   | &lt;xref:System.ComponentModel.Design.DesignerActionListsChangedType&gt;| Angir om en liste er lagt til eller fjernet. |       Du finner mer informasjon om behandling av hendelser <bpt id="p1">[</bpt>NIB: bruker hendelser<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.&lt;/xref:System.ComponentModel.Design.DesignerActionListsChangedType&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionListsChangedEventArgs&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionListsChangedEventHandler&gt; &lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Frigir alle ressursene som brukes av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method is the implementation of the only method mandated by the &lt;xref:System.IDisposable&gt; interface.</source>
+          <target state="translated">Fjerningsmetoden er implementering av metoden bare obligatoriske den &lt;xref:System.IDisposable&gt;grensesnittet.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method when you are finished using the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.</source>
+          <target state="translated">Kalle denne metoden når du er ferdig med &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It performs two main actions:      -   Removes the current service from the list of available services in the design environment through a call to the &lt;xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt; method.</source>
+          <target state="translated">Utfører den to primære handlinger:-fjerner gjeldende tjenesten fra listen over tilgjengelige tjenester i utformingsmiljøet via et kall til den &lt;xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Unsubscribes to component change events from the associated &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt; interface.</source>
+          <target state="translated">-Avsluttede abonnementer på komponent endre hendelser fra den tilknyttede &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;grensesnittet.&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call Dispose when you are finished using the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.</source>
+          <target state="translated">Kall avhending når du er ferdig med &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method leaves the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; in an unusable state.</source>
+          <target state="translated">Fjerningsmetoden forlater den &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;i en ubrukelig tilstand.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; was occupying.</source>
+          <target state="translated">Etter å avhending, må du frigi alle referanser til den &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;Slik saneringsoppsamlingen kan gjenvinne minnet som den &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;ble bruker.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>Rydder opp uforvaltede ressurser<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> og <bpt id="p2">[</bpt>implementere metoden fjerne<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alltid kall fjerne før du slipper siste referanse til &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">Ellers ressurser den bruker vil ikke bli frigjort før saneringsoppsamling kall av &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;objektets <ph id="ph1">`Finalize`</ph> metode.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Frigir uforvaltede ressursene som brukes av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerActionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> og eventuelt frigir administrerte ressurser.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.DesignerActionService.Dispose%2A&gt; method is the implementation of the only method mandated by the &lt;xref:System.IDisposable&gt; interface.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.DesignerActionService.Dispose%2A&gt;metoden er implementering av metoden bare obligatoriske den &lt;xref:System.IDisposable&gt;grensesnittet.&lt;/xref:System.IDisposable&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method when you are finished using the &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.</source>
+          <target state="translated">Kalle denne metoden når du er ferdig med &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It performs two main actions:      -   Removes the current service from the list of available services in the design environment through a call to the &lt;xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt; method.</source>
+          <target state="translated">Utfører den to primære handlinger:-fjerner gjeldende tjenesten fra listen over tilgjengelige tjenester i utformingsmiljøet via et kall til den &lt;xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.IServiceContainer.RemoveService%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Unsubscribes to component change events from the associated &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt; interface.</source>
+          <target state="translated">-Avsluttede abonnementer på komponent endre hendelser fra den tilknyttede &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;grensesnittet.&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Denne metoden kalles av offentlig <ph id="ph1">`Dispose()`</ph> metoden og &lt;xref:System.Object.Finalize%2A&gt;metode.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>Aktiverer den beskyttede <ph id="ph2">`Dispose(Boolean)`</ph> metoden med den <ph id="ph3">`disposing`</ph> parameteren satt til <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;aktiverer <ph id="ph1">`Dispose`</ph> med <ph id="ph2">`disposing`</ph> satt til <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.DesignerActionService&gt; references.</source>
+          <target state="translated">Når den <ph id="ph1">`disposing`</ph> parameteren er <ph id="ph2">`true`</ph>, denne metoden Frigjør alle ressurser holdes av administrerte objekter som denne &lt;xref:System.ComponentModel.Design.DesignerActionService&gt;referanser.&lt;/xref:System.ComponentModel.Design.DesignerActionService&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Denne metoden starter den <ph id="ph1">`Dispose()`</ph> metode for hver referert objekt.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>å frigjøre både administrerte og uforvaltede ressurser. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> frigi bare uforvaltede ressurser.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Returns the collection of smart tag item lists associated with a component.</source>
+          <target state="translated">Returnerer samling av elementet smartkodelister knyttet til en komponent.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetComponentActions method is equivalent to a call to the &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%28System.ComponentModel.IComponent%2CSystem.ComponentModel.Design.ComponentActionsType%29&gt; method using a <ph id="ph1">`type`</ph> parameter of &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;.</source>
+          <target state="translated">Metoden GetComponentActions tilsvarer et kall til den &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%28System.ComponentModel.IComponent%2CSystem.ComponentModel.Design.ComponentActionsType%29&gt;metoden bruker en <ph id="ph1">`type`</ph> -parameteren for &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;.&lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%28System.ComponentModel.IComponent%2CSystem.ComponentModel.Design.ComponentActionsType%29&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the collection returned will contain both the push and pull lists of smart tags.</source>
+          <target state="translated">Samlingen returnerte vil derfor inneholde både push pull listene og smart koder.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned &lt;xref:System.ComponentModel.Design.DesignerActionListCollection&gt; is the union of item lists added through the &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt; methods and also the lists obtained from the &lt;xref:System.ComponentModel.Design.DesignerCommandSet&gt; instance obtained from the component’s site.</source>
+          <target state="translated">Det returnerte &lt;xref:System.ComponentModel.Design.DesignerActionListCollection&gt;er Unionen elementlister lagt til med den &lt;xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt;metoder og listene hentet fra den &lt;xref:System.ComponentModel.Design.DesignerCommandSet&gt;forekomsten hentes fra komponentens webområdet.&lt;/xref:System.ComponentModel.Design.DesignerCommandSet&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionService.Add%2A&gt; &lt;/xref:System.ComponentModel.Design.DesignerActionListCollection&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The component that the smart tags are associated with.</source>
+          <target state="translated">Komponenten som smart koder er knyttet til.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The collection of smart tags for the specified component.</source>
+          <target state="translated">Samling av smart koder for den angitte komponenten.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Returns the collection of smart tag item lists of the specified type associated with a component.</source>
+          <target state="translated">Returnerer samling av smart koden elementlister med den angitte typen som er knyttet til en komponent.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This version of the overloaded &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt; method filters on the <ph id="ph1">`type`</ph> parameter, which can have one of the following values.</source>
+          <target state="translated">Denne versjonen av den overbelastet &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;metoden filtrerer på den <ph id="ph1">`type`</ph> parameteren som kan ha én av følgende verdier.&lt;/xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Value|Description|   |-----------|-----------------|   |&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;|All associated smart tags.|   |&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;|Pull-model smart tags only.|   |&lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;|Push-model smart tags only.|       If the associated designer for a component does not supply a pull-model smart tag list, then the GetComponentActions method will instead use the designer's design-time shortcut menu items from the &lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt; property.</source>
+          <target state="translated">| Verdien | Beskrivelse |   |-----------|-----------------|   | &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;| Alle tilknyttede smart koder. |   | &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;| Pull-modellen smartkortet merker bare. |   | &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;| Push-modellen smartkortet merker bare. |       Hvis den tilknyttede utformeren for en komponent ikke angir en pull-modellen smart koden liste, og deretter metoden GetComponentActions bruker i stedet den utformeren utformingen hurtigmenyelementer fra den &lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt;egenskapen.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt; &lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt; &lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt; &lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The component that the smart tags are associated with.</source>
+          <target state="translated">Komponenten som smart koder er knyttet til.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentActionsType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to filter the associated smart tags with.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentActionsType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> til å filtrere tilknyttede smart koder med.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The collection of smart tags of the specified type for the specified component.</source>
+          <target state="translated">Samling av smart koder for den angitte typen for den angitte komponenten.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Retrieves the pull-model smart tags associated with a component.</source>
+          <target state="translated">Henter pull-modellen smart kodene knyttet til en komponent.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetComponentDesignerActions method is a helper method for the &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt; methods.</source>
+          <target state="translated">Metoden GetComponentDesignerActions er en helper for den &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;metoder.&lt;/xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetComponentDesignerActions searches for pull-model smart tags of type &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;, and then adds these to the supplied <ph id="ph1">`actionLists`</ph> collection.</source>
+          <target state="translated">GetComponentDesignerActions søker etter pull-modellen smart koder av typen &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;, og legger dem til den angitte <ph id="ph1">`actionLists`</ph> samlingen.&lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the component's developer does not explicitly supply a collection of smart tags through the &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt; property of its designer, this method will reuse the design-time shortcut menu entries, which are obtained through the &lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt; property of the designer.</source>
+          <target state="translated">Hvis komponentens utvikleren ikke leverer eksplisitt en samling av smart koder via den &lt;xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;egenskapen for designer, denne metoden vil bruke utformingen snarvei menyen poster som er anskaffet via den &lt;xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt;for utformeren.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.Verbs%2A&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner.ActionLists%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The component that the smart tags are associated with.</source>
+          <target state="translated">Komponenten som smart koder er knyttet til.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The collection to add the associated smart tags to.</source>
+          <target state="translated">Samlingen å legge til de tilknyttede smart kodene til.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En eller begge parameterne er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Retrieves the push-model smart tags associated with a component.</source>
+          <target state="translated">Henter push-modellen smart kodene knyttet til en komponent.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetComponentServiceActions method is a helper method for the &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt; methods.</source>
+          <target state="translated">Metoden GetComponentServiceActions er en helper for den &lt;xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;metoder.&lt;/xref:System.ComponentModel.Design.DesignerActionService.GetComponentActions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It searches for push-model smart tags of type &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;, and then adds these to the supplied <ph id="ph1">`actionLists`</ph> collection.</source>
+          <target state="translated">Søker etter push-modellen smart koder av typen &lt;xref:System.ComponentModel.Design.ComponentActionsType&gt;, og legger dem til den angitte <ph id="ph1">`actionLists`</ph> samlingen.&lt;/xref:System.ComponentModel.Design.ComponentActionsType&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The component that the smart tags are associated with.</source>
+          <target state="translated">Komponenten som smart koder er knyttet til.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The collection to add the associated smart tags to.</source>
+          <target state="translated">Samlingen å legge til de tilknyttede smart kodene til.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En eller begge parameterne er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Removes the specified smart tag list from all components managed by the current service.</source>
+          <target state="translated">Fjerner listen angitte smart koden fra alle komponentene som administreres av gjeldende service.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This version of the &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt; method is typically used by design tool developers, because component developers typically do not know what other components exist in the current design space.</source>
+          <target state="translated">Denne versjonen av den &lt;xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;metoden brukes av utformingen Verktøyutviklere, fordi komponentutviklere vanligvis ikke vet hvilken andre komponenter finnes i gjeldende område for utforming.&lt;/xref:System.ComponentModel.Design.DesignerActionService.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If successful, this method raises the &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event.</source>
+          <target state="translated">Hvis fullført, denne metoden opphøyer den &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;hendelsen.&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The list of smart tags to be removed.</source>
+          <target state="translated">Listen over smart koder som skal fjernes.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;actionList&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;actionList&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Removes all the smart tag lists associated with the specified component.</source>
+          <target state="translated">Fjerner alle de smartkodelister knyttet til den angitte komponenten.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If successful, the Remove method raises the &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event.</source>
+          <target state="translated">Hvis fullført, Remove-metoden opphøyer den &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;hendelsen.&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The component to disassociate the smart tags from.</source>
+          <target state="translated">Komponenten å fjerne tilkoblingen smart koder fra.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;comp&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Removes the specified smart tag list from the specified component.</source>
+          <target state="translated">Fjerner listen angitte smart koden fra den angitte komponenten.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If successful, the Remove method raises the &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt; event.</source>
+          <target state="translated">Hvis fullført, Remove-metoden opphøyer den &lt;xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;hendelsen.&lt;/xref:System.ComponentModel.Design.DesignerActionService.DesignerActionListsChanged&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The component to disassociate the smart tags from.</source>
+          <target state="translated">Komponenten å fjerne tilkoblingen smart koder fra.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The smart tag list to remove.</source>
+          <target state="translated">Smartkortet koden listen som skal fjernes.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En eller begge parameterne er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
