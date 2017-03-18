@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a8746252d51807933401be5968c0c11467969e3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.ICustomTypeDescriptor.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ed95b645da7ef4e509bf060627b5ff2bfb05d7e7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">433a4b8195734b70cdb315a5bad116bb98dc83b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an interface that supplies dynamic custom type information for an object.</source>
+          <target state="translated">オブジェクトのカスタムの動的な型情報を提供するインターフェイスを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ICustomTypeDescriptor interface allows an object to provide type information about itself.</source>
+          <target state="translated">ICustomTypeDescriptor インターフェイスは、自身に関する型情報を提供するオブジェクトを許可します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Typically, this interface is used when an object needs dynamic type information.</source>
+          <target state="translated">通常、このインターフェイスは、オブジェクトには、動的な型情報が必要がある場合に使用されます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In contrast, the &lt;xref:System.ComponentModel.TypeDescriptor&gt; class provides static type information that is obtained from metadata.</source>
+          <target state="translated">これに対し、&lt;xref:System.ComponentModel.TypeDescriptor&gt;クラス メタデータから取得される静的な型情報を提供します&lt;/xref:System.ComponentModel.TypeDescriptor&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, ICustomTypeDescriptor is used in the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to provide type information for COM objects.</source>
+          <target state="translated">ICustomTypeDescriptor で使用するなど、 <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> COM オブジェクトの型情報を提供します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>COM objects do not support properties or attributes.</source>
+          <target state="translated">COM オブジェクトでは、プロパティまたは属性をサポートしていません。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Therefore, the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> uses ICustomTypeDescriptor to implement properties and attributes for COM objects.</source>
+          <target state="translated">したがって、 <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> ICustomTypeDescriptor を使用して、プロパティ、および COM オブジェクトの属性を実装します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To provide dynamic custom type information, a class can implement ICustomTypeDescriptor or derive from the &lt;xref:System.ComponentModel.CustomTypeDescriptor&gt; class, which provides a simple implementation of this interface.</source>
+          <target state="translated">カスタムの動的な型情報を提供するには、クラスは ICustomTypeDescriptor を実装するか、から派生して、&lt;xref:System.ComponentModel.CustomTypeDescriptor&gt;クラスで、このインターフェイスの簡単な実装を提供します&lt;/xref:System.ComponentModel.CustomTypeDescriptor&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  There is no design-time support for data binding to objects that implement the ICustomTypeDescriptor interface.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; ICustomTypeDescriptor インターフェイスを実装するオブジェクトへのデータ バインディングのデザイン時サポートはありません。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>In addition, when binding to a runtime instance of ICustomTypeDescriptor, the public properties of the underlying type are ignored.</source>
+          <target state="translated">さらに、ICustomTypeDescriptor のランタイム インスタンスにバインドする場合、基になる型のパブリック プロパティは無視されます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns a collection of custom attributes for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスのカスタム属性のコレクションを返します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The return value is never <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">戻り値は決して<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Implementers can return an empty &lt;xref:System.ComponentModel.AttributeCollection&gt; if no custom attributes are specified for an object.</source>
+          <target state="translated">実装時は、空を返すことができる&lt;xref:System.ComponentModel.AttributeCollection&gt;オブジェクトのカスタム属性が指定されていない場合&lt;/xref:System.ComponentModel.AttributeCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.AttributeCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the attributes for this object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.AttributeCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このオブジェクトの属性を含むです。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Returns the class name of this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスのクラス名を返します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`null`</ph> is returned, use the type name from the &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt; method.</source>
+          <target state="translated">場合<ph id="ph1">`null`</ph>は型の名前を使用して、返される、&lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;メソッド&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The class name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the class does not have a name.</source>
+          <target state="translated">オブジェクトのクラス名または<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合は、クラスには、名前がありません。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Returns the name of this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスの名前を返します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`null`</ph> is returned, use the default name.</source>
+          <target state="translated">場合<ph id="ph1">`null`</ph>は既定の名前を使用して、返されます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object does not have a name.</source>
+          <target state="translated">オブジェクトの名前または<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトに名前がない場合。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns a type converter for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスの型コンバーターを返します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`null`</ph> is returned, use the default &lt;xref:System.ComponentModel.TypeConverter&gt;.</source>
+          <target state="translated">場合<ph id="ph1">`null`</ph>は&lt;xref:System.ComponentModel.TypeConverter&gt;.&lt;/xref:System.ComponentModel.TypeConverter&gt;既定値を使用して、返される</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the converter for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is no <bpt id="p3">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> for this object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 、このオブジェクトのコンバーターであるまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>がある場合ありません<bpt id="p3">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>このオブジェクトにします。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Returns the default event for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスの既定のイベントを返します。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default event for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this object does not have events.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このオブジェクトの既定のイベントを表すまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>このオブジェクトにイベントがあるない場合。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns the default property for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスの既定のプロパティを返します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default property for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this object does not have properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このオブジェクトの既定のプロパティを表すまたは<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>このオブジェクトにプロパティがない場合。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns an editor of the specified type for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスの指定した型のエディターを返します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The type of the <ph id="ph1">`editorBaseType`</ph> parameter is usually &lt;xref:System.Drawing.Design.UITypeEditor&gt;, but you can also use other types (for example, &lt;xref:System.ComponentModel.ComponentEditor&gt; and &lt;xref:System.ComponentModel.InstanceCreationEditor&gt;).</source>
+          <target state="translated">種類、<ph id="ph1">`editorBaseType`</ph>パラメーターは、通常&lt;xref:System.Drawing.Design.UITypeEditor&gt;、他の種類を使用することもできます (たとえば、&lt;xref:System.ComponentModel.ComponentEditor&gt;と&lt;xref:System.ComponentModel.InstanceCreationEditor&gt;).&lt;/xref:System.ComponentModel.InstanceCreationEditor&gt; &lt;/xref:System.ComponentModel.ComponentEditor&gt; &lt;/xref:System.Drawing.Design.UITypeEditor&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the editor for this object.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;このオブジェクトのエディターを表す&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; of the specified type that is the editor for this object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the editor cannot be found.</source>
+          <target state="translated">&lt;xref:System.Object&gt;は、このオブジェクトのエディターを指定した型のまたは<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>エディターが見つからない場合&lt;/xref:System.Object&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns the events for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスのイベントを返します。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The events for this instance can differ from the set of events that the class provides.</source>
+          <target state="translated">このインスタンスのイベントは、クラスを提供するイベントのセットと異なる場合がします。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For example, if the component is site-based, the site can add or remove additional events.</source>
+          <target state="translated">たとえば、コンポーネントがサイトに基づく場合は、サイトが追加または追加のイベントを削除することができます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Implementors can return &lt;xref:System.ComponentModel.EventDescriptorCollection?displayProperty=fullName&gt; if no properties are specified.</source>
+          <target state="translated">実装者が返すことができる&lt;xref:System.ComponentModel.EventDescriptorCollection?displayProperty=fullName&gt;プロパティが指定されていない場合&lt;/xref:System.ComponentModel.EventDescriptorCollection?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This method should never return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">このメソッドが返すことはありません<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the events for this component instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このコンポーネント インスタンスのイベントを表すです。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Returns the events for this instance of a component using the specified attribute array as a filter.</source>
+          <target state="translated">フィルターとして指定された属性配列を使用して、コンポーネントのこのインスタンスのイベントを返します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The events for this instance can differ from the set of events that the class provides.</source>
+          <target state="translated">このインスタンスのイベントは、クラスを提供するイベントのセットと異なる場合がします。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For example, if the component is site-based, the site can add or remove additional events.</source>
+          <target state="translated">たとえば、コンポーネントがサイトに基づく場合は、サイトが追加または追加のイベントを削除することができます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If an &lt;xref:System.Attribute&gt; is specified in the <ph id="ph1">`attributes`</ph> array and the event does not have an instance of the class for that attribute, the returned array includes the event if the &lt;xref:System.Attribute&gt; is the default event.</source>
+          <target state="translated">場合、&lt;xref:System.Attribute&gt;で指定された、<ph id="ph1">`attributes`</ph>配列と、イベントに、その属性のクラスのインスタンスがない、返される配列は、場合にイベントを含む、&lt;xref:System.Attribute&gt;既定のイベントします&lt;/xref:System.Attribute&gt;&lt;/xref:System.Attribute&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">型の配列&lt;xref:System.Attribute&gt;フィルターとして使用される&lt;/xref:System.Attribute&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the filtered events for this component instance.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このコンポーネント インスタンスのフィルター選択されたイベントを表すです。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Returns the properties for this instance of a component.</source>
+          <target state="translated">コンポーネントのこのインスタンスのプロパティを返します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The properties for this instance can differ from the set of properties that the class provides.</source>
+          <target state="translated">このインスタンスのプロパティとは異なる一連のクラスを提供するプロパティです。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For example, if the component is sited, the site can add or remove additional properties.</source>
+          <target state="translated">たとえば、コンポーネントが配置された場合は、サイトが追加または追加のプロパティを削除することがします。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Implementers can return &lt;xref:System.ComponentModel.PropertyDescriptorCollection?displayProperty=fullName&gt; if no properties are specified.</source>
+          <target state="translated">実装時に返すことができる&lt;xref:System.ComponentModel.PropertyDescriptorCollection?displayProperty=fullName&gt;プロパティが指定されていない場合&lt;/xref:System.ComponentModel.PropertyDescriptorCollection?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This method should never return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">このメソッドが返すことはありません<ph id="ph1">`null`</ph>です。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the properties for this component instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このコンポーネント インスタンスのプロパティを表すです。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Returns the properties for this instance of a component using the attribute array as a filter.</source>
+          <target state="translated">属性の配列をフィルターとして使用して、コンポーネントのこのインスタンスのプロパティを返します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The properties for this instance can differ from the set of properties that the class provides.</source>
+          <target state="translated">このインスタンスのプロパティとは異なる一連のクラスを提供するプロパティです。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For example, if the component is sited, the site can add or remove additional properties.</source>
+          <target state="translated">たとえば、コンポーネントが配置された場合は、サイトが追加または追加のプロパティを削除することがします。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If an &lt;xref:System.Attribute&gt; is specified in the <ph id="ph1">`attributes`</ph> array and the property does not have an instance of the class for that attribute, the returned collection will include the property if the &lt;xref:System.Attribute&gt; is the default property.</source>
+          <target state="translated">場合、&lt;xref:System.Attribute&gt;で指定された、<ph id="ph1">`attributes`</ph>配列とプロパティに、その属性のクラスのインスタンスがない、返されるコレクションが場合に、プロパティが含まれます、&lt;xref:System.Attribute&gt;既定のプロパティします&lt;/xref:System.Attribute&gt;&lt;/xref:System.Attribute&gt;。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For filtering rules, see &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;.</source>
+          <target state="translated">ルールをフィルター処理、 &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;。&lt;/xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">型の配列&lt;xref:System.Attribute&gt;フィルターとして使用される&lt;/xref:System.Attribute&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the filtered properties for this component instance.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このコンポーネント インスタンスのフィルター選択されたプロパティを表すです。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Returns an object that contains the property described by the specified property descriptor.</source>
+          <target state="translated">指定したプロパティ記述子によって記述されたプロパティを格納しているオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The GetPropertyOwner method retrieves the object that contains the property member that is described by &lt;xref:System.ComponentModel.PropertyDescriptor&gt; parameter.</source>
+          <target state="translated">GetPropertyOwner メソッドによって定義されたプロパティ メンバーを含むオブジェクトを取得&lt;xref:System.ComponentModel.PropertyDescriptor&gt;パラメーター&lt;/xref:System.ComponentModel.PropertyDescriptor&gt; 。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Typically, this object is required for the &lt;xref:System.ComponentModel.PropertyDescriptor.GetValue%2A?displayProperty=fullName&gt; and &lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A?displayProperty=fullName&gt; methods.</source>
+          <target state="translated">通常、このオブジェクトは、必要な&lt;xref:System.ComponentModel.PropertyDescriptor.GetValue%2A?displayProperty=fullName&gt;と&lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A?displayProperty=fullName&gt;メソッド&lt;/xref:System.ComponentModel.PropertyDescriptor.SetValue%2A?displayProperty=fullName&gt;&lt;/xref:System.ComponentModel.PropertyDescriptor.GetValue%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>This method should return an object that you can use as follows:      <ph id="ph1">```   pd.GetValue(GetPropertyOwner(myPd));   ```</ph>       If <ph id="ph2">`myPd`</ph> is <ph id="ph3">`null`</ph>, your implementation of the &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface should return the default object (typically, the base object that exposes the properties and attributes).</source>
+          <target state="translated">このメソッドは、次のように使用できるオブジェクトを返す必要があります:<ph id="ph1">```   pd.GetValue(GetPropertyOwner(myPd));   ```</ph>場合<ph id="ph2">`myPd`</ph>は<ph id="ph3">`null`</ph>の実装、&lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;インターフェイスは、既定のオブジェクト (通常は、ベース オブジェクトのプロパティと属性を公開する) を返す必要があります&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property whose owner is to be found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>所有者を検索するプロパティを表すです。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the owner of the specified property.</source>
+          <target state="translated">&lt;xref:System.Object&gt;を表す、指定したプロパティの所有者&lt;/xref:System.Object&gt;。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c153e92446f2aa231b4aa6f2a08581b6bf5483ca</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.Sockets.TransmitFileOptions.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">894805ddb62148bd014867d7200d36e020b9bce8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">420f593717b1640a7ba1df181b5db816c7f83160</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The TransmitFileOptions enumeration defines values used in file transfer requests.</source>
+          <target state="translated">TransmitFileOptions 열거형 파일 전송 요청에 사용 되는 값을 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> The flags Disconnect and ReuseSocket return the socket to a disconnected, reusable state after the file has been transmitted.</source>
+          <target state="translated"><bpt id="p1">**</bpt>참고<ept id="p1">**</ept> 파일 전송 된 후 연결 끊기 및 ReuseSocket 소켓을 반환을 연결이 끊긴 다시 사용할 수 있는 플래그 상태입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These flags should not be used on a socket where quality of service (QOS) has been requested, because the service provider might immediately delete any quality of service associated with the socket before the file transfer has completed.</source>
+          <target state="translated">서비스 공급자 파일 전송이 완료 전에 소켓와 연결 된 서비스의 품질을 즉시 삭제할 수 때문에 여기서 서비스 품질 (QOS)를 요청 하는 소켓에서 이러한 플래그를 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The best approach for a QOS-enabled socket is to call &lt;xref:System.Net.Sockets.Socket.Close%2A&gt; when the file transfer has completed, rather than relying on these flags.</source>
+          <target state="translated">호출 하는 소켓의 QOS를 사용 하는 최선의 방법을 것 &lt;xref:System.Net.Sockets.Socket.Close%2A&gt;파일 전송이 완료 되 면 이러한 플래그에 의존 하지 않고.&lt;/xref:System.Net.Sockets.Socket.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Start a transport-level disconnect after all the file data has been queued for transmission.</source>
+          <target state="translated">전송 수준 시작 연결을 끊을 결국 전송을 위해 파일 데이터 큐에 대기 되었습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When used with ReuseSocket, these flags return the socket to a disconnected, reusable state after the file has been transmitted.</source>
+          <target state="translated">ReuseSocket를 사용할 때는 이러한 플래그는 파일 전송 된 후 다시 사용할 수 있는 연결이 끊긴 상태로 소켓을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The socket handle may be reused when the request completes.</source>
+          <target state="translated">요청이 완료 될 때 소켓 핸들을 다시 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This flag is valid only if Disconnect is also specified.</source>
+          <target state="translated">이 플래그는 연결 끊기도 지정 하는 경우에 유효 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When used with Disconnect, these flags return the socket to a disconnected, reusable state after the file has been transmitted.</source>
+          <target state="translated">사용 되 면 연결 끊기, 파일 전송 된 후 이러한 플래그를 연결이 끊긴 다시 사용할 수 있는 상태로 소켓을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use the default thread to process long file transfer requests.</source>
+          <target state="translated">에 있는 기본 스레드를 사용 하 여 긴 파일 전송 요청을 처리 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Use kernel asynchronous procedure calls (APCs) instead of worker threads to process long file transfer requests.</source>
+          <target state="translated">긴 파일 전송 요청을 처리할 작업자 스레드 대신 (Apc)를 호출 하는 커널 비동기 프로시저를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Long requests are defined as requests that require more than a single read from the file or a cache; the request therefore depends on the size of the file and the specified length of the send packet.</source>
+          <target state="translated">파일이 나 캐시; 개 이상의 단일 읽기를 필요로 하는 요청으로 긴 요청 정의 따라서 요청 보내기 패킷의 지정된 된 길이 파일의 크기에 따라 달라 집니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use system threads to process long file transfer requests.</source>
+          <target state="translated">긴 파일 전송 요청을 처리할 시스템 스레드를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Complete the file transfer request immediately, without pending.</source>
+          <target state="translated">파일 전송 요청을 완료 하지 않고 즉시 보류 중입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If this flag is specified and the file transfer succeeds, the data has been accepted by the system but not necessarily acknowledged by the remote end.</source>
+          <target state="translated">이 플래그를 지정 하는 경우 파일 전송이 성공 데이터 집합이 시스템에서 허용 되었지만 원격 끝점에 의해 승인 필요는 없습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Do not use this flag with the Disconnect and ReuseSocket flags.</source>
+          <target state="translated">연결 끊기, ReuseSocket 플래그와 함께이 플래그를 사용 하지 마십시오.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

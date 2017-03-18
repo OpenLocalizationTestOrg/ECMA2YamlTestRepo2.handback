@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8d3b90cc61cb8485c67013eacc28e199c881638</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.Sockets.TcpListener.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15d399a800376aaf3ec8384a8316992621d9d31e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9f47c5db24bd2a28ecad5c445b42bb9a893e6b0d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Listens for connections from TCP network clients.</source>
+          <target state="translated">TCP ネットワーク クライアントからの接続をリッスンします。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The TcpListener class provides simple methods that listen for and accept incoming connection requests in blocking synchronous mode.</source>
+          <target state="translated">TcpListener クラスでは、リッスンして、同期モードのブロックで着信接続要求を受け入れるための簡単な方法を提供します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can use either a &lt;xref:System.Net.Sockets.TcpClient&gt; or a &lt;xref:System.Net.Sockets.Socket&gt; to connect with a TcpListener.</source>
+          <target state="translated">使用するか、&lt;xref:System.Net.Sockets.TcpClient&gt;または&lt;xref:System.Net.Sockets.Socket&gt;TcpListener に接続する&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.TcpClient&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Create a TcpListener using an &lt;xref:System.Net.IPEndPoint&gt;, a Local IP address and port number, or just a port number.</source>
+          <target state="translated">TcpListener を使用して、作成、 &lt;xref:System.Net.IPEndPoint&gt;、ローカル IP アドレスとポート番号、またはポート番号だけです&lt;/xref:System.Net.IPEndPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Specify &lt;xref:System.Net.IPAddress.Any&gt; for the local IP address and 0 for the local port number if you want the underlying service provider to assign those values for you.</source>
+          <target state="translated">指定&lt;xref:System.Net.IPAddress.Any&gt;ローカル IP アドレスとする場合は、基になるサービス プロバイダーをそれらの値を割り当てるには、ローカル ポート番号の場合は 0 です&lt;/xref:System.Net.IPAddress.Any&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If you choose to do this, you can use the &lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt; property to identify the assigned information, after the socket has connected.</source>
+          <target state="translated">この方法を選択する場合を使用できます、&lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;ソケットが接続した後に、割り当てられている情報を識別するプロパティ&lt;/xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method to begin listening for incoming connection requests.</source>
+          <target state="translated">使用して、&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;接続要求のリッスンを開始するメソッド&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; will queue incoming connections until you either call the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method or it has queued &lt;xref:System.Net.Sockets.SocketOptionName&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;するまでキューの着信接続するか、呼び出す&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;メソッドまたはそれがキューに登録&lt;xref:System.Net.Sockets.SocketOptionName&gt;。&lt;/xref:System.Net.Sockets.SocketOptionName&gt; &lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Use either &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; or &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; to pull a connection from the incoming connection request queue.</source>
+          <target state="translated">いずれかを使用して&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;または&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;着信接続要求のキューからの接続をプルする&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>These two methods will block.</source>
+          <target state="translated">これら&amp;2; つの方法がブロックされます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If you want to avoid blocking, you can use the &lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt; method first to determine if connection requests are available in the queue.</source>
+          <target state="translated">使用することができますがブロックされないようにする場合、&lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt;接続要求がキューで利用可能なかどうかを判断するには、最初のメソッド&lt;/xref:System.Net.Sockets.TcpListener.Pending%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method to close the TcpListener.</source>
+          <target state="translated">呼び出す、 &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;、TcpListener を閉じます&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method does not close any accepted connections.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;、&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;承認済みのすべての接続は閉じられません&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>You are responsible for closing these separately.</source>
+          <target state="translated">ユーザーは、これらを個別に閉じる担当します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that listens on the specified port.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>は指定されたポートでリッスンするクラス。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This constructor is obsolete.</source>
+          <target state="translated">このコンス トラクターは今後使用しません。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPAddress%2CSystem.Int32%29?displayProperty=fullName&gt; or &lt;xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPEndPoint%29?displayProperty=fullName&gt; constructors.</source>
+          <target state="translated">使用して、&lt;xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPAddress%2CSystem.Int32%29?displayProperty=fullName&gt;または&lt;xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPEndPoint%29?displayProperty=fullName&gt;コンス トラクター&lt;/xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPEndPoint%29?displayProperty=fullName&gt; &lt;/xref:System.Net.Sockets.TcpListener.%23ctor%28System.Net.IPAddress%2CSystem.Int32%29?displayProperty=fullName&gt; 。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This constructor allows you to specify the port number on which to listen for incoming connection attempts.</source>
+          <target state="translated">このコンス トラクターでは、受信試行の接続をリッスンするポート番号を指定することができます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>With this constructor, the underlying service provider assigns the most appropriate network address.</source>
+          <target state="translated">このコンス トラクターでは、基になるサービス プロバイダーは、最も適切なネットワーク アドレスを割り当てます。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you do not care which local port is used, you can specify 0 for the port number.</source>
+          <target state="translated">使用されているローカル ポートを限定しない場合は、ポート番号の場合は 0 を指定できます。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>In this case, the service provider will assign an available port number between 1024 and 5000.</source>
+          <target state="translated">この場合、サービス プロバイダーは 1024 ~ 5000 で、使用可能なポート番号を割り当てます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If you use this approach, you can discover what local network address and port number has been assigned by using the &lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt; property.</source>
+          <target state="translated">このアプローチを使用する場合を使用してどのようなローカル ネットワーク アドレスとポート番号が割り当てられてを検出することができます、&lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;プロパティ&lt;/xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method to begin listening for incoming connection attempts.</source>
+          <target state="translated">呼び出す、&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;着信接続要求のリッスンを開始するメソッド&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The port on which to listen for incoming connection attempts.</source>
+          <target state="translated">着信接続の試行をリッスンするポートです。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;port&lt;/code&gt;</ph> is not between <ph id="ph2">&lt;xref:System.Net.IPEndPoint.MinPort&gt;</ph> and <ph id="ph3">&lt;xref:System.Net.IPEndPoint.MaxPort&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;port&lt;/code&gt;</ph>間<ph id="ph2">&lt;xref:System.Net.IPEndPoint.MinPort&gt;</ph>と<ph id="ph3">&lt;xref:System.Net.IPEndPoint.MaxPort&gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified local endpoint.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したローカル エンドポイントを持つクラス。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This constructor allows you to specify the local IP address and port number on which to listen for incoming connection attempts.</source>
+          <target state="translated">このコンス トラクターでは、ローカル IP アドレスを指定することができ、着信接続をリッスンするポート番号がしようとします。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Before using this constructor, you must create an &lt;xref:System.Net.IPEndPoint&gt; using the desired local IP address and port number.</source>
+          <target state="translated">このコンス トラクターを使用して、前に作成する必要があります、&lt;xref:System.Net.IPEndPoint&gt;必要なローカル IP アドレスとポート番号を使用します&lt;/xref:System.Net.IPEndPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Pass this &lt;xref:System.Net.IPEndPoint&gt; to the constructor as the <ph id="ph1">`localEP`</ph> parameter.</source>
+          <target state="translated">これを渡す&lt;xref:System.Net.IPEndPoint&gt;としてコンス トラクターに、<ph id="ph1">`localEP`</ph>パラメーター&lt;/xref:System.Net.IPEndPoint&gt; 。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If you do not care which local address is assigned, you can create an &lt;xref:System.Net.IPEndPoint&gt; using &lt;xref:System.Net.IPAddress.Any?displayProperty=fullName&gt; as the address parameter, and the underlying service provider will assign the most appropriate network address.</source>
+          <target state="translated">ローカル アドレスの割り当てを限定しない場合は、作成、&lt;xref:System.Net.IPEndPoint&gt;を使用して&lt;xref:System.Net.IPAddress.Any?displayProperty=fullName&gt;アドレス パラメーターと、基になるサービス プロバイダーは、最も適切なネットワーク アドレスを割り当てます&lt;/xref:System.Net.IPAddress.Any?displayProperty=fullName&gt;&lt;/xref:System.Net.IPEndPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This might help simplify your application if you have multiple network interfaces.</source>
+          <target state="translated">これにより、複数のネットワーク インターフェイスがある場合に、アプリケーションを簡略化のに役立ちます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If you do not care which local port is used, you can create an &lt;xref:System.Net.IPEndPoint&gt; using 0 for the port number.</source>
+          <target state="translated">使用されているローカル ポートを限定しない場合は、作成、&lt;xref:System.Net.IPEndPoint&gt;ポート番号として 0 を使用します&lt;/xref:System.Net.IPEndPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>In this case, the service provider will assign an available port number between 1024 and 5000.</source>
+          <target state="translated">この場合、サービス プロバイダーは 1024 ~ 5000 で、使用可能なポート番号を割り当てます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you use this approach, you can discover what local network address and port number has been assigned by using the &lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt; property.</source>
+          <target state="translated">このアプローチを使用する場合を使用してどのようなローカル ネットワーク アドレスとポート番号が割り当てられてを検出することができます、&lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;プロパティ&lt;/xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method to begin listening for incoming connection attempts.</source>
+          <target state="translated">呼び出す、&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;着信接続要求のリッスンを開始するメソッド&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Net.IPEndPoint&gt; that represents the local endpoint to which to bind the listener &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">の&lt;xref:System.Net.IPEndPoint&gt;&lt;xref:System.Net.Sockets.Socket&gt;。&lt;/xref:System.Net.Sockets.Socket&gt;リスナーをバインドするローカル エンドポイントを表す&lt;/xref:System.Net.IPEndPoint&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;localEP&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;localEP&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that listens for incoming connection attempts on the specified local IP address and port number.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>着信接続をリッスンしているクラスは、指定されたローカル IP アドレスとポート番号に試みます。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This constructor allows you to specify the local IP address and port number on which to listen for incoming connection attempts.</source>
+          <target state="translated">このコンス トラクターでは、ローカル IP アドレスを指定することができ、着信接続をリッスンするポート番号がしようとします。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Before calling this constructor you must first create an &lt;xref:System.Net.IPAddress&gt; using the desired local address.</source>
+          <target state="translated">このコンス トラクターを呼び出す前に作成する必要が最初、 &lt;xref:System.Net.IPAddress&gt;、必要なローカル アドレスを使用します&lt;/xref:System.Net.IPAddress&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Pass this &lt;xref:System.Net.IPAddress&gt; to the constructor as the <ph id="ph1">`localaddr`</ph> parameter.</source>
+          <target state="translated">これを渡す&lt;xref:System.Net.IPAddress&gt;としてコンス トラクターに、<ph id="ph1">`localaddr`</ph>パラメーター&lt;/xref:System.Net.IPAddress&gt; 。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you do not care which local address is assigned, specify &lt;xref:System.Net.IPAddress.Any?displayProperty=fullName&gt; for the <ph id="ph1">`localaddr`</ph> parameter, and the underlying service provider will assign the most appropriate network address.</source>
+          <target state="translated">ローカル アドレスの割り当てを限定しない場合は、指定&lt;xref:System.Net.IPAddress.Any?displayProperty=fullName&gt;の<ph id="ph1">`localaddr`</ph>パラメーター、および基になるサービス プロバイダーは最も適切なネットワーク アドレスを割り当てます&lt;/xref:System.Net.IPAddress.Any?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This might help simplify your application if you have multiple network interfaces.</source>
+          <target state="translated">これにより、複数のネットワーク インターフェイスがある場合に、アプリケーションを簡略化のに役立ちます。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you do not care which local port is used, you can specify 0 for the port number.</source>
+          <target state="translated">使用されているローカル ポートを限定しない場合は、ポート番号の場合は 0 を指定できます。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In this case, the service provider will assign an available port number between 1024 and 5000.</source>
+          <target state="translated">この場合、サービス プロバイダーは 1024 ~ 5000 で、使用可能なポート番号を割り当てます。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If you use this approach, you can discover what local network address and port number has been assigned by using the &lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt; property.</source>
+          <target state="translated">このアプローチを使用する場合を使用してどのようなローカル ネットワーク アドレスとポート番号が割り当てられてを検出することができます、&lt;xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;プロパティ&lt;/xref:System.Net.Sockets.TcpListener.LocalEndpoint%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method to begin listening for incoming connection attempts.</source>
+          <target state="translated">呼び出す、&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;着信接続要求のリッスンを開始するメソッド&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Net.IPAddress&gt; that represents the local IP address.</source>
+          <target state="translated">&lt;xref:System.Net.IPAddress&gt;ローカル IP アドレスを表す&lt;/xref:System.Net.IPAddress&gt;。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The port on which to listen for incoming connection attempts.</source>
+          <target state="translated">着信接続の試行をリッスンするポートです。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;localaddr&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;localaddr&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;port&lt;/code&gt;</ph> is not between <ph id="ph2">&lt;xref:System.Net.IPEndPoint.MinPort&gt;</ph> and <ph id="ph3">&lt;xref:System.Net.IPEndPoint.MaxPort&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;port&lt;/code&gt;</ph>間<ph id="ph2">&lt;xref:System.Net.IPEndPoint.MinPort&gt;</ph>と<ph id="ph3">&lt;xref:System.Net.IPEndPoint.MaxPort&gt;</ph>です。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Accepts a pending connection request.</source>
+          <target state="translated">保留中の接続要求を受け付けます。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>AcceptSocket is a blocking method that returns a &lt;xref:System.Net.Sockets.Socket&gt; that you can use to send and receive data.</source>
+          <target state="translated">受け入れはブロッキング メソッドを返す、&lt;xref:System.Net.Sockets.Socket&gt;データの送受信を行えます&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>If you want to avoid blocking, use the &lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt; method to determine if connection requests are available in the incoming connection queue.</source>
+          <target state="translated">ブロックされないようにする場合は、使用、&lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt;接続要求が着信接続のキューで利用可能なかどうかを判断するメソッド&lt;/xref:System.Net.Sockets.TcpListener.Pending%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; returned is initialized with the IP address and port number of the remote host.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;返されたリモート ホストの IP アドレスとポート番号で初期化されます&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can use any of the &lt;xref:System.Net.Sockets.Socket.Send%2A&gt; and &lt;xref:System.Net.Sockets.Socket.Receive%2A&gt; methods available in the &lt;xref:System.Net.Sockets.Socket&gt; class to communicate with the remote host.</source>
+          <target state="translated">いずれかを使用することができます、&lt;xref:System.Net.Sockets.Socket.Send%2A&gt;と&lt;xref:System.Net.Sockets.Socket.Receive%2A&gt;で使用できるメソッド、&lt;xref:System.Net.Sockets.Socket&gt;リモート ホストと通信するクラス&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.Socket.Receive%2A&gt;&lt;/xref:System.Net.Sockets.Socket.Send%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Net.Sockets.Socket&gt;, be sure to call its &lt;xref:System.Net.Sockets.Socket.Close%2A&gt; method.</source>
+          <target state="translated">終了したらを使用して、 &lt;xref:System.Net.Sockets.Socket&gt;、必ずその&lt;xref:System.Net.Sockets.Socket.Close%2A&gt;メソッド&lt;/xref:System.Net.Sockets.Socket.Close%2A&gt;&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If your application is relatively simple, consider using the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method rather than the AcceptSocket method.</source>
+          <target state="translated">アプリケーションが比較的単純な場合は、使用を検討して、&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;受け入れメソッドではなく、メソッド&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Sockets.TcpClient&gt; provides you with simple methods for sending and receiving data over a network in blocking synchronous mode.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpClient&gt;簡単な方法の同期モードのブロックのネットワーク経由でデータを送受信できます。&lt;/xref:System.Net.Sockets.TcpClient&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Net.Sockets.Socket&gt; used to send and receive data.</source>
+          <target state="translated">A&lt;xref:System.Net.Sockets.Socket&gt;データを送受信するために使用します&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The listener has not been started with a call to &lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;。&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;への呼び出しにリスナーが開始されていません</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Accepts a pending connection request as an asynchronous operation.</source>
+          <target state="translated">非同期操作として、保留中の接続要求を受け入れます。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This operation will not block.</source>
+          <target state="translated">この操作はブロックされません。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.Threading.Tasks.Task%601&gt; object will complete after the socket connection has been accepted.</source>
+          <target state="translated">返された&lt;xref:System.Threading.Tasks.Task%601&gt;オブジェクトは、ソケット接続が許可された後に完了します&lt;/xref:System.Threading.Tasks.Task%601&gt;。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; returned in &lt;xref:System.Threading.Tasks.Task%601&gt; is initialized with the IP address and port number of the remote host.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;で返される&lt;xref:System.Threading.Tasks.Task%601&gt;はリモート ホストの IP アドレスとポート番号で初期化します&lt;/xref:System.Threading.Tasks.Task%601&gt;&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You can use any of the &lt;xref:System.Net.Sockets.Socket.Send%2A&gt; and &lt;xref:System.Net.Sockets.Socket.Receive%2A&gt; methods available in the &lt;xref:System.Net.Sockets.Socket&gt; class to communicate with the remote host.</source>
+          <target state="translated">いずれかを使用することができます、&lt;xref:System.Net.Sockets.Socket.Send%2A&gt;と&lt;xref:System.Net.Sockets.Socket.Receive%2A&gt;で使用できるメソッド、&lt;xref:System.Net.Sockets.Socket&gt;リモート ホストと通信するクラス&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.Socket.Receive%2A&gt;&lt;/xref:System.Net.Sockets.Socket.Send%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Net.Sockets.Socket&gt;, be sure to call its &lt;xref:System.Net.Sockets.Socket.Close%2A&gt; method.</source>
+          <target state="translated">終了したらを使用して、 &lt;xref:System.Net.Sockets.Socket&gt;、必ずその&lt;xref:System.Net.Sockets.Socket.Close%2A&gt;メソッド&lt;/xref:System.Net.Sockets.Socket.Close%2A&gt;&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If your application is relatively simple, consider using the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method rather than the AcceptSocketAsync method.</source>
+          <target state="translated">アプリケーションが比較的単純な場合は、使用を検討して、 &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;AcceptSocketAsync メソッドではなく、メソッド&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Sockets.TcpClient&gt; provides you with simple methods for sending and receiving data over a network in blocking synchronous mode.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpClient&gt;簡単な方法の同期モードのブロックのネットワーク経由でデータを送受信できます。&lt;/xref:System.Net.Sockets.TcpClient&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Returns <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601<ph id="ph2">&amp;gt;</ph>       The task object representing the asynchronous operation.</source>
+          <target state="translated">返します<ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601<ph id="ph2">&amp;gt;</ph>非同期操作を表すタスク オブジェクト。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601.Result%2A<ph id="ph2">&amp;gt;</ph> property on the task object returns a &lt;xref:System.Net.Sockets.Socket&gt; used to send and receive data.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Threading.Tasks.Task%601.Result%2A<ph id="ph2">&amp;gt;</ph>タスク オブジェクトのプロパティを返します、&lt;xref:System.Net.Sockets.Socket&gt;データを送受信するために使用します&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The listener has not been started with a call to &lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;。&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;への呼び出しにリスナーが開始されていません</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Accepts a pending connection request.</source>
+          <target state="translated">保留中の接続要求を受け付けます。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>AcceptTcpClient is a blocking method that returns a &lt;xref:System.Net.Sockets.TcpClient&gt; that you can use to send and receive data.</source>
+          <target state="translated">AcceptTcpClient はブロッキング メソッドを返す、&lt;xref:System.Net.Sockets.TcpClient&gt;データの送受信を行えます&lt;/xref:System.Net.Sockets.TcpClient&gt;。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt; method to determine if connection requests are available in the incoming connection queue if you want to avoid blocking.</source>
+          <target state="translated">使用して、&lt;xref:System.Net.Sockets.TcpListener.Pending%2A&gt;がブロックされないようにする場合は、接続要求が着信接続のキューで利用可能なかどうかを調べます&lt;/xref:System.Net.Sockets.TcpListener.Pending%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt; method to obtain the underlying &lt;xref:System.Net.Sockets.NetworkStream&gt; of the returned &lt;xref:System.Net.Sockets.TcpClient&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt;基になるが&lt;xref:System.Net.Sockets.NetworkStream&gt;、返された&lt;xref:System.Net.Sockets.TcpClient&gt;。&lt;/xref:System.Net.Sockets.TcpClient&gt;&lt;/xref:System.Net.Sockets.NetworkStream&gt;を入手する方法&lt;/xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt;を使用して</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.NetworkStream&gt; will provide you with methods for sending and receiving with the remote host.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.NetworkStream&gt;くれますメソッドでのリモート ホストと送受信します&lt;/xref:System.Net.Sockets.NetworkStream&gt;。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>When you are through with the &lt;xref:System.Net.Sockets.TcpClient&gt;, be sure to call its &lt;xref:System.Net.Sockets.TcpClient.Close%2A&gt; method.</source>
+          <target state="translated">経由は、 &lt;xref:System.Net.Sockets.TcpClient&gt;、必ずその&lt;xref:System.Net.Sockets.TcpClient.Close%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpClient.Close%2A&gt;&lt;/xref:System.Net.Sockets.TcpClient&gt;。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If you want greater flexibility than a &lt;xref:System.Net.Sockets.TcpClient&gt; offers, consider using &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpClient&gt;提供物、 &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;。&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;の使用を検討して&lt;/xref:System.Net.Sockets.TcpClient&gt;より柔軟性が向上する場合</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to send and receive data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>データを送受信するために使用します。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The listener has not been started with a call to &lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;。&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;への呼び出しにリスナーが開始されていません</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property to obtain the specific error code.</source>
+          <target state="translated">使用して、 <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>固有のエラー コードを取得するプロパティです。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>When you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">このコードを取得したときに、Windows ソケット バージョン 2 API エラー コードのドキュメントに MSDN でエラーの詳細な説明を参照できます。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Accepts a pending connection request as an asynchronous operation.</source>
+          <target state="translated">非同期操作として、保留中の接続要求を受け入れます。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>This operation will not block.</source>
+          <target state="translated">この操作はブロックされません。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.Threading.Tasks.Task%601&gt; object will complete after the TCP connection has been accepted.</source>
+          <target state="translated">返された&lt;xref:System.Threading.Tasks.Task%601&gt;オブジェクトは、TCP 接続が許可された後に完了します&lt;/xref:System.Threading.Tasks.Task%601&gt;。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt; method to obtain the underlying &lt;xref:System.Net.Sockets.NetworkStream&gt; of the returned &lt;xref:System.Net.Sockets.TcpClient&gt; in the &lt;xref:System.Threading.Tasks.Task%601&gt;.</source>
+          <target state="translated">使用して&lt;xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt;、基になる&lt;xref:System.Net.Sockets.NetworkStream&gt;の返された&lt;xref:System.Net.Sockets.TcpClient&gt;&lt;xref:System.Threading.Tasks.Task%601&gt;。&lt;/xref:System.Threading.Tasks.Task%601&gt;&lt;/xref:System.Net.Sockets.TcpClient&gt;&lt;/xref:System.Net.Sockets.NetworkStream&gt;を入手する方法&lt;/xref:System.Net.Sockets.TcpClient.GetStream%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.NetworkStream&gt; will provide you with methods for sending and receiving with the remote host.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.NetworkStream&gt;くれますメソッドでのリモート ホストと送受信します&lt;/xref:System.Net.Sockets.NetworkStream&gt;。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When you are through with the &lt;xref:System.Net.Sockets.TcpClient&gt;, be sure to call its &lt;xref:System.Net.Sockets.TcpClient.Close%2A&gt; method.</source>
+          <target state="translated">経由は、 &lt;xref:System.Net.Sockets.TcpClient&gt;、必ずその&lt;xref:System.Net.Sockets.TcpClient.Close%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpClient.Close%2A&gt;&lt;/xref:System.Net.Sockets.TcpClient&gt;。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If you want greater flexibility than a &lt;xref:System.Net.Sockets.TcpClient&gt; offers, consider using &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; or &lt;xref:System.Net.Sockets.TcpListener.AcceptSocketAsync%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpClient&gt;提供物、&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;または&lt;xref:System.Net.Sockets.TcpListener.AcceptSocketAsync%2A&gt;。&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocketAsync%2A&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;使用を検討して&lt;/xref:System.Net.Sockets.TcpClient&gt;より柔軟性が向上する場合</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Returns <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601<ph id="ph2">&amp;gt;</ph>       The task object representing the asynchronous operation.</source>
+          <target state="translated">返します<ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601<ph id="ph2">&amp;gt;</ph>非同期操作を表すタスク オブジェクト。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.Threading.Tasks.Task%601.Result%2A<ph id="ph2">&amp;gt;</ph> property on the task object returns a <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to send and receive data.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Threading.Tasks.Task%601.Result%2A<ph id="ph2">&amp;gt;</ph>タスク オブジェクトのプロパティを返します、 <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>データを送受信するために使用します。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The listener has not been started with a call to &lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;。&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;への呼び出しにリスナーが開始されていません</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property to obtain the specific error code.</source>
+          <target state="translated">使用して、 <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>固有のエラー コードを取得するプロパティです。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>When you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">このコードを取得したときに、Windows ソケット バージョン 2 API エラー コードのドキュメントに MSDN でエラーの詳細な説明を参照できます。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is actively listening for client connections.</source>
+          <target state="translated">示す値を取得するかどうか<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>クライアント接続のリッスンがアクティブにします。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Classes deriving from &lt;xref:System.Net.Sockets.TcpListener&gt; can use this property to determine if the &lt;xref:System.Net.Sockets.Socket&gt; is currently listening for incoming connection attempts.</source>
+          <target state="translated">派生するクラス&lt;xref:System.Net.Sockets.TcpListener&gt;かどうかをこのプロパティを使用することができます、&lt;xref:System.Net.Sockets.Socket&gt;は着信接続要求をリッスンしている&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.TcpListener&gt;。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpClient.Active%2A&gt; property can be used to avoid redundant &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; attempts.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpClient.Active%2A&gt;プロパティは、冗長を避けるために使用できます&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;しようとします&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;&lt;/xref:System.Net.Sockets.TcpClient.Active%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is actively listening; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合<bpt id="p2">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>アクティブにリッスンしている以外の場合は、それ以外の場合は、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Enables or disables Network Address Translation (NAT) traversal on a <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">有効または無効にネットワーク アドレス変換 (NAT) トラバーサル、 <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インスタンス。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The AllowNatTraversal method is used to enable or disable NAT traversal for a &lt;xref:System.Net.Sockets.TcpListener&gt; instance.</source>
+          <target state="translated">AllowNatTraversal メソッドが有効にするにまたは NAT トラバーサルを無効にするため、&lt;xref:System.Net.Sockets.TcpListener&gt;インスタンス&lt;/xref:System.Net.Sockets.TcpListener&gt;。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>NAT traversal may be provided using Teredo, 6to4, or an ISATAP tunnel.</source>
+          <target state="translated">NAT トラバーサルを指定するには、Teredo、6to4、または ISATAP トンネルを使用します。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`allowed`</ph> parameter is false, the &lt;xref:System.Net.Sockets.SocketOptionName&gt; option on the associated socket is set to &lt;xref:System.Net.Sockets.IPProtectionLevel&gt;.</source>
+          <target state="translated">ときに、<ph id="ph1">`allowed`</ph>パラメーターが false の場合、 &lt;xref:System.Net.Sockets.SocketOptionName&gt; &lt;xref:System.Net.Sockets.IPProtectionLevel&gt;.&lt;/xref:System.Net.Sockets.IPProtectionLevel&gt;に関連付けられているソケットでオプションが設定されています。&lt;/xref:System.Net.Sockets.SocketOptionName&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>This explicitly disables NAT traversal for a &lt;xref:System.Net.Sockets.TcpListener&gt; instance.</source>
+          <target state="translated">NAT トラバーサルが明示的に無効になります、&lt;xref:System.Net.Sockets.TcpListener&gt;インスタンス&lt;/xref:System.Net.Sockets.TcpListener&gt;。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`allowed`</ph> parameter is true, the &lt;xref:System.Net.Sockets.SocketOptionName&gt; option on the associated socket is set to &lt;xref:System.Net.Sockets.IPProtectionLevel&gt;.</source>
+          <target state="translated">ときに、<ph id="ph1">`allowed`</ph>パラメーターが true の場合、 &lt;xref:System.Net.Sockets.SocketOptionName&gt; &lt;xref:System.Net.Sockets.IPProtectionLevel&gt;.&lt;/xref:System.Net.Sockets.IPProtectionLevel&gt;に関連付けられているソケットでオプションが設定されています。&lt;/xref:System.Net.Sockets.SocketOptionName&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This may allow NAT traversal for a &lt;xref:System.Net.Sockets.TcpListener&gt; depending on firewall rules in place on the system.</source>
+          <target state="translated">これは、NAT トラバーサルを許可することがあります、&lt;xref:System.Net.Sockets.TcpListener&gt;システム上でファイアウォール規則によって異なります&lt;/xref:System.Net.Sockets.TcpListener&gt;。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The AllowNatTraversal method must be invoked prior to calling the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method to begin listening for incoming connection requests (before the socket is bound).</source>
+          <target state="translated">AllowNatTraversal メソッドを呼び出す前に呼び出す必要があります、&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;メソッド (前に、ソケットをバインドすると)、接続要求のリッスンが開始します&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If AllowNatTraversal method is called after the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method, then an &lt;xref:System.InvalidOperationException&gt; will be thrown.</source>
+          <target state="translated">後 AllowNatTraversal メソッドが呼び出された場合、 &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;、メソッド、&lt;xref:System.InvalidOperationException&gt;がスローされます&lt;/xref:System.InvalidOperationException&gt;&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A Teredo address is an IPv6 address with the prefix of 2001::/32.</source>
+          <target state="translated">Teredo アドレスは、IPv6 アドレス プレフィックスが 2001年::/32 です。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Teredo addresses can be returned through normal DNS name resolution or enumerated as an IPv6 address assigned to a local interface.</source>
+          <target state="translated">Teredo アドレスは、通常の DNS 名解決によって返されるまたはローカル インターフェイスに割り当てられている IPv6 アドレスとして列挙できます。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A Boolean value that specifies whether to enable or disable NAT traversal.</source>
+          <target state="translated">有効にするか、NAT トラバーサルを無効にするかどうかを指定するブール値。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The AllowNatTraversal method was called after calling the &lt;xref:System.Net.Sockets.TcpListener.Start*&gt; method</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;を呼び出した後、AllowNatTraversal メソッドが呼び出されました</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to accept an incoming connection attempt.</source>
+          <target state="translated">着信接続の試行をそのまま使用する非同期操作を開始します。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The asynchronous BeginAcceptSocket operation must be completed by calling the &lt;xref:System.Net.Sockets.TcpListener.EndAcceptSocket%2A&gt; method.</source>
+          <target state="translated">呼び出して、非同期 BeginAcceptSocket 操作を完了する必要があります、&lt;xref:System.Net.Sockets.TcpListener.EndAcceptSocket%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.EndAcceptSocket%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Typically, the method is invoked by the <ph id="ph1">`callback`</ph> delegate.</source>
+          <target state="translated">通常、このメソッドはによって、<ph id="ph1">`callback`</ph>を委任します。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>This method does not block until the operation completes.</source>
+          <target state="translated">このメソッドは、操作が完了するまでにはブロックされません。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To block until the operation completes, use the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method.</source>
+          <target state="translated">操作が完了するまでをブロックするを使用して、&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>For detailed information about using the asynchronous programming model, see <bpt id="p1">[</bpt>Calling Synchronous Methods Asynchronously<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、非同期プログラミング モデルを使用して、次を参照してください。<bpt id="p1">[</bpt>同期のメソッドを非同期に呼び出す<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can call the &lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt; property of the returned &lt;xref:System.Net.Sockets.Socket&gt; to identify the remote host's network address and port number.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 呼び出すことができます、 &lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;、返されたプロパティ&lt;xref:System.Net.Sockets.Socket&gt;をリモート ホストのネットワーク アドレスとポート番号を識別します&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive a &lt;xref:System.Net.Sockets.SocketException&gt;, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code and refer to the Windows Sockets version 2 API error code documentation in the MSDN library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept> for a detailed description of the error.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; を受け取った場合、&lt;xref:System.Net.Sockets.SocketException&gt;を使用して、&lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;プロパティを特定のエラー コードを取得し、MSDN ライブラリで Windows ソケット バージョン 2 API のエラー コード ドキュメントを参照してください<bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept>エラーの詳細な説明をします&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;&lt;/xref:System.Net.Sockets.SocketException&gt;。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.AsyncCallback&gt; delegate that references the method to invoke when the operation is complete.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;操作の完了時に呼び出すメソッドを参照するデリゲート&lt;/xref:System.AsyncCallback&gt;。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A user-defined object containing information about the accept operation.</source>
+          <target state="translated">受信操作に関する情報を含むユーザー定義オブジェクト。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This object is passed to the <ph id="ph1">`callback`</ph> delegate when the operation is complete.</source>
+          <target state="translated">このオブジェクトは、<ph id="ph1">`callback`</ph>委任操作が完了するとします。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that references the asynchronous creation of the &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">の&lt;xref:System.IAsyncResult&gt;&lt;xref:System.Net.Sockets.Socket&gt;。&lt;/xref:System.Net.Sockets.Socket&gt;の非同期の作成を参照します。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to access the socket.</source>
+          <target state="translated">ソケットへのアクセス中にエラーが発生しました。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">詳細については「解説」セクションを参照してください。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; has been closed.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;が閉じられました&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to accept an incoming connection attempt.</source>
+          <target state="translated">着信接続の試行をそのまま使用する非同期操作を開始します。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The asynchronous BeginAcceptTcpClient operation must be completed by calling the &lt;xref:System.Net.Sockets.TcpListener.EndAcceptTcpClient%2A&gt; method.</source>
+          <target state="translated">呼び出して、非同期 BeginAcceptTcpClient 操作を完了する必要があります、&lt;xref:System.Net.Sockets.TcpListener.EndAcceptTcpClient%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.EndAcceptTcpClient%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Typically, the method is invoked by the <ph id="ph1">`callback`</ph> delegate.</source>
+          <target state="translated">通常、このメソッドはによって、<ph id="ph1">`callback`</ph>を委任します。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This method does not block until the operation completes.</source>
+          <target state="translated">このメソッドは、操作が完了するまでにはブロックされません。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>To block until the operation completes, use the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method.</source>
+          <target state="translated">操作が完了するまでをブロックするを使用して、&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For detailed information about using the asynchronous programming model, see <bpt id="p1">[</bpt>Calling Synchronous Methods Asynchronously<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、非同期プログラミング モデルを使用して、次を参照してください。<bpt id="p1">[</bpt>同期のメソッドを非同期に呼び出す<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive a &lt;xref:System.Net.Sockets.SocketException&gt;, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code and refer to the Windows Sockets version 2 API error code documentation in the MSDN library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept> for a detailed description of the error.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; を受け取った場合、&lt;xref:System.Net.Sockets.SocketException&gt;を使用して、&lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;プロパティを特定のエラー コードを取得し、MSDN ライブラリで Windows ソケット バージョン 2 API のエラー コード ドキュメントを参照してください<bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept>エラーの詳細な説明をします&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;&lt;/xref:System.Net.Sockets.SocketException&gt;。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.AsyncCallback&gt; delegate that references the method to invoke when the operation is complete.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;操作の完了時に呼び出すメソッドを参照するデリゲート&lt;/xref:System.AsyncCallback&gt;。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>A user-defined object containing information about the accept operation.</source>
+          <target state="translated">受信操作に関する情報を含むユーザー定義オブジェクト。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>This object is passed to the <ph id="ph1">`callback`</ph> delegate when the operation is complete.</source>
+          <target state="translated">このオブジェクトは、<ph id="ph1">`callback`</ph>委任操作が完了するとします。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that references the asynchronous creation of the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;の非同期の作成を参照する、 <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.IAsyncResult&gt; 。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to access the socket.</source>
+          <target state="translated">ソケットへのアクセス中にエラーが発生しました。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">詳細については「解説」セクションを参照してください。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; has been closed.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;が閉じられました&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance to listen on the specified port.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>のインスタンスを指定されたポートでリッスンします。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The port on which to listen for incoming connection attempts.</source>
+          <target state="translated">着信接続の試行をリッスンするポートです。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returns <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance to listen on the specified port.</source>
+          <target state="translated">新しい<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>のインスタンスを指定されたポートでリッスンします。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Asynchronously accepts an incoming connection attempt and creates a new &lt;xref:System.Net.Sockets.Socket&gt; to handle remote host communication.</source>
+          <target state="translated">非同期的に受信接続の試行を受け入れるし、新たに作成&lt;xref:System.Net.Sockets.Socket&gt;をリモート ホスト間の通信を処理します&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>This method blocks until the operation is complete.</source>
+          <target state="translated">このメソッドは、操作するまでブロックを完了します。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>To perform this operation synchronously, use the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method.</source>
+          <target state="translated">この操作を同期的に実行するを使用して、&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can call the &lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt; property of the returned &lt;xref:System.Net.Sockets.Socket&gt; to identify the remote host's network address and port number.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 呼び出すことができます、 &lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;、返されたプロパティ&lt;xref:System.Net.Sockets.Socket&gt;をリモート ホストのネットワーク アドレスとポート番号を識別します&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive a &lt;xref:System.Net.Sockets.SocketException&gt;, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code and refer to the Windows Sockets version 2 API error code documentation in the MSDN library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept> for a detailed description of the error.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; を受け取った場合、&lt;xref:System.Net.Sockets.SocketException&gt;を使用して、&lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;プロパティを特定のエラー コードを取得し、MSDN ライブラリで Windows ソケット バージョン 2 API のエラー コード ドキュメントを参照してください<bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept>エラーの詳細な説明をします&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;&lt;/xref:System.Net.Sockets.SocketException&gt;。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; returned by a call to the &lt;xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt; method.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;への呼び出しによって返される、&lt;xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt;&lt;/xref:System.IAsyncResult&gt;。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">A &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; used to send and receive data.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;データを送受信するために使用します&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; has been closed.</source>
+          <target state="translated">基になる&lt;xref:System.Net.Sockets.Socket&gt;が閉じられました&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter was not created by a call to the &lt;xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt; method.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">asyncResult</ph> <ept id="p1">&lt;/code&gt;</ept>への呼び出しでパラメーターが作成されませんでした、&lt;xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.BeginAcceptSocket*&gt;。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The EndAcceptSocket method was previously called.</source>
+          <target state="translated">EndAcceptSocket メソッドが呼び出されました。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to access the &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;。&lt;/xref:System.Net.Sockets.Socket&gt;にアクセスしようとしているときにエラーが発生しました</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">詳細については「解説」セクションを参照してください。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Asynchronously accepts an incoming connection attempt and creates a new <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to handle remote host communication.</source>
+          <target state="translated">非同期的に受信接続の試行を受け入れるし、新たに作成<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>をリモート ホスト間の通信を処理します。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>This method blocks until the operation is complete.</source>
+          <target state="translated">このメソッドは、操作するまでブロックを完了します。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>To perform this operation synchronously, use the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method.</source>
+          <target state="translated">この操作を同期的に実行するを使用して、&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You can call the &lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt; property of the underlying socket (&lt;xref:System.Net.Sockets.TcpClient.Client%2A&gt;) to identify the remote host's network address and port number.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 呼び出すことができます、&lt;xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;基になるソケットのプロパティ (&lt;xref:System.Net.Sockets.TcpClient.Client%2A&gt;) をリモート ホストのネットワーク アドレスとポート番号を識別します&lt;/xref:System.Net.Sockets.TcpClient.Client%2A&gt;&lt;/xref:System.Net.Sockets.Socket.RemoteEndPoint%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive a &lt;xref:System.Net.Sockets.SocketException&gt;, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code and refer to the Windows Sockets version 2 API error code documentation in the MSDN library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept> for a detailed description of the error.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; を受け取った場合、&lt;xref:System.Net.Sockets.SocketException&gt;を使用して、&lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;プロパティを特定のエラー コードを取得し、MSDN ライブラリで Windows ソケット バージョン 2 API のエラー コード ドキュメントを参照してください<bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept>エラーの詳細な説明をします&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;&lt;/xref:System.Net.Sockets.SocketException&gt;。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; returned by a call to the &lt;xref:System.Net.Sockets.TcpListener.BeginAcceptTcpClient*&gt; method.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;への呼び出しによって返される、&lt;xref:System.Net.Sockets.TcpListener.BeginAcceptTcpClient*&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.BeginAcceptTcpClient*&gt;&lt;/xref:System.IAsyncResult&gt;。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to send and receive data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.TcpClient"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>データを送受信するために使用します。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Gets or sets a &lt;xref:System.Boolean&gt; value that specifies whether the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> allows only one underlying socket to listen to a specific port.</source>
+          <target state="translated">取得または設定、&lt;xref:System.Boolean&gt;値を指定するかどうか、 <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>により、特定のポートをリッスンする&amp;1; つだけの基になるソケット&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>By default, multiple listeners can listen to a specific port.</source>
+          <target state="translated">既定では、複数のリスナーは、特定のポートを聴くことができます。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>However, only one of the listeners can perform operations on the network traffic sent to the port.</source>
+          <target state="translated">ただし、リスナーの&amp;1; つだけでは、ポートに送信されるネットワーク トラフィックの操作を実行できます。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>If more than one listener attempts to bind to a particular port, then the one with the more specific IP address handles the network traffic sent to that port.</source>
+          <target state="translated">複数のリスナーが特定のポートにバインドしようとすると、特定の IP アドレスを持つ&amp;1; つはそのポートに送信されるネットワーク トラフィックを処理します。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Net.Sockets.Socket.ExclusiveAddressUse%2A&gt; property to prevent multiple listeners from listening to a specific port.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket.ExclusiveAddressUse%2A&gt;特定のポートをリッスンしている複数のリスナーを防ぐためにプロパティ&lt;/xref:System.Net.Sockets.Socket.ExclusiveAddressUse%2A&gt;を使用することができます。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Set this property before calling &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;, or call the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method and then set this property.</source>
+          <target state="translated">呼び出しの前に、このプロパティ設定&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;を呼び出したり、&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;メソッドし、このプロパティを設定します&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> allows only one <bpt id="p3">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> to listen to a specific port; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>により、1 つだけ<bpt id="p3">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>特定のポートをリッスンするようにそれ以外の場合、 <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>.</source>
+          <target state="translated">。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for Windows Server 2003 and Windows XP Service Pack 2 and later, and <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for all other versions.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Windows Server 2003 および Windows XP Service Pack 2 以降および<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>の他のすべてのバージョン。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has been started.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>が開始されました。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Call the <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener.Stop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method and then set the &lt;xref:System.Net.Sockets.Socket.ExclusiveAddressUse*&gt; property.</source>
+          <target state="translated">呼び出す、 <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener.Stop"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>メソッドとし、セット、&lt;xref:System.Net.Sockets.Socket.ExclusiveAddressUse*&gt;プロパティ&lt;/xref:System.Net.Sockets.Socket.ExclusiveAddressUse*&gt;。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>An error occurred when attempting to access the underlying socket.</source>
+          <target state="translated">基になるソケットにアクセスしようとするときにエラーが発生しました。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; has been closed.</source>
+          <target state="translated">基になる&lt;xref:System.Net.Sockets.Socket&gt;が閉じられました&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Gets the underlying &lt;xref:System.Net.EndPoint&gt; of the current <bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">基になる取得&lt;xref:System.Net.EndPoint&gt;、現在の<bpt id="p1">&lt;xref href="System.Net.Sockets.TcpListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&lt;/xref:System.Net.EndPoint&gt; 。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>You can use the LocalEndpoint property to identify the local network interface and port number being used to listen for incoming client connection requests, after a socket connection has been made.</source>
+          <target state="translated">LocalEndpoint プロパティを使用して、ソケット接続が確立した後で着信クライアント接続要求をリッスンするように使用されているローカル ネットワーク インターフェイスとポート番号を特定することができます。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>You must first cast this &lt;xref:System.Net.EndPoint&gt; to an &lt;xref:System.Net.IPEndPoint&gt;.</source>
+          <target state="translated">この&lt;xref:System.Net.EndPoint&gt;&lt;xref:System.Net.IPEndPoint&gt;。&lt;/xref:System.Net.IPEndPoint&gt;&lt;/xref:System.Net.EndPoint&gt;最初キャストする必要があります。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>You can then call the &lt;xref:System.Net.IPEndPoint.Address%2A?displayProperty=fullName&gt; property to retrieve the local IP address, and the &lt;xref:System.Net.IPEndPoint.Port%2A?displayProperty=fullName&gt; property to retrieve the local port number.</source>
+          <target state="translated">呼び出すことができます、 &lt;xref:System.Net.IPEndPoint.Address%2A?displayProperty=fullName&gt;、ローカル IP アドレスを取得するプロパティと&lt;xref:System.Net.IPEndPoint.Port%2A?displayProperty=fullName&gt;ローカル ポート番号を取得するプロパティ&lt;/xref:System.Net.IPEndPoint.Port%2A?displayProperty=fullName&gt;&lt;/xref:System.Net.IPEndPoint.Address%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.EndPoint&gt; to which the &lt;xref:System.Net.Sockets.Socket&gt; is bound.</source>
+          <target state="translated">&lt;xref:System.Net.EndPoint&gt;先、&lt;xref:System.Net.Sockets.Socket&gt;がバインドされています&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.EndPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Determines if there are pending connection requests.</source>
+          <target state="translated">保留中の接続要求があるかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>This non-blocking method determines if there are any pending connection requests.</source>
+          <target state="translated">この非ブロッキング メソッドは、保留中の接続要求があるかを判断します。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; and &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; methods block execution until the &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method has queued an incoming connection request, the Pending method can be used to determine if connections are available before attempting to accept them.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;と&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;まで実行をブロックする方法、&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;メソッドには、受信接続要求がキューに、保留中のメソッドは、ライセンス条項に同意する前に、接続が利用可能なかどうかを判断するために使用できます&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if connections are pending; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接続が保留中の場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The listener has not been started with a call to &lt;xref:System.Net.Sockets.TcpListener.Start*&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.Start*&gt;。&lt;/xref:System.Net.Sockets.TcpListener.Start*&gt;への呼び出しにリスナーが開始されていません</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Gets the underlying network &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">基になるネットワーク&lt;xref:System.Net.Sockets.Socket&gt;。&lt;/xref:System.Net.Sockets.Socket&gt;の取得します。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Net.Sockets.TcpListener&gt; creates a &lt;xref:System.Net.Sockets.Socket&gt; to listen for incoming client connection requests.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener&gt;作成、&lt;xref:System.Net.Sockets.Socket&gt;着信クライアント接続要求をリッスンします&lt;/xref:System.Net.Sockets.Socket&gt;。&lt;/xref:System.Net.Sockets.TcpListener&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Classes deriving from &lt;xref:System.Net.Sockets.TcpListener&gt; can use this property to get this &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener&gt;この&lt;xref:System.Net.Sockets.Socket&gt;。&lt;/xref:System.Net.Sockets.Socket&gt;を取得するには、このプロパティを使用することができます&lt;/xref:System.Net.Sockets.TcpListener&gt; から派生するクラス</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Use the underlying &lt;xref:System.Net.Sockets.Socket&gt; returned by the Server property if you require access beyond that which &lt;xref:System.Net.Sockets.TcpListener&gt; provides.</source>
+          <target state="translated">使用して、基になる&lt;xref:System.Net.Sockets.Socket&gt;する以上のアクセスを必要とする場合に、サーバー プロパティによって返されるを&lt;xref:System.Net.Sockets.TcpListener&gt;を提供します&lt;/xref:System.Net.Sockets.TcpListener&gt;&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Server property only returns the &lt;xref:System.Net.Sockets.Socket&gt; used to listen for incoming client connection requests.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; のサーバーのプロパティだけを返します、&lt;xref:System.Net.Sockets.Socket&gt;着信クライアント接続要求をリッスンするために使用します&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method to accept a pending connection request and obtain a &lt;xref:System.Net.Sockets.Socket&gt; for sending and receiving data.</source>
+          <target state="translated">使用して、 &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;、保留中の接続要求を受け入れるし、取得する方法、&lt;xref:System.Net.Sockets.Socket&gt;データを送受信するためです&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>You can also use the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method to accept a pending connection request and obtain a &lt;xref:System.Net.Sockets.TcpClient&gt; for sending and receiving data.</source>
+          <target state="translated">使用することも、 &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;、保留中の接続要求を受け入れるし、取得する方法、&lt;xref:System.Net.Sockets.TcpClient&gt;データを送受信するためです&lt;/xref:System.Net.Sockets.TcpClient&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">基になる&lt;xref:System.Net.Sockets.Socket&gt;。&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Starts listening for incoming connection requests.</source>
+          <target state="translated">接続要求のリッスンを開始します。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The Start method initializes the underlying &lt;xref:System.Net.Sockets.Socket&gt;, binds it to a local endpoint, and listens for incoming connection attempts.</source>
+          <target state="translated">Start メソッドを基になる初期化&lt;xref:System.Net.Sockets.Socket&gt;、ローカル エンドポイントにバインドされ、受信接続が試行をリッスンします&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>If a connection request is received, the Start method will queue the request and continue listening for additional requests until you call the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method.</source>
+          <target state="translated">Start メソッドが要求はキューとが呼び出されるまで、追加の要求のリッスンを続行接続要求を受信する場合、&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Net.Sockets.TcpListener&gt; receives a connection request after it has already queued the maximum number of connections, it will throw a &lt;xref:System.Net.Sockets.SocketException&gt; on the client.</source>
+          <target state="translated">場合&lt;xref:System.Net.Sockets.TcpListener&gt;接続要求を受信スローすることにより、接続の最大数が既にキューに、後に、&lt;xref:System.Net.Sockets.SocketException&gt;クライアント&lt;/xref:System.Net.Sockets.SocketException&gt;&lt;/xref:System.Net.Sockets.TcpListener&gt;。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>To remove a connection from the incoming connection queue, use either the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method or the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method.</source>
+          <target state="translated">着信接続のキューからの接続を削除するには、いずれかを使用、&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;メソッドまたは&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method will remove a connection from the queue and return a &lt;xref:System.Net.Sockets.TcpClient&gt; that you can use to send and receive data.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;メソッドは、キューからの接続を削除し、返す、&lt;xref:System.Net.Sockets.TcpClient&gt;データの送受信を行えます&lt;/xref:System.Net.Sockets.TcpClient&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method will return a &lt;xref:System.Net.Sockets.Socket&gt; that you can use to do the same.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;メソッドは、&lt;xref:System.Net.Sockets.Socket&gt;同じ操作を実行に使用できる&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>If your application only requires synchronous I/O, use &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;.</source>
+          <target state="translated">アプリケーションには、同期 I/O しか必要とする場合は、 &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;を使用してください。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>For more detailed behavioral control, use &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;.</source>
+          <target state="translated">詳細な動作の制御、 &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;。&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;を使用します。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Both of these methods block until a connection request is available in the queue.</source>
+          <target state="translated">これら両方のメソッドは、接続要求が、キューで使用可能になるまでブロックします。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method to close the &lt;xref:System.Net.Sockets.TcpListener&gt; and stop listening.</source>
+          <target state="translated">使用して、&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;を終了するメソッド、&lt;xref:System.Net.Sockets.TcpListener&gt;リッスンし、停止します&lt;/xref:System.Net.Sockets.TcpListener&gt;&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>You are responsible for closing your accepted connections separately.</source>
+          <target state="translated">別に、承認済みの接続の終了を担当しています。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property to obtain the specific error code.</source>
+          <target state="translated">使用して、 <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>固有のエラー コードを取得するプロパティです。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>When you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">このコードを取得したときに、Windows ソケット バージョン 2 API エラー コードのドキュメントに MSDN でエラーの詳細な説明を参照できます。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Starts listening for incoming connection requests with a maximum number of pending connection.</source>
+          <target state="translated">保留中の接続の数が最大で着信接続要求のリッスンを開始します。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; method initializes the underlying &lt;xref:System.Net.Sockets.Socket&gt;, binds it to a local endpoint, and listens for incoming connection attempts.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;メソッドは、基になる、初期化&lt;xref:System.Net.Sockets.Socket&gt;、ローカル エンドポイントにバインドされ、受信接続が試行をリッスンします&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>If a connection request is received, &lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt; will queue the request and continue listening for additional requests until you call the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method.</source>
+          <target state="translated">接続要求が受信した場合、&lt;xref:System.Net.Sockets.TcpListener.Start%2A&gt;は要求はキューにし、呼び出すまで、追加の要求のリッスンを続行、&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;&lt;/xref:System.Net.Sockets.TcpListener.Start%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Net.Sockets.TcpListener&gt; receives a connection request after it has already queued the maximum number of connections it will throw a &lt;xref:System.Net.Sockets.SocketException&gt; on the client.</source>
+          <target state="translated">場合&lt;xref:System.Net.Sockets.TcpListener&gt;が、スローする接続の最大数は、キューに登録した後、接続要求を受信、&lt;xref:System.Net.Sockets.SocketException&gt;クライアント&lt;/xref:System.Net.Sockets.SocketException&gt;&lt;/xref:System.Net.Sockets.TcpListener&gt;。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>To remove a connection from the incoming connection queue, use either the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method or the &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method.</source>
+          <target state="translated">着信接続のキューからの接続を削除するには、いずれかを使用、&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;メソッドまたは&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt; method will remove a connection from the queue and return a &lt;xref:System.Net.Sockets.TcpClient&gt; that you can use to send and receive data.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;メソッドは、キューからの接続を削除し、返す、&lt;xref:System.Net.Sockets.TcpClient&gt;データの送受信を行えます&lt;/xref:System.Net.Sockets.TcpClient&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method will return a &lt;xref:System.Net.Sockets.Socket&gt; that you can use to do the same.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;メソッドは、&lt;xref:System.Net.Sockets.Socket&gt;同じ操作を実行に使用できる&lt;/xref:System.Net.Sockets.Socket&gt;&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>If your application only requires synchronous I/O, use the &lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;.</source>
+          <target state="translated">アプリケーションには、同期 I/O しか必要とする場合は使用&lt;xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;。&lt;/xref:System.Net.Sockets.TcpListener.AcceptTcpClient%2A&gt;</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>For more detailed behavioral control, use &lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt; method.</source>
+          <target state="translated">詳細な動作上のコントロールは、使用して&lt;xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;メソッド&lt;/xref:System.Net.Sockets.TcpListener.AcceptSocket%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Both of these methods block until a connection request is available in the queue.</source>
+          <target state="translated">これら両方のメソッドは、接続要求が、キューで使用可能になるまでブロックします。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt; method to close the &lt;xref:System.Net.Sockets.TcpListener&gt; and stop listening.</source>
+          <target state="translated">使用して、&lt;xref:System.Net.Sockets.TcpListener.Stop%2A&gt;を終了するメソッド、&lt;xref:System.Net.Sockets.TcpListener&gt;リッスンし、停止します&lt;/xref:System.Net.Sockets.TcpListener&gt;&lt;/xref:System.Net.Sockets.TcpListener.Stop%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>You are responsible for closing your accepted connections separately.</source>
+          <target state="translated">別に、承認済みの接続の終了を担当しています。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code and refer to the Windows Sockets version 2 API error code documentation in the MSDN library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept> for a detailed description of the error.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; を使用して、&lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;プロパティを特定のエラー コードを取得し、MSDN ライブラリで Windows ソケット バージョン 2 API のエラー コード ドキュメントを参照してください<bpt id="p1">[</bpt>http://msdn.microsoft.com/library/<ept id="p1">](http://msdn.microsoft.com/library/)</ept>のエラーの詳細な説明&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>The maximum length of the pending connections queue.</source>
+          <target state="translated">保留中の接続のキューの最大長。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>An error occurred while accessing the socket.</source>
+          <target state="translated">ソケットへのアクセス中にエラーが発生しました。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">詳細については「解説」セクションを参照してください。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1"> backlog</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than zero or exceeds the maximum number of permitted connections.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1"> backlog</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが&amp;0; より小さいか許可されている接続の最大数を超えています。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; is null.</source>
+          <target state="translated">基になる&lt;xref:System.Net.Sockets.Socket&gt;が null です&lt;/xref:System.Net.Sockets.Socket&gt;。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Closes the listener.</source>
+          <target state="translated">リスナーを閉じます。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Stop closes the listener.</source>
+          <target state="translated">停止は、リスナーを閉じます。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Any unaccepted connection requests in the queue will be lost.</source>
+          <target state="translated">キュー内の任意の未承認の接続要求はすべて失われます。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Remote hosts waiting for a connection to be accepted will throw a &lt;xref:System.Net.Sockets.SocketException&gt;.</source>
+          <target state="translated">許容されるためにリモート ホスト接続を待って&lt;xref:System.Net.Sockets.SocketException&gt;。&lt;/xref:System.Net.Sockets.SocketException&gt;がスローされます。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>You are responsible for closing your accepted connections separately.</source>
+          <target state="translated">別に、承認済みの接続の終了を担当しています。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This member outputs trace information when you enable network tracing in your application.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このメンバーは、アプリケーションでネットワーク トレースを有効にする場合にトレース情報を出力します。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Network Tracing in the .NET Framework<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>.NET Framework のネットワークのトレース<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property to obtain the specific error code.</source>
+          <target state="translated">使用して、 <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>固有のエラー コードを取得するプロパティです。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>When you have obtained this code, you can refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">このコードを取得したときに、Windows ソケット バージョン 2 API エラー コードのドキュメントに MSDN でエラーの詳細な説明を参照できます。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

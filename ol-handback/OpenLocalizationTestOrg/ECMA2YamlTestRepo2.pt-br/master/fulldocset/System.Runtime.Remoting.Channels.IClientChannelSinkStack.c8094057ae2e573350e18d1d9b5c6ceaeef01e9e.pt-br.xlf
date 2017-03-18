@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a4211e680eb2ed0a94e8f6223ea0787105b6aa41</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Channels.IClientChannelSinkStack.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b0238d1449ea18d134858ad81c9b65260c686d9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cba03d7cc6ea6fb568d286dc373922a9e39df0ed</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides functionality for a stack of client channel sinks that must be invoked during an asynchronous message response decoding.</source>
+          <target state="translated">Fornece funcionalidade para uma pilha do cliente de Coletores de canal que devem ser invocados durante uma decodificação de resposta de mensagens assíncronas.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IClientChannelSinkStack is used during processing of responses to asynchronous calls.</source>
+          <target state="translated">O IClientChannelSinkStack é usado durante o processamento de respostas a chamadas assíncronas.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During a synchronous call, the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A?displayProperty=fullName&gt; method is called when a message is outbound to the server.</source>
+          <target state="translated">Durante uma chamada síncrona, o &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A?displayProperty=fullName&gt;método é chamado quando uma mensagem é de saída para o servidor.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each sink in the sink chain calls the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt; method on the next sink until the call reaches the transport sink at the end of the chain.</source>
+          <target state="translated">Cada coletor nas chamadas de cadeia de coletor de &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt;método no coletor Avançar até que a chamada alcance o coletor de transporte no final da cadeia.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>From there the message is transported to the server.</source>
+          <target state="translated">A partir daí a mensagem é transportada para o servidor.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the formatter sink is called through the &lt;xref:System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage%2A&gt; method, it dispatches the call asynchronously by calling &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt; on the next channel sink.</source>
+          <target state="translated">Quando o coletor do formatador é chamado por meio de &lt;xref:System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage%2A&gt;método, ele envia a chamada assíncrona chamando &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;no coletor de canal Avançar.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt; &lt;/xref:System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A stack of reply sinks is needed to process the response.</source>
+          <target state="translated">Uma pilha de Coletores de resposta é necessária para processar a resposta.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any sink that wants to process the response needs to push itself to the client channel sink stack inside of &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;.</source>
+          <target state="translated">Qualquer coletor que deseja processar a resposta precisa enviar por push em si a pilha do coletor de canal cliente dentro de &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Pops the information associated with all the sinks from the sink stack up to and including the specified sink.</source>
+          <target state="translated">Exibe as informações associadas com todos os coletores de pilha do coletor até e incluindo o coletor especificado.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The sink to remove and return from the sink stack.</source>
+          <target state="translated">O coletor remover e retornar da pilha de coletor.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Information generated on the request side and associated with the specified sink.</source>
+          <target state="translated">Informações geradas no lado de solicitação e associado com o coletor especificado.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">O chamador imediato não tem permissão de infraestrutura.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Pushes the specified sink and information associated with it onto the sink stack.</source>
+          <target state="translated">Envia as informações associadas na pilha do coletor e o coletor especificado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The information generated on the request side and specified in the <ph id="ph1">`state`</ph> parameter is returned in the <ph id="ph2">`state`</ph> parameter of the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessResponse%2A&gt; method on the corresponding sink.</source>
+          <target state="translated">As informações geradas no lado de solicitação e especificado no <ph id="ph1">`state`</ph> parâmetro é retornado no <ph id="ph2">`state`</ph> parâmetro do &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessResponse%2A&gt;método no coletor correspondente.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessResponse%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The sink to push onto the sink stack.</source>
+          <target state="translated">O coletor para enviar por push para a pilha de coletor.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Information generated on the request side that is needed on the response side.</source>
+          <target state="translated">Informações geradas no lado de solicitação que é necessária no lado de resposta.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">O chamador imediato não tem permissão de infraestrutura.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

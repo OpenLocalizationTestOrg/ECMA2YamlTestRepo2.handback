@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b64572575619f7a896684e2196bf4e2b0992954f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Reflection.Emit.DynamicILInfo.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5a5c362050b52a243b66dd52c38cc7f8d60d798</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8886c1867fbf54fb3be60e1ace1708b37380f95d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides support for alternative ways to generate the Microsoft intermediate language (MSIL) and metadata for a dynamic method, including methods for creating tokens and for inserting the code, exception handling, and local variable signature blobs.</source>
+          <target state="translated">Обеспечивает поддержку альтернативных методов для создания промежуточного языка Майкрософт (MSIL) и метаданных для динамического метода, включая методы создания маркеров и вставки кода, обработки исключений и больших двоичных объектов подписи локальной переменной.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DynamicILInfo class allows developers to write their own MSIL generators instead of using &lt;xref:System.Reflection.Emit.ILGenerator&gt;.</source>
+          <target state="translated">Класс DynamicILInfo позволяет разработчикам создавать свои собственные генераторы MSIL вместо использования &lt;xref:System.Reflection.Emit.ILGenerator&gt;.&lt;/xref:System.Reflection.Emit.ILGenerator&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create instances of other types, call methods, and so on, the MSIL you generate must include tokens for those entities.</source>
+          <target state="translated">Чтобы создать экземпляры других типов, вызывать методы и т. д, созданный MSIL должен включать маркеры для этих сущностей.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DynamicILInfo class provides several overloads of the &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt; method, which return tokens valid in the scope of the current DynamicILInfo.</source>
+          <target state="translated">Класс DynamicILInfo предоставляет несколько перегрузок &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt;метод, который будет возвращать маркеры допустимый в области текущего DynamicILInfo.&lt;/xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you need to call an overload of the &lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt; method, you can obtain a &lt;xref:System.RuntimeMethodHandle&gt; for that overload and pass it to the &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt; method to obtain a token to embed in your MSIL.</source>
+          <target state="translated">Например, если необходимо вызвать перегрузку &lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt;метода, вы можете получить &lt;xref:System.RuntimeMethodHandle&gt;для перегрузки и передать его в &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt;метод, чтобы получить маркер для внедрения в ваш код MSIL.&lt;/xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt; &lt;/xref:System.RuntimeMethodHandle&gt; &lt;/xref:System.Console.WriteLine%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once you have created &lt;xref:System.Byte&gt; arrays for your local variable signature, exceptions, and code body, you can use the &lt;xref:System.Reflection.Emit.DynamicILInfo.SetCode%2A&gt;, &lt;xref:System.Reflection.Emit.DynamicILInfo.SetExceptions%2A&gt;, and &lt;xref:System.Reflection.Emit.DynamicILInfo.SetLocalSignature%2A&gt; methods to insert them into the &lt;xref:System.Reflection.Emit.DynamicMethod&gt; associated with your DynamicILInfo object.</source>
+          <target state="translated">После создания &lt;xref:System.Byte&gt;массивы для подписи локальной переменной, исключения и тело кода, можно использовать &lt;xref:System.Reflection.Emit.DynamicILInfo.SetCode%2A&gt;, &lt;xref:System.Reflection.Emit.DynamicILInfo.SetExceptions%2A&gt;, и &lt;xref:System.Reflection.Emit.DynamicILInfo.SetLocalSignature%2A&gt;методы для вставки их в &lt;xref:System.Reflection.Emit.DynamicMethod&gt;связанные с объектом DynamicILInfo.&lt;/xref:System.Reflection.Emit.DynamicMethod&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.SetLocalSignature%2A&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.SetExceptions%2A&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.SetCode%2A&gt; &lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generating your own metadata and MSIL requires familiarity with the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">Создание собственных метаданных и MSIL требует знакомстве с документацией по Common Language Infrastructure (CLI), особенно «Раздел II: определение метаданных и семантика» и «Раздел III набору инструкций CIL».</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">Документация доступна через Интернет; в разделе <bpt id="p1">[</bpt>ECMA C# и общий стандарты инфраструктуры языка<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> на сайте MSDN и <bpt id="p2">[</bpt>стандарту ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> на сайте Ecma International.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Do not use DynamicILInfo to generate code that creates a delegate to another dynamic method by calling the delegate constructor directly.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек DynamicILInfo не следует использовать для создания кода, который создает делегат для другой динамический метод путем вызова конструктора делегата непосредственно.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, use the &lt;xref:System.Reflection.Emit.DynamicMethod.CreateDelegate%2A&gt; method to create the delegate.</source>
+          <target state="translated">Вместо этого используйте &lt;xref:System.Reflection.Emit.DynamicMethod.CreateDelegate%2A&gt;метод для создания делегата.&lt;/xref:System.Reflection.Emit.DynamicMethod.CreateDelegate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A delegate that is created with the delegate constructor does not have a reference to the target dynamic method.</source>
+          <target state="translated">Делегат, который создается с помощью конструктора делегата имеет ссылку на целевой динамический метод.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The dynamic method might be reclaimed by garbage collection while the delegate is still in use.</source>
+          <target state="translated">Динамический метод может быть сборщиком мусора, когда делегат по-прежнему используется.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets the dynamic method whose body is generated by the current instance.</source>
+          <target state="translated">Возвращает динамический метод, тело которого создается в текущем экземпляре.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object is always associated with a dynamic method.</source>
+          <target state="translated">Объект &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;объект всегда связан с динамического метода.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The purpose of the &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; class is to provide another way of inserting the MSIL stream, exception handling, and local variable signature into a dynamic method, for developers who want to generate MSIL without using the &lt;xref:System.Reflection.Emit.ILGenerator&gt; class.</source>
+          <target state="translated">Назначение &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;класса является предоставление альтернативного способа вставки потока MSIL, обработки исключений и подписи локальных переменных в динамический метод, для разработчиков, которым требуется создать MSIL без использования &lt;xref:System.Reflection.Emit.ILGenerator&gt;класса.&lt;/xref:System.Reflection.Emit.ILGenerator&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.Emit.DynamicMethod&gt; object representing the dynamic method for which the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is generating code.</source>
+          <target state="translated">Объект &lt;xref:System.Reflection.Emit.DynamicMethod&gt;объект, представляющий динамический метод, для которого текущий <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта создание кода.&lt;/xref:System.Reflection.Emit.DynamicMethod&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing the signature for the associated dynamic method.</source>
+          <target state="translated">Возвращает токен, допустимый в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, представляющая подпись для связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on signature blobs, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">Сведения о больших двоичных объектов подписи см. в документации Common Language Infrastructure (CLI), особенно «раздел II: определение метаданных и семантика».</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">Документация доступна через Интернет; в разделе <bpt id="p1">[</bpt>ECMA C# и общий стандарты инфраструктуры языка<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> на сайте MSDN и <bpt id="p2">[</bpt>стандарту ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> на сайте Ecma International.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An array that contains the signature.</source>
+          <target state="translated">Массив, содержащий сигнатуру.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A token that can be embedded in the metadata and the MSIL stream for the associated dynamic method.</source>
+          <target state="translated">Токен, который может быть внедрен в метаданные и поток MSIL для связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a dynamic method to be called from the associated method.</source>
+          <target state="translated">Возвращает токен, допустимый в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, представляющего динамический метод, вызываемый из связанного метода.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The token returned by this method overload allows you to call a dynamic method from the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Токен, возвращенный перегрузка метода позволяет вызвать динамический метод из динамического метода, связанного с текущим &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;объекта.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To call the associated dynamic method recursively, pass the value of the &lt;xref:System.Reflection.Emit.DynamicILInfo.DynamicMethod%2A&gt; property.</source>
+          <target state="translated">Чтобы вызвать рекурсивно связанного динамического метода, передайте значение &lt;xref:System.Reflection.Emit.DynamicILInfo.DynamicMethod%2A&gt;Свойства.&lt;/xref:System.Reflection.Emit.DynamicILInfo.DynamicMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The dynamic method to call.</source>
+          <target state="translated">Динамический метод для вызова.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A token that can be embedded in the MSIL stream for the associated dynamic method, as the target of an MSIL instruction.</source>
+          <target state="translated">Токен, который может быть встроен в поток MSIL для связанного динамического метода в качестве назначения инструкции MSIL.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a field to be accessed from the associated dynamic method.</source>
+          <target state="translated">Возвращает токен, допустимый в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, представляющий поле должен быть получен из связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must obtain a token for any field that will be accessed by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Необходимо получить маркер для любого поля, будут доступны для динамического метода, связанного с текущим &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;объекта.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.FieldInfo&gt; for the field you want to access, then use the &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; property to get the &lt;xref:System.RuntimeFieldHandle&gt;.</source>
+          <target state="translated">Используйте &lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt;метод, чтобы получить &lt;xref:System.Reflection.FieldInfo&gt;поля, которое требуется доступ, а затем с помощью &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt;Свойства &lt;xref:System.RuntimeFieldHandle&gt;.&lt;/xref:System.RuntimeFieldHandle&gt; &lt;/xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; &lt;/xref:System.Reflection.FieldInfo&gt; &lt;/xref:System.Type.GetField%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The field to be accessed.</source>
+          <target state="translated">Поле для доступа.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses fields, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Маркер, который может использоваться в качестве операнда инструкции MSIL, который обращается к поля в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a method to be accessed from the associated dynamic method.</source>
+          <target state="translated">Возвращает токен, допустимый в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, представляющего метод, который должен быть получен из связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must obtain a token for any method that will be accessed by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Необходимо получить маркер для любого метода, будут доступны для динамического метода, связанного с текущим &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;объекта.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.MethodInfo&gt; for the method you want to access, and then use the &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt; property to get the &lt;xref:System.RuntimeMethodHandle&gt;.</source>
+          <target state="translated">Используйте &lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;метод для получения &lt;xref:System.Reflection.MethodInfo&gt;метода, который требуется открыть и затем с помощью &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt;Свойства &lt;xref:System.RuntimeMethodHandle&gt;.&lt;/xref:System.RuntimeMethodHandle&gt; &lt;/xref:System.Reflection.MethodBase.MethodHandle%2A&gt; &lt;/xref:System.Reflection.MethodInfo&gt; &lt;/xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For a method that belongs to a generic type, use the &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%28System.RuntimeMethodHandle%2CSystem.RuntimeTypeHandle%29&gt; method overload and specify a &lt;xref:System.RuntimeTypeHandle&gt; for the generic type.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек для метода, принадлежащего к универсальному типу, используйте &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%28System.RuntimeMethodHandle%2CSystem.RuntimeTypeHandle%29&gt;перегрузки метода и укажите &lt;xref:System.RuntimeTypeHandle&gt;для универсального типа.&lt;/xref:System.RuntimeTypeHandle&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%28System.RuntimeMethodHandle%2CSystem.RuntimeTypeHandle%29&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The method to be accessed.</source>
+          <target state="translated">Метод для доступа.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses methods, such as &lt;xref:System.Reflection.Emit.OpCodes.Call&gt; or &lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Маркер, который может использоваться в качестве операнда инструкции MSIL, который обращается к методы, такие как &lt;xref:System.Reflection.Emit.OpCodes.Call&gt;или &lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;, в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.&lt;/xref:System.Reflection.Emit.OpCodes.Ldtoken&gt; &lt;/xref:System.Reflection.Emit.OpCodes.Call&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a type to be used in the associated dynamic method.</source>
+          <target state="translated">Возвращает токен, допустимый в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, представляющий тип, используемый в связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The token returned by this method overload allows you to define a local variable type, and emit MSIL to create an instance of a type in the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Токен, возвращенный перегрузка метода позволяет определить тип локальной переменной и выпустить MSIL для создания экземпляра типа в динамический метод, связанный с текущим &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;объекта.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To get a &lt;xref:System.RuntimeTypeHandle&gt; representing a type, use the &lt;xref:System.Type.TypeHandle%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Для получения &lt;xref:System.RuntimeTypeHandle&gt;представляет тип, используйте &lt;xref:System.Type.TypeHandle%2A?displayProperty=fullName&gt;свойство.&lt;/xref:System.Type.TypeHandle%2A?displayProperty=fullName&gt; &lt;/xref:System.RuntimeTypeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The type to be used.</source>
+          <target state="translated">Тип, который будет использоваться.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that requires a type, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Маркер, который может использоваться в качестве операнда инструкции MSIL, требуется тип в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a string literal to be used in the associated dynamic method.</source>
+          <target state="translated">Возвращает токен, допустимый в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, представляющее строковый литерал для использования в связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The string to be used.</source>
+          <target state="translated">Строка для использования.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that requires a string, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Маркер, который может использоваться в качестве операнда инструкции MSIL, на котором требуется строка, в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a field to be accessed from the associated dynamic method; the field is on the specified generic type.</source>
+          <target state="translated">Возвращает токен, допустимый в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, представляющий поле должен быть получен из связанного динамического метода; поле находится на указанного универсального типа.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must obtain a token for any field that will be accessed by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Необходимо получить маркер для любого поля, будут доступны для динамического метода, связанного с текущим &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;объекта.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.FieldInfo&gt; for the field you want to access, and then use the &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; property to get the &lt;xref:System.RuntimeFieldHandle&gt;.</source>
+          <target state="translated">Используйте &lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt;метод, чтобы получить &lt;xref:System.Reflection.FieldInfo&gt;поля, которое нужно открыть и затем с помощью &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt;Свойства &lt;xref:System.RuntimeFieldHandle&gt;.&lt;/xref:System.RuntimeFieldHandle&gt; &lt;/xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; &lt;/xref:System.Reflection.FieldInfo&gt; &lt;/xref:System.Type.GetField%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The field to be accessed.</source>
+          <target state="translated">Поле для доступа.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The generic type the field belongs to.</source>
+          <target state="translated">Универсальный тип, к которому принадлежит поле.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses fields in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Маркер, который может использоваться в качестве операнда инструкции MSIL, который обращается к поля в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a method on a generic type.</source>
+          <target state="translated">Возвращает токен, допустимый в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, представляющего метод, для универсального типа.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must obtain a token for any method that will be called by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">Необходимо получить маркер для любого метода, который будет вызываться динамического метода, связанного с текущим &lt;xref:System.Reflection.Emit.DynamicILInfo&gt;объекта.&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.MethodInfo&gt; for the method you want to call, and then use the &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt; property to get the &lt;xref:System.RuntimeMethodHandle&gt;.</source>
+          <target state="translated">Используйте &lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;метод для получения &lt;xref:System.Reflection.MethodInfo&gt;метода, который вы хотите вызвать, а затем использовать &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt;свойство для получения &lt;xref:System.RuntimeMethodHandle&gt;.&lt;/xref:System.RuntimeMethodHandle&gt; &lt;/xref:System.Reflection.MethodBase.MethodHandle%2A&gt; &lt;/xref:System.Reflection.MethodInfo&gt; &lt;/xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The method.</source>
+          <target state="translated">Метод.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The generic type the method belongs to.</source>
+          <target state="translated">Универсальный тип, к которому принадлежит метод.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses methods, such as &lt;xref:System.Reflection.Emit.OpCodes.Call&gt; or &lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Маркер, который может использоваться в качестве операнда инструкции MSIL, который обращается к методы, такие как &lt;xref:System.Reflection.Emit.OpCodes.Call&gt;или &lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;, в области текущего <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.&lt;/xref:System.Reflection.Emit.OpCodes.Ldtoken&gt; &lt;/xref:System.Reflection.Emit.OpCodes.Call&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Sets the code body of the associated dynamic method.</source>
+          <target state="translated">Задает текст кода связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No validity checks are performed on the MSIL stream.</source>
+          <target state="translated">Проверка допустимости не выполняется в потоке MSIL.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method a second time replaces the first MSIL stream with the second.</source>
+          <target state="translated">Второй вызов этого метода во второй раз заменяет первый поток MSIL.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generating your own metadata and MSIL requires familiarity with the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">Создание собственных метаданных и MSIL требует знакомстве с документацией по Common Language Infrastructure (CLI), особенно «Раздел II: определение метаданных и семантика» и «Раздел III набору инструкций CIL».</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">Документация доступна через Интернет; в разделе <bpt id="p1">[</bpt>ECMA C# и общий стандарты инфраструктуры языка<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> на сайте MSDN и <bpt id="p2">[</bpt>стандарту ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> на сайте Ecma International.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An array that contains the MSIL stream.</source>
+          <target state="translated">Массив, содержащий поток MSIL.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The maximum number of items on the operand stack when the method is executing.</source>
+          <target state="translated">Максимальное количество элементов в стеке операторов при выполнении метода.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Sets the code body of the associated dynamic method.</source>
+          <target state="translated">Задает текст кода связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No validity checks are performed on the MSIL stream.</source>
+          <target state="translated">Проверка допустимости не выполняется в потоке MSIL.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method a second time replaces the first MSIL stream with the second.</source>
+          <target state="translated">Второй вызов этого метода во второй раз заменяет первый поток MSIL.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Generating your own metadata and MSIL requires familiarity with the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set."</source>
+          <target state="translated">Создание собственных метаданных и MSIL требует знакомства с документацией по Common Language Infrastructure (CLI), особенно «раздел II: определение метаданных и семантика» и «раздел III: набор инструкций CIL.»</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">Документация доступна через Интернет; в разделе <bpt id="p1">[</bpt>ECMA C# и общий стандарты инфраструктуры языка<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> на сайте MSDN и <bpt id="p2">[</bpt>стандарту ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> на сайте Ecma International.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A pointer to a byte array containing the MSIL stream.</source>
+          <target state="translated">Указатель на массив байтов, содержащий поток MSIL.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the MSIL stream.</source>
+          <target state="translated">Число байтов в поток MSIL.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The maximum number of items on the operand stack when the method is executing.</source>
+          <target state="translated">Максимальное количество элементов в стеке операторов при выполнении метода.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;code&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph2">&lt;code&gt;codeSize&lt;/code&gt;</ph> is greater than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;code&lt;/code&gt;</ph>— <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> и <ph id="ph2">&lt;code&gt;codeSize&lt;/code&gt;</ph> больше 0.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;codeSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;codeSize&lt;/code&gt;</ph>меньше 0.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Sets the exception metadata for the associated dynamic method.</source>
+          <target state="translated">Задает метаданные исключения для связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception metadata for a method defines the location and size of all <ph id="ph1">`try`</ph>, <ph id="ph2">`catch`</ph>, <ph id="ph3">`finally`</ph>, filter, and fault blocks.</source>
+          <target state="translated">Метаданные исключения для метода определяют расположение и размер всех <ph id="ph1">`try`</ph>, <ph id="ph2">`catch`</ph>, <ph id="ph3">`finally`</ph>, фильтра и сбойных блоков.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on the layout of this metadata, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">Сведения о макете этих метаданных см. в документации Common Language Infrastructure (CLI), особенно «раздел II: определение метаданных и семантика».</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">Документация доступна через Интернет; в разделе <bpt id="p1">[</bpt>ECMA C# и общий стандарты инфраструктуры языка<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> на сайте MSDN и <bpt id="p2">[</bpt>стандарту ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> на сайте Ecma International.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An array that contains the exception metadata.</source>
+          <target state="translated">Массив, содержащий метаданные исключения.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Sets the exception metadata for the associated dynamic method.</source>
+          <target state="translated">Задает метаданные исключения для связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception metadata for a method defines the location and size of all <ph id="ph1">`try`</ph>, <ph id="ph2">`catch`</ph>, <ph id="ph3">`finally`</ph>, filter, and fault blocks.</source>
+          <target state="translated">Метаданные исключения для метода определяют расположение и размер всех <ph id="ph1">`try`</ph>, <ph id="ph2">`catch`</ph>, <ph id="ph3">`finally`</ph>, фильтра и сбойных блоков.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on the layout of this metadata, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">Сведения о макете этих метаданных см. в документации Common Language Infrastructure (CLI), особенно «Раздел II: определение метаданных и семантика» и «Раздел III набору инструкций CIL».</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">Документация доступна через Интернет; в разделе <bpt id="p1">[</bpt>ECMA C# и общий стандарты инфраструктуры языка<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> на сайте MSDN и <bpt id="p2">[</bpt>стандарту ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> на сайте Ecma International.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A pointer to a byte array containing the exception metadata.</source>
+          <target state="translated">Указатель на массив байтов, содержащий метаданные исключения.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The number of bytes of exception metadata.</source>
+          <target state="translated">Число байтов в метаданных исключения.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;exceptions&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph2">&lt;code&gt;exceptionSize&lt;/code&gt;</ph> is greater than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;exceptions&lt;/code&gt;</ph>— <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> и <ph id="ph2">&lt;code&gt;exceptionSize&lt;/code&gt;</ph> больше 0.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;exceptionSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;exceptionSize&lt;/code&gt;</ph>меньше 0.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Sets the local variable signature that describes the layout of local variables for the associated dynamic method.</source>
+          <target state="translated">Задает подпись локальной переменной, которая описывает структуру локальных переменных для связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The local variable signature describes the layout of a method's local variables.</source>
+          <target state="translated">Подпись локальной переменной описывает структуру локальных переменных метода.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To simplify construction of the local variable signature, use the <ph id="ph1">`static`</ph> (<ph id="ph2">`Shared`</ph> in Visual Basic) &lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.Emit.SignatureHelper&gt; for the local signature.</source>
+          <target state="translated">Чтобы упростить процесс создания подписи локальной переменной, используйте <ph id="ph1">`static`</ph> (<ph id="ph2">`Shared`</ph> в Visual Basic) &lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;метода &lt;xref:System.Reflection.Emit.SignatureHelper&gt;для подписи локальной.&lt;/xref:System.Reflection.Emit.SignatureHelper&gt; &lt;/xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on local variable signatures, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">Дополнительные сведения о подписях локальных переменных см. в документации Common Language Infrastructure (CLI), особенно «раздел II: определение метаданных и семантика».</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">Документация доступна через Интернет; в разделе <bpt id="p1">[</bpt>ECMA C# и общий стандарты инфраструктуры языка<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> на сайте MSDN и <bpt id="p2">[</bpt>стандарту ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> на сайте Ecma International.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An array that contains the layout of local variables for the associated &lt;xref:System.Reflection.Emit.DynamicMethod&gt;.</source>
+          <target state="translated">Массив, содержащий структуру локальных переменных для связанного &lt;xref:System.Reflection.Emit.DynamicMethod&gt;.&lt;/xref:System.Reflection.Emit.DynamicMethod&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Sets the local variable signature that describes the layout of local variables for the associated dynamic method.</source>
+          <target state="translated">Задает подпись локальной переменной, которая описывает структуру локальных переменных для связанного динамического метода.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The local variable signature describes the layout of a method's local variables.</source>
+          <target state="translated">Подпись локальной переменной описывает структуру локальных переменных метода.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To simplify construction of the local variable signature, use the <ph id="ph1">`static`</ph> (<ph id="ph2">`Shared`</ph> in Visual Basic) &lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.Emit.SignatureHelper&gt; for the local signature.</source>
+          <target state="translated">Чтобы упростить процесс создания подписи локальной переменной, используйте <ph id="ph1">`static`</ph> (<ph id="ph2">`Shared`</ph> в Visual Basic) &lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;метода &lt;xref:System.Reflection.Emit.SignatureHelper&gt;для подписи локальной.&lt;/xref:System.Reflection.Emit.SignatureHelper&gt; &lt;/xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on local variable signatures, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">Дополнительные сведения о подписях локальных переменных см. в документации Common Language Infrastructure (CLI), особенно «раздел II: определение метаданных и семантика».</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">Документация доступна через Интернет; в разделе <bpt id="p1">[</bpt>ECMA C# и общий стандарты инфраструктуры языка<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> на сайте MSDN и <bpt id="p2">[</bpt>стандарту ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> на сайте Ecma International.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An array that contains the layout of local variables for the associated &lt;xref:System.Reflection.Emit.DynamicMethod&gt;.</source>
+          <target state="translated">Массив, содержащий структуру локальных переменных для связанного &lt;xref:System.Reflection.Emit.DynamicMethod&gt;.&lt;/xref:System.Reflection.Emit.DynamicMethod&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the signature.</source>
+          <target state="translated">Число байтов в сигнатуре.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;localSignature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph2">&lt;code&gt;signatureSize&lt;/code&gt;</ph> is greater than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;localSignature&lt;/code&gt;</ph>— <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> и <ph id="ph2">&lt;code&gt;signatureSize&lt;/code&gt;</ph> больше 0.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;signatureSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;signatureSize&lt;/code&gt;</ph>меньше 0.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8fcf5c3579bf86b0391e4ba73b828399ab772c22</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.PartialTrustVisibilityLevel.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">17c10767ed12c8ed8b88bac1081ff884e846d507</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">781fb9c4c8aa314315ead9ca26bf5411b5e9d571</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the default partial-trust visibility for code that is marked with the &lt;xref:System.Security.AllowPartiallyTrustedCallersAttribute&gt; (APTCA) attribute.</source>
+          <target state="translated">Określa domyślną widoczność częściowego zaufania dla kodu, który jest oznaczony atrybutem &lt;xref:System.Security.AllowPartiallyTrustedCallersAttribute&gt;atrybutu (APTCA).&lt;/xref:System.Security.AllowPartiallyTrustedCallersAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>PartialTrustVisibilityLevel is passed as a property setting parameter to the &lt;xref:System.Security.AllowPartiallyTrustedCallersAttribute.%23ctor%2A?displayProperty=fullName&gt; constructor.</source>
+          <target state="translated">PartialTrustVisibilityLevel jest przekazywana jako parametr ustawienie właściwości &lt;xref:System.Security.AllowPartiallyTrustedCallersAttribute.%23ctor%2A?displayProperty=fullName&gt;konstruktora.&lt;/xref:System.Security.AllowPartiallyTrustedCallersAttribute.%23ctor%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no parameter is passed to the constructor, the default is VisibleToAllHosts.</source>
+          <target state="translated">Jeśli parametr nie zostanie przekazany do konstruktora, wartość domyślna to VisibleToAllHosts.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You enable partially trusted assemblies that are identified as NotVisibleByDefault by adding them to the &lt;xref:System.AppDomainSetup.PartialTrustVisibleAssemblies%2A&gt; property of their application domain.</source>
+          <target state="translated">Włącz częściowo zaufane zestawy, które są identyfikowane jako NotVisibleByDefault przez dodanie ich do &lt;xref:System.AppDomainSetup.PartialTrustVisibleAssemblies%2A&gt;Właściwości ich domeny aplikacji.&lt;/xref:System.AppDomainSetup.PartialTrustVisibleAssemblies%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you enable an assembly that references (directly or indirectly) other partially trusted assemblies that are NotVisibleByDefault, those other assemblies should be enabled as well.</source>
+          <target state="translated">Po włączeniu zestawie, do którego odwołuje się do (bezpośrednio lub pośrednio) z innej częściowo zaufane zestawy, które są NotVisibleByDefault tych innych zestawów powinny także włączone.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an APTCA library that specifies a PartialTrustVisibilityLevel and that is eligible for code sharing is loaded for the first time, it is loaded into the shared domain.</source>
+          <target state="translated">Po załadowaniu biblioteki APTCA PartialTrustVisibilityLevel, który określa, która jest uprawniona do udostępniania kodu po raz pierwszy jest ładowany do udostępnionego domeny.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Whenever that assembly is loaded with the same PartialTrustVisibilityLevel into another domain, it will be shared.</source>
+          <target state="translated">Zawsze, gdy ten zestaw jest ładowany z tej samej PartialTrustVisibilityLevel do innej domeny, zostanie on udostępniony.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the assembly is loaded with a different PartialTrustVisibilityLevel, it will not be shared.</source>
+          <target state="translated">Jednak jeśli zestaw jest ładowany z innej PartialTrustVisibilityLevel, będzie on nie udostępniany.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The assembly has been audited for partial trust, but it is not visible to partial-trust code in all hosts.</source>
+          <target state="translated">Zestaw zostały sprawdzone dla częściowej relacji zaufania, ale nie jest widoczny dla kodu częściowym zaufaniem na wszystkich hostach.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To make the assembly visible to partial-trust code, add it to the <ph id="ph1">&amp;lt;</ph>xref:System.AppDomainSetup.PartialTrustVisibleAssemblies%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">Aby wyświetlić zestaw kod częściowego zaufania, należy dodać go do <ph id="ph1">&amp;lt;</ph>xref:System.AppDomainSetup.PartialTrustVisibleAssemblies%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> właściwości.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The assembly can always be called by partial-trust code.</source>
+          <target state="translated">Zestaw zawsze może być wywoływany przez kod częściowego zaufania.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

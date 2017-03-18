@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ad998c973520b0280d52fcfcb7d104223e00f057</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Messaging.IMessageSink.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">272a0cf092bdcb90f6801d21b7b3b264b10ccbff</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">80ff83f2a76fab8f83adc37628d012e4639f7234</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the interface for a message sink.</source>
+          <target state="translated">Define a interface para um coletor de mensagem.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a method call is made on the proxy, the remoting infrastructure provides the necessary support for passing the arguments to the actual object across the remoting boundaries, calling the actual object method with the arguments, and returning the results back to the client of the proxy object.</source>
+          <target state="translated">Quando é feita uma chamada de método no proxy, a infraestrutura de comunicação remota fornece o suporte necessário para passar os argumentos para o objeto real entre os limites de comunicação remota, chamando o método do objeto real com os argumentos e retornar os resultados de volta para o cliente do objeto de proxy.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A remote method call is a message that goes from the client end to the server end and possibly back again.</source>
+          <target state="translated">Uma chamada de método remoto é uma mensagem que vai do lado do cliente para o final do servidor e possivelmente novamente.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As it crosses remoting boundaries on the way, the remote method call passes through a chain of <ph id="ph1">`IMessageSink`</ph> objects.</source>
+          <target state="translated">Como cruzar os limites de comunicação remota no caminho, a chamada de método remoto passa por uma cadeia de <ph id="ph1">`IMessageSink`</ph> objetos.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each sink in the chain receives the message object, performs a specific operation, and delegates to the next sink in the chain.</source>
+          <target state="translated">Cada coletor na cadeia recebe o objeto de mensagem, executa uma operação específica e delega para o coletor Avançar na cadeia.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The proxy object contains a reference to the first <ph id="ph1">`IMessageSink`</ph> it needs to use to start off the chain.</source>
+          <target state="translated">O objeto proxy contém uma referência ao primeiro <ph id="ph1">`IMessageSink`</ph> precisa usar para começar a cadeia.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For asynchronous calls, at the time of delegation, each sink provides a reply sink (another <ph id="ph1">`IMessageSink`</ph>) that will be called by the next sink when the reply is on its way back.</source>
+          <target state="translated">Chamadas assíncronas, no momento da delegação, cada coletor fornece um coletor de resposta (outro <ph id="ph1">`IMessageSink`</ph>) que será chamado pelo coletor próxima quando a resposta foi enviado novamente.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Different types of sinks perform different operations, depending on the type of message object received.</source>
+          <target state="translated">Diferentes tipos de Coletores de executam operações diferentes, dependendo do tipo de objeto de mensagem recebido.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, one sink could cause a lock to be taken, another could enforce call security, another could perform flow call control and reliability services, and yet another could transport the call to a different &lt;xref:System.AppDomain&gt;, process, or computer.</source>
+          <target state="translated">Por exemplo, um coletor pode causar um bloqueio a ser executada, outro pode impor a segurança de chamada, outra pode executar serviços de controle e confiabilidade de chamada de fluxo e ainda outro pode transportar a chamada para outra &lt;xref:System.AppDomain&gt;, processo ou computador.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two or more message sinks in the chain can interact with each other in regard to each specific action.</source>
+          <target state="translated">Dois ou mais Coletores de mensagem da cadeia podem interagem entre si em termos de cada ação específica.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Asynchronously processes the given message.</source>
+          <target state="translated">Processa a mensagem determinada de maneira assíncrona.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is invoked on the message sink by the remoting infrastructure or by a previous sink for asynchronous messages.</source>
+          <target state="translated">Esse método é chamado no coletor de mensagem pela infraestrutura de comunicação remota ou por um coletor anterior para mensagens assíncronas.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The message to process.</source>
+          <target state="translated">A mensagem a processar.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The reply sink for the reply message.</source>
+          <target state="translated">O coletor de resposta para a mensagem de resposta.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Returns an <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMessageCtrl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface that provides a way to control asynchronous messages after they have been dispatched.</source>
+          <target state="translated">Retorna um <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMessageCtrl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interface que fornece uma maneira de controlar mensagens assíncronas depois que eles foram despachados.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">O chamador imediato faz a chamada por meio de uma referência para a interface e não tem permissão de infraestrutura.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets the next message sink in the sink chain.</source>
+          <target state="translated">Obtém o próximo coletor de mensagem da cadeia de coletor.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The next message sink in the sink chain.</source>
+          <target state="translated">A próxima mensagem coletor na cadeia de coletor.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">O chamador imediato faz a chamada por meio de uma referência para a interface e não tem permissão de infraestrutura.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Synchronously processes the given message.</source>
+          <target state="translated">Forma síncrona processa a mensagem determinada.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SyncProcessMessage method is invoked on the message sink by the remoting infrastructure or by a previous sink for synchronous messages.</source>
+          <target state="translated">O método SyncProcessMessage é invocado no coletor de mensagem pela infraestrutura de comunicação remota ou por um coletor anterior para mensagens síncronas.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The message to process.</source>
+          <target state="translated">A mensagem a processar.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A reply message in response to the request.</source>
+          <target state="translated">Uma mensagem de resposta em resposta à solicitação.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">O chamador imediato faz a chamada por meio de uma referência para a interface e não tem permissão de infraestrutura.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
