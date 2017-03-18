@@ -1,28 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [fulldocset\System.Web.UI.WebControls.AccessDataSource.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.AccessDataSource.yml) | InSyncHandedBackSuccess | [Details](#e470de405f4bfc3d982f76f6f49fe2f223f23b7283047)
 
 ## Item Details
-##### <a name='e470de405f4bfc3d982f76f6f49fe2f223f23b7283047'></a> Source: [fulldocset\System.Web.UI.WebControls.AccessDataSource.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.AccessDataSource.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.AccessDataSource.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/blob/aa143ca39e2025296da0dbebad8b981e1732712f/fulldocset/System.Web.UI.WebControls.AccessDataSource.yml)
-* Handoff File: [System.Web.UI.WebControls.AccessDataSource.bbd440a5f1276639671ba5d17d526305260ecb9b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/2f5335a9d2cbf3a2fc7fbd5189aa208c3b64db52/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.AccessDataSource.bbd440a5f1276639671ba5d17d526305260ecb9b.nb-no.xlf)
-* Handoff Datetime: 2017-03-16 04:04:14
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.AccessDataSource.bbd440a5f1276639671ba5d17d526305260ecb9b.nb-no.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/cf012a1234327fa5609c22133ae0302c58c74620/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nb-no/master/fulldocset/System.Web.UI.WebControls.AccessDataSource.bbd440a5f1276639671ba5d17d526305260ecb9b.nb-no.xlf)
-* Handback Datetime: 2017-03-18 19:03:10
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-ko-kr-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw_11
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
