@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1998a61ffb00b448b4afffe3ef4cd5ba9a788dda</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.DSACryptoServiceProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">63ef61f164b87bd84be662249d2d009f40250865</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a446a56a67ba9386f3356467cee7934c4eee69b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a wrapper object to access the cryptographic service provider (CSP) implementation of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">暗号化サービス プロバイダー (CSP) の実装にアクセスするラッパー オブジェクトの定義、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>アルゴリズムです。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">このクラスは継承できません。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can use the DSACryptoServiceProvider class to create digital signatures and protect the integrity of your data.</source>
+          <target state="translated">DSACryptoServiceProvider クラスを使用して、デジタル署名を作成し、データの整合性を保護することができます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To use a public-key system to digitally sign a message, the sender first applies a hash function to the message to create a message digest.</source>
+          <target state="translated">公開キー システムを使用して、メッセージのデジタル署名、送信者はまず、メッセージ ダイジェストを作成するメッセージをハッシュ関数を適用します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The sender then encrypts the message digest with the sender's private key to create the sender's personal signature.</source>
+          <target state="translated">送信者は、送信者の個人用の署名を作成する、送信側の秘密キーで、メッセージ ダイジェストを暗号化します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Upon receiving the message and signature, the receiver decrypts the signature using the sender's public key to recover the message digest and hashes the message using the same hash algorithm that the sender used.</source>
+          <target state="translated">メッセージと署名を受信したときに、受信者は、メッセージ ダイジェストを復元する送信者の公開キーを使用して署名を復号化され、送信者が使用されるのと同じハッシュ アルゴリズムを使用してメッセージをハッシュします。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If the message digest that the receiver computes exactly matches the message digest received from the sender, the receiver can be sure that the message was not altered while in transit.</source>
+          <target state="translated">メッセージ ダイジェストが、送信者から受け取ったメッセージ ダイジェストを受信者が完全に一致する計算、受信側はメッセージが転送中に変更されなかったことを確認できます。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Note that a signature can be verified by anyone, because the sender's public key is common knowledge.</source>
+          <target state="translated">送信者の公開キーは、一般的な知識があるため、すべてのユーザーが、署名を検証できることに注意してください。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Newer asymmetric algorithms are available.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 新しい非対称アルゴリズムが使用できます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Consider using the &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt; class instead of the DSACryptoServiceProvider class.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;DSACryptoServiceProvider クラスではなくクラス&lt;/xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;の使用を検討してください。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Use DSACryptoServiceProvider only for compatibility with legacy applications and data.</source>
+          <target state="translated">レガシ アプリケーションとデータとの互換性のみ DSACryptoServiceProvider を使用します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This algorithm supports key lengths from 512 bits to 1024 bits in increments of 64 bits.</source>
+          <target state="translated">このアルゴリズムは、64 ビット単位で、1024 ビットから 512 ビットのキー長をサポートします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified key size.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定されたキー サイズを持つクラス。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The size of the key for the asymmetric algorithm in bits.</source>
+          <target state="translated">ビット単位で非対称アルゴリズムのキーのサイズ。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified parameters for the cryptographic service provider (CSP).</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>暗号化サービス プロバイダー (CSP) の指定されたパラメーターを持つクラス。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The parameters for the CSP.</source>
+          <target state="translated">CSP のパラメーターです。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified key size and parameters for the cryptographic service provider (CSP).</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定されたキー サイズと暗号化サービス プロバイダー (CSP) のパラメーターを持つクラス。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The size of the key for the cryptographic algorithm in bits.</source>
+          <target state="translated">Bits の暗号化アルゴリズムのキーのサイズ。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The parameters for the CSP.</source>
+          <target state="translated">CSP のパラメーターです。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The CSP cannot be acquired.</source>
+          <target state="translated">CSP を取得することはできません。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-or-       The key cannot be created.</source>
+          <target state="translated">または、キーを作成することはできません。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dwKeySize&lt;/code&gt;</ph> is out of range.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dwKeySize&lt;/code&gt;</ph>範囲外です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Creates the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated">作成、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定されたデータの署名。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The data to be signed.</source>
+          <target state="translated">署名されるデータ。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The digital signature for the specified data.</source>
+          <target state="translated">指定されたデータのデジタル署名。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Security.Cryptography.CspKeyContainerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes additional information about a cryptographic key pair.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.CspKeyContainerInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>暗号化キーの組に関する追加情報を記述するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Use the CspKeyContainerInfo property to retrieve additional information about a cryptographic key pair.</source>
+          <target state="translated">CspKeyContainerInfo プロパティを使用すると、暗号化キーの組に関する追加情報を取得できます。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.Security.Cryptography.CspKeyContainerInfo&gt; object describes whether the key is exportable, and specifies the key container name, information about the provider, and other information.</source>
+          <target state="translated">返された&lt;xref:System.Security.Cryptography.CspKeyContainerInfo&gt;記述かどうか、キーがエクスポート可能なおよびキー コンテナー名、プロバイダーに関する情報およびその他の情報を指定するオブジェクト&lt;/xref:System.Security.Cryptography.CspKeyContainerInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>In cases where a random key is generated, a key container will not be created until you call a method that uses the key.</source>
+          <target state="translated">ランダムなキーが生成された場合、キー コンテナーは作成されません、キーを使用するメソッドを呼び出すまでです。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Some properties of the &lt;xref:System.Security.Cryptography.CspKeyContainerInfo&gt; object returned by the CspKeyContainerInfo property will throw a &lt;xref:System.Security.Cryptography.CryptographicException&gt; if a key container has not been created.</source>
+          <target state="translated">一部のプロパティ、 &lt;xref:System.Security.Cryptography.CspKeyContainerInfo&gt;CspKeyContainerInfo プロパティによって返されるオブジェクトがスローされます、&lt;xref:System.Security.Cryptography.CryptographicException&gt;キー コンテナーが作成されていない場合&lt;/xref:System.Security.Cryptography.CryptographicException&gt;&lt;/xref:System.Security.Cryptography.CspKeyContainerInfo&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To make sure that a key container has been created, call a method such as &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;, &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt;, &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;, &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt;, and so on, before you call the CspKeyContainerInfo property.</source>
+          <target state="translated">キー コンテナーが作成されていることを確認するにメソッドを呼び出すよう&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;、 &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt;、 &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;、&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt;など、CspKeyContainerInfo プロパティを呼び出す前にします&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt;&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt;&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CspKeyContainerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes additional information about a cryptographic key pair.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CspKeyContainerInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>暗号化キーの組に関する追加情報を記述するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Exports a blob containing the key information associated with a <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">関連付けられたキー情報を含む blob をエクスポート、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The ExportCspBlob method returns a blob containing key information that is compatible with the unmanaged Microsoft Cryptographic API (CAPI).</source>
+          <target state="translated">ExportCspBlob メソッドで、アンマネージ Microsoft 暗号化 API (CAPI) 互換性のある重要な情報を含む blob を返します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the private key; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>秘密キーを含めるそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A byte array containing the key information associated with a <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">関連付けられたキー情報を格納するバイト配列、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Exports the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">エクスポート、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include private parameters; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>プライベート パラメーターを含めるそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The parameters for <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">パラメーターの<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The key cannot be exported.</source>
+          <target state="translated">キーをエクスポートできません。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Imports a blob that represents DSA key information.</source>
+          <target state="translated">DSA キー情報を表す blob をインポートします。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The ImportCspBlob method initializes the key data of a &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; object using a blob that is compatible with the unmanaged Microsoft Cryptographic API (CAPI).</source>
+          <target state="translated">ImportCspBlob メソッドの主要なデータの初期化、&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;オブジェクトで、アンマネージ Microsoft 暗号化 API (CAPI) 互換性のある blob を使用しています&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A byte array that represents a DSA key blob.</source>
+          <target state="translated">DSA キー blob を表すバイト配列。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Imports the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定したインポート<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The parameters for <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">パラメーターの<bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The cryptographic service provider (CSP) cannot be acquired.</source>
+          <target state="translated">暗号化サービス プロバイダー (CSP) を取得できません。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">parameters</ph><ept id="p1">&lt;/code&gt;</ept> parameter has missing fields.</source>
+          <target state="translated">- または -、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">parameters</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターが存在しないフィールドです。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets the name of the key exchange algorithm.</source>
+          <target state="translated">キー交換アルゴリズムの名前を取得します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The name of the key exchange algorithm.</source>
+          <target state="translated">キー交換アルゴリズムの名前。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the size of the key used by the asymmetric algorithm in bits.</source>
+          <target state="translated">ビット単位で非対称アルゴリズムで使用するキーのサイズを取得します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This algorithm supports key lengths from 512 bits to 1024 bits in increments of 64 bits.</source>
+          <target state="translated">このアルゴリズムは、64 ビット単位で、1024 ビットから 512 ビットのキー長をサポートします。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; class does not allow you to change key sizes using the KeySize property.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;クラス KeySize プロパティを使用してキーのサイズの変更はできません&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Any value written to this property will fail to update the property without error.</source>
+          <target state="translated">このプロパティに書き込まれた任意の値は、エラーなしでプロパティを更新できなくなります。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To change the key size, use one of the constructor overloads.</source>
+          <target state="translated">キーのサイズを変更するには、コンス トラクター オーバー ロードのいずれかを使用します。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The size of the key used by the asymmetric algorithm.</source>
+          <target state="translated">非対称アルゴリズムで使用するキーのサイズ。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the key should be persisted in the cryptographic service provider (CSP).</source>
+          <target state="translated">取得または暗号化サービス プロバイダー (CSP) にキーを永続化するかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Use this property when you want to persist a key in a key container.</source>
+          <target state="translated">キー コンテナー内のキーを永続化する場合は、このプロパティを使用します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key should be persisted in the CSP; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>CSP にキーを永続化する場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object contains only a public key.</source>
+          <target state="translated">示す値を取得するかどうか、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>オブジェクトには、公開キーのみが含まれています。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; class can be initialized either with a public key only or with both a public and private key.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;クラスが初期化されたか、公開キーだけで、または両方パブリックとプライベート キーを指定できます&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Use the PublicOnly property to determine whether the current instance contains only a public key or both a public and private key.</source>
+          <target state="translated">PublicOnly プロパティを使用して、現在のインスタンスには、公開キーのみまたは公開および秘密キーの両方が含まれるかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object contains only a public key; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトには、パブリックのみが含まれています。 キー、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets the name of the signature algorithm.</source>
+          <target state="translated">署名アルゴリズムの名前を取得します。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The name of the signature algorithm.</source>
+          <target state="translated">署名アルゴリズムの名前です。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Computes the hash value of the specified byte array and signs the resulting hash value.</source>
+          <target state="translated">指定したバイト配列のハッシュ値を計算し、結果のハッシュ値に署名します。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This method creates a digital signature that is verified using the &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt; method.</source>
+          <target state="translated">このメソッドを使用して確認されるデジタル署名を作成、&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;メソッド&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.DSA&gt; uses the &lt;xref:System.Security.Cryptography.SHA1&gt; hash algorithm.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSA&gt;使用して、&lt;xref:System.Security.Cryptography.SHA1&gt;ハッシュ アルゴリズム&lt;/xref:System.Security.Cryptography.SHA1&gt;。&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The input data for which to compute the hash.</source>
+          <target state="translated">ハッシュを計算する対象の入力データ。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定されたデータの署名。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Computes the hash value of the specified input stream and signs the resulting hash value.</source>
+          <target state="translated">指定された入力ストリームのハッシュ値を計算し、結果のハッシュ値に署名します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.DSA&gt; uses the &lt;xref:System.Security.Cryptography.SHA1&gt; hash algorithm.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSA&gt;使用して、&lt;xref:System.Security.Cryptography.SHA1&gt;ハッシュ アルゴリズム&lt;/xref:System.Security.Cryptography.SHA1&gt;。&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The input data for which to compute the hash.</source>
+          <target state="translated">ハッシュを計算する対象の入力データ。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定されたデータの署名。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Signs a byte array from the specified start point to the specified end point.</source>
+          <target state="translated">記号が指定された開始されてからのバイト配列は、指定したエンドポイントをポイントします。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>This method creates a digital signature that is verified using the &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt; method.</source>
+          <target state="translated">このメソッドを使用して確認されるデジタル署名を作成、&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;メソッド&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.DSA&gt; uses the &lt;xref:System.Security.Cryptography.SHA1&gt; hash algorithm.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSA&gt;使用して、&lt;xref:System.Security.Cryptography.SHA1&gt;ハッシュ アルゴリズム&lt;/xref:System.Security.Cryptography.SHA1&gt;。&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The input data to sign.</source>
+          <target state="translated">入力データに署名します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The offset into the array from which to begin using data.</source>
+          <target state="translated">配列内のデータの使用を開始するオフセットです。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the array to use as data.</source>
+          <target state="translated">データとして使用する配列内のバイト数。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定されたデータの署名。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Computes the signature for the specified hash value by encrypting it with the private key.</source>
+          <target state="translated">秘密キーで暗号化することによって、指定したハッシュ値の署名を計算します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This method creates a digital signature that is verified using the &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt; method.</source>
+          <target state="translated">このメソッドを使用して確認されるデジタル署名を作成、&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt;メソッド&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.DSA&gt; uses the &lt;xref:System.Security.Cryptography.SHA1&gt; hash algorithm.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSA&gt;使用して、&lt;xref:System.Security.Cryptography.SHA1&gt;ハッシュ アルゴリズム&lt;/xref:System.Security.Cryptography.SHA1&gt;。&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The hash value of the data to be signed.</source>
+          <target state="translated">署名されるデータのハッシュ値。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The name of the hash algorithm used to create the hash value of the data.</source>
+          <target state="translated">データのハッシュ値を作成するために使用するハッシュ アルゴリズムの名前です。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified hash value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したハッシュ値の署名。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbHash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbHash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The cryptographic service provider (CSP) cannot be acquired.</source>
+          <target state="translated">暗号化サービス プロバイダー (CSP) を取得できません。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-or-       There is no private key.</source>
+          <target state="translated">または、秘密キーがありません。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the key should be persisted in the computer's key store instead of the user profile store.</source>
+          <target state="translated">取得またはキーをユーザー プロファイル ストアではなく、コンピューターのキー ストアに永続化するかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Setting this property to true is equivalent to passing the UseMachineKeyStore flag to a &lt;xref:System.Security.Cryptography.CspParameters&gt; object.</source>
+          <target state="translated">このプロパティを true に設定することは UseMachineKeyStore フラグを渡すことに相当する&lt;xref:System.Security.Cryptography.CspParameters&gt;オブジェクト&lt;/xref:System.Security.Cryptography.CspParameters&gt;。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The UseMachineKeyStore property applies to all code in the current application domain, while the &lt;xref:System.Security.Cryptography.CspParameters&gt; object applies only to classes that explicitly reference it.</source>
+          <target state="translated">UseMachineKeyStore プロパティ&lt;xref:System.Security.Cryptography.CspParameters&gt;オブジェクトを明示的に参照クラスにのみ適用&lt;/xref:System.Security.Cryptography.CspParameters&gt;中に、現在のアプリケーション ドメインのすべてのコードに適用されます。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>These settings are useful when impersonating or running under an account whose user profile is not loaded.</source>
+          <target state="translated">これらの設定は、偽装するか、ユーザー プロファイルが読み込まれていないアカウントで実行されている場合に便利です。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key should be persisted in the computer key store; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>コンピューター キー ストアにキーを永続化する場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Verifies the specified signature data by comparing it to the signature computed for the specified data.</source>
+          <target state="translated">指定されたデータの計算された署名と比較することによって指定された署名データを確認します。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This method verifies the &lt;xref:System.Security.Cryptography.DSA&gt; digital signature produced by &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;.</source>
+          <target state="translated">このメソッドは、 &lt;xref:System.Security.Cryptography.DSA&gt; &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;。&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;によって生成されたデジタル署名&lt;/xref:System.Security.Cryptography.DSA&gt;を検証します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Security.Cryptography.DSA&gt; uses the &lt;xref:System.Security.Cryptography.SHA1&gt; hash algorithm.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSA&gt;使用して、&lt;xref:System.Security.Cryptography.SHA1&gt;ハッシュ アルゴリズム&lt;/xref:System.Security.Cryptography.SHA1&gt;。&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The data that was signed.</source>
+          <target state="translated">署名されたデータ。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The signature data to be verified.</source>
+          <target state="translated">検証する署名データ。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the signature verifies as valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>有効な署名を検証する場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Verifies the specified signature data by comparing it to the signature computed for the specified hash value.</source>
+          <target state="translated">指定したハッシュ値に対して計算された署名と比較することによって指定された署名データを確認します。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>This method verifies the &lt;xref:System.Security.Cryptography.DSA&gt; digital signature produced by &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt;.</source>
+          <target state="translated">このメソッドは、 &lt;xref:System.Security.Cryptography.DSA&gt; &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt;。&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt;によって生成されたデジタル署名&lt;/xref:System.Security.Cryptography.DSA&gt;を検証します。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`str`</ph> parameter is <ph id="ph2">`null`</ph>, the default hash algorithm (SHA1) is used.</source>
+          <target state="translated">場合、<ph id="ph1">`str`</ph>パラメーターは<ph id="ph2">`null`</ph>既定のハッシュ アルゴリズム (SHA1) を使用します。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The valid hash algorithms is &lt;xref:System.Security.Cryptography.SHA1&gt;.</source>
+          <target state="translated">有効なハッシュ アルゴリズムは&lt;xref:System.Security.Cryptography.SHA1&gt;。&lt;/xref:System.Security.Cryptography.SHA1&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The hash value of the data to be signed.</source>
+          <target state="translated">署名されるデータのハッシュ値。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The name of the hash algorithm used to create the hash value of the data.</source>
+          <target state="translated">データのハッシュ値を作成するために使用するハッシュ アルゴリズムの名前です。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The signature data to be verified.</source>
+          <target state="translated">検証する署名データ。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the signature verifies as valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>有効な署名を検証する場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbHash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbHash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbSignature</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbSignature</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The cryptographic service provider (CSP) cannot be acquired.</source>
+          <target state="translated">暗号化サービス プロバイダー (CSP) を取得できません。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-or-       The signature cannot be verified.</source>
+          <target state="translated">または、署名を検証できません。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Verifies the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated">検証、 <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定されたデータの署名。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The data signed with <ph id="ph1">`rgbSignature`</ph>.</source>
+          <target state="translated">データが署名された<ph id="ph1">`rgbSignature`</ph>です。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The signature to be verified for <ph id="ph1">`rgbData`</ph>.</source>
+          <target state="translated">検証する署名<ph id="ph1">`rgbData`</ph>です。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">rgbSignature</ph><ept id="p2">&lt;/code&gt;</ept> matches the signature computed using the specified hash algorithm and key on <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">rgbHash</ph><ept id="p3">&lt;/code&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">rgbSignature</ph> <ept id="p2">&lt;/code&gt;</ept>で、指定したハッシュ アルゴリズムとキーを使用して計算された署名と一致する<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">rgbHash</ph> <ept id="p3">&lt;/code&gt;</ept>、それ以外の<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1998a61ffb00b448b4afffe3ef4cd5ba9a788dda</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.DSACryptoServiceProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">21cdc407c9d2b5ab43804a42b1186e0782d3d9be</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a446a56a67ba9386f3356467cee7934c4eee69b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a wrapper object to access the cryptographic service provider (CSP) implementation of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm.</source>
+          <target state="translated">Definiuje obiektu do implementacji dostawcy usług kryptograficznych <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> algorytmu.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Ta klasa nie może być dziedziczona.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the DSACryptoServiceProvider class to create digital signatures and protect the integrity of your data.</source>
+          <target state="translated">Klasa DSACryptoServiceProvider służy do tworzenia podpisów cyfrowych i ochronę integralności danych.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use a public-key system to digitally sign a message, the sender first applies a hash function to the message to create a message digest.</source>
+          <target state="translated">Aby używać systemu klucza publicznego do cyfrowego podpisywania wiadomości, nadawca najpierw dotyczy funkcji skrótu wiadomości, aby utworzyć skrót wiadomości.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The sender then encrypts the message digest with the sender's private key to create the sender's personal signature.</source>
+          <target state="translated">Nadawca szyfruje następnie skrót wiadomości z kluczem prywatnym nadawcy do tworzenia podpisu nadawcy.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Upon receiving the message and signature, the receiver decrypts the signature using the sender's public key to recover the message digest and hashes the message using the same hash algorithm that the sender used.</source>
+          <target state="translated">Po otrzymaniu komunikatu i podpis, odbiornika odszyfrowuje podpis odzyskać skrót wiadomości za pomocą klucza publicznego nadawcy i tworzy skrót wiadomości przy użyciu tego samego algorytmu wyznaczania wartości skrótu używanego przez nadawcę.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the message digest that the receiver computes exactly matches the message digest received from the sender, the receiver can be sure that the message was not altered while in transit.</source>
+          <target state="translated">Jeśli skrót wiadomości, że odbiorca oblicza dokładnie zgodny skrót wiadomości odebrane od nadawcy, odbiorcy można się upewnić, że wiadomość nie została zmieniona przesyłanych.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a signature can be verified by anyone, because the sender's public key is common knowledge.</source>
+          <target state="translated">Należy pamiętać, że podpis można sprawdzić dla wszystkich użytkowników, ponieważ klucz publiczny nadawcy jest typowe wiedzy.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Newer asymmetric algorithms are available.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Nowszej asymetryczne algorytmy są dostępne.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Consider using the &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt; class instead of the DSACryptoServiceProvider class.</source>
+          <target state="translated">Rozważ użycie &lt;xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;klasy zamiast klasy DSACryptoServiceProvider.&lt;/xref:System.Security.Cryptography.RSACryptoServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use DSACryptoServiceProvider only for compatibility with legacy applications and data.</source>
+          <target state="translated">Użyj DSACryptoServiceProvider tylko w celu zapewnienia zgodności z starszych aplikacji i danych.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This algorithm supports key lengths from 512 bits to 1024 bits in increments of 64 bits.</source>
+          <target state="translated">Ten algorytm obsługuje długości kluczy z 512 bitów długości 1024 bitów w przyrostach 64-bitowy.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified key size.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy z określonym rozmiarem klucza.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The size of the key for the asymmetric algorithm in bits.</source>
+          <target state="translated">Rozmiar klucza algorytmu asymetrycznego w bitach.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified parameters for the cryptographic service provider (CSP).</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy z określonymi parametrami dla dostawcy usług kryptograficznych (CSP).</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The parameters for the CSP.</source>
+          <target state="translated">Parametry dla dostawcy usług Kryptograficznych.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified key size and parameters for the cryptographic service provider (CSP).</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> z określonego rozmiaru klucza i parametry dla dostawcy usług kryptograficznych (CSP).</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The size of the key for the cryptographic algorithm in bits.</source>
+          <target state="translated">Rozmiar klucza dla algorytmu kryptograficznego w bitach.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The parameters for the CSP.</source>
+          <target state="translated">Parametry dla dostawcy usług Kryptograficznych.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The CSP cannot be acquired.</source>
+          <target state="translated">Nie można uzyskać dostawcy usług Kryptograficznych.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-or-       The key cannot be created.</source>
+          <target state="translated">- lub - nie można utworzyć klucza.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dwKeySize&lt;/code&gt;</ph> is out of range.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dwKeySize&lt;/code&gt;</ph>jest poza zakresem.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Creates the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> podpisu dla określonych danych.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The data to be signed.</source>
+          <target state="translated">Dane były podpisane.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The digital signature for the specified data.</source>
+          <target state="translated">Podpis cyfrowy dla określonych danych.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Security.Cryptography.CspKeyContainerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes additional information about a cryptographic key pair.</source>
+          <target state="translated">Pobiera <bpt id="p1">&lt;xref href="System.Security.Cryptography.CspKeyContainerInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu, który opisuje dodatkowe informacje na temat klucza kryptograficznego.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the CspKeyContainerInfo property to retrieve additional information about a cryptographic key pair.</source>
+          <target state="translated">Użyj właściwości CspKeyContainerInfo można pobrać dodatkowe informacje na temat klucza kryptograficznego.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned &lt;xref:System.Security.Cryptography.CspKeyContainerInfo&gt; object describes whether the key is exportable, and specifies the key container name, information about the provider, and other information.</source>
+          <target state="translated">Zwrócona &lt;xref:System.Security.Cryptography.CspKeyContainerInfo&gt;obiektu opisuje czy można wyeksportować klucza i określa nazwę kontenera klucza, informacji o dostawcy i inne informacje.&lt;/xref:System.Security.Cryptography.CspKeyContainerInfo&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In cases where a random key is generated, a key container will not be created until you call a method that uses the key.</source>
+          <target state="translated">W przypadkach, gdy losowy klucz jest generowany kontener kluczy nie zostaną utworzone do czasu wywołania metody, która używa klucza.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some properties of the &lt;xref:System.Security.Cryptography.CspKeyContainerInfo&gt; object returned by the CspKeyContainerInfo property will throw a &lt;xref:System.Security.Cryptography.CryptographicException&gt; if a key container has not been created.</source>
+          <target state="translated">Niektóre właściwości &lt;xref:System.Security.Cryptography.CspKeyContainerInfo&gt;zgłosi obiektu zwróconego przez właściwość CspKeyContainerInfo &lt;xref:System.Security.Cryptography.CryptographicException&gt;, gdy kontener kluczy nie została utworzona.&lt;/xref:System.Security.Cryptography.CryptographicException&gt; &lt;/xref:System.Security.Cryptography.CspKeyContainerInfo&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make sure that a key container has been created, call a method such as &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;, &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt;, &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;, &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt;, and so on, before you call the CspKeyContainerInfo property.</source>
+          <target state="translated">Aby upewnić się, że utworzono kontener klucza, wywołanie metody takie jak &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;, &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt;, &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;, &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt;i tak dalej przed wywołaniem właściwości CspKeyContainerInfo.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt; &lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt; &lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt; &lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CspKeyContainerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes additional information about a cryptographic key pair.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.CspKeyContainerInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu, który opisuje dodatkowe informacje na temat klucza kryptograficznego.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Exports a blob containing the key information associated with a <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Eksportuje obiektu blob zawierającego informacje o kluczu skojarzone z <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ExportCspBlob method returns a blob containing key information that is compatible with the unmanaged Microsoft Cryptographic API (CAPI).</source>
+          <target state="translated">Metoda ExportCspBlob zwraca obiekt blob zawierający informacje o kluczu, który jest zgodny z niezarządzanego Microsoft kryptograficznego interfejsu API (CAPI).</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include the private key; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Aby uwzględnić klucz prywatny; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A byte array containing the key information associated with a <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Tablica bajtów zawierająca informacje o kluczu skojarzone z <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Exports the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Eksporty <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include private parameters; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Aby uwzględnić parametry prywatny; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The parameters for <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Parametry <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The key cannot be exported.</source>
+          <target state="translated">Nie można wyeksportować klucza.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Imports a blob that represents DSA key information.</source>
+          <target state="translated">Importuje reprezentujący DSA informacji klucza obiektu blob.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ImportCspBlob method initializes the key data of a &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; object using a blob that is compatible with the unmanaged Microsoft Cryptographic API (CAPI).</source>
+          <target state="translated">Metoda ImportCspBlob inicjuje dane klucza z &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;przy użyciu obiektu blob, który jest zgodny z niezarządzanego Microsoft kryptograficznego interfejsu API (CAPI).&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A byte array that represents a DSA key blob.</source>
+          <target state="translated">Tablica bajtów, który reprezentuje obiektu blob klucza algorytmu DSA.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Imports the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Importuje określonego <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSAParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The parameters for <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Parametry <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The cryptographic service provider (CSP) cannot be acquired.</source>
+          <target state="translated">Nie można uzyskać dostawcy usług kryptograficznych (CSP).</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">parameters</ph><ept id="p1">&lt;/code&gt;</ept> parameter has missing fields.</source>
+          <target state="translated">- lub - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">parameters</ph> <ept id="p1">&lt;/code&gt;</ept> parametr ma brakujące pola.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets the name of the key exchange algorithm.</source>
+          <target state="translated">Pobiera nazwę Algorytm wymiany kluczy.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The name of the key exchange algorithm.</source>
+          <target state="translated">Nazwa algorytmu wymiany kluczy.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the size of the key used by the asymmetric algorithm in bits.</source>
+          <target state="translated">Pobiera rozmiar klucza używanego przez algorytmu asymetrycznego w bitach.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This algorithm supports key lengths from 512 bits to 1024 bits in increments of 64 bits.</source>
+          <target state="translated">Ten algorytm obsługuje długości kluczy z 512 bitów długości 1024 bitów w przyrostach 64-bitowy.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; class does not allow you to change key sizes using the KeySize property.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;Klasa nie umożliwiają zmianę rozmiar klucza przy użyciu właściwości KeySize.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any value written to this property will fail to update the property without error.</source>
+          <target state="translated">Wartości zapisane do tej właściwości zakończy się niepowodzeniem zaktualizować właściwości bez błędów.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the key size, use one of the constructor overloads.</source>
+          <target state="translated">Aby zmienić rozmiar klucza, użyj jednego z przeciążeń konstruktora.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The size of the key used by the asymmetric algorithm.</source>
+          <target state="translated">Rozmiar klucza używanego przez algorytmu asymetrycznego.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the key should be persisted in the cryptographic service provider (CSP).</source>
+          <target state="translated">Pobiera lub ustawia wartość wskazującą, czy klucz powinien być utrwalone w dostawcy usług kryptograficznych (CSP).</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property when you want to persist a key in a key container.</source>
+          <target state="translated">Tej właściwości należy użyć, jeśli chcesz zachować klucza w kontenerze kluczy.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key should be persisted in the CSP; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli klucz powinien być utrwalone w dostawcy usług Kryptograficznych; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object contains only a public key.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt zawiera tylko klucz publiczny.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt; class can be initialized either with a public key only or with both a public and private key.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;Klasa może być zainicjowana albo, tylko klucz publiczny lub obu publicznego i prywatnego klucza.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the PublicOnly property to determine whether the current instance contains only a public key or both a public and private key.</source>
+          <target state="translated">Właściwość PublicOnly służy do określenia, czy bieżące wystąpienie zawiera tylko klucz publiczny lub zarówno klucz publiczny i prywatny.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object contains only a public key; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;xref href="System.Security.Cryptography.DSACryptoServiceProvider"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiekt zawiera tylko publiczną klucza; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets the name of the signature algorithm.</source>
+          <target state="translated">Pobiera nazwę algorytmu podpisu.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The name of the signature algorithm.</source>
+          <target state="translated">Nazwa algorytmu podpisu.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Computes the hash value of the specified byte array and signs the resulting hash value.</source>
+          <target state="translated">Oblicza wartość skrótu określonej tablicy bajtów i podpisuje wynikowej wartości skrótu.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates a digital signature that is verified using the &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt; method.</source>
+          <target state="translated">Ta metoda tworzy podpis cyfrowy, który jest zweryfikowana przy użyciu &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;metody.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.DSA&gt; uses the &lt;xref:System.Security.Cryptography.SHA1&gt; hash algorithm.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSA&gt;używa &lt;xref:System.Security.Cryptography.SHA1&gt;algorytmu wyznaczania wartości skrótu.&lt;/xref:System.Security.Cryptography.SHA1&gt;&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The input data for which to compute the hash.</source>
+          <target state="translated">Danych wejściowych, dla którego można obliczyć wartość skrótu.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Podpisu dla określonych danych.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Computes the hash value of the specified input stream and signs the resulting hash value.</source>
+          <target state="translated">Oblicza wartość skrótu określonego strumienia wejściowego i podpisuje wynikowej wartości skrótu.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.DSA&gt; uses the &lt;xref:System.Security.Cryptography.SHA1&gt; hash algorithm.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSA&gt;używa &lt;xref:System.Security.Cryptography.SHA1&gt;algorytmu wyznaczania wartości skrótu.&lt;/xref:System.Security.Cryptography.SHA1&gt;&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The input data for which to compute the hash.</source>
+          <target state="translated">Danych wejściowych, dla którego można obliczyć wartość skrótu.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Podpisu dla określonych danych.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Signs a byte array from the specified start point to the specified end point.</source>
+          <target state="translated">Znaki tablicę bajtów od początku określonego punktu do określonego punktu końcowego.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates a digital signature that is verified using the &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt; method.</source>
+          <target state="translated">Ta metoda tworzy podpis cyfrowy, który jest zweryfikowana przy użyciu &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;metody.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.DSA&gt; uses the &lt;xref:System.Security.Cryptography.SHA1&gt; hash algorithm.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSA&gt;używa &lt;xref:System.Security.Cryptography.SHA1&gt;algorytmu wyznaczania wartości skrótu.&lt;/xref:System.Security.Cryptography.SHA1&gt;&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The input data to sign.</source>
+          <target state="translated">Dane wejściowe do podpisania.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The offset into the array from which to begin using data.</source>
+          <target state="translated">Przesunięcie w tablicy, z którego ma zostać rozpoczęta przy użyciu danych.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the array to use as data.</source>
+          <target state="translated">Liczba bajtów w tablicy, która ma być używana jako dane.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Podpisu dla określonych danych.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Computes the signature for the specified hash value by encrypting it with the private key.</source>
+          <target state="translated">Oblicza podpis dla wartości skrótu określonej szyfrując z kluczem prywatnym.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method creates a digital signature that is verified using the &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt; method.</source>
+          <target state="translated">Ta metoda tworzy podpis cyfrowy, który jest zweryfikowana przy użyciu &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt;metody.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.VerifyHash%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.DSA&gt; uses the &lt;xref:System.Security.Cryptography.SHA1&gt; hash algorithm.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSA&gt;używa &lt;xref:System.Security.Cryptography.SHA1&gt;algorytmu wyznaczania wartości skrótu.&lt;/xref:System.Security.Cryptography.SHA1&gt;&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The hash value of the data to be signed.</source>
+          <target state="translated">Wartość skrótu danych do podpisania.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The name of the hash algorithm used to create the hash value of the data.</source>
+          <target state="translated">Nazwa algorytmu wyznaczania wartości skrótu używany do tworzenia wartości skrótu danych.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified hash value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Podpis dla wartości skrótu określonej.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbHash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbHash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The cryptographic service provider (CSP) cannot be acquired.</source>
+          <target state="translated">Nie można uzyskać dostawcy usług kryptograficznych (CSP).</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-or-       There is no private key.</source>
+          <target state="translated">- lub - klucz prywatny nie istnieje.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the key should be persisted in the computer's key store instead of the user profile store.</source>
+          <target state="translated">Pobiera lub ustawia wartość wskazującą, czy klucz powinien utrwalone w magazynie kluczy komputera zamiast magazynie profilu użytkownika.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property to true is equivalent to passing the UseMachineKeyStore flag to a &lt;xref:System.Security.Cryptography.CspParameters&gt; object.</source>
+          <target state="translated">Ustawienie tej właściwości na wartość true jest odpowiednikiem przekazanie flagi UseMachineKeyStore &lt;xref:System.Security.Cryptography.CspParameters&gt;obiektu.&lt;/xref:System.Security.Cryptography.CspParameters&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UseMachineKeyStore property applies to all code in the current application domain, while the &lt;xref:System.Security.Cryptography.CspParameters&gt; object applies only to classes that explicitly reference it.</source>
+          <target state="translated">Właściwość UseMachineKeyStore ma zastosowanie do całego kodu w bieżącej domenie aplikacji, podczas &lt;xref:System.Security.Cryptography.CspParameters&gt;obiekt ma zastosowanie tylko do klasy, które jawnie odwoływać się go.&lt;/xref:System.Security.Cryptography.CspParameters&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These settings are useful when impersonating or running under an account whose user profile is not loaded.</source>
+          <target state="translated">Te ustawienia są przydatne w przypadku personifikacji lub uruchomiony przy użyciu konta, którego profil użytkownika nie został załadowany.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key should be persisted in the computer key store; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli klucz powinien utrwalone w magazynie kluczy komputera; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Verifies the specified signature data by comparing it to the signature computed for the specified data.</source>
+          <target state="translated">Sprawdza dane określonego podpisu, porównując go z podpisem obliczonym dla określonych danych.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method verifies the &lt;xref:System.Security.Cryptography.DSA&gt; digital signature produced by &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;.</source>
+          <target state="translated">Ta metoda sprawdza &lt;xref:System.Security.Cryptography.DSA&gt;podpis cyfrowy produkowane przez &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt;.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.SignData%2A&gt; &lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Cryptography.DSA&gt; uses the &lt;xref:System.Security.Cryptography.SHA1&gt; hash algorithm.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.DSA&gt;używa &lt;xref:System.Security.Cryptography.SHA1&gt;algorytmu wyznaczania wartości skrótu.&lt;/xref:System.Security.Cryptography.SHA1&gt;&lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The data that was signed.</source>
+          <target state="translated">Dane, który został podpisany.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The signature data to be verified.</source>
+          <target state="translated">Dane sygnatur do weryfikacji.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the signature verifies as valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli podpis sprawdza ważność; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Verifies the specified signature data by comparing it to the signature computed for the specified hash value.</source>
+          <target state="translated">Sprawdza dane określonego podpisu, porównując go z podpisem obliczonym dla wartości skrótu określonej.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method verifies the &lt;xref:System.Security.Cryptography.DSA&gt; digital signature produced by &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt;.</source>
+          <target state="translated">Ta metoda sprawdza &lt;xref:System.Security.Cryptography.DSA&gt;podpis cyfrowy produkowane przez &lt;xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt;.&lt;/xref:System.Security.Cryptography.DSACryptoServiceProvider.SignHash%2A&gt; &lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`str`</ph> parameter is <ph id="ph2">`null`</ph>, the default hash algorithm (SHA1) is used.</source>
+          <target state="translated">Jeśli <ph id="ph1">`str`</ph> parametr jest <ph id="ph2">`null`</ph>, używany jest domyślny algorytm wyznaczania wartości skrótu (SHA1).</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The valid hash algorithms is &lt;xref:System.Security.Cryptography.SHA1&gt;.</source>
+          <target state="translated">Algorytmy prawidłowy skrót jest &lt;xref:System.Security.Cryptography.SHA1&gt;.&lt;/xref:System.Security.Cryptography.SHA1&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The hash value of the data to be signed.</source>
+          <target state="translated">Wartość skrótu danych do podpisania.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The name of the hash algorithm used to create the hash value of the data.</source>
+          <target state="translated">Nazwa algorytmu wyznaczania wartości skrótu używany do tworzenia wartości skrótu danych.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The signature data to be verified.</source>
+          <target state="translated">Dane sygnatur do weryfikacji.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the signature verifies as valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli podpis sprawdza ważność; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbHash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbHash</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbSignature</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">rgbSignature</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The cryptographic service provider (CSP) cannot be acquired.</source>
+          <target state="translated">Nie można uzyskać dostawcy usług kryptograficznych (CSP).</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-or-       The signature cannot be verified.</source>
+          <target state="translated">- lub - nie można zweryfikować podpisu.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Verifies the <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature for the specified data.</source>
+          <target state="translated">Sprawdza, czy <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> podpisu dla określonych danych.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The data signed with <ph id="ph1">`rgbSignature`</ph>.</source>
+          <target state="translated">Podpisane dane z <ph id="ph1">`rgbSignature`</ph>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The signature to be verified for <ph id="ph1">`rgbData`</ph>.</source>
+          <target state="translated">Można zweryfikować podpisu <ph id="ph1">`rgbData`</ph>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">rgbSignature</ph><ept id="p2">&lt;/code&gt;</ept> matches the signature computed using the specified hash algorithm and key on <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">rgbHash</ph><ept id="p3">&lt;/code&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">rgbSignature</ph> <ept id="p2">&lt;/code&gt;</ept> zgodny z podpisem obliczonym przy użyciu algorytmu wyznaczania wartości skrótu określonej i klucz na <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">rgbHash</ph> <ept id="p3">&lt;/code&gt;</ept>; w przeciwnym razie <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
