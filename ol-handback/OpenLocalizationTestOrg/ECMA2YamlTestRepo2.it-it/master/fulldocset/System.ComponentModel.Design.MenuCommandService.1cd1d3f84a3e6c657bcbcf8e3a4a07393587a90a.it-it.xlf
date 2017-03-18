@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">349f40645525c276c7c4161c56320c9e84d6b66a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.MenuCommandService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67f5a8c428c79200c2b65219a6f8e3f2e49da690</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">135ed7fa15e3f44be5535dbea2556c5d1c638420</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IMenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Implementa il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IMenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interfaccia.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MenuCommandService class implements the &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt; interface, which is the managed interface used to add handlers for menu commands and to define verbs.</source>
+          <target state="translated">La classe implementa MenuCommandService il &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt;interfaccia, che rappresenta l'interfaccia gestita utilizzata per aggiungere gestori per i comandi di menu e per definire i verbi.&lt;/xref:System.ComponentModel.Design.IMenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MenuCommandService class is automatically offered by the package class to offer global commands for an entire package, and it is also offered by the <ph id="ph1">`Microsoft.VisualStudio.Shell.WindowPane`</ph> class to offer commands for the current window.</source>
+          <target state="translated">La classe MenuCommandService viene fornita automaticamente dalla classe del package per rendere disponibili i comandi globali per un intero pacchetto, e viene inoltre offerta dalla <ph id="ph1">`Microsoft.VisualStudio.Shell.WindowPane`</ph> classe per rendere disponibili i comandi per la finestra corrente.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This offering is always done through the service container, so anyone deriving from the package or window pane classes can remove or replace the default implementation of the &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt; interface.</source>
+          <target state="translated">Questa offerta è eseguita sempre tramite il contenitore del servizio, quindi la derivazione dal pacchetto o classi di finestra riquadro è possono rimuovere o sostituire l'implementazione predefinita del &lt;xref:System.ComponentModel.Design.IMenuCommandService&gt;interfaccia.&lt;/xref:System.ComponentModel.Design.IMenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MenuCommandService class utilizes several other services.</source>
+          <target state="translated">La classe MenuCommandService utilizza diversi altri servizi.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All of these services are optional, so the behavior of the MenuCommandService class degrades if one or more services are missing.</source>
+          <target state="translated">Tutti questi servizi sono facoltativi, perciò il comportamento della classe MenuCommandService risulta ridotto se mancano uno o più servizi.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows which services are used and for what purpose.</source>
+          <target state="translated">La tabella seguente illustra i servizi utilizzati e il loro scopo.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Service|Purpose|   |-------------|-------------|   |&lt;xref:System.ComponentModel.Design.ISelectionService&gt;|Used to discover the current selection in order to obtain verbs offered by the currently selected designer.|   |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|Used to obtain the designer for the currently selected component, if any.|   |<ph id="ph1">`Microsoft.VisualStudio.Shell.Interop.IVsUIShell`</ph>|Used to notify <ph id="ph2">[!INCLUDE[vsprvs](~/add/includes/vsprvs-md.md)]</ph> that the command status has changed.|   |<ph id="ph3">`Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager`</ph>|Used to show context menus.|</source>
+          <target state="translated">| Servizio | Scopo |   |-------------|-------------|   | &lt;xref:System.ComponentModel.Design.ISelectionService&gt;| Utilizzato per individuare la selezione corrente per ottenere i verbi forniti dalla finestra di progettazione attualmente selezionato. |   | &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;| Utilizzato per ottenere la finestra di progettazione per il componente selezionato, se presente. |   | <ph id="ph1">`Microsoft.VisualStudio.Shell.Interop.IVsUIShell`</ph>| Utilizzato per notificare <ph id="ph2">[!INCLUDE[vsprvs](~/add/includes/vsprvs-md.md)]</ph> che è stato modificato lo stato del comando. |   | <ph id="ph3">`Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager`</ph>| Utilizzato per mostrare i menu di scelta rapida. |&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.ISelectionService&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service is being used with a designer, the <ph id="ph1">`serviceProvider`</ph> parameter should be the service provider for the designer, as is the case with &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.</source>
+          <target state="translated">Se il servizio viene utilizzato con una finestra di progettazione, il <ph id="ph1">`serviceProvider`</ph> parametro deve essere il provider di servizi per la finestra di progettazione, come accade con &lt;xref:System.ComponentModel.Design.DesignSurface&gt;.&lt;/xref:System.ComponentModel.Design.DesignSurface&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The service provider that this service uses to obtain other services.</source>
+          <target state="translated">Provider di servizi utilizzato da questo servizio per ottenere altri servizi.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Adds a command handler to the menu command service.</source>
+          <target state="translated">Aggiunge un gestore del comando per il servizio di comando di menu.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddCommand method adds a command handler to the menu command service.</source>
+          <target state="translated">Il metodo AddCommand aggiunge un gestore del comando per il servizio di comando di menu.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Command handlers do not define the text, shortcut, or placement of a menu item.</source>
+          <target state="translated">Gestori di comandi non definisce il testo, una scelta rapida o la selezione di una voce di menu.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rather, they define the menu item’s behavior if the item is clicked.</source>
+          <target state="translated">Piuttosto, definiscono il comportamento della voce di menu se si seleziona l'elemento.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A command handler <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">command</ph><ept id="p1">&lt;/code&gt;</ept> already exists.</source>
+          <target state="translated">Un gestore del comando <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">command</ph> <ept id="p1">&lt;/code&gt;</ept> esiste già.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Adds a verb to the verb table of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aggiunge un verbo alla tabella dei verbi di <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This verb is available regardless of what designer is currently selected.</source>
+          <target state="translated">Il verbo è disponibile indipendentemente dalla finestra di progettazione attualmente selezionata.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike menu commands, verbs can define the text that is displayed to the user, but they do not define the placement of the command on the actual menu.</source>
+          <target state="translated">A differenza dei comandi di menu, verbi possono definire il testo che viene visualizzato all'utente, ma non definiscono la posizione del comando all'interno del menu.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerb"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Rilascia tutte le risorse usate dal <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call Dispose when you are finished using the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.</source>
+          <target state="translated">Chiamare Dispose dopo aver terminato di utilizzare &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method leaves the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; in an unusable state.</source>
+          <target state="translated">Il metodo Dispose lascia il &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;in uno stato inutilizzabile.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Dispose, you must release all references to the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; was occupying.</source>
+          <target state="translated">Dopo aver chiamato Dispose, è necessario rilasciare tutti i riferimenti al &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;in modo che il garbage collector può recuperare la memoria che di &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;occupata.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt; &lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>la pulizia di risorse non gestite<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> e <bpt id="p2">[</bpt>implementazione di un metodo Dispose<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Chiamare sempre Dispose prima di rilasciare l'ultimo riferimento a &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">In caso contrario, le risorse non vengono liberate finché il garbage collector chiama la &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;dell'oggetto <ph id="ph1">`Finalize`</ph> metodo.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Rilascia tutte le risorse usate dal <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph>method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Questo metodo viene chiamato dal metodo pubblico <ph id="ph1">`Dispose()`</ph>(metodo) e &lt;xref:System.Object.Finalize%2A&gt;metodo.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>richiama il metodo protetto <ph id="ph2">`Dispose(Boolean)`</ph> metodo con il <ph id="ph3">`disposing`</ph> parametro impostato su <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;richiama <ph id="ph1">`Dispose`</ph> con <ph id="ph2">`disposing`</ph> impostato su <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.MenuCommandService&gt; references.</source>
+          <target state="translated">Quando la <ph id="ph1">`disposing`</ph> parametro è true, questo metodo rilascia tutte le risorse utilizzate dagli oggetti gestiti da questo &lt;xref:System.ComponentModel.Design.MenuCommandService&gt;riferimenti.&lt;/xref:System.ComponentModel.Design.MenuCommandService&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Questo metodo richiama il <ph id="ph1">`Dispose()`</ph> metodo di ciascun oggetto cui viene fatto riferimento.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per rilasciare le risorse gestite e non gestite. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> per rilasciare solo le risorse non gestite.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Ensures that the verb list has been created.</source>
+          <target state="translated">Garantisce che sia stato creato l'elenco dei verbi.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EnsureVerbs method creates the verb list if it has not already been created.</source>
+          <target state="translated">Se non è già stato creato, il metodo EnsureVerbs crea l'elenco dei verbi.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Searches for the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command ID.</source>
+          <target state="translated">Cerca il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associato all'ID di comando specificato.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.CommandID"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to find.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.CommandID"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> trovare.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the command is not found.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associata con il comando specificato; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se il comando non viene trovato.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Searches for the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command.</source>
+          <target state="translated">Cerca il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associato al comando specificato.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The GUID of the command.</source>
+          <target state="translated">Il GUID del comando.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The ID of the command.</source>
+          <target state="translated">L'ID del comando.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the given command; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the command is not found.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associata con il comando specificato; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se il comando non viene trovato.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the command list for a given GUID.</source>
+          <target state="translated">Ottiene l'elenco dei comandi per un GUID specifico.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The GUID of the command list.</source>
+          <target state="translated">Il GUID dell'elenco di comandi.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; of commands.</source>
+          <target state="translated">Un &lt;xref:System.Collections.ICollection&gt;dei comandi.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the requested service.</source>
+          <target state="translated">Ottiene un riferimento al servizio richiesto.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the service to retrieve.</source>
+          <target state="translated">Il &lt;xref:System.Type&gt;del servizio da recuperare.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A reference to <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serviceType</ph><ept id="p1">&lt;/code&gt;</ept>; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the service is not found.</source>
+          <target state="translated">Un riferimento a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serviceType</ph> <ept id="p1">&lt;/code&gt;</ept>; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se il servizio non viene trovato.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Invokes the given command on the local form or in the global environment.</source>
+          <target state="translated">Richiama il comando specificato sul form locale o nell'ambiente globale.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The local form is first searched for the given command ID.</source>
+          <target state="translated">Form locale viene innanzitutto eseguita la ricerca per l'ID di comando specificato.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is found, it is invoked.</source>
+          <target state="translated">Se viene trovato, viene richiamato.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the command ID is passed to the global environment command handler, if one is available.</source>
+          <target state="translated">In caso contrario, l'ID di comando viene passato al gestore del comando ambiente globale, se disponibile.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The command to invoke.</source>
+          <target state="translated">Il comando da richiamare.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the command was found; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, se il comando è stato trovato. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Invokes the given command with the given parameter on the local form or in the global environment.</source>
+          <target state="translated">Richiama il comando specificato con il parametro specificato sul form locale o nell'ambiente globale.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The local form is first searched for the given command ID.</source>
+          <target state="translated">Form locale viene innanzitutto eseguita la ricerca per l'ID di comando specificato.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is found, it is invoked.</source>
+          <target state="translated">Se viene trovato, viene richiamato.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the command ID is passed to the global environment command handler, if one is available.</source>
+          <target state="translated">In caso contrario, l'ID di comando viene passato al gestore del comando ambiente globale, se disponibile.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The command to invoke.</source>
+          <target state="translated">Il comando da richiamare.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A parameter for the invocation.</source>
+          <target state="translated">Un parametro per la chiamata.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the command was found; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, se il comando è stato trovato. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Occurs when the status of a menu command has changed.</source>
+          <target state="translated">Si verifica quando viene modificato lo stato di un comando di menu.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni sulla gestione degli eventi, vedere <bpt id="p1">[</bpt>NIB: utilizzo degli eventi<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService.MenuCommandsChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Genera il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandService.MenuCommandsChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> evento.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCommandsChanged method is called by a menu command when its status has changed.</source>
+          <target state="translated">Il metodo OnCommandsChanged viene chiamato da un comando di menu quando il relativo stato è stato modificato.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Viene generato un evento richiama il gestore dell'evento tramite un delegato.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Per ulteriori informazioni, vedere <bpt id="p1">[</bpt>NIB: generazione di un evento<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCommandsChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Il metodo OnCommandsChanged consente inoltre alle classi derivate di gestire l'evento senza associare un delegato.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Questa è la tecnica consigliata per la gestione dell'evento in una classe derivata.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandsChangedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.ComponentModel.Design.MenuCommandsChangedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che contiene i dati dell'evento.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Removes the given menu command from the document.</source>
+          <target state="translated">Rimuove il comando di menu specificato dal documento.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no more commands in the command group, the group is removed.</source>
+          <target state="translated">Se non sono presenti altri comandi del gruppo di comando, il gruppo viene rimosso.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The command to remove.</source>
+          <target state="translated">Il comando per rimuovere.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;command&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Removes the given verb from the document.</source>
+          <target state="translated">Rimuove il verbo specificato dal documento.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The verb to remove.</source>
+          <target state="translated">Il verbo da rimuovere.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;verb&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Shows the shortcut menu with the given command ID at the given location.</source>
+          <target state="translated">Mostra il menu di scelta rapida con l'ID di comando specificato nel percorso specificato.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation does nothing.</source>
+          <target state="translated">L'implementazione predefinita non esegue alcuna operazione.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The shortcut menu to display.</source>
+          <target state="translated">Per visualizzare il menu di scelta rapida.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The x-coordinate of the shortcut menu's location.</source>
+          <target state="translated">La coordinata x della posizione del menu di scelta rapida.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The y-coordinate of the shortcut menu's location.</source>
+          <target state="translated">La coordinata y della posizione del menu di scelta rapida.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the designer verbs that are currently available.</source>
+          <target state="translated">Ottiene una raccolta dei verbi di progettazione che sono attualmente disponibili.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Verbs property provides a collection of verbs.</source>
+          <target state="translated">Proprietà Verbs fornisce una raccolta di verbi.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These verbs come from two places:      -   Verbs added through the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt; method of Verbs.</source>
+          <target state="translated">Questi verbi provengono da due posizioni:-verbi aggiunti tramite il &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;metodo dei verbi.&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Verbs offered by the currently selected designer.</source>
+          <target state="translated">-Verbi forniti dalla finestra di progettazione attualmente selezionata.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Verbs added to this service through the &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt; method are called global verbs because they are global to this service, but generally there is one instance of this service for each tool or document window.</source>
+          <target state="translated">Verbi aggiunti al servizio tramite il &lt;xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;metodo sono detti verbi globali, in quanto sono globali per il servizio, ma in genere è un'istanza del servizio per ogni finestra degli strumenti o documento.&lt;/xref:System.ComponentModel.Design.MenuCommandService.AddVerb%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Designer verbs are obtained by querying the service provider for &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; and &lt;xref:System.ComponentModel.Design.ISelectionService&gt;.</source>
+          <target state="translated">I verbi di progettazione vengono ottenuti eseguendo il provider di servizi per &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;e &lt;xref:System.ComponentModel.Design.ISelectionService&gt;.&lt;/xref:System.ComponentModel.Design.ISelectionService&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the selection service offers a primary selection, and a designer can be obtained for that selection from &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;, the designer’s verbs are added to this list.</source>
+          <target state="translated">Se il servizio di selezione fornisce una selezione primaria ed è possibile ottenere una finestra di progettazione per la selezione da &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;, questo elenco vengono aggiunti i verbi di progettazione.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the name of a global verb conflicts with the name of a designer verb, the designer-provided designer verb takes precedence.</source>
+          <target state="translated">Se il nome di un verbo globale in conflitto con il nome di un verbo di progettazione, il verbo di progettazione fornite dalla finestra di progettazione ha la precedenza.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerbCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the designer verbs that are currently available.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerbCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dei verbi di progettazione che sono attualmente disponibili.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

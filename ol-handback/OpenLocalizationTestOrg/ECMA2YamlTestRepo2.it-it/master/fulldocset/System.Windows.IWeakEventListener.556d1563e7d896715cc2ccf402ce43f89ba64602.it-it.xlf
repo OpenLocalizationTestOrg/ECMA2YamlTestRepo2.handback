@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b159c61361fc1aeeded8c197e1856941f66de561</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.IWeakEventListener.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8ec4cf59c3d050f1fd6c358cd128ac4d190f61d7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1d56b30d9c0ee9e4432291f21994dceab6318294</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides event listening support for classes that expect to receive events through the WeakEvent pattern and a <bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Fornisce il supporto di ascolto dell'evento per le classi che prevede di ricevere eventi tramite il modello WeakEvent e <bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.WeakEventManager&gt; (a dispatcher) forwards an event by calling the &lt;xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt; method on classes that implement this interface, and that have been added as listeners by calling &lt;xref:System.Windows.WeakEventManager&gt; methods beforehand.</source>
+          <target state="translated">Il &lt;xref:System.Windows.WeakEventManager&gt;(un dispatcher) inoltra un evento chiamando il &lt;xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt;metodo nelle classi che implementano questa interfaccia e che sono stati aggiunti come listener chiamando &lt;xref:System.Windows.WeakEventManager&gt;metodi in anticipo.&lt;/xref:System.Windows.WeakEventManager&gt; &lt;/xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt; &lt;/xref:System.Windows.WeakEventManager&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The principal reason for following the WeakEvent pattern is when the event source has an object lifetime that is potentially independent of the event listeners.</source>
+          <target state="translated">La ragione principale per seguire il modello WeakEvent è quando l'origine eventi ha una durata di oggetti che potenzialmente indipendente dai listener di eventi.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using the central event dispatching of a &lt;xref:System.Windows.WeakEventManager&gt; enables the handlers for listeners to be garbage collected (or manually purged) even if the source object lifetime extends beyond the listeners.</source>
+          <target state="translated">Tramite l'invio dell'evento centrale di un &lt;xref:System.Windows.WeakEventManager&gt;Abilita i gestori per i listener per la garbage collection (o eliminarli manualmente) anche se la durata dell'oggetto di origine si estende oltre i listener.&lt;/xref:System.Windows.WeakEventManager&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By contrast, a normal event hookup using <ph id="ph1">`+=`</ph> or equivalent language-specific event syntax causes the potentially still-connected source to hold a strong reference to the handlers.</source>
+          <target state="translated">Al contrario, un associazione dell'evento normale utilizzando <ph id="ph1">`+=`</ph> o sintassi equivalente eventi specifici della lingua fa sì che l'origine potenzialmente ancora connessa a un riferimento forte ai gestori.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This keeps the listener references from being garbage collected in a timely fashion.</source>
+          <target state="translated">In questo modo i riferimenti di listener dalla procedura di garbage collection in modo tempestivo.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>One common situation where the relationships between sources and listeners suggests the use of this pattern is the handling of update events coming from sources for data bindings.</source>
+          <target state="translated">Una situazione comune in cui le relazioni tra origini e i listener suggerisce l'utilizzo di questo modello è la gestione degli eventi di aggiornamento provenienti da origini per i data binding.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the WeakEvent pattern to listen for events that are external to your application.</source>
+          <target state="translated">È possibile utilizzare il modello WeakEvent in ascolto di eventi che sono esterni all'applicazione.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You only need to define a &lt;xref:System.Windows.WeakEventManager&gt; for it, provide listening behavior in &lt;xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt;, and use the &lt;xref:System.Windows.WeakEventManager&gt; to attach the handler references rather than <ph id="ph1">`+=`</ph>.</source>
+          <target state="translated">È necessario definire un &lt;xref:System.Windows.WeakEventManager&gt;, fornire il comportamento di attesa in &lt;xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt;e utilizzare il &lt;xref:System.Windows.WeakEventManager&gt;per associare il gestore fa riferimento a anziché <ph id="ph1">`+=`</ph>.&lt;/xref:System.Windows.WeakEventManager&gt; &lt;/xref:System.Windows.IWeakEventListener.ReceiveWeakEvent%2A&gt; &lt;/xref:System.Windows.WeakEventManager&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Receives events from the centralized event manager.</source>
+          <target state="translated">Riceve gli eventi dal gestore eventi centralizzato.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The type of the <bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> calling this method.</source>
+          <target state="translated">Il tipo di <bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> chiamare questo metodo.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Object that originated the event.</source>
+          <target state="translated">Oggetto che ha generato l'evento.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Event data.</source>
+          <target state="translated">Dati dell'evento.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the listener handled the event.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il listener ha gestito l'evento.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>It is considered an error by the <bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> handling in <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> to register a listener for an event that the listener does not handle.</source>
+          <target state="translated">Viene considerato un errore per il <bpt id="p1">&lt;xref href="System.Windows.WeakEventManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gestione in <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> per registrare un listener per un evento che viene gestito dal listener.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Regardless, the method should return <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if it receives an event that it does not recognize or handle.</source>
+          <target state="translated">In ogni caso, il metodo deve restituire <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se riceve un evento che non riconosce o gestire.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

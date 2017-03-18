@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fba5e6929959852d868d0a3334aaf9a93a7acba9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.ContextStack.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b5c26b86bf9caf3f9b1d167a105ccb64dadb92b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">51bb5506215bed4ac62bc2e1619a432f3365b1a4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a stack object that can be used by a serializer to make information available to nested serializers.</source>
+          <target state="translated">Fornisce un oggetto stack utilizzabili da un serializzatore per rendere disponibili informazioni per i serializzatori annidati.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some serializers require information about the context of an object to correctly persist their state.</source>
+          <target state="translated">Alcuni serializzatori richiedono informazioni sul contesto di un oggetto per mantenere il loro stato correttamente.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ContextStack class enables a serializer to set data about the context of an object that is being serialized to a stack where another serializer can access it.</source>
+          <target state="translated">La classe ContextStack consente a un serializzatore di impostare dati relativi al contesto di un oggetto da serializzare in uno stack in cui può accedere un altro serializzatore.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt; property is provided by an &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt; to share information of use to some serializers.</source>
+          <target state="translated">Il valore di &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt;proprietà viene fornita da un &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;condividere le informazioni di utilizzo per alcuni serializzatori.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A context stack is useful because the process of serializing a design document can be deeply nested, and objects at each level of nesting may require context information to correctly persist the state of the object.</source>
+          <target state="translated">Uno stack di contesto è utile perché il processo di serializzazione di un documento di progettazione può essere molto annidato, e gli oggetti a ogni livello di annidamento potrebbero richiedere informazioni sul contesto per mantenere correttamente lo stato dell'oggetto.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A serializer can set a context object to the stack before invoking a nested serializer.</source>
+          <target state="translated">Un serializzatore può impostare un oggetto di contesto allo stack prima di richiamare un serializzatore annidato.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each object set to the stack should be removed by the serializer that set it after a call to a nested serializer returns.</source>
+          <target state="translated">Ogni oggetto impostato sullo stack deve essere rimosso dal serializzatore che lo rendono dopo la restituzione di una chiamata a un serializzatore annidato.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the objects on the stack contain information about the context of the current object that is being serialized.</source>
+          <target state="translated">In genere, gli oggetti nello stack contengono informazioni sul contesto dell'oggetto corrente da serializzare.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A parent serializer adds context information to the stack about the next object to be serialized, calls an appropriate serializer and, when the serializer finishes executing on the object, removes the context information from the stack.</source>
+          <target state="translated">Un serializzatore padre aggiunge informazioni di contesto allo stack relative al successivo oggetto da serializzare, chiama un serializzatore appropriato e, al termine dell'esecuzione per l'oggetto, il serializzatore rimuove le informazioni sul contesto dallo stack.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is up to the implementation of each serializer to determine what objects get pushed on this stack.</source>
+          <target state="translated">In questo caso, l'implementazione di ciascun serializzatore per determinare quali oggetti vengono inclusi in questo stack.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As an example, an object with a property named <ph id="ph1">`Enabled`</ph> has a data type of &lt;xref:System.Boolean&gt;.</source>
+          <target state="translated">Ad esempio, un oggetto con una proprietà denominata <ph id="ph1">`Enabled`</ph> è un tipo di dati di &lt;xref:System.Boolean&gt;.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a serializer writes this value to a data stream, it might need to include the context or type of property it is writing.</source>
+          <target state="translated">Se un serializzatore scrive questo valore in un flusso di dati, potrebbe essere necessario includere il contesto o il tipo di proprietà che sta scrivendo.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serializer does not have this information, however, because it is only instructed to write the &lt;xref:System.Boolean&gt; value.</source>
+          <target state="translated">Il serializzatore non disporre di queste informazioni, tuttavia, poiché è strutturato esclusivamente per scrivere il &lt;xref:System.Boolean&gt;valore.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To provide this information to the serializer, the parent serializer can push a &lt;xref:System.ComponentModel.PropertyDescriptor&gt; that points to the <ph id="ph1">`Enabled`</ph> property on the context stack.</source>
+          <target state="translated">Per fornire queste informazioni al serializzatore, il serializzatore padre può inserire un &lt;xref:System.ComponentModel.PropertyDescriptor&gt;che punta al <ph id="ph1">`Enabled`</ph> proprietà nello stack di contesto.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ContextStack"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ContextStack"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Appends an object to the end of the stack, rather than pushing it onto the top of the stack.</source>
+          <target state="translated">Aggiunge un oggetto alla fine di stack, anziché il push all'inizio dello stack.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method allows a serializer to communicate with other serializers by adding contextual data objects that do not have to be removed in order.</source>
+          <target state="translated">Questo metodo consente a un serializzatore comunicare con altri serializzatori aggiungendo oggetti dati contestuali che non devono essere rimosse in ordine.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no way to remove an object that was appended to the end of the stack without removing all other objects.</source>
+          <target state="translated">Non è possibile rimuovere un oggetto che è stato aggiunto alla fine dello stack senza rimuovere tutti gli altri oggetti.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A context object to append to the stack.</source>
+          <target state="translated">Oggetto da aggiungere allo stack di contesto.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;context&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;context&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the current object on the stack.</source>
+          <target state="translated">Ottiene l'oggetto corrente nello stack.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current object is the object at the top of the stack, or the object last added to the stack.</source>
+          <target state="translated">L'oggetto corrente è l'oggetto all'inizio dello stack o l'oggetto ultimo aggiunto allo stack.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The current object on the stack, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no objects were pushed.</source>
+          <target state="translated">L'oggetto corrente nello stack, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se è stato inserito alcun oggetto.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the object on the stack at the specified level.</source>
+          <target state="translated">Ottiene l'oggetto dello stack al livello specificato.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The level of the object to retrieve on the stack.</source>
+          <target state="translated">Il livello di oggetto da recuperare nello stack.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Level 0 is the top of the stack, level 1 is the next down, and so on.</source>
+          <target state="translated">Livello 0 è l'inizio dello stack, livello 1 è il successivo e così via.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This level must be 0 or greater.</source>
+          <target state="translated">Questo livello deve essere maggiore o uguale a 0.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If level is greater than the number of levels on the stack, it returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se il livello è maggiore del numero di livelli nello stack, verrà restituito <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The object on the stack at the specified level, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no object exists at that level.</source>
+          <target state="translated">L'oggetto di nello stack al livello specificato, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se nessun oggetto esistente a tale livello.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;level&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;level&lt;/code&gt;</ph>è minore di 0.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the first object on the stack that inherits from or implements the specified type.</source>
+          <target state="translated">Ottiene il primo oggetto nello stack che eredita da o implementa il tipo specificato.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A check is made on each level of the stack, searching for an object that implements or inherits <ph id="ph1">`type`</ph>.</source>
+          <target state="translated">Viene eseguito un controllo a ogni livello dello stack, per trovare un oggetto che implementa o eredita <ph id="ph1">`type`</ph>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a match is found, it is returned.</source>
+          <target state="translated">Se viene trovata una corrispondenza, viene restituito.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A type to retrieve from the context stack.</source>
+          <target state="translated">Un tipo da recuperare dallo stack di contesto.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The first object on the stack that inherits from or implements the specified type, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no object on the stack implements the type.</source>
+          <target state="translated">Il primo oggetto di nello stack che eredita da o implementa il tipo specificato, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se il tipo è implementato alcun oggetto di nello stack.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Removes the current object off of the stack, returning its value.</source>
+          <target state="translated">Rimuove l'oggetto corrente dallo stack, che restituisce il relativo valore.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The object removed from the stack; <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no objects are on the stack.</source>
+          <target state="translated">L'oggetto rimosso dallo stack; <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se non sono oggetti nello stack.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Pushes, or places, the specified object onto the stack.</source>
+          <target state="translated">Inserisce o spostare, l'oggetto specificato nello stack.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The context object to push onto the stack.</source>
+          <target state="translated">Oggetto di contesto da inserire nello stack.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;context&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;context&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84db933f7034355d88c984610e49cf923d6471bd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.IDataObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">43ba16fb852b1ca91d902ddf13349f6e640b99ea</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7c4c8c2bea87d415c2ea36d68292f55220910e33</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a format-independent mechanism for transferring data.</source>
+          <target state="translated">Fornisce un meccanismo indipendente dal formato per il trasferimento dei dati.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`IDataObject`</ph> interface is used by the &lt;xref:System.Windows.Forms.Clipboard&gt; class and in drag-and-drop operations.</source>
+          <target state="translated">Il <ph id="ph1">`IDataObject`</ph> interfaccia viene utilizzata per la &lt;xref:System.Windows.Forms.Clipboard&gt;classe e nelle operazioni di trascinamento e rilascio.&lt;/xref:System.Windows.Forms.Clipboard&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When implemented in a class, the IDataObject methods allow the user to store data in multiple formats in an instance of the class.</source>
+          <target state="translated">Quando viene implementato in una classe, i metodi di IDataObject consentono all'utente archiviare i dati in più formati in un'istanza della classe.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Storing data in more than one format increases the chance that a target application, whose format requirements you might not know, can retrieve the stored data.</source>
+          <target state="translated">L'archiviazione dei dati in più formati aumentano le probabilità che un'applicazione di destinazione, il cui requisiti di formato non è noto, è possibile recuperare i dati archiviati.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To store data in an instance of IDataObject, call the &lt;xref:System.Windows.Forms.IDataObject.SetData%2A&gt; method and specify the data format in the <ph id="ph1">`format`</ph> parameter.</source>
+          <target state="translated">Per archiviare i dati in un'istanza di IDataObject, chiamare il &lt;xref:System.Windows.Forms.IDataObject.SetData%2A&gt;(metodo) e specificare il formato di dati nel <ph id="ph1">`format`</ph> parametro.&lt;/xref:System.Windows.Forms.IDataObject.SetData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the <ph id="ph1">`autoConvert`</ph> parameter to <ph id="ph2">`false`</ph> if you do not want stored data to be converted to another format when it is retrieved.</source>
+          <target state="translated">Impostare il <ph id="ph1">`autoConvert`</ph> parametro <ph id="ph2">`false`</ph> se si desidera convertire in un altro formato quando vengono recuperati i dati memorizzati.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Invoke &lt;xref:System.Windows.Forms.IDataObject.SetData%2A&gt; multiple times on one instance of IDataObject to store data in more than one format.</source>
+          <target state="translated">Richiamare &lt;xref:System.Windows.Forms.IDataObject.SetData%2A&gt;più volte in un'istanza di IDataObject per archiviare i dati in più formati.&lt;/xref:System.Windows.Forms.IDataObject.SetData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You retrieve stored data from an IDataObject by calling the &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt; method and specifying the data format in the <ph id="ph1">`format`</ph> parameter.</source>
+          <target state="translated">Per recuperare i dati archiviati da IDataObject, chiamare il &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;metodo e specificando i dati di formato nel <ph id="ph1">`format`</ph> parametro.&lt;/xref:System.Windows.Forms.IDataObject.GetData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the <ph id="ph1">`autoConvert`</ph> parameter to <ph id="ph2">`false`</ph> to retrieve only data that was stored in the specified format.</source>
+          <target state="translated">Impostare il <ph id="ph1">`autoConvert`</ph> parametro <ph id="ph2">`false`</ph> per recuperare solo i dati archiviati nel formato specificato.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To convert the stored data to the specified format, set <ph id="ph1">`autoConvert`</ph> to <ph id="ph2">`true`</ph>, or do not use <ph id="ph3">`autoConvert`</ph>.</source>
+          <target state="translated">Per convertire i dati archiviati nel formato specificato, impostare <ph id="ph1">`autoConvert`</ph> a <ph id="ph2">`true`</ph>, o non utilizzare <ph id="ph3">`autoConvert`</ph>.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine the formats of the data stored in an IDataObject, use the following IDataObject methods.</source>
+          <target state="translated">Per determinare il formato dei dati archiviati in un IDataObject, utilizzare i seguenti metodi di IDataObject.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Call the &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt; method to retrieve an array of all the formats in which the data is available.</source>
+          <target state="translated">-Consente di chiamare il &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;metodo per recuperare una matrice di tutti i formati in cui i dati sono disponibili.&lt;/xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the <ph id="ph1">`autoConvert`</ph> parameter to <ph id="ph2">`false`</ph> to get only the formats in which the data is stored.</source>
+          <target state="translated">Impostare il <ph id="ph1">`autoConvert`</ph> parametro <ph id="ph2">`false`</ph> per ottenere solo i formati in cui i dati vengono archiviati.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To get all the formats in which the data is available, set <ph id="ph1">`autoConvert`</ph> to <ph id="ph2">`true`</ph>, or do not use this parameter.</source>
+          <target state="translated">Per ottenere tutti i formati in cui sono disponibili i dati, impostare <ph id="ph1">`autoConvert`</ph> a <ph id="ph2">`true`</ph>, o non utilizzare questo parametro.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Call the &lt;xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt; method to determine whether stored data is available in a certain format.</source>
+          <target state="translated">-Consente di chiamare il &lt;xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt;metodo per determinare se i dati archiviati sono disponibili in un determinato formato.&lt;/xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not want stored data to be converted to the specified format, set the <ph id="ph1">`autoConvert`</ph> parameter to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">Se non si desidera dati archiviati da convertire nel formato specificato, impostare il <ph id="ph1">`autoConvert`</ph> parametro <ph id="ph2">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Forms.DataObject&gt; class for an implementation of this interface.</source>
+          <target state="translated">Vedere la &lt;xref:System.Windows.Forms.DataObject&gt;classe per l'implementazione di questa interfaccia.&lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Forms.DataFormats&gt; class for the predefined &lt;xref:System.Windows.Forms.Clipboard&gt; data formats.</source>
+          <target state="translated">Vedere la &lt;xref:System.Windows.Forms.DataFormats&gt;classe per predefiniti &lt;xref:System.Windows.Forms.Clipboard&gt;formati di dati.&lt;/xref:System.Windows.Forms.Clipboard&gt; &lt;/xref:System.Windows.Forms.DataFormats&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Retrieves the data associated with the specified data format.</source>
+          <target state="translated">Recupera i dati associati con il formato dati specificato.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method cannot find data in the specified format, it attempts to convert the data to the format.</source>
+          <target state="translated">Se questo metodo non è possibile trovare i dati nel formato specificato, tenta di convertire i dati nel formato.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data cannot be converted to the specified format, this method returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Se i dati non possono essere convertiti nel formato specificato, questo metodo restituisce <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine whether data is associated with, or can be converted to, a format, call &lt;xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt; before calling &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;.</source>
+          <target state="translated">Per determinare se sono associati dati, o possono essere convertiti nel formato, chiamata &lt;xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt;prima di chiamare &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.IDataObject.GetData%2A&gt; &lt;/xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt; for a list of valid formats for the data stored in this instance.</source>
+          <target state="translated">Chiamare &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;per un elenco dei formati validi per i dati archiviati in questa istanza.&lt;/xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dati possono essere convertiti in un altro formato, se è stata archiviata che specifica che la conversione è consentita e se il formato richiesto è compatibile con il formato stored.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">Ad esempio, i dati archiviati come Unicode può essere convertito in testo.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.GetData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.GetData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The format of the data to retrieve.</source>
+          <target state="translated">Il formato dei dati da recuperare.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Vedere <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per i formati predefiniti.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The data associated with the specified format, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">I dati associati al formato specificato, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Retrieves the data associated with the specified class type format.</source>
+          <target state="translated">Recupera i dati associati con il formato del tipo di classe specificata.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method cannot find data in the specified format, it attempts to convert the data to the format.</source>
+          <target state="translated">Se questo metodo non è possibile trovare i dati nel formato specificato, tenta di convertire i dati nel formato.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data cannot be converted to the specified format, this method returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Se i dati non possono essere convertiti nel formato specificato, questo metodo restituisce <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine whether data is associated with, or can be converted to, a format, call &lt;xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt; before calling &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;.</source>
+          <target state="translated">Per determinare se sono associati dati, o possono essere convertiti nel formato, chiamata &lt;xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt;prima di chiamare &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.IDataObject.GetData%2A&gt; &lt;/xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt; for a list of valid formats for the data stored in this instance.</source>
+          <target state="translated">Chiamare &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;per un elenco dei formati validi per i dati archiviati in questa istanza.&lt;/xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dati possono essere convertiti in un altro formato, se è stata archiviata che specifica che la conversione è consentita e se il formato richiesto è compatibile con il formato stored.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">Ad esempio, i dati archiviati come Unicode può essere convertito in testo.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.GetData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.GetData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; representing the format of the data to retrieve.</source>
+          <target state="translated">Oggetto &lt;xref:System.Type&gt;che rappresenta il formato dei dati da recuperare.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Vedere <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per i formati predefiniti.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The data associated with the specified format, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">I dati associati al formato specificato, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Retrieves the data associated with the specified data format, using a Boolean to determine whether to convert the data to the format.</source>
+          <target state="translated">Recupera i dati associati con il formato dati specificato, usando un valore booleano per determinare se convertire i dati nel formato.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`autoConvert`</ph> parameter is <ph id="ph2">`true`</ph> and this method cannot find data in the specified format, it attempts to convert the data to the format.</source>
+          <target state="translated">Se il <ph id="ph1">`autoConvert`</ph> parametro <ph id="ph2">`true`</ph> e questo metodo non è possibile trovare i dati nel formato specificato, tenta di convertire i dati nel formato.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data cannot be converted to the specified format, or if the data was stored with the <ph id="ph1">`autoConvert`</ph> parameter set to <ph id="ph2">`false`</ph>, this method returns <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">Se i dati non possono essere convertiti nel formato specificato o se i dati sono stati memorizzati con il <ph id="ph1">`autoConvert`</ph> parametro impostato su <ph id="ph2">`false`</ph>, questo metodo restituisce <ph id="ph3">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`autoConvert`</ph> parameter is <ph id="ph2">`false`</ph>, this method returns data in the specified format, or <ph id="ph3">`null`</ph> if no data in this format can be found.</source>
+          <target state="translated">Se il <ph id="ph1">`autoConvert`</ph> parametro <ph id="ph2">`false`</ph>, questo metodo restituisce i dati nel formato specificato, o <ph id="ph3">`null`</ph> se non viene trovato alcun dato in questo formato.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine whether data is associated with, or can be converted to, a format, call &lt;xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt; before calling GetData.</source>
+          <target state="translated">Per determinare se sono associati dati, o possono essere convertiti nel formato, chiamare &lt;xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt;prima di chiamare GetData.&lt;/xref:System.Windows.Forms.IDataObject.GetDataPresent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt; for a list of valid formats for the data stored in this instance.</source>
+          <target state="translated">Chiamare &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;per un elenco dei formati validi per i dati archiviati in questa istanza.&lt;/xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dati possono essere convertiti in un altro formato, se è stata archiviata che specifica che la conversione è consentita e se il formato richiesto è compatibile con il formato stored.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">Ad esempio, i dati archiviati come Unicode può essere convertito in testo.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.GetData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.GetData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The format of the data to retrieve.</source>
+          <target state="translated">Il formato dei dati da recuperare.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Vedere <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per i formati predefiniti.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to convert the data to the specified format; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per convertire i dati nel formato specificato. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The data associated with the specified format, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">I dati associati al formato specificato, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Determines whether data stored in this instance is associated with, or can be converted to, the specified format.</source>
+          <target state="translated">Determina se i dati archiviati in questa istanza sono associati, o possono essere convertiti nel formato specificato.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to determine whether a format exists in this &lt;xref:System.Windows.Forms.DataObject&gt; before calling &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;.</source>
+          <target state="translated">Chiamare questo metodo per determinare se esiste un formato in questa &lt;xref:System.Windows.Forms.DataObject&gt;prima di chiamare &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.IDataObject.GetData%2A&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt; for the formats that are available in this instance.</source>
+          <target state="translated">Chiamare &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;per i formati disponibili in questa istanza.&lt;/xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dati possono essere convertiti in un altro formato, se è stata archiviata che specifica che la conversione è consentita e se il formato richiesto è compatibile con il formato stored.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">Ad esempio, i dati archiviati come Unicode può essere convertito in testo.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetDataPresent%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The format for which to check.</source>
+          <target state="translated">Il formato per cui si desidera controllare.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Vedere <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per i formati predefiniti.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data stored in this instance is associated with, or can be converted to, the specified format; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se i dati archiviati in questa istanza è associata, o può essere convertita nel formato specificato; in caso contrario <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Determines whether data stored in this instance is associated with, or can be converted to, the specified format.</source>
+          <target state="translated">Determina se i dati archiviati in questa istanza sono associati, o possono essere convertiti nel formato specificato.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to determine whether a format exists in this &lt;xref:System.Windows.Forms.DataObject&gt; before calling &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;.</source>
+          <target state="translated">Chiamare questo metodo per determinare se esiste un formato in questa &lt;xref:System.Windows.Forms.DataObject&gt;prima di chiamare &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.IDataObject.GetData%2A&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt; for the formats that are available in this instance.</source>
+          <target state="translated">Chiamare &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;per i formati disponibili in questa istanza.&lt;/xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dati possono essere convertiti in un altro formato, se è stata archiviata che specifica che la conversione è consentita e se il formato richiesto è compatibile con il formato stored.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">Ad esempio, i dati archiviati come Unicode può essere convertito in testo.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetDataPresent%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; representing the format for which to check.</source>
+          <target state="translated">Oggetto &lt;xref:System.Type&gt;che rappresenta il formato per cui si desidera controllare.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Vedere <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per i formati predefiniti.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data stored in this instance is associated with, or can be converted to, the specified format; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se i dati archiviati in questa istanza è associata, o può essere convertita nel formato specificato; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Determines whether data stored in this instance is associated with the specified format, using a Boolean value to determine whether to convert the data to the format.</source>
+          <target state="translated">Determina se i dati archiviati in questa istanza sono associati al formato specificato, usando un valore booleano per determinare se convertire i dati nel formato.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to determine whether a format exists in this &lt;xref:System.Windows.Forms.DataObject&gt; before calling &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;.</source>
+          <target state="translated">Chiamare questo metodo per determinare se esiste un formato in questa &lt;xref:System.Windows.Forms.DataObject&gt;prima di chiamare &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.IDataObject.GetData%2A&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt; for the formats that are available in this instance.</source>
+          <target state="translated">Chiamare &lt;xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;per i formati disponibili in questa istanza.&lt;/xref:System.Windows.Forms.IDataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`true`</ph> when:      -   The <ph id="ph2">`autoConvert`</ph> parameter is <ph id="ph3">`true`</ph> and the data is in a format that can be converted to the appropriate format.</source>
+          <target state="translated">Questo metodo restituisce <ph id="ph1">`true`</ph> quando: - il <ph id="ph2">`autoConvert`</ph> parametro <ph id="ph3">`true`</ph> e i dati in un formato che può essere convertito nel formato appropriato.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`autoConvert`</ph> parameter is <ph id="ph2">`false`</ph> and the data is in the appropriate format.</source>
+          <target state="translated">-La <ph id="ph1">`autoConvert`</ph> parametro <ph id="ph2">`false`</ph> e i dati sono nel formato appropriato.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`false`</ph> when:      -   The <ph id="ph2">`autoConvert`</ph> parameter is <ph id="ph3">`true`</ph> and this method cannot find data in the specified format, and it cannot convert data to the specified format, or the data was stored with <ph id="ph4">`autoConvert`</ph> set to <ph id="ph5">`false`</ph>.</source>
+          <target state="translated">Questo metodo restituisce <ph id="ph1">`false`</ph> quando: - il <ph id="ph2">`autoConvert`</ph> parametro <ph id="ph3">`true`</ph> questo metodo non consente di trovare e convertire i dati nel formato specificato e i dati sono stati memorizzati con <ph id="ph4">`autoConvert`</ph> impostato su <ph id="ph5">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`autoConvert`</ph> parameter is <ph id="ph2">`false`</ph>, and data does not exist in this instance in the specified format.</source>
+          <target state="translated">-La <ph id="ph1">`autoConvert`</ph> parametro <ph id="ph2">`false`</ph>, e dati non esistono in questa istanza nel formato specificato.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dati possono essere convertiti in un altro formato, se è stata archiviata che specifica che la conversione è consentita e se il formato richiesto è compatibile con il formato stored.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">Ad esempio, i dati archiviati come Unicode può essere convertito in testo.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetDataPresent%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The format for which to check.</source>
+          <target state="translated">Il formato per cui si desidera controllare.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Vedere <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per i formati predefiniti.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to determine whether data stored in this instance can be converted to the specified format; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to check whether the data is in the specified format.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per determinare se i dati archiviati in questa istanza può essere convertito nel formato specificato. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> per verificare se i dati sono nel formato specificato.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data is in, or can be converted to, the specified format; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se i dati in o possono essere convertiti nel formato specificato; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Returns a list of all formats that data stored in this instance is associated with or can be converted to.</source>
+          <target state="translated">Restituisce un elenco di tutti i formati di dati archiviati in questa istanza sono associati o possono essere convertiti in.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to get the supported data formats before calling the &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt; method.</source>
+          <target state="translated">Chiamare questo metodo per ottenere i formati di dati supportati prima di chiamare il &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;metodo.&lt;/xref:System.Windows.Forms.IDataObject.GetData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Forms.DataFormats&gt; class for the predefined formats.</source>
+          <target state="translated">Vedere la &lt;xref:System.Windows.Forms.DataFormats&gt;classe per i formati predefiniti.&lt;/xref:System.Windows.Forms.DataFormats&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dati possono essere convertiti in un altro formato, se è stata archiviata che specifica che la conversione è consentita e se il formato richiesto è compatibile con il formato stored.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">Ad esempio, i dati archiviati come Unicode può essere convertito in testo.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetFormats%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An array of the names that represents a list of all formats that are supported by the data stored in this object.</source>
+          <target state="translated">Una matrice dei nomi che rappresenta un elenco di tutti i formati supportati dai dati archiviati in questo oggetto.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets a list of all formats that data stored in this instance is associated with or can be converted to, using a Boolean value to determine whether to retrieve all formats that the data can be converted to or only native data formats.</source>
+          <target state="translated">Ottiene un elenco di tutti i formati dati archiviati in questa istanza sono associati o possono essere convertiti, usando un valore booleano per determinare se per recuperare tutti i formati di dati possono essere convertiti in o solo i dati nativi formati.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to get the supported data formats before calling the &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt; method.</source>
+          <target state="translated">Chiamare questo metodo per ottenere i formati di dati supportati prima di chiamare il &lt;xref:System.Windows.Forms.IDataObject.GetData%2A&gt;metodo.&lt;/xref:System.Windows.Forms.IDataObject.GetData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Windows.Forms.DataFormats&gt; class for the predefined formats.</source>
+          <target state="translated">Vedere la &lt;xref:System.Windows.Forms.DataFormats&gt;classe per i formati predefiniti.&lt;/xref:System.Windows.Forms.DataFormats&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Dati possono essere convertiti in un altro formato, se è stata archiviata che specifica che la conversione è consentita e se il formato richiesto è compatibile con il formato stored.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">Ad esempio, i dati archiviati come Unicode può essere convertito in testo.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetFormats%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to retrieve all formats that data stored in this instance is associated with or can be converted to; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to retrieve only native data formats.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per recuperare tutti i formati che i dati archiviati in questa istanza sono associati o possono essere convertiti in; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> per recuperare solo i formati di dati nativi.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>An array of the names that represents a list of all formats that are supported by the data stored in this object.</source>
+          <target state="translated">Una matrice dei nomi che rappresenta un elenco di tutti i formati supportati dai dati archiviati in questo oggetto.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Stores the specified data in this instance, using the class of the data for the format.</source>
+          <target state="translated">Archivia i dati specificati in questa istanza, utilizzando la classe dei dati per il formato.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The format is derived from the data class.</source>
+          <target state="translated">Il formato è derivato dalla classe di dati.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data stored using this method can be converted to a compatible format when it is retrieved.</source>
+          <target state="translated">Dati archiviati utilizzando questo metodo possono essere convertiti in un formato compatibile quando vengono recuperati.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The data to store.</source>
+          <target state="translated">I dati da archiviare.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Stores the specified data and its associated format in this instance.</source>
+          <target state="translated">Archivia i dati specificati e il relativo formato associato in questa istanza.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not know the format of the target application, you can store data in multiple formats using this method.</source>
+          <target state="translated">Se non si conosce il formato dell'applicazione di destinazione, è possibile archiviare dati in più formati utilizzando questo metodo.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data stored using this method can be converted to a compatible format when it is retrieved.</source>
+          <target state="translated">Dati archiviati utilizzando questo metodo possono essere convertiti in un formato compatibile quando vengono recuperati.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The format associated with the data.</source>
+          <target state="translated">Il formato associato ai dati.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Vedere <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per i formati predefiniti.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The data to store.</source>
+          <target state="translated">I dati da archiviare.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Stores the specified data and its associated class type in this instance.</source>
+          <target state="translated">Archivia i dati specificati e il relativo tipo di classe associata in questa istanza.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not know the format of the target application, you can store data in multiple formats using this method.</source>
+          <target state="translated">Se non si conosce il formato dell'applicazione di destinazione, è possibile archiviare dati in più formati utilizzando questo metodo.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data stored using this method can be converted to a compatible format when it is retrieved.</source>
+          <target state="translated">Dati archiviati utilizzando questo metodo possono essere convertiti in un formato compatibile quando vengono recuperati.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; representing the format associated with the data.</source>
+          <target state="translated">Oggetto &lt;xref:System.Type&gt;che rappresenta il formato associato ai dati.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Vedere <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per i formati predefiniti.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The data to store.</source>
+          <target state="translated">I dati da archiviare.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Stores the specified data and its associated format in this instance, using a Boolean value to specify whether the data can be converted to another format.</source>
+          <target state="translated">In questo caso, usando un valore booleano per specificare se i dati possono essere convertiti in un altro formato, archivia i dati specificati e il formato associato.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not know the format of the target application, you can store data in multiple formats using this method.</source>
+          <target state="translated">Se non si conosce il formato dell'applicazione di destinazione, è possibile archiviare dati in più formati utilizzando questo metodo.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an implementation of this method, see &lt;xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Per un'implementazione di questo metodo, vedere &lt;xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.DataObject.SetData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The format associated with the data.</source>
+          <target state="translated">Il formato associato ai dati.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">Vedere <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per i formati predefiniti.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to allow the data to be converted to another format; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per consentire i dati da convertire in un altro formato. in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The data to store.</source>
+          <target state="translated">I dati da archiviare.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

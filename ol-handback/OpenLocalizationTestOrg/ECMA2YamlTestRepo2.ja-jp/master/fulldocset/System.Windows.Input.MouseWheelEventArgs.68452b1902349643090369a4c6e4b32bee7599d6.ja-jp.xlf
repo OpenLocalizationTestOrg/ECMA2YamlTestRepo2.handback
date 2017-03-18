@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8e30df32fded1a58eed96549a207d65b56857418</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Input.MouseWheelEventArgs.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7a423c351896863a3a1196e36bbb1d8238ed46b7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">02a6b37278bcc139b45fb2f0b9f9ebd145cd6477</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides data for various events that report changes to the mouse wheel delta value of a mouse device.</source>
+          <target state="translated">レポートは、マウス デバイスのマウス ホイールの差分値を変更するさまざまなイベントのデータを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>MouseWheelEventArgs is used with the following events:      -   &lt;xref:System.Windows.UIElement.MouseWheel?displayProperty=fullName&gt;      -   &lt;xref:System.Windows.ContentElement.MouseWheel?displayProperty=fullName&gt;      -   &lt;xref:System.Windows.Input.Mouse.MouseWheel?displayProperty=fullName&gt; (attached event)      -   &lt;xref:System.Windows.UIElement.PreviewMouseWheel?displayProperty=fullName&gt;      -   &lt;xref:System.Windows.ContentElement.PreviewMouseWheel?displayProperty=fullName&gt;      -   &lt;xref:System.Windows.Input.Mouse.PreviewMouseWheel?displayProperty=fullName&gt; (attached event)       The &lt;xref:System.Windows.Input.MouseWheelEventArgs.Delta%2A&gt; property is positive if the mouse wheel is moved upward or forward (away from the user) or negative if the mouse wheel is moved downward or backward (toward the user).</source>
+          <target state="translated">MouseWheelEventArgs は、次のイベントと共に使用:- &lt;xref:System.Windows.UIElement.MouseWheel?displayProperty=fullName&gt;- &lt;xref:System.Windows.ContentElement.MouseWheel?displayProperty=fullName&gt;- &lt;xref:System.Windows.Input.Mouse.MouseWheel?displayProperty=fullName&gt;(添付イベント) - &lt;xref:System.Windows.UIElement.PreviewMouseWheel?displayProperty=fullName&gt;- &lt;xref:System.Windows.ContentElement.PreviewMouseWheel?displayProperty=fullName&gt;- &lt;xref:System.Windows.Input.Mouse.PreviewMouseWheel?displayProperty=fullName&gt;(添付イベント)、&lt;xref:System.Windows.Input.MouseWheelEventArgs.Delta%2A&gt;プロパティは、マウス ホイールを上へ移動された場合は、正または前方 (奥ユーザー) または負の場合は、マウス ホイールを下へ移動または (ユーザー) に向かって後方&lt;/xref:System.Windows.Input.MouseWheelEventArgs.Delta%2A&gt;&lt;/xref:System.Windows.Input.Mouse.PreviewMouseWheel?displayProperty=fullName&gt;&lt;/xref:System.Windows.ContentElement.PreviewMouseWheel?displayProperty=fullName&gt;&lt;/xref:System.Windows.UIElement.PreviewMouseWheel?displayProperty=fullName&gt;&lt;/xref:System.Windows.Input.Mouse.MouseWheel?displayProperty=fullName&gt;&lt;/xref:System.Windows.ContentElement.MouseWheel?displayProperty=fullName&gt;&lt;/xref:System.Windows.UIElement.MouseWheel?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This event is raised even for small mouse wheel movements.</source>
+          <target state="translated">このイベントは、小さなマウス ホイールの動きの場合でも発生します。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For some scenarios, it is appropriate to implement handlers that throttle small mouse wheel deltas by checking whether the delta exceeds a certain threshold.</source>
+          <target state="translated">一部のシナリオでは、デルタが特定のしきい値を超えたかどうかをチェックして、小さなマウス ホイールのデルタを調整するハンドラーを実装することをお勧めします。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Otherwise, you might invoke your handler for cases where the mouse wheel delta was so small that any UI that is tied to the mouse wheel movement would not update.</source>
+          <target state="translated">それ以外の場合、マウス ホイールの差分が非常に小さいため、マウス ホイールの動作に関連付けられているすべての UI の更新が行われない場合、ハンドラーを起動することもできます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Exactly how you implement the threshold behavior in a handler and what that threshold should be is entirely implementation-specific.</source>
+          <target state="translated">正確にどのようにハンドラーで、しきい値の動作を実装する、そのしきい値にする必要があります実装ごとに異なります。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Input.MouseWheelEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Windows.Input.MouseWheelEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The mouse device associated with this event.</source>
+          <target state="translated">このイベントに関連付けられているマウス デバイス。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The time when the input occurred.</source>
+          <target state="translated">入力が発生した時刻。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The amount the wheel has changed.</source>
+          <target state="translated">ホイールの回転の量が変更されました。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates the amount that the mouse wheel has changed.</source>
+          <target state="translated">マウスのホイールが変更する量を示す値を取得します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The effective upper and lower ranges of this value potentially come from device implementations or other callers that raised the event, and are therefore not defined.</source>
+          <target state="translated">この値の効果的な上限と下限の範囲は、可能性のあるデバイスの実装または他の呼び出し元のイベントが発生し、定義されていないためから取得されます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The amount the wheel has changed.</source>
+          <target state="translated">ホイールの回転の量が変更されました。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This value is positive if the mouse wheel is rotated in an upward direction (away from the user) or negative if the mouse wheel is rotated in a downward direction (toward the user).</source>
+          <target state="translated">この値は、(ユーザー) 奥上方向にマウス ホイールを回転した場合は正または負の値 (ユーザー) に向かって下降方向にマウス ホイールを回転した場合です。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Invokes event handlers in a type-specific way, which can increase event system efficiency.</source>
+          <target state="translated">イベントのシステムの効率を高めることができます、型固有の方法でイベント ハンドラーを呼び出します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This implementation casts the generic handler as a &lt;xref:System.Windows.Input.MouseWheelEventHandler&gt; and then invokes it.</source>
+          <target state="translated">この実装では、ジェネリック ハンドラーをキャスト&lt;xref:System.Windows.Input.MouseWheelEventHandler&gt;してそれを呼び出します&lt;/xref:System.Windows.Input.MouseWheelEventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For details on this implementation pattern and the reasons for it, see &lt;xref:System.Windows.RoutedEventArgs.InvokeEventHandler%2A&gt; and <bpt id="p1">[</bpt>Routed Events Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">この実装パターンとその理由の詳細については、次を参照してください&lt;xref:System.Windows.RoutedEventArgs.InvokeEventHandler%2A&gt;と<bpt id="p1">[</bpt>ルーティング イベントの概要<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。&lt;/xref:System.Windows.RoutedEventArgs.InvokeEventHandler%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The generic handler to call in a type-specific way.</source>
+          <target state="translated">型固有の方法で呼び出すジェネリック ハンドラー。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The target to call the handler on.</source>
+          <target state="translated">ハンドラーを呼び出すターゲット。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
