@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1fac560a9fcac20e0aa697208d825c6fba1fd3d9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.XmlEntity.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1d724c08d3bc7fc10c939df9cc9b2fd53e23d74</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7d7a3f89e2d6759701376b069790ea6bc810a033</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an entity declaration, such as <ph id="ph1">&amp;lt;</ph>!ENTITY... <ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Rappresenta una dichiarazione di entità, ad esempio <ph id="ph1">&amp;lt;</ph>! ENTITÀ... <ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Gets the base Uniform Resource Identifier (URI) of the current node.</source>
+          <target state="translated">Ottiene la base identificatore URI (Uniform Resource) del nodo corrente.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A networked XML document is comprised of chunks of data aggregated using various World Wide Web Consortium (W3C) standard inclusion mechanisms and therefore contains nodes that come from different places.</source>
+          <target state="translated">Un documento XML in rete è costituito da blocchi di dati aggregati tramite vari meccanismi di inclusione standard di World Wide Web Consortium (W3C) e pertanto contiene nodi provenienti da diverse posizioni.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`BaseURI`</ph> tells you where these nodes came from.</source>
+          <target state="translated">Il <ph id="ph1">`BaseURI`</ph> indica la provenienza di questi nodi.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property varies depending on the node type.</source>
+          <target state="translated">Il valore di questa proprietà varia a seconda del tipo di nodo.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Nodes which are children of external EntityReference nodes return the location of the entity itself.</source>
+          <target state="translated">Nodi figlio di nodi EntityReference esterni restituiscono il percorso dell'entità stessa.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, consider the following XML document:      <ph id="ph1">```   &lt;!DOCTYPE item [   &lt;!ENTITY xyz SYSTEM "a/b.xml"&gt;   ]&gt;   &lt;item num='123'&gt;&amp;xyz;&lt;/item&gt;   ```</ph>       where the external entity <ph id="ph2">`a/b.xml`</ph> contains the XML text <ph id="ph3">`&lt;test&gt;123&lt;/test&gt;`</ph>.</source>
+          <target state="translated">Ad esempio, si consideri il seguente documento XML: <ph id="ph1">```   &lt;!DOCTYPE item [   &lt;!ENTITY xyz SYSTEM "a/b.xml"&gt;   ]&gt;   &lt;item num='123'&gt;&amp;xyz;&lt;/item&gt;   ```</ph> in cui l'entità esterna <ph id="ph2">`a/b.xml`</ph> contiene il testo XML <ph id="ph3">`&lt;test&gt;123&lt;/test&gt;`</ph>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the document is loaded from http://server/mydata.xml, <ph id="ph1">`BaseURI`</ph> returns the following:      |NodeType|Name|BaseURI|   |--------------|----------|-------------|   |Attribute|num|http://server/mydata.xml|   |Document|#document|http://server/mydata.xml|   |DocumentType|item|http://server/mydata.xml|   |Entity|xyz|http://server/mydata.xml|   |Element|item|http://server/mydata.xml|   |EntityReference|xyz|http://server/mydata.xml|   |Element|test|http://server/a/b.xml|   |Text|#text|http://server/a/b.xml|       <ph id="ph2">`BaseURI`</ph> looks for entity reference boundaries, so if entities are expanded, this information is not preserved and this property returns the location of the <ph id="ph3">`XmlDocument`</ph> object in all cases.</source>
+          <target state="translated">Se il documento viene caricato da http://server/mydata.xml, <ph id="ph1">`BaseURI`</ph> restituisce le operazioni seguenti: | Tipo di nodo | Nome | BaseURI |   |--------------|----------|-------------|   | Attributo | num | http://server/mydata.xml |   | Documento | #document | http://server/mydata.xml |   | DocumentType | elemento | http://server/mydata.xml |   | Entità | xyz | http://server/mydata.xml |   | Elemento | elemento | http://server/mydata.xml |   | EntityReference | xyz | http://server/mydata.xml |   | Elemento | test | http://server/a/b.xml |   | Testo | #text | http://server/a/b.xml |       <ph id="ph2">`BaseURI`</ph> cerca i limiti dei riferimenti all'entità, se le entità vengono espanse, queste informazioni non vengono mantenute e questa proprietà restituisce la posizione del <ph id="ph3">`XmlDocument`</ph> oggetto in tutti i casi.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a second example, given the following XML document:      <ph id="ph1">```   &lt;!DOCTYPE Mydata SYSTEM "http://localhost/doctype.dtd"&gt;   &lt;baa&gt;&amp;xyz;&lt;/baa&gt;   ```</ph>       where the document type definition (DTD) file contains the following:      <ph id="ph2">```   &lt;!ENTITY xyz "&lt;E1&gt;My Data&lt;/E1&gt;"&gt;   &lt;!ELEMENT baa #PCDATA&gt;   &lt;!ATTLIST baa attr1 "woof"&gt;   ```</ph>       If the XML document is loaded from http://localhost/mydata.xml, <ph id="ph3">`BaseURI`</ph> returns the following for each of the nodes:      |NodeType|Name|BaseURI|   |--------------|----------|-------------|   |Document|#document|http://localhost/mydata.xml|   |DocumentType|Mydata|http://localhost/doctype.dtd|   |Element|baa|http://localhost/mydata.xml|   |Entity|xyz|http://localhost/doctype.dtd|   |EntityReference|xyz|http://localhost/mydata.xml|   |Attribute|woof|http://localhost/mydata.xml|      &gt; <ph id="ph4">[!NOTE]</ph> &gt;  The base URI of a default attribute is the same as the base URI of the element to which they belong.</source>
+          <target state="translated">Come secondo esempio, dato il documento XML seguente: <ph id="ph1">```   &lt;!DOCTYPE Mydata SYSTEM "http://localhost/doctype.dtd"&gt;   &lt;baa&gt;&amp;xyz;&lt;/baa&gt;   ```</ph> in cui il file di definizione (DTD) di tipo di documento contiene le operazioni seguenti: <ph id="ph2">```   &lt;!ENTITY xyz "&lt;E1&gt;My Data&lt;/E1&gt;"&gt;   &lt;!ELEMENT baa #PCDATA&gt;   &lt;!ATTLIST baa attr1 "woof"&gt;   ```</ph> se il documento XML viene caricato da http://localhost/mydata.xml, <ph id="ph3">`BaseURI`</ph> restituisce quanto segue per ciascuno dei nodi: | Tipo di nodo | Nome | BaseURI |   |--------------|----------|-------------|   | Documento | #document | http://localhost/mydata.xml |   | DocumentType | MyData | http://localhost/doctype.dtd |   | Elemento | baa | http://localhost/mydata.xml |   | Entità | xyz | http://localhost/doctype.dtd |   | EntityReference | xyz | http://localhost/mydata.xml |   | Attributo | woof | http://localhost/mydata.xml |      &gt; <ph id="ph4">[!NOTE]</ph> &gt; L'URI di base di un attributo predefinito è lo stesso come URI di base dell'elemento a cui appartengono.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">Questa proprietà è un'estensione Microsoft per il provider di servizi Internet (DOM, Document Object Model).</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The location from which the node was loaded.</source>
+          <target state="translated">Il percorso da cui è stato caricato il nodo.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Creates a duplicate of this node.</source>
+          <target state="translated">Crea un duplicato del nodo.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Entity nodes cannot be cloned.</source>
+          <target state="translated">Impossibile duplicare i nodi di entità.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Calling this method on an <bpt id="p1">&lt;xref href="System.Xml.XmlEntity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object throws an exception.</source>
+          <target state="translated">Chiamare questo metodo su un <bpt id="p1">&lt;xref href="System.Xml.XmlEntity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto genera un'eccezione.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to recursively clone the subtree under the specified node; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to clone only the node itself.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>in modo ricorsivo il sottoalbero del nodo specificato; di clonazione <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> per clonare solo il nodo stesso.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Returns a copy of the <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which the method is called.</source>
+          <target state="translated">Restituisce una copia del <bpt id="p1">&lt;xref href="System.Xml.XmlNode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da cui viene chiamato il metodo.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Entity nodes cannot be cloned.</source>
+          <target state="translated">Impossibile duplicare i nodi di entità.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Calling this method on an <bpt id="p1">&lt;xref href="System.Xml.XmlEntity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object throws an exception.</source>
+          <target state="translated">Chiamare questo metodo su un <bpt id="p1">&lt;xref href="System.Xml.XmlEntity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetto genera un'eccezione.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the concatenated values of the entity node and all its children.</source>
+          <target state="translated">Ottiene i valori concatenati del nodo entità e i relativi elementi figlio.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`XmlEntity`</ph> nodes are read-only.</source>
+          <target state="translated"><ph id="ph1">`XmlEntity`</ph>i nodi sono di sola lettura.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property throws an exception.</source>
+          <target state="translated">Impostazione di questa proprietà genera un'eccezione.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">Questa proprietà è un'estensione Microsoft per il provider di servizi Internet (DOM, Document Object Model).</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The concatenated values of the node and all its children.</source>
+          <target state="translated">Valori concatenati del nodo e tutti gli elementi figlio.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Attempting to set the property.</source>
+          <target state="translated">Il tentativo di impostare la proprietà.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets the markup representing the children of this node.</source>
+          <target state="translated">Ottiene il markup che rappresenta gli elementi figlio del nodo.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`XmlEntity`</ph> nodes are read-only.</source>
+          <target state="translated"><ph id="ph1">`XmlEntity`</ph>i nodi sono di sola lettura.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this property throws an exception.</source>
+          <target state="translated">Impostazione di questa proprietà genera un'eccezione.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">Questa proprietà è un'estensione Microsoft per il provider di servizi Internet (DOM, Document Object Model).</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, String.Empty is returned.</source>
+          <target state="translated">Per <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nodi, viene restituito String. Empty.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Attempting to set the property.</source>
+          <target state="translated">Il tentativo di impostare la proprietà.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the node is read-only.</source>
+          <target state="translated">Ottiene un valore che indica se il nodo è di sola lettura.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A read-only node is one whose properties, attributes, or children cannot be changed.</source>
+          <target state="translated">Un nodo di sola lettura è la cui proprietà, attributi o elementi figlio non può essere modificato.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can remove a read-only node from the tree and insert it somewhere else.</source>
+          <target state="translated">È possibile rimuovere un nodo di sola lettura dall'albero e inserirlo in un'altra posizione.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the node is read-only; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il nodo è di sola lettura. in caso contrario <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Because <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes are read-only, this property always returns <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Poiché <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nodi sono di sola lettura, questa proprietà restituisce sempre <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the name of the node without the namespace prefix.</source>
+          <target state="translated">Ottiene il nome del nodo senza il prefisso dello spazio dei nomi.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, this property returns the name of the entity.</source>
+          <target state="translated">Per <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nodi, questa proprietà restituisce il nome dell'entità.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the name of the node.</source>
+          <target state="translated">Ottiene il nome del nodo.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The name of the entity.</source>
+          <target state="translated">Il nome dell'entità.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the type of the node.</source>
+          <target state="translated">Ottiene il tipo del nodo.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The node type.</source>
+          <target state="translated">Il tipo di nodo.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, the value is XmlNodeType.Entity.</source>
+          <target state="translated">Per <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nodi, il valore è XmlNodeType.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets the name of the optional NDATA attribute on the entity declaration.</source>
+          <target state="translated">Ottiene il nome dell'attributo NDATA facoltativo nella dichiarazione di entità.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The name of the NDATA attribute.</source>
+          <target state="translated">Il nome dell'attributo NDATA.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>If there is no NDATA, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned.</source>
+          <target state="translated">Se NDATA non è presente, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> viene restituito.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets the markup representing this node and all its children.</source>
+          <target state="translated">Ottiene il markup che rappresenta questo nodo e tutti gli elementi figlio.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">Questa proprietà è un'estensione Microsoft per il provider di servizi Internet (DOM, Document Object Model).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, String.Empty is returned.</source>
+          <target state="translated">Per <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nodi, viene restituito String. Empty.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets the value of the public identifier on the entity declaration.</source>
+          <target state="translated">Ottiene il valore dell'identificatore pubblico sulla dichiarazione dell'entità.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The public identifier on the entity.</source>
+          <target state="translated">L'identificatore pubblico sull'entità.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If there is no public identifier, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned.</source>
+          <target state="translated">Se è presente alcun identificatore pubblico, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> viene restituito.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the value of the system identifier on the entity declaration.</source>
+          <target state="translated">Ottiene il valore dell'identificatore di sistema nella dichiarazione di entità.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The system identifier on the entity.</source>
+          <target state="translated">L'identificatore di sistema per l'entità.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If there is no system identifier, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned.</source>
+          <target state="translated">Se è presente alcun identificatore di sistema, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> viene restituito.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Saves all the children of the node to the specified &lt;xref:System.Xml.XmlWriter&gt;.</source>
+          <target state="translated">Salva tutti gli elementi figlio del nodo specificata &lt;xref:System.Xml.XmlWriter&gt;.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, this method has no effect.</source>
+          <target state="translated">Per <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nodi, questo metodo non ha alcun effetto.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">Questo metodo è un'estensione Microsoft per il provider di servizi Internet (DOM, Document Object Model).</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_XmlWriter" name="XmlWriter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which you want to save.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref uid="langword_csharp_XmlWriter" name="XmlWriter" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a cui si desidera salvare.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Saves the node to the specified &lt;xref:System.Xml.XmlWriter&gt;.</source>
+          <target state="translated">Salva il nodo specificato &lt;xref:System.Xml.XmlWriter&gt;.&lt;/xref:System.Xml.XmlWriter&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>For <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> nodes, this method has no effect.</source>
+          <target state="translated">Per <bpt id="p1">&lt;xref uid="langword_csharp_XmlEntity" name="XmlEntity" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nodi, questo metodo non ha alcun effetto.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is a Microsoft extension to the Document Object Model (DOM).</source>
+          <target state="translated">Questo metodo è un'estensione Microsoft per il provider di servizi Internet (DOM, Document Object Model).</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_XmlWriter" name="XmlWriter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which you want to save.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref uid="langword_csharp_XmlWriter" name="XmlWriter" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a cui si desidera salvare.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
