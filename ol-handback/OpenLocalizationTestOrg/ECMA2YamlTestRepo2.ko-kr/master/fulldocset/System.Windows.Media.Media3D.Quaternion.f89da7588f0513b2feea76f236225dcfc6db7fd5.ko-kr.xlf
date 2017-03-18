@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">70463578806e1b248552ee981fd2e0a4f7bba9e6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Media3D.Quaternion.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b2880f26053aa5a18c818a8bbd4f11b132118a71</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea9e50efe8cbef6846c96cbce64990f2eafed4e5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Structure that represents a rotation in three dimensions.</source>
+          <target state="translated">3 차원 회전을 나타내는 구조입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Quaternions allow you to interpolate between rotation transformations applied to an object, thereby making it easier to compute smooth animations of rotations.</source>
+          <target state="translated">쿼터 니 언 회전의 부드러운 애니메이션을 계산 하는 보다 쉽게 개체에 적용 되는 회전 변환 사이 보간할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A quaternion represents an axis of rotation and a rotation around that axis.</source>
+          <target state="translated">쿼터 니 언 회전 및 해당 축 회전의 축을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It's possible to individually define the axis and angle of rotation of the starting and ending positions of a rotated object ,but the intermediate positions of that object during an animation are computationally uncertain.</source>
+          <target state="translated">축 및 회전 된 개체의 시작 및 끝 위치의 회전의 각도 개별적으로 정의할 수는 없지만 애니메이션 중 해당 개체의 중간 위치 확실 하 게 계산 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By determining a quaternion that represents the original orientation of a 3-D object and one that represents its destination orientation, you can smoothly interpolate between those orientations.</source>
+          <target state="translated">3 차원 개체와 해당 대상 방향을 나타내는 하나의 원래 방향을 나타내는 쿼터 니 언을 파악 함으로써 포함 상태 부드럽게 이들 방향 간의 보간할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In XAML, the delimiter between the values of a Quaternion can be either a comma or a space.</source>
+          <target state="translated">XAML에서 쿼터 니 언 값 사이의 구분 기호는 쉼표 또는 공백 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some cultures might use the comma character as the decimal delimiter instead of the period character.</source>
+          <target state="translated">일부 문화권 소수점 구분 기호로 마침표 대신로 쉼표 문자를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XAML processing for invariant culture defaults to en-US in most XAML processor implementations, and expects the period to be the decimal delimiter.</source>
+          <target state="translated">고정 문화권에 대 한 처리 하는 XAML 대부분 XAML 프로세서 구현에서 EN-US로 기본값을 소수 구분 기호로 마침표 속해야 합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should avoid using the comma character as the decimal delimiter if specifying a Quaternion in XAML, because that will clash with the string type conversion of a Quaternion attribute value into its components.</source>
+          <target state="translated">사용 하 여 쉼표 문자 소수점 구분 XAML에서 쿼터 니 언을 지정 하는 경우 해당 구성 요소에는 쿼터 니 언 특성 값의 문자열 형식 변환 충돌 됩니다 때문에 하면 안 됩니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="xamlAttributeUsage_Duration"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Attribute Usage      <ph id="ph1">```   &lt;object property="x,y,z,w"/&gt;   -or-   &lt;object property="x y z w"/&gt;   ```</ph>      <bpt id="p2">&lt;a name="xamlValues_MinWidth"&gt;</bpt><ept id="p2">&lt;/a&gt;</ept>    ## XAML Values    <bpt id="p3">*</bpt>x<ept id="p3">*</ept>    The &lt;xref:System.Windows.Media.Media3D.Quaternion.X%2A&gt; component of this Quaternion structure.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlAttributeUsage_Duration"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # XAML 특성 사용 <ph id="ph1">```   &lt;object property="x,y,z,w"/&gt;   -or-   &lt;object property="x y z w"/&gt;   ```</ph> <bpt id="p2">&lt;a name="xamlValues_MinWidth"&gt;</bpt> <ept id="p2">&lt;/a&gt;</ept> # # XAML 값 <bpt id="p3">*</bpt>x<ept id="p3">*</ept> 는 &lt;xref:System.Windows.Media.Media3D.Quaternion.X%2A&gt;이 쿼터 니 언 구조의 구성 요소.&lt;/xref:System.Windows.Media.Media3D.Quaternion.X%2A&gt;      </target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">*</bpt>y<ept id="p1">*</ept>    The &lt;xref:System.Windows.Media.Media3D.Quaternion.Y%2A&gt; component of this Quaternion structure.</source>
+          <target state="translated"><bpt id="p1">*</bpt>y<ept id="p1">*</ept> 는 &lt;xref:System.Windows.Media.Media3D.Quaternion.Y%2A&gt;이 쿼터 니 언 구조의 구성 요소.&lt;/xref:System.Windows.Media.Media3D.Quaternion.Y%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">*</bpt>z<ept id="p1">*</ept>    The &lt;xref:System.Windows.Media.Media3D.Quaternion.Z%2A&gt; component of this Quaternion structure.</source>
+          <target state="translated"><bpt id="p1">*</bpt>z<ept id="p1">*</ept> 는 &lt;xref:System.Windows.Media.Media3D.Quaternion.Z%2A&gt;이 쿼터 니 언 구조의 구성 요소.&lt;/xref:System.Windows.Media.Media3D.Quaternion.Z%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">*</bpt>w<ept id="p1">*</ept>    The &lt;xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt; component of this Quaternion structure.</source>
+          <target state="translated"><bpt id="p1">*</bpt>w<ept id="p1">*</ept> 는 &lt;xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt;이 쿼터 니 언 구조의 구성 요소.&lt;/xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 구조입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt; property of the quaternion is computed automatically.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt;쿼터 니 언의 속성이 자동으로 계산 됩니다.&lt;/xref:System.Windows.Media.Media3D.Quaternion.W%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Vector3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the axis of rotation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Vector3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>회전 축을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Angle to rotate around the specified axis, in degrees.</source>
+          <target state="translated">각도를 단위로 지정 된 축을 중심으로 회전 합니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 구조입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the axis (x, y, z) and angle of rotation theta, the <ph id="ph1">`w`</ph> value for the quaternion is:       w = cos(theta/2)       Note that if you use the &lt;xref:System.Windows.Media.Media3D.Vector3D&gt; constructor, the fourth parameter is the angle, in degrees, and the w calculation is performed for you.</source>
+          <target state="translated">축 (x, y, z) 및 회전 세타의 각도 <ph id="ph1">`w`</ph> 쿼터 니 언에 대 한 값: w = cos(theta/2) 참고 사용 되는 경우는 &lt;xref:System.Windows.Media.Media3D.Vector3D&gt;생성자, 네 번째 매개 변수는 각도도 단위로 및 w 계산이 수행 됩니다.&lt;/xref:System.Windows.Media.Media3D.Vector3D&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Value of the new <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>'s X coordinate.</source>
+          <target state="translated">새 값 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>의 X 좌표입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Value of the new <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>'s Y coordinate.</source>
+          <target state="translated">새 값 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>의 Y 좌표입니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Value of the new <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>'s Z coordinate.</source>
+          <target state="translated">새 값 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>의 Z 좌표입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Value of the new <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>'s W coordinate.</source>
+          <target state="translated">새 값 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>의 W 좌표입니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Adds the specified quaternions.</source>
+          <target state="translated">지정된 된 추가합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>First quaternion to add.</source>
+          <target state="translated">추가할 첫 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Second quaternion to add.</source>
+          <target state="translated">추가할 두 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the result of addition.</source>
+          <target state="translated">추가 결과 해당 하는 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the quaternion's angle, in degrees.</source>
+          <target state="translated">쿼터 니 언의 각도를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Double that represents the quaternion's angle, in degrees.</source>
+          <target state="translated">쿼터 니 언의 각도 나타내는 double입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the quaternion's axis.</source>
+          <target state="translated">쿼터 니 언의 축을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Vector3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the quaternion's axis.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Vector3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>쿼터 니 언의 축을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Replaces a quaternion with its conjugate.</source>
+          <target state="translated">한 쿼터 니 언의 켤레 복소수 바꿉니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances for equality.</source>
+          <target state="translated">두 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스가 같은지 여부.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Media.Media3D.Quaternion&gt; components are described using &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;구성 요소를 사용 하 여 설명 되어 &lt;xref:System.Double&gt;값.&lt;/xref:System.Double&gt;&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the value of a &lt;xref:System.Double&gt; can lose precision when operated upon, a comparison between two &lt;xref:System.Windows.Media.Media3D.Quaternion&gt; values that are logically equal might fail.</source>
+          <target state="translated">때문에 값을 &lt;xref:System.Double&gt;두 간의 비교에 연산을 수행 하는 경우에 정밀도 떨어질 수 &lt;xref:System.Windows.Media.Media3D.Quaternion&gt;논리적으로 동일한 값을 실패할 수 있습니다.&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt; &lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Object with which to compare.</source>
+          <target state="translated">와 비교할 개체입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instances are exactly equal, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>하는 경우 두 <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 인스턴스가 정확히 같으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 그렇지 않은 경우.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances for equality.</source>
+          <target state="translated">두 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스가 같은지 여부.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Media.Media3D.Quaternion&gt; components are described using &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;구성 요소를 사용 하 여 설명 되어 &lt;xref:System.Double&gt;값.&lt;/xref:System.Double&gt;&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the value of a &lt;xref:System.Double&gt; can lose precision when operated upon, a comparison between two &lt;xref:System.Windows.Media.Media3D.Quaternion&gt; values that are logically equal might fail.</source>
+          <target state="translated">때문에 값을 &lt;xref:System.Double&gt;두 간의 비교에 연산을 수행 하는 경우에 정밀도 떨어질 수 &lt;xref:System.Windows.Media.Media3D.Quaternion&gt;논리적으로 동일한 값을 실패할 수 있습니다.&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt; &lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Quaternion with which to compare.</source>
+          <target state="translated">와 비교할 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instances are exactly equal, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>하는 경우 두 <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 인스턴스가 정확히 같으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 그렇지 않은 경우.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances for equality.</source>
+          <target state="translated">두 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 인스턴스가 같은지 여부.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Media.Media3D.Quaternion&gt; components are described using &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;구성 요소를 사용 하 여 설명 되어 &lt;xref:System.Double&gt;값.&lt;/xref:System.Double&gt;&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the value of a &lt;xref:System.Double&gt; can lose precision when operated upon, a comparison between two &lt;xref:System.Windows.Media.Media3D.Quaternion&gt; values that are logically equal might fail.</source>
+          <target state="translated">때문에 값을 &lt;xref:System.Double&gt;두 간의 비교에 연산을 수행 하는 경우에 정밀도 떨어질 수 &lt;xref:System.Windows.Media.Media3D.Quaternion&gt;논리적으로 동일한 값을 실패할 수 있습니다.&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt; &lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>First <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to compare.</source>
+          <target state="translated">첫 번째 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 을 비교 합니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Second <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to compare.</source>
+          <target state="translated">두 번째 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 을 비교 합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instances are exactly equal, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>하는 경우 두 <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 인스턴스가 정확히 같으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 그렇지 않은 경우.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Returns the hash code for the <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">에 대 한 해시 코드를 반환 하는 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An integer type that represents the hash code for the <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">정수 형식에 대 한 해시 코드를 표현 하는 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets the Identity quaternion</source>
+          <target state="translated">Id 쿼터 니 언이 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The Identity quaternion.</source>
+          <target state="translated">Id 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Replaces the specified quaternion with its inverse</source>
+          <target state="translated">지정 된 쿼터 니 언을 그 반대로 바꿉니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the specified quaternion is an &lt;xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt; quaternion.</source>
+          <target state="translated">지정 된 쿼터 니 언 인지 여부를 나타내는 값을 가져옵니다는 &lt;xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt;쿼터 니 언입니다.&lt;/xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the quaternion is the &lt;xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt; quaternion, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>쿼터 니 언 이면는 &lt;xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt;쿼터 니 언, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 그렇지 않은 경우.&lt;/xref:System.Windows.Media.Media3D.Quaternion.Identity*&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the quaternion is normalized.</source>
+          <target state="translated">쿼터 니 언 정규화 되는지 여부를 나타내는 값을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the quaternion is normalized, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>쿼터 니 언을 정규화 하는 경우 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 그렇지 않은 경우.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Multiplies the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">지정 된 곱합니다 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>First quaternion to multiply.</source>
+          <target state="translated">곱할 첫 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Second quaternion to multiply.</source>
+          <target state="translated">곱할 두 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the result of multiplication.</source>
+          <target state="translated">곱하기의 결과 해당 하는 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns a normalized quaternion.</source>
+          <target state="translated">정규화 된 쿼터 니 언을 반환합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Throws &lt;xref:System.InvalidOperationException&gt; if the quaternion is zero and cannot be normalized.</source>
+          <target state="translated">Throw &lt;xref:System.InvalidOperationException&gt;쿼터 니 언 있으면&amp;0;를 정규화 할 수 없습니다.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">지정 된 추가 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>First quaternion to add.</source>
+          <target state="translated">추가할 첫 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Second quaternion to add.</source>
+          <target state="translated">추가할 두 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the sum of the two specified  <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">해당 하는 지정 된 두 총 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances for exact equality.</source>
+          <target state="translated">두 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 같음에 대 한 인스턴스.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Media.Media3D.Quaternion&gt; components are described using &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;구성 요소를 사용 하 여 설명 되어 &lt;xref:System.Double&gt;값.&lt;/xref:System.Double&gt;&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the value of a &lt;xref:System.Double&gt; can lose precision when operated upon, a comparison between two &lt;xref:System.Windows.Media.Media3D.Quaternion&gt; values that are logically equal might fail.</source>
+          <target state="translated">때문에 값을 &lt;xref:System.Double&gt;두 간의 비교에 연산을 수행 하는 경우에 정밀도 떨어질 수 &lt;xref:System.Windows.Media.Media3D.Quaternion&gt;논리적으로 동일한 값을 실패할 수 있습니다.&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt; &lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>First Quaternion to compare.</source>
+          <target state="translated">비교할 첫 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Second Quaternion to compare.</source>
+          <target state="translated">비교할 두 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instances are exactly equal, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>하는 경우 두 <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 인스턴스가 정확히 같으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 그렇지 않은 경우.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Compares two <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances for exact inequality.</source>
+          <target state="translated">두 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 완전히 다른 지 여부에 대 한 인스턴스.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Media.Media3D.Quaternion&gt; components are described using &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Media3D.Quaternion&gt;구성 요소를 사용 하 여 설명 되어 &lt;xref:System.Double&gt;값.&lt;/xref:System.Double&gt;&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the value of a &lt;xref:System.Double&gt; can lose precision when operated upon, a comparison between two &lt;xref:System.Windows.Media.Media3D.Quaternion&gt; values that are logically equal might fail.</source>
+          <target state="translated">때문에 값을 &lt;xref:System.Double&gt;두 간의 비교에 연산을 수행 하는 경우에 정밀도 떨어질 수 &lt;xref:System.Windows.Media.Media3D.Quaternion&gt;논리적으로 동일한 값을 실패할 수 있습니다.&lt;/xref:System.Windows.Media.Media3D.Quaternion&gt; &lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>First quaternion to compare.</source>
+          <target state="translated">비교할 첫 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Second quaternion to compare.</source>
+          <target state="translated">비교할 두 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the two <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instances are exactly equal, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>하는 경우 두 <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 인스턴스가 정확히 같으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> 그렇지 않은 경우.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Multiplies the specified quaternion by another.</source>
+          <target state="translated">다른 지정 된 쿼터 니 언을 곱합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>First quaternion.</source>
+          <target state="translated">첫 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Second quaternion.</source>
+          <target state="translated">두 번째 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the product of multiplication.</source>
+          <target state="translated">해당 하는 곱하기의 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Subtracts a specified quaternion from another.</source>
+          <target state="translated">다른 지정된 된 쿼터 니를 뺍니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Quaternion from which to subtract.</source>
+          <target state="translated">뺄 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Quaternion to subtract from the first quaternion.</source>
+          <target state="translated">첫 번째 쿼터 니 언에서 뺄 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the result of subtraction.</source>
+          <target state="translated">빼기의 결과 해당 하는 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Converts a string representation of a <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into the equivalent <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">문자열 표현으로 변환 된 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 해당 <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 구조입니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A string representation of a <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">문자열 표현을 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> represented by the string.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>문자열로 표현 된 합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Interpolates between two orientations using spherical linear interpolation.</source>
+          <target state="translated">구면 선형 보간을 사용 하 여 두 방향을 보간합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Spherical linear interpolation is useful for animating a three-dimensional models because it provides smooth transitions between different orientations of the model.</source>
+          <target state="translated">구면 선형 보간을 부드럽게 전환 모델의 다른 방향 제공 하기 때문에&amp;3; 차원 모델에 애니메이션을 적용 하는 데 유용 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the starting orientation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>시작 방향을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the ending orientation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>끝 방향을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Interpolation coefficient.</source>
+          <target state="translated">보간 계수입니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the orientation resulting from the interpolation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>보간에서 결과로 만들어지는 방향을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Interpolates between orientations, represented as <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structures, using spherical linear interpolation.</source>
+          <target state="translated">로 표시 된 방향 간을 보간합니다 <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 구조 구면 선형 보간을 사용 하 여 합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Spherical linear interpolation is useful for animating a three-dimensional models because it provides smooth transitions between different orientations of the model.</source>
+          <target state="translated">구면 선형 보간을 부드럽게 전환 모델의 다른 방향 제공 하기 때문에&amp;3; 차원 모델에 애니메이션을 적용 하는 데 유용 합니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the starting orientation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>시작 방향을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the ending orientation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>끝 방향을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Interpolation coefficient.</source>
+          <target state="translated">보간 계수입니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Boolean that indicates whether to compute quaternions that constitute the shortest possible arc on a four-dimensional unit sphere.</source>
+          <target state="translated">4 차원 단위 구체에 가능한 가장 짧은 호를 구성 하는 쿼터 니 언 계산할지 여부를 나타내는 부울입니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the orientation resulting from the interpolation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Quaternion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>보간에서 결과로 만들어지는 방향을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Subtracts a Quaternion from another.</source>
+          <target state="translated">다른 쿼터 니 언을 뺍니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Quaternion from which to subtract.</source>
+          <target state="translated">뺄 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Quaternion to subtract from the first quaternion.</source>
+          <target state="translated">첫 번째 쿼터 니 언에서 뺄 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Quaternion that is the result of subtraction.</source>
+          <target state="translated">빼기의 결과 해당 하는 쿼터 니 언입니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This member supports the <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">이 멤버는 <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> 인프라 하며 사용자 코드에서 직접 사용할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see &lt;xref:System.IFormattable.ToString*&gt;.</source>
+          <target state="translated">이 멤버에 대 한 참조 &lt;xref:System.IFormattable.ToString*&gt;.&lt;/xref:System.IFormattable.ToString*&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The string specifying the format to use.</source>
+          <target state="translated">사용할 형식을 지정 하는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use the default format defined for the type of the &lt;xref:System.IFormattable&gt; implementation.</source>
+          <target state="translated">-또는- <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 의 형식에 대해 정의 된 기본 형식을 사용 하는 &lt;xref:System.IFormattable&gt;구현.&lt;/xref:System.IFormattable&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_IFormatProvider" name="IFormatProvider" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use to format the value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_IFormatProvider" name="IFormatProvider" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 값의 서식을 지정 하는 데 있습니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to obtain the numeric format information from the current locale setting of the operating system.</source>
+          <target state="translated">-또는- <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 운영 체제의 현재 로캘 설정에서 숫자 형식 정보를 가져올 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A string containing the value of the current instance in the specified format.</source>
+          <target state="translated">지정된 된 형식에서 현재 인스턴스의 값을 포함 하는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Creates a string representation of the object.</source>
+          <target state="translated">개체의 문자열 표현을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>String representation of the object.</source>
+          <target state="translated">문자열 개체의 표현입니다.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Creates a string representation of the object.</source>
+          <target state="translated">개체의 문자열 표현을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Culture-specific formatting information.</source>
+          <target state="translated">문화권별 서식 지정 정보입니다.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>String representation of the object.</source>
+          <target state="translated">문자열 개체의 표현입니다.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets the W component of the quaternion.</source>
+          <target state="translated">쿼터 니 언의 W 구성 요소를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is 0.</source>
+          <target state="translated">기본값은 0입니다</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The W component of the quaternion.</source>
+          <target state="translated">쿼터 니 언의 W 구성 요소입니다.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Gets the X component of the quaternion.</source>
+          <target state="translated">쿼터 니 언의 X 구성 요소를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is 0.</source>
+          <target state="translated">기본값은 0입니다</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The X component of the quaternion.</source>
+          <target state="translated">쿼터 니 언의 X 구성 요소입니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Gets the Y component of the quaternion.</source>
+          <target state="translated">쿼터 니 언의 Y 구성 요소를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is 0.</source>
+          <target state="translated">기본값은 0입니다</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The Y component of the quaternion.</source>
+          <target state="translated">쿼터 니 언의 Y 구성 요소입니다.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Gets the Z component of the quaternion.</source>
+          <target state="translated">쿼터 니 언의 Z 구성 요소를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is 0.</source>
+          <target state="translated">기본값은 0입니다</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The Z component of the quaternion.</source>
+          <target state="translated">쿼터 니 언의 Z 구성 요소입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
