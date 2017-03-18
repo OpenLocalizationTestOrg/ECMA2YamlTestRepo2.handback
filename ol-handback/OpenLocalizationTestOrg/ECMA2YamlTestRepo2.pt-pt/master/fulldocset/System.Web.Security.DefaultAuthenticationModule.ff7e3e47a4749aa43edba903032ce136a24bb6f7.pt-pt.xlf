@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7a49050d24e3aa35652e8bd7f01cedd7bbdd6093</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Security.DefaultAuthenticationModule.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3faed9bfe3f58767bb7849374bedeec4ad6645ec</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7056bbc5c3251cfd515096e95ffca99318d23738</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Ensures that an authentication object is present in the context.</source>
+          <target state="translated">Garante que um objeto de autenticação está presente no contexto.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Esta classe não pode ser herdada.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultAuthenticationModule ensures that the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance is set to an &lt;xref:System.Security.Principal.IPrincipal&gt; object for each request.</source>
+          <target state="translated">O DefaultAuthenticationModule assegura que o &lt;xref:System.Web.HttpContext.User%2A&gt;propriedade atual &lt;xref:System.Web.HttpContext&gt;instância está definida como um &lt;xref:System.Security.Principal.IPrincipal&gt;objeto para cada pedido.&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultAuthenticationModule examines the &lt;xref:System.Web.HttpContext.User%2A&gt; property after the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event and before the &lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt; event.</source>
+          <target state="translated">O DefaultAuthenticationModule examina o &lt;xref:System.Web.HttpContext.User%2A&gt;propriedade após o &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;eventos e antes do &lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt;eventos.&lt;/xref:System.Web.HttpApplication.AuthorizeRequest&gt; &lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.HttpContext.User%2A&gt; property is <ph id="ph1">`null`</ph>, the DefaultAuthenticationModule sets the &lt;xref:System.Web.HttpContext.User%2A&gt; property to a &lt;xref:System.Security.Principal.GenericPrincipal&gt; object that contains no user information.</source>
+          <target state="translated">Se o &lt;xref:System.Web.HttpContext.User%2A&gt;propriedade é <ph id="ph1">`null`</ph>, os conjuntos de DefaultAuthenticationModule o &lt;xref:System.Web.HttpContext.User%2A&gt;propriedade para um &lt;xref:System.Security.Principal.GenericPrincipal&gt;objeto que não contêm nenhuma informação de utilizador.&lt;/xref:System.Security.Principal.GenericPrincipal&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the authentication module sets the &lt;xref:System.Web.HttpResponse.StatusCode%2A&gt; property to 401, the DefaultAuthenticationModule will render an access-denied error page.</source>
+          <target state="translated">Se o módulo de autenticação define o &lt;xref:System.Web.HttpResponse.StatusCode%2A&gt;propriedade 401, o DefaultAuthenticationModule irá compor uma página de erro de acesso negado.&lt;/xref:System.Web.HttpResponse.StatusCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of the &lt;xref:System.Web.HttpResponse.StatusCode%2A&gt; property is set to a value greater than 200, the DefaultAuthenticationModule object will end the request.</source>
+          <target state="translated">Se o valor da &lt;xref:System.Web.HttpResponse.StatusCode%2A&gt;propriedade está definida como um valor superior a 200, o objeto de DefaultAuthenticationModule vai terminar o pedido.&lt;/xref:System.Web.HttpResponse.StatusCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, only HTTP modules that subscribe to the &lt;xref:System.Web.HttpApplication.EndRequest&gt; event are called prior to the completion of the current request.</source>
+          <target state="translated">Nesse caso, apenas os módulos HTTP que subscrever o &lt;xref:System.Web.HttpApplication.EndRequest&gt;eventos são denominados antes da conclusão do pedido atual.&lt;/xref:System.Web.HttpApplication.EndRequest&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DefaultAuthenticationModule exposes an &lt;xref:System.Web.Security.DefaultAuthenticationModule.Authenticate&gt; event.</source>
+          <target state="translated">O DefaultAuthenticationModule expõe um &lt;xref:System.Web.Security.DefaultAuthenticationModule.Authenticate&gt;eventos.&lt;/xref:System.Web.Security.DefaultAuthenticationModule.Authenticate&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this event to provide a custom &lt;xref:System.Security.Principal.IPrincipal&gt; object for the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance.</source>
+          <target state="translated">Pode utilizar este evento para fornecer um personalizado &lt;xref:System.Security.Principal.IPrincipal&gt;do objeto para o &lt;xref:System.Web.HttpContext.User%2A&gt;propriedade atual &lt;xref:System.Web.HttpContext&gt;instância.&lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt; event is accessed by specifying an event named <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> in the application's Global.asax file.</source>
+          <target state="translated">O &lt;xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt;evento é acedido através da especificação de um evento com o nome <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> no ficheiro da aplicação global. asax.&lt;/xref:System.Web.Security.WindowsAuthenticationModule.Authenticate&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is not intended to be called from application code.</source>
+          <target state="translated">Este construtor não se destina a ser chamado a partir do código da aplicação.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET calls this constructor to create an instance of the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; class.</source>
+          <target state="translated">ASP.NET chama este construtor para criar uma instância de &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;classe.&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling the constructor, it calls the &lt;xref:System.Web.Security.DefaultAuthenticationModule.Init%2A&gt; method to initialize the new &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; object.</source>
+          <target state="translated">Depois de chamar o construtor, aquele invoca o &lt;xref:System.Web.Security.DefaultAuthenticationModule.Init%2A&gt;método ao inicializar o novo &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;objeto.&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationModule.Init%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Occurs after the request has been authenticated.</source>
+          <target state="translated">Ocorre depois do pedido foi autenticado.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Authenticate event is raised after the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event.</source>
+          <target state="translated">O evento de autenticar é desencadeado depois do &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;eventos.&lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used to ensure that the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance is populated with an &lt;xref:System.Security.Principal.IPrincipal&gt; object.</source>
+          <target state="translated">É utilizado para garantir que o &lt;xref:System.Web.HttpContext.User%2A&gt;propriedade atual &lt;xref:System.Web.HttpContext&gt;instância é preenchida com um &lt;xref:System.Security.Principal.IPrincipal&gt;objeto.&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can access the Authenticate event of the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; class by specifying a subroutine named <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> in the application's Global.asax file.</source>
+          <target state="translated">Pode aceder o eventos de autenticar do &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;classe, especificando um subroutine denominado <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> no ficheiro de global. asax da aplicação.&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Web.Security.DefaultAuthenticationEventArgs.Context%2A&gt; property of the &lt;xref:System.Web.Security.DefaultAuthenticationEventArgs&gt; object in the <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> event to set the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance to a custom &lt;xref:System.Security.Principal.IPrincipal&gt; object.</source>
+          <target state="translated">Pode utilizar o &lt;xref:System.Web.Security.DefaultAuthenticationEventArgs.Context%2A&gt;propriedade o &lt;xref:System.Web.Security.DefaultAuthenticationEventArgs&gt;objeto o <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> eventos para definir o &lt;xref:System.Web.HttpContext.User%2A&gt;propriedade atual &lt;xref:System.Web.HttpContext&gt;instância personalizadas &lt;xref:System.Security.Principal.IPrincipal&gt;objeto.&lt;/xref:System.Security.Principal.IPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationEventArgs&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationEventArgs.Context%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not specify a value for the &lt;xref:System.Web.HttpContext.User%2A&gt; property, the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; sets the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the &lt;xref:System.Web.HttpContext&gt; instance to a &lt;xref:System.Security.Principal.GenericPrincipal&gt; object that contains no user information.</source>
+          <target state="translated">Se não especificar um valor para o &lt;xref:System.Web.HttpContext.User%2A&gt;propriedade, o &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;define o &lt;xref:System.Web.HttpContext.User%2A&gt;propriedade o &lt;xref:System.Web.HttpContext&gt;instância para uma &lt;xref:System.Security.Principal.GenericPrincipal&gt;objeto que não contêm nenhuma informação de utilizador.&lt;/xref:System.Security.Principal.GenericPrincipal&gt; &lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt; &lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> event is raised after the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event and before the &lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt; event.</source>
+          <target state="translated">O <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> evento é desencadeado depois do &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;eventos e antes do &lt;xref:System.Web.HttpApplication.AuthorizeRequest&gt;eventos.&lt;/xref:System.Web.HttpApplication.AuthorizeRequest&gt; &lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you have an  section that depends on the user name to deny or allow access to your application, modifying the &lt;xref:System.Web.HttpContext.User%2A&gt; property of the current &lt;xref:System.Web.HttpContext&gt; instance can affect the behavior of your application.</source>
+          <target state="translated">Se tiver uma secção que depende o nome de utilizador para negar ou permite o acesso à sua aplicação, modificar o &lt;xref:System.Web.HttpContext.User%2A&gt;propriedade atual &lt;xref:System.Web.HttpContext&gt;instância pode afetar o comportamento da sua aplicação.&lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.HttpContext.User%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Be sure that the user name you set during the <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> event is considered when you specify the  section in your configuration.</source>
+          <target state="translated">Ser Certifique-se que o nome de utilizador que definiu durante a <bpt id="p1">**</bpt>DefaultAuthentication_OnAuthenticate<ept id="p1">**</ept> evento é considerado quando especificar a secção na configuração.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the Web application is running in IIS 7.0 in Integrated mode, the Authenticate event of the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; is not raised.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se a aplicação Web está em execução no IIS 7.0 no modo integrado, o evento de autenticar do &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;não é gerado.&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`mode`</ph> attribute of the  configuration element is set to "None" and the application subscribes to the Authenticate event, a &lt;xref:System.PlatformNotSupportedException&gt; error is raised.</source>
+          <target state="translated">Se o <ph id="ph1">`mode`</ph> atributo do elemento de configuração está definido como "None" e a aplicação subscreve o evento de autenticar um &lt;xref:System.PlatformNotSupportedException&gt;erro ser gerado.&lt;/xref:System.PlatformNotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this scenario, to receive authentication notification, subscribe to the &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt; event of the &lt;xref:System.Web.HttpApplication&gt; instance.</source>
+          <target state="translated">Neste cenário, para receber a notificação de autenticação, subscrever o &lt;xref:System.Web.HttpApplication.AuthenticateRequest&gt;eventos do &lt;xref:System.Web.HttpApplication&gt;instância.&lt;/xref:System.Web.HttpApplication&gt; &lt;/xref:System.Web.HttpApplication.AuthenticateRequest&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about compatibility issues in Integrated mode, see <bpt id="p1">[</bpt>Moving an ASP.NET Application from IIS 6.0 to IIS 7.0<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre problemas de compatibilidade no modo integrado, consulte <bpt id="p1">[</bpt>mover uma aplicação ASP.NET do IIS 6.0 para IIS 7.0<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Releases all resources, other than memory, used by the <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Versões de todos os recursos que não sejam de memória, utilizada pelo <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not intended to be called from application code.</source>
+          <target state="translated">Este método não se destina a ser chamado a partir do código da aplicação.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Inicializa a <bpt id="p1">&lt;xref href="System.Web.Security.DefaultAuthenticationModule"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not intended to be called from application code.</source>
+          <target state="translated">Este método não se destina a ser chamado a partir do código da aplicação.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Init method ensures that the &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt; is included in the processing of events.</source>
+          <target state="translated">O método Init assegura que o &lt;xref:System.Web.Security.DefaultAuthenticationModule&gt;está incluído no processamento de eventos.&lt;/xref:System.Web.Security.DefaultAuthenticationModule&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Atual <bpt id="p1">&lt;xref href="System.Web.HttpApplication"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instância.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

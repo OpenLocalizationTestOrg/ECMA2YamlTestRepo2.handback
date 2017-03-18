@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">40da67562a8e87243a398b4d34cfdf5a0a9bcfb0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Compilation.ConnectionStringsExpressionBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">36e9bfe824c581e1deb449733a9d0e7eef723f54</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d9be30175ae372fd1dc274feb5107d7d2a3e659</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Retrieves, or generates code to retrieve, values from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">Lekéri vagy lekérdezni, értékek kódot állít elő a <ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConnectionStringsExpressionBuilder class provides access to values in the &lt;<ph id="ph1">`connectionStrings`</ph>&gt; section of the Web.config file.</source>
+          <target state="translated">A ConnectionStringsExpressionBuilder osztály szereplő értékek hozzáférést biztosít a <ph id="ph1">`connectionStrings`</ph>&gt; szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`connectionStrings`</ph>&gt; section of the Web.config file contains connection string values in name/value pairs.</source>
+          <target state="translated">A <ph id="ph1">`connectionStrings`</ph>&gt; a Web.config fájl szakaszában található kapcsolati karakterlánc-értékek név-érték párokat.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A connection string value is retrieved by assigning an expression of the form       <ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph>       to a control property.</source>
+          <target state="translated">Kapcsolati karakterlánc-érték lekéri az űrlap kifejezés hozzárendelése <ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph> egy vezérlő tulajdonságaként.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The part of the expression before the colon (:) designates the type of expression to be retrieved, and the part after the colon signifies the name of the connection string.</source>
+          <target state="translated">A kifejezés előtt a kettőspont (:) a részét típusát és kifejezés beolvasni az elem jelöli meg, miután a kettőspont azt jelzi, hogy a kapcsolati karakterlánc nevét.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The preceding expression would retrieve the following value from the Web.config file.</source>
+          <target state="translated">Az előző kifejezés lenne a következő érték lekérése a Web.config fájlt.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`&lt;connectionStrings&gt;`</ph>       <ph id="ph2">`&lt;add name="secureConnectionString" connectionString="Data`</ph>       <ph id="ph3">`Source=localhost;Integrated Security=SSPI;Initial`</ph>       <ph id="ph4">`Catalog=Northwind;" providerName="System.Data.SqlClient" /&gt;`</ph>       <ph id="ph5">`&lt;/connectionStrings&gt;`</ph>       When the page parser encounters an expression with the prefix <ph id="ph6">`ConnectionStrings`</ph>, it creates an instance of the ConnectionStringsExpressionBuilder class to handle the expression.</source>
+          <target state="translated"><ph id="ph1">`&lt;connectionStrings&gt;`</ph>       <ph id="ph2">`&lt;add name="secureConnectionString" connectionString="Data`</ph>       <ph id="ph3">`Source=localhost;Integrated Security=SSPI;Initial`</ph>       <ph id="ph4">`Catalog=Northwind;" providerName="System.Data.SqlClient" /&gt;`</ph>       <ph id="ph5">`&lt;/connectionStrings&gt;`</ph>Ha az oldal elemző észlel a előtaggal kifejezés <ph id="ph6">`ConnectionStrings`</ph>, létrehozza a kifejezés kezelni a ConnectionStringsExpressionBuilder osztály egy példányát.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression is encountered in a page that will be compiled, the ConnectionStringsExpressionBuilder object generates code that retrieves the specified connection string from the Web.config file.</source>
+          <target state="translated">Ha a kifejezés a rendszer észlelt egy lapon összeállítani, a ConnectionStringsExpressionBuilder objektum kódot, amely lekérdezi a megadott kapcsolati karakterlánc a Web.config fájl állít elő.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression is encountered in a page that will not be compiled, the ConnectionStringsExpressionBuilder object returns the value from the Web.config file when the page is parsed.</source>
+          <target state="translated">Ha a kifejezés nem fordítható lapon nem, a ConnectionStringsExpressionBuilder objektum értékének beolvasása a Web.config fájlt a lap elemzésekor.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Compilation.ConnectionStringsExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Web.Compilation.ConnectionStringsExpressionBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns a value from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">Az értéket adja vissza a <ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when an expression of the form <ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph> is encountered in a page that is not compiled.</source>
+          <target state="translated">Ezt a módszert nevezik, amikor az űrlap kifejezés <ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph> található egy oldal, amely nincs lefordítva.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It retrieves the appropriate value from the &lt;<ph id="ph1">`connectionStrings`</ph>&gt; section of the Web.config file.</source>
+          <target state="translated">Lekérdezi a megfelelő értéket a <ph id="ph1">`connectionStrings`</ph>&gt; szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides the &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt; method by calling the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString%2A&gt; method if a connection string is included in the <ph id="ph1">`parsedData`</ph> parameter, or by calling the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionStringProviderName%2A&gt; method if a connection string is not included in the <ph id="ph2">`parsedData`</ph> parameter.</source>
+          <target state="translated">Ezt a módszert felülbírálja a &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;metódus meghívásával a &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString%2A&gt;módszert, ha a kapcsolati karakterlánc megtalálható a <ph id="ph1">`parsedData`</ph> paraméter, vagy meghívásával a &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionStringProviderName%2A&gt;módszert, ha a kapcsolati karakterlánc nem szerepel a <ph id="ph2">`parsedData`</ph> paraméter.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionStringProviderName%2A&gt; &lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString%2A&gt; &lt;/xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The object that contains the expression.</source>
+          <target state="translated">Az objektum, amely a kifejezést tartalmaz.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The property to which the expression is bound.</source>
+          <target state="translated">A tulajdonság, amelyre a kifejezés van kötve.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The object that represents parsed data as returned by &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">Képviselő objektum adatok elemzése, amelyet &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">A vezérlő vagy lap tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; associated with a key in the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">A &lt;xref:System.Object&gt;kulccsal a kapcsolódó a <ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> szakasz a Web.config fájl.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The connection string name could not be found in the Web.config file.</source>
+          <target state="translated">A kapcsolati karakterlánc nevét nem találta meg a Web.config fájlban.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns a code expression to evaluate during page parsing.</source>
+          <target state="translated">A lap értelmezésekor kiértékelése kód kifejezést ad vissza.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called during the CodeDOM creation for a page or control.</source>
+          <target state="translated">Ez a módszer lap vagy vezérlőelem neve a CodeDOM létrehozása során.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.CodeDom.CodeExpression&gt; object returned is of the type &lt;xref:System.CodeDom.CodeMethodInvokeExpression&gt; and represents the method to call when retrieving a connection string value.</source>
+          <target state="translated">A &lt;xref:System.CodeDom.CodeExpression&gt;visszaadott objektum típusa nem &lt;xref:System.CodeDom.CodeMethodInvokeExpression&gt;és jelenti. a metódus hívására egy kapcsolati karakterlánc beolvasása közben.&lt;/xref:System.CodeDom.CodeMethodInvokeExpression&gt; &lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An object that represents information about the property bound to by the expression.</source>
+          <target state="translated">A kifejezés kötve a tulajdonság információt képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The object that represents parsed data as returned by &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">Képviselő objektum adatok elemzése, amelyet &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">A vezérlő vagy lap tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that invokes a method.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hív meg, amely egy metódust.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns a connection string from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">A kapcsolati karakterláncot ad vissza a <ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A&gt; property returns a collection of connection string values.</source>
+          <target state="translated">A &lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A&gt;tulajdonság gyűjteményének beolvasása az kapcsolati karakterlánc-értékek.&lt;/xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetConnectionString method returns the value from this collection that is associated with the connection string name.</source>
+          <target state="translated">A GetConnectionString metódus a a gyűjteményhez társított a kapcsolati karakterlánc nevét adja vissza.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name of the connection string.</source>
+          <target state="translated">A kapcsolati karakterlánc neve.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The connection string as a &lt;xref:System.String&gt; for this connection string name.</source>
+          <target state="translated">A kapcsolati karakterláncot, mint egy &lt;xref:System.String&gt;esetében a kapcsolati karakterlánc nevét.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The connection string name could not be found in the Web.config file.</source>
+          <target state="translated">A kapcsolati karakterlánc nevét nem találta meg a Web.config fájlban.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the connection string provider from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">A kapcsolati karakterlánc szolgáltató adja vissza a <ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> szakasz a Web.config fájl.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A?displayProperty=fullName&gt; property returns a collection of connection string values.</source>
+          <target state="translated">A &lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A?displayProperty=fullName&gt;tulajdonság gyűjteményének beolvasása az kapcsolati karakterlánc-értékek.&lt;/xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetConnectionStringProviderName method returns the provider for the value from this collection that is associated with the connection string name.</source>
+          <target state="translated">A GetConnectionStringProviderName metódus a szolgáltató által az érték az adott gyűjtemény társított a kapcsolati karakterlánc nevét adja vissza.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The name of the connection string.</source>
+          <target state="translated">A kapcsolati karakterlánc neve.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The provider as a &lt;xref:System.String&gt; for this connection string name.</source>
+          <target state="translated">A szolgáltató egy &lt;xref:System.String&gt;esetében a kapcsolati karakterlánc nevét.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The connection string name could not be found in the Web.config file.</source>
+          <target state="translated">A kapcsolati karakterlánc nevét nem találta meg a Web.config fájlban.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Returns an object that represents the parsed expression.</source>
+          <target state="translated">Az elemzett kifejezés képviselő objektumot adja vissza.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned &lt;xref:System.Object&gt; is of the type &lt;xref:System.Web.UI.Pair&gt;.</source>
+          <target state="translated">A visszaadott &lt;xref:System.Object&gt; &lt;xref:System.Web.UI.Pair&gt;.&lt;/xref:System.Web.UI.Pair&gt; típusú&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This &lt;xref:System.Web.UI.Pair&gt; object can be passed to both the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; method and the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetCodeExpression%2A&gt; method as <ph id="ph1">`parsedData`</ph>.</source>
+          <target state="translated">Ez &lt;xref:System.Web.UI.Pair&gt;objektum átadhatók mindkettőnek a &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;metódus és a &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetCodeExpression%2A&gt;módszert az <ph id="ph1">`parsedData`</ph>.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetCodeExpression%2A&gt; &lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; &lt;/xref:System.Web.UI.Pair&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.Pair&gt; object contains the name and value of the connection string.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.Pair&gt;objektum nevét és a kapcsolati karakterlánc értékét tartalmazza.&lt;/xref:System.Web.UI.Pair&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The value of the declarative expression.</source>
+          <target state="translated">A deklaratív kifejezés értékét.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The targeted type for the expression.</source>
+          <target state="translated">A célként megadott típusa a kifejezést.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">A vezérlő vagy lap tulajdonságait.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; containing the parsed representation of the expression.</source>
+          <target state="translated">Egy &lt;xref:System.Object&gt;az elemzett a kifejezést tartalmazó.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether an expression can be evaluated in a page that is not compiled.</source>
+          <target state="translated">E kifejezés kiértékelése, amelyek nem fordított lapon jelző érték beolvasása.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SupportsEvaluate property indicates whether the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; method has been implemented in the class.</source>
+          <target state="translated">A SupportsEvaluate tulajdonság azt jelzi, hogy &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;az osztály a metódus nincs létrehozva&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; must be implemented within an expression builder for an expression to be evaluated in a page that is not compiled.</source>
+          <target state="translated">&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;egy Kifejezésszerkesztő kifejezés, amely nem fordított lapon kiértékelendő belül kell végrehajtani.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt; supports no-compile evaluation of connection strings, so <ph id="ph1">`true`</ph> is always returned.</source>
+          <target state="translated">&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt;nem-fordítási értékelése kapcsolati karakterláncok, így támogatja <ph id="ph1">`true`</ph> mindig adja vissza.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>minden esetben.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">999b8e6c29536c2c0ea6d5299a677e13ef69f455</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.SinglePhaseEnlistment.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b3001e97aacfe903533e53176be1e7ad06fedc6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8e8a3c732adb3a0f3fe8275bdba5eed538b30e33</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a set of callbacks that facilitate communication between a participant enlisted for Single Phase Commit and the transaction manager when the &lt;xref:System.Transactions.ISinglePhaseNotification.SinglePhaseCommit*&gt; notification is received.</source>
+          <target state="translated">提供一組的回呼，以便為單一階段認可與交易管理員已登錄的參與者之間的通訊時&lt;xref:System.Transactions.ISinglePhaseNotification.SinglePhaseCommit*&gt;收到通知。&lt;/xref:System.Transactions.ISinglePhaseNotification.SinglePhaseCommit*&gt;</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>When a resource manager's implementation of &lt;xref:System.Transactions.ISinglePhaseNotification.SinglePhaseCommit%2A&gt; is called, and an instance of this type is passsed in, the participant then notifies the transaction manager via the &lt;xref:System.Transactions.SinglePhaseEnlistment.Committed%2A&gt; method or the &lt;xref:System.Transactions.SinglePhaseEnlistment.Aborted%2A&gt; method to indicate whether the transaction should be committed or rolled back.</source>
+          <target state="translated">當資源管理員的實作&lt;xref:System.Transactions.ISinglePhaseNotification.SinglePhaseCommit%2A&gt;呼叫，而且此類型的執行個體中的 passsed，參與者然後通知的交易管理員透過&lt;xref:System.Transactions.SinglePhaseEnlistment.Committed%2A&gt;方法或&lt;xref:System.Transactions.SinglePhaseEnlistment.Aborted%2A&gt;方法，指出是否應該認可或回復交易。&lt;/xref:System.Transactions.SinglePhaseEnlistment.Aborted%2A&gt; &lt;/xref:System.Transactions.SinglePhaseEnlistment.Committed%2A&gt; &lt;/xref:System.Transactions.ISinglePhaseNotification.SinglePhaseCommit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Represents a callback that is used to indicate to the transaction manager that the transaction should be rolled back.</source>
+          <target state="translated">表示回呼，用來向交易管理員，則應該會復原交易。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A transaction participant implementing the &lt;xref:System.Transactions.ISinglePhaseNotification&gt; interface uses this method to notify the transaction manager that it cannot commit, and that the transaction should be rolled back.</source>
+          <target state="translated">交易參與者實作&lt;xref:System.Transactions.ISinglePhaseNotification&gt;介面使用這個方法來通知之交易管理員無法認可，而且應該會回復交易。&lt;/xref:System.Transactions.ISinglePhaseNotification&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Represents a callback that is used to indicate to the transaction manager that the transaction should be rolled back, and provides an explanation.</source>
+          <target state="translated">表示回呼，用來向交易管理員，交易將會回復，並提供說明。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An explanation of why a rollback is initiated.</source>
+          <target state="translated">起始復原的原因說明。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Represents a callback that is used to indicate to the transaction manager that the SinglePhaseCommit was successful.</source>
+          <target state="translated">表示用來向交易管理員 SinglePhaseCommit 成功的回呼。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A transaction participant implementing the &lt;xref:System.Transactions.ISinglePhaseNotification&gt; interface uses this method to notify the transaction manager that the transaction should be committed.</source>
+          <target state="translated">交易參與者實作&lt;xref:System.Transactions.ISinglePhaseNotification&gt;介面使用這個方法來通知之交易管理員應該認可交易。&lt;/xref:System.Transactions.ISinglePhaseNotification&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Represents a callback that is used to indicate to the transaction manager that the status of the transaction is in doubt.</source>
+          <target state="translated">表示回呼，用來向交易管理員處於不確定交易的狀態。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A transaction participant implementing the &lt;xref:System.Transactions.ISinglePhaseNotification&gt; interface uses this method to notify the transaction manager that the transaction is in doubt.</source>
+          <target state="translated">交易參與者實作&lt;xref:System.Transactions.ISinglePhaseNotification&gt;介面通知的交易處於不確定的交易管理員會使用這個方法。&lt;/xref:System.Transactions.ISinglePhaseNotification&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A transaction is in doubt when one or more of the enlisted resource managers cannot be contacted.</source>
+          <target state="translated">交易處於不確定當一或多個已登錄的資源管理員無法連線。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Represents a callback that is used to indicate to the transaction manager that the status of the transaction is in doubt, and provides an explanation.</source>
+          <target state="translated">表示回呼，用來向交易管理員，在不確定，交易的狀態，並提供說明。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>An explanation of why the transaction is in doubt.</source>
+          <target state="translated">說明交易處於不確定。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

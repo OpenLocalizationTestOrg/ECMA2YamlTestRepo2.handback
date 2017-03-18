@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e300f570beecc6480e602fd0c71a57376460ef15</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.HttpCachePolicy.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c42db298dc8afbfd71e8ce7ea026bd9ad85cffae</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a277b3b5da48450c497ad6f47cebc489cdae52c1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains methods for setting cache-specific HTTP headers and for controlling the ASP.NET page output cache.</source>
+          <target state="translated">Gyorsítótár-specifikus HTTP-fejlécek beállításához és az ASP.NET lap kimeneti gyorsítótár szabályozásának metódust tartalmaz.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For background information about HTTP headers and controlling caching, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">Háttér HTTP-fejlécek és szabályozására gyorsítótárazás kapcsolatos információkért lásd: RFC 2616: http protokoll – HTTP/1.1, elérhető a <bpt id="p1">[</bpt>webes Consortium (W3C) webhelyen<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Registers a validation callback for the current response.</source>
+          <target state="translated">Regisztrálja az aktuális válasz érvényesítése a visszahívását.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TheAddValidationCallback method provides a mechanism to check the response programmatically in the cache before the response is returned to the client by the output cache.</source>
+          <target state="translated">TheAddValidationCallback módszer lehetővé teszi a programozott módon a gyorsítótár válasz kereséséhez, mielőtt a választ küld vissza az ügyfélnek a kimeneti gyorsítótár által.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before the response is served from the Web server cache, all registered handlers are queried to ensure resource validity.</source>
+          <target state="translated">A válasz a Web server gyorsítótárból kiszolgált, mielőtt, a rendszer megkérdezi a minden regisztrált kezelők erőforrás érvényességének biztosításához.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any handler sets a flag indicating that the cached response is not valid, the entry is marked as not valid and expelled from the cache.</source>
+          <target state="translated">Bármely kezelő beállítja azt a jelzőt, ezzel jelezve, hogy a gyorsítótárazott válasz nem érvényes, ha a bejegyzés nem érvényes és kizárt van megjelölve a gyorsítótárból.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, as well as when any handler indicates that the cached response should be ignored for this request, the request is then handled as if it were a cache miss.</source>
+          <target state="translated">Ebben az esetben, csakúgy, mint amikor bármely kezelő azt jelzi, hogy a gyorsítótárazott válasz figyelmen kívül hagyja a kérelem a kérelem, majd kezelve, mintha egy gyorsítótár-tévesztései.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AddValidationCallback is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">AddValidationCallback megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpCacheValidateHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.HttpCacheValidateHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The arbitrary user-supplied data that is passed back to the AddValidationCallback delegate.</source>
+          <target state="translated">Tetszőleges felhasználó által megadott adatokat küld vissza a AddValidationCallback delegálni.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">handler</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">handler</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Appends the specified text to the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">A megadott szöveg hozzáfűzi a <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the browser does not recognize cache control directives or extensions, the browser must ignore the unrecognized terms.</source>
+          <target state="translated">Ha a böngésző nem ismeri fel a cache-control direktívák vagy bővítményeknek, a böngésző kell figyelmen kívül hagyja az ismeretlen feltételeket.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">További információk: RFC 2616: http protokoll – HTTP/1.1, elérhető a <bpt id="p1">[</bpt>webes Consortium (W3C) webhelyen<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AppendCacheExtension is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">AppendCacheExtension megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The text to append to the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">A Szöveg hozzáfűzése a <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejléc.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;extension&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;extension&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets the cache-control directive.</source>
+          <target state="translated">Lekérdezi a cache-control direktíva.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The cache-control directive.</source>
+          <target state="translated">A cache-control direktíva.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets the cache extensions.</source>
+          <target state="translated">Lekérdezi a gyorsítótár-bővítmények.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The cache extensions.</source>
+          <target state="translated">A gyorsítótár-bővítmények.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the ETag.</source>
+          <target state="translated">Lekérdezi az ETag.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The ETag.</source>
+          <target state="translated">Az ETag.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the status indicating whether the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header has been set  based on the timestamps of the file   dependencies of the handler.</source>
+          <target state="translated">Lekérdezi az állapotot, amely jelzi, hogy a <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejléc nincs beállítva alapján a fájl függőségi a kezelőhöz időbélyegzőket.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header has been set  based on the timestamps of the file   dependencies of the handler; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a <bpt id="p2">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> fejléc van beállítva, a fájl függőségi a kezelőhöz időbélyegeket alapján, ha <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the expire header.</source>
+          <target state="translated">Lekérdezi a lejárati fejléc.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The expire header.</source>
+          <target state="translated">Az elévülési fejléc.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the status of ignore range requests.</source>
+          <target state="translated">Lekérdezi a figyelmen kívül hagyása tartomány kérelmének állapotát.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if range requests are ignored; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a tartomány kérelmek figyelmen kívül lesznek hagyva; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the status of the Last-Modified headerset to base on the timestamps of the   file dependencies of the handler.</source>
+          <target state="translated">A fájl függőségi a kezelőhöz időbélyegeket alapjául Last-Modified headerset állapotát olvassa be.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Last-Modified header  is set to base on the timestamps of the   file dependencies of the handler; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a kezelő; fájl függőség időbélyegeket alapjául a Last-Modified fejléc értéke Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the cache-control max age.</source>
+          <target state="translated">Lekérdezi a cache-control maximális életkora.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The cache-control max age.</source>
+          <target state="translated">A cache-control maximális életkora.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the status of server caching for the current response.</source>
+          <target state="translated">A jelenlegi válasz gyorsítótár kiszolgáló állapotát olvassa be.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if server caching is stopped for the current response; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a kiszolgáló-gyorsítótárazás le van állítva, a jelenlegi válasz; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the status of the store.</source>
+          <target state="translated">A tároló állapotát olvassa be.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no store is set; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha tár be van állítva; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the status of the HTTP No-Transform Directive.</source>
+          <target state="translated">A HTTP nem-átalakítási irányelv állapotát olvassa be.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enables the sending of the Cache-Control HTTP header.</source>
+          <target state="translated">Lehetővé teszi, hogy a küldő a Cache-Control HTTP-fejléc.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>true<bpt id="p1">&lt;xref uid="langword_csharp_" name="" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if the HTTP No-Transform Directive is set; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Igaz<bpt id="p1">&lt;xref uid="langword_csharp_" name="" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a HTTP nem-átalakítási irányelv esetén állítsa be, ha <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets the status of the <bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">Állapotát olvassa be a <bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejléc.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header is omitted; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a <bpt id="p2">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> fejléc értéke nincs megadva, ha <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets the HTTP Cache-Control: Proxy Max Age.</source>
+          <target state="translated">Lekérdezi a HTTP a Cache-Control: Proxy maximális életkora.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The HTTP Cache-Control: Proxy Max Age.</source>
+          <target state="translated">A HTTP a Cache-Control: Proxy maximális életkora.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the Cache-Control: header to reflect either the must-revalidate or   proxy-revalidate directives.</source>
+          <target state="translated">Lekérdezi a Cache-Control: fejlécet a must-revalidate érték vagy a proxy-revalidate irányelveknek megfelelően.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default is to not send either of these directives unless explicitly enabled using this method.</source>
+          <target state="translated">Alapértelmezés szerint a rendszer nem küld vagy ezen irányelvek kivéve, ha explicit módon engedélyezve az ezzel a módszerrel.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The Cache-Control: header to reflect either the must-revalidate or   proxy-revalidate directives.</source>
+          <target state="translated">A Cache-Control: fejlécet a must-revalidate érték vagy a proxy-revalidate irányelveknek megfelelően.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the value of the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header in Coordinated Universal Time (UTC).</source>
+          <target state="translated">Értékét a <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc az egyezményes világidő (UTC).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">Értékét a <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the custom string that is used to vary the HTTP caching.</source>
+          <target state="translated">Lekérdezi az egyéni karakterlánc, amely eltérő a HTTP-gyorsítótárazás szolgál.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The custom string for varying the HTTP caching.</source>
+          <target state="translated">A változó a HTTP-gyorsítótárazás egyéni karakterláncot.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value which specifies whether the cache has a sliding expiration policy.</source>
+          <target state="translated">Adja meg, hogy rendelkezik-e a gyorsítótár egy mozgó elévülési szabályzatának érték beolvasása.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the the cache has a sliding expiration policy; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a a gyorsítótár tartalmaz egy mozgó elévülési szabályzatának; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a value which specifies whether the HTTP cache has been modified.</source>
+          <target state="translated">Egy értéket, amely megadja, hogy módosult-e a HTTP-gyorsítótár lekérdezi.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the the cache has been modified; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az módosult a gyorsítótár; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets a value which specifies whether the ASP.NET cache should ignore HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers sent by the client that invalidate the cache.</source>
+          <target state="translated">Lekérdezi egy értéket, amely megadja, hogy az ASP.NET gyorsítótára figyelmen kívül a HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érvénytelenné válnak a gyorsítótár az ügyfél által küldött fejléceket.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the the ASP.NET cache should ignore HTTP <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> headers sent by the client; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a az ASP.NET gyorsítótára figyelmen kívül hagyja a HTTP <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> ; az ügyfél által küldött fejlécek ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Makes the response is available in the client browser History cache, regardless of the <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> setting made on the server, when the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">allow</ph><ept id="p2">&lt;/code&gt;</ept> parameter is <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Elérhetővé válnak a válasz érhető el az ügyfél böngészője előzmények gyorsítótárában, függetlenül a <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a kiszolgálón végzett beállítás során a <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">allow</ph> <ept id="p2">&lt;/code&gt;</ept> paraméter <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.Web.HttpCacheability&gt; is set to &lt;xref:System.Web.HttpCacheability&gt; or &lt;xref:System.Web.HttpCacheability&gt; the <ph id="ph1">`Expires`</ph> HTTP header is by default set to -1; this tells the client not to cache responses in the History folder, so that when you use the back/forward buttons the client requests a new version of the response each time.</source>
+          <target state="translated">Ha &lt;xref:System.Web.HttpCacheability&gt;értéke &lt;xref:System.Web.HttpCacheability&gt;vagy &lt;xref:System.Web.HttpCacheability&gt;a <ph id="ph1">`Expires`</ph> értéke -1 alapértelmezés szerint HTTP-fejléc; ez alapján nem az ügyfél gyorsítótár válaszok az Előzmények mappában, hogy a biztonsági/előre gomb használatakor az ügyfél kéri a válasz egy új verziója minden alkalommal, amikor.&lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override this behavior by calling the SetAllowResponseInBrowserHistory method with the <ph id="ph1">`allow`</ph> parameter set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Ezt a viselkedést felülírhatja a SetAllowResponseInBrowserHistory metódust hívja a <ph id="ph1">`allow`</ph> paraméter <ph id="ph2">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.HttpCacheability&gt; is set to values other than &lt;xref:System.Web.HttpCacheability&gt; or &lt;xref:System.Web.HttpCacheability&gt;, calling the SetAllowResponseInBrowserHistory method with either value for <ph id="ph1">`allow`</ph> has no effect.</source>
+          <target state="translated">Ha &lt;xref:System.Web.HttpCacheability&gt;beállítása értékek eltérő &lt;xref:System.Web.HttpCacheability&gt;vagy &lt;xref:System.Web.HttpCacheability&gt;, a SetAllowResponseInBrowserHistory metódust vagy értékkel <ph id="ph1">`allow`</ph> nincs hatása.&lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetAllowResponseInBrowserHistory is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetAllowResponseInBrowserHistory megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to direct the client browser to store responses in the History folder; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>az ügyfél böngészőt válaszok tárolása az Előzmények mappában; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header to one of the values of <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejléc értékének egy <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetCacheability is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetCacheability megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> számbavételi érték.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph> is not one of the enumeration values.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph>nincs a számbavételi értékek egyike.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header to one of the values of <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and appends an extension to the directive.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejléc értékének egy <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> és egy bővítmény hozzáfűzi a direktíva.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The field name extension is valid only when used with the <ph id="ph1">`private`</ph> or <ph id="ph2">`no-cache`</ph> directives.</source>
+          <target state="translated">A mező kiterjesztése érvénytelen használata esetén csak a <ph id="ph1">`private`</ph> vagy <ph id="ph2">`no-cache`</ph> irányelvek.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">További információk: RFC 2616: http protokoll – HTTP/1.1, elérhető a <bpt id="p1">[</bpt>webes Consortium (W3C) webhelyen<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will throw an invalid argument exception if incompatible directives and extensions are combined.</source>
+          <target state="translated">Ezt a módszert fog kivételt érvénytelen argumentum jelez, ha a nem kompatibilis irányelvek és bővítmények együttes.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetCacheability is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetCacheability megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value to set the header to.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> számbavételi értéket a fejléc értéke.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The cache control extension to add to the header.</source>
+          <target state="translated">A gyorsítótár vezérlő bővítmény a fejléc hozzáadása.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;field&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;field&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph> is not <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph>is not <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to the specified string.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc, hogy a megadott karakterlánc.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`ETag`</ph> header is a unique identifier for a specific version of a document.</source>
+          <target state="translated">A <ph id="ph1">`ETag`</ph> fejléc egy adott verziójához a dokumentumok egyedi azonosítóját.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used by clients to validate client-cached content to avoid requesting it again.</source>
+          <target state="translated">Segítségével az ügyfelek által elkerülése érdekében újból a kért ügyfél gyorsítótárazott tartalom érvényesítése.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once an <ph id="ph1">`ETag`</ph> header is set, subsequent attempts to set it fail and an exception is thrown.</source>
+          <target state="translated">Egyszer egy <ph id="ph1">`ETag`</ph> fejléc beállítva, az ezt követő kísérletek sikertelenek állítsa be, és a rendszer kivételt hoz létre.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetETag is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetETag megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The text to use for the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">A használandó szöveget a <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejléc.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;etag&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;etag&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the time stamps of the handler's file dependencies.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc alapján, a kezelő a függőségek az időbélyegek.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TheSetETagFromFileDependencies method sets the <ph id="ph1">`ETag`</ph> header by retrieving the last modified time stamps of all files on which the handler is dependent, combining all file names and time stamps into a single string, then hashing that string into a single digest that is used as the <ph id="ph2">`ETag`</ph>.</source>
+          <target state="translated">TheSetETagFromFileDependencies módszer beállítása az <ph id="ph1">`ETag`</ph> beolvasása az összes fájl, amelyre a kezelő függő az utolsó módosítás időpontja bélyegzők, kombinálásával az összes fájl nevét és időbélyegeket egyetlen karakterlánccá egyesít, akkor egy egyetlen digest, amely az adott karakterlánc-kivonatolás fejlécet a <ph id="ph2">`ETag`</ph>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetETagFromFileDependencies is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetETagFromFileDependencies megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header has already been set.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejléc már be van állítva.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to an absolute date and time.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc egy abszolút dátumát és idejét.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will fail if the expiration date violates the principle of restrictiveness.</source>
+          <target state="translated">Ez a metódus sikertelen lesz, ha a lejárati dátum sérti restrictiveness elvét.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The absolute &lt;xref:System.DateTime&gt; value to set the <bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header to.</source>
+          <target state="translated">Az abszolút &lt;xref:System.DateTime&gt;érték beállítása a <bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejlécének.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to the &lt;xref:System.DateTime&gt; value supplied.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a HTTP-fejléc a &lt;xref:System.DateTime&gt;értéket kapott.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Last-Modified`</ph> HTTP header time stamps the document with the <ph id="ph2">`DateTime`</ph> value indicating when the document was last modified.</source>
+          <target state="translated">A <ph id="ph1">`Last-Modified`</ph> HTTP fejléc időbélyegzői a dokumentum a <ph id="ph2">`DateTime`</ph> a dokumentum utolsó módosításának jelző érték.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will fail if the caching restrictiveness hierarchy is violated.</source>
+          <target state="translated">Ez a metódus sikertelen lesz, ha a gyorsítótárazási restrictiveness hierarchia sérül.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetLastModified is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetLastModified megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The new &lt;xref:System.DateTime&gt; value for the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">Az új &lt;xref:System.DateTime&gt;értékét a <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejléc.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;date&lt;/code&gt;</ph> is later than the current <bpt id="p1">&lt;xref uid="langword_csharp_DateTime" name="DateTime" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;date&lt;/code&gt;</ph>későbbi, mint a jelenlegi <bpt id="p1">&lt;xref uid="langword_csharp_DateTime" name="DateTime" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the time stamps of the handler's file dependencies.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc alapján, a kezelő a függőségek az időbélyegek.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetLastModifiedFromFileDependencies is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetLastModifiedFromFileDependencies megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: max-age" name="Cache-Control: max-age" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the specified time span.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: max-age" name="Cache-Control: max-age" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc a megadott időtartam alapján.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Max-age`</ph> is the maximum absolute time a document is allowed to exist before being considered stale.</source>
+          <target state="translated"><ph id="ph1">`Max-age`</ph>az dokumentum előtt szabálysértésnek minősülő elavult számára engedélyezett maximális abszolút idő.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetMaxAge method does not use sliding expiration and will fail if the expiration date violates the principle of restrictiveness.</source>
+          <target state="translated">A SetMaxAge metódus nem használ mozgó lejárati, és sikertelen lesz, ha a lejárati dátum sérti restrictiveness elvét.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetMaxAge is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetMaxAge megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the SetMaxAge method is called repeatedly, on the second and subsequent calls, the value of the maximum age can only be decreased.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; SetMaxAge metódus hívása többször, a második és az azt követő hívások maximális élettartamát értékének méretét csak csökkenteni lehet.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The time span used to set the <bpt id="p1">&lt;xref uid="langword_csharp_Cache" name="Cache" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph1"> - </ph><bpt id="p2">&lt;xref uid="langword_csharp_Control: max-age" name="Control: max-age" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">A használt időtartama a <bpt id="p1">&lt;xref uid="langword_csharp_Cache" name="Cache" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph1"> - </ph> <bpt id="p2">&lt;xref uid="langword_csharp_Control: max-age" name="Control: max-age" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> fejléc.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph> is less than 0 or greater than one year.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph>kisebb, mint 0 vagy nagyobb, mint egy év.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Stops all origin-server caching for the current response.</source>
+          <target state="translated">Leállítja a jelenlegi válasz gyorsítótár eredeti kiszolgálóra.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Explicitly denies caching of the document on the origin-server.</source>
+          <target state="translated">A dokumentum a forrás kiszolgálón gyorsítótárazás kifejezetten megtagadja.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once set, all requests for the document are fully processed.</source>
+          <target state="translated">Beállítása után, a dokumentum az összes kérelem teljes feldolgozása.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this method is invoked, caching cannot be re-enabled for the current response.</source>
+          <target state="translated">Ez a metódus meghívásakor gyorsítótárazás nem lehet újra engedélyezni a jelenlegi válasz.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetNoServerCaching is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetNoServerCaching megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-store" name="Cache-Control: no-store" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-store" name="Cache-Control: no-store" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-transform" name="Cache-Control: no-transform" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-transform" name="Cache-Control: no-transform" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP header instructs network caching applications not to modify the document.</source>
+          <target state="translated">A <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP-fejléc arra utasítja a hálózati alkalmazások nem módosíthatja a dokumentum gyorsítótárazás.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP header prevents downstream proxy servers from changing any header values specified by the <ph id="ph2">`Content-Encoding`</ph>, <ph id="ph3">`Content-Range`</ph>, or <ph id="ph4">`Content-Type`</ph> headers (this includes the entity body).</source>
+          <target state="translated">A <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP-fejléc megakadályozza, hogy a proxy alsóbb rétegbeli kiszolgálók által megadott fejlécet értékeket módosítása a <ph id="ph2">`Content-Encoding`</ph>, <ph id="ph3">`Content-Range`</ph>, vagy <ph id="ph4">`Content-Type`</ph> fejlécek (Ebbe beletartoznak a entitástörzsében).</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, it prevents proxies from converting GIF images to PNG.</source>
+          <target state="translated">Például megakadályozza, hogy proxyk GIF-lemezképek átalakítása PNG.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As with other restrictions on caching, once SetNoTransforms is called, the <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP header cannot be disabled through the &lt;xref:System.Web.HttpCachePolicy&gt; interface.</source>
+          <target state="translated">Csakúgy, mint a más korlátozások gyorsítótárazást, ha SetNoTransforms nevezik, a <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP-fejléc nem lehet letiltani keresztül a &lt;xref:System.Web.HttpCachePolicy&gt;felületet.&lt;/xref:System.Web.HttpCachePolicy&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetNoTransforms is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetNoTransforms megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies whether the response should contain the <bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header when varying by parameters.</source>
+          <target state="translated">Megadja, hogy a válasz tartalmaznia kell a <bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejléc, ha különböző paraméterek.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method allows you to prevent the output ached from adding a <ph id="ph1">`vary:*`</ph> header to the outgoing response when the cached response varies by parameter.</source>
+          <target state="translated">Ez a módszer lehetővé teszi, hogy megakadályozhatja, hogy a kimeneti ached adjanak hozzá a <ph id="ph1">`vary:*`</ph> fejléc a kimenő válasz, ha a gyorsítótárazott válasz függ a paraméter számára.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is useful for clients varying caching by query string because most clients will automatically vary by query string without requiring the <ph id="ph1">`vary:*`</ph> header.</source>
+          <target state="translated">Ez akkor hasznos, ha az ügyfelek változó gyorsítótárazásához azáltal, hogy lekérdezési karakterlánc, mert a legtöbb ügyfél automatikusan változhat a lekérdezési karakterlánc anélkül, hogy a <ph id="ph1">`vary:*`</ph> fejléc.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The use of the <ph id="ph2">`vary:*`</ph> header can disable all client caching.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Használatát a <ph id="ph2">`vary:*`</ph> fejléc letilthatja az összes ügyfél a gyorsítótárazást.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a convenience method to affect the &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt; property.</source>
+          <target state="translated">Ez a kényelem módszer befolyásolják a &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt;tulajdonság.&lt;/xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Passing <ph id="ph1">`true`</ph> to the method directs the &lt;xref:System.Web.HttpCachePolicy&gt; to ignore the * value for the &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt; property.</source>
+          <target state="translated">Sikeres <ph id="ph1">`true`</ph> a metódus irányítja a &lt;xref:System.Web.HttpCachePolicy&gt;figyelmen kívül hagyja a * érték, a &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt;tulajdonság.&lt;/xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt; &lt;/xref:System.Web.HttpCachePolicy&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetOmitVaryStar is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetOmitVaryStar megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to direct the <bpt id="p2">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to not use the <bpt id="p3">*</bpt> value for its &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders<ept id="p3">*</ept>&gt; property; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>át tudja irányítani a <bpt id="p2">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> nem használandó az <bpt id="p3">*</bpt> értékét a &lt;&gt; &lt;/&gt; <ept id="p3">*</ept>&gt; tulajdonság; ellenkező esetben <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the specified time span.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc a megadott időtartam alapján.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetProxyMaxAge method does not use sliding expiration and will fail if the expiration date violates the principle of restrictiveness.</source>
+          <target state="translated">A SetProxyMaxAge metódus nem használ mozgó lejárati, és sikertelen lesz, ha a lejárati dátum sérti restrictiveness elvét.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetProxyMaxAge is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetProxyMaxAge megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The time span used to set the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">A használt időtartama a <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejléc.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph>értéke 0-nál kisebb.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to either the <bpt id="p2">&lt;xref uid="langword_csharp_must-revalidate" name="must-revalidate" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or the <bpt id="p3">&lt;xref uid="langword_csharp_proxy-revalidate" name="proxy-revalidate" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> directives based on the supplied enumeration value.</source>
+          <target state="translated">Beállítja a <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP-fejléc vagy a <bpt id="p2">&lt;xref uid="langword_csharp_must-revalidate" name="must-revalidate" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> vagy a <bpt id="p3">&lt;xref uid="langword_csharp_proxy-revalidate" name="proxy-revalidate" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> irányelvek a megadott enumerálási érték alapján.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default, which is equivalent to &lt;xref:System.Web.HttpCacheRevalidation&gt;, is to send neither directive in a header unless explicitly specified by this method.</source>
+          <target state="translated">Az alapértelmezett, amely egyenértékű &lt;xref:System.Web.HttpCacheRevalidation&gt;, sem irányelv küldi a fejlécet, kivéve, ha ez a metódus explicit módon megadott.&lt;/xref:System.Web.HttpCacheRevalidation&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetRevalidation is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetRevalidation megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpCacheRevalidation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value to set the <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header to.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.HttpCacheRevalidation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> számbavételi érték beállítása a <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> fejlécben.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;revalidation&lt;/code&gt;</ph> is not one of the enumeration values.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;revalidation&lt;/code&gt;</ph>nincs a számbavételi értékek egyike.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Sets cache expiration to from absolute to sliding.</source>
+          <target state="translated">Beállítása az abszolút a késleltetett elévülése gyorsítótárazza.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When cache expiration is set to sliding, the <ph id="ph1">`Cache-Control`</ph> HTTP header will be renewed with each response.</source>
+          <target state="translated">Ha a gyorsítótár lejárati értéke késleltetett, hogy a <ph id="ph1">`Cache-Control`</ph> minden válasz legyen megújítva HTTP-fejléc.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This expiration mode is identical to the IIS configuration option to add an expiration header to all output set relative to the current time.</source>
+          <target state="translated">A lejárati mód megegyezik az IIS-konfigurációs beállítást egy lejárati fejléc hozzáadását az összes kimeneti viszonyítva az aktuális idő beállítása.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you explicitly set sliding expiration to off (<ph id="ph1">`false`</ph>), that setting will be preserved and any attempts to enable sliding expiration will silently fail.</source>
+          <target state="translated">Ha a késleltetett lejárat kikapcsolva (<ph id="ph1">`false`</ph>), a beállítás megőrzi, és Lejárat késleltetésének engedélyezése tett bármilyen kísérlet csendes sikertelen lesz.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not directly map to an HTTP header.</source>
+          <target state="translated">Ez a metódus közvetlenül nem felel meg a HTTP-fejléc.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used by subsequent modules or worker requests to set origin-server cache policy.</source>
+          <target state="translated">További modulok vagy munkavégző használja eredetű-kiszolgáló beállítása kérések gyorsítótárazása házirend.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetSlidingExpiration is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetSlidingExpiration megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>or <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Specifies whether the ASP.NET cache should ignore HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers sent by the client that invalidate the cache.</source>
+          <target state="translated">Megadja, hogy az ASP.NET gyorsítótára figyelmen kívül a HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érvénytelenné válnak a gyorsítótár az ügyfél által küldött fejléceket.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetValidUntilExpires method is set to <ph id="ph1">`true`</ph> automatically when the high-level <ph id="ph2">`&lt;%@ OutputCache … %&gt;`</ph> page directive is used.</source>
+          <target state="translated">A SetValidUntilExpires módszer <ph id="ph1">`true`</ph> automatikusan, ha a magas szintű <ph id="ph2">`&lt;%@ OutputCache … %&gt;`</ph> lap direktívájában szolgál.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is provided because some browsers, when refreshing a page view, send HTTP cache invalidation headers to the Web server and evict the page from the cache.</source>
+          <target state="translated">Ez a módszer áll rendelkezésre, mert egyes böngészők, egy lap nézetben frissítésekor a webkiszolgálóhoz érvénytelenítési fejlécek küldését a HTTP-gyorsítótár és a lap a gyorsítótárból kizárása.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`validUntilExpires`</ph> parameter is <ph id="ph2">`true`</ph>, ASP.NET ignores cache invalidation headers and the page remains in the cache until it expires.</source>
+          <target state="translated">Ha a <ph id="ph1">`validUntilExpires`</ph> paraméter <ph id="ph2">`true`</ph>, ASP.NET figyelmen kívül hagyja a gyorsítótár érvénytelenítési fejlécek, és a lap a gyorsítótárban marad, amíg le nem jár.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetValidUntilExpires is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetValidUntilExpires megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the cache ignores <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> invalidation headers; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a gyorsítótár figyelmen kívül hagyja <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> érvénytelenítési fejlécek; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Specifies a custom text string to vary cached output responses by.</source>
+          <target state="translated">Meghatározza az eltérő gyorsítótárazott kimeneti válaszokat által egyéni szöveges karakterláncot.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetVaryByCustom is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetVaryByCustom megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The text string to vary cached output by.</source>
+          <target state="translated">Az eltérő gyorsítótárazott kimenete szöveges karakterlánc.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;custom&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;custom&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The SetVaryByCustom method has already been called.</source>
+          <target state="translated">A SetVaryByCustom metódust már meghívták.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Gets or sets the timestamp in Coordinated Universal Iime (UTC) for the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Lekérdezi vagy beállítja a timestamp a koordinált univerzális Iime idő szerint (UTC) esetében a <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DateTime&gt; for the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;xref:System.DateTime&gt; for the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Gets the list of <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers that will be used to vary the output cache.</source>
+          <target state="translated">Beolvassa a listáját <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejlécek használandó a kimeneti gyorsítótár eltérő.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The VaryByContentEncodings property returns a list of Content-Encoding headers that represent compression schemes to vary the output cache by.</source>
+          <target state="translated">A VaryByContentEncodings tulajdonság, amelyek megfelelnek a tömörítési séma a kimeneti gyorsítótár által eltérő Content-Encoding fejlécek listáját adja vissza.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Caching dynamically compressed responses means that the cost of compression is incurred only one time, during the first request for the resource.</source>
+          <target state="translated">Dinamikusan tömörített válaszok gyorsítótárazásának azt jelenti, hogy a tömörítési költségét során csak egyszer, az első kérésre az erőforrás van szükség.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The VaryByContentEncodings property is used with the <ph id="ph1">`Accept-Encoding`</ph> header of a request to determine how to serve cached responses for different content encodings that are dynamically compressed.</source>
+          <target state="translated">A VaryByContentEncodings tulajdonság használatos a <ph id="ph1">`Accept-Encoding`</ph> gyorsítótárazott választ adjon az különböző tartalom kódolások dinamikusan tömörített kiszolgálására, hogyan lehet a kérelem fejlécében.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Accept-Encoding header lists the encodings that the client can decompress.</source>
+          <target state="translated">Az elfogadás-Encoding fejlécnek sorolja fel, hogy az ügyfél tud kibontani a kódolást.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the cache to vary by content encoding, it lets the response vary indirectly by the value in the <ph id="ph1">`Accept-Encoding`</ph> header.</source>
+          <target state="translated">Lehetővé teszi, ha a gyorsítótár tartalmának kódolását változhat, a válasz közvetve változó értéke a <ph id="ph1">`Accept-Encoding`</ph> fejléc.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a request is processed, the <ph id="ph1">`Accept-Encoding`</ph> header is checked and the first acceptable encoding is identified and used to take one of the following actions:      -   If a matching encoding is found in the VaryByContentEncodings list and a cached response exists, the cached response is sent.</source>
+          <target state="translated">A kérelem feldolgozása után a <ph id="ph1">`Accept-Encoding`</ph> fejlécében jelölőnégyzet be van jelölve, és az első elfogadható kódolás azonosítható, és használja az alábbi műveletek egyikét:-Ha a megfelelő kódolási megtalálható a VaryByContentEncodings listán, és a gyorsítótárazott válasz létezik, a gyorsítótárazott választ küldött.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a matching encoding is found in the VaryByContentEncodings list but a cached response does not exist, a response is generated and inserted into the cache.</source>
+          <target state="translated">-Ha a megfelelő kódolási megtalálható a VaryByContentEncodings listán, de a gyorsítótárazott válasz nem létezik, a válasz létrehozza és szúrja be a gyorsítótárba.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a matching encoding is not found in the VaryByContentEncodings list, the cache is searched for a non-encoded response, also referred to as the identity response.</source>
+          <target state="translated">-Ha a megfelelő kódolási VaryByContentEncodings listájában nem található, a gyorsítótár-kódolású választ, más néven a válasz keres.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the non-encoded response is found, it is sent.</source>
+          <target state="translated">Ha a nem kódolt választ, továbbítás.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, a new non-encoded response is generated, sent, and stored in the cache.</source>
+          <target state="translated">Ellenkező esetben új-kódolású választ jön létre, küldött, és a gyorsítótárba.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the VaryByContentEncodings property, see "RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1," which is available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">A VaryByContentEncodings tulajdonságra vonatkozó további információkért lásd: "RFC 2616: Hypertext Transfer Protocol--HTTP/1.1," elérhető a <bpt id="p1">[</bpt>webes Consortium (W3C) webhelyen<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Information about content encodings is in section 14, "Header Field Definitions."</source>
+          <target state="translated">Tartalom kódolások adatai szakaszban 14-es, "Fejléc mező definíciókat."</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the VaryByContentEncodings property by using the <ph id="ph1">`VaryByContentEncodings`</ph> attribute of the  directive.</source>
+          <target state="translated">Beállíthatja a VaryByContentEncodings tulajdonság használatával a <ph id="ph1">`VaryByContentEncodings`</ph> az irányelv attribútum.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also add a cache profile to the  element in the Web.config file.</source>
+          <target state="translated">Azt is megteheti egy gyorsítótárprofil a Web.config fájlban a következő elemre.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>VaryByContentEncodings is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">VaryByContentEncodings megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>An object that specifies which <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers are used to select the cached response.</source>
+          <target state="translated">Olyan objektum, amely megadja, hogy <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fejlécek segítségével válassza ki a gyorsítótárazott választ.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Gets the list of all HTTP headers that will be used to vary cache output.</source>
+          <target state="translated">Kimeneti gyorsítótár eltérő használható HTTP-fejlécek listájának lekérése.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a cached item has several vary headers, a separate version of the requested document is available from the cache for each HTTP header type.</source>
+          <target state="translated">Ha egy gyorsítótárazott elem több eltérők lehetnek a fejlécek, a kért dokumentum külön verziója érhető el az egyes HTTP fejlécet a gyorsítótárból.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>VaryByHeaders is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">VaryByHeaders megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByHeaders"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies which HTTP headers are used to select the cached response.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByHeaders"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely megadja, hogy mely HTTP-fejlécek segítségével válassza ki a gyorsítótárazott választ.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Gets the list of parameters received by an HTTP <bpt id="p1">&lt;xref uid="langword_csharp_GET" name="GET" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or HTTP <bpt id="p2">&lt;xref uid="langword_csharp_POST" name="POST" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that affect caching.</source>
+          <target state="translated">Beolvassa a HTTP által fogadott paraméterek listáját <bpt id="p1">&lt;xref uid="langword_csharp_GET" name="GET" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vagy http- <bpt id="p2">&lt;xref uid="langword_csharp_POST" name="POST" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> befolyásoló gyorsítótárazását.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A separate version of the requested document is available from the cache for each named parameter in the VaryByParams collection.</source>
+          <target state="translated">A kért dokumentum külön verzióját a gyorsítótárból minden elnevezett paraméter VaryByParams gyűjtemény érhető el.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>VaryByParams is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">VaryByParams megjelent a .NET-keretrendszer 3.5-ös verziója.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>verziója és a függőségek<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByParams"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies which cache-control headers are used to select the cached response.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByParams"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely meghatározza, mely a cache-control fejlécek segítségével válassza ki a gyorsítótárazott választ.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

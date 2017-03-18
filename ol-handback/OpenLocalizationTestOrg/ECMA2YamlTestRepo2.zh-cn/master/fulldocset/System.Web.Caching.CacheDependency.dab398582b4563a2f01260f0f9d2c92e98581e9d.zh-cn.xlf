@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c2506d1424591436893d9edc425e94b4b8e7c38a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Caching.CacheDependency.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">50eafc8c07f3e8d5364d226bf81f06f61c200f38</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5a32a31cec348a0773b23059696a486031cb191a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Establishes a dependency relationship between an item stored in an ASP.NET application's <bpt id="p1">&lt;xref href="System.Web.Caching.Cache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and a file, cache key, an array of either, or another CacheDependency object.</source>
+          <target state="translated">依赖项之间建立关系存储 ASP.NET 应用程序中的项<bpt id="p1">&lt;xref href="System.Web.Caching.Cache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象和文件、 缓存键、 数组或另一个 CacheDependency 对象。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The CacheDependency class monitors the dependency relationships so that when any of them changes, the cached item will be automatically removed.</source>
+          <target state="translated">CacheDependency 类监视依赖关系，以便在其中任何更改时，将自动删除缓存的项。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If you add an item to the cache that is dependent on another object, such as a file or array of files, the dependent item is automatically removed from the cache when the object changes.</source>
+          <target state="translated">如果将项添加到缓存依赖于另一个对象，如文件或文件，数组的依赖项是自动从缓存中删除对象更改时。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For example, suppose you create a &lt;xref:System.Data.DataSet&gt; object based on data in an XML file.</source>
+          <target state="translated">例如，假设你创建&lt;xref:System.Data.DataSet&gt;根据 XML 文件中的数据的对象。&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can add the &lt;xref:System.Data.DataSet&gt; to the cache with a CacheDependency object that makes the &lt;xref:System.Data.DataSet&gt; dependent on the XML file.</source>
+          <target state="translated">你可以添加&lt;xref:System.Data.DataSet&gt;以使的 CacheDependency 对象缓存到&lt;xref:System.Data.DataSet&gt;依赖于 XML 文件。&lt;/xref:System.Data.DataSet&gt; &lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If the XML file changes, the &lt;xref:System.Data.DataSet&gt; is removed from the cache.</source>
+          <target state="translated">如果 XML 文件发生更改，&lt;xref:System.Data.DataSet&gt;从缓存中删除。&lt;/xref:System.Data.DataSet&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can add items with dependencies to your application's cache with the &lt;xref:System.Web.Caching.Cache.Add%2A&gt; and &lt;xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt; methods.</source>
+          <target state="translated">可以将具有依赖项的项添加到你的应用程序的缓存&lt;xref:System.Web.Caching.Cache.Add%2A&gt;和&lt;xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.Caching.Cache.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You cannot use the &lt;xref:System.Web.Caching.Cache.Item%2A&gt; property to add items to the cache with dependencies.</source>
+          <target state="translated">不能使用&lt;xref:System.Web.Caching.Cache.Item%2A&gt;属性将项添加到缓存的依赖关系。&lt;/xref:System.Web.Caching.Cache.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>To set up a dependency, you create an instance of the CacheDependency class, specifying the files, keys, or directories on which the item is dependent, and then pass the dependency to the &lt;xref:System.Web.Caching.Cache.Add%2A&gt; or &lt;xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">若要设置依赖项，创建 CacheDependency 类的实例指定文件、 密钥或在其的项是依赖项，目录，然后将传递到的依赖关系&lt;xref:System.Web.Caching.Cache.Add%2A&gt;或&lt;xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.Caching.Cache.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The CacheDependency instance can represent a single file or directory, an array of files or directories, or an array of files or directories along with an array of cache keys (these represent other items stored in the &lt;xref:System.Web.Caching.Cache&gt; object).</source>
+          <target state="translated">CacheDependency 实例可以表示单个文件或目录、 文件或目录的数组或文件或目录以及缓存键的数组的数组 (这些表示存储在其他项&lt;xref:System.Web.Caching.Cache&gt;对象)。&lt;/xref:System.Web.Caching.Cache&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you want to derive your own class from &lt;xref:System.Web.Caching.CacheDependency&gt;, implement this version of the CacheDependency constructor.</source>
+          <target state="translated">如果你想要派生您自己的类从&lt;xref:System.Web.Caching.CacheDependency&gt;，实现此版本的 CacheDependency 构造函数。&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors a file or directory for changes.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>监视的文件或目录的更改的类。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The path to a file or directory that the cached object is dependent upon.</source>
+          <target state="translated">文件或目录的缓存的对象所依赖的路径。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When this resource changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">当此资源更改时，缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories) for changes.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>监视的更改 （对于文件或目录） 的路径的数组的类。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">路径 （文件或目录） 缓存的对象所依赖的数组。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">任何这些资源更改，缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors a file or directory for changes.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>监视的文件或目录的更改的类。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The path to a file or directory that the cached object is dependent upon.</source>
+          <target state="translated">文件或目录的缓存的对象所依赖的路径。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When this resource changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">当此资源更改时，缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The time against which to check the last modified date of the directory or file.</source>
+          <target state="translated">针对要检查的目录或文件的上次修改的日期的时间。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories) for changes and specifies a time when change monitoring begins.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，用于监视的更改 （对于文件或目录） 的路径的数组，并指定当更改监视开始时间。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">路径 （文件或目录） 缓存的对象所依赖的数组。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">任何这些资源更改，缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The time against which to check the last modified date of the objects in the array.</source>
+          <target state="translated">针对要检查数组中的对象的上次修改的日期的时间。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories), an array of cache keys, or both for changes.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>监视的路径 （到文件或目录） 的数组、 缓存键的数组或两者同时更改的类。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">路径 （文件或目录） 缓存的对象所依赖的数组。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">任何这些资源更改，缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An array of cache keys that the new object monitors for changes.</source>
+          <target state="translated">更改缓存密钥，用于监视新的对象的数组。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When any of these cache keys changes, the cached object associated with this dependency object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">任何这些缓存密钥更改，与此依赖项对象关联的缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories), an array of cache keys, or both for changes.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>监视的路径 （到文件或目录） 的数组、 缓存键的数组或两者同时更改的类。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">路径 （文件或目录） 缓存的对象所依赖的数组。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">任何这些资源更改，缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An array of cache keys that the new object monitors for changes.</source>
+          <target state="translated">更改缓存密钥，用于监视新的对象的数组。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When any of these cache keys changes, the cached object associated with this dependency object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">任何这些缓存密钥更改，与此依赖项对象关联的缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The date and time against which to check the last modified date of the objects passed in the <ph id="ph1">`filenames`</ph> and <ph id="ph2">`cachekeys`</ph> arrays.</source>
+          <target state="translated">日期和时间，但要检查的对象的上次修改的日期的传入<ph id="ph1">`filenames`</ph>和<ph id="ph2">`cachekeys`</ph>数组。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories), an array of cache keys, or both for changes.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>监视的路径 （到文件或目录） 的数组、 缓存键的数组或两者同时更改的类。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>It also makes itself dependent upon a separate instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">它还使自己依赖于的单独实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">路径 （文件或目录） 缓存的对象所依赖的数组。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">任何这些资源更改，缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An array of cache keys that the new object monitors for changes.</source>
+          <target state="translated">更改缓存密钥，用于监视新的对象的数组。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When any of these cache keys changes, the cached object associated with this dependency object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">任何这些缓存密钥更改，与此依赖项对象关联的缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Another instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that this instance is dependent upon.</source>
+          <target state="translated">另一个实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>此实例所依赖的类。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that monitors an array of paths (to files or directories), an array of cache keys, or both for changes.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>监视的路径 （到文件或目录） 的数组、 缓存键的数组或两者同时更改的类。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>It also makes itself dependent upon another instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and a time when the change monitoring begins.</source>
+          <target state="translated">它还使自己依赖于的另一个实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，当更改监视开始的时间。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An array of paths (to files or directories) that the cached object is dependent upon.</source>
+          <target state="translated">路径 （文件或目录） 缓存的对象所依赖的数组。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>When any of these resources changes, the cached object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">任何这些资源更改，缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An array of cache keys that the new object monitors for changes.</source>
+          <target state="translated">更改缓存密钥，用于监视新的对象的数组。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When any of these cache keys changes, the cached object associated with this dependency object becomes obsolete and is removed from the cache.</source>
+          <target state="translated">任何这些缓存密钥更改，与此依赖项对象关联的缓存的对象则成为过时，并从缓存中删除。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Another instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that this instance is dependent upon.</source>
+          <target state="translated">另一个实例<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>此实例所依赖的类。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The time against which to check the last modified date of the objects in the arrays and the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">对其进行检查数组中的对象的上次修改的日期的时间和<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and any classes that derive from <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">释放使用的资源<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类和派生的任何类<bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Any class that derives from the &lt;xref:System.Web.Caching.CacheDependency&gt; class is required to implement this method to clean up resources the derived class has used.</source>
+          <target state="translated">任何派生自的类&lt;xref:System.Web.Caching.CacheDependency&gt;类是需要实现此方法，以清理派生的类已使用的资源。&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Releases the resources used by the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">释放使用的资源<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Completes initialization of the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">完成初始化<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The FinishInit method completes the initialization of the &lt;xref:System.Web.Caching.CacheDependency&gt; object.</source>
+          <target state="translated">FinishInit 方法完成的初始化&lt;xref:System.Web.Caching.CacheDependency&gt;对象。&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This method is called by all &lt;xref:System.Web.Caching.CacheDependency&gt; constructors.</source>
+          <target state="translated">此方法由所有&lt;xref:System.Web.Caching.CacheDependency&gt;构造函数。&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets the file dependencies.</source>
+          <target state="translated">获取文件依赖项。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The file dependencies.</source>
+          <target state="translated">文件依赖项。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Retrieves a unique identifier for a <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">检索的唯一标识符<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This method can be particularly useful for tracking multiple instances of the &lt;xref:System.Web.Caching.CacheDependency&gt; class associated with an item or an application.</source>
+          <target state="translated">此方法会很适合用于跟踪的多个实例&lt;xref:System.Web.Caching.CacheDependency&gt;与某个项或应用程序相关联的类。&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The identifier is a combination of either the file name (for a file dependency) or the key name (for a cache-key dependency) and a string that this method assigns to the dependency.</source>
+          <target state="translated">标识符是文件名 （针对文件依赖项） 或 （对于缓存键依赖关系） 项的名称和一个字符串，此方法将分配到的依赖项的组合。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>In classes that derive from the &lt;xref:System.Web.Caching.CacheDependency&gt; class, you can override this method to customize how it generates the unique identifier.</source>
+          <target state="translated">派生自的类中&lt;xref:System.Web.Caching.CacheDependency&gt;类，你可以重写此方法以自定义它如何生成的唯一标识符。&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The unique identifier for the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">唯一标识符<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object has changed.</source>
+          <target state="translated">获取一个值，该值指示是否<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象已更改。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>You can add an item to an ASP.NET application's &lt;xref:System.Web.Caching.Cache&gt; with a &lt;xref:System.Web.Caching.CacheDependency&gt;.</source>
+          <target state="translated">你可以将项添加到 ASP.NET 应用程序的&lt;xref:System.Web.Caching.Cache&gt;以&lt;xref:System.Web.Caching.CacheDependency&gt;.&lt;/xref:System.Web.Caching.CacheDependency&gt; &lt;/xref:System.Web.Caching.Cache&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Web.Caching.CacheDependency&gt; changes, the item added to the &lt;xref:System.Web.Caching.Cache&gt; is invalidated and removed from the cache.</source>
+          <target state="translated">当&lt;xref:System.Web.Caching.CacheDependency&gt;发生更改，添加了项&lt;xref:System.Web.Caching.Cache&gt;失效，并且从缓存中删除。&lt;/xref:System.Web.Caching.Cache&gt; &lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>You can use this property to determine whether a &lt;xref:System.Web.Caching.CacheDependency&gt; has changed, and recreate the item in the &lt;xref:System.Web.Caching.Cache&gt; if that has occurred.</source>
+          <target state="translated">你可以使用此属性以确定是否&lt;xref:System.Web.Caching.CacheDependency&gt;已更改，并重新创建中的项&lt;xref:System.Web.Caching.Cache&gt;如果发生这种。&lt;/xref:System.Web.Caching.Cache&gt; &lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object has changed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>已更改对象; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Notifies the base <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that the dependency represented by a derived <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class has changed.</source>
+          <target state="translated">通知基<bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>依赖项由派生的对象<bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>类已更改。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Any class that derives from the &lt;xref:System.Web.Caching.CacheDependency&gt; class must implement this method.</source>
+          <target state="translated">任何派生自的类&lt;xref:System.Web.Caching.CacheDependency&gt;类必须实现此方法。&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When you derive from the &lt;xref:System.Web.Caching.CacheDependency&gt; class, you use the base functionality of any method or property that you have not overridden.</source>
+          <target state="translated">派生自&lt;xref:System.Web.Caching.CacheDependency&gt;类，你可以使用任何方法或已在不重写的属性的基本功能。&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When you create an instance of the derived class, it represents the files, cache keys, database tables, or other arbitrary objects that you want to make a cached item dependent upon.</source>
+          <target state="translated">在创建派生类的实例时，它表示文件、 缓存键、 数据库表或你想要使缓存的项取决于其他任意对象。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When a dependency item changes, this method notifies the base functionality of the &lt;xref:System.Web.Caching.CacheDependency&gt; class that the item has changed, so that the values of the &lt;xref:System.Web.Caching.CacheDependency.HasChanged%2A&gt; and &lt;xref:System.Web.Caching.CacheDependency.UtcLastModified%2A&gt; properties can be updated.</source>
+          <target state="translated">当依赖项更改时，此方法通知的基本功能&lt;xref:System.Web.Caching.CacheDependency&gt;类项已更改，以便值&lt;xref:System.Web.Caching.CacheDependency.HasChanged%2A&gt;和&lt;xref:System.Web.Caching.CacheDependency.UtcLastModified%2A&gt;属性可以进行更新。&lt;/xref:System.Web.Caching.CacheDependency.UtcLastModified%2A&gt; &lt;/xref:System.Web.Caching.CacheDependency.HasChanged%2A&gt; &lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The source of the event.</source>
+          <target state="translated">事件源。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.EventArgs?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object that contains the event data.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.EventArgs?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>包含事件数据的对象。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Marks the time when a dependency last changed.</source>
+          <target state="translated">将标记一个依赖项的上次更改的时间。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The time when the dependency last changed.</source>
+          <target state="translated">依赖项的上次更改时间。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the time when the dependency was last changed.</source>
+          <target state="translated">获取上次更改依赖项的时间。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This property is measured in Coordinated Universal Time (UTC) (also known as Greenwich Mean Time).</source>
+          <target state="translated">此属性的单位以协调世界时 (UTC) （也称为格林威治标准时间）。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The time when the dependency was last changed.</source>
+          <target state="translated">依赖项的上次更改时间。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

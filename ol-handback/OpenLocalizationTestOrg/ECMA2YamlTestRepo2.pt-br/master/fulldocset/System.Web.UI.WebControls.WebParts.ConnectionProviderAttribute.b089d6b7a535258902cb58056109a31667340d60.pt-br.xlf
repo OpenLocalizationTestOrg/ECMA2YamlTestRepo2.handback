@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb696080c141e7584846980d93c7a8b01d41ce65</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">18ee76e26c486d22b99e4a49e3fe15d084f42d3b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d21d38cef63c1b04687006dcfcb0ebbb861e8301</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Identifies the callback method in a server control acting as the provider in a Web Parts connection, and enables developers to specify details about the provider's connection point.</source>
+          <target state="translated">Identifica o método de retorno de chamada em um controle de servidor que atua como o provedor em uma conexão de Web Parts e permite que os desenvolvedores especificar detalhes sobre o ponto de conexão do provedor.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Web Parts connection consists of two server controls residing in a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone and sharing data by means of an interface instance passed from one control to the other.</source>
+          <target state="translated">Uma conexão de Web Parts consiste em dois controles de servidor que reside em um &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;zona e compartilhamento de dados por meio de uma instância da interface passado de um controle para outro.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The control that serves the interface instance is called the provider, and the control that receives the interface instance and processes or displays the data is called the consumer.</source>
+          <target state="translated">O controle que serve a instância da interface é chamado de provedor e o controle que recebe a instância da interface e os processos ou exibe os dados é chamado de consumidor.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details on connections, see the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; class and <bpt id="p1">[</bpt>Web Parts Connections Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter detalhes sobre conexões, consulte o &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;classe e <bpt id="p1">[</bpt>Web Parts Connections Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The provider control in a connection can be a &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control or any type of server or user control, but it must have a method designated as a callback method.</source>
+          <target state="translated">O provedor de controle em uma conexão pode ser um &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;controle ou qualquer tipo de servidor ou controle de usuário, mas ele deve ter um método designado como um método de retorno de chamada.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The callback method is invoked during the connection process, and its purpose is to return to the consumer an interface instance that contains data.</source>
+          <target state="translated">O método de retorno de chamada é invocado durante o processo de conexão e sua finalidade é uma instância da interface que contém dados de retorno para o consumidor.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To designate the method that serves as the callback method in a provider, you must add a <ph id="ph1">`ConnectionProviderAttribute`</ph> metadata element to the method (the element is based on the ConnectionProviderAttribute class).</source>
+          <target state="translated">Para designar o método que serve como o método de retorno de chamada em um provedor, você deve adicionar um <ph id="ph1">`ConnectionProviderAttribute`</ph> elemento de metadados para o método (o elemento com base na classe ConnectionProviderAttribute).</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to designating the callback method in a provider, the ConnectionProviderAttribute object also enables you to specify certain details about a provider's connection point.</source>
+          <target state="translated">Além de designar o método de retorno de chamada em um provedor, o objeto ConnectionProviderAttribute também permite que você especifique alguns detalhes sobre o ponto de conexão do provedor.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A provider connection point is an instance of the &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; class that encapsulates all the details about a provider needed to establish a connection, including the provider's control type, whether it can connect to multiple consumers at the same time, what type of interface the provider serves to consumers, details about the callback method, and a display name that represents the provider connection point in the user interface (UI).</source>
+          <target state="translated">Um ponto de conexão do provedor é uma ocorrência da &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;classe que encapsula todos os detalhes sobre um provedor necessário para estabelecer uma conexão, incluindo o tipo de controle do provedor, se ele pode se conectar a vários consumidores ao mesmo tempo, o tipo de interface de provedor serve para os consumidores, detalhes sobre o método de retorno de chamada e um nome para exibição que representa o ponto de conexão de provedor na interface do usuário (IU).&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Every Web Parts connection includes a provider connection point that is associated with the provider control.</source>
+          <target state="translated">Cada conexão de Web Parts inclui um ponto de conexão do provedor que está associado com o controle de provedor.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you add the <ph id="ph1">`ConnectionProviderAttribute`</ph> metadata element to the callback method in a provider, you can also use it to specify the following details about the provider connection point: a display name for the connection point (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; property), whether the provider can connect to multiple consumers at the same time (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.AllowsMultipleConnections%2A&gt; property), an ID for the connection point (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt; property), and the type of the connection point that the provider uses (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ConnectionPointType%2A&gt; property).</source>
+          <target state="translated">Quando você adiciona o <ph id="ph1">`ConnectionProviderAttribute`</ph> elemento de metadados para o método de retorno de chamada em um provedor, você também pode usar isso para especificar os seguintes detalhes sobre o ponto de conexão do provedor: um nome para exibição para o ponto de conexão (para obter detalhes, consulte a propriedade &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;), se o provedor pode se conectar a vários consumidores ao mesmo tempo (para obter detalhes, consulte a propriedade &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.AllowsMultipleConnections%2A&gt;), uma ID para o ponto de conexão (para obter detalhes Consulte o &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt;propriedade) e o tipo do ponto de conexão que usa o provedor (para obter detalhes, consulte o &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ConnectionPointType%2A&gt;propriedade).&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ConnectionPointType%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.AllowsMultipleConnections%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The four overloads of the constructor for the ConnectionProviderAttribute class each have parameters that allow you to specify values for one or more of these connection point properties when a new instance of the class is created.</source>
+          <target state="translated">As quatro sobrecargas do construtor para a classe ConnectionProviderAttribute têm parâmetros que permitem que você especifique valores para uma ou mais dessas propriedades de ponto de conexão quando uma nova instância da classe é criada.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the properties for a provider connection point can also be set programmatically; setting them using the <ph id="ph1">`ConnectionProviderAttribute`</ph> element is optional.</source>
+          <target state="translated">A maioria das propriedades de um ponto de conexão de provedor também pode ser definida programaticamente; configurá-los usando o <ph id="ph1">`ConnectionProviderAttribute`</ph> elemento é opcional.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When you add the <ph id="ph2">`ConnectionProviderAttribute`</ph> metadata element to a callback method in a provider, the only required parameter that you must always specify is the <ph id="ph3">`displayName`</ph> parameter (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.%23ctor%28System.String%29&gt; constructor overload).</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Quando você adiciona o <ph id="ph2">`ConnectionProviderAttribute`</ph> é do elemento de metadados para um método de retorno de chamada em um provedor, o único parâmetro necessário que você sempre deve especificar o <ph id="ph3">`displayName`</ph> parâmetro (para obter detalhes, consulte o &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.%23ctor%28System.String%29&gt;sobrecarga de construtor).&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.%23ctor%28System.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this parameter is assigned to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; property, and when a user opens the connection UI (created by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control), the display name represents the provider connection point in the UI.</source>
+          <target state="translated">O valor desse parâmetro é atribuído para o &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;propriedade, e quando um usuário abre a conexão da interface do usuário (criado pelo &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;controle), o nome de exibição representa o ponto de conexão de provedor na interface de usuário.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you designate multiple callback methods in a provider control, you will have multiple possible connection points to choose from, and when you add the <ph id="ph1">`ConnectionProviderAttribute`</ph> metadata element to each callback method, you should also specify a value for the <ph id="ph2">`id`</ph> parameter, so that each provider connection point has a known, unique identifier.</source>
+          <target state="translated">Se você designar vários métodos de retorno de chamada em um controle de provedor, você terá vários pontos de conexão possíveis para escolher e quando você adiciona o <ph id="ph1">`ConnectionProviderAttribute`</ph> elemento de metadados para cada método de retorno de chamada, você deve especificar um valor para o <ph id="ph2">`id`</ph> parâmetro, para que o ponto de conexão de cada provedor tem um identificador exclusivo conhecido.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name for the provider connection point.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe, especificando um nome de exibição para o ponto de conexão do provedor.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates an instance of the attribute that is used with a method of a Web Parts control acting as a provider.</source>
+          <target state="translated">Este construtor cria uma instância do atributo que é usado com um método de um controle de Web Parts que atua como um provedor.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method becomes the connection point between the provider and the consumer.</source>
+          <target state="translated">Esse método torna-se o ponto de conexão entre o provedor e consumidor.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the way you use this constructor is to declare a <ph id="ph1">`ConnectionProviderAttribute`</ph> metadata element on a method that you want to designate as a callback method in a provider control.</source>
+          <target state="translated">Normalmente, a maneira como você usa este construtor é para declarar um <ph id="ph1">`ConnectionProviderAttribute`</ph> elemento de metadados em um método que você deseja designar como um método de retorno de chamada em um controle de provedor.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the provider connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a provider's connection point in the UI.</source>
+          <target state="translated">O <ph id="ph1">`displayName`</ph> parâmetro é um nome amigável do ponto de conexão de provedor que é usado pelo &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;controle para representar um ponto de conexão do provedor na interface de usuário.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the provider connection point to display in the user interface (UI).</source>
+          <target state="translated">Uma cadeia de caracteres que contém um nome amigável para a conexão do provedor de ponto para exibir na interface do usuário (IU).</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name and an ID for the provider connection point.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe, especificando um nome de exibição e uma ID para o ponto de conexão do provedor.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the provider connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a provider's connection point in the UI.</source>
+          <target state="translated">O <ph id="ph1">`displayName`</ph> parâmetro é um nome amigável do ponto de conexão de provedor que é usado pelo &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;controle para representar um ponto de conexão do provedor na interface de usuário.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`id`</ph> parameter is used to specify the ID for the provider connection point associated with the specific callback method.</source>
+          <target state="translated">O <ph id="ph1">`id`</ph> parâmetro é usado para especificar a ID para o ponto de conexão do provedor associado com o método de retorno de chamada específico.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control can have multiple connection points, but the <ph id="ph1">`id`</ph> for each must be unique.</source>
+          <target state="translated">Um controle pode ter vários pontos de conexão, mas o <ph id="ph1">`id`</ph> para cada um deve ser exclusiva.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, this overload of the constructor is useful if you have multiple callback methods in your provider control.</source>
+          <target state="translated">Portanto, essa sobrecarga de construtor é útil se você tiver vários métodos de retorno de chamada no seu controle de provedor.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the provider connection point to display in the user interface (UI).</source>
+          <target state="translated">Uma cadeia de caracteres que contém um nome amigável para a conexão do provedor de ponto para exibir na interface do usuário (IU).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;, a unique string value assigned to the provider connection point.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;, um valor de cadeia de caracteres exclusiva atribuído ao ponto de conexão de provedor.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;id&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;id&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name and a specific type of connection point object to use for the provider connection point.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe, especificando um nome de exibição e um tipo específico de objeto de ponto de conexão a ser usado para o ponto de conexão do provedor.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the provider connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a provider's connection point in the UI.</source>
+          <target state="translated">O <ph id="ph1">`displayName`</ph> parâmetro é um nome amigável do ponto de conexão de provedor que é usado pelo &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;controle para representar um ponto de conexão do provedor na interface de usuário.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`connectionPointType`</ph> parameter must be a &lt;xref:System.Type&gt; derived from &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;.</source>
+          <target state="translated">O <ph id="ph1">`connectionPointType`</ph> parâmetro deve ser &lt;xref:System.Type&gt;derivado de &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this parameter is specified, the &lt;xref:System.Type&gt; is used to create the connection point instead of the standard &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; class provided with the Web Parts control set.</source>
+          <target state="translated">Se esse parâmetro for especificado, o &lt;xref:System.Type&gt;é usado para criar o ponto de conexão em vez do padrão &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;classe fornecida com o conjunto de controles de Web Parts.&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the provider connection point to display in the user interface (UI).</source>
+          <target state="translated">Uma cadeia de caracteres que contém um nome amigável para a conexão do provedor de ponto para exibir na interface do usuário (IU).</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that derives from <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and that you want to specify as the type of connection point object to use with a specific callback method.</source>
+          <target state="translated">Um &lt;xref:System.Type&gt;que deriva de <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, e que você deseja especificar como o tipo de conexão de ponto de objeto a ser usado com um método de retorno de chamada específico.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph> or<ph id="ph2">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>or<ph id="ph2">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph>não é válido.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name, an ID, and a specific type of connection point object to use for the provider connection point.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe, especificando um nome de exibição, uma ID e um tipo específico de objeto de ponto de conexão a ser usado para o ponto de conexão do provedor.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the provider connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a provider's connection point in the UI.</source>
+          <target state="translated">O <ph id="ph1">`displayName`</ph> parâmetro é um nome amigável do ponto de conexão de provedor que é usado pelo &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;controle para representar um ponto de conexão do provedor na interface de usuário.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`id`</ph> parameter is used to specify the ID for the provider connection point associated with the specific callback method.</source>
+          <target state="translated">O <ph id="ph1">`id`</ph> parâmetro é usado para especificar a ID para o ponto de conexão do provedor associado com o método de retorno de chamada específico.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control can have multiple connection points, but the <ph id="ph1">`id`</ph> for each must be unique.</source>
+          <target state="translated">Um controle pode ter vários pontos de conexão, mas o <ph id="ph1">`id`</ph> para cada um deve ser exclusiva.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, this overload of the constructor is useful if you have multiple callback methods in your provider control.</source>
+          <target state="translated">Portanto, essa sobrecarga de construtor é útil se você tiver vários métodos de retorno de chamada no seu controle de provedor.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`connectionPointType`</ph> parameter must be a &lt;xref:System.Type&gt; derived from &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;.</source>
+          <target state="translated">O <ph id="ph1">`connectionPointType`</ph> parâmetro deve ser &lt;xref:System.Type&gt;derivado de &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this parameter is specified, the &lt;xref:System.Type&gt; is used to create the connection point instead of the standard &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; class provided with the Web Parts control set.</source>
+          <target state="translated">Se esse parâmetro for especificado, o &lt;xref:System.Type&gt;é usado para criar o ponto de conexão em vez do padrão &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;classe fornecida com o conjunto de controles de Web Parts.&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the provider connection point to display in the user interface (UI).</source>
+          <target state="translated">Uma cadeia de caracteres que contém um nome amigável para a conexão do provedor de ponto para exibir na interface do usuário (IU).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;, a unique string value assigned to the provider connection point.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;, um valor de cadeia de caracteres exclusiva atribuído ao ponto de conexão de provedor.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that derives from <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProviderConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and that you want to specify as the type of connection point object to use with a specific callback method.</source>
+          <target state="translated">Um &lt;xref:System.Type&gt;que deriva de <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProviderConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, e que você deseja especificar como o tipo de conexão de ponto de objeto a ser usado com um método de retorno de chamada específico.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;id, &lt;/code&gt;</ph>or<ph id="ph3">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;id, &lt;/code&gt;</ph>or<ph id="ph3">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph>não é válido.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the connection point allows multiple connections.</source>
+          <target state="translated">Obtém ou define um valor que indica se o ponto de conexão permite várias conexões.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Provider connection points can connect to multiple consumers by default, and this property on the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; attribute is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Pontos de conexão do provedor podem se conectar a vários consumidores por padrão e essa propriedade no &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;atributo é definido como <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the connection point accepts multiple connections; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o ponto de conexão aceitar várias conexões; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets the type of the connection point associated with a provider control.</source>
+          <target state="translated">Obtém o tipo de ponto de conexão associado a um controle de provedor.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property returns the &lt;xref:System.Type&gt; of the provider connection point.</source>
+          <target state="translated">Essa propriedade retorna o &lt;xref:System.Type&gt;do ponto de conexão de provedor.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Type&gt; must derive from &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;, and when you declare the <ph id="ph1">`connectionPointType`</ph> parameter with a <ph id="ph2">`ConnectionProviderAttribute`</ph> metadata element on a callback method, an instance of the type you declare is used to create a connection point instead of the standard &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; class.</source>
+          <target state="translated">O &lt;xref:System.Type&gt;deve derivar de &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;, e quando você declara o <ph id="ph1">`connectionPointType`</ph> parâmetro com um <ph id="ph2">`ConnectionProviderAttribute`</ph> elemento de metadados em um método de retorno de chamada, uma instância do tipo declarado é usado para criar um ponto de conexão em vez do padrão &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;classe&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that indicates the type of the connection point.</source>
+          <target state="translated">Um &lt;xref:System.Type&gt;que indica o tipo de ponto de conexão.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An invalid connection point type (one that does not derive from the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProviderConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class) was used.</source>
+          <target state="translated">Um tipo de ponto de conexão inválido (que não derivam de <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProviderConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe) foi usado.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the friendly name of the provider connection point.</source>
+          <target state="translated">Obtém o nome amigável do ponto de conexão de provedor.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is the friendly name of a provider connection point.</source>
+          <target state="translated">Essa propriedade é o nome amigável de um ponto de conexão do provedor.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Its value can be set declaratively, when you add the <ph id="ph1">`displayName`</ph> parameter to a <ph id="ph2">`ConnectionProviderAttribute`</ph> metadata element on a callback method.</source>
+          <target state="translated">Seu valor pode ser definido declarativamente, quando você adiciona o <ph id="ph1">`displayName`</ph> parâmetro para um <ph id="ph2">`ConnectionProviderAttribute`</ph> elemento de metadados em um método de retorno de chamada.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can also be set programmatically by a derived class, by using the protected &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayNameValue%2A&gt; property.</source>
+          <target state="translated">Ele também pode ser definido programaticamente por uma classe derivada, usando o protegido &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayNameValue%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayNameValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are searching through a connection point collection, you should use the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt; property, because the ID property must be unique, but the DisplayName property need not be.</source>
+          <target state="translated">Quando você estiver procurando por meio de uma coleção de ponto de conexão, você deve usar o &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt;propriedade, porque a propriedade de ID deve ser exclusiva, mas não precisa ser a propriedade DisplayName.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.ID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DisplayName property of a provider connection point is displayed to users when a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control is on the page, the connection user interface (UI) is open, and the users are in a view where they are allowed to select connection points to establish a connection.</source>
+          <target state="translated">A propriedade DisplayName de um ponto de conexão do provedor é exibida aos usuários quando um &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;controle está na página, a interface de usuário (UI) conexão está aberta e os usuários estão em uma exibição em que eles têm permissão para selecionar pontos de conexão para estabelecer uma conexão.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A string containing a friendly display name for the provider connection point.</source>
+          <target state="translated">Uma cadeia de caracteres que contém um nome para exibição amigável para o ponto de conexão do provedor.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string used as the value of the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt; property, for use in localization scenarios.</source>
+          <target state="translated">Obtém ou define a cadeia de caracteres usada como o valor de &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt;propriedade, para uso em cenários de localização.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This extra property exists so that you can derive from &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; and provide a localized version.</source>
+          <target state="translated">Essa propriedade extra existe para que você pode derivar de &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;e fornecer uma versão localizada.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived localizable &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; attribute will maintain a private Boolean field to indicate whether it has been localized.</source>
+          <target state="translated">Derivada localizável &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;atributo manterá um campo particular booliano para indicar se ele foi localizado.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On the first access to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; property, it will look up the localized string, and then use the DisplayNameValue property to assign the localized value to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; property.</source>
+          <target state="translated">No primeiro acesso para o &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;propriedade, ele procura a cadeia de caracteres localizada e, em seguida, use a propriedade DisplayNameValue para atribuir o valor localizado para o &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A string that is used as the value of &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt;.</source>
+          <target state="translated">Uma cadeia de caracteres que é usada como o valor de &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName*&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets a string that represents the unique identity of the provider connection point object.</source>
+          <target state="translated">Obtém uma cadeia de caracteres que representa a identidade exclusiva do objeto de ponto de conexão do provedor.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If searching through a connection point collection, you should use the ID property to locate a particular connection point.</source>
+          <target state="translated">Se a pesquisa por meio de uma coleção de ponto de conexão, você deve usar a propriedade ID para localizar um ponto de conexão específico.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property can be used to distinguish between two connection points of the same name.</source>
+          <target state="translated">Essa propriedade pode ser usada para distinguir entre dois pontos de conexão de mesmo nome.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Provider connection points can have the same &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt; property value, but the ID property must be different.</source>
+          <target state="translated">Pontos de conexão do provedor podem ter o mesmo &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;o valor da propriedade, mas a propriedade de ID deve ser diferentes.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The unique ID assigned to the provider connection point.</source>
+          <target state="translated">A ID exclusiva atribuída ao ponto de conexão de provedor.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The default value is &lt;xref:System.String&gt;.</source>
+          <target state="translated">O valor padrão é &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

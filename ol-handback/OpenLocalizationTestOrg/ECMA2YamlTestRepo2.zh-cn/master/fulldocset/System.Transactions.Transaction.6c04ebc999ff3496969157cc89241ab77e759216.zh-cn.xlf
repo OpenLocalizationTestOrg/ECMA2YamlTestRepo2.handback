@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ced48c8d5d0f7dd424160950e131c9d580b5721</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.Transaction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3c285e915fc187ed624a06c0e008febeb252ef2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5cf89252844805604385470e7e18ee37838defc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a transaction.</source>
+          <target state="translated">表示的事务。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Transactions&gt; namespace provides both an explicit programming model based on the Transaction class, as well as an implicit programming model using the &lt;xref:System.Transactions.TransactionScope&gt; class, in which transactions are automatically managed by the infrastructure.</source>
+          <target state="translated">&lt;xref:System.Transactions&gt;命名空间提供这两个显式编程模型基于事务类，以及隐式编程模型使用&lt;xref:System.Transactions.TransactionScope&gt;类，在其中事务自动管理基础结构。&lt;/xref:System.Transactions.TransactionScope&gt; &lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It is highly recommended that you use the easier implicit model for development.</source>
+          <target state="translated">强烈建议你将用于开发变得更容易隐式的模型。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To get started, please see the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">若要开始，请参阅<bpt id="p1">[</bpt>实现隐式事务使用事务范围<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept>主题。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information on writing a transactional application, see <bpt id="p1">[</bpt>Writing A Transactional Application<ept id="p1">](http://msdn.microsoft.com/en-us/4a7cc4d1-0891-4605-941f-a933b9ce5bc8)</ept>.</source>
+          <target state="translated">编写事务应用程序的详细信息，请参阅<bpt id="p1">[</bpt>编写一个事务应用程序<ept id="p1">](http://msdn.microsoft.com/en-us/4a7cc4d1-0891-4605-941f-a933b9ce5bc8)</ept>。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Transaction class contains methods used by developers implementing resource managers for enlistment.</source>
+          <target state="translated">事务类包含由开发人员实现登记的资源管理器使用的方法。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It also provides functionalities for cloning a transaction and controlling the current transaction context.</source>
+          <target state="translated">它还提供有关克隆事务和控制的当前事务上下文的功能。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can obtain the current transaction, if one is set, using the static &lt;xref:System.Transactions.Transaction.Current%2A&gt; property.</source>
+          <target state="translated">你可以获取当前事务中，如果已设置，使用静态&lt;xref:System.Transactions.Transaction.Current%2A&gt;属性。&lt;/xref:System.Transactions.Transaction.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Creates a clone of the transaction.</source>
+          <target state="translated">创建事务的克隆。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Clones are created to pass transactions.</source>
+          <target state="translated">创建克隆以传递的事务。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, you might not want to pass a &lt;xref:System.Transactions.CommittableTransaction&gt; to other applications, because you do not want others to commit your transaction.</source>
+          <target state="translated">例如，你可能不想要将传递&lt;xref:System.Transactions.CommittableTransaction&gt;对其他应用程序，因为您不希望其他人提交您的事务。&lt;/xref:System.Transactions.CommittableTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you try to marshal or serialize a transaction, a clone is created for you automatically.</source>
+          <target state="translated">如果你尝试封送或序列化事务，克隆为你自动创建。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a copy of the current transaction object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它是当前的事务对象的副本。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Gets or sets the ambient transaction.</source>
+          <target state="translated">获取或设置环境事务。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information on ambient transactions, please see the "Managing transaction flow using TransactionScopeOption" section of the <bpt id="p1">[</bpt>Implementing an Implicit Transaction using Transaction Scope<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> topic.</source>
+          <target state="translated">有关环境事务的详细信息，请参阅的"管理使用 TransactionScopeOption 的事务流"部分<bpt id="p1">[</bpt>实现使用事务范围的隐式事务<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>主题。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Although you can set the ambient transaction using this property, you should use the &lt;xref:System.Transactions.TransactionScope&gt; object to manipulate the ambient transaction whenever possible.</source>
+          <target state="translated">尽管你可以设置使用此属性的环境事务，应使用&lt;xref:System.Transactions.TransactionScope&gt;对象操作环境事务尽可能。&lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This property is thread static.</source>
+          <target state="translated">此属性是静态的线程。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you change the ambient transaction using this property inside a &lt;xref:System.Transactions.TransactionScope&gt; an &lt;xref:System.InvalidOperationException&gt; is thrown when &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; is called, and the previous ambient transaction value is restored.</source>
+          <target state="translated">如果你更改使用此属性内的环境事务&lt;xref:System.Transactions.TransactionScope&gt;&lt;xref:System.InvalidOperationException&gt;时，将引发&lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;调用时，也可以还原以前的环境事务值。&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt; &lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the current transaction.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>说明当前事务。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Creates a dependent clone of the transaction.</source>
+          <target state="translated">创建事务的依赖克隆。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A dependent transaction is a transaction whose outcome depends on the outcome of the transaction from which it was cloned.</source>
+          <target state="translated">依赖的事务是其结果取决于从中克隆了事务的结果的事务。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`cloneoption`</ph> parameter controls what kind of dependent transaction to create.</source>
+          <target state="translated"><ph id="ph1">`cloneoption`</ph>参数控制要创建的依赖事务哪种类型。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If a dependent transaction is created with &lt;xref:System.Transactions.DependentCloneOption&gt;, it blocks the commit process of the transaction until the transaction times out, or &lt;xref:System.Transactions.DependentTransaction.Complete%2A&gt; is called on the &lt;xref:System.Transactions.DependentTransaction&gt;.</source>
+          <target state="translated">如果使用&lt;xref:System.Transactions.DependentCloneOption&gt;、 阻止，直到事务超时的事务或&lt;xref:System.Transactions.DependentTransaction.Complete%2A&gt;&lt;xref:System.Transactions.DependentTransaction&gt;.&lt;/xref:System.Transactions.DependentTransaction&gt;上调用&lt;/xref:System.Transactions.DependentTransaction.Complete%2A&gt;的提交过程&lt;/xref:System.Transactions.DependentCloneOption&gt;会创建一个依赖的事务</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If it is created with &lt;xref:System.Transactions.DependentCloneOption&gt;, it automatically aborts the transaction if &lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt; is called before &lt;xref:System.Transactions.DependentTransaction.Complete%2A&gt; is called on the &lt;xref:System.Transactions.DependentTransaction&gt;.</source>
+          <target state="translated">如果使用创建&lt;xref:System.Transactions.DependentCloneOption&gt;，它会自动中止事务如果&lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt;&lt;xref:System.Transactions.DependentTransaction.Complete%2A&gt;&lt;xref:System.Transactions.DependentTransaction&gt;。&lt;/xref:System.Transactions.DependentTransaction&gt;调用&lt;/xref:System.Transactions.DependentTransaction.Complete%2A&gt;之前调用&lt;/xref:System.Transactions.CommittableTransaction.Commit%2A&gt;&lt;/xref:System.Transactions.DependentCloneOption&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.DependentCloneOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that controls what kind of dependent transaction to create.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.DependentCloneOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>控制依赖的事务，若要创建哪种类型。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.DependentTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the dependent clone.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.DependentTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示依赖克隆。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Releases the resources that are held by the object.</source>
+          <target state="translated">释放由对象拥有的资源。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you change the ambient transaction by setting &lt;xref:System.Transactions.Transaction.Current%2A&gt; inside a &lt;xref:System.Transactions.TransactionScope&gt; an &lt;xref:System.InvalidOperationException&gt; is thrown when &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; is called, and the previous ambient transaction value is restored.</source>
+          <target state="translated">如果你通过设置更改的环境事务&lt;xref:System.Transactions.Transaction.Current%2A&gt;内&lt;xref:System.Transactions.TransactionScope&gt;&lt;xref:System.InvalidOperationException&gt;时，将引发&lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;调用时，也可以还原以前的环境事务值。&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt; &lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Transactions.TransactionScope&gt; &lt;/xref:System.Transactions.Transaction.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Enlists a durable resource manager that supports two phase commit to participate in a transaction.</source>
+          <target state="translated">登记在事务中支持两阶段提交参与持久资源管理器。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Resource managers with a durable enlistment must be able to perform recovery if they experience a failure.</source>
+          <target state="translated">与持久登记的资源管理器必须能够执行恢复，如果在遇到失败。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">有关恢复的详细信息，请参阅<bpt id="p1">[</bpt>执行恢复<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information on volatile and durable resources, as well as how to enlist a resource, see <bpt id="p1">[</bpt>Implementing A Resource Manager<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>.</source>
+          <target state="translated">易失性和持久的资源，以及如何登记资源的详细信息，请参阅<bpt id="p1">[</bpt>实现资源管理器<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information on how a resource manager responds to commit notification and prepare the commit in two-phase commit, see <bpt id="p1">[</bpt>Committing A Transaction In Single-Phase and Multi-Phase<ept id="p1">](http://msdn.microsoft.com/en-us/74b3cfe1-d33a-45b8-91f4-dfd6f6598c4d)</ept>.</source>
+          <target state="translated">有关资源管理器提交通知并准备在两阶段提交的提交的响应方式的详细信息，请参阅<bpt id="p1">[</bpt>中 Single-Phase 提交事务和多个阶段<ept id="p1">](http://msdn.microsoft.com/en-us/74b3cfe1-d33a-45b8-91f4-dfd6f6598c4d)</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Resource managers enlisted for participation in a transaction through this method receive two phase commit notifications that correspond to the methods defined on the &lt;xref:System.Transactions.IEnlistmentNotification&gt; interface.</source>
+          <target state="translated">通过此方法参与在事务中登记的资源管理器接收对应于上定义的方法的两阶段提交通知&lt;xref:System.Transactions.IEnlistmentNotification&gt;接口。&lt;/xref:System.Transactions.IEnlistmentNotification&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A unique identifier for a resource manager, which should persist across resource manager failure or reboot.</source>
+          <target state="translated">资源管理器，它应保留在资源管理器发生故障或重新启动一个唯一标识符。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface to receive two phase commit notifications.</source>
+          <target state="translated">实现的对象<bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接口接收两阶段提交通知。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resource manager wants to perform additional work during the prepare phase.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果资源管理器想要执行的准备阶段的其他工作。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述登记的对象。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Enlists a durable resource manager that supports single phase commit optimization to participate in a transaction.</source>
+          <target state="translated">登记在事务中支持单阶段提交优化，以参与持久性资源管理器。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Resource managers with a durable enlistment must be able to perform recovery if they experience a failure.</source>
+          <target state="translated">与持久登记的资源管理器必须能够执行恢复，如果在遇到失败。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">有关恢复的详细信息，请参阅<bpt id="p1">[</bpt>执行恢复<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information on volatile and durable resources, as well as how to enlist a resource, see <bpt id="p1">[</bpt>Implementing A Resource Manager<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>.</source>
+          <target state="translated">易失性和持久的资源，以及如何登记资源的详细信息，请参阅<bpt id="p1">[</bpt>实现资源管理器<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You should note that even when your resource manager implementation enlists with this method, it is not guaranteed that it receives a single phase commit.</source>
+          <target state="translated">你应注意，即使资源管理器实现登记使用此方法，也不能保证它将接收的单阶段提交。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The transaction manager can still send two phase commit notifications instead.</source>
+          <target state="translated">事务管理器仍可以改为发送两阶段提交通知。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information on the single phase commit optimization, see <bpt id="p1">[</bpt>Optimization Using Single Phase Commit and Promotable Single Phase Notification<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>.</source>
+          <target state="translated">有关单阶段提交优化的详细信息，请参阅<bpt id="p1">[</bpt>优化使用单个阶段提交和可提升的单阶段通知<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A unique identifier for a resource manager, which should persist across resource manager failure or reboot.</source>
+          <target state="translated">资源管理器，它应保留在资源管理器发生故障或重新启动一个唯一标识符。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Transactions.ISinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface that must be able to receive single phase commit and two phase commit notifications.</source>
+          <target state="translated">实现的对象<bpt id="p1">&lt;xref href="System.Transactions.ISinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>必须能够接收的单阶段提交和两阶段提交通知的接口。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resource manager wants to perform additional work during the prepare phase.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果资源管理器想要执行的准备阶段的其他工作。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述登记的对象。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Enlists a resource manager that has an internal transaction using a promotable single phase enlistment (PSPE).</source>
+          <target state="translated">登记该资源管理器具有使用可提升的单阶段登记 (PSPE) 的内部事务。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Enlistments in a transaction are volatile; that is, they do not survive the failure of the participant.</source>
+          <target state="translated">在事务中的登记是易失性;也就是说，它们不会保留参与者的失败。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In addition, this method only suggests the transaction manager to escalate control, but the escalation itself is not guaranteed.</source>
+          <target state="translated">此外，此方法仅建议事务管理器，提升控件，但不是保证升级本身。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If escalation fails, the user is not notified and the transaction is rolled back.</source>
+          <target state="translated">如果升级失败，则不通知用户，并回滚事务。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The parameter <ph id="ph1">`promotableSinglePhaseNotification`</ph> is used to communicate to the transaction manager the outcome of attempting to commit the resource manager's internal transaction.</source>
+          <target state="translated">参数<ph id="ph1">`promotableSinglePhaseNotification`</ph>用于传达给事务管理器尝试提交资源管理器的内部事务的结果。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If inconsistent data is reported, the transaction manager throws an exception.</source>
+          <target state="translated">如果报告数据不一致，事务管理器将引发异常。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If an &lt;xref:System.Transactions.TransactionStatus&gt; outcome is reported, the transaction manager looks for the outcome notification in its own internal enlistment and ignores the reported response.</source>
+          <target state="translated">如果&lt;xref:System.Transactions.TransactionStatus&gt;报告结果、 事务管理器查找结果中的通知其自身内部的登记，并忽略报告的响应。&lt;/xref:System.Transactions.TransactionStatus&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For more information on enlistments and escalation of a transaction, please see <bpt id="p1">[</bpt>Transaction Management Escalation<ept id="p1">](http://msdn.microsoft.com/en-us/5b87ae58-8ccf-4b9b-9715-41e4aade89b7)</ept>.</source>
+          <target state="translated">有关登记和升级的事务的详细信息，请参阅<bpt id="p1">[</bpt>事务管理升级<ept id="p1">](http://msdn.microsoft.com/en-us/5b87ae58-8ccf-4b9b-9715-41e4aade89b7)</ept>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For more information on PSPE, see <bpt id="p1">[</bpt>Optimization Using Single Phase Commit and Promotable Single Phase Notification<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>.</source>
+          <target state="translated">PSPE 的详细信息，请参阅<bpt id="p1">[</bpt>优化使用单阶段提交和可提升单个阶段通知<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>请注意<ept id="p1">**</ept>此方法使用&lt;xref:System.Security.Permissions.SecurityAction&gt;，防止它不受信任的代码中调用; 但是，仅限直接调用方需要拥有<ph id="ph1">`FullTrust`</ph>权限集。&lt;/xref:System.Security.Permissions.SecurityAction&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface implemented by the participant.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>由参与者实现的接口。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface implementation that describes the enlistment.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>接口描述登记的实现。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Enlists a resource manager that has an internal transaction using a promotable single phase enlistment (PSPE).</source>
+          <target state="translated">登记该资源管理器具有使用可提升的单阶段登记 (PSPE) 的内部事务。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If the value specified for the <ph id="ph1">`promoterType`</ph> parameter is <ph id="ph2">`TransactionInterop.PromoterTypeDtc`</ph>, the transaction <bpt id="p1">**</bpt>must<ept id="p1">**</ept> be promoted by MSDTC and the <ph id="ph3">`byte[]`</ph> returned from the <ph id="ph4">`IPromotableSinglePhaseNotification.Promote`</ph> method <bpt id="p2">**</bpt>must<ept id="p2">**</ept> be an MSDTC transaction propagation token.</source>
+          <target state="translated">如果指定的值<ph id="ph1">`promoterType`</ph>参数是<ph id="ph2">`TransactionInterop.PromoterTypeDtc`</ph>，事务<bpt id="p1">**</bpt>必须<ept id="p1">**</ept>msdtc 提升和<ph id="ph3">`byte[]`</ph>从返回<ph id="ph4">`IPromotableSinglePhaseNotification.Promote`</ph>方法<bpt id="p2">**</bpt>必须<ept id="p2">**</ept>是 MSDTC 事务传播标记。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If the value specified for the <ph id="ph1">`promoterType`</ph> parameter is <bpt id="p1">**</bpt>not<ept id="p1">**</ept><ph id="ph2">`TransactionInterop.PromoterTypeDTC`</ph>, the transaction will not be promoted by MSDTC, but rather by the caller’s implementation of <ph id="ph3">`IPromotableSinglePhaseNotification`</ph>.</source>
+          <target state="translated">如果指定的值<ph id="ph1">`promoterType`</ph>参数是<bpt id="p1">**</bpt>不<ept id="p1">**</ept><ph id="ph2">`TransactionInterop.PromoterTypeDTC`</ph>，msdtc，而是由调用方的实现，事务将不会提升<ph id="ph3">`IPromotableSinglePhaseNotification`</ph>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If this call is successful, there is a set of subsequent operations on the transaction that will return a <ph id="ph1">`TransactionPromotionException`</ph>.</source>
+          <target state="translated">如果此调用是成功，则将返回对事务的后续操作的一组<ph id="ph1">`TransactionPromotionException`</ph>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>These operations are:      -   <ph id="ph1">`Transaction.EnlistDurable`</ph><ph id="ph2">      -   </ph><ph id="ph3">`TransactionInterop.GetDtcTransaction`</ph><ph id="ph4">      -   </ph><ph id="ph5">`TransactionInterop.GetExportCookie`</ph><ph id="ph6">      -   </ph><ph id="ph7">`TransctionInterop.GetTransmitterPropagationToken`</ph>      -   Serialization of a Transaction object</source>
+          <target state="translated">这些操作是:- <ph id="ph1">`Transaction.EnlistDurable`</ph> <ph id="ph2">      -   </ph> <ph id="ph3">`TransactionInterop.GetDtcTransaction`</ph> <ph id="ph4">      -   </ph> <ph id="ph5">`TransactionInterop.GetExportCookie`</ph> <ph id="ph6">      -   </ph> <ph id="ph7">`TransctionInterop.GetTransmitterPropagationToken`</ph> -的事务对象的序列化</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface implemented by the participant.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>由参与者实现的接口。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The type of the distributed transaction processor.</source>
+          <target state="translated">分布式的事务处理器的类型。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface implementation that describes the enlistment.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>接口描述登记的实现。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Enlists a volatile resource manager that supports two phase commit to participate in a transaction.</source>
+          <target state="translated">登记在事务中支持两阶段提交参与易失性资源管理器。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Volatile resource managers cannot recovery from failure to complete a transaction in which they were participating.</source>
+          <target state="translated">易失性资源管理器无法从完成它们已参与一个事务的故障中恢复。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To obtain a durable enlistment in a transaction, use the &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; method.</source>
+          <target state="translated">若要获取的持久登记在事务中，使用&lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;方法。&lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Resource managers enlisted for participation in a transaction through this method receive two phase commit notifications that correspond to the methods defined on the &lt;xref:System.Transactions.IEnlistmentNotification&gt; interface.</source>
+          <target state="translated">通过此方法参与在事务中登记的资源管理器接收对应于上定义的方法的两阶段提交通知&lt;xref:System.Transactions.IEnlistmentNotification&gt;接口。&lt;/xref:System.Transactions.IEnlistmentNotification&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface to receive two-phase commit notifications.</source>
+          <target state="translated">实现的对象<bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接口来接收两阶段提交通知。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resource manager wants to perform additional work during the prepare phase.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果资源管理器想要执行的准备阶段的其他工作。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述登记的对象。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Enlists a volatile resource manager that supports single phase commit optimization to participate in a transaction.</source>
+          <target state="translated">登记在事务中支持单阶段提交优化，以参与易失性资源管理器。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Volatile resource managers cannot recovery from failure to complete a transaction in which they were participating.</source>
+          <target state="translated">易失性资源管理器无法从完成它们已参与一个事务的故障中恢复。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To obtain a durable enlistment in a transaction, use the &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; method.</source>
+          <target state="translated">若要获取的持久登记在事务中，使用&lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;方法。&lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information on volatile and durable resources, as well as how to enlist a resource, see <bpt id="p1">[</bpt>Implementing A Resource Manager<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>.</source>
+          <target state="translated">易失性和持久的资源，以及如何登记资源的详细信息，请参阅<bpt id="p1">[</bpt>实现资源管理器<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For more information on how a resource manager responds to commit notification and prepare the commit, see <bpt id="p1">[</bpt>Committing A Transaction In Single-Phase and Multi-Phase<ept id="p1">](http://msdn.microsoft.com/en-us/74b3cfe1-d33a-45b8-91f4-dfd6f6598c4d)</ept>.</source>
+          <target state="translated">有关资源管理器以提交通知并准备提交的响应方式的详细信息，请参阅<bpt id="p1">[</bpt>中 Single-Phase 提交事务和多个阶段<ept id="p1">](http://msdn.microsoft.com/en-us/74b3cfe1-d33a-45b8-91f4-dfd6f6598c4d)</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You should note that even when your resource manager implementation enlists with this method, it is not guaranteed that it receives a single phase commit.</source>
+          <target state="translated">你应注意，即使资源管理器实现登记使用此方法，也不能保证它将接收的单阶段提交。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The transaction manager can still send two phase commit notifications instead.</source>
+          <target state="translated">事务管理器仍可以改为发送两阶段提交通知。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For more information on the single phase commit optimization, see <bpt id="p1">[</bpt>Optimization Using Single Phase Commit and Promotable Single Phase Notification<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>.</source>
+          <target state="translated">有关单阶段提交优化的详细信息，请参阅<bpt id="p1">[</bpt>优化使用单个阶段提交和可提升的单阶段通知<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Transactions.ISinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface that must be able to receive single phase commit and two phase commit notifications.</source>
+          <target state="translated">实现的对象<bpt id="p1">&lt;xref href="System.Transactions.ISinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>必须能够接收的单阶段提交和两阶段提交通知的接口。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resource manager wants to perform additional work during the prepare phase.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果资源管理器想要执行的准备阶段的其他工作。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述登记的对象。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Determines whether this transaction and the specified object are equal.</source>
+          <target state="translated">确定此事务和指定的对象是否相等。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The object to compare with this instance.</source>
+          <target state="translated">要与此实例进行比较的对象。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p2">&lt;/code&gt;</ept> and this transaction are identical; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p2">&lt;/code&gt;</ept>与此事务完全相同; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Returns the hash code for this instance.</source>
+          <target state="translated">返回此实例的哈希代码。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A 32-bit signed integer hash code.</source>
+          <target state="translated">32 位有符号的整数哈希代码。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets the  <ph id="ph1">`byte[]`</ph> returned by the <ph id="ph2">`Promote`</ph> method when the transaction is promoted.</source>
+          <target state="translated">获取<ph id="ph1">`byte[]`</ph>返回<ph id="ph2">`Promote`</ph>方法提升事务时。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This method has the side effect of causing promotion of the transaction if it is not already promoted.</source>
+          <target state="translated">此方法具有副作用，即如果未提升导致了事务提升。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The format of the returned <ph id="ph1">`byte[]`</ph> is defined by the value of the <ph id="ph2">`Transation.PromoterType`</ph> property.</source>
+          <target state="translated">返回格式<ph id="ph1">`byte[]`</ph>的值定义为<ph id="ph2">`Transation.PromoterType`</ph>属性。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If the value of the <ph id="ph1">`Transaction.PromoterType`</ph> property is <ph id="ph2">`TransactionInterop.PromoterTypeDtc`</ph> or <ph id="ph3">`Guid.Empty`</ph>, then the <ph id="ph4">`byte[]`</ph> returned by this method is an MSDTC transmitter propagation token.</source>
+          <target state="translated">如果值<ph id="ph1">`Transaction.PromoterType`</ph>属性是<ph id="ph2">`TransactionInterop.PromoterTypeDtc`</ph>或<ph id="ph3">`Guid.Empty`</ph>，则<ph id="ph4">`byte[]`</ph>此方法返回的是 MSDTC 传输程序传播标记。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Any other value for the <ph id="ph1">`Transaction.PromoterType`</ph> property specifies a format that is defined by the caller of <ph id="ph2">`Transaction.EnlistPromotableSinglePhase`</ph> that specified the property type value.</source>
+          <target state="translated">任何其他值<ph id="ph1">`Transaction.PromoterType`</ph>属性指定的调用方定义的格式<ph id="ph2">`Transaction.EnlistPromotableSinglePhase`</ph>指定属性类型值。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>In order to interpret the promoted token in this latter case, you will need to consult the documentation for the code that made the <ph id="ph1">`EnlistPromotableSinglePhase`</ph> call.</source>
+          <target state="translated">若要解释与提升令牌在此后一种情况下，你将需要查看文档所做的代码，以<ph id="ph1">`EnlistPromotableSinglePhase`</ph>调用。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The  <ph id="ph1">`byte[]`</ph> returned by the <ph id="ph2">`Promote`</ph> method when the transaction is promoted.</source>
+          <target state="translated"><ph id="ph1">`byte[]`</ph>返回<ph id="ph2">`Promote`</ph>方法提升事务时。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets the isolation level of the transaction.</source>
+          <target state="translated">获取事务的隔离级别。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The isolation level of a transaction determines what level of access other transactions have to volatile data before a transaction completes.</source>
+          <target state="translated">事务的隔离级别确定的其他事务可以之前事务的易失性数据的访问级别完成。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For more information about isolation levels, see the documentation for the &lt;xref:System.Transactions.IsolationLevel&gt; enumeration.</source>
+          <target state="translated">有关隔离级别的详细信息，请参阅的文档&lt;xref:System.Transactions.IsolationLevel&gt;枚举。&lt;/xref:System.Transactions.IsolationLevel&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Transactions.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates the isolation level of the transaction.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Transactions.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，该值指示事务的隔离级别。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Tests whether two specified <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances are equivalent.</source>
+          <target state="translated">测试两个指定<bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实例是否相等。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that is to the left of the equality operator.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>相等运算符左侧的实例。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that is to the right of the equality operator.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>相等运算符右侧的实例。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">x</ph><ept id="p2">&lt;/code&gt;</ept> and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">y</ph><ept id="p3">&lt;/code&gt;</ept> are equal; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">x</ph><ept id="p2">&lt;/code&gt;</ept> and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">y</ph><ept id="p3">&lt;/code&gt;</ept> are equal; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether two <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances are not equal.</source>
+          <target state="translated">返回一个值，该值指示两个<bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实例是否不相等。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that is to the left of the inequality operator.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>不等运算符左侧的实例。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that is to the right of the inequality operator.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>不等运算符右侧的实例。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">x</ph><ept id="p2">&lt;/code&gt;</ept> and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">y</ph><ept id="p3">&lt;/code&gt;</ept> are not equal; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">x</ph><ept id="p2">&lt;/code&gt;</ept> and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">y</ph><ept id="p3">&lt;/code&gt;</ept> are not equal; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.2 and later versions]       Promotes and enlists a durable resource manager that supports two phase commit to participate in a transaction.</source>
+          <target state="translated">[在.NET Framework 4.5.2 及更高版本中受支持]      提升和登记在事务中支持两阶段提交参与持久的资源管理器。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A unique identifier for a resource manager, which should persist across resource manager failure or reboot.</source>
+          <target state="translated">资源管理器，它应保留在资源管理器发生故障或重新启动一个唯一标识符。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An object that acts as a commit delegate for a non-distributed transaction internal to a resource manager.</source>
+          <target state="translated">一个充当非分布式事务资源管理器的内部提交委托的对象。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface to receive two phase commit notifications.</source>
+          <target state="translated">实现的对象<bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接口接收两阶段提交通知。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resource manager wants to perform additional work during the prepare phase.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果资源管理器想要执行的准备阶段的其他工作。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.2 and later versions]       Promotes and enlists a durable resource manager that supports two phase commit to participate in a transaction.</source>
+          <target state="translated">[在.NET Framework 4.5.2 及更高版本中受支持]      提升和登记在事务中支持两阶段提交参与持久的资源管理器。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Uniquely identifies the format of the <ph id="ph1">`byte[]`</ph> returned by the Promote method when the transaction is promoted.</source>
+          <target state="translated">格式进行唯一标识<ph id="ph1">`byte[]`</ph>提升事务时由 Promote 方法返回。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If the transaction has not yet been promoted and does not yet have a promotable single phase enlistment, the value of this property will be <ph id="ph1">`Guid.Empty`</ph>.</source>
+          <target state="translated">如果事务尚未升级，并且尚不具有可提升的单阶段登记，此属性的值将<ph id="ph1">`Guid.Empty`</ph>。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If the transaction has been or will be promoted to MSDTC, then the value of this property will be <ph id="ph1">`TransactionInterop.PromoterTypeDtc`</ph>.</source>
+          <target state="translated">如果事务已被或将提升为 MSDTC，则此属性的值将<ph id="ph1">`TransactionInterop.PromoterTypeDtc`</ph>。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If the transaction has been or will be promoted by a non-MSDTC promoter, the value of this property will be the value specified to an earlier call to <ph id="ph1">`Transaction.EnlistPromotableSinglePhase`</ph>.</source>
+          <target state="translated">如果事务已被，或将由非 MSDTC 提升程序提升，此属性的值将为以前调用指定的值<ph id="ph1">`Transaction.EnlistPromotableSinglePhase`</ph>。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A guid that uniquely identifies the format of the <ph id="ph1">`byte[]`</ph> returned by the Promote method when the transaction is promoted.</source>
+          <target state="translated">格式进行唯一标识的 guid<ph id="ph1">`byte[]`</ph>提升事务时由 Promote 方法返回。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Rolls back (aborts) the transaction.</source>
+          <target state="translated">回滚 （中止） 事务。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Any copy of a transaction object can initiate the rollback of the transaction by calling this method.</source>
+          <target state="translated">事务对象的任何副本可以通过调用此方法启动事务的回滚。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Only the original transaction object, which is a &lt;xref:System.Transactions.CommittableTransaction&gt; object, can be used to initiate an attempt to commit the transaction.</source>
+          <target state="translated">仅原始事务对象，它是&lt;xref:System.Transactions.CommittableTransaction&gt;对象，可以用来启动尝试提交事务。&lt;/xref:System.Transactions.CommittableTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>An exception is thrown when this method is called after the outcome of the transaction has already been determined.</source>
+          <target state="translated">已确定事务的结果后调用此方法时，将引发异常。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Rolls back (aborts) the transaction.</source>
+          <target state="translated">回滚 （中止） 事务。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An explanation of why a rollback occurred.</source>
+          <target state="translated">回滚的发生原因的说明。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Sets the distributed transaction identifier generated by the non-MSDTC promoter.</source>
+          <target state="translated">设置由非 MSDTC 提升程序生成的分布式的事务标识符。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This method can only be called successfully while the <ph id="ph1">`IPromotableSinglePhaseNotification.Promote`</ph> method is being processed.</source>
+          <target state="translated">仅成功调用此方法时<ph id="ph1">`IPromotableSinglePhaseNotification.Promote`</ph>正在处理方法。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If this method is called at any other time, a <ph id="ph1">`TransactionException`</ph> is thrown.</source>
+          <target state="translated">如果在其他任何时间，调用此方法<ph id="ph1">`TransactionException`</ph>引发。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The specified value of the <ph id="ph1">`promotableNotification`</ph> parameter must be the same object that was originally specified to the <ph id="ph2">`Transaction.EnlistPromotableSinglePhase`</ph> invocation.</source>
+          <target state="translated">指定的值<ph id="ph1">`promotableNotification`</ph>参数必须是到最初指定的相同对象<ph id="ph2">`Transaction.EnlistPromotableSinglePhase`</ph>调用。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If this is not the case, then an <ph id="ph1">`InvalidOperationException`</ph> is thrown.</source>
+          <target state="translated">如果这不是这种情况，则<ph id="ph1">`InvalidOperationException`</ph>引发。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface implemented by the participant.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>由参与者实现的接口。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The identifier for the transaction used by the distributed transaction manager.</source>
+          <target state="translated">使用分布式的事务管理器的事务标识符。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the data required to serialize this transaction.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>序列化此事务所需的数据。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to populate with data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要填充数据。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The destination (see &lt;xref:System.Runtime.Serialization.StreamingContext&gt; ) for this serialization.</source>
+          <target state="translated">目标 (请参阅&lt;xref:System.Runtime.Serialization.StreamingContext&gt;) 此序列化。&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Indicates that the transaction is completed.</source>
+          <target state="translated">指示事务完成。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>You can register for this event instead of using a volatile enlistment to get outcome information for transactions.</source>
+          <target state="translated">你可以注册此事件而不是使用可变参与者获取事务的结果信息。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The parameter passed to the &lt;xref:System.Transactions.TransactionCompletedEventHandler&gt; delegate is a &lt;xref:System.Transactions.Transaction&gt; instance.</source>
+          <target state="translated">参数传递给&lt;xref:System.Transactions.TransactionCompletedEventHandler&gt;委托是&lt;xref:System.Transactions.Transaction&gt;实例。&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions.TransactionCompletedEventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>You can then query the &lt;xref:System.Transactions.Transaction.TransactionInformation%2A&gt; property of the specific instance to get an instance of &lt;xref:System.Transactions.TransactionInformation&gt;, whose &lt;xref:System.Transactions.TransactionInformation.Status%2A&gt; property contains the status of a transaction with either the &lt;xref:System.Transactions.TransactionStatus&gt; or &lt;xref:System.Transactions.TransactionStatus&gt; value.</source>
+          <target state="translated">然后，可以查询&lt;xref:System.Transactions.Transaction.TransactionInformation%2A&gt;要获取其实例的特定实例的属性&lt;xref:System.Transactions.TransactionInformation&gt;、 其&lt;xref:System.Transactions.TransactionInformation.Status%2A&gt;属性包含使用事务的状态&lt;xref:System.Transactions.TransactionStatus&gt;或&lt;xref:System.Transactions.TransactionStatus&gt;值。&lt;/xref:System.Transactions.TransactionStatus&gt; &lt;/xref:System.Transactions.TransactionStatus&gt; &lt;/xref:System.Transactions.TransactionInformation.Status%2A&gt; &lt;/xref:System.Transactions.TransactionInformation&gt; &lt;/xref:System.Transactions.Transaction.TransactionInformation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Caution<ept id="p1">**</ept> Signing up for this event negatively affects the performance of the transaction it is attached to.</source>
+          <target state="translated"><bpt id="p1">**</bpt>警告︰<ept id="p1">**</ept>对注册此事件造成负面影响的事务将其附加到的性能。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>An attempt to subscribe this event on a transaction that has been disposed.</source>
+          <target state="translated">尝试订阅此事件对已释放的事务。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Retrieves additional information about a transaction.</source>
+          <target state="translated">检索有关事务的其他信息。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.TransactionInformation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains additional information about the transaction.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.TransactionInformation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，包含有关事务的其他信息。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
