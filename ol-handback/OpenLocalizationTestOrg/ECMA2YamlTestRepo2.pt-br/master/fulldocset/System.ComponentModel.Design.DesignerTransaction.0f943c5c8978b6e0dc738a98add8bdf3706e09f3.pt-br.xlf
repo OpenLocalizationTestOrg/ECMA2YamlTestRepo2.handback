@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">08a0c21b43d81b7ec0fa14c20c194ee5330ec10a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.DesignerTransaction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">df38f201380cb67bce8d1e5cf5a69542b2ad063b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6048d255421b46381c032019ed37779ba8a27805</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a way to group a series of design-time actions to improve performance and enable most types of changes to be undone.</source>
+          <target state="translated">Fornece uma maneira de agrupar uma série de ações de tempo de design para melhorar o desempenho e habilitar a maioria dos tipos de alterações a serem desfeitas.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Transactions can track actions that can be undone later.</source>
+          <target state="translated">Transações podem controlar as ações que podem ser desfeitas mais tarde.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changes made during a transaction can be reversed by canceling a transaction, which automatically attempts to reverse each change by setting each changed property to its pre-change value.</source>
+          <target state="translated">As alterações feitas durante uma transação podem ser revertidas, cancelando uma transação, que tenta automaticamente reverter cada alteração definindo cada propriedade alterada para seu valor anterior ao alterar.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Transactions can also improve performance during a series of operations by deferring updates to the display until the completion of the transaction.</source>
+          <target state="translated">As transações também podem melhorar o desempenho durante uma série de operações, adiando atualizações para a tela até a conclusão da transação.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a transaction is in progress, some components defer their processing until the transaction has completed by listening to the &lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionOpening&gt; and &lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionClosed&gt; events.</source>
+          <target state="translated">Quando uma transação está em andamento, alguns componentes adiar o processamento até que a transação foi concluída por causa do &lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionOpening&gt;e &lt;xref:System.ComponentModel.Design.IDesignerHost.TransactionClosed&gt;eventos.&lt;/xref:System.ComponentModel.Design.IDesignerHost.TransactionClosed&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost.TransactionOpening&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Properties window, for example, does not update its display after a transaction has opened until the transaction has closed.</source>
+          <target state="translated">A janela Propriedades, por exemplo, não atualize sua exibição após abrir uma transação até que a transação foi fechada.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use transactions for reversible or multiple operations, have your designer create a DesignerTransaction for each operation or series of operations which should be reversible.</source>
+          <target state="translated">Para usar transações reversível ou várias operações, tem seu designer de criar um DesignerTransaction para cada operação ou uma série de operações que devem ser reversíveis.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Be careful not to perform actions outside the transactions that might prevent a sequence of undo events from completing successfully.</source>
+          <target state="translated">Tenha cuidado para não executar ações fora as transações que podem impedir que uma sequência de eventos de desfazer concluída com êxito.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can obtain a new DesignerTransaction by calling the &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt; method of an &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;.</source>
+          <target state="translated">Você pode obter um novo DesignerTransaction chamando o &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;método de &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Be sure to obtain each DesignerTransaction from the active &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; in order to correctly integrate with the designer transaction processing mechanism, rather than creating a new DesignerTransaction directly.</source>
+          <target state="translated">Certifique-se de obter cada DesignerTransaction do ativo &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;para integrar corretamente com a transação de designer mecanismo de processamento, em vez de criar um novo DesignerTransaction diretamente.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To perform an action within a transaction, you must first create a transaction.</source>
+          <target state="translated">Para executar uma ação em uma transação, você deve primeiro criar uma transação.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then you must call the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt; method before each change or set of changes occurs, and the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; method after each change or set of changes occur.</source>
+          <target state="translated">Em seguida, você deve chamar o &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;método antes de cada alteração ou um conjunto de alterações e o &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt;método depois de cada alteração ou um conjunto de alterações ocorrem.&lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Finally, complete and close the transaction by calling the &lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt; method.</source>
+          <target state="translated">Finalmente, conclua e feche a transação chamando o &lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;método.&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When making changes to property values, use the &lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A&gt; method of a &lt;xref:System.ComponentModel.PropertyDescriptor&gt;, which calls the component change methods of the &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt; and creates a DesignerTransaction representing the change automatically.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ao fazer alterações em valores de propriedade, use o &lt;xref:System.ComponentModel.PropertyDescriptor.SetValue%2A&gt;método de um &lt;xref:System.ComponentModel.PropertyDescriptor&gt;, que chama os métodos de alteração de componente do &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;e cria um DesignerTransaction que representa a alteração automaticamente.&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.PropertyDescriptor&gt; &lt;/xref:System.ComponentModel.PropertyDescriptor.SetValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To perform a transaction, complete the following steps:      1.</source>
+          <target state="translated">Para executar uma transação, conclua as seguintes etapas: 1.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt; to obtain a DesignerTransaction that can be used to control the transaction.</source>
+          <target state="translated">Chamar &lt;xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;para obter um DesignerTransaction que pode ser usada para controlar a transação.&lt;/xref:System.ComponentModel.Design.IDesignerHost.CreateTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within a <ph id="ph1">`try`</ph> block, for each action that you want to track with a DesignerTransaction, call the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt; method, make the change or changes, then call the &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; method to signal that the change or changes have been made.</source>
+          <target state="translated">Dentro de um <ph id="ph1">`try`</ph> bloco, para cada ação que você deseja controlar com um DesignerTransaction, chamada a &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;método, verifique a alteração ou as alterações, em seguida, chamar o &lt;xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt;método para sinalizar que a alteração ou as alterações foram feitas.&lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanged%2A&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService.OnComponentChanging%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To complete the transaction, call &lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt; from within a <ph id="ph1">`finally`</ph> block.</source>
+          <target state="translated">Para concluir a transação, chame &lt;xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;de dentro um <ph id="ph1">`finally`</ph> bloco.&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In C#, you can use the <ph id="ph1">`using`</ph> statement rather than a <ph id="ph2">`try/finally`</ph> block, such as in the following example.</source>
+          <target state="translated">No c#, você pode usar o <ph id="ph1">`using`</ph> instrução em vez de <ph id="ph2">`try/finally`</ph> bloquear, como o exemplo a seguir.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   using (host.CreateTransaction() {   // Insert your code here.   }   ```</ph>       To cancel and attempt to roll back a transaction before it has been committed, call the &lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt; method.</source>
+          <target state="translated"><ph id="ph1">```   using (host.CreateTransaction() {   // Insert your code here.   }   ```</ph>Para cancelar e tentar reverter uma transação antes de ser confirmada, chame o &lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;método.&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt; method is invoked, the actions tracked by the DesignerTransaction are reversed to attempt to roll back the changes.</source>
+          <target state="translated">Quando o &lt;xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;método é chamado, as ações controladas pelo DesignerTransaction são revertidas para tentar reverter as alterações.&lt;/xref:System.ComponentModel.Design.DesignerTransaction.Cancel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To undo actions that occurred as part of earlier transactions, you must use the undo command provided by the development environment.</source>
+          <target state="translated">Para desfazer as ações que ocorreram como parte de transações anteriores, você deve usar o comando Desfazer fornecido pelo ambiente de desenvolvimento.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with no description.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe sem descrição.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified transaction description.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe usando a descrição da transação especificada.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes the transaction with the specified description.</source>
+          <target state="translated">Este construtor inicializa a transação com a descrição especificada.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A description for this transaction.</source>
+          <target state="translated">Uma descrição para esta transação.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Cancels the transaction and attempts to roll back the changes made by the events of the transaction.</source>
+          <target state="translated">Cancela a transação e tentativas de reverter as alterações feitas pelos eventos da transação.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the transaction was canceled.</source>
+          <target state="translated">Obtém um valor que indica se a transação foi cancelada.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer transaction is canceled, the transaction processing mechanism attempts to roll back the changes that have been made so far in the transaction.</source>
+          <target state="translated">Quando uma transação de designer for cancelada, o mecanismo de processamento de transação tentativas de reverter as alterações feitas até o momento em que a transação.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Whether this succeeds is dependent upon such factors as the type of each operation, whether other operations interfered with any of the involved code's state, and whether a sequence of expected operations failed to complete.</source>
+          <target state="translated">Se isso for bem-sucedida é dependente de fatores como o tipo de cada operação, se outras operações interferir com qualquer estado do código envolvido e se uma sequência de operações esperadas Falha ao concluir.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the transaction was canceled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a transação foi cancelada; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Commits this transaction.</source>
+          <target state="translated">Confirma a transação.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer transaction is committed, the transaction is considered complete and does not track further changes.</source>
+          <target state="translated">Quando uma transação de designer é confirmada, a transação é considerada concluída e controlar ainda mais as alterações.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once a transaction has been committed, further calls to this method do nothing.</source>
+          <target state="translated">Depois que uma transação foi confirmada, mais chamadas para esse método não faça nada.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Always call this method after creating a transaction to ensure that the transaction closes properly.</source>
+          <target state="translated">Sempre chame este método depois de criar uma transação para garantir que a transação foi fechado corretamente.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the transaction was committed.</source>
+          <target state="translated">Obtém um valor que indica se a transação foi confirmada.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer transaction is committed, the transaction is considered complete and does not track further changes.</source>
+          <target state="translated">Quando uma transação de designer é confirmada, a transação é considerada concluída e controlar ainda mais as alterações.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the transaction was committed; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a transação foi confirmada. Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets a description for the transaction.</source>
+          <target state="translated">Obtém uma descrição para a transação.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A transaction can have a description that is useful in identifying the nature of the operation or operations.</source>
+          <target state="translated">Uma transação pode ter uma descrição que é útil para identificar a natureza da operação ou operações.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A description for the transaction.</source>
+          <target state="translated">Uma descrição para a transação.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Libera os recursos não gerenciados usados pelo <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> e, opcionalmente, libera os recursos gerenciados.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Este método é chamado pelo público <ph id="ph1">`Dispose()`</ph> método e o &lt;xref:System.Object.Finalize%2A&gt;método.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>invoca o protegido <ph id="ph2">`Dispose(Boolean)`</ph> método com o <ph id="ph3">`disposing`</ph> parâmetro definido como <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;invoca <ph id="ph1">`Dispose`</ph> com <ph id="ph2">`disposing`</ph> definido como <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.DesignerTransaction&gt; references.</source>
+          <target state="translated">Quando o <ph id="ph1">`disposing`</ph> parâmetro é <ph id="ph2">`true`</ph>, esse método libera todos os recursos mantidos por qualquer objeto gerenciado que este &lt;xref:System.ComponentModel.Design.DesignerTransaction&gt;referências.&lt;/xref:System.ComponentModel.Design.DesignerTransaction&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Este método chama o <ph id="ph1">`Dispose()`</ph> método de cada objeto referenciado.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para liberar recursos gerenciados e não gerenciados; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para liberar apenas recursos não gerenciados.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Releases the resources associated with this object.</source>
+          <target state="translated">Libera os recursos associados a esse objeto.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>This override commits this transaction if it was not already committed.</source>
+          <target state="translated">Essa substituição é confirma a transação se ele já não foi confirmado.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt; and cleans up resources by calling <ph id="ph1">`Dispose(false)`</ph>.</source>
+          <target state="translated">Esse método substitui &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;e limpa os recursos chamando <ph id="ph1">`Dispose(false)`</ph>.&lt;/xref:System.Object.Finalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override <ph id="ph1">`Dispose(Boolean)`</ph> to customize the cleanup.</source>
+          <target state="translated">Substituir <ph id="ph1">`Dispose(Boolean)`</ph> para personalizar a limpeza.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Application code should not call this method; an object's <ph id="ph1">`Finalize`</ph> method is automatically invoked during garbage collection, unless finalization by the garbage collector has been disabled by a call to the &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Código do aplicativo não deve chamar esse método; um objeto <ph id="ph1">`Finalize`</ph> método é invocado automaticamente durante a coleta de lixo, a menos que a finalização pelo coletor de lixo foi desabilitada por uma chamada para o &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;método.&lt;/xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Finalize Methods and Destructors<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>Cleaning Up Unmanaged Resources<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, and <bpt id="p3">[</bpt>Overriding the Finalize Method<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>métodos Finalize e destruidores<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>limpeza de recursos não gerenciados<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, e <bpt id="p3">[</bpt>substituindo o método Finalize<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref uid="langword_csharp_Cancel" name="Cancel" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref uid="langword_csharp_Cancel" name="Cancel" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer transaction is canceled, the transaction processing mechanism attempts to roll back the changes that have been made so far in the transaction.</source>
+          <target state="translated">Quando uma transação de designer for cancelada, o mecanismo de processamento de transação tentativas de reverter as alterações feitas até o momento em que a transação.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Whether this succeeds is dependent upon such factors as the type of each operation, whether other operations interfered with any of the involved code's state, and whether a sequence of expected operations failed to complete.</source>
+          <target state="translated">Se isso for bem-sucedida é dependente de fatores como o tipo de cada operação, se outras operações interferir com qualquer estado do código envolvido e se uma sequência de operações esperadas Falha ao concluir.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Performs the actual work of committing a transaction.</source>
+          <target state="translated">Executa o trabalho real de uma transação de confirmação.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a designer transaction is committed, the transaction is considered complete and does not track further changes.</source>
+          <target state="translated">Quando uma transação de designer é confirmada, a transação é considerada concluída e controlar ainda mais as alterações.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Libera todos os recursos usados pelo <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a transaction is disposed, it is committed.</source>
+          <target state="translated">Quando uma transação é descartada, ele é confirmado.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

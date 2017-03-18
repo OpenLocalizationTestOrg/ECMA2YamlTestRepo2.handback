@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a63dffde58da30dd373afc41d6561add1f0a518f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d90d58a628ae40b474c2516c435e77602e7e6601</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">31a1e27e96590f1860eabcbfbce898be392ecd61</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for a service that will exist as part of a service application.</source>
+          <target state="translated">서비스 응용 프로그램의 일부로 존재 하는 서비스에 대 한 기본 클래스를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ServiceBase must be derived from when creating a new service class.</source>
+          <target state="translated">새 서비스 클래스를 만들 때 ServiceBase에서 파생 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 만듭니다는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not create an instance of the &lt;xref:System.ServiceProcess.ServiceBase&gt; class.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase&gt;클래스&lt;/xref:System.ServiceProcess.ServiceBase&gt; 의 인스턴스를 만들지 마십시오</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, derive from &lt;xref:System.ServiceProcess.ServiceBase&gt; and instantiate your derived class.</source>
+          <target state="translated">대신, &lt;xref:System.ServiceProcess.ServiceBase&gt;하 고 인스턴스화하여 프로그램 파생된 클래스에서&lt;/xref:System.ServiceProcess.ServiceBase&gt; 파생</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The minimum you need to implement in the constructor for a class inherited from &lt;xref:System.ServiceProcess.ServiceBase&gt; is to set the &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt; on your component.</source>
+          <target state="translated">상속 된 클래스에 대 한 생성자에서 구현 해야 하는 최소 &lt;xref:System.ServiceProcess.ServiceBase&gt;설정 하는 것은 &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;구성 요소에.&lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No other processing is specifically required in the constructor.</source>
+          <target state="translated">다른 프로세스가 생성자에 특히 필요 합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should handle most initialization in &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; rather than in the constructor.</source>
+          <target state="translated">대부분의 초기화를 처리 해야 &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;생성자 대신.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, there is no guarantee the objects will be reinitialized when you restart a service after it has been stopped.</source>
+          <target state="translated">그렇지 않으면 보장이 없습니다 개체 중단 된 후에 서비스를 다시 시작 하면 다시 초기화 됩니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you override the constructor in your derived class, call the base class constructor in your code.</source>
+          <target state="translated">파생된 클래스에서 생성자를 재정의 하는 경우 코드에서 기본 클래스 생성자를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceBase&gt; constructor sets &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase&gt;생성자 &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;를 <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not want to automatically log calls to the service from the Service Control Manager (SCM), set &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">서비스 제어 관리자 (SCM)에서 서비스를 호출을 자동으로 로그온 하려면 설정 &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;를 <ph id="ph1">`false`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the executable contains a single service, the system calls the service's constructor when Start is selected from the SCM, and runs the destructor if Stop is called.</source>
+          <target state="translated">단일 서비스를 포함 하는 실행 파일, 시작, SCM에서 선택 된 중지를 호출 하면 소멸자를 실행 하는 경우 시스템에서 서비스의 생성자를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the executable contains multiple services, calling Start on one service causes the constructors to be called for all services in the executable, but only the specified service is started.</source>
+          <target state="translated">여러 서비스를 포함 하는 실행 파일, 생성자가 모든 서비스는 실행 파일에 대해 호출 되 한 서비스에 대해 시작을 호출 하면 하지만 지정된 된 서비스만 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Destructors for the services are run together when all services have been stopped, not individually when each service is stopped.</source>
+          <target state="translated">모든 서비스가 중지 되었으며, 개별적으로 쓰지 않고 각 서비스가 중지 되 면 서비스에 대 한 소멸자는 함께 실행 됩니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you override the base class constructor, you should explicitly call it in the constructor of your derived class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 기본 클래스 생성자를 재정의 해야 명시적으로 호출 하면 파생 된 클래스의 생성자에서 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Indicates whether to report Start, Stop, Pause, and Continue commands in the event log.</source>
+          <target state="translated">시작, 중지, 일시 중지 및 계속 명령을 이벤트 로그에 보고할지 여부를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting AutoLog to <ph id="ph1">`true`</ph> instructs the service to use the Application event log to report command failures, as well as state change information for Start, Stop, Pause, and Continue events on the service.</source>
+          <target state="translated">AutoLog 설정 <ph id="ph1">`true`</ph> 시작, 중지, 일시 중지에 대 한 상태 변경 정보 뿐만 아니라 보고서 명령 오류 응용 프로그램 이벤트 로그를 사용 하 여 서비스에서 이벤트를 계속 하는 서비스에 지시 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name of the service is used as the log's &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">서비스의 이름이 로그의 &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;.&lt;/xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt; 로 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To report information to a custom event log rather than the Application log, set AutoLog to <ph id="ph1">`false`</ph> and write instructions within the command-handling methods &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, or &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; to post to the appropriate log.</source>
+          <target state="translated">응용 프로그램 로그를 사용 하지 않고 사용자 지정 이벤트 로그에 정보를 보고, AutoLog로 설정 하려면 <ph id="ph1">`false`</ph> 명령 처리 방법 내에서 명령을 작성 및 &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, 또는 &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;해당 로그에 게시 하도록&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;, which supplies the source string for the event log, must be set before the service attempts to write to the event log.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;에서 &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;제공 하는 이벤트 로그에 대 한 소스 문자열을 설정 해야 서비스에서 이벤트 로그에 쓰기를 시도 하기 전에&lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Trying to access the event log before the source name is set throws an exception.</source>
+          <target state="translated">소스 이름이 설정 되기 전에 이벤트 로그에 액세스 하는 동안 예외가 throw 됩니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to report information in the event log; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>이벤트 로그에 정보를 보고 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the service can handle notifications of computer power status changes.</source>
+          <target state="translated">서비스 컴퓨터 전원 상태 변경 알림을 처리할 수 있는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the computer power status changes, the Service Control Manager (SCM) verifies whether the service accepts power event commands using the value of CanHandlePowerEvent.</source>
+          <target state="translated">때 컴퓨터 전원 상태 변경 (SCM (서비스 제어 관리자) 여부를 서비스 명령을 허용 확인 전원 이벤트 CanHandlePowerEvent의 값을 사용 하 여 합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If CanHandlePowerEvent is <ph id="ph1">`true`</ph>, the command is passed to the service and the &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt; method is called if defined.</source>
+          <target state="translated">CanHandlePowerEvent 이면 <ph id="ph1">`true`</ph>, 명령이 서비스에 전달 되 고 &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt;정의 된 경우 메서드는.&lt;/xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt; is not implemented in the derived class, the SCM handles the power event through the empty base class &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">경우 &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt;구현 되지 않음 SCM 파생된 클래스에서 빈 기본 클래스를 통해 전원 이벤트를 처리 &lt;xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A?displayProperty=fullName&gt;메서드.&lt;/xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPowerEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service handles the computer power status changes indicated in the <bpt id="p2">&lt;xref href="System.ServiceProcess.PowerBroadcastStatus"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> class, otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>서비스 컴퓨터 전원 상태에 표시 된 변경 내용을 처리 하는 경우는 <bpt id="p2">&lt;xref href="System.ServiceProcess.PowerBroadcastStatus"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 클래스, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>This property is modified after the service was started.</source>
+          <target state="translated">이 속성은 서비스가 시작 된 후 수정 됩니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the service can handle session change events received from a Terminal Server session.</source>
+          <target state="translated">서비스는 터미널 서버 세션에서 받은 세션 변경 이벤트를 처리할 수 있는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can handle Terminal Server session change events; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>서비스에서 터미널 서버 세션 변경 이벤트를 처리할 수 있는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This property is modified after the service was started.</source>
+          <target state="translated">이 속성은 서비스가 시작 된 후 수정 됩니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the service can be paused and resumed.</source>
+          <target state="translated">서비스를 중지 하거나 시작할 수 있는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the value of the CanPauseAndContinue property in the constructor for the service.</source>
+          <target state="translated">서비스에 대 한 생성자에서 CanPauseAndContinue 속성의 값을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a service is paused, it halts what it is doing.</source>
+          <target state="translated">서비스를 일시 중지 하면 무엇이 중단 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you continue the service (either through the Service Control Manager or programmatically), &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; runs.</source>
+          <target state="translated">(서비스 제어 관리자를 통해 프로그래밍 방식으로 또는), 서비스를 계속 하면 &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;실행 합니다.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sending a Pause request to the service can conserve system resources.</source>
+          <target state="translated">서비스를 일시 중지 요청을 보내는 시스템 리소스를 절약할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pause may not release all system resources, but Stop does.</source>
+          <target state="translated">일시 중지는 모든 시스템 리소스를 해제 하지 않을 수 있습니다 하지만 중지 않습니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; and &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; are often implemented to perform less processing than &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; and &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;&lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;종종 &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;및 &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; 보다 덜 처리를 수행 하기 위해 구현&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; 하 고&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When CanPauseAndContinue is <ph id="ph1">`true`</ph>, override &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; and &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; to specify the processing that should occur when the Service Control Manager (SCM) passes a Pause or Continue request to your service.</source>
+          <target state="translated">CanPauseAndContinue 다음과 같은 경우 <ph id="ph1">`true`</ph>, 재정의 &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;및 &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;(SCM (서비스 제어 관리자) 서비스를 일시 중지 또는 Continue 요청을 전달 하는 경우 수행 해야 하는 처리를 지정할 수 있습니다.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; should be implemented to undo the processing in &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;&lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; 처리를 취소 하기 위해 구현 해야&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If CanPauseAndContinue is <ph id="ph1">`false`</ph>, the SCM will not pass Pause or Continue requests to the service, so the &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; and &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; methods will not be called even if they are implemented.</source>
+          <target state="translated">CanPauseAndContinue 이면 <ph id="ph1">`false`</ph>, SCM 일시 중지를 통과 하지 못하는 또는 서비스를 계속 되므로 요청는 &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;및 &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;구현 되는 경우에 메서드가 호출 되지 것입니다.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the SCM, the <ph id="ph1">`Pause`</ph> and <ph id="ph2">`Continue`</ph> controls are disabled when CanPauseAndContinue is <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">SCM에서는 <ph id="ph1">`Pause`</ph> 및 <ph id="ph2">`Continue`</ph> 컨트롤을 사용할 경우 CanPauseAndContinue <ph id="ph3">`false`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be paused; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>서비스를 일시 중지할 수 있고 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The service has already been started.</source>
+          <target state="translated">서비스가 이미 시작 되었습니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The CanPauseAndContinue property cannot be changed once the service has started.</source>
+          <target state="translated">서비스가 시작 되 면 CanPauseAndContinue 속성을 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the service should be notified when the system is shutting down.</source>
+          <target state="translated">시스템이 종료 될 때 서비스 알림을 받을지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If CanShutdown is <ph id="ph1">`true`</ph>, the service is notified when the system is shutting down.</source>
+          <target state="translated">CanShutdown 이면 <ph id="ph1">`true`</ph>, 시스템이 종료 될 때 서비스에 알립니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At shutdown, the &lt;xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt; method is called if it has been implemented in your derived class.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt;프로그램 파생된 클래스에서 구현 하는 경우 메서드는&lt;/xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt; 종료 시</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Only the system should cause the &lt;xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt; method to execute; the service can call it, but this is not recommended.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 시스템만 인해는 &lt;xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt;메서드를 실행 합니다; 서비스를 호출할 수 있지만이 권장 되지 않습니다.&lt;/xref:System.ServiceProcess.ServiceBase.OnShutdown%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service should be notified when the system is shutting down; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>시스템이 종료 될 때;는 서비스가 알림을 받아야 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The service has already been started.</source>
+          <target state="translated">서비스가 이미 시작 되었습니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The CanShutdown property cannot be changed once the service has started.</source>
+          <target state="translated">서비스가 시작 되 면 CanShutdown 속성을 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the service can be stopped once it has started.</source>
+          <target state="translated">이 시작 되 면 서비스를 중지할 수 있는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When Stop is called on a service, the Service Control Manager (SCM) verifies whether the service accepts Stop commands using the value of CanStop.</source>
+          <target state="translated">중지 하는 서비스에서 호출 되 면 서비스 제어 관리자 (SCM) 서비스 중지 명령을 CanStop의 값을 사용 하 여 허용 하는지 여부를 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For most services, the value of CanStop is <ph id="ph1">`true`</ph>, but some operating system services, for example, do not allow the user to stop them.</source>
+          <target state="translated">대부분의 서비스 CanStop의 값은 <ph id="ph1">`true`</ph>, 하지만 일부 운영 체제 서비스의 경우 예를 들어 사용자에 누가 중지할를 허용 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If CanStop is <ph id="ph1">`true`</ph>, the Stop command is passed to the service and the &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; method is called if it is defined.</source>
+          <target state="translated">CanStop 이면 <ph id="ph1">`true`</ph>, Stop 명령이 서비스에 전달 되 고 &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;정의 된 경우 메서드는.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; is not implemented in the derived class, the SCM handles the Stop command through the empty base class &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">경우 &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;빈 기본 클래스를 통해 중지 명령을 SCM 핸들 파생된 클래스에서 구현 되지 않은 &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A?displayProperty=fullName&gt;메서드.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service can be stopped and the &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt; method called; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>서비스를 중지할 수 있습니다 및 &lt;xref:System.ServiceProcess.ServiceBase.OnStop*&gt;메서드 호출 되 고, 그러지 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop*&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The service has already been started.</source>
+          <target state="translated">서비스가 이미 시작 되었습니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The CanStop property cannot be changed once the service has started.</source>
+          <target state="translated">서비스가 시작 된 후에 CanStop 속성을 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Disposes of the resources (other than memory) used by the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">사용 하는 리소스 (메모리 제외) 삭제는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call Dispose in your derived class (and through it, in the &lt;xref:System.ServiceProcess.ServiceBase&gt; class) when you are finished using the derived class.</source>
+          <target state="translated">파생된 클래스에서 Dispose를 호출 (및 통해에 &lt;xref:System.ServiceProcess.ServiceBase&gt;클래스) 파생된 클래스를 사용 하 여 작업을 마쳤으면&lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Dispose method leaves the derived class in an unusable state.</source>
+          <target state="translated">Dispose 메서드는 파생된 클래스 사용할 수 없는 상태로 둡니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling Dispose, you must release all references to the derived class and &lt;xref:System.ServiceProcess.ServiceBase&gt; so the memory they were occupying can be reclaimed by garbage collection.</source>
+          <target state="translated">Dispose를 호출한 후 파생된 클래스에 대 한 모든 참조를 해제 해야 하 고 &lt;xref:System.ServiceProcess.ServiceBase&gt;가비지 수집에 의해 사용 된 메모리를 회수 될 수 있도록 합니다.&lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the class derived from &lt;xref:System.ServiceProcess.ServiceBase&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 항상 &lt;xref:System.ServiceProcess.ServiceBase&gt;.&lt;/xref:System.ServiceProcess.ServiceBase&gt; 에서 파생 클래스에 대 한 마지막 참조를 해제 하기 전에 Dispose를 호출</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources &lt;xref:System.ServiceProcess.ServiceBase&gt; and the derived class are using will not be freed until garbage collection calls the objects' destructors.</source>
+          <target state="translated">그렇지 않으면 리소스 &lt;xref:System.ServiceProcess.ServiceBase&gt;파생된 클래스는 사용 하 고 가비지 수집에서 개체의 소멸자를 호출할 때까지 해제 되지 않습니다.&lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; is often implemented to process the code in &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, combined with a call to Dispose.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;코드를 처리할 주로 구현 되 &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;Dispose 호출 하 여 결합 된.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you choose to do this in your derived class, it is customary to implement &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; to allocate whatever Dispose released.</source>
+          <target state="translated">파생된 클래스에서이 작업을 수행 하려는 경우 구현에 &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;Dispose 출시 무엇이 든 할당할.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>관리 되는 관리 되지 않는 리소스만 해제 하려면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 만 관리 되지 않는 리소스를 해제 합니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets an event log you can use to write notification of service command calls, such as Start and Stop, to the Application event log.</source>
+          <target state="translated">이벤트 로그 서비스 명령 호출 Start 및 Stop의 알림을 응용 프로그램 이벤트 로그에 쓰는 데 사용할 수를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The constructor initializes the EventLog property to an instance with the &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt; and &lt;xref:System.Diagnostics.EventLog.Log%2A?displayProperty=fullName&gt; properties set.</source>
+          <target state="translated">생성자와 함께 인스턴스에 이벤트 로그 속성은 &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;및 &lt;xref:System.Diagnostics.EventLog.Log%2A?displayProperty=fullName&gt;속성 집합입니다.&lt;/xref:System.Diagnostics.EventLog.Log%2A?displayProperty=fullName&gt; &lt;/xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The source is the &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt; of the service, and the log is the computer's Application log.</source>
+          <target state="translated">원본이 &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;서비스의 로그는 컴퓨터의 응용 프로그램 로그와&lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These values are set automatically and cannot be changed for automatic logging of service commands.</source>
+          <target state="translated">이러한 값은 자동으로 설정, 자동 로깅 서비스 명령에 대 한 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; is <ph id="ph1">`true`</ph>, Start, Stop, Pause, Continue, and custom commands are recorded automatically in the Application event log.</source>
+          <target state="translated">때 &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;은 <ph id="ph1">`true`</ph>, 시작, 중지, 일시 중지, 계속 및 사용자 지정 명령을 자동으로 응용 프로그램 이벤트 로그에 기록 됩니다&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the EventLog property to write additional messages to that log as well.</source>
+          <target state="translated">이벤트 로그 속성을 사용 하 여 해당 로그에 추가 메시지를 쓸 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The component calls &lt;xref:System.Diagnostics.EventLog.WriteEntry%2A?displayProperty=fullName&gt; using this EventLog member.</source>
+          <target state="translated">구성 요소 호출 &lt;xref:System.Diagnostics.EventLog.WriteEntry%2A?displayProperty=fullName&gt;이 EventLog 멤버를 사용 하 여.&lt;/xref:System.Diagnostics.EventLog.WriteEntry%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To report information to a custom event log rather than the Application log, set &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; to <ph id="ph1">`false`</ph> and write instructions within the command-handling methods &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, or &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; to post to the appropriate log.</source>
+          <target state="translated">응용 프로그램 로그를 사용 하지 않고 사용자 지정 이벤트 로그에 정보를 보고를 설정 하려면 &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;를 <ph id="ph1">`false`</ph> 명령 처리 방법 내에서 명령을 작성 및 &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, 또는 &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;해당 로그에 게시 하도록&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Diagnostics.EventLog"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance whose source is registered to the Application log.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Diagnostics.EventLog"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 원본 응용 프로그램 로그에 등록 된 인스턴스.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets or sets the exit code for the service.</source>
+          <target state="translated">서비스에 대 한 종료 코드를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the ExitCode property to a non-zero value before stopping the service to indicate an error to the Service Control Manager.</source>
+          <target state="translated">서비스 제어 관리자에는 오류를 표시 하는 서비스를 중지 하기 전에 ExitCode 속성을&amp;0;이 아닌 값을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The exit code for the service.</source>
+          <target state="translated">서비스에 대 한 종료 코드입니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Indicates the maximum size for a service name.</source>
+          <target state="translated">서비스 이름에 대 한 최대 크기를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ServiceName and DisplayName both have size restrictions that must be observed when setting the properties on your service class.</source>
+          <target state="translated">ServiceName 및 DisplayName 둘 다 서비스 클래스에 속성을 설정할 때 따라야 하는 크기 제한입니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, OnContinue runs when a Continue command is sent to the service by the Service Control Manager (SCM).</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우 OnContinue 서비스 제어 관리자 (SCM)는 계속 명령이 서비스에 전달 될 때 실행 됩니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Specifies actions to take when a service resumes normal functioning after being paused.</source>
+          <target state="translated">일반 기능을 일시 중지 하는 서비스를 다시 시작할 때 수행할 동작을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement OnContinue to mirror your application's response to &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; 에 대 한 응용 프로그램의 응답을 미러링 하는 OnContinue 구현</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you continue the service (either through the Services console or programmatically), the OnContinue processing runs, and the service becomes active again.</source>
+          <target state="translated">경우 (또는 서비스 콘솔을 통해 프로그래밍 방식으로), 서비스를 계속 하면 처리가 실행, OnContinue 하 고 서비스를 다시 활성화 됩니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnContinue is expected to be overridden when the &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; property is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">OnContinue 이어야 하는데 경우 재정의 &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;속성은 <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; is <ph id="ph1">`false`</ph>, the SCM will not pass Pause or Continue requests to the service, so the &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; and OnContinue methods will not be called even if they are implemented.</source>
+          <target state="translated">경우 &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;은 <ph id="ph1">`false`</ph>, SCM 일시 중지를 통과 하지 못하는 또는 서비스를 계속 되므로 요청는 &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;구현 되는 경우에 OnContinue 메서드는 호출 되지 않습니다.&lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the SCM, the <ph id="ph1">`Pause`</ph> and <ph id="ph2">`Continue`</ph> controls are disabled when &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; is <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">SCM에서는 <ph id="ph1">`Pause`</ph> 및 <ph id="ph2">`Continue`</ph> 컨트롤을 사용할 때 &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;은 <ph id="ph3">`false`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, OnCustomCommand executes when the Service Control Manager (SCM) passes a custom command to the service.</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우 서비스 제어 관리자 (SCM)는 서비스에 사용자 지정 명령을 전달 하는 경우 OnCustomCommand 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Specifies actions to take when a command with the specified parameter value occurs.</source>
+          <target state="translated">지정 된 매개 변수 값으로 명령을 실행할 때 수행할 동작을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnCustomCommand lets you specify additional functionality beyond starting, stopping, pausing and continuing services.</source>
+          <target state="translated">OnCustomCommand 시작, 중지, 일시 중지 및 지속적인 서비스 외에 추가 기능을 지정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SCM does not examine the custom command to verify whether the service supports the <ph id="ph1">`command`</ph> parameter passed in.</source>
+          <target state="translated">SCM에서 서비스를 지원 하는지 여부를 확인 하는 사용자 지정 명령의 검사 하지 않습니다는 <ph id="ph1">`command`</ph> 매개 변수가 전달 합니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It passes the custom command directly to the service.</source>
+          <target state="translated">서비스에 직접 사용자 지정 명령을 전달합니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service does not recognize the <ph id="ph1">`command`</ph> parameter, it does nothing.</source>
+          <target state="translated">서비스에서 인식 하지는 <ph id="ph1">`command`</ph> 매개 변수는 아무 작업도 수행 합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom commands are raised by an &lt;xref:System.ServiceProcess.ServiceController.ExecuteCommand%2A&gt; statement in a &lt;xref:System.ServiceProcess.ServiceController&gt; component.</source>
+          <target state="translated">사용자 지정 명령에 의해 발생 한 &lt;xref:System.ServiceProcess.ServiceController.ExecuteCommand%2A&gt;의 문에서 &lt;xref:System.ServiceProcess.ServiceController&gt;구성 요소.&lt;/xref:System.ServiceProcess.ServiceController&gt; &lt;/xref:System.ServiceProcess.ServiceController.ExecuteCommand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use a switch statement or if..then condition to handle the custom commands you define on your service.</source>
+          <target state="translated">Switch 문을 사용 하 여 또는 if... 다음 조건을 사용 하 여 서비스에서 정의한 사용자 지정 명령을 처리 하도록 합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only values for a custom command that you can define in your application or use in OnCustomCommand are those between 128 and 255.</source>
+          <target state="translated">응용 프로그램에서 정의 하거나 OnCustomCommand에서 사용할 수 있는 사용자 지정 명령에 대 한 유일한 값은 128-255 사이의 하는 것입니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Integers below 128 correspond to system-reserved values.</source>
+          <target state="translated">128 아래에 정수 시스템 예약 값에 해당합니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; property is <ph id="ph1">`true`</ph>, custom commands, like all other commands, write entries to the event log to report whether the method execution succeeded or failed.</source>
+          <target state="translated">경우는 &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;속성은 <ph id="ph1">`true`</ph>, 다른 모든 명령과 마찬가지로 사용자 지정 명령을 메서드 실행의 성공 여부를 보고 하기 위해 이벤트 로그에 엔트리를 씁니다.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The command message sent to the service.</source>
+          <target state="translated">명령 메시지를 서비스에 전송 합니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, executes when a Pause command is sent to the service by the Service Control Manager (SCM).</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우 서비스 제어 관리자 (SCM)는 일시 중지 명령이 서비스에 전달 될 때 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Specifies actions to take when a service pauses.</source>
+          <target state="translated">서비스가 일시 중지 시 수행할 동작을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use OnPause to specify the processing that occurs when the service receives a Pause command.</source>
+          <target state="translated">OnPause를 사용 하 여 서비스를 일시 중지 명령의 받을 때 발생 하는 처리를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnPause is expected to be overridden when the &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; property is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">OnPause 이어야 하는데 경우 재정의 &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;속성은 <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you continue a paused service (either through the Services console or programmatically), the &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; processing is run, and the service becomes active again.</source>
+          <target state="translated">(또는 서비스 콘솔을 통해 프로그래밍 방식으로), 일시 중지 된 서비스를 계속 하면는 &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;처리는 실행 되 고 서비스를 다시 활성화 됩니다.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Pause command only allows your application to react to a specific event.</source>
+          <target state="translated">일시 중지 명령을 특정 이벤트에 대응 하는 응용 프로그램 허용 됩니다.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnPause does nothing to the service that you do not define it to do.</source>
+          <target state="translated">OnPause 않는 정의 하지 않은 서비스 수는 없습니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sending a Pause request to the service can conserve system resources because Pause need not release all system resources.</source>
+          <target state="translated">서비스를 일시 중지 요청을 보내는 모든 시스템 리소스를 해제 하지 않으므로 때문에 시스템 리소스를 절약할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if threads have been opened by the process, pausing a service rather than stopping it can allow the threads to remain open, obviating the need to reallocate them when the service continues.</source>
+          <target state="translated">예를 들어 스레드는 스레드는 계속 열려를 허용할 수 중지 하지 않고 서비스를 일시 중지, 프로세스에서 열린 경우 있으므로 필요가 없습니다 서비스 계속 될 때 재할당 합니다.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you define Pause to release all system resources, it behaves like a Stop command.</source>
+          <target state="translated">모든 시스템 리소스를 해제 하려면 일시 중지를 정의 하는 경우에 중지 명령이 처럼 동작 합니다.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; to <ph id="ph1">`true`</ph>, and override OnPause and &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; to specify the processing that should occur when the SCM passes a Pause or Continue request to your service.</source>
+          <target state="translated">설정 &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;를 <ph id="ph1">`true`</ph>, OnPause 재정의 및 &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;SCM에서 서비스는 일시 중지 또는 Continue 요청을 전달 하는 경우 수행 해야 하는 처리를 지정 하려면.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; should be implemented to undo the processing in OnPause.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;OnPause의 처리를 취소 하기 위해 구현 해야 합니다.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; is <ph id="ph1">`false`</ph>, the SCM will not pass Pause or Continue requests to the service, so the OnPause and &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; methods will not be called even if implemented.</source>
+          <target state="translated">경우 &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;은 <ph id="ph1">`false`</ph>, SCM 일시 중지를 통과 하지 못하는 또는 계속 요청 서비스를 않으므로 OnPause 및 &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;구현 하는 경우에 메서드가 호출 되지 것입니다.&lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the SCM, the <ph id="ph1">`Pause`</ph> and <ph id="ph2">`Continue`</ph> controls are disabled when &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt; is <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">SCM에서는 <ph id="ph1">`Pause`</ph> 및 <ph id="ph2">`Continue`</ph> 컨트롤을 사용할 때 &lt;xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;은 <ph id="ph3">`false`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanPauseAndContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, executes when the computer's power status has changed.</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우에 컴퓨터의 전원 상태 변경 될 때 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This applies to laptop computers when they go into suspended mode, which is not the same as a system shutdown.</source>
+          <target state="translated">시스템 종료와 같지 않습니다 일시 중단 모드로 이동 하는지를 때 랩톱 컴퓨터에 적용 됩니다.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use OnPowerEvent to specify the processing that occurs when the system event indicated in the &lt;xref:System.ServiceProcess.PowerBroadcastStatus&gt; enumeration occurs--for example, when the computer is placed in suspended mode or indicates low battery power.</source>
+          <target state="translated">OnPowerEvent를 사용 하 여 시스템 이벤트에 표시 된 때 발생 하는 처리를 지정 하는 &lt;xref:System.ServiceProcess.PowerBroadcastStatus&gt;열거형-예를 들어 또는 될 때 발생 하는 컴퓨터 일시 중단 된 모드에 위치한 배터리 전원 부족을 나타냅니다.&lt;/xref:System.ServiceProcess.PowerBroadcastStatus&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnPowerEvent is expected to be overridden when the &lt;xref:System.ServiceProcess.ServiceBase.CanHandlePowerEvent%2A&gt; property is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">OnPowerEvent 이어야 하는데 경우 재정의 &lt;xref:System.ServiceProcess.ServiceBase.CanHandlePowerEvent%2A&gt;속성은 <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanHandlePowerEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceProcess.PowerBroadcastStatus"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates a notification from the system about its power status.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ServiceProcess.PowerBroadcastStatus"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이름과 전원 상태에 대해 시스템에서 알림을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, the needs of your application determine what value to return.</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우 응용 프로그램의 요구를 반환 값이 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>For example, if a <bpt id="p1">&lt;xref uid="langword_csharp_QuerySuspend" name="QuerySuspend" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> broadcast status is passed, you could cause your application to reject the query by returning <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">예를 들어 경우는 <bpt id="p1">&lt;xref uid="langword_csharp_QuerySuspend" name="QuerySuspend" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 브로드캐스트 상태 전달 되며, 응용 프로그램을 반환 하 여 쿼리를 거부 될 수 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Executes when a change event is received from a Terminal Server session.</source>
+          <target state="translated">터미널 서버 세션에서 변경 이벤트를 받으면 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must set the &lt;xref:System.ServiceProcess.ServiceBase.CanHandleSessionChangeEvent%2A&gt; property to <ph id="ph1">`true`</ph> to enable the execution of this method.</source>
+          <target state="translated">설정 해야 합니다는 &lt;xref:System.ServiceProcess.ServiceBase.CanHandleSessionChangeEvent%2A&gt;속성을 <ph id="ph1">`true`</ph> 이 메서드를 실행할 수 있게 합니다.&lt;/xref:System.ServiceProcess.ServiceBase.CanHandleSessionChangeEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>A structure that identifies the change type.</source>
+          <target state="translated">변경 유형을 식별 하는 구조입니다.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, executes when the system is shutting down.</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우에 시스템이 종료 될 때 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies what should occur immediately prior to the system shutting down.</source>
+          <target state="translated">시스템 종료 하기 직전에 발생 하는 것을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use OnShutdown to specify the processing that occurs when the system shuts down.</source>
+          <target state="translated">OnShutdown를 사용 하 여 시스템이 종료 될 때 발생 하는 처리를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event occurs only when the operating system is shut down, not when the computer is turned off.</source>
+          <target state="translated">이 이벤트는 운영 체제 종료 되는 컴퓨터를 끄면 때가 아닌 경우에 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnShutdown is expected to be overridden when the &lt;xref:System.ServiceProcess.ServiceBase.CanShutdown%2A&gt; property is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">OnShutdown 이어야 하는데 경우 재정의 &lt;xref:System.ServiceProcess.ServiceBase.CanShutdown%2A&gt;속성은 <ph id="ph1">`true`</ph>.&lt;/xref:System.ServiceProcess.ServiceBase.CanShutdown%2A&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, executes when a Start command is sent to the service by the Service Control Manager (SCM) or when the operating system starts (for a service that starts automatically).</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우에 시작 명령이 전송 되는 서비스에 서비스 제어 관리자 (SCM) 또는 (자동으로 시작 하는 서비스)에 대 한 운영 체제가 시작 될 때 때 실행 됩니다.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Specifies actions to take when the service starts.</source>
+          <target state="translated">서비스가 시작 될 때 수행할 동작을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Data passed by the start command.</source>
+          <target state="translated">시작 명령에 의해 전달 되는 데이터입니다.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, executes when a Stop command is sent to the service by the Service Control Manager (SCM).</source>
+          <target state="translated">파생된 클래스에서 구현 된 경우에 중지 명령이를 보낼 때 서비스 서비스 제어 관리자 (SCM)를 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Specifies actions to take when a service stops running.</source>
+          <target state="translated">서비스 실행이 중지 시 수행할 동작을 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use OnStop to specify the processing that occurs when the service receives a Stop command.</source>
+          <target state="translated">OnStop를 사용 하 여 서비스가 중지 명령의 받을 때 발생 하는 처리를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the SCM receives a Stop command, it uses the value of &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt; to verify whether the service accepts Stop commands.</source>
+          <target state="translated">값을 사용 하 여 SCM 중지 명령을 받으면 &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;서비스 중지 명령을 허용 여부를 확인 하려면.&lt;/xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt; is <ph id="ph1">`true`</ph>, the Stop command is passed to the service, and the OnStop method is called if it is defined.</source>
+          <target state="translated">경우 &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;은 <ph id="ph1">`true`</ph>중지 명령을 서비스에 전달 되 고 정의 된 경우 OnStop 메서드가 호출 됩니다.&lt;/xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If OnStop is not implemented in the service, the SCM handles the Stop command.</source>
+          <target state="translated">OnStop 서비스에서 구현 되지 않은 경우 SCM 중지 명령을 처리 합니다.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt; is <ph id="ph1">`false`</ph>, the SCM ignores the Stop command.</source>
+          <target state="translated">경우 &lt;xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;은 <ph id="ph1">`false`</ph>, SCM 중지 명령을 무시 합니다.&lt;/xref:System.ServiceProcess.ServiceBase.CanStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not passed to the service.</source>
+          <target state="translated">서비스에 전달 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Stop command returns and throws an exception.</source>
+          <target state="translated">중지 명령이 반환 하 고 예외를 throw 합니다.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnStop is expected to be overridden in the derived class.</source>
+          <target state="translated">OnStop 파생된 클래스에서 재정의 될 예정입니다.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the service to be useful, &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; and OnStop should both be implemented in your service class.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;OnStop 모두에서 구현 하는 서비스 클래스 및&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; 유용 하 게 서비스에 대 한</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Requests additional time for a pending operation.</source>
+          <target state="translated">보류 중인 작업에 대 한 추가 시간을 요청 합니다.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RequestAdditionalTime method is intended to be called by the overridden &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;, or &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; methods to request additional time for a pending operation, to prevent the Service Control Manager (SCM) from marking the service as not responding.</source>
+          <target state="translated">RequestAdditionalTime 메서드를 호출할 수의 재정의 된 &lt;xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt;, &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;, 또는 &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;메서드 (SCM (서비스 제어 관리자)가 응답 하지 않음으로 서비스를 표시 하지 않도록 하려면의 보류 중인 작업에 대 한 추가 시간을 요청 합니다.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnPause%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.OnContinue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pending operation is not a continue, pause, start, or stop, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">보류 중인 작업이 없는 경우 계속 하기, 일시 중지, 시작 또는 중지 된 &lt;xref:System.InvalidOperationException&gt;throw 됩니다.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The requested time in milliseconds.</source>
+          <target state="translated">요청 된 시간 (밀리초)입니다.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The service is not in a pending state.</source>
+          <target state="translated">서비스 보류 중 상태에 없는 경우</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Registers the executable for a service with the Service Control Manager (SCM).</source>
+          <target state="translated">서비스 제어 관리자 (SCM)와 서비스에 대 한 실행 파일을 등록 합니다.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this overload in the <ph id="ph1">`main()`</ph> function of the service executable to register the service with the Service Control Manager.</source>
+          <target state="translated">이 오버 로드를 호출의 <ph id="ph1">`main()`</ph> 서비스 서비스 제어 관리자에 등록 하려면 실행 하는 서비스의 기능입니다.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you call Run, the Service Control Manager issues a Start command, which results in a call to the &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; method in the service.</source>
+          <target state="translated">서비스 제어 관리자에 대 한 호출에서 발생 하는 시작 명령이 실행을 호출한 후의 &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;서비스에서 메서드.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service is not started until the Start command is executed.</source>
+          <target state="translated">시작 명령이 실행 될 때까지 서비스가 시작 되지 않았습니다.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Run method is called in much the same way as &lt;xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt; for Windows Forms applications.</source>
+          <target state="translated">Run 메서드가 거의 동일한 방법으로 라고 &lt;xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt;Windows Forms 응용 프로그램에 대 한.&lt;/xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; is <ph id="ph1">`true`</ph>, an entry is written to the event log if the service specified by the <ph id="ph2">`service`</ph> parameter fails to start.</source>
+          <target state="translated">경우 &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;은 <ph id="ph1">`true`</ph>, 서비스 변수로 지정 된 항목이 이벤트 로그에 기록 됩니다는 <ph id="ph2">`service`</ph> 매개 변수 시작 되지 않습니다.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> which indicates a service to start.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 시작할 서비스를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;service&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;service&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Registers the executable for multiple services with the Service Control Manager (SCM).</source>
+          <target state="translated">서비스 제어 관리자 (SCM)에 있는 여러 서비스에 대 한 실행 파일을 등록 합니다.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this overload in the <ph id="ph1">`main()`</ph> function of the service executable to register the services with the Service Control Manager.</source>
+          <target state="translated">이 오버 로드를 호출의 <ph id="ph1">`main()`</ph> 실행 서비스 서비스 제어 관리자에 등록 하는 서비스의 기능입니다.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you call Run, the Service Control Manager issues Start commands, which result in calls to the &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt; methods in the services.</source>
+          <target state="translated">서비스 제어 관리자가 호출 됩니다는 시작 명령을 실행을 호출한 후의 &lt;xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;서비스의 메서드.&lt;/xref:System.ServiceProcess.ServiceBase.OnStart%2A&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The services are not started until the Start commands are executed.</source>
+          <target state="translated">서비스 시작 명령이 실행 될 때까지 시작 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Run method is called in much the same way as the &lt;xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt; method for Windows Forms applications.</source>
+          <target state="translated">실행 메서드가 거의 동일한 방법으로 &lt;xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt;Windows Forms 응용 프로그램에 대 한 메서드.&lt;/xref:System.Windows.Forms.Application.Run%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt; is <ph id="ph1">`true`</ph>, an entry is written to the event log if any service in the array fails to start.</source>
+          <target state="translated">경우 &lt;xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;은 <ph id="ph1">`true`</ph>, 항목이 배열에 있는 모든 서비스가 시작 되지 않을 경우 이벤트 로그에 기록 됩니다.&lt;/xref:System.ServiceProcess.ServiceBase.AutoLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An array of ServiceBase instances, which indicate services to start.</source>
+          <target state="translated">서비스의 시작을 나타내는 ServiceBase 인스턴스의 배열입니다.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>You did not supply a service to start.</source>
+          <target state="translated">시작할 서비스를 제공 하지 않았습니다.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The array might be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or empty.</source>
+          <target state="translated">배열일 수 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이거나 비어 있습니다.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Gets the service control handle for the service.</source>
+          <target state="translated">서비스에 대 한 서비스 컨트롤 핸들을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The service control handle is used to communicate with the Service Control Manager (SCM).</source>
+          <target state="translated">서비스 컨트롤 핸들은 서비스 제어 관리자 (SCM)와 통신 하는 데 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The handle can be used to update the service control manager's status information for the calling service using the unmanaged <ph id="ph1">`SetServiceStatus`</ph> function.</source>
+          <target state="translated">사용 하 여 관리 되지 않는 호출 서비스에 대 한 서비스 제어 관리자의 상태 정보를 업데이트 하는 핸들을 사용할 수 있습니다 <ph id="ph1">`SetServiceStatus`</ph> 함수입니다.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; structure that contains the service control handle for the service.</source>
+          <target state="translated">&lt;xref:System.IntPtr&gt;서비스에 대 한 서비스 컨트롤 핸들을 포함 하는 구조입니다.&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Registers the command handler and starts the service.</source>
+          <target state="translated">명령 처리기를 등록 하 고 서비스를 시작 합니다.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The number of arguments in the argument array.</source>
+          <target state="translated">인수 배열에 있는 인수의 수입니다.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; structure that points to an array of arguments.</source>
+          <target state="translated">&lt;xref:System.IntPtr&gt;인수 배열을를 가리키는 구조체입니다.&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Gets or sets the short name used to identify the service to the system.</source>
+          <target state="translated">시스템에 서비스를 식별 하는 데 약식 이름을 설정 하거나 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceName identifies the service to the Service Control Manager.</source>
+          <target state="translated">ServiceName 서비스의 서비스 제어 관리자를 식별합니다.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property must be identical to the name recorded for the service in the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A?displayProperty=fullName&gt; property of the corresponding installer class.</source>
+          <target state="translated">이 속성의 값을 &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A?displayProperty=fullName&gt;해당 설치 관리자 클래스의 속성&lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A?displayProperty=fullName&gt; 에 대 한 서비스에 대 한 기록 된 이름과 동일 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In code, the ServiceName of the service is usually set in the <ph id="ph1">`main()`</ph> function of the executable.</source>
+          <target state="translated">코드에서 서비스의 ServiceName은 일반적으로 설정는 <ph id="ph1">`main()`</ph> 실행 파일의 함수입니다.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceName is also used to specify the &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt; associated with the &lt;xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt; property.</source>
+          <target state="translated">ServiceName 지정 하는 또한는 &lt;xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;연관는 &lt;xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt;속성.&lt;/xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt; &lt;/xref:System.Diagnostics.EventLog.Source%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This &lt;xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt; is an instance that writes service command information to the Application log.</source>
+          <target state="translated">이 &lt;xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt;명령은 정보를 서비스 응용 프로그램 로그에 쓰는 인스턴스는&lt;/xref:System.ServiceProcess.ServiceBase.EventLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceName, which supplies the source string for the event log, must be set before the service writes to the event log.</source>
+          <target state="translated">이 이벤트 로그에 대 한 소스 문자열을 제공, ServiceName 서비스 이벤트 로그에 기록 되기 전에 설정 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Trying to access the event log before the source name is set causes an exception to be thrown.</source>
+          <target state="translated">소스 이름이 설정 되기 전에 이벤트 로그에 액세스 하려고 하면 예외가 throw 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The name of the service.</source>
+          <target state="translated">서비스의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The service has already been started.</source>
+          <target state="translated">서비스가 이미 시작 되었습니다.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The ServiceName property cannot be changed once the service has started.</source>
+          <target state="translated">서비스가 시작 되 면 ServiceName 속성을 변경할 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The specified name is a zero-length string or is longer than <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase.MaxNameLength"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or the specified name contains forward slash or backslash characters.</source>
+          <target state="translated">지정된 된 이름 길이가&amp;0; 인 문자열 이거나 보다 긴 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase.MaxNameLength"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 하거나 지정된 된 이름을 정방향 슬래시 또는 백슬래시 문자를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Stops the executing service.</source>
+          <target state="translated">실행 중인 서비스를 중지합니다.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Stop method sets the service state to indicate a stop is pending and calls the &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt; method.</source>
+          <target state="translated">Stop 메서드를 나타내는 중지를 보류 중인 서비스 상태와 호출 설정는 &lt;xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;메서드.&lt;/xref:System.ServiceProcess.ServiceBase.OnStop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the application is stopped, the service state is set to stopped.</source>
+          <target state="translated">응용 프로그램을 중지 한 후 서비스 상태 중지 설정 됩니다.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application is a hosted service, the application domain is unloaded.</source>
+          <target state="translated">호스팅된 서비스 응용 프로그램을 사용 하는 경우 응용 프로그램 도메인이 로드 되었습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

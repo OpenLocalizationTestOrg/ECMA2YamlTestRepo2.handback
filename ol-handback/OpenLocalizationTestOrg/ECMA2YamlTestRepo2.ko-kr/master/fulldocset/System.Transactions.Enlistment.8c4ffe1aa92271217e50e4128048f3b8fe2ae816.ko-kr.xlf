@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">da391c9aa45e2027310a9e336ad16a700507517f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.Enlistment.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e07f0ace76e6cbb1a21d52ced3c272305e4059ee</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54d0bb115a84606af08497fc06255c6601c27fae</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Facilitates communication between an enlisted transaction participant and the transaction manager during the final phase of the transaction.</source>
+          <target state="translated">트랜잭션의 마지막 단계를 참여 한 트랜잭션이 참가자와 트랜잭션 관리자 간 통신을 용이 하 게 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt; and &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; methods of the &lt;xref:System.Transactions.Transaction&gt; object are invoked to enlist a participant in a transaction, they return this object describing the enlistment.</source>
+          <target state="translated">경우는 &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;및 &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;의 메서드는 &lt;xref:System.Transactions.Transaction&gt;개체 트랜잭션에서 참가자를 등록 하기 위해 호출 되는 인 리스트 먼 트를 설명 하는이 개체를 반환 합니다.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt; &lt;/xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During the final phase of the transaction commit, the transaction manager passes this object to a resource manager implementing the &lt;xref:System.Transactions.IEnlistmentNotification&gt; interface that has enlisted in a transaction.</source>
+          <target state="translated">트랜잭션 커밋의 마지막 단계는 트랜잭션 관리자를 구현 하는 리소스 관리자에 게이 개체를 전달 된 &lt;xref:System.Transactions.IEnlistmentNotification&gt;가 트랜잭션에 참여 하는 인터페이스입니다.&lt;/xref:System.Transactions.IEnlistmentNotification&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifically, the transaction manager calls either the &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt; or the &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; method of the participant, depending on whether the latter has decided to commit or roll back the transaction.</source>
+          <target state="translated">특히, 트랜잭션 관리자 호출 중 하나는 &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;또는 &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;여부 후자에서 하기로 트랜잭션을 커밋하거나에 따라 참가자의 메서드.&lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The participant should call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method of this object to let the transaction manager know that it has completed its work.</source>
+          <target state="translated">참가자를 호출 해야 합니다는 &lt;xref:System.Transactions.Enlistment.Done%2A&gt;트랜잭션 관리자는 작업이 완료 되었음을 알 수 있도록이 개체의 메서드에.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An enlistment can call the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method at anytime before it has called &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; in the prepare phase.</source>
+          <target state="translated">인 리스트 먼 트를 호출할 수는 &lt;xref:System.Transactions.Enlistment.Done%2A&gt;메서드 전에 언제 든 지 라 부릅니다 &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;준비 단계에.&lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; &lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By doing so, the enlistment is casting a read only vote, meaning that it votes commit on the transaction but does not need to receive the final outcome.</source>
+          <target state="translated">이렇게 하면 해당 인 리스트 먼 트랜잭션에서 커밋 응답 하지만 최종 결과 수신 하지 않아도 의미 읽기 전용 투표를 캐스팅은 했습니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that, after the &lt;xref:System.Transactions.Enlistment.Done%2A&gt; method is called, the enlisted participant receives no further notifications from the transaction manager.</source>
+          <target state="translated">유의 후의 &lt;xref:System.Transactions.Enlistment.Done%2A&gt;메서드가 호출 되 면 등록 된 참가자는 트랜잭션 관리자에서 더 이상 알림을 받습니다.&lt;/xref:System.Transactions.Enlistment.Done%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Indicates that the transaction participant has completed its work.</source>
+          <target state="translated">트랜잭션 참가 요소 작업을 완료 했음을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During the final phase of the transaction commit, the transaction manager calls either the &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;, &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; or &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; method of the participant, depending on whether the transaction is to be committed or rolled back.</source>
+          <target state="translated">트랜잭션 커밋의 마지막 단계는 트랜잭션 관리자 호출는 &lt;xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;, &lt;xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt;또는 &lt;xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt;트랜잭션이 커밋 또는 롤백 인지에 따라 참가자의 메서드.&lt;/xref:System.Transactions.IEnlistmentNotification.InDoubt%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Rollback%2A&gt; &lt;/xref:System.Transactions.IEnlistmentNotification.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resource manager should perform any work necessary to finish the transaction and then inform the transaction manager that it has finished by calling the Done method on the <ph id="ph1">`enlistment`</ph> parameter.</source>
+          <target state="translated">트랜잭션을 완료 하 고 다음 트랜잭션 관리자에서 Done 메서드를 호출 하 여 완료 했음을 알립니다 하는 데 필요한 작업을 수행한 리소스 관리자는 <ph id="ph1">`enlistment`</ph> 매개 변수입니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the resource manager has enlisted durably, but does not respond by calling Done method, the transaction manager is unsure that the resource manager has received the respective notification call.</source>
+          <target state="translated">리소스 관리자가, 영속적 참여 Done 메서드를 호출 하 여 응답 하지 않는 경우, 트랜잭션 관리자가 리소스 관리자에서 해당 알림 호출을 받았음을 있는지 아닙니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As such, the transaction manager keeps waiting for a response, and maintains information relevant to this transaction.</source>
+          <target state="translated">따라서 트랜잭션 관리자에 대 한 응답 대기 및 관련 정보가이 거래를 유지 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Done is never called, this piece of information is kept around indefinitely in memory or in a system-wide resource.</source>
+          <target state="translated">수행 하는 경우이 호출 되지 정보의이 부분을 무기한 보관 됩니다 메모리 또는 시스템 수준 리소스입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This results in resources not being able to be reclaimed.</source>
+          <target state="translated">따라서 리소스를 회수할 수 없게 됩니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a distributed transaction, this could eventually fill the MSDTC log which halts the MSDTC process.</source>
+          <target state="translated">분산 트랜잭션에서이 수는 MSDTC 로그가 가득 MSDTC 프로세스를 중단 하는 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case of a transaction managed by &lt;xref:System.Transactions&gt;, this results in a gradual and continual increase in the memory consumption of the resource manager's process.</source>
+          <target state="translated">관리 하는 트랜잭션의 경우 &lt;xref:System.Transactions&gt;,이 인해 리소스 관리자의 프로세스의 메모리 소비량에 점진적으로 지속적으로 증가 합니다.&lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it is crucial that you call the Done method once your resource manager is done with your prepare work.</source>
+          <target state="translated">따라서 것이 중요 한 리소스 관리자 작업을 완료 한 후 Done 메서드를 호출 하 여 작업을 준비 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An enlistment can call the Done method at anytime before it has called &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt; in the prepare phase.</source>
+          <target state="translated">가 호출 되기 전에 인 리스트 먼 트 언제 든 지 Done 메서드 호출 수 &lt;xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;준비 단계에.&lt;/xref:System.Transactions.PreparingEnlistment.Prepared%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By doing so, the enlistment is casting a read only vote, meaning that it votes commit on the transaction but does not need to receive the final outcome.</source>
+          <target state="translated">이렇게 하면 해당 인 리스트 먼 트랜잭션에서 커밋 응답 하지만 최종 결과 수신 하지 않아도 의미 읽기 전용 투표를 캐스팅은 했습니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that, after this method is called, the enlisted participant receives no further notifications from the transaction manager.</source>
+          <target state="translated">즉,이 메서드가 호출 되 면 등록 된 참가자 없습니다 더 이상 알림을 받지 트랜잭션 관리자에서 note 합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

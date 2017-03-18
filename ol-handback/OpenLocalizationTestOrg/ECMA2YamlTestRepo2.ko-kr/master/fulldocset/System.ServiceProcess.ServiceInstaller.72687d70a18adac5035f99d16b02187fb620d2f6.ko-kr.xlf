@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d080e942bc01bdab55cc0fa71bb2f058252c627</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceInstaller.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ce5af86ddd62334644e7a50fbc270bcccd1f31ab</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">932ee898a773c28235a19471fbf564156f98032e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Installs a class that extends <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to implement a service.</source>
+          <target state="translated">확장 하는 클래스를 설치 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 여 서비스를 구현 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is called by the install utility when installing a service application.</source>
+          <target state="translated">이 클래스는 서비스 응용 프로그램을 설치할 때 설치 유틸리티에 의해 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To install a service, create a project installer class that inherits from the &lt;xref:System.Configuration.Install.Installer&gt; class, and set the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; attribute on the class to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">서비스를 설치 하려면에서 상속 되는 프로젝트 설치 관리자 클래스를 만듭니다는 &lt;xref:System.Configuration.Install.Installer&gt;클래스는 &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;특성을 클래스의 <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within your project, create one &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance per service application, and one &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance for each service in the application.</source>
+          <target state="translated">프로젝트 내에서 하나를 만들 &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;개와 서비스 응용 프로그램 마다 인스턴스 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;응용 프로그램의 각 서비스에 대 한 인스턴스.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within your project installer class constructor, set the installation properties for the service using the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; and &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances, and add the instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection.</source>
+          <target state="translated">프로젝트 설치 관리자 클래스 생성자를 사용 하 여 서비스에 대 한 설치 속성을 설정는 &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;및 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;인스턴스와 인스턴스를 추가할는 &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;컬렉션.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceInstaller constructor automatically generates an event log source whose &lt;xref:System.Diagnostics.EventLog.Log%2A&gt; property is set to the computer's Application log, and an &lt;xref:System.Diagnostics.EventLogInstaller&gt;.</source>
+          <target state="translated">ServiceInstaller 생성자를 자동으로 생성 한 이벤트 로그 소스 &lt;xref:System.Diagnostics.EventLog.Log%2A&gt;컴퓨터의 응용 프로그램 로그와 &lt;xref:System.Diagnostics.EventLogInstaller&gt;.&lt;/xref:System.Diagnostics.EventLogInstaller&gt; 속성은&lt;/xref:System.Diagnostics.EventLog.Log%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; of the &lt;xref:System.ServiceProcess.ServiceInstaller&gt;, which should be identical to the &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt; of the service, the &lt;xref:System.Diagnostics.EventLog.Source%2A&gt; property of the event log is automatically set to the same value.</source>
+          <target state="translated">설정 하는 경우는 &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;의 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;, 동일 해야는 &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt;, 서비스는 &lt;xref:System.Diagnostics.EventLog.Source%2A&gt;이벤트 로그의 속성이 동일한 값으로 자동 설정 됩니다.&lt;/xref:System.Diagnostics.EventLog.Source%2A&gt; &lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The source is deleted automatically in the case of an installation failure.</source>
+          <target state="translated">원본 설치 오류가 발생할 경우 자동으로 삭제 됩니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceInstaller constructor sets the &lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt; property to <ph id="ph1">`ServiceStartMode.Manual`</ph> to specify that a user start the service.</source>
+          <target state="translated">ServiceInstaller 생성자 집합은 &lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;속성을 <ph id="ph1">`ServiceStartMode.Manual`</ph> 사용자는 서비스를 시작 하도록 지정 하려면.&lt;/xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can reset the property to <ph id="ph1">`ServiceStartMode.Automatic`</ph> to specify that the service start when the computer reboots.</source>
+          <target state="translated">속성을 다시 설정할 수 있습니다 <ph id="ph1">`ServiceStartMode.Automatic`</ph> 컴퓨터 재부팅 시 서비스가 시작을 지정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Copies properties from an instance of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to this installer.</source>
+          <target state="translated">인스턴스에서 속성을 복사 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 을이 설치 관리자입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will rarely be called within your code.</source>
+          <target state="translated">이 메서드는 코드 내에서 거의 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CopyFromComponent is usually called only by designers.</source>
+          <target state="translated">CopyFromComponent은 일반적으로 디자이너에 의해서만 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CopyFromComponent saves the service name of the <ph id="ph1">`component`</ph> parameter to the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; of the &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance.</source>
+          <target state="translated">서비스 이름을 저장 하는 CopyFromComponent는 <ph id="ph1">`component`</ph> 매개 변수를는 &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;의 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;인스턴스.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(Because the parameter must be an instance of a class that derives from &lt;xref:System.ServiceProcess.ServiceBase&gt;, <ph id="ph1">`component`</ph> is guaranteed to have a &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt; property.)      &gt; <ph id="ph2">[!NOTE]</ph> &gt;  If you are using the Visual Studio designer, this method is called at design time when the user clicks <ph id="ph3">`Add Installer`</ph> on a component that specified this class as its installer.</source>
+          <target state="translated">(매개 변수는 &lt;xref:System.ServiceProcess.ServiceBase&gt;에서 파생 되는 클래스의 인스턴스 수 있어야 하므로 <ph id="ph1">`component`</ph> &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt;속성 보장 됩니다.)      &gt; <ph id="ph2">[!NOTE]</ph> &gt; Visual Studio 디자이너를 사용 하는 경우이 메서드는 사용자가 클릭할 때 디자인 타임에 <ph id="ph3">`Add Installer`</ph> 설치 관리자로이 클래스를 지정 하는 구성 요소에.&lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceBase&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The installer takes all information it can from the live component and stores it for use at install time.</source>
+          <target state="translated">라이브 구성 요소에서 있고 설치 중에 사용 하기 위해 저장 하는 모든 정보를 사용 하는 설치 관리자입니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which to copy.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 복사해 올 원본입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The component you are associating with this installer does not inherit from <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 설치 관리자와 연결 되는 구성 요소에서 상속 되지 않는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the service should be delayed from starting until other automatically started services are running.</source>
+          <target state="translated">다른 자동으로 시작된 서비스가 실행 되 고 시작 서비스를 지연할지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DelayedAutoStart property can be applied to any service, but it is ignored unless the service's start mode is &lt;xref:System.ServiceProcess.ServiceStartMode&gt;.</source>
+          <target state="translated">DelayedAutoStart 속성 모든 서비스에 적용 될 수 있지만 서비스의 시작 모드 &lt;xref:System.ServiceProcess.ServiceStartMode&gt;.&lt;/xref:System.ServiceProcess.ServiceStartMode&gt; 아닌 경우 무시 됩니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The setting takes effect the next time the system is restarted.</source>
+          <target state="translated">설정은 시스템이 시작 하는 다음에 적용이 됩니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Service Control Manager does not guarantee a specific start time for the service.</source>
+          <target state="translated">서비스 제어 관리자는 서비스에 대 한 특정 시작 시간을 보장 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A delayed automatic start service cannot be a member of a load ordering group, but it can depend on another automatic start service.</source>
+          <target state="translated">지연 된 자동 시작 서비스는 로드 순서 그룹의 구성원 일 수는 없지만 다른 자동 시작 서비스에 종속 될 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an application calls a delayed automatic start service before it is loaded, the call fails.</source>
+          <target state="translated">로드 하기 전에 지연 된 자동 시작 서비스를 호출 하는 응용 프로그램, 호출이 실패 합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On operating systems that do not support delayed automatic start, setting this property has no effect.</source>
+          <target state="translated">지연 된 자동 시작을 지원 하지 않는 운영 체제에서이 속성을 설정에 영향을 주지 않습니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to delay automatic start of the service; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>자동 지연에는 서비스의 시작 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets or sets the description for the service.</source>
+          <target state="translated">서비스에 대 한 설명을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Description property to describe the purpose of the installed service to the user.</source>
+          <target state="translated">사용자에 게 설치 된 서비스의 용도 설명 하기 위해 Description 속성을 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user can view the service description in applications that display details for installed services.</source>
+          <target state="translated">사용자 설치 된 서비스에 대 한 세부 정보를 표시 하는 응용 프로그램의 서비스 설명을 볼 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, using Windows XP, you can view the service description with the Service Control command-line utility (Sc.exe) or you can view the service description within the <bpt id="p1">**</bpt>Services<ept id="p1">**</ept> node of the <bpt id="p2">**</bpt>Computer Management<ept id="p2">**</ept> console.</source>
+          <target state="translated">Windows XP를 사용 하면 서비스 제어 명령줄 유틸리티 (Sc.exe) 인 서비스 설명을 볼 수 있습니다 또는 내에서 서비스 설명을 볼 수 있습니다 예를 들어는 <bpt id="p1">**</bpt>서비스<ept id="p1">**</ept> 의 노드는 <bpt id="p2">**</bpt>컴퓨터 관리<ept id="p2">**</ept> 콘솔.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The description of the service.</source>
+          <target state="translated">서비스의 설명입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">기본값은 빈 문자열 ("").</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Indicates the friendly name that identifies the service to the user.</source>
+          <target state="translated">사용자에 게 서비스를 식별 하는 이름을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The name associated with the service, used frequently for interactive tools.</source>
+          <target state="translated">대화형 도구에는 자주 사용 하는 서비스와 연결 된 이름입니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Installs the service by writing service application information to the registry.</source>
+          <target state="translated">레지스트리에 서비스 응용 프로그램 정보를 작성 하 여 서비스를 설치 합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This method is meant to be used by installation tools, which process the appropriate methods automatically.</source>
+          <target state="translated">이 메서드는 적절 한 메서드를 자동으로 처리 하는 설치 도구에서 사용할 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">일반적으로 메서드를 호출 하지 것입니다 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;; 코드 내에서 일반적으로에서 호출 설치 유틸리티.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the Install method during installation.</source>
+          <target state="translated">설치 유틸리티는 자동으로 설치 하는 동안 설치 메서드를 호출합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A&gt; on the object that generated the exception.</source>
+          <target state="translated">백업를 필요에 따라 호출 하 여 &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A&gt;예외를 생성 하는 개체입니다.&lt;/xref:System.ServiceProcess.ServiceInstaller.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application's install routine maintains information automatically about the components that were already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">이미 설치 된, 프로젝트 설치 관리자의 &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt; 를 사용 하 여 구성 요소에 대해 자동으로 정보를 유지 하는 응용 프로그램의 설치 루틴</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information, passed into Install as the <ph id="ph1">`stateSaver`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">이 상태 정보로 설치로 전달 된는 <ph id="ph1">`stateSaver`</ph> 매개 변수를 계속 업데이트 됩니다는 &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;인스턴스와 각 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;인스턴스가 유틸리티에 의해 설치 된.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">일반적으로 코드의 명시적으로이 상태 정보를 수정할 필요는 없습니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; associated with your project installation class installs information common to all &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances in the project.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;관련 설치 클래스 설치 프로젝트 정보는 모든에 공통 된 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;프로젝트의 인스턴스.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this service has anything that separates it from the other services in the installation project, that service-specific information is installed by this method.</source>
+          <target state="translated">이 서비스에 아무 것도 설치 프로젝트의 다른 서비스에서 구분 하는 경우 해당 서비스 관련 정보는이 메서드에 의해 설치 됩니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To install a service, create a project installer class that inherits from the &lt;xref:System.Configuration.Install.Installer&gt; class, and set the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; attribute on the class to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">서비스를 설치 하려면에서 상속 되는 프로젝트 설치 관리자 클래스를 만듭니다는 &lt;xref:System.Configuration.Install.Installer&gt;클래스는 &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;특성을 클래스의 <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within your project, create one &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance per service application, and one &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance for each service in the application.</source>
+          <target state="translated">프로젝트 내에서 하나를 만들 &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;개와 서비스 응용 프로그램 마다 인스턴스 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;응용 프로그램의 각 서비스에 대 한 인스턴스.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within your project installer class constructor, set the installation properties for the service using the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; and &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances, and add the instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection.</source>
+          <target state="translated">프로젝트 설치 관리자 클래스 생성자를 사용 하 여 서비스에 대 한 설치 속성을 설정는 &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;및 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;인스턴스와 인스턴스를 추가할는 &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;컬렉션.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is recommended that you use the constructor for adding installer instances; however, if you need to add to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection in the Install method, be sure to perform the same additions to the collection in the &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; method.</source>
+          <target state="translated">그러나 &gt; <ph id="ph1">[!NOTE]</ph> &gt;; 설치 관리자 인스턴스를 추가 하기 위한 생성자를 사용 하는 것이 좋습니다.에 추가 해야 하는 경우는 &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;설치 하는 메서드의 컬렉션을 컬렉션에 동일한 추가 수행 해야는 &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;메서드.&lt;/xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For all classes deriving from the &lt;xref:System.Configuration.Install.Installer&gt; class, the state of the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection must be the same in the Install and &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; methods.</source>
+          <target state="translated">파생 된 모든 클래스에 대 한는 &lt;xref:System.Configuration.Install.Installer&gt;클래스의 상태는 &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;컬렉션에서 설치에 동일 해야 하 고 &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;메서드.&lt;/xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can avoid the maintenance of the collection across the Install and &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; methods if you add installer instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection in your custom installer class constructor.</source>
+          <target state="translated">그러나 설치에서 컬렉션의 유지 관리를 방지할 수 있습니다 및 &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;설치 관리자 인스턴스를 추가 하는 경우 메서드는 &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;사용자 지정 설치 관리자 클래스 생성자의 컬렉션에에서.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;설치와 관련 된 컨텍스트 정보가 포함 된.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The installation does not contain a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the executable.</source>
+          <target state="translated">설치에는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 실행 파일에 대 한 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-or-       The file name for the assembly is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated">-또는-어셈블리의 파일 이름은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 또는 빈 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-or-       The service name is invalid.</source>
+          <target state="translated">-또는-서비스 이름이 잘못 되었습니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-or-       The Service Control Manager could not be opened.</source>
+          <target state="translated">-또는-서비스 제어 관리자를 열 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The display name for the service is more than 255 characters in length.</source>
+          <target state="translated">서비스에 대 한 표시 이름은 255 자 길이입니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The system could not generate a handle to the service.</source>
+          <target state="translated">시스템은 서비스에 대 한 핸들을 생성 하지 못했습니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-or-       A service with that name is already installed.</source>
+          <target state="translated">-또는-해당 이름의 서비스가 이미 설치 되어 있습니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Indicates whether two installers would install the same service.</source>
+          <target state="translated">두 명의 설치 관리자가 동일한 서비스를 설치 하는지 여부를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IsEquivalentInstaller indicates, for example, whether two installers would install the same service under the same user account.</source>
+          <target state="translated">IsEquivalentInstaller를 나타내며, 예를 들어 두 명의 설치 관리자가 동일한 사용자 계정에서 동일한 서비스를 설치 하는지 여부를</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.Install.ComponentInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which you are comparing the current installer.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.Install.ComponentInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 현재 설치 관리자를 비교 하는입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if calling &lt;xref:System.ServiceProcess.ServiceInstaller.Install*&gt; on both of these installers would result in installing the same service; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>호출 하는 경우 &lt;xref:System.ServiceProcess.ServiceInstaller.Install*&gt;에서 설치이 관리자 모두는 유발 동일한 설치 하 고, 그렇지 않으면 서비스 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.ServiceProcess.ServiceInstaller.Install*&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Rolls back service application information written to the registry by the installation procedure.</source>
+          <target state="translated">설치 과정에서 레지스트리에 기록 하는 서비스 응용 프로그램 정보를 롤백합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This method is meant to be used by installation tools, which process the appropriate methods automatically.</source>
+          <target state="translated">이 메서드는 적절 한 메서드를 자동으로 처리 하는 설치 도구에서 사용할 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">일반적으로 메서드를 호출 하지 것입니다 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;; 코드 내에서 일반적으로에서 호출 설치 유틸리티.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; method during the installation process.</source>
+          <target state="translated">설치 유틸리티를 자동으로 호출 된 &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;설치 과정에서 메서드.&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling Rollback on the object that generated the exception.</source>
+          <target state="translated">필요한 경우 개체에 롤백 호출 하 여 예외를 생성 하는 경우를 백업 합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application's install routine maintains information automatically about the components already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">응용 프로그램의 설치 루틴 프로젝트 설치 관리자의 &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt; 를 사용 하 여 구성 요소가 이미 설치 되어 자동으로 정보를 유지 관리</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information, passed into Rollback as the <ph id="ph1">`savedState`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">이 상태 정보로 롤백에 전달 된는 <ph id="ph1">`savedState`</ph> 매개 변수를 계속 업데이트 됩니다는 &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;인스턴스와 각 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;인스턴스가 유틸리티에 의해 설치 된.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">일반적으로 코드의 명시적으로이 상태 정보를 수정할 필요는 없습니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;설치와 관련 된 컨텍스트 정보가 포함 된.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Indicates the name used by the system to identify this service.</source>
+          <target state="translated">이 서비스를 식별 하는 시스템에서 사용 하는 이름을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This property must be identical to the <ph id="ph1">&amp;lt;</ph>xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> of the service you want to install.</source>
+          <target state="translated">이 속성은 동일 해야는 <ph id="ph1">&amp;lt;</ph>xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> 설치 하려는 서비스의 합니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The name of the service to be installed.</source>
+          <target state="translated">서비스를 설치할 수의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This value must be set before the install utility attempts to install the service.</source>
+          <target state="translated">이 값은 서비스를 설치 하는 설치 유틸리티 시도 하기 전에 설정 되어야 합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The ServiceName property is invalid.</source>
+          <target state="translated">ServiceName 속성 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Indicates the services that must be running for this service to run.</source>
+          <target state="translated">이 서비스를 실행에 대 한 실행 되어야 하는 서비스를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A service can require other services to be running before it can start.</source>
+          <target state="translated">서비스를 시작 하기 전에 실행 되 고 다른 서비스에 필요할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The information from this property is written to a key in the registry.</source>
+          <target state="translated">이 속성의 정보는 레지스트리에서 키에 기록 됩니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the user (or the system, in the case of automatic startup) tries to run the service, the Service Control Manager (SCM) verifies that each of the services in the array has already been started.</source>
+          <target state="translated">사용자 (또는 자동 시작 시 시스템) 서비스를 실행 하려고 합니다 (SCM (서비스 제어 관리자)는 각 배열에 있는 서비스를 이미 시작한 것을 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any service in the array is not running then, the SCM tries to start them.</source>
+          <target state="translated">모든 서비스 배열의 다음를 실행 하지 않는 경우 SCM 컴퓨터를 시작 하려고 시도 합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes services with <ph id="ph1">`Manual`</ph>&lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;.</source>
+          <target state="translated">에 <ph id="ph1">`Manual`</ph> &lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;.&lt;/xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any service upon which this service depends fails to start, this service will not start.</source>
+          <target state="translated">이 서비스가 종속 된 모든 서비스를 시작 하지 못하면이 서비스가 시작 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is not thrown if the system is not started because there is no exception handling at the system level to detect this.</source>
+          <target state="translated">이 문제를 감지할 시스템 수준에서 처리 예외가 있기 때문에 시스템 시작 되지 않은 경우에 예외가 throw 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Decide how to handle service start failures and implement this in your code.</source>
+          <target state="translated">서비스 시작 실패를 처리 하 고 코드에서이 구현 하는 방법을 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, a dialog appears to the user at startup if a service fails to start.</source>
+          <target state="translated">일반적으로 서비스를 시작 하지 못한 경우에 시작 시 사용자에 게는 대화 상자가 나타납니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service does not start, an entry is written to the Application event log.</source>
+          <target state="translated">서비스가 시작 되지 않으면 응용 프로그램 이벤트 로그 항목이 기록 됩니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The services upon which this service depends do not need to be in the same executable.</source>
+          <target state="translated">이 서비스가 종속 된 서비스는 동일한 실행 파일에 포함 되도록 필요가 없습니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An array of services that must be running before the service associated with this installer can run.</source>
+          <target state="translated">이 설치 관리자 서비스가 실행 될 수 전에 실행 해야 하는 서비스의 배열입니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Indicates how and when this service is started.</source>
+          <target state="translated">이 서비스를 시작할 시기와 방법을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the StartType to specify either that the service be started automatically after reboot or that a user must manually start the service.</source>
+          <target state="translated">서비스를 자동으로 다시 부팅 후 시작할 수 있는지 또는 사용자 서비스를 수동으로 시작 해야 지정 하는 시작 형식을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A service can also be disabled, specifying that it cannot be started, either manually or programmatically, until it is enabled.</source>
+          <target state="translated">서비스도 비활성화 될 수를 시작할 수 없습니다, 수동으로 또는 프로그래밍 방식으로 사용 될 때까지 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot change &lt;xref:System.ServiceProcess.ServiceInstaller&gt; property values after installation.</source>
+          <target state="translated">변경할 수 없습니다 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;설치 후 속성 값.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To change the StartType, you either have to uninstall and reinstall your service, or manually change the setting using the Service Control Manager.</source>
+          <target state="translated">StartType를 변경 하려면 제거 했다가 사용자가 서비스를 다시 설치 해야 하거나 수동으로 서비스 제어 관리자를 사용 하 여 설정을 변경 합니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the way the service is started.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 서비스를 시작 하는 방식을 나타내는입니다.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Manual" name="Manual" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which specifies that the service will not automatically start after reboot.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_Manual" name="Manual" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 지정는 서비스가 다시 부팅 후 자동으로 시작 되지 것입니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The start mode is not a value of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">시작 모드의 값이 아닙니다는 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 열거 합니다.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Uninstalls the service by removing information about it from the registry.</source>
+          <target state="translated">레지스트리에서 항목에 대 한 정보를 제거 하 여 서비스를 제거 합니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Uninstall first attempts to stop the service before uninstalling it.</source>
+          <target state="translated">제거 하기 전에 서비스를 중지 하는 첫 번째 시도 제거 합니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service cannot be stopped, no exception is caught, and the method continues with the removal of the service.</source>
+          <target state="translated">서비스를 중지할 수 없으면 예외는 발생 하지, 및 메서드는 서비스의 제거가 계속 합니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">일반적으로 메서드를 호출 하지 것입니다 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;; 코드 내에서 일반적으로에서 호출 설치 유틸리티.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>InstallUtil is used to uninstall services as well as install them; uninstalling takes a switch in the command line call.</source>
+          <target state="translated">InstallUtil 하는 데 서비스를 제거할 수 있을 뿐만 아니라를 설치 합니다. 제거 명령줄 호출에서 스위치를 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application's uninstall routine maintains information automatically about the components being uninstalled, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">응용 프로그램 제거 루틴의 구성 요소에 대 한 자동으로 정보를 유지 관리 프로젝트 설치 관리자의 &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt; 를 사용 하 여 제거 하 고</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information, passed into Uninstall as the <ph id="ph1">`savedState`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">이 상태 정보로는 제거에 전달 된는 <ph id="ph1">`savedState`</ph> 매개 변수를 계속 업데이트 됩니다는 &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;인스턴스와 각 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;인스턴스가 유틸리티에 의해 설치 된.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">일반적으로 코드의 명시적으로이 상태 정보를 수정할 필요는 없습니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For all classes deriving from the &lt;xref:System.Configuration.Install.Installer&gt; class, the state of the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection must be the same in the &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; and Uninstall methods.</source>
+          <target state="translated">파생 된 모든 클래스에 대 한는 &lt;xref:System.Configuration.Install.Installer&gt;클래스의 상태는 &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;컬렉션에서 동일 해야는 &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;및 메서드를 제거 합니다.&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can avoid the maintenance of the collection across the &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; and Uninstall methods if you add installer instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection in your custom installer class constructor.</source>
+          <target state="translated">그러나 컬렉션을 유지 관리를 방지할 수 있습니다는 &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;설치 관리자 인스턴스를 추가 하는 경우 메서드를 제거 하 고는 &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;사용자 지정 설치 관리자 클래스 생성자의 컬렉션에에서.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no rollback mechanism for uninstalling, so if one service fails to uninstall, this does not affect the other services (usually within the same installation project) being uninstalled.</source>
+          <target state="translated">메커니즘은 없습니다 롤백 제거에 대 한 하나의 서비스를 제거 하지 못하면이 영향을 주지 않도록 다른 서비스 (일반적으로 내 동일한 설치 프로젝트의 경우)을 제거 하 고 있습니다.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;설치와 관련 된 컨텍스트 정보가 포함 된.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The Service Control Manager could not be opened.</source>
+          <target state="translated">서비스 제어 관리자를 열 수 없습니다.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-or-       The system could not get a handle to the service.</source>
+          <target state="translated">-또는-시스템 서비스에 대 한 핸들을 가져올 수 없습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6932b2e3121c971bbf3626d444598d3e69d16db1</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.CodeDomSerializerBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">caab9cbedb2dd5a9725295d98c9a70543c58d4cb</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">919911bbb75cd038efaf38a3e35e1b29b611f214</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> classes.</source>
+          <target state="translated">Fornece uma classe base para <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classes.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CodeDomSerializerBase class is used as a shared base between the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt; and &lt;xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer&gt; classes.</source>
+          <target state="translated">A classe CodeDomSerializerBase é usada como base compartilhada entre o &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;e &lt;xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer&gt;classes.&lt;/xref:System.ComponentModel.Design.Serialization.TypeCodeDomSerializer&gt; &lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Public &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt; classes derive from the CodeDomSerializerBase class.</source>
+          <target state="translated">Público &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;derivam da classe CodeDomSerializerBase.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each public class defines its own public API.</source>
+          <target state="translated">Cada classe pública define sua própria API pública.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CodeDomSerializerBase class defines no public API, but does offer a multitude of utility methods that can be used to aid the serialization process.</source>
+          <target state="translated">A classe CodeDomSerializerBase não define nenhuma API pública, mas oferece uma variedade de métodos de utilitário que pode ser usado para ajudar no processo de serialização.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Deserializes the given expression into an in-memory object.</source>
+          <target state="translated">Desserializa a expressão especificada em um objeto de memória.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a helper method that derived classes can call to deserialize an expression.</source>
+          <target state="translated">Este é um auxiliar pode chamada do método que classes derivadas para desserializar uma expressão.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It deserializes the statement by interpreting and executing the CodeDOM expression specified by the <ph id="ph1">`expression`</ph> parameter, and then returns the results.</source>
+          <target state="translated">Ele desserializa a instrução, interpretar e executar a expressão de CodeDOM especificada pelo <ph id="ph1">`expression`</ph> parâmetro e, em seguida, retorna os resultados.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an object needs to be created as a result of this expression, it will be given the name specified by the <ph id="ph1">`name`</ph> parameter.</source>
+          <target state="translated">Se um objeto precisa ser criado como resultado dessa expressão, ela receberá o nome especificado pelo <ph id="ph1">`name`</ph> parâmetro.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name can be <ph id="ph1">`null`</ph> if there is no need to name the object.</source>
+          <target state="translated">O nome pode ser <ph id="ph1">`null`</ph> se não é necessário para o objeto.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table describes how specific expressions are handled.</source>
+          <target state="translated">A tabela a seguir descreve expressões específicas como são tratados.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Expression|Behavior|   |----------------|--------------|   |&lt;xref:System.CodeDom.CodeThisReferenceExpression&gt;|This expression represents <ph id="ph1">`this`</ph> or <ph id="ph2">`Me`</ph>.</source>
+          <target state="translated">| Expressão | Comportamento |   |----------------|--------------|   | &lt;xref:System.CodeDom.CodeThisReferenceExpression&gt;| Essa expressão representa <ph id="ph1">`this`</ph> ou <ph id="ph2">`Me`</ph>.&lt;/xref:System.CodeDom.CodeThisReferenceExpression&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To locate the object that is associated with this expression, the DeserializeExpression method will look in the context stack for a &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;.</source>
+          <target state="translated">Para localizar o objeto que está associado esta expressão, o método DeserializeExpression examinará a pilha de contexto para &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.RootContext&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This object contains the root object of the graph and the expression that represents it.</source>
+          <target state="translated">Este objeto contém o objeto raiz do gráfico e a expressão que o representa.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object is present and the expression matches, the root object will be returned.</source>
+          <target state="translated">Se o objeto está presente e a expressão corresponde, o objeto raiz será retornado.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An error is reported if an instance cannot be located.|   |&lt;xref:System.CodeDom.CodeFieldReferenceExpression&gt;|If the target of the field reference evaluates to the root object, the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt; method of the manager parameter will be used to retrieve the object instance based on name.</source>
+          <target state="translated">Um erro será relatado se uma instância não pode ser localizada. |   | &lt;xref:System.CodeDom.CodeFieldReferenceExpression&gt;| Se o destino da referência do campo for avaliada como o objeto raiz, o &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt;método do parâmetro Gerenciador será usado para recuperar a instância do objeto com base no nome.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt; &lt;/xref:System.CodeDom.CodeFieldReferenceExpression&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, standard reflection is used against the target object to locate the requested field.</source>
+          <target state="translated">Caso contrário, reflexão padrão é usado em relação ao objeto de destino para localizar o campo solicitado.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An error is reported if the field cannot be located.|   |&lt;xref:System.CodeDom.CodeVariableReferenceExpression&gt;|The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt; method of the <ph id="ph1">`manager`</ph> parameter is used to locate the instance representing the given variable name.</source>
+          <target state="translated">Um erro será relatado se o campo não pode ser localizado. |   | &lt;xref:System.CodeDom.CodeVariableReferenceExpression&gt;| O &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt;método o <ph id="ph1">`manager`</ph> parâmetro é usado para localizar a instância que representa o nome da variável determinado.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt; &lt;/xref:System.CodeDom.CodeVariableReferenceExpression&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An error is reported if an instance cannot be located.|       DeserializeExpression continues to interpret expressions until they are completely resolved to an object, or until it can no longer simplify the expression.</source>
+          <target state="translated">Um erro será relatado se uma instância não pode ser localizada. |       DeserializeExpression continua a interpretar expressões até que eles são completamente resolvidos para um objeto ou ele não pode simplificar a expressão.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, DeserializeExpression will return a &lt;xref:System.CodeDom.CodeExpression&gt; that contains the most simplified expression.</source>
+          <target state="translated">Nesse caso, DeserializeExpression retornará um &lt;xref:System.CodeDom.CodeExpression&gt;que contém a expressão mais simplificada.&lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following expressions are not supported:      -   &lt;xref:System.CodeDom.CodeEventReferenceExpression&gt;      -   &lt;xref:System.CodeDom.CodeMethodReferenceExpression&gt;      -   &lt;xref:System.CodeDom.CodeDelegateCreateExpression&gt;</source>
+          <target state="translated">Não há suporte para as seguintes expressões:- &lt;xref:System.CodeDom.CodeEventReferenceExpression&gt;- &lt;xref:System.CodeDom.CodeMethodReferenceExpression&gt;- &lt;xref:System.CodeDom.CodeDelegateCreateExpression&gt;&lt;/xref:System.CodeDom.CodeDelegateCreateExpression&gt; &lt;/xref:System.CodeDom.CodeMethodReferenceExpression&gt; &lt;/xref:System.CodeDom.CodeEventReferenceExpression&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name of the object that results from the expression.</source>
+          <target state="translated">O nome do objeto que é o resultado da expressão.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no need to name the object.</source>
+          <target state="translated">Pode ser <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se não é necessário para o objeto.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to interpret.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interpretar.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>An object resulting from interpretation of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">expression</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Um objeto resultante da interpretação <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">expression</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Returns an instance of the given type.</source>
+          <target state="translated">Retorna uma instância do tipo em questão.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeserializeInstance method is invoked during deserialization to obtain an instance of an object.</source>
+          <target state="translated">O método DeserializeInstance é chamado durante a desserialização para obter uma instância de um objeto.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this is called, an instance of the requested type should be returned.</source>
+          <target state="translated">Quando isso é chamado, uma instância do tipo solicitado deve ser retornada.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation invokes the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt; method of the <ph id="ph1">`manager`</ph> parameter.</source>
+          <target state="translated">A implementação padrão chama o &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt;método o <ph id="ph1">`manager`</ph> parâmetro.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the instance to return.</source>
+          <target state="translated">O &lt;xref:System.Type&gt;da instância para retornar.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The parameters to pass to the constructor for <ph id="ph1">`type`</ph>.</source>
+          <target state="translated">Os parâmetros para passar para o construtor para <ph id="ph1">`type`</ph>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The name of the deserialized object.</source>
+          <target state="translated">O nome do objeto desserializado.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add this object to the design container; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Para adicionar esse objeto para o contêiner de design; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The object must implement <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this to have any effect.</source>
+          <target state="translated">O objeto deve implementar <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> para que isso tenha efeito.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Uma instância de <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Deserializes properties on the given object from the invariant culture’s resource bundle.</source>
+          <target state="translated">Desserializa propriedades em um determinado objeto de pacote de recursos da cultura invariável.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeserializePropertiesFromResources method is a helper method that derived classes can call.</source>
+          <target state="translated">O método DeserializePropertiesFromResources é um método auxiliar que classes derivadas pode chamar.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It looks for properties on the given object and attempts to load their values out of the invariant culture’s resource bundle.</source>
+          <target state="translated">Ele procura por propriedades no objeto especificado e tenta carregar seus valores fora do pacote de recursos da cultura invariável.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is generally used to handle design-time properties that are not emitted into source code.</source>
+          <target state="translated">Isso geralmente é usado para lidar com as propriedades de tempo de design que não são emitidas no código-fonte.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It should not be used for localized properties because it only operates on the invariant culture.</source>
+          <target state="translated">Ele não deve ser usado para propriedades localizadas, porque ela opera somente a cultura invariável.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method inspects all of the properties of the <ph id="ph1">`value`</ph> parameter that match the attributes specified by the <ph id="ph2">`filter`</ph> parameter, and then checks for those properties in a resource binary object.</source>
+          <target state="translated">Esse método verifica se todas as propriedades do <ph id="ph1">`value`</ph> que corresponde aos atributos especificados pelo parâmetro de <ph id="ph2">`filter`</ph> parâmetro e, em seguida, procura essas propriedades em um objeto de recurso binário.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is useful for deserializing properties that cannot be represented in code, such as design-time properties.</source>
+          <target state="translated">Isso é útil para desserializar propriedades que não podem ser representadas no código, como as propriedades de tempo de design.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method requires that a designer loader offers an &lt;xref:System.ComponentModel.Design.IResourceService&gt; to read resources.</source>
+          <target state="translated">Esse método requer que um carregador de designer oferece um &lt;xref:System.ComponentModel.Design.IResourceService&gt;para ler recursos.&lt;/xref:System.ComponentModel.Design.IResourceService&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.ComponentModel.Design.IResourceService&gt; provides a &lt;xref:System.Resources.ResXResourceReader&gt; for the invariant culture, then DeserializePropertiesFromResources will read resources from the XML resource (.resx) file’s metadata section, which is not included in final compiled code.</source>
+          <target state="translated">Se o &lt;xref:System.ComponentModel.Design.IResourceService&gt;fornece um &lt;xref:System.Resources.ResXResourceReader&gt;para a cultura invariável, em seguida, DeserializePropertiesFromResources lerá recursos da seção de metadados do arquivo de recurso (. resx) XML, que não está incluída no final código compilado.&lt;/xref:System.Resources.ResXResourceReader&gt; &lt;/xref:System.ComponentModel.Design.IResourceService&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this service is not available, no resources will be read.</source>
+          <target state="translated">Se esse serviço não estiver disponível, não há recursos serão lidos.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The object from which the properties are to be deserialized.</source>
+          <target state="translated">O objeto do qual as propriedades devem ser desserializado.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Attribute&gt; array that filters which properties will be deserialized.</source>
+          <target state="translated">Um &lt;xref:System.Attribute&gt;matriz que filtra as propriedades que serão desserializadas.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Deserializes a statement by interpreting and executing a CodeDOM statement.</source>
+          <target state="translated">Desserializa uma instrução, interpretar e executar uma instrução de CodeDOM.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DeserializeStatement method is a helper method that derived classes can call.</source>
+          <target state="translated">O método DeserializeStatement é um método auxiliar que classes derivadas pode chamar.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It interprets the <ph id="ph1">`statement`</ph> parameter.</source>
+          <target state="translated">Ele interpreta o <ph id="ph1">`statement`</ph> parâmetro.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.CodeDom.CodeStatement&gt; being deserialized will be pushed on the context stack.</source>
+          <target state="translated">O &lt;xref:System.CodeDom.CodeStatement&gt;que está sendo desserializado será enviado na pilha de contexto.&lt;/xref:System.CodeDom.CodeStatement&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to deserialize.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser desserializado.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets a collection of attributes as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">Obtém uma coleção de atributos conforme definido na versão de destino do projeto do .NET Framework.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">O Gerenciador de serialização.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The target type.</source>
+          <target state="translated">O tipo de destino.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A collection of attributes as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">Uma coleção de atributos conforme definido na versão de destino do projeto do .NET Framework.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets a collection of attributes as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">Obtém uma coleção de atributos conforme definido na versão de destino do projeto do .NET Framework.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">O Gerenciador de serialização.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>An object of the target type.</source>
+          <target state="translated">Um objeto do tipo de destino.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A collection of attributes as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">Uma coleção de atributos conforme definido na versão de destino do projeto do .NET Framework.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets a collection of events as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">Obtém uma coleção de eventos conforme definido na versão de destino do projeto do .NET Framework.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">O Gerenciador de serialização.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An object of the target type.</source>
+          <target state="translated">Um objeto do tipo de destino.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An array of attributes to pass to the target version of the .NET Framework.</source>
+          <target state="translated">Uma matriz de atributos para passar para a versão de destino do .NET Framework.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A collection of events as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">Uma coleção de eventos conforme definido na versão de destino do projeto do .NET Framework.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Returns an expression for the given object.</source>
+          <target state="translated">Retorna uma expressão para o objeto fornecido.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetExpression method returns an expression representing the given object.</source>
+          <target state="translated">O método GetExpression retorna uma expressão que representa o objeto fornecido.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can return <ph id="ph1">`null`</ph>, indicating that no expression has been set that describes the object.</source>
+          <target state="translated">Ele pode retornar <ph id="ph1">`null`</ph>, indicando que nenhuma expressão foi definido que descreve o objeto.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Expressions are acquired in one of three ways:      -   The expression could be the result of a prior call to the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt; method.</source>
+          <target state="translated">Expressões são adquiridas em uma destas três maneiras:-a expressão pode ser o resultado de uma chamada anterior para o &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;método.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The expression could have been found in the &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;.</source>
+          <target state="translated">-A expressão foi encontrada em &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.RootContext&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The expression could be derived through &lt;xref:System.ComponentModel.Design.IReferenceService&gt;.</source>
+          <target state="translated">-A expressão pode ser derivada por meio de &lt;xref:System.ComponentModel.Design.IReferenceService&gt;.&lt;/xref:System.ComponentModel.Design.IReferenceService&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To derive expressions through &lt;xref:System.ComponentModel.Design.IReferenceService&gt;, the GetExpression method queries the reference service for a name for the given object.</source>
+          <target state="translated">Para derivar expressões por meio de &lt;xref:System.ComponentModel.Design.IReferenceService&gt;, o método GetExpression consulta o serviço de referência para um nome para o objeto fornecido.&lt;/xref:System.ComponentModel.Design.IReferenceService&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression service returns a valid name, &lt;xref:System.ComponentModel.Design.IReferenceService&gt;, the GetExpression method checks to see if there is a "." in the name.</source>
+          <target state="translated">Se o serviço de expressão retorna um nome válido, &lt;xref:System.ComponentModel.Design.IReferenceService&gt;, o método GetExpression verifica se há um "." no nome.&lt;/xref:System.ComponentModel.Design.IReferenceService&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This indicates that the expression service found this object as the return value of a read-only property on another object.</source>
+          <target state="translated">Isso indica que o serviço de expressão encontrado esse objeto como o valor de retorno de uma propriedade somente leitura em outro objeto.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is a ".", GetExpression will split the reference into parts.</source>
+          <target state="translated">Se houver um ".", GetExpression dividirá a referência em partes.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The leftmost part is a name that will be evaluated with the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt; method.</source>
+          <target state="translated">A parte mais à esquerda é um nome que será avaliado com o &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt;método.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For each subsequent part, a property reference expression will be built.</source>
+          <target state="translated">Para cada parte subsequente, uma expressão de referência de propriedade será criada.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The final expression will then be returned.</source>
+          <target state="translated">A expressão de final, em seguida, será retornada.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object did not have an expression set, or if the object was not found in the reference service, GetExpression will return <ph id="ph1">`null`</ph>, indicating there is no existing expression for the object.</source>
+          <target state="translated">Se o objeto não tiver uma expressão definida ou se o objeto não foi encontrado no serviço de referência, GetExpression retornará <ph id="ph1">`null`</ph>, indicando que há uma expressão existente para o objeto.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The object for which to get an expression.</source>
+          <target state="translated">O objeto para o qual obter uma expressão.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing v<bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">alue</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if there is no existing expression for v<bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">alue</ph><ept id="p4">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> representar v<bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">alue</ph><ept id="p2">&lt;/code&gt;</ept>, ou <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> se não houver nenhuma expressão existente para v<bpt id="p4">&lt;code&gt;</bpt><ph id="ph2">alue</ph><ept id="p4">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets a collection of properties as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">Obtém uma coleção de propriedades, conforme definido na versão de destino do projeto do .NET Framework.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">O Gerenciador de serialização.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An object of the target type.</source>
+          <target state="translated">Um objeto do tipo de destino.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>An array of attributes to pass to the target version of the .NET Framework.</source>
+          <target state="translated">Uma matriz de atributos para passar para a versão de destino do .NET Framework.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A collection of properties as defined in the project's target version of the .NET Framework.</source>
+          <target state="translated">Uma coleção de propriedades conforme definido na versão de destino do projeto do .NET Framework.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets a reflection type generated from type metadata.</source>
+          <target state="translated">Obtém um tipo de reflexão gerado a partir de metadados do tipo.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value will not be equal to <ph id="ph1">`type`</ph> and should not be used for comparison with non-reflection types.</source>
+          <target state="translated">O valor de retorno não serão igual a <ph id="ph1">`type`</ph> e não deve ser usado para comparação com os tipos de não-reflexão.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">O Gerenciador de serialização.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The type to use metadata from.</source>
+          <target state="translated">O tipo para usar os metadados do.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A reflection type generated from the metadata of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Um tipo de reflexão gerado a partir de metadados do <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Gets a reflection type generated from object metadata.</source>
+          <target state="translated">Obtém um tipo de reflexão gerado a partir de metadados do objeto.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The return value will not be equal to the type of object and should not be used for comparison with non-reflection types.</source>
+          <target state="translated">O valor de retorno não será igual ao tipo de objeto e não deve ser usado para comparação com os tipos de não-reflexão.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The serialization manager.</source>
+          <target state="translated">O Gerenciador de serialização.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The object to use metadata from.</source>
+          <target state="translated">O objeto para usar os metadados do.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A reflection type generated from the metadata of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">object</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Um tipo de reflexão gerado a partir de metadados do <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">object</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Locates a serializer for the given object value.</source>
+          <target state="translated">Localiza um serializador para o valor do objeto especificado.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetSerializer method is an extension to the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">O método GetSerializer é uma extensão para o &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;método.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; method takes an object type, rather than an object value.</source>
+          <target state="translated">O &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;método usa um tipo de objeto, em vez de um valor de objeto.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an external party had overridden metadata for a specific object through &lt;xref:System.ComponentModel.TypeDescriptor&gt;, that metadata override would not be seen by the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; method, which only takes a type.</source>
+          <target state="translated">Se um participante externo tinha substituído metadados para um objeto específico por meio de &lt;xref:System.ComponentModel.TypeDescriptor&gt;, essa substituição de metadados não deve ser considerada pelo &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;método, que usa apenas um tipo.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; &lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetSerializer method checks the metadata of the value and the value’s type.</source>
+          <target state="translated">O método GetSerializer verifica os metadados do valor e o tipo do valor.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the two differ, GetSerializer will look to see if there is a custom designer serializer attribute on the value.</source>
+          <target state="translated">Se os dois forem diferentes, GetSerializer procurará para ver se há um atributo de serializador designer personalizado no valor.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If so, GetSerializer will attempt to use it.</source>
+          <target state="translated">Nesse caso, GetSerializer tentar usá-lo.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, it will defer to &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Caso contrário, ele irá passar para &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The object specifying the serializer to retrieve.</source>
+          <target state="translated">O objeto que especifica o serializador para recuperar.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is appropriate for <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que é apropriado para <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Locates a serializer for the given type.</source>
+          <target state="translated">Localiza um serializador de determinado tipo.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetSerializer method is an extension to the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">O método GetSerializer é uma extensão para o &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;método.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt; method takes an object type, rather than an object value.</source>
+          <target state="translated">O &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;método usa um tipo de objeto, em vez de um valor de objeto.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetSerializer%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; specifying the serializer to retrieve.</source>
+          <target state="translated">O &lt;xref:System.Type&gt;especificando o serializador para recuperar.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is appropriate for <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">valueType</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.CodeDomSerializer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que é apropriado para <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">valueType</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;valueType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;valueType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptionProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is aware of the target version of the .NET Framework, for use in type filtering.</source>
+          <target state="translated">Obtém um <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptionProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que está ciente de que a versão de destino do .NET Framework, para uso na filtragem de tipo.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The type description provider service.</source>
+          <target state="translated">O serviço de provedor de descrição de tipo.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>An object from which the type description provider service can be derived, if <ph id="ph1">`provider`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Um objeto do qual o serviço de provedor de descrição de tipo pode ser derivado, se <ph id="ph1">`provider`</ph> é <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>A .NET Framework-aware type description provider.</source>
+          <target state="translated">Um provedor de descrição de tipo com reconhecimento de .NET Framework.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Returns a unique name for the given object.</source>
+          <target state="translated">Retorna um nome exclusivo para o objeto fornecido.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetUniqueName method calls the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetName%2A&gt; method.</source>
+          <target state="translated">As chamadas de método GetUniqueName o &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetName%2A&gt;método.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method does not return a name, then GetUniqueName uses &lt;xref:System.ComponentModel.Design.Serialization.INameCreationService&gt; to fabricate a valid name for the object.</source>
+          <target state="translated">Se esse método não retorna um nome, em seguida, usa GetUniqueName &lt;xref:System.ComponentModel.Design.Serialization.INameCreationService&gt;para fabricar um nome válido para o objeto.&lt;/xref:System.ComponentModel.Design.Serialization.INameCreationService&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the service is not available, GetUniqueName will fabricate a name based on the short type name combined with an index number to make it unique.</source>
+          <target state="translated">Se o serviço não estiver disponível, GetUniqueName será fabricar um nome com base no nome do tipo curto combinado com um número de índice para torná-lo exclusivo.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting name is associated with the serialization manager by calling the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SetName%2A&gt; method before the new name is returned.</source>
+          <target state="translated">O nome resultante é associado com o Gerenciador de serialização chamando o &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SetName%2A&gt;método antes do novo nome será retornado.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SetName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The object for which the name will be retrieved.</source>
+          <target state="translated">O objeto para o qual o nome será recuperado.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A unique name for <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Um nome exclusivo para <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the given object has been serialized.</source>
+          <target state="translated">Retorna um valor que indica se o objeto fornecido foi serializado.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the <ph id="ph1">`value`</ph> parameter to be considered serialized, the <ph id="ph2">`manager`</ph> parameter or another serializer must have called the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt; method to create a relationship between <ph id="ph3">`value`</ph> and a referring expression.</source>
+          <target state="translated">Para o <ph id="ph1">`value`</ph> serializado de parâmetro a serem considerados, o <ph id="ph2">`manager`</ph> parâmetro ou outro serializador deve ter chamado o &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;método para criar uma relação entre <ph id="ph3">`value`</ph> e uma expressão de referência.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The object to test for previous serialization.</source>
+          <target state="translated">O objeto a ser testado para serialização anterior.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> has been serialized; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept> foi serializado; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the given object has been serialized, optionally considering preset expressions.</source>
+          <target state="translated">Retorna um valor que indica se o objeto fornecido foi serializado, opcionalmente, considerando expressões predefinidas.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the <ph id="ph1">`value`</ph> parameter to be considered serialized, the <ph id="ph2">`manager`</ph> parameter or another serializer must have called the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt; method to create a relationship between <ph id="ph3">`value`</ph> and a referring expression.</source>
+          <target state="translated">Para o <ph id="ph1">`value`</ph> serializado de parâmetro a serem considerados, o <ph id="ph2">`manager`</ph> parâmetro ou outro serializador deve ter chamado o &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;método para criar uma relação entre <ph id="ph3">`value`</ph> e uma expressão de referência.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The object to test for previous serialization.</source>
+          <target state="translated">O objeto a ser testado para serialização anterior.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to include preset expressions; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para incluir expressões predefinidas; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> has been serialized; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept> foi serializado; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Returns an expression representing the creation of the given object.</source>
+          <target state="translated">Retorna uma expressão que representa a criação do objeto especificado.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeCreationExpression method can be used to serialize an expression that represents the creation of the <ph id="ph1">`value`</ph> parameter.</source>
+          <target state="translated">O método SerializeCreationExpression pode ser usado para serializar uma expressão que representa a criação do <ph id="ph1">`value`</ph> parâmetro.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is aware of instance descriptors.</source>
+          <target state="translated">Ele está ciente de descritores de instância.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`isComplete`</ph> parameter is set to <ph id="ph2">`true`</ph> if the expression represents a fully configured object, or <ph id="ph3">`false`</ph> if further serialization must be done on the object’s properties.</source>
+          <target state="translated">O <ph id="ph1">`isComplete`</ph> parâmetro está definido como <ph id="ph2">`true`</ph> se a expressão representa um objeto totalmente configurado, ou <ph id="ph3">`false`</ph> se ainda mais a serialização deve ser feita em Propriedades do objeto.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">O objeto a ser serializado.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <ph id="ph1">`value`</ph> was fully serialized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se <ph id="ph1">`value`</ph> foi totalmente serializado; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>An expression representing the creation of <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Uma expressão que representa a criação de <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Serializes the given event into the given statement collection.</source>
+          <target state="translated">Serializa o evento para a coleção de instrução fornecida.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeEvent method is a helper method that derived classes can call to serialize a single event into the given &lt;xref:System.CodeDom.CodeStatementCollection&gt;.</source>
+          <target state="translated">O método SerializeEvent é um método auxiliar que classes derivadas pode chamar para serializar um único evento em determinado &lt;xref:System.CodeDom.CodeStatementCollection&gt;.&lt;/xref:System.CodeDom.CodeStatementCollection&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SerializeEvent queries the serialization manager for a &lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt; for the given event, and then asks the &lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt; to serialize it.</source>
+          <target state="translated">SerializeEvent consultará o Gerenciador de serialização para um &lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;para um determinado evento e, em seguida, pede &lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;para serializar o proprietário.&lt;/xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt; &lt;/xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SerializeEvent places the <ph id="ph1">`statements`</ph> and <ph id="ph2">`descriptor`</ph> parameters on the &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.</source>
+          <target state="translated">Locais de SerializeEvent o <ph id="ph1">`statements`</ph> e <ph id="ph2">`descriptor`</ph> parâmetros em &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.ContextStack&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SerializeEvent requires an &lt;xref:System.ComponentModel.Design.IEventBindingService&gt; to discover event bindings to methods that are not compiled.</source>
+          <target state="translated">SerializeEvent requer um &lt;xref:System.ComponentModel.Design.IEventBindingService&gt;para descobrir associações de evento para métodos que não são compilados.&lt;/xref:System.ComponentModel.Design.IEventBindingService&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this service is not present, event bindings to non-compiled methods will not be written.</source>
+          <target state="translated">Se esse serviço não estiver presente, associações de evento para métodos não compilada não serão gravadas.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Event bindings to compiled methods will still be serialized if the objects to which the events are bound can be converted into expressions.</source>
+          <target state="translated">Associações de evento para métodos compilados ainda serão serializadas se os objetos aos quais os eventos são vinculados podem ser convertidos em expressões.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the event will be serialized.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> em que o evento será serializado.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The object to which <ph id="ph1">`descriptor`</ph> is bound.</source>
+          <target state="translated">O objeto ao qual <ph id="ph1">`descriptor`</ph> está associado.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the event to serialize.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> especificando o evento para serializar.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph>, or <ph id="ph4">&lt;code&gt;descriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph>, or <ph id="ph4">&lt;code&gt;descriptor&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IEventBindingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not available.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.Design.IEventBindingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>não está disponível.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Serializes the specified events into the given statement collection.</source>
+          <target state="translated">Serializa os eventos especificados para a coleção de instrução fornecida.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeEvents method is a helper method that derived classes can call.</source>
+          <target state="translated">O método SerializeEvents é um método auxiliar que classes derivadas pode chamar.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It looks at events on the <ph id="ph1">`value`</ph> parameter that match the <ph id="ph2">`filter`</ph> parameter, and then it calls the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeEvent%2A&gt; method for each event.</source>
+          <target state="translated">Examina a eventos <ph id="ph1">`value`</ph> parâmetro que corresponda a <ph id="ph2">`filter`</ph> parâmetro e, em seguida, ele chama o &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeEvent%2A&gt;método para cada evento.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeEvents method places the &lt;xref:System.ComponentModel.InheritanceAttribute&gt; for <ph id="ph1">`value`</ph> on the &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.</source>
+          <target state="translated">Os locais de método SerializeEvents o &lt;xref:System.ComponentModel.InheritanceAttribute&gt;para <ph id="ph1">`value`</ph> em &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.ContextStack&gt; &lt;/xref:System.ComponentModel.InheritanceAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the event will be serialized.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> em que o evento será serializado.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The object on which events will be serialized.</source>
+          <target state="translated">O objeto no qual os eventos poderão ser serializados.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Attribute&gt; array that filters which events will be serialized.</source>
+          <target state="translated">Um &lt;xref:System.Attribute&gt;matriz que filtra os eventos que serão serializados.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Serializes the properties on the given object into the given statement collection.</source>
+          <target state="translated">Serializa as propriedades no objeto especificado na coleção de instrução fornecida.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeProperties method is a helper method that derived classes can call.</source>
+          <target state="translated">O método SerializeProperties é um método auxiliar que classes derivadas pode chamar.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It looks at properties on the <ph id="ph1">`value`</ph> parameter that match the <ph id="ph2">`filter`</ph> parameter, and then it calls the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeProperty%2A&gt; method for each property.</source>
+          <target state="translated">Ele analisa as propriedades <ph id="ph1">`value`</ph> parâmetro que corresponda a <ph id="ph2">`filter`</ph> parâmetro e, em seguida, ele chama o &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeProperty%2A&gt;método para cada propriedade.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeProperties method places the &lt;xref:System.ComponentModel.InheritanceAttribute&gt; for <ph id="ph1">`value`</ph> on the &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.</source>
+          <target state="translated">Os locais de método SerializeProperties o &lt;xref:System.ComponentModel.InheritanceAttribute&gt;para <ph id="ph1">`value`</ph> em &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.ContextStack&gt; &lt;/xref:System.ComponentModel.InheritanceAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the properties will be serialized.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> em que as propriedades serão serializadas.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The object on which the properties will be serialized.</source>
+          <target state="translated">O objeto no qual as propriedades serão serializadas.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Attribute&gt; array that filters which properties will be serialized.</source>
+          <target state="translated">Um &lt;xref:System.Attribute&gt;matriz que filtra as propriedades que serão serializadas.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Serializes the properties on the given object into the invariant culture’s resource bundle.</source>
+          <target state="translated">Serializa as propriedades no objeto fornecido no pacote de recursos da cultura invariável.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializePropertiesToResources method is a helper method that derived classes can call.</source>
+          <target state="translated">O método SerializePropertiesToResources é um método auxiliar que classes derivadas pode chamar.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It looks at properties on the <ph id="ph1">`value`</ph> parameter that match the <ph id="ph2">`filter`</ph> parameter, and then it serializes the properties into the invariant culture resource bundle.</source>
+          <target state="translated">Ele analisa as propriedades <ph id="ph1">`value`</ph> parâmetro que corresponda a <ph id="ph2">`filter`</ph> parâmetro e, em seguida, serializa as propriedades para o pacote de recursos de cultura invariável.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the resource service returns a &lt;xref:System.Resources.ResXResourceWriter&gt;, the property values will be stored in the metadata section of the XML resource (.resx) file.</source>
+          <target state="translated">Se o serviço de recurso retorna um &lt;xref:System.Resources.ResXResourceWriter&gt;, os valores de propriedade serão armazenados na seção de metadados do arquivo de recurso (. resx) XML.&lt;/xref:System.Resources.ResXResourceWriter&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`statements`</ph> parameter is not used.</source>
+          <target state="translated">O <ph id="ph1">`statements`</ph> parâmetro não for usado.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To be serialized as a resource, a property must be simple (not a content property) and its value must be serializable.</source>
+          <target state="translated">Para ser serializada como um recurso, uma propriedade deve ser simples (não uma propriedade de conteúdo) e seu valor devem ser serializáveis.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Properties that do not conform to this pattern will be skipped.</source>
+          <target state="translated">Propriedades que não está de acordo com esse padrão serão ignoradas.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SerializePropertiesToResources requires an &lt;xref:System.ComponentModel.Design.IResourceService&gt; to obtain a &lt;xref:System.Resources.ResourceWriter&gt; to write resources for the invariant culture.</source>
+          <target state="translated">SerializePropertiesToResources requer um &lt;xref:System.ComponentModel.Design.IResourceService&gt;para obter um &lt;xref:System.Resources.ResourceWriter&gt;gravar recursos para a cultura invariável.&lt;/xref:System.Resources.ResourceWriter&gt; &lt;/xref:System.ComponentModel.Design.IResourceService&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this service is not available, no resources will be written.</source>
+          <target state="translated">Se esse serviço não estiver disponível, não há recursos serão gravados.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Not used.</source>
+          <target state="translated">Não usado.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The object whose properties will be serialized.</source>
+          <target state="translated">O objeto cujas propriedades serão serializadas.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Attribute&gt; array that filters which properties will be serialized.</source>
+          <target state="translated">Um &lt;xref:System.Attribute&gt;matriz que filtra as propriedades que serão serializadas.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Serializes a property on the given object.</source>
+          <target state="translated">Serializa uma propriedade no objeto especificado.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeProperty method retrieves a &lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt; for the <ph id="ph1">`propertyToSerialize`</ph> parameter and delegates to it.</source>
+          <target state="translated">O método SerializeProperty recupera um &lt;xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;para o <ph id="ph1">`propertyToSerialize`</ph> parâmetro e delegados para proprietário.&lt;/xref:System.ComponentModel.Design.Serialization.MemberCodeDomSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SerializeProperty places the <ph id="ph1">`statements`</ph> and <ph id="ph2">`propertyToSerialize`</ph> parameters on the &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.</source>
+          <target state="translated">Locais de SerializeProperty o <ph id="ph1">`statements`</ph> e <ph id="ph2">`propertyToSerialize`</ph> parâmetros em &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.ContextStack&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the property will be serialized.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.CodeDom.CodeStatementCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> em que a propriedade será serializada.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The object on which the property will be serialized.</source>
+          <target state="translated">O objeto no qual a propriedade será serializada.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The property to serialize.</source>
+          <target state="translated">A propriedade para serializar.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph>, or <ph id="ph4">&lt;code&gt;propertyToSerialize&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, <ph id="ph3">&lt;code&gt;statements&lt;/code&gt;</ph>, or <ph id="ph4">&lt;code&gt;propertyToSerialize&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Serializes the given object into a resource bundle using the given resource name.</source>
+          <target state="translated">Serializa o objeto fornecido em um pacote de recursos usando o nome do recurso especificado.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeResource method is a helper method that serializes a value to a resource bundle under the given name.</source>
+          <target state="translated">O método SerializeResource é um método auxiliar que serializa um valor para um pacote de recursos sob o nome fornecido.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The culture that the resource is written to is determined by searching the serialization manager’s &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties%2A&gt; collection for a property called <ph id="ph1">`ResourceCulture`</ph>.</source>
+          <target state="translated">A cultura que o recurso é gravado é determinada por meio de pesquisa do Gerenciador de serialização &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties%2A&gt;coleção para uma propriedade chamada <ph id="ph1">`ResourceCulture`</ph>.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property exists, resources will be written to that culture.</source>
+          <target state="translated">Se essa propriedade existir, recursos serão gravados para aquela cultura.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, resources will be written to the invariant culture.</source>
+          <target state="translated">Caso contrário, os recursos serão gravados para a cultura invariável.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`value`</ph> parameter must be serializable.</source>
+          <target state="translated">O <ph id="ph1">`value`</ph> parâmetro deve ser serializável.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SerializeResource requires an &lt;xref:System.ComponentModel.Design.IResourceService&gt; to obtain a &lt;xref:System.Resources.ResourceWriter&gt; to write resources for the correct culture.</source>
+          <target state="translated">SerializeResource requer um &lt;xref:System.ComponentModel.Design.IResourceService&gt;para obter um &lt;xref:System.Resources.ResourceWriter&gt;gravar recursos para a cultura correto.&lt;/xref:System.Resources.ResourceWriter&gt; &lt;/xref:System.ComponentModel.Design.IResourceService&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this service is not available, SerializeResource will instead build a binary object in code that represents the resource.</source>
+          <target state="translated">Se esse serviço não estiver disponível, SerializeResource em vez disso, criará um objeto binário no código que representa o recurso.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The name of the resource bundle into which <ph id="ph1">`value`</ph> will be serialized.</source>
+          <target state="translated">O nome do conjunto de recursos no qual <ph id="ph1">`value`</ph> será serializado.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">O objeto a ser serializado.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Serializes the given object into a resource bundle using the given resource name.</source>
+          <target state="translated">Serializa o objeto fornecido em um pacote de recursos usando o nome do recurso especificado.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resource is always written to the invariant culture.</source>
+          <target state="translated">O recurso é sempre gravado para a cultura invariável.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`value`</ph> parameter must be serializable.</source>
+          <target state="translated">O <ph id="ph1">`value`</ph> parâmetro deve ser serializável.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeResourceInvariant method requires an &lt;xref:System.ComponentModel.Design.IResourceService&gt; to obtain a &lt;xref:System.Resources.ResourceWriter&gt; to write resources for the correct culture.</source>
+          <target state="translated">O método SerializeResourceInvariant requer um &lt;xref:System.ComponentModel.Design.IResourceService&gt;para obter um &lt;xref:System.Resources.ResourceWriter&gt;gravar recursos para a cultura correto.&lt;/xref:System.Resources.ResourceWriter&gt; &lt;/xref:System.ComponentModel.Design.IResourceService&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this service is not available, &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt; will instead build a binary object in code that represents the resource.</source>
+          <target state="translated">Se esse serviço não estiver disponível, &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt;em vez disso, criará um objeto binário no código que representa o recurso.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The name of the resource bundle into which <ph id="ph1">`value`</ph> will be serialized.</source>
+          <target state="translated">O nome do conjunto de recursos no qual <ph id="ph1">`value`</ph> será serializado.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">O objeto a ser serializado.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Serializes the given object into an expression.</source>
+          <target state="translated">Serializa o objeto fornecido em uma expressão.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`value`</ph> parameter can be <ph id="ph2">`null`</ph>, in which case a primitive expression will be returned.</source>
+          <target state="translated">O <ph id="ph1">`value`</ph> parâmetro pode ser <ph id="ph2">`null`</ph>, caso em que uma expressão primitivo será retornada.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeToExpression method uses the following rules for serializing types:      1.</source>
+          <target state="translated">O método SerializeToExpression usa as seguintes regras para serialização de tipos: 1.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It first calls the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; method to see if an expression has already been created for the object.</source>
+          <target state="translated">Primeiro, ele chama o &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;método para ver se uma expressão já foi criada para o objeto.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If so, it returns the existing expression.</source>
+          <target state="translated">Nesse caso, ele retorna a expressão existente.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It then locates the object’s serializer, and asks it to serialize.</source>
+          <target state="translated">Ela localiza o serializador do objeto e pede que ele serializar.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the return value of the object’s serializer is a &lt;xref:System.CodeDom.CodeExpression&gt;, the expression is returned.</source>
+          <target state="translated">Se o valor de retorno do serializador do objeto é um &lt;xref:System.CodeDom.CodeExpression&gt;, a expressão é retornada.&lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It makes one last call to &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; to see if the serializer added an expression.</source>
+          <target state="translated">Faz uma última chamada para &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;para ver se o serializador adicionada uma expressão.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Finally, it returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Finalmente, ele retorna <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no expression could be created and no suitable serializer could be found, an error will be reported through the serialization manager.</source>
+          <target state="translated">Se nenhuma expressão pode ser criado e nenhum serializador adequado foi encontrado, um erro será relatado por meio do Gerenciador de serialização.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No error will be reported if a serializer was found but it failed to produce an expression.</source>
+          <target state="translated">Nenhum erro será relatado se um serializador foi encontrado, mas ele não conseguiu produzir uma expressão.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, it is assumed that the serializer either already reported the error or it did not attempt to serialize the object.</source>
+          <target state="translated">Nesse caso, será considerado que o serializador ou já relatou o erro ou não houve tentativa serializar o objeto.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the serializer returned a statement or a collection of statements, those statements will not be discarded.</source>
+          <target state="translated">Se o serializador retornado de uma instrução ou uma coleção de instruções, essas instruções não serão descartadas.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SerializeToExpression method will first look for a &lt;xref:System.ComponentModel.Design.Serialization.StatementContext&gt; on the context stack and add statements to the statement context object's &lt;xref:System.ComponentModel.Design.Serialization.StatementContext.StatementCollection%2A&gt; property.</source>
+          <target state="translated">O método SerializeToExpression primeiro procurará um &lt;xref:System.ComponentModel.Design.Serialization.StatementContext&gt;no contexto de pilha e adicione instruções para o objeto de contexto de instrução &lt;xref:System.ComponentModel.Design.Serialization.StatementContext.StatementCollection%2A&gt;propriedade.&lt;/xref:System.ComponentModel.Design.Serialization.StatementContext.StatementCollection%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.StatementContext&gt;</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no statement context, the SerializeToExpression method will look in the context for a &lt;xref:System.CodeDom.CodeStatementCollection&gt; and add the statements there.</source>
+          <target state="translated">Se não houver nenhum contexto de instrução, o método SerializeToExpression examinará o contexto para um &lt;xref:System.CodeDom.CodeStatementCollection&gt;e adicione as instruções existe.&lt;/xref:System.CodeDom.CodeStatementCollection&gt;</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no place can be found to add the statements, an error will be generated.</source>
+          <target state="translated">Se o local pode ser encontrado para adicionar as instruções, um erro será gerado.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You should not call the SerializeToExpression method within &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService.Serialize%2A&gt; when serializing your own object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Você não deve chamar o método SerializeToExpression em &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService.Serialize%2A&gt;ao serializar seu próprio objeto.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService.Serialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, you should call &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;.</source>
+          <target state="translated">Em vez disso, você deve chamar &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it returns <ph id="ph1">`null`</ph>, create your own expression and call &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;.</source>
+          <target state="translated">Se ele retorna <ph id="ph1">`null`</ph>, crie sua própria expressão e chame &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then proceed with the rest of your serialization.</source>
+          <target state="translated">Prossiga com o restante da sua serialização.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">O objeto a ser serializado.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> can be serialized; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto se <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept> pode ser serializado; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Serializes the given object into an expression.</source>
+          <target state="translated">Serializa o objeto fornecido em uma expressão.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt; method is a helper method that serializes a value to a resource expression.</source>
+          <target state="translated">O &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;é um método auxiliar que serializa um valor para uma expressão de recurso.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is in contrast to the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt; method, which writes a value to a resource binary object.</source>
+          <target state="translated">Isso é, em comparação com o &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt;método, que grava um valor em um objeto de recurso binário.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeResource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt; goes one step further and returns an expression that can be used to recover the resource.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;vai mais além e retorna uma expressão que pode ser usada para recuperar o recurso.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the return value might be "rm.GetValue("SomeBitmap");".</source>
+          <target state="translated">Por exemplo, o valor de retorno pode ser "rm. GetValue("SomeBitmap"); ".</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The name of the resource is calculated from the &lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;, if one can be found on the context stack.</source>
+          <target state="translated">O nome do recurso é calculado a partir de &lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;, se um pode ser encontrado na pilha de contexto.&lt;/xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt; method will look on the &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt; for the following objects:      -   &lt;xref:System.CodeDom.CodeStatementCollection&gt;—a collection of statements to add a resource manager to, if one needs to be declared.</source>
+          <target state="translated">O &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;método aparecerão no &lt;xref:System.ComponentModel.Design.Serialization.ContextStack&gt;para os seguintes objetos:- &lt;xref:System.CodeDom.CodeStatementCollection&gt;— uma coleção de instruções para adicionar um Gerenciador de recursos, se um precisa ser declarada.&lt;/xref:System.CodeDom.CodeStatementCollection&gt; &lt;/xref:System.ComponentModel.Design.Serialization.ContextStack&gt; &lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.SerializeToResourceExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;—the root expression, which is needed to create a resource manager.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.Design.Serialization.RootContext&gt;— a expressão de raiz, que é necessário para criar um recurso de Gerenciador.&lt;/xref:System.ComponentModel.Design.Serialization.RootContext&gt;</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;—used to fabricate a name for the resource and to decide what type of resource manager call to make.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;— usados para fabricar um nome para o recurso e decidir que tipo de chamada de Gerenciador de recursos para tornar.&lt;/xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">O objeto a ser serializado.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> as a serialized expression.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> contendo <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept> como uma expressão serializada.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Serializes the given object into an expression appropriate for the invariant culture.</source>
+          <target state="translated">Serializa o objeto fornecido em uma expressão apropriada para a cultura invariável.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`ensureInvariant`</ph> parameter is <ph id="ph2">`true`</ph>, the SerializeToResourceExpression method will also write the resource value into the invariant culture’s resource file if the current <ph id="ph3">`ResourceCulture`</ph> is not the invariant culture..</source>
+          <target state="translated">Se o <ph id="ph1">`ensureInvariant`</ph> parâmetro é <ph id="ph2">`true`</ph>, o método SerializeToResourceExpression também gravará o valor do recurso no arquivo de recursos da cultura invariável se atual <ph id="ph3">`ResourceCulture`</ph> não é a cultura invariável.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">O objeto a ser serializado.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to serialize into the invariant culture; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para serializar para a cultura invariável; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p2">&lt;/code&gt;</ept> as a serialized expression.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> contendo <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p2">&lt;/code&gt;</ept> como uma expressão serializada.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Associates an object with an expression.</source>
+          <target state="translated">Associa um objeto com uma expressão.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetExpression method is a helper method that associates a &lt;xref:System.CodeDom.CodeExpression&gt; with an object.</source>
+          <target state="translated">O método SetExpression é um método auxiliar que associa um &lt;xref:System.CodeDom.CodeExpression&gt;com um objeto.&lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that have been associated with expressions in this way are accessible through the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; method.</source>
+          <target state="translated">Objetos que foram associados a expressões dessa maneira são acessíveis por meio de &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;método.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetExpression stores its expression table as an appended object on the context stack so it is accessible by any serializer’s &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; method.</source>
+          <target state="translated">SetExpression armazena sua tabela de expressão como um objeto acrescentado na pilha de contexto para que ela é acessível por qualquer serializador &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;método.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">O objeto a ser serializado.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with which to associate <ph id="ph1">`value`</ph>.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ao qual associar <ph id="ph1">`value`</ph>.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;expression&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;manager&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;value&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;expression&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Associates an object with an expression, optionally specifying a preset expression.</source>
+          <target state="translated">Associa um objeto com uma expressão, e, opcionalmente, especificando uma expressão predefinida.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetExpression method is a helper method that associates a &lt;xref:System.CodeDom.CodeExpression&gt; with an object.</source>
+          <target state="translated">O método SetExpression é um método auxiliar que associa um &lt;xref:System.CodeDom.CodeExpression&gt;com um objeto.&lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Objects that have been associated with expressions in this way are accessible through the &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; method.</source>
+          <target state="translated">Objetos que foram associados a expressões dessa maneira são acessíveis por meio de &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;método.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetExpression stores its expression table as an appended object on the context stack so it is accessible by any serializer’s &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt; method.</source>
+          <target state="translated">O SetExpression armazena sua tabela de expressão como um objeto acrescentado na pilha de contexto para que ela é acessível por qualquer serializador &lt;xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;método.&lt;/xref:System.ComponentModel.Design.Serialization.CodeDomSerializerBase.GetExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for serialization.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a ser usado para serialização.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>The object to serialize.</source>
+          <target state="translated">O objeto a ser serializado.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with which to associate <ph id="ph1">`value`</ph>.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ao qual associar <ph id="ph1">`value`</ph>.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to specify a preset expression; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para especificar uma expressão predefinida; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
