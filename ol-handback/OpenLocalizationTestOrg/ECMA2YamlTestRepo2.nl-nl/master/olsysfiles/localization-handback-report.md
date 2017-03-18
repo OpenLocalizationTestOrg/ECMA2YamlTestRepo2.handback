@@ -1,11 +1,43 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [fulldocset\System.Runtime.Serialization.XPathQueryGenerator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Runtime.Serialization.XPathQueryGenerator.yml) | InSyncHandedBackSuccess | [Details](#f3a9e4a1b66aa2df7b707695186bf43388e6044379509)
+ [fulldocset\System.Xml.Serialization.SoapSchemaExporter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Xml.Serialization.SoapSchemaExporter.yml) | InSyncHandedBackSuccess | [Details](#7b246beca3d17febf697a82967bde0b503b937cc87684)
 
 ## Item Details
+##### <a name='f3a9e4a1b66aa2df7b707695186bf43388e6044379509'></a> Source: [fulldocset\System.Runtime.Serialization.XPathQueryGenerator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Runtime.Serialization.XPathQueryGenerator.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Runtime.Serialization.XPathQueryGenerator.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nl-nl/blob/07e64a32717abec49d164071c2cc706132913af8/fulldocset/System.Runtime.Serialization.XPathQueryGenerator.yml)
+* Handoff File: [System.Runtime.Serialization.XPathQueryGenerator.cf0bad8fd547bea635df1286230cec6ec6750869.nl-nl.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/250a643c30b5c40d0f8208c3fa26e2aa00eef53a/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nl-nl/master/fulldocset/System.Runtime.Serialization.XPathQueryGenerator.cf0bad8fd547bea635df1286230cec6ec6750869.nl-nl.xlf)
+* Handoff Datetime: 2017-03-16 04:11:19
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Runtime.Serialization.XPathQueryGenerator.cf0bad8fd547bea635df1286230cec6ec6750869.nl-nl.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/650bfe94398d0734e2d473b36f51f66e8eab8627/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nl-nl/master/fulldocset/System.Runtime.Serialization.XPathQueryGenerator.cf0bad8fd547bea635df1286230cec6ec6750869.nl-nl.xlf)
+* Handback Datetime: 2017-03-18 23:55:26
+* Handback Name: 
+* [Back to Top](#report-top)
+
+##### <a name='7b246beca3d17febf697a82967bde0b503b937cc87684'></a> Source: [fulldocset\System.Xml.Serialization.SoapSchemaExporter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Xml.Serialization.SoapSchemaExporter.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Xml.Serialization.SoapSchemaExporter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nl-nl/blob/07e64a32717abec49d164071c2cc706132913af8/fulldocset/System.Xml.Serialization.SoapSchemaExporter.yml)
+* Handoff File: [System.Xml.Serialization.SoapSchemaExporter.8284cf0702a32358ee2908df25c929daf6a1bd77.nl-nl.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/250a643c30b5c40d0f8208c3fa26e2aa00eef53a/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nl-nl/master/fulldocset/System.Xml.Serialization.SoapSchemaExporter.8284cf0702a32358ee2908df25c929daf6a1bd77.nl-nl.xlf)
+* Handoff Datetime: 2017-03-16 04:11:19
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Xml.Serialization.SoapSchemaExporter.8284cf0702a32358ee2908df25c929daf6a1bd77.nl-nl.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/650bfe94398d0734e2d473b36f51f66e8eab8627/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.nl-nl/master/fulldocset/System.Xml.Serialization.SoapSchemaExporter.8284cf0702a32358ee2908df25c929daf6a1bd77.nl-nl.xlf)
+* Handback Datetime: 2017-03-18 23:55:26
+* Handback Name: 
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
