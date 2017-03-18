@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d3a2be6130883ab8d8f9a71d95ec4c997435d394</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.TextFormatting.TextSource.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7cbc24ba265432f58d7aa7d8338f489857c93fca</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f425f02849050fd02b4c5c7f5dd1df063c05bdc9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an abstract class for specifying character data and formatting properties to be used by the <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">문자 데이터를 지정 하 고 속성에서 사용할 서식 지정에 대 한 추상 클래스를 제공는 <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All access to the text in the TextSource object is through the &lt;xref:System.Windows.Media.TextFormatting.TextSource.GetTextRun%2A&gt;, which is designed to allow the text layout client to virtualize text in any way it chooses.</source>
+          <target state="translated">통해 텍스트 TextSource 개체에 대 한 모든 액세스는는 &lt;xref:System.Windows.Media.TextFormatting.TextSource.GetTextRun%2A&gt;, 텍스트 레이아웃 클라이언트 선택 텍스트를 가상화 할 수 있도록 디자인 된.&lt;/xref:System.Windows.Media.TextFormatting.TextSource.GetTextRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Media.TextFormatting.TextFormatter&gt; is the <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> text engine that provides services for formatting text and breaking text lines.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.TextFormatting.TextFormatter&gt;이 <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> 텍스트 서식 지정 및 텍스트 줄 바꿈을에 서비스를 제공 하는 텍스트 엔진.&lt;/xref:System.Windows.Media.TextFormatting.TextFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Media.TextFormatting.TextFormatter&gt; can handle different text character formats and paragraph styles, and includes support for international text layout.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.TextFormatting.TextFormatter&gt;다양 한 텍스트 문자 형식 및 단락 스타일을 처리할 수 있습니다 및 국제 텍스트 레이아웃에 대 한 지원이 포함 됩니다.&lt;/xref:System.Windows.Media.TextFormatting.TextFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike a traditional text <ph id="ph1">[!INCLUDE[TLA#tla_api](~/add/includes/tlasharptla-api-md.md)]</ph>, the &lt;xref:System.Windows.Media.TextFormatting.TextFormatter&gt; interacts with a text layout client through a set of callback methods.</source>
+          <target state="translated">일반 텍스트와 달리 <ph id="ph1">[!INCLUDE[TLA#tla_api](~/add/includes/tlasharptla-api-md.md)]</ph>, &lt;xref:System.Windows.Media.TextFormatting.TextFormatter&gt;콜백 메서드의 집합을 통해 텍스트 레이아웃 클라이언트와 상호 작용 합니다.&lt;/xref:System.Windows.Media.TextFormatting.TextFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It requires the client to provide these methods in an implementation of the TextSource class.</source>
+          <target state="translated">클라이언트를 TextSource 클래스의 구현에서 이러한 메서드를 제공 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following list describes the three members you must override:      -   &lt;xref:System.Windows.Media.TextFormatting.TextSource.GetTextRun%2A&gt;: Retrieves a &lt;xref:System.Windows.Media.TextFormatting.TextRun&gt; starting at a specified TextSource position.</source>
+          <target state="translated">다음 목록에는 재정의 해야 하는 세 가지 멤버를 설명:- &lt;xref:System.Windows.Media.TextFormatting.TextSource.GetTextRun%2A&gt;:를 검색 한 &lt;xref:System.Windows.Media.TextFormatting.TextRun&gt;지정된 TextSource 위치에서 시작 합니다.&lt;/xref:System.Windows.Media.TextFormatting.TextRun&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextSource.GetTextRun%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Windows.Media.TextFormatting.TextSource.GetPrecedingText%2A&gt;: Retrieves the text span immediately before the specified TextSource position.</source>
+          <target state="translated">- &lt;xref:System.Windows.Media.TextFormatting.TextSource.GetPrecedingText%2A&gt;: 지정된 된 TextSource 위치 바로 앞에 있는 텍스트 범위를 검색 합니다.&lt;/xref:System.Windows.Media.TextFormatting.TextSource.GetPrecedingText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.Windows.Media.TextFormatting.TextSource.GetTextEffectCharacterIndexFromTextSourceCharacterIndex%2A&gt;: Retrieves a value that maps a TextSource character index to a &lt;xref:System.Windows.Media.TextEffect&gt; character index.</source>
+          <target state="translated">- &lt;xref:System.Windows.Media.TextFormatting.TextSource.GetTextEffectCharacterIndexFromTextSourceCharacterIndex%2A&gt;: TextSource 문자 인덱스를 매핑하는 값을 검색 한 &lt;xref:System.Windows.Media.TextEffect&gt;문자 인덱스입니다.&lt;/xref:System.Windows.Media.TextEffect&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextSource.GetTextEffectCharacterIndexFromTextSourceCharacterIndex%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For a complete code sample that shows how to implement a derived TextSource class, see <bpt id="p1">[</bpt>Advanced Text Formatting Sample<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=159965)</ept> .</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; TextSource 파생된 클래스를 구현 하는 방법을 보여 주는 전체 코드 샘플을 보려면 <bpt id="p1">[</bpt>고급 텍스트 서식 지정 샘플<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=159965)</ept> 합니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Retrieves the text span immediately before the specified <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> position.</source>
+          <target state="translated">지정 된 바로 앞에 있는 텍스트 범위를 검색 <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 위치입니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetPrecedingText method returns an empty &lt;xref:System.Windows.Media.TextFormatting.CultureSpecificCharacterBufferRange&gt; if the text span immediately before <ph id="ph1">`textSourceCharacterIndexLimit`</ph> does not contain any text, such as inline object or a hidden run.</source>
+          <target state="translated">GetPrecedingText 메서드는 빈 반환 &lt;xref:System.Windows.Media.TextFormatting.CultureSpecificCharacterBufferRange&gt;바로 앞에 있는 텍스트 범위 경우 <ph id="ph1">`textSourceCharacterIndexLimit`</ph> 인라인 개체 또는 숨겨진된 실행 되는 모든 텍스트가 포함 되지 않습니다.&lt;/xref:System.Windows.Media.TextFormatting.CultureSpecificCharacterBufferRange&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns a zero-length text span if there are no values preceding <ph id="ph1">`textSourceCharacterIndexLimit`</ph>.</source>
+          <target state="translated">이전 값이 없는 경우에이 메서드는 길이가&amp;0; 인 텍스트 범위 <ph id="ph1">`textSourceCharacterIndexLimit`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; value that specifies the character index position where text retrieval stops.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;텍스트 검색을 중지 하는 문자 인덱스 위치를 지정 하는 값입니다.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.CultureSpecificCharacterBufferRange"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the text span immediately before <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">textSourceCharacterIndexLimit</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.CultureSpecificCharacterBufferRange"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 바로 앞에 있는 텍스트 범위를 나타내는 값 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">textSourceCharacterIndexLimit</ph> <ept id="p2">&lt;/code&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Retrieves a value that maps a <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> character index to a <bpt id="p2">&lt;xref href="System.Windows.Media.TextEffect"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> character index.</source>
+          <target state="translated">매핑되는 값을 검색 한 <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 문자 인덱스에는 <bpt id="p2">&lt;xref href="System.Windows.Media.TextEffect"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 문자 인덱스입니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; value that specifies the <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> character index to map.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;지정 하는 값은 <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 매핑할 문자 인덱스입니다.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; value that represents the <bpt id="p1">&lt;xref href="System.Windows.Media.TextEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> character index.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;를 나타내는 값의 <bpt id="p1">&lt;xref href="System.Windows.Media.TextEffect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 문자 인덱스입니다.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Retrieves a <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextRun"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> starting at a specified <bpt id="p2">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> position.</source>
+          <target state="translated">검색 한 <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextRun"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에서 지정 된 시작 <bpt id="p2">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 위치입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A text run is a sequence of characters sharing a single property set.</source>
+          <target state="translated">텍스트 실행을 단일 속성 집합을 공유 하는 문자 시퀀스.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any change to the format, such as font family, font style, foreground color, text decoration, or any other formatting effect, breaks the text run.</source>
+          <target state="translated">글꼴 패밀리, 글꼴 스타일, 전경 색, 텍스트 장식 또는 기타 서식 효과 텍스트 실행 나누기 등의 서식 변경.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.TextFormatting.TextRun&gt; class is the root of a type hierarchy representing several types of text content processed by &lt;xref:System.Windows.Media.TextFormatting.TextFormatter&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.TextFormatting.TextRun&gt;클래스는 여러 유형의 &lt;xref:System.Windows.Media.TextFormatting.TextFormatter&gt;.&lt;/xref:System.Windows.Media.TextFormatting.TextFormatter&gt; 에서 처리 하는 텍스트 콘텐츠를 나타내는 형식 계층 구조의 루트는&lt;/xref:System.Windows.Media.TextFormatting.TextRun&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each class that is derived from &lt;xref:System.Windows.Media.TextFormatting.TextRun&gt; represents a distinct type of text content.</source>
+          <target state="translated">각 클래스에서 파생 된 &lt;xref:System.Windows.Media.TextFormatting.TextRun&gt;고유한 유형의 텍스트 콘텐츠를 나타냅니다.&lt;/xref:System.Windows.Media.TextFormatting.TextRun&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Class|Description|   |-----------|-----------------|   |&lt;xref:System.Windows.Media.TextFormatting.TextRun&gt;|Root of the hierarchy.</source>
+          <target state="translated">| 클래스 | 설명 |   |-----------|-----------------|   | &lt;xref:System.Windows.Media.TextFormatting.TextRun&gt;| 계층의 루트.&lt;/xref:System.Windows.Media.TextFormatting.TextRun&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Defines a group of characters that share the same set of character properties.|   |&lt;xref:System.Windows.Media.TextFormatting.TextCharacters&gt;|Defines a collection of character glyphs from a distinct physical typeface.|   |&lt;xref:System.Windows.Media.TextFormatting.TextEmbeddedObject&gt;|Defines a type of text content in which measuring, hit testing, and drawing of the entire content is done as a distinct entity.</source>
+          <target state="translated">문자 속성의 동일한 집합을 공유 하는 문자 그룹을 정의 합니다. |   | &lt;xref:System.Windows.Media.TextFormatting.TextCharacters&gt;| 서로 다른 물리적 서체에서 문자 모양 컬렉션을 정의 합니다. |   | &lt;xref:System.Windows.Media.TextFormatting.TextEmbeddedObject&gt;| 텍스트 콘텐츠를 측정, 적중 테스트 및 전체 콘텐츠를 그리는 고유 엔터티로 수행 되는 형식의 정의.&lt;/xref:System.Windows.Media.TextFormatting.TextEmbeddedObject&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextCharacters&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of this type of content is a button in the middle of the line of text.|   |&lt;xref:System.Windows.Media.TextFormatting.TextEndOfLine&gt;|Defines a line-break character code.|   |&lt;xref:System.Windows.Media.TextFormatting.TextEndOfParagraph&gt;|Defines a paragraph-break character code.</source>
+          <target state="translated">이 콘텐츠 형식의 예는 텍스트 줄의 중간에 있는 단추가. |   | &lt;xref:System.Windows.Media.TextFormatting.TextEndOfLine&gt;| 줄 바꿈 문자 코드를 정의 합니다. |   | &lt;xref:System.Windows.Media.TextFormatting.TextEndOfParagraph&gt;| 단락 구분선 문자 코드를 정의 합니다.&lt;/xref:System.Windows.Media.TextFormatting.TextEndOfParagraph&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextEndOfLine&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derives from &lt;xref:System.Windows.Media.TextFormatting.TextEndOfLine&gt;.|   |&lt;xref:System.Windows.Media.TextFormatting.TextEndOfSegment&gt;|Defines a segment break marker.|   |&lt;xref:System.Windows.Media.TextFormatting.TextHidden&gt;|Defines a range of non-visible characters.|   |&lt;xref:System.Windows.Media.TextFormatting.TextModifier&gt;|Defines the beginning of a modification scope.|</source>
+          <target state="translated">&lt;xref:System.Windows.Media.TextFormatting.TextEndOfLine&gt;에서 파생 됩니다. |   | &lt;xref:System.Windows.Media.TextFormatting.TextEndOfSegment&gt;| 세그먼트 나누기 마커를 정의 합니다. |   | &lt;xref:System.Windows.Media.TextFormatting.TextHidden&gt;| 표시 되지 않는 문자는 범위를 정의 합니다. |   | &lt;xref:System.Windows.Media.TextFormatting.TextModifier&gt;| 수정 범위의 시작 부분을 정의 합니다. |&lt;/xref:System.Windows.Media.TextFormatting.TextModifier&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextHidden&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextEndOfSegment&gt; &lt;/xref:System.Windows.Media.TextFormatting.TextEndOfLine&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Specifies the character index position in the <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> where the <bpt id="p2">&lt;xref href="System.Windows.Media.TextFormatting.TextRun"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is retrieved.</source>
+          <target state="translated">문자 인덱스 위치를 지정 합니다.는 <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 여기서는 <bpt id="p2">&lt;xref href="System.Windows.Media.TextFormatting.TextRun"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 검색 됩니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A value that represents a <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextRun"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or an object derived from <bpt id="p2">&lt;xref href="System.Windows.Media.TextFormatting.TextRun"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">나타내는 값을 <bpt id="p1">&lt;xref href="System.Windows.Media.TextFormatting.TextRun"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>에서 파생 된 개체 또는 <bpt id="p2">&lt;xref href="System.Windows.Media.TextFormatting.TextRun"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Get or sets the PixelsPerDip at which the text should be rendered.</source>
+          <target state="translated">Get 또는 텍스트를 렌더링 해야 하는 PixelsPerDip를 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any class that extends &lt;xref:System.Windows.Media.TextFormatting.TextSource&gt; should update         PixelsPerDip whenever the DPI changes for a Per Monitor DPI Aware application.</source>
+          <target state="translated">클래스를 확장 하는 모든 클래스 &lt;xref:System.Windows.Media.TextFormatting.TextSource&gt;DPI 당 모니터 DPI 인식 응용 프로그램에 대 한 변경 될 때마다 PixelsPerDip를 업데이트 해야 합니다.&lt;/xref:System.Windows.Media.TextFormatting.TextSource&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The current PixelsPerDip value.</source>
+          <target state="translated">현재 PixelsPerDip 값입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
