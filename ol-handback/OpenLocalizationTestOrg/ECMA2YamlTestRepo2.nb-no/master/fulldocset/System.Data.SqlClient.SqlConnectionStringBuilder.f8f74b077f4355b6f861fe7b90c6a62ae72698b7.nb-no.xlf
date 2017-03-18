@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1c489db10c5dc334479a1ef7ecbaf7e585920d5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.SqlClient.SqlConnectionStringBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c468fb649e6163fd71f1261768bd77bcef199962</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c744b3f033f0105597fc2476eaeca2513af88f2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a simple way to create and manage the contents of connection strings used by the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Er en enkel måte å opprette og administrere innholdet i tilkoblingsstrenger som brukes av den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection string builder lets developers programmatically create syntactically correct connection strings, and parse and rebuild existing connection strings, using properties and methods of the class.</source>
+          <target state="translated">Tilkoblingsstreng builder kan utviklere programmatisk opprette syntaktisk riktig tilkoblingsstrenger, og analysere og Bygg eksisterende tilkoblingsstrenger, ved hjelp av egenskaper og metoder for klassen.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection string builder provides strongly typed properties corresponding to the known key/value pairs allowed by SQL Server.</source>
+          <target state="translated">Tilkoblingsstreng builder inneholder forespørselsparameter av sterk type egenskaper tilsvarer kjente nøkkel/verdi-parene som tillates av SQL Server.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers needing to create connection strings as part of applications can use the SqlConnectionStringBuilder class to build and modify connection strings.</source>
+          <target state="translated">Utviklere behov for å opprette tilkoblingsstrenger som en del av programmer kan bruke klassen SqlConnectionStringBuilder du bygger og endre tilkoblingsstrengene.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class also makes it easy to manage connection strings stored in an application configuration file.</source>
+          <target state="translated">Klassen er det også enkelt administrere tilkoblingsstrenger, er lagret i en programkonfigurasjonsfilen.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlConnectionStringBuilder performs checks for valid key/value pairs.</source>
+          <target state="translated">SqlConnectionStringBuilder utfører kontroller gyldig nøkkel/verdi-par.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you cannot use this class to create invalid connection strings; trying to add invalid pairs will throw an exception.</source>
+          <target state="translated">Du kan derfor ikke bruke denne klassen til å opprette ugyldig tilkoblingsstrenger; prøver å legge til ugyldig par vil Iverksett et unntak.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class maintains a fixed collection of synonyms and can translate from a synonym to the corresponding well-known key name.</source>
+          <target state="translated">Klassen opprettholder en fast samling av synonymer og bety fra et synonym tilsvarende velkjente nøkkelnavn.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, when you use the <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> property to retrieve a value, you can specify a string that contains any synonym for the key you need.</source>
+          <target state="translated">For eksempel når du bruker den <bpt id="p1">**</bpt>elementet<ept id="p1">**</ept> til å hente en verdi, kan du angi en streng som inneholder alle synonym for nøkkelen må.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can specify "Network Address", "addr", or any other acceptable synonym for this key within a connection string when you use any member that requires a string that contains the key name, such as the <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> property or the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Remove%2A&gt; method.</source>
+          <target state="translated">For eksempel, du kan angi "Nettverksadresse", "adresse" eller andre godkjent synonym for denne nøkkelen i en tilkoblingsstreng når du bruker et medlem som krever en streng som inneholder navnet på, for eksempel den <bpt id="p1">**</bpt>elementet<ept id="p1">**</ept> egenskapen eller &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Remove%2A&gt;metode.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt; property for a full list of acceptable synonyms.</source>
+          <target state="translated">Se den &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;egenskapen for en fullstendig liste over godkjente synonymer.&lt;/xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> property handles tries to insert malicious entries.</source>
+          <target state="translated">Den <bpt id="p1">**</bpt>elementet<ept id="p1">**</ept> egenskapen behandler forsøker å sette inn skadelig oppføringer.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following code, using the default Item property (the indexer, in C#) correctly escapes the nested key/value pair:       [Visual Basic]      <ph id="ph1">```   Dim builder As New System.Data.SqlClient.SqlConnectionStringBuilder   builder("Data Source") = "(local)"   builder("Integrated Security") = True   builder("Initial Catalog") = "AdventureWorks;NewValue=Bad"   Console.WriteLine(builder.ConnectionString)   ```</ph>       [C#]      <ph id="ph2">```   System.Data.SqlClient.SqlConnectionStringBuilder builder =     new System.Data.SqlClient.SqlConnectionStringBuilder();   builder["Data Source"] = "(local)";   builder["integrated Security"] = true;   builder["Initial Catalog"] = "AdventureWorks;NewValue=Bad";   Console.WriteLine(builder.ConnectionString);      ```</ph>       The result is the following connection string that handles the invalid value in a safe manner:      <ph id="ph3">```   Source=(local);Initial Catalog="AdventureWorks;NewValue=Bad";   Integrated Security=True   ```</ph></source>
+          <target state="translated">For eksempel følgende kode bruker standard elementegenskapen (indeksering, i C#) riktig escapes nestede nøkkel/verdi-paret: [Visual Basic] <ph id="ph1">```   Dim builder As New System.Data.SqlClient.SqlConnectionStringBuilder   builder("Data Source") = "(local)"   builder("Integrated Security") = True   builder("Initial Catalog") = "AdventureWorks;NewValue=Bad"   Console.WriteLine(builder.ConnectionString)   ```</ph> [C#] <ph id="ph2">```   System.Data.SqlClient.SqlConnectionStringBuilder builder =     new System.Data.SqlClient.SqlConnectionStringBuilder();   builder["Data Source"] = "(local)";   builder["integrated Security"] = true;   builder["Initial Catalog"] = "AdventureWorks;NewValue=Bad";   Console.WriteLine(builder.ConnectionString);      ```</ph> resultatet er følgende tilkoblingsstrengen som behandler den ugyldige verdien på en sikker måte:<ph id="ph3">```   Source=(local);Initial Catalog="AdventureWorks;NewValue=Bad";   Integrated Security=True   ```</ph></target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The provided connection string provides the data for the instance's internal connection information.</source>
+          <target state="translated">Den angitte tilkoblingsstrengen er dataene for den forekomsten intern tilkoblingsinformasjon.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; class provides a fixed internal collection of key/value pairs.</source>
+          <target state="translated">Den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;klassen inneholder en fast intern samling nøkkel/verdi-par.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Even if you supply only a small subset of the possible connection string values in the constructor, the object always provides default values for each key/value pair.</source>
+          <target state="translated">Selv om du oppgi undergruppe av mulig tilkoblingen strengverdier i konstruktøren, gir objektet alltid standardverdier for hvert nøkkel/verdi-par.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`ConnectionString`</ph> property of the object is retrieved, the string contains only key/value pairs in which the value is not the default value for the item.</source>
+          <target state="translated">Når den <ph id="ph1">`ConnectionString`</ph> for objektet som hentes, strengen inneholder bare nøkkel/verdi-par der verdien ikke er standardverdien for elementet.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The basis for the object's internal connection information.</source>
+          <target state="translated">Grunnlag for objektets intern tilkoblingsinformasjonen.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Parsed into name/value pairs.</source>
+          <target state="translated">Analyseres til navn/verdi-par.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Invalid key names raise &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.</source>
+          <target state="translated">Ugyldig nøkkelnavn heve &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.&lt;/xref:System.Collections.Generic.KeyNotFoundException&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Invalid key name within the connection string.</source>
+          <target state="translated">Ugyldig nøkkelnavn i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Invalid value within the connection string (specifically, when a Boolean or numeric value was expected but not supplied).</source>
+          <target state="translated">Ugyldig verdi i tilkoblingsstrengen (det vil si når en boolsk eller en numerisk verdi var ventet, men ikke angitt).</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The supplied <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> is not valid.</source>
+          <target state="translated">Den angitte <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept> er ikke gyldig.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Declares the application workload type when connecting to a database in an SQL Server Availability Group.</source>
+          <target state="translated">Angir program arbeidsmengde når du kobler til en database i en tilgjengelighetsgruppe for SQL Server.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property with <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Du kan angi verdien for denne egenskapen med <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information about SqlClient support for Always On Availability Groups, see <bpt id="p1">[</bpt>SqlClient Support for High Availability, Disaster Recovery<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om SqlClient støtte for Always On-tilgjengelighetsgrupper <bpt id="p1">[</bpt>SqlClient støtte for høy tilgjengelighet, nødgjenoppretting<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns the current value of the property (a value of type <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated">Returnerer gjeldende verdi for egenskapen (en verdi av typen <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the application associated with the connection string.</source>
+          <target state="translated">Henter eller angir navnet på programmet som er forbundet med tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Application Name" and "app" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Navn" og "app" nøklene i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The name of the application, or ".NET SqlClient Data Provider" if no name has been supplied.</source>
+          <target state="translated">Navnet på programmet, eller ".NET SqlClient Data Provider" Hvis ikke noe navn er angitt.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis du vil angi verdien til null, kan du bruke <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether asynchronous processing is allowed by the connection created by using this connection string.</source>
+          <target state="translated">Henter eller angir en boolsk verdi som angir om Asynkron behandling er tillatt av tilkoblingen opprettet ved hjelp av denne tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Asynchronous Processing" and "async" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Asynkrone behandler" og "asynkron" nøklene i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to take advantage of the asynchronous processing provided by the &lt;xref:System.Data.SqlClient.SqlCommand&gt; object, this key/value pair must be included within the connection string of the associated &lt;xref:System.Data.SqlClient.SqlConnection&gt; object.</source>
+          <target state="translated">For å kunne dra nytte av Asynkron behandling fra den &lt;xref:System.Data.SqlClient.SqlCommand&gt;objektet, dette nøkkel/verdi-par må være inkludert i tilkoblingsstrengen for den tilknyttede &lt;xref:System.Data.SqlClient.SqlConnection&gt;objektet.&lt;/xref:System.Data.SqlClient.SqlConnection&gt; &lt;/xref:System.Data.SqlClient.SqlCommand&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value of the AsynchronousProcessing property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no value has been supplied.</source>
+          <target state="translated">Verdien for egenskapen AsynchronousProcessing eller <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen verdi er angitt.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string that contains the name of the primary data file.</source>
+          <target state="translated">Henter eller angir en streng som inneholder navnet på den primære datafilen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This includes the full path name of an attachable database.</source>
+          <target state="translated">Dette omfatter det fullstendige banenavnet for en database som kan knyttes.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "AttachDBFilename", "extended properties", and "initial file name" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "AttachDBFilename", "utvidede egenskaper" og "første filnavn" nøkler i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AttachDBFilename`</ph> is only supported for primary data files with an .mdf extension.</source>
+          <target state="translated"><ph id="ph1">`AttachDBFilename`</ph>støttes bare for primære filer med filtypen MDF.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An error will be generated if a log file exists in the same directory as the data file and the 'database' keyword is used when attaching the primary data file.</source>
+          <target state="translated">En feil genereres hvis det finnes en loggfil i samme mappe som datafilen og nøkkelordet "database" brukes når du kobler den primære datafilen.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, remove the log file.</source>
+          <target state="translated">I dette tilfellet Fjern loggfilen.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once the database is attached, a new log file will be automatically generated based on the physical path.</source>
+          <target state="translated">Når databasen er koblet, skal en ny loggfil genereres automatisk basert på den fysiske banen.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_AttachDBFilename" name="AttachDBFilename" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property, or <bpt id="p2">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no value has been supplied.</source>
+          <target state="translated">Verdien for den <bpt id="p1">&lt;xref uid="langword_csharp_AttachDBFilename" name="AttachDBFilename" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> egenskapen eller <bpt id="p2">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Hvis ingen verdi er angitt.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis du vil angi verdien til null, kan du bruke <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the authentication of the connection string.</source>
+          <target state="translated">Henter godkjenningsmetode i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The authentication of the connection string.</source>
+          <target state="translated">Godkjenning av tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Clears the contents of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Fjerner innholdet på den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> forekomsten.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Common.DbConnectionStringBuilder.Clear%2A&gt; method removes all key/value pairs from the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, and resets all corresponding properties.</source>
+          <target state="translated">Den &lt;xref:System.Data.Common.DbConnectionStringBuilder.Clear%2A&gt;metoden fjerner alle nøkkel/verdi-par fra den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, og tilbakestiller alle tilhørende egenskaper.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder.Clear%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes setting the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt; property to 0, and setting the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt; property to an empty string.</source>
+          <target state="translated">Dette omfatter oppsett av &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;egenskapen 0 og angivelse av &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt;egenskapen til en tom streng.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets and sets the column encryption settings for the connection string builder.</source>
+          <target state="translated">Henter eller angir kolonnen krypteringsinnstillinger for tilkoblingsstreng builder.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The column encryption settings for the connection string builder.</source>
+          <target state="translated">Kolonnen krypteringsinnstillingene for tilkoblingsstreng builder.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Obsolete.</source>
+          <target state="translated">Foreldet.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the connection is reset when drawn from the connection pool.</source>
+          <target state="translated">Henter eller angir en boolsk verdi som angir om tilkoblingen tilbakestilles når trukket fra tilkoblingsutvalget.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Connection Reset" key within the &lt;xref:System.Data.SqlClient.SqlConnection&gt; connection string, which has been removed from version 3.5 SP1 of the .NET Framework.</source>
+          <target state="translated">Denne egenskapen samsvarer med nøkkelen "Tilbakestilling av tilkobling" i den &lt;xref:System.Data.SqlClient.SqlConnection&gt;tilkoblingsstrengen, som har blitt fjernet fra versjon 3.5 SP1 av .NET Framework.&lt;/xref:System.Data.SqlClient.SqlConnection&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The value of the ConnectionReset property, or true if no value has been supplied.</source>
+          <target state="translated">Verdien for egenskapen ConnectionReset, eller true Hvis ingen verdi er angitt.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       The number of reconnections attempted after identifying that there was an idle connection failure.</source>
+          <target state="translated">[Støttes i .NET Framework 4.5.1 og nyere versjoner]       Antall gjenopprettede forsøk etter identifiserer at det oppstod en inaktiv tilkobling-feil.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This must be an integer between 0 and 255.</source>
+          <target state="translated">Dette må være et heltall mellom 0 og 255.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Default is 1.</source>
+          <target state="translated">Standard er 1.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Set to 0 to disable reconnecting on idle connection failures.</source>
+          <target state="translated">Settes til 0 for å deaktivere på inaktivitet tilkoblingsfeil på nytt.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.ArgumentException&gt; will be thrown if set to a value outside of the allowed range.</source>
+          <target state="translated">En &lt;xref:System.ArgumentException&gt;et Hvis settes til en verdi utenfor det tillatte området.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The number of reconnections attempted after identifying that there was an idle connection failure.</source>
+          <target state="translated">Antall gjenopprettede forsøk etter identifiserer at det oppstod en inaktiv tilkobling-feil.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Amount of time (in seconds) between each reconnection attempt after identifying that there was an idle connection failure.</source>
+          <target state="translated">[Støttes i .NET Framework 4.5.1 og nyere versjoner]       Hvor lang tid (i sekunder) mellom hver tilkobling på nytt forsøk etter identifiserer som det er en inaktiv tilkobling-feil.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This must be an integer between 1 and 60.</source>
+          <target state="translated">Dette må være et heltall mellom 1 og 60.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The default is 10 seconds.</source>
+          <target state="translated">Standarden er 10 sekunder.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.ArgumentException&gt; will be thrown if set to a value outside of the allowed range.</source>
+          <target state="translated">En &lt;xref:System.ArgumentException&gt;et Hvis settes til en verdi utenfor det tillatte området.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Amount of time (in seconds) between each reconnection attempt after identifying that there was an idle connection failure.</source>
+          <target state="translated">Hvor lang tid (i sekunder) mellom hver tilkobling på nytt forsøk etter identifiserer som det er en inaktiv tilkobling-feil.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the length of time (in seconds) to wait for a connection to the server before terminating the attempt and generating an error.</source>
+          <target state="translated">Henter eller angir hvor lang tid (i sekunder) skal ventes på tilkobling til serveren før forsøket avbrytes og det genereres en feil.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Connect Timeout", "connection timeout", and "timeout" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Connect Timeout", "tilkoblingstidsavbrudd" og "tidsavbrudd" nøkler i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When opening a connection to a Azure SQL Database, set the connection timeout to 30 seconds.</source>
+          <target state="translated">Når du åpner en tilkobling til Azure SQL Database, må du angi tidsavbrudd for tilkobling til 30 sekunder.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The value of the ConnectTimeout property, or 15 seconds if no value has been supplied.</source>
+          <target state="translated">Verdien for egenskapen ConnectTimeout, eller 15 sekunder hvis ingen verdi er angitt.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Determines whether the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains a specific key.</source>
+          <target state="translated">Bestemmer om den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> inneholder en bestemt nøkkel.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; contains a fixed-size collection of key/value pairs, the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; method determines only if a particular key name is valid.</source>
+          <target state="translated">Fordi den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;inneholder en fast størrelse samling av nøkkel/verdi-par, den &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;metoden bare bestemmer om en bestemt Nøkkelnavn er ugyldig.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; &lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Nøkkelen for å finne i den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>true if the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains an element that has the specified key; otherwise, false.</source>
+          <target state="translated">True hvis den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> inneholder et element med den angitte nøkkelen; ellers, false.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>er null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i Visual Basic)</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether a client/server or in-process connection to SQL Server should be made.</source>
+          <target state="translated">Henter eller angir en verdi som angir om en klient/server eller kjørende tilkobling til SQL Server skal opprettes.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Context Connection" key within the connection string.</source>
+          <target state="translated">Denne egenskapen samsvarer med nøkkelen "Konteksten tilkobling" i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Data.SqlClient.SqlConnection.DataSource%2A&gt; property returns <ph id="ph2">`null`</ph> if the connection string for the &lt;xref:System.Data.SqlClient.SqlConnection&gt; is "context connection=true".</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Den &lt;xref:System.Data.SqlClient.SqlConnection.DataSource%2A&gt;returnerer <ph id="ph2">`null`</ph> Hvis tilkoblingen tilkoblingsstrengen den &lt;xref:System.Data.SqlClient.SqlConnection&gt;er "konteksttilkoblingen = true".&lt;/xref:System.Data.SqlClient.SqlConnection&gt; &lt;/xref:System.Data.SqlClient.SqlConnection.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The value of the ContextConnection property, or <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen ContextConnection eller <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Gets or sets the SQL Server Language record name.</source>
+          <target state="translated">Henter eller angir navnet på SQL Server-språk-oppføringen.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Current Language" and "language" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Gjeldende språk" og "språk" nøklene i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The value of the CurrentLanguage property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no value has been supplied.</source>
+          <target state="translated">Verdien for egenskapen CurrentLanguage eller <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen verdi er angitt.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis du vil angi verdien til null, kan du bruke <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name or network address of the instance of SQL Server to connect to.</source>
+          <target state="translated">Henter eller angir navn eller nettverksadresse adressen til forekomsten av SQL Server til å koble til.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Data Source", "server", "address", "addr", and "network address" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Datakilden", "server", "adresse", "adresse" og "nettverksadresse" nøkler i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regardless of which of these values has been supplied within the supplied connection string, the connection string created by the <ph id="ph1">`SqlConnectionStringBuilder`</ph> will use the well-known "Data Source" key.</source>
+          <target state="translated">Uansett hvilket av disse verdiene er angitt i den angitte tilkoblingsstrengen, tilkoblingsstrengen som er opprettet av den <ph id="ph1">`SqlConnectionStringBuilder`</ph> vil bruke den kjente "Datakilden"-nøkkelen.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The value of the DataSource property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen DataSource eller <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis du vil angi verdien til null, kan du bruke <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether SQL Server uses SSL encryption for all data sent between the client and server if the server has a certificate installed.</source>
+          <target state="translated">Henter eller angir en boolsk verdi som indikerer om SQL Server bruker SSL-kryptering for alle dataene som sendes mellom klienten og serveren, hvis serveren har et sertifikat installert.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Encrypt" key within the connection string.</source>
+          <target state="translated">Denne egenskapen samsvarer med nøkkelen "Krypter" i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The value of the Encrypt property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen Krypter eller <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the SQL Server connection pooler automatically enlists the connection in the creation thread's current transaction context.</source>
+          <target state="translated">Henter eller angir en boolsk verdi som angir om SQL Server-tilkoblingsutvalget automatisk innrullerer tilkoblingen i oppretting trådens Transaksjonskonteksten.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Enlist" key within the connection string.</source>
+          <target state="translated">Denne egenskapen samsvarer med nøkkelen "Enlist" i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The value of the Enlist property, or <bpt id="p1">&lt;xref uid="langword_csharp_true " name="true " href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen Enlist eller <bpt id="p1">&lt;xref uid="langword_csharp_true " name="true " href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name or address of the partner server to connect to if the primary server is down.</source>
+          <target state="translated">Henter eller angir navnet på eller adressen til partnerserveren til å koble til hvis den primære serveren er nede.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The value of the FailoverPartner property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen FailoverPartner eller <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis du vil angi verdien til null, kan du bruke <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the database associated with the connection.</source>
+          <target state="translated">Henter eller angir navnet på databasen som er knyttet til tilkoblingen.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Initial Catalog" and "database" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Startkatalog" og "database" nøklene i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The value of the InitialCatalog property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen InitialCatalog eller <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis du vil angi verdien til null, kan du bruke <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether User ID and Password are specified in the connection (when <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) or whether the current Windows account credentials are used for authentication (when <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>).</source>
+          <target state="translated">Henter eller angir en boolsk verdi som angir om bruker-ID og passord angis i tilkoblingen (når <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>) eller om de gjeldende Windows-kontolegitimasjonen brukes for godkjenning (når <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Integrated Security" and "trusted_connection" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Integrert sikkerhet" og "trusted_connection" nøklene i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The value of the IntegratedSecurity property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen IntegratedSecurity eller <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated">Henter en verdi som angir om den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> har en fast størrelse.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in every case, because the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> supplies a fixed-size collection of key/value pairs.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>i hvert fall fordi den <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> leverer en fast størrelse samling nøkkel/verdi-par.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value associated with the specified key.</source>
+          <target state="translated">Henter eller angir verdien som er forbundet med den angitte nøkkelen.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In C#, this property is the indexer.</source>
+          <target state="translated">Denne egenskapen er indeksering i C#.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; contains a fixed-size dictionary, trying to add a key that does not exist within the dictionary throws a &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.</source>
+          <target state="translated">Fordi den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;inneholder en fast størrelse ordliste, prøver å legge til en nøkkel som ikke finnes i ordlisten oppstår &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.&lt;/xref:System.Collections.Generic.KeyNotFoundException&gt; &lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The key of the item to get or set.</source>
+          <target state="translated">Nøkkelen for element for å hente eller angi.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The value associated with the specified key.</source>
+          <target state="translated">Verdien som er knyttet til den angitte nøkkelen.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>er en nullreferanse (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i Visual Basic).</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Tried to add a key that does not exist within the available keys.</source>
+          <target state="translated">Forsøkte å legge til en nøkkel som ikke finnes i de tilgjengelige nøklene.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Invalid value within the connection string (specifically, a Boolean or numeric value was expected but not supplied).</source>
+          <target state="translated">Ugyldig verdi i tilkoblingsstrengen (det vil si en boolsk eller en numerisk verdi var ventet, men ikke angitt).</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Henter en &lt;xref:System.Collections.ICollection&gt;som inneholder nøklene i den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is unspecified, but it is the same order as the associated values in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Values%2A&gt; property.</source>
+          <target state="translated">Rekkefølgen på verdiene i den &lt;xref:System.Collections.ICollection&gt;er ikke angitt, men det er den samme rekkefølgen som de tilhørende verdiene i den &lt;xref:System.Collections.ICollection&gt;returnert av den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Values%2A&gt;egenskapen.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder.Values%2A&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En &lt;xref:System.Collections.ICollection&gt;som inneholder nøklene i den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Gets or sets the minimum time, in seconds, for the connection to live in the connection pool before being destroyed.</source>
+          <target state="translated">Henter eller angir minimum tiden i sekunder for tilkoblingen til live i tilkoblingsutvalget før er ødelagt.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Load Balance Timeout" and "connection lifetime" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Saldo tidsavbrudd for Datainnlasting" og "levetid for tilkobling" nøkler i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The value of the LoadBalanceTimeout property, or 0 if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen LoadBalanceTimeout eller 0 Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum number of connections allowed in the connection pool for this specific connection string.</source>
+          <target state="translated">Henter eller angir maksimalt antall tillatte tilkoblinger i tilkoblingsutvalget for denne typespesifikk tilkoblingsstreng.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Max Pool Size" key within the connection string.</source>
+          <target state="translated">Denne egenskapen samsvarer med nøkkelen "Maksimal størrelse for tilkoblingsutvalg for" i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The value of the MaxPoolSize property, or 100 if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen MaxPoolSize eller 100 hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets or sets the minimum number of connections allowed in the connection pool for this specific connection string.</source>
+          <target state="translated">Henter eller angir minimum antall tillatte tilkoblinger i tilkoblingsutvalget for denne typespesifikk tilkoblingsstreng.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Min Pool Size" key within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer nøkkelen "minimumsstørrelse for tilkoblingsutvalg for" i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The value of the MinPoolSize property, or 0 if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen MinPoolSize eller 0 Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>When true, an application can maintain multiple active result sets (MARS).</source>
+          <target state="translated">Når true, kan et program har flere aktive resultatsett (MARS).</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>When false, an application must process or cancel all result sets from one batch before it can execute any other batch on that connection.</source>
+          <target state="translated">Hvis false, må en applikasjon behandle eller avbryte alle resultatsett fra én satsvis før det kan utføre andre bunken for tilkoblingen.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Multiple Active Result Sets (MARS)<ept id="p1">](http://msdn.microsoft.com//library/cfa084cz.aspx)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>flere aktive resultatsett (MARS)<ept id="p1">](http://msdn.microsoft.com//library/cfa084cz.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "MultipleActiveResultSets" key within the connection string.</source>
+          <target state="translated">Denne egenskapen samsvarer med nøkkelen "MultipleActiveResultSets" i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The value of the MultipleActiveResultSets property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen MultipleActiveResultSets eller <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>If your application is connecting to an AlwaysOn availability group (AG) on different subnets, setting MultiSubnetFailover=true provides faster detection of and connection to the (currently) active server.</source>
+          <target state="translated">Hvis programmet kobler til en AlwaysOn-tilgjengelighetsgruppe (AG) på forskjellige delnett innstillingen MultiSubnetFailover = true gir raskere gjenkjenning av og tilkobling til serveren () aktive.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For more information about SqlClient support for Always On Availability Groups, see <bpt id="p1">[</bpt>SqlClient Support for High Availability, Disaster Recovery<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om SqlClient støtte for Always On-tilgjengelighetsgrupper <bpt id="p1">[</bpt>SqlClient støtte for høy tilgjengelighet, nødgjenoppretting<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.Boolean&gt; indicating the current value of the property.</source>
+          <target state="translated">Returnerer &lt;xref:System.Boolean&gt;som angir gjeldende verdi for egenskapen.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string that contains the name of the network library used to establish a connection to the SQL Server.</source>
+          <target state="translated">Henter eller angir en streng som inneholder navnet på nettverksbiblioteket som brukes til å opprette en tilkobling til SQL Server.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Network Library", "network", and "net" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Nettverksbiblioteket", "network" og "netto" nøkler i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Supported values for this property include dbnmpntw (Named Pipes), dbmsrpcn (Multiprotocol), dbmsadsn (AppleTalk), dbmsgnet (VIA), dbmslpcn (Shared Memory) and dbmsspxn (IPX/SPX), and dbmssocn (TCP/IP).</source>
+          <target state="translated">Verdier som støttes for denne egenskapen inkludere dbnmpntw (navngitte datakanaler), dbmsrpcn (Multiprotocol), dbmsadsn (AppleTalk), dbmsgnet (VIA), dbmslpcn (delt minne) og dbmsspxn (IPX/SPX) og dbmssocn (TCP/IP).</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The corresponding network DLL must be installed on the system to which you connect.</source>
+          <target state="translated">Tilsvarende nettverket dll-filen må være installert på systemet du kobler til.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not specify a network and you use a local server (for example, "." or "(local)"), Shared Memory is used.</source>
+          <target state="translated">Hvis du ikke angir et nettverk og du bruker en lokal server (for eksempel "." eller "(lokalt)"), brukes delt minne.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The value of the NetworkLibrary property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen NetworkLibrary eller <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis du vil angi verdien til null, kan du bruke <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets or sets the size in bytes of the network packets used to communicate with an instance of SQL Server.</source>
+          <target state="translated">Henter eller angir størrelsen i byte for nettverkspakkene som brukes til å kommunisere med en forekomst av SQL Server.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Packet Size" key within the connection string.</source>
+          <target state="translated">Denne egenskapen samsvarer med nøkkelen "Pakkestørrelse" i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The value of the PacketSize property, or 8000 if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen PacketSize eller 8000 Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Gets or sets the password for the SQL Server account.</source>
+          <target state="translated">Henter eller angir passordet for SQL Server-tjenestekontoen.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Password" and "pwd" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Passord" og "pwd" nøklene i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Password has not been set and you retrieve the value, the return value is &lt;xref:System.String&gt;.</source>
+          <target state="translated">Hvis passord ikke er angitt, og du hente verdien, er returverdien &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To reset the password for the connection string, pass null to the Item property.</source>
+          <target state="translated">Tilbakestill passordet for tilkoblingsstrengen ved å sende null til elementegenskapen.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The value of the Password property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen passord eller <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The password was incorrectly set to null.</source>
+          <target state="translated">Passordet ble uriktig angitt til null.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>See code sample below.</source>
+          <target state="translated">Se kodeeksempel nedenfor.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates if security-sensitive information, such as the password, is not returned as part of the connection if the connection is open or has ever been in an open state.</source>
+          <target state="translated">Henter eller angir en boolsk verdi som angir om blir sikkerhetsfølsom informasjon, for eksempel passordet, ikke returnert som en del av tilkoblingen hvis tilkoblingen er åpen eller har vært i en åpen tilstand.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Persist Security Info" and "persistsecurityinfo" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Beholde sikkerhetsinformasjonen" og "persistsecurityinfo" nøklene i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The value of the PersistSecurityInfo property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen PersistSecurityInfo eller <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The blocking period behavior for a connection pool.</source>
+          <target state="translated">Blokkerer period virkemåten for tilkoblingsutvalg.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When connection pooling is enabled and  a timeout error or other login error occurs, an exception will be thrown and subsequent connection attempts will fail for the next five seconds, the "blocking period".</source>
+          <target state="translated">Når tilkoblingsgruppering er aktivert og en tidsavbruddsfeil eller andre Påloggingsfeil oppstår, vil bli utløst et unntak og etterfølgende tilkoblingsforsøk mislykkes de neste fem sekundene, "blokkerer perioden".</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application attempts to connect within the blocking period, the first exception will be thrown again.</source>
+          <target state="translated">Hvis programmet prøver å koble fra blokkerer perioden, vil bli utløst første unntak på nytt.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent failures after a blocking period ends will result in a new blocking period that is twice as long as the previous blocking period, up to a maximum of one minute.</source>
+          <target state="translated">Etterfølgende feil når en blokkerer perioden vil føre til en ny blokkerer periode som skal være dobbelt så lenge forrige blokkerer periode, maksimalt ett minutt.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to connect to Azure SQL databases can fail with transient errors which are typically recovered within a few seconds.</source>
+          <target state="translated">Prøver å koble til Azure SQL-databaser kan mislykkes med midlertidig feil som vanligvis er gjenopprettet i noen sekunder.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, with the connection pool blocking period behavior, you may not be able to reach your database for extensive periods even though the database is  available.</source>
+          <target state="translated">Imidlertid med tilkoblingsutvalget blokkering perioden, kan være at du ikke tilgang til databasen for omfattende perioder selv om databasen er tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is especially problematic for apps that need to render fast.</source>
+          <target state="translated">Dette er spesielt problematiske for apper som skal gjengi rask.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>PoolBlockingPeriod<ept id="p1">**</ept> enables you to select the blocking period best suited for your app.</source>
+          <target state="translated">Den <bpt id="p1">**</bpt>PoolBlockingPeriod<ept id="p1">**</ept> kan du velge blokkerer perioden passer best for appen din.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the <bpt id="p1">[</bpt>PoolBlockingPeriod Enumeration<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> for available settings.</source>
+          <target state="translated">Se den <bpt id="p1">[</bpt>PoolBlockingPeriod opplisting<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> for tilgjengelige innstillingene.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The available blocking period settings.</source>
+          <target state="translated">De tilgjengelige blokkerende period innstillingene.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the connection will be pooled or explicitly opened every time that the connection is requested.</source>
+          <target state="translated">Henter eller angir en boolsk verdi som angir om tilkoblingen skal utvalg eller åpne eksplisitt hver gang tilkoblingen forespørres.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Pooling" key within the connection string.</source>
+          <target state="translated">Denne egenskapen samsvarer med nøkkelen "Pooling" i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The value of the Pooling property, or <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen Pooling eller <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Removes the entry with the specified key from the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Fjerner posten med den angitte nøkkelen fra den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> forekomsten.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the <bpt id="p1">**</bpt>Remove<ept id="p1">**</ept> method returns a value that indicates its success, it is not required to look for a key before trying to remove the key/value pair from the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; instance.</source>
+          <target state="translated">Fordi den <bpt id="p1">**</bpt>fjerne<ept id="p1">**</ept> metoden returnerer en verdi som angir hvor vellykket, er ikke nødvendig for å se etter en nøkkel før du prøver å fjerne nøkkel/verdi-paret fra den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;forekomsten.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; maintains a fixed-size collection of key/value pairs, calling the Remove method simply resets the value of the key/value pair back to its default value.</source>
+          <target state="translated">Fordi den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;opprettholder en fast størrelse samling nøkkel/verdi-par, kaller Remove-metoden ganske enkelt tilbakestiller verdien for nøkkel/verdi-paret tilbake til standardverdien.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the collection of keys supported by the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; is fixed, every item within the collection has a known default value.</source>
+          <target state="translated">Fordi samlingen av nøkler støttes av den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;er løst, alle elementer i samlingen har en kjent standardverdi.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists the keys, and the value for each when the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; is first initialized, or after the Remove method has been called.</source>
+          <target state="translated">Tabellen nedenfor viser nøklene og verdien for hver når den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;blir initialisert, eller når Remove-metoden er blitt kalt.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Key|Default value|   |---------|-------------------|   |Application Name|".Net SqlClient Data Provider"|   |Asynchronous Processing|False|   |AttachDBFilename|Empty string|   |Connection Timeout|15|   |Context Connection|False|   |Current Language|Empty string|   |Data Source|Empty string|   |Encrypt|False|   |Enlist|True|   |Failover Partner|Empty string|   |Initial Catalog|Empty string|   |Integrated Security|False|   |Load Balance Timeout|0|   |Max Pool Size|100|   |Min Pool Size|0|   |MultipleActiveResultSets|False|   |Network Library|Empty string|   |Packet Size|8000|   |Password|Empty string|   |Persist Security Info|False|   |Pooling|True|   |Replication|False|   |Transaction Binding|Implicit Unbind|   |User ID|Empty string|   |User Instance|False|   |Workstation ID|Empty string|</source>
+          <target state="translated">| Nøkkelen | Standardverdien |   |---------|-------------------|   | Programnavnet | ". Netto SqlClient dataleverandøren "|   | Asynkron behandling | False |   | AttachDBFilename | Tom streng |   | Tilkoblingstidsavbrudd |&amp;15; |   | Konteksttilkoblingen | False |   | Gjeldende språk | Tom streng |   | Datakilden | Tom streng |   | Kryptere | False |   | Registrere | True |   | Failover-Partner | Tom streng |   | Opprinnelig katalogen | Tom streng |   | Integrert sikkerhet | False |   | Laste saldo tidsavbrudd |&amp;0; |   | Størrelse for tilkoblingsutvalg for Max |&amp;100; |   | Størrelse for tilkoblingsutvalg for Min |&amp;0; |   | MultipleActiveResultSets | False |   | Nettverkstilkoblingen biblioteket | Tom streng |   | Pakkestørrelse |&amp;8000; |   | Passord | Tom streng |   | Beholde sikkerhetsinformasjonen | False |   | Pooling | True |   | Replikering | False |   | Transaksjonen Binding | Implisitte frigi |   | Bruker-IDen | Tom streng |   | Brukerforekomst | False |   | Arbeidsstasjonen ID | Tom streng |</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The key of the key/value pair to be removed from the connection string in this <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Nøkkelen for nøkkel/verdi-paret vil bli fjernet fra tilkoblingsstrengen i dette <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key existed within the connection string and was removed; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the key did not exist.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis nøkkelen fantes i tilkoblingsstrengen, ble fjernet; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Hvis nøkkelen ikke finnes.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>er null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i Visual Basic)</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether replication is supported using the connection.</source>
+          <target state="translated">Henter eller angir en boolsk verdi som angir om replikering støttes ved hjelp av tilkoblingen.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Replication" key within the connection string.</source>
+          <target state="translated">Denne egenskapen samsvarer med nøkkelen "Replication" i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The value of the Replication property, or false if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen replikering, eller USANN hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified key exists in this <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Angir om den angitte nøkkelen finnes i dette <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> forekomsten.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method behaves identically to the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; method.</source>
+          <target state="translated">Denne metoden fungerer identisk til den &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;metoden.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Nøkkelen for å finne i den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains an entry with the specified key; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis den <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> inneholder en post med den angitte nøkkelen; ellers, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string value that indicates how the connection maintains its association with an enlisted <bpt id="p1">&lt;xref uid="langword_csharp_System.Transactions" name="System.Transactions" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> transaction.</source>
+          <target state="translated">Henter eller angir en strengverdi som angir hvordan tilkoblingen opprettholder tilknytningen en innrullerte <bpt id="p1">&lt;xref uid="langword_csharp_System.Transactions" name="System.Transactions" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> transaksjonen.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Transaction Binding keywords in a &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt; control how a &lt;xref:System.Data.SqlClient.SqlConnection&gt; binds to an enlisted &lt;xref:System.Transactions.Transaction&gt;.</source>
+          <target state="translated">Transaksjonen Binding-nøkkelord i en &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;styre hvordan &lt;xref:System.Data.SqlClient.SqlConnection&gt;bindinger til en innrullerte &lt;xref:System.Transactions.Transaction&gt;.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Data.SqlClient.SqlConnection&gt; &lt;/xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the possible values for the TransactionBinding property:      |Value|Description|   |-----------|-----------------|   |Implicit Unbind|The default.</source>
+          <target state="translated">Tabellen nedenfor viser mulige verdier for egenskapen TransactionBinding: | Verdien | Beskrivelse |   |-----------|-----------------|   | Implisitte frigi | Standard.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Causes the connection to detach from the transaction when it ends.</source>
+          <target state="translated">Gjør tilkoblingen til å koble fra transaksjonen når den avsluttes.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After detaching, additional requests on the connection are performed in autocommit mode.</source>
+          <target state="translated">Etter frakobling, utføres flere forespørsler for tilkoblingen i autocommit-modus.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Transactions.Transaction.Current%2A&gt; property is not checked when executing requests while the transaction is active.</source>
+          <target state="translated">Den &lt;xref:System.Transactions.Transaction.Current%2A&gt;egenskapen er ikke merket når forespørsler under transaksjonen er aktiv.&lt;/xref:System.Transactions.Transaction.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the transaction has ended, additional requests are performed in autocommit mode.|   |Explicit Unbind|Causes the connection to remain attached to the transaction until the connection is closed or until &lt;xref:System.Data.SqlClient.SqlConnection.EnlistTransaction%2A&gt; is called with a <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> in Visual Basic) value.</source>
+          <target state="translated">Etter at transaksjonen er avsluttet, flere forespørsler utføres i autocommit-modus. |   | Eksplisitt frigi | Årsaker tilkoblingen skal være knyttet til transaksjonen før tilkoblingen er lukket eller før &lt;xref:System.Data.SqlClient.SqlConnection.EnlistTransaction%2A&gt;kalles med en <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> i Visual Basic) verdi.&lt;/xref:System.Data.SqlClient.SqlConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An &lt;xref:System.InvalidOperationException&gt; is thrown if &lt;xref:System.Transactions.Transaction.Current%2A&gt; is not the enlisted transaction or if the enlisted transaction is not active.</source>
+          <target state="translated">En &lt;xref:System.InvalidOperationException&gt;oppstår hvis &lt;xref:System.Transactions.Transaction.Current%2A&gt;er ikke innrullerte transaksjonen, eller hvis innrullerte transaksjonen ikke er aktiv.&lt;/xref:System.Transactions.Transaction.Current%2A&gt; &lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior enforces the strict scoping rules required for &lt;xref:System.Transactions.TransactionScope&gt; support.|</source>
+          <target state="translated">Dette håndhever streng regler for definisjonsområde kreves for &lt;xref:System.Transactions.TransactionScope&gt;støtter. |&lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The value of the TransactionBinding property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen TransactionBinding eller <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Gets or sets a boolean value.</source>
+          <target state="translated">Henter eller angir en boolsk verdi.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A boolean value.</source>
+          <target state="translated">En boolsk verdi.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the channel will be encrypted while bypassing walking the certificate chain to validate trust.</source>
+          <target state="translated">Henter eller angir en verdi som angir om kanalen krypteres under hopper over går sertifikatkjeden for å validere klarering.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`TrustServerCertificate`</ph> is set to <ph id="ph2">`true`</ph>, the transport layer will use SSL to encrypt the channel and bypass walking the certificate chain to validate trust.</source>
+          <target state="translated">Når <ph id="ph1">`TrustServerCertificate`</ph> er satt til <ph id="ph2">`true`</ph>, Transportlaget bruker SSL til å kryptere kanalen og omgå går sertifikatkjeden for å validere klarering.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`TrustServerCertificate`</ph> is set to <ph id="ph2">`true`</ph> and encryption is turned on, the encryption level specified on the server will be used even if <ph id="ph3">`Encrypt`</ph> is set to <ph id="ph4">`false`</ph>.</source>
+          <target state="translated">Hvis <ph id="ph1">`TrustServerCertificate`</ph> er satt til <ph id="ph2">`true`</ph> og kryptering er aktivert, vil bli brukt krypteringsnivået som er spesifisert for serveren selv om <ph id="ph3">`Encrypt`</ph> er satt til <ph id="ph4">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection will fail otherwise.</source>
+          <target state="translated">Tilkoblingen mislykkes hvis.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Encryption Hierarchy" and "Using Encryption Without Validation" in SQL Server Books Online.</source>
+          <target state="translated">For mer informasjon, kan du se "Kryptering hierarkiet" og "Ved hjelp av kryptering uten validering" i SQL Server Books Online.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Recognized values are <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_yes" name="yes" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref uid="langword_csharp_no" name="no" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Recognized values are <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_yes" name="yes" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref uid="langword_csharp_no" name="no" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Retrieves a value corresponding to the supplied key from this <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Henter en verdi som tilsvarer den angitte nøkkelen fra dette <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TryGetValue method lets developers safely retrieve a value from a &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; without needing to verify that the supplied key name is a valid key name.</source>
+          <target state="translated">Metoden TryGetValue kan utviklere trygt å hente en verdi fra en &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;uten å måtte Kontroller at det angitte navnet er et gyldig nøkkelnavn.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> does not raise an exception when you call it, passing in a nonexistent key, you do not have to look for a key before retrieving its value.</source>
+          <target state="translated">Fordi <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> ikke utløse et unntak når du kaller det i en ikke-eksisterende nøkkel, du har ikke å søke etter en nøkkel før henting av verdien.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> with a nonexistent key will place the value null (<ph id="ph1">`Nothing`</ph> in Visual Basic) in the <ph id="ph2">`value`</ph> parameter.</source>
+          <target state="translated">Kaller <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> med en ikke-eksisterende nøkkel setter verdien null (<ph id="ph1">`Nothing`</ph> i Visual Basic) i den <ph id="ph2">`value`</ph> parameteren.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The key of the item to retrieve.</source>
+          <target state="translated">Nøkkelen for elementet som skal hentes.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The value corresponding to <ph id="ph1">`keyword.`</ph></source>
+          <target state="translated">Verdien som tilsvarer<ph id="ph1">`keyword.`</ph></target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">keyword</ph><ept id="p2">&lt;/code&gt;</ept> was found within the connection string; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">keyword</ph> <ept id="p2">&lt;/code&gt;</ept> ble funnet i tilkoblingsstrengen; ellers, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> contains a null value (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>inneholder en nullverdi (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i Visual Basic).</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string value that indicates the type system the application expects.</source>
+          <target state="translated">Henter eller angir en strengverdi som angir typen systemet programmet forventer.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`TypeSystemVersion`</ph> property can be used to specify a down-level version of <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> for applications written against that version.</source>
+          <target state="translated">Den <ph id="ph1">`TypeSystemVersion`</ph> kan brukes til å angi en eldre versjon av <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> for programmer som skrives mot at versjon.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This avoids possible problems with incompatible types in a newer version of <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that may cause the application to break.</source>
+          <target state="translated">Dette forhindrer mulige problemer med inkompatible typene i en nyere versjon av <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> som kan føre til at programmet til å dele.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The following table shows the possible values for the TypeSystemVersion property:</source>
+          <target state="translated">Tabellen nedenfor viser mulige verdier for egenskapen TypeSystemVersion:</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Verdi</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beskrivelse</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Uses the <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005 type system.</source>
+          <target state="translated">Bruker den <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005 Skriv inn system.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>No conversions are made for the current version of ADO.NET.</source>
+          <target state="translated">Ingen konverteringer utføres for den gjeldende versjonen av ADO.NET.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>SQL Server 2008</source>
+          <target state="translated">Sqlserver 2008</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Uses the SQL Server 2008 type system.</source>
+          <target state="translated">Bruker SQL Server 2008 type.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Latest</source>
+          <target state="translated">Siste</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Use the latest version than this client-server pair can handle.</source>
+          <target state="translated">Bruk den nyeste versjonen enn dette klient-server paret kan behandle.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This will automatically move forward as the client and server components are upgraded.</source>
+          <target state="translated">Dette vil automatisk flytte fremover som klient- og serverkomponenter oppgraderes.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Gets or sets the user ID to be used when connecting to SQL Server.</source>
+          <target state="translated">Henter eller angir bruker-IDen som skal brukes ved tilkobling til SQL Server.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "User ID", "user", and "uid" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen svarer til bruker-ID","bruker"og"uid"nøklene i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The value of the UserID property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen UserID eller <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis du vil angi verdien til null, kan du bruke <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to redirect the connection from the default SQL Server Express instance to a runtime-initiated instance running under the account of the caller.</source>
+          <target state="translated">Henter eller angir en verdi som angir om å omdirigere tilkoblingen fra standard SQL Server Express-forekomsten til en runtime startet-forekomst som kjører under kontoen til oppkalleren.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "User Instance" key within the connection string.</source>
+          <target state="translated">Denne egenskapen samsvarer med nøkkelen "Brukerforekomst" i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This feature is available only with the <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> Express Edition.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Denne funksjonen er bare tilgjengelig med den <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> Express Edition.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on user instances, see <bpt id="p1">[</bpt>SQL Server Express User Instances<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and "User Instances for Non-Administrators" in <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> Books Online.</source>
+          <target state="translated">Du finner mer informasjon på Brukerforekomster <bpt id="p1">[</bpt>SQL Server Express User Instances<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> og "bruker forekomster for ikke-administratorer" i <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> Books Online.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The value of the UserInstance property, or <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen UserInstance eller <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis du vil angi verdien til null, kan du bruke <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the values in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Henter en &lt;xref:System.Collections.ICollection&gt;som inneholder verdiene i den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is unspecified, but it is the same order as the associated keys in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Keys%2A&gt; property.</source>
+          <target state="translated">Rekkefølgen på verdiene i den &lt;xref:System.Collections.ICollection&gt;er ikke angitt, men det er den samme rekkefølgen som de tilknyttede nøklene i den &lt;xref:System.Collections.ICollection&gt;returnert av den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Keys%2A&gt;egenskapen.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder.Keys%2A&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because each instance of the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; always contains the same fixed set of keys, the Values property always returns the values corresponding to the fixed set of keys, in the same order as the keys.</source>
+          <target state="translated">Fordi hver forekomst av den &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;inneholder alltid det samme faste settet med nøkler, verdiene egenskapen returnerer alltid verdier som svarer til fast settet med nøkler, i samme rekkefølge som nøklene.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the values in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En &lt;xref:System.Collections.ICollection&gt;som inneholder verdiene i den <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the workstation connecting to SQL Server.</source>
+          <target state="translated">Henter eller angir navnet på arbeidsstasjonen tilkobling til SQL Server.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Workstation ID" and "wsid" keys within the connection string.</source>
+          <target state="translated">Denne egenskapen tilsvarer "Arbeidsstasjonen-ID" og "wsid" nøklene i tilkoblingsstrengen.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The value of the WorkstationID property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Verdien for egenskapen WorkstationID eller <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen er angitt.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hvis du vil angi verdien til null, kan du bruke <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
