@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15f2531c0105464a26f70ea87b577c4acbb6f835</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Sql.SqlDataSourceEnumerator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3fe4512104ef3f691241666eebcdf7416ab0b03</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0caf76f00a82cc03973e279ec6635629a6e4f218</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a mechanism for enumerating all available instances of SQL Server within the local network.</source>
+          <target state="translated">Lehetővé teszi az SQL Server a helyi hálózaton belül az összes elérhető példányok számbavétele.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both SQL Server 2000 and SQL Server 2005 make it possible for applications to determine the existence of SQL Server instances within the current network.</source>
+          <target state="translated">SQL Server 2000, mind az SQL Server 2005 lehetővé teszik az alkalmazások határozzák meg az aktuális hálózati belül SQL Server-példányokat.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlDataSourceEnumerator class exposes this information to the application developer, providing a &lt;xref:System.Data.DataTable&gt; containing information about all the available servers.</source>
+          <target state="translated">A SqlDataSourceEnumerator osztály mutatja az alkalmazás fejlesztőjének, így ezeket az adatokat egy &lt;xref:System.Data.DataTable&gt;összes elérhető kiszolgálón kapcsolatos információkat tartalmazó.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This returned table contains a list of server instances that matches the list provided when a user attempts to create a new connection, and on the <ph id="ph1">`Connection Properties`</ph> dialog box, expands the drop-down list containing all the available servers.</source>
+          <target state="translated">Ez a tábla tartalmazza, amely megfelel a listán, feltéve ha egy felhasználó megpróbál egy új kapcsolat létrehozása kiszolgálópéldányok, valamint a visszaadott a <ph id="ph1">`Connection Properties`</ph> párbeszédpanelen bővíti a legördülő lista, az összes elérhető kiszolgálón.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Retrieves a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing information about all visible SQL Server 2000 or SQL Server 2005 instances.</source>
+          <target state="translated">Lekéri egy <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tartalmazó összes látható SQL Server 2000 vagy SQL Server 2005-példányt kapcsolatos információkat.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The table returned by this method contains the following columns, all of which contain strings:      |Column|Description|   |------------|-----------------|   |<bpt id="p1">**</bpt>ServerName<ept id="p1">**</ept>|Name of the server.|   |<bpt id="p2">**</bpt>InstanceName<ept id="p2">**</ept>|Name of the server instance.</source>
+          <target state="translated">Ez a metódus által visszaadott táblához tartalmazza a következő oszlopokat, amelyek tartalmazzák: |} Oszlop |} Leírás |}   |------------|-----------------|   | <bpt id="p1">**</bpt>Kiszolgálónév<ept id="p1">**</ept>|} A kiszolgáló nevét. |}   | <bpt id="p2">**</bpt>Példánynév<ept id="p2">**</ept>|} A server-példány neve.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Blank if the server is running as the default instance.|   |<bpt id="p1">**</bpt>IsClustered<ept id="p1">**</ept>|Indicates whether the server is part of a cluster.|   |<bpt id="p2">**</bpt>Version<ept id="p2">**</ept>|Version of the server (8.00.x for SQL Server 2000, and 9.00.x for SQL Server 2005).|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  Due to the nature of the mechanism used by &lt;xref:System.Data.Sql.SqlDataSourceEnumerator&gt; to locate data sources on a network, the method will not always return a complete list of the available servers, and the list might not be the same on every call.</source>
+          <target state="translated">Üres, ha a kiszolgáló az alapértelmezett példányt futtató. |}   | <bpt id="p1">**</bpt>IsClustered<ept id="p1">**</ept>|} Azt jelzi, hogy a kiszolgáló egy fürt része. |}   | <bpt id="p2">**</bpt>Version<ept id="p2">**</ept>| A kiszolgáló (az SQL Server 2000 8.00.x), és az SQL Server 2005 9.00.x verziója. |}      &gt; <ph id="ph1">[!NOTE]</ph> &gt; Által használt mechanizmus jellemzői miatt &lt;xref:System.Data.Sql.SqlDataSourceEnumerator&gt;adatforrások a hálózaton található, a módszer nem mindig ad vissza az elérhető kiszolgálók teljes listáját, és előfordulhat, hogy a lista nem kell egyeznie a minden hívás.&lt;/xref:System.Data.Sql.SqlDataSourceEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you plan to use this function to let users select a server from a list, make sure that you always also supply an option to type in a name that is not in the list, in case the server enumeration does not return all the available servers.</source>
+          <target state="translated">Ha azt tervezi, a funkció használatához, hogy a felhasználók listájából válasszon kiszolgálót, győződjön meg arról, hogy mindig is megadnia egy lehetőség, hogy adjon meg egy nevet, amely nem szerepel a listában, abban az esetben, ha a kiszolgáló számbavétel nem ad vissza az összes elérhető kiszolgálón.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, this method may take a significant amount of time to execute, so be careful about calling it when performance is critical.</source>
+          <target state="translated">Ez a módszer emellett egy jelentős mennyiségű időt hajtható végre, úgyhogy legyen óvatos kapcsolatos történt a kritikus teljesítmény esetén is eltarthat.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing information about the visible SQL Server instances.</source>
+          <target state="translated">Értéket ad vissza egy <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a látható SQL Server-példányok adatait tartalmazó.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets an instance of the <bpt id="p1">&lt;xref href="System.Data.Sql.SqlDataSourceEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which can be used to retrieve information about available SQL Server instances.</source>
+          <target state="translated">Lekérdezi egy példányát a <bpt id="p1">&lt;xref href="System.Data.Sql.SqlDataSourceEnumerator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, amely elérhető az SQL Server-példányok adatainak lekérésére használható.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Sql.SqlDataSourceEnumerator&gt; class does not provide a constructor.</source>
+          <target state="translated">A &lt;xref:System.Data.Sql.SqlDataSourceEnumerator&gt;osztály nem biztosít olyan konstruktorral.&lt;/xref:System.Data.Sql.SqlDataSourceEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Instance property to retrieve an instance of the class instead.</source>
+          <target state="translated">A példány tulajdonsággal inkább lekérdezni az osztály egy példányát.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Data.Sql.SqlDataSourceEnumerator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to retrieve information about available SQL Server instances.</source>
+          <target state="translated">Egy példányát a <bpt id="p1">&lt;xref href="System.Data.Sql.SqlDataSourceEnumerator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> használja, elérhető SQL Server-példányokra vonatkozó információk lekéréséhez.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
