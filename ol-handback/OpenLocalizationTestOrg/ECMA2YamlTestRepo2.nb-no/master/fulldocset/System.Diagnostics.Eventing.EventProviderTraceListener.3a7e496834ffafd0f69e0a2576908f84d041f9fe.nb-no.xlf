@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c562ce3bd1aba9e7033cb25440098817301cf2b5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.Eventing.EventProviderTraceListener.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b1cd62caf15ccb05f6757174df6c15735aa8951</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eee64e123fb342fdb4630368ebd25103233b2a00</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A listener for <bpt id="p1">&lt;xref href="System.Diagnostics.TraceSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that writes events to the ETW subsytem.</source>
+          <target state="translated">En lytter for <bpt id="p1">&lt;xref href="System.Diagnostics.TraceSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som skriver hendelser til ETW-delsystemet.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All event data (trace or debug) from the source event is written to the ETW subsystem as a string.</source>
+          <target state="translated">Alle Hendelsesdata (sporingen eller feilsøking) fra kilde-hendelse skrives til ETW-delsystemet som en streng.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data elements are delimited using a comma.</source>
+          <target state="translated">Dataelementer er delt med et komma.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify a different delimiter, use the &lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter%2A&gt; property.</source>
+          <target state="translated">Hvis du vil angi et annet skilletegn, kan du bruke den &lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter%2A&gt;egenskapen.&lt;/xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Adding the listener to &lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt; registers the provider with the ETW subsystem.</source>
+          <target state="translated">Legger til lytteobjektet til &lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;registreres leverandøren ETW-delsystemet.&lt;/xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must create an ETW trace session using the Logman.exe executable program (or something similar) to write the events to a log file.</source>
+          <target state="translated">Du må opprette en ETW-sporingsøkt ved hjelp av det Logman.exe kjørbart programmet (eller lignende) for å skrive inn hendelsene en loggfil.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need a manifest to consume events from the listener because the event data is a single string.</source>
+          <target state="translated">Du trenger ikke noe manifest å bruke hendelser fra lytteobjektet fordi Hendelsesdata for en enkelt streng.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call the &lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt; methods to write events, you pass a &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; enumeration value.</source>
+          <target state="translated">Når du kaller den &lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;metoder for å skrive hendelser, du sende en &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;opplistingsverdien.&lt;/xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; &lt;/xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The enumeration contains both level and keyword values.</source>
+          <target state="translated">Opplistingen inneholder både nivå og nøkkelord.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you enable a trace listener provider from an ETW session, the level value that you specify can be the value associated with one of the following &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; enumeration values:      -   Critical (value is 1)      -   Error (value is 2)      -   Information (value is 8)      -   Verbose (value is 16)      -   Warning (value is 4)       The keyword value that you specify for the session can be the value associated with one of the following &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; enumeration values:      -   Resume (value is 2,048)      -   Start (value is 256)      -   Stop (value is 512)      -   Suspend (value is 1,024)      -   Transfer (value is 4,096)</source>
+          <target state="translated">Når du aktiverer lytteren Sporingstjenesten fra en ETW-økt, nivåverdien du angir kan være verdien som er knyttet til én av følgende &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;opplisting verdier: – Kritisk (verdien er 1) - feil (verdien er 2) - informasjon (verdien er 8) - detaljert (verdien er 16) - advarsel (verdien er 4) nøkkelordet verdien du angir for økten kan være en verdi som er knyttet til én av følgende &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;opplisting verdier :-Fortsett (verdien er 2048) - Start (verdien er 256) - stoppe (verdien er 512) - hvilemodus (verdien er 1 024) - dataoverføring (verdien er 4 096)&lt;/xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; &lt;/xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified provider identifier.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse ved hjelp av angitt leverandør-identifikatoren.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A unique string &lt;xref:System.Guid&gt; that identifies the provider.</source>
+          <target state="translated">En unik streng &lt;xref:System.Guid&gt;som identifiserer leverandøren.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified provider identifier and name of the listener.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse ved hjelp av angitt ID og navnet på lytteren.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A unique string &lt;xref:System.Guid&gt; that identifies the provider.</source>
+          <target state="translated">En unik streng &lt;xref:System.Guid&gt;som identifiserer leverandøren.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Name of the listener.</source>
+          <target state="translated">Navnet på lytteren.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified provider identifier, name of the listener, and delimiter.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse ved hjelp av den angitte leverandør-IDen, navnet på lytteren, og skilletegn.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A unique string &lt;xref:System.Guid&gt; that identifies the provider.</source>
+          <target state="translated">En unik streng &lt;xref:System.Guid&gt;som identifiserer leverandøren.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Name of the listener.</source>
+          <target state="translated">Navnet på lytteren.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Delimiter used to delimit the event data.</source>
+          <target state="translated">Skilletegn som brukes til å avgrense hendelsesdataene.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>(For more details, see the &lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter*&gt; property.)</source>
+          <target state="translated">(Hvis du vil ha mer informasjon, se den &lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter*&gt;egenskapen.)&lt;/xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter*&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Closes the output stream so it no longer receives tracing or debugging output.</source>
+          <target state="translated">Lukker utdata dataflyten slik at den ikke lenger mottar sporing eller feilsøking utdata.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets and sets the delimiter used to delimit the event data that is written to the ETW subsystem.</source>
+          <target state="translated">Henter eller angir skilletegn brukes til å avgrense Hendelsesdata som er skrevet til ETW-delsystem.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The listener converts the data elements to strings and then concatenates the strings together, using the specified delimiter to delimit each data element in the string.</source>
+          <target state="translated">Lytteren konverterer dataelementer til strenger, og deretter setter sammen strengene sammen med det angitte skilletegnet for å avgrense hver dataelementet i strengen.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string is then written as the event data in the ETW subsystem.</source>
+          <target state="translated">Strengen skrives deretter som Hendelsesdata i ETW-delsystemet.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To successfully parse the string, the consumer must know the delimiter that was used.</source>
+          <target state="translated">Forbrukeren må vite skilletegn som ble brukt til å analysere ble strengen.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data contains a string that may contain a comma, specify an appropriate delimiter, so that the event data can be correctly parsed.</source>
+          <target state="translated">Hvis dataene inneholder en streng som inneholder kanskje et komma, må du angi en passende skilletegnet, slik at Hendelsesdata kan bli analysert på riktig måte.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need a manifest to consume events from the listener because the event data is a single string.</source>
+          <target state="translated">Du trenger ikke noe manifest å bruke hendelser fra lytteobjektet fordi Hendelsesdata for en enkelt streng.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The delimiter applies to event data written using the &lt;xref:System.Diagnostics.TraceSource.TraceData%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Skilletegn som gjelder for Hendelsesdata skrives med den &lt;xref:System.Diagnostics.TraceSource.TraceData%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Diagnostics.TraceSource.TraceData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The delimiter used to delimit the event data.</source>
+          <target state="translated">Skilletegn som brukes til å avgrense hendelsesdataene.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default delimiter is a comma.</source>
+          <target state="translated">Er et komma.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Emits an error message and a detailed error message to the listener you create when you implement the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Avgir feilmeldingen meldings- og en detaljert feilmelding for lytteren du oppretter når du implementerer den <bpt id="p1">&lt;xref href="System.Diagnostics.TraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A message to emit.</source>
+          <target state="translated">En melding utdata fra.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A detailed message to emit.</source>
+          <target state="translated">En detaljert melding utdata fra.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Flushes the output buffer.</source>
+          <target state="translated">Tømminger av utdatabufferen.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets the custom attributes supported by the trace listener.</source>
+          <target state="translated">Henter de egendefinerte attributtene som støttes av sporingslytteren for.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string array naming the custom attributes supported by the trace listener, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are no custom attributes.</source>
+          <target state="translated">En strengmatrise navngi egendefinerte attributter støttes av sporingslytteren for, eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis det er ingen egendefinerte attributter.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the trace listener is thread safe.</source>
+          <target state="translated">Henter en verdi som angir om sporingslytteren for er tråd trygt.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the trace listener is thread safe; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis sporingslytteren for er tråd trygt; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a data object and event information to the listener specific output.</source>
+          <target state="translated">Skriver sporingen informasjon, en objektet og hendelsen metadatainformasjon til lytteren bestemte utdata.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder gjeldende prosess-ID tråd-ID og stable sporingsinformasjon.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Et navn som brukes til å identifisere output, vanligvis navnet på programmet som genererte sporingshendelsen.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier som angir hvilken type hendelse som har forårsaket sporingen.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">En numerisk identifikator for hendelsen.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The trace data to emit.</source>
+          <target state="translated">Sporingsdata utdata fra.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a data object and event information to the listener specific output.</source>
+          <target state="translated">Skriver sporingen informasjon, en objektet og hendelsen metadatainformasjon til lytteren bestemte utdata.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder gjeldende prosess-ID tråd-ID og stable sporingsinformasjon.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Et navn som brukes til å identifisere output, vanligvis navnet på programmet som genererte sporingshendelsen.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier som angir hvilken type hendelse som har forårsaket sporingen.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">En numerisk identifikator for hendelsen.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An array of objects to emit as data.</source>
+          <target state="translated">En matrise av objekter utdata fra som data.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Writes trace and event information to the listener specific output.</source>
+          <target state="translated">Skriver sporing og hendelsen informasjon til lytteren bestemte utdata.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder gjeldende prosess-ID tråd-ID og stable sporingsinformasjon.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Et navn som brukes til å identifisere output, vanligvis navnet på programmet som genererte sporingshendelsen.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier som angir hvilken type hendelse som har forårsaket sporingen.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">En numerisk identifikator for hendelsen.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a message, and event information to the listener specific output.</source>
+          <target state="translated">Skriver Spor informasjon, melding og hendelsesinformasjon til lytteren bestemte utdata.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder gjeldende prosess-ID tråd-ID og stable sporingsinformasjon.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Et navn som brukes til å identifisere output, vanligvis navnet på programmet som genererte sporingshendelsen.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier som angir hvilken type hendelse som har forårsaket sporingen.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">En numerisk identifikator for hendelsen.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">En melding til å skrive.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a formatted array of objects and event information to the listener specific output.</source>
+          <target state="translated">Skriver Spor informasjon, en formatert matrise av objekter og hendelsesinformasjon til lytteren bestemte utdata.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder gjeldende prosess-ID tråd-ID og stable sporingsinformasjon.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Et navn som brukes til å identifisere output, vanligvis navnet på programmet som genererte sporingshendelsen.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">Én av de <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> verdier som angir hvilken type hendelse som har forårsaket sporingen.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">En numerisk identifikator for hendelsen.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A format string that contains zero or more format items, which correspond to objects in the <ph id="ph1">`args`</ph> array.</source>
+          <target state="translated">En formatstreng som inneholder null eller flere format elementer som svarer til objekter i den <ph id="ph1">`args`</ph> matrise.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_object" name="object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array containing zero or more objects to format.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref uid="langword_csharp_object" name="object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> matrise som inneholder null eller flere objekter til å formatere.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a message, a related activity identity and event information to the listener specific output.</source>
+          <target state="translated">Skriver sporingsinformasjon en melding, informasjon om relaterte aktiviteten identity og arrangementer til lytteren bestemte utdata.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som inneholder gjeldende prosess-ID tråd-ID og stable sporingsinformasjon.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Et navn som brukes til å identifisere output, vanligvis navnet på programmet som genererte sporingshendelsen.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">En numerisk identifikator for hendelsen.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">En melding til å skrive.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; object identifying a related activity.</source>
+          <target state="translated">En &lt;xref:System.Guid&gt;objekt identifiserer en relaterte aktivitet.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, writes the specified message to the listener you create in the derived class.</source>
+          <target state="translated">Når overstyrt i en avledet klasse, skriver du den angitte meldingen for lytteren opprette i den utledede klassen.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">En melding til å skrive.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, writes a message to the listener you create in the derived class, followed by a line terminator.</source>
+          <target state="translated">Når overstyrt i en avledet klasse, skriver en melding for lytteren oppretter du i den utledede klassen, etterfulgt av en linje terminator.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">En melding til å skrive.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

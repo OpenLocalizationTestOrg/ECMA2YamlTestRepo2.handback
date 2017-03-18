@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d6192fed36bda0a7b5e70974f848fb228e9bda75</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.SecurityState.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c7976edb71e99320253ef70ab665267398f44ff4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1a187ea7f8d3b11b0ee08f45050d2dbf64a5d581</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for requesting the security status of an action from the <bpt id="p1">&lt;xref href="System.AppDomainManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Biedt een basisklasse op voor het aanvragen van de beveiligingsstatus van een actie van de <bpt id="p1">&lt;xref href="System.AppDomainManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must inherit from this class to provide a class that includes a property that specifies the security-sensitive action to be performed.</source>
+          <target state="translated">U moet eigenschappen overnemen van deze klasse om te bieden van een klasse die een eigenschap die Hiermee geeft u de beveiliging van gevoelige actie bevat moet worden uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SecurityState object that is instantiated from the derived class is passed to the &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt; method to determine whether the host allows that action to be performed.</source>
+          <target state="translated">Het SecurityState-object dat wordt gemaakt van de afgeleide klasse wordt doorgegeven aan de &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt;methode om te bepalen of de host toestaat dat deze actie worden uitgevoerd.&lt;/xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of the &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A&gt; method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">De standaardimplementatie van de &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A&gt;methode retourneert altijd <ph id="ph1">`false`</ph>.&lt;/xref:System.AppDomainManager.CheckSecuritySettings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method must be overridden to detect the actions that are allowed.</source>
+          <target state="translated">De methode moet worden vervangen om te detecteren, de acties die zijn toegestaan.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you want to access a Web camera in your library code, you would create a <ph id="ph1">`WebcamSecurityState`</ph> object and call the &lt;xref:System.Security.SecurityState.EnsureState%2A&gt; method to determine whether the host allows Web camera access, as shown in the following example.</source>
+          <target state="translated">Bijvoorbeeld, als u toegang wilt tot een webcamera in uw code bibliotheek, zou u een <ph id="ph1">`WebcamSecurityState`</ph> object en de aanroep van de &lt;xref:System.Security.SecurityState.EnsureState%2A&gt;methode om te bepalen of de host Web access van de camera kunt, zoals wordt weergegeven in het volgende voorbeeld.&lt;/xref:System.Security.SecurityState.EnsureState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(You can find the code for <ph id="ph1">`WebcamSecurityState`</ph> in the "Example" section.)      <ph id="ph2">```   WebcamSecurityState securityState = new WebcamSecurityState("Safe access to Webcam", WebcamSecurityOptions.SafeAccess);   try   {      securityState.EnsureState();      // Allocate memory.      }   catch (ApplicationException e)   {       // Handle any exception that is thrown.       System.Diagnostics.Debug.WriteLine(e.Message);   }   ```</ph>       To process the call the &lt;xref:System.AppDomainManager&gt; must be made aware of <ph id="ph3">`WebcamSecurityState`</ph> through an override of the &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt; method, as shown in the following example.</source>
+          <target state="translated">(U vindt de code voor <ph id="ph1">`WebcamSecurityState`</ph> in de sectie "Voorbeeld".)      <ph id="ph2">```   WebcamSecurityState securityState = new WebcamSecurityState("Safe access to Webcam", WebcamSecurityOptions.SafeAccess);   try   {      securityState.EnsureState();      // Allocate memory.      }   catch (ApplicationException e)   {       // Handle any exception that is thrown.       System.Diagnostics.Debug.WriteLine(e.Message);   }   ```</ph>Voor het verwerken van de aanroep van de &lt;xref:System.AppDomainManager&gt;moeten worden gemaakt op de hoogte van <ph id="ph3">`WebcamSecurityState`</ph> via een onderdrukking van de &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt;methode, zoals wordt weergegeven in het volgende voorbeeld.&lt;/xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt; &lt;/xref:System.AppDomainManager&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, ensures that the state that is represented by <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is available on the host.</source>
+          <target state="translated">Wanneer in een afgeleide klasse genegeerd, zorgt ervoor dat de status die wordt vertegenwoordigd door <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is beschikbaar op de host.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implementation of this method should be similar to the following example.</source>
+          <target state="translated">De implementatie van deze methode moet vergelijkbaar met het volgende voorbeeld.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the state for this implementation of the <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class is available on the current host.</source>
+          <target state="translated">Hiermee wordt een waarde die aangeeft of de status voor deze implementatie van de <bpt id="p1">&lt;xref href="System.Security.SecurityState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse is beschikbaar op de huidige host.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IsStateAvailable calls the &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt; method to determine whether the state that is represented by this class is available on the host.</source>
+          <target state="translated">IsStateAvailable aanroepen de &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt;methode om te bepalen of de status die wordt vertegenwoordigd door deze klasse beschikbaar op de host is.&lt;/xref:System.AppDomainManager.CheckSecuritySettings%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Security.SecurityState&gt; class for an example implementation of the &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A&gt; method.</source>
+          <target state="translated">Zie de &lt;xref:System.Security.SecurityState&gt;klasse voor een voorbeeld van de implementatie van de &lt;xref:System.AppDomainManager.CheckSecuritySettings%2A&gt;methode.&lt;/xref:System.AppDomainManager.CheckSecuritySettings%2A&gt; &lt;/xref:System.Security.SecurityState&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the state is available; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de status niet beschikbaar. anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c55270081c089c98b6121c9a2a94d27692659a38</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.IPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7a0cc463801d5852e7e56b4b0003d1783984b75d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6118a9a0b9036c6d7344acc3059c1906bd3e1aa4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines methods implemented by permission types.</source>
+          <target state="translated">Methoden die worden geïmplementeerd door machtigingstypen definieert.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Permissions in the common language runtime are objects that describe sets of operations that can be secured for specified resources.</source>
+          <target state="translated">Machtigingen in de common language runtime zijn objecten die worden beschreven sets van bewerkingen die voor de opgegeven bronnen kunnen worden beveiligd.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A permission object describes operations or access that is subject to security control; it does not represent access or a right to perform operations.</source>
+          <target state="translated">Een object machtiging beschrijft operations of toegang die is onderworpen aan beveiligingscontrole; Dit vormt geen toegang tot of het recht bewerkingen uit te voeren.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Permissions are used by both application code and the .NET Framework security system in the following ways.</source>
+          <target state="translated">Machtigingen worden gebruikt door de toepassingscode en het beveiligingssysteem .NET Framework op de volgende manieren.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Code requests the permissions it needs in order to run.</source>
+          <target state="translated">-Code vraagt om de machtigingen nodig om te kunnen uitvoeren.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The security system policy grants permissions to code in order for it to run.</source>
+          <target state="translated">-Het beveiligingsbeleid van het systeem verleent machtigingen voor de code in om deze te worden uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Code demands that calling code has a permission.</source>
+          <target state="translated">-Code vereist code aanroepen, heeft een machtiging.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Code overrides the security stack using assert/deny/permit-only.</source>
+          <target state="translated">-Code overschrijft de stack beveiliging assert / / toestaan alleen-weigeren.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you write a new permission, you must implement this interface in your class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als u een nieuwe machtiging schrijft, moet u deze interface implementeren in uw klasse.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  A permission can be accessed by multiple threads.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Een machtiging kan worden geopend door meerdere threads.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When implementing this interface, you must guarantee that the &lt;xref:System.Security.IPermission.IsSubsetOf%2A&gt;, &lt;xref:System.Security.IPermission.Intersect%2A&gt;, &lt;xref:System.Security.IPermission.Union%2A&gt;, and &lt;xref:System.Security.IPermission.Copy%2A&gt; method implementations are thread safe.</source>
+          <target state="translated">Bij het implementeren van deze interface, moet u garanderen dat de &lt;xref:System.Security.IPermission.IsSubsetOf%2A&gt;, &lt;xref:System.Security.IPermission.Intersect%2A&gt;, &lt;xref:System.Security.IPermission.Union%2A&gt;, en &lt;xref:System.Security.IPermission.Copy%2A&gt;implementaties van methoden zijn thread-veilig.&lt;/xref:System.Security.IPermission.Copy%2A&gt; &lt;/xref:System.Security.IPermission.Union%2A&gt; &lt;/xref:System.Security.IPermission.Intersect%2A&gt; &lt;/xref:System.Security.IPermission.IsSubsetOf%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Creates and returns an identical copy of the current permission.</source>
+          <target state="translated">Maakt en retourneert een identieke kopie van de huidige machtiging.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A copy of a permission represents the same access to resources as the original permission.</source>
+          <target state="translated">Een kopie van een machtiging vertegenwoordigt dezelfde toegang tot bronnen als de oorspronkelijke machtiging.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission.</source>
+          <target state="translated">Een kopie van de huidige machtiging.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Throws a &lt;xref:System.Security.SecurityException&gt; at run time if the security requirement is not met.</source>
+          <target state="translated">Genereert een &lt;xref:System.Security.SecurityException&gt;tijdens het uitvoeren als de beveiligingsvereiste niet voldaan is.&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is typically used by secure libraries to ensure that callers have permission to access a resource.</source>
+          <target state="translated">Deze methode wordt doorgaans gebruikt door beveiligde bibliotheken om ervoor te zorgen dat aanroepfuncties gemachtigd voor toegang tot een bron.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a file class in a secure class library calls &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt; for the necessary &lt;xref:System.Security.Permissions.FileIOPermission&gt; before performing a file operation requested by the caller.</source>
+          <target state="translated">Een klasse bestand in een beveiligde class-bibliotheek wordt bijvoorbeeld &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt;voor de benodigde &lt;xref:System.Security.Permissions.FileIOPermission&gt;voordat u een bestandsbewerking aangevraagd door de aanroeper uitvoert.&lt;/xref:System.Security.Permissions.FileIOPermission&gt; &lt;/xref:System.Security.CodeAccessPermission.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although the majority of the classes that implement this interface method satisfy the security criteria by performing a full stack walk, a stack walk is not necessarily performed.</source>
+          <target state="translated">Hoewel het merendeel van de klassen die deze interfacemethode implementeren voldoen aan de beveiligingscriteria door het uitvoeren van een volledige stackwalk, wordt niet per se een stackwalk uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of an implementation that does not perform a stack walk is &lt;xref:System.Security.Permissions.PrincipalPermission.Demand%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Een voorbeeld van een implementatie die niet met een stackwalk werkt is &lt;xref:System.Security.Permissions.PrincipalPermission.Demand%2A?displayProperty=fullName&gt;.&lt;/xref:System.Security.Permissions.PrincipalPermission.Demand%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a stack walk is performed, the permissions of the code that calls this method are not examined; the check begins from the immediate caller of that code and proceeds up the stack.</source>
+          <target state="translated">Wanneer een stackwalk wordt uitgevoerd, worden de machtigingen van de code die deze methode aanroept niet onderzocht; de controle van de onmiddellijke aanroeper van die code begint en verloopt van de stack.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">De aanroepstack wordt doorgaans weergegeven als groeit, zodat de methoden die boven in de aanroepstack methoden lager in de aanroepstack aanroepen.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt; succeeds only if no &lt;xref:System.Security.SecurityException&gt; is raised.</source>
+          <target state="translated">&lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt;lukt alleen als er geen &lt;xref:System.Security.SecurityException&gt;is gegenereerd.&lt;/xref:System.Security.SecurityException&gt;&lt;/xref:System.Security.CodeAccessPermission.Demand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Creates and returns a permission that is the intersection of the current permission and the specified permission.</source>
+          <target state="translated">Maakt en retourneert een machtiging die is het snijpunt van de huidige machtigingen en de opgegeven.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The intersection of two permissions is a permission that describes the set of operations they both describe in common.</source>
+          <target state="translated">Het snijpunt van twee machtigingen is een machtiging die wordt beschreven welke bewerkingen die ze beide gemeenschappelijk beschrijven.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only a demand that passes both original permissions will pass the intersection.</source>
+          <target state="translated">Alleen een vraag die wordt doorgegeven zowel oorspronkelijke machtigingen geeft het snijpunt.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following statements are required to be true for all implementations of the Intersect method.</source>
+          <target state="translated">De volgende instructies zijn vereist voor niet true zijn voor alle implementaties van de methode Intersect.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`X`</ph> and <ph id="ph2">`Y`</ph> represent &lt;xref:System.Security.IPermission&gt; object references that are not <ph id="ph3">`null`</ph>.</source>
+          <target state="translated"><ph id="ph1">`X`</ph>en <ph id="ph2">`Y`</ph> vertegenwoordigen &lt;xref:System.Security.IPermission&gt;objectverwijzingen die niet <ph id="ph3">`null`</ph>.&lt;/xref:System.Security.IPermission&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`X`</ph>.Intersect(<ph id="ph2">`X`</ph>) returns a value equal to <ph id="ph3">`X`</ph>.</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>. Intersect (<ph id="ph2">`X`</ph>) retourneert een waarde gelijk is aan <ph id="ph3">`X`</ph>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`X`</ph>.Intersect(<ph id="ph2">`Y`</ph>) returns the same value as <ph id="ph3">`Y`</ph>.Intersect(<ph id="ph4">`X`</ph>).</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>. Intersect (<ph id="ph2">`Y`</ph>) retourneert dezelfde waarde als <ph id="ph3">`Y`</ph>. Intersect (<ph id="ph4">`X`</ph>).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`X`</ph>.Intersect(<ph id="ph2">`null`</ph>) returns <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>. Intersect (<ph id="ph2">`null`</ph>) retourneert <ph id="ph3">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A permission to intersect with the current permission.</source>
+          <target state="translated">Een machtiging voor intersect met de huidige machtiging.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">Deze moeten van hetzelfde type als de huidige machtiging.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the intersection of the current permission and the specified permission.</source>
+          <target state="translated">Een nieuwe machtiging die het snijpunt van de huidige machtigingen en de opgegeven vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This new permission is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the intersection is empty.</source>
+          <target state="translated">Deze nieuwe machtiging is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als het snijpunt leeg is.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not an instance of the same class as the current permission.</source>
+          <target state="translated">De <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept> parameter is niet <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en is niet een exemplaar van dezelfde klasse als de huidige machtiging.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Determines whether the current permission is a subset of the specified permission.</source>
+          <target state="translated">Hiermee wordt bepaald of de huidige machtiging een subset van de opgegeven machtiging.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A permission that is to be tested for the subset relationship.</source>
+          <target state="translated">Een machtiging die moet worden getest voor de relatie subset.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This permission must be of the same type as the current permission.</source>
+          <target state="translated">Deze machtiging moet van hetzelfde type als de huidige machtiging.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current permission is a subset of the specified permission; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de huidige machtiging een subset van de opgegeven machtiging is; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated">De <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept> parameter is niet <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en is niet van hetzelfde type als de huidige machtiging.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Creates a permission that is the union of the current permission and the specified permission.</source>
+          <target state="translated">Hiermee maakt u een machtiging die is de vereniging van de huidige machtigingen en de opgegeven.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The result of a call to Union is a permission that represents all the operations represented by both the current permission and the specified permission.</source>
+          <target state="translated">Het resultaat van een aanroep naar Union is een machtiging die staat voor alle bewerkingen die worden vertegenwoordigd door zowel de huidige machtigingen en de opgegeven.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any demand that passes either permission passes their union.</source>
+          <target state="translated">Elke vraag die beide toestemming geeft hun union is geslaagd.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following statements are required to be true for all implementations of the Union method.</source>
+          <target state="translated">De volgende instructies zijn vereist voor niet true zijn voor alle implementaties van de methode Union.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`X`</ph> and <ph id="ph2">`Y`</ph> represent &lt;xref:System.Security.IPermission&gt; objects that are not <ph id="ph3">`null`</ph>.</source>
+          <target state="translated"><ph id="ph1">`X`</ph>en <ph id="ph2">`Y`</ph> vertegenwoordigen &lt;xref:System.Security.IPermission&gt;objecten die geen <ph id="ph3">`null`</ph>.&lt;/xref:System.Security.IPermission&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`X`</ph>.Union(<ph id="ph2">`X`</ph>) returns an object that has the same value as <ph id="ph3">`X`</ph>.</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>. Union (<ph id="ph2">`X`</ph>) retourneert een object met dezelfde waarde als <ph id="ph3">`X`</ph>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`X`</ph>.Union(<ph id="ph2">`Y`</ph>) returns an object that has the same value as the object returned by <ph id="ph3">`Y`</ph>.Union(<ph id="ph4">`X`</ph>).</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>. Union (<ph id="ph2">`Y`</ph>) retourneert een object met dezelfde waarde als het object dat wordt geretourneerd door <ph id="ph3">`Y`</ph>. Union (<ph id="ph4">`X`</ph>).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`X`</ph>.Union(<ph id="ph2">`null`</ph>) returns an object that has the same value as <ph id="ph3">`X`</ph>.</source>
+          <target state="translated">-   <ph id="ph1">`X`</ph>. Union (<ph id="ph2">`null`</ph>) retourneert een object met dezelfde waarde als <ph id="ph3">`X`</ph>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A permission to combine with the current permission.</source>
+          <target state="translated">Een machtiging te combineren met de huidige machtiging.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">Deze moeten van hetzelfde type als de huidige machtiging.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the union of the current permission and the specified permission.</source>
+          <target state="translated">Een nieuwe machtiging die de samenvoeging van de huidige machtigingen en de opgegeven vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated">De <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept> parameter is niet <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en is niet van hetzelfde type als de huidige machtiging.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
