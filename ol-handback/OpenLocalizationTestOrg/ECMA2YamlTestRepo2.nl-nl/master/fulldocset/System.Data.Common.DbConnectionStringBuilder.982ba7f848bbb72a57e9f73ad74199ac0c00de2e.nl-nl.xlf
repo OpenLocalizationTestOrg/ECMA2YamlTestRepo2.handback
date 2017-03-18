@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b826e4786c9918ef914c35588d82aabc53097aa8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Common.DbConnectionStringBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">444d3cc60f318eaf31e1fb9c6ad426df6b0b1824</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">440623378c2dbe29ae9c3ee0d9e8f718710a804b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for strongly typed connection string builders.</source>
+          <target state="translated">Biedt een basisklasse voor sterk getypeerde verbinding opbouwfuncties tekenreeks.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DbConnectionStringBuilder class provides the base class from which the strongly typed connection string builders (&lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, &lt;xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt;, and so on) derive.</source>
+          <target state="translated">De klasse DbConnectionStringBuilder biedt de basisklasse van waaruit de sterk getypeerde verbinding opbouwfuncties tekenreeks (&lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, &lt;xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt;, enzovoort) worden afgeleid.&lt;/xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt; &lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection string builders let developers programmatically create syntactically correct connection strings, and parse and rebuild existing connection strings.</source>
+          <target state="translated">De tekenreeks verbinding opbouwfuncties kunnen ontwikkelaars programmatisch syntactisch juist verbindingsreeksen, maken en parseren en opnieuw maken van bestaande verbindingsreeksen.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DbConnectionStringBuilder has been defined in a database-agnostic manner.</source>
+          <target state="translated">De DbConnectionStringBuilder is gedefinieerd in een database networkdirect manier.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because of the addition of the &lt;xref:System.Data.Common&gt; namespace, developers require a base class against which they can program in order to build connection strings that can work against an arbitrary database.</source>
+          <target state="translated">Vanwege de toevoeging van de &lt;xref:System.Data.Common&gt;naamruimte ontwikkelaars vereisen een basisklasse op basis waarvan ze om te kunnen bouwen verbindingsreeksen die op een willekeurige database werkt kunnen programmeren.&lt;/xref:System.Data.Common&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the DbConnectionStringBuilder class lets users assign arbitrary key/value pairs and pass the resulting connection string to a strongly typed provider.</source>
+          <target state="translated">Daarom kan de klasse DbConnectionStringBuilder gebruikers een willekeurige sleutel/waarde-paren toewijzen en de resulterende verbindingsreeks doorgeven aan een sterk getypeerde provider.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All the data providers that are included as part of the .NET Framework provide a strongly typed class that inherits from DbConnectionStringBuilder: &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, &lt;xref:System.Data.OracleClient.OracleConnectionStringBuilder&gt;, &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt;, and &lt;xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt;.</source>
+          <target state="translated">Alle gegevensproviders die opgenomen als onderdeel van het .NET Framework zijn bieden een sterk getypeerde klasse die eigenschappen van DbConnectionStringBuilder overneemt: &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, &lt;xref:System.Data.OracleClient.OracleConnectionStringBuilder&gt;, &lt;xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt;, en &lt;xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt;.&lt;/xref:System.Data.OleDb.OleDbConnectionStringBuilder&gt; &lt;/xref:System.Data.Odbc.OdbcConnectionStringBuilder&gt; &lt;/xref:System.Data.OracleClient.OracleConnectionStringBuilder&gt; &lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The developer can build, assign, and edit connection strings for any arbitrary provider.</source>
+          <target state="translated">De ontwikkelaar kunt bouwen, toewijst en verbindingsreeksen voor elke willekeurige provider bewerken.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For providers that support specific key/value pairs, the connection string builder provides strongly typed properties corresponding to the known pairs.</source>
+          <target state="translated">Voor providers die ondersteuning bieden voor specifieke sleutel/waarde-paren, biedt de verbindingsreeksen sterk getypeerde eigenschappen overeenkomt met de bekende-paren.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to support providers that require the ability to support unknown values, developers can also supply arbitrary key/value pairs.</source>
+          <target state="translated">Ontwikkelaars kunnen om providers waarvoor de mogelijkheid voor de ondersteuning van onbekende waarden te ondersteunen, ook voorzien van een willekeurige sleutel/waarde-paren.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DbConnectionStringBuilder class implements the &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">De DbConnectionStringBuilder klasse implementeert de &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that the class works with Visual Studio designers at design time.</source>
+          <target state="translated">Dit betekent dat de klasse met Visual Studio ontwerpers in de ontwerpfase werkt.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When developers use the designer to build strongly typed DataSets and strongly typed connections within Visual Studio, the strongly typed connection string builder class will display the properties associated with its type and will also have converters that can map common values for known keys.</source>
+          <target state="translated">Als ontwikkelaars met de designer maakt sterk getypeerde gegevenssets en sterk getypeerde verbindingen vanuit Visual Studio, wordt de klasse sterk getypeerde connection string builder de eigenschappen die zijn gekoppeld aan het type worden weergegeven en heeft ook conversieprogramma's die algemene waarden voor sleutels bekende kunnen toewijzen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers needing to create connection strings as part of applications can use the DbConnectionStringBuilder class or one of its strongly typed derivatives to build and modify connection strings.</source>
+          <target state="translated">Ontwikkelaars nodig verbindingsreeksen maken als onderdeel van de toepassingen kunnen gebruiken de DbConnectionStringBuilder klasse of een van de sterk getypeerde afgeleiden te wijzigen van verbindingsreeksen.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DbConnectionStringBuilder class also makes it easy to manage connection strings stored in an application configuration file.</source>
+          <target state="translated">De klasse DbConnectionStringBuilder eenvoudig het verbindingsreeksen, opgeslagen in het configuratiebestand voor een toepassing beheren.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers can create connection strings using either a strongly typed connection string builder class, or they can use the DbConnectionStringBuilder class.</source>
+          <target state="translated">Ontwikkelaars kunnen verbindingsreeksen die gebruikmaken van beide een sterk getypeerde connection string builder klasse maken of de klasse DbConnectionStringBuilder kan worden gebruikt.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DbConnectionStringBuilder performs no checks for valid key/value pairs.</source>
+          <target state="translated">De DbConnectionStringBuilder geen controles worden uitgevoerd voor een geldige sleutel/waarde-paren.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it is possible using this class to create invalid connection strings.</source>
+          <target state="translated">Het is daarom mogelijk ongeldige verbindingsreeksen maken met deze klasse.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; supports only key/value pairs that are supported by SQL Server; trying to add invalid pairs will throw an exception.</source>
+          <target state="translated">De &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;ondersteunt alleen sleutel/waarde-paren die worden ondersteund door SQL Server; een uitzondering opgetreden bij het toevoegen van ongeldige paren genereert.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Both the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Add%2A&gt; method and &lt;xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt; property handle tries to insert malicious entries.</source>
+          <target state="translated">Zowel de &lt;xref:System.Data.Common.DbConnectionStringBuilder.Add%2A&gt;methode en &lt;xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt;eigenschap ingang wil invoegen schadelijke vermeldingen.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following code correctly escapes the nested key/value pair:       [Visual Basic]      <ph id="ph1">```   Dim builder As New System.Data.Common.DbConnectionStringBuilder   builder("Data Source") = "(local)"   builder("integrated sSecurity") = True   builder("Initial Catalog") = "AdventureWorks;NewValue=Bad"   ```</ph>       [C#]      <ph id="ph2">```   System.Data.Common.DbConnectionStringBuilder builder =        new System.Data.Common.DbConnectionStringBuilder();   builder["Data Source"] = "(local)";   builder["integrated Security"] = true;   builder["Initial Catalog"] = "AdventureWorks;NewValue=Bad";   ```</ph>       The result is the following connection string that handles the invalid value in a safe manner:      <ph id="ph3">```   data source=(local);integrated security=True;   initial catalog="AdventureWorks;NewValue=Bad"   ```</ph></source>
+          <target state="translated">Bijvoorbeeld de volgende code correct verlaat u de geneste sleutel-waardepaar: [Visual Basic] <ph id="ph1">```   Dim builder As New System.Data.Common.DbConnectionStringBuilder   builder("Data Source") = "(local)"   builder("integrated sSecurity") = True   builder("Initial Catalog") = "AdventureWorks;NewValue=Bad"   ```</ph> [C#] <ph id="ph2">```   System.Data.Common.DbConnectionStringBuilder builder =        new System.Data.Common.DbConnectionStringBuilder();   builder["Data Source"] = "(local)";   builder["integrated Security"] = true;   builder["Initial Catalog"] = "AdventureWorks;NewValue=Bad";   ```</ph> het resultaat is de volgende verbindingsreeks die verantwoordelijk is voor de ongeldige waarde op een veilige manier:<ph id="ph3">```   data source=(local);integrated security=True;   initial catalog="AdventureWorks;NewValue=Bad"   ```</ph></target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, optionally using ODBC rules for quoting values.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse, eventueel met behulp van regels voor ODBC-om aan te geven waarden.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`useOdbcRules`</ph> is <ph id="ph2">`true`</ph>, this &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; uses ODBC rules for quoting values (surrounding values with curly braces ({})).</source>
+          <target state="translated">Als <ph id="ph1">`useOdbcRules`</ph> is <ph id="ph2">`true`</ph>, deze &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;ODBC-regels worden gebruikt om aan te geven waarden (omringende waarden met accolades ({})).&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`useOdbcRules`</ph> is <ph id="ph2">`false`</ph>, this &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; uses quotation mark character ("") to delimit values.</source>
+          <target state="translated">Als <ph id="ph1">`useOdbcRules`</ph> is <ph id="ph2">`false`</ph>, deze &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;gebruikt aanhalingsteken ("") om waarden te scheiden.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use {} to delimit fields; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to use quotation marks.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>{} gebruiken om af te bakenen velden; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> aanhalingstekens gebruiken.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Adds an entry with the specified key and value into the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Voegt een item met de opgegeven sleutel en waarde in de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt; property can also be used to add new elements by setting the value of a key that does not exist in the dictionary.</source>
+          <target state="translated">De &lt;xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt;eigenschap kan ook worden gebruikt voor het toevoegen van nieuwe elementen door de waarde van een sleutel die niet bestaat in de woordenlijst.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example: <ph id="ph1">`myCollection["myNonexistentKey"] = myValue`</ph>.</source>
+          <target state="translated">Bijvoorbeeld: <ph id="ph1">`myCollection["myNonexistentKey"] = myValue`</ph>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the Add method by passing a null (<ph id="ph1">`Nothing`</ph> in Visual Basic) key throws an &lt;xref:System.ArgumentNullException&gt;.</source>
+          <target state="translated">Een null-waarde doorgegeven voor het aanroepen van de methode Add (<ph id="ph1">`Nothing`</ph> in Visual Basic) sleutel genereert een &lt;xref:System.ArgumentNullException&gt;.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, calling the Add method by passing a null value removes the key/value pair.</source>
+          <target state="translated">Een null-waarde doorgegeven voor het aanroepen van de methode Add wordt de sleutel-waardepaar verwijderd.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The key to add to the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De sleutel toevoegen aan de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The value for the specified key.</source>
+          <target state="translated">De waarde voor de opgegeven sleutel.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is alleen-lezen.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated">- of - de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> heeft een vaste grootte.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Provides an efficient and safe way to append a key and value to an existing &lt;xref:System.Text.StringBuilder&gt; object.</source>
+          <target state="translated">Biedt een efficiënte en veilige manier een sleutel en waarde toevoegen aan een bestaande &lt;xref:System.Text.StringBuilder&gt;object.&lt;/xref:System.Text.StringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method allows developers using a &lt;xref:System.Text.StringBuilder&gt; to create a collection of key/value pairs to be able to take advantage of the features included in the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; class when you add key/value pairs, without having to incur the overhead of creating and maintaining a &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance.</source>
+          <target state="translated">Deze methode kunnen ontwikkelaars met behulp van een &lt;xref:System.Text.StringBuilder&gt;voor het maken van een verzameling van sleutel/waarde-paren te kunnen profiteren van de functies in de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;klasse wanneer u sleutel-waardeparen toevoegen zonder dat er de overhead voor het maken en onderhouden van een &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt; &lt;/xref:System.Text.StringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`AppendKeyValuePair`</ph> method formats the key and value correctly and adds the new string to the supplied &lt;xref:System.Text.StringBuilder&gt;.</source>
+          <target state="translated">De <ph id="ph1">`AppendKeyValuePair`</ph> methode correct opgemaakt van de sleutel en waarde en wordt de nieuwe tekenreeks toegevoegd aan de opgegeven &lt;xref:System.Text.StringBuilder&gt;.&lt;/xref:System.Text.StringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Text.StringBuilder&gt; to which to add the key/value pair.</source>
+          <target state="translated">De &lt;xref:System.Text.StringBuilder&gt;waarnaar u wilt toevoegen, de sleutel-waardepaar.&lt;/xref:System.Text.StringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The key to be added.</source>
+          <target state="translated">De sleutel moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value for the supplied key.</source>
+          <target state="translated">De waarde voor de opgegeven sleutel.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Provides an efficient and safe way to append a key and value to an existing &lt;xref:System.Text.StringBuilder&gt; object.</source>
+          <target state="translated">Biedt een efficiënte en veilige manier een sleutel en waarde toevoegen aan een bestaande &lt;xref:System.Text.StringBuilder&gt;object.&lt;/xref:System.Text.StringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method allows developers using a &lt;xref:System.Text.StringBuilder&gt; to create a collection of key/value pairs to be able to take advantage of the features included in the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; class when adding key/value pairs, without having to incur the overhead of creating and maintaining a &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance.</source>
+          <target state="translated">Deze methode kunnen ontwikkelaars met behulp van een &lt;xref:System.Text.StringBuilder&gt;voor het maken van een verzameling van sleutel/waarde-paren te kunnen profiteren van de functies in de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;klasse bij het toevoegen van sleutel-waardeparen, zonder dat er de overhead voor het maken en onderhouden van een &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt; &lt;/xref:System.Text.StringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`AppendKeyValuePair`</ph> method formats the key and value correctly and adds the new string to the supplied &lt;xref:System.Text.StringBuilder&gt;.</source>
+          <target state="translated">De <ph id="ph1">`AppendKeyValuePair`</ph> methode correct opgemaakt van de sleutel en waarde en wordt de nieuwe tekenreeks toegevoegd aan de opgegeven &lt;xref:System.Text.StringBuilder&gt;.&lt;/xref:System.Text.StringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although most data sources let you delimit fields by using quotation marks, ODBC does not--for ODBC connection strings, you must use curly braces ({}).</source>
+          <target state="translated">Hoewel de meeste gegevensbronnen kunnen u velden beperken met behulp van aanhalingstekens, ODBC heeft geen--voor ODBC-verbindingsreeksen, moet u accolades ({}).</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to have the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; use ODBC rules for delimiting fields, set the <ph id="ph1">`useOdbcRules`</ph> parameter to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Om de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;ODBC-regels voor de velden die begrenst gebruiken, stelt u de <ph id="ph1">`useOdbcRules`</ph> -parameter voor <ph id="ph2">`true`</ph>.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Text.StringBuilder&gt; to which to add the key/value pair.</source>
+          <target state="translated">De &lt;xref:System.Text.StringBuilder&gt;waarnaar u wilt toevoegen, de sleutel-waardepaar.&lt;/xref:System.Text.StringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The key to be added.</source>
+          <target state="translated">De sleutel moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The value for the supplied key.</source>
+          <target state="translated">De waarde voor de opgegeven sleutel.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use {} to delimit fields, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to use quotation marks.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>{} gebruiken om af te bakenen velden <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> aanhalingstekens gebruiken.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt; property is visible in Visual Studio designers.</source>
+          <target state="translated">Opgehaald of ingesteld van een waarde die aangeeft of de &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;eigenschap is zichtbaar in de Visual Studio ontwerpfuncties.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers creating designers that take advantage of the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; class must be able to make the connection string visible or invisible within the designer's property grid.</source>
+          <target state="translated">Ontwikkelaars maken ontwerpers die van gebruikmaken de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;klasse moet kunnen maken van de verbindingsreeks zichtbaar of onzichtbaar binnen de ontwerpfunctie eigenschappenraster.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BrowsableConnectionString property lets developers indicate that the property should be invisible by setting the property to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">De eigenschap BrowsableConnectionString kan ontwikkelaars aangeven dat de eigenschap onzichtbaar worden moet door de eigenschap instelt op <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the connection string is visible within designers; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de verbindingsreeks zichtbaar in ontwerpers is; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> anders.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Clears the contents of the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Hiermee wist u de inhoud van de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Clear method removes all key/value pairs from the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; and resets all corresponding properties.</source>
+          <target state="translated">De methode Clear verwijdert alle sleutel-waardeparen van het &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;en herstelt u de eigenschappen van alle bijbehorende.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes setting the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt; property to 0 and the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt; property to an empty string.</source>
+          <target state="translated">Dit omvat het instellen de &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;eigenschap in op 0 en de &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt;eigenschap op een lege tekenreeks.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is alleen-lezen.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Clears the collection of <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects on the associated <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hiermee wist u de verzameling van <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objecten van de gekoppelde <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used by designers to clear all associated property descriptors on the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.</source>
+          <target state="translated">Deze methode wordt gebruikt door ontwerpers voor het wissen van alle gekoppelde eigenschap descriptors op de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets the connection string associated with the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Opgehaald of ingesteld van de verbindingsreeks die is gekoppeld aan de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property returns a semicolon-delimited list of key/value pairs stored within the collection maintained by the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.</source>
+          <target state="translated">Deze eigenschap retourneert een met puntkomma's gescheiden lijst met sleutel/waarde-paren die zijn opgeslagen in de verzameling bijgehouden door de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each pair contains the key and value, separated by an equal sign.</source>
+          <target state="translated">Elk paar bevat de sleutel en waarde, gescheiden door een gelijkteken.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example illustrates a typical connection string.</source>
+          <target state="translated">Het volgende voorbeeld wordt een typische verbindingsreeks.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   "Persist Security Info=False;Integrated Security=SSPI;Initial Catalog=AdventureWorks;Data Source=(local)"   ```</ph>       Data providers may expect specific keys and values for each connection string property.</source>
+          <target state="translated"><ph id="ph1">```   "Persist Security Info=False;Integrated Security=SSPI;Initial Catalog=AdventureWorks;Data Source=(local)"   ```</ph>Gegevensproviders kunnen verwachten specifieke sleutels en waarden voor elke eigenschap connection string.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>, These values are documented individually.</source>
+          <target state="translated">, Deze waarden afzonderlijk worden beschreven.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; class does not validate the key/value pairs associated with its connection string, although classes that inherit from it can.</source>
+          <target state="translated">De &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;klasse wordt de sleutel/waarde-paren die zijn gekoppeld aan de verbindingsreeks niet gevalideerd, hoewel klassen die overnemen kan.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConnectionString property of the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; class acts generally as a mechanism for creating and parsing semicolon-delimited lists of key/value pairs separated with equal signs.</source>
+          <target state="translated">De eigenschap ConnectionString van de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;klasse in het algemeen fungeert als een mechanisme voor het maken en bij het parseren van puntkomma's gescheiden lijsten met sleutel-waardeparen van elkaar gescheiden door gelijk tekenen.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It provides no validation or other support specific to connection strings.</source>
+          <target state="translated">Het biedt geen validatie of andere ondersteuning die specifiek zijn voor verbindingsreeksen.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you add items to the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; collection, the ConnectionString property will reflect the changes.</source>
+          <target state="translated">Als u items toevoegen aan de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;verzameling, de eigenschap ConnectionString de wijzigingen worden toegepast.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you assign a value to the ConnectionString property, the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; will try to parse the value, using the semicolon and equal-sign delimiters.</source>
+          <target state="translated">Als u geen waarde aan de eigenschap ConnectionString toewijzen de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;geprobeerd om te parseren van de waarde op basis van de puntkomma en gelijkteken scheidingstekens.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The current connection string, created from the key/value pairs that are contained within the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De huidige verbindingsreeks gemaakt op basis van de sleutel/waarde-paren die zijn opgenomen in de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">De standaardwaarde is een lege tekenreeks.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An invalid connection string argument has been supplied.</source>
+          <target state="translated">Is er een ongeldige verbinding tekenreeksargument opgegeven.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Determines whether the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains a specific key.</source>
+          <target state="translated">Hiermee wordt bepaald of de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> een specifieke sleutel bevat.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De sleutel te vinden in de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains an entry with the specified key; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> bevat een item met de opgegeven sleutel, anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the current number of keys that are contained within the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt; property.</source>
+          <target state="translated">Hiermee wordt het huidige aantal sleutels die zijn opgenomen in de &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;eigenschap.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The number of keys that are contained within the connection string maintained by the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Het aantal sleutels die zijn opgenomen in de verbindingsreeks die wordt beheerd door de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Compares the connection information in this <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the connection information in the supplied object.</source>
+          <target state="translated">Vergelijkt de verbindingsinformatie in dit <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object met de verbindingsinformatie in het opgegeven object.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Comparisons on key names are case insensitive; value comparisons are case sensitive.</source>
+          <target state="translated">Vergelijkingen op sleutelnamen zijn hoofdlettergevoelig; waarde vergelijkingen zijn hoofdlettergevoelig.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EquivalentTo method returns <ph id="ph1">`true`</ph> if the key/value pairs are equal, regardless of their order.</source>
+          <target state="translated">De methode EquivalentTo retourneert <ph id="ph1">`true`</ph> als de sleutel-waardeparen gelijk, ongeacht hun volgorde zijn.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection behavior of the two connection strings are equivalent, because order is never significant within connection strings.</source>
+          <target state="translated">Het gedrag van de verbinding van de twee verbindingsreeksen equivalent zijn, omdat de volgorde is nooit aanzienlijke binnen verbindingsreeksen.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, different order may affect connection pooling behavior of connections based on these connection strings.</source>
+          <target state="translated">Andere volgorde kan echter wel groepsgewijze gedrag van verbindingen op basis van deze verbindingsreeksen beïnvloeden.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be compared with this <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> moet worden vergeleken met dit <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the connection information in both of the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects causes an equivalent connection string; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de verbindingsinformatie in beide de <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objecten zorgt ervoor dat een equivalent verbindingsreeks; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Fills a supplied <bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with information about all the properties of this <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een opgegeven vult <bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> met informatie over de eigenschappen van deze <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be filled with information about this <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Collections.Hashtable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wordt ingevuld met informatie over deze <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated">Hiermee wordt een waarde die aangeeft of de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> heeft een vaste grootte.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A fixed-size collection does not allow adding or removing elements after the collection is created, but it does allow modifying existing elements.</source>
+          <target state="translated">Een verzameling met vaste grootte is niet toegestaan voor het toevoegen of verwijderen van elementen nadat de verzameling is gemaakt, maar u kunt bestaande elementen wijzigen.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A fixed-size collection is just a collection with a wrapper that prevents adding and removing elements; therefore, if changes are made to the underlying collection, including adding or removing elements, the fixed-size collection reflects those changes.</source>
+          <target state="translated">Een verzameling met vaste grootte is slechts een verzameling met een wrapper waardoor toevoegen en verwijderen van elementen; daarom als wijzigingen zijn aangebracht in de onderliggende verzameling, inclusief het toevoegen of verwijderen van elementen, de verzameling met vaste grootte wordt doorgevoerd die wijzigingen.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has a fixed size; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> heeft een vaste grootte, anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only.</source>
+          <target state="translated">Hiermee wordt een waarde die aangeeft of de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is alleen-lezen.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A read-only collection does not allow adding, removing, or modifying elements after the collection is created.</source>
+          <target state="translated">Een verzameling alleen-lezen kunnen niet toevoegen, verwijderen of wijzigen van elementen nadat de verzameling is gemaakt.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A read-only collection is just a collection with a wrapper that prevents modifying the collection; therefore, if changes are made to the underlying collection, the read-only collection reflects those changes.</source>
+          <target state="translated">Een verzameling alleen-lezen is slechts een verzameling met een wrapper waardoor het wijzigen van de collectie. daarom als wijzigingen worden aangebracht in de onderliggende verzameling, de verzameling alleen-lezen wordt doorgevoerd die wijzigingen.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is read-only; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> is alleen-lezen, anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value associated with the specified key.</source>
+          <target state="translated">Opgehaald of ingesteld van de waarde die is gekoppeld aan de opgegeven sleutel.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set this property, if the specified key already exists in the dictionary, the value is replaced; otherwise, a new element is created.</source>
+          <target state="translated">Als u deze eigenschap instelt als de opgegeven sleutel al in de woordenlijst bestaat, wordt de waarde wordt vervangen; anders wordt is een nieuw element gemaakt.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The key of the item to get or set.</source>
+          <target state="translated">De sleutel van het item ophalen of instellen.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The value associated with the specified key.</source>
+          <target state="translated">De waarde die is gekoppeld aan de opgegeven sleutel.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If the specified key is not found, trying to get it returns a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic), and trying to set it creates a new element using the specified key.</source>
+          <target state="translated">Als de opgegeven sleutel niet gevonden is, bij het ophalen van deze retourneert een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic), en maakt u een nieuw element met de opgegeven sleutel probeert in te stellen.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Passing a null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic) key throws an &lt;xref:System.ArgumentNullException&gt;.</source>
+          <target state="translated">Een null wordt doorgegeven (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic) sleutel genereert een &lt;xref:System.ArgumentNullException&gt;.&lt;/xref:System.ArgumentNullException&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Assigning a null value removes the key/value pair.</source>
+          <target state="translated">Een null-waarde toe te wijzen, verwijdert de sleutel-waardepaar.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The property is set, and the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only.</source>
+          <target state="translated">De eigenschap is ingesteld, en de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is alleen-lezen.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>-or-       The property is set, <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">keyword</ph><ept id="p1">&lt;/code&gt;</ept> does not exist in the collection, and the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated">- of - de eigenschap is ingesteld, <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">keyword</ph> <ept id="p1">&lt;/code&gt;</ept> bestaat niet in de verzameling en de <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> heeft een vaste grootte.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Haalt een &lt;xref:System.Collections.ICollection&gt;waarin de sleutels in de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is unspecified, but it is the same order as the associated values in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Values%2A&gt; property.</source>
+          <target state="translated">De volgorde van de waarden in de &lt;xref:System.Collections.ICollection&gt;is niet opgegeven, maar dit is dezelfde volgorde als de bijbehorende waarden in de &lt;xref:System.Collections.ICollection&gt;geretourneerd door de &lt;xref:System.Data.Common.DbConnectionStringBuilder.Values%2A&gt;eigenschap.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Values%2A&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned &lt;xref:System.Collections.ICollection&gt; is not a static copy; instead, the &lt;xref:System.Collections.ICollection&gt; refers back to the keys in the original &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.</source>
+          <target state="translated">De geretourneerde &lt;xref:System.Collections.ICollection&gt;is niet een statische kopie; in plaats daarvan de &lt;xref:System.Collections.ICollection&gt;verwijst terug naar de sleutels in de oorspronkelijke &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, changes to the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; are reflected in the &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">Daarom worden gewijzigd in de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;worden doorgevoerd in de &lt;xref:System.Collections.ICollection&gt;.&lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een &lt;xref:System.Collections.ICollection&gt;waarin de sleutels in de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Removes the entry with the specified key from the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Hiermee verwijdert u de vermelding met de opgegeven sleutel uit de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the Remove method returns a value that indicates its success, it is not required to look for the key before trying to remove the key/value pair from the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance.</source>
+          <target state="translated">Omdat de Remove-methode een waarde die zijn geslaagd retourneert aangeeft, is niet verplicht om te zoeken voor de sleutel voordat u probeert te verwijderen van de sleutel-waardepaar uit de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The key of the key/value pair to be removed from the connection string in this <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De sleutel van de sleutel-waardepaar worden verwijderd uit de verbindingsreeks in deze <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key existed within the connection string and was removed; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the key did not exist.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de sleutel bestond in de verbindingsreeks en is verwijderd; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als de sleutel niet bestaat.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>Null-waarde (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is read-only, or the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is alleen-lezen, of de <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> heeft een vaste grootte.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified key exists in this <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Hiermee wordt aangegeven of de opgegeven sleutel in deze bestaat <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> exemplaar.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method behaves identically to the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; method.</source>
+          <target state="translated">Deze methode werkt identiek aan de &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;methode.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De sleutel te vinden in de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains an entry with the specified key; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de <bpt id="p2">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> bevat een item met de opgegeven sleutel, anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Copies the elements of the &lt;xref:System.Collections.ICollection&gt; to an &lt;xref:System.Array&gt;, starting at a particular &lt;xref:System.Array&gt; index.</source>
+          <target state="translated">Kopieert de elementen van de &lt;xref:System.Collections.ICollection&gt;naar een &lt;xref:System.Array&gt;, te beginnen bij een bepaalde &lt;xref:System.Array&gt;index.&lt;/xref:System.Array&gt; &lt;/xref:System.Array&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.Collections.ICollection&gt;interface.&lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of this member, see &lt;xref:System.Collections.ICollection.CopyTo%2A&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.Collections.ICollection.CopyTo%2A&gt;.&lt;/xref:System.Collections.ICollection.CopyTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The one-dimensional &lt;xref:System.Array&gt; that is the destination of the elements copied from &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">De eendimensionale &lt;xref:System.Array&gt;die het doel van de elementen die zijn gekopieerd vanuit &lt;xref:System.Collections.ICollection&gt;.&lt;/xref:System.Collections.ICollection&gt; is&lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Array&gt; must have zero-based indexing.</source>
+          <target state="translated">De &lt;xref:System.Array&gt;moet hebben op nul gebaseerde indexering.&lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The zero-based index in <ph id="ph1">`array`</ph> at which copying begins.</source>
+          <target state="translated">De op nul gebaseerde index in <ph id="ph1">`array`</ph> welke kopiëren begint.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether access to the &lt;xref:System.Collections.ICollection&gt; is synchronized (thread safe).</source>
+          <target state="translated">Haalt een waarde die aangeeft of de toegang tot de &lt;xref:System.Collections.ICollection&gt;is gesynchroniseerd (thread-veilig).&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.Collections.ICollection&gt;interface.&lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Collections.ICollection.IsSynchronized%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.Collections.ICollection.IsSynchronized%2A&gt;.&lt;/xref:System.Collections.ICollection.IsSynchronized%2A&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if access to the &lt;xref:System.Collections.ICollection&gt; is synchronized (thread safe); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de toegang tot de &lt;xref:System.Collections.ICollection&gt;is gesynchroniseerd (thread-safe); anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets an object that can be used to synchronize access to the &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">Haalt een object dat kan worden gebruikt voor toegang tot de &lt;xref:System.Collections.ICollection&gt;.&lt;/xref:System.Collections.ICollection&gt; synchroniseren</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.Collections.ICollection&gt;interface.&lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Collections.ICollection.SyncRoot%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.Collections.ICollection.SyncRoot%2A&gt;.&lt;/xref:System.Collections.ICollection.SyncRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>An object that can be used to synchronize access to the &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">Een object dat kan worden gebruikt voor toegang tot de &lt;xref:System.Collections.ICollection&gt;.&lt;/xref:System.Collections.ICollection&gt; synchroniseren</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Adds an element with the provided key and value to the &lt;xref:System.Collections.IDictionary&gt; object.</source>
+          <target state="translated">Voegt een element met de opgegeven sleutel en waarde voor de &lt;xref:System.Collections.IDictionary&gt;object.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IDictionary&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.Collections.IDictionary&gt;interface.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of this member, see &lt;xref:System.Collections.IDictionary.Add%2A&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.Collections.IDictionary.Add%2A&gt;.&lt;/xref:System.Collections.IDictionary.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to use as the key of the element to add.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Om te gebruiken als de sleutel van het element dat u wilt toevoegen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to use as the value of the element to add.</source>
+          <target state="translated">De &lt;xref:System.Object&gt;te gebruiken als de waarde van het element dat u wilt toevoegen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Collections.IDictionary&gt; object contains an element with the specified key.</source>
+          <target state="translated">Hiermee wordt bepaald of de &lt;xref:System.Collections.IDictionary&gt;object bevat een element met de opgegeven sleutel.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IDictionary&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.Collections.IDictionary&gt;interface.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Collections.IDictionary.Contains%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.Collections.IDictionary.Contains%2A&gt;.&lt;/xref:System.Collections.IDictionary.Contains%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The key to locate in the &lt;xref:System.Collections.IDictionary&gt; object.</source>
+          <target state="translated">De sleutel te vinden in de &lt;xref:System.Collections.IDictionary&gt;object.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Collections.IDictionary&gt; contains an element with the key; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de &lt;xref:System.Collections.IDictionary&gt;bevat een element met de sleutel; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IDictionaryEnumerator&gt; object for the &lt;xref:System.Collections.IDictionary&gt; object.</source>
+          <target state="translated">Retourneert een &lt;xref:System.Collections.IDictionaryEnumerator&gt;object voor de &lt;xref:System.Collections.IDictionary&gt;object.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Collections.IDictionaryEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IDictionary&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.Collections.IDictionary&gt;interface.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of this member, see &lt;xref:System.Collections.IDictionary.GetEnumerator%2A&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.Collections.IDictionary.GetEnumerator%2A&gt;.&lt;/xref:System.Collections.IDictionary.GetEnumerator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionaryEnumerator&gt; object for the &lt;xref:System.Collections.IDictionary&gt; object.</source>
+          <target state="translated">Een &lt;xref:System.Collections.IDictionaryEnumerator&gt;object voor de &lt;xref:System.Collections.IDictionary&gt;object.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Collections.IDictionaryEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Gets or sets the element with the specified key.</source>
+          <target state="translated">Opgehaald of ingesteld van het element met de opgegeven sleutel.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IDictionary&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.Collections.IDictionary&gt;interface.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Collections.IDictionary.Item%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.Collections.IDictionary.Item%2A&gt;.&lt;/xref:System.Collections.IDictionary.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The key of the element to get or set.</source>
+          <target state="translated">De sleutel van het element ophalen of instellen.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The element with the specified key.</source>
+          <target state="translated">Het element met de opgegeven sleutel.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Removes the element with the specified key from the &lt;xref:System.Collections.IDictionary&gt; object.</source>
+          <target state="translated">Hiermee verwijdert u het element met de opgegeven sleutel uit de &lt;xref:System.Collections.IDictionary&gt;object.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IDictionary&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.Collections.IDictionary&gt;interface.&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of this member, see &lt;xref:System.Collections.IDictionary.Remove%2A&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.Collections.IDictionary.Remove%2A&gt;.&lt;/xref:System.Collections.IDictionary.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The key of the element to remove.</source>
+          <target state="translated">De sleutel van het element te verwijderen.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that iterates through a collection.</source>
+          <target state="translated">Retourneert een enumerator die een verzameling doorlopen.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.Collections.IEnumerable&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.Collections.IEnumerable&gt;interface.&lt;/xref:System.Collections.IEnumerable&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of this member, see &lt;xref:System.Collections.IEnumerable.GetEnumerator%2A&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.Collections.IEnumerable.GetEnumerator%2A&gt;.&lt;/xref:System.Collections.IEnumerable.GetEnumerator%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; object that can be used to iterate through the collection.</source>
+          <target state="translated">Een &lt;xref:System.Collections.IEnumerator&gt;-object dat kan worden gebruikt voor de collectie doorlopen.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Returns a collection of custom attributes for this instance of a component.</source>
+          <target state="translated">Retourneert een verzameling van aangepaste kenmerken voor dit exemplaar van een onderdeel.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetAttributes%2A&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetAttributes%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetAttributes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.AttributeCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the attributes for this object.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.AttributeCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dat de kenmerken voor dit object bevat.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Returns the class name of this instance of a component.</source>
+          <target state="translated">Retourneert de naam van de klasse van dit exemplaar van een onderdeel.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetClassName%2A&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetClassName%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetClassName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The class name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the class does not have a name.</source>
+          <target state="translated">De naam van de klasse van het object of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als de klasse geen naam heeft.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Returns the name of this instance of a component.</source>
+          <target state="translated">Retourneert de naam van dit exemplaar van een onderdeel.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetComponentName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object does not have a name.</source>
+          <target state="translated">De naam van het object of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als het object geen naam heeft.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Returns a type converter for this instance of a component.</source>
+          <target state="translated">Retourneert een type-conversieprogramma voor dit exemplaar van een onderdeel.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetConverter%2A&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetConverter%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetConverter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the converter for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is no <bpt id="p3">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> for this object.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de converter voor dit object of <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als er geen <bpt id="p3">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> voor dit object.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Returns the default event for this instance of a component.</source>
+          <target state="translated">Retourneert de standaardgebeurtenis voor dit exemplaar van een onderdeel.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent%2A&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default event for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this object does not have events.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de standaardgebeurtenis voor dit object of <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als dit object geen gebeurtenissen heeft.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Returns the default property for this instance of a component.</source>
+          <target state="translated">Retourneert de standaardeigenschap voor dit exemplaar van een onderdeel.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a description of this member, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty%2A&gt;.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the default property for this object, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this object does not have properties.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de standaardeigenschap voor dit object of <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als dit object geen eigenschappen heeft.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Returns an editor of the specified type for this instance of a component.</source>
+          <target state="translated">Retourneert een editor van het opgegeven type voor dit exemplaar van een onderdeel.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEditor%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEditor%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetEditor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the editor for this object.</source>
+          <target state="translated">Een &lt;xref:System.Type&gt;die staat voor de editor voor dit object.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; of the specified type that is the editor for this object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the editor cannot be found.</source>
+          <target state="translated">Een &lt;xref:System.Object&gt;van het opgegeven type dat is de editor voor dit object of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als de editor kan niet worden gevonden.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Returns the events for this instance of a component.</source>
+          <target state="translated">Retourneert de gebeurtenissen voor dit exemplaar van een onderdeel.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the events for this component instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de gebeurtenissen voor dit exemplaar van het onderdeel.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Returns the events for this instance of a component using the specified attribute array as a filter.</source>
+          <target state="translated">Retourneert de gebeurtenissen voor dit exemplaar van de matrix opgegeven kenmerk als een filter met een component.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetEvents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">Een matrix van het type &lt;xref:System.Attribute&gt;die wordt gebruikt als een filter.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the filtered events for this component instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de gefilterde gebeurtenissen voor dit exemplaar van het onderdeel.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Returns the properties for this instance of a component.</source>
+          <target state="translated">Retourneert de eigenschappen voor dit exemplaar van een onderdeel.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the properties for this component instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de eigenschappen voor dit exemplaar van het onderdeel.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Returns the properties for this instance of a component using the attribute array as a filter.</source>
+          <target state="translated">Retourneert de eigenschappen voor dit exemplaar van een onderdeel met behulp van de matrix kenmerk als een filter.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">Een matrix van het type &lt;xref:System.Attribute&gt;die wordt gebruikt als een filter.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the filtered properties for this component instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de gefilterde eigenschappen voor dit exemplaar van het onderdeel.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>Returns an object that contains the property described by the specified property descriptor.</source>
+          <target state="translated">Retourneert een object dat de eigenschap die is beschreven door de opgegeven eigenschapsdescriptor bevat.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; instance is cast to an &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;exemplaar is geconverteerd naar een &lt;xref:System.ComponentModel.ICustomTypeDescriptor&gt;interface.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner%2A&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner%2A&gt;.&lt;/xref:System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner%2A&gt;</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the property whose owner is to be found.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de eigenschap waarvan de eigenaar moet worden gevonden.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the owner of the specified property.</source>
+          <target state="translated">Een &lt;xref:System.Object&gt;die staat voor de eigenaar van de opgegeven eigenschap.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Returns the connection string associated with this <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de verbindingsreeks die is gekoppeld aan dit <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The current &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt; property.</source>
+          <target state="translated">De huidige &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;eigenschap.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString*&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Retrieves a value corresponding to the supplied key from this <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Haalt een waarde die overeenkomt met de opgegeven sleutel van deze <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TryGetValue method lets developers safely retrieve a value from a &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; without needing to first call the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; method.</source>
+          <target state="translated">De methode TryGetValue kan ontwikkelaars veilig ophalen van een waarde van een &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;zonder eerst aan te roepen de &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;methode.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because TryGetValue does not raise an exception when you call it, passing in a nonexistent key, you do not have to look for a key before retrieving its value.</source>
+          <target state="translated">Omdat TryGetValue een uitzondering opgetreden veroorzaakt bij het aanroepen van, doorgeven in een niet-bestaande sleutel, hoeft u niet te zoeken naar een sleutel voor het ophalen van de waarde.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling TryGetValue with a nonexistent key will place the null value (<ph id="ph1">`Nothing`</ph> in Visual Basic) in the <ph id="ph2">`value`</ph> parameter.</source>
+          <target state="translated">TryGetValue aanroepen met een niet-bestaande sleutel plaatst de null-waarde (<ph id="ph1">`Nothing`</ph> in Visual Basic) in de <ph id="ph2">`value`</ph> parameter.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The key of the item to retrieve.</source>
+          <target state="translated">De sleutel van het artikel om op te halen.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The value corresponding to the <ph id="ph1">`key`</ph>.</source>
+          <target state="translated">De waarde die overeenkomt met de <ph id="ph1">`key`</ph>.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">keyword</ph><ept id="p2">&lt;/code&gt;</ept> was found within the connection string, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">keyword</ph> <ept id="p2">&lt;/code&gt;</ept> gevonden in de verbindingsreeks <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> anders.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> contains a null value (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>bevat een null-waarde (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the values in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Haalt een &lt;xref:System.Collections.ICollection&gt;waarin de waarden in de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is unspecified, but it is the same order as the associated keys in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Keys%2A&gt; method.</source>
+          <target state="translated">De volgorde van de waarden in de &lt;xref:System.Collections.ICollection&gt;is niet opgegeven, maar dit is dezelfde volgorde als de gekoppelde sleutels in de &lt;xref:System.Collections.ICollection&gt;geretourneerd door de &lt;xref:System.Data.Common.DbConnectionStringBuilder.Keys%2A&gt;methode.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.Keys%2A&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned &lt;xref:System.Collections.ICollection&gt; is not a static copy; instead, the &lt;xref:System.Collections.ICollection&gt; refers back to the values in the original &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.</source>
+          <target state="translated">De geretourneerde &lt;xref:System.Collections.ICollection&gt;is niet een statische kopie; in plaats daarvan de &lt;xref:System.Collections.ICollection&gt;verwijst terug naar de waarden in de oorspronkelijke &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;.&lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, changes to the &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt; are reflected in the &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">Daarom worden gewijzigd in de &lt;xref:System.Data.Common.DbConnectionStringBuilder&gt;worden doorgevoerd in de &lt;xref:System.Collections.ICollection&gt;.&lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the values in the <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een &lt;xref:System.Collections.ICollection&gt;waarin de waarden in de <bpt id="p1">&lt;xref href="System.Data.Common.DbConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84c3d7d4c280a2b23703d42a924b395aab3769f5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Automation.CacheRequest.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9f15895a5e3b8ed7015d243f2dc2d98d3cb84ca8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">541bba44f3b4c91de53ab59e1d9c4416afdf7506</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies properties and patterns that the <ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> framework caches when an <bpt id="p1">&lt;xref href="System.Windows.Automation.AutomationElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is obtained.</source>
+          <target state="translated">Tulajdonságokat adja meg, és minták, a <ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> keretrendszer gyorsítótárazza, amikor egy <bpt id="p1">&lt;xref href="System.Windows.Automation.AutomationElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> egységekre.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving properties and patterns through <ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> requires cross-process calls that can slow down performance.</source>
+          <target state="translated">Tulajdonságok és minták használatával <ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> is lassítsák le teljesítmény folyamatok közötti-hívások szükségesek.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By caching values of proprieties and patterns in a batch operation, you can enhance the performance of your application.</source>
+          <target state="translated">A tulajdonságokat és a minták egy kötegelt műveletben gyorsítótárazásával, az alkalmazás teljesítményének javítása érdekében.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Create a new cache request by calling the class constructor.</source>
+          <target state="translated">Hozzon létre egy új gyorsítótár kérést osztálykonstruktor meghívásával.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The request is populated by repeated calls to the &lt;xref:System.Windows.Automation.CacheRequest.Add%2A&gt; method.</source>
+          <target state="translated">A kérelem nem tölti azt ismételt hívása a &lt;xref:System.Windows.Automation.CacheRequest.Add%2A&gt;metódus.&lt;/xref:System.Windows.Automation.CacheRequest.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only a single CacheRequest can be active.</source>
+          <target state="translated">Lehet, hogy csak egyetlen cacherequest kérelem aktív.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are two ways to activate a request:      -   Call &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt; on the request.</source>
+          <target state="translated">Kérelem aktiválásához két módja van:-hívás &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;a kérésben.&lt;/xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This pushes the request onto the stack, and the request is popped when the object is disposed.</source>
+          <target state="translated">Ez a kérelem a veremben leküldéses értesítések, és a kérés van előtti, amikor az objektum eldobása.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To ensure disposal even if an exception is raised, use the return value from &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt; within a <ph id="ph1">`using`</ph> block (<ph id="ph2">`Using`</ph> in <ph id="ph3">[!INCLUDE[TLA#tla_visualbnet](~/add/includes/tlasharptla-visualbnet-md.md)]</ph>).</source>
+          <target state="translated">Akkor is, ha kivétel történik a kivezetési érdekében használja a visszatérési érték a &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;belül egy <ph id="ph1">`using`</ph> blokk (<ph id="ph2">`Using`</ph> a <ph id="ph3">[!INCLUDE[TLA#tla_visualbnet](~/add/includes/tlasharptla-visualbnet-md.md)]</ph>).&lt;/xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Put the request onto the internal stack by calling &lt;xref:System.Windows.Automation.CacheRequest.Push%2A&gt;.</source>
+          <target state="translated">– Tegye a kérelem a belső verembe &lt;xref:System.Windows.Automation.CacheRequest.Push%2A&gt;.&lt;/xref:System.Windows.Automation.CacheRequest.Push%2A&gt; hívása</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the topmost request on the stack is active, and it must be the next one removed from the stack by &lt;xref:System.Windows.Automation.CacheRequest.Pop%2A&gt;.</source>
+          <target state="translated">A veremben csak a legfelső kérelem aktív, és a következő egy eltávolította a veremből &lt;xref:System.Windows.Automation.CacheRequest.Pop%2A&gt;.&lt;/xref:System.Windows.Automation.CacheRequest.Pop%2A&gt; kell lennie</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Popping the request deactivates it.</source>
+          <target state="translated">A kérelem popping inaktiválja.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> elements obtained while the request is active will have cached values for the properties and patterns specified.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph>elemek szerezte be, amíg a kérelem aktív lesz gyorsítótárazott rendelkezik a tulajdonságok és a minták megadott értékeket.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Windows.Automation.CacheRequest&gt; is created, the &lt;xref:System.Windows.Automation.AutomationElement.RuntimeIdProperty&gt; identifier is added as a default property to cache.</source>
+          <target state="translated">Ha egy &lt;xref:System.Windows.Automation.CacheRequest&gt;jön létre, a &lt;xref:System.Windows.Automation.AutomationElement.RuntimeIdProperty&gt;azonosítója meg van adva egy alapértelmezett tulajdonság gyorsítótárhoz.&lt;/xref:System.Windows.Automation.AutomationElement.RuntimeIdProperty&gt; &lt;/xref:System.Windows.Automation.CacheRequest&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Sets this <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as the active specification for the items that are returned when an <bpt id="p2">&lt;xref href="System.Windows.Automation.AutomationElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is requested on the same thread.</source>
+          <target state="translated">Ez beállítja <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , a visszaadott mikor elemek aktív előírásának egy <bpt id="p2">&lt;xref href="System.Windows.Automation.AutomationElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> elemmel azonos szálban van szükség.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using this method is usually preferable to using &lt;xref:System.Windows.Automation.CacheRequest.Push%2A&gt; and &lt;xref:System.Windows.Automation.CacheRequest.Pop%2A&gt; as a means of activating the &lt;xref:System.Windows.Automation.CacheRequest&gt;.</source>
+          <target state="translated">Ezzel a módszerrel általában célszerű és &lt;xref:System.Windows.Automation.CacheRequest.Push%2A&gt; &lt;xref:System.Windows.Automation.CacheRequest.Pop%2A&gt;pedig a a &lt;xref:System.Windows.Automation.CacheRequest&gt;.&lt;/xref:System.Windows.Automation.CacheRequest&gt; aktiválása&lt;/xref:System.Windows.Automation.CacheRequest.Pop%2A&gt; &lt;/xref:System.Windows.Automation.CacheRequest.Push%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The object is pushed onto the stack when Activate is called, and then popped off when it is disposed.</source>
+          <target state="translated">Az objektum aktiválás nevezik, és majd fájlobjektum amikor eldobása fejlesztőre a veremben.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To ensure disposal, place the return value within a <ph id="ph1">`using`</ph> block (<ph id="ph2">`Using`</ph> in <ph id="ph3">[!INCLUDE[TLA#tla_visualbnet](~/add/includes/tlasharptla-visualbnet-md.md)]</ph>).</source>
+          <target state="translated">Ahhoz, hogy a kivezetési, helyezze el az eredményül kapott értéket belül egy <ph id="ph1">`using`</ph> blokk (<ph id="ph2">`Using`</ph> a <ph id="ph3">[!INCLUDE[TLA#tla_visualbnet](~/add/includes/tlasharptla-visualbnet-md.md)]</ph>).</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The object that can be used to dispose the <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az objektum eldobásakor használható a <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Windows.Automation.AutomationPattern"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier to this <bpt id="p2">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hozzáadja a megadott <bpt id="p1">&lt;xref href="System.Windows.Automation.AutomationPattern"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> azonosítója a <bpt id="p2">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Adding a pattern that is already in the cache request has no effect.</source>
+          <target state="translated">Hozzáadása egy mintát, amely már a gyorsítótár kérelem nincs hatása.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An identifier specifying a pattern to cache.</source>
+          <target state="translated">Adja meg a gyorsítótár mintát azonosítója.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is active.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aktív.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Adds the specified <bpt id="p1">&lt;xref href="System.Windows.Automation.AutomationProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> identifier to this <bpt id="p2">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hozzáadja a megadott <bpt id="p1">&lt;xref href="System.Windows.Automation.AutomationProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> azonosítója a <bpt id="p2">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Windows.Automation.CacheRequest&gt; is created, the &lt;xref:System.Windows.Automation.AutomationElement.RuntimeIdProperty&gt; identifier is added as a default property to cache.</source>
+          <target state="translated">Ha egy &lt;xref:System.Windows.Automation.CacheRequest&gt;jön létre, a &lt;xref:System.Windows.Automation.AutomationElement.RuntimeIdProperty&gt;azonosítója meg van adva egy alapértelmezett tulajdonság gyorsítótárhoz.&lt;/xref:System.Windows.Automation.AutomationElement.RuntimeIdProperty&gt; &lt;/xref:System.Windows.Automation.CacheRequest&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Adding a property that is already in the cache request has no effect.</source>
+          <target state="translated">Hozzáadása egy tulajdonság, amely már a gyorsítótár kérelem nincs hatása.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An identifier specifying a property value to cache.</source>
+          <target state="translated">Egy azonosító gyorsítótárba tulajdonság értéke meg.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is active.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aktív.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that specifies whether returned elements should contain full references to the underlying <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph>, or only cached information.</source>
+          <target state="translated">Lekérdez vagy beállít egy értéket, amely meghatározza, hogy visszaadott elemeket az alapul szolgáló teljes hivatkozásokat kellene tartalmaznia <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph>, vagy csak gyorsítótárazott adatokat.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Automation.AutomationElementMode&gt; is the default value, and specifies that returned elements contain a full reference to the underlying <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph>.</source>
+          <target state="translated">&lt;xref:System.Windows.Automation.AutomationElementMode&gt;az alapértelmezett érték, és határozza meg, hogy visszaadott elemek hivatkozni teljes az alapul szolgáló <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph>.&lt;/xref:System.Windows.Automation.AutomationElementMode&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Automation.AutomationElementMode&gt; specifies that the returned elements have no reference to the underlying <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph>, and contain only cached information.</source>
+          <target state="translated">&lt;xref:System.Windows.Automation.AutomationElementMode&gt;Itt adhatja meg, hogy a visszaadott elemek nem az alapul szolgáló mutató hivatkozás <ph id="ph1">[!INCLUDE[TLA2#tla_ui](~/add/includes/ajax-current-ext-md.md)]</ph>, és csak gyorsítótárazott adatokat tartalmazhatnak.&lt;/xref:System.Windows.Automation.AutomationElementMode&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Certain operations on elements, including &lt;xref:System.Windows.Automation.AutomationElement.GetCurrentPropertyValue%2A&gt;, &lt;xref:System.Windows.Automation.AutomationElement.GetCurrentPattern%2A&gt;, and &lt;xref:System.Windows.Automation.AutomationElement.SetFocus%2A&gt;, require a full reference; attempting to perform these on an element that has none results in an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">Elemek, többek között a bizonyos műveletek &lt;xref:System.Windows.Automation.AutomationElement.GetCurrentPropertyValue%2A&gt;, &lt;xref:System.Windows.Automation.AutomationElement.GetCurrentPattern%2A&gt;, és &lt;xref:System.Windows.Automation.AutomationElement.SetFocus%2A&gt;, szükséges teljes körű referenciáért; ezek a végrehajtása egy elem, amelynek nincs eredményezi egy &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Windows.Automation.AutomationElement.SetFocus%2A&gt; &lt;/xref:System.Windows.Automation.AutomationElement.GetCurrentPattern%2A&gt; &lt;/xref:System.Windows.Automation.AutomationElement.GetCurrentPropertyValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using &lt;xref:System.Windows.Automation.AutomationElementMode&gt; can be more efficient when only properties are needed, as it avoids the overhead involved in setting up full references.</source>
+          <target state="translated">Használatával &lt;xref:System.Windows.Automation.AutomationElementMode&gt;hatékonyabb, ha csak tulajdonságok van szükség, lehet, ezzel elkerülheti a terhelés részt teljes hivatkozásainak beállítása.&lt;/xref:System.Windows.Automation.AutomationElementMode&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Windows.Automation.AutomationElementMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the returned elements have a full reference to the underlying <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph>; otherwise <bpt id="p2">&lt;xref href="System.Windows.Automation.AutomationElementMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Automation.AutomationElementMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a visszaadott elemek tartalmaznia kell egy teljes hivatkozást az alapul szolgáló <ph id="ph1">[!INCLUDE[TLA#tla_ui](~/add/includes/tlasharptla-ui-md.md)]</ph>; ellenkező esetben <bpt id="p2">&lt;xref href="System.Windows.Automation.AutomationElementMode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Másolat készítése a <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A modifiable copy of the current object.</source>
+          <target state="translated">Az aktuális objektum módosítható példányát.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is active on the current thread.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , hogy-e az aktuális szálon aktív.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The active <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az aktív <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Removes the active <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from the internal stack for the current thread.</source>
+          <target state="translated">Eltávolítja az aktív <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az aktuális szál a belső veremből.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the currently active request can be removed using the Pop method.</source>
+          <target state="translated">Csak a jelenleg aktív kérelem távolíthatja el a Pop metódussal.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to remove a request that is not the current one results in an exception.</source>
+          <target state="translated">Kísérlet történt egy kérelmet, amely nem az aktuális egy eredményeket kivétel eltávolítása.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unless you are nesting cache requests, it is preferable to use &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt; to place the request on the stack.</source>
+          <target state="translated">Kivéve, ha a gyorsítótár-kérések vannak beágyazási, célszerű használni &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;helyezhető el a kérelmet a veremben.&lt;/xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The reason is that you can use &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt; within a <ph id="ph1">`using`</ph> block (<ph id="ph2">`Using`</ph> in <ph id="ph3">[!INCLUDE[TLA#tla_visualbnet](~/add/includes/tlasharptla-visualbnet-md.md)]</ph>), ensuring that the request is popped off the stack even if an exception is raised.</source>
+          <target state="translated">A hiba oka, hogy használható &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;belül egy <ph id="ph1">`using`</ph> blokk (<ph id="ph2">`Using`</ph> a <ph id="ph3">[!INCLUDE[TLA#tla_visualbnet](~/add/includes/tlasharptla-visualbnet-md.md)]</ph>), győződjön meg arról, hogy a kérelem fájlobjektum a verem akkor is, ha kivétel történik.&lt;/xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An attempt was made to remove a cache request that was not the last one pushed onto the stack.</source>
+          <target state="translated">Kísérlet történt a gyorsítótár-kérelmeket, amelyek nem a verem fejlesztőre legutóbb eltávolítása.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Places the <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on the internal state stack, making it the active request on the current thread.</source>
+          <target state="translated">Helyek a <bpt id="p1">&lt;xref href="System.Windows.Automation.CacheRequest"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a belső állapotot veremben, így az aktuális szálon aktív kérelem.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Multiple &lt;xref:System.Windows.Automation.CacheRequest&gt; objects can be placed onto the state stack.</source>
+          <target state="translated">Több &lt;xref:System.Windows.Automation.CacheRequest&gt;objektumok kerülhetnek a állapot verembe.&lt;/xref:System.Windows.Automation.CacheRequest&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Cache requests must be removed from the stack in the order they were pushed on; otherwise, an &lt;xref:System.InvalidOperationException&gt; exception is raised.</source>
+          <target state="translated">Gyorsítótár-kérések el kell távolítani a verem a ahhoz, azok érkeztek Ellenkező esetben egy &lt;xref:System.InvalidOperationException&gt;kivétel következik be.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unless you are nesting cache requests, it is preferable to use &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt; to place the request on the stack.</source>
+          <target state="translated">Kivéve, ha a gyorsítótár-kérések vannak beágyazási, célszerű használni &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;helyezhető el a kérelmet a veremben.&lt;/xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The reason is that you can use &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt; within a <ph id="ph1">`using`</ph> block (<ph id="ph2">`Using`</ph> in <ph id="ph3">[!INCLUDE[TLA#tla_visualbnet](~/add/includes/tlasharptla-visualbnet-md.md)]</ph>), ensuring that the request is popped off the stack even if an exception is raised.</source>
+          <target state="translated">A hiba oka, hogy használható &lt;xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;belül egy <ph id="ph1">`using`</ph> blokk (<ph id="ph2">`Using`</ph> a <ph id="ph3">[!INCLUDE[TLA#tla_visualbnet](~/add/includes/tlasharptla-visualbnet-md.md)]</ph>), győződjön meg arról, hogy a kérelem fájlobjektum a verem akkor is, ha kivétel történik.&lt;/xref:System.Windows.Automation.CacheRequest.Activate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value specifying the view of the <ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> element tree to use when caching.</source>
+          <target state="translated">Lekérdez vagy beállít egy értéket adja meg a nézet a <ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> gyorsítótárazás használandó elem fájában.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For additional information on views of the <ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> element tree, see <bpt id="p1">[</bpt>UI Automation Tree Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Nézeteinek további tájékoztatást a <ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> elem fájában, lásd: <bpt id="p1">[</bpt>felhasználói felület Automation – ismertető<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The view of the <ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> element tree.</source>
+          <target state="translated">A nézet a <ph id="ph1">[!INCLUDE[TLA2#tla_uiautomation](~/add/includes/tla2sharptla-uiautomation-md.md)]</ph> elem fájában.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The default view is <bpt id="p1">&lt;xref href="System.Windows.Automation.Automation.ControlViewCondition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett nézet <bpt id="p1">&lt;xref href="System.Windows.Automation.Automation.ControlViewCondition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that specifies whether caching is done only for the root of the subtree, or also for its children or descendants.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely meghatározza, hogy csak a legfelső szintű a részfa, illetve is annak gyermekek vagy descendants gyorsítótárazása történik.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The scope of caching is in relation to the object or objects being fetched, not in relation to the object on which &lt;xref:System.Windows.Automation.AutomationElement.FindFirst%2A&gt; or &lt;xref:System.Windows.Automation.AutomationElement.FindAll%2A&gt; is called.</source>
+          <target state="translated">Gyorsítótárazás hatóköre viszonyítva az objektumok, éppen olvas be, nem található az objektum, amelyen képest &lt;xref:System.Windows.Automation.AutomationElement.FindFirst%2A&gt;vagy &lt;xref:System.Windows.Automation.AutomationElement.FindAll%2A&gt;nevezik.&lt;/xref:System.Windows.Automation.AutomationElement.FindAll%2A&gt; &lt;/xref:System.Windows.Automation.AutomationElement.FindFirst%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the example.</source>
+          <target state="translated">Lásd a példát.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>One or more of <bpt id="p1">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">One or more of <bpt id="p1">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the property to <bpt id="p1">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Kísérlet történt a tulajdonsága <bpt id="p1">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vagy <bpt id="p2">&lt;xref href="System.Windows.Automation.TreeScope"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
