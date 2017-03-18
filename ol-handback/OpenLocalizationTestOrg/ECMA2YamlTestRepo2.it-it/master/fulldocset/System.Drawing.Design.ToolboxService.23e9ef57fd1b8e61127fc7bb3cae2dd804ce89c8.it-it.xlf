@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8e824fae3288397f3402dae6554f4457bca02c99</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Drawing.Design.ToolboxService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90d3e62772e6c1346bdb09db0d7a6c5e58f9e81e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">159387bbfd2989853f54b0d481561e1feeb704da</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a default implementation of the <bpt id="p1">&lt;xref href="System.Drawing.Design.IToolboxService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Fornisce un'implementazione predefinita del <bpt id="p1">&lt;xref href="System.Drawing.Design.IToolboxService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interfaccia.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ToolboxService class is a partial implementation of the &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">La classe ToolboxService è un'implementazione parziale del &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use this implementation you must derive from this class and implement the abstract methods.</source>
+          <target state="translated">Per utilizzare questa implementazione è necessario derivare da questa classe e implementare i metodi astratti.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once implemented, you may add this class to your designer application's service container.</source>
+          <target state="translated">Una volta implementato, è possibile aggiungere questa classe al contenitore dei servizi dell'applicazione della finestra di progettazione.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There should be one toolbox service for each designer application.</source>
+          <target state="translated">Dovrebbe esserci un servizio di casella degli strumenti per ogni applicazione di progettazione.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ToolboxService provides much of the complex logic of creating a toolbox service, but requires that you define the storage containers for categories and items.</source>
+          <target state="translated">ToolboxService fornisce gran parte della logica complessa di creazione di un servizio casella degli strumenti, ma che è necessario definire i contenitori di archiviazione per le categorie e gli elementi.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows for simple toolboxes or very complex ones.</source>
+          <target state="translated">In questo modo per caselle semplici o molto complesse.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inizializza una nuova istanza di <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Gets a collection of strings depicting available categories of the toolbox.</source>
+          <target state="translated">Ottiene una raccolta di stringhe che descrivono le categorie della casella degli strumenti disponibili.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The category names correspond to various toolbox categories.</source>
+          <target state="translated">I nomi delle categorie corrispondono alle varie categorie della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a toolbox does not implement any form of categories, the CategoryNames property may return an empty collection.</source>
+          <target state="translated">Se una casella degli strumenti non implementa alcuna forma di categorie, la proprietà CategoryNames può restituire una raccolta vuota.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A collection of category names.</source>
+          <target state="translated">Una raccolta di nomi di categoria.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Creates a new toolbox item container from a saved data object.</source>
+          <target state="translated">Crea un nuovo contenitore di elementi della casella degli strumenti da un oggetto dati salvati.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateItemContainer method gives you the opportunity to provide a derived version of a &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt;.</source>
+          <target state="translated">Il metodo CreateItemContainer offre la possibilità di fornire una versione di un &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt;.&lt;/xref:System.Drawing.Design.ToolboxItemContainer&gt; derivata</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the &lt;xref:System.Drawing.Design.ToolboxService&gt; class does not support linked items, so it returns <ph id="ph1">`null`</ph> for link parameters that are not <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">Per impostazione predefinita, la &lt;xref:System.Drawing.Design.ToolboxService&gt;classe non supporta gli elementi collegati, in modo che restituisca <ph id="ph1">`null`</ph> per i parametri di collegamento che non sono <ph id="ph2">`null`</ph>.&lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To provide link support, you should override this method to create a derived &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt; that is capable of handling links.</source>
+          <target state="translated">Per fornire il supporto di collegamento, è necessario eseguire l'override di questo metodo per creare un oggetto derivato &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt;che è in grado di gestire i collegamenti.&lt;/xref:System.Drawing.Design.ToolboxItemContainer&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data object passed in should contain data obtained from a prior call to the &lt;xref:System.Drawing.Design.ToolboxItemContainer.ToolboxData%2A?displayProperty=fullName&gt; property on a toolbox item container.</source>
+          <target state="translated">L'oggetto dati passato deve contenere i dati ottenuti da una chiamata precedente al &lt;xref:System.Drawing.Design.ToolboxItemContainer.ToolboxData%2A?displayProperty=fullName&gt;proprietà su un contenitore di elementi della casella degli strumenti.&lt;/xref:System.Drawing.Design.ToolboxItemContainer.ToolboxData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A data object containing saved toolbox data.</source>
+          <target state="translated">Oggetto dati contenente i dati della casella degli strumenti salvati.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A new toolbox item container.</source>
+          <target state="translated">Un nuovo contenitore di elementi della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dataObject&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dataObject&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates a new toolbox item container from a toolbox item.</source>
+          <target state="translated">Crea un nuovo contenitore di elementi della casella degli strumenti da un elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateItemContainer method gives you the opportunity to provide a derived version of a &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt;.</source>
+          <target state="translated">Il metodo CreateItemContainer offre la possibilità di fornire una versione di un &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt;.&lt;/xref:System.Drawing.Design.ToolboxItemContainer&gt; derivata</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the &lt;xref:System.Drawing.Design.ToolboxService&gt; class does not support linked items, so it returns <ph id="ph1">`null`</ph> for link parameters that are not <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">Per impostazione predefinita, la &lt;xref:System.Drawing.Design.ToolboxService&gt;classe non supporta gli elementi collegati, in modo che restituisca <ph id="ph1">`null`</ph> per i parametri di collegamento che non sono <ph id="ph2">`null`</ph>.&lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To provide link support, you should override this method to create a derived &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt; that is capable of handling links.</source>
+          <target state="translated">Per fornire il supporto di collegamento, è necessario eseguire l'override di questo metodo per creare un oggetto derivato &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt;che è in grado di gestire i collegamenti.&lt;/xref:System.Drawing.Design.ToolboxItemContainer&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the provided &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; link parameter is assigned, it indicates that this is a linked toolbox item.</source>
+          <target state="translated">Se l'oggetto fornito &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;viene assegnato il parametro di collegamento, indica che questo è un elemento collegato della casella degli strumenti.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The toolbox item for which to create an item container.</source>
+          <target state="translated">L'elemento della casella degli strumenti per il quale creare un contenitore di elementi.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An optional designer host that should be linked to this toolbox item.</source>
+          <target state="translated">Host di progettazione facoltativo che deve essere collegato a questo elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Questo parametro può essere <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A new toolbox item container.</source>
+          <target state="translated">Un nuovo contenitore di elementi della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;item&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;item&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Occurs when the toolbox service detects that the active designer’s toolbox item filter has changed.</source>
+          <target state="translated">Si verifica quando il servizio di casella degli strumenti rileva che è stato modificato filtro di elementi della casella degli strumenti della finestra di progettazione attiva.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IList&gt; containing all items on the toolbox.</source>
+          <target state="translated">Restituisce un &lt;xref:System.Collections.IList&gt;contenente tutti gli elementi della casella degli strumenti.&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IList&gt; containing all items on the toolbox.</source>
+          <target state="translated">Un &lt;xref:System.Collections.IList&gt;contenente tutti gli elementi della casella degli strumenti.&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IList&gt; containing all items in a given category.</source>
+          <target state="translated">Restituisce un &lt;xref:System.Collections.IList&gt;contenente tutti gli elementi in una determinata categoria.&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the category specified by the <ph id="ph1">`categoryName`</ph> parameter does not exist, the GetItemContainers method should throw a meaningful exception.</source>
+          <target state="translated">Se la categoria specificata per il <ph id="ph1">`categoryName`</ph> parametro non esiste, il metodo GetItemContainers deve generare un'eccezione significativa.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The category for which to retrieve the item container list.</source>
+          <target state="translated">La categoria per cui recuperare l'elenco di elementi contenitore.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IList&gt; containing all items in the category specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">categoryName</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Un &lt;xref:System.Collections.IList&gt;contenente tutti gli elementi nella categoria specificata dai <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">categoryName</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Returns a toolbox item for a given type.</source>
+          <target state="translated">Restituisce un elemento della casella degli strumenti per un determinato tipo.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The type of component for which to retrieve the toolbox item.</source>
+          <target state="translated">Il tipo di componente per cui recuperare l'elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A toolbox item associated with the given type, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the type has no corresponding toolbox item.</source>
+          <target state="translated">Un elemento della casella degli strumenti associato al tipo specificato, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se il tipo non dispone di alcun elemento corrispondente.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;toolType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;toolType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Returns a toolbox item for a given type.</source>
+          <target state="translated">Restituisce un elemento della casella degli strumenti per un determinato tipo.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The type of component for which to retrieve the toolbox item.</source>
+          <target state="translated">Il tipo di componente per cui recuperare l'elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to search for non-public constructors on the type; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to search for public constructors.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Per eseguire la ricerca di costruttori pubblici per il tipo. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> per eseguire la ricerca di costruttori pubblici.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A toolbox item associated with the given type, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the type has no corresponding toolbox item.</source>
+          <target state="translated">Un elemento della casella degli strumenti associato al tipo specificato, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se il tipo non dispone di alcun elemento corrispondente.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;toolType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;toolType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.ICollection&gt; of <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for the given assembly.</source>
+          <target state="translated">Restituisce un &lt;xref:System.Collections.ICollection&gt;di <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti per l'assembly specificato.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetToolboxItems method scans the assembly for all types that support toolbox items, and return items for those types.</source>
+          <target state="translated">Il metodo GetToolboxItems analizza tutti i tipi che supportano gli elementi della casella degli strumenti e restituisce gli elementi per i tipi di assembly.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To support a toolbox item, a type must have the following characteristics:      -   Be public.</source>
+          <target state="translated">Per supportare un elemento della casella degli strumenti, un tipo deve avere le caratteristiche seguenti:-essere pubblici.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Implement &lt;xref:System.ComponentModel.IComponent&gt;.</source>
+          <target state="translated">-Implementare &lt;xref:System.ComponentModel.IComponent&gt;.&lt;/xref:System.ComponentModel.IComponent&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not be abstract.</source>
+          <target state="translated">-Impossibile astratta.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not have a &lt;xref:System.ComponentModel.ToolboxItemAttribute&gt; set to <ph id="ph1">`false`</ph> on its type.</source>
+          <target state="translated">-Non è un &lt;xref:System.ComponentModel.ToolboxItemAttribute&gt;impostato su <ph id="ph1">`false`</ph> al relativo tipo.&lt;/xref:System.ComponentModel.ToolboxItemAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not contain generic parameters.</source>
+          <target state="translated">-Non contiene parametri generici.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assemblies are locked for the duration of a process, so enumerating various files through &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt; can cause many assemblies to be loaded.</source>
+          <target state="translated">Gli assembly vengono bloccati per la durata di un processo, l'enumerazione dei vari file tramite &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;può provocare molti assembly da caricare.&lt;/xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt; methods that take an assembly name create a separate &lt;xref:System.AppDomain&gt; to search assemblies.</source>
+          <target state="translated">Il &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;metodi che accettano un nome di assembly di creare un apposito &lt;xref:System.AppDomain&gt;per la ricerca degli assembly.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished enumerating &lt;xref:System.Drawing.Design.ToolboxItem&gt; objects for a set of assemblies, you can call the &lt;xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt; method, which unloads the &lt;xref:System.AppDomain&gt; and frees the file references on the loaded assemblies.</source>
+          <target state="translated">Quando si è finito l'enumerazione &lt;xref:System.Drawing.Design.ToolboxItem&gt;gli oggetti per un set di assembly, è possibile chiamare il &lt;xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt;metodo, che scarica il &lt;xref:System.AppDomain&gt;e libera i riferimenti ai file sugli assembly caricati.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt; &lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assemblies loaded in this manner are loaded into a separate &lt;xref:System.AppDomain&gt; so they can later be unloaded.</source>
+          <target state="translated">Gli assembly caricati in questo modo vengono caricati in un apposito &lt;xref:System.AppDomain&gt;in modo da potere essere scaricati in un secondo momento.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This only momentarily locks the assembly file.</source>
+          <target state="translated">In questo modo solo temporaneamente bloccato il file di assembly.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An assembly name from which to load an assembly.</source>
+          <target state="translated">Nome dell'assembly da cui caricare un assembly.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A collection containing all the toolbox items in the assembly represented by the given assembly name.</source>
+          <target state="translated">Raccolta contenente tutti gli elementi della casella degli strumenti nell'assembly rappresentato dal nome di assembly specificato.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;an&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;an&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.ICollection&gt; containing all the toolbox items in the given assembly.</source>
+          <target state="translated">Restituisce un &lt;xref:System.Collections.ICollection&gt;contenente tutti gli elementi della casella degli strumenti nell'assembly specificato.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetToolboxItems method scans the assembly for all types that support toolbox items, and return items for those types.</source>
+          <target state="translated">Il metodo GetToolboxItems analizza tutti i tipi che supportano gli elementi della casella degli strumenti e restituisce gli elementi per i tipi di assembly.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To support a toolbox item, a type must have the following characteristics:      -   Be public.</source>
+          <target state="translated">Per supportare un elemento della casella degli strumenti, un tipo deve avere le caratteristiche seguenti:-essere pubblici.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Implement &lt;xref:System.ComponentModel.IComponent&gt;.</source>
+          <target state="translated">-Implementare &lt;xref:System.ComponentModel.IComponent&gt;.&lt;/xref:System.ComponentModel.IComponent&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not be abstract.</source>
+          <target state="translated">-Impossibile astratta.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not have a &lt;xref:System.ComponentModel.ToolboxItemAttribute&gt; set to <ph id="ph1">`false`</ph> on its type.</source>
+          <target state="translated">-Non è un &lt;xref:System.ComponentModel.ToolboxItemAttribute&gt;impostato su <ph id="ph1">`false`</ph> al relativo tipo.&lt;/xref:System.ComponentModel.ToolboxItemAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not contain generic parameters.</source>
+          <target state="translated">-Non contiene parametri generici.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assemblies are locked for the duration of a process, so enumerating various files through &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt; can cause many assemblies to be loaded.</source>
+          <target state="translated">Gli assembly vengono bloccati per la durata di un processo, l'enumerazione dei vari file tramite &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;può provocare molti assembly da caricare.&lt;/xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt; methods that take an assembly name create a separate &lt;xref:System.AppDomain&gt; to search assemblies.</source>
+          <target state="translated">Il &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;metodi che accettano un nome di assembly di creare un apposito &lt;xref:System.AppDomain&gt;per la ricerca degli assembly.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished enumerating &lt;xref:System.Drawing.Design.ToolboxItem&gt; objects for a set of assemblies, you can call the &lt;xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt; method, which unloads the &lt;xref:System.AppDomain&gt; and frees the file references on the loaded assemblies.</source>
+          <target state="translated">Quando si è finito l'enumerazione &lt;xref:System.Drawing.Design.ToolboxItem&gt;gli oggetti per un set di assembly, è possibile chiamare il &lt;xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt;metodo, che scarica il &lt;xref:System.AppDomain&gt;e libera i riferimenti ai file sugli assembly caricati.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt; &lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The assembly to enumerate.</source>
+          <target state="translated">L'assembly da enumerare.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A string that is the URL location of the assembly.</source>
+          <target state="translated">Stringa che rappresenta il percorso URL dell'assembly.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A collection containing all the toolbox items in the given assembly.</source>
+          <target state="translated">Raccolta contenente tutti gli elementi della casella degli strumenti nell'assembly specificato.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;a&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;a&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.ICollection&gt; of <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for the given assembly.</source>
+          <target state="translated">Restituisce un &lt;xref:System.Collections.ICollection&gt;di <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti per l'assembly specificato.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt; method scans the assembly for all types that support toolbox items, and return items for those types.</source>
+          <target state="translated">Il &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;metodo analizza l'assembly per tutti i tipi che supportano gli elementi della casella degli strumenti e restituisce gli elementi per i tipi.&lt;/xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To support a toolbox item, a type must have the following characteristics:      -   Be public.</source>
+          <target state="translated">Per supportare un elemento della casella degli strumenti, un tipo deve avere le caratteristiche seguenti:-essere pubblici.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Implement &lt;xref:System.ComponentModel.IComponent&gt;.</source>
+          <target state="translated">-Implementare &lt;xref:System.ComponentModel.IComponent&gt;.&lt;/xref:System.ComponentModel.IComponent&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not be abstract.</source>
+          <target state="translated">-Impossibile astratta.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not have a &lt;xref:System.ComponentModel.ToolboxItemAttribute&gt; set to <ph id="ph1">`false`</ph> on its type.</source>
+          <target state="translated">-Non è un &lt;xref:System.ComponentModel.ToolboxItemAttribute&gt;impostato su <ph id="ph1">`false`</ph> al relativo tipo.&lt;/xref:System.ComponentModel.ToolboxItemAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not contain generic parameters.</source>
+          <target state="translated">-Non contiene parametri generici.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assemblies are locked for the duration of a process, so enumerating various files through &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt; can cause many assemblies to be loaded.</source>
+          <target state="translated">Gli assembly vengono bloccati per la durata di un processo, l'enumerazione dei vari file tramite &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;può provocare molti assembly da caricare.&lt;/xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt; methods that take an assembly name create a separate &lt;xref:System.AppDomain&gt; to search assemblies.</source>
+          <target state="translated">Il &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;metodi che accettano un nome di assembly di creare un apposito &lt;xref:System.AppDomain&gt;per la ricerca degli assembly.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished enumerating &lt;xref:System.Drawing.Design.ToolboxItem&gt; objects for a set of assemblies, you can call the &lt;xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt; method, which unloads the &lt;xref:System.AppDomain&gt; and frees the file references on the loaded assemblies.</source>
+          <target state="translated">Quando si è finito l'enumerazione &lt;xref:System.Drawing.Design.ToolboxItem&gt;gli oggetti per un set di assembly, è possibile chiamare il &lt;xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt;metodo, che scarica il &lt;xref:System.AppDomain&gt;e libera i riferimenti ai file sugli assembly caricati.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt; &lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An assembly name from which to load an assembly.</source>
+          <target state="translated">Nome dell'assembly da cui caricare un assembly.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to throw an exception on error; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per generare un'eccezione in caso di errore; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A collection containing all the toolbox items in the assembly represented by the given assembly name.</source>
+          <target state="translated">Raccolta contenente tutti gli elementi della casella degli strumenti nell'assembly rappresentato dal nome di assembly specificato.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;an&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;an&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.ICollection&gt; of <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for the given assembly.</source>
+          <target state="translated">Restituisce un &lt;xref:System.Collections.ICollection&gt;di <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> oggetti per l'assembly specificato.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetToolboxItems method scans the assembly for all types that support toolbox items, and return items for those types.</source>
+          <target state="translated">Il metodo GetToolboxItems analizza tutti i tipi che supportano gli elementi della casella degli strumenti e restituisce gli elementi per i tipi di assembly.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To support a toolbox item, a type must have the following characteristics:      -   Be public.</source>
+          <target state="translated">Per supportare un elemento della casella degli strumenti, un tipo deve avere le caratteristiche seguenti:-essere pubblici.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Implement &lt;xref:System.ComponentModel.IComponent&gt;.</source>
+          <target state="translated">-Implementare &lt;xref:System.ComponentModel.IComponent&gt;.&lt;/xref:System.ComponentModel.IComponent&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not be abstract.</source>
+          <target state="translated">-Impossibile astratta.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not have a &lt;xref:System.ComponentModel.ToolboxItemAttribute&gt; set to <ph id="ph1">`false`</ph> on its type.</source>
+          <target state="translated">-Non è un &lt;xref:System.ComponentModel.ToolboxItemAttribute&gt;impostato su <ph id="ph1">`false`</ph> al relativo tipo.&lt;/xref:System.ComponentModel.ToolboxItemAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not contain generic parameters.</source>
+          <target state="translated">-Non contiene parametri generici.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assemblies are locked for the duration of a process, so enumerating various files through &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt; can cause many assemblies to be loaded.</source>
+          <target state="translated">Gli assembly vengono bloccati per la durata di un processo, l'enumerazione dei vari file tramite &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;può provocare molti assembly da caricare.&lt;/xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt; methods that take an assembly name create a separate &lt;xref:System.AppDomain&gt; to search assemblies.</source>
+          <target state="translated">Il &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;metodi che accettano un nome di assembly di creare un apposito &lt;xref:System.AppDomain&gt;per la ricerca degli assembly.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Drawing.Design.ToolboxService.GetToolboxItems%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished enumerating &lt;xref:System.Drawing.Design.ToolboxItem&gt; objects for a set of assemblies, you can call the &lt;xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt; method, which unloads the &lt;xref:System.AppDomain&gt; and frees the file references on the loaded assemblies.</source>
+          <target state="translated">Quando si è finito l'enumerazione &lt;xref:System.Drawing.Design.ToolboxItem&gt;gli oggetti per un set di assembly, è possibile chiamare il &lt;xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt;metodo, che scarica il &lt;xref:System.AppDomain&gt;e libera i riferimenti ai file sugli assembly caricati.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Drawing.Design.ToolboxService.UnloadToolboxItems%2A&gt; &lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The assembly to enumerate.</source>
+          <target state="translated">L'assembly da enumerare.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>A string that is the URL location of the assembly.</source>
+          <target state="translated">Stringa che rappresenta il percorso URL dell'assembly.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to throw an exception on error; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>per generare un'eccezione in caso di errore; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A collection containing all the toolbox items in the assembly represented by the given assembly name.</source>
+          <target state="translated">Raccolta contenente tutti gli elementi della casella degli strumenti nell'assembly rappresentato dal nome di assembly specificato.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;a&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;a&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the given data object represents an item container.</source>
+          <target state="translated">Restituisce un valore che indica se l'oggetto dati specificato rappresenta un contenitore di elementi.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data object may directly represent an item container, or there may be a custom toolbox creator that is registered to handle the format contained within the data object.</source>
+          <target state="translated">L'oggetto dati può rappresentare direttamente un contenitore di elementi o potrebbe esserci un creatore di casella degli strumenti personalizzata che viene registrato per gestire il formato contenuto all'interno dell'oggetto dati.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`host`</ph> parameter is a valid designer host, the IsItemContainer method searches toolbox item creators that are associated with the designer host.</source>
+          <target state="translated">Se il <ph id="ph1">`host`</ph> parametro non è un host di progettazione valido, il metodo IsItemContainer Cerca creatori di elementi della casella degli strumenti associati all'host di progettazione.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`host`</ph> is supplied, toolbox item creators that are associated with the host are also compared.</source>
+          <target state="translated">Se <ph id="ph1">`host`</ph> è specificato, vengono confrontati anche i creatori di elementi della casella degli strumenti associati all'host.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The data object to examine for the presence of a toolbox item container.</source>
+          <target state="translated">L'oggetto dati per verificare la presenza di un contenitore di elementi della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>An optional designer host.</source>
+          <target state="translated">Host di progettazione facoltativo.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Questo parametro può essere <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the given data object represents an item container; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se l'oggetto dati specificato rappresenta un contenitore di elementi; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dataObject&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dataObject&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Determines whether the toolbox item container is supported by the given designer host.</source>
+          <target state="translated">Determina se il contenitore di elementi della casella degli strumenti è supportato dall'host di progettazione specificato.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The toolbox item container.</source>
+          <target state="translated">Contenitore di elementi della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The given designer host.</source>
+          <target state="translated">Host di progettazione specificato.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the toolbox item container is supported by the given designer host; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il contenitore di elementi della casella degli strumenti è supportato dall'host di progettazione specificato; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;container&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;container&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Refreshes the state of the toolbox items.</source>
+          <target state="translated">Aggiorna lo stato degli elementi della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Drawing.Design.IToolboxService.Refresh%2A&gt; method is called by the toolbox service when a user has requested that the collection of items should be refreshed.</source>
+          <target state="translated">Il &lt;xref:System.Drawing.Design.IToolboxService.Refresh%2A&gt;metodo viene chiamato dal servizio casella degli strumenti quando un utente ha richiesto che la raccolta di elementi deve essere aggiornata.&lt;/xref:System.Drawing.Design.IToolboxService.Refresh%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the collection is always current, there is no need to provide any implementation here.</source>
+          <target state="translated">Se la raccolta è sempre corrente, non è necessario fornire alcuna implementazione.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the collection returned from &lt;xref:System.Drawing.Design.ToolboxService.GetItemContainers%2A&gt; represents a snapshot of the toolbox items, however, this method provides an opportunity to update them.</source>
+          <target state="translated">Se la raccolta restituita da &lt;xref:System.Drawing.Design.ToolboxService.GetItemContainers%2A&gt;rappresenta uno snapshot degli elementi della casella degli strumenti, tuttavia, questo metodo offre l'opportunità di aggiornarli.&lt;/xref:System.Drawing.Design.ToolboxService.GetItemContainers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the currently selected category.</source>
+          <target state="translated">Ottiene o imposta il nome della categoria selezionata.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, toolbox items are grouped into categories.</source>
+          <target state="translated">In generale, gli elementi della casella degli strumenti sono raggruppati in categorie.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A string containing the name of the currently selected category.</source>
+          <target state="translated">Stringa contenente il nome della categoria selezionata.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Gets or sets the currently selected item container.</source>
+          <target state="translated">Ottiene o imposta il contenitore dell'elemento attualmente selezionato.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The item container for the currently selected toolbox item, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no item is selected.</source>
+          <target state="translated">Contenitore di elementi per l'elemento attualmente selezionato, o <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se è selezionato alcun elemento.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Receives a call from the toolbox service when a user reports that a selected toolbox item has been used.</source>
+          <target state="translated">Riceve una chiamata dal servizio casella degli strumenti quando un utente segnala che è stato utilizzato un elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SelectedItemContainerUsed method is called by the toolbox service when a user reports that the selected toolbox item has been used.</source>
+          <target state="translated">Il metodo SelectedItemContainerUsed viene chiamato dal servizio casella degli strumenti quando un utente segnala che è stato utilizzato l'elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After invoking a toolbox item, it is a common user interface (UI) behavior to cancel the selection of that toolbox item.</source>
+          <target state="translated">Dopo la chiamata di un elemento della casella degli strumenti, è un comportamento dell'interfaccia utente comune per annullare la selezione dell'elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method cancels the selection of the toolbox item by setting the selected item container to <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">L'implementazione predefinita di questo metodo annulla la selezione dell'elemento della casella degli strumenti impostando il contenitore dell'elemento selezionato <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Sets the current application's cursor to a cursor that represents the currently selected tool.</source>
+          <target state="translated">Imposta il cursore dell'applicazione corrente a un cursore che rappresenta lo strumento correntemente selezionato.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The toolbox service provides support for setting the user interface (UI) cursor to an image that represents the currently selected toolbox item.</source>
+          <target state="translated">Il servizio della casella degli strumenti fornisce supporto per l'impostazione del cursore dell'interfaccia utente di un'immagine che rappresenta l'elemento attualmente selezionato.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetCursor method can be called to set the cursor.</source>
+          <target state="translated">Il metodo SetCursor può essere chiamato per impostare il cursore.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It returns <ph id="ph1">`true`</ph> if the cursor is set, or <ph id="ph2">`false`</ph> if it is not.</source>
+          <target state="translated">Restituisce <ph id="ph1">`true`</ph> se il cursore è impostato, o <ph id="ph2">`false`</ph> in caso contrario.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation sets the cursor to a crosshair and returns <ph id="ph1">`true`</ph> if there is an item selected.</source>
+          <target state="translated">L'implementazione predefinita imposta il cursore di un mirino e restituisce <ph id="ph1">`true`</ph> se è presente un elemento selezionato.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It returns <ph id="ph1">`false`</ph> and leaves the cursor unchanged if no item is selected.</source>
+          <target state="translated">Restituisce <ph id="ph1">`false`</ph> e lascia il cursore verrà modificato se è selezionato alcun elemento.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is an item selected; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se è selezionato un elemento; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Gets the list of available component types.</source>
+          <target state="translated">Ottiene l'elenco dei tipi di componente disponibile.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The designer host providing design-time services.</source>
+          <target state="translated">L'host di progettazione che forniscono servizi in fase di progettazione.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The base type specifying the components to retrieve.</source>
+          <target state="translated">Tipo di base che specifica i componenti da recuperare.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The list of available component types.</source>
+          <target state="translated">Elenco di tipi di componenti disponibili.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddCreator%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddCreator%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCreatorCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can create a component when the toolbox item is invoked.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCreatorCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che può creare un componente quando viene richiamato l'elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The data format that the creator handles.</source>
+          <target state="translated">Il formato di dati che gestisce l'autore.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddCreator%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddCreator%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCreatorCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can create a component when the toolbox item is invoked.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCreatorCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che può creare un componente quando viene richiamato l'elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The data format that the creator handles.</source>
+          <target state="translated">Il formato di dati che gestisce l'autore.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the designer host to associate with the creator.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'host di progettazione da associare al creatore.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddLinkedToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddLinkedToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The linked <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the toolbox.</source>
+          <target state="translated">Collegato <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da aggiungere alla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current design document.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per il documento di progettazione corrente.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddLinkedToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>method.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddLinkedToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>metodo.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The linked <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the toolbox.</source>
+          <target state="translated">Collegato <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da aggiungere alla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The toolbox item category to add the toolbox item to.</source>
+          <target state="translated">La categoria dell'elemento della casella degli strumenti per aggiungere l'elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current design document.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per il documento di progettazione corrente.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the toolbox.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da aggiungere alla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.AddToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the toolbox.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da aggiungere alla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The toolbox item category to add the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to.</source>
+          <target state="translated">La categoria di elemento della casella degli strumenti per aggiungere il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.CategoryNames%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.CategoryNames%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> proprietà.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Design.CategoryNameCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the tool categories.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Drawing.Design.CategoryNameCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> contenente le categorie degli strumenti.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.DeserializeToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.DeserializeToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The object that contains the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to retrieve.</source>
+          <target state="translated">L'oggetto che contiene il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da recuperare.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> created from deserialization.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> creato dalla deserializzazione.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.DeserializeToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.DeserializeToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The object that contains the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to retrieve.</source>
+          <target state="translated">L'oggetto che contiene il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da recuperare.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to associate with this <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da associare al <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> created from deserialization.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> creato dalla deserializzazione.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.GetSelectedToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.GetSelectedToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is currently selected, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no toolbox item is currently selected.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> attualmente selezionato, o <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se non è selezionato alcun elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.GetSelectedToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.GetSelectedToolboxItem%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metodo.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the selected tool must be associated with for it to be returned.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che lo strumento selezionato deve essere associato per essere restituito.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is currently selected, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no toolbox item is currently selected.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> attualmente selezionato, o <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se non è selezionato alcun elemento della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Gets the entire collection of toolbox items from the toolbox.</source>
+          <target state="translated">Ottiene l'intera raccolta di elementi della casella degli strumenti dalla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the current toolbox items.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che contiene gli elementi della casella degli strumenti corrente.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Gets the collection of toolbox items that are associated with the specified designer host from the toolbox.</source>
+          <target state="translated">Ottiene la raccolta di elementi della casella degli strumenti associati a host di progettazione dalla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is associated with the toolbox items to retrieve.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associato a elementi della casella degli strumenti da recuperare.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the current toolbox items that are associated with the specified designer host.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che contiene gli elementi della casella degli strumenti corrente associati all'host della finestra di progettazione specificato.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Gets a collection of toolbox items from the toolbox that match the specified category.</source>
+          <target state="translated">Ottiene una raccolta di elementi della casella degli strumenti dalla casella degli strumenti corrispondenti alla categoria specificata.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The toolbox item category from which to retrieve all the toolbox items.</source>
+          <target state="translated">Categoria dell'elemento da cui recuperare tutti gli elementi della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the current toolbox items that are associated with the specified category.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che contiene gli elementi della casella degli strumenti corrente che sono associati alla categoria specificata.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;host&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Gets the collection of toolbox items that are associated with the specified designer host and category from the toolbox.</source>
+          <target state="translated">Ottiene la raccolta di elementi della casella degli strumenti associati con l'host di progettazione specificato e la categoria della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The toolbox item category to retrieve the toolbox items from.</source>
+          <target state="translated">Categoria dell'elemento per recuperare elementi dalla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is associated with the toolbox items to retrieve.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associato a elementi della casella degli strumenti da recuperare.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the current toolbox items that are associated with the specified category and designer host.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che contiene gli elementi della casella degli strumenti corrente che sono associati a un host di progettazione e la categoria specificata.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;category &lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;category &lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the specified object, which represents a serialized toolbox item, matches the specified attributes.</source>
+          <target state="translated">Ottiene un valore che indica se l'oggetto specificato, che rappresenta un elemento serializzato, corrisponde agli attributi specificati.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>The object that contains the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to retrieve.</source>
+          <target state="translated">L'oggetto che contiene il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da recuperare.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the attributes to test the serialized object for.</source>
+          <target state="translated">Un &lt;xref:System.Collections.ICollection&gt;che contiene gli attributi per testare il for oggetto serializzato.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object matches the specified attributes; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se l'oggetto corrisponde agli attributi specificati; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializedObject&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;filterAttributes&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializedObject&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;filterAttributes&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the specified object, which represents a serialized toolbox item, can be used by the specified designer host.</source>
+          <target state="translated">Ottiene un valore che indica se l'oggetto specificato, che rappresenta un elemento serializzato, può essere usato dall'host di progettazione specificato.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The object that contains the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to retrieve.</source>
+          <target state="translated">L'oggetto che contiene il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da recuperare.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to test for support for the <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> per verificare il supporto per il <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified object is compatible with the specified designer host; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se l'oggetto specificato è compatibile con l'host di progettazione specificato; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serializedObject&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serializedObject&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the specified object is a serialized toolbox item.</source>
+          <target state="translated">Ottiene un valore che indica se l'oggetto specificato è un elemento della casella degli strumenti serializzato.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The object to inspect.</source>
+          <target state="translated">Oggetto da controllare.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object contains a toolbox item object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se l'oggetto contiene un oggetto elemento della casella degli strumenti; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the specified object is a serialized toolbox item byusing the specified designer host.</source>
+          <target state="translated">Ottiene un valore che indica se l'oggetto specificato è un utilizzando l'elemento della casella degli strumenti serializzato host di progettazione.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The object to inspect.</source>
+          <target state="translated">Oggetto da controllare.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is making this request.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che effettua la richiesta.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object contains a toolbox item object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se l'oggetto contiene un oggetto elemento della casella degli strumenti; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Refreshes the state of the toolbox items.</source>
+          <target state="translated">Aggiorna lo stato degli elementi della casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Removes a previously added toolbox item creator of the specified data format.</source>
+          <target state="translated">Rimuove un creatore di elementi della casella degli strumenti aggiunto in precedenza del formato dati specificato.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>The data format of the creator to remove.</source>
+          <target state="translated">Formato dei dati del creatore da rimuovere.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Removes a previously added toolbox creator that is associated with the specified data format and the specified designer host.</source>
+          <target state="translated">Rimuove un creatore della casella degli strumenti aggiunto in precedenza che è associato il formato dati specificato e l'host di progettazione specificato.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The data format of the creator to remove.</source>
+          <target state="translated">Formato dei dati del creatore da rimuovere.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is associated with the creator to remove.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesignerHost"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associato al creatore da rimuovere.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;host&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Removes the specified toolbox item from the toolbox.</source>
+          <target state="translated">Rimuove l'elemento specificato dalla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove from the toolbox.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da rimuovere dalla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;toolboxItem&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;toolboxItem&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Removes the specified toolbox item from the toolbox.</source>
+          <target state="translated">Rimuove l'elemento specificato dalla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove from the toolbox.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da rimuovere dalla casella degli strumenti.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The toolbox item category to remove the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from.</source>
+          <target state="translated">Categoria dell'elemento da rimuovere il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;toolboxItem&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;category&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;toolboxItem&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;category&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.SelectedCategory%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">Per una descrizione di questo membro, vedere il <ph id="ph1">&amp;lt;</ph>xref:System.Drawing.Design.IToolboxService.SelectedCategory%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> proprietà.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Questo membro è un'implementazione esplicita dell'interfaccia di un membro.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxService&gt; instance is cast to an &lt;xref:System.Drawing.Design.IToolboxService&gt; interface.</source>
+          <target state="translated">E può essere utilizzato solo quando il &lt;xref:System.Drawing.Design.ToolboxService&gt;esegue il cast dell'istanza di un &lt;xref:System.Drawing.Design.IToolboxService&gt;interfaccia.&lt;/xref:System.Drawing.Design.IToolboxService&gt; &lt;/xref:System.Drawing.Design.ToolboxService&gt;</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The name of the currently selected category.</source>
+          <target state="translated">Il nome della categoria selezionata.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Notifies the toolbox service that the selected tool has been used.</source>
+          <target state="translated">Notifica il servizio della casella degli strumenti che è stato utilizzato lo strumento selezionato.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Gets a serializable object that represents the specified toolbox item.</source>
+          <target state="translated">Ottiene un oggetto serializzabile che rappresenta l'elemento specificato.</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to serialize.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da serializzare.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>An object that represents the specified <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Oggetto che rappresenta l'oggetto specificato <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;toolboxItem&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;toolboxItem&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Sets the current application's cursor to a cursor that represents the currently selected tool.</source>
+          <target state="translated">Imposta il cursore dell'applicazione corrente a un cursore che rappresenta lo strumento correntemente selezionato.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the cursor is set by the currently selected tool; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is no tool selected and the cursor is set to the standard Windows cursor.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il cursore viene impostato mediante lo strumento selezionato. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> se è presente nessuno strumento selezionato e il cursore è impostata sul cursore Windows standard.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Selects the specified toolbox item.</source>
+          <target state="translated">Seleziona l'elemento specificato.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to select.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> da selezionare.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Unloads any assemblies that were locked as a result of calling the &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems*&gt; method.</source>
+          <target state="translated">Scarica tutti gli assembly che sono stati bloccati a seguito della chiamata di &lt;xref:System.Drawing.Design.ToolboxService.GetToolboxItems*&gt;metodo.&lt;/xref:System.Drawing.Design.ToolboxService.GetToolboxItems*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b32176d6089fbbc162329a5d737b8d1019d7145</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.PeerNode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7aaa79ec403146daf6303070b016f4e253f0913b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc877a1d3b71f4be4bd47f8fb52425748b7fef15</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the instance of of a peer node used by an application participating in a specific peer mesh.</source>
+          <target state="translated">Meghatározza az egy adott társ rácsvonal részt egy alkalmazás által használt társcsomópont példányát.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A peer node can host multiple peer channels within the mesh as long as they share a common URI and host name in the &lt;xref:System.ServiceModel.EndpointAddress&gt; supplied to the binding for each channel.</source>
+          <target state="translated">A társ csomópontokra több társ csatornát a hálóban, amíg a közös URI és az állomás nevét a közös a &lt;xref:System.ServiceModel.EndpointAddress&gt;a kötés minden csatorna számára megadott.&lt;/xref:System.ServiceModel.EndpointAddress&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If two or more peer channels defined for a peer node are created with separate bindings, then the &lt;xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;, &lt;xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;, and &lt;xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt; properties must be identical on all bindings.</source>
+          <target state="translated">Ha két vagy több olyan társcsomópont definiált társ csatornák jönnek létre külön definiált kötésekkel, akkor a &lt;xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;, &lt;xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;, és &lt;xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt;Tulajdonságok meg kell egyeznie az összes kötését.&lt;/xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a subsequent channel binding is created after the first one for the same peer node instance, then the &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; property on this and subsequent bindings must be less than or equal to the value of &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; property as set on the first channel binding.</source>
+          <target state="translated">Ha a következő csatornakötés létrejön társ csomópont ugyanazon, az első után a &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;Ez a tulajdonság és későbbi kötések értékének kisebbnek kell lennie &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;tulajdonságot az első csatornakötéssel tehet közzé vannak megadva.&lt;/xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the peer node is online and able to send messages to neighboring nodes in the peer mesh.</source>
+          <target state="translated">Egy a társ csomópont online állapotú, és képes üzeneteket küldeni a társ háló szomszédos csomópontok voltát jelző érték beolvasása.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>"Online" indicates that a peer node has available neighbor nodes.</source>
+          <target state="translated">"Online" azt jelzi, hogy egy társcsomópont elérhető szomszédos csomópontok.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>"Offline" indicates that a peer node has no available neighbors.</source>
+          <target state="translated">"Offline" azt jelzi, hogy rendelkezik-e a társcsomópont nincs elérhető szomszédok.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the peer node is online; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a társ csomópont online; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Gets and sets a custom filter for messages received over the peer channel.</source>
+          <target state="translated">Lekérdezi és beállítja a társcsatornán protokollal fogadott üzenetek egyéni szűrőt.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The message filter must be a derived type and should be recast to that type to use any custom features defined on it.</source>
+          <target state="translated">A üzenetszűrő származtatott típusúnak kell lennie, és adott típusra bármely definiált egyéni szolgáltatásainak használatával át kell dolgozni.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.ServiceModel.PeerMessagePropagationFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a custom message filter.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ServiceModel.PeerMessagePropagationFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>amely tartalmaz egy egyéni üzenetszűrő.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">Csatorna meg nyitva a figyelésre.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Signals when the peer node goes offline from the peer mesh.</source>
+          <target state="translated">Jelek, amikor a társról offline állapotba kerül a társcsomópont a háló.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An offline peer node has no neighbor nodes within the peer mesh to which it can connect.</source>
+          <target state="translated">Egy kapcsolat nélküli társcsomópont szomszédos csomópontok nem rendelkezik a társ hálón, amelyhez csatlakozhat.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Signals when a peer node comes online within the peer mesh.</source>
+          <target state="translated">Ha egy társ csomópont visszatér online társ hálón belüli jelek.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An online peer node has at least one neighbor node within the peer mesh to which it is connected.</source>
+          <target state="translated">Egy online társcsomópont szomszédos legalább egy csomópont van a társ hálón, amelyhez csatlakozik.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the network port on which the peer node is listening.</source>
+          <target state="translated">Lekérdezi a hálózati portot, amelyen az társcsomópont figyeli.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Int32&gt; that specifies the network port on which the peer node is listening.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;amely megadja, hogy a hálózati portot, amelyen az társcsomópont figyeli.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">Csatorna meg nyitva a figyelésre.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Refreshes the connection with the peer mesh.</source>
+          <target state="translated">A kapcsolat a társ háló frissíti.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">Csatorna meg nyitva a figyelésre.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The refresh operation timed out.</source>
+          <target state="translated">A frissítési művelet túllépte az időkorlátot.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A network error occurred during the refresh attempt.</source>
+          <target state="translated">Hálózati hiba történt a frissítési kísérlet során.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The connection aborted during the refresh attempt.</source>
+          <target state="translated">A kapcsolat megszakadt, a frissítési kísérlet során.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The connection faulted during the refresh attempt.</source>
+          <target state="translated">A kapcsolat a frissítési kísérlet során hibát jelzett.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Provides a string representation of a peer node.</source>
+          <target state="translated">Itt egy olyan társcsomópont karakterláncos ábrázolása.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; value that contains the mesh ID of the peer node if the mesh ID is set; otherwise, it returns the type.</source>
+          <target state="translated">&lt;xref:System.String&gt;érték, amely tartalmazza a társcsomópont a háló azonosítója, ha a háló azonosítója be van állítva; Ellenkező esetben azt típusát adja vissza.&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97a7c4f8885a2c2c7cfc4df2d6e34d2ab9b8f0cf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceProcessInstaller.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e4db515e3f9ee4254042944e23a283c84760b8f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cca53f0457981453850874f6d66f61c7009da7cf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Installs an executable containing classes that extend <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Telepíti az osztályokat, amelyek tartalmazó végrehajtható <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is called by installation utilities, such as InstallUtil.exe, when installing a service application.</source>
+          <target state="translated">Ez az osztály elnevezése telepítési segédprogramok, például az InstallUtil.exe, egy alkalmazás telepítésekor.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceProcessInstaller does work common to all services in an executable.</source>
+          <target state="translated">Működik, hogy a ServiceProcessInstaller hiányzik a végrehajtható fájl közös az összes szolgáltatáshoz.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used by the installation utility to write registry values associated with services you want to install.</source>
+          <target state="translated">Segítségével a telepítés segédprogram írja ki a telepíteni kívánt szolgáltatások társított beállításjegyzék értékeket.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To install a service, create a project installer class that inherits from &lt;xref:System.Configuration.Install.Installer&gt;, and set the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; on the class to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">A szolgáltatás telepítéséhez hozzon létre egy projekt telepítő osztályból származó &lt;xref:System.Configuration.Install.Installer&gt;, és állítsa be a &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;meg az osztályt a <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within your project, instantiate one ServiceProcessInstaller instance per service application, and one &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance for each service in the application.</source>
+          <target state="translated">A projekt példányosítható szolgáltatás alkalmazásonként egy ServiceProcessInstaller példányt, egyet pedig &lt;xref:System.ServiceProcess.ServiceInstaller&gt;példányt minden egyes szolgáltatás az alkalmazásban.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Finally, add the ServiceProcessInstaller instance and the &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances to your project installer class.</source>
+          <target state="translated">Végül adja hozzá a ServiceProcessInstaller példány és &lt;xref:System.ServiceProcess.ServiceInstaller&gt;, hogy a projekt telepítő osztályhoz.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When InstallUtil.exe runs, the utility looks for classes in the service assembly with the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Amikor InstallUtil.exe fut, a segédprogram keresi az osztályokat a szolgáltatási szerelvény a &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;beállítása <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Add classes to the service assembly by adding them to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection associated with your project installer.</source>
+          <target state="translated">A szolgáltatási szerelvény hozzáadásukkal osztályok hozzáadása a &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;a projekt telepítő társított gyűjtemény.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; is <ph id="ph1">`false`</ph>, the install utility ignores the project installer.</source>
+          <target state="translated">Ha &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;van <ph id="ph1">`false`</ph>, a telepítés segédprogram figyelmen kívül hagyja a projekt telepítő.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an instance of ServiceProcessInstaller, properties you can modify include specifying that a service application run under an account other than the logged-on user.</source>
+          <target state="translated">A ServiceProcessInstaller példánya módosíthatja tulajdonságai közé tartozik, adja meg, amely egy olyan fiókkal, csak a bejelentkezett felhasználó futtatása szolgáltatásalkalmazás.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify a particular &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; pair under which the service should run, or you can use &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; to specify that the service run under the computer's System account, a local or network service account, or a user account.</source>
+          <target state="translated">Megadhatja, hogy egy adott &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;és &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;pár, amely alatt a szolgáltatásnak futnia kell, vagy használhat &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;adhatja meg, hogy a szolgáltatás futtatásához a számítógép rendszer fiókját, a helyi vagy hálózati szolgáltatás fiókot vagy egy felhasználói fiókot.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The computer's System account is not the same as the Administrator account.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A számítógép rendszer fiókját nem ugyanaz, mint a rendszergazdai fiók.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you do not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Általában, akkor ne hívja meg a módszerek a &lt;xref:System.ServiceProcess.ServiceInstaller&gt;a kód; általában akkor csak a telepítés segédprogrammal.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt; and &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt; methods during the installation process.</source>
+          <target state="translated">A telepítő segédprogram automatikusan meghívja a &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt;és &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt;módszerek a telepítési folyamat során.&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt; (or &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt;) on all previously installed components.</source>
+          <target state="translated">Az biztonsági ki a hibákat, ha szükséges, meghívásával &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;(vagy &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt;) az összes korábban telepített összetevőket.&lt;/xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application's install routine maintains information automatically about the components already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Egy alkalmazás telepítése rutin kezeli automatikusan a vonatkozó információkat már telepítve van, a projekt telepítő &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt; használatával</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information is continuously updated as the ServiceProcessInstaller instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">Ez állapotadatokat folyamatosan frissül, mint a ServiceProcessInstaller példányt, és minden egyes &lt;xref:System.ServiceProcess.ServiceInstaller&gt;-példány telepítve van a segédprogram.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">Nem általában szükséges, a kódban, explicit módon módosítani az állapotadatokat.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instantiating a ServiceProcessInstaller causes the base class constructor, &lt;xref:System.Configuration.Install.ComponentInstaller.%23ctor%2A&gt;, to be called.</source>
+          <target state="translated">A ServiceProcessInstaller hiányzik példányának hatására az alaposztály konstruktor &lt;xref:System.Configuration.Install.ComponentInstaller.%23ctor%2A&gt;, hívása.&lt;/xref:System.Configuration.Install.ComponentInstaller.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Létrehoz egy új példányt a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets or sets the type of account under which to run this service application.</source>
+          <target state="translated">Lekérdezi vagy beállítja az ehhez a szolgáltatásalkalmazáshoz futtatásához használt fiók.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the Account property is <ph id="ph1">`User`</ph>, the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; properties are used to define an account under which the service application runs.</source>
+          <target state="translated">Ha a fiók tulajdonsága van <ph id="ph1">`User`</ph>, a &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;és &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;tulajdonságainak meghatározásához egy fiókot, amely alatt a szolgáltatásalkalmazás fut. használják.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; pair allows the service to run under an account other than the system account.</source>
+          <target state="translated">A &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;és &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;pár lehetővé teszi, hogy a szolgáltatás futtatásához egy fiókot a rendszer fióktól.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can, for example, allow the service to start automatically at reboot, when no user is logged on.</source>
+          <target state="translated">Ez például lehetővé tehetik, a szolgáltatás automatikus indítását újraindítás, amikor a felhasználó nem jelentkezik be.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you leave either the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; or &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; empty and set Account to <ph id="ph1">`User`</ph>, you will be prompted for a valid user name and password at installation.</source>
+          <target state="translated">Ha nem adja meg vagy a &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;vagy &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;üres, és a fiók beállítása <ph id="ph1">`User`</ph>, akkor a rendszer bekéri a egy érvényes felhasználónevet és jelszót a telepítés.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also specify that the service run under the local system account, or as a local or network service.</source>
+          <target state="translated">Azt is megadhatja, hogy a szolgáltatás futtatásához a helyi rendszerfiókból, illetve helyi vagy hálózati szolgáltatás.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.ServiceProcess.ServiceAccount&gt; enumeration for details on types of accounts.</source>
+          <target state="translated">Tekintse meg a &lt;xref:System.ServiceProcess.ServiceAccount&gt;számbavételi típusú fiókok leírását.&lt;/xref:System.ServiceProcess.ServiceAccount&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceAccount"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines the type of account under which the system runs this service.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceAccount"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely meghatározza, hogy a rendszer ezt a szolgáltatást futtató fiók típusa.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_User" name="User" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_User" name="User" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Implements the base class <ph id="ph1">&amp;lt;</ph>xref:System.Configuration.Install.ComponentInstaller.CopyFromComponent%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method with no <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class-specific behavior.</source>
+          <target state="translated">Megvalósítja az alaposztály <ph id="ph1">&amp;lt;</ph>xref:System.Configuration.Install.ComponentInstaller.CopyFromComponent%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metódus nélküli <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály-specifikus viselkedését.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should not be called within your code.</source>
+          <target state="translated">Ez a metódus nem hívható a kód.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base class method on &lt;xref:System.Configuration.Install.ComponentInstaller&gt; is <ph id="ph1">`abstract`</ph>, so it is implemented here on the derived class.</source>
+          <target state="translated">Az alaposztály metódusa &lt;xref:System.Configuration.Install.ComponentInstaller&gt;van <ph id="ph1">`abstract`</ph>, ezért itt van megvalósítva a származtatott osztályhoz&lt;/xref:System.Configuration.Install.ComponentInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, there is no &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; class-specific processing in the method's implementation.</source>
+          <target state="translated">Van azonban nem &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;osztály-specifikus feldolgozás alatt álló a metódus megvalósításában.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the service process.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelöli, hogy a szolgáltatási folyamathoz.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets help text displayed for service installation options.</source>
+          <target state="translated">A szolgáltatás telepítési beállítások megtekintéséhez megjelenő súgószöveg lekérdezi.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This help text can be used when a service starts manually.</source>
+          <target state="translated">Ezen súgószöveg is használható, a szolgáltatás indulásakor manuálisan.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It indicates to the user how to enter user name and password information.</source>
+          <target state="translated">Azt jelzi a felhasználó hogyan adja meg felhasználói nevét és jelszavát.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Help text that provides a description of the steps for setting the user name and password in order to run the service under a particular account.</source>
+          <target state="translated">Súgó a szöveg, amelyet szeretné beállítani a felhasználónevet és jelszót ahhoz, hogy a szolgáltatás futtatására egy különös figyelmet a lépéseket ismerteti.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Writes service application information to the registry.</source>
+          <target state="translated">Szolgáltatás alkalmazással kapcsolatos adatok ír a beállításjegyzékben.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This method is meant to be used by installation tools, which call the appropriate methods automatically.</source>
+          <target state="translated">Ez a módszer arra szolgál, hogy telepítési eszközök, amelyek automatikusan hívható meg a megfelelő metódus használható.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you do not call the methods on &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Általában, akkor ne hívja meg a módszerek a &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;a kód; általában akkor csak a telepítés segédprogrammal.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the Install method during the installation process.</source>
+          <target state="translated">A telepítő segédprogram automatikusan meghívja a telepítési módszer a telepítési folyamat során.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt; on all previously installed components.</source>
+          <target state="translated">Az biztonsági ki a hibákat, ha szükséges, meghívásával &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;az összes korábban telepített összetevőket.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method passes the installation to the base class &lt;xref:System.Configuration.Install.Installer.Install%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Ez a módszer a telepítés átadása az alaposztály &lt;xref:System.Configuration.Install.Installer.Install%2A?displayProperty=fullName&gt;metódus.&lt;/xref:System.Configuration.Install.Installer.Install%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Általában nem lesz a hívja az eljárások? &lt;xref:System.ServiceProcess.ServiceInstaller&gt;a kód; általában akkor csak a telepítés segédprogrammal.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the Install and &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt; methods during the installation process.</source>
+          <target state="translated">A telepítő segédprogram automatikusan meghívja a telepítési és &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt;módszerek a telepítési folyamat során.&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt; (or &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt;) on all previously installed components       An application's install routine maintains information automatically about the components already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Az biztonsági ki a hibákat, ha szükséges, meghívásával &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;(vagy &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt;) a korábban telepített összetevők egy alkalmazás telepítése rutin kezeli automatikusan a vonatkozó információkat már telepítve van, a projekt telepítő &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt; használatával&lt;/xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information, passed into Install as the <ph id="ph1">`stateSaver`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">Az állapotadatokat át, telepítse a <ph id="ph1">`stateSaver`</ph> paraméter, folyamatosan frissül, mint a &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;példányt, és minden egyes &lt;xref:System.ServiceProcess.ServiceInstaller&gt;-példány telepítve van a segédprogram.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">Nem általában szükséges, a kódban, explicit módon módosítani az állapotadatokat.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Install passes to the calling method any exceptions thrown by base class methods or &lt;xref:System.Configuration.Install.Installer.BeforeInstall&gt; / &lt;xref:System.Configuration.Install.Installer.AfterInstall&gt; event handlers.</source>
+          <target state="translated">A hívó metódus alaposztály módszerek által okozott kivételek átadása telepítés vagy &lt;xref:System.Configuration.Install.Installer.BeforeInstall&gt;/ &lt;xref:System.Configuration.Install.Installer.AfterInstall&gt;Eseménykezelők.&lt;/xref:System.Configuration.Install.Installer.AfterInstall&gt; &lt;/xref:System.Configuration.Install.Installer.BeforeInstall&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">Egy &lt;xref:System.Collections.IDictionary&gt;, amely ismerteti a környezetben a telepítés társított.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stateSaver</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stateSaver</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets the password associated with the user account under which the service application runs.</source>
+          <target state="translated">Lekérdezi vagy beállítja a szolgáltatásalkalmazás futtató felhasználói fiók társított jelszót.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Password and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; pair allows the service to run under an account other than the system account.</source>
+          <target state="translated">A jelszó és &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;pár lehetővé teszi, hogy a szolgáltatás futtatásához egy fiókot a rendszer fióktól.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can, for example, allow the service to start automatically at reboot, when no user is logged on.</source>
+          <target state="translated">Ez például lehetővé tehetik, a szolgáltatás automatikus indítását újraindítás, amikor a felhasználó nem jelentkezik be.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Password and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; are handled in a secure manner in that they are never serialized or saved to the install state (the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;) or other location with public access.</source>
+          <target state="translated">Jelszó és &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;abban, hogy soha nem szerializálható, vagy azok telepítési állapotát menti az biztonságos módon történik (a projekt telepítő &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;) vagy más helyre, hozzáférésű.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; and Password allows an account to be associated automatically with the service at install time.</source>
+          <target state="translated">Beállítás a &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;és a jelszó lehetővé teszi, hogy a fiók telepítésekor automatikusan a szolgáltatást társítani kell.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you leave either the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; or Password empty and set &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; to <ph id="ph1">`User`</ph>, you will be prompted for a valid user name and password at installation.</source>
+          <target state="translated">Ha nem adja meg vagy a &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;vagy a jelszó üres, és állítsa be &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;való <ph id="ph1">`User`</ph>, akkor a rendszer bekéri a egy érvényes felhasználónevet és jelszót a telepítés.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Another option for running a service under a separate account is to use the computer's System account.</source>
+          <target state="translated">Egy külön fiókot a szolgáltatás futtatásához egy másik lehetőség, hogy a számítógép rendszer fiókját használja.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That account, which is distinct from the Administrator account, requires no password.</source>
+          <target state="translated">Fiók, amely nem azonos a rendszergazdai fiók, nem kell jelszót igényel.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The System account's privileges may exceed those of the user currently logged in.</source>
+          <target state="translated">A rendszer jogosultságot haladhatják meg a jelenleg bejelentkezett felhasználó.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Running under the System account rather than a user account avoids problems resulting from the user lacking a permission the service requires       If &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; is any value other than <ph id="ph1">`User`</ph>, the specifed account (local or network service, or local system) is used, even if the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; and Password properties are populated.</source>
+          <target state="translated">Felhasználói fiók helyett a rendszer fiók alatt fut, ezzel elkerülheti a szolgáltatás van szükség, ha engedélyekkel nem rendelkező felhasználó eredő problémák &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;eltérő összes érték <ph id="ph1">`User`</ph>, a megadott fiókot (a helyi vagy a hálózati szolgáltatás vagy a helyi rendszer) használja, akkor is, ha a &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;és jelszó tulajdonságokat fel van töltve.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The password associated with the account under which the service should run.</source>
+          <target state="translated">Annak a fióknak, amely alatt a szolgáltatásnak futnia kell a jelszót.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Az alapértelmezett érték egy üres karakterlánc ("").</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The property is not public, and is never serialized.</source>
+          <target state="translated">A tulajdonság nincs nyilvános, és soha nem szerializálható.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Rolls back service application information written to the registry by the installation procedure.</source>
+          <target state="translated">Visszaállítja a szolgáltatás alkalmazással kapcsolatos adatok a telepítési eljárás a beállításjegyzék írni.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This method is meant to be used by installation tools, which process the appropriate methods automatically.</source>
+          <target state="translated">Ez a módszer arra szolgál, hogy telepítési eszközöket, amelyek a megfelelő módszereket automatikusan feldolgozásához használják.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you do not call the methods on &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Általában, akkor ne hívja meg a módszerek a &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;a kód; általában akkor csak a telepítés segédprogrammal.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt; method during the installation process.</source>
+          <target state="translated">A telepítő segédprogram automatikusan meghívja a &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt;metódus a telepítési folyamat során.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling Rollback on the object that generated the exception.</source>
+          <target state="translated">Ez biztonsági másolat ki a hibákat, ha szükséges, meghívásával beolvasott visszaállítási az objektum, amely létrehozta a kivétel.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application's install routine maintains information automatically about the components already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Egy alkalmazás telepítése rutin kezeli automatikusan a vonatkozó információkat már telepítve van, a projekt telepítő &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt; használatával</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information, passed into Rollback as the <ph id="ph1">`savedState`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">Az állapotadatokat, visszaállítás lett átadva a <ph id="ph1">`savedState`</ph> paraméter, folyamatosan frissül, mint a &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;példányt, és minden egyes &lt;xref:System.ServiceProcess.ServiceInstaller&gt;-példány telepítve van a segédprogram.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">Nem általában szükséges, a kódban, explicit módon módosítani az állapotadatokat.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rollback passes to the calling method any exceptions thrown by base class methods or &lt;xref:System.Configuration.Install.Installer.BeforeInstall&gt; / &lt;xref:System.Configuration.Install.Installer.AfterInstall&gt; event handlers.</source>
+          <target state="translated">A hívó metódus alaposztály módszerek által okozott kivételek átadása visszaállítási vagy &lt;xref:System.Configuration.Install.Installer.BeforeInstall&gt;/ &lt;xref:System.Configuration.Install.Installer.AfterInstall&gt;Eseménykezelők.&lt;/xref:System.Configuration.Install.Installer.AfterInstall&gt; &lt;/xref:System.Configuration.Install.Installer.BeforeInstall&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">Egy &lt;xref:System.Collections.IDictionary&gt;, amely ismerteti a környezetben a telepítés társított.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> is corrupted or non-existent.</source>
+          <target state="translated">– vagy – a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">savedState</ph> <ept id="p1">&lt;/code&gt;</ept> sérült vagy nem létezik.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets or sets the user account under which the service application will run.</source>
+          <target state="translated">Lekérdezi vagy beállítja a felhasználói fiók, amely alatt az alkalmazás futni fog.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Username and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; pair allows the service to run under an account other than the system account.</source>
+          <target state="translated">A felhasználónév és &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;pár lehetővé teszi, hogy a szolgáltatás futtatásához egy fiókot a rendszer fióktól.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can, for example, allow the service to start automatically at reboot, when no user is logged on.</source>
+          <target state="translated">Ez például lehetővé tehetik, a szolgáltatás automatikus indítását újraindítás, amikor a felhasználó nem jelentkezik be.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; and Username are handled in a secure manner in that they are never serialized or saved to the install state (the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;) or other location with public access.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;és a felhasználónév a abban, hogy soha nem szerializálható, vagy azokat a telepítési állapot mentése biztonságos módon történik (a projekt telepítő &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;) vagy más helyre, hozzáférésű.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the Username and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; allows an account to be associated automatically with the service at install time.</source>
+          <target state="translated">A felhasználónév beállítása és &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;lehetővé teszi, hogy a telepítés során automatikusan a szolgáltatást társítani kell egy fiókot.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you leave either the Username or &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; empty and set &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; to <ph id="ph1">`User`</ph>, you will be prompted for a valid user name and password at installation.</source>
+          <target state="translated">Ha nem adja meg vagy a felhasználónév vagy &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;üres, és a beállított &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;való <ph id="ph1">`User`</ph>, kérni fogja a egy érvényes felhasználónevet és jelszót a telepítés.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Another option for running a service under a separate account is to use the computer's System account.</source>
+          <target state="translated">Egy külön fiókot a szolgáltatás futtatásához egy másik lehetőség, hogy a számítógép rendszer fiókját használja.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That account, which is distinct from the Administrator account, requires no password.</source>
+          <target state="translated">Fiók, amely nem azonos a rendszergazdai fiók, nem kell jelszót igényel.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The System account's privileges may exceed those of the user currently logged in.</source>
+          <target state="translated">A rendszer jogosultságot haladhatják meg a jelenleg bejelentkezett felhasználó.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Running under the System account rather than a user account avoids problems resulting from the user lacking a permission the service requires       If &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; is any value other than <ph id="ph1">`User`</ph>, the specified account (local or network service, or local system) is used, even if the Username and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; properties are populated.</source>
+          <target state="translated">Felhasználói fiók helyett a rendszer fiók alatt fut, ezzel elkerülheti a szolgáltatás van szükség, ha engedélyekkel nem rendelkező felhasználó eredő problémák &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;eltérő összes érték <ph id="ph1">`User`</ph>, a megadott fiók (a helyi vagy a hálózati szolgáltatás vagy a helyi rendszer) használja, akkor is, ha a felhasználónév és &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;Tulajdonságok fel van töltve.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The account under which the service should run.</source>
+          <target state="translated">A fiók, amely alatt a szolgáltatásnak futnia kell.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Az alapértelmezett érték egy üres karakterlánc ("").</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

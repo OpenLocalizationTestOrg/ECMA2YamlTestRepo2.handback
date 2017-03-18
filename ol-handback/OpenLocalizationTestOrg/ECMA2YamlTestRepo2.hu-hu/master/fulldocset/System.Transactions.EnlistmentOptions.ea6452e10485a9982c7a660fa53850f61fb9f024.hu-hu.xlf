@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ac6f589ebd88ec6fd5ab3dabcd0469833bad3ac0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.EnlistmentOptions.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">52e50fc125fee7d5bbe114d894b3dbcb3d7b4b5b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e648c59395a1288ed590431151e26a14a014e6ee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Determines whether the object should be enlisted during the prepare phase.</source>
+          <target state="translated">Meghatározza, hogy az objektum az előkészítési fázisban lehet megindítani.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enumeration is passed into the &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt; and &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; and methods to notify the transaction manager whether the resource manager needs to create another enlistment during the Prepare phase.</source>
+          <target state="translated">Ez az enumerálás átad a a &lt;xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;és &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;és módszerek, hogy az erőforrás-kezelő kell létrehoznia az előkészítési fázis során egy másik részvétel a tranzakciókezelő értesíteni.&lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt; &lt;/xref:System.Transactions.Transaction.EnlistVolatile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on enlistment, see <bpt id="p1">[</bpt>Enlisting Resources as Participants in a Transaction<ept id="p1">](http://msdn.microsoft.com/en-us/7bf66ce7-4190-4910-89d7-df4ad43e9f31)</ept>.</source>
+          <target state="translated">A bejegyzési további információkért lásd: <bpt id="p1">[</bpt>történő besorolásakor erőforrások tranzakcióban résztvevőként<ept id="p1">](http://msdn.microsoft.com/en-us/7bf66ce7-4190-4910-89d7-df4ad43e9f31)</ept>.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If EnlistDuringPrepareRequired is specified during enlistment, the resource manager indicates that it wants to receive a Prepare notification while new enlistments are still allowed for the transaction.</source>
+          <target state="translated">Ha EnlistDuringPrepareRequired bejegyzési során lett megadva, az erőforrás-kezelő azt jelzi, hogy kíván Prepare értesítést kaphat, miközben új részvételi továbbra is elindulhatnak a tranzakció.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A resource manager who acts as a cache for another durable resource, such as a backend database, would probably use this option during enlistment.</source>
+          <target state="translated">Egy erőforrás-kezelő, akik úgy működik, mint egy másik tartós erőforrás, például egy háttérbeli adatbázis, a gyorsítótárban valószínűleg használja ezt a beállítást a bejelentkezés során.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the caching resource gets its Prepare notification, it transfers its content to the durable resource.</source>
+          <target state="translated">A gyorsítótárazási erőforrás az előkészítési értesítést kap, ha a tartalom átvitele a tartós erőforráshoz.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By doing so, the durable resource enlists on the transaction to become a participant of the 2 Phase Commit (2PC) protocol.</source>
+          <target state="translated">Ezzel a módszerrel a tartós erőforrás vesz legyen, a résztvevő 2 fázis véglegesítése a határidő (2PC) protokoll a tranzakcióban.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before this happens, only the caching resource (not the durable resource) was enlisted.</source>
+          <target state="translated">Ez akkor fordul elő, mielőtt csak a gyorsítótárazási erőforrás (nem a tartós erőforrás) részvételt kezdeményezett.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If None is specified, the enlistment indicates that it will not receive a Prepare notification until it is too late to create new enlistments in 2PC.</source>
+          <target state="translated">Ha nincs megadva, a bejelentkezés azt jelzi, hogy nem kap egy Prepare értesítést mindaddig, amíg már nincs lehetőség 2PC új részvételi létrehozásához.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In our preceding scenario, if a caching resource specifies this option during enlistment, and attempts to flush its cache during the Prepare notification, the durable resource gets an exception when it attempts on enlisting since it is too late.</source>
+          <target state="translated">Az előző esetben ha gyorsítótárazási erőforrást bejegyzési során ez a beállítás határozza meg, és a gyorsítótár ürítése Prepare értesítés során megpróbálja az állandó erőforrás beolvasása kivételt történő besorolásakor, mert már nincs lehetőség a kísérletek során.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>None should be used as a default.</source>
+          <target state="translated">Nincs alapértelmezés szerint kell használni.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The object must enlist during the initial phase of the commitment process.</source>
+          <target state="translated">Az objektum az előfizetési folyamat kezdeti fázisában kell jegyeznie.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The object does not require enlistment during the initial phase of the commitment process.</source>
+          <target state="translated">Az objektum nem szükséges az előfizetési folyamat kezdeti fázisában általi bejegyzés.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
