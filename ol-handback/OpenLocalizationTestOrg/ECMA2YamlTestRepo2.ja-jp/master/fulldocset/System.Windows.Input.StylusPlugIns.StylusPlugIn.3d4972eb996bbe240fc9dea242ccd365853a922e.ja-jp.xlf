@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af187e3e5568f417a8f016af0a5da01dba76e79c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Input.StylusPlugIns.StylusPlugIn.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9825aab64b0b5866b0340ff083d04046e3cfdc83</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">06b9a9ad94ce3189be6e6024d2cf0ae734d9687b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a plug-in that can be added to a control's &lt;xref:System.Windows.UIElement.StylusPlugIns*&gt; property.</source>
+          <target state="translated">コントロールの追加できるプラグインを表す&lt;xref:System.Windows.UIElement.StylusPlugIns*&gt;プロパティ&lt;/xref:System.Windows.UIElement.StylusPlugIns*&gt;。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The StylusPlugIn allows you to manipulate &lt;xref:System.Windows.Input.StylusPoint&gt; objects on separate threads.</source>
+          <target state="translated">操作できる、StylusPlugIn&lt;xref:System.Windows.Input.StylusPoint&gt;個別のスレッド上のオブジェクト&lt;/xref:System.Windows.Input.StylusPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Separate threads are used so that the ink still renders as the tablet pen inputs data even if the application is doing something else.</source>
+          <target state="translated">個別のスレッドは、インクが描画タブレット ペンの入力データとして、アプリケーションが処理を行う場合でもされるように使用されます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To intercept stylus points from the hardware, create a class that inherits from the StylusPlugIn class.</source>
+          <target state="translated">ハードウェアからスタイラス ポイントをインターセプトするには、StylusPlugIn クラスから継承するクラスを作成します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The StylusPlugIn class has the following methods that you can override to manipulate &lt;xref:System.Windows.Input.StylusPoint&gt; objects on a thread in the pen thread pool.</source>
+          <target state="translated">StylusPlugIn クラスは、次の方法を操作するようにオーバーライドできる&lt;xref:System.Windows.Input.StylusPoint&gt;ペン内のスレッド上のオブジェクトはスレッド プール&lt;/xref:System.Windows.Input.StylusPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusDown%2A&gt;      -   &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusUp%2A&gt;      -   &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMove%2A&gt;      -   &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusEnter%2A&gt;      -   &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusLeave%2A&gt;       The pen's input is routed to an element's StylusPlugIn on the pen thread.</source>
+          <target state="translated">- &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusDown%2A&gt;- &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusUp%2A&gt;- &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMove%2A&gt;- &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusEnter%2A&gt;-&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusLeave%2A&gt;ペンのペンのスレッドで要素の StylusPlugIn にルーティングされる入力です&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusLeave%2A&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusEnter%2A&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMove%2A&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusUp%2A&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusDown%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Since accurate hit-testing cannot be performed on the pen thread, some elements might occasionally receive stylus input intended for other elements.</source>
+          <target state="translated">正確なヒット テストは、ペンのスレッドで実行されることはできません、によっては、いくつかの要素がスタイラス入力用の他の要素を受け取ることがあります。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If you need to make sure the input was routed correctly before performing an operation, subscribe to and perform the operation in the &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusDownProcessed%2A&gt;, &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMoveProcessed%2A&gt;, or &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusUpProcessed%2A&gt; method.</source>
+          <target state="translated">サブスクライブしで操作を実行する操作を実行する前に、入力が正しく回送されたことを確認する必要がある場合、 &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusDownProcessed%2A&gt;、 &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMoveProcessed%2A&gt;、または&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusUpProcessed%2A&gt;メソッド&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusUpProcessed%2A&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMoveProcessed%2A&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusDownProcessed%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>These methods are invoked by the main application thread after accurate hit-testing has been performed.</source>
+          <target state="translated">これらのメソッドは、正確なヒット テストが実行された後に、メイン アプリケーション スレッドで呼び出されます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To subscribe to these methods, call the &lt;xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt; method in the method that occurs on the pen thread.</source>
+          <target state="translated">これらのメソッドをサブスクライブする、&lt;xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt;ペンのスレッドで使用されるメソッドのメソッド&lt;/xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, if you call &lt;xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt; in &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMove%2A&gt;, the &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMoveProcessed%2A&gt; occurs.</source>
+          <target state="translated">呼び出す場合など、&lt;xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt;で&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMove%2A&gt;、&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMoveProcessed%2A&gt;に発生します&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMoveProcessed%2A&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMove%2A&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you use a StylusPlugIn inside a control, you should test the plug-in and control extensively to make sure they do not throw any unintended exceptions.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; コントロールの内部 StylusPlugIn を使用する場合は、プラグインをテストし、予期しない例外をスローしないでくださいかどうかを確認するを広範囲に制御する必要があります。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_StylusPlugIn"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    This class is not typically used in XAML.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_StylusPlugIn"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML テキストの使用率がこのクラスは、通常 XAML では使用されません。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which the <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is attached.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>先、 <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>がアタッチされています。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which the <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is attached.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.UIElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>先、 <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>がアタッチされています。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets the cached bounds of the element.</source>
+          <target state="translated">キャッシュされた要素の境界を取得します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt; caches the bounds of its element to perform hit testing.</source>
+          <target state="translated">&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt;キャッシュを実行するには、その要素の境界のヒット テストします&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The cached bounds of the element.</source>
+          <target state="translated">要素のキャッシュされた境界です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets whether the <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is active.</source>
+          <target state="translated">取得または設定するかどうか、 <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>がアクティブです。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_Enabled"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage    This property is not typically used in XAML.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_Enabled"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML テキストの使用率がこのプロパティは、通常 XAML では使用されません。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is active; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>がアクティブであるそれ以外の場合、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets whether the <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is able to accept input.</source>
+          <target state="translated">取得するかどうか、 <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>入力を受け入れることができます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The following conditions must be met for the &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt; to accept input:      -   The &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt; is a member of a &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugInCollection&gt;.</source>
+          <target state="translated">次の条件を満たす必要があります、&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt;の入力を受け付ける:- &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt; &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugInCollection&gt;.&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugInCollection&gt;のメンバーである&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.Element%2A&gt; of the &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt; is visible and enabled.</source>
+          <target state="translated">-&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.Element%2A&gt;の&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt;が表示され、有効になっている&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.Element%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is able to accept input; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>の入力を受け付けることです。 それ以外の場合は、 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is added to an element.</source>
+          <target state="translated">発生したときに、 <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要素に追加します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.Enabled*&gt; property changes.</source>
+          <target state="translated">発生したときに、&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.Enabled*&gt;プロパティが変更された&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.Enabled*&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Occurs when the &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.IsActiveForInput*&gt; property changes.</source>
+          <target state="translated">発生したときに、&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.IsActiveForInput*&gt;プロパティが変更された&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.IsActiveForInput*&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Use the OnIsActiveForInputChanged method to allocate and clean up resources used by the &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt;.</source>
+          <target state="translated">OnIsActiveForInputChanged メソッドを使用して割り当て、 &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt;。&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn&gt;によって使用されているリソースをクリーンアップします。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is removed from an element.</source>
+          <target state="translated">発生したときに、 <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要素から削除されます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Occurs on a thread in the pen thread pool when the tablet pen touches the digitizer.</source>
+          <target state="translated">タブレット ペンがデジタイザーに触れたときに、ペンのスレッド プール内のスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This method occurs on a pen thread, so minimize work in this method to avoid impacting performance.</source>
+          <target state="translated">パフォーマンスに影響を回避するには、このメソッドでの作業を最小限に抑えるためこのメソッドは、ペンのスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.RawStylusInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains information about input from the pen.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.RawStylusInput"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ペンからの入力に関する情報を格納します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Occurs on the application UI (user interface) thread when the tablet pen touches the digitizer.</source>
+          <target state="translated">タブレット ペンがデジタイザーに触れたときに、アプリケーションの UI (ユーザー インターフェイス) スレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To subscribe to this method, call &lt;xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt; in the &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusDown%2A&gt; method.</source>
+          <target state="translated">このメソッドをサブスクライブする&lt;xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt;で、&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusDown%2A&gt;メソッド&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusDown%2A&gt;&lt;/xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The object that the application passed to the <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">渡される、アプリケーション オブジェクト、 <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>メソッドです。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the pen's input was correctly routed to the <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ペンの入力が正常にルーティング、 <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Occurs on a pen thread when the cursor enters the bounds of an element.</source>
+          <target state="translated">カーソルが要素の境界に入ったときに、ペンのスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This method occurs on a pen thread, so minimize work in this method to avoid impacting performance.</source>
+          <target state="translated">パフォーマンスに影響を回避するには、このメソッドでの作業を最小限に抑えるためこのメソッドは、ペンのスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.RawStylusInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains information about input from the pen.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.RawStylusInput"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ペンからの入力に関する情報を格納します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the pen actually entered the bounds of the element; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ペンが実際には、要素の境界を入力した場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Occurs on a pen thread when the cursor leaves the bounds of an element.</source>
+          <target state="translated">要素の境界をカーソルが離れるときに、ペンのスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This method occurs on a pen thread, so minimize work in this method to avoid impacting performance.</source>
+          <target state="translated">パフォーマンスに影響を回避するには、このメソッドでの作業を最小限に抑えるためこのメソッドは、ペンのスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.RawStylusInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains information about input from the pen.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.RawStylusInput"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ペンからの入力に関する情報を格納します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the pen actually left the bounds of the element; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ペンが実際には、要素の境界を左する場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Occurs on a pen thread when the tablet pen moves on the digitizer.</source>
+          <target state="translated">タブレット ペンがデジタイザー上で移動したときに、ペンのスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This method occurs on a pen thread, so minimize work in this method to avoid impacting performance.</source>
+          <target state="translated">パフォーマンスに影響を回避するには、このメソッドでの作業を最小限に抑えるためこのメソッドは、ペンのスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.RawStylusInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains information about input from the pen.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.RawStylusInput"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ペンからの入力に関する情報を格納します。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Occurs on the application UI (user interface) thread when the tablet pen moves on the digitizer.</source>
+          <target state="translated">タブレット ペンがデジタイザー上で移動したときに、アプリケーションの UI (ユーザー インターフェイス) スレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To subscribe to this method, call &lt;xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt; in the &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMove%2A&gt; method</source>
+          <target state="translated">このメソッドにサブスクライブするには、&lt;xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt;&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMove%2A&gt;メソッド&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusMove%2A&gt;の&lt;/xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt;呼び出し</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The object that the application passed to the <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">渡される、アプリケーション オブジェクト、 <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>メソッドです。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the pen's input was correctly routed to the <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ペンの入力が正常にルーティング、 <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Occurs on a pen thread when the user lifts the tablet pen from the digitizer.</source>
+          <target state="translated">ユーザー タブレット ペンをデジタイザーから離したときに、ペンのスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This method occurs on a pen thread, so minimize work in this method to avoid impacting performance.</source>
+          <target state="translated">パフォーマンスに影響を回避するには、このメソッドでの作業を最小限に抑えるためこのメソッドは、ペンのスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.RawStylusInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains information about input from the pen.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Input.StylusPlugIns.RawStylusInput"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ペンからの入力に関する情報を格納します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Occurs on the application UI (user interface) thread when the user lifts the tablet pen from the digitizer.</source>
+          <target state="translated">ユーザー タブレット ペンをデジタイザーから離したときに、アプリケーションの UI (ユーザー インターフェイス) のスレッドで発生します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To subscribe to this method, call &lt;xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt; in the &lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusUp%2A&gt; method</source>
+          <target state="translated">このメソッドにサブスクライブするには、&lt;xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt;&lt;xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusUp%2A&gt;メソッド&lt;/xref:System.Windows.Input.StylusPlugIns.StylusPlugIn.OnStylusUp%2A&gt;の&lt;/xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A&gt;呼び出し</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The object that the application passed to the <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">渡される、アプリケーション オブジェクト、 <ph id="ph1">&amp;lt;</ph>xref:System.Windows.Input.StylusPlugIns.RawStylusInput.NotifyWhenProcessed%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>メソッドです。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the pen's input was correctly routed to the <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ペンの入力が正常にルーティング、 <bpt id="p2">&lt;xref href="System.Windows.Input.StylusPlugIns.StylusPlugIn"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>、それ以外の<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6268fc94480a4936a59717d3dc614a6d4975ccec</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Markup.XamlReader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6671bf951825ac73db26ba52314b457f5c96dbd4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fa63fc760c757e6f8ed203edf588d497bc9712ca</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Reads XAML input and creates an object graph, using the WPF default XAML reader and an associated XAML object writer.</source>
+          <target state="translated">XAML 入力を読み込んで、WPF の既定の XAML リーダーと、関連する XAML オブジェクト ライターを使用して、オブジェクト グラフを作成します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The synchronous &lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt; methods are static, but the asynchronous &lt;xref:System.Windows.Markup.XamlReader.LoadAsync%2A&gt; methods are not static and require an instance of the XamlReader class to use.</source>
+          <target state="translated">同期&lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt;メソッドは静的では、非同期&lt;xref:System.Windows.Markup.XamlReader.LoadAsync%2A&gt;メソッドは静的でないと使用する XamlReader クラスのインスタンスを必要とします&lt;/xref:System.Windows.Markup.XamlReader.LoadAsync%2A&gt;&lt;/xref:System.Windows.Markup.XamlReader.Load%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The output of the <ph id="ph1">`Load`</ph> methods is a single object, which represents the root object of a created object tree or object graph.</source>
+          <target state="translated">出力、<ph id="ph1">`Load`</ph>メソッドは、作成されたオブジェクト ツリーやオブジェクト グラフのルート オブジェクトを表す&amp;1; つのオブジェクト。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Object graphs that are created by XamlReader are typically added to the existing object tree of a WPF application at run time.</source>
+          <target state="translated">XamlReader によって作成されるオブジェクト グラフは通常、実行時に WPF アプリケーションの既存のオブジェクト ツリーに追加されます。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Otherwise the new object graph is considered disconnected for purposes of the WPF application model.</source>
+          <target state="translated">それ以外の場合、新しいオブジェクト グラフは、WPF アプリケーション モデルのため切断されたと見なされます。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>This means that it does not render, and cannot be accessed using any of the object tree techniques as applied to the WPF application's main object tree (for example, the APIs &lt;xref:System.Windows.FrameworkElement.FindName%2A&gt;, &lt;xref:System.Windows.LogicalTreeHelper&gt;, &lt;xref:System.Windows.Media.VisualTreeHelper&gt;).</source>
+          <target state="translated">つまり、表示できない、WPF アプリケーションの主要なオブジェクトのツリーに適用手法のいずれかのオブジェクト ツリーとしてアクセスを使用することはできません (Api など、 &lt;xref:System.Windows.FrameworkElement.FindName%2A&gt;、 &lt;xref:System.Windows.LogicalTreeHelper&gt;、 &lt;xref:System.Windows.Media.VisualTreeHelper&gt;).&lt;/xref:System.Windows.Media.VisualTreeHelper&gt; &lt;/xref:System.Windows.LogicalTreeHelper&gt; &lt;/xref:System.Windows.FrameworkElement.FindName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information on object tree concepts, see <bpt id="p1">[</bpt>Trees in WPF<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">オブジェクト ツリーの概念の詳細については、次を参照してください。 <bpt id="p1">[</bpt>wpf ツリー<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>XamlReader supports the following primary scenarios:      -   <bpt id="p1">**</bpt>Cloning/object factory<ept id="p1">**</ept>: Without additional mechanisms, a reference type generally cannot be included in more than one position in a WPF object tree.</source>
+          <target state="translated">XamlReader は、次の主なシナリオをサポートしている:-<bpt id="p1">**</bpt>複製/オブジェクト ファクトリ<ept id="p1">**</ept>: せず、その他の機構は参照型一般に含めることができません WPF オブジェクト ツリーで&amp;2; つ以上の位置。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>(Examples of additional mechanisms that offer support for sharing or re-use in WPF include objects that are based on &lt;xref:System.Windows.Freezable&gt;, or support for commonly shareable objects such as &lt;xref:System.Windows.Media.Brush&gt; that are referenced as an item from a &lt;xref:System.Windows.ResourceDictionary&gt;.) One way to clone an object that is already in the object tree is to serialize the object using &lt;xref:System.Windows.Markup.XamlWriter.Save%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">(共有のサポートを提供または WPF で再利用できる追加のメカニズムのようなオブジェクトに基づく&lt;xref:System.Windows.Freezable&gt;などの一般的な共有可能なオブジェクトのサポートまたは&lt;xref:System.Windows.Media.Brush&gt;からアイテムとして参照されている、 &lt;xref:System.Windows.ResourceDictionary&gt;.)&lt;/xref:System.Windows.ResourceDictionary&gt; &lt;/xref:System.Windows.Media.Brush&gt; &lt;/xref:System.Windows.Freezable&gt;オブジェクト ツリーに既にあるオブジェクトのクローンを作成する方法の&amp;1; つは&lt;xref:System.Windows.Markup.XamlWriter.Save%2A?displayProperty=fullName&gt;。&lt;/xref:System.Windows.Markup.XamlWriter.Save%2A?displayProperty=fullName&gt;を使用してオブジェクトをシリアル化するには</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You then use the serialized string as input for a call to &lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt;, with a stream or &lt;xref:System.Xml.XmlReader&gt; as an intermediary.</source>
+          <target state="translated">使用するシリアル化された文字列の入力としてへの呼び出しの&lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt;、ストリームをまたは&lt;xref:System.Xml.XmlReader&gt;媒介手段として&lt;/xref:System.Xml.XmlReader&gt;&lt;/xref:System.Windows.Markup.XamlReader.Load%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   <bpt id="p1">**</bpt>Constructing objects based on just-in-time information<ept id="p1">**</ept>: There are often other ways to have late-binding or user-supplied input change the state of existing objects.</source>
+          <target state="translated">- <bpt id="p1">**</bpt>・ イン タイムの情報に基づくオブジェクトを構築する<ept id="p1">**</ept>: は多くの場合、遅延バインディングまたはユーザー指定の入力が既存のオブジェクトの状態を変更して他の方法があります。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For example you could use the same value to set more than one property, or use data binding.</source>
+          <target state="translated">たとえば、1 つ以上のプロパティを設定する同じ値を使用またはデータ バインディングを使用できます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>But if you have a scenario where even the type of object to create is only determinable at run time or with user interaction, then creating such an object by building up a string for &lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt; input is often a useful technique.</source>
+          <target state="translated">シナリオを作成するオブジェクトの種類でもだけ確定実行時に、またはユーザーの操作で使用していれば、し、オブジェクトを作成するなどの文字列を構築してが&lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt;入力が便利な手法では多くの場合&lt;/xref:System.Windows.Markup.XamlReader.Load%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-   <bpt id="p1">**</bpt>Using existing resource techniques<ept id="p1">**</ept>: The &lt;xref:System.IO.Stream&gt; type is used frequently in other frameworks or technologies for transferring data or objects across application boundaries or for similar situations.</source>
+          <target state="translated">-<bpt id="p1">**</bpt>既存のリソースの手法を使用して<ept id="p1">**</ept>:&lt;xref:System.IO.Stream&gt;型が頻繁に使用その他のフレームワークまたはテクノロジにアプリケーションの境界を越えてデータまたはオブジェクトを転送するため、または同様の状況&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>You can then use the &lt;xref:System.IO.Stream&gt; techniques to store or obtain XAML-formatted data that you eventually use to create an object as part of your application.</source>
+          <target state="translated">使用してできます、&lt;xref:System.IO.Stream&gt;最終的に、アプリケーションの一部としてオブジェクトの作成に使用する XAML の書式設定データを取得または保存する手法&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-   <bpt id="p1">**</bpt>Fixed documents:<ept id="p1">**</ept> Your application might load local or downloaded XPS documents for inclusion in a WPF application object tree and UI.</source>
+          <target state="translated">-<bpt id="p1">**</bpt>ドキュメントを固定:<ept id="p1">**</ept>アプリケーション UI、WPF アプリケーションのオブジェクト ツリーに含めることのローカルまたはダウンロード済みの XPS ドキュメントを読み込むことができます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This documentation sometimes describes an object graph, as opposed to an object tree.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; もこのドキュメントは、オブジェクト ツリーではなく、オブジェクト グラフをについて説明します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A strict parent-child relationship does not always exist in the run time object relationships of a run time WPF application, so an object graph is a more widely applicable terminology.</source>
+          <target state="translated">厳密な親子リレーションシップが常にありません、実行時の WPF アプリケーションの実行時のオブジェクトのリレーションシップのため、オブジェクト グラフをより幅広く適用できる用語。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>However, because WPF also includes two different tree conceptualization APIs (&lt;xref:System.Windows.LogicalTreeHelper&gt;, &lt;xref:System.Windows.Media.VisualTreeHelper&gt;) the tree metaphor still applies adequately to most real-world cases in WPF.</source>
+          <target state="translated">ただし、WPF には、次の&amp;2; つの別のツリーの概念の Api も含まれているため (&lt;xref:System.Windows.LogicalTreeHelper&gt;、 &lt;xref:System.Windows.Media.VisualTreeHelper&gt;) WPF では、ほとんどの現実の場合に、ツリーの比喩を適切にも該当します&lt;/xref:System.Windows.Media.VisualTreeHelper&gt;&lt;/xref:System.Windows.LogicalTreeHelper&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>From the XAML language perspective however, the object graph is often the best way to think about how objects are created out of XAML, because the XAML language itself does not necessarily specify helper class methodologies that bring the relationships more into a tree structure again.</source>
+          <target state="translated">XAML 言語の観点から、オブジェクト グラフが多くの場合について検討する XAML を外のオブジェクトを作成する方法、XAML 言語そのものは必ずしも指定しないので、リレーションシップをツリー構造に再度表示ヘルパー クラスの方法論最善の方法です。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Code Access Security, Loose XAML, and XamlReader    XAML is a markup language that directly represents object instantiation and execution.</source>
+          <target state="translated">コード アクセス セキュリティ、Loose XAML、および XamlReader XAML は、直接オブジェクト インスタンスの作成と実行を表すマークアップ言語です。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Therefore, elements created in XAML have the same ability to interact with system resources (network access, file system IO, for example) as the equivalent generated code does.</source>
+          <target state="translated">したがって、XAML で作成された要素機能があります、同じを生成した同等のシステム リソース (ネットワーク アクセス、ファイル システムの入出力など) と対話するコードです。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> supports the <ph id="ph2">[!INCLUDE[TLA2#tla_net](~/add/includes/tla2sharptla-net-md.md)]</ph> security framework <ph id="ph3">[!INCLUDE[TLA#tla_cas](~/add/includes/tlasharptla-cas-md.md)]</ph>.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>サポートしている、<ph id="ph2">[!INCLUDE[TLA2#tla_net](~/add/includes/tla2sharptla-net-md.md)]</ph>セキュリティ フレームワーク<ph id="ph3">[!INCLUDE[TLA#tla_cas](~/add/includes/tlasharptla-cas-md.md)]</ph>です。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This means that <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> content running in the internet zone has reduced execution permissions.</source>
+          <target state="translated">つまり、<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>インターネット ゾーンで実行されているコンテンツの実行権限が少なくなっています。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>"Loose XAML" (pages of noncompiled XAML interpreted at load time by a XAML viewer) and <ph id="ph1">[!INCLUDE[TLA#tla_xbap](~/add/includes/tlasharptla-xbap-md.md)]</ph> are usually run in this internet zone and use the same permission set.</source>
+          <target state="translated">"Loose XAML"(コンパイルされていない XAML のページと解釈の読み込み時に XAML ビューアーで) と<ph id="ph1">[!INCLUDE[TLA#tla_xbap](~/add/includes/tlasharptla-xbap-md.md)]</ph>このインターネット ゾーンでは、通常実行して、同じアクセス許可セットを使用します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>However, XAML loaded in to a fully trusted application has the same access to the system resources as the hosting application does.</source>
+          <target state="translated">ただし、XAML を完全に信頼されたアプリケーションでロードでは、ホスト アプリケーションのようにシステム リソースへのアクセス権があります。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>WPF Partial Trust Security<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>WPF 部分信頼セキュリティ<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>です。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The implications of these statements for XamlReader is that your application design must make trust decisions about the XAML you decide to load.</source>
+          <target state="translated">XamlReader のこれらのステートメントの影響は、こと、アプリケーションの設計する必要があります信頼方法に関する意思決定、XAML をロードする場合です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If you are loading XAML that is not trusted, consider implementing your own sandboxing technique for how you load the resulting object graph.</source>
+          <target state="translated">信頼されていない XAML をロードする場合は、生成されたオブジェクト グラフを読み込む方法について、独自のサンド ボックス化手法を実装することを検討してください。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>XamlReader can also be called by partial trust code.</source>
+          <target state="translated">XamlReader は、部分信頼コードによって呼び出すこともできます。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In this case, Internet security zone is applied for code access security.</source>
+          <target state="translated">この例では、インターネットのセキュリティ ゾーンは、コード アクセス セキュリティに対して適用されます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If anything in the loaded XAML is invalid under Internet security zone, a XAML parse exception is thrown.</source>
+          <target state="translated">読み込まれた XAML では何も情報がインターネット セキュリティ ゾーンで有効でない場合は、XAML の解析例外がスローされます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Under XBAP and other cases that are partial trust at the platform level, where XamlReader is part of the execution, you get the same exception behavior as with explicit partial trust calls.</source>
+          <target state="translated">XBAP とこの XamlReader では、実行の一部である、プラットフォーム レベルでの部分的な信頼は、それ以外の場合は、明示的な部分信頼の呼び出しと同じ例外動作を取得します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>WPF XAML, XAML Readers/Writers, and XAML Language Versioning    <ph id="ph1">[!INCLUDE[xaml2009](~/add/includes/xaml2009-md.md)]</ph> includes language features such as  and .</source>
+          <target state="translated">XAML の WPF、XAML リーダー/ライター、および XAML 言語のバージョン管理<ph id="ph1">[!INCLUDE[xaml2009](~/add/includes/xaml2009-md.md)]</ph>などの言語の機能が含まれているとします。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>You can use signatures of <ph id="ph1">`Load`</ph> or <ph id="ph2">`Parse`</ph> to load XAML that uses these features.</source>
+          <target state="translated">署名を使用することができます<ph id="ph1">`Load`</ph>または<ph id="ph2">`Parse`</ph>をこれらの機能を使用する XAML を読み込みます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>However, those language features are not supported for XAML that needs to be markup compiled (such as XAML for the <bpt id="p1">**</bpt>Page<ept id="p1">**</ept> build action in a WPF application, or any XAML that involves the markup compile task in the build actions).</source>
+          <target state="translated">ただし、これらの言語機能は、xaml マークアップ コンパイルする必要がありますにサポートされていません (の XAML など、<bpt id="p1">**</bpt>ページ<ept id="p1">**</ept>ビルド アクションでは、WPF アプリケーションの場合、または任意の XAML のビルド アクションにマークアップ コンパイル タスクを含む)。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>WPF types and the WPF technology in general support concepts that rely on access to WPF internals.</source>
+          <target state="translated">WPF 型と WPF テクノロジ一般 WPF の内部構造へのアクセスに依存している概念がサポートします。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>For instance, how WPF implements dependency properties relies on internal techniques for efficient type-member lookup.</source>
+          <target state="translated">たとえば、WPF が依存関係プロパティを実装する方法は、効率的な型メンバーの参照を内部の手法に依存します。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Access to these internals is enabled by the XAML reading and writing APIs provided in &lt;xref:System.Windows.Markup.XamlWriter&gt; and XamlReader from the &lt;xref:System.Windows.Markup&gt; namespace and PresentationFramework assembly.</source>
+          <target state="translated">XAML の読み取りと書き込みで提供される Api でこれらの内部構造へのアクセスが有効になっている&lt;xref:System.Windows.Markup.XamlWriter&gt;と XamlReader から、&lt;xref:System.Windows.Markup&gt;名前空間および PresentationFramework アセンブリ&lt;/xref:System.Windows.Markup&gt;&lt;/xref:System.Windows.Markup.XamlWriter&gt;。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>However, the lower-level XAML readers and XAML writers from the System.Xaml assembly (classes based on &lt;xref:System.Xaml.XamlReader?displayProperty=fullName&gt;, &lt;xref:System.Xaml.XamlWriter?displayProperty=fullName&gt;) do not have access to the WPF internals.</source>
+          <target state="translated">ただし、下位レベルの XAML リーダーと XAML ライター System.Xaml アセンブリから (クラスがに基づいて&lt;xref:System.Xaml.XamlReader?displayProperty=fullName&gt;、 &lt;xref:System.Xaml.XamlWriter?displayProperty=fullName&gt;) WPF の内部構造へのアクセスはありません&lt;/xref:System.Xaml.XamlWriter?displayProperty=fullName&gt;&lt;/xref:System.Xaml.XamlReader?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>There is no dependency from System.Xaml to any WPF-specific assembly.</source>
+          <target state="translated">任意の特定の WPF アセンブリ System.Xaml からの依存関係はありません。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Without access to the WPF internals, System.Xaml readers and writers cannot correctly load or save all WPF types, or types based on WPF types.</source>
+          <target state="translated">WPF の内部構造にアクセスできなければ、System.Xaml リーダーとライターに正常に読み込むことができませんまたは型、または型で WPF 型に基づくすべての WPF 保存します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In particular, the System.Xaml readers and writers do not understand concepts such as the WPF dependency property backing property store, or all the specifics of how WPF uses styles, resource dictionaries and templates.</source>
+          <target state="translated">具体的には、System.Xaml リーダーとライター理解できません、依存関係プロパティのバッキング ストアのプロパティ、またはスタイル、リソース ディクショナリ、およびテンプレートの WPF の使用のすべての詳細などの概念。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Therefore you have a choice to make:      -   If you are loading WPF types, and/or you are using XAML in BAML form in any way, use the PresentationFramework XAML readers and XAML writers.</source>
+          <target state="translated">選択する必要があるため: - WPF 型を読み込むまたは何らかの方法での BAML 形式で XAML を使用している場合、PresentationFramework XAML リーダーと XAML ライターを使用します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-   If you are not relying on any WPF types or the BAML form of XAML, and are not using another specific technology's XAML reader or XAML writer implementation for reasons that are specific to that framework, use the System.Xaml XAML readers and XAML writers.</source>
+          <target state="translated">場合は、WPF 型、または、XAML の BAML 形式には依存しないと、そのフレームワークに固有の上の理由から特定のテクノロジの別の XAML リーダーまたは XAML ライターの実装を使用しない、System.Xaml の XAML リーダーと XAML ライターを使用します。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>System.Xaml Backing Implementation in .NET 4    XamlReader is the callable API surface for the WPF framework-level XAML parser.</source>
+          <target state="translated">System.Xaml バックアップ実装が .NET 4 XamlReader では、WPF フレームワーク レベルの XAML パーサーの呼び出し可能な API サーフェイスです。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The same underlying XAML parser also performs the run-time XAML loading and parsing for WPF applications that target <ph id="ph1">[!INCLUDE[net_v30_short](~/add/includes/net-v30-short-md.md)]</ph> and <ph id="ph2">[!INCLUDE[net_v35_short](~/add/includes/net-v35-short-md.md)]</ph>.</source>
+          <target state="translated">同じ基になる XAML パーサーは、実行時の XAML を読み込み、対象とする WPF アプリケーションの解析もを実行します。<ph id="ph1">[!INCLUDE[net_v30_short](~/add/includes/net-v30-short-md.md)]</ph>と<ph id="ph2">[!INCLUDE[net_v35_short](~/add/includes/net-v35-short-md.md)]</ph>です。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If you are targeting <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the external API is the same, but parts of the implementation are built on the <ph id="ph2">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> general XAML implementation in the System.Xaml assembly, which improves many of the technical and reporting aspects of parsing XAML.</source>
+          <target state="translated">対象としている場合<ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>、外部の API、同じですが、実装の部分に組み込まれて、 <ph id="ph2">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> XAML の解析の技術的およびレポートの側面の多くが向上 System.Xaml アセンブリに標準の XAML 実装します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Targeting <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> necessarily entails including System.Xaml as a reference, and details of implementation such as the exceptions reported may come from System.Xaml defined types.</source>
+          <target state="translated">対象とする<ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>など System.Xaml 実装の詳細と、参照 System.Xaml 由来例外を報告する場合などが必要ですが、型を定義されているとは限りません。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="xamlTextUsage_XamlReader"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## XAML Text Usage</source>
+          <target state="translated"><bpt id="p1">&lt;a name="xamlTextUsage_XamlReader"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## XAML テキストの使用方法</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Aborts the current asynchronous load operation, if there is an asynchronous load operation pending.</source>
+          <target state="translated">保留中の非同期ロード操作がある場合は、現在の非同期ロード操作を中止します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>CancelAsync is an asynchronous operation; therefore, some loading may occur before the operation is aborted.</source>
+          <target state="translated">Cancelasync メソッドは非同期操作です。そのため、いくつかの読み込み中に、操作を中止する前に発生します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Xaml.XamlSchemaContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the WPF schema context settings for a <bpt id="p2">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref href="System.Xaml.XamlSchemaContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の WPF スキーマ コンテキスト設定を表すオブジェクト、 <bpt id="p2">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xaml.XamlSchemaContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the WPF schema context settings for a <bpt id="p2">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Xaml.XamlSchemaContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>の WPF スキーマ コンテキスト設定を表すオブジェクト、 <bpt id="p2">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Reads the XAML input in the specified &lt;xref:System.IO.Stream&gt; and returns an &lt;xref:System.Object&gt; that is the root of the corresponding object tree.</source>
+          <target state="translated">指定した XAML 入力を読み取る&lt;xref:System.IO.Stream&gt;を返します、 &lt;xref:System.Object&gt;、対応するオブジェクト ツリーのルートは&lt;/xref:System.Object&gt;&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The XAML to load, in stream form.</source>
+          <target state="translated">読み込むには、ストリームの形式で XAML です。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The object at the root of the created object tree.</source>
+          <target state="translated">作成されたオブジェクト ツリーのルートにあるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Reads the XAML input through a provided <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and returns an object that is the root of the corresponding object tree.</source>
+          <target state="translated">提供されたを介して XAML 入力を読み取る<bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>し、対応するオブジェクト ツリーのルートであるオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The input &lt;xref:System.Xaml.XamlReader&gt; can be &lt;xref:System.Windows.Baml2006.Baml2006Reader&gt;.</source>
+          <target state="translated">入力&lt;xref:System.Xaml.XamlReader&gt;&lt;xref:System.Windows.Baml2006.Baml2006Reader&gt;。&lt;/xref:System.Windows.Baml2006.Baml2006Reader&gt;ができます。&lt;/xref:System.Xaml.XamlReader&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>This is how you can load BAML at run time, or for localization tool purposes.</source>
+          <target state="translated">これは、実行時に、またはローカリゼーション ツール目的のために BAML をロードします。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Xaml.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This is expected to be initialized with input XAML.</source>
+          <target state="translated">これは、入力 XAML で初期化されると想定されます。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The object that is the root of the created object tree.</source>
+          <target state="translated">作成されたオブジェクト ツリーのルートであるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Reads the XAML input in the specified &lt;xref:System.Xml.XmlReader&gt; and returns an object that is the root of the corresponding object tree.</source>
+          <target state="translated">指定した XAML 入力を読み取る&lt;xref:System.Xml.XmlReader&gt;し、対応するオブジェクト ツリーのルートであるオブジェクトを返します&lt;/xref:System.Xml.XmlReader&gt;。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Xml.XmlReader&gt; that has already loaded the XAML input to load in XML form.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlReader&gt;XAML を読み込む XML 形式で入力が既に読み込まれている&lt;/xref:System.Xml.XmlReader&gt;。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The object that is the root of the created object tree.</source>
+          <target state="translated">作成されたオブジェクト ツリーのルートであるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Reads the XAML input in the specified &lt;xref:System.IO.Stream&gt; and returns an object that is the root of the corresponding object tree.</source>
+          <target state="translated">指定した XAML 入力を読み取る&lt;xref:System.IO.Stream&gt;し、対応するオブジェクト ツリーのルートであるオブジェクトを返します&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The stream that contains the XAML input to load.</source>
+          <target state="translated">XAML を読み込む入力を格納しているストリーム。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Context information used by the parser.</source>
+          <target state="translated">パーサーによって使用されるコンテキスト情報。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The object that is the root of the created object tree.</source>
+          <target state="translated">作成されたオブジェクト ツリーのルートであるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;parserContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;parserContext&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Reads the XAML input in the specified &lt;xref:System.IO.Stream&gt; and returns the root of the corresponding object tree.</source>
+          <target state="translated">指定した XAML 入力を読み取る&lt;xref:System.IO.Stream&gt;し、対応するオブジェクト ツリーのルートを返します&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>An asynchronous XAML load operation will initially return an object that is purely the root object.</source>
+          <target state="translated">XAML の非同期ロード操作は、純粋にルート オブジェクトであるオブジェクト最初に戻ります。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Asynchronously, XAML parsing then continues, and any child objects are filled in under the root.</source>
+          <target state="translated">、非同期的に XAML を解析し、が引き続き発生して、子オブジェクトは、ルートの下に入力されます。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>This is in contrast to the typical WPF XAML processing behavior and its interaction with WPF concepts of object lifetime.</source>
+          <target state="translated">これは、一般的な WPF による XAML 処理の動作と WPF の概念オブジェクトの有効期間との相互作用とは対照的です。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In the typical (non-async) interaction, all properties of an object including all child collections are filled before returning an element and reporting it as loaded.</source>
+          <target state="translated">一般的な (非 async) の相互作用要素を返すと、読み込みであることを報告する前にすべての子コレクションを含むオブジェクトのすべてのプロパティが読み込まれます。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>That behavior equates to a bottom-up methodology for creating the tree where the root object is the last object to become available.</source>
+          <target state="translated">この動作は、ルート オブジェクトの使用可能になる最後のオブジェクト ツリーを作成するためのボトムアップ方式に相当します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>You typically would assign the returned object to some location in your WPF application's object tree, with the knowledge that content might still be filling in and might cause incremental layout updates if the entire content is exposed as part of the UI.</source>
+          <target state="translated">通常、WPF アプリケーションのオブジェクト ツリー内のある場所に返されるオブジェクトを割り当てますが、コンテンツがまだ入力されるおよび全体のコンテンツは、UI の一部として公開されている場合にインクリメンタル レイアウトの更新が発生する可能性があります。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For this reason it is typical to isolate or virtualize any asynchronously loaded objects from XAML, and to use application-specific logic or application state to notify when &lt;xref:System.Windows.Markup.XamlReader.LoadCompleted&gt; is handled.</source>
+          <target state="translated">この理由は、分離または XAML から、非同期的に読み込まれたオブジェクトの仮想化をするときに通知するアプリケーション固有のロジックまたはアプリケーションの状態を使用して一般的な&lt;xref:System.Windows.Markup.XamlReader.LoadCompleted&gt;処理されます&lt;/xref:System.Windows.Markup.XamlReader.LoadCompleted&gt;。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>In order for LoadAsync to load XAML input asynchronously, the root element in the XAML input must contain the attribute and value <ph id="ph1">`x:SynchronousMode="Async"`</ph>.</source>
+          <target state="translated">非同期的に、XAML 入力を読み込む LoadAsync xaml ルート要素の順序で入力にはする必要がありますが含まれて、属性と値<ph id="ph1">`x:SynchronousMode="Async"`</ph>です。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The value is treated as case sensitive.</source>
+          <target state="translated">値は、小文字の区別が処理します。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If the XAML input root does not contain <ph id="ph1">`x:SynchronousMode="Async"`</ph>, no exception is thrown, and the call is processed as a synchronous load (see &lt;xref:System.Windows.Markup.XamlReader.Load%28System.IO.Stream%29&gt;).</source>
+          <target state="translated">XAML 入力ルートが含まれていない場合<ph id="ph1">`x:SynchronousMode="Async"`</ph>、例外はスローされず、および同期負荷として処理される呼び出しは、(を参照してください&lt;xref:System.Windows.Markup.XamlReader.Load%28System.IO.Stream%29&gt;).&lt;/xref:System.Windows.Markup.XamlReader.Load%28System.IO.Stream%29&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Only one asynchronous load operation per instance of the &lt;xref:System.Windows.Markup.XamlReader&gt; class can be performed at a time.</source>
+          <target state="translated">インスタンスごとに&amp;1; つだけの非同期ロード操作、&lt;xref:System.Windows.Markup.XamlReader&gt;クラスは、一度に実行できます&lt;/xref:System.Windows.Markup.XamlReader&gt;。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If more than one asynchronous operation is attempted on the same instance of the &lt;xref:System.Windows.Markup.XamlReader&gt; class an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">同じインスタンスで&amp;1; つ以上の非同期操作がしようとしたかどうか、&lt;xref:System.Windows.Markup.XamlReader&gt;クラス、&lt;xref:System.InvalidOperationException&gt;がスローされます&lt;/xref:System.InvalidOperationException&gt;&lt;/xref:System.Windows.Markup.XamlReader&gt;。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The stream containing the XAML input to load.</source>
+          <target state="translated">XAML を読み込む入力を含むストリーム。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The object that is the root of the created object tree.</source>
+          <target state="translated">作成されたオブジェクト ツリーのルートであるオブジェクト。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Multiple load operations are pending concurrently with the same <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">複数のロード操作が保留中と同時に同じ<bpt id="p1">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Reads the XAML input in the specified &lt;xref:System.Xml.XmlReader&gt; and returns the root of the corresponding object tree.</source>
+          <target state="translated">指定した XAML 入力を読み取る&lt;xref:System.Xml.XmlReader&gt;し、対応するオブジェクト ツリーのルートを返します&lt;/xref:System.Xml.XmlReader&gt;。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>An asynchronous XAML load operation will initially return an object that is purely the root object.</source>
+          <target state="translated">XAML の非同期ロード操作は、純粋にルート オブジェクトであるオブジェクト最初に戻ります。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Asynchronously, XAML parsing then continues, and any child objects are filled in under the root.</source>
+          <target state="translated">、非同期的に XAML を解析し、が引き続き発生して、子オブジェクトは、ルートの下に入力されます。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This is in contrast to the typical WPF XAML processing behavior and its interaction with WPF concepts of object lifetime.</source>
+          <target state="translated">これは、一般的な WPF による XAML 処理の動作と WPF の概念オブジェクトの有効期間との相互作用とは対照的です。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>In the typical (non-async) interaction, all properties of an object including all child collections are filled before returning an element and reporting it as loaded.</source>
+          <target state="translated">一般的な (非 async) の相互作用要素を返すと、読み込みであることを報告する前にすべての子コレクションを含むオブジェクトのすべてのプロパティが読み込まれます。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>That behavior equates to a bottom-up methodology for creating the tree where the root object is the last object to become available.</source>
+          <target state="translated">この動作は、ルート オブジェクトの使用可能になる最後のオブジェクト ツリーを作成するためのボトムアップ方式に相当します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>You typically would assign the returned object from LoadAsync to some location in your application's object tree, with the knowledge that content might still be filling in and might cause incremental layout updates if the entire content is exposed as part of the UI.</source>
+          <target state="translated">通常 LoadAsync から返されたオブジェクトをアプリケーションのオブジェクト ツリー内のある場所に割り当てられる、コンテンツがまだ入力されるおよび全体のコンテンツは、UI の一部として公開されている場合にインクリメンタル レイアウトの更新が発生する可能性があります。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For this reason it is typical to isolate or virtualize any asynchronously loaded objects from XAML, and to use application-specific logic or application state to notify when &lt;xref:System.Windows.Markup.XamlReader.LoadCompleted&gt; is handled.</source>
+          <target state="translated">この理由は、分離または XAML から、非同期的に読み込まれたオブジェクトの仮想化をするときに通知するアプリケーション固有のロジックまたはアプリケーションの状態を使用して一般的な&lt;xref:System.Windows.Markup.XamlReader.LoadCompleted&gt;処理されます&lt;/xref:System.Windows.Markup.XamlReader.LoadCompleted&gt;。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>In order for LoadAsync to load XAML input asynchronously, the root element in the XAML markup must contain the attribute and value <ph id="ph1">`x:SynchronousMode="Async"`</ph>.</source>
+          <target state="translated">読み込む LoadAsync の順序での XAML 入力に非同期的に、XAML マークアップのルート要素は、属性と値を含める必要があります<ph id="ph1">`x:SynchronousMode="Async"`</ph>です。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The value is treated as case sensitive.</source>
+          <target state="translated">値は、小文字の区別が処理します。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>If the XAML markup root does not contain <ph id="ph1">`x:SynchronousMode="Async"`</ph>, no exception is thrown, and the call is instead processed as a synchronous load (see &lt;xref:System.Windows.Markup.XamlReader.Load%28System.Xml.XmlReader%29&gt;).</source>
+          <target state="translated">XAML マークアップのルートが含まれていない場合<ph id="ph1">`x:SynchronousMode="Async"`</ph>、例外はスローされず、および同期負荷として処理される代わりに、呼び出し (を参照してください&lt;xref:System.Windows.Markup.XamlReader.Load%28System.Xml.XmlReader%29&gt;).&lt;/xref:System.Windows.Markup.XamlReader.Load%28System.Xml.XmlReader%29&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Only one asynchronous load operation per instance of the &lt;xref:System.Windows.Markup.XamlReader&gt; class can be performed at a time.</source>
+          <target state="translated">インスタンスごとに&amp;1; つだけの非同期ロード操作、&lt;xref:System.Windows.Markup.XamlReader&gt;クラスは、一度に実行できます&lt;/xref:System.Windows.Markup.XamlReader&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If more than one asynchronous operation is attempted on the same instance of the &lt;xref:System.Windows.Markup.XamlReader&gt; class an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">同じインスタンスで&amp;1; つ以上の非同期操作がしようとしたかどうか、&lt;xref:System.Windows.Markup.XamlReader&gt;クラス、&lt;xref:System.InvalidOperationException&gt;がスローされます&lt;/xref:System.InvalidOperationException&gt;&lt;/xref:System.Windows.Markup.XamlReader&gt;。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>An existing  &lt;xref:System.Xml.XmlReader&gt; that has already loaded/read the XAML input.</source>
+          <target state="translated">既存の&lt;xref:System.Xml.XmlReader&gt;が既に読み込まれて/読み取りの XAML 入力します&lt;/xref:System.Xml.XmlReader&gt;。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The root of the created object tree.</source>
+          <target state="translated">作成されたオブジェクト ツリーのルートです。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;reader&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Multiple load operations are performed concurrently with the same <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">複数のロード操作が同じと同時に実行されます<bpt id="p1">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Reads the XAML input in the specified &lt;xref:System.IO.Stream&gt; and returns the root of the corresponding object tree.</source>
+          <target state="translated">指定した XAML 入力を読み取る&lt;xref:System.IO.Stream&gt;し、対応するオブジェクト ツリーのルートを返します&lt;/xref:System.IO.Stream&gt;。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>An asynchronous XAML load operation will initially return an object that is purely the root object.</source>
+          <target state="translated">XAML の非同期ロード操作は、純粋にルート オブジェクトであるオブジェクト最初に戻ります。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Asynchronously, XAML parsing then continues, and any child objects are filled in under the root.</source>
+          <target state="translated">、非同期的に XAML を解析し、が引き続き発生して、子オブジェクトは、ルートの下に入力されます。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>This is in contrast to the typical WPF XAML processing behavior and its interaction with WPF concepts of object lifetime.</source>
+          <target state="translated">これは、一般的な WPF による XAML 処理の動作と WPF の概念オブジェクトの有効期間との相互作用とは対照的です。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>In the typical (non-async) interaction, all properties of an object including all child collections are filled before returning an element and reporting it as loaded.</source>
+          <target state="translated">一般的な (非 async) の相互作用要素を返すと、読み込みであることを報告する前にすべての子コレクションを含むオブジェクトのすべてのプロパティが読み込まれます。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>That behavior equates to a bottom-up methodology for creating the tree where the root object is the last object to become available.</source>
+          <target state="translated">この動作は、ルート オブジェクトの使用可能になる最後のオブジェクト ツリーを作成するためのボトムアップ方式に相当します。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>You typically would assign the returned object to some location in your application's object tree, with the knowledge that content might still be filling in and might cause incremental layout updates if the entire content is exposed as part of the UI.</source>
+          <target state="translated">通常、アプリケーションのオブジェクト ツリー内のある場所に返されるオブジェクトを割り当てますが、コンテンツがまだ入力されるおよび全体のコンテンツは、UI の一部として公開されている場合にインクリメンタル レイアウトの更新が発生する可能性があります。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For this reason it is typical to isolate or virtualize any asynchronously loaded objects from XAML, and to use application-specific logic or application state to notify when &lt;xref:System.Windows.Markup.XamlReader.LoadCompleted&gt; is handled.</source>
+          <target state="translated">この理由は、分離または XAML から、非同期的に読み込まれたオブジェクトの仮想化をするときに通知するアプリケーション固有のロジックまたはアプリケーションの状態を使用して一般的な&lt;xref:System.Windows.Markup.XamlReader.LoadCompleted&gt;処理されます&lt;/xref:System.Windows.Markup.XamlReader.LoadCompleted&gt;。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>In order for LoadAsync to load markup asynchronously, the root element in the XAML markup must contain the attribute and value <ph id="ph1">`x:SynchronousMode="Async"`</ph>.</source>
+          <target state="translated">属性と値 LoadAsync マークアップを非同期で読み込むためには、XAML マークアップのルート要素があります<ph id="ph1">`x:SynchronousMode="Async"`</ph>です。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The value is treated as case sensitive.</source>
+          <target state="translated">値は、小文字の区別が処理します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If the XAML markup root does not contain <ph id="ph1">`x:SynchronousMode="Async"`</ph>, no exception is thrown, and the call is processed as a synchronous load (see &lt;xref:System.Windows.Markup.XamlReader.Load%28System.IO.Stream%2CSystem.Windows.Markup.ParserContext%29&gt;).</source>
+          <target state="translated">XAML マークアップのルートが含まれていない場合<ph id="ph1">`x:SynchronousMode="Async"`</ph>、例外はスローされず、および同期負荷として処理される呼び出しは、(を参照してください&lt;xref:System.Windows.Markup.XamlReader.Load%28System.IO.Stream%2CSystem.Windows.Markup.ParserContext%29&gt;).&lt;/xref:System.Windows.Markup.XamlReader.Load%28System.IO.Stream%2CSystem.Windows.Markup.ParserContext%29&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Only one asynchronous load operation per instance of the &lt;xref:System.Windows.Markup.XamlReader&gt; class can be performed at a time.</source>
+          <target state="translated">インスタンスごとに&amp;1; つだけの非同期ロード操作、&lt;xref:System.Windows.Markup.XamlReader&gt;クラスは、一度に実行できます&lt;/xref:System.Windows.Markup.XamlReader&gt;。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>If more than one asynchronous operation is attempted on the same instance of the &lt;xref:System.Windows.Markup.XamlReader&gt; class an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">同じインスタンスで&amp;1; つ以上の非同期操作がしようとしたかどうか、&lt;xref:System.Windows.Markup.XamlReader&gt;クラス、&lt;xref:System.InvalidOperationException&gt;がスローされます&lt;/xref:System.InvalidOperationException&gt;&lt;/xref:System.Windows.Markup.XamlReader&gt;。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A stream containing the XAML input to load.</source>
+          <target state="translated">XAML を読み込む入力を含むストリーム。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Context information used by the parser.</source>
+          <target state="translated">パーサーによって使用されるコンテキスト情報。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The root of the created object tree.</source>
+          <target state="translated">作成されたオブジェクト ツリーのルートです。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Multiple load operations are performed concurrently with the same <bpt id="p1">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">複数のロード操作が同じと同時に実行されます<bpt id="p1">&lt;xref href="System.Windows.Markup.XamlReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Occurs when an asynchronous load operation completes.</source>
+          <target state="translated">非同期ロード操作が完了したときに発生します。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>LoadCompleted is also raised when an asynchronous load operation aborts.</source>
+          <target state="translated">LoadCompleted は、非同期ロード操作が中断された場合にも発生します。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Reads the XAML input in the specified text string and returns an object that corresponds to the root of the specified markup.</source>
+          <target state="translated">指定したテキスト文字列内の XAML 入力を読み取り、指定されたマークアップのルートに対応するオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The implementation calls &lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt; internally after creating a stream from the string.</source>
+          <target state="translated">実装の呼び出し&lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt;文字列からストリームの作成後に、内部的にします&lt;/xref:System.Windows.Markup.XamlReader.Load%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt; for additional information such as possible exceptions.</source>
+          <target state="translated">参照してください&lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt;可能性のある例外などの詳細&lt;/xref:System.Windows.Markup.XamlReader.Load%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The input XAML, as a single text string.</source>
+          <target state="translated">1 つのテキスト文字列としての XAML 入力します。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The root of the created object tree.</source>
+          <target state="translated">作成されたオブジェクト ツリーのルートです。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Reads the XAML markup in the specified text string (using a specified <bpt id="p1">&lt;xref href="System.Windows.Markup.ParserContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) and returns an object that corresponds to the root of the specified markup.</source>
+          <target state="translated">指定されたテキスト文字列内の XAML マークアップを読み取ります (使用して、指定した<bpt id="p1">&lt;xref href="System.Windows.Markup.ParserContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>) し、指定されたマークアップのルートに対応するオブジェクトを返します。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The implementation calls &lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt; internally after creating a stream from the string.</source>
+          <target state="translated">実装の呼び出し&lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt;文字列からストリームの作成後に、内部的にします&lt;/xref:System.Windows.Markup.XamlReader.Load%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt; for additional information such as possible exceptions.</source>
+          <target state="translated">参照してください&lt;xref:System.Windows.Markup.XamlReader.Load%2A&gt;可能性のある例外などの詳細&lt;/xref:System.Windows.Markup.XamlReader.Load%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The input XAML, as a single text string.</source>
+          <target state="translated">1 つのテキスト文字列としての XAML 入力します。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Context information used by the parser.</source>
+          <target state="translated">パーサーによって使用されるコンテキスト情報。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The root of the created object tree.</source>
+          <target state="translated">作成されたオブジェクト ツリーのルートです。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
