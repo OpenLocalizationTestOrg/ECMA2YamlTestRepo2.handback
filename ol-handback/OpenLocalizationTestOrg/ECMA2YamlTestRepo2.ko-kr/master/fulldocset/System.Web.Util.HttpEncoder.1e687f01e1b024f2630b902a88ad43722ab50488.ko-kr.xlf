@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c69f9830d5f99e318bd8872c04a5caca4ae0a233</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Util.HttpEncoder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e6eb0d90bb63faaf4509e115be47d25e52ffb9c4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2dcb3172153f24a7e4d5f55a60320fed5f75e883</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides encoding and decoding logic.</source>
+          <target state="translated">인코딩 및 디코딩 논리를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class contains encoding and decoding logic that is used by methods in classes such as &lt;xref:System.Web.HttpUtility&gt;, &lt;xref:System.Web.HttpServerUtility&gt;, and &lt;xref:System.Net.HttpResponseHeader&gt;.</source>
+          <target state="translated">클래스에는 인코딩 및 디코딩와 같은 클래스의 메서드로 사용 되는 논리가 포함 되어 &lt;xref:System.Web.HttpUtility&gt;, &lt;xref:System.Web.HttpServerUtility&gt;, 및 &lt;xref:System.Net.HttpResponseHeader&gt;.&lt;/xref:System.Net.HttpResponseHeader&gt; &lt;/xref:System.Web.HttpServerUtility&gt; &lt;/xref:System.Web.HttpUtility&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can inherit from the HttpEncoder class and override its behavior to customize the default encoding and decoding behavior of ASP.NET.</source>
+          <target state="translated">HttpEncoder 클래스에서 상속할 수 있으며 기본 인코딩 및 디코딩 ASP.NET의 동작을 사용자 지정 하려면 동작을 재정의할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You then set the &lt;xref:System.Web.Configuration.HttpRuntimeSection.EncoderType%2A&gt; property of the &lt;xref:System.Web.Configuration.HttpRuntimeSection&gt; class to configure your custom class.</source>
+          <target state="translated">&lt;xref:System.Web.Configuration.HttpRuntimeSection.EncoderType%2A&gt; &lt;xref:System.Web.Configuration.HttpRuntimeSection&gt;사용자 지정 사용자 클래스를 구성 하는 클래스&lt;/xref:System.Web.Configuration.HttpRuntimeSection&gt; 의 속성&lt;/xref:System.Web.Configuration.HttpRuntimeSection.EncoderType%2A&gt; 을 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A custom class for encoding and decoding that derives from HttpEncoder can override the built-in ASP.NET encoding and decoding behavior or change only selected aspects of it.</source>
+          <target state="translated">인코딩 및 디코딩을 위한 HttpEncoder에서 파생 되는 사용자 지정 클래스는 기본 제공 ASP.NET 인코딩 및 디코딩 동작을 재정의할 수 또는 변경에만 가지 설정을 선택 합니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can configure the custom encoding type for in ASP.NET to replace or supplement the following encoding behavior:      -   HTML encoding      -   HTML attribute encoding      -   URL encoding      -   URL path encoding      -   HTTP header name and header value encoding       By default, ASP.NET applications are configured to use the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; type for all output encoding.</source>
+          <target state="translated">에 대 한 사용자 지정 인코딩 형식을 대체 하거나 다음 인코딩 동작을 보완 하기 위해 ASP.NET에서 구성할 수 있습니다:--URL 경로 인코딩을-인코딩 HTML-HTML 특성 인코딩입니다-URL 인코딩 HTTP 헤더 이름 및 헤더 값으로 인코딩을 기본값, 사용 하도록 구성 된 ASP.NET 응용 프로그램은 &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;인코딩 모든 출력에 대해를 입력 합니다.&lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example from an application-level Web.config file shows how the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; type is set for an ASP.NET application:       <ph id="ph1">`&lt;httpRuntime requestValidationMode="4.5" encoderType="System.Web.Security.AntiXss.AntiXssEncoder, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/&gt;`</ph>       The configuration setting in the example sets the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; class to perform all output encoding in the application.</source>
+          <target state="translated">다음 예제에서는 응용 프로그램 수준 Web.config 파일 표시에서 방법을 &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;유형이 ASP.NET 응용 프로그램에 대해 설정 되어: <ph id="ph1">`&lt;httpRuntime requestValidationMode="4.5" encoderType="System.Web.Security.AntiXss.AntiXssEncoder, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/&gt;`</ph> 의 예제에서는 구성 설정의 &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;있는 모든 클래스는 응용 프로그램에서 인코딩 출력 합니다.&lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; &lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; class overview.</source>
+          <target state="translated">자세한 내용은 참조는 &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;클래스 개요.&lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets or set the <bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> type that will be used in an application.</source>
+          <target state="translated">가져오거나 설정은 <bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 응용 프로그램에서 사용 될 형식입니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a derived &lt;xref:System.Web.Util.HttpEncoder&gt; type is specified in the configuration file, the Current property returns a reference to the custom type.</source>
+          <target state="translated">파생 된 경우 &lt;xref:System.Web.Util.HttpEncoder&gt;형식 구성 파일에 지정 되는 현재 속성 사용자 지정 형식에 대 한 참조를 반환 합니다.&lt;/xref:System.Web.Util.HttpEncoder&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if no custom encoder is used, the property returns a reference to the default ASP.NET &lt;xref:System.Web.Util.HttpEncoder&gt; instance.</source>
+          <target state="translated">그러나 없는 사용자 지정 인코더를 사용 하 고, 속성은 기본 ASP.NET에 대 한 참조 반환 &lt;xref:System.Web.Util.HttpEncoder&gt;인스턴스.&lt;/xref:System.Web.Util.HttpEncoder&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Current property is not thread-safe.</source>
+          <target state="translated">현재 속성은 스레드로부터 안전 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set this property only in the application's <ph id="ph1">`Application_Start`</ph> method, because <ph id="ph2">`Application_Start`</ph> runs on a single thread.</source>
+          <target state="translated">응용 프로그램의 경우에이 속성을 설정 <ph id="ph1">`Application_Start`</ph> 메서드를 때문에 <ph id="ph2">`Application_Start`</ph> 는 단일 스레드를 실행 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A reference to the encoder/decoder type that will be used.</source>
+          <target state="translated">사용 되는 인코더/디코더 형식에 대 한 참조입니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The encoder instance that is being assigned to this property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 속성에 할당 되는 인코더 인스턴스는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the default encoder for ASP.NET.</source>
+          <target state="translated">ASP.NET에 대 한 기본 인코더에 대 한 참조를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A common encoding issue is that the default ASP.NET &lt;xref:System.Web.Util.HttpEncoder.UrlEncode%2A&gt; behavior converts spaces into the "+" character.</source>
+          <target state="translated">일반적인 인코딩 문제 기본 ASP.NET은 &lt;xref:System.Web.Util.HttpEncoder.UrlEncode%2A&gt;동작 공간 "+" 문자가 변환.&lt;/xref:System.Web.Util.HttpEncoder.UrlEncode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Historically, the "+" character has been an Internet convention for encoding space characters in a URL into a more human-readable manner.</source>
+          <target state="translated">지금까지 "+" 문자를 보다 읽기 쉬운 방식으로 URL에서 공백 문자 인코딩을 위한 인터넷 규약 되었습니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, according to standards, the space character is supposed to be encoded as "%20" and instead of as the "+" character.</source>
+          <target state="translated">그러나 표준에 따르면 공백 문자 할 대신 "%20"로 인코딩할 수는 "+" 문자입니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET lets you implement a more standards compliant encoding algorithm.</source>
+          <target state="translated">ASP.NET를 사용 하면 더 많은 표준 규격 인코딩 알고리즘 구현 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A reference to the default encoder.</source>
+          <target state="translated">기본 인코더에 대 한 참조입니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Encodes a header name and value into a string that can be used as an HTTP header.</source>
+          <target state="translated">HTTP 헤더도 사용할 수 있는 문자열에 헤더 이름 및 값을 인코딩합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HeaderNameValueEncode method takes input strings from the <ph id="ph1">`headerName`</ph> and <ph id="ph2">`headerValue`</ph> parameters and encodes them.</source>
+          <target state="translated">문자열 입력을 가져와서 메서드 HeaderNameValueEncode는 <ph id="ph1">`headerName`</ph> 및 <ph id="ph2">`headerValue`</ph> 매개 변수를 인코딩합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The encoded values are returned as out parameters.</source>
+          <target state="translated">인코딩된 값은 출력 매개 변수로 반환 됩니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HeaderNameValueEncode method uses the following logic to encode header names and values:      -   All characters whose Unicode value is less than ASCII character 32, except ASCII character 9, are URL-encoded into a format of <ph id="ph1">`%NN`</ph> where the <ph id="ph2">`N`</ph> characters represent hexadecimal values.</source>
+          <target state="translated">HeaderNameValueEncode 메서드는 다음과 같은 논리를 사용 하 여 헤더 이름 및 값을 인코딩하는 데:-유니코드 값이 9, ASCII 문자를 제외 하 고 ASCII 문자 32 보다 작은 모든 문자는 URL로 인코딩된 형식으로 <ph id="ph1">`%NN`</ph> 여기서는 <ph id="ph2">`N`</ph> 문자 16 진수 값을 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   ASCII character 9 (the horizontal tab character) is not URL-encoded.</source>
+          <target state="translated">ASCII 문자 9 (가로 탭 문자) URL로 인코딩되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   ASCII character 127 is encoded as <ph id="ph1">`%7F`</ph>.</source>
+          <target state="translated">ASCII 문자 127 바이트로 인코딩됩니다 <ph id="ph1">`%7F`</ph>합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   All other characters are not encoded.</source>
+          <target state="translated">-다른 모든 문자는 인코딩되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph>     &gt;  Although this method can be used for Unicode values, it is typically used for values in the ASCII range.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 유니코드 값에 대해이 메서드를 사용할 수 있지만 일반적으로 ASCII 범위에서 값에 사용 됩니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of the HeaderNameValueEncode method returns the value of <ph id="ph1">`headerValue`</ph> in <ph id="ph2">`encodedHeaderValue`</ph> if <ph id="ph3">`headerValue`</ph> is <ph id="ph4">`null`</ph> or is an empty string.</source>
+          <target state="translated">값을 반환 하는 HeaderNameValueEncode 메서드의 기본 구현 <ph id="ph1">`headerValue`</ph> 에 <ph id="ph2">`encodedHeaderValue`</ph> 경우 <ph id="ph3">`headerValue`</ph> 은 <ph id="ph4">`null`</ph> 은 빈 문자열 또는 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, the default implementation returns the value of <ph id="ph1">`headerName`</ph> in <ph id="ph2">`encodedHeaderName`</ph> if <ph id="ph3">`headerName`</ph> is <ph id="ph4">`null`</ph> or is an empty string.</source>
+          <target state="translated">기본 구현은의 값을 반환 하는 마찬가지로, <ph id="ph1">`headerName`</ph> 에 <ph id="ph2">`encodedHeaderName`</ph> 경우 <ph id="ph3">`headerName`</ph> 은 <ph id="ph4">`null`</ph> 이거나 빈 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The HTTP header name to encode.</source>
+          <target state="translated">인코딩할 HTTP 헤더 이름입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The HTTP header value to encode.</source>
+          <target state="translated">인코딩할 HTTP 헤더 값입니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the encoded name to use for an HTTP header.</source>
+          <target state="translated">이 메서드가 반환 될 때에 HTTP 헤더에 사용할 인코딩된 이름을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">이 매개 변수는 초기화 되지 않은 상태로 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the encoded value to use for an HTTP header.</source>
+          <target state="translated">이 메서드가 반환 될 때 HTTP 헤더에 사용할 인코딩된 값을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">이 매개 변수는 초기화 되지 않은 상태로 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Encodes an incoming value into a string that can be inserted into an HTML attribute that is delimited by using single or double quotation marks.</source>
+          <target state="translated">작은따옴표 또는 큰따옴표를 사용 하 여 구분 된 HTML 특성에 삽입할 수 있는 문자열에 들어오는 값을 인코딩합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">인코딩할 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The text writer to write the encoded value to.</source>
+          <target state="translated">인코딩된 값을 쓸 텍스트 작성기입니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Decodes a value from an HTML-encoded string.</source>
+          <target state="translated">HTML 인코딩된 문자열에서 값을 디코딩합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists the character sequences that the ASP.NET decoding logic can decode.</source>
+          <target state="translated">다음 표에서 ASP.NET 디코딩 논리가 디코딩할 수 있는 문자 시퀀스를 보여 줍니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Character sequence|Rule|   |------------------------|----------|   |<ph id="ph1">`&amp;#NNN;`</ph> (decimal codes for ASCII characters).|Decoded as the specified ASCII character.</source>
+          <target state="translated">| 문자 시퀀스 | 규칙 |   |------------------------|----------|   | <ph id="ph1">`&amp;#NNN;`</ph> (ASCII 문자에 대 한&amp;10; 진수 코드). | 지정 된 ASCII 문자로 디코딩됩니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The character sequence starts at the first digit after the # character and finishes at the semicolon.|   |<ph id="ph1">`&amp;#xZZ;`</ph> (hexadecimal codes for ASCII characters).|Decoded as the specified ASCII character.</source>
+          <target state="translated">문자 시퀀스는 # 문자 뒤 첫째 자리에서 시작 하 고 세미콜론 완료 합니다. |   | <ph id="ph1">`&amp;#xZZ;`</ph> (ASCII 문자에 대 한&amp;16; 진수 코드). | 지정 된 ASCII 문자로 디코딩됩니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The encoded form specifies the character by using hexadecimal characters instead of a decimal value.</source>
+          <target state="translated">인코딩된 양식 대신&amp;10; 진수 값을&amp;16; 진수 문자를 사용 하 여 문자를 지정 합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The character sequence starts at the first digit after the # character and finishes at the semicolon.|   |Named HTML entities.|Decoded as the equivalent ASCII character.|</source>
+          <target state="translated">문자 시퀀스는 # 문자 뒤 첫째 자리에서 시작 하 고 세미콜론 완료 합니다. |   | 명명 된 HTML 엔터티. | ASCII 문자로으로 디코딩. |</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The string to decode.</source>
+          <target state="translated">디코딩할 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The text writer to write the decoded value to.</source>
+          <target state="translated">디코딩된 값을 쓸 텍스트 작성기입니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Encodes a string into an HTML-encoded string.</source>
+          <target state="translated">HTML 인코딩된 문자열로 문자열을 인코딩합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">인코딩할 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The text writer to write the encoded value to.</source>
+          <target state="translated">인코딩된 값을 쓸 텍스트 작성기입니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Encodes a string.</source>
+          <target state="translated">문자열을 인코딩합니다.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>URL encoding makes sure that all browsers correctly transmit text in URL strings.</source>
+          <target state="translated">URL 인코딩은 되도록 모든 브라우저에서 URL 문자열의에서 텍스트를 올바르게 전달할 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Characters such as a question mark (?), ampersand (&amp;), slash (/), and spaces might be truncated or corrupted by some browsers.</source>
+          <target state="translated">물음표 (?), 앰퍼샌드 (&amp;) 등의 문자 (/), 슬래시 및 공백이 잘립니다 되거나 일부 브라우저 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, these characters must be encoded.</source>
+          <target state="translated">따라서 이러한 문자를 인코딩해야 합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">인코딩할 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An encoded string.</source>
+          <target state="translated">인코딩된 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Encodes an array of characters that are not allowed in a URL into a hexadecimal character-entity equivalent.</source>
+          <target state="translated">URL에 해당 하는&amp;16; 진수 문자 엔터티를 허용 하지 않는 문자 배열을 인코딩합니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UrlEncode method is called by several URL encoding methods in the &lt;xref:System.Web.HttpUtility&gt; class.</source>
+          <target state="translated">&lt;xref:System.Web.HttpUtility&gt;클래스&lt;/xref:System.Web.HttpUtility&gt; 의 일부 URL 인코딩 메서드 UrlEncode 메서드를 호출</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UrlEncode method URL-encodes any character that is not in the set of ASCII characters that is considered to be URL-safe.</source>
+          <target state="translated">URL로 인코딩하고 UrlEncode 메서드에 없는 ASCII 문자 집합 하는 모든 문자부터 안전한으로 간주 됩니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Spaces are encoded as the ASCII "<ph id="ph1">`+"`</ph> character.</source>
+          <target state="translated">공백 ASCII로 인코딩됩니다 "<ph id="ph1">`+"`</ph> 문자입니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>URL-safe ASCII characters include the ASCI characters (A to Z and a to z), numerals (0 to 9), and some punctuation marks.</source>
+          <target state="translated">URL 지원 ASCII 문자를 ASCI 문자로 포함 (A ~ Z 및-z), 일부 문장 부호와 숫자 (0 ~ 9,)입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists the punctuation marks that are considered URL-safe ASCII characters.</source>
+          <target state="translated">다음 표에서 URL 로부터 안전한 ASCII 문자로 간주 되는 문장 부호를 나열 합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Character|Description|   |---------------|-----------------|   |-|Hyphen|   |_|Underscore|   |.|Period (dot)|   |!|Exclamation mark|   |*|Asterisk (star)|   |(|Opening parenthesis|   |)|Closing parenthesis|</source>
+          <target state="translated">| 문자 | 설명 |   |---------------|-----------------|   |-| 하이픈 |   |_| 밑줄 |   |.| 마침표 (.) |   |!| 느낌표 |   |*| 별표 (*) |   | (| 여는 괄호 |   |)| 닫는 괄호 |</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An array of bytes to encode.</source>
+          <target state="translated">인코딩할 바이트 배열입니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The position in the <ph id="ph1">`bytes`</ph> array at which to begin encoding.</source>
+          <target state="translated">위치는 <ph id="ph1">`bytes`</ph> 인코딩을 시작 하는 배열입니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The number of items in the <ph id="ph1">`bytes`</ph> array to encode.</source>
+          <target state="translated">항목 수는 <ph id="ph1">`bytes`</ph> 인코딩할 배열입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An array of encoded characters.</source>
+          <target state="translated">인코딩된 문자 배열입니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than zero or greater than the length of the <ph id="ph2">&lt;code&gt;bytes&lt;/code&gt;</ph> array.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>가&amp;0; 보다 작거나의 길이 보다 큰는 <ph id="ph2">&lt;code&gt;bytes&lt;/code&gt;</ph> 배열입니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than zero or <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> plus <ph id="ph3">&lt;code&gt;offset&lt;/code&gt;</ph> is greater than the length of the <ph id="ph4">&lt;code&gt;bytes&lt;/code&gt;</ph> array.</source>
+          <target state="translated">-또는- <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> 가&amp;0; 보다 작은 또는 <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> 플러스 <ph id="ph3">&lt;code&gt;offset&lt;/code&gt;</ph> 의 길이 보다 크면는 <ph id="ph4">&lt;code&gt;bytes&lt;/code&gt;</ph> 배열입니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;bytes&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;bytes&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Encodes a subsection of a URL.</source>
+          <target state="translated">URL의 하위 섹션을 인코딩합니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UrlPathEncode method is called by the &lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt; method.</source>
+          <target state="translated">UrlPathEncode 메서드에 의해 호출 됩니다는 &lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;메서드.&lt;/xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt; method performs the following steps:      -   Applies the encoding logic of the UrlPathEncode method to only the path part of the URL (which excludes the query string).</source>
+          <target state="translated">&lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;메서드는 다음 단계를 수행:-URL (쿼리 문자열 제외)의 경로 부분에만를 UrlPathEncode 메서드의 인코딩 논리를 적용 합니다.&lt;/xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method assumes that the URL is encoded as a UTF-8 string.</source>
+          <target state="translated">메서드는 URL을 u t F-8 문자열로 인코딩된는 가정 합니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Encodes non-spaces so that only a subset of the first 128 ASCII characters is used in the resulting encoded string.</source>
+          <target state="translated">-결과 인코드된 문자열에 있는 처음 128 자의 ASCII 문자 집합만 사용 되도록 비 공간 인코딩합니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any characters at Unicode value 128 and greater, or 32 and less, are URL-encoded.</source>
+          <target state="translated">모든 문자와 128을, 또는 32 크고, 유니코드 값은 URL로 인코딩됩니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Encodes spaces as %20.</source>
+          <target state="translated">-%20 공간을 인코딩합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">인코딩할 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A URL-encoded string.</source>
+          <target state="translated">URL로 인코딩된 문자열입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

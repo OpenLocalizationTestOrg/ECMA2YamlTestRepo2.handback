@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">47b8e4b950129a21b4b1c99257bf151060f70c7b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.DesignerSerializationManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">309e45a51d6c5f0fe91d220569a4e8b5b4ddd904</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3d10d95625110147c0bf5bb1d1f5dd295770667</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an implementation of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Gir en implementering av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> grensesnitt.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt; interface is designed to be a format-independent interface to an object that controls serialization.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;grensesnittet er utformet for å være en uavhengig av formatet grensesnitt til et objekt som kontrollerer serialisering.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It essentially provides context and services to serializers, which actually perform the deserialization.</source>
+          <target state="translated">Det i hovedsak gir kontekst og tjenester til serializers som utfører faktisk Deserialiseringen.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt; assists in the deserialization process by keeping track of objects.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;hjelper deg med deserialisering prosessen med å holde oversikt over objekter.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is similar in technique to the &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; interface: designers actually provide the user interface (UI), and &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; provides the glue that allows different designers to work together.</source>
+          <target state="translated">Dette er av samme metode til den &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;grensesnitt: utviklere angi faktisk brukergrensesnittet (UI), og &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;gir feste som tillater annen utviklere å samarbeide.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignerSerializationManager class implements &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;.</source>
+          <target state="translated">DesignerSerializationManager klassen implementerer &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is designed to provide a generic form of deserialization that is similar to run-time serializers like the &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;.</source>
+          <target state="translated">Det er utformet for å gi en generell type deserialisering som ligner kjøretid serializers som &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;.&lt;/xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignerSerializationManager class achieves three goals:      -   It is a simple, turnkey object that can be used to deserialize a variety of formats.</source>
+          <target state="translated">Klassen DesignerSerializationManager oppnår tre mål:-objektet er enkle, ferdige som kan brukes til å deserialisere en rekke formater.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It is generic and not tied to any particular format.</source>
+          <target state="translated">-Det er generisk og ikke bundet til en bestemt format.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used equally for CodeDOM deserialization as well as markup deserialization.</source>
+          <target state="translated">Det kan brukes like for CodeDOM deserialisering som markup deserialisering.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It is extensible and supports different serialization methods that are used in copy/paste and undo/redo scenarios.</source>
+          <target state="translated">-Det er omfattende og støtter forskjellige serialisering metodene som er brukt i kopiere og lime inn, og angre/gjør om scenarier.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Design-time serialization has the following differences from run-time object serialization:      -   The object performing the serialization is generally separate from the run-time object, so that design-time logic can be removed from a component.</source>
+          <target state="translated">Utformingen serialisering har følgende forskjeller fra kjøretid objektet serialisering:-objektet utfører serialisering er vanligvis egen fra kjøretid-objekt, slik at utformingen logic kan fjernes fra en komponent.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The serialization scheme assumes the object will be created fully initialized, and then modified through property and method invocations during deserialization.</source>
+          <target state="translated">Skjema-serialisering antar objektet opprettes fullstendig initialisert, og deretter endres via egenskapen og metoden anrop under deserialisering.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Properties of an object that have values that were never set on the object (the properties contain the default values) are not serialized.</source>
+          <target state="translated">-Egenskaper for et objekt som har verdier som ikke er angitt for objektet (egenskapene inneholder standardverdiene) er ikke serialiseres.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversely, the deserialization stream may have holes.</source>
+          <target state="translated">Deserialisering-dataflyten har derimot hull.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Emphasis is placed on the quality of the content within the serialization stream, rather than the full serialization of an object.</source>
+          <target state="translated">-Utheving er plassert i kvaliteten på innholdet i dataflyten serialisering, i stedet for fullstendig serialisering av et objekt.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that if there is no defined way to serialize an object, that object may be skipped rather than throwing an exception.</source>
+          <target state="translated">Dette betyr at hvis det er ingen definerte måte å serialisere et objekt, objektet kan hoppes over i stedet for et unntak.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization engine may provide heuristics here to decide which failures can be ignored and which are unrecoverable.</source>
+          <target state="translated">Motoren for serialisering kan tilby heuristikk her for å avgjøre hvilke feil kan ignoreres, og som er uopprettelig.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The serialization stream may have more data than is needed for deserialization.</source>
+          <target state="translated">-Serialisering dataflyten kan ha flere data enn kreves for deserialisering.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Source code serialization, for example, has user code mixed in with the code needed to deserialize an object graph.</source>
+          <target state="translated">Kilden kode serialisering, for eksempel har brukerkode blandet med koden kreves ikke deserialisere en.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This user code must be ignored on deserialization and preserved on serialization.</source>
+          <target state="translated">Denne brukerkode må ignoreres på deserialisering og beholdes på serialisering.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because of these differences, a different serialization model applies to design-time serialization.</source>
+          <target state="translated">På grunn av disse forskjeller gjelder en annen serialisering modell utformingen serialisering.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This model utilizes a separate serializer object for each data type being serialized.</source>
+          <target state="translated">Denne modellen bruker et eget serialisereren objekt for hver datatype som serialiseres.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each serializer provides its small contribution to the problem as a whole.</source>
+          <target state="translated">Hver serialisereren gir det lavt bidraget til problemet som en helhet.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These serializers are all coordinated through a common serialization manager.</source>
+          <target state="translated">Disse serializers er alle koordinert gjennom en felles overordnet for serialisering.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization manager is responsible for maintaining state between these different serializers.</source>
+          <target state="translated">Transportbehandling for serialisering er ansvarlig for å vedlikeholde tilstand mellom disse ulike serializers.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As an example, consider the following class:       <bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#2<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_1.cs)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#2<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_1.vb)</ept><ept id="p3">]</ept>       An instance of this class would utilize three different serializers: one for <ph id="ph1">`SampleObject`</ph>, one for strings, and another for integers.</source>
+          <target state="translated">Vurder følgende klassen som et eksempel: <bpt id="p1">[!code-cs</bpt> <bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#2<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_1.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#2<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_1.vb)</ept> <ept id="p3">]</ept> en forekomst av denne klassen vil benytte tre forskjellige serializers: én for <ph id="ph1">`SampleObject`</ph>, én for strenger og en annen for heltall.  </target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serializer for <ph id="ph1">`SampleObject`</ph> is called the root serializer because <ph id="ph2">`SampleObject`</ph> is the root of the serialization graph.</source>
+          <target state="translated">Serialisering for <ph id="ph1">`SampleObject`</ph> kalles roten serialiseringen fordi <ph id="ph2">`SampleObject`</ph> er roten for serialiseringsdiagrammet.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>More complex object graphs can be created as well.</source>
+          <target state="translated">Du kan opprette mer komplekse objektet diagrammer samt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, consider what would happen if <ph id="ph1">`SampleObject`</ph> were changed as follows:       <bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#11<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_2.cs)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#11<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_2.vb)</ept><ept id="p3">]</ept>       This allows <ph id="ph2">`SampleObject`</ph> to have a child that is another instance of itself.</source>
+          <target state="translated">Eksempel: Hva skjer hvis <ph id="ph1">`SampleObject`</ph> ble endret som følger: <bpt id="p1">[!code-cs</bpt> <bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#11<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_2.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#11<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_2.vb)</ept> <ept id="p3">]</ept> Dette tillater at <ph id="ph2">`SampleObject`</ph> har et barn som er en annen forekomst av seg selv.  </target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following code fills in the object graph:       <bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#12<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_3.cs)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#12<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_3.vb)</ept><ept id="p3">]</ept>       When <ph id="ph1">`root`</ph> is serialized, there will be four serializers used: one root serializer, one serializer for the child <ph id="ph2">`SampleObject`</ph>, one serializer for <ph id="ph3">`int`</ph>, and one serializer for <ph id="ph4">`string`</ph>.</source>
+          <target state="translated">Følgende kode fyller ut objektet diagrammet: <bpt id="p1">[!code-cs</bpt> <bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#12<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_3.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#12<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_3.vb)</ept> <ept id="p3">]</ept> når <ph id="ph1">`root`</ph> serialiseres, vil det være fire serializers brukes: ett rotelement serialisering, én serialisering for underordnet <ph id="ph2">`SampleObject`</ph>, én serialisering for <ph id="ph3">`int`</ph>, og én serialisering for <ph id="ph4">`string`</ph>.  </target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Serializers are cached based on type, so there is no need to create a serializer for each instance of <ph id="ph1">`SampleObject`</ph>.</source>
+          <target state="translated">Serializers bufres basert på typen, slik at det er ingen grunn til å opprette en serialisering for hver forekomst av <ph id="ph1">`SampleObject`</ph>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignerSerializationManager class is based on the idea of a serialization session.</source>
+          <target state="translated">Klassen DesignerSerializationManager er basert på ideen for en serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A session maintains state that can be accessed by the various serializers.</source>
+          <target state="translated">En økt opprettholder tilstand som kan åpnes av forskjellige serializers.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a session is disposed, this state is destroyed.</source>
+          <target state="translated">Når en økt som er fjernet, vil denne statusen er ødelagt.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This helps to ensure that serializers remain largely stateless, and helps to clean up serializers that are have been corrupted.</source>
+          <target state="translated">Dette bidrar til å sikre at serializers forblir stor grad uten status, og bidrar til å rydde opp serializers som er skadet.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following tables describe how state is managed in and among sessions.</source>
+          <target state="translated">Tabellen nedenfor beskriver hvordan tilstand håndteres i og blant økter.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Global State    This state is owned by the serialization manager object, but is independent of the current serialization session.</source>
+          <target state="translated">Global tilstand problemet eies av serialisering manager-objektet, men er uavhengig av den gjeldende økten for serialisering.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Object|Usage|   |------------|-----------|   |Serialization providers|Objects can add themselves as custom serialization providers.</source>
+          <target state="translated">| Objektet | Bruk |   |------------|-----------|   | Serialisering leverandører | Objekter kan legge til seg selv som egendefinert serialisering leverandører.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because these providers are used to locate serializers, they outlive a serialization session.|      ## Session-Owned State    This state is owned by a session and is destroyed when a session is destroyed.</source>
+          <target state="translated">Disse leverandørene brukes til å finne serializers, de outlive en serialiseringsøkt. |      ## Økten eies av tilstanden denne tilstanden eies av en økt og ødelegges når en økt som er ødelagt.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Consequently, accessing any properties or methods that would manipulate this state will throw an exception if the serialization manager is not in an active session.</source>
+          <target state="translated">Derfor vil tilgang til alle egenskaper og metoder som vil endre denne tilstanden Iverksett et unntak hvis serialisering manager ikke er i en aktiv økt.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Object|Usage|   |------------|-----------|   |&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt; event|The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt; event is attached by a serializer to provide additional resolution of names.</source>
+          <target state="translated">| Objektet | Bruk |   |------------|-----------|   | &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt;hendelsen | Den &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt;hendelsen er knyttet av serialisering å angi ytterligere løsing av navn.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All handlers are detached from this event when a session terminates.|   |&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt; event|The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt; event is raised just before a session is disposed.</source>
+          <target state="translated">Alle behandlingsprogrammer, kobles fra denne hendelse når en økten avsluttes. |   | &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt;hendelsen | Den &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt;hendelsen starter like før en økt som er fjernet.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then, all handlers are detached from this event.|   |Name table|The serialization manager maintains a table that maps between objects and their names.</source>
+          <target state="translated">Da alle behandlingsprogrammer, kobles fra denne hendelsen. |   | På navnetabellen | Transportbehandling for serialisering opprettholder en tabell som tilordner mellom objekter og navnene.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Serializers may give objects names for easy identification.</source>
+          <target state="translated">Serializers kan gi objektnavn for enkel identifikasjon.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This name table is cleared when the session terminates.|   |Serializer cache|The serialization manager maintains a cache of serializers it has been asked to supply.</source>
+          <target state="translated">På navnetabellen fjernes når økten avsluttes. |   | Serialiserer hurtigbufferen | Transportbehandling for serialisering opprettholder en buffer med den har blitt bedt om å oppgi serializers.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This cache is cleared when the session terminates.</source>
+          <target state="translated">Denne hurtigbufferen tømmes når økten avsluttes.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The public &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt; method can safely be called at any time, but its value is cached only if it is called from within a session.|   |Context stack|The serialization manager maintains an object called the context stack, which you can access with the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt; property.</source>
+          <target state="translated">Offentlig &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt;-metoden kan bare kalles når som helst, men verdien hurtigbufres bare hvis det kalles fra en økt. |   | Kontekststakk | Transportbehandling for serialisering opprettholder et objekt som kalles stakken konteksten, som du har tilgang til med den &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt;egenskapen.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Serializers can use this stack to store additional information that is available to other serializers.</source>
+          <target state="translated">Serializers kan bruke denne bunken til å lagre tilleggsinformasjon som er tilgjengelig for andre serializers.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a serializer that is serializing a property value can push the property name on the serialization stack before asking the value to serialize.</source>
+          <target state="translated">Serialiserer som er serialisering av en egenskapsverdi kan for eksempel push egenskapsnavnet i serialisering stakken før du spør verdien til å serialisere.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This stack is cleared when the session is terminated.|   |Error list|The serialization manager maintains a list of errors that occurred during serialization.</source>
+          <target state="translated">Denne bunken fjernes når økten avsluttes. |   | Feillisten | Transportbehandling for serialisering opprettholder en liste over feil som oppstod under serialiseringen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This list, which is accessed through the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt; property, is cleared when the session is terminated.</source>
+          <target state="translated">Denne listen som er tilgjengelig via den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;egenskap, fjernes når økten avsluttes.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Accessing the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt; property between sessions will result in an exception.|</source>
+          <target state="translated">Tilgang til den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;egenskapen mellom økter, fører det et unntak. |&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor sets the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt; and &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt; properties to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Denne konstruktøren angir den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;og &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt;egenskapene som skal <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the given service provider.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen med den angitte leverandøren.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a serializer requests services that cannot be satisfied by the serialization manager, the default implementation will forward those requests to the <ph id="ph1">`provider`</ph> parameter.</source>
+          <target state="translated">Hvis en serialisereren ber om tjenestene som ikke oppfyller transportbehandling for serialisering, standard implementering videresende forespørsler til det <ph id="ph1">`provider`</ph> parameteren.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor sets the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt; and &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt; properties to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Denne konstruktøren angir den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;og &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt;egenskapene som skal <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IServiceProvider&gt;.</source>
+          <target state="translated">An &lt;xref:System.IServiceProvider&gt;.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets or sets to the container for this serialization manager.</source>
+          <target state="translated">Henter eller angir til i beholderen for denne serialisering manager.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a container exists, all components that are created by the serialization manager will be added to the container.</source>
+          <target state="translated">Hvis det finnes en beholder, blir alle komponentene som er opprettet av transportbehandling for serialisering lagt til i beholderen.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this property will search the service provider for an &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; and use the container provided by the designer host, should one exist.</source>
+          <target state="translated">Standard implementering av denne egenskapen søkes tjenesteleverandøren for en &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;og bruker beholderen som er angitt av designer verten, må det finnes.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, this property will return <ph id="ph1">`null`</ph> and no components will be added to a container.</source>
+          <target state="translated">Hvis ikke, denne egenskapen skal returnere <ph id="ph1">`null`</ph> og ingen komponenter vil bli lagt til en beholder.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which the serialization manager will add components.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som legger transportbehandling for serialisering komponenter.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The serialization manager has an active serialization session.</source>
+          <target state="translated">Serialisering manager har en aktiv serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Creates an instance of a type.</source>
+          <target state="translated">Oppretter en forekomst av en type.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by serializers when they attempt to create an instance of a type.</source>
+          <target state="translated">Denne metoden kalles av serializers når de prøver å opprette en forekomst av en type.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation creates a new instance of the type, or it may return an existing instance depending on the values of the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt; and &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt; properties.</source>
+          <target state="translated">Standard implementering oppretter en ny forekomst av typen, eller den kan returnere en eksisterende forekomst avhengig av verdiene i den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;og &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt;Egenskaper.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt; method uses reflection to create instances and will perform some generic &lt;xref:System.IConvertible&gt; transformations on parameters to find a matching constructor.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt;metoden bruker gjenspeiling til å opprette forekomster og til å utføre noen generisk &lt;xref:System.IConvertible&gt;transformeringer parameterne til å finne en samsvarende konstruktør.&lt;/xref:System.IConvertible&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The type to create an instance of.</source>
+          <target state="translated">Typen til å opprette en forekomst av.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The parameters of the type’s constructor.</source>
+          <target state="translated">Parameterne for den Typekonstruktøren.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty collection to invoke the default constructor.</source>
+          <target state="translated">Dette kan være <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller en tom samling for å aktivere Standardkonstruktøren.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A name to give the object.</source>
+          <target state="translated">Et navn for å gi objektet.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the object will not be given a name, unless the object is added to a container and the container gives the object a name.</source>
+          <target state="translated">Hvis <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, objektet vil ikke få et navn med mindre objektet blir lagt til en beholder og beholderen gir objektet et navn.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add the object to the container if the object implements <bpt id="p2">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>legge til objektet i beholderen Hvis objektet som implementerer <bpt id="p2">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; ellers <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A new instance of the type specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">En ny forekomst av typen som er angitt av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> does not have a constructor that takes parameters contained in <ph id="ph2">&lt;code&gt;arguments&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>har ikke en konstruktør som bruker parametere i <ph id="ph2">&lt;code&gt;arguments&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Creates a new serialization session.</source>
+          <target state="translated">Oppretter en ny serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most data within the serialization manager is transient and only lives for the life of a serialization session.</source>
+          <target state="translated">Dataene i transportbehandling for serialisering er midlertidig og bare bor levetid for en serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a session is disposed, serialization is considered to be complete and this transient state is cleared.</source>
+          <target state="translated">Når en økt som er fjernet, serialisering anses å være fullført, og denne midlertidig tilstand er fjernet.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows a single instance of a serialization manager to be used to serialize multiple object trees.</source>
+          <target state="translated">Dette gjør at én forekomst av en serialisering manager som skal brukes til å serialisere flere objektet trær.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some state, including the service provider and any custom serialization providers that were added to the serialization manager, span sessions.</source>
+          <target state="translated">Noen tilstand, inkludert tjenesteleverandøren og en egendefinert serialisering leverandører som ble lagt til transportbehandling for serialisering span økter.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IDisposable&gt; that represents a new serialization session.</source>
+          <target state="translated">En &lt;xref:System.IDisposable&gt;som representerer en ny serialiseringsøkt.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The serialization manager is already within a session.</source>
+          <target state="translated">Transportbehandling for serialisering er allerede i en økt.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This version of <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> does not support simultaneous sessions.</source>
+          <target state="translated">Denne versjonen av <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> støtter ikke samtidige økter.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets the list of errors that occurred during serialization or deserialization.</source>
+          <target state="translated">Henter listen over feil som oppstod under serialisering eller deserialisering.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can only read the error list while a serialization session is active.</source>
+          <target state="translated">Du kan bare lese listen over feil under serialisering økter er aktive.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The list of errors that occurred during serialization or deserialization.</source>
+          <target state="translated">Listen over feil som oppstod under serialisering eller deserialisering.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Denne egenskapen er tilgjengelig utenfor en serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets the type corresponding to the specified type name.</source>
+          <target state="translated">Henter typen som tilsvarer navnet på angitte typen.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The name of the type to get.</source>
+          <target state="translated">Navnet på typen å hente.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The specified type.</source>
+          <target state="translated">Den angitte typen.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets the serializer for the given object type.</source>
+          <target state="translated">Henter serialiseringen for det angitte objektet.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can request the type of serializer you would like.</source>
+          <target state="translated">Du kan be om hva slags serialisering du ønsker.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`null`</ph> if there is no serializer of the requested type for the specified object type.</source>
+          <target state="translated">Denne metoden returnerer <ph id="ph1">`null`</ph> Hvis det er ingen serialisering av den forespurte typen for den angitte objekttypen.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The type of object for which to retrieve the serializer.</source>
+          <target state="translated">Objekttypen som skal hente serialiseringen.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The type of serializer to retrieve.</source>
+          <target state="translated">Typen for serialisering til å hente.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The serializer for <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectType</ph><ept id="p1">&lt;/code&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if not found.</source>
+          <target state="translated">Serialisering for <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectType</ph> <ept id="p1">&lt;/code&gt;</ept>, eller <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, hvis ikke funnet.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;objectType&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;serializerType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;objectType&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;serializerType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">Henter den forespurte tjenesten.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetService method provides access to the underlying container or service provider that was set in the constructor.</source>
+          <target state="translated">Metoden GetService gir tilgang til den underliggende beholder eller -leverandør som er angitt i konstruktøren.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">Hva slags service for å hente.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service cannot be resolved.</source>
+          <target state="translated">Den forespurte tjenesten eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis tjenesten kan ikke løses.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets the requested type.</source>
+          <target state="translated">Henter den forespurte typen.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt; method will search the service provider for an &lt;xref:System.ComponentModel.Design.ITypeResolutionService&gt; and, if available, it will delegate to that service to resolve the type.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt;metoden søkes tjenesteleverandøren for en &lt;xref:System.ComponentModel.Design.ITypeResolutionService&gt;og, hvis tilgjengelig, vil den delegere til denne tjenesten å løse typen.&lt;/xref:System.ComponentModel.Design.ITypeResolutionService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an &lt;xref:System.ComponentModel.Design.ITypeResolutionService&gt; is not available, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt; will call the &lt;xref:System.Object.GetType%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Hvis en &lt;xref:System.ComponentModel.Design.ITypeResolutionService&gt;er ikke tilgjengelig &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt;kaller den &lt;xref:System.Object.GetType%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Object.GetType%2A?displayProperty=fullName&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt; &lt;/xref:System.ComponentModel.Design.ITypeResolutionService&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The name of the type to retrieve.</source>
+          <target state="translated">Navnet på typen til å hente.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The requested type, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the type cannot be resolved.</source>
+          <target state="translated">Den forespurte typen eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis typen kan ikke løses.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Hever den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hendelsen.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Opprettet en hendelse aktiverer hendelsesbehandlingen via en representant.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>NIB: opprettet en hendelse<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnResolveName method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Metoden OnResolveName kan også avledede klasser behandle hendelsen uten å knytte representant.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Dette er den foretrukne metoden for behandling av hendelsen i en avledet klasse.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ResolveNameEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ResolveNameEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder hendelsesdataene.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager.SessionCreated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Hever den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager.SessionCreated"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hendelsen.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Opprettet en hendelse aktiverer hendelsesbehandlingen via en representant.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>NIB: opprettet en hendelse<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnSessionCreated method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Metoden OnSessionCreated kan også avledede klasser behandle hendelsen uten å knytte representant.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Dette er den foretrukne metoden for behandling av hendelsen i en avledet klasse.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som inneholder Hendelsesdata.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager.SessionDisposed"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Hever den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager.SessionDisposed"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hendelsen.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Opprettet en hendelse aktiverer hendelsesbehandlingen via en representant.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Hvis du vil ha mer informasjon, se <bpt id="p1">[</bpt>NIB: opprettet en hendelse<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnSessionDisposed method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Metoden OnSessionDisposed kan også avledede klasser behandle hendelsen uten å knytte representant.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Dette er den foretrukne metoden for behandling av hendelsen i en avledet klasse.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">En &lt;xref:System.EventArgs&gt;som inneholder Hendelsesdata.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt; method should check for the presence of the given name in the container.</source>
+          <target state="translated">Henter eller angir en verdi som angir om den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;metoden skal se etter det angitte navnet i beholderen.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PreserveNames property determines the behavior of the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; method.</source>
+          <target state="translated">Egenskapen PreserveNames angir virkemåten til den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`true`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will pass the given component name.</source>
+          <target state="translated">Hvis <ph id="ph1">`true`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;vil sende det angitte komponentnavnet.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`false`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will check for the presence of the given name in the container.</source>
+          <target state="translated">Hvis <ph id="ph1">`false`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;skal se etter det angitte navnet i beholderen.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the name does not exist in the container, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will use the given name.</source>
+          <target state="translated">Hvis navnet ikke finnes i beholderen, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;bruker det angitte navnet.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the name does exist in the container, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will pass a null value as the name of a component when adding it to the container, thereby giving it a new name.</source>
+          <target state="translated">Hvis navnet finnes i beholderen, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;vil sende en null-verdi som navnet på en komponent når du legger til i beholderen, og dermed gir et nytt navn.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This second variation is useful for implementing a serializer that always duplicates objects, rather than assuming those objects do not exist.</source>
+          <target state="translated">Denne andre variasjonen er nyttig for å implementere et serialisering som dupliserer alltid objekter, i stedet for forutsatt at disse objektene ikke finnes.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Paste commands often use this type of serializer.</source>
+          <target state="translated">Lim inn bruker ofte denne typen serialisering.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can only change this property when you are not in a serialization session.</source>
+          <target state="translated">Når du ikke er i en serialiseringsøkt med, kan du bare endre denne egenskapen.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance<bpt id="p2">*</bpt>&gt; will pass the given component name; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance<ept id="p2">*</ept>&gt; will check for the presence of the given name in the container.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; vil sende det angitte komponentnavnet; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> Hvis &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; skal se etter det angitte navnet i beholderen.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This property was changed from within a serialization session.</source>
+          <target state="translated">Denne egenskapen ble endret fra i en serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the object that should be used to provide properties to the serialization manager's &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt; property.</source>
+          <target state="translated">Henter objektet som skal brukes til å angi egenskapene til transportbehandling serialisering &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;egenskapen.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PropertyProvider property provides a way to give the serialization manager a set of serialization properties that serializers can use to guide their behavior.</source>
+          <target state="translated">Egenskapen PropertyProvider kan gi transportbehandling for serialisering av et sett med egenskaper for serialisering serializers kan bruke til å lede virkemåten.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This object's public properties will be inspected and wrapped in new property descriptors that have a target object of the serialization manager.</source>
+          <target state="translated">Denne offentlige objektegenskaper skal kontrollert og omsluttet av nye egenskapen beskrivelser som har en målobjektet for transportbehandling for serialisering.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The object that should be used to provide properties to the serialization manager's &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt; property.</source>
+          <target state="translated">Objektet som skal brukes til å angi egenskapene til transportbehandling serialisering &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;egenskapen.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Gets or sets a flag indicating whether &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt; will always create a new instance of a type.</source>
+          <target state="translated">Henter eller angir et flagg som indikerer om &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;alltid oppretter en ny forekomst av en type.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the RecycleInstances property is <ph id="ph1">`false`</ph>, the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; method will always create a new instance of a type.</source>
+          <target state="translated">Hvis egenskapen RecycleInstances <ph id="ph1">`false`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;metoden alltid oppretter en ny forekomst av en type.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If RecycleInstances is <ph id="ph1">`true`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will first search the name table and container for an object of the same name.</source>
+          <target state="translated">Hvis RecycleInstances <ph id="ph1">`true`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;søkes først navnetabellen og beholder for et objekt med samme navn.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If such an object exists and is of the same type, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will return the existing instance.</source>
+          <target state="translated">Hvis slikt objekt finnes og er av samme type &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;tilbakestiller den eksisterende forekomsten.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This second variation is useful for implementing a serializer that applies serialization state to an existing set of objects, rather than always creating a new tree.</source>
+          <target state="translated">Denne andre variasjonen er nyttig for å implementere serialisereren som gjelder for serialisering tilstand i en eksisterende settet med objekter i stedet for å alltid å opprette et nytt tre.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>Undo<ept id="p1">**</ept> command often uses this type of serializer.</source>
+          <target state="translated">Den <bpt id="p1">**</bpt>Angre<ept id="p1">**</ept> kommandoen ofte bruker denne typen serialisering.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case where the RecycleInstances property is <ph id="ph1">`true`</ph>, the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt; property will further modify the behavior of &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; depending on the types of the two objects.</source>
+          <target state="translated">I tilfeller der egenskapen RecycleInstances er <ph id="ph1">`true`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt;egenskapen endrer videre virkemåten for &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;avhengig av typene for de to objektene.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance<bpt id="p2">*</bpt>&gt; will return the existing instance; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance<ept id="p2">*</ept>&gt; will create a new instance of a type.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; tilbakestiller den eksisterende forekomsten; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> Hvis &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; oppretter en ny forekomst av en type.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The serialization manager has an active serialization session.</source>
+          <target state="translated">Serialisering manager har en aktiv serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Occurs when a session is created.</source>
+          <target state="translated">Forekommer når en økt som er opprettet.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Occurs when a session is disposed.</source>
+          <target state="translated">Forekommer når en økt som er fjernet.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Adds a custom serialization provider to the serialization manager.</source>
+          <target state="translated">Legger til en egendefinert serialisering leverandør transportbehandling for serialisering.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt; method is used to request a serialization provider, the serialization manager queries the custom serialization providers first before looking in the type's metadata for the appropriate serializer.</source>
+          <target state="translated">Når den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt;metoden brukes til å be om en serialisering-leverandør, transportbehandling for serialisering spørringer egendefinerte serialisering leverandørene først før ser i den typen metadata for riktig serialiseringen.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The serialization provider to add.</source>
+          <target state="translated">Serialisering leverandøren å legge til.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets the context stack for this serialization session.</source>
+          <target state="translated">Henter konteksten stakken for denne økten serialisering.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A context stack provides a user-defined storage area, implemented as a stack.</source>
+          <target state="translated">En konteksten bunke gir et brukerdefinert lagringsområde, implementert som en bunke.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This storage area is a useful way to provide communication across serializers, as serialization is a generally hierarchical process.</source>
+          <target state="translated">Dette lagringsområdet er nyttig for å gi kommunikasjon på tvers av serializers, som er en vanligvis hierarkisk prosess for serialisering.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ContextStack"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that stores data.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ContextStack"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som lagrer data.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Denne egenskapen er tilgjengelig utenfor en serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Implements the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance*&gt; method.</source>
+          <target state="translated">Implementerer den &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance*&gt;metoden.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The data type to create.</source>
+          <target state="translated">Datatypen til å opprette.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The arguments to pass to the constructor for this type.</source>
+          <target state="translated">Argumenter som skal sendes til konstruktøren for denne typen.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The name of the object.</source>
+          <target state="translated">Navnet på objektet.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This name can be used to access the object later through &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance*&gt;.</source>
+          <target state="translated">Dette navnet kan brukes til å få tilgang til objektet senere via &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance*&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the object is still created but cannot be accessed by name.</source>
+          <target state="translated">Hvis <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> er passert, objektet fortsatt er opprettet, men kan ikke brukes med navn.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add this object to the design container.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>legge til dette objektet i beholderen utformingen.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The object must implement <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this to have any effect.</source>
+          <target state="translated">Objektet må implementere <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> for dette skal fungere.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The newly created object instance.</source>
+          <target state="translated">Forekomsten av nyopprettede objektet.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Retrieves an instance of a created object of the specified name.</source>
+          <target state="translated">Henter en forekomst av en opprettet objektet i det angitte navnet.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The name of the object to retrieve.</source>
+          <target state="translated">Navnet på objektet som skal hentes.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>An instance of the object with the given name, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no object by that name can be found.</source>
+          <target state="translated">En forekomst av objektet med det angitte navnet eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen objekter med dette navnet finnes.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Denne egenskapen er tilgjengelig utenfor en serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Retrieves a name for the specified object.</source>
+          <target state="translated">Henter et navn for det angitte objektet.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the IDesignerSerializationManager.GetName method cannot find a corresponding name for the <ph id="ph1">`value`</ph> parameter, it raises the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt; event before it returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">Hvis IDesignerSerializationManager.GetName-metoden ikke kan finne et tilsvarende navn for den <ph id="ph1">`value`</ph> parameteren den opphøyer den &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt;hendelse før den returnerer <ph id="ph2">`null`</ph>.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The object for which to retrieve the name.</source>
+          <target state="translated">Objektet som skal hente navnet.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object is unnamed.</source>
+          <target state="translated">Navnet på objektet, eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis objektet er uten navn.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Denne egenskapen er tilgjengelig utenfor en serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Gets a serializer of the requested type for the specified object type.</source>
+          <target state="translated">Henter en serialisering av den forespurte typen for den angitte objekttypen.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The type of the object to get the serializer for.</source>
+          <target state="translated">Typen for objektet som skal få serialisering for.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The type of the serializer to retrieve.</source>
+          <target state="translated">Hva slags serialiseringen til å hente.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>An instance of the requested serializer, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no appropriate serializer can be located.</source>
+          <target state="translated">En forekomst av den forespurte serialiseringen eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis ingen passende Serialiserer kan blir funnet.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Gets a type of the specified name.</source>
+          <target state="translated">Henter en type for det angitte navnet.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The fully qualified name of the type to load.</source>
+          <target state="translated">Det fullstendig kvalifiserte navnet av type lastes inn.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>An instance of the type, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the type cannot be loaded.</source>
+          <target state="translated">En forekomst av typen, eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis typen ikke kan lastes inn.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Denne egenskapen er tilgjengelig utenfor en serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Implements the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt; property.</source>
+          <target state="translated">Implementerer den &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;egenskapen.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the properties to be serialized.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inneholder egenskapene som skal serialiseres.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Removes a previously added serialization provider.</source>
+          <target state="translated">Fjerner en tidligere tillagt serialisering-leverandør.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IDesignerSerializationManager.RemoveSerializationProvider method removes a custom serialization provider that was previously added by a call to the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23AddSerializationProvider%2A&gt; method.</source>
+          <target state="translated">Metoden IDesignerSerializationManager.RemoveSerializationProvider fjerner en egendefinert serialisering leverandør som tidligere ble lagt til av et kall til den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23AddSerializationProvider%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23AddSerializationProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fjerne.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Used to report a recoverable error in serialization.</source>
+          <target state="translated">Brukes til å rapportere en feil kan gjennopprettes i serialisering.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Serializers can be written to handle recoverable errors gracefully by calling the IDesignerSerializationManager.ReportError method with the error information.</source>
+          <target state="translated">Serializers kan skrives til å håndtere ugjenopprettbar feil webområdet ved å kalle metoden IDesignerSerializationManager.ReportError med informasjon om feilen.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization manager may support reporting a list of errors after it completes, or it may throw an exception from this method and abort the serialization process.</source>
+          <target state="translated">Transportbehandling for serialisering støtter reporting en liste over feil når den er fullført, eller den kan Iverksett et unntak fra denne metoden avbryte serialisering prosessen.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serializer should continue after calling this function.</source>
+          <target state="translated">Serialiseringen skal fortsette etter kall til denne funksjonen.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IDesignerSerializationManager.ReportError adds the <ph id="ph1">`errorInformation`</ph> parameter to the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt; collection.</source>
+          <target state="translated">IDesignerSerializationManager.ReportError legger til den <ph id="ph1">`errorInformation`</ph> parameter i &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;samlingen.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`errorInformation`</ph> is <ph id="ph2">`null`</ph>, no action is taken.</source>
+          <target state="translated">Hvis <ph id="ph1">`errorInformation`</ph> er <ph id="ph2">`null`</ph>, ingen handling ble utført.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>An object containing the error information, usually of type &lt;xref:System.String&gt; or &lt;xref:System.Exception&gt;.</source>
+          <target state="translated">Et objekt som inneholder informasjon om feilen, vanligvis av typen &lt;xref:System.String&gt;eller &lt;xref:System.Exception&gt;.&lt;/xref:System.Exception&gt; &lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Denne egenskapen er tilgjengelig utenfor en serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Sets the name for the specified object.</source>
+          <target state="translated">Angir navnet på det angitte objektet.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IDesignerSerializationManager.SetName method provides a way to set the name of an existing object.</source>
+          <target state="translated">Metoden IDesignerSerializationManager.SetName kan ikke angi navnet på et eksisterende objekt.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enables creation of an instance of the object through a call to the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23GetInstance%2A&gt; method, avoiding the overhead of the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; method.</source>
+          <target state="translated">Dette aktiverer oppretting av en forekomst av objektet via et kall til den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23GetInstance%2A&gt;metoden unngå overhead for den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23GetInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The object to set the name.</source>
+          <target state="translated">Objektet til å angi navnet.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; used as the name of the object.</source>
+          <target state="translated">En &lt;xref:System.String&gt;brukes som navnet på objektet.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En eller begge parameterne er <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The object specified by instance already has a name, or <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> is already used by another named object.</source>
+          <target state="translated">Objektet som er angitt i forekomsten allerede har et navn, eller <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept> er allerede brukt av en annen navngitt objekt.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Denne egenskapen er tilgjengelig utenfor en serialiseringsøkt.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the &lt;xref:System.IServiceProvider.GetService*&gt; method.</source>
+          <target state="translated">En beskrivelse for dette medlemmet, kan du se den &lt;xref:System.IServiceProvider.GetService*&gt;metoden.&lt;/xref:System.IServiceProvider.GetService*&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dette medlemmet er implementering eksplisitt grensesnitt medlem.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager&gt; instance is cast to an &lt;xref:System.IServiceProvider&gt; interface.</source>
+          <target state="translated">Den kan brukes bare når den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager&gt;forekomsten endres til en &lt;xref:System.IServiceProvider&gt;grensesnittet.&lt;/xref:System.IServiceProvider&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>An object that specifies the type of service object to get.</source>
+          <target state="translated">Et objekt som angir objekttypen tjenesten å hente.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>A service object of type <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serviceType</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Et serviceobjekt av typen <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serviceType</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no service object of type <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">serviceType</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">- eller - <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Hvis det er ingen service-objekter av typen <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">serviceType</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Gets or sets a flag indicating whether the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt; method will verify that matching names refer to the same type.</source>
+          <target state="translated">Henter eller angir et flagg som angir om den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;metoden bekrefter at samsvarende navn refererer til samme type.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ValidateRecycledTypes property modifies the behavior of the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; method when the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt; property is <ph id="ph1">`true`</ph>, as detailed in the following table.</source>
+          <target state="translated">Egenskapen ValidateRecycledTypes endrer av den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;metoden når den &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt;egenskapen <ph id="ph1">`true`</ph>, som beskrevet i følgende tabell.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<ph id="ph1">`RecycleInstances`</ph><ph id="ph2">|</ph><ph id="ph3">`ValidateRecycledTypes`</ph>|Behavior of <ph id="ph4">`CreateInstance`</ph>|   |------------------------|-----------------------------|----------------------------------|   |<ph id="ph5">`false`</ph><ph id="ph6">|</ph><ph id="ph7">`true`</ph> or <ph id="ph8">`false`</ph>|Always create a new instance of the specified type|   |<ph id="ph9">`true`</ph><ph id="ph10">|</ph><ph id="ph11">`false`</ph>|If a matching instance is found it is returned, regardless of its type.|   |<ph id="ph12">`true`</ph><ph id="ph13">|</ph><ph id="ph14">`true`</ph>|If a matching instance is found, it is returned only if its type is the same as specified in the method call.|       ValidateRecycledTypes is useful for morphing one type of object to another if they have similar properties but share no common parent or interface.</source>
+          <target state="translated">| <ph id="ph1">`RecycleInstances`</ph><ph id="ph2">|</ph><ph id="ph3">`ValidateRecycledTypes`</ph>| Virkemåte for <ph id="ph4">`CreateInstance`</ph>|   |------------------------|-----------------------------|----------------------------------|   | <ph id="ph5">`false`</ph><ph id="ph6">|</ph><ph id="ph7">`true`</ph> or <ph id="ph8">`false`</ph>| Opprett en ny forekomst av den angitte typen alltid |   | <ph id="ph9">`true`</ph><ph id="ph10">|</ph><ph id="ph11">`false`</ph>| Hvis en forekomst av samsvarende finnes det returneres, uavhengig av filtypen. |   | <ph id="ph12">`true`</ph><ph id="ph13">|</ph><ph id="ph14">`true`</ph>| Hvis en samsvarende forekomst blir funnet, returneres bare hvis filtypen er den samme som er angitt i metodekallet. |       ValidateRecycledTypes er nyttige ved oppdeling én objekttypen til en annen hvis de har lignende egenskaper, men har ingen felles overordnet eller grensesnitt.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt; verifies types; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if it does not.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;bekrefter typer; ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Hvis ikke.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The serialization manager has an active serialization session.</source>
+          <target state="translated">Serialisering manager har en aktiv serialiseringsøkt.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

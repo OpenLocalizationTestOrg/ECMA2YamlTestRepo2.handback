@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d66212e4d4ee7e571817adfa941e2afbec4f7219</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ProxyWebPart.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9e217ea4de70c2ba0e6df5e6b20408d27a79631</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8b74e084e23e787db0f7630dbc59da7ff538c0a2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the base class for Web Parts controls that under certain conditions must replace other Web Parts controls on a page.</source>
+          <target state="translated">특정 조건에서 페이지에 있는 다른 웹 파트 컨트롤을 대체 해야 하는 웹 파트 컨트롤에 대 한 기본 클래스를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ProxyWebPart is the base class for a set of Web Parts controls, such as &lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;, that can be used as placeholders for other Web Parts controls on a page.</source>
+          <target state="translated">ProxyWebPart는 웹 파트 컨트롤 집합에 대 한 기본 클래스와 같은 &lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;및 &lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;, 페이지에 있는 다른 웹 파트 컨트롤에 대 한 자리 표시자로 사용할 수 있습니다.&lt;/xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, a ProxyWebPart control will replace another Web Parts control when some type of error or failure has occurred.</source>
+          <target state="translated">일반적으로 일종의 오류 또는 오류가 발생 했을 때 ProxyWebPart 컨트롤을 다른 웹 파트 컨트롤을 바뀝니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, when a user is not authorized to view a Web Parts control on a page, the intended Web Parts control is replaced with the &lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt; control.</source>
+          <target state="translated">예를 들어, 사용자를 페이지에 웹 파트 컨트롤을 볼 권한이 없는, 웹 파트 컨트롤에서 의도 한 아래 템플릿으로 바뀝니다는 &lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a Web Parts control cannot be loaded or a new instance of it cannot be created, the original Web Parts control is replaced with the &lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt; control.</source>
+          <target state="translated">웹 파트 컨트롤을 로드할 수 없거나의 새 인스턴스를 만들 수 없습니다, 원래 웹 파트 컨트롤으로 대체 되는 &lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;컨트롤.&lt;/xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the intended Web Parts control later becomes available to the user, it will be restored to the page and the object derived from the ProxyWebPart class will be removed.</source>
+          <target state="translated">웹 파트 컨트롤 나중에 의도 한 사용자에 게 제공 되는 경우 페이지에 복원 됩니다 및 ProxyWebPart 클래스에서 파생 된 개체가 제거 됩니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProxyWebPart class does not save view state or control state.</source>
+          <target state="translated">ProxyWebPart 클래스 뷰 상태를 저장 하거나 상태를 제어 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a Web Parts control is replaced by a ProxyWebPart object and then later becomes available, its view state and control state will be empty.</source>
+          <target state="translated">웹 파트 컨트롤 ProxyWebPart 개체에 의해 대체 되 고 다음 나중에 사용할 수 있게 됩니다, 해당 뷰 상태와 제어 상태 비어 있게 됩니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProxyWebPart object preserves personalization data for the Web Parts control that it replaced.</source>
+          <target state="translated">ProxyWebPart 개체는 교체 된 웹 파트 컨트롤에 대 한 개인 설정 데이터를 보존 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the original Web Parts control becomes available, its personalization data will be restored.</source>
+          <target state="translated">원래 웹 파트 컨트롤에 사용할 수 있게 됩니다, 해당 개인 설정 데이터가 복원 됩니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control saves personalization data, it does not save the properties of a ProxyWebPart object.</source>
+          <target state="translated">경우는 &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;제어 개인 설정 데이터를 ProxyWebPart 개체의 속성을 저장 하지는 않습니다.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, it saves the properties of the control that the ProxyWebPart object replaced.</source>
+          <target state="translated">대신, ProxyWebPart 개체를 대체 하는 컨트롤의 속성을 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the original Web Parts control becomes available, the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control will automatically load it.</source>
+          <target state="translated">원래 웹 파트 컨트롤을 사용할 수 있게 하는 경우 &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;제어 합니다. 자동으로 로드 합니다&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.WebPartCollection&gt; object contains the ProxyWebPart object.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.WebPartCollection&gt;ProxyWebPart 개체를 포함 하는 개체입니다.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartCollection&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ID of the intended Web Parts control can be retrieved from the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.OriginalID%2A&gt; property or the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.GenericWebPartID%2A&gt; property.</source>
+          <target state="translated">웹 파트 컨트롤에서 검색할 수에서 의도 한 ID는 &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.OriginalID%2A&gt;속성 또는 &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.GenericWebPartID%2A&gt;속성.&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.GenericWebPartID%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.OriginalID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a ProxyWebPart object replaces a Web Parts control that is either the provider or consumer of a Web Parts connection, the connection is not activated but will not be deleted.</source>
+          <target state="translated">대체는 경우 ProxyWebPart 개체는 공급자 또는 소비자 웹 파트 연결의 웹 파트 컨트롤, 연결이 활성화 되지 않았지만 삭제 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the original Web Parts control becomes available, the connection will be reactivated.</source>
+          <target state="translated">를 사용할 수는 원래 웹 파트 컨트롤 연결을 다시 활성화 됩니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class when a static Web Parts control (or server or user control) must be replaced.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 정적 웹 파트 컨트롤 (또는 서버 또는 사용자 정의 컨트롤) 하는 경우 클래스를 교체 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used to create a proxy Web Parts control to replace a static Web Parts control.</source>
+          <target state="translated">이 생성자는 정적 웹 파트 컨트롤을 대체 하는 프록시 웹 파트 컨트롤을 만들려면 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To replace a dynamically created Web Parts control, use the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.String%2CSystem.String%2CSystem.String%2CSystem.String%29&gt; constructor to create the proxy Web Parts control.</source>
+          <target state="translated">사용 하 여 동적으로 만들어진된 웹 파트 컨트롤을 대체 하려면는 &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.String%2CSystem.String%2CSystem.String%2CSystem.String%29&gt;프록시 웹 파트 컨트롤을 만드는 데 생성자.&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.String%2CSystem.String%2CSystem.String%2CSystem.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The Web Parts control to be replaced.</source>
+          <target state="translated">교체 웹 파트 컨트롤입니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class when a dynamic Web Parts control must be replaced.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 동적 웹 파트를 제어 하는 경우 클래스를 교체 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used to create a proxy Web Parts control to replace a dynamic Web Parts control.</source>
+          <target state="translated">이 생성자는 동적 웹 파트 컨트롤을 대체 하는 프록시 웹 파트 컨트롤을 만들려면 사용 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To replace a static Web Parts control, use the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.Web.UI.WebControls.WebParts.WebPart%29&gt; constructor to create a proxy Web Parts control.</source>
+          <target state="translated">사용 하 여 정적 웹 파트 컨트롤을 대체 하려면는 &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.Web.UI.WebControls.WebParts.WebPart%29&gt;프록시 웹 파트 컨트롤을 만드는 데 생성자.&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.Web.UI.WebControls.WebParts.WebPart%29&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A string that is the control ID (not the unique ID) of the control to replace.</source>
+          <target state="translated">문자열 대체를 컨트롤의 (고유 ID가 아님) 컨트롤 ID입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is replaced, the ID is the ID of its child server control.</source>
+          <target state="translated">경우는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨트롤이 대체, ID가 자식 서버 컨트롤의 ID입니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A string that is the name of the &lt;xref:System.Type&gt; of the control to replace.</source>
+          <target state="translated">이름 문자열은 &lt;xref:System.Type&gt;대체할 컨트롤의.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is replaced, the type name is the type of its child server control.</source>
+          <target state="translated">경우는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨트롤이 대체, 형식 이름은 자식 서버 컨트롤의 형식입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A string that contains the path to the user control to replace.</source>
+          <target state="translated">경로 대체할 사용자 정의 컨트롤을 포함 하는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A string that returns the ID of a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control, if that type of control is being replaced.</source>
+          <target state="translated">ID를 반환 하는 문자열을 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 컨트롤이 컨트롤 형식에는 바꾸려는 경우.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is needed for controls that do not inherit from the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> base class.</source>
+          <target state="translated">상속 되지 않는 컨트롤에 대 한이 과정이 필요는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 기본 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;originalPath&lt;/code&gt;</ph> is specified but <ph id="ph2">&lt;code&gt;genericWebPartID&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;originalPath&lt;/code&gt;</ph>지정 되어 있지만 <ph id="ph2">&lt;code&gt;genericWebPartID&lt;/code&gt;</ph> 은 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 또는 빈 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the value of the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt; property from the generic Web Parts control replaced by a proxy Web Parts control.</source>
+          <target state="translated">값을 가져옵니다는 &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;속성은 프록시에 의해 대체 되는 일반 웹 파트 컨트롤에서 웹 파트 컨트롤.&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object replaces a &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; control, this property contains the value from the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">경우는 &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;대체 개체는 &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;컨트롤,이 속성의 값이 들어는 &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID%2A?displayProperty=fullName&gt;속성.&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string containing the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt; value.</source>
+          <target state="translated">포함 하는 문자열은 &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;값.&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets or sets the programmatic identifier assigned to the Web Parts control.</source>
+          <target state="translated">웹 파트 컨트롤에 할당 된 프로그래밍 id를 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object will contain the same value in its ID property as the control it replaced.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;개체 대체 컨트롤의 ID 속성에 동일한 값이 포함 됩니다.&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; containing the identifier.</source>
+          <target state="translated">A &lt;xref:System.String&gt;식별자가 포함 된.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Overrides &lt;xref:System.Web.UI.Control.LoadControlState*&gt; to prevent loading previously saved state for a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">재정의 &lt;xref:System.Web.UI.Control.LoadControlState*&gt;에 대 한 로드를 이전에 저장 된 상태를 방지 하기 위해는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.&lt;/xref:System.Web.UI.Control.LoadControlState*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadControlState method overrides &lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt; to prevent loading the control state.</source>
+          <target state="translated">LoadControlState 메서드 재정의 &lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;컨트롤 상태를 로드 하지 않으려면.&lt;/xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method does not load the control state or perform any other action.</source>
+          <target state="translated">메서드가는 컨트롤 상태를 로드 하거나 다른 작업을 수행 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The previously saved state data.</source>
+          <target state="translated">이전에 저장 된 상태 데이터입니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Overrides &lt;xref:System.Web.UI.Control.LoadViewState*&gt; to prevent loading previously saved view state for a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">재정의 &lt;xref:System.Web.UI.Control.LoadViewState*&gt;이전에 저장 된 뷰 상태에 대 한 로드 되지 않도록 하는 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.&lt;/xref:System.Web.UI.Control.LoadViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadViewState method overrides &lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt; to prevent loading the view state.</source>
+          <target state="translated">LoadViewState 메서드 재정의 &lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;뷰 상태를 로드 하지 않으려면.&lt;/xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method does not load the view state or perform any other action.</source>
+          <target state="translated">메서드 뷰 상태를 로드 하거나 다른 작업을 수행 하지 않습니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The previously saved state data.</source>
+          <target state="translated">이전에 저장 된 상태 데이터입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Web.UI.Control.ID*&gt; of the Web Parts control replaced by the proxy Web Parts control.</source>
+          <target state="translated">가져옵니다는 &lt;xref:System.Web.UI.Control.ID*&gt;웹 파트는 프록시에 의해 대체 되는 웹 파트 컨트롤의 컨트롤.&lt;/xref:System.Web.UI.Control.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object replaces a Web Parts control, the OriginalID property contains the &lt;xref:System.Web.UI.Control.ID%2A&gt; of the replaced control.</source>
+          <target state="translated">경우는 &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;웹 파트 컨트롤을 대체 하는 개체, 원래 Id 속성에 포함 된 &lt;xref:System.Web.UI.Control.ID%2A&gt;대체 컨트롤의.&lt;/xref:System.Web.UI.Control.ID%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the replaced control is a &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; object, this property contains the ID from the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ChildControl%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">대체 컨트롤이 이면는 &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;개체를이 속성의 ID를 포함 된 &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ChildControl%2A?displayProperty=fullName&gt;속성.&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ChildControl%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A string containing the &lt;xref:System.Web.UI.Control.ID*&gt; value of the Web Parts control replaced by the proxy Web Parts control.</source>
+          <target state="translated">포함 하는 문자열은 &lt;xref:System.Web.UI.Control.ID*&gt;웹 파트 컨트롤의 값이 웹 파트 컨트롤 프록시도 대체 합니다.&lt;/xref:System.Web.UI.Control.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the path to the user control being replaced.</source>
+          <target state="translated">대체 되 고 사용자 정의 컨트롤에 대 한 경로 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A string that contains the path to a user control being replaced.</source>
+          <target state="translated">대체 되 고 사용자 정의 컨트롤에 대 한 경로 포함 하는 문자열입니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; of the Web Parts control replaced by the proxy Web Parts control.</source>
+          <target state="translated">가져옵니다는 &lt;xref:System.Type&gt;웹 파트는 프록시에 의해 대체 되는 웹 파트 컨트롤의 컨트롤.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object replaces a control, this property contains the &lt;xref:System.Type&gt; of the control that the proxy Web Parts control replaces.</source>
+          <target state="translated">경우는 &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;컨트롤을 대체 하는 개체,이 속성에 포함 된 &lt;xref:System.Type&gt;프록시 웹 파트 컨트롤을 대체 하는 컨트롤의.&lt;/xref:System.Type&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A string containing the &lt;xref:System.Type&gt; of the control replaced by the proxy Web Parts control.</source>
+          <target state="translated">포함 하는 문자열은 &lt;xref:System.Type&gt;웹 파트는 프록시에 의해 대체 되는 컨트롤의 컨트롤.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Saves any server control state changes that have occurred since the time the page was posted back to the server.</source>
+          <target state="translated">페이지가 서버에 다시 게시 된 시간 이후에 발생 한 상태 변경을 서버 컨트롤을 저장 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Returns the server control's current state.</source>
+          <target state="translated">서버 컨트롤의 현재 상태를 반환합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If there is no state associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">컨트롤과 연결 된 상태가 없으면이 메서드가 반환 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Saves any state that was modified after the &lt;xref:System.Web.UI.WebControls.Style.TrackViewState*&gt; method was invoked.</source>
+          <target state="translated">저장 후에 수정 된 모든 상태는 &lt;xref:System.Web.UI.WebControls.Style.TrackViewState*&gt;메서드가 호출 된.&lt;/xref:System.Web.UI.WebControls.Style.TrackViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An object that contains the current view state of the control; otherwise, if there is no view state associated with the control, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">컨트롤의 현재 뷰 상태를 포함 하는 개체 컨트롤과 연결 된 뷰 상태가 없는 경우 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

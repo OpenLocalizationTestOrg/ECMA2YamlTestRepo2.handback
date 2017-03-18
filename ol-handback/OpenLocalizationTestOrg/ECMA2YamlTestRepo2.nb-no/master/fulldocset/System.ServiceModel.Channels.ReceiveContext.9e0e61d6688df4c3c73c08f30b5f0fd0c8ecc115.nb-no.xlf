@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">621528a6d5c7466f901525d02d087cfc39428b0d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Channels.ReceiveContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e472d9db8aef92d2895e46c15931bb8c3819527e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bad1d1f5b3c8c70236dfb617d97e941d6f919966</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Derive from this class to implement a custom state machine for receive context functionality.</source>
+          <target state="translated">Avledet fra denne klassen for å implementere et egendefinert tilstandsmaskinen for å motta kontekst funksjonalitet.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Receive context functionality is two-fold.</source>
+          <target state="translated">Motta kontekst funksjonaliteten er to foldantallet.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When working with a queued channel, receive context allows you to lock a message prior to processing it.</source>
+          <target state="translated">Arbeide med en kanalen mottar kan du låse en melding før behandling av den konteksten.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a failure occurs, the message remains locked so that the service that is processing the message maintains ownership (another service cannot receive and process the same message) and may choose to perform some other action on it.</source>
+          <target state="translated">Hvis det oppstår en feil, meldingen forblir låst slik at tjenesten som behandler meldingen opprettholder eierskap (en annen tjeneste ikke kan motta og behandle samme meldingen) og kan velge å utføre en annen handling i den.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When working with a one-way channel, receive context allows a service to control when it sends an acknowledgement message or it can indicate a problem by sending a negative acknowledgement message.</source>
+          <target state="translated">Arbeide med en enveis kanal mottar tillater konteksten en tjeneste for å kontrollere når den sender en bekreftelsesmelding eller indikere et problem ved å sende en negativ bekreftelsesmelding.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The client can then choose to resend the message if it receives a negative acknowledgement or if it does not receive an acknowledgement within a certain period of time.</source>
+          <target state="translated">Klienten kan da velge å sende meldingen på nytt hvis den mottar en negativ bekreftelse, eller hvis det ikke motta en bekreftelse i en viss tid.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.ReceiveContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.ReceiveContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Causes the state machine to transition to the abandoned state with the specified timeout value.</source>
+          <target state="translated">Gjør maskin for tilstand for å bytte til tilstanden ble ignorert med angitt tidsavbruddsverdi.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">Tidsavbruddet for abandon-operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Causes the state machine to transition to the abandoned state with the specified exception and timeout value.</source>
+          <target state="translated">Gjør maskin for tilstand for å bytte til tilstanden ble ignorert med angitt unntak og tidsavbruddsverdi.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The exception that causes the abandon operation.</source>
+          <target state="translated">Unntaket som fører til at abandon-operasjonen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">Tidsavbruddet for abandon-operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous abandon operation with the specified  timeout, asynchronous callback, and user-defined state data.</source>
+          <target state="translated">Starter en asynkron abandon operasjonen med den angitte tiden for tidsavbrudd asynkron tilbakeringing og brukerdefinerte tilstandsdata.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">Tidsavbruddet for abandon-operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">Asynkron tilbakeringing representanten som får beskjed om asynkrone operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The user-defined state data.</source>
+          <target state="translated">Brukerdefinerte tilstand-data.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that references the asynchronous abandon operation.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;som refererer til den asynkrone abandon-operasjonen.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous abandon operation with the specified exception, timeout, asynchronous callback, and user-defined state data.</source>
+          <target state="translated">Starter en asynkron abandon operasjonen med den angitte unntak tidsavbrudd, asynkron tilbakeringing og brukerdefinerte tilstandsdata.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An exception that contains the reason for the abandon operation.</source>
+          <target state="translated">Et unntak som inneholder årsaken til abandon-operasjonen.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">Tidsavbruddet for abandon-operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">Asynkron tilbakeringing representanten som får beskjed om asynkrone operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>the user-defined state data.</source>
+          <target state="translated">brukerdefinerte tilstand-data.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that references the asynchronous abandon operation.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;som refererer til den asynkrone abandon-operasjonen.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous complete operation with the specified  timeout, asynchronous callback, and user-defined state data.</source>
+          <target state="translated">Starter en asynkron operasjon som er fullført med den angitte tiden for tidsavbrudd asynkron tilbakeringing og brukerdefinerte tilstandsdata.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The timeout for the complete operation to complete.</source>
+          <target state="translated">Tidsavbruddet for fullført operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">Asynkron tilbakeringing representanten som får beskjed om asynkrone operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The user-defined state data.</source>
+          <target state="translated">Brukerdefinerte tilstand-data.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that references the asynchronous complete operation.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;som refererer til den asynkrone fullføre operasjonen.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Causes the state machine to transition to the completed state with the specified timeout value.</source>
+          <target state="translated">Gjør maskin for tilstand for å bytte til tilstanden fullført med angitt tidsavbruddsverdi.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The timeout for the complete operation to complete.</source>
+          <target state="translated">Tidsavbruddet for fullført operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Completes an asynchronous abandon operation.</source>
+          <target state="translated">Fullfører en asynkron abandon-operasjon.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to one of the &lt;xref:System.ServiceModel.Activities.WorkflowControlClient.BeginAbandon*&gt; methods.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;returnert av et kall til en av de &lt;xref:System.ServiceModel.Activities.WorkflowControlClient.BeginAbandon*&gt;metoder.&lt;/xref:System.ServiceModel.Activities.WorkflowControlClient.BeginAbandon*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Completes an asynchronous complete operation.</source>
+          <target state="translated">Fullfører en asynkron fullføre operasjonen.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to the &lt;xref:System.ServiceModel.Channels.ReceiveContext.BeginComplete*&gt; method.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;returnert av et kall til den &lt;xref:System.ServiceModel.Channels.ReceiveContext.BeginComplete*&gt;metoden.&lt;/xref:System.ServiceModel.Channels.ReceiveContext.BeginComplete*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Causes the state machine to transition to the faulted state.</source>
+          <target state="translated">Gjør maskin for tilstand for å bytte til en ugyldig tilstand.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Defines the event to raised when an exception has occurred during the messaging process.</source>
+          <target state="translated">Definerer hendelsen som skal aktiveres når det oppstod et unntak under meldingsinfrastruktur prosessen.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The name of the receive context.</source>
+          <target state="translated">Navnet på receive-kontekst.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the abandoned state with the specified timeout value.</source>
+          <target state="translated">Kalles når maskin for tilstand overgangen til tilstanden ble ignorert med angitt tidsavbruddsverdi.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">Tidsavbruddet for abandon-operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the abandoned state with the specified exception and timeout value.</source>
+          <target state="translated">Kalles når maskin for tilstand overgangen til tilstanden ble ignorert med angitt unntak og verdien for tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An exception that contains the reason for the abandon operation.</source>
+          <target state="translated">Et unntak som inneholder årsaken til abandon-operasjonen.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">Tidsavbruddet for abandon-operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the abandoned state asynchronously with the specified timeout value, callback, and state data.</source>
+          <target state="translated">Kalles når maskin for tilstand overgangen til tilstanden ble ignorert asynkront med den angitte tidsavbruddsverdi tilbakeringing og tilstandsdata.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">Tidsavbruddet for abandon-operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">Asynkron tilbakeringing representanten som får beskjed om asynkrone operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The user defined state data.</source>
+          <target state="translated">Brukerdefinerte Tilstandsdataene.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that references the asynchronous operation.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;som refererer til den asynkrone operasjonen.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the abandoned state asynchronously with the specified exception, timeout value, callback, and state data.</source>
+          <target state="translated">Kalles når maskin for tilstand overgangen til tilstanden ble ignorert asynkront med den angitte unntak tidsavbruddsverdien, tilbakeringing og tilstandsdata.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An exception that contains the reason for the abandon operation.</source>
+          <target state="translated">Et unntak som inneholder årsaken til abandon-operasjonen.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The timeout for the abandon operation to complete.</source>
+          <target state="translated">Tidsavbruddet for abandon-operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">Asynkron tilbakeringing representanten som får beskjed om asynkrone operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The user-defined state data.</source>
+          <target state="translated">Brukerdefinerte tilstand-data.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that references the asynchronous operation.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;som refererer til den asynkrone operasjonen.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the completed state asynchronously with the specified timeout, callback, and state data.</source>
+          <target state="translated">Kalles når maskin for tilstand overgangen til tilstanden fullstendige asynkront med den angitte tiden for tidsavbrudd tilbakeringing og tilstandsdata.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The timeout for the complete operation to complete.</source>
+          <target state="translated">Tidsavbruddet for fullført operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The asynchronous callback delegate that receives the notification of the asynchronous operation completion.</source>
+          <target state="translated">Asynkron tilbakeringing representanten som får beskjed om asynkrone operasjonen er fullført.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The user-defined state data.</source>
+          <target state="translated">Brukerdefinerte tilstand-data.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IAsyncResult&gt; that references the asynchronous operation.</source>
+          <target state="translated">En &lt;xref:System.IAsyncResult&gt;som refererer til den asynkrone operasjonen.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the completed state with the specified timeout value.</source>
+          <target state="translated">Kalles når maskin for tilstand overgangen til tilstanden fullført med angitt tidsavbruddsverdi.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The timeout for the complete operation to complete.</source>
+          <target state="translated">Tidsavbruddet for fullført operasjon skal bli fullført.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the abandoned state asynchronously.</source>
+          <target state="translated">Kalles når maskin for tilstand er asynkront overgangen til tilstanden ble ignorert.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to one of the &lt;xref:System.ServiceModel.Channels.ReceiveContext.OnBeginAbandon*&gt; methods.</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;returnert av et kall til en av de &lt;xref:System.ServiceModel.Channels.ReceiveContext.OnBeginAbandon*&gt;metoder.&lt;/xref:System.ServiceModel.Channels.ReceiveContext.OnBeginAbandon*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the completed state asynchronously.</source>
+          <target state="translated">Kalles når maskin for tilstand overgangen til tilstanden fullstendige asynkront.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to the &lt;xref:System.ServiceModel.Channels.ReceiveContext.OnBeginComplete*&gt;</source>
+          <target state="translated">Den &lt;xref:System.IAsyncResult&gt;returnert av et kall til den &lt;xref:System.ServiceModel.Channels.ReceiveContext.OnBeginComplete*&gt;&lt;/xref:System.ServiceModel.Channels.ReceiveContext.OnBeginComplete*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Called when the state machine is transitioning to the faulted state.</source>
+          <target state="translated">Kalles når maskin for tilstand overgangen til ugyldig status.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets or sets the state of the state machine.</source>
+          <target state="translated">Henter eller angir tilstanden til maskin for tilstand.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The current receive context state of the state machine.</source>
+          <target state="translated">Gjeldende motta kontekst tilstanden til maskin for tilstand.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An object used for locking the <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.ReceiveContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Et objekt som brukes for å låse den <bpt id="p1">&lt;xref href="System.ServiceModel.Channels.ReceiveContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> forekomsten.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object&gt;.</source>
+          <target state="translated">&lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Attempts to get the receive context from the specified message.</source>
+          <target state="translated">Forsøk på å hente receive-konteksten fra den angitte meldingen.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The message.</source>
+          <target state="translated">Meldingen.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The receive context.</source>
+          <target state="translated">Receive-kontekst.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the receive context is retrieved successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis receive-konteksten er hentet feil. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Attempts to get the receive context from the specified message properties collection.</source>
+          <target state="translated">Forsøk på å hente receive-konteksten fra samlingen angitte meldingen egenskaper.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The message properties collection.</source>
+          <target state="translated">Samlingen meldingen egenskaper.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The receive context.</source>
+          <target state="translated">Receive-kontekst.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the receive context is retrieved successfully; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis receive-konteksten er hentet feil. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e300f570beecc6480e602fd0c71a57376460ef15</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.HttpCachePolicy.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c42db298dc8afbfd71e8ce7ea026bd9ad85cffae</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a277b3b5da48450c497ad6f47cebc489cdae52c1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains methods for setting cache-specific HTTP headers and for controlling the ASP.NET page output cache.</source>
+          <target state="translated">Contém métodos para definir os cabeçalhos de HTTP da cache específicos e para controlar a cache de saída de página do ASP.NET.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For background information about HTTP headers and controlling caching, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">Para obter informações gerais sobre os cabeçalhos de HTTP e controlar a colocação em cache, consulte RFC 2616: Hypertext Transfer Protocol - HTTP/1.1, disponível no <bpt id="p1">[</bpt>Consortium World Wide Web (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Registers a validation callback for the current response.</source>
+          <target state="translated">Regista uma chamada de retorno de validação para resposta actual.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TheAddValidationCallback method provides a mechanism to check the response programmatically in the cache before the response is returned to the client by the output cache.</source>
+          <target state="translated">Método de TheAddValidationCallback fornece um mecanismo para verificar a resposta através de programação na cache antes da resposta é devolvida ao cliente pela cache de saída.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before the response is served from the Web server cache, all registered handlers are queried to ensure resource validity.</source>
+          <target state="translated">Antes da resposta é servida a partir da cache do servidor Web, todos os processadores registados são consultados para garantir a validade do recurso.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any handler sets a flag indicating that the cached response is not valid, the entry is marked as not valid and expelled from the cache.</source>
+          <target state="translated">Se qualquer processador define um sinalizador que indica que a resposta em cache não é válida, a entrada está marcada como não válidos e expelled da cache.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, as well as when any handler indicates that the cached response should be ignored for this request, the request is then handled as if it were a cache miss.</source>
+          <target state="translated">Neste caso, tal como bem como quando qualquer processador indica que a resposta em cache deve ser ignorada para este pedido, o pedido é, em seguida, tratados como se fosse uma falha de acerto na cache.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AddValidationCallback is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">AddValidationCallback é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpCacheValidateHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.HttpCacheValidateHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valor.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The arbitrary user-supplied data that is passed back to the AddValidationCallback delegate.</source>
+          <target state="translated">Os dados arbitrários fornecido pelo utilizador que são transmitidos para o AddValidationCallback delegar.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">handler</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">handler</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Appends the specified text to the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">Acrescenta o texto especificado para o <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho de HTTP.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the browser does not recognize cache control directives or extensions, the browser must ignore the unrecognized terms.</source>
+          <target state="translated">Se o browser não reconhece as diretivas de controlo de cache ou extensões, o browser deve ignorar os termos de licenciamento não reconhecidos.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte RFC 2616: Hypertext Transfer Protocol - HTTP/1.1, disponível no <bpt id="p1">[</bpt>Consortium World Wide Web (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>AppendCacheExtension is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">AppendCacheExtension é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The text to append to the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">O texto a acrescentar para o <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;extension&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;extension&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets the cache-control directive.</source>
+          <target state="translated">Obtém a Directiva cache-control.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The cache-control directive.</source>
+          <target state="translated">A Directiva cache-control.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets the cache extensions.</source>
+          <target state="translated">Obtém as extensões de cache.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The cache extensions.</source>
+          <target state="translated">As extensões de cache.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the ETag.</source>
+          <target state="translated">Obtém a ETag.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The ETag.</source>
+          <target state="translated">A ETag.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the status indicating whether the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header has been set  based on the timestamps of the file   dependencies of the handler.</source>
+          <target state="translated">Obtém o estado que indica se o <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho foi definido com base no carimbos de dependências de processador de ficheiros.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header has been set  based on the timestamps of the file   dependencies of the handler; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o <bpt id="p2">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> cabeçalho foi definido com base no carimbos das dependências de ficheiro de processador de; caso contrário <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the expire header.</source>
+          <target state="translated">Obtém o cabeçalho de expirar.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The expire header.</source>
+          <target state="translated">O cabeçalho de expirar.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the status of ignore range requests.</source>
+          <target state="translated">Obtém o estado dos pedidos de intervalo de ignorar.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if range requests are ignored; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se os pedidos de intervalo são ignorados; caso contrário <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the status of the Last-Modified headerset to base on the timestamps of the   file dependencies of the handler.</source>
+          <target state="translated">Obtém o estado de headerset Last-Modified para basear no carimbos de dependências de processador de ficheiros.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Last-Modified header  is set to base on the timestamps of the   file dependencies of the handler; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o cabeçalho Last-Modified estiver definido como base em carimbos das dependências de ficheiro de processador; caso contrário <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the cache-control max age.</source>
+          <target state="translated">Obtém a idade máxima de cache-control.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The cache-control max age.</source>
+          <target state="translated">A duração máxima de cache-control.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the status of server caching for the current response.</source>
+          <target state="translated">Obtém o estado do servidor a colocação em cache para a resposta atual.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if server caching is stopped for the current response; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a colocação em cache do servidor é parada para a resposta atual; caso contrário <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the status of the store.</source>
+          <target state="translated">Obtém o estado do arquivo.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no store is set; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>não se for definido nenhum arquivo; caso contrário <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the status of the HTTP No-Transform Directive.</source>
+          <target state="translated">Obtém o estado da diretiva de transformação não HTTP.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enables the sending of the Cache-Control HTTP header.</source>
+          <target state="translated">Permite o envio de cabeçalho de HTTP da Cache-Control.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>true<bpt id="p1">&lt;xref uid="langword_csharp_" name="" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if the HTTP No-Transform Directive is set; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Verdadeiro<bpt id="p1">&lt;xref uid="langword_csharp_" name="" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>esteja a diretiva de transformação não HTTP definido; caso contrário <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets the status of the <bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">Obtém o estado do <bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header is omitted; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o <bpt id="p2">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> cabeçalho é omitido; caso contrário <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets the HTTP Cache-Control: Proxy Max Age.</source>
+          <target state="translated">Obtém a Cache-Control de HTTP: idade máxima de Proxy.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The HTTP Cache-Control: Proxy Max Age.</source>
+          <target state="translated">Idade do máxima de Proxy de HTTP Cache-Control:.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the Cache-Control: header to reflect either the must-revalidate or   proxy-revalidate directives.</source>
+          <target state="translated">Obtém a Cache-Control: cabeçalho para refletir as diretivas tem-revalidate ou proxy-revalidate.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default is to not send either of these directives unless explicitly enabled using this method.</source>
+          <target state="translated">A predefinição é não enviar qualquer uma destas diretivas a menos que explicitamente ativado através deste método.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The Cache-Control: header to reflect either the must-revalidate or   proxy-revalidate directives.</source>
+          <target state="translated">Cache-Control: cabeçalho para refletir as diretivas tem-revalidate ou proxy-revalidate.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the value of the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header in Coordinated Universal Time (UTC).</source>
+          <target state="translated">Obtém o valor da <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho HTTP na hora Universal Coordenada (UTC).</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">O valor da <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho de HTTP.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the custom string that is used to vary the HTTP caching.</source>
+          <target state="translated">Obtém a cadeia personalizada que é utilizada para variar a HTTP colocação em cache.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The custom string for varying the HTTP caching.</source>
+          <target state="translated">A cadeia personalizada para vários a HTTP colocação em cache.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value which specifies whether the cache has a sliding expiration policy.</source>
+          <target state="translated">Obtém um valor que especifica se a cache tem uma política de expiração deslizante.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the the cache has a sliding expiration policy; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a cache tem uma política de expiração deslizante; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a value which specifies whether the HTTP cache has been modified.</source>
+          <target state="translated">Obtém um valor que especifica se a cache HTTP foi modificada.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the the cache has been modified; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a cache foi modificada; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets a value which specifies whether the ASP.NET cache should ignore HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers sent by the client that invalidate the cache.</source>
+          <target state="translated">Obtém um valor que especifica se a cache ASP.NET deve ignorar HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalhos enviados pelo cliente de invalidar a cache.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the the ASP.NET cache should ignore HTTP <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> headers sent by the client; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a cache do ASP.NET deve ignorar HTTP <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> cabeçalhos enviados pelo cliente; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Makes the response is available in the client browser History cache, regardless of the <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> setting made on the server, when the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">allow</ph><ept id="p2">&lt;/code&gt;</ept> parameter is <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Faz com que a resposta está disponível no browser do cliente de cache do histórico, independentemente do <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> definição efetuada no servidor, quando o <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">allow</ph> <ept id="p2">&lt;/code&gt;</ept> parâmetro é <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.Web.HttpCacheability&gt; is set to &lt;xref:System.Web.HttpCacheability&gt; or &lt;xref:System.Web.HttpCacheability&gt; the <ph id="ph1">`Expires`</ph> HTTP header is by default set to -1; this tells the client not to cache responses in the History folder, so that when you use the back/forward buttons the client requests a new version of the response each time.</source>
+          <target state="translated">Quando &lt;xref:System.Web.HttpCacheability&gt;está definido como &lt;xref:System.Web.HttpCacheability&gt;ou &lt;xref:System.Web.HttpCacheability&gt;o <ph id="ph1">`Expires`</ph> cabeçalho HTTP é por predefinição definida como -1; Isto indica ao cliente para respostas de cache não na pasta Histórico, para que quando utiliza os botões anterior/reencaminhar o cliente solicitar uma nova versão da resposta sempre.&lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override this behavior by calling the SetAllowResponseInBrowserHistory method with the <ph id="ph1">`allow`</ph> parameter set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">Pode substituir este comportamento ao chamar o método SetAllowResponseInBrowserHistory com o <ph id="ph1">`allow`</ph> parâmetro definido como <ph id="ph2">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.Web.HttpCacheability&gt; is set to values other than &lt;xref:System.Web.HttpCacheability&gt; or &lt;xref:System.Web.HttpCacheability&gt;, calling the SetAllowResponseInBrowserHistory method with either value for <ph id="ph1">`allow`</ph> has no effect.</source>
+          <target state="translated">Se &lt;xref:System.Web.HttpCacheability&gt;definidos para valores que &lt;xref:System.Web.HttpCacheability&gt;ou &lt;xref:System.Web.HttpCacheability&gt;, chamar o método SetAllowResponseInBrowserHistory com qualquer valor para <ph id="ph1">`allow`</ph> não tem qualquer efeito.&lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetAllowResponseInBrowserHistory is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetAllowResponseInBrowserHistory é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to direct the client browser to store responses in the History folder; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para direcionar o browser do cliente para armazenar as respostas na pasta Histórico; caso contrário <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header to one of the values of <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho para um dos valores de <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetCacheability is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetCacheability é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valor de enumeração.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph> is not one of the enumeration values.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph>Não é um dos valores de enumeração.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header to one of the values of <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and appends an extension to the directive.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho para um dos valores de <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> e acrescenta uma extensão para a diretiva.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The field name extension is valid only when used with the <ph id="ph1">`private`</ph> or <ph id="ph2">`no-cache`</ph> directives.</source>
+          <target state="translated">A extensão de nome de campo só é válida quando utilizado com o <ph id="ph1">`private`</ph> ou <ph id="ph2">`no-cache`</ph> diretivas.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte RFC 2616: Hypertext Transfer Protocol - HTTP/1.1, disponível no <bpt id="p1">[</bpt>Consortium World Wide Web (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will throw an invalid argument exception if incompatible directives and extensions are combined.</source>
+          <target state="translated">Este método irá gerar uma exceção de argumento inválido se diretivas incompatíveis e as extensões são combinadas.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetCacheability is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetCacheability é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value to set the header to.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ao definir o cabeçalho para o valor da enumeração.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The cache control extension to add to the header.</source>
+          <target state="translated">A extensão de controlo de cache para adicionar ao cabeçalho.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;field&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;field&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph> is not <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph>is not <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to the specified string.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho HTTP para a cadeia especificada.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`ETag`</ph> header is a unique identifier for a specific version of a document.</source>
+          <target state="translated">O <ph id="ph1">`ETag`</ph> cabeçalho é um identificador exclusivo para uma versão específica de um documento.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used by clients to validate client-cached content to avoid requesting it again.</source>
+          <target state="translated">É utilizado pelos clientes para validar o conteúdo em cache de cliente para evitar a solicitá-lo novamente.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once an <ph id="ph1">`ETag`</ph> header is set, subsequent attempts to set it fail and an exception is thrown.</source>
+          <target state="translated">Uma vez um <ph id="ph1">`ETag`</ph> cabeçalho é tentativas subsequentes, definidas a falha de defini-lo e é emitida uma exceção.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetETag is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetETag é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The text to use for the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">O texto a utilizar para o <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;etag&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;etag&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the time stamps of the handler's file dependencies.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho de HTTP com base nos carimbos de data / hora de dependências de ficheiro do processador.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TheSetETagFromFileDependencies method sets the <ph id="ph1">`ETag`</ph> header by retrieving the last modified time stamps of all files on which the handler is dependent, combining all file names and time stamps into a single string, then hashing that string into a single digest that is used as the <ph id="ph2">`ETag`</ph>.</source>
+          <target state="translated">Conjuntos de método TheSetETagFromFileDependencies o <ph id="ph1">`ETag`</ph> cabeçalho ao obter os última carimbos de hora da modificação de todos os ficheiros no qual o processador está dependente, combinar todos os nomes de ficheiro e carimbos de data / hora numa cadeia única, em seguida, hash essa cadeia para um resumo de única que é utilizado como o <ph id="ph2">`ETag`</ph>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetETagFromFileDependencies is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetETagFromFileDependencies é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header has already been set.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho já foi definido.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to an absolute date and time.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho HTTP para um absoluta data e hora.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will fail if the expiration date violates the principle of restrictiveness.</source>
+          <target state="translated">Este método irá falhar se a data de expiração viola o princípio de restrictiveness.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The absolute &lt;xref:System.DateTime&gt; value to set the <bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header to.</source>
+          <target state="translated">O absoluto &lt;xref:System.DateTime&gt;valor para definir o <bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho para.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to the &lt;xref:System.DateTime&gt; value supplied.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho HTTP para o &lt;xref:System.DateTime&gt;valor fornecido.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Last-Modified`</ph> HTTP header time stamps the document with the <ph id="ph2">`DateTime`</ph> value indicating when the document was last modified.</source>
+          <target state="translated">O <ph id="ph1">`Last-Modified`</ph> tempo de cabeçalho HTTP stamps documento com o <ph id="ph2">`DateTime`</ph> valor que indica que o documento foi modificado pela última vez.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method will fail if the caching restrictiveness hierarchy is violated.</source>
+          <target state="translated">Este método irá falhar se a hierarquia de restrictiveness colocação em cache foi violada.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetLastModified is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetLastModified é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The new &lt;xref:System.DateTime&gt; value for the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">A nova &lt;xref:System.DateTime&gt;valor para o <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;date&lt;/code&gt;</ph> is later than the current <bpt id="p1">&lt;xref uid="langword_csharp_DateTime" name="DateTime" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;date&lt;/code&gt;</ph>é posterior à atual <bpt id="p1">&lt;xref uid="langword_csharp_DateTime" name="DateTime" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the time stamps of the handler's file dependencies.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho de HTTP com base nos carimbos de data / hora de dependências de ficheiro do processador.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetLastModifiedFromFileDependencies is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetLastModifiedFromFileDependencies é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: max-age" name="Cache-Control: max-age" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the specified time span.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: max-age" name="Cache-Control: max-age" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho de HTTP com base no intervalo de tempo especificado.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Max-age`</ph> is the maximum absolute time a document is allowed to exist before being considered stale.</source>
+          <target state="translated"><ph id="ph1">`Max-age`</ph>é o máximo tempo absoluto que é permitido um documento de existir antes de a ser considerados como obsoletos.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetMaxAge method does not use sliding expiration and will fail if the expiration date violates the principle of restrictiveness.</source>
+          <target state="translated">O método SetMaxAge não utiliza a expiração deslizante e irá falhar se a data de expiração viola o princípio de restrictiveness.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetMaxAge is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetMaxAge é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the SetMaxAge method is called repeatedly, on the second and subsequent calls, the value of the maximum age can only be decreased.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se o método SetMaxAge é chamado repetidamente, as chamadas a segunda e subsequentes, o valor da idade máxima só pode ser diminuído.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The time span used to set the <bpt id="p1">&lt;xref uid="langword_csharp_Cache" name="Cache" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph1"> - </ph><bpt id="p2">&lt;xref uid="langword_csharp_Control: max-age" name="Control: max-age" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">O intervalo de tempo utilizado para definir o <bpt id="p1">&lt;xref uid="langword_csharp_Cache" name="Cache" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph1"> - </ph> <bpt id="p2">&lt;xref uid="langword_csharp_Control: max-age" name="Control: max-age" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> cabeçalho.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph> is less than 0 or greater than one year.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph>é menor que 0 ou maior do que um ano.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Stops all origin-server caching for the current response.</source>
+          <target state="translated">Interrompe todos os servidores de origem a colocação em cache para a resposta atual.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Explicitly denies caching of the document on the origin-server.</source>
+          <target state="translated">Nega explicitamente a colocação em cache do documento no servidor de origem.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once set, all requests for the document are fully processed.</source>
+          <target state="translated">Uma vez definida, todos os pedidos para o documento totalmente são processados.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this method is invoked, caching cannot be re-enabled for the current response.</source>
+          <target state="translated">Quando este método é invocado, a colocação em cache não pode ser novamente ativada para a resposta atual.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetNoServerCaching is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetNoServerCaching é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-store" name="Cache-Control: no-store" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-store" name="Cache-Control: no-store" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho de HTTP.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-transform" name="Cache-Control: no-transform" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-transform" name="Cache-Control: no-transform" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho de HTTP.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP header instructs network caching applications not to modify the document.</source>
+          <target state="translated">O <ph id="ph1">`Cache-Control: no-transform`</ph> cabeçalho de HTTP dá instruções ao rede aplicações não a modifique o documento a colocação em cache.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP header prevents downstream proxy servers from changing any header values specified by the <ph id="ph2">`Content-Encoding`</ph>, <ph id="ph3">`Content-Range`</ph>, or <ph id="ph4">`Content-Type`</ph> headers (this includes the entity body).</source>
+          <target state="translated">O <ph id="ph1">`Cache-Control: no-transform`</ph> cabeçalho de HTTP impede que os servidores de proxy a jusante alterar quaisquer valores de cabeçalho especificados pelo <ph id="ph2">`Content-Encoding`</ph>, <ph id="ph3">`Content-Range`</ph>, ou <ph id="ph4">`Content-Type`</ph> cabeçalhos (Isto inclui o corpo de entidade).</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, it prevents proxies from converting GIF images to PNG.</source>
+          <target state="translated">Por exemplo, impede que proxies converter imagens GIF PNG.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As with other restrictions on caching, once SetNoTransforms is called, the <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP header cannot be disabled through the &lt;xref:System.Web.HttpCachePolicy&gt; interface.</source>
+          <target state="translated">Tal como acontece com outras restrições na colocação em cache, quando se chama SetNoTransforms, o <ph id="ph1">`Cache-Control: no-transform`</ph> cabeçalho de HTTP não pode ser desativado através do &lt;xref:System.Web.HttpCachePolicy&gt;interface.&lt;/xref:System.Web.HttpCachePolicy&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetNoTransforms is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetNoTransforms é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies whether the response should contain the <bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header when varying by parameters.</source>
+          <target state="translated">Especifica se a resposta deve conter o <bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho quando vários os parâmetros.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method allows you to prevent the output ached from adding a <ph id="ph1">`vary:*`</ph> header to the outgoing response when the cached response varies by parameter.</source>
+          <target state="translated">Este método permite-lhe impedir que o resultado ached de adicionar um <ph id="ph1">`vary:*`</ph> cabeçalho para respostas a enviar ao varia de acordo com a resposta em cache pelo parâmetro.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is useful for clients varying caching by query string because most clients will automatically vary by query string without requiring the <ph id="ph1">`vary:*`</ph> header.</source>
+          <target state="translated">Isto é útil para os clientes vários a colocação em cache pela cadeia de consulta porque a maioria dos clientes irão variar automaticamente pela cadeia de consulta sem necessidade de <ph id="ph1">`vary:*`</ph> cabeçalho.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The use of the <ph id="ph2">`vary:*`</ph> header can disable all client caching.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A utilização do <ph id="ph2">`vary:*`</ph> cabeçalho pode desativar a colocação em cache de todos os clientes.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a convenience method to affect the &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt; property.</source>
+          <target state="translated">Este é um método de conveniência para afetar a &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt;propriedade.&lt;/xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Passing <ph id="ph1">`true`</ph> to the method directs the &lt;xref:System.Web.HttpCachePolicy&gt; to ignore the * value for the &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt; property.</source>
+          <target state="translated">Transmitir <ph id="ph1">`true`</ph> para o método direciona o &lt;xref:System.Web.HttpCachePolicy&gt;para ignorar a * valor para o &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt;propriedade.&lt;/xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt; &lt;/xref:System.Web.HttpCachePolicy&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetOmitVaryStar is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetOmitVaryStar é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to direct the <bpt id="p2">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to not use the <bpt id="p3">*</bpt> value for its &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders<ept id="p3">*</ept>&gt; property; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>para direcionar o <bpt id="p2">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> para não utilizar o <bpt id="p3">*</bpt> valor para o &lt;&gt; &lt;/&gt; <ept id="p3">*</ept>&gt; propriedade; caso contrário, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the specified time span.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho de HTTP com base no intervalo de tempo especificado.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetProxyMaxAge method does not use sliding expiration and will fail if the expiration date violates the principle of restrictiveness.</source>
+          <target state="translated">O método SetProxyMaxAge não utiliza a expiração deslizante e irá falhar se a data de expiração viola o princípio de restrictiveness.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetProxyMaxAge is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetProxyMaxAge é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The time span used to set the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">O intervalo de tempo utilizado para definir o <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph>é menor que 0.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to either the <bpt id="p2">&lt;xref uid="langword_csharp_must-revalidate" name="must-revalidate" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or the <bpt id="p3">&lt;xref uid="langword_csharp_proxy-revalidate" name="proxy-revalidate" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> directives based on the supplied enumeration value.</source>
+          <target state="translated">Define o <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalho HTTP para qualquer o <bpt id="p2">&lt;xref uid="langword_csharp_must-revalidate" name="must-revalidate" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> ou o <bpt id="p3">&lt;xref uid="langword_csharp_proxy-revalidate" name="proxy-revalidate" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> diretivas baseiam no valor de enumeração fornecido.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default, which is equivalent to &lt;xref:System.Web.HttpCacheRevalidation&gt;, is to send neither directive in a header unless explicitly specified by this method.</source>
+          <target state="translated">A predefinição, o que é equivalente a &lt;xref:System.Web.HttpCacheRevalidation&gt;, está a enviar nenhuma directiva num cabeçalho, exceto se ou não explicitamente especificado através deste método.&lt;/xref:System.Web.HttpCacheRevalidation&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetRevalidation is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetRevalidation é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpCacheRevalidation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value to set the <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header to.</source>
+          <target state="translated">O <bpt id="p1">&lt;xref href="System.Web.HttpCacheRevalidation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valor de enumeração para definir o <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> cabeçalho para.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;revalidation&lt;/code&gt;</ph> is not one of the enumeration values.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;revalidation&lt;/code&gt;</ph>Não é um dos valores de enumeração.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Sets cache expiration to from absolute to sliding.</source>
+          <target state="translated">Conjuntos de expiração do absoluto para a deslizante em cache.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When cache expiration is set to sliding, the <ph id="ph1">`Cache-Control`</ph> HTTP header will be renewed with each response.</source>
+          <target state="translated">Quando a expiração de cache é definida para a deslizante, o <ph id="ph1">`Cache-Control`</ph> cabeçalho de HTTP ser renovado com cada resposta.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This expiration mode is identical to the IIS configuration option to add an expiration header to all output set relative to the current time.</source>
+          <target state="translated">Este modo de expiração é idêntico para a opção de configuração do IIS para adicionar um cabeçalho de expiração para todas as saídas definidas relativas a hora atual.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you explicitly set sliding expiration to off (<ph id="ph1">`false`</ph>), that setting will be preserved and any attempts to enable sliding expiration will silently fail.</source>
+          <target state="translated">Se tem de definir explicitamente a expiração deslizante como desativado (<ph id="ph1">`false`</ph>), essa definição será mantida e quaisquer tentativas de ativar a expiração deslizante silenciosamente irão falhar.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not directly map to an HTTP header.</source>
+          <target state="translated">Este método não é diretamente mapeado para um cabeçalho de HTTP.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used by subsequent modules or worker requests to set origin-server cache policy.</source>
+          <target state="translated">É utilizado pelo módulos subsequentes ou de trabalho política em cache pedidos para definir o servidor de origem.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetSlidingExpiration is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetSlidingExpiration é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>or <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Specifies whether the ASP.NET cache should ignore HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers sent by the client that invalidate the cache.</source>
+          <target state="translated">Especifica se a cache ASP.NET deve ignorar HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalhos enviados pelo cliente de invalidar a cache.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SetValidUntilExpires method is set to <ph id="ph1">`true`</ph> automatically when the high-level <ph id="ph2">`&lt;%@ OutputCache … %&gt;`</ph> page directive is used.</source>
+          <target state="translated">O método SetValidUntilExpires está definido como <ph id="ph1">`true`</ph> automaticamente quando de alto nível <ph id="ph2">`&lt;%@ OutputCache … %&gt;`</ph> diretiva de página é utilizada.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is provided because some browsers, when refreshing a page view, send HTTP cache invalidation headers to the Web server and evict the page from the cache.</source>
+          <target state="translated">Este método é fornecido porque alguns browsers, ao atualizar a vista de página, enviarem cabeçalhos de invalidação de HTTP cache para o servidor Web e expulsar a página da cache.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`validUntilExpires`</ph> parameter is <ph id="ph2">`true`</ph>, ASP.NET ignores cache invalidation headers and the page remains in the cache until it expires.</source>
+          <target state="translated">Quando o <ph id="ph1">`validUntilExpires`</ph> parâmetro é <ph id="ph2">`true`</ph>, ASP.NET ignora os cabeçalhos de invalidação de cache e a página permanece na cache de até expirar.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetValidUntilExpires is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetValidUntilExpires é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the cache ignores <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> invalidation headers; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a cache ignora <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> cabeçalhos invalidação; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Specifies a custom text string to vary cached output responses by.</source>
+          <target state="translated">Especifica uma cadeia de texto personalizado para variar as respostas de saída em cache pelo.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetVaryByCustom is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">SetVaryByCustom é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The text string to vary cached output by.</source>
+          <target state="translated">A cadeia de texto para variar em cache de saída por.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;custom&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;custom&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The SetVaryByCustom method has already been called.</source>
+          <target state="translated">O método SetVaryByCustom já foi chamado.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Gets or sets the timestamp in Coordinated Universal Iime (UTC) for the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Obtém ou define o timestamp na coordenada Universal Iime (UTC) para o <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DateTime&gt; for the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;xref:System.DateTime&gt; for the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Gets the list of <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers that will be used to vary the output cache.</source>
+          <target state="translated">Obtém a lista de <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalhos que serão utilizados para variar a cache de saída.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The VaryByContentEncodings property returns a list of Content-Encoding headers that represent compression schemes to vary the output cache by.</source>
+          <target state="translated">A propriedade VaryByContentEncodings devolve uma lista de cabeçalhos de codificação de conteúdo de mensagens em fila que representam os esquemas de compressão para variar a cache de saída por.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Caching dynamically compressed responses means that the cost of compression is incurred only one time, during the first request for the resource.</source>
+          <target state="translated">Colocação em cache as respostas dinamicamente comprimidas significa que o custo de compressão é necessária apenas uma vez, durante o primeiro pedido para o recurso.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The VaryByContentEncodings property is used with the <ph id="ph1">`Accept-Encoding`</ph> header of a request to determine how to serve cached responses for different content encodings that are dynamically compressed.</source>
+          <target state="translated">A propriedade VaryByContentEncodings é utilizada com o <ph id="ph1">`Accept-Encoding`</ph> cabeçalho de um pedido para determinar como servir as respostas em cache para diferentes codificações de conteúdo que são comprimidas dinamicamente.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Accept-Encoding header lists the encodings that the client can decompress.</source>
+          <target state="translated">O cabeçalho de codificação de aceitar lista as codificações de que o cliente pode descomprimir.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you set the cache to vary by content encoding, it lets the response vary indirectly by the value in the <ph id="ph1">`Accept-Encoding`</ph> header.</source>
+          <target state="translated">Quando definir a cache de variam consoante a codificação de conteúdo, permite que a resposta variar indiretamente pelo valor no <ph id="ph1">`Accept-Encoding`</ph> cabeçalho.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a request is processed, the <ph id="ph1">`Accept-Encoding`</ph> header is checked and the first acceptable encoding is identified and used to take one of the following actions:      -   If a matching encoding is found in the VaryByContentEncodings list and a cached response exists, the cached response is sent.</source>
+          <target state="translated">Quando um pedido é processado, o <ph id="ph1">`Accept-Encoding`</ph> cabeçalho está marcado e a codificação aceitável primeiro identificada e utilizada para efetuar uma das seguintes ações:-se uma codificação correspondente for encontrada na lista VaryByContentEncodings e existe uma resposta em cache, é enviada a resposta em cache.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a matching encoding is found in the VaryByContentEncodings list but a cached response does not exist, a response is generated and inserted into the cache.</source>
+          <target state="translated">-Se uma codificação correspondente for encontrada na lista VaryByContentEncodings, mas não existe uma resposta em cache, uma resposta é gerada e inserida na cache.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a matching encoding is not found in the VaryByContentEncodings list, the cache is searched for a non-encoded response, also referred to as the identity response.</source>
+          <target state="translated">-Se uma codificação correspondente não foi encontrada na lista VaryByContentEncodings, a cache é procurada uma resposta não codificada, também referida como a resposta de identidade.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the non-encoded response is found, it is sent.</source>
+          <target state="translated">Se a resposta não codificada for encontrada, é enviada.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, a new non-encoded response is generated, sent, and stored in the cache.</source>
+          <target state="translated">Caso contrário, uma nova resposta não codificada é gerada, enviada e armazenada na cache.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the VaryByContentEncodings property, see "RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1," which is available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a propriedade VaryByContentEncodings, consulte "RFC 2616: Hypertext Transfer Protocol--HTTP/1.1," que está disponível no <bpt id="p1">[</bpt>Consortium World Wide Web (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Information about content encodings is in section 14, "Header Field Definitions."</source>
+          <target state="translated">Informações sobre as codificações de conteúdo estão na secção 14, "Definições de campo de cabeçalho".</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the VaryByContentEncodings property by using the <ph id="ph1">`VaryByContentEncodings`</ph> attribute of the  directive.</source>
+          <target state="translated">Pode definir a propriedade VaryByContentEncodings utilizando o <ph id="ph1">`VaryByContentEncodings`</ph> atributo da diretiva.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also add a cache profile to the  element in the Web.config file.</source>
+          <target state="translated">Também pode adicionar um perfil de cache para o elemento no ficheiro Web. config.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>VaryByContentEncodings is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">VaryByContentEncodings é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>An object that specifies which <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers are used to select the cached response.</source>
+          <target state="translated">Um objeto que especifica qual <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> cabeçalhos são utilizados para selecionar a resposta em cache.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Gets the list of all HTTP headers that will be used to vary cache output.</source>
+          <target state="translated">Obtém a lista de todos os cabeçalhos HTTP que será utilizado para variar de saída da cache.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a cached item has several vary headers, a separate version of the requested document is available from the cache for each HTTP header type.</source>
+          <target state="translated">Quando um item em cache tem vários variar cabeçalhos, está disponível uma versão do documento pedido separada da cache para cada tipo de cabeçalho HTTP.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>VaryByHeaders is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">VaryByHeaders é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByHeaders"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies which HTTP headers are used to select the cached response.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByHeaders"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que especifica que os cabeçalhos de HTTP são utilizados para selecionar a resposta em cache.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Gets the list of parameters received by an HTTP <bpt id="p1">&lt;xref uid="langword_csharp_GET" name="GET" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or HTTP <bpt id="p2">&lt;xref uid="langword_csharp_POST" name="POST" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that affect caching.</source>
+          <target state="translated">Obtém a lista de parâmetros recebidas por um HTTP <bpt id="p1">&lt;xref uid="langword_csharp_GET" name="GET" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ou HTTP <bpt id="p2">&lt;xref uid="langword_csharp_POST" name="POST" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> que afetam a colocação em cache.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A separate version of the requested document is available from the cache for each named parameter in the VaryByParams collection.</source>
+          <target state="translated">Está disponível uma versão separada do documento pedido da cache para cada parâmetro com nome na coleção VaryByParams.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>VaryByParams is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">VaryByParams é apresentado no .NET Framework versão 3.5.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>versões e dependências<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByParams"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies which cache-control headers are used to select the cached response.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByParams"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que especifica que os cabeçalhos cache-control são utilizados para selecionar a resposta em cache.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

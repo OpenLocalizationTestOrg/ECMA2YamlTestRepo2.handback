@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67918dc525bfbcd675508d197c42b3f57a721e48</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">66b7ef86f40628c0806fc423f6222d6b854d259b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0e25f0da82404cfdce94a97208dbecc5d97c05d7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a connection point object that enables a server control acting as a consumer to form a connection with a provider.</source>
+          <target state="translated">プロバイダーとの接続を形成するコンシューマーとして機能するサーバー コントロールを有効にする接続ポイント オブジェクトを定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In every Web Parts connection between two server controls, each control must have (among other requirements) an associated connection point object that enables it to connect to the other control and to either provide or consume data, depending on whether the control is designated as the provider or consumer for the connection.</source>
+          <target state="translated">すべての Web パーツには、2 つのサーバー コントロールの間の接続が、各コントロールは、その他のコントロールへの接続および指定するか、コントロールがプロバイダーまたは接続のコンシューマーとして指定されているかどうかに応じて、データを使用することを有効にするに関連付けられた接続ポイント オブジェクト (その他の要件) が必要です。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt; object in general contains the details for how a control can connect to another control and the type of data it can share.</source>
+          <target state="translated">A&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;オブジェクトには一般に、コントロールが別のコントロールおよびと共有できるデータの種類に接続できる方法の詳細が含まれています&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>For a control acting as the consumer in a connection, its connection point must be a ConsumerConnectionPoint object.</source>
+          <target state="translated">接続でコンシューマーとして機能するコントロール、その接続ポイントは ConsumerConnectionPoint オブジェクトである必要があります。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For details on Web Parts connections and connection points, read the topics listed in the See Also section below.</source>
+          <target state="translated">Web パーツの接続および接続ポイントの詳細については、「参照」セクションのトピックを参照してください。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To create a ConsumerConnectionPoint object, several steps are required:      1.</source>
+          <target state="translated">ConsumerConnectionPoint オブジェクトを作成するにはいくつかの手順が必要: 1。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Enable a consumer control to reference an interface instance.</source>
+          <target state="translated">インターフェイス インスタンスを参照するコンシューマー コントロールを有効にします。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; or other server control (any type of server control that will be added to a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone can be used) must be able to consume data from a specific interface instance.</source>
+          <target state="translated">A&lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;またはその他のサーバー コントロール (任意の型に追加するサーバー コントロールの&lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;ゾーンを使用できます)、特定のインターフェイスのインスタンスからデータを使用できる必要があります&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The control need not implement the interface; only the provider must implement it.</source>
+          <target state="translated">コントロール必要があるインターフェイスを実装していませんプロバイダーのみには、これを実装する必要があります。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The consumer can either work with the exact interface type served by a provider or, if it does not, a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt; object can be used to transform data from a provider's interface type to a type understood by the consumer.</source>
+          <target state="translated">コンシューマーがプロバイダーによって提供される、正確なインターフェイスの型で使用するか、または、していない場合、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;コンシューマーによって認識される型に、プロバイダーのインターフェイス型からデータを変換するオブジェクトを使用できます&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A typical way to enable a consumer is to declare a private field to contain a reference to the desired interface type.</source>
+          <target state="translated">コンシューマーを有効にする一般的な方法は、目的のインターフェイス型への参照を格納するプライベート フィールドを宣言します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Identify a callback method.</source>
+          <target state="translated">コールバック メソッドを識別します。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A method in the consumer must be identified as the callback method to establish a connection with the provider.</source>
+          <target state="translated">コンシューマーのメソッドは、プロバイダーとの接続を確立するために、コールバック メソッドとして識別される必要があります。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This method retrieves an instance of the interface that the provider implements, and assigns it to (for example) the private field created in the first step.</source>
+          <target state="translated">このメソッドは、プロバイダーを実装し、割り当てるプライベート フィールド (たとえば) に作成されたことの最初の手順で、インターフェイスのインスタンスを取得します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Web Parts approach for identifying a callback method in the consumer is to add a <ph id="ph1">`ConnectionConsumer`</ph> metadata attribute (defined by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt; class) to the method that receives the interface instance.</source>
+          <target state="translated">コンシューマーのコールバック メソッドを識別するための Web パーツ方法は、追加する、<ph id="ph1">`ConnectionConsumer`</ph>メタデータの属性 (によって定義された、&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;クラス) インターフェイスのインスタンスを受信するメソッドにします&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When the attribute is added, the only required parameter is a display name to use for the consumer connection point.</source>
+          <target state="translated">属性が追加されたときにのみ必要なパラメーター、コンシューマー接続ポイントを使用する表示名です。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Optional parameters can also be added, such as an ID.</source>
+          <target state="translated">ID など、省略可能なパラメーターも追加できます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Process and output the data from the interface instance.</source>
+          <target state="translated">プロセスとインターフェイスのインスタンスからデータを出力します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Perform any internal processing as needed on the data, and then typically a consumer control will render the data to the page.</source>
+          <target state="translated">必要に応じて、データでは、内部処理を実行し、通常コンシューマー コントロールは表示ページにデータ。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A common way of doing this is to override the control's &lt;xref:System.Web.UI.Control.OnPreRender%2A&gt; method.</source>
+          <target state="translated">これを行う一般的な方法は、コントロールのオーバーライドする&lt;xref:System.Web.UI.Control.OnPreRender%2A&gt;メソッド&lt;/xref:System.Web.UI.Control.OnPreRender%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph>     &gt;  During a synchronous request, a consumer should request data directly from the provider during or immediately after the &lt;xref:System.Web.UI.Control.PreRender&gt; event.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 同期の要求時にコンシューマー要求する必要がありますデータ プロバイダーから直接中または直後後、&lt;xref:System.Web.UI.Control.PreRender&gt;イベント&lt;/xref:System.Web.UI.Control.PreRender&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>During an asynchronous request, if the provider's callback method is not called at any point during rendering, the developer can assume that no data was sent to the consumer.</source>
+          <target state="translated">非同期の要求時にレンダリング中に、任意の時点で、プロバイダーのコールバック メソッドが呼び出されない場合、開発者と仮定できますコンシューマーにデータが送信されなかったこと。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>After a control has been equipped to act as a consumer, the control can participate in connections (assuming that a provider control is also equipped and available).</source>
+          <target state="translated">コンシューマーとして機能するコントロールを備えたされましたが、後に、コントロールは、接続 (装備され使用可能なプロバイダーのコントロールがまたがあると仮定) に参加できます。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To create a static, declarative connection in the markup of a Web page, developers can use the <ph id="ph1">`&lt;asp:webpartconnection&gt;`</ph> element.</source>
+          <target state="translated">Web ページのマークアップで、宣言型の静的な接続を作成する開発者が使用して、<ph id="ph1">`&lt;asp:webpartconnection&gt;`</ph>要素。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`ConnectionConsumer`</ph> attribute in the consumer source code that identifies the callback method specifies an ID for the connection point, then that value must be assigned to the <ph id="ph2">`ConsumerConnectionPointID`</ph> attribute in the <ph id="ph3">`&lt;asp:webpartconnection&gt;`</ph> element on a page.</source>
+          <target state="translated">場合、<ph id="ph1">`ConnectionConsumer`</ph>コールバック メソッドを識別するコンシューマー ソース コード内の属性は、接続ポイントの ID を指定し、その値を割り当てる必要があります、<ph id="ph2">`ConsumerConnectionPointID`</ph>属性、<ph id="ph3">`&lt;asp:webpartconnection&gt;`</ph>ページの要素。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A reason that a developer might specify an ID for a consumer connection point is if there are multiple connection points defined in the consumer control.</source>
+          <target state="translated">開発者がコンシューマー接続ポイントの ID を指定する理由は、コンシューマー コントロールで定義されている複数の接続ポイントがあるかどうかです。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If an ID is not specified for the consumer connection point in the consumer control, a value does not have to be assigned to the <ph id="ph1">`ConsumerConnectionPointID`</ph> attribute in the page either, because the connection will be created using a default value obtained from the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt; field.</source>
+          <target state="translated">割り当てられる値がないコンシューマー コントロールのコンシューマー接続ポイントの ID が指定されていない場合、<ph id="ph1">`ConsumerConnectionPointID`</ph>から取得した既定値を使用して、接続が作成するため、ページで、属性、&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;フィールド&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DefaultID&gt;。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To create a connection in code, developers must create a new ConsumerConnectionPoint object by calling the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt; method and passing to it the ID of the consumer control, along with the ID or index of the defined ConsumerConnectionPoint object in the consumer control.</source>
+          <target state="translated">コードで接続を作成する開発者は、呼び出すことによって新しい ConsumerConnectionPoint オブジェクトを作成する必要があります、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt;メソッドと ID またはコンシューマー コントロールに ConsumerConnectionPoint オブジェクトの定義のインデックスと、コンシューマー コントロールの ID を渡すします&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The returned ConsumerConnectionPoint object, along with a reference to the consumer control, a reference to the provider control, and a corresponding &lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt; object, are all passed to the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectWebParts%2A&gt; method to create a new &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; object.</source>
+          <target state="translated">ConsumerConnectionPoint の返されたオブジェクトのコンシューマー コントロールへの参照を対応するプロバイダー コントロールへの参照と&lt;xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;オブジェクトでは、すべてに渡される、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectWebParts%2A&gt;メソッドを作成、新しい&lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;オブジェクト&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.ConnectWebParts%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.ProviderConnectionPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Although developers can use consumer connection points as part of establishing connections either declaratively or programmatically, users can also interact with consumer connection points to establish connections through the user interface (UI).</source>
+          <target state="translated">開発者は、宣言またはプログラムによって、接続を確立するための一部として、コンシューマー接続ポイントを使用できますが、ユーザーも、ユーザー インターフェイス (UI) 経由の接続を確立するためにコンシューマー接続ポイントと対話できます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If developers declare a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control on a Web page, it provides a run-time UI for users to create connections.</source>
+          <target state="translated">開発者は、宣言する場合、&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;コントロール、Web ページ上ユーザー接続を作成するためのランタイムの UI を提供します&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If users choose the provider control as the starting point for establishing the connection by clicking its connect verb (they could also choose the consumer; there is no difference in the resulting connection), in the UI they will see a drop-down list control with the display names of the available consumer connection point (or points if there are multiple ones) that the provider can send the data to.</source>
+          <target state="translated">ユーザーをクリックして接続を確立するための出発点としてプロバイダーのコントロールを選択する場合、動詞を接続 (コンシューマーを選択する可能性があります以外の場合は、結果として得られる接続に違いはありません)、使用可能なコンシューマー接続ポイント (またはポイントが複数の場合) の表示名でのドロップダウン リスト コントロールが UI に表示されます、プロバイダーがデータを送信できます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Users must select a consumer connection point to establish a connection.</source>
+          <target state="translated">ユーザーは、接続を確立するコンシューマー接続ポイントを選択する必要があります。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A ConsumerConnectionPoint object associates directly with a specific consumer control, and stores details about a connection in the properties it inherits from the base &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt; class.</source>
+          <target state="translated">ConsumerConnectionPoint オブジェクトは、特定のコンシューマーのコントロールを直接関連付けます、基本&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;クラス&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;から継承プロパティでは、接続の詳細を格納</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>For example, in the inherited &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt; property, a consumer connection point keeps the type of interface it uses.</source>
+          <target state="translated">たとえばでは、継承された&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt;プロパティを使用してインターフェイスの型を保持するコンシューマー接続ポイント&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If the provider and consumer in a connection both understand the interface type, the controls are compatible and capable of forming a direct connection.</source>
+          <target state="translated">プロバイダーとの接続でコンシューマー両方インターフェイスの種類を理解して場合、コントロールは互換性のあるおよび直接接続を形成することです。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the provider and consumer cannot work with the same interface type, they are incompatible and must use a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt; object to translate the provider connection point's &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt; property into a type that the consumer can work with.</source>
+          <target state="translated">互換性がありませんし、使用する必要があります、プロバイダーとコンシューマーは、同じインターフェイス型を扱うことはできない場合、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;プロバイダー接続ポイントの翻訳をオブジェクト&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt;、コンシューマーが使用できる型にプロパティ&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.InterfaceType%2A&gt;&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Another important inherited property is the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DisplayName%2A&gt; property, which provides a friendly name to display in the UI for users to choose a consumer connection point when creating connections.</source>
+          <target state="translated">他の重要な継承されたプロパティは、&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DisplayName%2A&gt;をコンシューマー接続を選択するユーザーの UI に表示するフレンドリ名を提供するプロパティが接続を作成するときにポイントします&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.DisplayName%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The display name is the required parameter when developers add a <ph id="ph1">`ConnectionConsumer`</ph> attribute to the callback method in a consumer control.</source>
+          <target state="translated">開発者を追加するときに、表示名は必須のパラメーター、<ph id="ph1">`ConnectionConsumer`</ph>属性コンシューマー コントロールのコールバック メソッドにします。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The inherited &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ID%2A&gt; property is also useful, as indicated above, because it provides a unique identifier for a consumer connection point in the event that a consumer has multiple connection points.</source>
+          <target state="translated">継承された&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ID%2A&gt;プロパティは上に示されて、コンシューマーは、複数の接続ポイントを持つことのコンシューマー接続ポイントの一意識別子を提供するために便利です&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.ID%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A consumer can have multiple ConsumerConnectionPoint objects defined in it, and in this case, when developers add the <ph id="ph1">`ConnectionConsumer`</ph> attribute to a method, they should specify an ID value to distinguish each connection point.</source>
+          <target state="translated">コンシューマーとに定義された、この場合は、開発者は、追加時に複数の ConsumerConnectionPoint オブジェクトを持つことができます、<ph id="ph1">`ConnectionConsumer`</ph>属性、メソッドに各接続ポイントを区別するために ID 値を指定する必要があります。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>One other notable inherited property is the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.AllowsMultipleConnections%2A&gt; property, which indicates whether a consumer connection point can connect simultaneously to multiple providers.</source>
+          <target state="translated">その他の注目すべき継承されたプロパティは&amp;1; つは、&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.AllowsMultipleConnections%2A&gt;プロパティで、コンシューマー接続ポイントが複数のプロバイダーに同時に接続できるかどうかを示します&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint.AllowsMultipleConnections%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This property value is <ph id="ph1">`false`</ph> by default for consumer connection points (whereas it defaults to <ph id="ph2">`true`</ph> for provider connection points).</source>
+          <target state="translated">このプロパティの値が<ph id="ph1">`false`</ph>コンシューマー接続ポイントの既定 (既定値は一方<ph id="ph2">`true`</ph>プロバイダー接続ポイントの)。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The ConsumerConnectionPoint class adds several unique methods to the members it inherits from the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt; class.</source>
+          <target state="translated">ConsumerConnectionPoint クラス固有のいくつかのメソッドを追加する&lt;xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;クラス&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionPoint&gt;から継承してメンバーに</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SetObject%2A&gt; method invokes the consumer's own defined callback method to retrieve the interface instance from the provider.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SetObject%2A&gt;メソッドは、プロバイダーからインターフェイスのインスタンスを取得するコンシューマーの独自定義されたコールバック メソッドを呼び出します&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SetObject%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SupportsConnection%2A&gt; method returns a Boolean value that indicates whether the connection point is able to establish connections, based on the current state of the associated consumer control.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SupportsConnection%2A&gt;メソッド接続ポイントが関連付けられているコンシューマー コントロールの現在の状態に基づいて、接続を確立できないかどうかを示すブール値を返します&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint.SupportsConnection%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The ConsumerConnectionPoint constructor for the &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class simply calls the base constructor, passing to it the various parameters and initializing the base class.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;クラスは、基底コンス トラクター、さまざまなパラメーターを渡すと、基本クラスの初期化を呼び出すだけ&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;の ConsumerConnectionPoint コンス トラクター</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The base class constructor checks a number of the parameters for a connection point and can throw several exceptions.</source>
+          <target state="translated">基本クラス コンス トラクターでは、接続ポイントのパラメーターの数を確認し、いくつかの例外をスローすることができます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>For a list of possible exceptions, see the Exceptions section.</source>
+          <target state="translated">可能性のある例外の一覧は、例外を参照してください。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can call the ConsumerConnectionPoint constructor to create your own instance of the &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class.</source>
+          <target state="translated">&lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;クラス&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;のインスタンスを作成する、ConsumerConnectionPoint コンス トラクターを呼び出すことができます。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>However, in cases where you are simply establishing a connection and not extending the class, you should call the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt; method to return a connection point object from a provider.</source>
+          <target state="translated">ただし、しているだけで接続を確立して、クラスを拡張しない場合を呼び出す必要があります、&lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt;プロバイダーからの接続ポイント オブジェクトを返すメソッド&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.GetConsumerConnectionPoints%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The method in the consumer control that returns an interface instance to consumers to establish a connection.</source>
+          <target state="translated">インターフェイス インスタンスが接続を確立するコンシューマーに返されますコンシューマー コントロールのメソッドです。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the interface that the consumer receives from a provider.</source>
+          <target state="translated">&lt;xref:System.Type&gt;のコンシューマーをプロバイダーから受信するインターフェイス&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the consumer control with which the consumer connection point is associated.</source>
+          <target state="translated">&lt;xref:System.Type&gt;のコンシューマー接続ポイントが関連付けられているコンシューマー コントロール&lt;/xref:System.Type&gt;。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A friendly display name for the consumer connection point that appears to users in the connection user interface (UI).</source>
+          <target state="translated">接続のユーザー インターフェイス (UI) のユーザーに表示されるコンシューマー接続ポイントの表示名。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the consumer connection point.</source>
+          <target state="translated">コンシューマー接続ポイントの一意の識別子。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A Boolean value indicating whether the consumer connection point can have multiple simultaneous connections with providers.</source>
+          <target state="translated">コンシューマー接続ポイントに同時に複数のプロバイダーに接続できるかどうかを示すブール値。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;controlType &lt;/code&gt;</ph>is not the same type as the consumer control (or a valid class derived from it).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;controlType &lt;/code&gt;</ph>コンシューマー コントロールと同じ型ではありません (または、有効なクラスがそこから派生)。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Invokes the callback method in a consumer control and retrieves the interface instance from a provider control.</source>
+          <target state="translated">コンシューマー コントロールのコールバック メソッドを呼び出すし、プロバイダーのコントロールからインターフェイスのインスタンスを取得します。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This method receives an interface instance from a provider that contains data for the consumer control.</source>
+          <target state="translated">このメソッドは、コンシューマーのコントロールのデータを格納するプロバイダーからインターフェイスのインスタンスを受け取ります。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The SetObject method is called by &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; objects when a connection is being activated.</source>
+          <target state="translated">SetObject メソッドによって呼び出されます&lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;オブジェクトの接続をアクティブ化時にします&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This is a critical step that is part of initiating a connection and enabling two controls to share data.</source>
+          <target state="translated">これは、接続を開始して、データを共有する&amp;2; つのコントロールを有効化の一部である重要な手順です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The consumer control in a connection must be able to work with the same type of interface as the provider.</source>
+          <target state="translated">接続のコンシューマー コントロールは、プロバイダーと同じ型のインターフェイスを使用できる必要があります。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If it does not, the controls are incompatible and a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt; object must be used to establish a connection.</source>
+          <target state="translated">コントロールとの互換性がない場合は、および&lt;xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;オブジェクトは、接続を確立するために使用する必要があります&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartTransformer&gt;。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The consumer control associated with a consumer connection point.</source>
+          <target state="translated">コンシューマー接続ポイントに関連付けられているコンシューマー コントロール。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The interface instance returned from a provider control.</source>
+          <target state="translated">プロバイダーのコントロールからインターフェイスのインスタンスが返されます。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;control&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;control&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Determines whether a consumer connection point is currently capable of establishing a connection.</source>
+          <target state="translated">コンシューマー接続ポイントが現在の接続を確立できるかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The SupportsConnection method as implemented always returns <ph id="ph1">`true`</ph> in all cases for the &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class.</source>
+          <target state="translated">SupportsConnection メソッド実装を返しますでは常に<ph id="ph1">`true`</ph>&lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;クラス&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;のすべての場合</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The intent for this method is to have it check on the state of <ph id="ph1">`control`</ph> and <ph id="ph2">`secondaryInterfaces`</ph> at certain critical points to determine whether a &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; object is presently able to create a connection.</source>
+          <target state="translated">このメソッドの目的は、の状態を確認する<ph id="ph1">`control`</ph>と<ph id="ph2">`secondaryInterfaces`</ph>を決定する特定の重要な時点でかどうか、&lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;オブジェクトが現在の接続を作成できません&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>There can be scenarios where <ph id="ph1">`control`</ph> is in a state that would make it impossible to form a connection, or where <ph id="ph2">`secondaryInterfaces`</ph> must exist before a connection can be formed.</source>
+          <target state="translated">シナリオがある場所<ph id="ph1">`control`</ph>が不可能になること、接続を構成できる状態では、または where<ph id="ph2">`secondaryInterfaces`</ph>接続を確立できる前に存在する必要があります。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>In such cases, developers can inherit from the &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class, and override the SupportsConnection method, providing a custom implementation to determine when the connection point is ready to support connections.</source>
+          <target state="translated">このような場合、開発者、&lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;クラス、および接続ポイントが接続に対応している場合を決定するカスタムの実装を提供する、SupportsConnection メソッドをオーバーライドします&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The consumer control associated with the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">コンシューマー コントロールに関連付けられている、 <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionInterfaceCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of any secondary interfaces that participate in a connection.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionInterfaceCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>接続に参加しているセカンダリ インターフェイスです。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a connection point can currently establish a connection; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合は、接続ポイントの現在接続を確立できます。それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
