@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b943f71bc094eab000ce5de06ecb3c2564abbc5b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Messaging.LogicalCallContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c9e5669d2313112a6b1234f7a86cb1a558dad62</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">592b80e4b4f2de4418776d410cc3ea3d67dec57d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a set of properties that are carried with the execution code path during remote method calls.</source>
+          <target state="translated">提供一组在远程方法调用期间执行的执行代码路径的属性。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The LogicalCallContext class is a version of the &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt; class that is used during method calls to remote application domains.</source>
+          <target state="translated">LogicalCallContext 类是新版&lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt;方法期间使用的类调用到远程应用程序域。&lt;/xref:System.Runtime.Remoting.Messaging.CallContext&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt; is a specialized collection object similar to a thread local storage for method calls, and provides data slots that are unique to each logical thread of execution.</source>
+          <target state="translated">&lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt;是专用的集合对象类似于方法调用的线程本地存储，并提供对执行的每个逻辑线程是唯一的数据槽。&lt;/xref:System.Runtime.Remoting.Messaging.CallContext&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The slots are not shared across call contexts on other logical threads.</source>
+          <target state="translated">槽不共享跨其他逻辑线程上调用上下文中。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Objects can be added to the &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt; as it travels down and up the execution code path, and examined by various objects along the path.</source>
+          <target state="translated">可以将对象添加到&lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt;旅行 down 和 up 执行代码路径，并且检查由各种对象沿路径。&lt;/xref:System.Runtime.Remoting.Messaging.CallContext&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When a remote method call is made to an object in another &lt;xref:System.AppDomain&gt;, the &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt; class generates a LogicalCallContext that travels along with the remote call.</source>
+          <target state="translated">当在另一个对象进行远程方法调用&lt;xref:System.AppDomain&gt;、&lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt;类生成与远程调用一起传播 LogicalCallContext。&lt;/xref:System.Runtime.Remoting.Messaging.CallContext&gt; &lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Only objects that expose the &lt;xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt; interface and are stored in the &lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt; are propagated outside the &lt;xref:System.AppDomain&gt; in a LogicalCallContext.</source>
+          <target state="translated">仅对象公开&lt;xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt;接口，并存储在&lt;xref:System.Runtime.Remoting.Messaging.CallContext&gt;外部传播&lt;xref:System.AppDomain&gt;中 LogicalCallContext。&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Runtime.Remoting.Messaging.CallContext&gt; &lt;/xref:System.Runtime.Remoting.Messaging.ILogicalThreadAffinative&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Objects that do not support this interface are not transmitted in LogicalCallContext instances with remote method calls.</source>
+          <target state="translated">不支持此接口的对象不会传输 LogicalCallContext 实例与远程方法调用中。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This class makes a link demand.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 此类，使链接要求。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A SecurityException is thrown if the immediate caller does not have infrastructure permission.</source>
+          <target state="translated">如果直接调用方没有基础结构的权限，将引发安全异常。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">[</bpt>Link Demands<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> for more information.</source>
+          <target state="translated">请参阅<bpt id="p1">[</bpt>链接需求<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>有关详细信息。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Creates a new object that is a copy of the current instance.</source>
+          <target state="translated">创建当前实例副本的新对象。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Clone method produces a deep copy of the current &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;.</source>
+          <target state="translated">Clone 方法生成当前&lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;.&lt;/xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;的深层副本</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A new object that is a copy of this instance.</source>
+          <target state="translated">此实例副本的新对象。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Empties a data slot with the specified name.</source>
+          <target state="translated">清空与指定名称的数据槽。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The name of the data slot to empty.</source>
+          <target state="translated">为空的数据槽的名称。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Retrieves an object associated with the specified name from the current instance.</source>
+          <target state="translated">检索与当前实例的指定名称关联的对象。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The name of the item in the call context.</source>
+          <target state="translated">在调用上下文中项的名称。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The object in the logical call context associated with the specified name.</source>
+          <target state="translated">具有指定名称关联的逻辑调用上下文中的对象。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Populates a specified <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the data needed to serialize the current <bpt id="p2">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">填充指定<bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>序列化当前所需的数据<bpt id="p2">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The current method fills the provided &lt;xref:System.Runtime.Serialization.SerializationInfo&gt; with all the data needed to recreate the &lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;.</source>
+          <target state="translated">当前方法提供填充&lt;xref:System.Runtime.Serialization.SerializationInfo&gt;的重新创建&lt;xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;.&lt;/xref:System.Runtime.Remoting.Messaging.LogicalCallContext&gt;所需的所有数据&lt;/xref:System.Runtime.Serialization.SerializationInfo&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The current method is an implementation of &lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.</source>
+          <target state="translated">当前方法是&lt;xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;.&lt;/xref:System.Runtime.Serialization.ISerializable.GetObjectData%2A&gt;的实现</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to populate with data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要填充数据。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The contextual information about the source or destination of the serialization.</source>
+          <target state="translated">有关源或目标的序列化的上下文信息。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have SerializationFormatter permission.</source>
+          <target state="translated">直接调用方没有 SerializationFormatter 权限。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains information.</source>
+          <target state="translated">获取一个值，该值指示是否当前<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含的信息。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A Boolean value indicating whether the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains information.</source>
+          <target state="translated">一个布尔值，该值指示是否当前<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.LogicalCallContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含的信息。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Stores the specified object in the current instance, and associates it with the specified name.</source>
+          <target state="translated">将指定的对象存储在当前实例中，并将其关联具有指定名称。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name with which to associate the new item in the call context.</source>
+          <target state="translated">要与关联调用上下文中的新项名称。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The object to store in the call context.</source>
+          <target state="translated">要在调用上下文中存储的对象。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

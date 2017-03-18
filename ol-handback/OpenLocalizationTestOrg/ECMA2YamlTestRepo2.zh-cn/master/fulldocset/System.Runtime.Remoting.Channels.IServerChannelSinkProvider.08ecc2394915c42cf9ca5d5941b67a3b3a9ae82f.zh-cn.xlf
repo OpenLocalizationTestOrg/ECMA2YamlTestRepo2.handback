@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c5e1c5469f5b5e7197f9f03c54bab66fa52645c2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Channels.IServerChannelSinkProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a7a8c21d61c5dfad841b4f1d07fb5d21c27fb1a7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">35e1949ebb3904e2943f02a88fb17a1ba66ef319</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Creates server channel sinks for the server channel through which remoting messages flow.</source>
+          <target state="translated">创建服务器的远程处理从消息流过的服务器信道的信道接收器。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Channel sinks are connected to a server channel through implementations of the IServerChannelSinkProvider interface.</source>
+          <target state="translated">信道接收器被连接到服务器通道通过 IServerChannelSinkProvider 接口的实现。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>All the remoting server channels provide constructors that take a IServerChannelSinkProvider as a parameter.</source>
+          <target state="translated">远程处理服务器的所有通道都提供采用作为参数 IServerChannelSinkProvider 构造函数。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Channel sink providers are stored in a chain, and the user is responsible for chaining all channel sink providers together before passing the outer one to the channel constructor.</source>
+          <target state="translated">信道接收器提供程序存储在一个链，并且用户负责将链接所有通道接收器提供程序在一起传递到通道构造函数的外部一个之前。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>IServerChannelSinkProvider provides a property called &lt;xref:System.Runtime.Remoting.Channels.IServerChannelSinkProvider.Next%2A&gt; for this purpose.</source>
+          <target state="translated">IServerChannelSinkProvider 提供一个名为属性&lt;xref:System.Runtime.Remoting.Channels.IServerChannelSinkProvider.Next%2A&gt;为此目的。&lt;/xref:System.Runtime.Remoting.Channels.IServerChannelSinkProvider.Next%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When multiple channel sink providers are specified in a configuration file, the remoting infrastructure will chain them together in the order they are found in the configuration file.</source>
+          <target state="translated">当在配置文件中指定多个通道接收器提供程序时，远程处理基础结构将这些链接在一起的配置文件中找到它们的顺序。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The channel sink providers are created at the same time as the channel, during a &lt;xref:System.Runtime.Remoting.RemotingConfiguration.Configure%2A?displayProperty=fullName&gt; call.</source>
+          <target state="translated">信道接收器提供程序期间创建作为通道，同时&lt;xref:System.Runtime.Remoting.RemotingConfiguration.Configure%2A?displayProperty=fullName&gt;调用。&lt;/xref:System.Runtime.Remoting.RemotingConfiguration.Configure%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>After the &lt;xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt; is generated, .NET Framework searches through the list of registered channels to find one that can process the call.</source>
+          <target state="translated">后&lt;xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt;生成时，.NET Framework 将已注册的通道找到一个可以处理调用的列表中搜索。&lt;/xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Once an appropriate channel has been found, the channel sink is retrieved from the channel, and the &lt;xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt; is forwarded to the sink for processing.</source>
+          <target state="translated">找到适当的信道后, 从通道，检索通道接收器和&lt;xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt;转发到接收器以进行处理。&lt;/xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Creates a sink chain.</source>
+          <target state="translated">创建接收器链。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The channel for which to create the channel sink chain.</source>
+          <target state="translated">要为其创建信道接收链通道。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The first sink of the newly formed channel sink chain, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which indicates that this provider will not or cannot provide a connection for this endpoint.</source>
+          <target state="translated">新构成的通道接收器链的第一个接收器或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，指示此提供程序将不会或无法提供此终结点的连接。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直接调用方没有基础结构权限。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Returns the channel data for the channel that the current sink is associated with.</source>
+          <target state="translated">返回当前接收器相关联的通道的通道数据。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IChannelDataStore"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object in which the channel data is to be returned.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IChannelDataStore"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象是用要返回的通道数据。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直接调用方没有基础结构权限。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets or sets the next sink provider in the channel sink provider chain.</source>
+          <target state="translated">获取或设置通道接收器提供程序链中的下一步的接收器提供程序。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The next sink provider in the channel sink provider chain.</source>
+          <target state="translated">通道接收器提供程序链中的下一步接收器提供程序。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have infrastructure permission.</source>
+          <target state="translated">直接调用方没有基础结构权限。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
