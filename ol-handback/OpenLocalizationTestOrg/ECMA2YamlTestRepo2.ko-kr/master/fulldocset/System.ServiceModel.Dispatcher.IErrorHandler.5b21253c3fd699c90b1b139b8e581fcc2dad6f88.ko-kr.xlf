@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f29254e4c77a62e24dea1389ef9600a714c596c9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.IErrorHandler.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b4aec507f557f6cdc0e6abc42005d5e48a0cba73</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22f3fdfa3c121ba6baf2019a628d603c86da3fa9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows an implementer to control the fault message returned to the caller and optionally perform custom error processing such as logging.</source>
+          <target state="translated">구현 자가 호출자에 게 반환 되는 오류 메시지를 제어 하 고 필요에 따라 사용자 지정 로깅 등 오류 처리를 수행할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To explicitly control the behavior of the application when an exception is thrown, implement the IErrorHandler interface and add it to the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;’s &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt; property.</source>
+          <target state="translated">예외가 throw 되 면 응용 프로그램의 동작을 명시적으로 제어를 IErrorHandler 인터페이스를 구현 하 고 추가 하는 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;의 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt;속성.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IErrorHandler enables you to explicitly control the SOAP fault generated, decide whether to send it back to the client, and perform associated tasks, such as logging.</source>
+          <target state="translated">IErrorHandler를 사용 하면 명시적으로 생성 된 SOAP 오류를 제어 하는 클라이언트에 다시 보내고, 로깅과 같은 관련된 작업을 수행할 것인지 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Error handlers are called in the order in which they were added to the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt; property.</source>
+          <target state="translated">오류 처리기에 추가 된 순서 대로 호출 됩니다는 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt;속성.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement the &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt; method to control the fault message that is returned to the client.</source>
+          <target state="translated">구현 된 &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;메서드를 클라이언트에 반환 되는 오류 메시지를 제어 합니다.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement the &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt; method to ensure error-related behaviors, including error logging, assuring a fail fast, shutting down the application, and so on.</source>
+          <target state="translated">구현 된 &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;로깅, 실패가 신속 하 고 확인 하 여 응용 프로그램을 종료 하는 오류를 포함 하 여 오류 관련 동작을 확인 하는 메서드.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because the &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt; method can be called from many different places there are no guarantees made about which thread the method is called on.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 때문에 &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;여러 다른 위치에서 만든가 보장 되지 않습니다 메서드가 호출 되는 스레드에 대 한 메서드를 호출할 수 있습니다.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not depend on &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt; method being called on the operation thread.</source>
+          <target state="translated">에 종속 되지 않는 &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;메서드가 작업 스레드에서 호출 된다고.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt; implementations are called first, prior to sending a response message.</source>
+          <target state="translated">모든 &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;구현은 응답 메시지를 보내기 전에 처음으로 호출 됩니다.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When all &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt; implementations have been called and return, and if <ph id="ph1">`fault`</ph> is non-<ph id="ph2">`null`</ph>, it is sent back to the client according to the operation contract.</source>
+          <target state="translated">때 모든 &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;구현은 호출 되 고 반환 하 고, 경우에 한 <ph id="ph1">`fault`</ph> 이 아닌<ph id="ph2">`null`</ph>, 작업 계약에 따라 클라이언트에 보내집니다.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`fault`</ph> is <ph id="ph2">`null`</ph> after all implementations have been called, the response message is controlled by the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.IncludeExceptionDetailInFaults%2A?displayProperty=fullName&gt; property value.</source>
+          <target state="translated">경우 <ph id="ph1">`fault`</ph> 은 <ph id="ph2">`null`</ph> 응답 메시지에 의해 제어 됩니다 모든 구현이 호출 된 후의 &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.IncludeExceptionDetailInFaults%2A?displayProperty=fullName&gt;속성 값.&lt;/xref:System.ServiceModel.ServiceBehaviorAttribute.IncludeExceptionDetailInFaults%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Exceptions can occur after all &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt; implementations are called and a response message is handed to the channel.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 예외가 결국 발생할 수 있습니다 &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;구현이 호출 되 고 응답 메시지가 채널로 전달 됩니다.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a channel exception occurs (for example, difficulty serializing the message) IErrorHandler objects are notified.</source>
+          <target state="translated">(예: 메시지를 직렬화 하는 데 어려움이) 채널 예외가 발생 하는 경우 IErrorHandler 개체 알림이 표시 됩니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, you should still make sure that your development environment catches and displays such exceptions to you or makes use of tracing to discover the problem.</source>
+          <target state="translated">이 경우 여전히 확인 해야 개발 환경의 catch 하 고 이러한 예외가 표시 또는 검색 문제를 추적 사용 하 합니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about tracing, see <bpt id="p1">[</bpt>Using Tracing to Troubleshoot Your Application<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">추적에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>응용 프로그램 문제 해결에 대 한 추적 사용 하 여<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the response message has been sent, all &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt; implementations are called in the same order.</source>
+          <target state="translated">응답 메시지 전송 된 후에, 모든 &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;구현이 동일한 순서로 호출 됩니다.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, an IErrorHandler implementation is added to the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt; property on the service (and the client in the case of duplex communication).</source>
+          <target state="translated">IErrorHandler 구현에 추가 되는 일반적으로 &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt;속성에는 서비스 및 클라이언트 (양방향 통신의 경우).&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add the IErrorHandler to the runtime by implementing a behavior (either an &lt;xref:System.ServiceModel.Description.IServiceBehavior?displayProperty=fullName&gt;, &lt;xref:System.ServiceModel.Description.IEndpointBehavior?displayProperty=fullName&gt;, &lt;xref:System.ServiceModel.Description.IContractBehavior?displayProperty=fullName&gt;, or &lt;xref:System.ServiceModel.Description.IOperationBehavior?displayProperty=fullName&gt; object) and use the behavior programmatically, from a configuration file or with a custom attribute to attach your IErrorHandler.</source>
+          <target state="translated">동작을 구현 하 여 런타임에 IErrorHandler를 추가할 수 있습니다 (중 하나는 &lt;xref:System.ServiceModel.Description.IServiceBehavior?displayProperty=fullName&gt;, &lt;xref:System.ServiceModel.Description.IEndpointBehavior?displayProperty=fullName&gt;, &lt;xref:System.ServiceModel.Description.IContractBehavior?displayProperty=fullName&gt;, 또는 &lt;xref:System.ServiceModel.Description.IOperationBehavior?displayProperty=fullName&gt;개체)를 사용 하 여 동작을 프로그래밍 방식으로 구성 파일에서 또는 사용자 지정 특성 프로그램 IErrorHandler를 연결 합니다.&lt;/xref:System.ServiceModel.Description.IOperationBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IContractBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IEndpointBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IServiceBehavior?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about using behaviors to modify the runtime, see <bpt id="p1">[</bpt>Configuring and Extending the Runtime with Behaviors<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">동작을 사용 하 여 런타임을 수정 하는 방법에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>구성 하 고 런타임 동작을 확장<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Enables error-related processing and returns a value that indicates whether the dispatcher aborts the session and the instance context in certain cases.</source>
+          <target state="translated">오류 관련 처리를 가능 하 고 발송자 세션과 특정 한 경우에는 인스턴스 컨텍스트를 중단 하는지 여부를 나타내는 값을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the HandleError method to implement error-related behaviors such as error logging, system notifications, shutting down the application, and so on, and return a value that specifies whether the exception has been handled appropriately.</source>
+          <target state="translated">HandleError 메서드를 사용 하 여 오류 로깅, 시스템 알림, 응용 프로그램 및 등 종료와 같은 오류 관련 동작을 구현 하 고 예외가 적절 하 게 처리 되었는지 여부를 지정 하는 값을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because the HandleError method can be called from many different places there are no guarantees made about which thread the method is called on.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 있으므로 여러 다른 위치에서 만든가 보장 되지 않습니다에서 호출 하면 특정 스레드에서 HandleError 메서드를 호출할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not depend on HandleError method being called on the operation thread.</source>
+          <target state="translated">HandleError 메서드가 작업 스레드에서 호출 된다고에 종속 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler&gt; implementations are called.</source>
+          <target state="translated">모든 &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler&gt;구현이 호출 됩니다.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default (when the return value is <ph id="ph1">`false`</ph>), if there is an exception, the dispatcher aborts any session and aborts the &lt;xref:System.ServiceModel.InstanceContext&gt; if the &lt;xref:System.ServiceModel.InstanceContextMode&gt; is anything other than &lt;xref:System.ServiceModel.InstanceContextMode&gt;.</source>
+          <target state="translated">기본적으로 (반환 값이 <ph id="ph1">`false`</ph>), 발송자 모든 세션을 중단 하 고 중단 예외 여부는 &lt;xref:System.ServiceModel.InstanceContext&gt;경우 &lt;xref:System.ServiceModel.InstanceContextMode&gt;가 아닌 &lt;xref:System.ServiceModel.InstanceContextMode&gt;.&lt;/xref:System.ServiceModel.InstanceContextMode&gt; &lt;/xref:System.ServiceModel.InstanceContextMode&gt; &lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception is then considered unhandled and any state is considered corrupt.</source>
+          <target state="translated">예외는으로 간주 됩니다 처리 되지 않은 한 모든 상태 손상 된 것으로 간주 됩니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Return <ph id="ph1">`true`</ph> from HandleError to prevent this default behavior.</source>
+          <target state="translated">반환할 <ph id="ph1">`true`</ph> 이 기본 동작을 방지 하기 위해 HandleError에서 합니다.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any error handler returns <ph id="ph1">`true`</ph> it instructs <ph id="ph2">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> that it is safe to continue using state associated with the failed request.</source>
+          <target state="translated">오류 처리기를 반환 하는 경우 <ph id="ph1">`true`</ph> 지시 <ph id="ph2">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> 실패 한 요청과 관련 된 상태를 계속 사용 해도 안전 하다 합니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no error handler returns <ph id="ph1">`true`</ph> from the HandleError method the exception is considered unhandled and the default response applies, potentially resulting in an aborted &lt;xref:System.ServiceModel.InstanceContext?displayProperty=fullName&gt; and channel when communicating on a session channel or the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A?displayProperty=fullName&gt; property is not set to &lt;xref:System.ServiceModel.InstanceContextMode?displayProperty=fullName&gt;.</source>
+          <target state="translated">오류 처리기를 반환 하는 경우 <ph id="ph1">`true`</ph> 예외 것으로 간주 하는 메서드는 HandleError에서 처리 되지 않은 하 고 잠재적으로 그 결과는 중단 &lt;xref:System.ServiceModel.InstanceContext?displayProperty=fullName&gt;하 고 채널에서 세션 채널 또는 &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A?displayProperty=fullName&gt; &lt;xref:System.ServiceModel.InstanceContextMode?displayProperty=fullName&gt;.&lt;/xref:System.ServiceModel.InstanceContextMode?displayProperty=fullName&gt; 속성이 설정 되지 않은&lt;/xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A?displayProperty=fullName&gt; 통신할 때&lt;/xref:System.ServiceModel.InstanceContext?displayProperty=fullName&gt; 기본 응답이 사용 됩니다</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`error`</ph> parameter is never <ph id="ph2">`null`</ph> and contains the exception object that was thrown.</source>
+          <target state="translated"><ph id="ph1">`error`</ph> 매개 변수는 <ph id="ph2">`null`</ph> throw 된 예외 개체를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The exception thrown during processing.</source>
+          <target state="translated">처리 하는 동안 throw 되는 예외입니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> should not abort the session (if there is one) and instance context if the instance context is not <bpt id="p2">&lt;xref href="System.ServiceModel.InstanceContextMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>경우 <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> (있는 경우) 세션을 중단 및 인스턴스 컨텍스트는 인스턴스 컨텍스트 없으면 없습니다 <bpt id="p2">&lt;xref href="System.ServiceModel.InstanceContextMode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, 그렇지 않으면 <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Enables the creation of a custom <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.FaultException%601<ph id="ph2">&amp;gt;</ph> that is returned from an exception in the course of a service method.</source>
+          <target state="translated">사용자 지정을 만들 수 있도록 <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.FaultException%601<ph id="ph2">&amp;gt;</ph> 서비스 메서드 중 예외에서 반환 되는 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement the ProvideFault method to create a custom fault message that is returned to the client.</source>
+          <target state="translated">클라이언트에 반환 되는 사용자 지정 오류 메시지를 만들려면 ProvideFault 메서드를 구현 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProvideFault method will always be called for exceptions that leave operations, except when the WCF runtime recognizes the exception as especially fatal and rethrows the exception itself.</source>
+          <target state="translated">ProvideFault 메서드는 WCF 런타임 같은 특히 심각한 예외를 인식 하 고 자체 예외를 다시 throw 하는 경우를 제외 하 고 작업을 유지 하는 예외에 대 한 항상 호출 됩니다.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When all ProvideFault implementations have been called, the fault message is sent back to the client (if <ph id="ph1">`fault`</ph> is non-<ph id="ph2">`null`</ph>).</source>
+          <target state="translated">모든 ProvideFault 구현이 호출 되는 오류 메시지는 클라이언트에 다시 전송 됩니다 (경우 <ph id="ph1">`fault`</ph> 이 아닌<ph id="ph2">`null`</ph>).</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`fault`</ph> parameter is <ph id="ph2">`null`</ph> the default fault is sent to the client.</source>
+          <target state="translated">경우는 <ph id="ph1">`fault`</ph> 매개 변수는 <ph id="ph2">`null`</ph> 기본 오류가 클라이언트로 보내집니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The inbound message that caused the processing error is available during this method from the &lt;xref:System.ServiceModel.OperationContext.RequestContext%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt;에서이 메서드 중 처리 오류의 원인인 인바운드 메시지를 사용할 수는 &lt;xref:System.ServiceModel.OperationContext.RequestContext%2A?displayProperty=fullName&gt;속성.&lt;/xref:System.ServiceModel.OperationContext.RequestContext%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because the ProvideFault method can be called from many different places there are no guarantees made about which thread the method is called on.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 있으므로 여러 다른 위치에서 만든가 보장 되지 않습니다 메서드가 호출 되는 스레드에 대 한 ProvideFault 메서드를 호출할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not depend on ProvideFault method being called on the operation thread.</source>
+          <target state="translated">ProvideFault 메서드가 작업 스레드에서 호출 된다고에 종속 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Exception&gt; object thrown in the course of the service operation.</source>
+          <target state="translated">&lt;xref:System.Exception&gt;서비스 작업 중 발생 하는 개체입니다.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The SOAP version of the message.</source>
+          <target state="translated">메시지의 SOAP 버전입니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.Channels.Message?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object that is returned to the client, or service, in the duplex case.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.Channels.Message?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> 클라이언트 또는 양방향 인 경우에서 서비스에 반환 되는 개체입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

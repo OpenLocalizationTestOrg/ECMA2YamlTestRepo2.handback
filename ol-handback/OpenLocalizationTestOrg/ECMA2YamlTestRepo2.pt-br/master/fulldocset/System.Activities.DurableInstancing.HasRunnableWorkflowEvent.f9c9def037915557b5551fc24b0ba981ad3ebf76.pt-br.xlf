@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5499d9b65802a53c7662f80b3532e3c7148ba1d3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.DurableInstancing.HasRunnableWorkflowEvent.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c74ff1c2ee015f368bc97dcfd66a74414f88b6f9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d5dde74432ca823962223ed8f7f81f0e9fd473e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an event that the SQL Workflow Instance Store raises to notify workflow hosts about the existence of runnable instances in the persistence database.</source>
+          <target state="translated">Representa um evento que gera o armazenamento de instância de fluxo de trabalho do SQL para notificar os hosts de fluxo de trabalho sobre a existência de instâncias executáveis no banco de dados de persistência.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance is <bpt id="p1">*</bpt>runnable<ept id="p1">*</ept>, if it is not in the suspended state or the completed state and satisfies the following conditions:      -   The instance is unlocked and has a pending timer that has expired.</source>
+          <target state="translated">Uma instância é <bpt id="p1">*</bpt>executável<ept id="p1">*</ept>, se ele não está em estado suspenso ou o estado concluído e satisfaça as seguintes condições:-a instância está desbloqueada e tem um timer pendentes que expirou.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The instance is unlocked and its status is <bpt id="p1">**</bpt>Executing<ept id="p1">**</ept>.</source>
+          <target state="translated">-A instância está desbloqueada e seu status é <bpt id="p1">**</bpt>executando<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The instance has an invalid lock on it.</source>
+          <target state="translated">-A instância tem um bloqueio inválido.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance store should periodically search for runnable instances that belong to a workflow host that uses the store.</source>
+          <target state="translated">Periodicamente, um repositório de instâncias deve pesquisar por instâncias executáveis que pertencem a um host de fluxo de trabalho que usa o repositório.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It should raise the HasRunnableWorkflowEvent when it finds a runnable instance in the persistence store that matches its workflow host type.</source>
+          <target state="translated">Ele deve gerar o HasRunnableWorkflowEvent quando ele encontra uma instância executável no repositório de persistência que corresponde a seu tipo de host de fluxo de trabalho.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the instance store does not find a runnable instance in the persistence store, it should continue to monitor the persistence store for any runnable instances.</source>
+          <target state="translated">Se o repositório de instância não encontrar uma instância executável no repositório de persistência, ele deve continuar a monitorar o repositório de persistência para todas as instâncias executáveis.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After raising the HasRunnableWorkflowEvent, the instance store should stop monitoring the persistence store for runnable instances until it receives and executes the &lt;xref:System.Activities.DurableInstancing.TryLoadRunnableWorkflowCommand&gt;.</source>
+          <target state="translated">Depois de gerar o HasRunnableWorkflowEvent, o repositório de instância deve parar de monitorar o repositório de persistência de instâncias executáveis até que ele recebe e executa &lt;xref:System.Activities.DurableInstancing.TryLoadRunnableWorkflowCommand&gt;.&lt;/xref:System.Activities.DurableInstancing.TryLoadRunnableWorkflowCommand&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The monitoring continues only if the TryLoadRunnableWorkflowCommand execution does not return any runnable instances.</source>
+          <target state="translated">O monitoramento continua apenas se a execução de TryLoadRunnableWorkflowCommand não retorna qualquer instância executável.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a workflow host receives the HasRunnableWorkflowEvent, it executes the &lt;xref:System.Activities.DurableInstancing.TryLoadRunnableWorkflowCommand&gt; against the instance store to load the instance into the memory.</source>
+          <target state="translated">Quando um host de fluxo de trabalho recebe o HasRunnableWorkflowEvent, ele executa o &lt;xref:System.Activities.DurableInstancing.TryLoadRunnableWorkflowCommand&gt;em relação ao armazenamento de instância para carregar a instância na memória.&lt;/xref:System.Activities.DurableInstancing.TryLoadRunnableWorkflowCommand&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes an instance of the <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.HasRunnableWorkflowEvent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma instância do <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.HasRunnableWorkflowEvent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

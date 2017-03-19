@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">93899f77dbe9a89a757dd2011e2fe034a73757a3</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.CodeAccessPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">76e028dcf191768d6cde1ff987f2c0821484576b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">620f466bc0c7923a43efc9b1250f57dc037351b1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the underlying structure of all code access permissions.</source>
+          <target state="translated">すべてのコード アクセス許可の基になる構造を定義します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Code access permissions use a stack walk to ensure that all callers of the code have been granted a permission.</source>
+          <target state="translated">コード アクセス許可では、スタック ウォークを使用して、アクセス許可がコードのすべての呼び出し元に付与されていることを確認します。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If a permission object is <ph id="ph1">`null`</ph>, it is handled the same as a permission object with the state &lt;xref:System.Security.Permissions.PermissionState?displayProperty=fullName&gt;.</source>
+          <target state="translated">権限オブジェクトが場合<ph id="ph1">`null`</ph>、 &lt;xref:System.Security.Permissions.PermissionState?displayProperty=fullName&gt;.&lt;/xref:System.Security.Permissions.PermissionState?displayProperty=fullName&gt;の状態でアクセス許可オブジェクトと同様に処理には</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">通常、呼び出し履歴はコール スタックに呼び出し履歴の上位にあるメソッドが下位にあるメソッドを呼び出すようにダウン、成長として表されます。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Inheritors of the CodeAccessPermission class must be granted full trust to function correctly as permissions extending the security infrastructure.</source>
+          <target state="translated">CodeAccessPermission クラスの継承元には、セキュリティ インフラストラクチャを拡張するアクセス許可として正しく機能する完全な信頼を付与する必要があります。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To determine that the inheritors are fully trusted, CodeAccessPermission issues an &lt;xref:System.Security.Permissions.SecurityAction&gt; for &lt;xref:System.Security.Permissions.SecurityPermissionFlag&gt; = <ph id="ph1">`true`</ph> and &lt;xref:System.Security.Permissions.SecurityPermissionFlag&gt; = <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">継承元が完全に信頼された、CodeAccessPermission 問題であるため、&lt;xref:System.Security.Permissions.SecurityAction&gt;の&lt;xref:System.Security.Permissions.SecurityPermissionFlag&gt;=<ph id="ph1">`true`</ph>と&lt;xref:System.Security.Permissions.SecurityPermissionFlag&gt;= <ph id="ph2">`true`</ph>&lt;/xref:System.Security.Permissions.SecurityPermissionFlag&gt; &lt;/xref:System.Security.Permissions.SecurityPermissionFlag&gt; &lt;/xref:System.Security.Permissions.SecurityAction&gt; 。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This constructor is called to initialize state in the type whenever an instance of the derived class is created.</source>
+          <target state="translated">このコンス トラクターは、派生クラスのインスタンスが作成されるたびに、型の状態を初期化するために呼び出されます。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Although you can explicitly call this constructor in the constructor declaration of the derived class constructor, this is not usually necessary; most compilers will automatically generate the call for you.</source>
+          <target state="translated">派生クラスのコンス トラクターのコンス トラクター宣言で、このコンス トラクターを明示的に呼び出すことができますが一致しない通常必要です。ほとんどのコンパイラでは、呼び出しを自動的に生成されます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Declares that the calling code can access the resource protected by a permission demand through the code that calls this method, even if callers higher in the stack have not been granted permission to access the resource.</source>
+          <target state="translated">呼び出し元のコードがスタック内の上位の呼び出し元がリソースにアクセスする権限が許可されていない場合でも、このメソッドを呼び出すコードを通じてアクセス許可要求によって保護されているリソースにアクセスできることを宣言します。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Using Assert can create security issues.</source>
+          <target state="translated">Assert を使用すると、セキュリティの問題を作成できます。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">通常、呼び出し履歴はコール スタックに呼び出し履歴の上位にあるメソッドが下位にあるメソッドを呼び出すようにダウン、成長として表されます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Calling Assert prevents a stack walk originating lower in the call stack from proceeding up the call stack beyond the code that calls this method.</source>
+          <target state="translated">Assert を呼び出すには、元このメソッドを呼び出すコードを超える呼び出し履歴を先に進むからのコール スタックの下位のスタック ウォークができなくなります。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Therefore, even if callers higher on the call stack do not have the requisite permissions to access a resource, they can still access it through the code that calls this method on the necessary permission.</source>
+          <target state="translated">そのため、場合でも、呼び出し履歴の上位の呼び出し元には、リソースにアクセスするために必要なアクセス許可がない、それらにアクセスできることにより、コードをこのメソッドを呼び出すために必要なアクセス許可。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An assertion is effective only if the code that calls Assert passes the security check for the permission that it is asserting.</source>
+          <target state="translated">アサーションは、アサートを呼び出すコードをアサートしている、権限のセキュリティ チェックに合格する場合にのみ有効です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The call to Assert is effective until the calling code returns to its caller.</source>
+          <target state="translated">Assert への呼び出しは、呼び出し元のコードは、呼び出し元に返されるまで有効です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Only one Assert can be active on a frame.</source>
+          <target state="translated">1 つだけのアサートはフレーム上でアクティブにすることはできます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An attempt to call Assert when an active Assert exists on the frame results in a &lt;xref:System.Security.SecurityException&gt;.</source>
+          <target state="translated">アクティブなアサートが&lt;xref:System.Security.SecurityException&gt;。&lt;/xref:System.Security.SecurityException&gt;フレーム結果に存在する場合は、アサートを呼び出そうとすると</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt; or &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; to remove an active Assert.</source>
+          <target state="translated">呼び出す&lt;xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt;または&lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;active アサートを削除する&lt;/xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;&lt;/xref:System.Security.CodeAccessPermission.RevertAssert%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Assert is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">アサートはそのアクセス許可の確認要求は成功しませんので許可されていなかった権限は無視されます。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However, if code lower on the call stack calls &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt; for that permission, a &lt;xref:System.Security.SecurityException&gt; is thrown when the stack walk reaches the code that tried to call Assert.</source>
+          <target state="translated">ただし、コール スタックの下部のコードを呼び出す場合&lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt;そのアクセス許可、&lt;xref:System.Security.SecurityException&gt;スタック ウォークがアサートを呼び出すしようとしたコードに達した場合にスローされます&lt;/xref:System.Security.SecurityException&gt;&lt;/xref:System.Security.CodeAccessPermission.Demand%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This happens because the code that called Assert has not been granted the permission, even though it tried to Assert it.</source>
+          <target state="translated">これはことをアサートするしようとした場合でも、アサートを呼び出したコードに、アクセス許可が与えられていないためです。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Because calling Assert removes the requirement that all code in the call chain must be granted permission to access the specified resource, it can open up security issues if used incorrectly or inappropriately.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Assert を呼び出すには、呼び出しチェーン内のすべてのコードに対して、指定されたリソースにアクセスする権限を付与する必要がある要件が解除されます、ために開くことができるセキュリティの問題を誤ってまたは不適切に使用する場合。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Therefore, it should be used with great caution.</source>
+          <target state="translated">そのため、注意深く使用してください。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The calling code does not have <bpt id="p1">&lt;xref href="System.Security.Permissions.SecurityPermissionFlag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">呼び出し元のコードはありません<bpt id="p1">&lt;xref href="System.Security.Permissions.SecurityPermissionFlag"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>-or-       There is already an active Assert for the current frame.</source>
+          <target state="translated">または、現在のフレームのアクティブなアサートが既に存在します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>When implemented by a derived class, creates and returns an identical copy of the current permission object.</source>
+          <target state="translated">派生クラスで実装された場合、作成し、現在のアクセス許可オブジェクトの完全なコピーを返します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A copy of a permission object represents the same access to resources as the original permission object.</source>
+          <target state="translated">アクセス許可オブジェクトのコピーは、元のアクセス許可オブジェクトと、リソースに対して同じアクセス権を表します。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission object.</source>
+          <target state="translated">現在のアクセス許可オブジェクトのコピー。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Forces a &lt;xref:System.Security.SecurityException&gt; at run time if all callers higher in the call stack have not been granted the permission specified by the current instance.</source>
+          <target state="translated">強制的な&lt;xref:System.Security.SecurityException&gt;実行時に現在のインスタンスによって指定されたアクセス許可が呼び出し履歴内の上位にあるすべての呼び出し元に付与されていない場合&lt;/xref:System.Security.SecurityException&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This method is typically used by secure libraries to ensure that callers have permission to access a resource.</source>
+          <target state="translated">このメソッドは呼び出し元がリソースにアクセスする権限を持っていることを確認する、セキュリティで保護されたライブラリで通常使用されます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, a file class in a secure class library calls Demand for the necessary &lt;xref:System.Security.Permissions.FileIOPermission&gt; before performing a file operation requested by the caller.</source>
+          <target state="translated">たとえば、安全なクラス ライブラリ内のファイル クラスが、必要なの需要を呼び出します&lt;xref:System.Security.Permissions.FileIOPermission&gt;、呼び出し元によって要求されたファイルの操作を実行する前にします&lt;/xref:System.Security.Permissions.FileIOPermission&gt;。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The permissions of the code that calls this method are not examined; the check begins from the immediate caller of that code and proceeds up the stack.</source>
+          <target state="translated">このメソッドを呼び出すコードのアクセス許可はチェックされません。チェックは、そのコードの直前の呼び出し元から開始され、スタックの上位に進みます。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">通常、呼び出し履歴はコール スタックに呼び出し履歴の上位にあるメソッドが下位にあるメソッドを呼び出すようにダウン、成長として表されます。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Demand succeeds only if no &lt;xref:System.Security.SecurityException&gt; is raised.</source>
+          <target state="translated">しかない場合、要求が成功した&lt;xref:System.Security.SecurityException&gt;が発生します&lt;/xref:System.Security.SecurityException&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A caller higher in the call stack does not have the permission specified by the current instance.</source>
+          <target state="translated">呼び出し履歴の上位の呼び出し元には、現在のインスタンスによって指定されたアクセス許可がありません。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       A caller higher in the call stack has called &lt;xref:System.Security.CodeAccessPermission.Deny*&gt; on the current permission object.</source>
+          <target state="translated">- または - 呼び出し履歴の上位の呼び出し元が呼び出されて&lt;xref:System.Security.CodeAccessPermission.Deny*&gt;、現在のアクセス許可オブジェクトです&lt;/xref:System.Security.CodeAccessPermission.Deny*&gt;。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Prevents callers higher in the call stack from using the code that calls this method to access the resource specified by the current instance.</source>
+          <target state="translated">呼び出し履歴の上位の呼び出し元が現在のインスタンスによって指定されたリソースにアクセスするには、このメソッドを呼び出すコードを使用するを防ぎます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  The Deny method should be used only to protect resources from accidental access by fully trusted code.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; 完全に信頼されたコードでは、偶発的なアクセスからリソースを保護する場合にのみ Deny メソッドを使用してください。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>It should not be used to protect resources from intentional misuse by untrusted code.</source>
+          <target state="translated">指定しないでリソースを意図的な誤用から保護する信頼されていないコードでします。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, if method <ph id="ph1">`A`</ph> issues a Deny for a permission and then calls method <ph id="ph2">`B`</ph>, method <ph id="ph3">`B`</ph> can overtly override the Deny by issuing an &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;.</source>
+          <target state="translated">たとえば場合、メソッド<ph id="ph1">`A`</ph>権限の拒否を発行し、メソッドを呼び出して、 <ph id="ph2">`B`</ph>、メソッド<ph id="ph3">`B`</ph> &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;.&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt;を発行して拒否する を上書き獲得できます</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The called method is always higher in the stack.</source>
+          <target state="translated">呼び出されたメソッドは、スタック内の上位は常にします。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Therefore, if method <ph id="ph1">`B`</ph> tries to access a protected resource, the security system begins checking for permissions with it because method <ph id="ph2">`B`</ph> is the immediate caller, and then walks down the stack to confirm that there is no Deny or &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt; lower in the stack.</source>
+          <target state="translated">したがって場合、メソッド<ph id="ph1">`B`</ph>保護されたリソース、セキュリティ システムへのアクセスの試行がためアクセス許可と、その確認を開始メソッド<ph id="ph2">`B`</ph>直前の呼び出し元は、上下してウォーク Deny がないことを確認するスタックまたは&lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;、スタック内の下位&lt;/xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Method <ph id="ph1">`B`</ph>, which is trying to access the resource, can stop the stack walk immediately by using the &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; method.</source>
+          <target state="translated">メソッド<ph id="ph1">`B`</ph>、リソースにアクセスしようとするは直ちに停止できるスタック ウォークを使用して、&lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;メソッド&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>In that case, the Deny placed on the stack by method <ph id="ph1">`A`</ph> (the calling method) is never discovered.</source>
+          <target state="translated">その場合は、Deny スタック上に配置メソッドによって<ph id="ph1">`A`</ph>(呼び出し元のメソッド) が検出されることはありません。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This method prevents callers higher in the call stack from accessing the protected resource through the code that calls this method, even if those callers have been granted permission to access it.</source>
+          <target state="translated">このメソッドは、コール スタックの上位の呼び出し元がそれらの呼び出し元にはそれにアクセスする権限が付与されている場合でもこのメソッドを呼び出すコードを保護されたリソースにアクセスすることを防ぎます。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">通常、呼び出し履歴はコール スタックに呼び出し履歴の上位にあるメソッドが下位にあるメソッドを呼び出すようにダウン、成長として表されます。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Deny can limit the liability of the programmer or help prevent accidental security issues because it helps prevent the method that calls Deny from being used to access the resource protected by the denied permission.</source>
+          <target state="translated">Deny では、プログラマの責任を制限したり、拒否されたアクセス許可によって保護されているリソースへのアクセスに使用されるを拒否を呼び出されるメソッドを防ぐのに役立つので偶発的なセキュリティの問題を防止することができます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If a method calls Deny on a permission, and if a &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt; for that permission is invoked by a caller lower in the call stack, that security check will fail when it reaches the Deny.</source>
+          <target state="translated">メソッドでアクセス許可、拒否を呼び出す場合と場合、 &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt;Deny になったときにそのアクセス許可は、呼び出し履歴内の下位にある呼び出し元によって呼び出されるのセキュリティ チェックは失敗します&lt;/xref:System.Security.CodeAccessPermission.Demand%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The call to Deny is effective until the calling code returns to its caller.</source>
+          <target state="translated">拒否への呼び出しは、呼び出し元のコードは、呼び出し元に返されるまで有効です。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Only one Deny can be active on a frame.</source>
+          <target state="translated">1 つだけの拒否はフレーム上でアクティブにすることはできます。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An attempt to call Deny when an active Deny exists on the frame results in a &lt;xref:System.Security.SecurityException&gt;.</source>
+          <target state="translated">アクティブな拒否は&lt;xref:System.Security.SecurityException&gt;。&lt;/xref:System.Security.SecurityException&gt;フレーム結果に存在する場合は、拒否を呼び出そうとすると</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Security.CodeAccessPermission.RevertDeny%2A&gt; or &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; to remove an active Deny.</source>
+          <target state="translated">呼び出す&lt;xref:System.Security.CodeAccessPermission.RevertDeny%2A&gt;または&lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;active 拒否を削除する&lt;/xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;&lt;/xref:System.Security.CodeAccessPermission.RevertDeny%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Deny is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">拒否した権限を与えないため、そのアクセス許可の確認要求は成功しませんは無視されます。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>There is already an active Deny for the current frame.</source>
+          <target state="translated">現在のフレームの作業中の Deny が既に存在します。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is equal to the current <bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">決定するかどうか、指定した<bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクトが現在<bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Object.Equals%2A&gt;.</source>
+          <target state="translated">詳細については、 &lt;xref:System.Object.Equals%2A&gt;。&lt;/xref:System.Object.Equals%2A&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to compare with the current <bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>現在と比較するオブジェクト<bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified <bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is equal to the current <bpt id="p3">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、指定した<bpt id="p2">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクトが現在<bpt id="p3">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>、それ以外の<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, reconstructs a security object with a specified state from an XML encoding.</source>
+          <target state="translated">派生クラスでオーバーライドされると、XML エンコードから指定された状態で、セキュリティ オブジェクトを再構築します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Custom code that extends security objects needs to implement the &lt;xref:System.Security.CodeAccessPermission.ToXml%2A&gt; and FromXml methods to make the objects security-encodable.</source>
+          <target state="translated">セキュリティ オブジェクトを拡張するカスタム コードを実装する必要があります、&lt;xref:System.Security.CodeAccessPermission.ToXml%2A&gt;とする、オブジェクトはセキュリティ encodable FromXml メソッド&lt;/xref:System.Security.CodeAccessPermission.ToXml%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The XML encoding to use to reconstruct the security object.</source>
+          <target state="translated">XML は、セキュリティ オブジェクトを再構築に使用するエンコーディングします。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter does not contain the XML encoding for an instance of the same type as the current instance.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">elem</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターには、現在のインスタンスと同じ型のインスタンスの XML エンコードが含まれていません。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>-or-       The version number of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not supported.</source>
+          <target state="translated">- または - のバージョン番号、 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">elem</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターはサポートされていません。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets a hash code for the <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is suitable for use in hashing algorithms and data structures such as a hash table.</source>
+          <target state="translated">ハッシュ コードを取得、 <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>ハッシュ ハッシュ テーブルなどのアルゴリズムとデータ構造で使用するために適切なオブジェクトです。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The hash code for two instances of the same permission might be different, hence a hash code should not be used to compare two &lt;xref:System.Security.CodeAccessPermission&gt; objects.</source>
+          <target state="translated">同じアクセス許可の&amp;2; つのインスタンスのハッシュ コードが異なる可能性があります、ためハッシュ コードを比較する&amp;2; つ使用するされません&lt;xref:System.Security.CodeAccessPermission&gt;オブジェクト&lt;/xref:System.Security.CodeAccessPermission&gt;。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A hash code for the current <bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">現在のハッシュ コード<bpt id="p1">&lt;xref href="System.Security.CodeAccessPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>When implemented by a derived class, creates and returns a permission that is the intersection of the current permission and the specified permission.</source>
+          <target state="translated">派生クラスで実装された場合、作成し、現在のアクセス許可と指定したアクセス許可の積集合であるアクセス許可を返します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The intersection of two permissions is a permission that describes the set of operations they both describe in common.</source>
+          <target state="translated">2 つのアクセス許可の積集合は、一連の両方に共通する操作を説明する権限です。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Only a demand that passes both original permissions will pass the intersection.</source>
+          <target state="translated">元の両方の権限を通過する要求だけでは、積集合を渡されます。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A permission to intersect with the current permission.</source>
+          <target state="translated">現在のアクセス許可と交差するアクセス許可。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">これは、現在のアクセス許可と同じ型でなければなりません。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the intersection of the current permission and the specified permission.</source>
+          <target state="translated">現在のアクセス許可と指定したアクセス許可の積集合を表す新しいアクセス許可。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This new permission is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the intersection is empty.</source>
+          <target state="translated">この新しいアクセス許可は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>積集合が空の場合。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not an instance of the same class as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターではありません<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>し、現在のアクセス許可と同じクラスのインスタンスではありません。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>When implemented by a derived class, determines whether the current permission is a subset of the specified permission.</source>
+          <target state="translated">派生クラスで実装された場合、現在のアクセス許可、指定した権限のサブセットであるかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A permission that is to be tested for the subset relationship.</source>
+          <target state="translated">サブセットの関係をテストするのには権限です。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This permission must be of the same type as the current permission.</source>
+          <target state="translated">このアクセス許可は、現在のアクセス許可と同じ型でなければなりません。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current permission is a subset of the specified permission; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>現在のアクセス許可が指定した権限のサブセットの場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and is not of the same type as the current permission.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p1">&lt;/code&gt;</ept>パラメーターではありません<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>と現在のアクセス許可と同じ型でもありません。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Prevents callers higher in the call stack from using the code that calls this method to access all resources except for the resource specified by the current instance.</source>
+          <target state="translated">呼び出し履歴の上位の呼び出し元が現在のインスタンスによって指定されたリソースを除くすべてのリソースにアクセスするには、このメソッドを呼び出すコードを使用するを防ぎます。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  The PermitOnly method should be used only to protect resources from accidental access by fully trusted code.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; 完全に信頼されたコードでは、偶発的なアクセスからリソースを保護する場合にのみ PermitOnly メソッドを使用してください。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>It should not be used to protect resources from intentional misuse by untrusted code.</source>
+          <target state="translated">指定しないでリソースを意図的な誤用から保護する信頼されていないコードでします。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For example, if method <ph id="ph1">`A`</ph> issues a PermitOnly for a permission and then calls method <ph id="ph2">`B`</ph>, method <ph id="ph3">`B`</ph> can overtly override the PermitOnly by issuing an &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;.</source>
+          <target state="translated">たとえば場合、メソッド<ph id="ph1">`A`</ph>アクセス許可の PermitOnly を発行し、メソッドを呼び出して、 <ph id="ph2">`B`</ph>、メソッド<ph id="ph3">`B`</ph> &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;.&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt;を発行することで、PermitOnly をオーバーライドできます獲得</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The called method is always higher in the stack.</source>
+          <target state="translated">呼び出されたメソッドは、スタック内の上位は常にします。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Therefore, if method <ph id="ph1">`B`</ph> tries to access a protected resource, the security system begins checking for permissions with it because method <ph id="ph2">`B`</ph> is the immediate caller, and then walks down the stack to confirm that there is no &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; or PermitOnly lower in the stack.</source>
+          <target state="translated">したがって場合、メソッド<ph id="ph1">`B`</ph>保護されたリソース、セキュリティ システムへのアクセスの試行がためアクセス許可と、その確認を開始メソッド<ph id="ph2">`B`</ph>直前の呼び出し元は、上下しウォークがあることを確認するスタックありません&lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;または PermitOnly、スタック内の下位&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Method <ph id="ph1">`B`</ph>, which is trying to access the resource, can stop the stack walk immediately by using the &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; method.</source>
+          <target state="translated">メソッド<ph id="ph1">`B`</ph>、リソースにアクセスしようとするは直ちに停止できるスタック ウォークを使用して、&lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;メソッド&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>In that case, the PermitOnly placed on the stack by method <ph id="ph1">`A`</ph> (the calling method) is never discovered.</source>
+          <target state="translated">その場合は、PermitOnly スタック上に配置メソッドによって<ph id="ph1">`A`</ph>(呼び出し元のメソッド) が検出されることはありません。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>PermitOnly is similar to &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;, in that both cause stack walks to fail when they would otherwise succeed.</source>
+          <target state="translated">PermitOnly と似ています&lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;、それ以外の場合操作が成功すると失敗するスタック ウォークが発生する両方でその&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The difference is that &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; specifies permissions that will cause the stack walk to fail, but PermitOnly specifies the only permissions that do not cause the stack walk to fail.</source>
+          <target state="translated">その違いは&lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;を指定するスタックを原因となるアクセス許可が失敗するため、説明は PermitOnly は失敗するスタック ウォークが発生しないのみのアクセス許可を指定します&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Call this method to ensure that your code can be used to access only the specified resources.</source>
+          <target state="translated">このメソッドを呼び出して、指定されたリソースのみにアクセスするコードを使用できることを確認してください。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The call to PermitOnly is effective until the calling code returns to its caller.</source>
+          <target state="translated">PermitOnly への呼び出しは、呼び出し元のコードは、呼び出し元に返されるまで有効です。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Only one PermitOnly can be active on a frame.</source>
+          <target state="translated">1 つだけ PermitOnly はフレーム上でアクティブにすることはできます。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>An attempt to call PermitOnly when an active PermitOnly exists on the frame results in a &lt;xref:System.Security.SecurityException&gt;.</source>
+          <target state="translated">アクティブな PermitOnly は&lt;xref:System.Security.SecurityException&gt;。&lt;/xref:System.Security.SecurityException&gt;フレーム結果に存在する場合は、PermitOnly を呼び出そうとすると</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Security.CodeAccessPermission.RevertPermitOnly%2A&gt; or &lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt; to remove an active PermitOnly.</source>
+          <target state="translated">呼び出す&lt;xref:System.Security.CodeAccessPermission.RevertPermitOnly%2A&gt;または&lt;xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;active PermitOnly を削除する&lt;/xref:System.Security.CodeAccessPermission.RevertAll%2A&gt;&lt;/xref:System.Security.CodeAccessPermission.RevertPermitOnly%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>PermitOnly is ignored for a permission not granted because a demand for that permission will not succeed.</source>
+          <target state="translated">そのアクセス許可の確認要求は成功しませんので許可されていなかった権限 PermitOnly は無視されます。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>However, if code lower on the call stack later calls &lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt; for that permission, a &lt;xref:System.Security.SecurityException&gt; is thrown when the stack walk reaches the code that tried to call PermitOnly.</source>
+          <target state="translated">ただし、コードのコール スタックを後で場合呼び出し&lt;xref:System.Security.CodeAccessPermission.Demand%2A&gt;そのアクセス許可、&lt;xref:System.Security.SecurityException&gt;スタック ウォークが PermitOnly を呼び出すしようとしたコードに達した場合にスローされます&lt;/xref:System.Security.SecurityException&gt;&lt;/xref:System.Security.CodeAccessPermission.Demand%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This is because the code that called PermitOnly has not been granted the permission, even though it called PermitOnly for that permission.</source>
+          <target state="translated">これは、そのアクセス許可に対して PermitOnly が呼び出されていなくても、PermitOnly を呼び出したコードに、アクセス許可が与えられていないためです。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The call stack is typically represented as growing down, so that methods higher in the call stack call methods lower in the call stack.</source>
+          <target state="translated">通常、呼び出し履歴はコール スタックに呼び出し履歴の上位にあるメソッドが下位にあるメソッドを呼び出すようにダウン、成長として表されます。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>There is already an active PermitOnly for the current frame.</source>
+          <target state="translated">現在のフレームの作業中の PermitOnly が既に存在します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Causes all previous overrides for the current frame to be removed and no longer in effect.</source>
+          <target state="translated">現在のフレームを削除して効果で不要になったすべての以前の上書きが発生します。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If there are no overrides (&lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;, &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;, or &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;) for the current frame, an &lt;xref:System.ExecutionEngineException&gt; is thrown.</source>
+          <target state="translated">上書きがない場合 (&lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;、 &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;、または&lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;) 現在のフレーム、&lt;xref:System.ExecutionEngineException&gt;がスローされます&lt;/xref:System.ExecutionEngineException&gt;&lt;/xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>There is no previous &lt;xref:System.Security.CodeAccessPermission.Assert<bpt id="p1">*</bpt>&gt;, &lt;xref:System.Security.CodeAccessPermission.Deny<ept id="p1">*</ept>&gt;, or &lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt; for the current frame.</source>
+          <target state="translated">ない&lt;&gt; <bpt id="p1">*</bpt>&gt;、 &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt;、または&lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt;現在のフレーム&lt;/xref:System.Security.CodeAccessPermission.PermitOnly*&gt;。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Causes any previous &lt;xref:System.Security.CodeAccessPermission.Assert*&gt; for the current frame to be removed and no longer in effect.</source>
+          <target state="translated">以前のど&lt;xref:System.Security.CodeAccessPermission.Assert*&gt;現在のフレームを削除して効果で不要になった&lt;/xref:System.Security.CodeAccessPermission.Assert*&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If there is no &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; for the current frame, an &lt;xref:System.ExecutionEngineException&gt; is thrown.</source>
+          <target state="translated">ある場合ありません&lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;現在のフレーム、&lt;xref:System.ExecutionEngineException&gt;がスローされます&lt;/xref:System.ExecutionEngineException&gt;&lt;/xref:System.Security.CodeAccessPermission.Assert%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>There is no previous &lt;xref:System.Security.CodeAccessPermission.Assert*&gt; for the current frame.</source>
+          <target state="translated">ない&lt;xref:System.Security.CodeAccessPermission.Assert*&gt;現在のフレーム&lt;/xref:System.Security.CodeAccessPermission.Assert*&gt;。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Causes any previous &lt;xref:System.Security.CodeAccessPermission.Deny*&gt; for the current frame to be removed and no longer in effect.</source>
+          <target state="translated">以前のど&lt;xref:System.Security.CodeAccessPermission.Deny*&gt;現在のフレームを削除して効果で不要になった&lt;/xref:System.Security.CodeAccessPermission.Deny*&gt;。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If there is no &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; for the current frame, an &lt;xref:System.ExecutionEngineException&gt; is thrown.</source>
+          <target state="translated">ある場合ありません&lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;現在のフレーム、&lt;xref:System.ExecutionEngineException&gt;がスローされます&lt;/xref:System.ExecutionEngineException&gt;&lt;/xref:System.Security.CodeAccessPermission.Deny%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>There is no previous &lt;xref:System.Security.CodeAccessPermission.Deny*&gt; for the current frame.</source>
+          <target state="translated">ない&lt;xref:System.Security.CodeAccessPermission.Deny*&gt;現在のフレーム&lt;/xref:System.Security.CodeAccessPermission.Deny*&gt;。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Causes any previous &lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt; for the current frame to be removed and no longer in effect.</source>
+          <target state="translated">以前のど&lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt;現在のフレームを削除して効果で不要になった&lt;/xref:System.Security.CodeAccessPermission.PermitOnly*&gt;。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>If there is no &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt; for the current frame, an &lt;xref:System.ExecutionEngineException&gt; is thrown.</source>
+          <target state="translated">ある場合ありません&lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;現在のフレーム、&lt;xref:System.ExecutionEngineException&gt;がスローされます&lt;/xref:System.ExecutionEngineException&gt;&lt;/xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>There is no previous &lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt; for the current frame.</source>
+          <target state="translated">ない&lt;xref:System.Security.CodeAccessPermission.PermitOnly*&gt;現在のフレーム&lt;/xref:System.Security.CodeAccessPermission.PermitOnly*&gt;。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Creates and returns a string representation of the current permission object.</source>
+          <target state="translated">作成し、現在のアクセス許可オブジェクトの文字列表現を返します。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>This method is useful in debugging when you need to display the permission as a string.</source>
+          <target state="translated">このメソッドは、文字列として、アクセス許可を表示する必要がある場合のデバッグに役立ちます。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A string representation of the current permission object.</source>
+          <target state="translated">現在のアクセス許可オブジェクトの文字列形式。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates an XML encoding of the security object and its current state.</source>
+          <target state="translated">派生クラスでオーバーライドされると、セキュリティ オブジェクトと現在の状態の XML エンコードを作成します。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Custom code that extends security objects needs to implement the ToXml and &lt;xref:System.Security.CodeAccessPermission.FromXml%2A&gt; methods to make the objects security-encodable.</source>
+          <target state="translated">セキュリティ オブジェクトを拡張するカスタム コードを ToXml を実装する必要があると&lt;xref:System.Security.CodeAccessPermission.FromXml%2A&gt;セキュリティ encodable オブジェクトを作成する方法&lt;/xref:System.Security.CodeAccessPermission.FromXml%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>An XML encoding of the security object, including any state information.</source>
+          <target state="translated">状態情報を含む、セキュリティ オブジェクトの XML エンコード。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, creates a permission that is the union of the current permission and the specified permission.</source>
+          <target state="translated">派生クラスでオーバーライドされると、現在のアクセス許可と、指定した権限の和集合であるアクセス許可を作成します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The result of a call to Union is a permission that represents all the operations represented by both the current permission and the specified permission.</source>
+          <target state="translated">共用体への呼び出しの結果は、現在のアクセス許可と、指定した権限の両方で表されるすべての操作を表すアクセス許可です。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Any demand that passes either permission passes their union.</source>
+          <target state="translated">いずれかのアクセス許可に適合する要求は、その共用体を渡します。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>A permission to combine with the current permission.</source>
+          <target state="translated">現在のアクセス許可と結合するアクセス許可。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>It must be of the same type as the current permission.</source>
+          <target state="translated">これは、現在のアクセス許可と同じ型でなければなりません。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A new permission that represents the union of the current permission and the specified permission.</source>
+          <target state="translated">現在のアクセス許可と、指定した権限の和集合を表す新しいアクセス許可。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">other</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">other</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>This method is only supported at this level when passed <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">このメソッドは渡されたときに、このレベルでのみサポート<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

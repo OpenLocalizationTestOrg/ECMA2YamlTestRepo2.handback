@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">991a97ef3ad4486a23eb871fa73a9bf680e5ca62</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Proxies.RealProxy.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3aea6888cf1e1947aa62b431249c957d2a5b613a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e9929fb606413960fad2d7dc0452b4f8c155c04</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides base functionality for proxies.</source>
+          <target state="translated">Zapewnia podstawowe funkcje serwera proxy.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RealProxy class is the <ph id="ph1">`abstract`</ph> base class from which proxies must derive.</source>
+          <target state="translated">Klasa RealProxy jest <ph id="ph1">`abstract`</ph> klasie, z której serwery proxy muszą pochodzić podstawowej.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A client that uses an object across any kind of a remoting boundary is actually using a transparent proxy for the object.</source>
+          <target state="translated">Klient, który używa obiektu na dowolny rodzaj granic komunikacji zdalnej jest rzeczywiście przy użyciu przezroczystego obiektu pośredniczącego dla obiekt.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transparent proxy provides the illusion that the actual object resides in the client's space.</source>
+          <target state="translated">Przezroczystego obiektu pośredniczącego zapewnia wrażenie, że rzeczywistego obiektu znajduje się w obszarze klienta.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It achieves this by forwarding calls made on it to the real object using the remoting infrastructure.</source>
+          <target state="translated">Go osiąga to poprzez przesłanie wywołania na nim rzeczywistego obiektu przy użyciu infrastruktury komunikacji zdalnej.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transparent proxy is itself housed by an instance of a managed runtime class of type RealProxy.</source>
+          <target state="translated">Przezroczystego obiektu pośredniczącego jest przechowywanych przez wystąpienie klasy zarządzanego środowiska wykonawczego typu RealProxy.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RealProxy implements a part of the functionality that is needed to forward the operations from the transparent proxy.</source>
+          <target state="translated">RealProxy zaimplementowano część funkcje, które są potrzebne, aby przekazywać operacje z przezroczystego obiektu pośredniczącego.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a proxy object inherits the associated semantics of managed objects such as garbage collection, support for fields and methods, and can be extended to form new classes.</source>
+          <target state="translated">Zauważ, że obiekt serwera proxy dziedziczy skojarzone semantyki obiektów zarządzanych, takich jak wyrzucanie elementów bezużytecznych, Obsługa pól i metod i może zostać rozszerzony do formularza nowych klas.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The proxy has a dual nature: it acts as an object of the same class as the remote object (transparent proxy), and it is a managed object itself.</source>
+          <target state="translated">Serwer proxy ma charakter podwójne: działa jako obiekt tej samej klasy do obiektu zdalnego (przezroczystego obiektu pośredniczącego) i jest samego obiektu zarządzanego.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A proxy object can be used without regard to any remoting subdivisions within a &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">Obiekt serwera proxy można niezależnie jakiekolwiek podziały komunikacji zdalnej w ramach &lt;xref:System.AppDomain&gt;.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This class makes a link demand and an inheritance demand at the class level.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Tej klasy sprawia, że żądanie łącza i dziedziczenie żądanie na poziomie klasy.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Security.SecurityException&gt; is thrown when either the immediate caller or the derived class does not have infrastructure permission.</source>
+          <target state="translated">A &lt;xref:System.Security.SecurityException&gt;jest generowany, gdy bezpośredniego obiektu wywołującego lub Klasa pochodna nie ma uprawnienia infrastruktury.&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details about security demands, see <bpt id="p1">[</bpt>Link Demands<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Inheritance Demands<ept id="p2">](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9)</ept>.</source>
+          <target state="translated">Aby uzyskać szczegółowe informacje dotyczące żądania kontroli zabezpieczeń, zobacz <bpt id="p1">[</bpt>Linkdemand<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> i <bpt id="p2">[</bpt>Inheritancedemand<ept id="p2">](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9)</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default values.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> z domyślnymi wartościami.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that represents a remote object of the specified &lt;xref:System.Type&gt;.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasa, która reprezentuje zdalny obiekt określonego &lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current method creates a transparent proxy, which can be accessed through the &lt;xref:System.Runtime.Remoting.Proxies.RealProxy.GetTransparentProxy%2A&gt; method.</source>
+          <target state="translated">Bieżąca metoda tworzy przezroczystego obiektu pośredniczącego, które mogą być udostępniane za pośrednictwem &lt;xref:System.Runtime.Remoting.Proxies.RealProxy.GetTransparentProxy%2A&gt;metody.&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy.GetTransparentProxy%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A client that uses an object across any kind of a remoting boundary is actually using a transparent proxy for the object.</source>
+          <target state="translated">Klient, który używa obiektu na dowolny rodzaj granic komunikacji zdalnej jest rzeczywiście przy użyciu przezroczystego obiektu pośredniczącego dla obiekt.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transparent proxy gives the impression that the actual object resides in the client's space.</source>
+          <target state="translated">Przezroczystego obiektu pośredniczącego daje wrażenie, że rzeczywistego obiektu znajduje się w obszarze klienta.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It achieves this by forwarding calls made on it to the real object using the remoting infrastructure.</source>
+          <target state="translated">Go osiąga to poprzez przesłanie wywołania na nim rzeczywistego obiektu przy użyciu infrastruktury komunikacji zdalnej.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transparent proxy is housed by an instance of a managed runtime class &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;.</source>
+          <target state="translated">Przezroczystego obiektu pośredniczącego jest przechowywany przez wystąpienie klasy zarządzanego środowiska wykonawczego &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;.&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt; implements a part of the functionality that is needed to forward the operations from the transparent proxy.</source>
+          <target state="translated">&lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;Zaimplementowano część funkcje, które są potrzebne, aby przekazywać operacje z przezroczystego obiektu pośredniczącego.&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that a proxy object inherits the associated semantics of managed objects such as garbage collection and support for fields and methods, and can be extended to form new classes.</source>
+          <target state="translated">Zauważ, że obiekt serwera proxy dziedziczy skojarzone semantyki obiektów zarządzanych, takich jak wyrzucanie elementów bezużytecznych i pomoc techniczna dla pola i metody i może zostać rozszerzony do formularza nowych klas.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The proxy has a dual nature: it acts as an object of the same class as the remote object (transparent proxy), and is a managed object itself.</source>
+          <target state="translated">Serwer proxy ma charakter podwójne: działa jako obiekt tej samej klasy do obiektu zdalnego (przezroczystego obiektu pośredniczącego) i jest samego obiektu zarządzanego.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the remote object for which to create a proxy.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Zdalnego obiektu, do których chcesz utworzyć serwer proxy.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;classToProxy&lt;/code&gt;</ph> is not an interface, and is not derived from <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;classToProxy&lt;/code&gt;</ph>nie jest interfejsem ani nie pochodzi z <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The stub data is used by custom proxy users to decide what to do with an incoming method call.</source>
+          <target state="translated">Dane jest używane przez użytkowników niestandardowego serwera proxy do podejmowania decyzji o przychodzące wywołania metody.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the stub data might be information about the server's context that you can use to determine whether to execute the call locally, or send it through the remoting infrastructure.</source>
+          <target state="translated">Na przykład dane stub mogą być informacje o kontekście serwera służy do określenia, czy można wykonać wywołania lokalnie, lub wysłać go za pomocą zdalnej infrastrukturze.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the remote object for which to create a proxy.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Zdalnego obiektu, do których chcesz utworzyć serwer proxy.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A stub to associate with the new proxy instance.</source>
+          <target state="translated">Skrótowa do skojarzenia z nową instancję serwera proxy.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The stub data to set for the specified stub and the new proxy instance.</source>
+          <target state="translated">Dane można ustawić dla określonej klasy zastępczej i nowe wystąpienie serwera proxy.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;classToProxy&lt;/code&gt;</ph> is not an interface, and is not derived from <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;classToProxy&lt;/code&gt;</ph>nie jest interfejsem ani nie pochodzi z <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Attaches the current proxy instance to the specified remote <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dołącza bieżące wystąpienie serwera proxy do określonej remote <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the current proxy instance represents.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.MarshalByRefObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Reprezentujący bieżące wystąpienie serwera proxy.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have UnmanagedCode permission.</source>
+          <target state="translated">Bezpośredniego obiektu wywołującego ma UnmanagedCode uprawnienia.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Creates an <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the specified object type, and registers it with the remoting infrastructure as a client-activated object.</source>
+          <target state="translated">Tworzy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dla określonego typu i rejestruje go w zdalnej infrastrukturze jako obiekt klient jest aktywowany.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The object type that an <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is created for.</source>
+          <target state="translated">Typ obiektu <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> jest tworzona dla.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A new instance of <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is created for the specified type.</source>
+          <target state="translated">Nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.ObjRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> utworzonego dla określonego typu.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Detaches the current proxy instance from the remote server object that it represents.</source>
+          <target state="translated">Odłącza od obiektu serwera zdalnego, który reprezentuje bieżącego wystąpienia serwera proxy.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The detached server object.</source>
+          <target state="translated">Obiekt serwera odłączony.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have UnmanagedCode permission.</source>
+          <target state="translated">Bezpośredniego obiektu wywołującego ma UnmanagedCode uprawnienia.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Requests an unmanaged reference to the object represented by the current proxy instance.</source>
+          <target state="translated">Żąda niezarządzanej odwołanie do obiektu reprezentowanego przez bieżące wystąpienie serwera proxy.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the proxy is requested for marshaling, then an <ph id="ph1">`IUnknown`</ph> interface for the object represented by the current proxy instance is returned.</source>
+          <target state="translated">Jeśli serwer proxy jest wymagany dla przekazywanie, a następnie <ph id="ph1">`IUnknown`</ph> interfejsu dla obiektu reprezentowanego przez bieżące wystąpienie serwera proxy jest zwracany.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an <ph id="ph1">`IUnknown`</ph> was previously cached by the &lt;xref:System.Runtime.Remoting.Proxies.RealProxy.SetCOMIUnknown%2A&gt; method, then that instance is returned; otherwise, a new instance is returned.</source>
+          <target state="translated">Jeśli <ph id="ph1">`IUnknown`</ph> został wcześniej w pamięci podręcznej &lt;xref:System.Runtime.Remoting.Proxies.RealProxy.SetCOMIUnknown%2A&gt;metody zwracany danego wystąpienia; w przeciwnym razie zwracany jest nowe wystąpienie.&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy.SetCOMIUnknown%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the proxy is requested not for marshaling but for communication with unmanaged objects in the current process, then a <bpt id="p1">[</bpt>COM Callable Wrapper<ept id="p1">](../Topic/COM%20Callable%20Wrapper.md)</ept> (CCW), which can be used in the current process for communication through COM, is returned.</source>
+          <target state="translated">Jeśli wymagane jest serwer proxy, nie w przypadku przekazywanie, ale komunikacja z niezarządzane obiekty w bieżącym procesie, a następnie <bpt id="p1">[</bpt>wywoływana otoka COM<ept id="p1">](../Topic/COM%20Callable%20Wrapper.md)</ept> (CCW), której można użyć w bieżącym procesie komunikacji za pośrednictwem modelu COM, jest zwracany.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object reference is requested for marshaling to a remote location; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the object reference is requested for communication with unmanaged objects in the current process through COM.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli wymagane jest odwołanie do obiektu na przekazywanie do zdalnej lokalizacji; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Jeśli wymagane jest odwołanie do obiektu do komunikacji z niezarządzane obiekty w bieżącym procesie za pośrednictwem modelu COM.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A pointer to a <bpt id="p1">[</bpt>COM Callable Wrapper<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> if the object reference is requested for communication with unmanaged objects in the current process through COM, or a pointer to a cached or newly generated <bpt id="p2">&lt;xref uid="langword_csharp_IUnknown" name="IUnknown" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> COM interface if the object reference is requested for marshaling to a remote location.</source>
+          <target state="translated">Wskaźnik do <bpt id="p1">[</bpt>wywoływana otoka COM<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> odwołanie do obiektu jest wymagane do komunikacji z niezarządzane obiekty w ramach bieżącego procesu za pomocą modelu COM, czy wskaźnik do pamięci podręcznej lub nowo wygenerowane <bpt id="p2">&lt;xref uid="langword_csharp_IUnknown" name="IUnknown" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> interfejsu COM, jeśli wymagane jest odwołanie do obiektu dla kierowanie do lokalizacji zdalnej.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Adds the transparent proxy of the object represented by the current instance of <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the specified <bpt id="p2">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dodaje przezroczystego obiektu pośredniczącego obiektu reprezentowanego przez bieżące wystąpienie klasy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do określonego <bpt id="p2">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> into which the transparent proxy is serialized.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Do serializacji jest przezroczystego obiektu pośredniczącego.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The source and destination of the serialization.</source>
+          <target state="translated">Źródło i miejsce docelowe serializacji.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">info</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">context</ph><ept id="p2">&lt;/code&gt;</ept> parameter is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">info</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">context</ph><ept id="p2">&lt;/code&gt;</ept> parameter is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have SerializationFormatter permission.</source>
+          <target state="translated">Bezpośredniego obiektu wywołującego ma SerializationFormatter uprawnienia.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Returns the &lt;xref:System.Type&gt; of the object that the current instance of <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> represents.</source>
+          <target state="translated">Zwraca &lt;xref:System.Type&gt;obiektu, który bieżące wystąpienie klasy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentuje.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object that the current instance of <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> represents.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Obiektu, który bieżące wystąpienie klasy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentuje.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Retrieves stub data that is stored for the specified proxy.</source>
+          <target state="translated">Pobiera dane przechowywane dla określonego serwera proxy.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The stub data is used by custom proxy users to decide what to do with an incoming method call.</source>
+          <target state="translated">Dane jest używane przez użytkowników niestandardowego serwera proxy do podejmowania decyzji o przychodzące wywołania metody.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the stub data might be information about the server's context that you can use to determine whether to execute the call locally, or send it through the remoting infrastructure.</source>
+          <target state="translated">Na przykład dane stub mogą być informacje o kontekście serwera służy do określenia, czy można wykonać wywołania lokalnie, lub wysłać go za pomocą zdalnej infrastrukturze.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The proxy for which stub data is requested.</source>
+          <target state="translated">Serwer proxy, dla których stub żądanych danych.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Stub data for the specified proxy.</source>
+          <target state="translated">Stub danych dla określonego serwera proxy.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have UnmanagedCode permission.</source>
+          <target state="translated">Bezpośredniego obiektu wywołującego ma UnmanagedCode uprawnienia.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Returns the transparent proxy for the current instance of <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwraca przezroczystego obiektu pośredniczącego dla bieżącego wystąpienia elementu <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The transparent proxy for the current proxy instance.</source>
+          <target state="translated">Przezroczystego obiektu pośredniczącego dla bieżącego wystąpienia serwera proxy.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Returns the server object that is represented by the current proxy instance.</source>
+          <target state="translated">Zwraca obiekt serwera, który jest reprezentowany przez bieżące wystąpienie serwera proxy.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetUnwrappedServer method is used in scenarios involving an external &lt;xref:System.Runtime.Remoting.Contexts.Context&gt; in the same &lt;xref:System.AppDomain&gt;.</source>
+          <target state="translated">Metoda GetUnwrappedServer jest używana w scenariuszach obejmujących zewnętrzne &lt;xref:System.Runtime.Remoting.Contexts.Context&gt;w tym samym &lt;xref:System.AppDomain&gt;.&lt;/xref:System.AppDomain&gt; &lt;/xref:System.Runtime.Remoting.Contexts.Context&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The server object that is represented by the current proxy instance.</source>
+          <target state="translated">Obiekt serwera, który jest reprezentowany przez bieżące wystąpienie serwera proxy.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have UnmanagedCode permission.</source>
+          <target state="translated">Bezpośredniego obiektu wywołującego ma UnmanagedCode uprawnienia.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the object &lt;xref:System.Type&gt; of the remote object that the current instance of <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> represents with the specified <bpt id="p2">&lt;xref href="System.Runtime.Remoting.Activation.IConstructionCallMessage"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Inicjuje nowe wystąpienie obiektu &lt;xref:System.Type&gt;zdalnego obiektu bieżące wystąpienie klasy <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> reprezentuje z określonym <bpt id="p2">&lt;xref href="System.Runtime.Remoting.Activation.IConstructionCallMessage"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`ctorMsg`</ph> parameter is <ph id="ph2">`null`</ph>, then the InitializeServerObject method calls the default constructor for the new instance of the remote object that is represented by the current &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;.</source>
+          <target state="translated">Jeśli <ph id="ph1">`ctorMsg`</ph> parametr jest <ph id="ph2">`null`</ph>, a następnie metoda InitializeServerObject wywołuje konstruktor domyślny dla nowego wystąpienia zdalnego obiektu reprezentowanego przez bieżący &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;.&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A construction call message that contains the constructor parameters for the new instance of the remote object that is represented by the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Konstrukcji wywołania wiadomość z parametrami konstruktora dla nowego wystąpienia zdalnego obiektu reprezentowanego przez bieżący <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Proxies.RealProxy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The result of the construction request.</source>
+          <target state="translated">Wynik żądania konstrukcji.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have UnmanagedCode permission.</source>
+          <target state="translated">Bezpośredniego obiektu wywołującego ma UnmanagedCode uprawnienia.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, invokes the method that is specified in the provided <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on the remote object that is represented by the current instance.</source>
+          <target state="translated">W przypadku przesłonięcia w klasie pochodnej wywołuje metodę, którą określono w określonych <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMessage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zdalnego obiektu reprezentowanego przez bieżące wystąpienie.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the transparent proxy that is backed by the &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt; is called, it delegates the calls to the Invoke method.</source>
+          <target state="translated">Gdy przezroczystego obiektu pośredniczącego, które nie jest obsługiwana przez &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;jest wywoływana, deleguje wywołania metody Invoke.&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Invoke method transforms the message in the <ph id="ph1">`msg`</ph> parameter into a &lt;xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt;, and sends it to the remote object that is represented by the current instance of &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;.</source>
+          <target state="translated">Metody Invoke przekształca wiadomości w <ph id="ph1">`msg`</ph> parametru do &lt;xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt;i wysyła je do zdalnego obiektu reprezentowanego przez bieżące wystąpienie klasy &lt;xref:System.Runtime.Remoting.Proxies.RealProxy&gt;.&lt;/xref:System.Runtime.Remoting.Proxies.RealProxy&gt; &lt;/xref:System.Runtime.Remoting.Messaging.IMethodCallMessage&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Runtime.Remoting.Messaging.IMessage&gt; parameter provides a dictionary through the &lt;xref:System.Runtime.Remoting.Messaging.IMessage.Properties%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">&lt;xref:System.Runtime.Remoting.Messaging.IMessage&gt;Parametru zapewnia słowniku za pośrednictwem &lt;xref:System.Runtime.Remoting.Messaging.IMessage.Properties%2A?displayProperty=fullName&gt;Właściwości.&lt;/xref:System.Runtime.Remoting.Messaging.IMessage.Properties%2A?displayProperty=fullName&gt; &lt;/xref:System.Runtime.Remoting.Messaging.IMessage&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The dictionary contains name/value pairs of information about the method call, such as the name of the method called and its parameters.</source>
+          <target state="translated">Słownik zawiera pary nazwa/wartość informacji o wywołaniu metody, takie jak nazwa metody o nazwie i jego parametrów.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a &lt;xref:System.Collections.IDictionary&gt; of information about the method call.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMessage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawierający &lt;xref:System.Collections.IDictionary&gt;informacji o wywołaniu metody.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The message returned by the invoked method, containing the return value and any <bpt id="p1">&lt;xref uid="langword_csharp_out" name="out" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_ref" name="ref" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> parameters.</source>
+          <target state="translated">Komunikat zwrócony przez metodę wywołana, zawierające wartości zwracanej i wszystkie <bpt id="p1">&lt;xref uid="langword_csharp_out" name="out" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> lub <bpt id="p2">&lt;xref uid="langword_csharp_ref" name="ref" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> parametrów.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Stores an unmanaged proxy of the object that is represented by the current instance.</source>
+          <target state="translated">Przechowuje niezarządzane proxy obiektu reprezentowanego przez bieżące wystąpienie.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When an unmanaged proxy attempts to communicate with the common language runtime through COM, the runtime resolves the remote object that is represented by the unmanaged proxy.</source>
+          <target state="translated">Gdy próbuje niezarządzanego serwera proxy do komunikacji z środowisko uruchomieniowe języka wspólnego za pomocą modelu COM, środowisko uruchomieniowe rozpoznaje zdalnego obiektu reprezentowanego przez serwer proxy niezarządzane.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the remote object is managed and also resides in a common language environment, then instead of communicating with it through distributed COM, the object is sent to the current process.</source>
+          <target state="translated">Jeśli obiektu zdalnego odbywa się również znajduje się w środowisku języka wspólnego, następnie zamiast komunikowania się z nim za pomocą rozproszonego modelu COM, obiekt jest wysyłane do bieżącego procesu.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the remote object is not derived from &lt;xref:System.MarshalByRefObject&gt;, then it is serialized and copied to the current location.</source>
+          <target state="translated">Jeśli nie pochodzi od obiektu zdalnego &lt;xref:System.MarshalByRefObject&gt;, serializowane i skopiowane do bieżącej lokalizacji.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is derived from &lt;xref:System.MarshalByRefObject&gt;, then it returns a transparent proxy, and the remoting infrastructure caches the unmanaged proxy (the <ph id="ph1">`IUnknown`</ph> interface) in the transparent proxy for future use.</source>
+          <target state="translated">Jeśli jest pochodną &lt;xref:System.MarshalByRefObject&gt;, następnie zwraca przezroczystego obiektu pośredniczącego i niezarządzane proxy buforuje w zdalnej infrastrukturze ( <ph id="ph1">`IUnknown`</ph> interfejsu) w przezroczystego obiektu pośredniczącego do użytku w przyszłości.&lt;/xref:System.MarshalByRefObject&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>A pointer to the <bpt id="p1">&lt;xref uid="langword_csharp_IUnknown" name="IUnknown" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the object that is represented by the current proxy instance.</source>
+          <target state="translated">Wskaźnik do <bpt id="p1">&lt;xref uid="langword_csharp_IUnknown" name="IUnknown" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interfejsu dla obiektu reprezentowanego przez bieżące wystąpienie serwera proxy.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Sets the stub data for the specified proxy.</source>
+          <target state="translated">Ustawia dane klasy zastępczej dla określonego serwera proxy.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The stub data is used by custom proxy users to decide what to do with an incoming method call.</source>
+          <target state="translated">Dane jest używane przez użytkowników niestandardowego serwera proxy do podejmowania decyzji o przychodzące wywołania metody.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the stub data might be information about the server's context that you can use to determine whether to execute the call locally, or send it through the remoting infrastructure.</source>
+          <target state="translated">Na przykład dane stub mogą być informacje o kontekście serwera służy do określenia, czy można wykonać wywołania lokalnie, lub wysłać go za pomocą zdalnej infrastrukturze.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The proxy for which to set stub data.</source>
+          <target state="translated">Serwer proxy, dla którego mają zostać ustawione dane.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The new stub data.</source>
+          <target state="translated">Nowe dane stub.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The immediate caller does not have UnmanagedCode permission.</source>
+          <target state="translated">Bezpośredniego obiektu wywołującego ma UnmanagedCode uprawnienia.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Requests a COM interface with the specified ID.</source>
+          <target state="translated">Żąda interfejsu COM o określonym identyfikatorze.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SupportsInterface method allows the current proxy instance to implement additional COM interfaces on behalf of the server object that the current instance represents.</source>
+          <target state="translated">Metoda SupportsInterface umożliwia bieżącego wystąpienia serwera proxy do zaimplementowania dodatkowe interfejsy modelu COM w imieniu obiekt serwera, który reprezentuje bieżącego wystąpienia.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The current method generates the requested interface and returns a pointer to it.</source>
+          <target state="translated">Bieżąca metoda generuje żądanego interfejsu i zwraca wskaźnik do niego.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The types of COM interfaces that can be generated by this method depend on the proxy type, which in turn might depend on the type of the server object that the current proxy instance represents.</source>
+          <target state="translated">Typy interfejsów modelu COM, które mogą być generowane przez tę metodę zależą od typu serwera proxy, który z kolei może zależeć od typu obiektu serwera, który reprezentuje bieżącego wystąpienia serwera proxy.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Runtime.Remoting.Proxies.ProxyAttribute&gt;.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz &lt;xref:System.Runtime.Remoting.Proxies.ProxyAttribute&gt;.&lt;/xref:System.Runtime.Remoting.Proxies.ProxyAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A reference to the requested interface.</source>
+          <target state="translated">Odwołanie do żądanego interfejsu.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A pointer to the requested interface.</source>
+          <target state="translated">Wskaźnik do żądanego interfejsu.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

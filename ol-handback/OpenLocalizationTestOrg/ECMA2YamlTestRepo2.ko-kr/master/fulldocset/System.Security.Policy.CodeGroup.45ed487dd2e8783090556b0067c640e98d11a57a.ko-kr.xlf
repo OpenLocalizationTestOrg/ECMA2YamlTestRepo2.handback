@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">730394b1340cdcf0f5a7086d2c7b9e60cac6cb38</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Policy.CodeGroup.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b6790fd506a14972245cb3187732702852402cca</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bdc9ee47072c8570bba89da06a5e0011953aef11</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the abstract base class from which all implementations of code groups must derive.</source>
+          <target state="translated">그룹에서 코드의 모든 구현이 파생 되어야 하는 추상 기본 클래스를 나타냅니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code groups are the building blocks of code access security policy.</source>
+          <target state="translated">코드 그룹은 코드 액세스 보안 정책의 구성 요소입니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each policy level consists of a root code group that can have child code groups.</source>
+          <target state="translated">각 정책 수준은 자식 코드 그룹을 가질 수 있는 루트 코드 그룹으로 구성 합니다.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each child code group can have their own child code groups; this behavior extends to any number of levels, forming a tree.</source>
+          <target state="translated">각 자식 코드 그룹; 자신의 자식 코드 그룹을 가질 수 있습니다. 이 동작은 임의 개수의 트리 형식의 수준까지 확장 됩니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each code group has a membership condition that determines if a given assembly belongs to it based on the evidence for that assembly.</source>
+          <target state="translated">각 코드 그룹에 지정 된 어셈블리를 해당 어셈블리에 대 한 증거에 따라에 속하는지 결정 하는 멤버 자격 조건이 있습니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only those code groups whose membership conditions match a given assembly's evidence will be applied.</source>
+          <target state="translated">멤버 자격 조건이 지정된 된 어셈블리의 증명 정보와 일치 된 코드 그룹에만 적용 됩니다.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a matching code group has child code groups, then those children whose membership conditions also match the supplied evidence will likewise be applied.</source>
+          <target state="translated">일치 하는 코드 그룹에 자식 코드 그룹이 있으면 다음 멤버 자격 조건이 일치 하면 제공 된 증명 이러한 자식도 마찬가지로 적용 됩니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of <bpt id="p1">&lt;xref href="System.Security.Policy.CodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">새 인스턴스를 초기화 <bpt id="p1">&lt;xref href="System.Security.Policy.CodeGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates a basic code group and should be called from the constructors of custom code groups.</source>
+          <target state="translated">이 생성자는 기본 코드 그룹을 만들고 사용자 지정 코드 그룹의 생성자에서 호출 해야 합니다.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add child code groups using the &lt;xref:System.Security.Policy.CodeGroup.AddChild%2A&gt; method.</source>
+          <target state="translated">사용 하 여 자식 코드 그룹을 추가할 수는 &lt;xref:System.Security.Policy.CodeGroup.AddChild%2A&gt;메서드.&lt;/xref:System.Security.Policy.CodeGroup.AddChild%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A membership condition that tests evidence to determine whether this code group applies policy.</source>
+          <target state="translated">이 코드 그룹 정책이 적용 여부를 결정 하는 증거를 테스트 하는 멤버 자격 조건입니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The policy statement for the code group in the form of a permission set and attributes to grant code that matches the membership condition.</source>
+          <target state="translated">멤버 자격 조건 일치 하는 코드에 부여할 권한 집합 및 특성의 형태로 코드 그룹에 대 한 정책 설명 합니다.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">membershipCondition</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">membershipCondition</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The type of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">membershipCondition</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not valid.</source>
+          <target state="translated">종류는 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">membershipCondition</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-or-       The type of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">policy</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not valid.</source>
+          <target state="translated">-또는-유형의 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">policy</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수가 올바르지 않습니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Adds a child code group to the current code group.</source>
+          <target state="translated">현재 코드 그룹에 자식 코드 그룹을 추가합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The code group to be added as a child.</source>
+          <target state="translated">자식으로 추가할 수 있는 코드 그룹입니다.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>This new child code group is added to the end of the list.</source>
+          <target state="translated">이 새로운 자식 코드 그룹 목록 끝에 추가 됩니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">group</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">group</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">group</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not a valid code group.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">group</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수는 올바른 코드 그룹이 아닙니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets a string representation of the attributes of the policy statement for the code group.</source>
+          <target state="translated">코드 그룹에 대 한 정책 설명의 특성의 문자열 표현을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string representation is not localized.</source>
+          <target state="translated">문자열 표현을 지역화 되지 않습니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A string representation of the attributes of the policy statement for the code group.</source>
+          <target state="translated">코드 그룹에 대 한 정책 설명의 특성의 문자열 표현입니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets or sets an ordered list of the child code groups of a code group.</source>
+          <target state="translated">코드 그룹의 자식 코드 그룹의 정렬된 된 목록을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of child code groups is significant for certain code groups.</source>
+          <target state="translated">자식 코드 그룹의 순서는 특정 코드 그룹에 대 한 중요 합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The return value is a copy of the child code list.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 반환 값은 자식 코드 목록의 복사본입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use the returned list to add a child code group; instead, use the &lt;xref:System.Security.Policy.CodeGroup.AddChild%2A&gt; method.</source>
+          <target state="translated">반환된 된 목록; 자식 코드 그룹을 추가 하려면 사용 하지 마십시오 대신를 사용 하 여는 &lt;xref:System.Security.Policy.CodeGroup.AddChild%2A&gt;메서드.&lt;/xref:System.Security.Policy.CodeGroup.AddChild%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A list of child code groups.</source>
+          <target state="translated">자식 코드 그룹의 목록입니다.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An attempt is made to set this property to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 속성을 설정 하려고 시도 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An attempt is made to set this property with a list of children that are not <bpt id="p1">&lt;xref href="System.Security.Policy.CodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">아닌 자식 목록으로이 속성을 설정 하려고 시도 <bpt id="p1">&lt;xref href="System.Security.Policy.CodeGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, makes a deep copy of the current code group.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 현재 코드 그룹의 전체 복사본을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method makes a deep copy of the code group, so that copies of all objects the code group contains are also made.</source>
+          <target state="translated">이 메서드는 코드 그룹의 전체 복사본을 만들어 코드 그룹을 포함 하는 모든 개체의 복사본이 만들어집니다 있도록 합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An equivalent copy of the current code group, including its membership conditions and child code groups.</source>
+          <target state="translated">해당 멤버 자격 조건 및 자식 코드 그룹을 포함 하 여 현재 코드 그룹의 동일한 복사본입니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, serializes properties and internal state specific to a derived code group and adds the serialization to the specified <bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 속성 및 파생된 코드 그룹에 특정 내부 상태를 직렬화 하 고 지정 된 serialization 추가 <bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Policy.CodeGroup.ToXml%2A&gt; cannot be overridden.</source>
+          <target state="translated">&lt;xref:System.Security.Policy.CodeGroup.ToXml%2A&gt;재정의할 수 없습니다.&lt;/xref:System.Security.Policy.CodeGroup.ToXml%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need to serialize members specific to a particular implementation of &lt;xref:System.Security.Policy.CodeGroup&gt;, you must override CreateXml and serialize your members there.</source>
+          <target state="translated">특정 구현에 특정 멤버를 serialize 해야 하는 경우 &lt;xref:System.Security.Policy.CodeGroup&gt;, CreateXml을 무시 하 고 있는 멤버를 serialize 해야 합니다.&lt;/xref:System.Security.Policy.CodeGroup&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the code group is serialized, &lt;xref:System.Security.Policy.CodeGroup.ToXml%2A&gt; calls CreateXml and adds your serialization to the &lt;xref:System.Security.SecurityElement&gt; created by &lt;xref:System.Security.Policy.CodeGroup.ToXml%2A&gt;.</source>
+          <target state="translated">코드 그룹 serialize 되는 경우, &lt;xref:System.Security.Policy.CodeGroup.ToXml%2A&gt;CreateXml를 호출 하 고 추가 &lt;xref:System.Security.SecurityElement&gt; &lt;xref:System.Security.Policy.CodeGroup.ToXml%2A&gt;.&lt;/xref:System.Security.Policy.CodeGroup.ToXml%2A&gt; 생성&lt;/xref:System.Security.SecurityElement&gt; 하 여 serialization&lt;/xref:System.Security.Policy.CodeGroup.ToXml%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XML created using this method is deserialized by the &lt;xref:System.Security.Policy.CodeGroup.ParseXml%2A&gt; method.</source>
+          <target state="translated">이 메서드를 사용 하 여 만든 XML으로 역직렬화 됩니다는 &lt;xref:System.Security.Policy.CodeGroup.ParseXml%2A&gt;메서드.&lt;/xref:System.Security.Policy.CodeGroup.ParseXml%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The XML encoding to which to add the serialization.</source>
+          <target state="translated">직렬화 추가할 XML 인코딩입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The policy level within which the code group exists.</source>
+          <target state="translated">코드 그룹이 존재 하는 정책 수준입니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets or sets the description of the code group.</source>
+          <target state="translated">코드 그룹에 대 한 설명을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The description of the code group.</source>
+          <target state="translated">코드 그룹의 설명입니다.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified code group is equivalent to the current code group.</source>
+          <target state="translated">지정된 된 코드 그룹이 현재 코드 그룹에 해당 하는지를 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two code groups are equivalent if they have the same &lt;xref:System.Security.Policy.CodeGroup.Name%2A&gt;, &lt;xref:System.Security.Policy.CodeGroup.Description%2A&gt;, and &lt;xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt;.</source>
+          <target state="translated">코드 보안 그룹은 고 동일 하 게 하는 경우 해당 &lt;xref:System.Security.Policy.CodeGroup.Name%2A&gt;, &lt;xref:System.Security.Policy.CodeGroup.Description%2A&gt;, 및 &lt;xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt;.&lt;/xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt; &lt;/xref:System.Security.Policy.CodeGroup.Description%2A&gt; &lt;/xref:System.Security.Policy.CodeGroup.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method tests the top-level code group only, not its child code groups.</source>
+          <target state="translated">이 메서드는 최상위 코드 그룹만 해당 자식 코드 그룹 하지를 테스트합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The code group to compare with the current code group.</source>
+          <target state="translated">현재 코드 그룹와 비교할 개체 코드 그룹입니다.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified code group is equivalent to the current code group; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지정 된 코드 그룹은 현재 코드 그룹에 해당 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified code group is equivalent to the current code group, checking the child code groups as well, if specified.</source>
+          <target state="translated">지정된 된 코드 그룹이 같은지 여부를 지정 하는 경우 자식 코드 그룹도, 확인 하 고 현재 코드 그룹을 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two code groups are equivalent if they have the same &lt;xref:System.Security.Policy.CodeGroup.Name%2A&gt;, &lt;xref:System.Security.Policy.CodeGroup.Description%2A&gt;, and &lt;xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt;.</source>
+          <target state="translated">코드 보안 그룹은 고 동일 하 게 하는 경우 해당 &lt;xref:System.Security.Policy.CodeGroup.Name%2A&gt;, &lt;xref:System.Security.Policy.CodeGroup.Description%2A&gt;, 및 &lt;xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt;.&lt;/xref:System.Security.Policy.CodeGroup.MembershipCondition%2A&gt; &lt;/xref:System.Security.Policy.CodeGroup.Description%2A&gt; &lt;/xref:System.Security.Policy.CodeGroup.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`compareChildren`</ph> parameter is <ph id="ph2">`true`</ph>, this method will only return <ph id="ph3">`true`</ph> if the current code group and all its child code groups are equivalent to the specified code group and all its child code groups.</source>
+          <target state="translated">경우는 <ph id="ph1">`compareChildren`</ph> 매개 변수는 <ph id="ph2">`true`</ph>,이 메서드는만 반환 <ph id="ph3">`true`</ph> 현재 코드 그룹 및 모든 자식 코드 그룹은 지정 된 코드 그룹 및 모든 자식 코드 그룹에 해당 하는 경우.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The code group to compare with the current code group.</source>
+          <target state="translated">현재 코드 그룹와 비교할 개체 코드 그룹입니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to compare child code groups, as well; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>자식 코드 그룹도; 비교 하려면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified code group is equivalent to the current code group; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>지정 된 코드 그룹은 현재 코드 그룹에 해당 하는 경우 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Reconstructs a security object with a given state from an XML encoding.</source>
+          <target state="translated">XML 인코딩에서 특정된 상태와 보안 개체를 다시 만듭니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The XML encoding to use to reconstruct the security object.</source>
+          <target state="translated">XML은 보안 개체를 다시 만드는 데 사용할 인코딩입니다.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Reconstructs a security object with a given state and policy level from an XML encoding.</source>
+          <target state="translated">지정 된 상태 및 정책 수준 XML 인코딩을 사용 하 여 보안 개체를 다시 생성 합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The policy level context is provided for resolution of named permission sets.</source>
+          <target state="translated">정책 수준 컨텍스트 확인 명명 된 권한 집합을 위해 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The XML encoding to use to reconstruct the security object.</source>
+          <target state="translated">XML은 보안 개체를 다시 만드는 데 사용할 인코딩입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The policy level within which the code group exists.</source>
+          <target state="translated">코드 그룹이 존재 하는 정책 수준입니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">e</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the hash code of the current code group.</source>
+          <target state="translated">현재 코드 그룹의 해시 코드를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The hash code of the current code group.</source>
+          <target state="translated">현재 코드 그룹의 해시 코드입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets or sets the code group's membership condition.</source>
+          <target state="translated">코드 그룹의 멤버 자격 조건을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A membership condition tests evidence and returns a Boolean value that tells whether there is a match.</source>
+          <target state="translated">멤버 자격 조건 증명 정보를 테스트 하 고 일치 하는 항목이 있는지 여부를 나타내는 부울 값을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The membership condition that determines to which evidence the code group is applicable.</source>
+          <target state="translated">코드 그룹을 적용할 수 있는 증거를 확인 하는 멤버 자격 조건.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An attempt is made to set this parameter to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 매개 변수를 설정 하려고 시도 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the merge logic for the code group.</source>
+          <target state="translated">파생된 클래스에서 재정의 하는 경우 코드 그룹에 대 한 병합 논리를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A description of the merge logic for the code group.</source>
+          <target state="translated">코드 그룹에 대 한 병합 논리에 대 한 설명</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the code group.</source>
+          <target state="translated">코드 그룹의 이름을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The name of the code group.</source>
+          <target state="translated">코드 그룹의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, reconstructs properties and internal state specific to a derived code group from the specified <bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 다시 생성 속성 및 내부 상태를 특정 파생된 코드 그룹에 지정 된 위치에서 <bpt id="p1">&lt;xref href="System.Security.SecurityElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Security.Policy.CodeGroup.FromXml%2A&gt; cannot be overridden.</source>
+          <target state="translated">&lt;xref:System.Security.Policy.CodeGroup.FromXml%2A&gt;재정의할 수 없습니다.&lt;/xref:System.Security.Policy.CodeGroup.FromXml%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need to deserialize members specific to a particular implementation of &lt;xref:System.Security.Policy.CodeGroup&gt;, you must override ParseXml and deserialize your members there.</source>
+          <target state="translated">특정 구현에 특정 멤버를 deserialize 해야 하는 경우 &lt;xref:System.Security.Policy.CodeGroup&gt;, ParseXml을 무시 하 고 있는 멤버를 deserialize 해야 합니다.&lt;/xref:System.Security.Policy.CodeGroup&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the code group is deserialized, &lt;xref:System.Security.Policy.CodeGroup.FromXml%2A&gt; calls ParseXml and reconstructs your members from the &lt;xref:System.Security.SecurityElement&gt;.</source>
+          <target state="translated">코드 그룹을 deserialize 하는 경우, &lt;xref:System.Security.Policy.CodeGroup.FromXml%2A&gt;ParseXml를 호출 하 고 있는 &lt;xref:System.Security.SecurityElement&gt;.&lt;/xref:System.Security.SecurityElement&gt; 에서 멤버를 다시 만듭니다.&lt;/xref:System.Security.Policy.CodeGroup.FromXml%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method deserializes XML created using &lt;xref:System.Security.Policy.CodeGroup.CreateXml%2A&gt;.</source>
+          <target state="translated">이 메서드는 &lt;xref:System.Security.Policy.CodeGroup.CreateXml%2A&gt;.&lt;/xref:System.Security.Policy.CodeGroup.CreateXml%2A&gt; 를 사용 하 여 만든 XML을 deserialize</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The XML encoding to use to reconstruct the security object.</source>
+          <target state="translated">XML은 보안 개체를 다시 만드는 데 사용할 인코딩입니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The policy level within which the code group exists.</source>
+          <target state="translated">코드 그룹이 존재 하는 정책 수준입니다.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets the name of the named permission set for the code group.</source>
+          <target state="translated">코드 그룹에 대 한 명명 된 권한 집합의 이름을 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property can be <ph id="ph1">`null`</ph> if the code group contains an unnamed permission set.</source>
+          <target state="translated">이 속성 수 <ph id="ph1">`null`</ph> 코드 그룹은 명명 되지 않은 권한 집합을 포함 하는 경우.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The name of a named permission set of the policy level.</source>
+          <target state="translated">정책 수준의 명명 된 권한 집합의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Gets or sets the policy statement associated with the code group.</source>
+          <target state="translated">코드 그룹과 연결 된 정책 문을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The policy statement applies to code in assemblies when evidence matches the membership condition.</source>
+          <target state="translated">정책 설명 증거 멤버 조건과 일치 하는 경우 어셈블리의 코드에 적용 됩니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property can also be set by passing a policy statement to the constructor.</source>
+          <target state="translated">정책 설명 생성자에 전달 하 여이 속성을 설정할 수도 있습니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The policy statement for the code group.</source>
+          <target state="translated">코드 그룹에 대 한 정책 설명 합니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Removes the specified child code group.</source>
+          <target state="translated">지정 된 자식 코드 그룹을 제거 합니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only immediate child code groups can be removed with this method.</source>
+          <target state="translated">직계 자식 코드 그룹에만이 방법으로 제거할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The code group to be removed as a child.</source>
+          <target state="translated">자식으로 제거할 수 있는 코드 그룹입니다.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">group</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not an immediate child code group of the current code group.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">group</ph> <ept id="p1">&lt;/code&gt;</ept> 매개 변수가 현재 코드 그룹의 직계 자식 코드 그룹이 않습니다.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, resolves policy for the code group and its descendants for a set of evidence.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 코드 그룹에 대 한 정책 및 증명 정보 집합에 대 한 하위 항목을 해결 합니다.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Given evidence for an assembly to be loaded, this method evaluates the code group by checking the membership condition against the specified evidence.</source>
+          <target state="translated">로드할 어셈블리에 대 한 증거를 지정 된 경우이 메서드 지정한 증명 정보에 대 한 멤버 자격 조건을 확인 하 여 코드 그룹을 평가 합니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is a match, this method returns a policy statement for the code group, including evaluation of child code groups.</source>
+          <target state="translated">일치 하는 경우이 메서드는 자식 코드 그룹의 평가 비롯 하 여 코드 그룹에 대 한 정책 문을 반환 합니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a &lt;xref:System.Security.Policy.UnionCodeGroup&gt;, all child code groups whose membership condition match the specified evidence are also resolved, and all resulting policy statements are combined with the policy statement of the parent union code group.</source>
+          <target state="translated">에 대 한는 &lt;xref:System.Security.Policy.UnionCodeGroup&gt;또한 멤버 자격 조건이 지정된 된 증명 정보와 일치 하는 모든 자식 코드 그룹에서 해결 하 고 모든 결과 정책 문은 상위 공용 구조체 코드 그룹의 정책 문을 사용 하 여 결합 됩니다.&lt;/xref:System.Security.Policy.UnionCodeGroup&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each child code group type determines how all child groups under it are applied, depending on how the Resolve methods of these child groups work.</source>
+          <target state="translated">각 자식 코드 그룹 유형에 따라 결정 방법 Resolve 메서드와 이러한 자식 그룹의 작업 방식에 따라 그 아래에서 하위 그룹도 모두 적용 됩니다.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET Framework security system uses Resolve on the policy levels to determine which permissions to grant to loaded code from the resulting policy statements and the code request on the assembly.</source>
+          <target state="translated">.NET Framework 보안 시스템을 사용 하 여 해결 정책 수준에서 결과 정책 설명 및 어셈블리에 코드 요청에서 로드 된 코드에 부여할 권한을 결정 합니다.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The evidence for the assembly.</source>
+          <target state="translated">어셈블리에 대 한 증명 정보입니다.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A policy statement that consists of the permissions granted by the code group with optional attributes, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the code group does not apply (the membership condition does not match the specified evidence).</source>
+          <target state="translated">선택적 특성을 가진 코드 그룹에 의해 부여 된 권한으로 구성 된 정책 설명 또는 <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 코드 그룹에 적용 되지 않는 경우 (멤버 자격 조건이 지정된 된 증명 정보를 일치 하지 않습니다).</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, resolves matching code groups.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 일치 하는 코드 그룹을 확인 합니다.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method has the same evaluation characteristics as &lt;xref:System.Security.Policy.CodeGroup.Resolve%2A&gt;.</source>
+          <target state="translated">이 메서드는 &lt;xref:System.Security.Policy.CodeGroup.Resolve%2A&gt;.&lt;/xref:System.Security.Policy.CodeGroup.Resolve%2A&gt; 같은 평가 특성</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The code group that is returned contains child code groups, which in turn can have child code groups as necessary to reflect the complete set of code groups that were matched by the evidence provided.</source>
+          <target state="translated">반환 되는 코드 그룹에 제공 된 증명 정보를 통해 일치 된 코드 그룹의 전체 집합을 반영 하기 위해 필요에 따라 자식 코드 그룹을 가질 수 있는 자식 코드 그룹을 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The evidence for the assembly.</source>
+          <target state="translated">어셈블리에 대 한 증명 정보입니다.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Policy.CodeGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is the root of the tree of matching code groups.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Policy.CodeGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 의 일치 하는 코드 그룹 트리의 루트입니다.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Creates an XML encoding of the security object and its current state.</source>
+          <target state="translated">보안 개체 및 현재 상태에 대 한 XML 인코딩을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>An XML encoding of the security object, including any state information.</source>
+          <target state="translated">모든 상태 정보를 포함 하는 보안 개체의 XML 인코딩입니다.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Creates an XML encoding of the security object, its current state, and the policy level within which the code exists.</source>
+          <target state="translated">보안 개체, 현재 상태 및 코드 존재 하는 정책 수준에 대 한 XML 인코딩을 만듭니다.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The policy level context is provided for resolution of named permission sets.</source>
+          <target state="translated">정책 수준 컨텍스트 확인 명명 된 권한 집합을 위해 제공 됩니다.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The policy level within which the code group exists.</source>
+          <target state="translated">코드 그룹이 존재 하는 정책 수준입니다.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>An XML encoding of the security object, including any state information.</source>
+          <target state="translated">모든 상태 정보를 포함 하는 보안 개체의 XML 인코딩입니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

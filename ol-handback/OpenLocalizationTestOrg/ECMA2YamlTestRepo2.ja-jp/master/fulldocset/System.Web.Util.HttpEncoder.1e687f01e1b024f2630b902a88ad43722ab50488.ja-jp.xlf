@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c69f9830d5f99e318bd8872c04a5caca4ae0a233</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Util.HttpEncoder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">72ebc7084ced72b5ba4140baeb83fcace33c3e24</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2dcb3172153f24a7e4d5f55a60320fed5f75e883</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides encoding and decoding logic.</source>
+          <target state="translated">エンコードとデコードのロジックを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The class contains encoding and decoding logic that is used by methods in classes such as &lt;xref:System.Web.HttpUtility&gt;, &lt;xref:System.Web.HttpServerUtility&gt;, and &lt;xref:System.Net.HttpResponseHeader&gt;.</source>
+          <target state="translated">クラスには、エンコードとデコードなどのクラスのメソッドで使用されるロジックが含まれています&lt;xref:System.Web.HttpUtility&gt;、 &lt;xref:System.Web.HttpServerUtility&gt;、 &lt;xref:System.Net.HttpResponseHeader&gt;。&lt;/xref:System.Net.HttpResponseHeader&gt; &lt;/xref:System.Web.HttpServerUtility&gt; &lt;/xref:System.Web.HttpUtility&gt; 。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can inherit from the HttpEncoder class and override its behavior to customize the default encoding and decoding behavior of ASP.NET.</source>
+          <target state="translated">HttpEncoder クラスから継承でき、既定のエンコードとデコード ASP.NET の動作をカスタマイズするには、次のように動作をオーバーライドすることができます。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You then set the &lt;xref:System.Web.Configuration.HttpRuntimeSection.EncoderType%2A&gt; property of the &lt;xref:System.Web.Configuration.HttpRuntimeSection&gt; class to configure your custom class.</source>
+          <target state="translated">&lt;xref:System.Web.Configuration.HttpRuntimeSection.EncoderType%2A&gt;&lt;xref:System.Web.Configuration.HttpRuntimeSection&gt;をカスタム クラスを構成するクラス&lt;/xref:System.Web.Configuration.HttpRuntimeSection&gt;のプロパティ&lt;/xref:System.Web.Configuration.HttpRuntimeSection.EncoderType%2A&gt;を設定します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A custom class for encoding and decoding that derives from HttpEncoder can override the built-in ASP.NET encoding and decoding behavior or change only selected aspects of it.</source>
+          <target state="translated">HttpEncoder から派生するカスタム クラスのエンコードとデコードの組み込みの ASP.NET のエンコードとデコードの動作をオーバーライドできます。 または選択したスクリプトのみを変更します。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>You can configure the custom encoding type for in ASP.NET to replace or supplement the following encoding behavior:      -   HTML encoding      -   HTML attribute encoding      -   URL encoding      -   URL path encoding      -   HTTP header name and header value encoding       By default, ASP.NET applications are configured to use the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; type for all output encoding.</source>
+          <target state="translated">置き換えたり、次のエンコードの動作を補足するための ASP.NET でのカスタム エンコードの種類を構成することができます: - HTML: HTML 属性エンコード - URL のエンコーディング: URL パスのエンコード - エンコード標準の HTTP ヘッダー名とヘッダーの値のエンコードによって、ASP.NET アプリケーションの構成を使用する、&lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;すべての出力エンコードを入力します&lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following example from an application-level Web.config file shows how the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; type is set for an ASP.NET application:       <ph id="ph1">`&lt;httpRuntime requestValidationMode="4.5" encoderType="System.Web.Security.AntiXss.AntiXssEncoder, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/&gt;`</ph>       The configuration setting in the example sets the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; class to perform all output encoding in the application.</source>
+          <target state="translated">アプリケーション レベルの Web.config ファイルの表示から次の例、 &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;ASP.NET アプリケーションの型は設定:<ph id="ph1">`&lt;httpRuntime requestValidationMode="4.5" encoderType="System.Web.Security.AntiXss.AntiXssEncoder, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/&gt;`</ph>例のセットで構成設定、&lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;すべてを実行するクラスは、アプリケーションでのエンコードを出力します&lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;&lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; class overview.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Web.Security.AntiXss.AntiXssEncoder&gt;クラスの概要。&lt;/xref:System.Web.Security.AntiXss.AntiXssEncoder&gt; 。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets or set the <bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> type that will be used in an application.</source>
+          <target state="translated">取得または設定、 <bpt id="p1">&lt;xref href="System.Web.Util.HttpEncoder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>アプリケーションで使用される型。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If a derived &lt;xref:System.Web.Util.HttpEncoder&gt; type is specified in the configuration file, the Current property returns a reference to the custom type.</source>
+          <target state="translated">場合、派生&lt;xref:System.Web.Util.HttpEncoder&gt;型が、構成ファイルで指定された現在のプロパティは、カスタム型への参照を返します&lt;/xref:System.Web.Util.HttpEncoder&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>However, if no custom encoder is used, the property returns a reference to the default ASP.NET &lt;xref:System.Web.Util.HttpEncoder&gt; instance.</source>
+          <target state="translated">ただし、カスタム エンコーダーを使用しない場合、プロパティの参照を返します、既定の ASP.NET に&lt;xref:System.Web.Util.HttpEncoder&gt;インスタンス&lt;/xref:System.Web.Util.HttpEncoder&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The Current property is not thread-safe.</source>
+          <target state="translated">現在のプロパティは、スレッド セーフではできません。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Set this property only in the application's <ph id="ph1">`Application_Start`</ph> method, because <ph id="ph2">`Application_Start`</ph> runs on a single thread.</source>
+          <target state="translated">アプリケーションのでのみこのプロパティを設定<ph id="ph1">`Application_Start`</ph>メソッド、ため<ph id="ph2">`Application_Start`</ph>1 つのスレッドで実行されます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A reference to the encoder/decoder type that will be used.</source>
+          <target state="translated">使用されるエンコーダー/デコーダーの種類への参照。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The encoder instance that is being assigned to this property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">このプロパティに割り当てられているエンコーダー インスタンスが<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the default encoder for ASP.NET.</source>
+          <target state="translated">ASP.NET の既定のエンコーダーへの参照を取得します。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A common encoding issue is that the default ASP.NET &lt;xref:System.Web.Util.HttpEncoder.UrlEncode%2A&gt; behavior converts spaces into the "+" character.</source>
+          <target state="translated">エンコードの一般的な問題は、既定の ASP.NET&lt;xref:System.Web.Util.HttpEncoder.UrlEncode%2A&gt;動作を「+」文字のスペースに変換します&lt;/xref:System.Web.Util.HttpEncoder.UrlEncode%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Historically, the "+" character has been an Internet convention for encoding space characters in a URL into a more human-readable manner.</source>
+          <target state="translated">従来は、「+」文字は、インターネットの規則より人間が判読できるように URL 内の空白文字をエンコードするためにされました。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>However, according to standards, the space character is supposed to be encoded as "%20" and instead of as the "+" character.</source>
+          <target state="translated">ただし、標準、に従って、空白文字を想定の代わりに"%20"としてエンコードされる「+」文字として。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>ASP.NET lets you implement a more standards compliant encoding algorithm.</source>
+          <target state="translated">ASP.NET では、複数の標準準拠エンコード アルゴリズムを実装することができます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A reference to the default encoder.</source>
+          <target state="translated">既定のエンコーダーへの参照。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Encodes a header name and value into a string that can be used as an HTTP header.</source>
+          <target state="translated">HTTP ヘッダーとして使用できる文字列には、ヘッダーの名前と値をエンコードします。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The HeaderNameValueEncode method takes input strings from the <ph id="ph1">`headerName`</ph> and <ph id="ph2">`headerValue`</ph> parameters and encodes them.</source>
+          <target state="translated">メソッドは、入力 HeaderNameValueEncode から文字列を<ph id="ph1">`headerName`</ph>と<ph id="ph2">`headerValue`</ph>パラメーターし、それらをエンコードします。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The encoded values are returned as out parameters.</source>
+          <target state="translated">エンコードされた値は、出力パラメーターとして返されます。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The HeaderNameValueEncode method uses the following logic to encode header names and values:      -   All characters whose Unicode value is less than ASCII character 32, except ASCII character 9, are URL-encoded into a format of <ph id="ph1">`%NN`</ph> where the <ph id="ph2">`N`</ph> characters represent hexadecimal values.</source>
+          <target state="translated">HeaderNameValueEncode メソッドでは、次のロジックを使用して、ヘッダーの名前と値のエンコード:-すべての文字を Unicode 値では、ASCII 文字、9 を除く ASCII 文字、32 より小さいはの形式に URL エンコード<ph id="ph1">`%NN`</ph>場所、<ph id="ph2">`N`</ph>文字は 16 進値を表します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>-   ASCII character 9 (the horizontal tab character) is not URL-encoded.</source>
+          <target state="translated">ASCII 文字 9 (水平タブ文字) は、URL エンコードされません。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>-   ASCII character 127 is encoded as <ph id="ph1">`%7F`</ph>.</source>
+          <target state="translated">ASCII 文字 127 としてエンコード<ph id="ph1">`%7F`</ph>です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>-   All other characters are not encoded.</source>
+          <target state="translated">のその他すべての文字がエンコードされていません。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph>     &gt;  Although this method can be used for Unicode values, it is typically used for values in the ASCII range.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; ASCII の範囲で値を通常使用されるこのメソッドは、Unicode 値を使用できますが、します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The default implementation of the HeaderNameValueEncode method returns the value of <ph id="ph1">`headerValue`</ph> in <ph id="ph2">`encodedHeaderValue`</ph> if <ph id="ph3">`headerValue`</ph> is <ph id="ph4">`null`</ph> or is an empty string.</source>
+          <target state="translated">HeaderNameValueEncode メソッドの既定の実装がの値を返します<ph id="ph1">`headerValue`</ph>で<ph id="ph2">`encodedHeaderValue`</ph>場合<ph id="ph3">`headerValue`</ph>は<ph id="ph4">`null`</ph>または空の文字列。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Similarly, the default implementation returns the value of <ph id="ph1">`headerName`</ph> in <ph id="ph2">`encodedHeaderName`</ph> if <ph id="ph3">`headerName`</ph> is <ph id="ph4">`null`</ph> or is an empty string.</source>
+          <target state="translated">同様に、既定の実装がの値を返します<ph id="ph1">`headerName`</ph>で<ph id="ph2">`encodedHeaderName`</ph>場合<ph id="ph3">`headerName`</ph>は<ph id="ph4">`null`</ph>または空の文字列。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The HTTP header name to encode.</source>
+          <target state="translated">エンコードする HTTP ヘッダーの名前。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The HTTP header value to encode.</source>
+          <target state="translated">エンコードする HTTP ヘッダーの値。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the encoded name to use for an HTTP header.</source>
+          <target state="translated">このメソッドが戻るときに、HTTP ヘッダーに使用するエンコードされた名前が含まれています。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">このパラメーターは初期化せずに渡されます。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the encoded value to use for an HTTP header.</source>
+          <target state="translated">このメソッドが戻るときに、HTTP ヘッダーに使用するエンコードされた値が含まれています。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">このパラメーターは初期化せずに渡されます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Encodes an incoming value into a string that can be inserted into an HTML attribute that is delimited by using single or double quotation marks.</source>
+          <target state="translated">一重引用符または二重引用符で区切られた HTML 属性を挿入する文字列に受信した値をエンコードします。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">エンコードする文字列。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The text writer to write the encoded value to.</source>
+          <target state="translated">エンコードされた値を書き込むテキスト ライター。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Decodes a value from an HTML-encoded string.</source>
+          <target state="translated">HTML エンコードされた文字列から値をデコードします。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The following table lists the character sequences that the ASP.NET decoding logic can decode.</source>
+          <target state="translated">次の表は、ASP.NET のデコード ロジックをデコードできる文字シーケンスを一覧表示します。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>|Character sequence|Rule|   |------------------------|----------|   |<ph id="ph1">`&amp;#NNN;`</ph> (decimal codes for ASCII characters).|Decoded as the specified ASCII character.</source>
+          <target state="translated">|文字のシーケンス |ルール |  |------------------------|----------|  |<ph id="ph1">`&amp;#NNN;`</ph> (ASCII 文字の&amp;10; 進数コード). |指定された ASCII 文字とデコードします。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The character sequence starts at the first digit after the # character and finishes at the semicolon.|   |<ph id="ph1">`&amp;#xZZ;`</ph> (hexadecimal codes for ASCII characters).|Decoded as the specified ASCII character.</source>
+          <target state="translated">文字シーケンスは、# 文字の後に最初の数字から開始され、セミコロンで終了します |。  |<ph id="ph1">`&amp;#xZZ;`</ph> (ASCII 文字の&amp;16; 進数コード). |指定された ASCII 文字とデコードします。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The encoded form specifies the character by using hexadecimal characters instead of a decimal value.</source>
+          <target state="translated">エンコードされた形式では、10 進値ではなく&amp;16; 進文字を使用して、文字を指定します。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The character sequence starts at the first digit after the # character and finishes at the semicolon.|   |Named HTML entities.|Decoded as the equivalent ASCII character.|</source>
+          <target state="translated">文字シーケンスは、# 文字の後に最初の数字から開始され、セミコロンで終了します |。  |名前付き HTML エンティティです |。等価の ASCII 文字とデコードします |。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The string to decode.</source>
+          <target state="translated">デコードする文字列。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The text writer to write the decoded value to.</source>
+          <target state="translated">デコードされた値を書き込むテキスト ライター。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Encodes a string into an HTML-encoded string.</source>
+          <target state="translated">HTML エンコードされた文字列に文字列をエンコードします。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">エンコードする文字列。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The text writer to write the encoded value to.</source>
+          <target state="translated">エンコードされた値を書き込むテキスト ライター。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Encodes a string.</source>
+          <target state="translated">文字列をエンコードします。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>URL encoding makes sure that all browsers correctly transmit text in URL strings.</source>
+          <target state="translated">URL エンコードは、すべてのブラウザーが URL 文字列のテキストを正しく送信されることを確認します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Characters such as a question mark (?), ampersand (&amp;), slash (/), and spaces might be truncated or corrupted by some browsers.</source>
+          <target state="translated">疑問符 (?)、アンパサンド (&amp;) などの文字スラッシュ (/)、および空白の切り捨てやブラウザーによっては、破損している可能性があります。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Therefore, these characters must be encoded.</source>
+          <target state="translated">したがって、これらの文字をエンコードする必要があります。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">エンコードする文字列。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An encoded string.</source>
+          <target state="translated">エンコードされた文字列。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Encodes an array of characters that are not allowed in a URL into a hexadecimal character-entity equivalent.</source>
+          <target state="translated">16 進数の文字エン ティティと同等に URL で許可されていない文字の配列をエンコードします。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The UrlEncode method is called by several URL encoding methods in the &lt;xref:System.Web.HttpUtility&gt; class.</source>
+          <target state="translated">&lt;xref:System.Web.HttpUtility&gt;クラス&lt;/xref:System.Web.HttpUtility&gt;のいくつかの URL エンコード方法によって UrlEncode メソッドが呼び出されます</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The UrlEncode method URL-encodes any character that is not in the set of ASCII characters that is considered to be URL-safe.</source>
+          <target state="translated">URL エンコード UrlEncode メソッドではありません。 一連の ASCII 文字の任意の文字は、URL セーフであると見なされます。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Spaces are encoded as the ASCII "<ph id="ph1">`+"`</ph> character.</source>
+          <target state="translated">スペースは、ASCII としてエンコード"<ph id="ph1">`+"`</ph>文字です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>URL-safe ASCII characters include the ASCI characters (A to Z and a to z), numerals (0 to 9), and some punctuation marks.</source>
+          <target state="translated">URL セーフな ASCII 文字が、ASCI 文字を含める (A ~ Z と z)、数字 (0 ~ 9)、および一部の区切り記号。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The following table lists the punctuation marks that are considered URL-safe ASCII characters.</source>
+          <target state="translated">次の表には、URL セーフな ASCII 文字と見なされる区切り記号が一覧表示します。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>|Character|Description|   |---------------|-----------------|   |-|Hyphen|   |_|Underscore|   |.|Period (dot)|   |!|Exclamation mark|   |*|Asterisk (star)|   |(|Opening parenthesis|   |)|Closing parenthesis|</source>
+          <target state="translated">|文字 |説明 |  |---------------|-----------------|  |-|ハイフン |  |_|アンダー スコア |  |.|ピリオド (ドット) |  |!|感嘆符 |  |*|アスタリスク (アスタリスク) |  |(|始めかっこ |  |)|閉じかっこ |</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An array of bytes to encode.</source>
+          <target state="translated">エンコードするバイトの配列。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The position in the <ph id="ph1">`bytes`</ph> array at which to begin encoding.</source>
+          <target state="translated">内の位置、<ph id="ph1">`bytes`</ph>エンコードを開始する配列。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The number of items in the <ph id="ph1">`bytes`</ph> array to encode.</source>
+          <target state="translated">内の項目数、<ph id="ph1">`bytes`</ph>エンコードする配列。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An array of encoded characters.</source>
+          <target state="translated">エンコードされた文字の配列。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than zero or greater than the length of the <ph id="ph2">&lt;code&gt;bytes&lt;/code&gt;</ph> array.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>0 の長さより大きいか小さい、<ph id="ph2">&lt;code&gt;bytes&lt;/code&gt;</ph>配列。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than zero or <ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph> plus <ph id="ph3">&lt;code&gt;offset&lt;/code&gt;</ph> is greater than the length of the <ph id="ph4">&lt;code&gt;bytes&lt;/code&gt;</ph> array.</source>
+          <target state="translated">- または -<ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph>が&amp;0; 未満または<ph id="ph2">&lt;code&gt;count&lt;/code&gt;</ph>plus<ph id="ph3">&lt;code&gt;offset&lt;/code&gt;</ph>がの長さより大きい、<ph id="ph4">&lt;code&gt;bytes&lt;/code&gt;</ph>配列。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;bytes&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;bytes&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Encodes a subsection of a URL.</source>
+          <target state="translated">URL のサブセクションをエンコードします。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The UrlPathEncode method is called by the &lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt; method.</source>
+          <target state="translated">UrlPathEncode メソッドによって呼び出されます、&lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;メソッド&lt;/xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt; method performs the following steps:      -   Applies the encoding logic of the UrlPathEncode method to only the path part of the URL (which excludes the query string).</source>
+          <target state="translated">&lt;xref:System.Web.HttpUtility.UrlPathEncode%2A&gt;メソッドは、次の手順を実行します-(クエリ文字列を除く) を URL のパスの一部のみを UrlPathEncode メソッドのエンコーディングのロジックを適用します。&lt;/xref:System.Web.HttpUtility.UrlPathEncode%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The method assumes that the URL is encoded as a UTF-8 string.</source>
+          <target state="translated">メソッドは、URL が、utf-8 文字列としてエンコードされていると仮定します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-   Encodes non-spaces so that only a subset of the first 128 ASCII characters is used in the resulting encoded string.</source>
+          <target state="translated">-最初の 128 個の ASCII 文字のサブセットのみが結果として得られる、エンコードされた文字列で使用されるように、非空白文字をエンコードします。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Any characters at Unicode value 128 and greater, or 32 and less, are URL-encoded.</source>
+          <target state="translated">128 と大きい、または 32 と小さい、Unicode 値で任意の文字では、URL エンコードです。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-   Encodes spaces as %20.</source>
+          <target state="translated">-20% として空白文字をエンコードします。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The string to encode.</source>
+          <target state="translated">エンコードする文字列。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A URL-encoded string.</source>
+          <target state="translated">URL でエンコードされた文字列。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

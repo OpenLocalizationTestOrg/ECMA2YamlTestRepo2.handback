@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8afbd9ff889797c98f996dee9e02d66d87ddd203</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.DynamicData.DynamicDataManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9e18e6ad6621b76721218855bfcae9215df8b5f5</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6db6754b71a66a4bc14dfbb8572fd28b36dbe34d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables dynamic behavior for ASP.NET Web controls that support ASP.NET Dynamic Data.</source>
+          <target state="translated">ASP.NET 動的データをサポートする ASP.NET Web コントロールの動的な動作を有効にします。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Declarative Syntax<ept id="p2">](#declarative_syntax)</ept>      <bpt id="p3">&lt;a name="introduction"&gt;</bpt><ept id="p3">&lt;/a&gt;</ept>    ## Introduction    The DynamicDataManager control provides the glue between the data-bound control, the data source control, and Dynamic Data in the following ways:      -   Sets a field generator for the data-bound control to create the correct column set when &lt;xref:System.Web.UI.WebControls.GridView.AutoGenerateColumns%2A&gt; is set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">このトピックの内容:-<bpt id="p1">[</bpt>概要<ept id="p1">](#introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>宣言構文<ept id="p2">](#declarative_syntax)</ept><bpt id="p3">&lt;a name="introduction"&gt;</bpt> <ept id="p3">&lt;/a&gt;</ept> ## の概要 DynamicDataManager コントロールでは、次のように、データ バインド コントロール、データ ソースの管理と動的なデータの間でグルーが用意されています:-セットを適切な列を作成するデータ バインド コントロールのフィールド ジェネレーターときに設定&lt;xref:System.Web.UI.WebControls.GridView.AutoGenerateColumns%2A&gt;に設定されている<ph id="ph2">`true`</ph>&lt;/xref:System.Web.UI.WebControls.GridView.AutoGenerateColumns%2A&gt;。      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The data-bound control can be a &lt;xref:System.Web.UI.WebControls.GridView&gt; control, a &lt;xref:System.Web.UI.WebControls.DetailsView&gt; control, or a &lt;xref:System.Web.UI.WebControls.FormView&gt; control.</source>
+          <target state="translated">データ バインド コントロールであることができます、&lt;xref:System.Web.UI.WebControls.GridView&gt;コントロール、&lt;xref:System.Web.UI.WebControls.DetailsView&gt;コントロール、または&lt;xref:System.Web.UI.WebControls.FormView&gt;コントロール&lt;/xref:System.Web.UI.WebControls.FormView&gt;&lt;/xref:System.Web.UI.WebControls.DetailsView&gt;&lt;/xref:System.Web.UI.WebControls.GridView&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>-   Sets the context type and table name for the data source control.</source>
+          <target state="translated">-データ ソース コントロールのコンテキストの種類とテーブル名を設定します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The data source control for LINQ-to-SQL is &lt;xref:System.Web.UI.WebControls.LinqDataSource&gt;.</source>
+          <target state="translated">LINQ to SQL のデータ ソース コントロールが&lt;xref:System.Web.UI.WebControls.LinqDataSource&gt;。&lt;/xref:System.Web.UI.WebControls.LinqDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The data source control for the ADO Entity Framework is &lt;xref:System.Web.UI.WebControls.EntityDataSource&gt;.</source>
+          <target state="translated">ADO Entity Framework のデータ ソース コントロールが&lt;xref:System.Web.UI.WebControls.EntityDataSource&gt;。&lt;/xref:System.Web.UI.WebControls.EntityDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   Sets the &lt;xref:System.Web.DynamicData.IDynamicDataSource.AutoGenerateWhereClause%2A&gt; to <ph id="ph1">`true`</ph> for the data source if there is no Where clause.</source>
+          <target state="translated">設定、&lt;xref:System.Web.DynamicData.IDynamicDataSource.AutoGenerateWhereClause%2A&gt;に<ph id="ph1">`true`</ph>場所が存在しない場合、データ ソースの句&lt;/xref:System.Web.DynamicData.IDynamicDataSource.AutoGenerateWhereClause%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   Expands the special dynamic parameters such as &lt;xref:System.Web.DynamicData.DynamicControlParameter&gt; into parameters that the data source can consume.</source>
+          <target state="translated">-特殊な動的パラメーターをなど、展開&lt;xref:System.Web.DynamicData.DynamicControlParameter&gt;データ ソースを使用できるパラメーターにします&lt;/xref:System.Web.DynamicData.DynamicControlParameter&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>-   If the LINQ-to-SQL &lt;xref:System.Web.DynamicData.DynamicDataManager.AutoLoadForeignKeys%2A&gt; property is set to <ph id="ph1">`true`</ph>, loads the foreign keys.</source>
+          <target state="translated">場合、LINQ to SQL&lt;xref:System.Web.DynamicData.DynamicDataManager.AutoLoadForeignKeys%2A&gt;プロパティに設定されている<ph id="ph1">`true`</ph>、外部キーを読み込みます&lt;/xref:System.Web.DynamicData.DynamicDataManager.AutoLoadForeignKeys%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The DynamicDataManager control must be included on a page in order for data controls to use Dynamic Data support.</source>
+          <target state="translated">DynamicDataManager コントロールは、ページ上の動的データ サポートを使用するコントロールをデータの順序で含める必要があります。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The markup for the DynamicDataManager control must precede the markup for any controls that use Dynamic Data support.</source>
+          <target state="translated">DynamicDataManager コントロールのマークアップには、動的データ サポートを使用するコントロールのマークアップが前に指定する必要があります。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A DynamicDataManager control cannot be put inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A DynamicDataManager コントロールは、内側に配置することはできません、&lt;xref:System.Web.UI.UpdatePanel&gt;コントロール&lt;/xref:System.Web.UI.UpdatePanel&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:DynamicDataManager       AutoLoadForeignKeys="True|False"       EnableQueryStringSelection="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       runat="server"   &gt;   &lt;/asp:DynamicDataManager&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="declarative_syntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## 宣言構文<ph id="ph1">```   &lt;asp:DynamicDataManager       AutoLoadForeignKeys="True|False"       EnableQueryStringSelection="True|False"       EnableViewState="True|False"       ID="string"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       runat="server"   &gt;   &lt;/asp:DynamicDataManager&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コントロール。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether foreign keys are automatically loaded for a LINQ-to-SQL data context.</source>
+          <target state="translated">取得または LINQ to SQL データ コンテキストの外部キーが自動的に読み込まれるかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the data model is not based on LINQ to SQL, this property is ignored.</source>
+          <target state="translated">データ モデルは、LINQ to SQL に基づいていません、このプロパティは無視されます。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When the property set to <ph id="ph1">`true`</ph>, it causes the related entities to be loaded in the initial query.</source>
+          <target state="translated">プロパティに設定すると<ph id="ph1">`true`</ph>、最初のクエリで読み込まれる関連エンティティになります。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When the property is set to <ph id="ph1">`false`</ph>, LINQ to SQL will load the related objects when they are requested.</source>
+          <target state="translated">プロパティを設定すると<ph id="ph1">`false`</ph>、LINQ to SQL は、要求されると、関連オブジェクトに読み込まれます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This property is only for load optimization and does not affect what is displayed.</source>
+          <target state="translated">このプロパティは、読み込み最適化にのみ、表示される内容には影響しません。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if foreign keys are automatically loaded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>外部キーは自動的に読み込まれます。 場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Web.UI.Control.ClientID*&gt; property that is generated by ASP.NET.</source>
+          <target state="translated">取得、 &lt;xref:System.Web.UI.Control.ClientID*&gt;ASP.NET によって生成されるプロパティです&lt;/xref:System.Web.UI.Control.ClientID*&gt;。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.Control.ClientID*&gt; property that is generated by ASP.NET.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Control.ClientID*&gt;ASP.NET によって生成されるプロパティです&lt;/xref:System.Web.UI.Control.ClientID*&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets the algorithm that is used to generate the value in the &lt;xref:System.Web.UI.Control.ClientID*&gt; property.</source>
+          <target state="translated">値を生成するために使用されるアルゴリズムを取得、&lt;xref:System.Web.UI.Control.ClientID*&gt;プロパティ&lt;/xref:System.Web.UI.Control.ClientID*&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A value that indicates how the &lt;xref:System.Web.UI.Control.ClientID*&gt; property is generated.</source>
+          <target state="translated">示す値が、どのように&lt;xref:System.Web.UI.Control.ClientID*&gt;プロパティを生成します&lt;/xref:System.Web.UI.Control.ClientID*&gt;。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This property cannot be set.</source>
+          <target state="translated">このプロパティを設定することはできません。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the list of data-control references in the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">データ コントロール内の参照一覧を取得、 <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コントロール。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The list of data-control references in the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">データ コントロール内の参照一覧、 <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コントロール。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.Web.UI.Control.Init"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">イベントのデータ。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">発生させる、 <bpt id="p1">&lt;xref href="System.Web.UI.Control.Load"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>イベント。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">イベントのデータ。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Registers a control with the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">使用して、コントロールを登録、 <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コントロール。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To enables dynamic behavior in a control, you must register it.</source>
+          <target state="translated">コントロールの動的な動作を有効にすることを登録する必要があります。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The data control to register.</source>
+          <target state="translated">登録するデータ コントロール。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Registers a control with the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">使用して、コントロールを登録、 <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コントロール。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Registering the control enables its dynamic behavior.</source>
+          <target state="translated">コントロールを登録すると、その動的な動作が、します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`setSelectionFromUrl`</ph> parameter is <ph id="ph2">`true`</ph> and the primary key value is found in the route values, the primary key will be used to set the selected item.</source>
+          <target state="translated">場合、<ph id="ph1">`setSelectionFromUrl`</ph>パラメーターは<ph id="ph2">`true`</ph>おり、主キーの値がルートの値で主キーを選択した項目を設定するために使用されます。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The primary key value is typically passed in the route by using the query string in the request URL.</source>
+          <target state="translated">主キーの値は、要求 URL にクエリ文字列を使用して、通常、ルート上で渡されます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The data control to register.</source>
+          <target state="translated">登録するデータ コントロール。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use the primary key to set the selected item; otherwise, the selected item is not set.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>選択した項目の設定に主キーを使用するにはそれ以外の場合、選択した項目は設定されていません。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is visible.</source>
+          <target state="translated">示す値を取得するかどうか、 <bpt id="p1">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>コントロールが表示されます。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.DynamicData.DynamicDataManager&gt; is not a visible run-time control.</source>
+          <target state="translated">&lt;xref:System.Web.DynamicData.DynamicDataManager&gt;表示の実行時コントロールではありません&lt;/xref:System.Web.DynamicData.DynamicDataManager&gt;。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The property is only used at design time in a designer.</source>
+          <target state="translated">プロパティは、デザイナーでデザイン時にのみ使用します。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is visible; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合、 <bpt id="p2">&lt;xref href="System.Web.DynamicData.DynamicDataManager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>が表示されている場合は<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
