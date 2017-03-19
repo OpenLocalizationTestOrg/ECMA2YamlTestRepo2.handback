@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2d1be838ed22bdf5f1c9157974c5a138117fec5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.VisualTreeHelper.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e8a04f6e2767d71e0033125a67eb17e228d94a3d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">873a24dee826c7c55f5b7c719c77bc76907e849f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides utility methods that perform common tasks involving nodes in a visual tree.</source>
+          <target state="translated">Biedt hulpprogrammamethoden die algemene taken met betrekking tot de knooppunten in een visuele boomstructuur uitvoeren.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Nodes in the visual tree can be either &lt;xref:System.Windows.Media.Visual&gt; or &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; objects.</source>
+          <target state="translated">Knooppunten in de visuele boomstructuur kunnen zijn &lt;xref:System.Windows.Media.Visual&gt;of &lt;xref:System.Windows.Media.Media3D.Visual3D&gt;objecten.&lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Methods that are specific to a type of visual object are typed as either &lt;xref:System.Windows.Media.Visual&gt; or &lt;xref:System.Windows.Media.Media3D.Visual3D&gt;.</source>
+          <target state="translated">Methoden die specifiek voor een objecttype visual zijn zijn getypeerd als &lt;xref:System.Windows.Media.Visual&gt;of &lt;xref:System.Windows.Media.Media3D.Visual3D&gt;.&lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, some methods in the VisualTreeHelper class can accept a &lt;xref:System.Windows.DependencyObject&gt; value that represents either type of visual object.</source>
+          <target state="translated">Echter een aantal methoden in de klasse VisualTreeHelper accepteert een &lt;xref:System.Windows.DependencyObject&gt;-waarde die beide typen visueel object vertegenwoordigt.&lt;/xref:System.Windows.DependencyObject&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> supports programmatic access to several different tree structures of objects.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>ondersteunt programmatische toegang tot verschillende andere boomstructuren van objecten.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Primarily, this is exposed as a visual tree and a logical tree.</source>
+          <target state="translated">Dit is vooral, weergegeven als een visuele boomstructuur en een logische structuur.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In some cases, the logical tree is a more useful representation of the elements in a <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> application, but conceptually the logical tree is implemented at a level beyond the &lt;xref:System.Windows.Media.Visual&gt; class.</source>
+          <target state="translated">In sommige gevallen is de logische structuur een nuttiger weergave van de elementen in een <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> toepassing, maar in dat geval de logische structuur is geïmplementeerd op een niveau boven de &lt;xref:System.Windows.Media.Visual&gt;klasse.&lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the visual tree, the logical tree can represent nonvisual data objects, such as &lt;xref:System.Windows.Documents.ListItem&gt;.</source>
+          <target state="translated">In tegenstelling tot de visuele boomstructuur kan de logische structuur nonvisual gegevensobjecten, zoals &lt;xref:System.Windows.Documents.ListItem&gt;.&lt;/xref:System.Windows.Documents.ListItem&gt; vertegenwoordigen.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on the logical tree, see <bpt id="p1">[</bpt>Trees in WPF<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over de logische structuur <bpt id="p1">[</bpt>structuren in WPF<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The logical tree also is supported by a similar utility method class, &lt;xref:System.Windows.LogicalTreeHelper&gt;.</source>
+          <target state="translated">De logische structuur wordt ook ondersteund door een vergelijkbaar hulpprogramma methodeklasse, &lt;xref:System.Windows.LogicalTreeHelper&gt;.&lt;/xref:System.Windows.LogicalTreeHelper&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde voor de opgegeven <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the bitmap effect.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die het effect van de bitmap bevat.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffectInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffectInput"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde voor de opgegeven <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the bitmap effect input value.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die de effect-invoerwaarde bitmap bevat.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffectInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffectInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Retrieves the cached representation of the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Haalt de in de cache representatie van het opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to get the <bpt id="p2">&lt;xref href="System.Windows.Media.CacheMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to get the <bpt id="p2">&lt;xref href="System.Windows.Media.CacheMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.CacheMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">reference</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.CacheMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">reference</ph><ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns the child visual object from the specified collection index within a specified parent.</source>
+          <target state="translated">Retourneert de onderliggende visual-object van de index van de opgegeven verzameling binnen een opgegeven bovenliggende.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.VisualTreeHelper.GetChildrenCount%2A&gt; method to determine the total number of child elements of a parent visual.</source>
+          <target state="translated">Roep de &lt;xref:System.Windows.Media.VisualTreeHelper.GetChildrenCount%2A&gt;methode om te bepalen van het totale aantal onderliggende elementen van een bovenliggende visual.&lt;/xref:System.Windows.Media.VisualTreeHelper.GetChildrenCount%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of <ph id="ph1">`reference`</ph> can represent either a &lt;xref:System.Windows.Media.Visual&gt; or &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; object, which is why the common base type &lt;xref:System.Windows.DependencyObject&gt; is used here as a parameter type.</source>
+          <target state="translated">De waarde van <ph id="ph1">`reference`</ph> kunt vertegenwoordigen een &lt;xref:System.Windows.Media.Visual&gt;of &lt;xref:System.Windows.Media.Media3D.Visual3D&gt;-object, dat is de reden waarom het algemene basistype &lt;xref:System.Windows.DependencyObject&gt;wordt gebruikt hier aangegeven als een parameter van het type.&lt;/xref:System.Windows.DependencyObject&gt; &lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The parent visual, referenced as a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De visuele bovenliggende waarnaar wordt verwezen als een <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The index that represents the child visual that is contained by <ph id="ph1">`reference`</ph>.</source>
+          <target state="translated">De index met de onderliggende visual die is opgenomen in <ph id="ph1">`reference`</ph>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The index value of the child visual object.</source>
+          <target state="translated">De indexwaarde van de onderliggende visual-object.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns the number of children that the specified visual object contains.</source>
+          <target state="translated">Retourneert het aantal onderliggende items waarvan de opgegeven visual-object bevat.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Media.VisualTreeHelper.GetChild%2A&gt; method to retrieve a specified child of a parent visual.</source>
+          <target state="translated">Gebruik de &lt;xref:System.Windows.Media.VisualTreeHelper.GetChild%2A&gt;methode voor het ophalen van een opgegeven onderliggende lid van een bovenliggende visual.&lt;/xref:System.Windows.Media.VisualTreeHelper.GetChild%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of <ph id="ph1">`reference`</ph> can represent either a &lt;xref:System.Windows.Media.Visual&gt; or &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; object, which is why the common base type &lt;xref:System.Windows.DependencyObject&gt; is used here as a parameter type.</source>
+          <target state="translated">De waarde van <ph id="ph1">`reference`</ph> kunt vertegenwoordigen een &lt;xref:System.Windows.Media.Visual&gt;of &lt;xref:System.Windows.Media.Media3D.Visual3D&gt;-object, dat is de reden waarom het algemene basistype &lt;xref:System.Windows.DependencyObject&gt;wordt gebruikt hier aangegeven als een parameter van het type.&lt;/xref:System.Windows.DependencyObject&gt; &lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The parent visual that is referenced as a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De bovenliggende visual waarnaar wordt verwezen als een <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The number of child visuals that the parent visual contains.</source>
+          <target state="translated">Het aantal onderliggende visuele elementen die de bovenliggende visual bevat.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Return the clip region of the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as a <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Retourneert de clip regio van het opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als een <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> waarde.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose clip region value is returned.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan clip regio-waarde geretourneerd.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The clip region value of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returned as a <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> type.</source>
+          <target state="translated">De waarde van de regio illustratie van de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> geretourneerd als een <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> type.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the cached bounding box rectangle for the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de in de cache vak rechthoek voor het opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt; method to return the union of all the content bounding boxes for all the descendants of a 3D visual object, which includes the &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; itself.</source>
+          <target state="translated">Gebruik de &lt;xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt;methode om te retourneren van de samenvoeging van alle inhoud begrenzingsvak vakken de descendanten van een 3D-visual object, waaronder de &lt;xref:System.Windows.Media.Media3D.Visual3D&gt;zelf.&lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The 3D visual whose bounding box value is computed.</source>
+          <target state="translated">De 3D-visual waarvan selectiekader waarde wordt berekend.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The bounding box 3D rectangle for the <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De begrenzingsrechthoek vak 3D zijn voor de <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Returns the cached bounding box rectangle for the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de in de cache vak rechthoek voor het opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt; method to return the union of all the content bounding boxes for all the descendants of a visual object, which includes the &lt;xref:System.Windows.Media.Visual&gt; itself.</source>
+          <target state="translated">Roep de &lt;xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt;methode om te retourneren van de samenvoeging van alle inhoud begrenzingsvak vakken de descendanten van een visual-object, waaronder de &lt;xref:System.Windows.Media.Visual&gt;zelf.&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose bounding box value is computed.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan omsluitende vak de waarde wordt berekend.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The bounding box rectangle for the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De begrenzingsrechthoek vak voor de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Returns the union of all the content bounding boxes for all the descendants of the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which includes the content bounding box of the <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de vereniging van alle inhoud vakken begrenzingsvak voor alle onderliggende objecten van het opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, waaronder de inhoud begrenzingsvak van de <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt; method to return the cached bounding box rectangle for a 3D visual object.</source>
+          <target state="translated">Roep de &lt;xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt;methode om te retourneren van de cache vak rechthoek voor een 3D-visual-object.&lt;/xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The 3D visual whose bounding box value for all descendants is computed.</source>
+          <target state="translated">De 3D-visual waarvan selectiekader waarde voor alle onderliggende objecten wordt berekend.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Returns the bounding box 3D rectangle for the 3D visual.</source>
+          <target state="translated">Retourneert de begrenzingsrechthoek vak 3D zijn voor de 3D-visuele element.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Returns the union of all the content bounding boxes for all the descendants of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which includes the content bounding box of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de vereniging van alle inhoud vakken begrenzingsvak voor alle onderliggende objecten van de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, waaronder de inhoud begrenzingsvak van de <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt; method to return the cached bounding box rectangle for a &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">Roep de &lt;xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt;methode om te retourneren in de cache voor begrenzingsvak vak rechthoek voor een &lt;xref:System.Windows.Media.Visual&gt;.&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose bounding box value for all descendants is computed.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan omsluitende vak de waarde voor alle onderliggende objecten wordt berekend.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The bounding box rectangle for the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De begrenzingsrechthoek vak voor het opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the DPI information at which this Visual is measured and rendered.</source>
+          <target state="translated">Hiermee haalt u de DPI-informatie waarmee dit visuele element wordt gemeten en weergegeven.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The Visual target object.</source>
+          <target state="translated">Het visuele doelobject.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A DPIScale value.</source>
+          <target state="translated">Een waarde DPIScale.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Returns the drawing content of the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de tekening inhoud van de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose drawing content is returned.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan de tekening inhoud wordt geretourneerd.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The drawing content of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returned as a <bpt id="p2">&lt;xref href="System.Windows.Media.DrawingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> type.</source>
+          <target state="translated">De tekening inhoud van de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> geretourneerd als een <bpt id="p2">&lt;xref href="System.Windows.Media.DrawingGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> type.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Returns the edge mode of the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an <bpt id="p2">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Retourneert de Randmodus van de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als een <bpt id="p2">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> waarde.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The edge mode value determines how the edges of non-text primitives are rendered.</source>
+          <target state="translated">De waarde van de modus rand bepaalt hoe de randen van niet-tekstwaarden primitieven worden weergegeven.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Edge mode value|Description|   |---------------------|-----------------|   |&lt;xref:System.Windows.Media.EdgeMode&gt;|Render edges of non-text primitives as aliased edges.|   |&lt;xref:System.Windows.Media.EdgeMode&gt;|No edge mode is specified.</source>
+          <target state="translated">| Edge-moduswaarde | Beschrijving |   |---------------------|-----------------|   | &lt;xref:System.Windows.Media.EdgeMode&gt;| Renderen randen van niet-tekstwaarden primitieven als alias randen. |   | &lt;xref:System.Windows.Media.EdgeMode&gt;| Geen Randmodus is opgegeven.&lt;/xref:System.Windows.Media.EdgeMode&gt; &lt;/xref:System.Windows.Media.EdgeMode&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not change the current edge mode that is applied to non-text primitives.|</source>
+          <target state="translated">De huidige edge-modus die wordt toegepast op niet-tekstwaarden primitieven niet wijzigen. |</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose edge mode value is returned.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan moduswaarde rand wordt geretourneerd.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the bitmap effect for the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Het effect bitmap opgehaald voor de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to get the bitmap effect for.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> het effect bitmap voor ophalen.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.Effect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> applied to <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">reference</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.Effect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> applied to <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">reference</ph><ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Returns the offset of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de verschuiving van de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned offset value is relative to the parent of the &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">De geretourneerde waarde van de offset is ten opzichte van het bovenliggende lid van de &lt;xref:System.Windows.Media.Visual&gt;.&lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to return an offset value that is not relative to the parent of a &lt;xref:System.Windows.Media.Visual&gt;, use the &lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt; method.</source>
+          <target state="translated">Als u wilt retourneren een offsetwaarde die niet ten opzichte van het bovenliggende lid van een &lt;xref:System.Windows.Media.Visual&gt;, gebruiken de &lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;methode.&lt;/xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose offset is returned.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan offset wordt geretourneerd.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Vector"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the offset value of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Windows.Vector"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de offset waarde van de <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns the opacity of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de dekking van de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the opacity is expressed as a value between 0 and 1.</source>
+          <target state="translated">De waarde van de dekking wordt uitgedrukt als een waarde tussen 0 en 1.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of 0 indicates that the element is completely transparent, while a value of 1 indicates that the element is completely opaque.</source>
+          <target state="translated">Een waarde van 0 geeft aan dat het element volledig transparant, terwijl een waarde van 1 geeft aan dat het element volledig ondoorzichtig.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of 0.5 indicates that the element is 50 percent opaque.</source>
+          <target state="translated">Een waarde van 0,5 geeft aan dat het element 50 procent ondoorzichtige.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values less than 0 are treated as 0, and values greater than 1 are treated as 1.</source>
+          <target state="translated">De waarden kleiner dan 0 worden behandeld als 0 en waarden groter dan 1 worden behandeld als 1.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose opacity value is returned.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan de ondoorzichtigheidswaarde voor geretourneerd.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A value of type &lt;xref:System.Double&gt; that represents the opacity value of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een waarde van het type &lt;xref:System.Double&gt;die staat voor de ondoorzichtigheidswaarde van de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the opacity mask of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert een <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde waarmee het dekkingsmasker van de <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The opacity mask is a &lt;xref:System.Windows.Media.Brush&gt; that is applied to any alpha-channel masking for the rendered content of this &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">Het dekkingsmasker is een &lt;xref:System.Windows.Media.Brush&gt;die wordt toegepast op het alpha-kanaal maskering voor de gerenderde inhoud van deze &lt;xref:System.Windows.Media.Visual&gt;.&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Media.Brush&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose opacity mask value is returned.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan dekking masker-waarde geretourneerd.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the opacity mask value of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een waarde van het type <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de waarde van het subnetmasker dekking van de <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the parent of the visual object.</source>
+          <target state="translated">Retourneert een <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -waarde die de bovenliggende visual object vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of <ph id="ph1">`reference`</ph> can represent either a &lt;xref:System.Windows.Media.Visual&gt; or &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; object.</source>
+          <target state="translated">De waarde van <ph id="ph1">`reference`</ph> kunt vertegenwoordigen een &lt;xref:System.Windows.Media.Visual&gt;of &lt;xref:System.Windows.Media.Media3D.Visual3D&gt;object.&lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The visual whose parent is returned.</source>
+          <target state="translated">Het visuele element waarvan het bovenliggende wordt geretourneerd.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The parent of the visual.</source>
+          <target state="translated">Het bovenliggende item van het visuele element.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Media.Transform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert een <bpt id="p1">&lt;xref href="System.Windows.Media.Transform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarde voor de <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, you can use the &lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt; method to return a transform value for the ancestor of a &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">U kunt ook de &lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;methode om te retourneren van een transformatie-waarde voor het bovenliggende lid van een &lt;xref:System.Windows.Media.Visual&gt;.&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt; gebruiken</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method always returns a valid transform.</source>
+          <target state="translated">Deze methode retourneert altijd een geldig transformatie.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following code example shows how to use &lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt; method.</source>
+          <target state="translated">Het volgende codevoorbeeld ziet u hoe u &lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;methode.&lt;/xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>VisualSnippets#VisualSnippet3<ept id="p2">](~/add/codesnippet/visualbasic/visualsnippets/window1.xaml.vb#visualsnippet3)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>VisualSnippets#VisualSnippet3<ept id="p4">](~/add/codesnippet/csharp/VisualSnippets/Window1.xaml.cs#visualsnippet3)</ept><ept id="p3">]</ept></source>
+          <target state="translated"><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>VisualSnippets #VisualSnippet3<ept id="p2">](~/add/codesnippet/visualbasic/visualsnippets/window1.xaml.vb#visualsnippet3)</ept><ept id="p1">]</ept><bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>VisualSnippets #VisualSnippet3  <ept id="p4">](~/add/codesnippet/csharp/VisualSnippets/Window1.xaml.cs#visualsnippet3)</ept><ept id="p3">]</ept></target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose transform value is returned.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan transformatie-waarde geretourneerd.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The transform value of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">reference</ph><ept id="p3">&lt;/code&gt;</ept> does not have a transform defined.</source>
+          <target state="translated">De transformatie-waarde van de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, of <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">reference</ph> <ept id="p3">&lt;/code&gt;</ept> is geen transformatie gedefinieerd.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Returns an X-coordinate (vertical) guideline collection.</source>
+          <target state="translated">Retourneert een verzameling van de richtlijn X-coördinaat (verticaal).</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pixel snapping is the process in which content layout is fixed so that object edges are rendered on device-specific pixels.</source>
+          <target state="translated">Pixels uitlijnen is het proces waarin de indeling van de inhoud is opgelost zodat de objectranden worden weergegeven op het apparaat-specifieke pixels.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> graphics system uses device-independent units to enable resolution and device independence.</source>
+          <target state="translated">De <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> graphics system maakt gebruik van apparaatonafhankelijke eenheden zodat onafhankelijkheid resolutie en het apparaat.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each device independent pixel automatically scales with the system's <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> setting.</source>
+          <target state="translated">Elke onafhankelijke pixel apparaat automatisch wordt geschaald met het systeem <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> instelling.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This provides <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> applications proper scaling for different <ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> settings and makes the application automatically <ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>-aware.</source>
+          <target state="translated">Dit biedt <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> juiste schalen van toepassingen voor andere <ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> instellingen en maakt u de toepassing automatisch <ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>-bewust.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, this <ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> independence can create irregular edge rendering due to anti-aliasing.</source>
+          <target state="translated">Echter, dit <ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> onafhankelijkheid onregelmatige rand rendering vanwege anti-aliasing kunt maken.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These artifacts, commonly seen as blurry, or "soft" edges, can occur when the location of an edge falls in the middle of a device pixel rather than between device pixels.</source>
+          <target state="translated">Deze artefacten, algemeen gezien als fuzzy of 'soft' randen, kunnen optreden wanneer de locatie van een edge in het midden van een apparaat pixel in plaats van tussen apparaat pixels valt.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To address this issue, <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> provides a way for object edges in a visual tree to "snap" to device pixels through pixel snapping, eliminating the soft edges produced by anti-aliasing.</source>
+          <target state="translated">Om dit probleem te verhelpen <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> biedt een manier voor de randen van het object in een visuele boomstructuur ' uitgelijnd ' op apparaat pixels via pixels uitlijnen, de zachte randen die wordt geproduceerd door anti-aliasing elimineren.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose X-coordinate guideline collection is returned.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan de X-coördinaat richtlijn collectie wordt geretourneerd.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The X-coordinate guideline collection of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De verzameling van de richtlijn X-coördinaat van de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Returns a Y-coordinate (horizontal) guideline collection.</source>
+          <target state="translated">Retourneert een verzameling van de richtlijn Y-coördinaat (horizontaal).</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pixel snapping is the process in which content layout is fixed so that object edges are rendered on device-specific pixels.</source>
+          <target state="translated">Pixels uitlijnen is het proces waarin de indeling van de inhoud is opgelost zodat de objectranden worden weergegeven op het apparaat-specifieke pixels.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> graphics system uses device-independent units to enable resolution and device independence.</source>
+          <target state="translated">De <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> graphics system maakt gebruik van apparaatonafhankelijke eenheden zodat onafhankelijkheid resolutie en het apparaat.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each device independent pixel automatically scales with the system's <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> setting.</source>
+          <target state="translated">Elke onafhankelijke pixel apparaat automatisch wordt geschaald met het systeem <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> instelling.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This provides <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> applications proper scaling for different <ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> settings and makes the application automatically <ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>-aware.</source>
+          <target state="translated">Dit biedt <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> juiste schalen van toepassingen voor andere <ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> instellingen en maakt u de toepassing automatisch <ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>-bewust.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, this <ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> independence can create irregular edge rendering due to anti-aliasing.</source>
+          <target state="translated">Echter, dit <ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> onafhankelijkheid onregelmatige rand rendering vanwege anti-aliasing kunt maken.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These artifacts, commonly seen as blurry, or "soft" edges, can occur when the location of an edge falls in the middle of a device pixel rather than between device pixels.</source>
+          <target state="translated">Deze artefacten, algemeen gezien als fuzzy of 'soft' randen, kunnen optreden wanneer de locatie van een edge in het midden van een apparaat pixel in plaats van tussen apparaat pixels valt.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To address this issue, <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> provides a way for object edges in a visual tree to "snap" to device pixels through pixel snapping, eliminating the soft edges produced by anti-aliasing.</source>
+          <target state="translated">Om dit probleem te verhelpen <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> biedt een manier voor de randen van het object in een visuele boomstructuur ' uitgelijnd ' op apparaat pixels via pixels uitlijnen, de zachte randen die wordt geproduceerd door anti-aliasing elimineren.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose Y-coordinate guideline collection is returned.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarvan de Y-coördinaat richtlijn collectie wordt geretourneerd.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The Y-coordinate guideline collection of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De verzameling van de richtlijn Y-coördinaat van de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Returns the topmost <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of a hit test by specifying a <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert de bovenste <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object van een detectietest door te geven een <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.HitTestResult.VisualHit%2A&gt; property of the return value represents the &lt;xref:System.Windows.Media.Visual&gt; object that was hit.</source>
+          <target state="translated">De &lt;xref:System.Windows.Media.HitTestResult.VisualHit%2A&gt;eigenschap van de resulterende waarde vertegenwoordigt de &lt;xref:System.Windows.Media.Visual&gt;-object dat is geraakt.&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Media.HitTestResult.VisualHit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is possible for a hit test that starts in a 2D visual tree to return &lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;, which is a 3D hit test result object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Is het mogelijk een detectietest die wordt gestart in een 2D visuele boomstructuur om terug te keren &lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;, dit is een 3D-detectietest resultaatobject.&lt;/xref:System.Windows.Media.Media3D.RayHitTestResult&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hit testing that starts in a 2D visual tree seamlessly extends into any defined 3D visual tree.</source>
+          <target state="translated">Detectietest dat wordt gestart in een 2D visuele boomstructuur naadloos loopt door in een gedefinieerde 3D visuele boomstructuur.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to hit test.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> naar detectietest.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The point value to hit test against.</source>
+          <target state="translated">De waarde detectietest tegen.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The hit test result of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, returned as a <bpt id="p2">&lt;xref href="System.Windows.Media.HitTestResult"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> type.</source>
+          <target state="translated">Het resultaat detectietest van de <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, geretourneerd als een <bpt id="p2">&lt;xref href="System.Windows.Media.HitTestResult"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> type.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Initiates a hit test on the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, with caller-defined <bpt id="p2">&lt;xref href="System.Windows.Media.HitTestFilterCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref href="System.Windows.Media.HitTestResultCallback"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> methods.</source>
+          <target state="translated">Initieert een detectietest op de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, met aanroeper gedefinieerde <bpt id="p2">&lt;xref href="System.Windows.Media.HitTestFilterCallback"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en <bpt id="p3">&lt;xref href="System.Windows.Media.HitTestResultCallback"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> methoden.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`filterCallback`</ph> parameter can be <ph id="ph2">`null`</ph>, in which case, it is ignored.</source>
+          <target state="translated">De <ph id="ph1">`filterCallback`</ph> parameter is <ph id="ph2">`null`</ph>, dat het geval is, wordt dit genegeerd.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`filterCallback`</ph> is not <ph id="ph2">`null`</ph>, it is invoked before <ph id="ph3">`resultCallback`</ph>.</source>
+          <target state="translated">Als <ph id="ph1">`filterCallback`</ph> is niet <ph id="ph2">`null`</ph>, deze wordt aangeroepen voordat <ph id="ph3">`resultCallback`</ph>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`resultCallback`</ph> cannot be <ph id="ph2">`null`</ph>.</source>
+          <target state="translated"><ph id="ph1">`resultCallback`</ph>kan niet worden <ph id="ph2">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is possible for a hit test that starts in a 2D visual tree to return &lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;, which is a 3D hit test result object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Is het mogelijk een detectietest die wordt gestart in een 2D visuele boomstructuur om terug te keren &lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;, dit is een 3D-detectietest resultaatobject.&lt;/xref:System.Windows.Media.Media3D.RayHitTestResult&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hit testing that starts in a 2D visual tree seamlessly extends into any defined 3D visual tree.</source>
+          <target state="translated">Detectietest dat wordt gestart in een 2D visuele boomstructuur naadloos loopt door in een gedefinieerde 3D visuele boomstructuur.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to hit test.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> naar detectietest.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The method that represents the hit test filter callback value.</source>
+          <target state="translated">De methode die de callback van detectietest filterwaarde vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The method that represents the hit test result callback value.</source>
+          <target state="translated">De methode die de callback van detectietest resultaatwaarde vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The 3D parameter value to hit test against.</source>
+          <target state="translated">De parameterwaarde van de 3D-moet detectietest tegen.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Initiates a hit test on the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, with caller-defined <bpt id="p2">&lt;xref href="System.Windows.Media.HitTestFilterCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref href="System.Windows.Media.HitTestResultCallback"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> methods.</source>
+          <target state="translated">Initieert een detectietest op de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, met aanroeper gedefinieerde <bpt id="p2">&lt;xref href="System.Windows.Media.HitTestFilterCallback"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en <bpt id="p3">&lt;xref href="System.Windows.Media.HitTestResultCallback"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> methoden.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`filterCallback`</ph> parameter can be <ph id="ph2">`null`</ph>, in which case it is ignored.</source>
+          <target state="translated">De <ph id="ph1">`filterCallback`</ph> parameter is <ph id="ph2">`null`</ph>, in dat geval wordt dit genegeerd.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`filterCallback`</ph> is not <ph id="ph2">`null`</ph>, it is invoked before <ph id="ph3">`resultCallback`</ph>.</source>
+          <target state="translated">Als <ph id="ph1">`filterCallback`</ph> is niet <ph id="ph2">`null`</ph>, deze wordt aangeroepen voordat <ph id="ph3">`resultCallback`</ph>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`resultCallback`</ph> cannot be <ph id="ph2">`null`</ph>.</source>
+          <target state="translated"><ph id="ph1">`resultCallback`</ph>kan niet worden <ph id="ph2">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is possible for a hit test that starts in a 2D visual tree to return &lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;, which is a 3D hit test result object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Is het mogelijk een detectietest die wordt gestart in een 2D visuele boomstructuur om terug te keren &lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;, dit is een 3D-detectietest resultaatobject.&lt;/xref:System.Windows.Media.Media3D.RayHitTestResult&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Hit testing that starts in a 2D visual tree seamlessly extends into any defined 3D visual tree.</source>
+          <target state="translated">Detectietest dat wordt gestart in een 2D visuele boomstructuur naadloos loopt door in een gedefinieerde 3D visuele boomstructuur.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to hit test.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> naar detectietest.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The method that represents the hit test filter callback value.</source>
+          <target state="translated">De methode die de callback van detectietest filterwaarde vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The method that represents the hit test result callback value.</source>
+          <target state="translated">De methode die de callback van detectietest resultaatwaarde vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The parameter value to hit test against.</source>
+          <target state="translated">De parameterwaarde detectietest tegen.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Updates the DPI information of a Visual.</source>
+          <target state="translated">Werkt de DPI-informatie van een visueel element.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>It can only be called on a Visual without a parent.</source>
+          <target state="translated">Deze kan alleen worden aangeroepen op een visueel element zonder een bovenliggende.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>A Visual object target.</source>
+          <target state="translated">Het doel van een Visual-object.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>DPI information for the target Visual.</source>
+          <target state="translated">DPI-informatie voor het doel Visual.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
