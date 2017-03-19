@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d66212e4d4ee7e571817adfa941e2afbec4f7219</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ProxyWebPart.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d9e217ea4de70c2ba0e6df5e6b20408d27a79631</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8b74e084e23e787db0f7630dbc59da7ff538c0a2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the base class for Web Parts controls that under certain conditions must replace other Web Parts controls on a page.</source>
+          <target state="translated">Representerar basklass för webbdelar-kontroller som under vissa omständigheter måste ersätta andra kontroller för webbdelar på en sida.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ProxyWebPart is the base class for a set of Web Parts controls, such as &lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;, that can be used as placeholders for other Web Parts controls on a page.</source>
+          <target state="translated">ProxyWebPart är basklass för en uppsättning webbdelar kontroller som &lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;och &lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;, som kan användas som platshållare för andra webbdelar kontroller på en sida.&lt;/xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, a ProxyWebPart control will replace another Web Parts control when some type of error or failure has occurred.</source>
+          <target state="translated">Normalt ersätter en ProxyWebPart kontroll en annan webbdelar kontroll när vissa typer av fel eller fel har inträffat.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, when a user is not authorized to view a Web Parts control on a page, the intended Web Parts control is replaced with the &lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt; control.</source>
+          <target state="translated">Till exempel när en användare inte har behörighet att visa en kontroll för webbdelar på en sida, avsett webbdelar styra ersätts med de &lt;xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.UnauthorizedWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a Web Parts control cannot be loaded or a new instance of it cannot be created, the original Web Parts control is replaced with the &lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt; control.</source>
+          <target state="translated">När en kontroll för webbdelar inte kan läsas in eller går inte att skapa en ny instans av den ursprungliga webbdelar kontrollen ersätts med de &lt;xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.ErrorWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the intended Web Parts control later becomes available to the user, it will be restored to the page and the object derived from the ProxyWebPart class will be removed.</source>
+          <target state="translated">Om det avsedda webbdelar styra senare blir tillgängliga för användaren, kommer att återställas till sidan och härleds från klassen ProxyWebPart objektet tas bort.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProxyWebPart class does not save view state or control state.</source>
+          <target state="translated">Klassen ProxyWebPart inte spara visningsstatus och styra tillstånd.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a Web Parts control is replaced by a ProxyWebPart object and then later becomes available, its view state and control state will be empty.</source>
+          <target state="translated">Om en kontroll för webbdelar har ersatts av en ProxyWebPart-objektet och sedan senare blir tillgänglig, är sin visningsstatus och status tomt.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProxyWebPart object preserves personalization data for the Web Parts control that it replaced.</source>
+          <target state="translated">Objektet ProxyWebPart bevarar anpassningsdata för kontrollen webbdelar som den har ersatts.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the original Web Parts control becomes available, its personalization data will be restored.</source>
+          <target state="translated">Om den ursprungliga webbdelar kontrollen blir tillgänglig, kommer dess anpassningsdata kommer att återställas.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control saves personalization data, it does not save the properties of a ProxyWebPart object.</source>
+          <target state="translated">När den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollen sparar anpassningsdata, egenskaper för ett ProxyWebPart-objekt sparas inte.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, it saves the properties of the control that the ProxyWebPart object replaced.</source>
+          <target state="translated">I stället sparas egenskaperna för den kontroll som ProxyWebPart objektet ersätts.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the original Web Parts control becomes available, the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control will automatically load it.</source>
+          <target state="translated">Om den ursprungliga webbdelar kontrollen blir tillgänglig, &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;laddar kontrollen automatiskt det.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.WebPartCollection&gt; object contains the ProxyWebPart object.</source>
+          <target state="translated">Den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartCollection&gt;objektet innehåller objektet ProxyWebPart.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartCollection&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ID of the intended Web Parts control can be retrieved from the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.OriginalID%2A&gt; property or the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.GenericWebPartID%2A&gt; property.</source>
+          <target state="translated">ID för det avsedda webbdelar kontrollen kan hämtas från den &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.OriginalID%2A&gt;egenskapen eller &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.GenericWebPartID%2A&gt;egenskap.&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.GenericWebPartID%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.OriginalID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a ProxyWebPart object replaces a Web Parts control that is either the provider or consumer of a Web Parts connection, the connection is not activated but will not be deleted.</source>
+          <target state="translated">Om ett ProxyWebPart objekt ersätter en kontroll av webbdelar som antingen käll- eller mål för en anslutning med webbdelar, anslutningen inte är aktiverad men tas inte bort.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the original Web Parts control becomes available, the connection will be reactivated.</source>
+          <target state="translated">Om den ursprungliga webbdelar kontrollen blir tillgänglig, kommer anslutningen igen.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class when a static Web Parts control (or server or user control) must be replaced.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen när en statisk webbdelar kontroll (eller en server eller en användare) måste ersättas.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used to create a proxy Web Parts control to replace a static Web Parts control.</source>
+          <target state="translated">Den här konstruktorn används för att skapa en proxy webbdelar kontroll om du vill ersätta en statisk webbdelar-kontroll.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To replace a dynamically created Web Parts control, use the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.String%2CSystem.String%2CSystem.String%2CSystem.String%29&gt; constructor to create the proxy Web Parts control.</source>
+          <target state="translated">Om du vill ersätta en dynamiskt skapade webbdelar kontroll, Använd den &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.String%2CSystem.String%2CSystem.String%2CSystem.String%29&gt;konstruktorn för att skapa kontrollen proxy webbdelar.&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.String%2CSystem.String%2CSystem.String%2CSystem.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The Web Parts control to be replaced.</source>
+          <target state="translated">Kontrollen webbdelar som ska ersättas.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class when a dynamic Web Parts control must be replaced.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen när ett dynamiskt webbdelar styra måste ersättas.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is used to create a proxy Web Parts control to replace a dynamic Web Parts control.</source>
+          <target state="translated">Den här konstruktorn används för att skapa en proxy webbdelar kontroll om du vill ersätta en dynamisk webbdelar-kontroll.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To replace a static Web Parts control, use the &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.Web.UI.WebControls.WebParts.WebPart%29&gt; constructor to create a proxy Web Parts control.</source>
+          <target state="translated">Om du vill ersätta en statisk webbdelar kontroll, Använd den &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.Web.UI.WebControls.WebParts.WebPart%29&gt;konstruktorn för att skapa en proxy webbdelar kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart.%23ctor%28System.Web.UI.WebControls.WebParts.WebPart%29&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A string that is the control ID (not the unique ID) of the control to replace.</source>
+          <target state="translated">En sträng som är kontroll-ID (inte unikt ID) för kontrollen att ersätta.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is replaced, the ID is the ID of its child server control.</source>
+          <target state="translated">Om en <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll ersätts, ID: T är ID för dess underordnade Serverkontrollen.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A string that is the name of the &lt;xref:System.Type&gt; of the control to replace.</source>
+          <target state="translated">En sträng som är namnet på den &lt;xref:System.Type&gt;ska ersätta.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is replaced, the type name is the type of its child server control.</source>
+          <target state="translated">Om en <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll ersätts, typnamnet är typ av dess underordnade Serverkontrollen.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A string that contains the path to the user control to replace.</source>
+          <target state="translated">En sträng som innehåller sökvägen till användarkontroll ersätta.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A string that returns the ID of a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control, if that type of control is being replaced.</source>
+          <target state="translated">En sträng som returnerar ID för en <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.GenericWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> styr om den typ av kontroll ersätts.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This is needed for controls that do not inherit from the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> base class.</source>
+          <target state="translated">Det behövs för kontroller som inte ärver från den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> basklassen.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;originalPath&lt;/code&gt;</ph> is specified but <ph id="ph2">&lt;code&gt;genericWebPartID&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;originalPath&lt;/code&gt;</ph>har angetts men <ph id="ph2">&lt;code&gt;genericWebPartID&lt;/code&gt;</ph> är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller en tom sträng.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the value of the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt; property from the generic Web Parts control replaced by a proxy Web Parts control.</source>
+          <target state="translated">Hämtar värdet för den &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;egenskap från allmänna webbdelar kontrollen ersättas med en proxy webbdelar styra.&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object replaces a &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; control, this property contains the value from the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">När en &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;objekt ersätter en &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;styra den här egenskapen innehåller värdet från den &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID%2A?displayProperty=fullName&gt;egenskapen.&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string containing the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt; value.</source>
+          <target state="translated">En sträng som innehåller den &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;värde.&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets or sets the programmatic identifier assigned to the Web Parts control.</source>
+          <target state="translated">Hämtar eller anger den programmässiga identifieraren som tilldelats kontrollen webbdelar.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object will contain the same value in its ID property as the control it replaced.</source>
+          <target state="translated">Den &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;objektet innehåller samma värde i dess ID-egenskap som kontrollen den ersättas.&lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; containing the identifier.</source>
+          <target state="translated">En &lt;xref:System.String&gt;som innehåller identifieraren.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Overrides &lt;xref:System.Web.UI.Control.LoadControlState*&gt; to prevent loading previously saved state for a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Åsidosätter &lt;xref:System.Web.UI.Control.LoadControlState*&gt;att förhindra att läsa in tidigare sparade tillståndet för en <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.&lt;/xref:System.Web.UI.Control.LoadControlState*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadControlState method overrides &lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt; to prevent loading the control state.</source>
+          <target state="translated">Metoden LoadControlState åsidosätter &lt;xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;att förhindra inläsning av kontrollens status.&lt;/xref:System.Web.UI.Control.LoadControlState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method does not load the control state or perform any other action.</source>
+          <target state="translated">Metoden inte läsa in kontrollen tillståndet och utföra andra åtgärder.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The previously saved state data.</source>
+          <target state="translated">Data som tidigare sparat läge.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Overrides &lt;xref:System.Web.UI.Control.LoadViewState*&gt; to prevent loading previously saved view state for a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Åsidosätter &lt;xref:System.Web.UI.Control.LoadViewState*&gt;att förhindra att läsa in sparade visningsstatus för en <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ProxyWebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.&lt;/xref:System.Web.UI.Control.LoadViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LoadViewState method overrides &lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt; to prevent loading the view state.</source>
+          <target state="translated">Metoden LoadViewState åsidosätter &lt;xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;att förhindra att läsa in visningsläget.&lt;/xref:System.Web.UI.Control.LoadViewState%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method does not load the view state or perform any other action.</source>
+          <target state="translated">Metoden inte läsa in visningsläget eller utföra andra åtgärder.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The previously saved state data.</source>
+          <target state="translated">Data som tidigare sparat läge.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Web.UI.Control.ID*&gt; of the Web Parts control replaced by the proxy Web Parts control.</source>
+          <target state="translated">Hämtar den &lt;xref:System.Web.UI.Control.ID*&gt;i kontrollen webbdelar ersättas med proxyn webbdelar styra.&lt;/xref:System.Web.UI.Control.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object replaces a Web Parts control, the OriginalID property contains the &lt;xref:System.Web.UI.Control.ID%2A&gt; of the replaced control.</source>
+          <target state="translated">När en &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;objektet ersätter en webbdelar kontroll, egenskapen OriginalID innehåller den &lt;xref:System.Web.UI.Control.ID%2A&gt;ersatta kontrollens.&lt;/xref:System.Web.UI.Control.ID%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the replaced control is a &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; object, this property contains the ID from the &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ChildControl%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Om den ersatta kontrollen är en &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;objekt den här egenskapen innehåller ID från den &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ChildControl%2A?displayProperty=fullName&gt;egenskapen.&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart.ChildControl%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A string containing the &lt;xref:System.Web.UI.Control.ID*&gt; value of the Web Parts control replaced by the proxy Web Parts control.</source>
+          <target state="translated">En sträng som innehåller den &lt;xref:System.Web.UI.Control.ID*&gt;värdet i kontrollen webbdelar ersättas med proxy webbdelar styra.&lt;/xref:System.Web.UI.Control.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the path to the user control being replaced.</source>
+          <target state="translated">Hämtar sökväg till användarkontrollen som ersätts.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A string that contains the path to a user control being replaced.</source>
+          <target state="translated">En sträng som innehåller sökvägen till en användarkontroll som ersätts.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; of the Web Parts control replaced by the proxy Web Parts control.</source>
+          <target state="translated">Hämtar den &lt;xref:System.Type&gt;i kontrollen webbdelar ersättas med proxyn webbdelar styra.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt; object replaces a control, this property contains the &lt;xref:System.Type&gt; of the control that the proxy Web Parts control replaces.</source>
+          <target state="translated">När en &lt;xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;objektet ersätter en kontroll, innehåller den här egenskapen den &lt;xref:System.Type&gt;för den kontroll som proxy webbdelar kontrollen ersätter.&lt;/xref:System.Type&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ProxyWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A string containing the &lt;xref:System.Type&gt; of the control replaced by the proxy Web Parts control.</source>
+          <target state="translated">En sträng som innehåller den &lt;xref:System.Type&gt;kontrollens ersättas med proxyn webbdelar styra.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Saves any server control state changes that have occurred since the time the page was posted back to the server.</source>
+          <target state="translated">Sparar alla Serverkontrollen tillståndsändringar som har inträffat sedan sidan anslogs tillbaka till servern.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Returns the server control's current state.</source>
+          <target state="translated">Returnerar servern kontrollens aktuella tillstånd.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If there is no state associated with the control, this method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Om det finns inget tillstånd som associeras med kontrollen, den här metoden returnerar <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Saves any state that was modified after the &lt;xref:System.Web.UI.WebControls.Style.TrackViewState*&gt; method was invoked.</source>
+          <target state="translated">Sparar all status som har ändrats efter den &lt;xref:System.Web.UI.WebControls.Style.TrackViewState*&gt;metoden anropades.&lt;/xref:System.Web.UI.WebControls.Style.TrackViewState*&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An object that contains the current view state of the control; otherwise, if there is no view state associated with the control, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ett objekt som innehåller aktuella visningsstatus för kontrollen. Annars, om det finns inga visningsstatus som associeras med kontrollen, <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

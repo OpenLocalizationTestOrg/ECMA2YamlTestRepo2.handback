@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">faf57873fca871d80aeb3a278f0713ecc5d950ce</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Imaging.WriteableBitmap.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d708cc89ae10f66aa6f3a3212c8f1133b5c71a0c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fb37e1f4058175b86c50fba158227e5ebde5620e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be written to and updated.</source>
+          <target state="translated">Biedt een <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunnen worden geschreven naar en bijgewerkt.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the WriteableBitmap class to update and render a bitmap on a per-frame basis.</source>
+          <target state="translated">Gebruik de klasse WriteableBitmap bijwerken en genereren van een bitmap op basis van de per-frame.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is useful for generating algorithmic content, such as a fractal image, and for data visualization, such as a music visualizer.</source>
+          <target state="translated">Dit is handig voor het genereren van algoritmische inhoud, zoals een installatiekopie fractale en voor weergave van gegevens, zoals een visualizer muziek.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WriteableBitmap class uses two buffers.</source>
+          <target state="translated">De klasse WriteableBitmap maakt gebruik van twee buffers.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">*</bpt>back buffer<ept id="p1">*</ept> is allocated in system memory and accumulates content that is not currently displayed.</source>
+          <target state="translated">De <bpt id="p1">*</bpt>backbuffer<ept id="p1">*</ept> is toegewezen in het systeemgeheugen en stelt samen inhoud die momenteel niet wordt weergegeven.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">*</bpt>front buffer<ept id="p1">*</ept> is allocated in system memory and contains the content that is currently displayed.</source>
+          <target state="translated">De <bpt id="p1">*</bpt>voorste buffer<ept id="p1">*</ept> is toegewezen in het systeemgeheugen en de inhoud bevat die momenteel wordt weergegeven.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The rendering system copies the front buffer to video memory for display.</source>
+          <target state="translated">Het systeem rendering kopieert de voorste buffer naar videogeheugen om weer te geven.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two threads use these buffers.</source>
+          <target state="translated">Twee threads deze buffers gebruiken.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">*</bpt>user interface (UI) thread<ept id="p1">*</ept> generates the UI but does not present it to the screen.</source>
+          <target state="translated">De <bpt id="p1">*</bpt>gebruiker gebruikersinterface-thread<ept id="p1">*</ept> genereert de gebruikersinterface, maar niet naar het scherm aanwezig.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UI thread responds to user input, timers, and other events.</source>
+          <target state="translated">De UI-thread reageert op invoer van gebruiker, timers en andere gebeurtenissen.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application can have multiple UI threads.</source>
+          <target state="translated">Een toepassing kan meerdere UI threads hebben.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">*</bpt>render thread<ept id="p1">*</ept> composes and renders changes from the UI thread.</source>
+          <target state="translated">De <bpt id="p1">*</bpt>renderen thread<ept id="p1">*</ept> stelt het bericht op en geeft u de wijzigingen van de UI-thread.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is only one render thread per application.</source>
+          <target state="translated">Er is slechts één weergavethread per toepassing.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UI thread writes content to the back buffer.</source>
+          <target state="translated">De UI-thread schrijft inhoud naar de backbuffer.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The render thread reads content from the front buffer and copies it to video memory.</source>
+          <target state="translated">De weergavethread inhoud op de front-buffer leest en kopieert deze naar videogeheugen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changes to the back buffer are tracked with changed rectangular regions.</source>
+          <target state="translated">Wijzigingen aan de back-buffer worden bijgehouden met gewijzigde rechthoekige regio's.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call one of the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt; overloads to update and display content in the back buffer automatically.</source>
+          <target state="translated">Een van de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;overloads om te werken en automatisch inhoud weergeven in de backbuffer.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For greater control over updates, and for multi-threaded access to the back buffer, use the following workflow.</source>
+          <target state="translated">Voor meer controle over updates, en voor met meerdere threads toegang tot de backbuffer, gebruikt u de volgende werkstroom.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; method to reserve the back buffer for updates.</source>
+          <target state="translated">Roep de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;methode voor het reserveren van de backbuffer voor updates.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Obtain a pointer to the back buffer by accessing the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.BackBuffer%2A&gt; property.</source>
+          <target state="translated">Een verwijzing naar de backbuffer verkrijgen door het openen van de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.BackBuffer%2A&gt;eigenschap.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.BackBuffer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Write changes to the back buffer.</source>
+          <target state="translated">Schrijven naar de backbuffer.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other threads may write changes to the back buffer when the WriteableBitmap is locked.</source>
+          <target state="translated">Andere threads kunnen schrijven naar de backbuffer wanneer de WriteableBitmap is vergrendeld.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt; method to indicate areas that have changed.</source>
+          <target state="translated">Roep de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;methode om aan te geven van de gebieden die zijn gewijzigd.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; method to release the back buffer and allow presentation to the screen.</source>
+          <target state="translated">Roep de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;methode voor het vrijgeven van de backbuffer en presentatie naar het scherm toestaan.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When updates are sent to the rendering thread, the rendering thread copies the changed rectangles from the back buffer to the front buffer.</source>
+          <target state="translated">Wanneer updates worden verzonden naar de thread rendering, kopieert de rendering thread de gewijzigde rechthoeken uit de back-buffer aan de voorzijde buffer.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The rendering system controls this exchange to avoid deadlocks and redraw artifacts, such as "tearing".</source>
+          <target state="translated">Het systeem rendering bepaalt deze exchange om te voorkomen, impassen en opnieuw tekenen artefacten, zoals 'verbroken'.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the given <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met behulp van de opgegeven <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.%23ctor%28System.Int32%2CSystem.Int32%2CSystem.Double%2CSystem.Double%2CSystem.Windows.Media.PixelFormat%2CSystem.Windows.Media.Imaging.BitmapPalette%29&gt; constructor is preferred over using this constructor.</source>
+          <target state="translated">De &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.%23ctor%28System.Int32%2CSystem.Int32%2CSystem.Double%2CSystem.Double%2CSystem.Windows.Media.PixelFormat%2CSystem.Windows.Media.Imaging.BitmapPalette%29&gt;constructor heeft de voorkeur boven het gebruik van deze constructor.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.%23ctor%28System.Int32%2CSystem.Int32%2CSystem.Double%2CSystem.Double%2CSystem.Windows.Media.PixelFormat%2CSystem.Windows.Media.Imaging.BitmapPalette%29&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`source`</ph> does not use a natively supported bitmap format, format conversions are applied for each frame update, which reduces performance.</source>
+          <target state="translated">Als <ph id="ph1">`source`</ph> maakt geen gebruik van een systeemeigen ondersteunde bitmapindeling indeling conversies worden toegepast voor elke update frame, waardoor de prestaties.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for initialization.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> moet worden gebruikt voor de initialisatie.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified parameters.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven parameters.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The preferred values for <ph id="ph1">`pixelFormat`</ph> are &lt;xref:System.Windows.Media.PixelFormats.Bgr32%2A&gt; and &lt;xref:System.Windows.Media.PixelFormats.Pbgra32%2A&gt;.</source>
+          <target state="translated">De aanbevolen waarden voor <ph id="ph1">`pixelFormat`</ph> zijn &lt;xref:System.Windows.Media.PixelFormats.Bgr32%2A&gt;en &lt;xref:System.Windows.Media.PixelFormats.Pbgra32%2A&gt;.&lt;/xref:System.Windows.Media.PixelFormats.Pbgra32%2A&gt; &lt;/xref:System.Windows.Media.PixelFormats.Bgr32%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These formats are natively supported and do not require a format conversion.</source>
+          <target state="translated">Deze indelingen worden ondersteund en vereisen geen conversie van de indeling.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other <ph id="ph1">`pixelFormat`</ph> values require a format conversion for each frame update, which reduces performance.</source>
+          <target state="translated">Andere <ph id="ph1">`pixelFormat`</ph> waarden vereisen een conversie van de indeling voor elke update frame, waardoor de prestaties.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The desired width of the bitmap.</source>
+          <target state="translated">De gewenste breedte van de bitmap.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The desired height of the bitmap.</source>
+          <target state="translated">De gewenste hoogte van de bitmap.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The horizontal <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> of the bitmap.</source>
+          <target state="translated">De horizontale <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> van de bitmap.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The vertical <ph id="ph1">[!INCLUDE[TLA#tla_dpi](../Token/TLA%23tla_dpi_md.md)]</ph> of the bitmap.</source>
+          <target state="translated">De verticale <ph id="ph1">[!INCLUDE[TLA#tla_dpi](../Token/TLA%23tla_dpi_md.md)]</ph> van de bitmap.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.PixelFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the bitmap.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.PixelFormat"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> van de bitmap.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapPalette"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the bitmap.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapPalette"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> van de bitmap.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Specifies the area of the bitmap that changed.</source>
+          <target state="translated">Hiermee geeft u op het gebied van de bitmap die gewijzigd.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the AddDirtyRect method to indicate changes your code has made to the back buffer.</source>
+          <target state="translated">Roep de methode AddDirtyRect om aan te geven van wijzigingen in uw code heeft de backbuffer.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call this method multiple times, the changed areas are accumulated in a sufficient, but not necessarily minimal, representation.</source>
+          <target state="translated">Wanneer u deze methode niet meerdere keren aanroepen, wordt de gewijzigde gebieden in een weergave voldoende, maar niet noodzakelijkerwijs minimale geteld.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For efficiency, only the areas that are marked as dirty are guaranteed to be copied forward to the front buffer.</source>
+          <target state="translated">Voor efficiëntie, worden alleen de gebieden die zijn gemarkeerd als niet-weggeschreven gegarandeerd doorsturen naar de voorste buffer worden gekopieerd.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, any portion of the bitmap may be copied forward, so you must ensure that the entire back buffer is always valid.</source>
+          <target state="translated">Echter kan een gedeelte van de bitmap worden gekopieerd, dus u ervoor zorgen moet dat de hele backbuffer altijd geldig is.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the AddDirtyRect method only between calls to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; methods, as described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks.</source>
+          <target state="translated">Roep de methode AddDirtyRect alleen tussen aanroepen naar de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;en &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;methoden, zoals beschreven in de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;klasse opmerkingen.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Int32Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the area that changed.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Windows.Int32Rect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> de zone die gewijzigd vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Dimensions are in pixels.</source>
+          <target state="translated">Dimensies zijn in pixels.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The bitmap has not been locked by a call to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock<ept id="p1">*</ept>&gt; methods.</source>
+          <target state="translated">De bitmap niet is vergrendeld door een aanroep naar de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; of &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; methoden.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;dirtyRect&lt;/code&gt;</ph> falls outside the bounds of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;dirtyRect&lt;/code&gt;</ph>valt buiten de grenzen van de <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a pointer to the back buffer.</source>
+          <target state="translated">Haalt een verwijzing naar de back-buffer.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The back buffer contains the bitmap contents in the pixel format requested by the user.</source>
+          <target state="translated">De backbuffer bevat de bitmap inhoud in de pixelindeling aangevraagd door de gebruiker.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Update the back buffer only between calls to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; methods.</source>
+          <target state="translated">Bijwerken van de backbuffer alleen tussen aanroepen naar de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;en &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;methoden.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not follow the Lock/Unlock workflow described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks, undefined behaviors, such as tearing, can occur.</source>
+          <target state="translated">Als u hoeft u niet de vergrendeling/Unlock-werkstroom beschreven in de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;klasse opmerkingen, ongedefinieerd gedrag, zoals verbroken, kunnen zich voordoen.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The address of the back buffer does not change.</source>
+          <target state="translated">Het adres van de backbuffer wordt niet gewijzigd.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thread Safety    You can pass the BackBuffer pointer to external components and other threads for processing, but if you do, you must provide you own thread coordination.</source>
+          <target state="translated">Thread veiligheid u kunt de aanwijzer BackBuffer doorgeven aan externe onderdelen en andere threads voor de verwerking, maar als u dit doet, moet u opgeven u coördinatie van de eigen thread.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In particular, you must ensure that the UI thread specifies changed areas by calling the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt; method, and that the UI thread unlocks the buffer by calling the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; method.</source>
+          <target state="translated">In het bijzonder, moet u ervoor zorgen dat de UI-thread wordt gewijzigd door het aanroepen van opgegeven de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;methode en dat de UI-thread Hiermee ontgrendelt u de buffer door het aanroepen van de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;methode.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; that points to the base address of the back buffer.</source>
+          <target state="translated">Een &lt;xref:System.IntPtr&gt;die verwijst naar het basisadres van de backbuffer.&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the number of bytes in a single row of pixel data.</source>
+          <target state="translated">Haalt een waarde die het aantal bytes in één rij met pixelgegevens aangeeft.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An integer indicating the number of bytes in a single row of pixel data.</source>
+          <target state="translated">Een geheel getal dat het aantal bytes in één rij met pixelgegevens aangeeft.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, making deep copies of this object's values.</source>
+          <target state="translated">Maakt een kloon kan worden gewijzigd van deze <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, grondige kopieën van de waarden van dit object.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>When copying dependency properties, this method copies resource references and data bindings (but they might no longer resolve) but not animations or their current values.</source>
+          <target state="translated">Bij het kopiëren van afhankelijkheidseigenschappen resource verwijzingen en gegevens bindingen door deze methode wordt gekopieerd, maar ze niet meer mogelijk oplossen maar niet animaties of de huidige waarden.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects (or any &lt;xref:System.Windows.Freezable&gt; object).</source>
+          <target state="translated">Deze methode wordt gebruikt voor het produceren van bewerkbaar kopieën van bevroren &lt;xref:System.Windows.Freezable&gt;objecten (of een &lt;xref:System.Windows.Freezable&gt;object).&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For convenience, this method shadows the inherited version with a strongly typed implementation.</source>
+          <target state="translated">Deze methode schaduwen voor het gemak de overgenomen versie door een implementatie met een sterk getypeerde.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">Een bewerkbaar kloon van het huidige object.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The cloned object's &lt;xref:System.Windows.Freezable.IsFrozen<bpt id="p1">*</bpt>&gt; property will be <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> even if the source's &lt;xref:System.Windows.Freezable.IsFrozen<ept id="p1">*</ept>&gt; property was <bpt id="p3">&lt;xref uid="langword_csharp_true." name="true." href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept></source>
+          <target state="translated">Het gekloonde object &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; eigenschap <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> zelfs als de bron &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; eigenschap was<bpt id="p3">&lt;xref uid="langword_csharp_true." name="true." href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ByteAnimationUsingKeyFrames"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, making deep copies of this object's current values.</source>
+          <target state="translated">Maakt een kloon kan worden gewijzigd van deze <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.ByteAnimationUsingKeyFrames"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object, grondige kopieën van de huidige waarden van dit object.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Resource references, data bindings, and animations are not copied, but their current values are.</source>
+          <target state="translated">Resource-verwijzingen en gegevensbindingen animaties worden niet gekopieerd, maar de huidige waarden zijn.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects (or any &lt;xref:System.Windows.Freezable&gt; object).</source>
+          <target state="translated">Deze methode wordt gebruikt voor het produceren van bewerkbaar kopieën van bevroren &lt;xref:System.Windows.Freezable&gt;objecten (of een &lt;xref:System.Windows.Freezable&gt;object).&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For convenience, this method shadows the inherited version with a strongly typed implementation.</source>
+          <target state="translated">Deze methode schaduwen voor het gemak de overgenomen versie door een implementatie met een sterk getypeerde.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Zie voor meer informatie &lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">Een bewerkbaar kloon van het huidige object.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The cloned object's &lt;xref:System.Windows.Freezable.IsFrozen<bpt id="p1">*</bpt>&gt; property will be <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> even if the source's &lt;xref:System.Windows.Freezable.IsFrozen<ept id="p1">*</ept>&gt; property was <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Het gekloonde object &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; eigenschap <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> zelfs als de bron &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; eigenschap was <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Reserves the back buffer for updates.</source>
+          <target state="translated">Behoudt zich het backbuffer voor updates.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Lock method increments the lock count.</source>
+          <target state="translated">De Lock-methode verhoogt het aantal vergrendelingen.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; is locked, the rendering system does not send updates until the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; is fully unlocked by calls to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; method.</source>
+          <target state="translated">Wanneer een &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;is vergrendeld, het systeem rendering verzendt geen updates pas de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;volledig worden ontgrendeld door aanroepen naar de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;methode.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the Lock method to support multi-threaded implementations.</source>
+          <target state="translated">U kunt de Lock-methode gebruiken ter ondersteuning van implementaties met meerdere threads.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In these scenarios, the UI thread locks the bitmap and exposes the back buffer to other threads.</source>
+          <target state="translated">In deze scenario's, worden de UI-thread Hiermee vergrendelt u de bitmap en beschrijft de backbuffer naar andere threads.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the worker thread has finished a frame, the UI thread adds changed rectangles and unlocks the buffer.</source>
+          <target state="translated">Wanneer de werkthread kan een frame is voltooid, worden de UI-thread worden gewijzigde rechthoeken toegevoegd en Hiermee ontgrendelt u de buffer.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UI thread can block when the render thread acquires a lock on the back buffer to copy it forward to the front buffer.</source>
+          <target state="translated">De UI-thread kan blokkeren wanneer de weergavethread verkrijgt een vergrendeling op de backbuffer doorsturen naar kopiëren de voorste buffer.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the latency from this block is too long, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock%2A&gt; method to wait for a short time and then unblock the UI thread to perform other tasks while the back buffer is locked.</source>
+          <target state="translated">Als de latentie van dit blok te lang is, gebruikt u de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock%2A&gt;methode om te wachten op een korte periode en vervolgens deblokkeren van de UI-thread voor het uitvoeren van andere taken, terwijl de backbuffer is vergrendeld.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Attempts to lock the bitmap, waiting for no longer than the specified length of time.</source>
+          <target state="translated">Pogingen voor de bitmap vergrendeling wachten niet langer dan de opgegeven tijdsduur.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a lock is acquired, the behavior of the TryLock method is the same as the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; method.</source>
+          <target state="translated">Wanneer een vergrendeling wordt verkregen, is het gedrag van de methode TryLock hetzelfde als de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;methode.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Duration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the length of time to wait.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Windows.Duration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de lengte van de wachttijd.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A value of 0 returns immediately.</source>
+          <target state="translated">De waarde 0 wordt onmiddellijk geretourneerd.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A value of &lt;xref:System.Windows.Duration.Forever*&gt; blocks indefinitely.</source>
+          <target state="translated">Een waarde van &lt;xref:System.Windows.Duration.Forever*&gt;voor onbepaalde tijd wordt geblokkeerd.&lt;/xref:System.Windows.Duration.Forever*&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the lock was acquired; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de vergrendeling is verkregen; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph> is set to <ph id="ph2">&lt;xref:System.Windows.Duration.Automatic*&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;timeout&lt;/code&gt;</ph>is ingesteld op <ph id="ph2">&lt;xref:System.Windows.Duration.Automatic*&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Releases the back buffer to make it available for display.</source>
+          <target state="translated">De backbuffer zodat deze beschikbaar is voor weergave releases.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Unlock method decrements the lock count.</source>
+          <target state="translated">De Unlock-methode vermindert de vergrendeling tellen.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the lock count reaches 0, a render pass is requested if the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt; method has been called.</source>
+          <target state="translated">Wanneer het aantal 0 bereikt, een pass render wordt aangevraagd als de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;methode is aangeroepen.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.AddDirtyRect%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The bitmap has not been locked by a call to the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.TryLock<ept id="p1">*</ept>&gt; methods.</source>
+          <target state="translated">De bitmap niet is vergrendeld door een aanroep naar de &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; of &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; methoden.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">De pixels in de opgegeven regio van de bitmap-updates.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overloads are preferred over using this method.</source>
+          <target state="translated">De &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;en &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;overloads hebben de voorkeur boven het gebruik van deze methode.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In partial trust, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overload.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; In gedeeltelijk vertrouwen, gebruikt u de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;overbelasting.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The rectangle of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to update.</source>
+          <target state="translated">De rechthoek van de <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om bij te werken.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The pixel array used to update the bitmap.</source>
+          <target state="translated">De matrix pixel is gebruikt voor het bijwerken van de bitmap.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The stride of the update region in <ph id="ph1">`pixels`</ph>.</source>
+          <target state="translated">De stride van het gebied van de update in <ph id="ph1">`pixels`</ph>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The input buffer offset.</source>
+          <target state="translated">De invoerbuffer verschuiving.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">Een of meer van de volgende voorwaarden is waar.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>valt buiten de grenzen van de <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">offset</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 0</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">offset</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 0</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph> has a rank other than 1 or 2, or its length is less than or equal to 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;pixels&lt;/code&gt;</ph>positie dan 1 of 2 zijn en of de lengte is kleiner dan of gelijk zijn aan 0.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">De pixels in de opgegeven regio van de bitmap-updates.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overloads are preferred over using this method.</source>
+          <target state="translated">De &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;en &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;overloads hebben de voorkeur boven het gebruik van deze methode.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.IntPtr%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In partial trust, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overload.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; In gedeeltelijk vertrouwen, gebruikt u de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;overbelasting.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The rectangle of the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to update.</source>
+          <target state="translated">De rechthoek van de <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om bij te werken.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The input buffer used to update the bitmap.</source>
+          <target state="translated">De invoerbuffer gebruikt voor het bijwerken van de bitmap.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The size of the input buffer.</source>
+          <target state="translated">De grootte van de invoerbuffer.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The stride of the update region in <ph id="ph1">`buffer`</ph>.</source>
+          <target state="translated">De stride van het gebied van de update in <ph id="ph1">`buffer`</ph>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">Een of meer van de volgende voorwaarden is waar.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>valt buiten de grenzen van de <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">stride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">bufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">stride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">De pixels in de opgegeven regio van de bitmap-updates.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt; method to update the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; automatically with the contents of <ph id="ph1">`sourceBuffer`</ph>.</source>
+          <target state="translated">Roep de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;methode om bij te werken de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;automatisch met de inhoud van <ph id="ph1">`sourceBuffer`</ph>.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method is the equivalent of using the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; workflow described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks.</source>
+          <target state="translated">Deze methode aanroept, is het equivalent van het gebruik van de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;en &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;werkstroom beschreven in de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;klasse opmerkingen.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Use this overload in partial trust.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Gebruik van deze overbelasting in gedeeltelijk vertrouwen.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The rectangle in <ph id="ph1">`sourceBuffer`</ph> to copy.</source>
+          <target state="translated">De rechthoek in <ph id="ph1">`sourceBuffer`</ph> te kopiëren.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The input buffer used to update the bitmap.</source>
+          <target state="translated">De invoerbuffer gebruikt voor het bijwerken van de bitmap.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The stride of the input buffer, in bytes.</source>
+          <target state="translated">De stride van de invoerbuffer, in bytes.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The destination x-coordinate of the left-most pixel in the back buffer.</source>
+          <target state="translated">De bestemming x-coördinaat van de meest linkse pixel in de backbuffer.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The destination y-coordinate of the top-most pixel in the back buffer.</source>
+          <target state="translated">De bestemming y-coördinaat van de bovenste pixel in de backbuffer.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">Een of meer van de volgende voorwaarden is waar.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>valt buiten de grenzen van de <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">destinationY</ph><ept id="p2">&lt;/code&gt;</ept> is outside the bounds of the <bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept>of <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">destinationY</ph> <ept id="p2">&lt;/code&gt;</ept> valt buiten de grenzen van de <bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferStride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferStride</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph> has a rank other than 1 or 2, or its length is less than or equal to 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph>positie dan 1 of 2 zijn en of de lengte is kleiner dan of gelijk zijn aan 0.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Updates the pixels in the specified region of the bitmap.</source>
+          <target state="translated">De pixels in de opgegeven regio van de bitmap-updates.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the WritePixels method to update the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; automatically with the contents of <ph id="ph1">`sourceBuffer`</ph>.</source>
+          <target state="translated">Roep de methode WritePixels om bij te werken de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;automatisch met de inhoud van <ph id="ph1">`sourceBuffer`</ph>.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling this method is the equivalent of using the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt; and &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; workflow described in the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt; class remarks.</source>
+          <target state="translated">Deze methode aanroept, is het equivalent van het gebruik van de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;en &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt;werkstroom beschreven in de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap&gt;klasse opmerkingen.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Unlock%2A&gt; &lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.Lock%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In partial trust, use the &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt; overload.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; In gedeeltelijk vertrouwen, gebruikt u de &lt;xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;overbelasting.&lt;/xref:System.Windows.Media.Imaging.WriteableBitmap.WritePixels%28System.Windows.Int32Rect%2CSystem.Array%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%29&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The rectangle in <ph id="ph1">`sourceBuffer`</ph> to copy.</source>
+          <target state="translated">De rechthoek in <ph id="ph1">`sourceBuffer`</ph> te kopiëren.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The input buffer used to update the bitmap.</source>
+          <target state="translated">De invoerbuffer gebruikt voor het bijwerken van de bitmap.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The size of the input buffer.</source>
+          <target state="translated">De grootte van de invoerbuffer.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The stride of the input buffer, in bytes.</source>
+          <target state="translated">De stride van de invoerbuffer, in bytes.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The destination x-coordinate of the left-most pixel in the back buffer.</source>
+          <target state="translated">De bestemming x-coördinaat van de meest linkse pixel in de backbuffer.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The destination y-coordinate of the top-most pixel in the back buffer.</source>
+          <target state="translated">De bestemming y-coördinaat van de bovenste pixel in de backbuffer.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>One or more of the following conditions is true.</source>
+          <target state="translated">Een of meer van de volgende voorwaarden is waar.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept> falls outside the bounds of the <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceRect</ph><ept id="p1">&lt;/code&gt;</ept>valt buiten de grenzen van de <bpt id="p2">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">destinationY</ph><ept id="p2">&lt;/code&gt;</ept> is outside the bounds of the <bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationX</ph><ept id="p1">&lt;/code&gt;</ept>of <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">destinationY</ph> <ept id="p2">&lt;/code&gt;</ept> valt buiten de grenzen van de <bpt id="p3">&lt;xref href="System.Windows.Media.Imaging.WriteableBitmap"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">sourceBufferStride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceBufferSize</ph><ept id="p1">&lt;/code&gt;</ept> <ph id="ph2">&amp;lt;</ph> 1       <bpt id="p2">&lt;code&gt;</bpt><ph id="ph3">sourceBufferStride</ph><ept id="p2">&lt;/code&gt;</ept> <ph id="ph4">&amp;lt;</ph> 1</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sourceBuffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

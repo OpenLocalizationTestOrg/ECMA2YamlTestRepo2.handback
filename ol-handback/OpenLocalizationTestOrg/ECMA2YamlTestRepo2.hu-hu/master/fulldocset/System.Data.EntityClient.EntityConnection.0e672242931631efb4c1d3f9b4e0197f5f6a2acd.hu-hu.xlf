@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5fd8fd462c823f173ace7483ff635b5a7c47a812</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.EntityClient.EntityConnection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">522e2d7ca6effa6e2ca976e4415bfb7881534cc2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">dac945213e60718cf5abca3880d430f09b82607e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains a reference to a conceptual model and a data source connection.</source>
+          <target state="translated">A fogalmi modellben és adatforrás-kapcsolat hivatkozást tartalmaz.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Ez az osztály nem örökölhető.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid inadvertently putting objects such as &lt;xref:System.Data.Common.CommandTrees&gt; and &lt;xref:System.Data.Objects.ObjectContext&gt; out of sync with their metadata, EntityConnection must lock its metadata.</source>
+          <target state="translated">Véletlenül üzembe, mint az objektumok elkerülése érdekében &lt;xref:System.Data.Common.CommandTrees&gt;és &lt;xref:System.Data.Objects.ObjectContext&gt;nincsenek szinkronban a hozzájuk tartozó metaadatokat EntityConnection zárolni kell a metaadatait.&lt;/xref:System.Data.Objects.ObjectContext&gt; &lt;/xref:System.Data.Common.CommandTrees&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are allowed after the metadata is locked.</source>
+          <target state="translated">A kapcsolati karakterlánc nem történtek változások engedélyezettek, miután a metaadatok zárolva van.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following are two scenarios in which metadata is locked:      -   The EntityConnection instance is constructed through the default constructor, or through the &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt; constructor, which accepts a connection string.</source>
+          <target state="translated">A következők két olyan eset, amelyben a metaadatok zárolva van:-az EntityConnection példányt az alapértelmezett konstruktort, vagy a összeállított a &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt;konstruktort, amely fogad egy kapcsolati karakterláncot.&lt;/xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In either case the connection string might be changed multiple times before the connection is opened.</source>
+          <target state="translated">Mindkét esetben a kapcsolati karakterlánc megváltozhat többször előtt a kapcsolat meg van nyitva.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling &lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt; or &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; locks the metadata.</source>
+          <target state="translated">Hívása &lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;vagy &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt;zárolja a metaadatok.&lt;/xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The EntityConnection instance is constructed through the &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt; constructor, which accepts a &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; and a &lt;xref:System.Data.Common.DbConnection&gt;.</source>
+          <target state="translated">-A EntityConnection példány összeállított &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt;konstruktort, amely fogad egy &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt;és &lt;xref:System.Data.Common.DbConnection&gt;.&lt;/xref:System.Data.Common.DbConnection&gt; &lt;/xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt; keresztül</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the metadata is locked at construction time.</source>
+          <target state="translated">Ebben az esetben a metaadatok zárolt létrehozás időpontjában.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are ever allowed.</source>
+          <target state="translated">A kapcsolati karakterlánc nem módosítása legalább egyszer engedélyezett.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When metadata is loaded, the EntityConnection verifies that the conceptual model, the storage model, and the mapping file are all present.</source>
+          <target state="translated">Metaadatainak betöltésekor a EntityConnection ellenőrzi, hogy a fogalmi modell, a tárolási modellben és a leképezési fájlban található összes.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For code examples, see <bpt id="p1">[</bpt>Working with EntityClient<ept id="p1">](http://msdn.microsoft.com/en-us/dec4728c-8dff-4e30-abe0-0f78fb5d5af5)</ept>.</source>
+          <target state="translated">Kód, tekintse meg a <bpt id="p1">[</bpt>EntityClient használata<ept id="p1">](http://msdn.microsoft.com/en-us/dec4728c-8dff-4e30-abe0-0f78fb5d5af5)</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid inadvertently putting objects such as &lt;xref:System.Data.Common.CommandTrees&gt; and &lt;xref:System.Data.Objects.ObjectContext&gt; out of sync with their metadata, &lt;xref:System.Data.EntityClient.EntityConnection&gt; must lock its metadata.</source>
+          <target state="translated">Véletlenül üzembe, mint az objektumok elkerülése érdekében &lt;xref:System.Data.Common.CommandTrees&gt;és &lt;xref:System.Data.Objects.ObjectContext&gt;nincsenek szinkronban a metaadatok &lt;xref:System.Data.EntityClient.EntityConnection&gt;zárolni kell a metaadatait.&lt;/xref:System.Data.EntityClient.EntityConnection&gt; &lt;/xref:System.Data.Objects.ObjectContext&gt; &lt;/xref:System.Data.Common.CommandTrees&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are allowed after the metadata is locked.</source>
+          <target state="translated">A kapcsolati karakterlánc nem történtek változások engedélyezettek, miután a metaadatok zárolva van.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following are two scenarios in which metadata is locked:      -   The &lt;xref:System.Data.EntityClient.EntityConnection&gt; instance is constructed through the default constructor, or through the &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt; constructor, which accepts a connection string.</source>
+          <target state="translated">A következők két olyan eset, amelyben a metaadatok zárolva van: - a &lt;xref:System.Data.EntityClient.EntityConnection&gt;példányt az alapértelmezett konstruktort, vagy a összeállított a &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt;konstruktort, amely fogad egy kapcsolati karakterláncot.&lt;/xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt; &lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In either case the connection string might be changed multiple times before the connection is opened.</source>
+          <target state="translated">Mindkét esetben a kapcsolati karakterlánc megváltozhat többször előtt a kapcsolat meg van nyitva.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling &lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt; or &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; locks the metadata.</source>
+          <target state="translated">Hívása &lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;vagy &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt;zárolja a metaadatok.&lt;/xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Data.EntityClient.EntityConnection&gt; instance is constructed through the &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt; constructor, which accepts a &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; and a &lt;xref:System.Data.Common.DbConnection&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Data.EntityClient.EntityConnection&gt;példány összeállított &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt;konstruktort, amely fogad egy &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt;és &lt;xref:System.Data.Common.DbConnection&gt;.&lt;/xref:System.Data.Common.DbConnection&gt; &lt;/xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt; keresztül&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case the metadata is locked at construction time.</source>
+          <target state="translated">Ebben az esetben a metaadatok zárolt létrehozás időpontjában.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are ever allowed.</source>
+          <target state="translated">A kapcsolati karakterlánc nem módosítása legalább egyszer engedélyezett.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When metadata is loaded, the &lt;xref:System.Data.EntityClient.EntityConnection&gt; verifies that the conceptual model, the storage model, and the mapping file are all present.</source>
+          <target state="translated">Metaadatainak betöltésekor a &lt;xref:System.Data.EntityClient.EntityConnection&gt;ellenőrzi, hogy a leképezési fájlban, a fogalmi modellben és a tárolási modellben található összes.&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For code examples, see <bpt id="p1">[</bpt>Working with EntityClient<ept id="p1">](http://msdn.microsoft.com/en-us/dec4728c-8dff-4e30-abe0-0f78fb5d5af5)</ept>.</source>
+          <target state="translated">Kód, tekintse meg a <bpt id="p1">[</bpt>EntityClient használata<ept id="p1">](http://msdn.microsoft.com/en-us/dec4728c-8dff-4e30-abe0-0f78fb5d5af5)</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, based on the connection string.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, a kapcsolati karakterlánc alapján.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The  generate a named connection string that is stored in the application's configuration file.</source>
+          <target state="translated">Az alkalmazás konfigurációs fájljában tárolt nevű kapcsolati karakterlánc létrehozása.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This named connection string can be supplied in place of the <ph id="ph1">`connectionString`</ph> parameter when you instantiate the &lt;xref:System.Data.EntityClient.EntityConnection&gt; class.</source>
+          <target state="translated">Ilyen nevű kapcsolati karakterlánc helyett lehet megadni a <ph id="ph1">`connectionString`</ph> paramétert példányosítani az &lt;xref:System.Data.EntityClient.EntityConnection&gt;osztályhoz.&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid inadvertently putting objects &lt;xref:System.Data.Common.CommandTrees&gt; and &lt;xref:System.Data.Objects.ObjectContext&gt; out of sync with their metadata, &lt;xref:System.Data.EntityClient.EntityConnection&gt; must lock its metadata.</source>
+          <target state="translated">Objektumok véletlenül üzembe elkerülése érdekében &lt;xref:System.Data.Common.CommandTrees&gt;és &lt;xref:System.Data.Objects.ObjectContext&gt;nincsenek szinkronban a metaadatok &lt;xref:System.Data.EntityClient.EntityConnection&gt;zárolni kell a metaadatait.&lt;/xref:System.Data.EntityClient.EntityConnection&gt; &lt;/xref:System.Data.Objects.ObjectContext&gt; &lt;/xref:System.Data.Common.CommandTrees&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are allowed after the metadata is locked.</source>
+          <target state="translated">A kapcsolati karakterlánc nem történtek változások engedélyezettek, miután a metaadatok zárolva van.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following are two scenarios in which metadata is locked:      -   The &lt;xref:System.Data.EntityClient.EntityConnection&gt; instance is constructed through the default constructor, or through this constructor (EntityConnection), which accepts a connection string.</source>
+          <target state="translated">A következők két olyan eset, amelyben a metaadatok zárolva van: - a &lt;xref:System.Data.EntityClient.EntityConnection&gt;példány összeállított az alapértelmezett konstruktort, vagy ezzel a konstruktorral (EntityConnection), amely fogad egy kapcsolati karakterláncot.&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In either case the connection string might be changed multiple times before the connection is opened.</source>
+          <target state="translated">Mindkét esetben a kapcsolati karakterlánc megváltozhat többször előtt a kapcsolat meg van nyitva.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling &lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt; or &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; locks the metadata.</source>
+          <target state="translated">Hívása &lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;vagy &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt;zárolja a metaadatok.&lt;/xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Data.EntityClient.EntityConnection&gt; instance is constructed through the &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt; constructor, which accepts a &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; and a &lt;xref:System.Data.Common.DbConnection&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Data.EntityClient.EntityConnection&gt;példány összeállított &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt;konstruktort, amely fogad egy &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt;és &lt;xref:System.Data.Common.DbConnection&gt;.&lt;/xref:System.Data.Common.DbConnection&gt; &lt;/xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt; keresztül&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case the metadata is locked at construction time.</source>
+          <target state="translated">Ebben az esetben a metaadatok zárolt létrehozás időpontjában.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are ever allowed.</source>
+          <target state="translated">A kapcsolati karakterlánc nem módosítása legalább egyszer engedélyezett.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When metadata is loaded, the &lt;xref:System.Data.EntityClient.EntityConnection&gt; verifies that the conceptual model, the storage model, and the mapping file are all present.</source>
+          <target state="translated">Metaadatainak betöltésekor a &lt;xref:System.Data.EntityClient.EntityConnection&gt;ellenőrzi, hogy a leképezési fájlban, a fogalmi modellben és a tárolási modellben található összes.&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For code examples, see <bpt id="p1">[</bpt>Working with EntityClient<ept id="p1">](http://msdn.microsoft.com/en-us/dec4728c-8dff-4e30-abe0-0f78fb5d5af5)</ept>.</source>
+          <target state="translated">Kód, tekintse meg a <bpt id="p1">[</bpt>EntityClient használata<ept id="p1">](http://msdn.microsoft.com/en-us/dec4728c-8dff-4e30-abe0-0f78fb5d5af5)</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The provider-specific connection string.</source>
+          <target state="translated">A szolgáltatóhoz tartozó kapcsolati karakterláncot.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An invalid connection string keyword has been provided, or a required connection string keyword has not been provided.</source>
+          <target state="translated">Az érvénytelen kapcsolati karakterlánc kulcsszó adtak meg, vagy nincs megadva egy szükséges kapcsolati karakterlánc kulcsszóval.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a specified <bpt id="p2">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref href="System.Data.Common.DbConnection"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> egy meghatározott osztály <bpt id="p2">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> és <bpt id="p3">&lt;xref href="System.Data.Common.DbConnection"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor enables you to create an &lt;xref:System.Data.EntityClient.EntityConnection&gt; from metadata that is not from a file on a disk or from an embedded resource in an assembly.</source>
+          <target state="translated">Ez a konstruktor eszközzel hozhat létre egy &lt;xref:System.Data.EntityClient.EntityConnection&gt;, amely nem a lemezen egy fájlt vagy egy beágyazott erőforrást a szerelvények metaadatokból.&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid inadvertently putting objects such as &lt;xref:System.Data.Common.CommandTrees&gt; and &lt;xref:System.Data.Objects.ObjectContext&gt; out of sync with their metadata, the &lt;xref:System.Data.EntityClient.EntityConnection&gt; must lock its metadata.</source>
+          <target state="translated">Véletlenül üzembe, mint az objektumok elkerülése érdekében &lt;xref:System.Data.Common.CommandTrees&gt;és &lt;xref:System.Data.Objects.ObjectContext&gt;nincsenek szinkronban a metaadatok a &lt;xref:System.Data.EntityClient.EntityConnection&gt;zárolni kell a metaadatait.&lt;/xref:System.Data.EntityClient.EntityConnection&gt; &lt;/xref:System.Data.Objects.ObjectContext&gt; &lt;/xref:System.Data.Common.CommandTrees&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are allowed after the metadata is locked.</source>
+          <target state="translated">A kapcsolati karakterlánc nem történtek változások engedélyezettek, miután a metaadatok zárolva van.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following are two scenarios in which metadata is locked:      -   The &lt;xref:System.Data.EntityClient.EntityConnection&gt; instance is constructed through the default constructor, or through the &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt; constructor, which accepts a connection string.</source>
+          <target state="translated">A következők két olyan eset, amelyben a metaadatok zárolva van: - a &lt;xref:System.Data.EntityClient.EntityConnection&gt;példányt az alapértelmezett konstruktort, vagy a összeállított a &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt;konstruktort, amely fogad egy kapcsolati karakterláncot.&lt;/xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt; &lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In either case the connection string might be changed multiple times before the connection is opened.</source>
+          <target state="translated">Mindkét esetben a kapcsolati karakterlánc megváltozhat többször előtt a kapcsolat meg van nyitva.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling &lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt; or &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; locks the metadata.</source>
+          <target state="translated">Hívása &lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;vagy &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt;zárolja a metaadatok.&lt;/xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Data.EntityClient.EntityConnection&gt; instance is constructed through this constructor (EntityConnection), which accepts a &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; and a &lt;xref:System.Data.Common.DbConnection&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Data.EntityClient.EntityConnection&gt;példány összeállított ezzel a konstruktorral (EntityConnection), amely fogad egy &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt;és &lt;xref:System.Data.Common.DbConnection&gt;.&lt;/xref:System.Data.Common.DbConnection&gt; &lt;/xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; &lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case the metadata is locked at construction time.</source>
+          <target state="translated">Ebben az esetben a metaadatok zárolt létrehozás időpontjában.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are ever allowed.</source>
+          <target state="translated">A kapcsolati karakterlánc nem módosítása legalább egyszer engedélyezett.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When metadata is loaded, the &lt;xref:System.Data.EntityClient.EntityConnection&gt; verifies that the conceptual model, the storage model, and the mapping file are all present.</source>
+          <target state="translated">Metaadatainak betöltésekor a &lt;xref:System.Data.EntityClient.EntityConnection&gt;ellenőrzi, hogy a leképezési fájlban, a fogalmi modellben és a tárolási modellben található összes.&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be associated with this <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ez társítandó <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The underlying data source connection for this <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Az alapul szolgáló adatforrás-kapcsolat a <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">workspace</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">connection</ph><ept id="p2">&lt;/code&gt;</ept> parameter is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">workspace</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">connection</ph><ept id="p2">&lt;/code&gt;</ept> parameter is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The conceptual model is missing from the workspace.</source>
+          <target state="translated">A fogalmi modell hiányzik a munkaterületről.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-or-       The mapping file is missing from the workspace.</source>
+          <target state="translated">– vagy – a munkaterületről hiányzik a leképezési fájlban.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-or-       The storage model is missing from the workspace.</source>
+          <target state="translated">– vagy – a tárolási modellben hiányzik a munkaterületről.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connection</ph><ept id="p1">&lt;/code&gt;</ept> is not in a closed state.</source>
+          <target state="translated">– vagy – a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connection</ph> <ept id="p1">&lt;/code&gt;</ept> nincs lezárt állapotban.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connection</ph><ept id="p1">&lt;/code&gt;</ept> is not from an ADO.NET Entity Framework-compatible provider.</source>
+          <target state="translated">A <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connection</ph> <ept id="p1">&lt;/code&gt;</ept> nincs egy ADO.NET Entity Framework-kompatibilis szolgáltatójából.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Begins a transaction by using the underlying provider.</source>
+          <target state="translated">Egy tranzakció kezdete az alapul szolgáló szolgáltató használatával.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BeginTransaction method uses the &lt;xref:System.Data.IsolationLevel&gt; transaction isolation level.</source>
+          <target state="translated">A BeginTransaction metódus használ a &lt;xref:System.Data.IsolationLevel&gt;tranzakció elkülönítési szintjét.&lt;/xref:System.Data.IsolationLevel&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify a different isolation level, call &lt;xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">Adjon meg egy másik elkülönítési szintet, hívja meg a &lt;xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value might be interpreted differently by different underlying providers.</source>
+          <target state="translated">Ez az érték lehet, hogy másképp által értelmezhető különböző alapul szolgáló szolgáltató.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want your application to be portable across multiple providers, it should explicitly specify the transaction isolation level by calling &lt;xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">Ha azt szeretné, hogy az alkalmazás hordozható több szolgáltató között, akkor explicit módon adja meg a tranzakció elkülönítési szintjét &lt;xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt; meghívásával</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At any particular moment there can be no more than one active transaction that was created through BeginTransaction.</source>
+          <target state="translated">Bármely adott pillanatban lehet BeginTransaction hozták létre, csak egy aktív tranzakció.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An attempt to call any of the BeginTransaction overloads on an &lt;xref:System.Data.EntityClient.EntityConnection&gt; that already has a current transaction results in an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">Kísérlet a BeginTransaction túlterhelések bármelyikét hívni egy &lt;xref:System.Data.EntityClient.EntityConnection&gt;, amely már rendelkezik a &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt; aktuális tranzakciós eredmény&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A new <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The returned <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance can later be associated with the <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to execute the command under that transaction.</source>
+          <target state="translated">A visszaadott <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány is később társítható a <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> végrehajtani a parancsot, hogy a tranzakció.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The underlying provider is not known.</source>
+          <target state="translated">Az alapul szolgáló szolgáltató nem ismert.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-or-       The call to BeginTransaction was made on an <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that already has a current transaction.</source>
+          <target state="translated">– vagy – a BeginTransaction metódus hívása történt egy <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely már a jelenlegi tranzakció.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-or-       The state of the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not <bpt id="p2">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">– vagy – állapotát a <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nem <bpt id="p2">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Begins a transaction with the specified isolation level by using the underlying provider.</source>
+          <target state="translated">A megadott elkülönítési szint tranzakciót megkezdi az alapul szolgáló szolgáltató használatával.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At any particular moment there can be no more than one active transaction that was created through &lt;xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">Bármely adott pillanatban nem határozható meg, amely &lt;xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt; hozták létre, csak egy aktív tranzakció</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An attempt to call any of the &lt;xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt; overloads on an &lt;xref:System.Data.EntityClient.EntityConnection&gt; that already has a current transaction results in an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">Hívása a &lt;xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt;túlterhelések meg egy &lt;xref:System.Data.EntityClient.EntityConnection&gt;, amely már rendelkezik a &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt; aktuális tranzakciós eredmény&lt;/xref:System.Data.EntityClient.EntityConnection&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.BeginTransaction%2A&gt; bármelyikét kísérlet</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The isolation level of the transaction.</source>
+          <target state="translated">A tranzakció elkülönítési szintjét.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A new <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The returned <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance can later be associated with the <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityCommand"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to execute the command under that transaction.</source>
+          <target state="translated">A visszaadott <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány is később társítható a <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityCommand"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> végrehajtani a parancsot, hogy a tranzakció.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The underlying provider is not known.</source>
+          <target state="translated">Az alapul szolgáló szolgáltató nem ismert.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-or-       The call to &lt;xref:System.Data.EntityClient.EntityConnection.BeginTransaction*&gt; was made on an <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that already has a current transaction.</source>
+          <target state="translated">– vagy – a hívás &lt;xref:System.Data.EntityClient.EntityConnection.BeginTransaction*&gt;lett végrehajtva egy <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely már a jelenlegi tranzakció.&lt;/xref:System.Data.EntityClient.EntityConnection.BeginTransaction*&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>-or-       The state of the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not <bpt id="p2">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">– vagy – állapotát a <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nem <bpt id="p2">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Not supported.</source>
+          <target state="translated">Nem támogatott.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ChangeDatabase method is required when deriving from &lt;xref:System.Data.Common.DbConnection&gt;.</source>
+          <target state="translated">A ChangeDatabase módszerre szükség, a &lt;xref:System.Data.Common.DbConnection&gt;.&lt;/xref:System.Data.Common.DbConnection&gt; való származtatás esetén</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not supported and will raise a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Ez a metódus nem támogatott, és egy &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt; emeli</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Not supported.</source>
+          <target state="translated">Nem támogatott.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>When the method is called.</source>
+          <target state="translated">A metódus meghívásakor.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Closes the connection to the database.</source>
+          <target state="translated">Megszünteti a kapcsolatot az adatbázisba.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underlying data provider is not known, the call to Close does nothing.</source>
+          <target state="translated">Ha az alapul szolgáló szolgáltató nem ismert, a Close hívásnak nincs semmi hatása.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>An error occurred when closing the connection.</source>
+          <target state="translated">Hiba történt, amikor a kapcsolat bezárása.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> connection string.</source>
+          <target state="translated">Lekérdezi vagy beállítja a <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kapcsolati karakterláncot.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The connection string required to establish the initial connection to a data source.</source>
+          <target state="translated">A kapcsolati karakterlánc szükséges a kezdeti kapcsolatot egy adatforrással létrehozásához.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">Az alapértelmezett érték: üres karakterlánc.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>On a closed connection, the currently set value is returned.</source>
+          <target state="translated">A lezárt kapcsolat esetében a jelenleg beállított értéket adja vissza.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If no value has been set, an empty string is returned.</source>
+          <target state="translated">Nincs érték van beállítva, ha üres karakterláncot ad vissza.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the ConnectionString property after the <bpt id="p1">[</bpt>EntityConnection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>’s <bpt id="p2">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> was initialized.</source>
+          <target state="translated">Kísérlet történt a ConnectionString tulajdonság után állítható be a <bpt id="p1">[</bpt>EntityConnection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>tartozó <bpt id="p2">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> lett inicializálva.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">[</bpt>MetadataWorkspace<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> is initialized either when the <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcError"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance is constructed through the overload that takes a <bpt id="p3">&lt;xref href="System.Data.Odbc.OdbcError"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> as a parameter, or when the <bpt id="p4">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> instance has been opened.</source>
+          <target state="translated">A <bpt id="p1">[</bpt>a metadataworkspace objektumhoz<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> van inicializálva, vagy ha a <bpt id="p2">&lt;xref href="System.Data.Odbc.OdbcError"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> példány összeállított keresztül a rendelkező túlterhelést egy <bpt id="p3">&lt;xref href="System.Data.Odbc.OdbcError"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> paraméterként, vagy ha a <bpt id="p4">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> példány lett megnyitva.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>An invalid connection string keyword has been provided or a required connection string keyword has not been provided.</source>
+          <target state="translated">Az érvénytelen kapcsolati karakterlánc kulcsszó adtak meg, vagy nincs megadva egy szükséges kapcsolati karakterlánc kulcsszóval.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Gets the number of seconds to wait when attempting to establish a connection before ending the attempt and generating an error.</source>
+          <target state="translated">Lekérdezi az időtartamot másodpercben, várjon, amíg a kapcsolat létrehozása előtt befejezési a kísérletet és hibát generál.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Returns zero if the underlying data provider is not known.</source>
+          <target state="translated">Ha az alapul szolgáló szolgáltató nem ismert nulla adja vissza.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The time (in seconds) to wait for a connection to open.</source>
+          <target state="translated">Az eltelt idő (másodpercben) történő várakozás a kapcsolat megnyitásához.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The default value is the underlying data provider's default time-out.</source>
+          <target state="translated">Az alapértelmezett érték: az alapul szolgáló szolgáltató adatok alapértelmezett időkorlátja.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The value set is less than 0.</source>
+          <target state="translated">A beállított érték a 0-nál kisebb.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of an <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, with the &lt;xref:System.Data.EntityClient.EntityCommand.Connection*&gt; set to this <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Létrehoz egy új példányát egy <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, az a &lt;xref:System.Data.EntityClient.EntityCommand.Connection*&gt;állítsa be a <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.EntityClient.EntityCommand.Connection*&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The name of the underlying data provider is not known.</source>
+          <target state="translated">Az alapul szolgáló szolgáltató neve nem ismert.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets the name of the current database, or the database that will be used after a connection is opened.</source>
+          <target state="translated">Lekérdezi az aktuális adatbázisban, vagy a kapcsolat megnyitása után használandó adatbázis nevét.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the specific keyword value, such as <ph id="ph1">`Database`</ph>, that maps to the Database property, see the documentation for the underlying data provider.</source>
+          <target state="translated">Az adott kulcsszó érték például <ph id="ph1">`Database`</ph>, az adatbázis-tulajdonságot, amely leképezhető, az alapul szolgáló szolgáltató dokumentációjában olvashatók.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> equivalent keywords, see the documentation for the &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">A <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> egyenértékű kulcsszavak dokumentációjában találhatók a &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;tulajdonság.&lt;/xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_Database" name="Database" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property of the underlying data provider.</source>
+          <target state="translated">Értékét a <bpt id="p1">&lt;xref uid="langword_csharp_Database" name="Database" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az alapul szolgáló szolgáltató tulajdonsága.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The underlying data provider is not known.</source>
+          <target state="translated">Az alapul szolgáló szolgáltató nem ismert.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets the name or network address of the data source to connect to.</source>
+          <target state="translated">Lekérdezi a neve vagy hálózati címe az adatforráshoz való kapcsolódáshoz.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the specific keyword value, such as <ph id="ph1">`DataSource`</ph>, that maps to the DataSource property, see the documentation for the underlying data provider.</source>
+          <target state="translated">Az adott kulcsszó érték például <ph id="ph1">`DataSource`</ph>, amely leképezhető a DataSource tulajdonság, az alapul szolgáló szolgáltató dokumentációjában olvashatók.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> equivalent keywords, see the documentation for the &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">A <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> egyenértékű kulcsszavak dokumentációjában találhatók a &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;tulajdonság.&lt;/xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The name of the data source.</source>
+          <target state="translated">Az adatforrás neve.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">Az alapértelmezett érték: üres karakterlánc.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The underlying data provider is not known.</source>
+          <target state="translated">Az alapul szolgáló szolgáltató nem ismert.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Enlists this <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the specified transaction.</source>
+          <target state="translated">Ez vesz <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> megadott tranzakcióban.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method forwards the call to the data source connection to explicitly enlist in the passed &lt;xref:System.Transactions.Transaction&gt;.</source>
+          <target state="translated">Ez a módszer továbbítja az adatforrás-kapcsolat hívása explicit módon a átadott &lt;xref:System.Transactions.Transaction&gt;.&lt;/xref:System.Transactions.Transaction&gt; részt venni</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The transaction object to enlist into.</source>
+          <target state="translated">A transaction objektum a besorolásra.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The state of the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not <bpt id="p2">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az állapotát a <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nem <bpt id="p2">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Vissza a <bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ez társított <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; is automatically created when the &lt;xref:System.Data.EntityClient.EntityConnection&gt; class is created.</source>
+          <target state="translated">A &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt;mikor automatikusan létrejön a &lt;xref:System.Data.EntityClient.EntityConnection&gt;osztály jön létre.&lt;/xref:System.Data.EntityClient.EntityConnection&gt; &lt;/xref:System.Data.Metadata.Edm.MetadataWorkspace&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The creation process might throw metadata-specific exceptions.</source>
+          <target state="translated">A létrehozási folyamat esetleg throw metaadat-specifikus kivételek.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Metadata is loaded into memory and an Entity Data Model (EDM) application uses that metadata to access information about the underlying data source.</source>
+          <target state="translated">Metaadatok a memóriába, és az Entity Data Model (EDM) alkalmazás használja, hogy az adatok eléréséhez metaadatai kapcsolatos az alapul szolgáló adatforrásban.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ADO.NET Metadata<ept id="p1">](http://msdn.microsoft.com/en-us/196097a5-a791-4ac4-9e6a-805685d481d5)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>ADO.NET metaadatok<ept id="p1">](http://msdn.microsoft.com/en-us/196097a5-a791-4ac4-9e6a-805685d481d5)</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid inadvertently putting objects such as &lt;xref:System.Data.Common.CommandTrees&gt; and &lt;xref:System.Data.Objects.ObjectContext&gt; out of sync with their metadata, &lt;xref:System.Data.EntityClient.EntityConnection&gt; must lock its metadata.</source>
+          <target state="translated">Véletlenül üzembe, mint az objektumok elkerülése érdekében &lt;xref:System.Data.Common.CommandTrees&gt;és &lt;xref:System.Data.Objects.ObjectContext&gt;nincsenek szinkronban a metaadatok &lt;xref:System.Data.EntityClient.EntityConnection&gt;zárolni kell a metaadatait.&lt;/xref:System.Data.EntityClient.EntityConnection&gt; &lt;/xref:System.Data.Objects.ObjectContext&gt; &lt;/xref:System.Data.Common.CommandTrees&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are allowed after the metadata is locked.</source>
+          <target state="translated">A kapcsolati karakterlánc nem történtek változások engedélyezettek, miután a metaadatok zárolva van.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following are two scenarios in which metadata is locked:      -   The &lt;xref:System.Data.EntityClient.EntityConnection&gt; instance is constructed through the default constructor, or through the &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt; constructor, which accepts a connection string.</source>
+          <target state="translated">A következők két olyan eset, amelyben a metaadatok zárolva van: - a &lt;xref:System.Data.EntityClient.EntityConnection&gt;példányt az alapértelmezett konstruktort, vagy a összeállított a &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt;konstruktort, amely fogad egy kapcsolati karakterláncot.&lt;/xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt; &lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In either case the connection string may be changed multiple times before the connection is opened.</source>
+          <target state="translated">Mindkét esetben a kapcsolati karakterlánc előtt lehet módosítani többször a kapcsolat meg van nyitva.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt; or &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; locks the metadata.</source>
+          <target state="translated">&lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;vagy &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt;zárolja a metaadatok.&lt;/xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt;&lt;/xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Data.EntityClient.EntityConnection&gt; instance is constructed through the &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt; constructor, which accepts a &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; and a &lt;xref:System.Data.Common.DbConnection&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Data.EntityClient.EntityConnection&gt;példány összeállított &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt;konstruktort, amely fogad egy &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt;és &lt;xref:System.Data.Common.DbConnection&gt;.&lt;/xref:System.Data.Common.DbConnection&gt; &lt;/xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt; keresztül&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case the metadata is locked at construction time.</source>
+          <target state="translated">Ebben az esetben a metaadatok zárolt létrehozás időpontjában.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are ever allowed.</source>
+          <target state="translated">A kapcsolati karakterlánc nem módosítása legalább egyszer engedélyezett.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When metadata is loaded, the &lt;xref:System.Data.EntityClient.EntityConnection&gt; verifies that the conceptual model, the storage model, and the mapping file are all present.</source>
+          <target state="translated">Metaadatainak betöltésekor a &lt;xref:System.Data.EntityClient.EntityConnection&gt;ellenőrzi, hogy a leképezési fájlban, a fogalmi modellben és a tárolási modellben található összes.&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Metadata.Edm.MetadataWorkspace"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ez társított <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The inline connection string contains an invalid <bpt id="p1">&lt;xref uid="langword_csharp_Metadata" name="Metadata" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> keyword value.</source>
+          <target state="translated">A beágyazott kapcsolati karakterlánc érvénytelen <bpt id="p1">&lt;xref uid="langword_csharp_Metadata" name="Metadata" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kulcsszóérték.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Establishes a connection to the data source by calling the underlying data provider's<bpt id="p1">&lt;xref uid="langword_csharp_ Open" name=" Open" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> method.</source>
+          <target state="translated">Az adatforráshoz való kapcsolatot létesít az alapul szolgáló szolgáltató adatok meghívásával<bpt id="p1">&lt;xref uid="langword_csharp_ Open" name=" Open" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> metódust.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To avoid inadvertently putting objects such as &lt;xref:System.Data.Common.CommandTrees&gt; and &lt;xref:System.Data.Objects.ObjectContext&gt; out of sync with their metadata, &lt;xref:System.Data.EntityClient.EntityConnection&gt; must lock its metadata.</source>
+          <target state="translated">Véletlenül üzembe, mint az objektumok elkerülése érdekében &lt;xref:System.Data.Common.CommandTrees&gt;és &lt;xref:System.Data.Objects.ObjectContext&gt;nincsenek szinkronban a metaadatok &lt;xref:System.Data.EntityClient.EntityConnection&gt;zárolni kell a metaadatait.&lt;/xref:System.Data.EntityClient.EntityConnection&gt; &lt;/xref:System.Data.Objects.ObjectContext&gt; &lt;/xref:System.Data.Common.CommandTrees&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are allowed after the metadata is locked.</source>
+          <target state="translated">A kapcsolati karakterlánc nem történtek változások engedélyezettek, miután a metaadatok zárolva van.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following are two scenarios in which metadata is locked:      -   The &lt;xref:System.Data.EntityClient.EntityConnection&gt; instance is constructed through the default constructor, or through the &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt; constructor, which accepts a connection string.</source>
+          <target state="translated">A következők két olyan eset, amelyben a metaadatok zárolva van: - a &lt;xref:System.Data.EntityClient.EntityConnection&gt;példányt az alapértelmezett konstruktort, vagy a összeállított a &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt;konstruktort, amely fogad egy kapcsolati karakterláncot.&lt;/xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.String%29&gt; &lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In either case the connection string might be changed multiple times before the connection is opened.</source>
+          <target state="translated">Mindkét esetben a kapcsolati karakterlánc megváltozhat többször előtt a kapcsolat meg van nyitva.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling &lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt; or &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; locks the metadata.</source>
+          <target state="translated">Hívása &lt;xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;vagy &lt;xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt;zárolja a metaadatok.&lt;/xref:System.Data.EntityClient.EntityConnection.GetMetadataWorkspace%2A&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.Data.EntityClient.EntityConnection&gt; instance is constructed through the &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt; constructor, which that accepts a &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; and a &lt;xref:System.Data.Common.DbConnection&gt;.</source>
+          <target state="translated">-A &lt;xref:System.Data.EntityClient.EntityConnection&gt;példány összeállított keresztül a &lt;xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt;konstruktort, amely, amely fogad egy &lt;xref:System.Data.Metadata.Edm.MetadataWorkspace&gt;és &lt;xref:System.Data.Common.DbConnection&gt;.&lt;/xref:System.Data.Common.DbConnection&gt; &lt;/xref:System.Data.Metadata.Edm.MetadataWorkspace&gt; &lt;/xref:System.Data.EntityClient.EntityConnection.%23ctor%28System.Data.Metadata.Edm.MetadataWorkspace%2CSystem.Data.Common.DbConnection%29&gt; &lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case the metadata is locked at construction time.</source>
+          <target state="translated">Ebben az esetben a metaadatok zárolt létrehozás időpontjában.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No changes to the connection string are ever allowed.</source>
+          <target state="translated">A kapcsolati karakterlánc nem módosítása legalább egyszer engedélyezett.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When metadata is loaded, the &lt;xref:System.Data.EntityClient.EntityConnection&gt; verifies that the conceptual model, the storage model, and the mapping file are all present.</source>
+          <target state="translated">Metaadatainak betöltésekor a &lt;xref:System.Data.EntityClient.EntityConnection&gt;ellenőrzi, hogy a leképezési fájlban, a fogalmi modellben és a tárolási modellben található összes.&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>An error occurs when you open the connection, or the name of the underlying data provider is not known.</source>
+          <target state="translated">Egy hiba akkor fordul elő, amikor a kapcsolat megnyitásához, vagy az alapul szolgáló szolgáltató neve nem ismert.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The inline connection string contains an invalid <bpt id="p1">&lt;xref uid="langword_csharp_Metadata" name="Metadata" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> keyword value.</source>
+          <target state="translated">A beágyazott kapcsolati karakterlánc érvénytelen <bpt id="p1">&lt;xref uid="langword_csharp_Metadata" name="Metadata" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kulcsszóérték.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Gets a string that contains the version of the data source to which the client is connected.</source>
+          <target state="translated">Lekérdezi az adatforrás, amelyhez az ügyfél csatlakozik verzióját tartalmazó karakterlánc.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The version of the data source that is contained in the provider connection string.</source>
+          <target state="translated">A szolgáltató kapcsolati karakterláncban szereplő adatforrás verzióját.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The connection is closed.</source>
+          <target state="translated">A kapcsolat le van zárva.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property of the underlying provider if the <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is open.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tulajdonsága az alapul szolgáló szolgáltató Ha a <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> meg nyitva.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Otherwise, returns <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ellenkező esetben adja vissza <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if and only if both the <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>’s internal state and the underlying provider's <bpt id="p3">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> are open.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, ha, és csak akkor, ha mindkét a <bpt id="p2">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>a belső állapotot és az alapul szolgáló szolgáltató <bpt id="p3">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> is nyitva.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>’s state is open but the provider's <bpt id="p2">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed, this property returns <bpt id="p3">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ha a <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>tartozó állapota: megnyitva, de a szolgáltató <bpt id="p2">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> le van zárva, ez a tulajdonság adja vissza <bpt id="p3">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Otherwise, it returns <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ellenkező esetben az eredmény <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Provides access to the underlying data source connection that is used by the <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Az alapul szolgáló adatforrás-kapcsolat által használt hozzáférést biztosít a <bpt id="p1">&lt;xref href="System.Data.EntityClient.EntityConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Data.EntityClient.EntityConnection&gt; object is closed, the returned data source connection will be closed.</source>
+          <target state="translated">Ha a &lt;xref:System.Data.EntityClient.EntityConnection&gt;objektum be van zárva, a visszaadott adatforrás-kapcsolat bezárul.&lt;/xref:System.Data.EntityClient.EntityConnection&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is open, an open data source connection will be returned.</source>
+          <target state="translated">Ha meg nyitva, visszatér egy nyissa meg az adatforrást.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source connection information was set, the returned value is always non-null.</source>
+          <target state="translated">Az adatforrás kapcsolati adatait adta meg, visszaadott érték mindig nem null értékű.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no data source connection information (for example, if the default constructor was used and no connection string was set afterwards), then a null reference is returned.</source>
+          <target state="translated">Ha nincs adatforrás kapcsolódási adatait (például, ha az alapértelmezett konstruktorral lett megadva, és nem kapcsolati karakterlánc lett beállítva ezt követően), majd null hivatkozást ad vissza.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The same data source connection used by the Entity Framework can be shared with other parts of an application.</source>
+          <target state="translated">Az azonos adatforrás-kapcsolatot az Entity Framework által használt megosztható más alkalmazás részei.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data source connection is returned as a &lt;xref:System.Data.Common.DbConnection&gt; object from the &lt;xref:System.Data.Objects.ObjectContext.Connection%2A&gt; property of &lt;xref:System.Data.Objects.ObjectContext&gt;, or from the StoreConnection property of &lt;xref:System.Data.EntityClient.EntityConnection&gt;.</source>
+          <target state="translated">Az adatforrás-kapcsolat adja vissza a rendszer egy &lt;xref:System.Data.Common.DbConnection&gt;objektum a &lt;xref:System.Data.Objects.ObjectContext.Connection%2A&gt;tulajdonsága &lt;xref:System.Data.Objects.ObjectContext&gt;, vagy a StoreConnection tulajdonságból &lt;xref:System.Data.EntityClient.EntityConnection&gt;.&lt;/xref:System.Data.EntityClient.EntityConnection&gt; &lt;/xref:System.Data.Objects.ObjectContext&gt; &lt;/xref:System.Data.Objects.ObjectContext.Connection%2A&gt; &lt;/xref:System.Data.Common.DbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Common.DbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the data source connection.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Common.DbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az adatforrás-kapcsolathoz.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

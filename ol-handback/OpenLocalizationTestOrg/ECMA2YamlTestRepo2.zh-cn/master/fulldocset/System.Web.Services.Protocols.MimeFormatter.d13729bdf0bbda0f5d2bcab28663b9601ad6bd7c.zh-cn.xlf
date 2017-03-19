@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b49067799498337a8293f869a6c7972fb34e4171</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Services.Protocols.MimeFormatter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2d7bd8c990d6eb57b1bad925eac10fc3386136b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cffcc3b9ed78e5d1c6d268fc1ec25eec826c509a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an abstract base class for all readers and writers for Web services and clients implemented using HTTP but without SOAP.</source>
+          <target state="translated">用于所有的读取器和 Web 服务和客户端使用 HTTP 实现但不支持 SOAP 的编写器提供一个抽象基类。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Web service writers and readers serialize and deserialize, respectively, between the parameter or return objects of Web methods and the HTTP request or response streams.</source>
+          <target state="translated">Web 服务编写器和读卡器序列化和反序列化，分别之间 Web 方法的参数或返回对象和 HTTP 请求或响应流。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The MimeFormatter class establishes a common interface and functionality for reader and writer classes, in both client and service-side .</source>
+          <target state="translated">MimeFormatter 类建立通用接口和功能，对于读取器和编写器类，在客户端和服务端。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The MimeFormatter class supports the .NET Framework's implementations of Web services via the HTTP-GET and HTTP-POST operations.</source>
+          <target state="translated">MimeFormatter 类支持的 Web 服务通过 HTTP GET 和 HTTP POST 操作的.NET Framework 的实现。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In HTTP-GET operations request parameters are encoded in the HTTP request's Uniform Resource Locator (URL).</source>
+          <target state="translated">在 HTTP GET 操作中请求参数进行编码在 HTTP 请求的统一资源定位器 (URL)。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In HTTP-POST operations, request parameters are encoded in the HTTP request body, as with an HTML form.</source>
+          <target state="translated">在 HTTP POST 操作中，请求参数在 HTTP 请求正文中，编码与 HTML 窗体。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>With both implementations, the return value appears in the HTTP response body as a non-SOAP XML document.</source>
+          <target state="translated">与这两个实现，返回值将显示在 HTTP 响应正文中为非 SOAP XML 文档。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A developer typically does not need to directly use MimeFormatter or its descendant classes.</source>
+          <target state="translated">开发人员通常不必直接使用 MimeFormatter 或其子代类。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Instead, when the Wsdl.exe tool generates client proxy code according to the HTTP-GET or HTTP-POST implementations, it applies the &lt;xref:System.Web.Services.Protocols.HttpMethodAttribute&gt; to each Web method and sets the attribute's &lt;xref:System.Web.Services.Protocols.HttpMethodAttribute.ParameterFormatter%2A&gt; and &lt;xref:System.Web.Services.Protocols.HttpMethodAttribute.ReturnFormatter%2A&gt; properties to the appropriate type derived from the MimeFormatter class.</source>
+          <target state="translated">相反，当 Wsdl.exe 工具生成的 HTTP GET 或 HTTP POST 实现根据客户端代理代码，它适用&lt;xref:System.Web.Services.Protocols.HttpMethodAttribute&gt;指向每个 Web 方法和设置的属性&lt;xref:System.Web.Services.Protocols.HttpMethodAttribute.ParameterFormatter%2A&gt;和&lt;xref:System.Web.Services.Protocols.HttpMethodAttribute.ReturnFormatter%2A&gt;属性添加到相应的类型派生自 MimeFormatter 类&lt;/xref:System.Web.Services.Protocols.HttpMethodAttribute.ReturnFormatter%2A&gt;&lt;/xref:System.Web.Services.Protocols.HttpMethodAttribute.ParameterFormatter%2A&gt;&lt;/xref:System.Web.Services.Protocols.HttpMethodAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>On the server, the appropriate derived types are used according to settings in an ASP.NET configuration file (Web.config).</source>
+          <target state="translated">在服务器上，根据 ASP.NET 配置文件 (Web.config) 中的设置使用相应的派生的类型。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>On the client the appropriate derived types are determined from the WSDL.</source>
+          <target state="translated">客户端上从 WSDL 确定适当的派生的类型。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Creates and initializes an instance of a concrete class derived from <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">创建并初始化的具体派生类的实例<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The CreateInstance method creates an instance of the derived class and invokes the derived class's implementation of the abstract &lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt; method.</source>
+          <target state="translated">CreateInstance 方法创建派生类的实例并调用派生的类实现的抽象&lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;方法。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The CreateInstance method is invoked at the time a request or response is processed.</source>
+          <target state="translated">CreateInstance 方法是在处理请求或响应时调用。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An initializer is an object passed as a parameter to the &lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt; method.</source>
+          <target state="translated">初始值设定项是作为参数传递一个对象&lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;方法。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The initializer passed as a parameter to the CreateInstance method is obtained from another instance of the derived class, by invoking the &lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt; method during client or service initialization.</source>
+          <target state="translated">初始值设定项作为一个参数传递给 CreateInstance 方法通过调用获得的派生类中，另一个实例从&lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt;在客户端或服务的初始化过程中的方法。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The Type, derived from <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, of which to create an instance.</source>
+          <target state="translated">从派生类型， <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，要创建实例。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An object used to initialize the instance obtained earlier through the derived class's implementation of the &lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer*&gt; method.</source>
+          <target state="translated">用于初始化实例的对象之前获取通过派生的类实现&lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer*&gt;方法。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer*&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns an initializer for the specified method.</source>
+          <target state="translated">当在派生类中重写，则返回的指定方法的初始值设定项。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An initializer is an object passed as a parameter to the &lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt; method.</source>
+          <target state="translated">初始值设定项是作为参数传递一个对象&lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;方法。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A derived class's implementation of the GetInitializer instance method is invoked during client or service initialization.</source>
+          <target state="translated">在客户端或服务初始化期间调用的 GetInitializer 实例方法的派生的类的实现。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Later, at the time a request or response is processed, the initializer object is passed to the static &lt;xref:System.Web.Services.Protocols.MimeFormatter.CreateInstance%2A&gt; method, which creates an instance of another object of the derived class, and then to the &lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt; method to initialize it.</source>
+          <target state="translated">更高版本，在处理请求或响应时，初始值设定项对象传递到静态&lt;xref:System.Web.Services.Protocols.MimeFormatter.CreateInstance%2A&gt;方法，这将创建实例的另一个对象派生的类，以及然后&lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;方法以初始化它。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt; &lt;/xref:System.Web.Services.Protocols.MimeFormatter.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The other object performs the actual reading or writing.</source>
+          <target state="translated">另一个对象执行实际读取或写入。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.LogicalMethodInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the Web method for which the initializer is obtained.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.LogicalMethodInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定 Web 方法为其获取初始值设定项。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that contains the initializer for the specified method.</source>
+          <target state="translated">&lt;xref:System.Object&gt;，其中包含的指定方法的初始值设定项。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns an initializer for the specified method.</source>
+          <target state="translated">返回指定的方法的初始值设定项。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>An initializer is an object passed as a parameter to the &lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt; method.</source>
+          <target state="translated">初始值设定项是作为参数传递一个对象&lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;方法。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The static GetInitializer method invokes the derived class's &lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt; method, implicitly creating an instance of the derived class.</source>
+          <target state="translated">静态 GetInitializer 方法将调用派生的类的&lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt;方法，隐式创建派生类的实例&lt;/xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>At the time a request or response is processed, the initializer object is passed to the &lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt; method of another instance of the derived class.</source>
+          <target state="translated">在处理请求或响应时，初始值设定项对象传递给&lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;方法的另一个实例派生的类。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The latter object performs the actual reading or writing.</source>
+          <target state="translated">后一种对象执行实际读取或写入。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The Type, derived from <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>,- for which an initializer is obtained.</source>
+          <target state="translated">从派生类型， <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，-用于从中获取初始值设定项。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.LogicalMethodInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the Web method for which the initializer is obtained.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.LogicalMethodInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定 Web 方法为其获取初始值设定项。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Object&gt; object that contains the initializer for the specified method.</source>
+          <target state="translated">A&lt;xref:System.Object&gt;包含初始值设定项的指定方法的对象。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns an array of initializer objects corresponding to an input array of method definitions.</source>
+          <target state="translated">当在派生类中重写，返回对象对应方法定义的输入数组的初始值设定项的数组。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An initializer is an object passed as a parameter to the &lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt; method.</source>
+          <target state="translated">初始值设定项是作为参数传递一个对象&lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;方法。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The GetInitializers instance method invokes the &lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt; instance method for each input Web method.</source>
+          <target state="translated">GetInitializers 实例方法调用&lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt;实例方法，为每个输入 Web 方法。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This means an instance of a class derived from &lt;xref:System.Web.Services.Protocols.MimeFormatter&gt; has already been created.</source>
+          <target state="translated">这意味着从派生的类的实例&lt;xref:System.Web.Services.Protocols.MimeFormatter&gt;已创建。&lt;/xref:System.Web.Services.Protocols.MimeFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>At the time a request or response is processed, the initializer is passed to the &lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt; method of another instance of the derived class.</source>
+          <target state="translated">在处理请求或响应时，初始值设定项将传递给&lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;方法的另一个实例派生的类。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The latter object performs the actual reading or writing.</source>
+          <target state="translated">后一种对象执行实际读取或写入。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An array of Web methods where, for each method, the object of the corresponding index in the returned initializer array is obtained.</source>
+          <target state="translated">其中，对于每个方法，获取该对象中返回的初始值设定项数组的相应索引的 Web 方法的数组。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An array of initializer objects corresponding to the input array of method definitions.</source>
+          <target state="translated">对应于输入的方法定义数组的初始值设定项对象的数组。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Returns an array of initializer objects corresponding to an input array of method definitions for a specified class derived from <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回从指定的类派生的对应方法定义的输入数组的对象的数组初始值设定项<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An initializer is an object passed as a parameter to the &lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt; method.</source>
+          <target state="translated">初始值设定项是作为参数传递一个对象&lt;xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;方法。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The static GetInitializersmethod causes the invocation of the &lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt; method belonging to the derived class specified by the <ph id="ph1">`type`</ph> parameter.</source>
+          <target state="translated">静态 GetInitializersmethod 可调用&lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt;属于指定的派生类方法<ph id="ph1">`type`</ph>参数。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The Type, derived from <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, for which initializers are obtained.</source>
+          <target state="translated">从派生类型， <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，获取为哪些初始值设定项。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>An array of type <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.LogicalMethodInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies the Web methods for which the initializers are obtained.</source>
+          <target state="translated">类型的数组<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.LogicalMethodInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它指定为其获取初始值设定项的 Web 方法。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An array of initializer objects corresponding to the input array of method definitions for a specified class derived from <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">数组初始值设定项对应的对象的输入数组的方法定义指定的类派生自<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, initializes an instance.</source>
+          <target state="translated">当在派生类中重写，初始化实例。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The Initialize method is invoked at the time a request or response is processed; however, the initializer is obtained by calling the &lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt; method on another instance during client or service initialization.</source>
+          <target state="translated">在处理请求或响应; 时调用的 Initialize 方法但是，初始值设定项通过调用获取&lt;xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt;在客户端或服务的初始化过程中的另一个实例上的方法。&lt;/xref:System.Web.Services.Protocols.MimeFormatter.GetInitializer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An object of a type appropriate to the particular class that is implementing the method.</source>
+          <target state="translated">适用于实现该方法的特定类类型的对象。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ddf5c098589277c135cc2919d2ef42ef1218a1a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Collections.Specialized.BitVector32.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d3893a67febfc8ff45a6a18c7957abe236c2b9c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d387378e998ed8e93332f213f12f63e17c809117</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a simple structure that stores Boolean values and small integers in 32 bits of memory.</source>
+          <target state="translated">Tillhandahåller en enkel struktur som lagrar booleska värden och liten heltal i 32-bitars minne.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>BitVector32 is more efficient than &lt;xref:System.Collections.BitArray&gt; for Boolean values and small integers that are used internally.</source>
+          <target state="translated">BitVector32 är effektivare än &lt;xref:System.Collections.BitArray&gt;för booleska värden och liten heltal som används internt.&lt;/xref:System.Collections.BitArray&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Collections.BitArray&gt; can grow indefinitely as needed, but it has the memory and performance overhead that a class instance requires.</source>
+          <target state="translated">En &lt;xref:System.Collections.BitArray&gt;kan växa på obestämd tid efter behov, men den har att minne och prestanda försämras som kräver en klassinstans.&lt;/xref:System.Collections.BitArray&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In contrast, a BitVector32 uses only 32 bits.</source>
+          <target state="translated">En BitVector32 använder däremot endast 32 bitar.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A BitVector32 structure can be set up to contain either sections for small integers or bit flags for Booleans, but not both.</source>
+          <target state="translated">En BitVector32 struktur kan ställas in dig att innehålla avsnitt för små heltal eller bit-flaggor för booleska värden, men inte båda.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; is a window into the BitVector32 and is composed of the smallest number of consecutive bits that can contain the maximum value specified in &lt;xref:System.Collections.Specialized.BitVector32.CreateSection%2A&gt;.</source>
+          <target state="translated">En &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;är en av BitVector32 och består av det lägsta antalet på varandra följande bitar som kan innehålla det maximala värdet som angetts i &lt;xref:System.Collections.Specialized.BitVector32.CreateSection%2A&gt;.&lt;/xref:System.Collections.Specialized.BitVector32.CreateSection%2A&gt; &lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a section with a maximum value of 1 is composed of only one bit, whereas a section with a maximum value of 5 is composed of three bits.</source>
+          <target state="translated">Till exempel består ett avsnitt med ett maximalt värde 1 av en bit, medan ett avsnitt med ett maximalt värde på 5 består av tre bits.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create a &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; with a maximum value of 1 to serve as a Boolean, thereby allowing you to store integers and Booleans in the same BitVector32.</source>
+          <target state="translated">Du kan skapa en &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;med ett maximalt värde 1 för att fungera som ett booleskt värde, vilket innebär att du lagra heltal och booleska värden i samma BitVector32.&lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some members can be used for a BitVector32 that is set up as sections, while other members can be used for one that is set up as bit flags.</source>
+          <target state="translated">Vissa medlemmar som kan användas för en BitVector32 som är inställda som avsnitt, medan andra medlemmar som kan användas för ett som har konfigurerats som bit-flaggor.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt; property is the indexer for a BitVector32 that is set up as sections, and the &lt;xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt; property is the indexer for a BitVector32 that is set up as bit flags.</source>
+          <target state="translated">Till exempel den &lt;xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt;egenskapen är indexerare för en BitVector32 som är inställda som avsnitt och &lt;xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt;egenskapen är indexerare för en BitVector32 som är inställda som bit-flaggor.&lt;/xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt; &lt;/xref:System.Collections.Specialized.BitVector32.Item%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Collections.Specialized.BitVector32.CreateMask%2A&gt; creates a series of masks that can be used to access individual bits in a BitVector32 that is set up as bit flags.</source>
+          <target state="translated">&lt;xref:System.Collections.Specialized.BitVector32.CreateMask%2A&gt;skapar ett antal masker som kan användas för att få åtkomst till enskilda bitar i en BitVector32 som är inställda som bit-flaggor.&lt;/xref:System.Collections.Specialized.BitVector32.CreateMask%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a mask on a BitVector32 that is set up as sections might cause unexpected results.</source>
+          <target state="translated">Med hjälp av en mask på en BitVector32 ställs in som avsnitt kan orsaka oväntade resultat.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure containing the data represented in an existing <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> structure.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur som innehåller de data som visas i en befintlig <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> struktur.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is an O(1) operation.</source>
+          <target state="translated">Den här konstruktorn är en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that contains the data to copy.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur som innehåller data som ska kopieras.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure containing the data represented in an integer.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> struktur som innehåller de data som visas i ett heltal.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor is an O(1) operation.</source>
+          <target state="translated">Den här konstruktorn är en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An integer representing the data of the new <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ett heltal som representerar alla data för den nya <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Creates the first mask in a series of masks that can be used to retrieve individual bits in a <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is set up as bit flags.</source>
+          <target state="translated">Skapar den första masken i en serie med masker som kan användas för att hämta enskilda bitar i en <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som har konfigurerats som bit-flaggor.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use <ph id="ph1">`CreateMask()`</ph> to create the first mask in a series and <ph id="ph2">`CreateMask(int)`</ph> for all subsequent masks.</source>
+          <target state="translated">Använd <ph id="ph1">`CreateMask()`</ph> att skapa den första masken i en serie och <ph id="ph2">`CreateMask(int)`</ph> för alla efterföljande masker.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Multiple masks can be created to refer to the same bit flag.</source>
+          <target state="translated">Du kan skapa flera masker du vill referera till samma flaggan.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting mask isolates only one bit flag in the &lt;xref:System.Collections.Specialized.BitVector32&gt;.</source>
+          <target state="translated">Resulterande masken isolerar flaggan för endast en bit i &lt;xref:System.Collections.Specialized.BitVector32&gt;.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can combine masks using the bitwise OR operation to create a mask that isolates multiple bit flags in the &lt;xref:System.Collections.Specialized.BitVector32&gt;.</source>
+          <target state="translated">Du kan kombinera masker med binär eller igen för att skapa en mask som isolerar flera bitars flaggor i &lt;xref:System.Collections.Specialized.BitVector32&gt;.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a mask on a &lt;xref:System.Collections.Specialized.BitVector32&gt; that is set up as sections might cause unexpected results.</source>
+          <target state="translated">Med hjälp av en mask på en &lt;xref:System.Collections.Specialized.BitVector32&gt;som ställs in som avsnitt kan orsaka oväntade resultat.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">Den här metoden är en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A mask that isolates the first bit flag in the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En mask som isolerar första flaggan i den <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Creates an additional mask following the specified mask in a series of masks that can be used to retrieve individual bits in a <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is set up as bit flags.</source>
+          <target state="translated">Skapar en ytterligare mask efter den angivna masken i en serie med masker som kan användas för att hämta enskilda bitar i en <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som har konfigurerats som bit-flaggor.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use <ph id="ph1">`CreateMask()`</ph> to create the first mask in a series and <ph id="ph2">`CreateMask(int)`</ph> for all subsequent masks.</source>
+          <target state="translated">Använd <ph id="ph1">`CreateMask()`</ph> att skapa den första masken i en serie och <ph id="ph2">`CreateMask(int)`</ph> för alla efterföljande masker.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Multiple masks can be created to refer to the same bit flag.</source>
+          <target state="translated">Du kan skapa flera masker du vill referera till samma flaggan.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting mask isolates only one bit flag in the &lt;xref:System.Collections.Specialized.BitVector32&gt;.</source>
+          <target state="translated">Resulterande masken isolerar flaggan för endast en bit i &lt;xref:System.Collections.Specialized.BitVector32&gt;.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can combine masks using the bitwise OR operation to create a mask that isolates multiple bit flags in the &lt;xref:System.Collections.Specialized.BitVector32&gt;.</source>
+          <target state="translated">Du kan kombinera masker med binär eller igen för att skapa en mask som isolerar flera bitars flaggor i &lt;xref:System.Collections.Specialized.BitVector32&gt;.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a mask on a &lt;xref:System.Collections.Specialized.BitVector32&gt; that is set up as sections might cause unexpected results.</source>
+          <target state="translated">Med hjälp av en mask på en &lt;xref:System.Collections.Specialized.BitVector32&gt;som ställs in som avsnitt kan orsaka oväntade resultat.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">Den här metoden är en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The mask that indicates the previous bit flag.</source>
+          <target state="translated">Masken som anger tidigare flaggan.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A mask that isolates the bit flag following the one that <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">previous</ph><ept id="p1">&lt;/code&gt;</ept> points to in <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En mask som isolerar biten flaggan efter det som <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">previous</ph> <ept id="p1">&lt;/code&gt;</ept> pekar på i <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;previous&lt;/code&gt;</ph> indicates the last bit flag in the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;previous&lt;/code&gt;</ph>Anger den sista flaggan i den <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Creates the first &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; in a series of sections that contain small integers.</source>
+          <target state="translated">Skapar först &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;i ett antal avsnitt som innehåller små heltal.&lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; is a window into the &lt;xref:System.Collections.Specialized.BitVector32&gt; and is composed of the smallest number of consecutive bits that can contain the maximum value specified in CreateSection.</source>
+          <target state="translated">En &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;är en av &lt;xref:System.Collections.Specialized.BitVector32&gt;och består av det lägsta antalet på varandra följande bitar som kan innehålla det maximala värdet som angetts i CreateSection.&lt;/xref:System.Collections.Specialized.BitVector32&gt; &lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a section with a maximum value of 1 is composed of only one bit, whereas a section with a maximum value of 5 is composed of three bits.</source>
+          <target state="translated">Till exempel består ett avsnitt med ett maximalt värde 1 av en bit, medan ett avsnitt med ett maximalt värde på 5 består av tre bits.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can create a &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; with a maximum value of 1 to serve as a Boolean, thereby allowing you to store integers and Booleans in the same &lt;xref:System.Collections.Specialized.BitVector32&gt;.</source>
+          <target state="translated">Du kan skapa en &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;med ett maximalt värde 1 för att fungera som ett booleskt värde, vilket innebär att du store heltal och booleska värden i samma &lt;xref:System.Collections.Specialized.BitVector32&gt;.&lt;/xref:System.Collections.Specialized.BitVector32&gt; &lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If sections already exist in the &lt;xref:System.Collections.Specialized.BitVector32&gt;, those sections are still accessible; however, overlapping sections might cause unexpected results.</source>
+          <target state="translated">Om avsnitt finns redan i den &lt;xref:System.Collections.Specialized.BitVector32&gt;, dessa avsnitt är fortfarande tillgängliga; dock överlappande sektioner kan orsaka oväntade resultat.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">Den här metoden är en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>A 16-bit signed integer that specifies the maximum value for the new &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;.</source>
+          <target state="translated">Ett 16-bitars heltal som anger det maximala värdet för den nya &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;.&lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.Specialized.BitVector32.Section&gt; that can hold a number from zero to <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">maxValue</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">En &lt;xref:System.Collections.Specialized.BitVector32.Section&gt;som kan innehålla en siffra från noll till <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">maxValue</ph> <ept id="p1">&lt;/code&gt;</ept>.&lt;/xref:System.Collections.Specialized.BitVector32.Section&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;maxValue&lt;/code&gt;</ph> is less than 1.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;maxValue&lt;/code&gt;</ph>är mindre än 1.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets the value of the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an integer.</source>
+          <target state="translated">Hämtar värdet för den <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som ett heltal.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To access the value of the individual sections or bit flags, use the &lt;xref:System.Collections.Specialized.BitVector32.Item%2A&gt; property.</source>
+          <target state="translated">Använd om du vill komma åt värdet för enskilda avsnitt eller bit flaggor i &lt;xref:System.Collections.Specialized.BitVector32.Item%2A&gt;egenskap.&lt;/xref:System.Collections.Specialized.BitVector32.Item%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving the value of this property is an O(1) operation.</source>
+          <target state="translated">Hämtar värdet för den här egenskapen är en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an integer.</source>
+          <target state="translated">Värdet för den <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som ett heltal.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Determines whether the specified object is equal to the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anger om det angivna objektet är lika med den <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The object <ph id="ph1">`o`</ph> is considered equal to the &lt;xref:System.Collections.Specialized.BitVector32&gt; if the type of <ph id="ph2">`o`</ph> is compatible with the &lt;xref:System.Collections.Specialized.BitVector32&gt; type and if the value of <ph id="ph3">`o`</ph> is equal to the value of &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt;.</source>
+          <target state="translated">Objektet <ph id="ph1">`o`</ph> anses vara lika med den &lt;xref:System.Collections.Specialized.BitVector32&gt;om vilken typ av <ph id="ph2">`o`</ph> är kompatibel med den &lt;xref:System.Collections.Specialized.BitVector32&gt;typ och om värdet för <ph id="ph3">`o`</ph> är lika med värdet för &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt;.&lt;/xref:System.Collections.Specialized.BitVector32.Data%2A&gt; &lt;/xref:System.Collections.Specialized.BitVector32&gt; &lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">Den här metoden är en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The object to compare with the current <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Objektet som ska jämföras med aktuellt <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified object is equal to the <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det angivna objektet är lika med den <bpt id="p2">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Serves as a hash function for the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Fungerar som en hash-funktionen för den <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The hash code of a &lt;xref:System.Collections.Specialized.BitVector32&gt; is based on the value of &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt;.</source>
+          <target state="translated">Hash-koden för en &lt;xref:System.Collections.Specialized.BitVector32&gt;baseras på värdet för &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt;.&lt;/xref:System.Collections.Specialized.BitVector32.Data%2A&gt; &lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two instances of &lt;xref:System.Collections.Specialized.BitVector32&gt; with the same value for &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt; will also generate the same hash code.</source>
+          <target state="translated">Två instanser av &lt;xref:System.Collections.Specialized.BitVector32&gt;med samma värde för &lt;xref:System.Collections.Specialized.BitVector32.Data%2A&gt;kommer också att generera samma hash-kod.&lt;/xref:System.Collections.Specialized.BitVector32.Data%2A&gt; &lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">Den här metoden är en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A hash code for the <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En Hashkod för den <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Gets or sets the state of the bit flag indicated by the specified mask.</source>
+          <target state="translated">Hämtar eller anger tillståndet för flaggan anges av den angivna masken.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Item [Section] property is the indexer for a &lt;xref:System.Collections.Specialized.BitVector32&gt; that is set up as sections, and the Item [int] property is the indexer for a &lt;xref:System.Collections.Specialized.BitVector32&gt; that is set up as bit flags.</source>
+          <target state="translated">Egenskapen Item [avsnitt] är indexerare för en &lt;xref:System.Collections.Specialized.BitVector32&gt;som har konfigurerats som avsnitt och egenskapen Item [int] är indexerare för en &lt;xref:System.Collections.Specialized.BitVector32&gt;som har konfigurerats som bit-flaggor.&lt;/xref:System.Collections.Specialized.BitVector32&gt; &lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using this property on a &lt;xref:System.Collections.Specialized.BitVector32&gt; that is set up as sections might cause unexpected results.</source>
+          <target state="translated">Med den här egenskapen på ett &lt;xref:System.Collections.Specialized.BitVector32&gt;som ställs in som avsnitt kan orsaka oväntade resultat.&lt;/xref:System.Collections.Specialized.BitVector32&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The C# language uses the  keyword to define the indexers instead of implementing the Item property.</source>
+          <target state="translated">C#-språk använder nyckelordet för att definiera indexerare i stället för att implementera egenskapen Item.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Visual Basic implements Item as a default property, which provides the same indexing functionality.</source>
+          <target state="translated">Visual Basic implementerar objektet som en default-egenskap som innehåller samma funktion för indexering.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Retrieving the value of this property is an O(1) operation; setting the property is also an O(1) operation.</source>
+          <target state="translated">Hämtar värdet för den här egenskapen är O(1) åtgärd. Egenskapen är också en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A mask that indicates the bit to get or set.</source>
+          <target state="translated">En mask som anger bitars att hämta eller ange.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified bit flag is on (1); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den angivna flaggan finns på (1). Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Returns a string that represents the current <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returnerar en sträng som representerar aktuellt <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Den här metoden åsidosätter &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt;.&lt;/xref:System.Object.ToString%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">Den här metoden är en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A string that represents the current <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En sträng som representerar aktuellt <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Returns a string that represents the specified <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returnerar en sträng som representerar den angivna <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is an O(1) operation.</source>
+          <target state="translated">Den här metoden är en O(1)-åtgärd.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to represent.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A string that represents the specified <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En sträng som representerar den angivna <bpt id="p1">&lt;xref href="System.Collections.Specialized.BitVector32"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
