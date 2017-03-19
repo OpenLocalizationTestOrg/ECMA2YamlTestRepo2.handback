@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">555c2d2860cf86f7a7ea70dd31b954f93e44fbdb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.DirectoryServices.DirectorySearcher.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58c593b4be0f7e6669772fa4edd669342b8c1fdf</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b384b7515b7f445e83a5776664b81b539c5c40c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Performs queries against Active Directory Domain Services.</source>
+          <target state="translated">執行 Active Directory 網域服務查詢。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use a DirectorySearcher object to search and perform queries against an Active Directory Domain Services hierarchy using Lightweight Directory Access Protocol (LDAP).</source>
+          <target state="translated">您可以使用 DirectorySearcher 物件來搜尋並執行的 Active Directory 網域服務階層使用輕量型目錄存取通訊協定 (LDAP) 查詢。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>LDAP is the only system-supplied Active Directory Service Interfaces (ADSI) provider that supports directory searching.</source>
+          <target state="translated">LDAP 是唯一系統提供 Active Directory 服務介面 (ADSI) 支援的提供者目錄搜尋。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>An administrator can make, alter, and delete objects that are found in the hierarchy.</source>
+          <target state="translated">系統管理員可以進行、 變更和刪除階層中找到的物件。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Using System.DirectoryServices<ept id="p1">](http://msdn.microsoft.com/en-us/ffa2f003-3a9a-4e2a-815e-825c8ddd7949)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>使用 System.DirectoryServices<ept id="p1">](http://msdn.microsoft.com/en-us/ffa2f003-3a9a-4e2a-815e-825c8ddd7949)</ept>。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you create an instance of DirectorySearcher, you specify the root you want to retrieve, and an optional list of properties to retrieve.</source>
+          <target state="translated">當您建立 DirectorySearcher 的執行個體時，您可以指定您想要擷取，根和選擇性的屬性，以擷取清單。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt; property enables you to set additional properties to do the following tasks:      -   Cache the search results on the local computer.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;屬性可讓您設定其他屬性來執行下列工作:-快取在本機電腦上的搜尋結果。&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Set the &lt;xref:System.DirectoryServices.DirectorySearcher.CacheResults%2A&gt; property to <ph id="ph1">`true`</ph> to store directory information on the local computer.</source>
+          <target state="translated">設定&lt;xref:System.DirectoryServices.DirectorySearcher.CacheResults%2A&gt;屬性<ph id="ph1">`true`</ph>儲存在本機電腦上的目錄資訊。&lt;/xref:System.DirectoryServices.DirectorySearcher.CacheResults%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Updates are made to this local cache and committed to Active Directory Domain Services only when the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A?displayProperty=fullName&gt; method is called.</source>
+          <target state="translated">對此本機快取並認可至 Active Directory 網域服務更新時，才&lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A?displayProperty=fullName&gt;方法呼叫。&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   Specify the length of time to search, using the  &lt;xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt; property.</source>
+          <target state="translated">-指定時間長度的搜尋，請使用&lt;xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt;屬性。&lt;/xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   Retrieve attribute names only.</source>
+          <target state="translated">-只擷取屬性名稱。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Set the &lt;xref:System.DirectoryServices.DirectorySearcher.PropertyNamesOnly%2A&gt; property to <ph id="ph1">`true`</ph> to retrieve only the names of attributes to which values have been assigned.</source>
+          <target state="translated">設定&lt;xref:System.DirectoryServices.DirectorySearcher.PropertyNamesOnly%2A&gt;屬性<ph id="ph1">`true`</ph>来擷取的值已指派給的屬性的名稱。&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertyNamesOnly%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   Perform a paged search.</source>
+          <target state="translated">-執行分頁的搜尋。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Set the &lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt; property to specify the maximum number of objects that are returned in a paged search.</source>
+          <target state="translated">設定&lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;屬性，以指定的分頁搜尋中傳回的物件數目上限。&lt;/xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If you do not want to perform a paged search, set the &lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt; property to its default of zero.</source>
+          <target state="translated">如果您不想進行分頁的搜尋，設定&lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;屬性為其預設值是零。&lt;/xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-   Specify the maximum number of entries to return, using the &lt;xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt; property.</source>
+          <target state="translated">-指定要傳回的項目數目上限使用&lt;xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt;屬性。&lt;/xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If you set the &lt;xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt; property to its default of zero, the server-determined default is 1000 entries.</source>
+          <target state="translated">如果您設定&lt;xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt;屬性為其預設值是零，由伺服器決定預設值是 1000 個項目。&lt;/xref:System.DirectoryServices.DirectorySearcher.SizeLimit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the maximum number of returned entries and time limits exceed the limitations that are set on the server, the server settings override the component settings.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 傳回的項目和時間限制的最大數目超過伺服器設定的限制，如果伺服器設定會覆寫元件設定。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For a list of initial property values for an instance of the DirectorySearcher class, see the &lt;xref:System.DirectoryServices.DirectorySearcher.%23ctor&gt; constructor.</source>
+          <target state="translated">如需 DirectorySearcher 類別的執行個體的初始屬性值的清單，請參閱&lt;xref:System.DirectoryServices.DirectorySearcher.%23ctor&gt;建構函式。&lt;/xref:System.DirectoryServices.DirectorySearcher.%23ctor&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is assumed that you have a general understanding of Active Directory Domain Services before using this class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 假設您有使用這個類別之前有基本認識的 Active Directory 網域服務。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.DirectoryServices?displayProperty=fullName&gt; overview.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.DirectoryServices?displayProperty=fullName&gt;概觀。&lt;/xref:System.DirectoryServices?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default values.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別具有預設值。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">下表顯示的初始屬性值&lt;xref:System.DirectoryServices.DirectorySearcher&gt;物件。&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic)|   |&lt;xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;|"(objectClass=*)"|   |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|An empty &lt;xref:System.Collections.Specialized.StringCollection&gt; object|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|屬性 |初始值 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|Null 參考 (<ph id="ph1">`Nothing`</ph>在 Visual Basic 中) |  |&lt;xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;|"(objectClass = *)"|  |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|空的&lt;xref:System.Collections.Specialized.StringCollection&gt;物件 |  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;&lt;/xref:System.Collections.Specialized.StringCollection&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified search root.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別使用指定的搜尋根目錄。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">下表顯示的初始屬性值&lt;xref:System.DirectoryServices.DirectorySearcher&gt;物件。&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;|"(objectClass=*)"|   |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|An empty &lt;xref:System.Collections.Specialized.StringCollection&gt; object|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|屬性 |初始值 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;|"(objectClass = *)"|  |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|空的&lt;xref:System.Collections.Specialized.StringCollection&gt;物件 |  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;&lt;/xref:System.Collections.Specialized.StringCollection&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The node in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated">搜尋開始位置的 Active Directory 網域服務階層架構中的節點。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search filter.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>與指定的搜尋篩選器的類別。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">下表顯示的初始屬性值&lt;xref:System.DirectoryServices.DirectorySearcher&gt;物件。&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic)|   |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|An empty &lt;xref:System.Collections.Specialized.StringCollection&gt; object|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|屬性 |初始值 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|Null 參考 (<ph id="ph1">`Nothing`</ph>在 Visual Basic 中) |  |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|空的&lt;xref:System.Collections.Specialized.StringCollection&gt;物件 |  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;&lt;/xref:System.Collections.Specialized.StringCollection&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">輕量型目錄存取通訊協定 (LDAP) 格式中的搜尋篩選字串。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search root and search filter.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>與指定的搜尋根和搜尋篩選器的類別。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">下表顯示的初始屬性值&lt;xref:System.DirectoryServices.DirectorySearcher&gt;物件。&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|An empty &lt;xref:System.Collections.Specialized.StringCollection&gt; object.|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|屬性 |初始值 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;|空的&lt;xref:System.Collections.Specialized.StringCollection&gt;物件。 |  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;&lt;/xref:System.Collections.Specialized.StringCollection&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The node in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated">搜尋開始位置的 Active Directory 網域服務階層架構中的節點。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">輕量型目錄存取通訊協定 (LDAP) 格式中的搜尋篩選字串。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search filter and properties to retrieve.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>具有指定的搜尋篩選和要擷取屬性類別。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">下表顯示的初始屬性值&lt;xref:System.DirectoryServices.DirectorySearcher&gt;物件。&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic)|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|屬性 |初始值 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|Null 參考 (<ph id="ph1">`Nothing`</ph>在 Visual Basic 中) |  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">輕量型目錄存取通訊協定 (LDAP) 格式中的搜尋篩選字串。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The  &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The set of properties to retrieve during the search.</source>
+          <target state="translated">要在搜尋期間所擷取的屬性集。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search root, search filter, and properties to retrieve..</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，其中包含指定的搜尋根搜尋篩選器中，內容以擷取資料庫...</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">下表顯示的初始屬性值&lt;xref:System.DirectoryServices.DirectorySearcher&gt;物件。&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|</source>
+          <target state="translated">|屬性 |初始值 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;|&lt;xref:System.DirectoryServices.SearchScope&gt;|&lt;/xref:System.DirectoryServices.SearchScope&gt;&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The node in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated">搜尋開始位置的 Active Directory 網域服務階層架構中的節點。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">輕量型目錄存取通訊協定 (LDAP) 格式中的搜尋篩選字串。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The set of properties that are retrieved during the search.</source>
+          <target state="translated">在搜尋期間所擷取的屬性集。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search filter, properties to retrieve, and search scope.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別指定的搜尋篩選器的屬性，以擷取和搜尋範圍。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The following table shows the initial property values of the &lt;xref:System.DirectoryServices.DirectorySearcher&gt; object.</source>
+          <target state="translated">下表顯示的初始屬性值&lt;xref:System.DirectoryServices.DirectorySearcher&gt;物件。&lt;/xref:System.DirectoryServices.DirectorySearcher&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>|Property|Initial value|   |--------------|-------------------|   |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|A null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic)|</source>
+          <target state="translated">|屬性 |初始值 |  |--------------|-------------------|  |&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;|Null 參考 (<ph id="ph1">`Nothing`</ph>在 Visual Basic 中) |&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">輕量型目錄存取通訊協定 (LDAP) 格式中的搜尋篩選字串。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The set of properties to retrieve during the search.</source>
+          <target state="translated">要在搜尋期間所擷取的屬性集。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The scope of the search that is observed by the server.</source>
+          <target state="translated">伺服器會觀察的搜尋範圍。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property is initialized to this value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>屬性會初始化為這個值。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified search root, search filter, properties to retrieve, and search scope.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別使用指定的搜尋根、 搜尋篩選器、 擷取和搜尋範圍的屬性。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The node in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated">搜尋開始位置的 Active Directory 網域服務階層架構中的節點。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchRoot*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The search filter string in Lightweight Directory Access Protocol (LDAP) format.</source>
+          <target state="translated">輕量型目錄存取通訊協定 (LDAP) 格式中的搜尋篩選字串。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.Filter*&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The set of properties to retrieve during the search.</source>
+          <target state="translated">要在搜尋期間所擷取的屬性集。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt; property is initialized to this value.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;屬性會初始化為這個值。&lt;/xref:System.DirectoryServices.DirectorySearcher.PropertiesToLoad*&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The scope of the search that is observed by the server.</source>
+          <target state="translated">伺服器會觀察的搜尋範圍。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property is initialized to this value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>屬性會初始化為這個值。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates if the search is performed asynchronously.</source>
+          <target state="translated">取得或設定值，指出以非同步方式執行搜尋。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An asynchronous search can show results as they are found while simultaneously searching for additional results.</source>
+          <target state="translated">它們也同時搜尋其他結果時發現的非同步搜尋可以顯示結果。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This is useful for tasks such as populating list boxes.</source>
+          <target state="translated">這非常有用的工作，例如填入清單方塊。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">這個屬性的預設設定<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the search is asynchronous; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果該搜尋是非同步的;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>否則。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets or sets the LDAP display name of the distinguished name attribute to search in.</source>
+          <target state="translated">取得或設定要搜尋的辨別的名稱屬性的 LDAP 顯示名稱。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Only one attribute can be used for this type of search.</source>
+          <target state="translated">只有一個屬性可用於此搜尋類型。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The attribute that this property is set to must be a distinguished name attribute, such as member or managedBy.</source>
+          <target state="translated">這個屬性設定為屬性必須是辨別的名稱屬性，例如成員或亦。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The attribute can be either single or multi-valued.</source>
+          <target state="translated">屬性可以是單一或多重值。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For more information, see the adschema topics "<bpt id="p1">[</bpt>Member<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/adschema/adschema/a_member.asp)</ept>" and "<bpt id="p2">[</bpt>Managed-By<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/adschema/adschema/a_managedby.asp)</ept>" in the MSDN Library at <bpt id="p3">[</bpt>http://msdn.microsoft.com/library<ept id="p3">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱 adschema 主題"<bpt id="p1">[</bpt>成員<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/adschema/adschema/a_member.asp)</ept>"和"<bpt id="p2">[</bpt>受管理的<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/adschema/adschema/a_managedby.asp)</ept>"在 MSDN Library 中<bpt id="p3">[</bpt>http://msdn.microsoft.com/library<ept id="p3">](http://msdn.microsoft.com/library)</ept>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The search is performed against the objects that are identified by the distinguished name that is specified in the attribute of the base object.</source>
+          <target state="translated">搜尋會針對基底物件的屬性中指定的辨別名稱所識別的物件執行。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>For example, if the base object is an adschema group class and the AttributeScopeQuery is set to "member," then the search will be performed against all objects that are members of the group.</source>
+          <target state="translated">例如，如果基底物件是 adschema 群組類別 AttributeScopeQuery 設為 「 成員 」，則搜尋會執行群組的成員之所有物件。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For more information, see the adschema "Group" class topic in the MSDN Library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱 adschema 「 群組 」 類別中的主題在 MSDN Library <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>When the AttributeScopeQuery property is used, the &lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt; property must be set to &lt;xref:System.DirectoryServices.SearchScope&gt;.</source>
+          <target state="translated">AttributeScopeQuery 屬性使用時，&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;屬性必須設定為&lt;xref:System.DirectoryServices.SearchScope&gt;.&lt;/xref:System.DirectoryServices.SearchScope&gt; &lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt; property is set to any other value, setting the AttributeScopeQuery property will throw an &lt;xref:System.ArgumentException&gt;.</source>
+          <target state="translated">如果&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;屬性設定為任何其他值，設定 AttributeScopeQuery 屬性將會擲回&lt;xref:System.ArgumentException&gt;.&lt;/xref:System.ArgumentException&gt; &lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For more information, see the "Performing an Attribute Scope Query" topic in the MSDN Library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>).</source>
+          <target state="translated">如需詳細資訊，請參閱 MSDN Library 中的 「 執行屬性範圍查詢 」 主題<bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>)。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The LDAP display name of the attribute to perform the search against, or an empty string of no attribute scope query is set.</source>
+          <target state="translated">LDAP 顯示名稱的屬性來執行搜尋的目標，或設定任何屬性範圍查詢的空白字串。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope*&gt; property is set to a value other than <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.DirectoryServices.DirectorySearcher.SearchScope*&gt;以外屬性設定為值<bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.DirectoryServices.DirectorySearcher.SearchScope*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the result is cached on the client computer.</source>
+          <target state="translated">取得或設定值，指出是否結果會快取在用戶端電腦上。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If the search returns a large result set, the search will be more efficient if this property is set to <ph id="ph1">`false`</ph> to avoid the transfer of the result set to the client computer.</source>
+          <target state="translated">如果搜尋會傳回大型結果集，搜尋將會更有效率，如果這個屬性設定為<ph id="ph1">`false`</ph>若要避免將結果集的用戶端電腦的傳輸。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If you do so, however, you will not be able to enumerate the results twice, because the &lt;xref:System.DirectoryServices.SearchResultCollection&gt; object creates a new enumerator object each time it is called.</source>
+          <target state="translated">如果您這樣做，不過，您將無法列舉結果兩次，因為&lt;xref:System.DirectoryServices.SearchResultCollection&gt;物件就會建立新的列舉值物件，每次呼叫時。&lt;/xref:System.DirectoryServices.SearchResultCollection&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the result is cached on the client computer; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果結果為用戶端電腦上快取，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum amount of time that the client waits for the server to return results.</source>
+          <target state="translated">取得或設定用戶端等待伺服器傳回結果的時間的最大數量。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>If the server does not respond within this time, the search is aborted and no results are returned.</source>
+          <target state="translated">如果伺服器沒有回應此時間內，搜尋就會中止，並會傳回任何結果。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The minimum resolution of this property is one second.</source>
+          <target state="translated">這個屬性的最小解析為一秒。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Fractions of seconds are ignored.</source>
+          <target state="translated">秒數片段都會被忽略。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt; is reached before the client times out, the server returns its results and the client stops waiting.</source>
+          <target state="translated">如果&lt;xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt;之前用戶端逾時，伺服器會傳回其結果，而且用戶端停止等候，便到達。&lt;/xref:System.DirectoryServices.DirectorySearcher.ServerTimeLimit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The maximum server time limit is 120 seconds.</source>
+          <target state="translated">最大伺服器時間限制為 120 秒。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; structure that contains the maximum amount of time for the client to wait for the server to return results.</source>
+          <target state="translated">A&lt;xref:System.TimeSpan&gt;結構，其中包含最大用戶端等待伺服器傳回結果的時間量。&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The default value is -1 second, which means to wait indefinitely.</source>
+          <target state="translated">預設值是-1 秒，表示無限期地等待。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating how the aliases of objects that are found during a search should be resolved.</source>
+          <target state="translated">取得或設定值，指出應如何解決在搜尋期間找到的物件的別名。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DereferenceAlias"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that specifies the behavior in which aliases are dereferenced.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DereferenceAlias"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，指定別名有取值的行為。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is <bpt id="p1">&lt;xref href="System.DirectoryServices.DereferenceAlias"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個屬性的預設設定<bpt id="p1">&lt;xref href="System.DirectoryServices.DereferenceAlias"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets or sets an object that represents the directory synchronization control to use with the search.</source>
+          <target state="translated">取得或設定物件，代表要用於搜尋的目錄同步處理控制項。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The directory synchronization control, commonly referred to as the DirSync control, is an LDAP control that is used to search for objects that have changed since a previous state.</source>
+          <target state="translated">目錄同步處理控制，通常稱為 DirSync 控制，是因為先前的狀態已變更的物件用來搜尋 LDAP 控制項。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>For more information, see the topic "<bpt id="p1">[</bpt>Polling for Changes Using the DirSync Control<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ad/ad/polling_for_changes_using_the_dirsync_control.asp)</ept>" in the MSDN Library at <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱本主題 「<bpt id="p1">[</bpt>輪詢變更使用 DirSync 控制<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ad/ad/polling_for_changes_using_the_dirsync_control.asp)</ept>"在 MSDN Library 中<bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library)</ept>。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySynchronization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the search.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySynchronization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>搜尋的物件。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the directory synchronization control should not be used.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果不應該使用目錄同步處理控制項。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Releases the managed resources that are used by the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and, optionally, releases unmanaged resources.</source>
+          <target state="translated">釋放 managed 的資源，可供<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectorySearcher"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，並選擇性地釋放 unmanaged 資源。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this method releases both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if it releases only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果這個方法會釋放 managed 和 unmanaged 資源;，<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果它僅會釋放 unmanaged 的資源。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates the format of the distinguished names.</source>
+          <target state="translated">取得或設定值，指出辨別名稱的格式。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ExtendedDN"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.DirectoryServices.ExtendedDN"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the Lightweight Directory Access Protocol (LDAP) format filter string.</source>
+          <target state="translated">取得或設定值，指出輕量型目錄存取通訊協定 (LDAP) 格式的篩選條件字串。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The search filter string in LDAP format, such as "(objectClass=user)".</source>
+          <target state="translated">在 LDAP 搜尋篩選字串格式，例如"(objectClass=user)"。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The default is "(objectClass=*)", which retrieves all objects.</source>
+          <target state="translated">預設值是"(objectClass=*)"，這會擷取所有物件。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Executes the search and returns a collection of the entries that are found.</source>
+          <target state="translated">執行搜尋，並傳回所找到的項目集合。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Due to implementation restrictions, the &lt;xref:System.DirectoryServices.SearchResultCollection&gt; class cannot release all of its unmanaged resources when it is garbage collected.</source>
+          <target state="translated">因為實作限制&lt;xref:System.DirectoryServices.SearchResultCollection&gt;類別無法釋放其所有 unmanaged 資源時回收。&lt;/xref:System.DirectoryServices.SearchResultCollection&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>To prevent a memory leak, you must call the &lt;xref:System.DirectoryServices.SearchResultCollection.Dispose%2A&gt; method when the &lt;xref:System.DirectoryServices.SearchResultCollection&gt; object is no longer needed.</source>
+          <target state="translated">若要避免記憶體流失，您必須呼叫&lt;xref:System.DirectoryServices.SearchResultCollection.Dispose%2A&gt;方法時&lt;xref:System.DirectoryServices.SearchResultCollection&gt;物件已不再需要。&lt;/xref:System.DirectoryServices.SearchResultCollection&gt; &lt;/xref:System.DirectoryServices.SearchResultCollection.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchResultCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the results of the search.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchResultCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，包含搜尋結果。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not a container.</source>
+          <target state="translated">指定<bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>不是一個容器。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Searching is not supported by the provider that is being used.</source>
+          <target state="translated">正在使用的提供者不支援搜尋。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Executes the search and returns only the first entry that is found.</source>
+          <target state="translated">執行搜尋，並傳回的第一個項目找到。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If more than one entry is found during the search, only the first entry is returned.</source>
+          <target state="translated">如果在搜尋期間找到多個項目，則會傳回第一個項目。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>If no entries are found to match the search criteria, a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic) is returned.</source>
+          <target state="translated">如果發現任何項目符合搜尋條件，為 null 參考 (<ph id="ph1">`Nothing`</ph>在 Visual Basic 中) 會傳回。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the first entry that is found during the search.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，其中包含在搜尋中找到的第一個項目。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the page size in a paged search.</source>
+          <target state="translated">取得或設定值，指出分頁搜尋中的頁面大小。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>After the server has found the number of objects that are specified by the PageSize property, it will stop searching and return the results to the client.</source>
+          <target state="translated">伺服器找到的 PageSize 屬性所指定的物件數目後，它將會停止搜尋，並將結果傳回至用戶端。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>When the client requests more data, the server will restart the search where it left off.</source>
+          <target state="translated">當用戶端要求更多資料時，伺服器會重新啟動中斷的位置搜尋。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The maximum number of objects the server can return in a paged search.</source>
+          <target state="translated">伺服器可以分頁搜尋中傳回的物件數目上限。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The default is zero, which means do not do a paged search.</source>
+          <target state="translated">預設值為零，表示不會執行分頁的搜尋。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The new value is less than zero.</source>
+          <target state="translated">新的值小於零。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the list of properties to retrieve during the search.</source>
+          <target state="translated">取得值，指出要在搜尋期間所擷取的屬性清單。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>To retrieve specific properties, add them to this collection before you begin the search.</source>
+          <target state="translated">若要擷取特定的屬性，將其加入至這個集合之前開始搜尋。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>For example, <ph id="ph1">`searcher.PropertiesToLoad.Add("phone");`</ph> will add the phone property to the list of properties to retrieve in the search.</source>
+          <target state="translated">例如，<ph id="ph1">`searcher.PropertiesToLoad.Add("phone");`</ph>將電話屬性加入要在搜尋中所擷取的屬性清單。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The property "ADsPath" is always retrieved during the search.</source>
+          <target state="translated">在搜尋期間一律擷取屬性"ADsPath"。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>On <ph id="ph1">[!INCLUDE[Win2kFamily](~/add/includes/win2kfamily-md.md)]</ph> and earlier operating systems, the account that performs the search must be a member of the Administrators group to retrieve the ntSecurityDescriptor property.</source>
+          <target state="translated">在<ph id="ph1">[!INCLUDE[Win2kFamily](~/add/includes/win2kfamily-md.md)]</ph>和舊版作業系統，執行搜尋的帳戶必須是 Administrators 群組，以擷取 ntSecurityDescriptor 屬性的成員。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>If this is not the case, the property value that is returned for ntSecurityDescriptor will be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">如果這不是大小寫，就會傳回 ntSecurityDescriptor 屬性值會<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>For more information, see the topic "NT-Security-Descriptor" in the MSDN Library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱本主題 「 NT-安全性-描述元 」 MSDN Library 中，在<bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the set of properties to retrieve during the search.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，其中包含要在搜尋期間所擷取的屬性集。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The default is an empty <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which retrieves all properties.</source>
+          <target state="translated">預設為空<bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這會擷取所有的屬性。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the search retrieves only the names of attributes to which values have been assigned.</source>
+          <target state="translated">取得或設定值，指出搜尋是否擷取的值已指派給的屬性的名稱。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the search obtains only the names of attributes to which values have been assigned; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the search obtains the names and values for all the requested attributes.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果搜尋會取得已指派值給; 屬性的名稱<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果搜尋取得的名稱和值的所有要求的屬性。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating how referrals are chased.</source>
+          <target state="translated">取得或設定值，指出如何搜尋轉介。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>If the root search is not specified in the naming context of the server or when the search results cross a naming context (for example, when you have child domains and search in the parent domain), the server sends a referral message to the client that the client can either ignore or chase.</source>
+          <target state="translated">如果伺服器的命名內容中沒有指定根搜尋，或當搜尋結果十字形狀 （例如，當您擁有的子網域搜尋父系網域中） 的命名內容，伺服器就會傳送參考訊息給用戶端可以用戶端忽略或搜尋。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The value is not one of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">值不是其中一個<bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the node in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated">取得或設定值，指出 Active Directory 網域服務階層中的節點開始搜尋。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>If SearchRoot is a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic), the search root is set to the root of the domain that your server is currently using.</source>
+          <target state="translated">如果 SearchRoot 為 null 參考 (<ph id="ph1">`Nothing`</ph>在 Visual Basic 中)，搜尋根目錄設定為您的伺服器目前使用之網域的根目錄。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>There are several ways to search in the global catalog:      -   Enumerate the global catalog and pick the first child.</source>
+          <target state="translated">有數種方式可在通用類別目錄搜尋:-列舉通用類別目錄，並挑選第一個子系。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>-   Specify the server name.</source>
+          <target state="translated">-指定伺服器名稱。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Use the DsGetDcName function to find the global catalog.</source>
+          <target state="translated">若要尋找通用類別目錄使用 DsGetDcName 函式。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>For more information on the DsGetDcName function, see the topic "DsGetDcName" in the MSDN Library at <bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">DsGetDcName 函式的詳細資訊，請參閱主題"DsGetDcName 」，在 MSDN Library 中<bpt id="p1">[</bpt>http://msdn.microsoft.com/library<ept id="p1">](http://msdn.microsoft.com/library)</ept>。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>-   Get the RootDSE  of the global catalog and ask for "rootNamingContext".</source>
+          <target state="translated">-取得 RootDSE 通用類別目錄，並詢問 「 rootNamingContext"。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>-   Use the global catalog, specifying a search path as if using LDAP.</source>
+          <target state="translated">-使用指定的搜尋路徑，如同使用 LDAP 的通用類別目錄。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>For example, "GC://OU=..., DC=..., DC=...".</source>
+          <target state="translated">例如，"GC: / / OU =...，DC =...，DC =..."。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>-   The following C# code shows how to enumerate the global catalog and pick the first child.</source>
+          <target state="translated">-下列 C# 程式碼會示範如何列舉通用類別目錄，並挑選第一個子系。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object in the Active Directory Domain Services hierarchy where the search starts.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>搜尋開始位置的 Active Directory 網域服務階層中的物件。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The default is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated">預設值是 null 參考 (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在 Visual Basic 中)。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the scope of the search that is observed by the server.</source>
+          <target state="translated">取得或設定值，指出伺服器所觀察到的搜尋範圍。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref href="System.DirectoryServices.SearchScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The value is not one of the <bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">值不是其中一個<bpt id="p1">&lt;xref href="System.DirectoryServices.ReferralChasingOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating which security access information for the specified attributes should be returned by the search.</source>
+          <target state="translated">取得或設定值，指出應該搜尋傳回的指定屬性的哪一個安全性存取資訊。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.SecurityMasks"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.DirectoryServices.SecurityMasks"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the maximum amount of time the server should search for an individual page of results.</source>
+          <target state="translated">取得或設定值，指出最大伺服器應該搜尋的結果的個別頁面的時間量。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>This is not the same as the time limit for the entire search.</source>
+          <target state="translated">這不是時間限制，對於整個搜尋相同。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The minimum resolution of this property is one second.</source>
+          <target state="translated">這個屬性的最小解析為一秒。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Fractions of seconds are ignored.</source>
+          <target state="translated">秒數片段都會被忽略。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>When the time limit is reached, the server stops searching and returns the results that have accumulated up to that point, along with a cookie containing the information about where to resume searching.</source>
+          <target state="translated">當達到時間限制時，伺服器會停止搜尋，並傳回累積的結果有最多的點，以及包含有關哪裡繼續搜尋資訊的 cookie。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This property only applies to searches where &lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt; is set to a value that is not the default of -1.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 這個屬性只適用於搜尋其中&lt;xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;設為不是預設值為-1 的值。&lt;/xref:System.DirectoryServices.DirectorySearcher.PageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; that represents the amount of time the server should search for a page of results.</source>
+          <target state="translated">A&lt;xref:System.TimeSpan&gt;表示的時間伺服器應該搜尋的結果頁面。&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The default value is -1 seconds, which means to search indefinitely.</source>
+          <target state="translated">預設值為-1 秒，表示無限期地搜尋。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The ServerTimeLimit property gets or sets a value indicating the maximum amount of time the server spends searching.</source>
+          <target state="translated">屬性會取得或設定值，指出最大時間量伺服器 ServerTimeLimit 花搜尋。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>If the time limit is reached, only entries that are found up to that point are returned.</source>
+          <target state="translated">如果達到時間限制時，會傳回只包含項目最多所找到的點。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The minimum resolution of this property is one second.</source>
+          <target state="translated">這個屬性的最小解析為一秒。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Fractions of seconds are ignored.</source>
+          <target state="translated">秒數片段都會被忽略。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Unlike the &lt;xref:System.DirectoryServices.DirectorySearcher.ServerPageTimeLimit%2A&gt; property, the ServerTimeLimit property indicates the total amount of time that the server will spend on a search.</source>
+          <target state="translated">不同於&lt;xref:System.DirectoryServices.DirectorySearcher.ServerPageTimeLimit%2A&gt;屬性，ServerTimeLimit 屬性會指出上搜尋的伺服器將會花費的時間總數量。&lt;/xref:System.DirectoryServices.DirectorySearcher.ServerPageTimeLimit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>When the time limit is reached, the server stops searching and returns the results that have accumulated up to that point.</source>
+          <target state="translated">當達到時間限制時，伺服器會停止搜尋，並傳回具有為止所累積的結果。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Set ServerTimeLimit to -1 second to use the server-determined default.</source>
+          <target state="translated">ServerTimeLimit 設為-1 秒，使用由伺服器決定預設值。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you set ServerTimeLimit to a value that is larger than the server-determined default of 120 seconds, the server-determined default is used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果 ServerTimeLimit 設為大於伺服器決定預設值為 120 秒的值時，會使用由伺服器決定預設值。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>After the server time limit is reached, you cannot continue a search from where it left off.</source>
+          <target state="translated">達到伺服器時間限制之後，您無法繼續搜尋，以從中斷的位置。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.TimeSpan&gt; that represents the amount of time that the server should search.</source>
+          <target state="translated">A&lt;xref:System.TimeSpan&gt;代表的伺服器應該搜尋的時間量。&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The default value is -1 seconds, which means to use the server-determined default of 120 seconds.</source>
+          <target state="translated">預設值為-1 秒，表示要使用由伺服器決定預設值為 120 秒。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the maximum number of objects that the server returns in a search.</source>
+          <target state="translated">取得或設定值，指出伺服器在搜尋中傳回的物件數目上限。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The server stops searching after the size limit is reached and returns the results accumulated up to that point.</source>
+          <target state="translated">搜尋後的大小上限為止，並傳回結果時，伺服器會停止累積到該點為止。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you set SizeLimit to a value that is larger than the server-determined default of 1000 entries, the server-determined default is used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果 SizeLimit 設值超過 1000 個項目由伺服器決定預設值，這個值時，會使用由伺服器決定預設值。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The maximum number of objects that the server returns in a search.</source>
+          <target state="translated">伺服器會在搜尋中傳回的物件數目上限。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The default value is zero, which means to use the server-determined default size limit of 1000 entries.</source>
+          <target state="translated">預設值是零，表示要使用由伺服器決定預設的大小限制的 1000 個項目。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The new value is less than zero.</source>
+          <target state="translated">新的值小於零。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the property on which the results are sorted.</source>
+          <target state="translated">取得或設定值，指出結果會先後排序的屬性。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.SortOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the property and direction that the search results should be sorted on.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.SortOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>物件，指定的屬性和搜尋結果應該以排序的方向。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The property value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> (Nothing in Visual Basic).</source>
+          <target state="translated">屬性值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> （在 Visual Basic)。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the search should also return deleted objects that match the search filter.</source>
+          <target state="translated">取得或設定值，指出搜尋是否應該也傳回符合搜尋篩選器的刪除物件。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if deleted objects should be included in the search; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> otherwise.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果已刪除的物件應該要包含在搜尋中。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>否則。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating the virtual list view options for the search.</source>
+          <target state="translated">取得或設定值，指出虛擬清單檢視選項搜尋。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryVirtualListView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the virtual list view search information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryVirtualListView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含虛擬清單檢視搜尋資訊的物件。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The default value for this property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which means do not use the virtual list view search option.</source>
+          <target state="translated">這個屬性的預設值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這表示不會使用虛擬清單檢視搜尋選項。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
