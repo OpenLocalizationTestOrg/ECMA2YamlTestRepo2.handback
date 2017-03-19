@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f329f17566ee986c0928699b52daaa56ae7d031a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.WebPartPersonalization.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">99ad4dd9ff11e970d5d6a45d81a9e76a791b9e3a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5dbdbbb002fd867a6b42eb932c7dce3a9b65b93c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements low-level personalization operations.</source>
+          <target state="translated">Implementerar lågnivå-anpassning åtgärder.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class implements the logic required to carry out lower-level personalization operations.</source>
+          <target state="translated">Den här klassen implementerar logik som krävs för att utföra åtgärder på lägre nivå anpassning.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; class manages the high-level life cycle of personalization, it is the WebPartPersonalization class that is responsible for actually implementing the physical steps necessary to carry out specific personalization actions.</source>
+          <target state="translated">Även om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;klassen hanterar anpassning övergripande livscykel, är det klassen WebPartPersonalization som ansvarar för att använda fysiska stegen för att utföra åtgärder för viss anpassning.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WebPartPersonalization class in turn relies on an implementation of &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt; to communicate with the underlying data store for personalization information.</source>
+          <target state="translated">Klassen WebPartPersonalization i sin tur en implementering av &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;att kommunicera med underliggande datalagret anpassning information.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you use the default implementation of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;, it creates an instance of the WebPartPersonalization class that you can use by referencing the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.Personalization%2A&gt; property.</source>
+          <target state="translated">Om du använder standardimplementering av den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;, skapas en instans av klassen WebPartPersonalization som du kan använda genom att referera till den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.Personalization%2A&gt;egenskapen.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.Personalization%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, to access the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt; property, you would specify <ph id="ph1">`WebPartManager.Personalization.InitialScope`</ph>.</source>
+          <target state="translated">Till exempel att få åtkomst till den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt;egenskap, anger du <ph id="ph1">`WebPartManager.Personalization.InitialScope`</ph>.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor initializes an instance of this class and associates it with the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control on whose behalf the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; instance will carry out personalization operations.</source>
+          <target state="translated">Den här konstruktorn initierar en instans av den här klassen och associerar den med den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroll som orsakade det &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;instansen kommer att genomföra åtgärder för anpassning.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to manage the personalization information</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> används för att hantera anpassade informationen</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;owner&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;owner&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Applies personalization data to the parent <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Gäller anpassningsdata för överordnat <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt; property is set to <ph id="ph1">`true`</ph>, this method calls the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ApplyWebPartPersonalization%2A&gt; method on the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt; instance to apply personalization state to the supplied Web Parts control.</source>
+          <target state="translated">Om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;egenskap är inställd på <ph id="ph1">`true`</ph>, anropar den här metoden den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ApplyWebPartPersonalization%2A&gt;metoden på den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt;-instans som ska gälla angivna webbdelar kontrollen anpassningstillståndet.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ApplyWebPartPersonalization%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Applies personalization data to the specified <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control when requested to do so by the parent <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Gäller anpassningsdata för den angivna <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPart"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> styra när en begäran om att göra det med överordnat <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called to apply personalization data to an individual &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;-derived class when requested to do so by the parent &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control.</source>
+          <target state="translated">Den här metoden anropas för att tillämpa anpassningsdata på en enskild &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;-härledd klass när en begäran om att göra det med överordnat &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt; property is set to <ph id="ph1">`true`</ph>, this method calls the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ApplyWebPartPersonalization%2A&gt; method on the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt; instance to apply personalization state to the supplied Web Parts control.</source>
+          <target state="translated">Om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;egenskap är inställd på <ph id="ph1">`true`</ph>, anropar den här metoden den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ApplyWebPartPersonalization%2A&gt;metoden på den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt;-instans som ska gälla angivna webbdelar kontrollen anpassningstillståndet.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ApplyWebPartPersonalization%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Web Parts control to which personalization data is to be applied.</source>
+          <target state="translated">Webbdelarna styra till vilka anpassningar är data som ska användas.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>An attempt was made to apply personalization state to a Web Parts control that is not managed by the parent <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ett försök gjordes att tillämpa en webbdelar-kontroll som inte hanteras av överordnat anpassningstillståndet <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;webPart&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the user is authorized to enter <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope.</source>
+          <target state="translated">Returnerar ett värde som anger om användaren har behörighet att ange <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> omfång.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property returns <ph id="ph1">`true`</ph> if the user is authorized in the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt; to enter &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope.</source>
+          <target state="translated">Den här egenskapen returnerar <ph id="ph1">`true`</ph> om användaren har behörighet i den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt;Ange &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;omfång.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first time the property is called, it determines the user's right to enter &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope and caches the information.</source>
+          <target state="translated">Första gången egenskapen kallas kan den avgör användarens rätt att ange &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;omfång och cachelagrar informationen.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.UserCapabilities%2A&gt; dictionary is modified after the first time this property is called, changes are not shown on subsequent calls to this property.</source>
+          <target state="translated">Om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.UserCapabilities%2A&gt;ordlista har ändrats efter första gången den här egenskapen kallas, ändringar visas inte på efterföljande anrop till den här egenskapen.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.UserCapabilities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user is authorized to enter <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> scope; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om användaren har behörighet att ange <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> omfång; annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Changes the current page's <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance to the scope specified.</source>
+          <target state="translated">Ändrar den aktuella sidan <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans till det angivna omfånget.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method changes the currently executing page's personalization scope to the new scope specified by the <ph id="ph1">`newScope`</ph> parameter.</source>
+          <target state="translated">Den här metoden ändras anpassningsläge för sidan körs till det nya omfånget som anges av den <ph id="ph1">`newScope`</ph> parameter.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is the protected helper method that is called by the public &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ToggleScope%2A&gt; method.</source>
+          <target state="translated">Den här metoden är skyddade helper-metod som anropas av allmänheten &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ToggleScope%2A&gt;metod.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ToggleScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This protected method exists to handle future extensibility if there are more than two possible scopes to switch between.</source>
+          <target state="translated">Den här skyddade metoden finns för att hantera framtida utökningsbarhet om det finns fler än två möjliga scope för att växla mellan.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the current scope and <ph id="ph1">`newScope`</ph> are the same value, then this method performs no operation.</source>
+          <target state="translated">Om den aktuella omfattningen och <ph id="ph1">`newScope`</ph> är samma värde, sedan den här metoden utförs ingen åtgärd.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The new personalization scope for the current page.</source>
+          <target state="translated">Nya anpassningsläge för sidan.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If attempting to switch from <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> scope to <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> scope, the current user does not have the user capability to enter <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> scope.</source>
+          <target state="translated">Om du försöker växla från <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> omfång till <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> omfång, den aktuella användaren har inte användaren möjlighet att ange <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> omfång.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;scope&lt;/code&gt;</ph> is not a valid member of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;scope&lt;/code&gt;</ph>är inte en giltig medlem av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> uppräkning.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Extracts the personalization state from one Web Parts control and applies it to a second Web Parts control.</source>
+          <target state="translated">Extraherar anpassningens tillstånd från en webbdelar kontroll och gäller för en kontroll för andra webbdelar.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method extracts the personalization state from <ph id="ph1">`webPartA`</ph> and applies it to <ph id="ph2">`webPartB`</ph>.</source>
+          <target state="translated">Den här metoden extraherar anpassningstillståndet från <ph id="ph1">`webPartA`</ph> och tillämpar den till <ph id="ph2">`webPartB`</ph>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method assumes that <ph id="ph1">`webPartA`</ph> and <ph id="ph2">`webPartB`</ph> are the same type.</source>
+          <target state="translated">Den här metoden förutsätter att <ph id="ph1">`webPartA`</ph> och <ph id="ph2">`webPartB`</ph> är av samma typ.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the Web Parts controls are &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt; controls, the method copies the personalization state from the child control wrapped in <ph id="ph1">`webPartA`</ph> to the child control wrapped in <ph id="ph2">`webPartB`</ph>.</source>
+          <target state="translated">Om webbdelar kontroller &lt;xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;kontroller, metoden kopierar anpassningens tillstånd från den underordnade kontrollen kapslas in i <ph id="ph1">`webPartA`</ph> till den underordnade kontrollen kapslas in i <ph id="ph2">`webPartB`</ph>.&lt;/xref:System.Web.UI.WebControls.WebParts.GenericWebPart&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As part of the copy operation, <ph id="ph1">`webPartB`</ph> is marked as "dirty".</source>
+          <target state="translated">Som en del av kopieringen, <ph id="ph1">`webPartB`</ph> innehåller "fel".</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The Web Parts control supplying the personalization data.</source>
+          <target state="translated">Webbdelar kontrollen tillhandahåller anpassningsdata.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The Web Parts control receiving the personalization data.</source>
+          <target state="translated">Ta emot anpassningsdata webbdelar kontrollen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Either <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">webPartA</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">webPartB</ph><ept id="p2">&lt;/code&gt;</ept> is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Either <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">webPartA</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">webPartB</ph><ept id="p2">&lt;/code&gt;</ept> is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether personalization is requested to be enabled for the associated <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Returnerar ett värde som anger om anpassningar har begärts ska aktiveras för den associerade <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property indicates whether personalization is requested to be enabled for the parent &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control.</source>
+          <target state="translated">Den här egenskapen anger om anpassningar har begärts ska aktiveras för överordnat &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this is a subtle but important distinction from the intent of &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt; and &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsInitialized%2A&gt;.</source>
+          <target state="translated">Observera att detta är ett diskret men viktig skillnad från syftet med &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;och &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsInitialized%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsInitialized%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property can only be set prior to the completion of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control's &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; method.</source>
+          <target state="translated">Den här egenskapen kan bara anges innan den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollens &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt;metod.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, this means that the Enabled property must be set in the page markup on the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; element if personalization should be disabled.</source>
+          <target state="translated">I praktiken innebär detta att egenskapen Enabled måste anges i sidkoden på den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;element om anpassningar ska vara inaktiverade.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, this property can be set during the <ph id="ph1">`PreInit`</ph> phase of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control.</source>
+          <target state="translated">Du kan också den här egenskapen kan anges under den <ph id="ph1">`PreInit`</ph> fas i den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if personalization is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>om anpassningar är aktiverade; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set this property value after the associated <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit*&gt; method had completed.</source>
+          <target state="translated">Ett försök gjordes att ange egenskapsvärdet efter den associerade <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontrollens &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit*&gt;metoden har slutförts.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit*&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Ensures that the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance has completed initialization or that the current user has rights to modify personalization state.</source>
+          <target state="translated">Garanterar att den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans har slutfört initiering eller att den aktuella användaren har behörighet att ändra anpassningens tillstånd.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A Boolean value indicating which type of check should be made.</source>
+          <target state="translated">Ett booleskt värde som anger vilken typ av kontroll ska göras.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance of a user's authorization to enter <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> scope.</source>
+          <target state="translated">Representerar den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans av en användare behörighet att ange <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> omfång.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user right is represented by the string "enterSharedScope" in the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt; instance.</source>
+          <target state="translated">Användarrättigheten representeras av strängen "enterSharedScope" i den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt;instans.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Extracts personalization data from the parent <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Extraherar anpassningsdata från överordnat <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt; property is set to <ph id="ph1">`true`</ph>, and personalization state is not being reset during the page request (such as when the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ShouldResetPersonalizationState%2A&gt; property is <ph id="ph2">`false`</ph>), then this method extracts personalization data from the parent &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control during its &lt;xref:System.Web.UI.Page.SaveStateComplete&gt; event.</source>
+          <target state="translated">Om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;egenskapen <ph id="ph1">`true`</ph>, och anpassningstillståndet återställs inte under begäran (t.ex när den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ShouldResetPersonalizationState%2A&gt;egenskapen är <ph id="ph2">`false`</ph>), och sedan anpassningsdata extraheras från överordnat &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;styra under dess &lt;xref:System.Web.UI.Page.SaveStateComplete&gt;händelse.&lt;/xref:System.Web.UI.Page.SaveStateComplete&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ShouldResetPersonalizationState%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method calls the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ExtractWebPartManagerPersonalization%2A&gt; method on the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt; instance to extract personalization state from the parent &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control.</source>
+          <target state="translated">Den här metoden anropar den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ExtractWebPartManagerPersonalization%2A&gt;metoden på den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt;instans att extrahera anpassningstillståndet från överordnat &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ExtractWebPartManagerPersonalization%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Extracts personalization data from a Web Parts control when requested to do so by the parent <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Extraherar anpassningsdata från webbdelar kontrollen när en begäran om att göra det med överordnat <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt; property is set to <ph id="ph1">`true`</ph>, and personalization state is not being reset during the page request (such as when the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ShouldResetPersonalizationState%2A&gt; property is <ph id="ph2">`false`</ph>), then this method extracts personalization data from the Web Parts control specified by <ph id="ph3">`webPart`</ph>.</source>
+          <target state="translated">Om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;egenskapen <ph id="ph1">`true`</ph>, och anpassningstillståndet återställs inte under begäran (t.ex när den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ShouldResetPersonalizationState%2A&gt;egenskapen är <ph id="ph2">`false`</ph>), och sedan anpassningsdata extraheras från kontrollen webbdelar som anges av <ph id="ph3">`webPart`</ph>.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ShouldResetPersonalizationState%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method calls the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ExtractWebPartPersonalization%2A&gt; method on the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt; instance to extract personalization state from the supplied Web Parts control.</source>
+          <target state="translated">Den här metoden anropar den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ExtractWebPartPersonalization%2A&gt;metoden på den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt;instans att extrahera anpassningstillståndet från den angivna kontrollen webbdelar.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState.ExtractWebPartPersonalization%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The Web Parts control containing personalization data to be extracted.</source>
+          <target state="translated">Webbdelarna styra som innehåller anpassningsdata ska extraheras.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An attempt was made to extract personalization state from a Web Parts control that is not managed by the parent <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ett försök gjordes att extrahera anpassningens tillstånd från en webbdelar-kontroll som inte hanteras av överordnat <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Retrieves the authorization filter, if any, associated with the specified Web Parts control.</source>
+          <target state="translated">Hämtar auktorisering filtret, om någon, som är associerade med den angivna kontrollen webbdelar.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method retrieves the authorization filter, if any, associated with the Web Parts control identified by <ph id="ph1">`webPartID`</ph>.</source>
+          <target state="translated">Den här metoden hämtar filtret tillstånd om associerade med webbdelar kontrollen som identifieras av <ph id="ph1">`webPartID`</ph>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each Web Parts control that is serialized and managed by personalization is associated with a <ph id="ph1">`webPartID`</ph> parameter.</source>
+          <target state="translated">Varje webbdelar kontroller serialiseras och hanteras av anpassning som är associerad med en <ph id="ph1">`webPartID`</ph> parameter.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At run time, a page's &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control can filter the controls displayed on a page by determining whether each Web Parts control is authorized.</source>
+          <target state="translated">Vid körning, en sidas &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollen kan filtrera de kontroller som visas på en sida genom att fastställa om varje webbdelar kontroll är auktoriserad.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This authorization information is stored as a string in the data associated with each Web Parts control.</source>
+          <target state="translated">Denna information lagras som en sträng i data som är associerade med varje webbdelar kontroll.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The ID of the Web Parts control associated with the filter to be retrieved.</source>
+          <target state="translated">ID för webbdelar kontrollen som är associerad med filtret som ska hämtas.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The authorization filter for the specified Web Parts control.</source>
+          <target state="translated">Auktoriseringsfilter för den angivna kontrollen webbdelar.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;webPartID&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string ("").</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;webPartID&lt;/code&gt;</ph>är <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eller en tom sträng ("").</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether the current page and personalization scope have associated personalization data.</source>
+          <target state="translated">Returnerar ett värde som anger om den aktuella sidan och anpassningsläge har associerat anpassningsdata.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is a convenient method for determining whether the current page and scope combination has personalization data associated with it.</source>
+          <target state="translated">Det här är en smidig metod för att fastställa om den aktuella sidan och scope har anpassningsdata som är associerade med den.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, the method calls &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.GetCountOfState%2A&gt; on the provider to determine whether data exists.</source>
+          <target state="translated">Internt metodanrop &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.GetCountOfState%2A&gt;för att avgöra om det finns data-providern.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.GetCountOfState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the page has personalization data associated with it; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om sidan har anpassningsdata som är associerade med den. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets or sets the default personalization scope.</source>
+          <target state="translated">Hämtar eller anger anpassningsläge standard.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property represents the default personalization scope that should be used for the parent &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control in the absence of previous knowledge about the proper scope.</source>
+          <target state="translated">Denna egenskap representerar standard-anpassningsläge som ska användas för överordnat &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroll i frånvaron av tidigare kunskaper om korrekt scope.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is not explicitly set, it defaults to returning &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt; scope.</source>
+          <target state="translated">Om den här egenskapen inte har angetts explicit standard returnerar &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;omfång.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationScope&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property can only be set prior to the completion of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control's &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; method.</source>
+          <target state="translated">Den här egenskapen kan bara anges innan den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollens &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt;metod.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In practice, this means InitialScope must be set in the page markup on the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; element.</source>
+          <target state="translated">I praktiken innebär detta InitialScope måste anges i sidkoden på den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;element.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, this property can be set during the <ph id="ph1">`PreInit`</ph> phase of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control.</source>
+          <target state="translated">Du kan också den här egenskapen kan anges under den <ph id="ph1">`PreInit`</ph> fas i den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> indicating the default personalization scope of the associated <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som anger standard anpassningsläge för den associerade <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set this property to a value other than its current value after the associated <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit*&gt; method had completed.</source>
+          <target state="translated">Ett försök gjordes att ange egenskapen till ett annat värde än det aktuella värdet efter den associerade <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontrollens &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit*&gt;metoden har slutförts.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit*&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set a value of InitialScope that is not a member of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">Ett försök gjordes att ange ett värde för InitialScope som inte är medlem i den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> uppräkning.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether personalization is enabled and has successfully loaded personalization data for this instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Hämtar ett värde som anger om personifiering är aktiverad och har läst in anpassningsdata för den här instansen av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Prior to loading personalization data, this property will always return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Innan du läser in anpassningsdata, returneras alltid den här egenskapen <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, this property will return <ph id="ph1">`false`</ph> during the <ph id="ph2">`PreInit`</ph> phase.</source>
+          <target state="translated">Till exempel den här egenskapen returnerar <ph id="ph1">`false`</ph> under den <ph id="ph2">`PreInit`</ph> fasen.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the associated &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;'s &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; method has successfully completed (during which the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt; method is called), this property will then return <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">När den associerade &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;'s &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt;metoden har slutförts (under vilken den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt;metoden anropas), den här egenskapen returnerar sedan <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is a publicly accessible alias for the protected &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsInitialized%2A&gt; property.</source>
+          <target state="translated">Den här egenskapen är en offentligt tillgänglig alias för den skyddade &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsInitialized%2A&gt;egenskap.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsInitialized%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if personalization is enabled for the current <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance and personalization data has successfully loaded; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>om anpassningar är aktiverade för aktuellt <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> instans och anpassning data har lästs in, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether personalization is enabled and has successfully loaded personalization data for this instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Hämtar ett värde som anger om personifiering är aktiverad och har läst in anpassningsdata för den här instansen av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the personalization feature is enabled (if the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Enabled%2A&gt; property is set to <ph id="ph1">`true`</ph>), the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; instance is considered initialized immediately after the associated &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;'s &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; method has successfully completed (during which the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt; method is called).</source>
+          <target state="translated">Om anpassning-funktionen är aktiverad (om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Enabled%2A&gt;egenskap är inställd på <ph id="ph1">`true`</ph>), &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;instans betraktas som initierats omedelbart efter den associerade &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;'s &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt;metoden har slutförts (under vilken den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt;metoden anropas).&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Enabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Prior to loading personalization data, this property always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Innan du läser in anpassningsdata, den här egenskapen returnerar alltid <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if personalization is initialized for this instance; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>om anpassning har initierats för den här instansen; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the current user is authorized to modify state information.</source>
+          <target state="translated">Hämtar ett värde som anger om den aktuella användaren har behörighet att ändra statusinformation.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first time this property is called, it caches the result of determining the user’s right to modify personalization state.</source>
+          <target state="translated">Första gången den här egenskapen kallas cachelagrar resultat för att avgöra användarens behörighet att ändra anpassningens tillstånd.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.UserCapabilities%2A&gt; dictionary is modified after the first time this property is called, changes are not reflected in subsequent calls to this property.</source>
+          <target state="translated">Om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.UserCapabilities%2A&gt;ordlista har ändrats efter första gången den här egenskapen kallas ändringarna inte visas i efterföljande anrop till den här egenskapen.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.UserCapabilities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user is authorized to modify state information; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om användaren har behörighet att ändra statusinformation; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Initializes personalization.</source>
+          <target state="translated">Initierar anpassning.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the main entry point for initializing personalization information on behalf of the parent &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control.</source>
+          <target state="translated">Det här är den viktigaste startpunkten för att initiera anpassningsinformation för överordnat &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called during the parent &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control's &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas under överordnat &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollens &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt;metod.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, if personalization has been disabled on the parent &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control, this method will never be called.</source>
+          <target state="translated">Normalt om anpassning har inaktiverats på överordnat &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;styra den här metoden aldrig kommer att anropas.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During the course of this method, the following initializations occur:      -   A reference to either the default personalization provider, or the custom provider indicated in the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; page markup or the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ProviderName%2A&gt; property, is obtained.</source>
+          <target state="translated">Under den här metoden kan inträffa av följande initieringar: - A referera antingen standard anpassningsprovider eller den anpassade providern som anges i den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;sidkoden eller &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ProviderName%2A&gt;egenskapen hämtas.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ProviderName%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The provider is called to determine the user capabilities (&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.DetermineUserCapabilities%2A&gt;) for the currently executing user.</source>
+          <target state="translated">-Providern anropas för att avgöra kapaciteten användare (&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.DetermineUserCapabilities%2A&gt;) för användaren som körs för närvarande.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.DetermineUserCapabilities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The personalization state for the current page/user/scope combination is loaded from the underlying data store by the provider (&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.LoadPersonalizationState%2A&gt;) and stored within the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; instance.</source>
+          <target state="translated">-Anpassningstillståndet för den aktuella sida/användare/omfattning kombinationen har lästs in från underliggande datalagret av providern (&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.LoadPersonalizationState%2A&gt;) och lagras i den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;instans.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.LoadPersonalizationState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The personalization scope for the current page/user/scope is determined by the provider (&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.DetermineInitialScope%2A&gt;).</source>
+          <target state="translated">-Anpassningsläge för aktuellt sidan/användare/omfattning bestäms av providern (&lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.DetermineInitialScope%2A&gt;).&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.DetermineInitialScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the result of this determination might be different than the value of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt; property.</source>
+          <target state="translated">Observera att resultatet av detta kan vara annorlunda än värdet för den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt;egenskapen.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The scope value returned from this method is used as the value for the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Scope%2A&gt; property.</source>
+          <target state="translated">Scope-värde som returneras från den här metoden används som värdet för den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Scope%2A&gt;egenskapen.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Scope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  An &lt;xref:System.InvalidOperationException&gt; exception due to personalization not being enabled will occur only if the Load method is called directly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; En &lt;xref:System.InvalidOperationException&gt;på grund av anpassning som inte är aktiverade undantagsfel endast om metoden Load anropas direkt.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the ASP.NET implementation, an internal helper method is actually called to perform the load, and this helper method silently returns if personalization has not been enabled for the page.</source>
+          <target state="translated">Ett internt helper-metoden anropas faktiskt för att utföra belastningen i ASP.NET-implementeringen och den här helper-metoden returnerar tyst om anpassning inte har aktiverats för sidan.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance for the parent <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> -instans för överordnat <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The underlying personalization providers failed to initialize because a default provider could not be found or because a failure occurred while attempting to initialize a personalization provider.</source>
+          <target state="translated">De underliggande anpassning providers kunde inte initieras eftersom det inte gick att hitta en standardprovider eller på grund av ett fel uppstod vid försök att initiera en anpassningsprovider.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance of a user's authorization to modify personalization state.</source>
+          <target state="translated">Representerar den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans av en användare behörighet att ändra anpassningens tillstånd.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The user right is represented by the string "modifyState" in the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt; instance.</source>
+          <target state="translated">Användarrättigheten representeras av strängen "modifyState" i den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt;instans.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets or sets the provider name for personalization.</source>
+          <target state="translated">Hämtar eller anger providernamn för anpassning.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property returns the value set for this property in the page declaration.</source>
+          <target state="translated">Den här egenskapen returnerar värdet för den här egenskapen i sidan-deklarationen.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property was not set, it returns &lt;xref:System.String.Empty&gt;.</source>
+          <target state="translated">Om den här egenskapen inte har angetts, returneras &lt;xref:System.String.Empty&gt;.&lt;/xref:System.String.Empty&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the page uses the default personalization provider specified in the configuration file.</source>
+          <target state="translated">I detta fall använder sidan standard Anpassningsprovider som angetts i konfigurationsfilen.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property can only be set prior to the completion of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control's &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; method.</source>
+          <target state="translated">Den här egenskapen kan bara anges innan den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollens &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt;metod.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means the ProviderName property must be set in the page declaration on the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; element.</source>
+          <target state="translated">Det innebär att egenskapen ProviderName måste anges i deklarationen sida på den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;element.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternatively, this property can be set during the <ph id="ph1">`PreInit`</ph> phase.</source>
+          <target state="translated">Du kan också den här egenskapen kan anges under den <ph id="ph1">`PreInit`</ph> fasen.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The name of the personalization provider.</source>
+          <target state="translated">Namnet på anpassningsprovidern.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set this property to a value other than its current value after the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit*&gt; method has completed.</source>
+          <target state="translated">Ett försök gjordes att ange egenskapen till ett annat värde än det aktuella värdet efter den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontrollens &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit*&gt;-metoden har slutförts.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager.OnInit*&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Resets personalization data for the current page, scope, and user in the underlying data store.</source>
+          <target state="translated">Återställer anpassningsdata för sidan, omfång och användare i den underliggande datalagringen.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method resets personalization data for the current page, scope, and user in the underlying data store.</source>
+          <target state="translated">Den här metoden återställer anpassningsdata för sidan, omfång och användare i den underliggande datalagringen.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a side effect of the reset, the currently executing page is re-executed by a &lt;xref:System.Web.HttpServerUtility.Transfer%2A&gt; call.</source>
+          <target state="translated">Sidan körs för närvarande körs som en sidoeffekt av återställningen igen av en &lt;xref:System.Web.HttpServerUtility.Transfer%2A&gt;anropa.&lt;/xref:System.Web.HttpServerUtility.Transfer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this transfer re-executes the current page as a <ph id="ph1">`GET`</ph> request regardless of how the page was originally requested.</source>
+          <target state="translated">Observera att den här överföringen igen körs den aktuella sidan som en <ph id="ph1">`GET`</ph> begäran oavsett hur sidan ursprungligen begärde.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be called at any time.</source>
+          <target state="translated">Den här metoden kan anropas när som helst.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, this method calls the ResetPersonalizationState method on the provider.</source>
+          <target state="translated">Den här metoden anropas internt metoden ResetPersonalizationState på providern.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After data is successfully reset, the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ShouldResetPersonalizationState%2A&gt; property is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">När data har återställts i &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ShouldResetPersonalizationState%2A&gt;egenskap är inställd på <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ShouldResetPersonalizationState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is used elsewhere by the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; instance to bypass extracting personalization data from control properties and saving it if data has already been reset.</source>
+          <target state="translated">Den här egenskapen används någon annanstans av den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;instans för att kringgå extrahera anpassningsdata från kontrollegenskaper och spara det om data har redan återställts.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance cannot reference a valid personalization provider.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instansen kan inte referera till en giltig anpassningsprovider.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Saves personalization data for the current page, scope, and user to the underlying data store.</source>
+          <target state="translated">Sparar anpassningsdata för sidan, omfång och användare till den underliggande databasen.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called during the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control's &lt;xref:System.Web.UI.Page.SaveStateComplete&gt; event.</source>
+          <target state="translated">Den här metoden anropas under den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollens &lt;xref:System.Web.UI.Page.SaveStateComplete&gt;händelse.&lt;/xref:System.Web.UI.Page.SaveStateComplete&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, the method calls the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.SavePersonalizationState%2A&gt; method on the provider.</source>
+          <target state="translated">Internt metodanrop den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.SavePersonalizationState%2A&gt;metoden på providern.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationProvider.SavePersonalizationState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to save personalization data when the currently executing user does not have the capability called &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ModifyStateUserCapability&gt; (within the current &lt;xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt; instance) results in an &lt;xref:System.InvalidOperationException&gt; exception.</source>
+          <target state="translated">Försök att spara informationen när den körs användaren inte har den funktion som kallas &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ModifyStateUserCapability&gt;(inom aktuellt &lt;xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt;instans) resulterar i en &lt;xref:System.InvalidOperationException&gt;undantag.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartUserCapability&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ModifyStateUserCapability&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this would only be true if the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control called the protected Save method directly.</source>
+          <target state="translated">Observera att detta endast skulle vara fallet om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollen skyddade spara metoden direkt.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the ASP.NET implementation, an internal helper method is actually called to perform the save, and this helper method silently returns if the currently executing user does not have rights to modify data.</source>
+          <target state="translated">Ett internt helper-metoden anropas faktiskt för att utföra spara i ASP.NET-implementeringen och den här helper-metoden returnerar tyst om körs användaren inte har behörighet att ändra data.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets the current personalization scope for the parent <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Hämtar den aktuella anpassningsläge för överordnat <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is initially set based on the value returned from the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt; method.</source>
+          <target state="translated">Det här värdet anges inledningsvis baserat på det värde som returneras från den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt;metoden.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.Load%2A&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value can be modified by calling the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ToggleScope%2A&gt; method.</source>
+          <target state="translated">Det här värdet kan ändras genom att anropa den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ToggleScope%2A&gt;metoden.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ToggleScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that this represents the scope used for applying and extracting personalization information.</source>
+          <target state="translated">Observera att representerar omfång som används för att tillämpa och extrahera anpassningsinformation om.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property might differ from the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt; property or the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ChangeScope%2A&gt; method.</source>
+          <target state="translated">Värdet för den här egenskapen kan skilja sig från den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt;egenskapen eller &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ChangeScope%2A&gt;metod.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ChangeScope%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.InitialScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance indicating the scope of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans som anger omfånget för den <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Marks the parent <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control as having personalization data that has changed (is "dirty").</source>
+          <target state="translated">Markerar överordnat <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontroll med anpassningsdata som har ändrats (är "ändrade").</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt; property is set to <ph id="ph1">`true`</ph>, this method marks the parent &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control as "dirty".</source>
+          <target state="translated">Om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;egenskapen <ph id="ph1">`true`</ph>, den här metoden markerar överordnat &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;Kontrollera som "ändrade".&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation details of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control's instance of &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;, this method might invoke security checks and code access security permission checks.</source>
+          <target state="translated">Beroende på implementeringsinformation om de &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollens instans av &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;, den här metoden kan anropa säkerhetskontroller och code åtkomstbehörighet för säkerhet.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Internally, this method calls the &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState.SetWebPartManagerDirty%2A&gt; method.</source>
+          <target state="translated">Internt, den här metoden anropar den &lt;xref:System.Web.UI.WebControls.WebParts.PersonalizationState.SetWebPartManagerDirty%2A&gt;metoden.&lt;/xref:System.Web.UI.WebControls.WebParts.PersonalizationState.SetWebPartManagerDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control tracks "dirty" state internally and exposes the "dirtiness" of the manager through the &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.IsDirty%2A&gt; property rather than through this method.</source>
+          <target state="translated">Observera att den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontroll spårar "ändrade" tillstånd internt och visar "dirtiness" manager med den &lt;xref:System.Web.UI.WebControls.WebParts.IPersonalizable.IsDirty%2A&gt;egenskapen i stället för via den här metoden.&lt;/xref:System.Web.UI.WebControls.WebParts.IPersonalizable.IsDirty%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>No personalization data has been loaded.</source>
+          <target state="translated">Inga anpassningsdata har lästs in.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Marks the specified Web Parts control as having personalization data that has changed (is "dirty").</source>
+          <target state="translated">Markerar den angivna kontrollen webbdelar med anpassningsdata som har ändrats (är "ändrade").</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt; property is set to <ph id="ph1">`true`</ph>, this method marks the specified Web Parts control as "dirty".</source>
+          <target state="translated">Om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;egenskap är inställd på <ph id="ph1">`true`</ph>, den här metoden markerar den angivna kontrollen webbdelar som "skadade".&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.IsEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation details of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control's instance of &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;, this method may invoke security checks and code access security permission checks.</source>
+          <target state="translated">Beroende på implementeringsinformation om de &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollens instans av &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;, den här metoden kan anropa säkerhetskontroller och code åtkomstbehörighet för säkerhet.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The Web Parts control to be marked "dirty".</source>
+          <target state="translated">Webbdelar kontrollen markeras "ändrade".</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Attempted to mark as "dirty" a Web Parts control that is not managed by the parent <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Det gjordes ett försök att ange som "felaktig" en webbdelar-kontroll som inte hanteras av överordnat <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>No personalization data has been loaded.</source>
+          <target state="translated">Inga anpassningsdata har lästs in.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the personalization data of the current page has been reset (for example, a request was made to delete the personalization data from the underlying data store).</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om anpassningsdata för den aktuella sidan har återställts (till exempel en begäran gjordes att ta bort anpassningsdata från underliggande datalagret).</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property is set to <ph id="ph1">`true`</ph>, it indicates that the personalization state for the current page has been reset and that extraction of personalization data from controls and subsequent save operations should be skipped.</source>
+          <target state="translated">Om den här egenskapen anges till <ph id="ph1">`true`</ph>, anger det att anpassningstillståndet för den aktuella sidan har återställts och att spara extrahering av anpassningsdata från kontroller och efterföljande åtgärder ska hoppas över.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently, this property is automatically set to <ph id="ph1">`true`</ph> by the personalization infrastructure if the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ResetPersonalizationState%2A&gt; method is called.</source>
+          <target state="translated">För närvarande kan den här egenskapen anges automatiskt <ph id="ph1">`true`</ph> av infrastruktur för anpassning om den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ResetPersonalizationState%2A&gt;metoden anropas.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization.ResetPersonalizationState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that although there are no restrictions on when this property can be set, the property must be set to <ph id="ph1">`true`</ph> prior to the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control's &lt;xref:System.Web.UI.Page.SaveStateComplete&gt; event to have any effect.</source>
+          <target state="translated">Observera att även om det finns inga begränsningar för när den här egenskapen kan anges, egenskapen måste anges till <ph id="ph1">`true`</ph> före den &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollens &lt;xref:System.Web.UI.Page.SaveStateComplete&gt;händelse ska ha någon effekt.&lt;/xref:System.Web.UI.Page.SaveStateComplete&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the personalization state for the current page has been reset; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om anpassningstillståndet för den aktuella sidan har återställts; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Switches the current page's personalization scope from <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or from <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> to <bpt id="p4">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Växlar den aktuella sidan anpassningsläge från <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> till <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> eller från <bpt id="p3">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> till <bpt id="p4">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method toggles the currently executing page's personalization scope.</source>
+          <target state="translated">Den här metoden växlar anpassningsläge för sidan körs.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Toggling the scope results in a &lt;xref:System.Web.HttpServerUtility.Transfer%2A&gt; back to the current executing page.</source>
+          <target state="translated">Växla omfånget resulterar i en &lt;xref:System.Web.HttpServerUtility.Transfer%2A&gt;tillbaka till sidan körs.&lt;/xref:System.Web.HttpServerUtility.Transfer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method performs no operation if it is called while an export or import of a Web Parts control is occurring.</source>
+          <target state="translated">Den här metoden utförs ingen åtgärd om den anropas vid en export eller import av en webbdelar kontroll pågår.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a toggle scope request occurs for a page that was submitted via a <ph id="ph1">`POST`</ph> request, then any query string values will be preserved during the transfer; query string parameters are not preserved if the page was submitted via a <ph id="ph2">`GET`</ph> request.</source>
+          <target state="translated">Om det uppstår en växla scope-begäran för en sida som skickades via en <ph id="ph1">`POST`</ph> begäran och sedan någon fråga strängvärden bevaras under överföringen; sträng frågeparametrar bevaras inte om sidan har skickats en <ph id="ph2">`GET`</ph> begäran.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>An attempt was made to toggle to a scope that is not defined in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">Ett försök gjordes att växla till en omfattning som inte har definierats i den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.PersonalizationScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> uppräkning.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Technically, this situation should never occur.</source>
+          <target state="translated">Tekniskt sett bör detta aldrig inträffa.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets the set of user capabilities from <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> granted to the current user.</source>
+          <target state="translated">Hämtar uppsättning användare funktioner från <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartUserCapability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> beviljas åtkomst till den aktuella användaren.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; containing the set of user capabilities granted to the current user, or an empty <bpt id="p1">&lt;xref href="System.Collections.Specialized.HybridDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user is anonymous.</source>
+          <target state="translated">En &lt;xref:System.Collections.IDictionary&gt;som innehåller uppsättningen funktioner för användaren beviljas åtkomst till den aktuella användaren eller en tom <bpt id="p1">&lt;xref href="System.Collections.Specialized.HybridDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om användaren är anonym.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets an instance of the current parent <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control associated with this <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Hämtar en instans av den aktuella överordnat <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kontrollen som är associerade med den här <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartPersonalization"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> instans.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to determine the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; control associated with this instance of the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; class.</source>
+          <target state="translated">Använd den här egenskapen fastställa &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;kontrollen som är associerade med den här instansen av &lt;xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt;klassen.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartPersonalization&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The current parent <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Den aktuella överordnat <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.WebPartManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

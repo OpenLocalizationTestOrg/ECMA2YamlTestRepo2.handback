@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d528de75215d663a6a41ffa297d8f28769cb9194</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Services.SignInRequestMessage.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">db54ef2206dd0446cb655d3f733439790a4f9261</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f2174674af52a3d216e0081491382c6ad2d96489</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a WS-Federation Sign-In Request message.</source>
+          <target state="translated">Представляет сообщение WS-Federation вход запроса.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A WS-Federation sign-in message is sent by a relying party (RP) to a security token service (STS) to request a security token.</source>
+          <target state="translated">Сообщение входа WS-Federation отправленных проверяющей стороны (RP) для службы маркеров безопасности (STS) для запроса маркера безопасности.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wa parameter must be set to “wsignout1.0” and the wtrealm parameter should be set to the security realm of the requested resource (this is often the URL of the requested resource).</source>
+          <target state="translated">Параметр wa необходимо присвоить значение «с помощью wsignout1.0» и wtrealm параметра должно быть присвоено область безопасности запрошенный ресурс (это часто запрашиваемый ресурс URL-адрес).</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other optional parameters may also be specified in the request.</source>
+          <target state="translated">Других дополнительных параметрах также можно указать в запросе.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt; message is created by the static methods of the &lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt; class, for example the &lt;xref:System.IdentityModel.Services.WSFederationMessage.CreateFromUri%2A&gt; method, when the wa parameter is set to “wsignin1.0”, there is no wresult or wresultptr parameter present, and either a wtrealm parameter or a wreply parameter is present.</source>
+          <target state="translated">Объект &lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt;статическими методами класса создается сообщение &lt;xref:System.IdentityModel.Services.SignOutRequestMessage&gt;классов, например &lt;xref:System.IdentityModel.Services.WSFederationMessage.CreateFromUri%2A&gt;при wa параметр имеет значение «wsignin1.0» и нет параметра wresult или wresultptr присутствует wtrealm параметр или параметр wreply присутствует метод.&lt;/xref:System.IdentityModel.Services.WSFederationMessage.CreateFromUri%2A&gt; &lt;/xref:System.IdentityModel.Services.SignOutRequestMessage&gt; &lt;/xref:System.IdentityModel.Services.SignOutRequestMessage&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  For backward compatibility with Active Directory Federation Services (AD FS) version 1.0, Windows Identity Foundation (WIF) allows either the wtrealm parameter or the wreply parameter to be set (or both) for a sign-in message to be valid; however, the WS-Federation protocol requires that the wtrealm parameter be present in a sign-in request.</source>
+          <target state="translated">Настроек <ph id="ph1">[!IMPORTANT]</ph> настроек для обеспечения обратной совместимости с версией служб федерации Active Directory (AD FS) 1.0 Windows Identity Foundation (WIF) позволяет wtrealm параметра или параметр wreply, чтобы задать (или оба) для сообщения вход был допустимым, однако протокол WS-Federation требуется параметр wtrealm присутствие в запросе на вход.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most scenarios, you should ensure that the wtrealm parameter is specified.</source>
+          <target state="translated">В большинстве случаев следует убедиться, что указан параметр wtrealm.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SignInRequestMessage class exposes several properties that can be used to set or access individual message parameters.</source>
+          <target state="translated">Класс SignInRequestMessage предоставляет несколько свойств, которые можно использовать, чтобы задать или получить доступ к параметрам отдельного сообщения.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These parameters can also be set or accessed through the &lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt; dictionary.</source>
+          <target state="translated">Эти параметры можно также задать или получить с помощью &lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt;словаря.&lt;/xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can read the wtrealm parameter in the message either through the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt; property or by specifying “wtrealm” as the key to the &lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt; dictionary.</source>
+          <target state="translated">Например, прочтите параметр "wtrealm" в сообщении либо &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt;свойства или путем указания «wtrealm» в качестве ключа &lt;xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt;словаря.&lt;/xref:System.IdentityModel.Services.FederationMessage.Parameters%2A&gt; &lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SignInRequestMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified base URL and wtrealm parameter.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SignInRequestMessage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класс указанный базовый URL-адрес и wtrealm параметр.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wa message parameter (the &lt;xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt; property) is initialized to “wsignin1.0”.</source>
+          <target state="translated">Параметр message wa ( &lt;xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt;свойство) устанавливается равным «wsignin1.0».&lt;/xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The base URL to which the sign-in message applies.</source>
+          <target state="translated">Базовый URL-адрес, к которому применяется сообщение вход.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The value of the wtrealm message parameter.</source>
+          <target state="translated">Значение параметра wtrealm сообщения.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt; property.</source>
+          <target state="translated">Наборы &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt;свойство.&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;realm&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;realm&lt;/code&gt;</ph>— <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> или является пустой строкой.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SignInRequestMessage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified base URI, wtrealm parameter, and wreply parameter.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SignInRequestMessage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса, используя указанный базовый URI, параметр wtrealm и wreply параметр.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Supports non-standard message creation for backward compatibility.</source>
+          <target state="translated">Поддерживает создание нестандартных сообщений для обеспечения обратной совместимости.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wa message parameter (the &lt;xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt; property) is initialized to “wsignin1.0”.</source>
+          <target state="translated">Параметр message wa ( &lt;xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt;свойство) устанавливается равным «wsignin1.0».&lt;/xref:System.IdentityModel.Services.WSFederationMessage.Action%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Supports non-standard message creation for backward compatibility.</source>
+          <target state="translated">Поддерживает создание нестандартных сообщений для обеспечения обратной совместимости.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the typical case, a wtrealm message parameter must be specified.</source>
+          <target state="translated">В типичных ситуаций необходимо указать параметр wtrealm message.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor allows only a wreply message parameter to be specified for backward compatibility with Active Directory Federation Service (AD FS) version 1.0.</source>
+          <target state="translated">Этот конструктор позволяет только параметр message wreply следует указывать для обеспечения обратной совместимости с версией службы федерации Active Directory (AD FS) 1.0.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Base URL to which the sign-in message applies.</source>
+          <target state="translated">Базовый URL-адрес к которому применяется сообщение вход.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The value of the wtrealm message parameter.</source>
+          <target state="translated">Значение параметра wtrealm сообщения.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If not <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or empty, sets the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt; property.</source>
+          <target state="translated">В противном случае <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> или пусто, задает &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt;Свойства.&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Realm*&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The URI to which to reply.</source>
+          <target state="translated">URI, к которому будут отвечать.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>(The value of the wreply message parameter.) If not null or empty, sets the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Reply*&gt; property.</source>
+          <target state="translated">(Значение параметра wreply сообщения). Если не null или пустым, задает &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Reply*&gt;Свойства.&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Reply*&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Both <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">realm</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">reply</ph><ept id="p2">&lt;/code&gt;</ept> are <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated">Both <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">realm</ph><ept id="p1">&lt;/code&gt;</ept> and <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">reply</ph><ept id="p2">&lt;/code&gt;</ept> are <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or an empty string.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wauth parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр wauth сообщения.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wauth parameter is like the wst:AuthenticationType element defined in WS-Trust.</source>
+          <target state="translated">Параметр wauth — аналогично элементу wst:AuthenticationType, определенные в WS-Trust.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value should be set to a string that contains a URI that identifies the type of authentication that is used.</source>
+          <target state="translated">Должно иметь значение в строку, содержащий URI, определяющий тип проверки подлинности, который используется.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wauth parameter is optional.</source>
+          <target state="translated">Параметр wauth является необязательным.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the AuthenticationType property to <ph id="ph1">`null`</ph> or an empty string to remove the wauth parameter from the message.</source>
+          <target state="translated">Присвойте свойству AuthenticationType <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр wauth из сообщения.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The authentication type.</source>
+          <target state="translated">Тип проверки подлинности.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">Имена указываются в виде URI.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">Происходит попытка задать значение, которое не является допустимым, абсолютный URI.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wct parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр wct сообщения.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wct parameter specifies the current time at the instant that the message was created.</source>
+          <target state="translated">Параметр wct указывает текущее время на момент создания сообщения.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wct parameter is optional.</source>
+          <target state="translated">Параметр wct является необязательным.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set to the CurrentTime property <ph id="ph1">`null`</ph> or an empty string to remove the wct parameter from the message.</source>
+          <target state="translated">Установите свойство CurrentTime <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр wct из сообщения.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value of the wct parameter specified as a datetime string in UTC.</source>
+          <target state="translated">Значение параметра wct, указанное в виде строки даты и времени в формате UTC.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid datetime string occurs.</source>
+          <target state="translated">Происходит попытка задать значение, которое не является строкой действительное значение datetime.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wfed parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр wfed сообщения.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wfed parameter specifies the federation context for the message.</source>
+          <target state="translated">Параметр wfed указывает контекст федерации для сообщения.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wfed parameter is optional.</source>
+          <target state="translated">Параметр wfed является необязательным.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set to the Federation property <ph id="ph1">`null`</ph> or an empty string to remove the wfed parameter from the message.</source>
+          <target state="translated">Установите свойство федерации <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр wfed из сообщения.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The value of the wfed parameter.</source>
+          <target state="translated">Значение параметра wfed.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">Имена указываются в виде URI.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wfresh parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр wfresh сообщения.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wfresh parameter indicates the maximum age in minutes that the authentication is valid.</source>
+          <target state="translated">Параметр wfresh указывает максимальный срок хранения в минутах, в которых действует проверки подлинности.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wfresh parameter is optional.</source>
+          <target state="translated">Параметр wfresh является необязательным.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the Freshness property to <ph id="ph1">`null`</ph> or an empty string to remove the wfresh parameter from the message.</source>
+          <target state="translated">Присвойте свойству актуальность <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр wfresh из сообщения.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The value of the wfresh parameter.</source>
+          <target state="translated">Значение параметра wfresh.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This should be an integer represented as a string.</source>
+          <target state="translated">Это должно быть целое число, представленное в виде строки.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>It specifies the maximum age in minutes that the authentication is valid.</source>
+          <target state="translated">Она определяет максимальный срок хранения в минутах, проверка подлинности является допустимым.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Zero indicates that the user should be prompted before the token is issued.</source>
+          <target state="translated">Ноль указывает, что пользователь должен появиться запрос до выдачи маркера.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a string representation of an integer.</source>
+          <target state="translated">Попытка задать значение, которое не является строковым представлением целого числа.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets or sets the whr parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр whr сообщения.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The whr parameter identifies the security realm of the identity provider to use for the request.</source>
+          <target state="translated">Параметр whr определяет область безопасности поставщика удостоверений для использования в запросе.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be specified as the URL of the IP-STS to use or as an identifier that is understood by the receiver of the request.</source>
+          <target state="translated">Он может быть указан как URL-адрес IP-STS или как идентификатор, который понят получателем запроса.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The whr parameter is optional Set the HomeRealm property to <ph id="ph1">`null`</ph> or an empty string to remove the whr parameter from the message.</source>
+          <target state="translated">Параметр whr — необязательный набор HomeRealm свойства <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр whr из сообщения.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The value of the whr parameter.</source>
+          <target state="translated">Значение параметра whr.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">Имена указываются в виде URI.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wp parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр wp сообщения.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Identifies the policy to be used for the request.</source>
+          <target state="translated">Определяет политику для запроса.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It typically applies to the action (wa parameter), but may have broader implications.</source>
+          <target state="translated">Обычно он применяется к действий (wa параметр), но может повлиять на более широкой.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wp parameter is optional.</source>
+          <target state="translated">Wp параметр является необязательным.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the Policy property to <ph id="ph1">`null`</ph> or an empty string to remove the wp parameter from the message.</source>
+          <target state="translated">Присвойте свойству политики <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр wp из сообщения.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The value of the wp parameter.</source>
+          <target state="translated">Значение параметра wp.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">Имена указываются в виде URI.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">Происходит попытка задать значение, которое не является допустимым, абсолютный URI.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wtrealm parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр "wtrealm" сообщения.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wtrealm parameter specifies the security realm to which the requested resource belongs.</source>
+          <target state="translated">Параметр wtrealm определяет области безопасности, к которой принадлежит запрошенного ресурса.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is often the URL of the requested resource.</source>
+          <target state="translated">Часто это URL-адрес запрошенного ресурса.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  For backward compatibility with Active Directory Federation Services (AD FS) version 1.0, Windows Identity Foundation (WIF) allows either the wtrealm parameter or the wreply parameter to be set (or both) for a sign-in message to be valid; however, the WS-Federation protocol requires that the wtrealm parameter be present in a sign-in request.</source>
+          <target state="translated">Настроек <ph id="ph1">[!IMPORTANT]</ph> настроек для обеспечения обратной совместимости с версией служб федерации Active Directory (AD FS) 1.0 Windows Identity Foundation (WIF) позволяет wtrealm параметра или параметр wreply, чтобы задать (или оба) для сообщения вход был допустимым, однако протокол WS-Federation требуется параметр wtrealm присутствие в запросе на вход.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most scenarios, you should ensure that the wtrealm parameter is specified.</source>
+          <target state="translated">В большинстве случаев следует убедиться, что указан параметр wtrealm.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the Realm property to <ph id="ph1">`null`</ph> or an empty string to remove the wtrealm parameter from the message.</source>
+          <target state="translated">Значение свойства Realm <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр wtrealm из сообщения.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The value of the wtrealm parameter.</source>
+          <target state="translated">Значение параметра wtrealm.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">Имена указываются в виде URI.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">Происходит попытка задать значение, которое не является допустимым, абсолютный URI.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wreply parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр wreply сообщения.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Contains the URI to which responses should be directed.</source>
+          <target state="translated">Содержит URI, к которому следует направлять ответы.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wtrealm parameter is often used to specify this URI.</source>
+          <target state="translated">Параметр wtrealm часто используется для указания этого URI.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, in more complex scenarios, the wtrealm parameter can be used to specify the security realm for the request, for example, the entire web site, and the wreply parameter can be used to specify a specific resource within that realm, for example, a document, page, or endpoint.</source>
+          <target state="translated">Тем не менее в более сложные сценарии, параметр wtrealm может использоваться для указания области безопасности для запроса, например, все веб-сайте, и параметр wreply может использоваться для указания определенного ресурса в этой области, например, документ, страницы или конечной точки.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wreply parameter is optional.</source>
+          <target state="translated">Параметр wreply является необязательным.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the Reply property to <ph id="ph1">`null`</ph> or an empty string to remove the wreply parameter from the message.</source>
+          <target state="translated">Присвойте свойству ответ <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр wreply из сообщения.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  For backward compatibility with Active Directory Federation Services (AD FS) version 1.0, Windows Identity Foundation (WIF) allows either the wtrealm parameter or the wreply parameter to be set (or both) for a sign-in message to be valid; however, the WS-Federation protocol requires that the wtrealm parameter be present in a sign-in request.</source>
+          <target state="translated">Настроек <ph id="ph1">[!IMPORTANT]</ph> настроек для обеспечения обратной совместимости с версией служб федерации Active Directory (AD FS) 1.0 Windows Identity Foundation (WIF) позволяет wtrealm параметра или параметр wreply, чтобы задать (или оба) для сообщения вход был допустимым, однако протокол WS-Federation требуется параметр wtrealm присутствие в запросе на вход.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most scenarios, you should ensure that the wtrealm parameter is specified.</source>
+          <target state="translated">В большинстве случаев следует убедиться, что указан параметр wtrealm.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The value of the wreply parameter.</source>
+          <target state="translated">Значение параметра wreply.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This is specified as a URI.</source>
+          <target state="translated">Имена указываются в виде URI.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">Происходит попытка задать значение, которое не является допустимым, абсолютный URI.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wreq parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр "wreq" сообщения.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wreq parameter specifies a token request using either a <ph id="ph1">`&lt;wst:RequestSecurityToken&gt;`</ph> element or a full request message as described in WS-Trust.</source>
+          <target state="translated">Параметр wreq указывает запрос маркера с помощью <ph id="ph1">`&lt;wst:RequestSecurityToken&gt;`</ph> элемента или сообщение полного запроса, как описано в WS-Trust.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wreq parameter is optional.</source>
+          <target state="translated">Параметр wreq является необязательным.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the Request property to <ph id="ph1">`null`</ph> or an empty string to remove the wreq parameter from the message.</source>
+          <target state="translated">Присвойте свойству запроса <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр wreq из сообщения.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the Request property is specified, the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.RequestPtr%2A&gt; property cannot be specified.</source>
+          <target state="translated">Если указано свойство Request &lt;xref:System.IdentityModel.Services.SignInRequestMessage.RequestPtr%2A&gt;свойство не может быть указано.&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.RequestPtr%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The value of the wreq parameter.</source>
+          <target state="translated">Значение параметра wreq.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wreqptr parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр wreqptr сообщения.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifies a URL that indicates where to find the request expressed as a <ph id="ph1">`&lt;wst:RequestSecurityToken&gt;`</ph> element.</source>
+          <target state="translated">Указывает URL-адрес, показывающий, где можно найти запрос, выраженный <ph id="ph1">`&lt;wst:RequestSecurityToken&gt;`</ph> элемента.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wreqptr parameter is optional.</source>
+          <target state="translated">Параметр wreqptr является необязательным.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set the RequestPtr property to <ph id="ph1">`null`</ph> or an empty string to remove the wreqptr parameter from the message.</source>
+          <target state="translated">Присвойте свойству RequestPtr <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр wreqptr из сообщения.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the RequestPtr property is specified, the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Request%2A&gt; property cannot be specified.</source>
+          <target state="translated">Если указано свойство RequestPtr &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Request%2A&gt;свойство не может быть указано.&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Request%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The value of the wreqptr parameter.</source>
+          <target state="translated">Значение параметра wreqptr.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">Происходит попытка задать значение, которое не является допустимым, абсолютный URI.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets a string representation of the URL that corresponds to this message.</source>
+          <target state="translated">Возвращает строковое представление URL-адрес, соответствующий на данное сообщение.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string contains a URL (including query parameters) that is created by serializing the current instance.</source>
+          <target state="translated">Строка содержит URL-адрес (включая параметры запроса), созданных при сериализации текущего экземпляра.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Write%2A&gt; method is invoked to perform the serialization.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Services.SignInRequestMessage.Write%2A&gt;Метод вызывается для выполнения сериализации.&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Write%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A URL serialized from the current instance.</source>
+          <target state="translated">URL-адрес, сериализованных из текущего экземпляра.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets or sets the wres parameter of the message.</source>
+          <target state="translated">Возвращает или задает параметр wres сообщения.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specifies the URL for the resource to be accessed.</source>
+          <target state="translated">Указывает URL-адрес ресурса, должен быть предоставлен доступ.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wres parameter is a legacy parameter.</source>
+          <target state="translated">Параметр wres является прежних версий.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the wtrealm parameter (the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt; property) is used instead.</source>
+          <target state="translated">Как правило, параметр wtrealm ( &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt;свойство) вместо него используется.&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Realm%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wres parameter is optional.</source>
+          <target state="translated">Параметр wres является необязательным.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set to the Resource property to <ph id="ph1">`null`</ph> or an empty string to remove the wres parameter from the message.</source>
+          <target state="translated">Задайте для свойства ресурса для <ph id="ph1">`null`</ph> или пустую строку, чтобы удалить параметр wres из сообщения.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The value of the wres parameter.</source>
+          <target state="translated">Значение параметра wres.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>An attempt to set a value that is not a valid, absolute URI occurs.</source>
+          <target state="translated">Происходит попытка задать значение, которое не является допустимым, абсолютный URI.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Validates the current instance.</source>
+          <target state="translated">Проверяет текущий экземпляр.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The wa parameter (the &lt;xref:System.IdentityModel.Services.WSFederationMessage.Action*&gt; property) is not set to “wsignin1.0”.</source>
+          <target state="translated">Параметр wa ( &lt;xref:System.IdentityModel.Services.WSFederationMessage.Action*&gt;свойство) не имеет значение «wsignin1.0».&lt;/xref:System.IdentityModel.Services.WSFederationMessage.Action*&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Neither the wtrealm parameter nor the wreply parameter is present.</source>
+          <target state="translated">Отсутствует параметр wtrealm ни параметр wreply.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>(The &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Realm<bpt id="p1">*</bpt>&gt; property and the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Reply<ept id="p1">*</ept>&gt; property are <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or empty.)       -or-       Both the wreq parameter and the wreqptr parameter are present.</source>
+          <target state="translated">( &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>Настроек свойств и &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>настроек свойства <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> или пустым.)       - или - wreq оба параметра и wreqptr присутствуют.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>(The &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Request<bpt id="p1">*</bpt>&gt; property and the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.RequestPtr<ept id="p1">*</ept>&gt; property are both set.)</source>
+          <target state="translated">( &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>Настроек свойств и &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>настроек свойства заданы.)</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Writes this message in query string form to the specified text writer.</source>
+          <target state="translated">Записывает сообщение в виде строки запроса в указанный текстовый редактор.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method calls the &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Validate%2A&gt; method before writing the message.</source>
+          <target state="translated">Этот метод вызывает метод &lt;xref:System.IdentityModel.Services.SignInRequestMessage.Validate%2A&gt;метод перед записью сообщения.&lt;/xref:System.IdentityModel.Services.SignInRequestMessage.Validate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextWriter&gt; to which to write the message.</source>
+          <target state="translated">&lt;xref:System.IO.TextWriter&gt;Для записи сообщения.&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;writer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

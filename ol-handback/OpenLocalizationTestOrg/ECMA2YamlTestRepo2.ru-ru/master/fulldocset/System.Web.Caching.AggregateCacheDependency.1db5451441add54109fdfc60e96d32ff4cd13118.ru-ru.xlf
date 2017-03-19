@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">95f6d048121d6a044b5e8d4d4158a8f09d8af186</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Caching.AggregateCacheDependency.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8345e8a990b3b2af62b99ad5ee0cb25012d51dae</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">68439df5afce53bcee76940c6f8e1b5a40d72700</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Combines multiple dependencies between an item stored in an ASP.NET application's <bpt id="p1">&lt;xref href="System.Web.Caching.Cache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and an array of <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Объединяет несколько зависимостей между элементом, хранящимся в приложении ASP.NET <bpt id="p1">&lt;xref href="System.Web.Caching.Cache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта и массива <bpt id="p2">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объектов.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Этот класс не наследуется.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AggregateCacheDependency class monitors a collection of dependency objects so that when any of them change, the cached item is automatically removed.</source>
+          <target state="translated">Класс AggregateCacheDependency отслеживает коллекцию объектов зависимостей, поэтому кэшированного элемента автоматически удаляется при изменении одного из них.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The objects in the array can be &lt;xref:System.Web.Caching.CacheDependency&gt; objects, &lt;xref:System.Web.Caching.SqlCacheDependency&gt; objects, custom objects derived from &lt;xref:System.Web.Caching.CacheDependency&gt;, or any combination of these.</source>
+          <target state="translated">Объекты в массиве могут быть &lt;xref:System.Web.Caching.CacheDependency&gt;объектов, &lt;xref:System.Web.Caching.SqlCacheDependency&gt;объектов, пользовательских объектов, производных от &lt;xref:System.Web.Caching.CacheDependency&gt;, или любое сочетание этих.&lt;/xref:System.Web.Caching.CacheDependency&gt; &lt;/xref:System.Web.Caching.SqlCacheDependency&gt; &lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AggregateCacheDependency class differs from the &lt;xref:System.Web.Caching.CacheDependency&gt; class in that it allows you to associate multiple dependencies of different types with a single cached item.</source>
+          <target state="translated">Класс AggregateCacheDependency отличается от &lt;xref:System.Web.Caching.CacheDependency&gt;класса тем, что позволяет связать несколько зависимостей различных типов с единственным элементом, кэшированные.&lt;/xref:System.Web.Caching.CacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you create a page that imports data from a SQL Server database table and an XML file, you can create a &lt;xref:System.Web.Caching.SqlCacheDependency&gt; object to represent a dependency on the database table and a &lt;xref:System.Web.Caching.CacheDependency&gt; to represent the dependency on the XML file.</source>
+          <target state="translated">Например, если создать страницу, которая импортирует данные из таблицы базы данных SQL Server и в XML-файл, можно создать &lt;xref:System.Web.Caching.SqlCacheDependency&gt;объект для представления зависимостей в таблице базы данных и &lt;xref:System.Web.Caching.CacheDependency&gt;для представления зависимость от XML-файл.&lt;/xref:System.Web.Caching.CacheDependency&gt; &lt;/xref:System.Web.Caching.SqlCacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rather than making an &lt;xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt; method call for each dependency, you can create an instance of the AggregateCacheDependency class with each dependency added to it.</source>
+          <target state="translated">Вместо внесения &lt;xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt;вызов метода для каждой зависимости, можно создать экземпляр класса AggregateCacheDependency с каждой зависимости, добавить к нему.&lt;/xref:System.Web.Caching.Cache.Insert%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then use a single &lt;xref:System.Web.Caching.Cache.Insert%2A&gt; call to make the page dependent on the AggregateCacheDependency instance.</source>
+          <target state="translated">Затем можно использовать один &lt;xref:System.Web.Caching.Cache.Insert%2A&gt;вызова для создания страницы зависит от экземпляра AggregateCacheDependency.&lt;/xref:System.Web.Caching.Cache.Insert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Caching.AggregateCacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Web.Caching.AggregateCacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the default constructor for the &lt;xref:System.Web.Caching.AggregateCacheDependency&gt; class.</source>
+          <target state="translated">Это конструктор по умолчанию для &lt;xref:System.Web.Caching.AggregateCacheDependency&gt;класса.&lt;/xref:System.Web.Caching.AggregateCacheDependency&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Adds an array of <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects to the <bpt id="p2">&lt;xref href="System.Web.Caching.AggregateCacheDependency"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Добавляет массив <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объектов <bpt id="p2">&lt;xref href="System.Web.Caching.AggregateCacheDependency"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The array of <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects to add.</source>
+          <target state="translated">Массив <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекты для добавления.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is referenced from more than one <bpt id="p2">&lt;xref href="System.Web.Caching.Cache"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> entry.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Web.Caching.CacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ссылка на объект из более чем одного <bpt id="p2">&lt;xref href="System.Web.Caching.Cache"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> входа.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Gets the file dependencies.</source>
+          <target state="translated">Возвращает зависимости файла.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The file dependencies.</source>
+          <target state="translated">Зависимости файла.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Retrieves a unique identifier for the <bpt id="p1">&lt;xref href="System.Web.Caching.AggregateCacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Возвращает уникальный идентификатор для <bpt id="p1">&lt;xref href="System.Web.Caching.AggregateCacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method assigns a unique identifier to each dependency in the array and returns each of them.</source>
+          <target state="translated">Этот метод назначает уникальный идентификатор каждой зависимости в массиве и возвращает каждый из них.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The identifier is a combination of either the file name (for a file dependency) or the key name (for a cache-key dependency) and a string that this method assigns to the dependency.</source>
+          <target state="translated">Идентификатор представляет собой сочетание имени файла (для зависимости файлов) или имени ключа (для зависимости ключей кэша) и строка, этот метод присваивает зависимости.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The unique identifier for the <bpt id="p1">&lt;xref href="System.Web.Caching.AggregateCacheDependency"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Уникальный идентификатор для <bpt id="p1">&lt;xref href="System.Web.Caching.AggregateCacheDependency"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If one of the associated dependency objects does not have a unique identifier, the GetUniqueID method returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Если один из связанных объектов зависимостей не имеет уникальный идентификатор, метод GetUniqueID возвращает <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
