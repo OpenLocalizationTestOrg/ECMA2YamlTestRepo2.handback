@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">78ae9898b6e9bd34c18f5df69ab2823a51e123de</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Channels.BinaryClientFormatterSinkProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2a927b02d20e785fcd0db1de6f3589dbdc8a10a6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b3beee257cf525f7fcb3e0e5bd6bc0d76572d2c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the implementation for the binary client formatter sink provider.</source>
+          <target state="translated">Fornece a implementação para o provedor de coletor do formatador de binários do cliente.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A BinaryClientFormatterSinkProvider creates client formatter sinks that use the &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt; to serialize messages for the client channel through which remoting messages flow.</source>
+          <target state="translated">Um BinaryClientFormatterSinkProvider cria o cliente do coletor do formatador que usam o &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;para serializar mensagens para o canal do cliente por meio de comunicação remota do qual fluem de mensagens.&lt;/xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The function of the formatter sink is to generate the necessary headers and serialize the message to the stream.</source>
+          <target state="translated">A função do coletor do formatador é gerar os cabeçalhos necessários e a serialização da mensagem para o fluxo.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the formatter sink, the &lt;xref:System.Runtime.Remoting.Messaging.IMessage&gt; is forwarded to all sinks in the channel sink chain through the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt; or &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt; calls.</source>
+          <target state="translated">Após o coletor do formatador, o &lt;xref:System.Runtime.Remoting.Messaging.IMessage&gt;é encaminhado para todos os coletores na cadeia de coletor de canal por meio de &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt;ou &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt;chamadas.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest%2A&gt; &lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage%2A&gt; &lt;/xref:System.Runtime.Remoting.Messaging.IMessage&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At this stage, the message has already been serialized and is provided as information only.</source>
+          <target state="translated">Neste estágio, a mensagem já tiver sido serializada e é fornecida apenas como informação.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sinks that need to create or modify the message must be placed in the sink chain before the formatter.</source>
+          <target state="translated">Coletores que precisa para criar ou modificar a mensagem devem ser colocados na cadeia de coletor antes do formatador.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can do this by implementing both the &lt;xref:System.Runtime.Remoting.Messaging.IMessageSink&gt; and &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink&gt; interfaces.</source>
+          <target state="translated">Você pode fazer isso com a implementação de ambos os &lt;xref:System.Runtime.Remoting.Messaging.IMessageSink&gt;e &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSink&gt;interfaces.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSink&gt; &lt;/xref:System.Runtime.Remoting.Messaging.IMessageSink&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The formatter sink can then be placed in the sink chain later.</source>
+          <target state="translated">O coletor do formatador pode ser colocado na cadeia de coletor mais tarde.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Formatter sinks use sink configuration properties to configure the channel at run time.</source>
+          <target state="translated">Formatador coletores use coletor propriedades de configuração para configurar o canal de tempo de execução.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sink properties can be specified in a configuration file, or programmatically, inside of a &lt;xref:System.Collections.IDictionary&gt;.</source>
+          <target state="translated">Propriedades do coletor podem ser especificadas em um arquivo de configuração, ou programaticamente, dentro de um &lt;xref:System.Collections.IDictionary&gt;.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a configuration file all values are represented by strings, but when building a property &lt;xref:System.Collections.IDictionary&gt; programmatically, value types can be specified with their native values or with strings.</source>
+          <target state="translated">Em um arquivo de configuração de todos os valores são representados por cadeias de caracteres, mas ao criar uma propriedade &lt;xref:System.Collections.IDictionary&gt;programaticamente, tipos de valor podem ser especificados com seus valores nativo ou cadeias de caracteres.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the sink configuration properties that can be specified for the current sink provider.</source>
+          <target state="translated">A tabela a seguir mostra o coletor de propriedades de configuração que podem ser especificadas para o provedor de coletor atual.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Description|   |--------------|-----------------|   |<ph id="ph1">`includeVersions`</ph>|Specifies whether the formatter will include versioning information.</source>
+          <target state="translated">| Propriedade | Descrição |   |--------------|-----------------|   | <ph id="ph1">`includeVersions`</ph>| Especifica se o formatador incluirá informações de controle de versão.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values are <ph id="ph1">`true`</ph> or <ph id="ph2">`false`</ph>.|      &gt; <ph id="ph3">[!IMPORTANT]</ph> &gt;  Using an instance of this object with untrusted data or across an unsecure channel is a security risk.</source>
+          <target state="translated">Os valores são <ph id="ph1">`true`</ph> ou <ph id="ph2">`false`</ph>. |      &gt; <ph id="ph3">[!IMPORTANT]</ph> &gt; Usando uma instância do objeto com dados não confiáveis ou em um canal não seguro é um risco de segurança.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this object only with trusted data and across a secure channel.</source>
+          <target state="translated">Use esse objeto somente com dados confiáveis e em um canal seguro.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Untrusted Data Security Risks<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>riscos de segurança de dados não confiável<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=330378)</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.BinaryClientFormatterSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default values.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.BinaryClientFormatterSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe com valores padrão.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.BinaryClientFormatterSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the given properties and provider data.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.BinaryClientFormatterSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe com as propriedades de determinado e os dados do provedor.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.IDictionary&gt; of configuration properties to use with the new instance of <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.BinaryClientFormatterSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Um &lt;xref:System.Collections.IDictionary&gt;de propriedades de configuração para usar com a nova instância do <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.BinaryClientFormatterSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.ICollection&gt; of <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.SinkProviderData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that contain provider data to use with the new instance of <bpt id="p2">&lt;xref href="System.Runtime.Remoting.Channels.BinaryClientFormatterSinkProvider"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Um &lt;xref:System.Collections.ICollection&gt;de <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.SinkProviderData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objetos que contêm dados do provedor para usar com a nova instância do <bpt id="p2">&lt;xref href="System.Runtime.Remoting.Channels.BinaryClientFormatterSinkProvider"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates a sink chain.</source>
+          <target state="translated">Cria uma cadeia de coletor.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt; method is called, it creates its own channel sink, forwards the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt; call to the next sink provider in the chain (if there is one), and ensures that the next sink and the current one are linked together.</source>
+          <target state="translated">Quando o &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt;método é chamado, ele cria seu próprio coletor de canal, encaminha o &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt;chamada para o provedor de coletor Avançar na cadeia (se houver) e garante que o coletor Avançar e atual são vinculados.&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt; &lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider.CreateSink%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Channel for which this sink chain is being constructed.</source>
+          <target state="translated">Canal para o qual esta cadeia de coletor está sendo construída.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>URL of object to connect to or the channel URI for the target object.</source>
+          <target state="translated">URL do objeto para se conectar ao ou o URI do canal para o objeto de destino.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A channel data object that describes a channel on the remote server.</source>
+          <target state="translated">Um objeto de dados de canal que descreve um canal no servidor remoto.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The first sink of the newly formed channel sink chain, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which indicates that this provider will not or cannot provide a connection for this endpoint.</source>
+          <target state="translated">O primeiro coletor da cadeia de coletor de canal recém-criado, ou <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, que indica que esse provedor não serão ou não é possível fornecer uma conexão para este ponto de extremidade.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets or sets the next <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the sink provider chain.</source>
+          <target state="translated">Obtém ou define o próximo <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na cadeia de provedor de coletor.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The next <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in the sink provider chain.</source>
+          <target state="translated">O próximo <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> na cadeia de provedor de coletor.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
