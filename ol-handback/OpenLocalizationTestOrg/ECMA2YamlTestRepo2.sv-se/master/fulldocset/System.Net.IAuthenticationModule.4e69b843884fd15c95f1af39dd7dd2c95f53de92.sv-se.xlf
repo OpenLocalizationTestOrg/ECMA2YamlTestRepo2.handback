@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d2b7d70648bfc1dd2e2140fdc95469eac8600a4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.IAuthenticationModule.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f804c74cdde1632418fd6d170d0d0252d9ec3bc4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4594ff5d390dda106d38e7ad7cc13d0ab05e7df4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the base authentication interface for Web client authentication modules.</source>
+          <target state="translated">Innehåller grundläggande autentisering-gränssnitt för Web-moduler för autentisering av klienten.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IAuthenticationModule interface defines the properties and methods that custom authentication modules must use.</source>
+          <target state="translated">IAuthenticationModule-gränssnittet definierar egenskaper och metoder som måste använda för anpassad autentiseringsmoduler.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Authentication modules conduct the entire authentication process with a server, responding to an authentication challenge as appropriate.</source>
+          <target state="translated">Moduler utför hela verifieringsprocessen med en server som svarar på en autentiseringsfråga efter behov.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This process may consist of requests to an authentication server separate from the resource server, as well as any other activities required to properly authenticate a request for a URI.</source>
+          <target state="translated">Den här processen kan bestå av begäranden till en autentiseringsserver som är separat från resursservern, samt andra aktiviteter som krävs för att kunna autentisera en begäran för en URI.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom authentication modules should implement the IAuthenticationModule interface and then register with the &lt;xref:System.Net.AuthenticationManager.Register%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Anpassad autentiseringsmoduler måste implementera gränssnittet IAuthenticationModule och registrera sedan med den &lt;xref:System.Net.AuthenticationManager.Register%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Net.AuthenticationManager.Register%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Authentication modules are also registered at program initialization by reading the configuration file.</source>
+          <target state="translated">Moduler för autentisering också är registrerade på programinitiering genom att läsa konfigurationsfilen.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Returns an instance of the <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class in respose to an authentication challenge from a server.</source>
+          <target state="translated">Returnerar en instans av den <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen i respose till en autentiseringsfråga från en server.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Authenticate method conducts the authentication process with the server and returns an &lt;xref:System.Net.Authorization&gt; instance to the &lt;xref:System.Net.AuthenticationManager&gt;.</source>
+          <target state="translated">Metoden autentisera utför autentiseringen med servern och returnerar en &lt;xref:System.Net.Authorization&gt;instans i &lt;xref:System.Net.AuthenticationManager&gt;.&lt;/xref:System.Net.AuthenticationManager&gt; &lt;/xref:System.Net.Authorization&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The authentication challenge sent by the server.</source>
+          <target state="translated">Autentiseringsfråga som skickats av servern.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.WebRequest&gt; instance associated with the challenge.</source>
+          <target state="translated">Den &lt;xref:System.Net.WebRequest&gt;serverinstans kopplad till utmaningen.&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The credentials associated with the challenge.</source>
+          <target state="translated">Autentiseringsuppgifterna som associeras med det en utmaningen.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance containing the authorization message for the request, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the challenge cannot be handled.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans som innehåller meddelandet tillstånd för begäran, eller <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> om de inte kan hanteras.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets the authentication type provided by this authentication module.</source>
+          <target state="translated">Hämtar den autentiseringstyp som tillhandahålls av den här autentiseringsmodulen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AuthenticationType property identifies the authentication type implemented by this authentication module.</source>
+          <target state="translated">Egenskapen AuthenticationType identifierar den autentiseringstyp som implementerats av den här autentiseringsmodulen.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AuthenticationType property is used by the &lt;xref:System.Net.AuthenticationManager.Register%2A?displayProperty=fullName&gt; method to determine if the authentication module has been registered, and by the &lt;xref:System.Net.AuthenticationManager.Unregister%2A?displayProperty=fullName&gt; method to remove a registered authentication module.</source>
+          <target state="translated">Egenskapen AuthenticationType används av den &lt;xref:System.Net.AuthenticationManager.Register%2A?displayProperty=fullName&gt;metod för att bestämma om autentiseringsmodulen har registrerats och genom att den &lt;xref:System.Net.AuthenticationManager.Unregister%2A?displayProperty=fullName&gt;metod för att ta bort en registrerad autentiseringsmodul.&lt;/xref:System.Net.AuthenticationManager.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Net.AuthenticationManager.Register%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A string indicating the authentication type provided by this authentication module.</source>
+          <target state="translated">En sträng som anger den autentiseringstyp som tillhandahålls av den här autentiseringsmodulen.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the authentication module supports preauthentication.</source>
+          <target state="translated">Hämtar ett värde som anger om har stöd för autentiseringsmodulen förautentisering.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CanPreAuthenticate property is set to <ph id="ph1">`true`</ph> to indicate that the authentication module can respond with a valid &lt;xref:System.Net.Authorization&gt; instance when the &lt;xref:System.Net.IAuthenticationModule.PreAuthenticate%2A&gt; method is called.</source>
+          <target state="translated">Egenskapen CanPreAuthenticate anges till <ph id="ph1">`true`</ph> att indikera att modulen för användarautentisering kan svara med en giltig &lt;xref:System.Net.Authorization&gt;instansen när den &lt;xref:System.Net.IAuthenticationModule.PreAuthenticate%2A&gt;metoden anropas.&lt;/xref:System.Net.IAuthenticationModule.PreAuthenticate%2A&gt; &lt;/xref:System.Net.Authorization&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the authorization module supports preauthentication; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om tillståndet har stöd för modulen förautentisering; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns an instance of the <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for an authentication request to a server.</source>
+          <target state="translated">Returnerar en instans av den <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass för en autentiseringsbegäran till en server.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Net.IAuthenticationModule.CanPreAuthenticate%2A&gt; property is <ph id="ph1">`true`</ph>, the PreAuthenticate method will return an instance of the &lt;xref:System.Net.Authorization&gt; class containing an authentication message.</source>
+          <target state="translated">När den &lt;xref:System.Net.IAuthenticationModule.CanPreAuthenticate%2A&gt;egenskapen är <ph id="ph1">`true`</ph>, PreAuthenticate-metoden returnerar en instans av den &lt;xref:System.Net.Authorization&gt;klass som innehåller ett autentiseringsmeddelande.&lt;/xref:System.Net.Authorization&gt; &lt;/xref:System.Net.IAuthenticationModule.CanPreAuthenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.WebRequest&gt; instance associated with the authentication request.</source>
+          <target state="translated">Den &lt;xref:System.Net.WebRequest&gt;serverinstans kopplad till autentiseringsbegäran.&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The credentials associated with the authentication request.</source>
+          <target state="translated">Autentiseringsuppgifterna som associeras med autentiseringsbegäran.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance containing the authorization message for the request.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Net.Authorization"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> instans som innehåller meddelandet tillstånd för begäran.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
