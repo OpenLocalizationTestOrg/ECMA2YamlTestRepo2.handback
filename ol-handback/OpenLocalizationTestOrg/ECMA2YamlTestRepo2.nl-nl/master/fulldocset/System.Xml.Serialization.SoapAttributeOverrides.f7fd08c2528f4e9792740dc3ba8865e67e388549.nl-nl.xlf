@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">99225088e3bd565089270808ee0fec137d0110d8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.Serialization.SoapAttributeOverrides.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aee086b8b06ca7c8a603302718661a479fc39b8e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85efeb7aee7f3688d038a7f8255bbc2630978dc4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows you to override attributes applied to properties, fields, and classes when you use an &lt;xref:System.Xml.Serialization.XmlSerializer&gt; to serialize or deserialize an object as encoded SOAP.</source>
+          <target state="translated">Hiermee kunt u kenmerken die worden toegepast op eigenschappen, overschrijven velden en klassen wanneer u een &lt;xref:System.Xml.Serialization.XmlSerializer&gt;serialiseren of deserialiseren van een object als gecodeerde SOAP.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SoapAttributeOverrides class enables an &lt;xref:System.Xml.Serialization.XmlSerializer&gt; to override the default way of serializing a set of objects.</source>
+          <target state="translated">De SoapAttributeOverrides klasse kan een &lt;xref:System.Xml.Serialization.XmlSerializer&gt;voor het onderdrukken van de wijze waarop standaard een reeks objecten te serialiseren.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Overriding serialization in this way has two uses: first, you can control and augment the serialization of objects found in a DLL, even if you do not have access to the source; second, you can create one set of serializable classes, but serialize the objects in multiple ways.</source>
+          <target state="translated">Het overschrijven van serialisatie op deze manier maakt gebruik van twee heeft: eerst, beheren en uitbreiden van de serialisatie van objecten die zijn gevonden in een DLL-bestand, zelfs als u geen toegang tot de bron hebt; u kunt ten tweede maken van een reeks serialiseerbaar klassen, maar de objecten op meerdere manieren worden geserialiseerd.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, instead of serializing members of a class instance as XML elements, you can serialize them as XML attributes, resulting in a more efficient document to transport.</source>
+          <target state="translated">Bijvoorbeeld in plaats van het serialiseren van de leden van een klasse-instantie als XML-elementen, kunt u serialiseren ze als XML-kenmerken, wat resulteert in een efficiëntere document aan transport.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you create a SoapAttributeOverrides, you create an &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt; using the &lt;xref:System.Xml.Serialization.SoapReflectionImporter.ImportTypeMapping%2A&gt; method of the &lt;xref:System.Xml.Serialization.SoapReflectionImporter&gt; class.</source>
+          <target state="translated">Nadat u een SoapAttributeOverrides gemaakt, maakt u een &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt;via de &lt;xref:System.Xml.Serialization.SoapReflectionImporter.ImportTypeMapping%2A&gt;methode van de &lt;xref:System.Xml.Serialization.SoapReflectionImporter&gt;klasse.&lt;/xref:System.Xml.Serialization.SoapReflectionImporter&gt; &lt;/xref:System.Xml.Serialization.SoapReflectionImporter.ImportTypeMapping%2A&gt; &lt;/xref:System.Xml.Serialization.XmlTypeMapping&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pass the resulting object as an argument to the &lt;xref:System.Xml.Serialization.XmlSerializer.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">Het resulterende object doorgeven als een argument voor de &lt;xref:System.Xml.Serialization.XmlSerializer.%23ctor%2A&gt;constructor.&lt;/xref:System.Xml.Serialization.XmlSerializer.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting &lt;xref:System.Xml.Serialization.XmlSerializer&gt; uses the data contained by the SoapAttributeOverrides to override attributes that control how objects are serialized.</source>
+          <target state="translated">De resulterende &lt;xref:System.Xml.Serialization.XmlSerializer&gt;maakt gebruik van de gegevens door de SoapAttributeOverrides voor het onderdrukken van kenmerken die bepalen hoe objecten worden geserialiseerd.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To accomplish this, the SoapAttributeOverrides contains a collection of the object types that are overridden, as well as a &lt;xref:System.Xml.Serialization.SoapAttributes&gt; associated with each overridden object type.</source>
+          <target state="translated">U doet dit door de SoapAttributeOverrides bevat een verzameling van de objecttypen die worden overschreven, evenals een &lt;xref:System.Xml.Serialization.SoapAttributes&gt;die zijn gekoppeld aan elk objecttype overschreven.&lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each &lt;xref:System.Xml.Serialization.SoapAttributes&gt; contains an appropriate set of attribute objects that control how each field, property, or class is serialized.</source>
+          <target state="translated">Elke &lt;xref:System.Xml.Serialization.SoapAttributes&gt;bevat een juiste reeks attribute-objecten die regelen hoe elk veld, eigenschap of klasse is geserialiseerd.&lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The process for creating and using a SoapAttributeOverrides is as follows:      1.</source>
+          <target state="translated">Het proces voor het maken en gebruiken van een SoapAttributeOverrides is als volgt: 1.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Create a &lt;xref:System.Xml.Serialization.SoapAttributes&gt;.</source>
+          <target state="translated">Maken van een &lt;xref:System.Xml.Serialization.SoapAttributes&gt;.&lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Create an attribute object that is appropriate to the object being overridden.</source>
+          <target state="translated">Maak een kenmerkobject dat geschikt is voor het object wordt opgeheven.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, to override a field or property, create a &lt;xref:System.Xml.Serialization.SoapElementAttribute&gt;, using the new, derived type.</source>
+          <target state="translated">Maak bijvoorbeeld voor een veld of eigenschap overschrijven, een &lt;xref:System.Xml.Serialization.SoapElementAttribute&gt;, met behulp van de nieuwe functies, afgeleide type.&lt;/xref:System.Xml.Serialization.SoapElementAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can optionally assign a new &lt;xref:System.Xml.Serialization.SoapElementAttribute.ElementName%2A&gt; that overrides the base class's attribute name or namespace.</source>
+          <target state="translated">U kunt desgewenst een nieuwe &lt;xref:System.Xml.Serialization.SoapElementAttribute.ElementName%2A&gt;die overschrijft de kenmerknaam of naamruimte van de basisklasse.&lt;/xref:System.Xml.Serialization.SoapElementAttribute.ElementName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Add the attribute object to the appropriate &lt;xref:System.Xml.Serialization.SoapAttributes&gt; property or collection.</source>
+          <target state="translated">Het kenmerkobject toevoegen aan de juiste &lt;xref:System.Xml.Serialization.SoapAttributes&gt;eigenschap of verzameling.&lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you would set the &lt;xref:System.Xml.Serialization.SoapAttributes.SoapElement%2A&gt; property of the &lt;xref:System.Xml.Serialization.SoapAttributes&gt; object to the &lt;xref:System.Xml.Serialization.SoapElementAttribute&gt; and specify the member name that is being overridden.</source>
+          <target state="translated">Bijvoorbeeld, stelt u de &lt;xref:System.Xml.Serialization.SoapAttributes.SoapElement%2A&gt;eigenschap van de &lt;xref:System.Xml.Serialization.SoapAttributes&gt;object toe aan de &lt;xref:System.Xml.Serialization.SoapElementAttribute&gt;en geef de naam van het lid wordt overschreven.&lt;/xref:System.Xml.Serialization.SoapElementAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes.SoapElement%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Create a SoapAttributeOverrides.</source>
+          <target state="translated">Maak een SoapAttributeOverrides.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>5.</source>
+          <target state="translated">5.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Add the &lt;xref:System.Xml.Serialization.SoapAttributes&gt; to the SoapAttributeOverrides using the &lt;xref:System.Xml.Serialization.XmlAttributeOverrides.Add%2A&gt; method.</source>
+          <target state="translated">Voeg de &lt;xref:System.Xml.Serialization.SoapAttributes&gt;met de SoapAttributeOverrides via de &lt;xref:System.Xml.Serialization.XmlAttributeOverrides.Add%2A&gt;methode.&lt;/xref:System.Xml.Serialization.XmlAttributeOverrides.Add%2A&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object being overridden is a &lt;xref:System.Xml.Serialization.SoapTypeAttribute&gt;, you need only specify the type of the overridden object.</source>
+          <target state="translated">Als het object wordt opgeheven een &lt;xref:System.Xml.Serialization.SoapTypeAttribute&gt;, hoeft u alleen het type van het object overschreven te geven.&lt;/xref:System.Xml.Serialization.SoapTypeAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>But if you are overriding a field or property, you must also specify the name of the overridden member.</source>
+          <target state="translated">Maar als bij het overschrijven van een veld of eigenschap moet u ook de naam van de overschreven lid opgeven.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>6.</source>
+          <target state="translated">6.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Create an &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt; using the &lt;xref:System.Xml.Serialization.SoapReflectionImporter.ImportTypeMapping%2A&gt; method of the &lt;xref:System.Xml.Serialization.SoapReflectionImporter&gt; class.</source>
+          <target state="translated">Een maken &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt;via de &lt;xref:System.Xml.Serialization.SoapReflectionImporter.ImportTypeMapping%2A&gt;methode van de &lt;xref:System.Xml.Serialization.SoapReflectionImporter&gt;klasse.&lt;/xref:System.Xml.Serialization.SoapReflectionImporter&gt; &lt;/xref:System.Xml.Serialization.SoapReflectionImporter.ImportTypeMapping%2A&gt; &lt;/xref:System.Xml.Serialization.XmlTypeMapping&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>7.</source>
+          <target state="translated">7.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When constructing the &lt;xref:System.Xml.Serialization.XmlSerializer&gt;, pass the &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt; to the &lt;xref:System.Xml.Serialization.XmlSerializer.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">Tijdens het construeren van de &lt;xref:System.Xml.Serialization.XmlSerializer&gt;, geven de &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt;naar de &lt;xref:System.Xml.Serialization.XmlSerializer.%23ctor%2A&gt;constructor.&lt;/xref:System.Xml.Serialization.XmlSerializer.%23ctor%2A&gt; &lt;/xref:System.Xml.Serialization.XmlTypeMapping&gt; &lt;/xref:System.Xml.Serialization.XmlSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>8.</source>
+          <target state="translated">8.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the resulting &lt;xref:System.Xml.Serialization.XmlSerializer&gt; to serialize or deserialize the class objects.</source>
+          <target state="translated">Gebruik de resulterende &lt;xref:System.Xml.Serialization.XmlSerializer&gt;serialiseren of deserialiseren van de klassenobjecten.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributeOverrides"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributeOverrides"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to a collection of <bpt id="p2">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Voegt een <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aan een verzameling van <bpt id="p2">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter specifies an object to be overridden by the <bpt id="p2">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept> parameter geeft u een object om te worden genegeerd door de <bpt id="p2">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.Serialization.SoapAttributes&gt; contains a union of attribute objects that cause the &lt;xref:System.Xml.Serialization.XmlSerializer&gt; to override its default serialization behavior for a set of objects.</source>
+          <target state="translated">De &lt;xref:System.Xml.Serialization.SoapAttributes&gt;bevat een samenvoeging van attribute-objecten die ertoe leiden dat de &lt;xref:System.Xml.Serialization.XmlSerializer&gt;voor het onderdrukken van het standaardgedrag voor serialisatie voor een set van objecten.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You choose the attribute objects to place in the &lt;xref:System.Xml.Serialization.SoapAttributes&gt;, depending on the particular behaviors you want to override.</source>
+          <target state="translated">U kiest de kenmerkobjecten te plaatsen in de &lt;xref:System.Xml.Serialization.SoapAttributes&gt;, afhankelijk van de specifieke problemen die u wilt onderdrukken.&lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Xml.Serialization.XmlSerializer&gt; serializes a class member as an XML element by default.</source>
+          <target state="translated">Bijvoorbeeld, de &lt;xref:System.Xml.Serialization.XmlSerializer&gt;een klasselid als een XML-element standaard serialiseert.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want the member to be serialized as an XML attribute instead, you would create a &lt;xref:System.Xml.Serialization.SoapAttributeAttribute&gt;, assign it to the &lt;xref:System.Xml.Serialization.SoapAttributes.SoapAttribute%2A&gt; property of a &lt;xref:System.Xml.Serialization.SoapAttributes&gt;, and add the &lt;xref:System.Xml.Serialization.XmlAttributes&gt; to the &lt;xref:System.Xml.Serialization.SoapAttributeOverrides&gt;.</source>
+          <target state="translated">Als u wilt dat het lid dat moet worden geserialiseerd als XML-kenmerk in plaats daarvan, maakt u een &lt;xref:System.Xml.Serialization.SoapAttributeAttribute&gt;, toewijzen aan de &lt;xref:System.Xml.Serialization.SoapAttributes.SoapAttribute%2A&gt;eigenschap van een &lt;xref:System.Xml.Serialization.SoapAttributes&gt;, en het toevoegen &lt;xref:System.Xml.Serialization.XmlAttributes&gt;aan de &lt;xref:System.Xml.Serialization.SoapAttributeOverrides&gt;.&lt;/xref:System.Xml.Serialization.SoapAttributeOverrides&gt; &lt;/xref:System.Xml.Serialization.XmlAttributes&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes.SoapAttribute%2A&gt; &lt;/xref:System.Xml.Serialization.SoapAttributeAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Add method to add the &lt;xref:System.Xml.Serialization.SoapAttributes&gt; to the &lt;xref:System.Xml.Serialization.SoapAttributeOverrides&gt;.</source>
+          <target state="translated">Gebruik de methode Add om toe te voegen &lt;xref:System.Xml.Serialization.SoapAttributes&gt;aan de &lt;xref:System.Xml.Serialization.SoapAttributeOverrides&gt;.&lt;/xref:System.Xml.Serialization.SoapAttributeOverrides&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this overload to add a &lt;xref:System.Xml.Serialization.SoapAttributes&gt; that contains a &lt;xref:System.Xml.Serialization.SoapTypeAttribute&gt;.</source>
+          <target state="translated">Gebruik deze overbelasting om toe te voegen een &lt;xref:System.Xml.Serialization.SoapAttributes&gt;die een &lt;xref:System.Xml.Serialization.SoapTypeAttribute&gt;.&lt;/xref:System.Xml.Serialization.SoapTypeAttribute&gt; bevat&lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Xml.Serialization.SoapTypeAttribute&gt; overrides the serialization of a class, you need not specify a member of the class to override, only the type of the class.</source>
+          <target state="translated">Omdat de &lt;xref:System.Xml.Serialization.SoapTypeAttribute&gt;overschrijft de serialisatie van een klasse, moet u geen lid is van de klasse voor het onderdrukken van alleen het type van de klasse opgeven&lt;/xref:System.Xml.Serialization.SoapTypeAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object that is overridden.</source>
+          <target state="translated">De &lt;xref:System.Type&gt;van het object dat wordt genegeerd.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the overriding attributes.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de overschrijvende kenmerken.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the collection of <bpt id="p2">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects contained by the <bpt id="p3">&lt;xref href="System.Xml.Serialization.SoapAttributeOverrides"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Voegt een <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> aan de verzameling van <bpt id="p2">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objecten in de <bpt id="p3">&lt;xref href="System.Xml.Serialization.SoapAttributeOverrides"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter specifies the object to be overridden by the <bpt id="p2">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept> parameter geeft u het object dat moet worden genegeerd door de <bpt id="p2">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">member</ph><ept id="p1">&lt;/code&gt;</ept> parameter specifies the name of a member that is overridden.</source>
+          <target state="translated">De <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">member</ph> <ept id="p1">&lt;/code&gt;</ept> parameter geeft de naam van een lid dat wordt overschreven.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.Serialization.SoapAttributes&gt; contains a union of attribute objects that cause the &lt;xref:System.Xml.Serialization.XmlSerializer&gt; to override its default serialization behavior for a set of objects.</source>
+          <target state="translated">De &lt;xref:System.Xml.Serialization.SoapAttributes&gt;bevat een samenvoeging van attribute-objecten die ertoe leiden dat de &lt;xref:System.Xml.Serialization.XmlSerializer&gt;voor het onderdrukken van het standaardgedrag voor serialisatie voor een set van objecten.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You choose the attribute objects to place in the &lt;xref:System.Xml.Serialization.SoapAttributes&gt;, depending on the particular behaviors you want to override.</source>
+          <target state="translated">U kiest de kenmerkobjecten te plaatsen in de &lt;xref:System.Xml.Serialization.SoapAttributes&gt;, afhankelijk van de specifieke problemen die u wilt onderdrukken.&lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Xml.Serialization.XmlSerializer&gt; serializes a class member as an XML element by default.</source>
+          <target state="translated">Bijvoorbeeld, de &lt;xref:System.Xml.Serialization.XmlSerializer&gt;een klasselid als een XML-element standaard serialiseert.&lt;/xref:System.Xml.Serialization.XmlSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want the member to be serialized as a SOAP attribute instead, you would create a &lt;xref:System.Xml.Serialization.SoapAttributeAttribute&gt;, assign it to the &lt;xref:System.Xml.Serialization.SoapAttributes.SoapAttribute%2A&gt; property of a &lt;xref:System.Xml.Serialization.SoapAttributes&gt;, and add the &lt;xref:System.Xml.Serialization.XmlAttributes&gt; to the &lt;xref:System.Xml.Serialization.SoapAttributeOverrides&gt;.</source>
+          <target state="translated">Als u wilt dat het lid dat moet worden geserialiseerd als een SOAP-kenmerk in plaats daarvan, maakt u een &lt;xref:System.Xml.Serialization.SoapAttributeAttribute&gt;, toewijzen aan de &lt;xref:System.Xml.Serialization.SoapAttributes.SoapAttribute%2A&gt;eigenschap van een &lt;xref:System.Xml.Serialization.SoapAttributes&gt;, en het toevoegen &lt;xref:System.Xml.Serialization.XmlAttributes&gt;aan de &lt;xref:System.Xml.Serialization.SoapAttributeOverrides&gt;.&lt;/xref:System.Xml.Serialization.SoapAttributeOverrides&gt; &lt;/xref:System.Xml.Serialization.XmlAttributes&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes.SoapAttribute%2A&gt; &lt;/xref:System.Xml.Serialization.SoapAttributeAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Xml.Serialization.SoapAttributeOverrides.Add%2A&gt; method to add the &lt;xref:System.Xml.Serialization.SoapAttributes&gt; to the &lt;xref:System.Xml.Serialization.SoapAttributeOverrides&gt;.</source>
+          <target state="translated">Gebruik de &lt;xref:System.Xml.Serialization.SoapAttributeOverrides.Add%2A&gt;methode om toe te voegen &lt;xref:System.Xml.Serialization.SoapAttributes&gt;aan de &lt;xref:System.Xml.Serialization.SoapAttributeOverrides&gt;.&lt;/xref:System.Xml.Serialization.SoapAttributeOverrides&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt; &lt;/xref:System.Xml.Serialization.SoapAttributeOverrides.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method when the &lt;xref:System.Xml.Serialization.SoapAttributes&gt; contains either a &lt;xref:System.Xml.Serialization.SoapAttributeAttribute&gt;, &lt;xref:System.ComponentModel.DefaultValueAttribute&gt;&lt;xref:System.Xml.Serialization.SoapElementAttribute&gt;, &lt;xref:System.Xml.Serialization.SoapEnumAttribute&gt;, or &lt;xref:System.Xml.Serialization.SoapIgnoreAttribute&gt;.</source>
+          <target state="translated">Gebruik deze methode wanneer de &lt;xref:System.Xml.Serialization.SoapAttributes&gt;bevat ofwel een &lt;xref:System.Xml.Serialization.SoapAttributeAttribute&gt;, &lt;xref:System.ComponentModel.DefaultValueAttribute&gt;&lt;xref:System.Xml.Serialization.SoapElementAttribute&gt;, &lt;xref:System.Xml.Serialization.SoapEnumAttribute&gt;, of &lt;xref:System.Xml.Serialization.SoapIgnoreAttribute&gt;.&lt;/xref:System.Xml.Serialization.SoapIgnoreAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapEnumAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapElementAttribute&gt;&lt;/xref:System.ComponentModel.DefaultValueAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapAttributeAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object to override.</source>
+          <target state="translated">De &lt;xref:System.Type&gt;van het object te overschrijven.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The name of the member to override.</source>
+          <target state="translated">De naam van het lid overschrijven.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the overriding attributes.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de overschrijvende kenmerken.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets the object associated with the specified (base class) type.</source>
+          <target state="translated">Hiermee haalt u het object gekoppeld met het type opgegeven (basisklasse).</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this overload to return a &lt;xref:System.Xml.Serialization.SoapAttributes&gt; that contains attributes for a &lt;xref:System.Xml.Serialization.SoapTypeAttribute&gt;.</source>
+          <target state="translated">Gebruik deze overbelasting retourneren een &lt;xref:System.Xml.Serialization.SoapAttributes&gt;die bevat kenmerken voor een &lt;xref:System.Xml.Serialization.SoapTypeAttribute&gt;.&lt;/xref:System.Xml.Serialization.SoapTypeAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The base class &lt;xref:System.Type&gt; that is associated with the collection of attributes you want to retrieve.</source>
+          <target state="translated">De basisklasse &lt;xref:System.Type&gt;dat is gekoppeld aan de verzameling van kenmerken die u wilt ophalen.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the collection of overriding attributes.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de verzameling van kenmerken te overschrijven.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets the object associated with the specified (base class) type.</source>
+          <target state="translated">Hiermee haalt u het object gekoppeld met het type opgegeven (basisklasse).</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">member</ph><ept id="p1">&lt;/code&gt;</ept> parameter specifies the base class member that is overridden.</source>
+          <target state="translated">De <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">member</ph> <ept id="p1">&lt;/code&gt;</ept> parameter geeft u de basisklasse lid dat wordt genegeerd.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this overload to return a &lt;xref:System.Xml.Serialization.SoapAttributes&gt; that contains attributes that override a &lt;xref:System.Xml.Serialization.SoapAttributeAttribute&gt;, &lt;xref:System.Xml.Serialization.SoapElementAttribute&gt;, &lt;xref:System.Xml.Serialization.SoapIgnoreAttribute&gt;, or &lt;xref:System.Xml.Serialization.SoapEnumAttribute&gt;.</source>
+          <target state="translated">Gebruik deze overbelasting om terug te keren een &lt;xref:System.Xml.Serialization.SoapAttributes&gt;die kenmerken die overschrijven bevat een &lt;xref:System.Xml.Serialization.SoapAttributeAttribute&gt;, &lt;xref:System.Xml.Serialization.SoapElementAttribute&gt;, &lt;xref:System.Xml.Serialization.SoapIgnoreAttribute&gt;, of &lt;xref:System.Xml.Serialization.SoapEnumAttribute&gt;.&lt;/xref:System.Xml.Serialization.SoapEnumAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapIgnoreAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapElementAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapAttributeAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also return a &lt;xref:System.Xml.Serialization.SoapAttributes&gt; that contains the override of a default value that uses a &lt;xref:System.ComponentModel.DefaultValueAttribute&gt;.</source>
+          <target state="translated">U kunt ook teruggaan een &lt;xref:System.Xml.Serialization.SoapAttributes&gt;dat de onderdrukking van een standaardwaarde die gebruikmaakt van een &lt;xref:System.ComponentModel.DefaultValueAttribute&gt;.&lt;/xref:System.ComponentModel.DefaultValueAttribute&gt; bevat&lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Xml.Serialization.SoapAttributes&gt; contains a &lt;xref:System.Xml.Serialization.SoapTypeAttribute&gt;, you must use the overload that specifies only the overridden type.</source>
+          <target state="translated">Als de &lt;xref:System.Xml.Serialization.SoapAttributes&gt;bevat een &lt;xref:System.Xml.Serialization.SoapTypeAttribute&gt;, moet u de overbelasting waarvoor alleen het overschreven type geeft.&lt;/xref:System.Xml.Serialization.SoapTypeAttribute&gt; &lt;/xref:System.Xml.Serialization.SoapAttributes&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The base class &lt;xref:System.Type&gt; that is associated with the collection of attributes you want to override.</source>
+          <target state="translated">De basisklasse &lt;xref:System.Type&gt;dat is gekoppeld aan de verzameling van kenmerken die u wilt onderdrukken.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The name of the overridden member that specifies the <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to return.</source>
+          <target state="translated">De naam van de overschreven lid waarmee de <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om terug te keren.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the collection of overriding attributes.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapAttributes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de verzameling van kenmerken te overschrijven.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

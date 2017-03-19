@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5908d5d0edd2c520f9df0e5663e637eb8e199687</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.TransactionScope.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">243a885573d14a717b17bd03caea9d23d5b5c1df</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0efb73e31bab693ae5bcf0057da20fea807e1bf7</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Makes a code block transactional.</source>
+          <target state="translated">コード ブロックがトランザクションになります。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">このクラスは継承できません。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Transactions&gt; infrastructure provides both an explicit programming model based on the &lt;xref:System.Transactions.Transaction&gt; class, as well as an implicit programming model using the TransactionScope class, in which transactions are automatically managed by the infrastructure.</source>
+          <target state="translated">&lt;xref:System.Transactions&gt;インフラストラクチャでは明示的なプログラミング モデルに基づく、&lt;xref:System.Transactions.Transaction&gt;クラスだけでなくトランザクションを自動的にインフラストラクチャを管理する、TransactionScope クラスを使用する暗黙的なプログラミング モデル&lt;/xref:System.Transactions.Transaction&gt;&lt;/xref:System.Transactions&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  It is recommended that you create implicit transactions using the TransactionScope class, so that the ambient transaction context is automatically managed for you.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; のアンビエント トランザクションのコンテキストが自動的に管理できるように、TransactionScope クラスを使用して暗黙のトランザクションを作成することをお勧めします。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You should also use the TransactionScope and &lt;xref:System.Transactions.DependentTransaction&gt; class for applications that require the use of the same transaction across multiple function calls or multiple thread calls.</source>
+          <target state="translated">TransactionScope を使用することも必要がありますと&lt;xref:System.Transactions.DependentTransaction&gt;複数の関数呼び出しまたは複数のスレッド呼び出しの間で同じトランザクションの使用を必要とするアプリケーションのクラス&lt;/xref:System.Transactions.DependentTransaction&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For more information on this model, see the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">このモデルの詳細については、次を参照してください。、<bpt id="p1">[</bpt>を実装する、暗黙的なトランザクションを使用してトランザクション スコープ<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept>トピックです。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information on writing a transactional application, see <bpt id="p1">[</bpt>Writing A Transactional Application<ept id="p1">](http://msdn.microsoft.com/en-us/4a7cc4d1-0891-4605-941f-a933b9ce5bc8)</ept>.</source>
+          <target state="translated">トランザクション アプリケーションの作成の詳細については、次を参照してください。 <bpt id="p1">[</bpt>A トランザクション アプリケーションの記述<ept id="p1">](http://msdn.microsoft.com/en-us/4a7cc4d1-0891-4605-941f-a933b9ce5bc8)</ept>です。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Upon instantiating a TransactionScope by the <ph id="ph1">`new`</ph> statement, the transaction manager determines which transaction to participate in.</source>
+          <target state="translated">TransactionScope をインスタンス化時に、<ph id="ph1">`new`</ph>ステートメントでは、トランザクション マネージャーは、どのトランザクションに参加するを決定します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Once determined, the scope always participates in that transaction.</source>
+          <target state="translated">いったん決定されると、スコープは常にそのトランザクションに参加します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The decision is based on two factors: whether an ambient transaction is present and the value of the <ph id="ph1">`TransactionScopeOption`</ph> parameter in the constructor.</source>
+          <target state="translated">2 つの要因に基づいて決定された: の値と、アンビエント トランザクションが存在するかどうか、<ph id="ph1">`TransactionScopeOption`</ph>コンス トラクターのパラメーターです。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The ambient transaction is the transaction your code executes in.</source>
+          <target state="translated">アンビエント トランザクションで、コードが実行されるトランザクションです。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can obtain a reference to the ambient transaction by calling the static &lt;xref:System.Transactions.Transaction.Current%2A&gt; property of the &lt;xref:System.Transactions.Transaction&gt; class.</source>
+          <target state="translated">静的&lt;xref:System.Transactions.Transaction.Current%2A&gt;&lt;xref:System.Transactions.Transaction&gt;クラス&lt;/xref:System.Transactions.Transaction&gt;のプロパティ&lt;/xref:System.Transactions.Transaction.Current%2A&gt;を呼び出すことによって、アンビエント トランザクションへの参照を取得することができます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information on how this parameter is used, please see the "Transaction Flow Management" section of the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">このパラメーターの使用方法の詳細については、の「トランザクション フローの管理」セクションを参照してください、<bpt id="p1">[</bpt>を実装する、暗黙的なトランザクションを使用してトランザクション スコープ<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept>トピックです。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If no exception occurs within the transaction scope (that is, between the initialization of the TransactionScope object and the calling of its &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; method), then the transaction in which the scope participates is allowed to proceed.</source>
+          <target state="translated">トランザクション スコープ内で例外が発生しない場合 (つまり、TransactionScope の初期化の間でオブジェクトと、呼び出し元の&lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;メソッド)、スコープが参加しているトランザクションの実行を許可し、&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If an exception does occur within the transaction scope, the transaction in which it participates will be rolled back.</source>
+          <target state="translated">トランザクション スコープ内で例外が発生、参加しているトランザクションはロールバックされます。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>When your application completes all work it wants to perform in a transaction, you should call the &lt;xref:System.Transactions.TransactionScope.Complete%2A&gt; method only once to inform that transaction manager that it is acceptable to commit the transaction.</source>
+          <target state="translated">アプリケーションには、すべての作業が完了すると、トランザクションで実行する、呼び出す必要があります、&lt;xref:System.Transactions.TransactionScope.Complete%2A&gt;トランザクション マネージャーがトランザクションをコミットする許容であることを通知するために&amp;1; 回だけ使用するメソッド&lt;/xref:System.Transactions.TransactionScope.Complete%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Failing to call this method aborts the transaction.</source>
+          <target state="translated">このメソッドの呼び出しに失敗すると、トランザクションが中止されます。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A call to the &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; method marks the end of the transaction scope.</source>
+          <target state="translated">呼び出し、&lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;メソッドは、トランザクション スコープの終了を示します&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Exceptions that occur after calling this method may not affect the transaction.</source>
+          <target state="translated">このメソッドの呼び出し後に発生する例外をトランザクションに影響しない可能性があります。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If you modify the value of &lt;xref:System.Transactions.Transaction.Current%2A&gt; inside a scope, an exception is thrown when &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; is called.</source>
+          <target state="translated">値を変更する場合&lt;xref:System.Transactions.Transaction.Current%2A&gt;、スコープ内で、例外がスロー&lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;と呼びます&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt;&lt;/xref:System.Transactions.Transaction.Current%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>However, at the end of the scope, the previous value is restored.</source>
+          <target state="translated">ただし、スコープの最後に、前の値に戻されます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>In addition, if you call &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; on &lt;xref:System.Transactions.Transaction.Current%2A&gt; inside a transaction scope that created the transaction, the transaction aborts at the end of the scope.</source>
+          <target state="translated">さらに、呼び出した場合&lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;で&lt;xref:System.Transactions.Transaction.Current%2A&gt;スコープの最後に、トランザクションを作成したトランザクション スコープ内部トランザクションが中止された&lt;/xref:System.Transactions.Transaction.Current%2A&gt;&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This constructor creates a new transaction scope with the transaction scope option equal to &lt;xref:System.Transactions.TransactionScopeOption&gt;.</source>
+          <target state="translated">このコンス トラクターを作成新しいトランザクション スコープのトランザクション スコープ オプションを使用して&lt;xref:System.Transactions.TransactionScopeOption&gt;。&lt;/xref:System.Transactions.TransactionScopeOption&gt;に等しい</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>This means that a transaction is required by the new scope and the ambient transaction is used if one already exists.</source>
+          <target state="translated">つまり、新しいスコープでトランザクションが必要な&amp;1; つが既に存在する場合、そのアンビエント トランザクションが使用します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Otherwise, it creates a new transaction before entering the scope.</source>
+          <target state="translated">それ以外の場合、スコープに入る前に新しいトランザクションを作成します。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and sets the specified transaction as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスし、スコープ内で実行されたトランザクションの作業でこのトランザクションを使用するように、アンビエント トランザクション、として指定されたトランザクションを設定します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The transaction to be set as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">スコープ内で行うトランザクションの作業でこのトランザクションを使用するように、アンビエント トランザクションとして設定するトランザクションです。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified asynchronous flow option.</source>
+          <target state="translated">[.NET Framework 4.5.1 以降のバージョンでサポート]      新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラス、非同期フローを指定したオプションを使用します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>タスクまたは async と await の .NET 非同期プログラミング パターンを使用する場合スレッド継続間、トランザクション スコープに関連付けられているアンビエント トランザクションをフローかどうかを表す列挙体です。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified requirements.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定した要件を持つクラス。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このトランザクションのスコープに関連付けられているトランザクションの要件を記述する列挙です。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified timeout value, and sets the specified transaction as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したタイムアウト値を持つクラスし、スコープ内で実行されたトランザクションの作業でこのトランザクションを使用するように、アンビエント トランザクション、として指定されたトランザクションを設定します。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The transaction to be set as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">スコープ内で行うトランザクションの作業でこのトランザクションを使用するように、アンビエント トランザクションとして設定するトランザクションです。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; after which the transaction scope times out and aborts the transaction.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;するまで、トランザクション スコープがタイムアウトになると、トランザクションを中止します&lt;/xref:System.TimeSpan&gt;。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and sets the specified transaction as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">[.NET Framework 4.5.1 以降のバージョンでサポート]      新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスし、スコープ内で実行されたトランザクションの作業でこのトランザクションを使用するように、アンビエント トランザクション、として指定されたトランザクションを設定します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The transaction to be set as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">スコープ内で行うトランザクションの作業でこのトランザクションを使用するように、アンビエント トランザクションとして設定するトランザクションです。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>タスクまたは async と await の .NET 非同期プログラミング パターンを使用する場合スレッド継続間、トランザクション スコープに関連付けられているアンビエント トランザクションをフローかどうかを表す列挙体です。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified timeout value and requirements.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要件と指定したタイムアウト値を持つクラス。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このトランザクションのスコープに関連付けられているトランザクションの要件を記述する列挙です。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; after which the transaction scope times out and aborts the transaction.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;するまで、トランザクション スコープがタイムアウトになると、トランザクションを中止します&lt;/xref:System.TimeSpan&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified requirements.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定した要件を持つクラス。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>When you use the <ph id="ph1">`transactionOptions`</ph> parameter to specify an &lt;xref:System.Transactions.IsolationLevel&gt;, and the scope creates a transaction later, the new transaction is associated with the specified isolation level.</source>
+          <target state="translated">使用する場合、<ph id="ph1">`transactionOptions`</ph>パラメーターを指定、 &lt;xref:System.Transactions.IsolationLevel&gt;、スコープ後でトランザクションを作成して、新しいトランザクションが、指定された分離レベルに関連付けられています&lt;/xref:System.Transactions.IsolationLevel&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If an isolation level is passed in together with a transaction, the transaction must have an identical isolation level, or an exception is thrown.</source>
+          <target state="translated">分離レベルがトランザクションと共に渡された場合は、トランザクションは、同じ分離レベルが必要または、例外がスローされます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このトランザクションのスコープに関連付けられているトランザクションの要件を記述する列挙です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that describes the transaction options to use if a new transaction is created.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>構造体の新しいトランザクションが作成された場合に使用するトランザクションのオプションについて説明します。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>If an existing transaction is used, the timeout value in this parameter applies to the transaction scope.</source>
+          <target state="translated">既存のトランザクションを使用すると、このパラメーターのタイムアウト値は、トランザクション スコープに適用されます。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If that time expires before the scope is disposed, the transaction is aborted.</source>
+          <target state="translated">その時点では、スコープが破棄される前に期限が切れると、トランザクションは中止されます。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified requirements and asynchronous flow option.</source>
+          <target state="translated">[.NET Framework 4.5.1 以降のバージョンでサポート]      新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定した要件と非同期のフローのオプションを持つクラス。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このトランザクションのスコープに関連付けられているトランザクションの要件を記述する列挙です。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>タスクまたは async と await の .NET 非同期プログラミング パターンを使用する場合スレッド継続間、トランザクション スコープに関連付けられているアンビエント トランザクションをフローかどうかを表す列挙体です。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified timeout value and COM+ interoperability requirements, and sets the specified transaction as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したタイムアウト値と COM + 相互運用性要件を持つクラスし、スコープ内で実行されたトランザクションの作業でこのトランザクションを使用するように、アンビエント トランザクション、として指定されたトランザクションを設定します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注<ept id="p1">**</ept>このメソッドを使用して&lt;xref:System.Security.Permissions.SecurityAction&gt;されないようにするで、信頼されていないコードから呼び出されますただし、直前の呼び出し元だけが所有する必要が、<ph id="ph1">`FullTrust`</ph>アクセス許可セット。&lt;/xref:System.Security.Permissions.SecurityAction&gt; 。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The transaction to be set as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">スコープ内で行うトランザクションの作業でこのトランザクションを使用するように、アンビエント トランザクションとして設定するトランザクションです。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; after which the transaction scope times out and aborts the transaction.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;するまで、トランザクション スコープがタイムアウトになると、トランザクションを中止します&lt;/xref:System.TimeSpan&gt;。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.EnterpriseServicesInteropOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes how the associated transaction interacts with COM+ transactions.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.EnterpriseServicesInteropOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>関連付けられているトランザクションが COM + トランザクションと対話する方法を説明する列挙です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified timeout value, and sets the specified transaction as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">[.NET Framework 4.5.1 以降のバージョンでサポート]      新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したタイムアウト値を持つクラスし、スコープ内で実行されたトランザクションの作業でこのトランザクションを使用するように、アンビエント トランザクション、として指定されたトランザクションを設定します。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The transaction to be set as the ambient transaction, so that transactional work done inside the scope uses this transaction.</source>
+          <target state="translated">スコープ内で行うトランザクションの作業でこのトランザクションを使用するように、アンビエント トランザクションとして設定するトランザクションです。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; after which the transaction scope times out and aborts the transaction.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;するまで、トランザクション スコープがタイムアウトになると、トランザクションを中止します&lt;/xref:System.TimeSpan&gt;。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>タスクまたは async と await の .NET 非同期プログラミング パターンを使用する場合スレッド継続間、トランザクション スコープに関連付けられているアンビエント トランザクションをフローかどうかを表す列挙体です。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified timeout value, requirements, and asynchronous flow option.</source>
+          <target state="translated">[.NET Framework 4.5.1 以降のバージョンでサポート]      新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスを指定したタイムアウト値、要件、および非同期フロー オプションを使用します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このトランザクションのスコープに関連付けられているトランザクションの要件を記述する列挙です。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; after which the transaction scope times out and aborts the transaction.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;するまで、トランザクション スコープがタイムアウトになると、トランザクションを中止します&lt;/xref:System.TimeSpan&gt;。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>タスクまたは async と await の .NET 非同期プログラミング パターンを使用する場合スレッド継続間、トランザクション スコープに関連付けられているアンビエント トランザクションをフローかどうかを表す列挙体です。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified scope and COM+ interoperability requirements, and transaction options.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定したスコープと COM + 相互運用性の要件、およびトランザクション オプションを持つクラス。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>When you use the <ph id="ph1">`transactionOptions`</ph> parameter to specify an &lt;xref:System.Transactions.IsolationLevel&gt;, and the scope creates a transaction later, the new transaction is associated with the specified isolation level.</source>
+          <target state="translated">使用する場合、<ph id="ph1">`transactionOptions`</ph>パラメーターを指定、 &lt;xref:System.Transactions.IsolationLevel&gt;、スコープ後でトランザクションを作成して、新しいトランザクションが、指定された分離レベルに関連付けられています&lt;/xref:System.Transactions.IsolationLevel&gt;。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If an isolation level is passed in together with a transaction, the transaction must have an identical isolation level, or an exception is thrown.</source>
+          <target state="translated">分離レベルがトランザクションと共に渡された場合は、トランザクションは、同じ分離レベルが必要または、例外がスローされます。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注<ept id="p1">**</ept>このメソッドを使用して&lt;xref:System.Security.Permissions.SecurityAction&gt;されないようにするで、信頼されていないコードから呼び出されますただし、直前の呼び出し元だけが所有する必要が、<ph id="ph1">`FullTrust`</ph>アクセス許可セット。&lt;/xref:System.Security.Permissions.SecurityAction&gt; 。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このトランザクションのスコープに関連付けられているトランザクションの要件を記述する列挙です。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that describes the transaction options to use if a new transaction is created.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>構造体の新しいトランザクションが作成された場合に使用するトランザクションのオプションについて説明します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>If an existing transaction is used, the timeout value in this parameter applies to the transaction scope.</source>
+          <target state="translated">既存のトランザクションを使用すると、このパラメーターのタイムアウト値は、トランザクション スコープに適用されます。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If that time expires before the scope is disposed, the transaction is aborted.</source>
+          <target state="translated">その時点では、スコープが破棄される前に期限が切れると、トランザクションは中止されます。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.EnterpriseServicesInteropOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes how the associated transaction interacts with COM+ transactions.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.EnterpriseServicesInteropOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>関連付けられているトランザクションが COM + トランザクションと対話する方法を説明する列挙です。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified requirements and asynchronous flow option.</source>
+          <target state="translated">[.NET Framework 4.5.1 以降のバージョンでサポート]      新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定した要件と非同期のフローのオプションを持つクラス。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes the transaction requirements associated with this transaction scope.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このトランザクションのスコープに関連付けられているトランザクションの要件を記述する列挙です。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure that describes the transaction options to use if a new transaction is created.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.TransactionOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>構造体の新しいトランザクションが作成された場合に使用するトランザクションのオプションについて説明します。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If an existing transaction is used, the timeout value in this parameter applies to the transaction scope.</source>
+          <target state="translated">既存のトランザクションを使用すると、このパラメーターのタイムアウト値は、トランザクション スコープに適用されます。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If that time expires before the scope is disposed, the transaction is aborted.</source>
+          <target state="translated">その時点では、スコープが破棄される前に期限が切れると、トランザクションは中止されます。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that describes whether the ambient transaction associated with the transaction scope will flow across thread continuations when using Task or async/await .NET async programming patterns.</source>
+          <target state="translated">インスタンス、 <bpt id="p1">&lt;xref href="System.Transactions.TransactionScopeAsyncFlowOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>タスクまたは async と await の .NET 非同期プログラミング パターンを使用する場合スレッド継続間、トランザクション スコープに関連付けられているアンビエント トランザクションをフローかどうかを表す列挙体です。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Indicates that all operations within the scope are completed successfully.</source>
+          <target state="translated">スコープ内のすべての操作が正常に完了したことを示します。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>When you are satisfied that all operations within the scope are completed successfully, you should call this method only once to inform that transaction manager that the state across all resources is consistent, and the transaction can be committed.</source>
+          <target state="translated">問題がなければ、スコープ内のすべての操作が正常に完了した、すべてのリソースの状態に一貫性があり、トランザクションをコミットすることは、そのトランザクション マネージャーを通知するために&amp;1; 回だけ、このメソッドを呼び出す必要があります。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>It is very good practice to put the call as the last statement in the <ph id="ph1">`using`</ph> block.</source>
+          <target state="translated">最後のステートメントとして呼び出しを配置することを非常に良好である、<ph id="ph1">`using`</ph>ブロックします。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>For more information on how this method is used, see the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">このメソッドの使用方法の詳細については、次を参照してください。、<bpt id="p1">[</bpt>を実装する、暗黙的なトランザクションを使用してトランザクション スコープ<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept>トピックです。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Failing to call this method aborts the transaction, because the transaction manager interprets this as a system failure, or exceptions thrown within the scope of transaction.</source>
+          <target state="translated">このメソッドの呼び出しに失敗すると、トランザクション マネージャー、システム障害として解釈するため、またはトランザクションのスコープ内でスローされる例外に、トランザクションが中止します。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>However, you should also note that calling this method does not guarantee a commit of the transaction.</source>
+          <target state="translated">ただし、このメソッドを呼び出すことも、トランザクションのコミットは保証されませんを注意する必要があります。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>It is merely a way of informing the transaction manager of your status.</source>
+          <target state="translated">トランザクション マネージャーにステータスを通知する手段だけを実行することをお勧めします。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>After calling this method, you can no longer access the ambient transaction via the &lt;xref:System.Transactions.Transaction.Current%2A&gt; property, and trying to do so results in an exception being thrown.</source>
+          <target state="translated">このメソッドを呼び出した後、アクセスできなくなります経由でのアンビエント トランザクション、&lt;xref:System.Transactions.Transaction.Current%2A&gt;プロパティ、およびスローされる例外になりますしようとしています&lt;/xref:System.Transactions.Transaction.Current%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The actual work of commit between the resources manager happens at the <ph id="ph1">`End Using`</ph> statement if the &lt;xref:System.Transactions.TransactionScope&gt; object created the transaction.</source>
+          <target state="translated">リソース マネージャー間のコミットの実際の作業のように、<ph id="ph1">`End Using`</ph>ステートメント場合、&lt;xref:System.Transactions.TransactionScope&gt;オブジェクトは、トランザクションを作成します&lt;/xref:System.Transactions.TransactionScope&gt;。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If it did not create the transaction, the commit occurs whenever &lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt; is called by the owner of the &lt;xref:System.Transactions.CommittableTransaction&gt; object.</source>
+          <target state="translated">コミットがされるたびに発生したトランザクションを作成しなかった場合&lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt;の所有者によって呼び出される、&lt;xref:System.Transactions.CommittableTransaction&gt;オブジェクト&lt;/xref:System.Transactions.CommittableTransaction&gt;&lt;/xref:System.Transactions.CommittableTransaction.Commit%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>At that point the Transaction Manager calls the resource managers and informs them to either commit or rollback, based on whether this method was called on the &lt;xref:System.Transactions.TransactionScope&gt; object.</source>
+          <target state="translated">その時点でトランザクション マネージャーのリソース マネージャーを呼び出してし、commit または rollback をでこのメソッドが呼び出されたかどうかに基づいてのいずれかを知らせる、&lt;xref:System.Transactions.TransactionScope&gt;オブジェクト&lt;/xref:System.Transactions.TransactionScope&gt;。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>This method has already been called once.</source>
+          <target state="translated">このメソッドは既に&amp;1; 回呼び出されています。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Ends the transaction scope.</source>
+          <target state="translated">トランザクション スコープを終了します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Calling this method marks the end of the transaction scope.</source>
+          <target state="translated">このメソッドを呼び出すと、トランザクション スコープの末尾をマークします。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Transactions.TransactionScope&gt; object created the transaction and &lt;xref:System.Transactions.TransactionScope.Complete%2A&gt; was called on the scope, the &lt;xref:System.Transactions.TransactionScope&gt; object attempts to commit the transaction when this method is called.</source>
+          <target state="translated">場合、&lt;xref:System.Transactions.TransactionScope&gt;オブジェクトは、トランザクションを作成し、 &lt;xref:System.Transactions.TransactionScope.Complete%2A&gt;、スコープで呼び出されましたが、&lt;xref:System.Transactions.TransactionScope&gt;オブジェクトが、このメソッドが呼び出されたときに、トランザクションをコミットしようとしています。&lt;/xref:System.Transactions.TransactionScope&gt; &lt;/xref:System.Transactions.TransactionScope.Complete%2A&gt; &lt;/xref:System.Transactions.TransactionScope&gt; 。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The use of the C# <ph id="ph1">`using`</ph> construction ensures that this method is called even if an exception occurs.</source>
+          <target state="translated">C# を使用して<ph id="ph1">`using`</ph>構築により、例外が発生した場合でもこのメソッドを呼び出すことです。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Exceptions that occur after calling this method may not affect the transaction.</source>
+          <target state="translated">このメソッドの呼び出し後に発生する例外をトランザクションに影響しない可能性があります。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This method also restores the ambient transaction to it original state.</source>
+          <target state="translated">このメソッドも、アンビエント トランザクションを元の状態を復元します。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Transactions.TransactionAbortedException&gt; is thrown if the transaction is not actually committed.</source>
+          <target state="translated">A&lt;xref:System.Transactions.TransactionAbortedException&gt;が、トランザクションが実際にコミットされていない場合にスローされます&lt;/xref:System.Transactions.TransactionAbortedException&gt;。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>This method is synchronous and blocks until the transaction has been committed or aborted.</source>
+          <target state="translated">このメソッドは、同期トランザクションをコミットまたは中止するまでブロックします。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Because of this, you should be extremely careful when using this method in a Windows Form (WinForm) application, or a deadlock can occur.</source>
+          <target state="translated">このため、Windows フォーム (WinForm) のアプリケーションでこのメソッドを使用する場合に非常に注意が必要またはデッドロックが発生することができます。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>If you call this method inside one WinForm Control event (for example, clicking a button), and use the synchronous &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; method to direct the control to perform some UI tasks (for example, changing colors) in the middle of processing the transaction, a deadlock will happen.</source>
+          <target state="translated">(たとえば、ボタンをクリックすると)、1 つの WinForm コントロール イベント内でこのメソッドを呼び出すし、同期を使用する場合&lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;、デッドロックが発生するトランザクションの処理中のいくつかの UI タスク (たとえば、変化する色) を実行するコントロールを送信するためのメソッド&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This is because the &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; method is synchronous and blocks the worker thread until the UI thread finishes its job.</source>
+          <target state="translated">これは、ため、&lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;メソッドは同期であり、UI スレッドには、そのジョブが完了するまで、ワーカー スレッドをブロックします&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>However, in our scenario, the UI thread is also waiting for the worker thread to commit the transaction.</source>
+          <target state="translated">ただし、このシナリオでは、UI スレッドも待機しているワーカー スレッドがトランザクションをコミットします。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The result is that none is able to proceed and the scope waits indefinitely for the Commit to finish.</source>
+          <target state="translated">結果とは、[なし] を続行できませんされ、スコープは、コミットの終了を無期限に待機です。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>You should use &lt;xref:System.Windows.Forms.Control.BeginInvoke%2A&gt; rather than &lt;xref:System.Windows.Forms.Control.Invoke%2A&gt; wherever possible, because it is asynchronous and thus less prone to deadlock.</source>
+          <target state="translated">使用する必要があります&lt;xref:System.Windows.Forms.Control.BeginInvoke%2A&gt;なく&lt;xref:System.Windows.Forms.Control.Invoke%2A&gt;可能な限り、非同期、したがってにくくなりましたデッドロックになっているためです。&lt;/xref:System.Windows.Forms.Control.Invoke%2A&gt; &lt;/xref:System.Windows.Forms.Control.BeginInvoke%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>For more information on how this method is used, see the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">このメソッドの使用方法の詳細については、次を参照してください。、<bpt id="p1">[</bpt>を実装する、暗黙的なトランザクションを使用してトランザクション スコープ<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept>トピックです。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

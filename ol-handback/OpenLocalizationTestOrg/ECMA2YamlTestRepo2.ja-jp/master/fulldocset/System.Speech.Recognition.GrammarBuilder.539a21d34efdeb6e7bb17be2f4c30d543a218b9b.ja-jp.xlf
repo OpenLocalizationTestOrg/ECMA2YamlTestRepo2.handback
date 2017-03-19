@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83792bd315deeda3de3926f563700e2e83b712a5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Speech.Recognition.GrammarBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b55d357a6cc7eee2f6d108c0b043b57b0e2eab5f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c4466d6203b5385c19ce7d751b1aabe9dc9a7bd9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a mechanism for programmatically building the constraints for a speech recognition grammar.</source>
+          <target state="translated">音声認識の文法の制約をプログラムで構築するためのメカニズムを提供します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Speech recognition grammars are commonly authored in the XML format defined by the <bpt id="p1">[</bpt>Speech Recognition Grammar Specification (SRGS) Version 1.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=201761)</ept>.</source>
+          <target state="translated">音声認識の文法がによって定義された XML 形式で作成されたよく、<bpt id="p1">[</bpt>音声認識の文法の仕様 (SRGS) バージョン 1.0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=201761)</ept>です。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If you are familiar with SRGS but want to generate the grammars programmatically, you can use the &lt;xref:System.Speech.Recognition.SrgsGrammar&gt; namespace, whose members correspond closely to the elements and attributes defined by SRGS.</source>
+          <target state="translated">使用することができますを SRGS 文法をプログラムで生成するとしている場合、&lt;xref:System.Speech.Recognition.SrgsGrammar&gt;名前空間のメンバーは、要素と SRGS によって定義された属性に密接に対応します&lt;/xref:System.Speech.Recognition.SrgsGrammar&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>If you are unfamiliar with SRGS, or you want a lightweight, programmatic approach to authoring grammars with which you can efficiently accomplish many common scenarios; you can use the GrammarBuilder and &lt;xref:System.Speech.Recognition.Choices&gt; classes.</source>
+          <target state="translated">SRGS に習熟していないか、または場合を効率的に行う多くの一般的なシナリオです。 文法を作成する、軽量のプログラムによるアプローチGrammarBuilder を使用して&lt;xref:System.Speech.Recognition.Choices&gt;クラス&lt;/xref:System.Speech.Recognition.Choices&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Use GrammarBuilder objects to build a hierarchical tree composed of &lt;xref:System.Speech.Recognition.Choices&gt; objects that contain alternate phrases, interspersed with preamble and post-amble phrases at each node, and seeded with semantic values that convey  meaning back to the application.</source>
+          <target state="translated">GrammarBuilder オブジェクトから成る階層ツリーの構築を使用して&lt;xref:System.Speech.Recognition.Choices&gt;代替語句、プリアンブルおよび各ノードで後 amble 語句が混在しておよび意味を伝えるセマンティックの値を持つシード処理が含まれているオブジェクトが、アプリケーションをバックアップします&lt;/xref:System.Speech.Recognition.Choices&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>To use a GrammarBuilder to create a &lt;xref:System.Speech.Recognition.Grammar&gt; object, use the following steps.</source>
+          <target state="translated">GrammarBuilder を使用して作成する、&lt;xref:System.Speech.Recognition.Grammar&gt;オブジェクトを次の手順を使用します&lt;/xref:System.Speech.Recognition.Grammar&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create a GrammarBuilder object.</source>
+          <target state="translated">GrammarBuilder オブジェクトを作成します。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Append constraints to the GrammarBuilder, such as &lt;xref:System.String&gt; objects, &lt;xref:System.Speech.Recognition.Choices&gt;, &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;, &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;, &lt;xref:System.Speech.Recognition.DictationGrammar&gt;, and other GrammarBuilder objects that define the constraints for the grammar.</source>
+          <target state="translated">など、GrammarBuilder に制約を追加&lt;xref:System.String&gt;オブジェクト、 &lt;xref:System.Speech.Recognition.Choices&gt;、 &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;、 &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;、 &lt;xref:System.Speech.Recognition.DictationGrammar&gt;、およびその他の文法の制約を定義する GrammarBuilder オブジェクト&lt;/xref:System.Speech.Recognition.DictationGrammar&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.Choices&gt;&lt;/xref:System.String&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Use one of the &lt;xref:System.Speech.Recognition.Grammar.%23ctor%2A&gt; constructors to create a &lt;xref:System.Speech.Recognition.Grammar&gt; object from the completed GrammarBuilder grammar.</source>
+          <target state="translated">いずれかを使用して、&lt;xref:System.Speech.Recognition.Grammar.%23ctor%2A&gt;コンス トラクターを作成、&lt;xref:System.Speech.Recognition.Grammar&gt;完成した GrammarBuilder 文法からオブジェクト&lt;/xref:System.Speech.Recognition.Grammar&gt;&lt;/xref:System.Speech.Recognition.Grammar.%23ctor%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Authoring with GrammarBuilder is best suited to grammars that have a single rule containing lists, or perhaps lists of lists.</source>
+          <target state="translated">オーサリング GrammarBuilder では、リスト、またはリストの一覧などを含む&amp;1; つの規則の文法に最適です。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To programmatically build grammars that have multiple rules, or that need to make internal rule references, use the classes of the &lt;xref:System.Speech.Recognition.SrgsGrammar&gt; namespace.</source>
+          <target state="translated">プログラムによって、複数のルールがあるか内部ルール参照を作成する必要があるの文法をビルドするには、クラスを使用して、&lt;xref:System.Speech.Recognition.SrgsGrammar&gt;名前空間&lt;/xref:System.Speech.Recognition.SrgsGrammar&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Instances of GrammarBuilder can also be obtained by implicit conversions from certain other classes or by combining a  GrammarBuilder with a second object that contains constraints for a grammar..</source>
+          <target state="translated">その他のクラスから暗黙的な変換によって、または、文法の制約を含む&amp;2; 番目のオブジェクトと、GrammarBuilder を組み合わせることによって、GrammarBuilder のインスタンスを取得することも.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; operators and the &lt;xref:System.Speech.Recognition.GrammarBuilder.Add%2A&gt; methods.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt;演算子および&lt;xref:System.Speech.Recognition.GrammarBuilder.Add%2A&gt;メソッド。&lt;/xref:System.Speech.Recognition.GrammarBuilder.Add%2A&gt; &lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; &lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To add rules to an existing GrammarBuilder, use the &lt;xref:System.Speech.Recognition.GrammarBuilder.Add%2A&gt;, &lt;xref:System.Speech.Recognition.GrammarBuilder.Append%2A&gt;, &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendDictation%2A&gt;, &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt;, and &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendWildcard%2A&gt; methods.</source>
+          <target state="translated">既存の GrammarBuilder にルールを追加するには、使用、 &lt;xref:System.Speech.Recognition.GrammarBuilder.Add%2A&gt;、 &lt;xref:System.Speech.Recognition.GrammarBuilder.Append%2A&gt;、 &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendDictation%2A&gt;、 &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt;、および&lt;xref:System.Speech.Recognition.GrammarBuilder.AppendWildcard%2A&gt;メソッド&lt;/xref:System.Speech.Recognition.GrammarBuilder.AppendWildcard%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder.AppendDictation%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder.Append%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder.Add%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The speech recognizer can throw an exception when using a speech recognition grammar that contains duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the value of the same semantic element.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; で、同じキー名の重複するセマンティック要素、または同じ意味を持つ要素の値を変更することが繰り返しを複数のセマンティック要素を含む、音声認識文法を使用する場合、音声認識エンジンが例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Using SemanticResultKey and SemanticResultValue Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。<bpt id="p1">[</bpt>を使用して SemanticResultKey と SemanticResultValue オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To help with debugging, the &lt;xref:System.Speech.Recognition.GrammarBuilder.DebugShowPhrases%2A&gt; property returns the current status of the GrammarBuilder as a string.</source>
+          <target state="translated">デバッグに役立てるために、&lt;xref:System.Speech.Recognition.GrammarBuilder.DebugShowPhrases%2A&gt;プロパティは文字列として GrammarBuilder の現在の状態を返します&lt;/xref:System.Speech.Recognition.GrammarBuilder.DebugShowPhrases%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information about building and using speech recognition grammars, see <bpt id="p1">[</bpt>Speech Recognition<ept id="p1">](http://msdn.microsoft.com/en-us/6a7dc524-07fc-4862-8d48-8c10dc64b919)</ept> and <bpt id="p2">[</bpt>Creating GrammarBuilder Grammars<ept id="p2">](http://msdn.microsoft.com/en-us/7e2cc577-cb05-4318-9da3-7c8675d3d9ae)</ept>.</source>
+          <target state="translated">ビルドと音声認識の文法の使用の詳細については、次を参照してください。<bpt id="p1">[</bpt>音声認識<ept id="p1">](http://msdn.microsoft.com/en-us/6a7dc524-07fc-4862-8d48-8c10dc64b919)</ept>と<bpt id="p2">[</bpt>作成 GrammarBuilder 文法<ept id="p2">](http://msdn.microsoft.com/en-us/7e2cc577-cb05-4318-9da3-7c8675d3d9ae)</ept>です。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new, empty instance of the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しい、空のインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>To add rules to an existing &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; object, use the &lt;xref:System.Speech.Recognition.GrammarBuilder.Add%2A&gt;, &lt;xref:System.Speech.Recognition.GrammarBuilder.Append%2A&gt;, &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendDictation%2A&gt;, &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt;, and &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendWildcard%2A&gt; methods, and the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; operator.</source>
+          <target state="translated">既存の規則を追加する&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;オブジェクトを使用して、 &lt;xref:System.Speech.Recognition.GrammarBuilder.Add%2A&gt;、 &lt;xref:System.Speech.Recognition.GrammarBuilder.Append%2A&gt;、 &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendDictation%2A&gt;、&lt;xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder.AppendWildcard%2A&gt;メソッド、および&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt;演算子&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder.AppendWildcard%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder.AppendDictation%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder.Append%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder.Add%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The speech recognizer can throw an exception when using a speech recognition grammar that contains duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the value of the same semantic element.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; で、同じキー名の重複するセマンティック要素、または同じ意味を持つ要素の値を変更することが繰り返しを複数のセマンティック要素を含む、音声認識文法を使用する場合、音声認識エンジンが例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Using SemanticResultKey and SemanticResultValue Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。<bpt id="p1">[</bpt>を使用して SemanticResultKey と SemanticResultValue オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from a set of alternatives.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代替のセットからのクラスです。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains alternatives, see <bpt id="p1">[</bpt>Using Choices to Create a GrammarBuilder Grammar<ept id="p1">](http://msdn.microsoft.com/en-us/5b18db18-a5f6-46a3-aa77-6d3141544efd)</ept>.</source>
+          <target state="translated">代替手段を含む、音声認識文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>GrammarBuilder 文法を作成するのを使用する選択肢<ept id="p1">](http://msdn.microsoft.com/en-us/5b18db18-a5f6-46a3-aa77-6d3141544efd)</ept>です。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The set of alternatives.</source>
+          <target state="translated">代替のセット。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from a semantic key.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>セマンティック キーからのクラスです。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>When you create a &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; instance from a &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; object, you add semantic information to the grammar that can be returned in the recognition result.</source>
+          <target state="translated">作成するときに、&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;インスタンスから、&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;オブジェクト、セマンティック情報認識結果で返される文法に追加する&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>You can access the semantic information in the recognition result using the &lt;xref:System.Speech.Recognition.RecognizedPhrase.Semantics%2A&gt; property of &lt;xref:System.Speech.Recognition.RecognizedPhrase&gt;, which is available in the handler for the <ph id="ph1">`SpeechRecognized`</ph> event.</source>
+          <target state="translated">認識の結果を使用して、セマンティック情報にアクセスすることができます、&lt;xref:System.Speech.Recognition.RecognizedPhrase.Semantics%2A&gt;プロパティ&lt;xref:System.Speech.Recognition.RecognizedPhrase&gt;のハンドラーに用意されている、<ph id="ph1">`SpeechRecognized`</ph>イベント&lt;/xref:System.Speech.Recognition.RecognizedPhrase&gt;&lt;/xref:System.Speech.Recognition.RecognizedPhrase.Semantics%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; defines a &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;, this can be used to retrieve the semantic information in a recognition result that is associated with the key.</source>
+          <target state="translated">場合、&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;定義、 &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;、これは、認識結果がキーに関連付けられているセマンティクス情報の取得に使用することができます&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>See the example for &lt;xref:System.Speech.Recognition.GrammarBuilder.Append%28System.Speech.Recognition.SemanticResultKey%29&gt;, and also see &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; and &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;.</source>
+          <target state="translated">例を参照して&lt;xref:System.Speech.Recognition.GrammarBuilder.Append%28System.Speech.Recognition.SemanticResultKey%29&gt;、とも&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;および&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;.&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.GrammarBuilder.Append%28System.Speech.Recognition.SemanticResultKey%29&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you construct &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 構築する際に&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンス、ように繰り返しを変更する可能性を複数のセマンティック要素か、同じキー名と重複するセマンティック要素を作成しないようにすることを確認して、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Using SemanticResultKey and SemanticResultValue Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。<bpt id="p1">[</bpt>を使用して SemanticResultKey と SemanticResultValue オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The semantic key.</source>
+          <target state="translated">セマンティック キー。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from a semantic value.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>セマンティック値からのクラスです。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>When you create a &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; instance from a &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; object, you add semantic information to the grammar that can be returned in the recognition result.</source>
+          <target state="translated">作成するときに、&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;インスタンスから、&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;オブジェクト、セマンティック情報認識結果で返される文法に追加する&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>You can access the semantic information in the recognition result using the &lt;xref:System.Speech.Recognition.RecognizedPhrase.Semantics%2A&gt; property of &lt;xref:System.Speech.Recognition.RecognizedPhrase&gt;, which is available in the handler for the <ph id="ph1">`SpeechRecognized`</ph> event.</source>
+          <target state="translated">認識の結果を使用して、セマンティック情報にアクセスすることができます、&lt;xref:System.Speech.Recognition.RecognizedPhrase.Semantics%2A&gt;プロパティ&lt;xref:System.Speech.Recognition.RecognizedPhrase&gt;のハンドラーに用意されている、<ph id="ph1">`SpeechRecognized`</ph>イベント&lt;/xref:System.Speech.Recognition.RecognizedPhrase&gt;&lt;/xref:System.Speech.Recognition.RecognizedPhrase.Semantics%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; defines a &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;, this can be used to retrieve the semantic information in a recognition result that is associated with the key.</source>
+          <target state="translated">場合、&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;定義、 &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;、これは、認識結果がキーに関連付けられているセマンティクス情報の取得に使用することができます&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>See the example for &lt;xref:System.Speech.Recognition.GrammarBuilder.Append%28System.Speech.Recognition.SemanticResultKey%29&gt;, and also see &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; and &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;.</source>
+          <target state="translated">例を参照して&lt;xref:System.Speech.Recognition.GrammarBuilder.Append%28System.Speech.Recognition.SemanticResultKey%29&gt;、とも&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;および&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;.&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.GrammarBuilder.Append%28System.Speech.Recognition.SemanticResultKey%29&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you construct &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 構築する際に&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンス、ように繰り返しを変更する可能性を複数のセマンティック要素か、同じキー名と重複するセマンティック要素を作成しないようにすることを確認して、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Using SemanticResultKey and SemanticResultValue Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。<bpt id="p1">[</bpt>を使用して SemanticResultKey と SemanticResultValue オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The semantic value or name/value pair.</source>
+          <target state="translated">セマンティック値または名前/値ペア。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from a sequence of words.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>単語のシーケンスからのクラスです。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The phrase represents an exact spoken phrase that the speech recognition grammar can recognize.</source>
+          <target state="translated">語句では、音声認識の文法が認識できる完全な音声句を表します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains strings, see <bpt id="p1">[</bpt>Using Strings to Create a GrammarBuilder Grammar<ept id="p1">](http://msdn.microsoft.com/en-us/0d87b445-a342-4369-9b3f-91d07fd7e114)</ept>.</source>
+          <target state="translated">文字列を含む、音声認識文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>GrammarBuilder 文法を作成するには、文字列の使い方<ept id="p1">](http://msdn.microsoft.com/en-us/0d87b445-a342-4369-9b3f-91d07fd7e114)</ept>です。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The sequence of words.</source>
+          <target state="translated">単語のシーケンス。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for a subset of a sequence of words.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>語の並びのサブセットのクラスです。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`phrase`</ph> parameter represents the phrase that the speech recognition grammar can recognize.</source>
+          <target state="translated"><ph id="ph1">`phrase`</ph>パラメーターは、音声認識の文法が認識できる語句を表します。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`subsetMatchingMode`</ph> parameter specifies a subset of the phrase that can be spoken to achieve successful recognition of the entire phrase.</source>
+          <target state="translated"><ph id="ph1">`subsetMatchingMode`</ph>語句全体が成功した認識を実現するために読み上げることができます、語句のサブセットを指定します。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can use this to create a grammar with a list of entries that have long names, without requiring users to speak an entire name to match an item.</source>
+          <target state="translated">これを使用して、長い名前を持つ、ユーザーが項目に一致する名前全体を読み上げるためにもエントリの一覧で、文法を作成することができます。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For more information about the matching modes, see &lt;xref:System.Speech.Recognition.SubsetMatchingMode&gt;.</source>
+          <target state="translated">一致するモードの詳細については、 &lt;xref:System.Speech.Recognition.SubsetMatchingMode&gt;。&lt;/xref:System.Speech.Recognition.SubsetMatchingMode&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains strings, see <bpt id="p1">[</bpt>Using Strings to Create a GrammarBuilder Grammar<ept id="p1">](http://msdn.microsoft.com/en-us/0d87b445-a342-4369-9b3f-91d07fd7e114)</ept>.</source>
+          <target state="translated">文字列を含む、音声認識文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>GrammarBuilder 文法を作成するには、文字列の使い方<ept id="p1">](http://msdn.microsoft.com/en-us/0d87b445-a342-4369-9b3f-91d07fd7e114)</ept>です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The sequence of words.</source>
+          <target state="translated">単語のシーケンス。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The matching mode the speech recognition grammar uses to recognize the phrase.</source>
+          <target state="translated">一致するモード、音声認識の文法は、語句を認識するように使用します。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from a repeated element.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>繰り返される要素のクラスです。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the value of <ph id="ph1">`minRepeat`</ph> is 0, then the new &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; represents an optional element.</source>
+          <target state="translated">場合の値<ph id="ph1">`minRepeat`</ph>が 0 の場合、新しい&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;省略可能な要素を表します&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The value of <ph id="ph1">`minRepeat`</ph> must be greater than or equal to 0 and less than or equal to the value of <ph id="ph2">`maxRepeat`</ph>.</source>
+          <target state="translated">値<ph id="ph1">`minRepeat`</ph>0 以上にする必要がありますの値以下<ph id="ph2">`maxRepeat`</ph>です。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you specify repeats for &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; のクラッシュの回数を指定すると&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンス、ように繰り返しを変更する可能性を複数のセマンティック要素か、同じキー名と重複するセマンティック要素を作成しないようにすることを確認して、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Using SemanticResultKey and SemanticResultValue Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。<bpt id="p1">[</bpt>を使用して SemanticResultKey と SemanticResultValue オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The repeated element.</source>
+          <target state="translated">繰り返される要素です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The minimum number of times that input matching the element defined by <ph id="ph1">`builder`</ph> must occur to constitute a match.</source>
+          <target state="translated">入力で定義された要素に一致する最小回数<ph id="ph1">`builder`</ph>一致するものを構成するために実行する必要があります。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The maximum number of times that input matching the element defined by <ph id="ph1">`builder`</ph> can occur to constitute a match.</source>
+          <target state="translated">入力で定義された要素に一致する最大回数<ph id="ph1">`builder`</ph>一致する順序を発生することができます。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the sequence of words in a &lt;xref:System.String&gt; and specifies how many times the &lt;xref:System.String&gt; can be repeated.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>内の単語のシーケンスからのクラス、&lt;xref:System.String&gt;回数を指定し、&lt;xref:System.String&gt;繰り返すことができます&lt;/xref:System.String&gt;&lt;/xref:System.String&gt;。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the value of <ph id="ph1">`minRepeat`</ph> is 0, then the new &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; represents an optional element.</source>
+          <target state="translated">場合の値<ph id="ph1">`minRepeat`</ph>が 0 の場合、新しい&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;省略可能な要素を表します&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The value of <ph id="ph1">`minRepeat`</ph> must be greater than or equal to 0 and less than or equal to the value of <ph id="ph2">`maxRepeat`</ph>.</source>
+          <target state="translated">値<ph id="ph1">`minRepeat`</ph>0 以上にする必要がありますの値以下<ph id="ph2">`maxRepeat`</ph>です。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains strings, see <bpt id="p1">[</bpt>Using Strings to Create a GrammarBuilder Grammar<ept id="p1">](http://msdn.microsoft.com/en-us/0d87b445-a342-4369-9b3f-91d07fd7e114)</ept>.</source>
+          <target state="translated">文字列を含む、音声認識文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>GrammarBuilder 文法を作成するには、文字列の使い方<ept id="p1">](http://msdn.microsoft.com/en-us/0d87b445-a342-4369-9b3f-91d07fd7e114)</ept>です。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The repeated sequence of words.</source>
+          <target state="translated">単語の繰り返されるシーケンス。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The minimum number of times that input matching the phrase must occur to constitute a match.</source>
+          <target state="translated">一致する語句を入力する時間の最小数は、一致する順序を行う必要があります。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The maximum number of times that input matching the phrase can occur to constitute a match.</source>
+          <target state="translated">一致する語句を入力する時間の最大数に一致する順序を発生します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a <bpt id="p2">&lt;xref href="System.Speech.Recognition.Choices"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object followed by a <bpt id="p3">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>を格納している、 <bpt id="p2">&lt;xref href="System.Speech.Recognition.Choices"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトに続けて、 <bpt id="p3">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Speech.Recognition.GrammarBuilder&gt; supports implicit conversions from the following classes:      -   &lt;xref:System.Speech.Recognition.Choices&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;      -   &lt;xref:System.String&gt;       This method accepts the objects listed above for the <ph id="ph1">`builder`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;次のクラスから暗黙的な変換をサポートしている:- &lt;xref:System.Speech.Recognition.Choices&gt;- &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;- &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;-&lt;xref:System.String&gt;このメソッドの上に示したオブジェクトを受け入れる、<ph id="ph1">`builder`</ph>パラメーター&lt;/xref:System.String&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.Choices&gt; 。&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; operators.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt;演算子。&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; &lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you combine &lt;xref:System.Speech.Recognition.Choices&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; を結合すると&lt;xref:System.Speech.Recognition.Choices&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンス、ように繰り返しを変更する可能性を複数のセマンティック要素か、同じキー名と重複するセマンティック要素を作成しないようにすることを確認して、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;&lt;/xref:System.Speech.Recognition.Choices&gt;。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Add Semantics to a GrammarBuilder Grammar<ept id="p1">](https://msdn.microsoft.com/library/hh361581.aspx)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>GrammarBuilder 文法に追加のセマンティクス<ept id="p1">](https://msdn.microsoft.com/library/hh361581.aspx)</ept>です。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The first grammar element, which represents a set of alternatives.</source>
+          <target state="translated">最初の文法要素を代替のセットを表します。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The second grammar element.</source>
+          <target state="translated">2 番目の文法要素。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the sequence of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">choices</ph><ept id="p2">&lt;/code&gt;</ept> element followed by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">builder</ph><ept id="p3">&lt;/code&gt;</ept> element.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のシーケンスを<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">choices</ph> <ept id="p2">&lt;/code&gt;</ept>要素が続く、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">builder</ph> <ept id="p3">&lt;/code&gt;</ept>要素。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object followed by a <bpt id="p3">&lt;xref href="System.Speech.Recognition.Choices"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>を格納している、 <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトに続けて、 <bpt id="p3">&lt;xref href="System.Speech.Recognition.Choices"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Speech.Recognition.GrammarBuilder&gt; supports implicit conversions from the following classes:      -   &lt;xref:System.Speech.Recognition.Choices&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;      -   &lt;xref:System.String&gt;       This method accepts the objects listed above for the <ph id="ph1">`builder`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;次のクラスから暗黙的な変換をサポートしている:- &lt;xref:System.Speech.Recognition.Choices&gt;- &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;- &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;-&lt;xref:System.String&gt;このメソッドの上に示したオブジェクトを受け入れる、<ph id="ph1">`builder`</ph>パラメーター&lt;/xref:System.String&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.Choices&gt; 。&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; operators.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt;演算子。&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; &lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you combine &lt;xref:System.Speech.Recognition.Choices&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances with other grammar elements, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; を結合すると&lt;xref:System.Speech.Recognition.Choices&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;、他の文法要素を持つインスタンスように繰り返しを変更する可能性を複数のセマンティック要素か、同じキー名と重複するセマンティック要素を作成しないようにすることを確認して、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;&lt;/xref:System.Speech.Recognition.Choices&gt;。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Using SemanticResultKey and SemanticResultValue Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。<bpt id="p1">[</bpt>を使用して SemanticResultKey と SemanticResultValue オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The first grammar element.</source>
+          <target state="translated">最初の文法要素。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The second grammar element, which represents a set of alternatives.</source>
+          <target state="translated">2 番目の文法要素で代替のセットを表します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the sequence of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">builder</ph><ept id="p2">&lt;/code&gt;</ept> element followed by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">choices</ph><ept id="p3">&lt;/code&gt;</ept> element.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のシーケンスを<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">builder</ph> <ept id="p2">&lt;/code&gt;</ept>要素が続く、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">choices</ph> <ept id="p3">&lt;/code&gt;</ept>要素。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a sequence of two <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&amp;2; つのシーケンスを格納している<bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Speech.Recognition.GrammarBuilder&gt; supports implicit conversions from the following classes:      -   &lt;xref:System.Speech.Recognition.Choices&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;      -   &lt;xref:System.String&gt;       This method accepts the objects listed above for the <ph id="ph1">`builder1`</ph> or <ph id="ph2">`builder2`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;次のクラスから暗黙的な変換をサポートしている:- &lt;xref:System.Speech.Recognition.Choices&gt;- &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;- &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;-&lt;xref:System.String&gt;このメソッドの上に示したオブジェクトを受け入れる、<ph id="ph1">`builder1`</ph>または<ph id="ph2">`builder2`</ph>パラメーター&lt;/xref:System.String&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.Choices&gt; 。&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; operators.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt;演算子。&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; &lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you combine &lt;xref:System.Speech.Recognition.Choices&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances with other grammar elements, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; を結合すると&lt;xref:System.Speech.Recognition.Choices&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;、他の文法要素を持つインスタンスように繰り返しを変更する可能性を複数のセマンティック要素か、同じキー名と重複するセマンティック要素を作成しないようにすることを確認して、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;&lt;/xref:System.Speech.Recognition.Choices&gt;。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Using SemanticResultKey and SemanticResultValue Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。<bpt id="p1">[</bpt>を使用して SemanticResultKey と SemanticResultValue オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The first grammar element.</source>
+          <target state="translated">最初の文法要素。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The second grammar element.</source>
+          <target state="translated">2 番目の文法要素。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the sequence of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">builder1</ph><ept id="p2">&lt;/code&gt;</ept> element followed by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">builder2</ph><ept id="p3">&lt;/code&gt;</ept> element.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のシーケンスを<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">builder1</ph> <ept id="p2">&lt;/code&gt;</ept>要素が続く、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">builder2</ph> <ept id="p3">&lt;/code&gt;</ept>要素。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object followed by a phrase.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>を格納している、 <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>句の前にオブジェクト。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Speech.Recognition.GrammarBuilder&gt; supports implicit conversions from the following classes:      -   &lt;xref:System.Speech.Recognition.Choices&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;      -   &lt;xref:System.String&gt;       This method accepts the objects listed above for the <ph id="ph1">`builder`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;次のクラスから暗黙的な変換をサポートしている:- &lt;xref:System.Speech.Recognition.Choices&gt;- &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;- &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;-&lt;xref:System.String&gt;このメソッドの上に示したオブジェクトを受け入れる、<ph id="ph1">`builder`</ph>パラメーター&lt;/xref:System.String&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.Choices&gt; 。&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; operators.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt;演算子。&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; &lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The first grammar element.</source>
+          <target state="translated">最初の文法要素。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The second grammar element, which represents a sequence of words.</source>
+          <target state="translated">2 番目の文法要素、語の並びを表します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the sequence of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">builder</ph><ept id="p2">&lt;/code&gt;</ept> element followed by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">phrase</ph><ept id="p3">&lt;/code&gt;</ept> element.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のシーケンスを<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">builder</ph> <ept id="p2">&lt;/code&gt;</ept>要素が続く、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">phrase</ph> <ept id="p3">&lt;/code&gt;</ept>要素。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a phrase followed by a <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>続くフレーズを含む、 <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Speech.Recognition.GrammarBuilder&gt; supports implicit conversions from the following classes:      -   &lt;xref:System.Speech.Recognition.Choices&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;      -   &lt;xref:System.String&gt;       This method accepts the objects listed above for the <ph id="ph1">`builder`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;次のクラスから暗黙的な変換をサポートしている:- &lt;xref:System.Speech.Recognition.Choices&gt;- &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;- &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;-&lt;xref:System.String&gt;このメソッドの上に示したオブジェクトを受け入れる、<ph id="ph1">`builder`</ph>パラメーター&lt;/xref:System.String&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.Choices&gt; 。&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; operators.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt;演算子。&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Addition%2A&gt; &lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The first grammar element, which represents a sequence of words.</source>
+          <target state="translated">最初の文法要素語の並びを表します。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The second grammar element.</source>
+          <target state="translated">2 番目の文法要素。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the sequence of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">phrase</ph><ept id="p2">&lt;/code&gt;</ept> element followed by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">builder</ph><ept id="p3">&lt;/code&gt;</ept> element.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のシーケンスを<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">phrase</ph> <ept id="p2">&lt;/code&gt;</ept>要素が続く、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">builder</ph> <ept id="p3">&lt;/code&gt;</ept>要素。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Appends a set of alternatives to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスに代替のセットを追加します。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`alternateChoices`</ph> is added to the end of the current sequence of elements.</source>
+          <target state="translated"><ph id="ph1">`alternateChoices`</ph>要素の現在のシーケンスの末尾に追加されます。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you append &lt;xref:System.Speech.Recognition.Choices&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances to a &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; object, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 追加すると&lt;xref:System.Speech.Recognition.Choices&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンスを&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;オブジェクト、同じキー名または繰り返しを変更する可能性を複数のセマンティック要素で重複するセマンティック要素を作成しないようにするかどうかを確認、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.Choices&gt;。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Understanding SemanticResultValue and SemanticResultKey Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>Understanding SemanticResultValue と SemanticResultKey オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The set of alternatives to append.</source>
+          <target state="translated">追加する代替のセット。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Appends a grammar element to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスに文法要素を追加します。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`builder`</ph> is added to the end of the current sequence of grammar elements.</source>
+          <target state="translated"><ph id="ph1">`builder`</ph>文法要素の現在のシーケンスの末尾に追加されます。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When you append &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances to a &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; object, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 追加すると&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンスを&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;オブジェクト、同じキー名または繰り返しを変更する可能性を複数のセマンティック要素で重複するセマンティック要素を作成しないようにするかどうかを確認、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Using SemanticResultKey and SemanticResultValue Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。<bpt id="p1">[</bpt>を使用して SemanticResultKey と SemanticResultValue オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The grammar element to append.</source>
+          <target state="translated">追加する文法要素。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Appends a semantic key to the current sequence of grammar elements.</source>
+          <target state="translated">セマンティック キーを文法要素の現在のシーケンスに追加します。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`key`</ph> is added to the end of the current sequence of elements.</source>
+          <target state="translated"><ph id="ph1">`key`</ph>要素の現在のシーケンスの末尾に追加されます。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you append  &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;instances to a &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; object, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt;object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 追加すると&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンスを&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;オブジェクト、同じキー名または繰り返しを変更する可能性を複数のセマンティック要素で重複するセマンティック要素を作成しないようにするかどうかを確認、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Understanding SemanticResultValue and SemanticResultKey Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>Understanding SemanticResultValue と SemanticResultKey オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The semantic key to append.</source>
+          <target state="translated">追加するセマンティック キー。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Appends a semantic value to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスをセマンティックの値を追加します。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`value`</ph> is added to the end of the current sequence of elements.</source>
+          <target state="translated"><ph id="ph1">`value`</ph>要素の現在のシーケンスの末尾に追加されます。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you append  &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;instances to a &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; object, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt;object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 追加すると&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンスを&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;オブジェクト、同じキー名または繰り返しを変更する可能性を複数のセマンティック要素で重複するセマンティック要素を作成しないようにするかどうかを確認、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Understanding SemanticResultValue and SemanticResultKey Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>Understanding SemanticResultValue と SemanticResultKey オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The semantic value to append.</source>
+          <target state="translated">追加するセマンティック値。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Appends a phrase to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスに句を追加します。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`phrase`</ph> is added to the end of the current sequence of elements.</source>
+          <target state="translated"><ph id="ph1">`phrase`</ph>要素の現在のシーケンスの末尾に追加されます。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The sequence of words to append.</source>
+          <target state="translated">追加する単語のシーケンス。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Appends an element for a subset of a phrase to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスには、語句のサブセットの要素を追加します。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The subset element is added to the end of the current sequence of elements.</source>
+          <target state="translated">サブセット要素は、要素の現在のシーケンスの末尾に追加されます。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar using strings, see <bpt id="p1">[</bpt>Using Strings to Create a GrammarBuilder Grammar<ept id="p1">](http://msdn.microsoft.com/en-us/0d87b445-a342-4369-9b3f-91d07fd7e114)</ept>.</source>
+          <target state="translated">文字列を使用する音声認識の文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>GrammarBuilder 文法を作成するには、文字列の使い方<ept id="p1">](http://msdn.microsoft.com/en-us/0d87b445-a342-4369-9b3f-91d07fd7e114)</ept>です。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>For detailed information on the use of subset matching modes, see &lt;xref:System.Speech.Recognition.SubsetMatchingMode?displayProperty=fullName&gt;.</source>
+          <target state="translated">一致するモードのサブセットの使用に関する詳細については、 &lt;xref:System.Speech.Recognition.SubsetMatchingMode?displayProperty=fullName&gt;。&lt;/xref:System.Speech.Recognition.SubsetMatchingMode?displayProperty=fullName&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The sequence of words to append.</source>
+          <target state="translated">追加する単語のシーケンス。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The matching mode the grammar uses to recognize the phrase.</source>
+          <target state="translated">一致するモード文法は、語句を認識するように使用します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Appends a repeated grammar element to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスを何度も文法要素を追加します。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The value of <ph id="ph1">`minRepeat`</ph> must be greater than or equal to 0 and less than or equal to the value of <ph id="ph2">`maxRepeat`</ph>.</source>
+          <target state="translated">値<ph id="ph1">`minRepeat`</ph>0 以上にする必要がありますの値以下<ph id="ph2">`maxRepeat`</ph>です。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you append &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;instances to a &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; object, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt;object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 追加すると&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンスを&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;オブジェクト、同じキー名または繰り返しを変更する可能性を複数のセマンティック要素で重複するセマンティック要素を作成しないようにするかどうかを確認、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Understanding SemanticResultValue and SemanticResultKey Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>Understanding SemanticResultValue と SemanticResultKey オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The repeated grammar element to append.</source>
+          <target state="translated">追加する繰り返しの文法要素。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The minimum number of times that input matching the element defined by <ph id="ph1">`builder`</ph> must occur to constitute a match.</source>
+          <target state="translated">入力で定義された要素に一致する最小回数<ph id="ph1">`builder`</ph>一致するものを構成するために実行する必要があります。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The maximum number of times that input matching the element defined by <ph id="ph1">`builder`</ph> can occur to constitute a match.</source>
+          <target state="translated">入力で定義された要素に一致する最大回数<ph id="ph1">`builder`</ph>一致する順序を発生することができます。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Appends a repeated phrase to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスに繰り返される語句を追加します。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The value of <ph id="ph1">`minRepeat`</ph> must be greater than or equal to 0 and less than or equal to the value of <ph id="ph2">`maxRepeat`</ph>.</source>
+          <target state="translated">値<ph id="ph1">`minRepeat`</ph>0 以上にする必要がありますの値以下<ph id="ph2">`maxRepeat`</ph>です。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The repeated sequence of words to append.</source>
+          <target state="translated">追加する単語の繰り返されるシーケンス。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The minimum number of times that input matching <ph id="ph1">`phrase`</ph> must occur to constitute a match.</source>
+          <target state="translated">入力に一致する最小回数<ph id="ph1">`phrase`</ph>一致するものを構成するために実行する必要があります。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The maximum number of times that input matching <ph id="ph1">`phrase`</ph> can occur to constitute a match.</source>
+          <target state="translated">入力に一致する最大回数<ph id="ph1">`phrase`</ph>一致する順序を発生することができます。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Appends the default dictation grammar to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスを既定ディクテーション文法を追加します。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>For more information on dictation grammars, see &lt;xref:System.Speech.Recognition.DictationGrammar&gt;.</source>
+          <target state="translated">ディクテーションの文法の詳細については、 &lt;xref:System.Speech.Recognition.DictationGrammar&gt;。&lt;/xref:System.Speech.Recognition.DictationGrammar&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Appends the specified dictation grammar to the current sequence of grammar elements.</source>
+          <target state="translated">指定したディクテーション文法を文法要素の現在のシーケンスに追加します。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>To use the spelling dictation grammar, set <ph id="ph1">`category`</ph> to <ph id="ph2">`spelling`</ph>.</source>
+          <target state="translated">文章ディクテーション モードを使用する設定<ph id="ph1">`category`</ph>に<ph id="ph2">`spelling`</ph>です。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>For more information on dictation grammars, see &lt;xref:System.Speech.Recognition.DictationGrammar&gt;.</source>
+          <target state="translated">ディクテーションの文法の詳細については、 &lt;xref:System.Speech.Recognition.DictationGrammar&gt;。&lt;/xref:System.Speech.Recognition.DictationGrammar&gt;を参照してください。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The category of the dictation grammar to append.</source>
+          <target state="translated">追加するディクテーション文法のカテゴリ。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Appends a grammar definition file to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスに文法定義ファイルを追加します。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The URI provided by the <ph id="ph1">`path`</ph> argument may be local or remote.</source>
+          <target state="translated">によって提供される URI、<ph id="ph1">`path`</ph>ローカルまたはリモートを引数として使用することがあります。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The application must have read access to the location of specified grammar files.</source>
+          <target state="translated">アプリケーションによっては、指定された文法ファイルの場所に読み取りアクセス権が必要です。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>A W3C Speech Recognition Grammar Specification (SRGS) representation can define a root rule.</source>
+          <target state="translated">W3C 音声認識の文法の仕様 (SRGS) 形式では、ルート ルールを定義できます。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This method appends the grammar, beginning with its root rule, to the current sequence of grammar elements.</source>
+          <target state="translated">このメソッドは、文章では、以降の文法要素の現在のシーケンスをルート ルールを追加します。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>To append a specific grammar rule, use the &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt; method.</source>
+          <target state="translated">特定の文法ルールを追加するを使用して、&lt;xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt;メソッド&lt;/xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The path or Universal Resource Identifier (URI) of the file that describes a speech recognition grammar in a supported format.</source>
+          <target state="translated">パスまたはサポートされている形式で、音声認識の文法を説明するファイルのユニバーサル リソース識別子 (URI)。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Appends the specified rule of a grammar definition file to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスに文法定義ファイルの指定されたルールを追加します。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The URI provided by the <ph id="ph1">`path`</ph> argument may be local or remote.</source>
+          <target state="translated">によって提供される URI、<ph id="ph1">`path`</ph>ローカルまたはリモートを引数として使用することがあります。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The application must have read access to the location of specified grammar files.</source>
+          <target state="translated">アプリケーションによっては、指定された文法ファイルの場所に読み取りアクセス権が必要です。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>You can use the use the &lt;xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt; method to append a grammar file beginning with its root rule.</source>
+          <target state="translated">使用して、&lt;xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt;そのルートの規則に文法ファイルの先頭に追加するメソッド&lt;/xref:System.Speech.Recognition.GrammarBuilder.AppendRuleReference%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The file path or Universal Resource Identifier (URI) of the file that describes a speech recognition grammar in a supported format.</source>
+          <target state="translated">ファイル パスまたはサポートされている形式で、音声認識の文法を説明するファイルのユニバーサル リソース識別子 (URI)。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The identifier of the rule to append, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to append the default root rule of the grammar file.</source>
+          <target state="translated">追加するルールの識別子または<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>文法ファイルの既定のルート ルールを追加します。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Appends a recognition grammar element that matches any input to the current sequence of grammar elements.</source>
+          <target state="translated">文法要素の現在のシーケンスを任意の入力に一致する認識文法要素を追加します。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The wildcard element is added to the end of the current sequence of elements.</source>
+          <target state="translated">ワイルドカード要素は、要素の現在のシーケンスの末尾に追加されます。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The wildcard element matches any spoken word.</source>
+          <target state="translated">ワイルドカード要素では、話された単語と一致します。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>It does not match background noise or silence.</source>
+          <target state="translated">バック グラウンド ノイズまたはサイレント状態は一致しません。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Gets or sets the culture of the speech recognition grammar.</source>
+          <target state="translated">取得または音声認識の文法のカルチャを設定します。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Speech.Recognition.Grammar.%23ctor%2A&gt; constructor creates a &lt;xref:System.Speech.Recognition.Grammar&gt; object that can be used by a speech recognizer of the corresponding culture.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.Grammar.%23ctor%2A&gt;コンス トラクターを作成、&lt;xref:System.Speech.Recognition.Grammar&gt;の対応するカルチャの音声認識エンジンで使用できるオブジェクト&lt;/xref:System.Speech.Recognition.Grammar&gt;&lt;/xref:System.Speech.Recognition.Grammar.%23ctor%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Only the Culture property of the &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; that is provided as the parameter to the Grammar constructor is used to set the culture of the resulting speech recognition grammar.</source>
+          <target state="translated">カルチャ プロパティのみ、&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;文法コンス トラクターにパラメーターが結果として得られる音声認識の文法のカルチャを設定するためには、提供される&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Microsoft Windows and the System.Speech API accept all valid language-country codes.</source>
+          <target state="translated">Microsoft Windows および System.Speech API は、すべての有効な言語-国コードを受け取ります。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>To perform speech recognition using the language specified in the <ph id="ph1">`Culture`</ph> property, a speech recognition engine that supports that language-country code must be installed.</source>
+          <target state="translated">指定された言語を使用する音声認識を実行する、<ph id="ph1">`Culture`</ph>プロパティ、言語、国コードをインストールする必要があるをサポートする音声認識エンジンです。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The speech recognition engines that shipped with Microsoft Windows 7 work with the following language-country codes.</source>
+          <target state="translated">Microsoft Windows 7 に同梱されている音声認識エンジンは、次の言語、国コードで動作します。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>-   en-GB.</source>
+          <target state="translated">-en GB です。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>English (United Kingdom)      -   en-US.</source>
+          <target state="translated">英語 (英国) - EN-US です。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>English (United States)      -   de-DE.</source>
+          <target state="translated">英語 (米国) - DE-DE です。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>German (Germany)      -   es-ES.</source>
+          <target state="translated">ドイツ語 (ドイツ) - ES-ES です。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Spanish (Spain)      -   fr-FR.</source>
+          <target state="translated">スペイン語 (スペイン) - fr-fr などです。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>French (France)      -   ja-JP.</source>
+          <target state="translated">フランス語 (フランス) - JA-JP です。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Japanese (Japan)      -   zh-CN.</source>
+          <target state="translated">日本語 (日本) - ZH-CN です。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Chinese (China)      -   zh-TW.</source>
+          <target state="translated">中国語 (中国) - zh-tw があります。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Chinese (Taiwan)       Two-letter language codes such as "en", "fr", or "es" are also permitted.</source>
+          <target state="translated">"En"、"fr"または"es"などの中国語 (台湾) の&amp;2; 文字言語コードも許可されています。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The culture of the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">カルチャ、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The default is the executing thread's &lt;xref:System.Threading.Thread.CurrentUICulture*&gt; property.</source>
+          <target state="translated">既定値は、実行中のスレッドの&lt;xref:System.Threading.Thread.CurrentUICulture*&gt;プロパティ&lt;/xref:System.Threading.Thread.CurrentUICulture*&gt;。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Gets a string that shows the contents and structure of the grammar contained by the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">コンテンツと構造の文法に含まれるを示す文字列を取得、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The current content and structure of the <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">現在のコンテンツとの構造、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a <bpt id="p2">&lt;xref href="System.Speech.Recognition.Choices"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object followed by a <bpt id="p3">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>を格納している、 <bpt id="p2">&lt;xref href="System.Speech.Recognition.Choices"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>オブジェクトに続けて、 <bpt id="p3">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Speech.Recognition.GrammarBuilder&gt; supports conversions from the following classes.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;次のクラスからの変換をサポートしています。&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Speech.Recognition.Choices&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;      -   &lt;xref:System.String&gt;       This method accepts the objects listed above for the <ph id="ph1">`builder`</ph> parameter.</source>
+          <target state="translated">- &lt;xref:System.Speech.Recognition.Choices&gt;- &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;- &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;-&lt;xref:System.String&gt;このメソッドの上に示したオブジェクトを受け入れる、<ph id="ph1">`builder`</ph>パラメーター&lt;/xref:System.String&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.Choices&gt; 。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; operators.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;演算子。&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you combine &lt;xref:System.Speech.Recognition.Choices&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; を結合すると&lt;xref:System.Speech.Recognition.Choices&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンス、ように繰り返しを変更する可能性を複数のセマンティック要素か、同じキー名と重複するセマンティック要素を作成しないようにすることを確認して、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;&lt;/xref:System.Speech.Recognition.Choices&gt;。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Understanding SemanticResultValue and SemanticResultKey Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>Understanding SemanticResultValue と SemanticResultKey オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The first grammar element, which represents a set of alternatives.</source>
+          <target state="translated">最初の文法要素を代替のセットを表します。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The second grammar element.</source>
+          <target state="translated">2 番目の文法要素。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the sequence of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">choices</ph><ept id="p2">&lt;/code&gt;</ept> parameter followed by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">builder</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のシーケンスを<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">choices</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターの後に、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">builder</ph> <ept id="p3">&lt;/code&gt;</ept>パラメーター。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> followed by a <bpt id="p3">&lt;xref href="System.Speech.Recognition.Choices"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>を格納している、 <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>続けて、 <bpt id="p3">&lt;xref href="System.Speech.Recognition.Choices"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Speech.Recognition.GrammarBuilder&gt; supports conversions from the following classes:      -   &lt;xref:System.Speech.Recognition.Choices&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;      -   &lt;xref:System.String&gt;       This method accepts the objects listed above for the <ph id="ph1">`builder`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;次のクラスからの変換をサポートしている:- &lt;xref:System.Speech.Recognition.Choices&gt;- &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;- &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;-&lt;xref:System.String&gt;このメソッドの上に示したオブジェクトを受け入れる、<ph id="ph1">`builder`</ph>パラメーター&lt;/xref:System.String&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.Choices&gt; 。&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; operators.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;演算子。&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you combine &lt;xref:System.Speech.Recognition.Choices&gt; and &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; を結合すると&lt;xref:System.Speech.Recognition.Choices&gt;と&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンス、ように繰り返しを変更する可能性を複数のセマンティック要素か、同じキー名と重複するセマンティック要素を作成しないようにすることを確認して、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;&lt;/xref:System.Speech.Recognition.Choices&gt;。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Understanding SemanticResultValue and SemanticResultKey Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>Understanding SemanticResultValue と SemanticResultKey オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The first grammar element.</source>
+          <target state="translated">最初の文法要素。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>The second grammar element, which represents a set of alternative elements.</source>
+          <target state="translated">2 番目の文法要素、別の要素のセットを表します。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the sequence of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">builder</ph><ept id="p2">&lt;/code&gt;</ept> parameter followed by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">choices</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のシーケンスを<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">builder</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターの後に、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">choices</ph> <ept id="p3">&lt;/code&gt;</ept>パラメーター。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a sequence of two <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>&amp;2; つのシーケンスを格納している<bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>オブジェクト。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Speech.Recognition.GrammarBuilder&gt; supports conversions from the following classes.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;次のクラスからの変換をサポートしています。&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Speech.Recognition.Choices&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;      -   &lt;xref:System.String&gt;       This method accepts the objects listed above for the <ph id="ph1">`builder1`</ph> and <ph id="ph2">`builder2`</ph> parameters.</source>
+          <target state="translated">- &lt;xref:System.Speech.Recognition.Choices&gt;- &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;- &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;-&lt;xref:System.String&gt;このメソッドの上に示したオブジェクトを受け入れる、<ph id="ph1">`builder1`</ph>と<ph id="ph2">`builder2`</ph>パラメーター&lt;/xref:System.String&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.Choices&gt; 。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; operators.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;演算子。&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When you combine &lt;xref:System.Speech.Recognition.GrammarBuilder&gt; objects that contain &lt;xref:System.Speech.Recognition.SemanticResultValue&gt; or &lt;xref:System.Speech.Recognition.SemanticResultKey&gt; instances, make sure you avoid creating duplicate semantic elements with the same key name or multiple semantic elements that could repeatedly modify the &lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt; property of a &lt;xref:System.Speech.Recognition.SemanticValue&gt; object.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; を結合すると&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;を含むオブジェクト&lt;xref:System.Speech.Recognition.SemanticResultValue&gt;または&lt;xref:System.Speech.Recognition.SemanticResultKey&gt;インスタンス、ように繰り返しを変更する可能性を複数のセマンティック要素か、同じキー名と重複するセマンティック要素を作成しないようにすることを確認して、&lt;xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;のプロパティ、&lt;xref:System.Speech.Recognition.SemanticValue&gt;オブジェクト&lt;/xref:System.Speech.Recognition.SemanticValue&gt;&lt;/xref:System.Speech.Recognition.SemanticValue.Value%2A&gt;&lt;/xref:System.Speech.Recognition.SemanticResultKey&gt;&lt;/xref:System.Speech.Recognition.SemanticResultValue&gt;&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The speech recognizer can throw an exception if it encounters these circumstances.</source>
+          <target state="translated">音声認識エンジンは、このような状況が発生した場合、例外をスローできます。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>For more information about building a speech recognition grammar that contains semantic information, see <bpt id="p1">[</bpt>Understanding SemanticResultValue and SemanticResultKey Objects<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>.</source>
+          <target state="translated">セマンティック情報を格納する音声認識の文法の構築に関する詳細については、次を参照してください。 <bpt id="p1">[</bpt>Understanding SemanticResultValue と SemanticResultKey オブジェクト<ept id="p1">](http://msdn.microsoft.com/en-us/0fea1236-5261-4608-89b3-9ce9ffc22a1c)</ept>です。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The first grammar element.</source>
+          <target state="translated">最初の文法要素。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The second grammar element.</source>
+          <target state="translated">2 番目の文法要素。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the sequence of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">builder1</ph><ept id="p2">&lt;/code&gt;</ept> parameter followed by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">builder2</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のシーケンスを<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">builder1</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターの後に、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">builder2</ph> <ept id="p3">&lt;/code&gt;</ept>パラメーター。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> followed by a phrase.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>を格納している、 <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>語句続きます。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Speech.Recognition.GrammarBuilder&gt; supports conversions from the following classes.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;次のクラスからの変換をサポートしています。&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Speech.Recognition.Choices&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;      -   &lt;xref:System.String&gt;       This method accepts the objects listed above for the <ph id="ph1">`builder`</ph> parameter.</source>
+          <target state="translated">- &lt;xref:System.Speech.Recognition.Choices&gt;- &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;- &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;-&lt;xref:System.String&gt;このメソッドの上に示したオブジェクトを受け入れる、<ph id="ph1">`builder`</ph>パラメーター&lt;/xref:System.String&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.Choices&gt; 。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; operators.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;演算子。&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The first grammar element.</source>
+          <target state="translated">最初の文法要素。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The second grammar element, which represents a sequence of words.</source>
+          <target state="translated">2 番目の文法要素、語の並びを表します。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the sequence of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">builder</ph><ept id="p2">&lt;/code&gt;</ept> parameter followed by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">phrase</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のシーケンスを<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">builder</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターの後に、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">phrase</ph> <ept id="p3">&lt;/code&gt;</ept>パラメーター。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a phrase followed by a <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">新たに作成<bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>続くフレーズを含む、 <bpt id="p2">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Speech.Recognition.GrammarBuilder&gt; supports conversions from the following classes.</source>
+          <target state="translated">&lt;xref:System.Speech.Recognition.GrammarBuilder&gt;次のクラスからの変換をサポートしています。&lt;/xref:System.Speech.Recognition.GrammarBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Speech.Recognition.Choices&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;      -   &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;      -   &lt;xref:System.String&gt;       This method accepts the objects listed above for the <ph id="ph1">`builder`</ph> parameter.</source>
+          <target state="translated">- &lt;xref:System.Speech.Recognition.Choices&gt;- &lt;xref:System.Speech.Recognition.SemanticResultKey&gt;- &lt;xref:System.Speech.Recognition.SemanticResultValue&gt;-&lt;xref:System.String&gt;このメソッドの上に示したオブジェクトを受け入れる、<ph id="ph1">`builder`</ph>パラメーター&lt;/xref:System.String&gt; &lt;/xref:System.Speech.Recognition.SemanticResultValue&gt; &lt;/xref:System.Speech.Recognition.SemanticResultKey&gt; &lt;/xref:System.Speech.Recognition.Choices&gt; 。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>For more information, see the &lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; operators.</source>
+          <target state="translated">詳細については、次を参照してください、&lt;xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt;演算子。&lt;/xref:System.Speech.Recognition.GrammarBuilder.op_Implicit%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The first grammar element, which represents a sequence of words.</source>
+          <target state="translated">最初の文法要素語の並びを表します。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The second grammar element.</source>
+          <target state="translated">2 番目の文法要素。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the sequence of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">phrase</ph><ept id="p2">&lt;/code&gt;</ept> parameter followed by the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">builder</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">返します、 <bpt id="p1">&lt;xref href="System.Speech.Recognition.GrammarBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>のシーケンスを<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">phrase</ph> <ept id="p2">&lt;/code&gt;</ept>パラメーターの後に、 <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">builder</ph> <ept id="p3">&lt;/code&gt;</ept>パラメーター。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

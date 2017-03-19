@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b8d65760219a0ce4bd4424a9b83e641e47605a0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.WorkflowInstance.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4e6e702c117e76b8e63b0a961ed5ccf67a06fdfd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5a51cd59410f67f181cb908bc3ac707224cdd07</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a workflow instance.</source>
+          <target state="translated">Vertegenwoordigt een workflowexemplaar.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       The WorkflowInstance class exposes methods and properties that can be used to control the execution of a workflow instance; it is essentially a proxy to the actual workflow instance used by the workflow runtime engine.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>De WorkflowInstance met de klasse wordt methoden en eigenschappen die kunnen worden gebruikt voor het beheren van de uitvoering van een workflowexemplaar; het is in wezen een proxy voor het werkelijke werkstroomexemplaar gebruikt door de workflow runtime engine.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A host or a service can instruct the workflow runtime engine to perform actions on a workflow instance by calling the appropriate methods that are contained in the WorkflowInstance class.</source>
+          <target state="translated">Een host of een service kunt opdracht geven de workflow runtime engine acties uitvoeren op een workflowexemplaar door het aanroepen van de juiste methoden die zijn opgenomen in de WorkflowInstance-klasse.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the requested action is not valid, for example, if the host calls &lt;xref:System.Workflow.Runtime.WorkflowInstance.Load%2A&gt; on a workflow instance that has already completed, the workflow runtime engine will raise an appropriate exception.</source>
+          <target state="translated">Als de gevraagde bewerking niet geldig, bijvoorbeeld is als de host aanroept &lt;xref:System.Workflow.Runtime.WorkflowInstance.Load%2A&gt;op een workflowexemplaar die al is voltooid, verhoogt de workflow runtime engine een juiste uitzondering.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.Load%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If a workflow instance becomes unresponsive because a call on the host application does not return, the only way to recover the instance is to restart the runtime.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Als een workflowexemplaar meer reageert, omdat een aanroep van de host-toepassing geen retourneert, de enige manier om het herstellen van het exemplaar is opnieuw opstarten van de runtime.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the instance has been forcibly unloaded, aborted, or suspended, it can be continued by calling the &lt;xref:System.Workflow.Runtime.WorkflowInstance.Resume%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Echter, als het exemplaar geforceerd verwijderd is, afgebroken of onderbroken, deze kan worden overgenomen door het aanroepen van de &lt;xref:System.Workflow.Runtime.WorkflowInstance.Resume%2A?displayProperty=fullName&gt;methode.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.Resume%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Aborts the workflow instance.</source>
+          <target state="translated">Annuleert het workflowexemplaar.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow instance is aborted in a synchronous manner; that is, the method returns after the workflow instance has been aborted.</source>
+          <target state="translated">Het workflowexemplaar is afgebroken in een synchrone manier; dat wil zeggen, retourneert de methode nadat het workflowexemplaar is afgebroken.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime engine invalidates the workflow instance in memory and clears the &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.</source>
+          <target state="translated">De workflow runtime engine ongeldig exemplaar van de workflow in het geheugen en wist u de &lt;xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowEnvironment.WorkBatch%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a persistence service was used by your workflow instance, all work performed since the last persistence point is thrown away.</source>
+          <target state="translated">Als een permanente service door uw workflowexemplaar is gebruikt, wordt al het werk uitgevoerd sinds het laatste punt in de persistentie is weggegooid.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After it aborts the workflow instance, the workflow runtime engine raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowAborted&gt; event.</source>
+          <target state="translated">Nadat het exemplaar van de workflow annuleert, wordt de workflow runtime engine gegeven de &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowAborted&gt;gebeurtenis.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowAborted&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can call &lt;xref:System.Workflow.Runtime.WorkflowRuntime.GetWorkflow%2A&gt; to reload the workflow instance and start from its last persistence point.</source>
+          <target state="translated">U kunt aanroepen &lt;xref:System.Workflow.Runtime.WorkflowRuntime.GetWorkflow%2A&gt;opnieuw laden van het workflowexemplaar en starten van het laatste punt in de persistentie.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.GetWorkflow%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Abort`</ph> is different from &lt;xref:System.Workflow.Runtime.WorkflowInstance.Terminate%2A&gt; in that while <ph id="ph2">`Abort`</ph> simply clears the in-memory workflow instance and can be restarted from the last persistence point, Terminate clears the in-memory workflow instance and informs the persistence service that the instance has been cleared from memory.</source>
+          <target state="translated"><ph id="ph1">`Abort`</ph>verschilt van &lt;xref:System.Workflow.Runtime.WorkflowInstance.Terminate%2A&gt;in dat hoewel <ph id="ph2">`Abort`</ph> gewoon in het geheugen van het werkstroomexemplaar wordt gewist en opnieuw te starten vanaf het laatste punt van de persistentie beëindigen in het geheugen van het werkstroomexemplaar wordt gewist en de service persistentie informeert dat het exemplaar is verwijderd uit het geheugen.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.Terminate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;, this means that all state information for that workflow instance is deleted from the database upon termination.</source>
+          <target state="translated">Voor de &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;, dit betekent dat alle statusinformatie voor dat betreffende werkstroomexemplaar wordt verwijderd uit de database bij beëindiging.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will not be able to reload the workflow instance from a previously stored persistence point.</source>
+          <target state="translated">Niet mogelijk om opnieuw te laden van het workflowexemplaar vanaf een eerder opgeslagen persistentie-punt.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Applies changes to the workflow instance specified by the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Hiermee past u wijzigingen aan het werkstroomexemplaar dat is opgegeven door de <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the workflow instance is not already suspended, the workflow runtime engine temporarily suspends the instance before applying the changes.</source>
+          <target state="translated">Als het werkstroomexemplaar is niet wordt onderbroken, wordt het exemplaar tijdelijk onderbroken met de workflow runtime engine voordat u de wijzigingen toepast.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying dynamic updates for the workflow instance.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.WorkflowChanges"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> dynamische updates voor het werkstroomexemplaar opgeven.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Posts a message to the specified workflow queue synchronously.</source>
+          <target state="translated">Plaatst een bericht in de wachtrij opgegeven workflow wordt synchroon.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sends the <ph id="ph1">`item`</ph> to the specified &lt;xref:System.Workflow.Runtime.WorkflowQueue&gt;.</source>
+          <target state="translated">Verzendt de <ph id="ph1">`item`</ph> naar de opgegeven &lt;xref:System.Workflow.Runtime.WorkflowQueue&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowQueue&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to be notified when the message is delivered, you can implement &lt;xref:System.Workflow.Runtime.IPendingWork&gt; in your service and pass a <ph id="ph1">`workItem`</ph> and an &lt;xref:System.Workflow.Runtime.IPendingWork&gt; object to EnqueueItem.</source>
+          <target state="translated">Als u worden gewaarschuwd wilt wanneer het bericht heeft ontvangen, kunt u implementeren &lt;xref:System.Workflow.Runtime.IPendingWork&gt;in uw service aan en geeft u een <ph id="ph1">`workItem`</ph> en een &lt;xref:System.Workflow.Runtime.IPendingWork&gt;EnqueueItem-object.&lt;/xref:System.Workflow.Runtime.IPendingWork&gt; &lt;/xref:System.Workflow.Runtime.IPendingWork&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not want such notification, you can pass a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic) for <ph id="ph2">`pendingWork`</ph> and <ph id="ph3">`workItem`</ph>.</source>
+          <target state="translated">Als u niet dat deze kennisgeving wilt, kunt u een null-verwijzing doorgeven (<ph id="ph1">`Nothing`</ph> in Visual Basic) voor <ph id="ph2">`pendingWork`</ph> en <ph id="ph3">`workItem`</ph>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using this method with a state machine workflow, you might get an exception with the message "Queue '{0}' is not enabled."</source>
+          <target state="translated">Als u deze methode met een werkstroom van de machine status, krijgt u mogelijk een uitzondering met het bericht 'wachtrij {0} is niet ingeschakeld."</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This happens when the current state of the state machine does not know how to handle a specific event.</source>
+          <target state="translated">Dit gebeurt wanneer de huidige status van de statusmachine niet weet hoe een specifieke gebeurtenis te verwerken.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, when some state other than the current state contains the &lt;xref:System.Workflow.Activities.EventDrivenActivity&gt; that contains the &lt;xref:System.Workflow.Activities.HandleExternalEventActivity&gt; that is represented by the queue '{0}'.</source>
+          <target state="translated">Bijvoorbeeld wanneer bepaalde status moet hebben dan de huidige status bevat de &lt;xref:System.Workflow.Activities.EventDrivenActivity&gt;die bevat de &lt;xref:System.Workflow.Activities.HandleExternalEventActivity&gt;die wordt vertegenwoordigd door de wachtrij {0}.&lt;/xref:System.Workflow.Activities.HandleExternalEventActivity&gt; &lt;/xref:System.Workflow.Activities.EventDrivenActivity&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Messages are not guaranteed to be received by the workflow instance in the order that they were sent.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Berichten niet worden gegarandeerd wordt ontvangen door het workflowexemplaar in de volgorde waarin ze zijn verzonden.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if receiving a message in an existing queue (Queue A) causes a workflow to create another queue (Queue B), which then listens for another message sent after the first message, it is possible that the second message will arrive first, and will not be received due to its queue not being created yet.</source>
+          <target state="translated">Bijvoorbeeld, als de ontvangst van een bericht in een bestaand queue (een wachtrij) oorzaken een werkstroom te maken van een andere wachtrij wachtrij B, die vervolgens naar een ander bericht luistert na het eerste bericht is verzonden, is het mogelijk dat het tweede bericht eerst binnenkomen wordt en niet zullen worden ontvangen als gevolg van de wachtrij wordt nog niet gemaakt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To prevent this issue, the second message should not be sent until the presence of the second queue is verified (using &lt;xref:System.Workflow.Runtime.WorkflowInstance.GetWorkflowQueueData%2A&gt;.)</source>
+          <target state="translated">Om te voorkomen dat dit probleem, de tweede bericht niet moet worden verzonden tot de aanwezigheid van de tweede wachtrij is geverifieerd (met behulp van &lt;xref:System.Workflow.Runtime.WorkflowInstance.GetWorkflowQueueData%2A&gt;.)&lt;/xref:System.Workflow.Runtime.WorkflowInstance.GetWorkflowQueueData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De naam van de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The object to enqueue.</source>
+          <target state="translated">Het object in de wachtrij plaatsen.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.Runtime.IPendingWork"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that allows the sender to be notified when <ph id="ph1">`item`</ph> is delivered.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.Runtime.IPendingWork"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarmee de afzender om te worden geïnformeerd wanneer <ph id="ph1">`item`</ph> wordt geleverd.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An object to be passed to the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.IPendingWork"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> methods.</source>
+          <target state="translated">Een object dat moet worden doorgegeven aan de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.IPendingWork"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> methoden.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;queueName&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;queueName&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">queueName</ph><ept id="p2">&lt;/code&gt;</ept> does not exist.</source>
+          <target state="translated">- of - de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opgegeven door <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">queueName</ph> <ept id="p2">&lt;/code&gt;</ept> bestaat niet.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">queueName</ph><ept id="p2">&lt;/code&gt;</ept> is not enabled.</source>
+          <target state="translated">- of - de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opgegeven door <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">queueName</ph> <ept id="p2">&lt;/code&gt;</ept> is niet ingeschakeld.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Posts a message to the specified workflow queue when the workflow is idle.</source>
+          <target state="translated">Plaatst een bericht in de wachtrij opgegeven werkstroom wanneer de werkstroom niet actief is.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>EnqueueItemOnIdle waits until the workflow reaches an idle point and enqueues after verifying that the workflow scheduler is idle (that is, no active operation is being executed).</source>
+          <target state="translated">EnqueueItemOnIdle wacht totdat de werkstroom is een niet-actieve point- and -enqueues nadat u hebt gecontroleerd dat de planner werkstroom inactief is bereikt (dat wil zeggen, geen actieve bewerking wordt uitgevoerd).</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Waits for the workflow instance to become idle and then sends the <ph id="ph1">`item`</ph> to the specified &lt;xref:System.Workflow.Runtime.WorkflowQueue&gt;.</source>
+          <target state="translated">Wacht tot het workflowexemplaar naar inactief en stuurt vervolgens de <ph id="ph1">`item`</ph> naar de opgegeven &lt;xref:System.Workflow.Runtime.WorkflowQueue&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowQueue&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call EnqueueItemOnIdle while the workflow instance is suspended, the workflow runtime engine will throw an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">Als u EnqueueItemOnIdle aanroept terwijl het werkstroomexemplaar is onderbroken, genereert de workflow runtime engine een &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to be notified when the message is delivered, you can implement &lt;xref:System.Workflow.Runtime.IPendingWork&gt; in your service and pass a <ph id="ph1">`workItem`</ph> and an &lt;xref:System.Workflow.Runtime.IPendingWork&gt; object to &lt;xref:System.Workflow.Runtime.WorkflowInstance.EnqueueItem%2A&gt;.</source>
+          <target state="translated">Als u worden gewaarschuwd wilt wanneer het bericht heeft ontvangen, kunt u implementeren &lt;xref:System.Workflow.Runtime.IPendingWork&gt;in uw service aan en geeft u een <ph id="ph1">`workItem`</ph> en een &lt;xref:System.Workflow.Runtime.IPendingWork&gt;object dat moet &lt;xref:System.Workflow.Runtime.WorkflowInstance.EnqueueItem%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.EnqueueItem%2A&gt; &lt;/xref:System.Workflow.Runtime.IPendingWork&gt; &lt;/xref:System.Workflow.Runtime.IPendingWork&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not want such notification, you can pass a null reference (<ph id="ph1">`Nothing`</ph> in Visual Basic) for <ph id="ph2">`pendingWork`</ph> and <ph id="ph3">`workItem`</ph>.</source>
+          <target state="translated">Als u niet dat deze kennisgeving wilt, kunt u een null-verwijzing doorgeven (<ph id="ph1">`Nothing`</ph> in Visual Basic) voor <ph id="ph2">`pendingWork`</ph> en <ph id="ph3">`workItem`</ph>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are using this method with a state machine workflow, you might get an exception that contains the message "Queue '{0}' is not enabled."</source>
+          <target state="translated">Als u van deze methode met een werkstroom van de machine status gebruikmaakt, krijgt u mogelijk een uitzondering met het bericht "Wachtrij {0} is niet ingeschakeld."</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This occurs when the current state of the state machine does not know how to handle a specific event.</source>
+          <target state="translated">Dit gebeurt wanneer de huidige status van de statusmachine niet weet hoe een specifieke gebeurtenis te verwerken.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, when some state other than the current state contains the &lt;xref:System.Workflow.Activities.EventDrivenActivity&gt; that contains the &lt;xref:System.Workflow.Activities.HandleExternalEventActivity&gt; that is represented by the queue '{0}'.</source>
+          <target state="translated">Bijvoorbeeld wanneer bepaalde status moet hebben dan de huidige status bevat de &lt;xref:System.Workflow.Activities.EventDrivenActivity&gt;die bevat de &lt;xref:System.Workflow.Activities.HandleExternalEventActivity&gt;die wordt vertegenwoordigd door de wachtrij {0}.&lt;/xref:System.Workflow.Activities.HandleExternalEventActivity&gt; &lt;/xref:System.Workflow.Activities.EventDrivenActivity&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The name of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De naam van de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The object to enqueue.</source>
+          <target state="translated">Het object in de wachtrij plaatsen.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.Runtime.IPendingWork"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that allows the sender to be notified when <ph id="ph1">`item`</ph> is delivered.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.Runtime.IPendingWork"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarmee de afzender om te worden geïnformeerd wanneer <ph id="ph1">`item`</ph> wordt geleverd.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An object to be passed to the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.IPendingWork"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> methods.</source>
+          <target state="translated">Een object dat moet worden doorgegeven aan de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.IPendingWork"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> methoden.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;queueName&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;queueName&lt;/code&gt;</ph>is een null-verwijzing (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>-or-       The workflow instance is suspended.</source>
+          <target state="translated">- of - exemplaar van de workflow is onderbroken.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">queueName</ph><ept id="p2">&lt;/code&gt;</ept> does not exist.</source>
+          <target state="translated">- of - de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opgegeven door <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">queueName</ph> <ept id="p2">&lt;/code&gt;</ept> bestaat niet.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">queueName</ph><ept id="p2">&lt;/code&gt;</ept> is not enabled.</source>
+          <target state="translated">- of - de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opgegeven door <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">queueName</ph> <ept id="p2">&lt;/code&gt;</ept> is niet ingeschakeld.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the specified object is equal to the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Retourneert een waarde die aangeeft of het opgegeven object is gelijk aan de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The object must be an instance of the &lt;xref:System.Workflow.Runtime.WorkflowInstance&gt; class and have the same &lt;xref:System.Workflow.Runtime.WorkflowInstance.InstanceId%2A&gt; as this &lt;xref:System.Workflow.Runtime.WorkflowInstance&gt;.</source>
+          <target state="translated">Het object moet een exemplaar van de &lt;xref:System.Workflow.Runtime.WorkflowInstance&gt;klasse en hebben de dezelfde &lt;xref:System.Workflow.Runtime.WorkflowInstance.InstanceId%2A&gt;Als deze &lt;xref:System.Workflow.Runtime.WorkflowInstance&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowInstance&gt; &lt;/xref:System.Workflow.Runtime.WorkflowInstance.InstanceId%2A&gt; &lt;/xref:System.Workflow.Runtime.WorkflowInstance&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The object to compare.</source>
+          <target state="translated">Het object te vergelijken.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified object is equal to this <bpt id="p2">&lt;xref href="System.Workflow.Runtime.WorkflowInstance"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het opgegeven object gelijk aan dit is <bpt id="p2">&lt;xref href="System.Workflow.Runtime.WorkflowInstance"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Returns the hash code for this workflow instance.</source>
+          <target state="translated">Retourneert de hash-code voor dit werkstroomexemplaar.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetHashCode returns a hash code based on the value of &lt;xref:System.Workflow.Runtime.WorkflowInstance.InstanceId%2A&gt;.</source>
+          <target state="translated">GetHashCode retourneert een hashcode op basis van de waarde van &lt;xref:System.Workflow.Runtime.WorkflowInstance.InstanceId%2A&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.InstanceId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The hash code for this <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De hash-code voor deze <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Retrieves the root activity for this workflow instance.</source>
+          <target state="translated">Haalt de hoofdactiviteit voor dit werkstroomexemplaar.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the root activity to navigate the activity hierarchy of the workflow.</source>
+          <target state="translated">U kunt de hoofdactiviteit door de activiteit van de werkstroom navigeren.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is not thread safe, so the host should synchronize its calls to this method.</source>
+          <target state="translated">Deze methode is niet thread-veilig, zodat de aanroepen naar deze methode door de host synchroniseren moet.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Returns the next point in time that this <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is scheduled to be delivered a timer message.</source>
+          <target state="translated">Retourneert het volgende punt in tijd dat dit <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is gepland voor een timerbericht worden geleverd.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A DateTime value that represents the next &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt*&gt; time this <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will be delivered a timer message.</source>
+          <target state="translated">Een datum / tijdwaarde die de volgende vertegenwoordigt &lt;xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt*&gt;tijd dit <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowInstance"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> een timerbericht wordt bezorgd.&lt;/xref:System.Workflow.Runtime.TimerEventSubscription.ExpiresAt*&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Gets a collection of <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueueInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that contains the pending items and subscribed activities for the workflow queues associated with this workflow instance.</source>
+          <target state="translated">Hiermee wordt een verzameling <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueueInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objecten die met de items die in behandeling en activiteiten voor de werkstroom wachtrijen geabonneerd die zijn gekoppeld aan dit werkstroomexemplaar van de.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetWorkflowQueueData returns a collection of &lt;xref:System.Workflow.Runtime.WorkflowQueueInfo&gt; objects, each of which contains information about the state of one of the workflow queues associated with this workflow instance.</source>
+          <target state="translated">Retourneert een verzameling van GetWorkflowQueueData &lt;xref:System.Workflow.Runtime.WorkflowQueueInfo&gt;objecten, die elk informatie over de status van een van de werkstroom wachtrijen die zijn gekoppeld aan dit werkstroomexemplaar van de bevat.&lt;/xref:System.Workflow.Runtime.WorkflowQueueInfo&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Workflow.Runtime.WorkflowQueueInfo.Items%2A?displayProperty=fullName&gt; contains the pending items for a &lt;xref:System.Workflow.Runtime.WorkflowQueue&gt; and &lt;xref:System.Workflow.Runtime.WorkflowQueueInfo.SubscribedActivityNames%2A?displayProperty=fullName&gt; contains a list of the activities that are subscribed for item delivery on a &lt;xref:System.Workflow.Runtime.WorkflowQueue&gt;.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.WorkflowQueueInfo.Items%2A?displayProperty=fullName&gt;bevat de items in behandeling voor een &lt;xref:System.Workflow.Runtime.WorkflowQueue&gt;en &lt;xref:System.Workflow.Runtime.WorkflowQueueInfo.SubscribedActivityNames%2A?displayProperty=fullName&gt;bevat een lijst van de activiteiten die zijn geabonneerd op een &lt;xref:System.Workflow.Runtime.WorkflowQueue&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowQueue&gt; voor het artikel&lt;/xref:System.Workflow.Runtime.WorkflowQueueInfo.SubscribedActivityNames%2A?displayProperty=fullName&gt; &lt;/xref:System.Workflow.Runtime.WorkflowQueue&gt;&lt;/xref:System.Workflow.Runtime.WorkflowQueueInfo.Items%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> of <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueueInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Een <ph id="ph1">&amp;lt;</ph>xref:System.Collections.ObjectModel.ReadOnlyCollection%601<ph id="ph2">&amp;gt;</ph> van <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowQueueInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets the unique identifier for the workflow instance.</source>
+          <target state="translated">Hiermee wordt de unieke id voor het workflowexemplaar.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use InstanceId to reference the workflow instance.</source>
+          <target state="translated">U kunt InstanceId gebruiken om te verwijzen naar het workflowexemplaar.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the workflow instance.</source>
+          <target state="translated">De &lt;xref:System.Guid&gt;van het workflowexemplaar.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Loads a previously unloaded workflow instance.</source>
+          <target state="translated">Een eerder verwijderde workflowexemplaar laadt.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Load is synchronous; if the workflow instance can be loaded, Load will return after the workflow instance has been loaded into memory and scheduled by the workflow runtime engine.</source>
+          <target state="translated">Load is synchroon; Als het workflowexemplaar kan worden geladen, worden de laden worden geretourneerd nadat het werkstroomexemplaar is geladen in het geheugen en gepland door de workflow runtime engine.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowLoaded&gt; event after the persistence service has restored the workflow instance in memory, but before the workflow runtime engine schedules the instance.</source>
+          <target state="translated">De runtime worden gegeven de &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowLoaded&gt;gebeurtenis nadat de service persistentie het workflowexemplaar in het geheugen is teruggezet, maar voordat de workflow runtime engine plant u het exemplaar.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowLoaded&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Reload the tracking profiles for this workflow instance.</source>
+          <target state="translated">Laad de tracerings-profielen voor dit werkstroomexemplaar.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime tracking infrastructure will reload each &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for this workflow instance associated with its tracking channels.</source>
+          <target state="translated">De runtime-infrastructuur bijhouden laadt u opnieuw elk &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;voor dit werkstroomexemplaar van de die is gekoppeld aan de kanalen bijhouden.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it is not already in a suspended state, the workflow is temporarily suspended by the runtime tracking infrastructure while the tracking profiles are reloaded.</source>
+          <target state="translated">Als deze nog niet in een onderbroken staat, wordt de werkstroom tijdelijk onderbroken door de runtime infrastructuur bijhouden terwijl de tracerings-profielen zijn geladen.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Resumes execution of a previously suspended workflow instance.</source>
+          <target state="translated">De uitvoering van een exemplaar van de eerder onderbroken werkstroom hervatten.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host can call Resume to resume execution of a workflow instance that has been previously suspended.</source>
+          <target state="translated">De host kunt aanroepen hervatten om door te hervatten van de uitvoering van een workflowexemplaar dat eerder is onderbroken.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the workflow instance is not in the suspended state, no action is taken.</source>
+          <target state="translated">Als het werkstroomexemplaar is niet in de onderbroken status bevindt, wordt geen actie ondernomen.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The runtime raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowResumed&gt; event just before execution of the workflow instance is resumed.</source>
+          <target state="translated">De runtime worden gegeven de &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowResumed&gt;gebeurtenis vlak voordat de uitvoering van het werkstroomexemplaar is hervat.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowResumed&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Starts the execution of the workflow instance.</source>
+          <target state="translated">Hiermee start u de uitvoering van het workflowexemplaar.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Start calls &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.ExecuteActivity%2A&gt; on the root activity of this workflow instance.</source>
+          <target state="translated">Start aanroepen &lt;xref:System.Workflow.ComponentModel.ActivityExecutionContext.ExecuteActivity%2A&gt;voor de hoofdactiviteit van dit werkstroomexemplaar.&lt;/xref:System.Workflow.ComponentModel.ActivityExecutionContext.ExecuteActivity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Start encounters an exception, it terminates the workflow instance by calling &lt;xref:System.Workflow.Runtime.WorkflowInstance.Terminate%2A&gt; with the &lt;xref:System.Exception.Message%2A&gt; property of the exception passed as the reason for the termination.</source>
+          <target state="translated">Als Start er een uitzondering optreedt, exemplaar van de workflow wordt beëindigd door het aanroepen van &lt;xref:System.Workflow.Runtime.WorkflowInstance.Terminate%2A&gt;met de &lt;xref:System.Exception.Message%2A&gt;eigenschap van de uitzondering is doorgegeven als de reden voor de beëindiging.&lt;/xref:System.Exception.Message%2A&gt; &lt;/xref:System.Workflow.Runtime.WorkflowInstance.Terminate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-or-       The workflow instance has already been started.</source>
+          <target state="translated">- of - het werkstroomexemplaar is al gestart.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Suspends the workflow instance.</source>
+          <target state="translated">Het werkstroomexemplaar onderbreekt.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow instance is suspended in a synchronous manner.</source>
+          <target state="translated">Het werkstroomexemplaar is onderbroken op een synchrone manier.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the workflow instance is already suspended, no action is taken; otherwise, the workflow runtime engine suspends the workflow instance, raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowSuspended&gt; event and passes <ph id="ph1">`reason`</ph> in a &lt;xref:System.Workflow.Runtime.WorkflowSuspendedEventArgs&gt;.</source>
+          <target state="translated">Als het werkstroomexemplaar al onderbroken is, wordt geen actie ondernomen; anders wordt de workflow runtime engine wordt onderbroken exemplaar van de workflow, verhoogt de &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowSuspended&gt;gebeurtenis en geeft <ph id="ph1">`reason`</ph> in een &lt;xref:System.Workflow.Runtime.WorkflowSuspendedEventArgs&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowSuspendedEventArgs&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowSuspended&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Suspend does not unload the workflow instance.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Stand-bymodus wordt niet verwijderd van het workflowexemplaar.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A description of the reason for suspending the workflow instance.</source>
+          <target state="translated">Een beschrijving van de reden voor het workflowexemplaar onderbreken.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Terminates the workflow instance in a synchronous manner.</source>
+          <target state="translated">Het werkstroomexemplaar beëindigt synchrone wijze.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow instance is terminated in a synchronous manner.</source>
+          <target state="translated">Exemplaar van de workflow wordt beëindigd in een synchrone manier.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host calls Terminate to terminate the workflow instance.</source>
+          <target state="translated">De host roept beëindigen van het werkstroomexemplaar is beëindigd.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow runtime engine clears the in-memory workflow instance and informs the persistence service that the instance has been cleared from memory.</source>
+          <target state="translated">De workflow runtime engine in het geheugen van het werkstroomexemplaar wordt gewist en de service persistentie informeert dat het exemplaar is verwijderd uit het geheugen.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;, this means that all state information for that workflow instance is deleted from the database upon termination.</source>
+          <target state="translated">Voor de &lt;xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;, dit betekent dat alle statusinformatie voor dat betreffende werkstroomexemplaar wordt verwijderd uit de database bij beëindiging.&lt;/xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will not be able to reload the workflow instance from a previously stored persistence point.</source>
+          <target state="translated">Niet mogelijk om opnieuw te laden van het workflowexemplaar vanaf een eerder opgeslagen persistentie-punt.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the in-memory workflow instance is cleared and the persistence service is informed of the termination, the <ph id="ph1">`Terminate`</ph> method raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowTerminated&gt; event and passes <ph id="ph2">`reason`</ph> in the &lt;xref:System.Exception.Message%2A&gt; property of a &lt;xref:System.Workflow.ComponentModel.WorkflowTerminatedException&gt; contained in the &lt;xref:System.Workflow.Runtime.WorkflowTerminatedEventArgs&gt;.</source>
+          <target state="translated">Nadat in het geheugen van het werkstroomexemplaar is uitgeschakeld en de persistentie-service is op de hoogte van de beëindiging de <ph id="ph1">`Terminate`</ph> methode verhoogt de &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowTerminated&gt;gebeurtenis en geeft <ph id="ph2">`reason`</ph> in de &lt;xref:System.Exception.Message%2A&gt;eigenschap van een &lt;xref:System.Workflow.ComponentModel.WorkflowTerminatedException&gt;opgenomen in de &lt;xref:System.Workflow.Runtime.WorkflowTerminatedEventArgs&gt;.&lt;/xref:System.Workflow.Runtime.WorkflowTerminatedEventArgs&gt; &lt;/xref:System.Workflow.ComponentModel.WorkflowTerminatedException&gt; &lt;/xref:System.Exception.Message%2A&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowTerminated&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Terminate`</ph> is different from &lt;xref:System.Workflow.Runtime.WorkflowInstance.Abort%2A&gt; in that while Terminate clears the in-memory workflow instance and informs the persistence service of the termination, <ph id="ph2">`Abort`</ph> simply clears the in-memory workflow instance, which can then be restarted from the last persistence point.</source>
+          <target state="translated"><ph id="ph1">`Terminate`</ph>verschilt van &lt;xref:System.Workflow.Runtime.WorkflowInstance.Abort%2A&gt;Hiermee wist u dat bij het beëindigen in in het geheugen van het werkstroomexemplaar en informeert de service persistentie van de beëindiging <ph id="ph2">`Abort`</ph> gewoon gewist het in het geheugen werkstroomexemplaar, die vervolgens opnieuw te vanaf het laatste punt in de persistentie starten.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.Abort%2A&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A description of the reason for terminating the workflow instance.</source>
+          <target state="translated">Een beschrijving van de reden voor het exemplaar van de workflow wordt beëindigd.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The workflow runtime engine is not running.</source>
+          <target state="translated">De workflow runtime engine wordt niet uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Unloads the workflow instance from memory to the persistence store when the instance is suspended or idle.</source>
+          <target state="translated">Het workflowexemplaar naar de opslag voor persistentie uit het geheugen verwijderd wanneer het exemplaar onderbroken of niet-actief is.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the workflow instance is idle or suspended, TryUnload uses the persistence service to remove the workflow instance from memory and persist it to a data store.</source>
+          <target state="translated">Als het werkstroomexemplaar niet actief of onderbroken is, TryUnload gebruikt de persistentie voor het verwijderen van het workflowexemplaar uit het geheugen en het persistent maken met gegevensopslag.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no persistence service registered with the &lt;xref:System.Workflow.Runtime.WorkflowRuntime&gt;, TryUnload throws an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">Als er geen persistentie-service geregistreerd bij de is &lt;xref:System.Workflow.Runtime.WorkflowRuntime&gt;, TryUnload genereert een &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the workflow instance is successfully persisted, the runtime raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowUnloaded&gt; event, and returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">De runtime wordt gegeven als het werkstroomexemplaar is met succes persistent hebt gemaakt, de &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowUnloaded&gt;gebeurtenis en retourneert <ph id="ph1">`true`</ph>.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowUnloaded&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Workflow.Runtime.WorkflowInstance.Unload%2A&gt; returns <ph id="ph1">`false`</ph> if the workflow instance has already been unloaded, has been terminated, has been aborted, or has already completed.</source>
+          <target state="translated">&lt;xref:System.Workflow.Runtime.WorkflowInstance.Unload%2A&gt;retourneert <ph id="ph1">`false`</ph> als het werkstroomexemplaar is al verwijderd, is beëindigd, is afgebroken of is al voltooid.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.Unload%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host can use TryUnload to reclaim system resources from an idle workflow.</source>
+          <target state="translated">De host kunt TryUnload gebruiken voor het vrijmaken van systeembronnen vanuit een niet-actieve workflow.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the workflow instance was unloaded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het werkstroomexemplaar verwijderd is; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>There is no persistence service registered with the workflow runtime engine.</source>
+          <target state="translated">Er is geen persistentie-service geregistreerd bij de workflow runtime engine.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Unloads the workflow instance from memory to the persistence store.</source>
+          <target state="translated">Hiermee wordt het workflowexemplaar uit het geheugen naar de opslag voor persistentie.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>This call blocks until after the currently scheduled work is finished, or the end of a transaction scope.</source>
+          <target state="translated">Deze aanroep is geblokkeerd totdat nadat het momenteel geplande werk is voltooid, of het einde van een transactiebereik.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unload is synchronous; that is, it returns after completing any action that it performs.</source>
+          <target state="translated">Unload is synchroon; dat wil zeggen, wordt na het voltooien van een actie op die worden uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the workflow instance is not idle, the runtime waits until the instance can be interrupted.</source>
+          <target state="translated">Als het exemplaar van de workflow niet inactief is, wordt de runtime wacht totdat het exemplaar kan worden onderbroken.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance can only be interrupted after the currently scheduled work item completes; this is typically when the currently running Activity returns from its &lt;xref:System.Workflow.ComponentModel.Activity.Execute%2A&gt; method.</source>
+          <target state="translated">Een exemplaar kan alleen worden onderbroken nadat de huidige planning werkitem is voltooid; Dit wordt meestal wanneer de momenteel actieve activiteit retourneert uit de &lt;xref:System.Workflow.ComponentModel.Activity.Execute%2A&gt;methode.&lt;/xref:System.Workflow.ComponentModel.Activity.Execute%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the instance is executing a &lt;xref:System.Workflow.ComponentModel.TransactionScopeActivity&gt;, the transaction scope must complete execution before the instance can be interrupted.</source>
+          <target state="translated">Echter, als het exemplaar wordt uitgevoerd een &lt;xref:System.Workflow.ComponentModel.TransactionScopeActivity&gt;, het transactiebereik uitvoering moet uitvoeren voordat het exemplaar kan worden onderbroken.&lt;/xref:System.Workflow.ComponentModel.TransactionScopeActivity&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unload then uses the persistence service to remove the workflow instance from memory and persists it to a data store.</source>
+          <target state="translated">Unload vervolgens de persistentie-service gebruikt het workflowexemplaar verwijderen uit het geheugen en deze naar een gegevensarchief zich blijft voordoen.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no persistence service registered with the &lt;xref:System.Workflow.Runtime.WorkflowRuntime&gt;, Unload throws an &lt;xref:System.InvalidOperationException&gt;.</source>
+          <target state="translated">Als er geen persistentie-service geregistreerd bij de is &lt;xref:System.Workflow.Runtime.WorkflowRuntime&gt;, Unload genereert een &lt;xref:System.InvalidOperationException&gt;.&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Workflow.Runtime.WorkflowRuntime&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the workflow instance is successfully persisted, the runtime raises the &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowUnloaded&gt; event.</source>
+          <target state="translated">De runtime wordt gegeven als het werkstroomexemplaar is met succes persistent hebt gemaakt, de &lt;xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowUnloaded&gt;gebeurtenis.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.WorkflowUnloaded&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The host can use Unload to reclaim system resources from an idle workflow.</source>
+          <target state="translated">De host kunt Unload gebruiken voor het vrijmaken van systeembronnen vanuit een niet-actieve workflow.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>There is no persistence service registered with the workflow runtime engine.</source>
+          <target state="translated">Er is geen persistentie-service geregistreerd bij de workflow runtime engine.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this workflow instance.</source>
+          <target state="translated">Haalt de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor dit werkstroomexemplaar.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the execution environment in which this workflow instance is running.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.Workflow.Runtime.WorkflowRuntime"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die staat voor de uitvoeringsomgeving waarop dit werkstroomexemplaar wordt uitgevoerd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
