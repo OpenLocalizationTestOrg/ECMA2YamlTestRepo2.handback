@@ -1,12 +1,13 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 2
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml) | InSyncHandedBackSuccess | [Details](#42e81e4681dc40e2c82eb3631bfc033f1029b18883666)
+ [fulldocset\System.Windows.Input.NavigationCommands.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Input.NavigationCommands.yml) | InSyncHandedBackSuccess | [Details](#1436474a12ed58c6cec003010b2dac78d31b491f86053)
 
 ## Item Details
 ##### <a name='42e81e4681dc40e2c82eb3631bfc033f1029b18883666'></a> Source: [fulldocset\System.Web.UI.XhtmlTextWriter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.XhtmlTextWriter.yml)
@@ -22,6 +23,22 @@
 * Handback Datetime: 2017-03-19 10:58:49
 * Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-hu-hu-it-it-ja-jp-ko-kr-nb-no-nl-nl-pl-pl-pt-br-ru-ru-sv-se-zh-tw_2
 * Bilingual Error:[bilingual_uploading_failed](#42e81e4681dc40e2c82eb3631bfc033f1029b18883666bilingual_uploading_failed)
+* [Back to Top](#report-top)
+
+##### <a name='1436474a12ed58c6cec003010b2dac78d31b491f86053'></a> Source: [fulldocset\System.Windows.Input.NavigationCommands.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Windows.Input.NavigationCommands.yml)
+* Status: InSyncHandedBackSuccess
+* Target File: [fulldocset\System.Windows.Input.NavigationCommands.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ru-ru/blob/42afc0825960cb00dbe2cb01b95f838761251626/fulldocset/System.Windows.Input.NavigationCommands.yml)
+* Handoff File: [System.Windows.Input.NavigationCommands.1c5ef89bcae368d1cf9d04cd6e03c5e35c757a53.ru-ru.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/f5b7c794c0232d740d1abe0f184ad6404a10c89e/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ru-ru/master/fulldocset/System.Windows.Input.NavigationCommands.1c5ef89bcae368d1cf9d04cd6e03c5e35c757a53.ru-ru.xlf)
+* Handoff Datetime: 2017-03-16 04:41:23
+* Handoff Reason: Include
+* Handoff Name: 
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: [System.Windows.Input.NavigationCommands.1c5ef89bcae368d1cf9d04cd6e03c5e35c757a53.ru-ru.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/7b2057912d8c3ce2a584c80ff68ec60a0b1ce500/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ru-ru/master/fulldocset/System.Windows.Input.NavigationCommands.1c5ef89bcae368d1cf9d04cd6e03c5e35c757a53.ru-ru.xlf)
+* Handback Datetime: 2017-03-19 20:20:19
+* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-ko-kr-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
+* Bilingual File: [System.Windows.Input.NavigationCommands.1c5ef89bcae368d1cf9d04cd6e03c5e35c757a53.ru-ru.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/7b2057912d8c3ce2a584c80ff68ec60a0b1ce500/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.ru-ru/master/fulldocset/System.Windows.Input.NavigationCommands.1c5ef89bcae368d1cf9d04cd6e03c5e35c757a53.ru-ru.xlf)
+* Bilingual Datetime: 2017-03-19 20:38:17
 * [Back to Top](#report-top)
 
 
