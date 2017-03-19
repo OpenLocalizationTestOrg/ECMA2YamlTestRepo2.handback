@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8872bd957f0aae3a668fcfce4632f820905d791</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.SessionState.IHttpSessionState.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">723a1a0ceef92f84bbf971746451544b09f58a12</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b86a43463ca17329aa8de2b1ee04c62af43c3878</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the contract to implement a custom session-state container.</source>
+          <target state="translated">Define o contrato para implementar um contêiner de estado de sessão personalizado.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A session-state container provides access to the session-state values and related information for the current session.</source>
+          <target state="translated">Um contêiner de estado de sessão fornece acesso aos valores de estado de sessão e informações relacionadas para a sessão atual.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Session information included in a session-state container is exposed to application code through the &lt;xref:System.Web.SessionState.HttpSessionState&gt; class using the &lt;xref:System.Web.HttpContext.Session%2A&gt; property.</source>
+          <target state="translated">Informações de sessão incluídas em um contêiner de estado de sessão são expostas ao código do aplicativo por meio de &lt;xref:System.Web.SessionState.HttpSessionState&gt;classe usando o &lt;xref:System.Web.HttpContext.Session%2A&gt;propriedade.&lt;/xref:System.Web.HttpContext.Session%2A&gt; &lt;/xref:System.Web.SessionState.HttpSessionState&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.SessionState.HttpSessionState&gt; class is a wrapper class for a session-state container.</source>
+          <target state="translated">O &lt;xref:System.Web.SessionState.HttpSessionState&gt;classe é uma classe wrapper para um contêiner de estado de sessão.&lt;/xref:System.Web.SessionState.HttpSessionState&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ASP.NET implementation of a session-state container is the &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt; class.</source>
+          <target state="translated">A implementação de um contêiner de estado de sessão do ASP.NET é a &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt;classe.&lt;/xref:System.Web.SessionState.HttpSessionStateContainer&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At the beginning of a request, during the &lt;xref:System.Web.HttpApplication.AcquireRequestState&gt; event, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; creates and populates an &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt; object and assigns it to the current &lt;xref:System.Web.HttpContext&gt;.</source>
+          <target state="translated">No início de uma solicitação durante o &lt;xref:System.Web.HttpApplication.AcquireRequestState&gt;evento, o &lt;xref:System.Web.SessionState.SessionStateModule&gt;cria e preenche um &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt;objeto e o atribui ao &lt;xref:System.Web.HttpContext&gt;.&lt;/xref:System.Web.HttpContext&gt; atual&lt;/xref:System.Web.SessionState.HttpSessionStateContainer&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt; &lt;/xref:System.Web.HttpApplication.AcquireRequestState&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At the end of a request, during the &lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt; event, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; retrieves the &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt; object from the current &lt;xref:System.Web.HttpContext&gt; and performs any required session work, such as writing the session values to the session store, or abandoning the session.</source>
+          <target state="translated">No final de uma solicitação, durante o &lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt;evento, o &lt;xref:System.Web.SessionState.SessionStateModule&gt;recupera o &lt;xref:System.Web.SessionState.HttpSessionStateContainer&gt;objeto do atual &lt;xref:System.Web.HttpContext&gt;e executa qualquer trabalho de sessão necessária, como escrever os valores de sessão para o armazenamento da sessão ou abandoná-la a sessão.&lt;/xref:System.Web.HttpContext&gt; &lt;/xref:System.Web.SessionState.HttpSessionStateContainer&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt; &lt;/xref:System.Web.HttpApplication.ReleaseRequestState&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the request is abruptly terminated, such as through a redirect, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; performs the same cleanup by calling the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.EndRequest%2A&gt; method.</source>
+          <target state="translated">Se a solicitação será finalizado abruptamente, como por meio de um redirecionamento, o &lt;xref:System.Web.SessionState.SessionStateModule&gt;executa a limpeza do mesmo ao chamar o &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.EndRequest%2A&gt;método.&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.EndRequest%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a custom session-state container, create a class that implements the IHttpSessionState interface.</source>
+          <target state="translated">Para criar um contêiner de estado de sessão personalizado, crie uma classe que implementa a interface IHttpSessionState.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are creating your own custom session-state container, you must also replace the &lt;xref:System.Web.SessionState.SessionStateModule&gt; with your own custom module.</source>
+          <target state="translated">Se você estiver criando seu próprio contêiner de estado de sessão personalizado, você também deve substituir o &lt;xref:System.Web.SessionState.SessionStateModule&gt;com seu próprio módulo personalizado.&lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your custom module will create an instance of your custom session-state container and add it to the current &lt;xref:System.Web.HttpContext&gt; using the &lt;xref:System.Web.SessionState.SessionStateUtility.AddHttpSessionStateToContext%2A&gt; method.</source>
+          <target state="translated">O módulo personalizado será criar uma instância do seu contêiner de estado de sessão personalizado e adicioná-lo à atual &lt;xref:System.Web.HttpContext&gt;usando o &lt;xref:System.Web.SessionState.SessionStateUtility.AddHttpSessionStateToContext%2A&gt;método.&lt;/xref:System.Web.SessionState.SessionStateUtility.AddHttpSessionStateToContext%2A&gt; &lt;/xref:System.Web.HttpContext&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of a custom session-state module is included in the &lt;xref:System.Web.SessionState.SessionStateUtility&gt; class overview.</source>
+          <target state="translated">Um exemplo de um módulo de estado de sessão personalizado está incluído no &lt;xref:System.Web.SessionState.SessionStateUtility&gt;Visão geral da classe.&lt;/xref:System.Web.SessionState.SessionStateUtility&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Ends the current session.</source>
+          <target state="translated">Encerra a sessão atual.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Abandon method is used to clear out session data and raise the <bpt id="p1">**</bpt>Session_OnEnd<ept id="p1">**</ept> event defined in the Global.asax file for the ASP.NET application.</source>
+          <target state="translated">O método de abandono é usado para limpar os dados de sessão e gerar o <bpt id="p1">**</bpt>Session_OnEnd<ept id="p1">**</ept> evento definido no arquivo global asax para o aplicativo ASP.NET.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Adds a new item to the session-state collection.</source>
+          <target state="translated">Adiciona um novo item à coleção de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The name of the item to add to the session-state collection.</source>
+          <target state="translated">O nome do item a ser adicionado à coleção de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The value of the item to add to the session-state collection.</source>
+          <target state="translated">O valor do item a ser adicionado à coleção de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Clears all values from the session-state item collection.</source>
+          <target state="translated">Limpa todos os valores da coleção de itens de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clear performs the same function as &lt;xref:System.Web.SessionState.IHttpSessionState.RemoveAll%2A&gt;.</source>
+          <target state="translated">Clear executa a mesma função que &lt;xref:System.Web.SessionState.IHttpSessionState.RemoveAll%2A&gt;.&lt;/xref:System.Web.SessionState.IHttpSessionState.RemoveAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets the code-page identifier for the current session.</source>
+          <target state="translated">Obtém ou define o identificador de página de código para a sessão atual.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A character set (code page) is used to interpret multi-byte character data, determining character value, and therefore sort order.</source>
+          <target state="translated">Um conjunto de caracteres (página de código) é usado para interpretar os dados de caracteres de vários bytes, determinando o valor de caractere e, portanto, a ordem de classificação.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code-page settings apply only to multi-byte character data, not to Unicode character data.</source>
+          <target state="translated">Configurações de página de código se aplicam somente aos dados de caracteres de vários bytes, não para dados de caractere Unicode.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This CodePage property is provided for compatibility with earlier versions of ASP only.</source>
+          <target state="translated">Essa propriedade da página de código é fornecida para compatibilidade com versões anteriores do ASP somente.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not need to maintain backward compatibility with ASP pages, use the &lt;xref:System.Text.Encoding.CodePage%2A&gt; property of the &lt;xref:System.Web.HttpResponse.ContentEncoding%2A&gt; property instead.</source>
+          <target state="translated">Se você não precisa manter a compatibilidade com versões anteriores com as páginas ASP, use o &lt;xref:System.Text.Encoding.CodePage%2A&gt;propriedade o &lt;xref:System.Web.HttpResponse.ContentEncoding%2A&gt;propriedade em vez disso.&lt;/xref:System.Web.HttpResponse.ContentEncoding%2A&gt; &lt;/xref:System.Text.Encoding.CodePage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The code-page identifier for the current session.</source>
+          <target state="translated">O identificador de página de código para a sessão atual.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the application is configured for cookieless sessions.</source>
+          <target state="translated">Obtém um valor que indica se o aplicativo está configurado para sessões sem cookies.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CookieMode property returns a &lt;xref:System.Web.HttpCookieMode&gt; enumeration value that is based on the value of the <ph id="ph1">`cookieless`</ph> attribute of the &lt;xref:System.Web.Configuration.SystemWebSectionGroup.SessionState%2A&gt; configuration element.</source>
+          <target state="translated">A propriedade retorna CookieMode um &lt;xref:System.Web.HttpCookieMode&gt;valor de enumeração com base no valor da <ph id="ph1">`cookieless`</ph> atributo do &lt;xref:System.Web.Configuration.SystemWebSectionGroup.SessionState%2A&gt;elemento de configuração.&lt;/xref:System.Web.Configuration.SystemWebSectionGroup.SessionState%2A&gt; &lt;/xref:System.Web.HttpCookieMode&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`cookieless`</ph> attribute is set to <ph id="ph2">`true`</ph>, then the CookieMode property returns &lt;xref:System.Web.HttpCookieMode&gt;; otherwise, the CookieMode property returns &lt;xref:System.Web.HttpCookieMode&gt;.</source>
+          <target state="translated">Se o <ph id="ph1">`cookieless`</ph> atributo é definido como <ph id="ph2">`true`</ph>, em seguida, a propriedade CookieMode retorna &lt;xref:System.Web.HttpCookieMode&gt;; caso contrário, a propriedade CookieMode retorna &lt;xref:System.Web.HttpCookieMode&gt;.&lt;/xref:System.Web.HttpCookieMode&gt; &lt;/xref:System.Web.HttpCookieMode&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicate whether the application is configured for cookieless sessions.</source>
+          <target state="translated">Uma da <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores que indicam se o aplicativo está configurado para sessões sem cookies.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O padrão é <bpt id="p1">&lt;xref href="System.Web.HttpCookieMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Copies the collection of session-state item values to a one-dimensional array, starting at the specified index in the array.</source>
+          <target state="translated">Copia a coleção de valores de item de estado da sessão para uma matriz unidimensional, começando no índice especificado na matriz.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Array&gt; that receives the session values.</source>
+          <target state="translated">O &lt;xref:System.Array&gt;que recebe os valores de sessão.&lt;/xref:System.Array&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The index in <ph id="ph1">`array`</ph> where copying starts.</source>
+          <target state="translated">O índice em <ph id="ph1">`array`</ph> onde a cópia inicia.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the number of items in the session-state item collection.</source>
+          <target state="translated">Obtém o número de itens na coleção de itens de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The number of items in the session-state item collection.</source>
+          <target state="translated">O número de itens na coleção de itens de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that can be used to read all the session-state item values in the current session.</source>
+          <target state="translated">Retorna um enumerador que pode ser usado para ler todos os valores de item de estado da sessão na sessão atual.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; that can iterate through the values in the session-state item collection.</source>
+          <target state="translated">Um &lt;xref:System.Collections.IEnumerator&gt;que pode iterar por meio de valores na coleção de itens de estado da sessão.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the session ID is embedded in the URL or stored in an HTTP cookie.</source>
+          <target state="translated">Obtém um valor que indica se a ID de sessão é inserida na URL ou armazenada em um cookie HTTP.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on cookieless sessions, see <bpt id="p1">[</bpt>Session Identifiers<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter informações sobre sessões sem cookies, consulte <bpt id="p1">[</bpt>identificadores de sessão<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the session is embedded in the URL; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a sessão é incorporada na URL; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the session was created with the current request.</source>
+          <target state="translated">Obtém um valor que indica se a sessão foi criada com a solicitação atual.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the session was created with the current request; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a sessão foi criada com a solicitação atual; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the session is read-only.</source>
+          <target state="translated">Obtém um valor que indica se a sessão é somente leitura.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Session state is set to read-only by setting the &lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; page attribute to <ph id="ph1">`ReadOnly`</ph>.</source>
+          <target state="translated">Estado da sessão é definido como somente leitura, definindo o &lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;atributo de página para <ph id="ph1">`ReadOnly`</ph>.&lt;/xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the session is read-only; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a sessão for somente leitura; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether access to the collection of session-state values is synchronized (thread safe).</source>
+          <target state="translated">Obtém um valor que indica se o acesso à coleção de valores de estado de sessão é sincronizado (thread-safe).</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if access to the collection is synchronized (thread safe); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o acesso à coleção for sincronizado (thread-safe); Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets or sets a session-state item value by numerical index.</source>
+          <target state="translated">Obtém ou define um valor do item de estado da sessão por índice numérico.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The numerical index of the session-state item value.</source>
+          <target state="translated">O índice numérico do valor do item de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The session-state item value specified in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">index</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">O valor do item de estado de sessão especificado no <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">index</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets or sets a session-state item value by name.</source>
+          <target state="translated">Obtém ou define um valor do item de estado da sessão por nome.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The key name of the session-state item value.</source>
+          <target state="translated">O nome da chave do valor do item de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The session-state item value specified in the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">O valor do item de estado de sessão especificado no <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept> parâmetro.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a collection of the keys for all values stored in the session-state item collection.</source>
+          <target state="translated">Obtém uma coleção de chaves para todos os valores armazenados na coleção de itens de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection&gt; that contains all the session-item keys.</source>
+          <target state="translated">O &lt;xref:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection&gt;que contém todas as chaves de item de sessão.&lt;/xref:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets or sets the locale identifier (LCID) of the current session.</source>
+          <target state="translated">Obtém ou define o identificador de localidade (LCID) da sessão atual.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This <ph id="ph1">`LCID`</ph> property is provided for compatibility with earlier versions of ASP only.</source>
+          <target state="translated">Isso <ph id="ph1">`LCID`</ph> propriedade é fornecida para compatibilidade com versões anteriores do ASP somente.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not need to maintain backward compatibility with ASP pages, use the &lt;xref:System.Globalization.CultureInfo.LCID%2A&gt; property instead.</source>
+          <target state="translated">Se você não precisa manter a compatibilidade com versões anteriores com as páginas ASP, use o &lt;xref:System.Globalization.CultureInfo.LCID%2A&gt;propriedade em vez disso.&lt;/xref:System.Globalization.CultureInfo.LCID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET does not store the locale identifier in session state.</source>
+          <target state="translated">ASP.NET não armazena o identificador de localidade no estado de sessão.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The LCID property calls the &lt;xref:System.Globalization.CultureInfo.LCID%2A&gt; to get and set the identifier.</source>
+          <target state="translated">As chamadas de propriedade LCID o &lt;xref:System.Globalization.CultureInfo.LCID%2A&gt;para obter e definir o identificador.&lt;/xref:System.Globalization.CultureInfo.LCID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt; instance that specifies the culture of the current session.</source>
+          <target state="translated">Um &lt;xref:System.Globalization.CultureInfo&gt;instância que especifica a cultura da sessão atual.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the current session-state mode.</source>
+          <target state="translated">Obtém o modo de estado da sessão atual.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information on different session-state modes, see <bpt id="p1">[</bpt>Session-State Modes<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter informações sobre os diferentes modos de estado de sessão, consulte <bpt id="p1">[</bpt>modos de estado de sessão<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Uma da <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Deletes an item from the session-state item collection.</source>
+          <target state="translated">Exclui um item da coleção de itens de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The name of the item to delete from the session-state item collection.</source>
+          <target state="translated">O nome do item a ser excluído da coleção de itens de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Clears all values from the session-state item collection.</source>
+          <target state="translated">Limpa todos os valores da coleção de itens de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>RemoveAll performs the same function as &lt;xref:System.Web.SessionState.IHttpSessionState.Clear%2A&gt;.</source>
+          <target state="translated">RemoveAll executa a mesma função que &lt;xref:System.Web.SessionState.IHttpSessionState.Clear%2A&gt;.&lt;/xref:System.Web.SessionState.IHttpSessionState.Clear%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Deletes an item at a specified index from the session-state item collection.</source>
+          <target state="translated">Exclui um item em um índice especificado da coleção de itens de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The index of the item to remove from the session-state collection.</source>
+          <target state="translated">O índice do item a ser removido da coleção de estado da sessão.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets the unique session identifier for the session.</source>
+          <target state="translated">Obtém o identificador de sessão exclusiva para a sessão.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The session ID.</source>
+          <target state="translated">ID da sessão.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets a collection of objects declared by <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;object Runat=&amp;quot;Server&amp;quot; Scope=&amp;quot;Session&amp;quot;/&amp;gt;" name="&amp;lt;object Runat=&amp;quot;Server&amp;quot; Scope=&amp;quot;Session&amp;quot;/&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> tags within the ASP.NET application file Global.asax.</source>
+          <target state="translated">Obtém uma coleção de objetos declarados por <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;object Runat=&amp;quot;Server&amp;quot; Scope=&amp;quot;Session&amp;quot;/&amp;gt;" name="&amp;lt;object Runat=&amp;quot;Server&amp;quot; Scope=&amp;quot;Session&amp;quot;/&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> marcas dentro do arquivo de aplicativo do ASP.NET global. asax.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`StaticObjects`</ph> is provided for compatibility with earlier versions of ASP.</source>
+          <target state="translated"><ph id="ph1">`StaticObjects`</ph>é fornecida para compatibilidade com versões anteriores do ASP.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpStaticObjectsCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing objects declared in the Global.asax file.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Web.HttpStaticObjectsCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém objetos declarado no arquivo global. asax.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Gets an object that can be used to synchronize access to the collection of session-state values.</source>
+          <target state="translated">Obtém um objeto que pode ser usado para sincronizar o acesso à coleção de valores de estado de sessão.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An object that can be used to synchronize access to the collection.</source>
+          <target state="translated">Um objeto que pode ser usado para sincronizar o acesso à coleção.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets and sets the time-out period (in minutes) allowed between requests before the session-state provider terminates the session.</source>
+          <target state="translated">Obtém e define o período de tempo limite (em minutos) permitido entre solicitações até que o provedor de estado de sessão encerre a sessão.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The time-out period, in minutes.</source>
+          <target state="translated">O período de tempo limite, em minutos.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

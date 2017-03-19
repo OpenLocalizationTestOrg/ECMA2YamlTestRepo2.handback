@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3fff38db79070ec98d24b9e25500764313bb8b9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Channels.IReplyChannel.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7533e325521336f36c2dd0f62b3ae475307dc49e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e3498a4f16cf1f679f8e10ca2a89443b060c8781</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the interface that a channel must implement to be on the receiving side of a request-reply communication between messaging endpoints.</source>
+          <target state="translated">Определяет интерфейс, который должен реализовывать канал, чтобы быть на принимающей стороне взаимодействия запрос ответ между конечными точками обмена сообщениями.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IReplyChannel interface includes synchronous and asynchronous variants of a &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt; method return an &lt;xref:System.ServiceModel.Channels.RequestContext&gt; that can be used to construct replies to received requests.</source>
+          <target state="translated">Интерфейс IReplyChannel включает в себя синхронный и асинхронный варианты &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;возвращении метода &lt;xref:System.ServiceModel.Channels.RequestContext&gt;может использоваться для создания ответов на полученные запросы.&lt;/xref:System.ServiceModel.Channels.RequestContext&gt; &lt;/xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The contract includes synchronous and asynchronous variants of receive, try-to-receive and wait-for-a-message functionality.</source>
+          <target state="translated">Контракт включает в себя синхронный и асинхронный варианты функций получения, попробуйте получения и ожидания для сообщения.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An IReplyChannel is not necessarily bound to a single sender.</source>
+          <target state="translated">IReplyChannel не обязательно привязан к одному отправителю.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other channels and channel interfaces provide correlation between the sender and the reply channel, but the base contract makes no such restriction.</source>
+          <target state="translated">Другие каналы и интерфейсы каналов устанавливают соответствие между отправителем и каналом ответа, но базовый контракт не делает такого ограничения.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The pull model is used with an IReplyChannel to receive messages.</source>
+          <target state="translated">Модель извлечения используется с IReplyChannel для получения сообщений.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This model consists of calling &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt; (or one of its variants) and then waiting for a message to arrive.</source>
+          <target state="translated">Эта модель состоит из вызова метода &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;(или одного из его вариантов) и ожидания прихода сообщения.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to receive an available request with a default timeout.</source>
+          <target state="translated">Начинает асинхронную операцию получения доступного запроса со значением по умолчанию.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BeginReceiveRequest method implements the standard pattern for invoking &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest&gt; asynchronously.</source>
+          <target state="translated">Метод BeginReceiveRequest реализует стандартный шаблон для вызова &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest&gt;асинхронно.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default timeout is 1 minute.</source>
+          <target state="translated">Время ожидания по умолчанию — 1 минута.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a receive timeout is set on the binding used to configure the connection, then that value is used.</source>
+          <target state="translated">Если время ожидания получения задано для привязки, используемой для настройки подключения, используется это значение.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.ServiceModel.Channels.IReplyChannel.BeginReceiveRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt; if you want to specify an explicit timeout with the call that overrides these other values.</source>
+          <target state="translated">Используйте &lt;xref:System.ServiceModel.Channels.IReplyChannel.BeginReceiveRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt;требуется задать время ожидания явного вызова, которое переопределит другие значения.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.BeginReceiveRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the request message received is larger that the maximum message size allowed by the binding being used, a &lt;xref:System.ServiceModel.QuotaExceededException&gt; is thrown.</source>
+          <target state="translated">Если размер, максимальный размер сообщения, допускаемый используемой привязкой, полученного сообщения запроса &lt;xref:System.ServiceModel.QuotaExceededException&gt;возникает исключение.&lt;/xref:System.ServiceModel.QuotaExceededException&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The maximum message size is set by the &lt;xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt; property.</source>
+          <target state="translated">Максимальный размер сообщения задается &lt;xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt;свойство.&lt;/xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is 65536 bytes.</source>
+          <target state="translated">Значение по умолчанию — 65 536 байт.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives the notification of the asynchronous receive that a request operation completes.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;Делегат, принимающий уведомление об асинхронном получении, завершенном, операции запроса.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>An object, specified by the application, that contains state information associated with the asynchronous receive of a request operation.</source>
+          <target state="translated">Объект, заданный приложением, который содержит сведения о состоянии, связанные с асинхронным получением операции запроса.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous reception of the request.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;, Ссылающийся на асинхронное получение запроса.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to receive an available request with a specified timeout.</source>
+          <target state="translated">Начинает асинхронную операцию получения доступного запроса с заданным временем ожидания.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BeginReceiveRequest method implements the standard pattern for invoking &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%28System.TimeSpan%29&gt;asynchronously.</source>
+          <target state="translated">Метод BeginReceiveRequest реализует стандартный шаблон для вызова &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%28System.TimeSpan%29&gt;асинхронно.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%28System.TimeSpan%29&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The timeout set on this method overrides a receive timeout set on the binding that is used to configure the connection.</source>
+          <target state="translated">Время ожидания, заданное в этом методе, переопределяет время ожидания получения задания привязки, который используется для настройки подключения.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the request message received is larger that the maximum message size allowed by the binding being used, a &lt;xref:System.ServiceModel.QuotaExceededException&gt; is thrown.</source>
+          <target state="translated">Если размер, максимальный размер сообщения, допускаемый используемой привязкой, полученного сообщения запроса &lt;xref:System.ServiceModel.QuotaExceededException&gt;возникает исключение.&lt;/xref:System.ServiceModel.QuotaExceededException&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The maximum message size is set by the &lt;xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt; property.</source>
+          <target state="translated">Максимальный размер сообщения задается &lt;xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt;свойство.&lt;/xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is 65536 bytes.</source>
+          <target state="translated">Значение по умолчанию — 65 536 байт.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies the interval of time to wait for the reception of an available request.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;, Задающий интервал времени ожидания получения доступного запроса.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives the notification of the asynchronous receive that a request operation completes.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;Делегат, принимающий уведомление об асинхронном получении, завершенном, операции запроса.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An object, specified by the application, that contains state information associated with the asynchronous receive of a request operation.</source>
+          <target state="translated">Объект, заданный приложением, который содержит сведения о состоянии, связанные с асинхронным получением операции запроса.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous reception of the request.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;, Ссылающийся на асинхронное получение запроса.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous operation to receive a request message that has a specified time out and state object associated with it.</source>
+          <target state="translated">Начинает асинхронную операцию получения сообщения запроса, имеющий определенное время ожидания и объект состояния, связанные с ним.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the asynchronous BeginTryReceiveRequest method when you need the application processing to continue without waiting.</source>
+          <target state="translated">Если работа приложения должна продолжаться без ожидания, используйте асинхронный метод BeginTryReceiveRequest.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use one of the synchronous &lt;xref:System.ServiceModel.Channels.IReplyChannel.TryReceiveRequest%28System.TimeSpan%2CSystem.ServiceModel.Channels.RequestContext%40%29&gt; methods when it is acceptable for the current thread to be blocked while it replies to the request message or until the timeout interval is exceeded.</source>
+          <target state="translated">Используйте один из синхронных &lt;xref:System.ServiceModel.Channels.IReplyChannel.TryReceiveRequest%28System.TimeSpan%2CSystem.ServiceModel.Channels.RequestContext%40%29&gt;методов, если допустима текущий поток можно заблокировать, пока он ответа на сообщение запроса или до истечения времени ожидания.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.TryReceiveRequest%28System.TimeSpan%2CSystem.ServiceModel.Channels.RequestContext%40%29&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method receives notification, through a callback, of the identity of the event handler for the operation.</source>
+          <target state="translated">Этот метод получает уведомление посредством обратного вызова, об идентификации обработчика событий для операции.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The operation is not complete until either a message becomes available in the channel or the time out occurs.</source>
+          <target state="translated">Операция не завершена, пока сообщение не станет доступным в канале или истечения времени ожидания.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the receive request operation has to complete before timing out and returning <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;, Указывающий, получение операции запроса, выделенное для завершения, прежде чем истечет время ожидания и возвращение <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives the notification of the asynchronous receive that a request operation completes.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;Делегат, принимающий уведомление об асинхронном получении, завершенном, операции запроса.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An object, specified by the application, that contains state information associated with the asynchronous receive of a request operation.</source>
+          <target state="translated">Объект, заданный приложением, который содержит сведения о состоянии, связанные с асинхронным получением операции запроса.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous receive request operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;, Ссылается на асинхронное получение операции запроса.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous request operation that has a specified time out and state object associated with it.</source>
+          <target state="translated">Начинает асинхронную операцию запроса, имеющий определенное время ожидания и объект состояния, связанные с ним.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the synchronous &lt;xref:System.ServiceModel.Channels.IReplyChannel.WaitForRequest%28System.TimeSpan%29&gt; method when it is acceptable for the current thread to be blocked while it waits for a request message to arrive in the queue.</source>
+          <target state="translated">Использовать синхронные &lt;xref:System.ServiceModel.Channels.IReplyChannel.WaitForRequest%28System.TimeSpan%29&gt;метод текущий поток можно заблокировать, пока ожидается поступление в очередь сообщение-запрос.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.WaitForRequest%28System.TimeSpan%29&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The thread is blocked up to the specified <ph id="ph1">`timeout`</ph>.</source>
+          <target state="translated">Поток заблокирован вплоть до указанного <ph id="ph1">`timeout`</ph>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method receives notification, through a callback, of the identity of the event handler for the operation.</source>
+          <target state="translated">Этот метод получает уведомление посредством обратного вызова, об идентификации обработчика событий для операции.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The operation is not complete until either a request message becomes available in the channel or the time out occurs.</source>
+          <target state="translated">Операция не завершена, пока сообщение запроса не станет доступным в канале или истечения времени ожидания.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies the interval of time to wait for the reception of an available request.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;, Задающий интервал времени ожидания получения доступного запроса.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that receives the notification of the asynchronous receive that a request operation completes.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;Делегат, принимающий уведомление об асинхронном получении, завершенном, операции запроса.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An object, specified by the application, that contains state information associated with the asynchronous receive of a request operation.</source>
+          <target state="translated">Объект, заданный приложением, который содержит сведения о состоянии, связанные с асинхронным получением операции запроса.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that references the asynchronous operation to wait for a request message to arrive.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;, Ссылается на асинхронную операцию ожидания прихода сообщения запроса.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Completes an asynchronous operation to receive an available request.</source>
+          <target state="translated">Завершает асинхронную операцию получения доступного запроса.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the request message received is larger that the maximum message size allowed by the binding being used, a &lt;xref:System.ServiceModel.QuotaExceededException&gt; is thrown.</source>
+          <target state="translated">Если размер, максимальный размер сообщения, допускаемый используемой привязкой, полученного сообщения запроса &lt;xref:System.ServiceModel.QuotaExceededException&gt;возникает исключение.&lt;/xref:System.ServiceModel.QuotaExceededException&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The maximum message size is set by the &lt;xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt; property.</source>
+          <target state="translated">Максимальный размер сообщения задается &lt;xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt;свойство.&lt;/xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is 65536 bytes.</source>
+          <target state="translated">Значение по умолчанию — 65 536 байт.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to the &lt;xref:System.ServiceModel.Channels.IInputChannel.BeginReceive*&gt; method.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;Возвращается путем вызова &lt;xref:System.ServiceModel.Channels.IInputChannel.BeginReceive*&gt;метод.&lt;/xref:System.ServiceModel.Channels.IInputChannel.BeginReceive*&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.RequestContext&gt; used to construct a reply to the request.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.RequestContext&gt;Используется для создания ответа на запрос.&lt;/xref:System.ServiceModel.Channels.RequestContext&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Completes the specified asynchronous operation to receive a request message.</source>
+          <target state="translated">Завершает указанную асинхронную операцию получения сообщения запроса.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; returned by a call to the <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.Channels.IReplyChannel.BeginTryReceiveRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;Возвращается путем вызова <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.Channels.IReplyChannel.BeginTryReceiveRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> метод.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.RequestContext&gt; received.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.RequestContext&gt;Получил.&lt;/xref:System.ServiceModel.Channels.RequestContext&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a request message is received before the specified interval of time elapses; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если сообщение запроса получено до истечения заданного интервала времени; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Completes the specified asynchronous wait-for-a-request message operation.</source>
+          <target state="translated">Завершает операцию указанного асинхронное сообщение ожидания для запроса.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that identifies the <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.Channels.IReplyChannel.BeginWaitForRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> operation to finish, and from which to retrieve an end result.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;, Идентифицирующий <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.Channels.IReplyChannel.BeginWaitForRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29<ph id="ph2">&amp;gt;</ph> операции завершения и из которой извлекается конечный результат.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a request is received before the specified interval of time elapses; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если запрос получен до истечения заданного интервала времени; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets the address on which this reply channel receives messages.</source>
+          <target state="translated">Возвращает адрес, на который этот канал ответа получает сообщения.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.EndpointAddress&gt; on which this reply channel receives messages.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.EndpointAddress&gt;На который этот канал ответа получает сообщения.&lt;/xref:System.ServiceModel.EndpointAddress&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns the context of the request received, if one is available.</source>
+          <target state="translated">Возвращает контекст полученного запроса, если он доступен.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If a context is not available, waits until there is one available.</source>
+          <target state="translated">Если контекст недоступен, ожидает, пока имеется один.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceModel.Channels.RequestContext&gt; encapsulates the request message and a mechanism for replying to that message.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.RequestContext&gt;Инкапсулирует сообщение запроса и механизм для ответа на это сообщение.&lt;/xref:System.ServiceModel.Channels.RequestContext&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ReceiveRequest can be called multiple times or concurrently.</source>
+          <target state="translated">ReceiveRequest может вызываться несколько раз или одновременно.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one ReceiveRequest call completes per request received.</source>
+          <target state="translated">Полученный запрос завершается только один вызов ReceiveRequest.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the request message received is larger that the maximum message size allowed by the binding being used, a &lt;xref:System.ServiceModel.QuotaExceededException&gt; is thrown.</source>
+          <target state="translated">Если размер, максимальный размер сообщения, допускаемый используемой привязкой, полученного сообщения запроса &lt;xref:System.ServiceModel.QuotaExceededException&gt;возникает исключение.&lt;/xref:System.ServiceModel.QuotaExceededException&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The maximum message size is set by the &lt;xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt; property.</source>
+          <target state="translated">Максимальный размер сообщения задается &lt;xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt;свойство.&lt;/xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is 65536 bytes.</source>
+          <target state="translated">Значение по умолчанию — 65 536 байт.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.RequestContext&gt; used to construct replies.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.RequestContext&gt;Используется для создания ответов.&lt;/xref:System.ServiceModel.Channels.RequestContext&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Returns the context of the request received, if one is available.</source>
+          <target state="translated">Возвращает контекст полученного запроса, если он доступен.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If a context is not available, waits until there is one available.</source>
+          <target state="translated">Если контекст недоступен, ожидает, пока имеется один.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceModel.Channels.RequestContext&gt; encapsulates the request message and a mechanism for replying to that message.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.RequestContext&gt;Инкапсулирует сообщение запроса и механизм для ответа на это сообщение.&lt;/xref:System.ServiceModel.Channels.RequestContext&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt; can be called multiple times or concurrently.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;может вызываться несколько раз или одновременно.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only one &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt; call completes per request received.</source>
+          <target state="translated">Только один &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;полученный запрос завершения вызова.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the request message received is larger that the maximum message size allowed by the binding being used, a &lt;xref:System.ServiceModel.QuotaExceededException&gt; is thrown.</source>
+          <target state="translated">Если размер, максимальный размер сообщения, допускаемый используемой привязкой, полученного сообщения запроса &lt;xref:System.ServiceModel.QuotaExceededException&gt;возникает исключение.&lt;/xref:System.ServiceModel.QuotaExceededException&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The maximum message size is set by the &lt;xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt; property.</source>
+          <target state="translated">Максимальный размер сообщения задается &lt;xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt;свойство.&lt;/xref:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value is 65536 bytes.</source>
+          <target state="translated">Значение по умолчанию — 65 536 байт.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the receive of a request operation has to complete before timing out and returning <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;, Указывающий, получение операции запроса, выделенное для завершения, прежде чем истечет время ожидания и возвращение <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.RequestContext&gt; used to construct replies.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.RequestContext&gt;Используется для создания ответов.&lt;/xref:System.ServiceModel.Channels.RequestContext&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether a request is received before a specified interval of time elapses.</source>
+          <target state="translated">Возвращает значение, указывающее, получено ли запрос до истечения заданного промежутка времени.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use TryReceiveRequest when it is acceptable for the current thread to be blocked while it waits for a request message to arrive in the queue.</source>
+          <target state="translated">TryReceiveRequest следует используйте, если текущий поток можно заблокировать, пока ожидается поступление в очередь сообщение-запрос.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The thread is blocked up to the specified <ph id="ph1">`timeout`</ph>.</source>
+          <target state="translated">Поток заблокирован вплоть до указанного <ph id="ph1">`timeout`</ph>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need the application processing to continue without waiting, use the asynchronous &lt;xref:System.ServiceModel.Channels.IReplyChannel.BeginTryReceiveRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt; method.</source>
+          <target state="translated">Если работа приложения должна продолжаться без ожидания, используйте асинхронный &lt;xref:System.ServiceModel.Channels.IReplyChannel.BeginTryReceiveRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt;метод.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.BeginTryReceiveRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long the receive of a request operation has to complete before timing out and returning <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;, Указывающий, получение операции запроса, выделенное для завершения, прежде чем истечет время ожидания и возвращение <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceModel.Channels.RequestContext&gt; received.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.RequestContext&gt;Получил.&lt;/xref:System.ServiceModel.Channels.RequestContext&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a request message is received before the specified interval of time elapses; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если сообщение запроса получено до истечения заданного интервала времени; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether a request message is received before a specified interval of time elapses.</source>
+          <target state="translated">Возвращает значение, указывающее, получено ли сообщение-запрос до истечения заданного промежутка времени.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling WaitForRequest does not result in a request message being received or processed in any way.</source>
+          <target state="translated">Вызов WaitForRequest не приводит к появлению сообщения запроса, получения и его обработке.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceModel.Channels.IReplyChannel.BeginWaitForRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt; method exists primarily for transacted scenarios where the user wants to receive the message using a transaction.</source>
+          <target state="translated">&lt;xref:System.ServiceModel.Channels.IReplyChannel.BeginWaitForRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt;Метод основном существует для транзакционных сценариев, в которых пользователю требуется получать это сообщение, используя транзакцию.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.BeginWaitForRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using just &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt; normally for this, the user must create the transaction, and then call &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt; and hope the message arrives before the transaction times out, which may not be possible.</source>
+          <target state="translated">При использовании только &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;обычно для этого, пользователь должен создать транзакцию, а затем вызвать &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;и надеяться, что сообщение будет получено до истечения времени ожидания транзакции, которая может оказаться невозможным.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt; &lt;/xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, the user can call WaitForRequest and specify the time out (even infinite), then when a message arrives they can open the transaction, call &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt; and be confident that they can get the message back before the transaction expires.</source>
+          <target state="translated">Вместо этого пользователь может вызвать WaitForRequest и задать время ожидания (возможно, бесконечное), то при поступлении сообщения они могут открыть транзакцию, вызвать &lt;xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;и быть уверенным, что сообщение получено до истечения срока действия транзакции.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.ReceiveRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use WaitForRequest when it is acceptable for the current thread to be blocked while it waits for a message to arrive in the queue.</source>
+          <target state="translated">WaitForRequest следует используйте, если текущий поток можно заблокировать, пока ожидается поступление в очередь сообщения.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The thread is blocked up to the specified <ph id="ph1">`timeout`</ph>.</source>
+          <target state="translated">Поток заблокирован вплоть до указанного <ph id="ph1">`timeout`</ph>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need the application processing to continue without waiting, use the asynchronous &lt;xref:System.ServiceModel.Channels.IReplyChannel.BeginWaitForRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt; method.</source>
+          <target state="translated">Если работа приложения должна продолжаться без ожидания, используйте асинхронный &lt;xref:System.ServiceModel.Channels.IReplyChannel.BeginWaitForRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt;метод.&lt;/xref:System.ServiceModel.Channels.IReplyChannel.BeginWaitForRequest%28System.TimeSpan%2CSystem.AsyncCallback%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.TimeSpan&gt; that specifies how long a request operation has to complete before timing out and returning <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.TimeSpan&gt;, Указывающее продолжительность нахождения запроса имеет операции завершения, прежде чем истечет время ожидания и возвращение <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a request is received before the specified interval of time elapses; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если запрос получен до истечения заданного интервала времени; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

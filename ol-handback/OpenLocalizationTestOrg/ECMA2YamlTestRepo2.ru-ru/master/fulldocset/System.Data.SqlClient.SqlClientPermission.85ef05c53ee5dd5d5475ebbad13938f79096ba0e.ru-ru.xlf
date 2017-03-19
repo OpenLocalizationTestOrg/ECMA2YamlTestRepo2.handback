@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">afa752a968ad1f1f7defccbe71802e52e4cb645d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.SqlClient.SqlClientPermission.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">edccb5a01f388cab534605635a5a9b5a2fc126f3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ade6d850d18b161f60cefc3bca8b75066ab82b5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables the .NET Framework Data Provider for SQL Server to help make sure that a user has a security level sufficient to access a data source.</source>
+          <target state="translated">Включает поставщик данных .NET Framework для SQL Server, чтобы убедиться, что пользователь имеет уровень безопасности, достаточный для доступа к источнику данных.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt; property takes precedence over the &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt; property.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt;Имеет приоритет над &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;свойство.&lt;/xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt; &lt;/xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if you set &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt; to <ph id="ph1">`false`</ph>, you must also set &lt;xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt; to <ph id="ph2">`false`</ph> to prevent a user from making a connection using a blank password.</source>
+          <target state="translated">Таким образом Если задать &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;для <ph id="ph1">`false`</ph>, необходимо также задать &lt;xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt;для <ph id="ph2">`false`</ph> для предотвращения подключения с пустым паролем пользователя.&lt;/xref:System.Data.Common.DBDataPermission.IsUnrestricted%2A&gt; &lt;/xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When using code access security permissions for ADO.NET, the correct pattern is to start with the most restrictive case (no permissions at all) and then add the specific permissions that are needed for the particular task that the code needs to perform.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек при использовании разрешений CAS для ADO.NET, рекомендуется начинать с наиболее жестких ограничений (нет разрешений), а затем добавлять определенные права доступа, необходимые конкретной задаче, которую требуется выполнить коду.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The opposite pattern, starting with all permissions and then denying a specific permission, is not secure, because there are many ways of expressing the same connection string.</source>
+          <target state="translated">Противоположный подход, начиная со всех разрешений, а затем удаляют определенные права, не является безопасным, поскольку существует много способов выражения одинаковой строки соединения.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you start with all permissions and then attempt to deny the use of the connection string "server=someserver", the string "server=someserver.mycompany.com" would still be allowed.</source>
+          <target state="translated">Например, если сначала все разрешения, а затем попытаться запретить использование строки подключения «server = someserver», строка «server=someserver.mycompany.com» по-прежнему допускается.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By always starting by granting no permissions at all, you reduce the chances that there are holes in the permission set.</source>
+          <target state="translated">Начиная с отсутствия разрешений на всех, можно сократить вероятность появления уязвимостей в системе в набор разрешений.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значения.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Permissions.PermissionState&gt; enumeration takes precedence over the &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt; property.</source>
+          <target state="translated">&lt;xref:System.Security.Permissions.PermissionState&gt;Перечисления имеет приоритет над &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;свойство.&lt;/xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt; &lt;/xref:System.Security.Permissions.PermissionState&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if you set &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt; to <ph id="ph1">`false`</ph>, you must also set &lt;xref:System.Security.Permissions.PermissionState&gt; to <ph id="ph2">`None`</ph> to prevent a user from making a connection using a blank password.</source>
+          <target state="translated">Таким образом Если задать &lt;xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;для <ph id="ph1">`false`</ph>, необходимо также задать &lt;xref:System.Security.Permissions.PermissionState&gt;для <ph id="ph2">`None`</ph> для предотвращения подключения с пустым паролем пользователя.&lt;/xref:System.Security.Permissions.PermissionState&gt; &lt;/xref:System.Data.Common.DBDataPermission.AllowBlankPassword%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example demonstrating how to use security demands, see <bpt id="p1">[</bpt>Code Access Security and ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Пример, демонстрирующий использование требования безопасности см. в разделе <bpt id="p1">[</bpt>управления доступом для кода и ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Security.Permissions.PermissionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значения.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Indicates whether a blank password is allowed.</source>
+          <target state="translated">Указывает, разрешено ли пустой пароль.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Adds a new connection string and a set of restricted keywords to the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Добавляет новую строку подключения, а также ряд служебные ключевые слова для <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this method to configure which connection strings are allowed by a particular permission object.</source>
+          <target state="translated">Используйте этот метод для настройки того, какие строки подключения разрешены определенным объектом разрешений.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, use the following code fragment if you want to only allow a specific connection string and nothing else:       <ph id="ph1">`permission.Add("server=MyServer; database=MyDatabase; Integrated Security=true", "", KeyRestrictionBehavior.AllowOnly)`</ph>       The following example allows connection strings that use any database, but only on the server named MyServer, with any user and password combination and containing no other connection string keywords:       <ph id="ph2">`permission.Add("server=MyServer;", "database=; user id=; password=;", KeyRestrictionBehavior.AllowOnly)`</ph>       The following example uses the same scenario as above but allows for a failover partner that can be used when connecting to servers configured for mirroring:       <ph id="ph3">`permission.Add("server=MyServer; failover partner=MyMirrorServer", "database=; user id=; password=;", KeyRestrictionBehavior.AllowOnly)`</ph><ph id="ph4">      &gt; </ph><ph id="ph5">[!NOTE]</ph> &gt;  When using code access security permissions for ADO.NET, the correct pattern is to start with the most restrictive case (no permissions at all) and then add the specific permissions that are needed for the particular task that the code needs to perform.</source>
+          <target state="translated">Например, использовать следующий фрагмент кода, если вы хотите разрешить только конкретную строку соединения и ничего более: <ph id="ph1">`permission.Add("server=MyServer; database=MyDatabase; Integrated Security=true", "", KeyRestrictionBehavior.AllowOnly)`</ph> в следующем примере пользователь строки соединения, использующие любую базу данных, но только на сервере с именем MyServer, с любого сочетания пользователя и пароль, содержащий нет других ключевых слов строки подключения: <ph id="ph2">`permission.Add("server=MyServer;", "database=; user id=; password=;", KeyRestrictionBehavior.AllowOnly)`</ph> следующий пример использует одного сценария, как описано выше, но позволяет участнику отработки отказа, который может использоваться при подключении к серверам настроена для зеркального отображения : <ph id="ph3">`permission.Add("server=MyServer; failover partner=MyMirrorServer", "database=; user id=; password=;", KeyRestrictionBehavior.AllowOnly)`</ph> <ph id="ph4">      &gt; </ph> <ph id="ph5">[!NOTE]</ph> Настроек при использовании разрешений CAS для ADO.NET, рекомендуется начинать с наиболее жестких ограничений (нет разрешений), а затем добавлять определенные права доступа, необходимые конкретной задаче, которую требуется выполнить коду.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The opposite pattern, starting with all permissions and then trying to deny a specific permission, is not secure, because there are many ways of expressing the same connection string.</source>
+          <target state="translated">Противоположный подход, начиная со всех разрешений и затем запрещать определенные разрешения, не является безопасным, поскольку существует много способов выражения одинаковой строки соединения.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you start with all permissions and then attempt to deny the use of the connection string "server=someserver", the string "server=someserver.mycompany.com" would still be allowed.</source>
+          <target state="translated">Например, если сначала все разрешения, а затем попытаться запретить использование строки подключения «server = someserver», строка «server=someserver.mycompany.com» по-прежнему допускается.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By always starting by granting no permissions at all, you reduce the chances that there are holes in the permission set.</source>
+          <target state="translated">Начиная с отсутствия разрешений на всех, можно сократить вероятность появления уязвимостей в системе в набор разрешений.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The connection string.</source>
+          <target state="translated">Строка подключения.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The key restrictions.</source>
+          <target state="translated">Ключевые ограничения.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.KeyRestrictionBehavior"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumerations.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Data.KeyRestrictionBehavior"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> перечисления.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an <bpt id="p2">&lt;xref href="System.Security.IPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returns the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlClientPermission"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an <bpt id="p2">&lt;xref href="System.Security.IPermission"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A copy of the current permission object.</source>
+          <target state="translated">Копия текущего объекта разрешения.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

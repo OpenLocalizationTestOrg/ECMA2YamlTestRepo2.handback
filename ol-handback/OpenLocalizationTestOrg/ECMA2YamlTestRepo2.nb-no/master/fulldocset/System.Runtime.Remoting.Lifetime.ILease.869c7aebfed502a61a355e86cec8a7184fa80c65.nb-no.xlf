@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0f5540e6c5fa52a7fb07812489dca702f5d0d07a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Lifetime.ILease.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45e38805615699c79712350027a835033186690d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">61b43a52af76d032a62ac13781d0eb18c77ef2e0</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a lifetime lease object that is used by the remoting lifetime service.</source>
+          <target state="translated">Definerer en levetid leasingavtalen-objekt som brukes av tjenesten ekstern kommunikasjon levetid.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Distributed garbage collection controls when server applications can be deleted.</source>
+          <target state="translated">Distribuert ugyldige samlingen kontroller når serverprogrammer kan slettes.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Traditionally, distributed garbage collection uses reference counts and pinging for control.</source>
+          <target state="translated">Vanligvis bruker distribuert datasanering referanseantall og pinge for kontrollen.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This works well when there are a few clients per object, but does not work well when there are thousands of clients per each object.</source>
+          <target state="translated">Dette fungerer bra når det er noen klienter per objekt, men ikke fungerer bra når tusenvis av klienter per hvert objekt.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lifetime service can assume the function of a traditional distributed garbage collector, and scales well when the number of clients increases.</source>
+          <target state="translated">Tjenesten levetid kan ha funksjonen av en tradisjonell distribuert saneringsoppsamling og skalaer også når antallet klienter øker.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lifetime service associates a lease with each remotely activated object.</source>
+          <target state="translated">Tjenesten levetid knytter en leasingavtale hvert eksternt aktiverte objekt.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the lease expires, the object is removed.</source>
+          <target state="translated">Når leasingavtalen er utløpt, fjernes objektet.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A lease can specify that an object has an infinite lifetime.</source>
+          <target state="translated">En leasingavtale kan angi et objekt som har en uendelig levetid.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each &lt;xref:System.AppDomain&gt; contains a lease manager that administers the leases in the domain.</source>
+          <target state="translated">Hver &lt;xref:System.AppDomain&gt;inneholder en leasingavtalen manager som administrerer leier i domenet.&lt;/xref:System.AppDomain&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lease manager periodically examines the leases for time expiration.</source>
+          <target state="translated">Leasingavtalen manager undersøker regelmessig leier for tid utløp.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a lease has expired, it can either be canceled by removing its reference to the lease, or renewed by invoking one or more of the lease's sponsors.</source>
+          <target state="translated">Hvis en leasingavtalen er utløpt, kan den enten avbrytes ved å fjerne referansen til leasingavtalen, eller fornyes ved å bruke ett eller flere av de leasingavtalen sponsorer.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A lease contains properties that determine its policies, and methods that renew the lease time.</source>
+          <target state="translated">En leasingavtale inneholder egenskaper som bestemmer tilhørende policyer og metoder som fornyer leietiden.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lease exposes the ILease interface.</source>
+          <target state="translated">Leasingavtalen viser grensesnittet ILease.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example showing how to use the ILease interface see <bpt id="p1">[</bpt>Lifetimes<ept id="p1">](http://msdn.microsoft.com/en-us/334a30e5-33cb-4f0f-a38a-ed4abc5560fa)</ept>.</source>
+          <target state="translated">Et eksempel viser hvordan du bruker grensesnittet ILease under <bpt id="p1">[</bpt>levetid<ept id="p1">](http://msdn.microsoft.com/en-us/334a30e5-33cb-4f0f-a38a-ed4abc5560fa)</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets the amount of time remaining on the lease.</source>
+          <target state="translated">Henter hvor lang tid som gjenstår på leasingavtalen.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The amount of time remaining on the lease.</source>
+          <target state="translated">Hvor lang tid som gjenstår på leasingavtalen.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">Umiddelbar oppkalleren kaller via en referanse til grensesnittet og har ikke tillatelse for infrastruktur.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets the current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.LeaseState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the lease.</source>
+          <target state="translated">Henter gjeldende <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.LeaseState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> av leasingavtalen.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.LeaseState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the lease.</source>
+          <target state="translated">Gjeldende <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Lifetime.LeaseState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> av leasingavtalen.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">Umiddelbar oppkalleren kaller via en referanse til grensesnittet og har ikke tillatelse for infrastruktur.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets or sets the initial time for the lease.</source>
+          <target state="translated">Henter eller angir den første tiden for leasingavtalen.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the InitialLeaseTime property is set to &lt;xref:System.TimeSpan?displayProperty=fullName&gt;, then the lease will never time out and the object associated with it will have an infinite lifetime.</source>
+          <target state="translated">Hvis den egenskapen InitialLeaseTime er satt til &lt;xref:System.TimeSpan?displayProperty=fullName&gt;, leasingavtalen aldri blir tidsavbrutt og objektet som er knyttet til den har uendelig levetid.&lt;/xref:System.TimeSpan?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The initial time for the lease.</source>
+          <target state="translated">Første lenge leasingavtalen.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">Umiddelbar oppkalleren kaller via en referanse til grensesnittet og har ikke tillatelse for infrastruktur.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Registers a sponsor for the lease without renewing the lease.</source>
+          <target state="translated">Registrerer en sponsorer for leasingavtalen uten fornyelse av leasingavtalen.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a sponsor is registered with the current method, the lease is not renewed.</source>
+          <target state="translated">Hvis en sponsorer er registrert med den gjeldende metoden, er ikke leasingavtalen fornyes.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The callback object of the sponsor.</source>
+          <target state="translated">Tilbakekall objekt av sponsoren.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">Umiddelbar oppkalleren kaller via en referanse til grensesnittet og har ikke tillatelse for infrastruktur.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Registers a sponsor for the lease, and renews it by the specified &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated">Registrerer en sponsorer for leasingavtalen og fornyes innen det angitte &lt;xref:System.TimeSpan&gt;.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The callback object of the sponsor.</source>
+          <target state="translated">Tilbakekall objekt av sponsoren.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The length of time to renew the lease by.</source>
+          <target state="translated">Hvor lang tid å fornye leasingavtalen av.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">Umiddelbar oppkalleren kaller via en referanse til grensesnittet og har ikke tillatelse for infrastruktur.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Renews a lease for the specified time.</source>
+          <target state="translated">Fornyer en leasingavtalen for den angitte tiden.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The lease time is set to the maximum of the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; or the current time plus the renewal time.</source>
+          <target state="translated">Leietiden er satt til maksimalt antallet den &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;eller gjeldende klokkeslett pluss fornyelse tiden.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The length of time to renew the lease by.</source>
+          <target state="translated">Hvor lang tid å fornye leasingavtalen av.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The new expiration time of the lease.</source>
+          <target state="translated">Ny tidspunktet for utløp av leasingavtalen.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">Umiddelbar oppkalleren kaller via en referanse til grensesnittet og har ikke tillatelse for infrastruktur.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets the amount of time by which a call to the remote object renews the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;.</source>
+          <target state="translated">Henter eller angir hvor lang tid som et kall til det eksterne objektet fornyes &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you make a call to a remote object, the lifetime service adds the RenewOnCallTime to the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; only if the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; has dropped below the RenewOnCallTime.</source>
+          <target state="translated">Når du utfører et kall til et eksternt objekt, tjenesten levetid legger til RenewOnCallTime til den &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;bare hvis det &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;er slettet under RenewOnCallTime.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; &lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Sequential calls therefore do not increase the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; without bound.</source>
+          <target state="translated">Sekvensiell kall derfor øker ikke den &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;uten grense.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, immediately after any call, the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt; is guaranteed to be the RenewOnCallTime or longer.</source>
+          <target state="translated">I stedet umiddelbart etter noen kall av &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;er garanterer skal RenewOnCallTime eller lengre.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The amount of time by which a call to the remote object renews the &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;.</source>
+          <target state="translated">Hvor lang tid som et kall til det eksterne objektet fornyes &lt;xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;.&lt;/xref:System.Runtime.Remoting.Lifetime.ILease.CurrentLeaseTime*&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">Umiddelbar oppkalleren kaller via en referanse til grensesnittet og har ikke tillatelse for infrastruktur.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets or sets the amount of time to wait for a sponsor to return with a lease renewal time.</source>
+          <target state="translated">Henter eller angir hvor lenge man skal vente på sponsorer å returnere med leasingavtalen fornyelse tid.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the SponsorshipTimeout is &lt;xref:System.TimeSpan?displayProperty=fullName&gt;, then this lease will not take sponsors.</source>
+          <target state="translated">Hvis SponsorshipTimeout &lt;xref:System.TimeSpan?displayProperty=fullName&gt;, og deretter denne leasingavtalen ikke trer sponsorer.&lt;/xref:System.TimeSpan?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a sponsor does not respond to a call to renew a lease within the time-out period, it is assumed to be dead and is removed from the list of sponsors for the current lease.</source>
+          <target state="translated">Hvis en sponsorer ikke svarer til et kall til fornye en leasingavtale innen tidsavbruddsperioden, antatt for å være inaktiv og fjernes fra listen over sponsorer gjeldende leasingavtalen.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The amount of time to wait for a sponsor to return with a lease renewal time.</source>
+          <target state="translated">Hvor lenge man skal vente på sponsorer å returnere med leasingavtalen fornyelse tid.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">Umiddelbar oppkalleren kaller via en referanse til grensesnittet og har ikke tillatelse for infrastruktur.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Removes a sponsor from the sponsor list.</source>
+          <target state="translated">Fjerner et sponsorer sponsorer-listen.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The lease sponsor to unregister.</source>
+          <target state="translated">Leasingavtalen sponsorer ikke avregistrere.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The immediate caller makes the call through a reference to the interface and does not have infrastructure permission.</source>
+          <target state="translated">Umiddelbar oppkalleren kaller via en referanse til grensesnittet og har ikke tillatelse for infrastruktur.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

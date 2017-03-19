@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">40da67562a8e87243a398b4d34cfdf5a0a9bcfb0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Compilation.ConnectionStringsExpressionBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a328be7d8b6d4a2d78a351ea3f90fbebcdd5dec4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d9be30175ae372fd1dc274feb5107d7d2a3e659</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Retrieves, or generates code to retrieve, values from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">检索，或生成代码，以检索，请从值<ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> Web.config 文件的部分。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ConnectionStringsExpressionBuilder class provides access to values in the &lt;<ph id="ph1">`connectionStrings`</ph>&gt; section of the Web.config file.</source>
+          <target state="translated">ConnectionStringsExpressionBuilder 类提供对中值的访问<ph id="ph1">`connectionStrings`</ph>1&gt; 的 Web.config 文件的部分。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The &lt;<ph id="ph1">`connectionStrings`</ph>&gt; section of the Web.config file contains connection string values in name/value pairs.</source>
+          <target state="translated"><ph id="ph1">`connectionStrings`</ph>1&gt; 部分的 Web.config 文件包含名称/值对中的连接字符串值。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A connection string value is retrieved by assigning an expression of the form       <ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph>       to a control property.</source>
+          <target state="translated">通过分配形式的表达式检索连接字符串值<ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph>给控件属性。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The part of the expression before the colon (:) designates the type of expression to be retrieved, and the part after the colon signifies the name of the connection string.</source>
+          <target state="translated">冒号 （:） 的表达式的一部分指定的类型的表达式被检索，而部分后冒号表示连接字符串的名称。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The preceding expression would retrieve the following value from the Web.config file.</source>
+          <target state="translated">前面的表达式将从 Web.config 文件中检索以下值。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`&lt;connectionStrings&gt;`</ph>       <ph id="ph2">`&lt;add name="secureConnectionString" connectionString="Data`</ph>       <ph id="ph3">`Source=localhost;Integrated Security=SSPI;Initial`</ph>       <ph id="ph4">`Catalog=Northwind;" providerName="System.Data.SqlClient" /&gt;`</ph>       <ph id="ph5">`&lt;/connectionStrings&gt;`</ph>       When the page parser encounters an expression with the prefix <ph id="ph6">`ConnectionStrings`</ph>, it creates an instance of the ConnectionStringsExpressionBuilder class to handle the expression.</source>
+          <target state="translated"><ph id="ph1">`&lt;connectionStrings&gt;`</ph>       <ph id="ph2">`&lt;add name="secureConnectionString" connectionString="Data`</ph>       <ph id="ph3">`Source=localhost;Integrated Security=SSPI;Initial`</ph>       <ph id="ph4">`Catalog=Northwind;" providerName="System.Data.SqlClient" /&gt;`</ph>       <ph id="ph5">`&lt;/connectionStrings&gt;`</ph>当页分析器遇到一个具有前缀表达式<ph id="ph6">`ConnectionStrings`</ph>，它会创建 ConnectionStringsExpressionBuilder 类来处理该表达式的实例。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the expression is encountered in a page that will be compiled, the ConnectionStringsExpressionBuilder object generates code that retrieves the specified connection string from the Web.config file.</source>
+          <target state="translated">如果在将编译的页面中遇到这种表达式，ConnectionStringsExpressionBuilder 对象会生成从 Web.config 文件中检索指定的连接字符串的代码。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If the expression is encountered in a page that will not be compiled, the ConnectionStringsExpressionBuilder object returns the value from the Web.config file when the page is parsed.</source>
+          <target state="translated">如果在无需编译的页面中遇到这种表达式，ConnectionStringsExpressionBuilder 对象分析页面时返回的值从 Web.config 文件。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Compilation.ConnectionStringsExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Compilation.ConnectionStringsExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns a value from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">返回一个值从<ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> Web.config 文件的部分。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This method is called when an expression of the form <ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph> is encountered in a page that is not compiled.</source>
+          <target state="translated">形式的表达式时调用此方法<ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph>未编译的页中遇到。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>It retrieves the appropriate value from the &lt;<ph id="ph1">`connectionStrings`</ph>&gt; section of the Web.config file.</source>
+          <target state="translated">它检索中的适当值<ph id="ph1">`connectionStrings`</ph>1&gt; 的 Web.config 文件的部分。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This method overrides the &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt; method by calling the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString%2A&gt; method if a connection string is included in the <ph id="ph1">`parsedData`</ph> parameter, or by calling the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionStringProviderName%2A&gt; method if a connection string is not included in the <ph id="ph2">`parsedData`</ph> parameter.</source>
+          <target state="translated">此方法将替代&lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;方法通过调用&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString%2A&gt;方法如果连接字符串包含在<ph id="ph1">`parsedData`</ph>参数，或通过调用&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionStringProviderName%2A&gt;方法如果连接字符串未包含在<ph id="ph2">`parsedData`</ph>参数。&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionStringProviderName%2A&gt; &lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString%2A&gt; &lt;/xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The object that contains the expression.</source>
+          <target state="translated">包含表达式的对象。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The property to which the expression is bound.</source>
+          <target state="translated">表达式绑定到属性。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The object that represents parsed data as returned by &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">表示的对象返回&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;分析数据</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">为控件或页的属性。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; associated with a key in the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">&lt;xref:System.Object&gt;与中的键关联<ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> Web.config 文件的部分。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The connection string name could not be found in the Web.config file.</source>
+          <target state="translated">在 Web.config 文件中找不到连接字符串名称。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns a code expression to evaluate during page parsing.</source>
+          <target state="translated">返回要评估在页分析过程的代码表达式。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This method is called during the CodeDOM creation for a page or control.</source>
+          <target state="translated">在 CodeDOM 创建过程调用此方法为页或控件。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CodeDom.CodeExpression&gt; object returned is of the type &lt;xref:System.CodeDom.CodeMethodInvokeExpression&gt; and represents the method to call when retrieving a connection string value.</source>
+          <target state="translated">&lt;xref:System.CodeDom.CodeExpression&gt;返回对象的类型是&lt;xref:System.CodeDom.CodeMethodInvokeExpression&gt;和表示检索连接字符串值时要调用的方法。&lt;/xref:System.CodeDom.CodeMethodInvokeExpression&gt; &lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An object that represents information about the property bound to by the expression.</source>
+          <target state="translated">表示有关属性的信息的对象绑定到由表达式。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The object that represents parsed data as returned by &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">表示的对象返回&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;分析数据</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">为控件或页的属性。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that invokes a method.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，它调用的方法。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns a connection string from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">返回的连接字符串从<ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> Web.config 文件的部分。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A&gt; property returns a collection of connection string values.</source>
+          <target state="translated">&lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A&gt;属性返回一个集合的连接字符串值。&lt;/xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The GetConnectionString method returns the value from this collection that is associated with the connection string name.</source>
+          <target state="translated">GetConnectionString 方法从与该连接字符串名称关联此集合中返回的值。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name of the connection string.</source>
+          <target state="translated">连接字符串的名称。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The connection string as a &lt;xref:System.String&gt; for this connection string name.</source>
+          <target state="translated">连接字符串作为&lt;xref:System.String&gt;用于此连接字符串名称。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The connection string name could not be found in the Web.config file.</source>
+          <target state="translated">在 Web.config 文件中找不到连接字符串名称。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the connection string provider from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">返回连接字符串提供程序从<ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> Web.config 文件的部分。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A?displayProperty=fullName&gt; property returns a collection of connection string values.</source>
+          <target state="translated">&lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A?displayProperty=fullName&gt;属性返回一个集合的连接字符串值。&lt;/xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The GetConnectionStringProviderName method returns the provider for the value from this collection that is associated with the connection string name.</source>
+          <target state="translated">GetConnectionStringProviderName 方法返回与该连接字符串名称关联此集合中的值提供。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The name of the connection string.</source>
+          <target state="translated">连接字符串的名称。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The provider as a &lt;xref:System.String&gt; for this connection string name.</source>
+          <target state="translated">提供程序中的作为&lt;xref:System.String&gt;用于此连接字符串名称。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The connection string name could not be found in the Web.config file.</source>
+          <target state="translated">在 Web.config 文件中找不到连接字符串名称。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Returns an object that represents the parsed expression.</source>
+          <target state="translated">返回一个对象，表示已分析的表达式。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.Object&gt; is of the type &lt;xref:System.Web.UI.Pair&gt;.</source>
+          <target state="translated">返回类型的&lt;xref:System.Object&gt;&lt;xref:System.Web.UI.Pair&gt;.&lt;/xref:System.Web.UI.Pair&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This &lt;xref:System.Web.UI.Pair&gt; object can be passed to both the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; method and the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetCodeExpression%2A&gt; method as <ph id="ph1">`parsedData`</ph>.</source>
+          <target state="translated">这&lt;xref:System.Web.UI.Pair&gt;对象可以传递对这两个&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;方法和&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetCodeExpression%2A&gt;方法作为<ph id="ph1">`parsedData`</ph>。&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetCodeExpression%2A&gt; &lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; &lt;/xref:System.Web.UI.Pair&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.Pair&gt; object contains the name and value of the connection string.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Pair&gt;对象包含的名称和连接字符串的值。&lt;/xref:System.Web.UI.Pair&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The value of the declarative expression.</source>
+          <target state="translated">声明性的表达式的值。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The targeted type for the expression.</source>
+          <target state="translated">表达式的目标的类型。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">为控件或页的属性。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; containing the parsed representation of the expression.</source>
+          <target state="translated">&lt;xref:System.Object&gt;包含已分析的表达式表示形式。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether an expression can be evaluated in a page that is not compiled.</source>
+          <target state="translated">返回一个值，该值指示是否可以在未编译的页面中计算表达式。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The SupportsEvaluate property indicates whether the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; method has been implemented in the class.</source>
+          <target state="translated">SupportsEvaluate 属性指示是否&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;已在类中实现方法&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; must be implemented within an expression builder for an expression to be evaluated in a page that is not compiled.</source>
+          <target state="translated">&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;必须在要进行求值在未编译的页面中表达式的表达式生成器内实现。&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt; supports no-compile evaluation of connection strings, so <ph id="ph1">`true`</ph> is always returned.</source>
+          <target state="translated">&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt;因此支持的连接字符串的非编译计算<ph id="ph1">`true`</ph>始终返回。&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在所有情况下。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

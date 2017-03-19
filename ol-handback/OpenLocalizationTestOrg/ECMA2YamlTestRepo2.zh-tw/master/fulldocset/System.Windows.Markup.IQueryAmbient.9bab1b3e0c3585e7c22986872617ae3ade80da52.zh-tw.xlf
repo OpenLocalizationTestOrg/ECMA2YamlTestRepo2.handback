@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bc0f9059ccdb447123ce112112b6b992f363b51d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Markup.IQueryAmbient.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d46f3db6648a1727a934d25683214ac0d0da40c8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7525a30dae94d83fc1bdca8158dd99215e943b06</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Queries for whether a specified property should be treated as ambient in the current scope.</source>
+          <target state="translated">是否指定的屬性應該視為環境目前範圍中的查詢。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The purpose of an ambient property mechanism is to improve parsing time by informing a XAML object writer to avoid instantiating certain objects, in cases where it is known that the objects are for values that are temporary and not useful for a typical run time application.</source>
+          <target state="translated">環境屬性機制的目的是通知 XAML 物件寫入器，以避免執行個體化特定物件，在其中它為已知的物件是暫時的而且不適合一般執行的階段應用程式的值的情況下，改善剖析的時間。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Normally, XAML lookups or XAML processing of a property get accessor would need to instantiate such objects to fill the object graph representation with ready-to-use values.</source>
+          <target state="translated">一般來說，XAML 查閱或 XAML 處理屬性 get 存取子必須具現化這類物件，以填滿物件圖表示法，具有已備妥要使用的值。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>IQueryAmbient has one member: &lt;xref:System.Windows.Markup.IQueryAmbient.IsAmbientPropertyAvailable%2A&gt;.</source>
+          <target state="translated">IQueryAmbient 具有一個成員︰ &lt;xref:System.Windows.Markup.IQueryAmbient.IsAmbientPropertyAvailable%2A&gt;.&lt;/xref:System.Windows.Markup.IQueryAmbient.IsAmbientPropertyAvailable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>IQueryAmbient is a parallel mechanism to &lt;xref:System.Windows.Markup.AmbientAttribute&gt;.</source>
+          <target state="translated">IQueryAmbient 為&lt;xref:System.Windows.Markup.AmbientAttribute&gt;.&lt;/xref:System.Windows.Markup.AmbientAttribute&gt;的平行機制</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>IQueryAmbient is the specialized mechanism that avoids using reflection to determine information, and can also act situationally (a given object could choose to report <ph id="ph1">`true`</ph> or <ph id="ph2">`false`</ph> for &lt;xref:System.Windows.Markup.IQueryAmbient.IsAmbientPropertyAvailable%2A&gt;), whereas the attribute is essentially static analysis).</source>
+          <target state="translated">IQueryAmbient 是特製化的機制，可避免使用反映來判斷資訊，而且還可以 act 但是事先 (指定的物件可以選擇報表<ph id="ph1">`true`</ph>或<ph id="ph2">`false`</ph>的&lt;xref:System.Windows.Markup.IQueryAmbient.IsAmbientPropertyAvailable%2A&gt;)，而此屬性是基本上靜態分析)。&lt;/xref:System.Windows.Markup.IQueryAmbient.IsAmbientPropertyAvailable%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Markup.AmbientAttribute&gt; is the general mechanism that can be used by XAML object writers and that typically correlates to the dedicated XAML type system properties &lt;xref:System.Xaml.XamlMember.IsAmbient%2A&gt; and &lt;xref:System.Xaml.XamlType.IsAmbient%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Markup.AmbientAttribute&gt;是可用的 XAML 物件寫入器，而且通常相互關聯的專用 XAML 類型系統屬性&lt;xref:System.Xaml.XamlMember.IsAmbient%2A&gt;和&lt;xref:System.Xaml.XamlType.IsAmbient%2A&gt;。&lt;/xref:System.Xaml.XamlType.IsAmbient%2A&gt;&lt;/xref:System.Xaml.XamlMember.IsAmbient%2A&gt;的一般機制&lt;/xref:System.Windows.Markup.AmbientAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>WPF Implementations of IQueryAmbient    In WPF, IQueryAmbient is used for the resource dictionary lookup process.</source>
+          <target state="translated">WPF 實作的 IQueryAmbient 中 WPF、 IQueryAmbient 用於資源字典查閱程序。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The lookup process gets successive <ph id="ph1">`Resources`</ph> values throughout the WPF logical tree, working towards the root of the resource scope until either a key is found or the key is determined to not exist in scope.</source>
+          <target state="translated">查閱程序取得後續<ph id="ph1">`Resources`</ph>整個 WPF 邏輯樹狀結構中的值，朝向資源範圍根直到索引鍵找不到或金鑰判斷為不存在於範圍。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Normally, doing so would require instantiating a &lt;xref:System.Windows.ResourceDictionary&gt; each time to receive the results.</source>
+          <target state="translated">一般而言，這樣做需要具現化&lt;xref:System.Windows.ResourceDictionary&gt;每次接收結果。&lt;/xref:System.Windows.ResourceDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Declaring the contents of <ph id="ph1">`Resources`</ph> as ambient so long as <ph id="ph2">`Resources`</ph> exists optimizes this lookup process.</source>
+          <target state="translated">宣告的內容<ph id="ph1">`Resources`</ph>只要環境<ph id="ph2">`Resources`</ph>存在最佳化此查閱程序。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In WPF, this interface is implemented in the following cases:      -   &lt;xref:System.Windows.FrameworkElement&gt; implements &lt;xref:System.Windows.FrameworkElement.System%23Windows%23Markup%23IQueryAmbient%23IsAmbientPropertyAvailable%2A&gt; to return <ph id="ph1">`true`</ph> for all property names if it contains an existing &lt;xref:System.Windows.ResourceDictionary&gt; for &lt;xref:System.Windows.FrameworkElement.Resources%2A&gt;, and so long as the query is not for the &lt;xref:System.Windows.FrameworkElement.Resources%2A&gt; property itself.</source>
+          <target state="translated">在 WPF 中，此介面實作在下列情況下:-&lt;xref:System.Windows.FrameworkElement&gt;實作&lt;xref:System.Windows.FrameworkElement.System%23Windows%23Markup%23IQueryAmbient%23IsAmbientPropertyAvailable%2A&gt;傳回<ph id="ph1">`true`</ph>的所有屬性名稱，如果它包含的現有&lt;xref:System.Windows.ResourceDictionary&gt;的&lt;xref:System.Windows.FrameworkElement.Resources%2A&gt;，只要該查詢不是針對與&lt;xref:System.Windows.FrameworkElement.Resources%2A&gt;屬性本身。&lt;/xref:System.Windows.FrameworkElement.Resources%2A&gt; &lt;/xref:System.Windows.FrameworkElement.Resources%2A&gt; &lt;/xref:System.Windows.ResourceDictionary&gt; &lt;/xref:System.Windows.FrameworkElement.System%23Windows%23Markup%23IQueryAmbient%23IsAmbientPropertyAvailable%2A&gt; &lt;/xref:System.Windows.FrameworkElement&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Windows.Style&gt; implements the same pattern for its &lt;xref:System.Windows.Style.Resources%2A&gt;.</source>
+          <target state="translated">-&lt;xref:System.Windows.Style&gt;實作其&lt;xref:System.Windows.Style.Resources%2A&gt;.&lt;/xref:System.Windows.Style.Resources%2A&gt;的相同模式&lt;/xref:System.Windows.Style&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Windows.Application&gt; implements the same pattern for its &lt;xref:System.Windows.Application.Resources%2A&gt;.</source>
+          <target state="translated">-&lt;xref:System.Windows.Application&gt;實作其&lt;xref:System.Windows.Application.Resources%2A&gt;.&lt;/xref:System.Windows.Application.Resources%2A&gt;的相同模式&lt;/xref:System.Windows.Application&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Windows.FrameworkContentElement&gt; implements the same pattern for its &lt;xref:System.Windows.FrameworkContentElement.Resources%2A&gt;.</source>
+          <target state="translated">-&lt;xref:System.Windows.FrameworkContentElement&gt;實作其&lt;xref:System.Windows.FrameworkContentElement.Resources%2A&gt;.&lt;/xref:System.Windows.FrameworkContentElement.Resources%2A&gt;的相同模式&lt;/xref:System.Windows.FrameworkContentElement&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Windows.FrameworkTemplate&gt; implements the same pattern for its &lt;xref:System.Windows.FrameworkTemplate.Resources%2A&gt;.</source>
+          <target state="translated">-&lt;xref:System.Windows.FrameworkTemplate&gt;實作其&lt;xref:System.Windows.FrameworkTemplate.Resources%2A&gt;.&lt;/xref:System.Windows.FrameworkTemplate.Resources%2A&gt;的相同模式&lt;/xref:System.Windows.FrameworkTemplate&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>It also reports &lt;xref:System.Windows.FrameworkTemplate.Template%2A&gt; content as ambient but returns <ph id="ph1">`false`</ph> if querying for &lt;xref:System.Windows.FrameworkTemplate.Template%2A&gt; itself.</source>
+          <target state="translated">它也會報告&lt;xref:System.Windows.FrameworkTemplate.Template%2A&gt;內容與環境，但傳回<ph id="ph1">`false`</ph>如果查詢&lt;xref:System.Windows.FrameworkTemplate.Template%2A&gt;本身。&lt;/xref:System.Windows.FrameworkTemplate.Template%2A&gt; &lt;/xref:System.Windows.FrameworkTemplate.Template%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>-   In each of these cases, the relevant <ph id="ph1">`Resources`</ph> property (and &lt;xref:System.Windows.FrameworkTemplate.Template%2A&gt;) are attributed as &lt;xref:System.Windows.Markup.AmbientAttribute&gt;.</source>
+          <target state="translated">-在上述這些情況下，相關<ph id="ph1">`Resources`</ph>屬性 (和&lt;xref:System.Windows.FrameworkTemplate.Template%2A&gt;) 的屬性會設定為&lt;xref:System.Windows.Markup.AmbientAttribute&gt;.&lt;/xref:System.Windows.Markup.AmbientAttribute&gt; &lt;/xref:System.Windows.FrameworkTemplate.Template%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The typical usage is to query for the properties that are NOT the &lt;xref:System.Windows.Markup.AmbientAttribute&gt; attributed properties of the object that defines the interface.</source>
+          <target state="translated">一般用法是，不是屬性的查詢&lt;xref:System.Windows.Markup.AmbientAttribute&gt;屬性定義的介面物件的屬性。&lt;/xref:System.Windows.Markup.AmbientAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>In other words, so long as a resource dictionary exists in order to provide the potential run time value when the object graph is created, any other property besides the resource dictionary's property container can be treated as ambient.</source>
+          <target state="translated">換句話說，只要資源字典存在為了提供可能的執行的階段值，建立物件圖形時，任何其他內容以外的資源字典的屬性容器可以視為環境。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Queries for whether a specified named property can be considered ambient in the current scope.</source>
+          <target state="translated">是否在指定的具名的屬性可視為環境目前範圍中的查詢。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The name of the property to check for ambience state.</source>
+          <target state="translated">要檢查的環境狀態的屬性名稱。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the requested property can be considered ambient; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果要求的屬性可以被視為環境;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

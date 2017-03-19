@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5ddd43f2995a94220fb2b52a0146c63e900dfd6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.SessionState.SessionStateStoreProviderBase.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8ba52f531440a3249c15f3801ddd87e200dfe825</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">506aeb683934148bae0d30173a714c0f9b26828a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the required members of a session-state provider for a data store.</source>
+          <target state="translated">定义的会话状态提供程序的数据存储所需的成员。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ASP.NET session state reads and writes session data from and to a data store using a session-state store provider.</source>
+          <target state="translated">ASP.NET 会话状态读取和写入 from 和 to 数据存储区中使用会话状态的会话数据存储提供程序。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A session-state store provider is a class that inherits the SessionStateStoreProviderBase abstract class and overrides its members with implementations specific to the data store.</source>
+          <target state="translated">会话状态存储提供程序是一个类继承 SessionStateStoreProviderBase 抽象类，重写其成员实现特定于数据存储。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The session-state store provider is called by the &lt;xref:System.Web.SessionState.SessionStateModule&gt; class during the processing of an ASP.NET page to communicate with the data store for the storage and retrieval of session variables and related session information such as the time-out value.</source>
+          <target state="translated">会话状态存储提供程序由&lt;xref:System.Web.SessionState.SessionStateModule&gt;期间 ASP.NET 页与存储的数据存储进行通信的处理和检索的会话变量和等的超时值的相关的会话信息的类。&lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Session data within each ASP.NET application is stored separately for each &lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; property.</source>
+          <target state="translated">每个单独存储每个 ASP.NET 应用程序中的会话数据&lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;属性。&lt;/xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>ASP.NET applications do not share session data.</source>
+          <target state="translated">ASP.NET 应用程序不共享会话数据。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can specify a custom SessionStateStoreProviderBase implementation for an ASP.NET application by setting the <ph id="ph1">`mode`</ph> attribute of the <ph id="ph2">`sessionState`</ph> configuration element to &lt;xref:System.Web.SessionState.SessionStateMode&gt; and the <ph id="ph3">`customProvider`</ph> attribute to the name of the custom provider, as shown in the example for this topic.</source>
+          <target state="translated">你可以通过设置指定 ASP.NET 应用程序的自定义 SessionStateStoreProviderBase 实现<ph id="ph1">`mode`</ph>属性<ph id="ph2">`sessionState`</ph>到的配置元素&lt;xref:System.Web.SessionState.SessionStateMode&gt;和<ph id="ph3">`customProvider`</ph>属性的名称自定义提供程序，如本主题的示例中所示。&lt;/xref:System.Web.SessionState.SessionStateMode&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Locking Session Store Data    Because ASP.NET applications are multithreaded to support responding to concurrent requests, it is possible that concurrent requests might attempt to access the same session information.</source>
+          <target state="translated">锁定会话的应用商店数据因为 ASP.NET 应用程序是多线程，以支持对并发请求的响应，但可以并发请求可能会尝试访问相同的会话信息。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Consider a scenario where multiple frames in a frameset all access the same application.</source>
+          <target state="translated">请考虑在所有框架集的多个帧访问同一个应用程序的位置的方案。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The separate requests for each frame in the frameset can be executed on the Web server concurrently on different threads.</source>
+          <target state="translated">可以同时在不同线程在 Web 服务器上执行个框架集中每个帧的独立请求。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the ASP.NET pages for each frame source access session-state variables, then you could have multiple threads accessing the session store concurrently.</source>
+          <target state="translated">如果每个帧源的 ASP.NET 页访问会话状态变量，则会有多个线程同时访问的会话存储。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To avoid data collisions at the session store and unexpected session-state behavior, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; and SessionStateStoreProviderBase classes include lock functionality that exclusively locks the session store item for a particular session for the duration of the execution of an ASP.NET page.</source>
+          <target state="translated">若要避免数据冲突，在会话存储和意外的会话状态行为&lt;xref:System.Web.SessionState.SessionStateModule&gt;和 SessionStateStoreProviderBase 类包含了 ASP.NET 页的执行持续时间的特定会话以独占方式锁定会话存储项的锁定功能。&lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Note that even if the &lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; attribute is marked as <ph id="ph1">`ReadOnly`</ph>, other ASP.NET pages in the same application might be able to write to the session store, so a request for read-only session data from the store might still end up waiting for locked data to be freed.</source>
+          <target state="translated">请注意，即使&lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;属性标记为<ph id="ph1">`ReadOnly`</ph>，在同一应用程序的其他 ASP.NET 页可能能够将写入到的会话存储中，因此为只读的会话的请求存储区中的数据可能仍最终等待锁定要释放的数据。&lt;/xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A lock is set on session-store data at the beginning of the request, in the call to the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; method.</source>
+          <target state="translated">对会话存储数据请求，对的调用中的开头设置锁定&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt;方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When the request completes, the lock is released during the call to the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.SetAndReleaseItemExclusive%2A&gt; method.</source>
+          <target state="translated">完成请求后，在调用期间释放锁&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.SetAndReleaseItemExclusive%2A&gt;方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.SetAndReleaseItemExclusive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object encounters locked session data during the call to either the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; or the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt; method, it will re-request the session data at half-second intervals until either the lock is released or the amount of time that the session data has been locked exceeds the value of the &lt;xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt; property.</source>
+          <target state="translated">如果&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象在调用过程中遇到锁定的会话数据&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt;或&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt;方法，它将重新请求的会话数据隔半秒直到释放锁或会话数据已被锁定的时间量超过的值&lt;xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt;属性。&lt;/xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the execution time out is exceeded, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object will call the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt; method to free the session-store data and request the session-store data at that time.</source>
+          <target state="translated">如果超出超时执行时间，则&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象将调用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt;方法以释放会话存储数据并在该时间请求会话存储数据。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Because locked session-store data might have been freed by a call to the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt; method on a separate thread before the call to the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.SetAndReleaseItemExclusive%2A&gt; method for the current response, an attempt could be made to set and release session-state store data that has already been released and modified by another session.</source>
+          <target state="translated">因为锁定会话存储数据可能会被释放通过调用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt;方法对的调用之前在单独线程上&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.SetAndReleaseItemExclusive%2A&gt;当前响应的方法，无法尝试设置和发布已发布和修改由另一个会话的会话状态存储数据。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.SetAndReleaseItemExclusive%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To avoid this situation, the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt; and &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; methods return a lock identifier.</source>
+          <target state="translated">若要避免此情况下，&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt;和&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt;方法返回的锁定标识符。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This lock identifier must be included with each request to modify locked session-store data.</source>
+          <target state="translated">此锁标识符必须包含每个请求以修改锁定的会话存储数据。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Session-store data is modified only if the lock identifier in the data store matches the lock identifier supplied by the &lt;xref:System.Web.SessionState.SessionStateModule&gt;.</source>
+          <target state="translated">会话存储仅当数据存储区中的锁定标识符匹配&lt;xref:System.Web.SessionState.SessionStateModule&gt;.&lt;/xref:System.Web.SessionState.SessionStateModule&gt;所提供的锁定标识符时修改数据</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Deleting Expired Session Store Data    When the &lt;xref:System.Web.SessionState.HttpSessionState.Abandon%2A&gt; method is called for a particular session, the data for that session is deleted from the data store using the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.RemoveItem%2A&gt; method; otherwise, the data will remain in the session data store to server future requests for the session.</source>
+          <target state="translated">删除过期会话存储数据时&lt;xref:System.Web.SessionState.HttpSessionState.Abandon%2A&gt;针对特定会话调用方法，该会话的数据将删除从数据存储区使用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.RemoveItem%2A&gt;方法; 否则，数据将保留在服务器今后的请求的会话数据存储区为会话。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.RemoveItem%2A&gt; &lt;/xref:System.Web.SessionState.HttpSessionState.Abandon%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>It is up to the SessionStateStoreProviderBase implementation to delete expired session data.</source>
+          <target state="translated">负责 SessionStateStoreProviderBase 实现中删除过期的会话数据。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreProviderBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreProviderBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You are not required to implement a constructor for a class that inherits the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; abstract class.</source>
+          <target state="translated">不需要实现&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;抽象类&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;继承的类的构造函数</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initialization values for a &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; implementation are passed to the &lt;xref:System.Configuration.Provider.ProviderBase.Initialize%2A&gt; method implementation.</source>
+          <target state="translated">值初始化&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;实现传递给&lt;xref:System.Configuration.Provider.ProviderBase.Initialize%2A&gt;方法实现。&lt;/xref:System.Configuration.Provider.ProviderBase.Initialize%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to be used for the current request.</source>
+          <target state="translated">创建一个新<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要用于当前请求的对象。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the CreateNewStoreData method at the beginning of a request for an ASP.NET page, during the &lt;xref:System.Web.HttpApplication.AcquireRequestState&gt; event.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象期间调用 ASP.NET 页中，请求的开始处的 CreateNewStoreData 方法&lt;xref:System.Web.HttpApplication.AcquireRequestState&gt;事件。&lt;/xref:System.Web.HttpApplication.AcquireRequestState&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The CreateNewStoreData method is called if:      -   the incoming request has no session ID, or      -   the incoming request has a session ID, but the session is not found in the data store.</source>
+          <target state="translated">如果调用 CreateNewStoreData 方法:-传入的请求具有没有会话 ID，或-传入的请求具有数据存储区中未找到 ID，但会话的会话。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The CreateNewStoreData method creates a new &lt;xref:System.Web.SessionState.SessionStateStoreData&gt; object with an empty &lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt; object, an &lt;xref:System.Web.HttpStaticObjectsCollection&gt; collection, and the specified <ph id="ph1">`timeout`</ph> value.</source>
+          <target state="translated">CreateNewStoreData 方法创建一个新&lt;xref:System.Web.SessionState.SessionStateStoreData&gt;具有一个空对象&lt;xref:System.Web.SessionState.ISessionStateItemCollection&gt;对象，&lt;xref:System.Web.HttpStaticObjectsCollection&gt;集合，并且指定<ph id="ph1">`timeout`</ph>值。&lt;/xref:System.Web.HttpStaticObjectsCollection&gt; &lt;/xref:System.Web.SessionState.ISessionStateItemCollection&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreData&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.HttpStaticObjectsCollection&gt; collection for the ASP.NET application can be retrieved using the &lt;xref:System.Web.SessionState.SessionStateUtility.GetSessionStaticObjects%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.Web.HttpStaticObjectsCollection&gt;可以使用检索的 ASP.NET 应用程序的集合&lt;xref:System.Web.SessionState.SessionStateUtility.GetSessionStaticObjects%2A&gt;方法。&lt;/xref:System.Web.SessionState.SessionStateUtility.GetSessionStaticObjects%2A&gt; &lt;/xref:System.Web.HttpStaticObjectsCollection&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The session-state &lt;xref:System.Web.SessionState.HttpSessionState.Timeout*&gt; value for the new <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">会话状态&lt;xref:System.Web.SessionState.HttpSessionState.Timeout*&gt;新值<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Web.SessionState.HttpSessionState.Timeout*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A new <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated">一个新<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Adds a new session-state item to the data store.</source>
+          <target state="translated">将新的会话状态项添加到数据存储中。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The CreateUninitializedItem method is used with sessions when the <ph id="ph1">`cookieless`</ph> and <ph id="ph2">`regenerateExpiredSessionId`</ph> attributes are both <ph id="ph3">`true`</ph>.</source>
+          <target state="translated">CreateUninitializedItem 方法用于会话时<ph id="ph1">`cookieless`</ph>和<ph id="ph2">`regenerateExpiredSessionId`</ph>属性都是<ph id="ph3">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Having the <ph id="ph1">`regenerateExpiredSessionId attribute`</ph> set to <ph id="ph2">`true`</ph> causes the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object to generate a new &lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; value when an expired &lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; value is encountered.</source>
+          <target state="translated">具有<ph id="ph1">`regenerateExpiredSessionId attribute`</ph>设置为<ph id="ph2">`true`</ph>导致&lt;xref:System.Web.SessionState.SessionStateModule&gt;要生成一个新对象&lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;值时过期&lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;遇到值。&lt;/xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; &lt;/xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The process of generating a new &lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; value requires redirecting the browser to a URL that contains the newly generated &lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; value.</source>
+          <target state="translated">生成一个新的过程&lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;值需要将浏览器重定向到包含新生成的 URL&lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;值。&lt;/xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; &lt;/xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The CreateUninitializedItem method is called during the initial request that contains an expired &lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; value.</source>
+          <target state="translated">在包含过期的初始请求过程中调用 CreateUninitializedItem 方法&lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;值。&lt;/xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>After the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object acquires a new &lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; value to replace the expired value, it calls the CreateUninitializedItem method to add an uninitialized entry to the session-state data store.</source>
+          <target state="translated">后&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象获取一个新&lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;值来替换过期的值时，它调用 CreateUninitializedItem 方法将未初始化的项添加到会话状态数据存储。&lt;/xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The browser is then redirected to the URL containing the newly generated &lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; value.</source>
+          <target state="translated">然后，将浏览器重定向到包含新生成的 URL&lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;值。&lt;/xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The existence of the uninitialized entry in the session data store ensures that the redirected request that includes the newly generated &lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; value is not mistaken for a request for an expired session and is, instead, treated as a new session.</source>
+          <target state="translated">会话数据存储区中未初始化的项是否存在可确保包括新生成的重定向的请求&lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;值不导致了错误的请求的过期的会话，而，相反，视为新的会话。&lt;/xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The uninitialized entry in the session data store is associated with the newly generated &lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt; value and contains only default values, including an expiration date and time and a value that corresponds to the <ph id="ph1">`actionFlags`</ph> parameter of the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt; and &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; methods.</source>
+          <target state="translated">会话数据存储区中的未经初始化即的项是与新生成相关联&lt;xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;值和只包含默认值，包括过期日期和时间，以及一个值，对应于<ph id="ph1">`actionFlags`</ph>参数&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt;和&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt;方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt; &lt;/xref:System.Web.SessionState.HttpSessionState.SessionID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The uninitialized entry in the session-state store should include an <ph id="ph1">`actionFlags`</ph> value equal to the &lt;xref:System.Web.SessionState.SessionStateActions&gt; enumeration value.</source>
+          <target state="translated">会话状态存储区中未初始化的条目应包含<ph id="ph1">`actionFlags`</ph>值等于&lt;xref:System.Web.SessionState.SessionStateActions&gt;枚举值。&lt;/xref:System.Web.SessionState.SessionStateActions&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>This value is passed to the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object by the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt; and &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; methods, and informs the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object that the current session is a new but uninitialized session.</source>
+          <target state="translated">此值传递给&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt;和&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt;方法，并通知&lt;xref:System.Web.SessionState.SessionStateModule&gt;当前会话是新但的对象未初始化的会话。&lt;/xref:System.Web.SessionState.SessionStateModule&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object will then initialize the new session and raise the <ph id="ph1">`Session_OnStart`</ph> event.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象然后会初始化该新会话，并引发<ph id="ph1">`Session_OnStart`</ph>事件。&lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>For more information about cookieless sessions, see the &lt;xref:System.Web.SessionState.HttpSessionState.IsCookieless%2A&gt; property.</source>
+          <target state="translated">有关无 cookie 会话的详细信息，请参阅&lt;xref:System.Web.SessionState.HttpSessionState.IsCookieless%2A&gt;属性。&lt;/xref:System.Web.SessionState.HttpSessionState.IsCookieless%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.HttpSessionState.SessionID*&gt; for the current request.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.HttpSessionState.SessionID*&gt;为当前请求。&lt;/xref:System.Web.SessionState.HttpSessionState.SessionID*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The session &lt;xref:System.Web.SessionState.HttpSessionState.Timeout*&gt; for the current request.</source>
+          <target state="translated">会话&lt;xref:System.Web.SessionState.HttpSessionState.Timeout*&gt;为当前请求。&lt;/xref:System.Web.SessionState.HttpSessionState.Timeout*&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreProviderBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation.</source>
+          <target state="translated">释放使用的所有资源<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreProviderBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>实现。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The Dispose method is called when the &lt;xref:System.Web.SessionState.SessionStateModule.Dispose%2A?displayProperty=fullName&gt; method executes at the closing of the application domain.</source>
+          <target state="translated">Dispose 方法调用时&lt;xref:System.Web.SessionState.SessionStateModule.Dispose%2A?displayProperty=fullName&gt;方法执行在应用程序域关闭。&lt;/xref:System.Web.SessionState.SessionStateModule.Dispose%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Classes that inherit the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; class can use this method to free any resources no longer in use.</source>
+          <target state="translated">继承的类&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;类可以使用此方法以释放不再使用中的任何资源。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Called by the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object at the end of a request.</source>
+          <target state="translated">由调用<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>末尾的请求的对象。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the EndRequest method at the end of a request for an ASP.NET page, during the &lt;xref:System.Web.HttpApplication.EndRequest&gt; event.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象期间调用 ASP.NET 页中，请求的末尾处的 EndRequest 方法&lt;xref:System.Web.HttpApplication.EndRequest&gt;事件。&lt;/xref:System.Web.HttpApplication.EndRequest&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>You can use the EndRequest method to perform any per-request cleanup required by your session-state store provider.</source>
+          <target state="translated">EndRequest 方法可用于执行任何所需的会话状态存储提供程序的每个请求清理。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Returns read-only session-state data from the session data store.</source>
+          <target state="translated">从会话数据存储区返回只读的会话状态数据。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the GetItem method at the beginning of a request, during the &lt;xref:System.Web.HttpApplication.AcquireRequestState&gt; event, when the &lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; attribute is set to <ph id="ph1">`ReadOnly`</ph>.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象期间调用的请求开始处的 GetItem 方法&lt;xref:System.Web.HttpApplication.AcquireRequestState&gt;事件，当&lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;属性设置为<ph id="ph1">`ReadOnly`</ph>。&lt;/xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; &lt;/xref:System.Web.HttpApplication.AcquireRequestState&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; attribute is set to <ph id="ph1">`true`</ph>, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object instead calls the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; method.</source>
+          <target state="translated">如果&lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;属性设置为<ph id="ph1">`true`</ph>、&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象改为调用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt;方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItemExclusive%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt; &lt;/xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The GetItem method returns a &lt;xref:System.Web.SessionState.SessionStateStoreData&gt; object populated with session information from the data store and updates the expiration date of the session data.</source>
+          <target state="translated">GetItem 方法返回&lt;xref:System.Web.SessionState.SessionStateStoreData&gt;对象填充数据存储区中的会话信息和更新会话数据的过期日期。&lt;/xref:System.Web.SessionState.SessionStateStoreData&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If no session-item data is found at the data store, the GetItem method sets the <ph id="ph1">`locked``out`</ph> parameter to <ph id="ph2">`false`</ph> and returns <ph id="ph3">`null`</ph>.</source>
+          <target state="translated">如果在数据存储区中不找到任何会话项数据，则 GetItem 方法会设置<ph id="ph1">`locked``out`</ph>参数<ph id="ph2">`false`</ph>并返回<ph id="ph3">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This causes the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object to call the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateNewStoreData%2A&gt; method to create a new session item in the data store.</source>
+          <target state="translated">这将导致&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象调用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateNewStoreData%2A&gt;方法来创建一个新会话项在数据存储。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateNewStoreData%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If session-item data is found at the data store but the data is locked, the GetItem method sets the <ph id="ph1">`locked``out`</ph> parameter to <ph id="ph2">`true`</ph>, sets the <ph id="ph3">`lockAge``out`</ph> parameter to the current date and time minus the date and time when the item was locked (which is retrieved from the data store), sets the <ph id="ph4">`lockId``out`</ph> parameter to the lock identifier retrieved from the data store, and returns <ph id="ph5">`null`</ph>.</source>
+          <target state="translated">如果会话项在数据存储区中找到数据，但数据被锁定，GetItem 方法设置<ph id="ph1">`locked``out`</ph>参数<ph id="ph2">`true`</ph>，设置<ph id="ph3">`lockAge``out`</ph>参数 （其中从存储中检索数据），设置为当前日期和时间减去的日期和时间锁定此项目已<ph id="ph4">`lockId``out`</ph>参数的锁定标识符从数据存储区，并返回检索<ph id="ph5">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This causes the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object to call the GetItem method again after a half-second interval to attempt to retrieve the session-item information.</source>
+          <target state="translated">这将导致&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象在半秒时间间隔，以尝试检索会话项信息后再次调用 GetItem 方法。&lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If the value that the <ph id="ph1">`lockAge``out`</ph> parameter is set to exceed the &lt;xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt; value, then the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt; method to clear the lock on the session-item data, and then calls the GetItem method again.</source>
+          <target state="translated">如果值的<ph id="ph1">`lockAge``out`</ph>参数设置为超过&lt;xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt;值，则&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象调用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt;方法以清除锁定会话项数据，然后再次调用 GetItem 方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt; &lt;/xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`actionFlags`</ph> parameter is used when both the <ph id="ph2">`cookieless`</ph> and <ph id="ph3">`regenerateExpiredSessionId`</ph> attributes are set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`actionFlags`</ph>使用参数时同时<ph id="ph2">`cookieless`</ph>和<ph id="ph3">`regenerateExpiredSessionId`</ph>属性都设置为<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">`actionFlags`</ph> value set to &lt;xref:System.Web.SessionState.SessionStateActions&gt; indicates that the entry in the session data store is a new session that requires initialization.</source>
+          <target state="translated"><ph id="ph1">`actionFlags`</ph>值设置为&lt;xref:System.Web.SessionState.SessionStateActions&gt;指示会话数据存储区中的项是需要初始化的新会话。&lt;/xref:System.Web.SessionState.SessionStateActions&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Uninitialized entries in the session data store are created by a call to the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateUninitializedItem%2A&gt; method.</source>
+          <target state="translated">通过调用创建会话数据存储区中的未经初始化即的项&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateUninitializedItem%2A&gt;方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateUninitializedItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If the item from the session data store is not an uninitialized item, the <ph id="ph1">`actionFlags`</ph> parameter will be set to zero.</source>
+          <target state="translated">如果会话数据存储区中的项不是未初始化的项，<ph id="ph1">`actionFlags`</ph>参数将设置为零。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Custom session-state store implementers that support cookieless sessions should set the <ph id="ph1">`actionFlags`</ph> <ph id="ph2">`out`</ph> parameter to the value returned from the session data store for the current item.</source>
+          <target state="translated">支持无 cookie 会话的自定义会话状态存储实施者应设置<ph id="ph1">`actionFlags`</ph><ph id="ph2">`out`</ph>从当前项的会话数据存储区返回的值的参数。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`actionFlags`</ph> parameter value for the requested session-store item equals the &lt;xref:System.Web.SessionState.SessionStateActions&gt; enumeration value, then the GetItem method should set the value in the data store to zero after setting the <ph id="ph2">`actionFlags`</ph> <ph id="ph3">`out`</ph> parameter.</source>
+          <target state="translated">如果<ph id="ph1">`actionFlags`</ph>请求的会话存储的参数值项等于&lt;xref:System.Web.SessionState.SessionStateActions&gt;枚举值，则 GetItem 方法应将值设置为零后设置数据存储区中<ph id="ph2">`actionFlags`</ph><ph id="ph3">`out`</ph>参数。&lt;/xref:System.Web.SessionState.SessionStateActions&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.HttpSessionState.SessionID*&gt; for the current request.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.HttpSessionState.SessionID*&gt;为当前请求。&lt;/xref:System.Web.SessionState.HttpSessionState.SessionID*&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a Boolean value that is set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the requested session item is locked at the session data store; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此方法返回时，包含一个布尔值，设置为<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果请求的会话项是在会话数据存储区锁定; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a &lt;xref:System.TimeSpan&gt; object that is set to the amount of time that an item in the session data store has been locked.</source>
+          <target state="translated">此方法返回时，包含&lt;xref:System.TimeSpan&gt;设置为会话数据存储区中的项已被锁定的时间量的对象。&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an object that is set to the lock identifier for the current request.</source>
+          <target state="translated">此方法返回时，包含设置为当前请求的锁定标识符的对象。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For details on the lock identifier, see "Locking Session-Store Data" in the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreProviderBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class summary.</source>
+          <target state="translated">有关的锁定标识符的详细信息，请参见"锁定会话存储数据" <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreProviderBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>类摘要。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains one of the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateActions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, indicating whether the current session is an uninitialized, cookieless session.</source>
+          <target state="translated">此方法返回时，包含之一<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateActions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，该值指示当前会话是否为未初始化，无 cookie 会话。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> populated with session values and information from the session data store.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用会话值和会话数据存储区中的信息来填充。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Returns read-only session-state data from the session data store.</source>
+          <target state="translated">从会话数据存储区返回只读的会话状态数据。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the GetItemExclusive method at the beginning of a request, during the &lt;xref:System.Web.HttpApplication.AcquireRequestState&gt; event, when the &lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; attribute is set to <ph id="ph1">`true`</ph>, which is the default.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象期间调用的请求开始处的 GetItemExclusive 方法&lt;xref:System.Web.HttpApplication.AcquireRequestState&gt;事件，当&lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;属性设置为<ph id="ph1">`true`</ph>，这是默认设置。&lt;/xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; &lt;/xref:System.Web.HttpApplication.AcquireRequestState&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; attribute is set to <ph id="ph1">`ReadOnly`</ph>, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object instead calls the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt; method.</source>
+          <target state="translated">如果&lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;属性设置为<ph id="ph1">`ReadOnly`</ph>、&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象改为调用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt;方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.GetItem%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt; &lt;/xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The GetItemExclusive method returns a &lt;xref:System.Web.SessionState.SessionStateStoreData&gt; object populated with session information from the data store, updates the expiration date of the stored data, and locks the session-item data at the data store for the duration of the request.</source>
+          <target state="translated">GetItemExclusive 方法返回&lt;xref:System.Web.SessionState.SessionStateStoreData&gt;填充从数据存储的会话信息的对象更新所存储的数据的过期日期和请求的持续时间内锁定数据存储的会话项数据。&lt;/xref:System.Web.SessionState.SessionStateStoreData&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If no session-item data is found at the data store, the GetItemExclusive method sets the <ph id="ph1">`locked`</ph> <ph id="ph2">`out`</ph> parameter to <ph id="ph3">`false`</ph> and returns <ph id="ph4">`null`</ph>.</source>
+          <target state="translated">如果在数据存储区中不找到任何会话项数据，则 GetItemExclusive 方法会设置<ph id="ph1">`locked`</ph><ph id="ph2">`out`</ph>参数<ph id="ph3">`false`</ph>并返回<ph id="ph4">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This causes the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object to call the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateNewStoreData%2A&gt; method to create a new session item in the data store.</source>
+          <target state="translated">这将导致&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象调用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateNewStoreData%2A&gt;方法来创建一个新会话项在数据存储。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateNewStoreData%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If session-item data is found at the data store but the data is locked, the GetItemExclusive method sets the <ph id="ph1">`locked`</ph> <ph id="ph2">`out`</ph> parameter to <ph id="ph3">`true`</ph>, sets the <ph id="ph4">`lockAge`</ph> <ph id="ph5">`out`</ph> parameter to the current date and time minus the date and time when the item was locked (which is retrieved from the data store), sets the <ph id="ph6">`lockId`</ph> <ph id="ph7">`out`</ph> parameter to the lock identifier retrieved from the data store, and returns <ph id="ph8">`null`</ph>.</source>
+          <target state="translated">如果会话项在数据存储区中找到数据，但数据被锁定，GetItemExclusive 方法设置<ph id="ph1">`locked`</ph><ph id="ph2">`out`</ph>参数<ph id="ph3">`true`</ph>，设置<ph id="ph4">`lockAge`</ph><ph id="ph5">`out`</ph>参数 （其中从存储中检索数据），设置为当前日期和时间减去的日期和时间锁定此项目已<ph id="ph6">`lockId`</ph><ph id="ph7">`out`</ph>参数的锁定标识符从数据存储区，并返回检索<ph id="ph8">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This causes the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object to call the GetItemExclusive method again after a half-second interval to attempt to retrieve the session-item information and obtain a lock on the data.</source>
+          <target state="translated">这将导致&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象在半秒时间间隔，尝试检索会话项信息并获取数据的锁后再次调用 GetItemExclusive 方法。&lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If the value that the <ph id="ph1">`lockAge`</ph> <ph id="ph2">`out`</ph> parameter is set to exceeds the &lt;xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt; value, then the &lt;xref:System.Web.SessionState.SessionStateModule&gt; calls the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt; method to clear the lock on the session-item data, and then calls the GetItemExclusive method again.</source>
+          <target state="translated">如果值的<ph id="ph1">`lockAge`</ph><ph id="ph2">`out`</ph>参数设置为超出&lt;xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt;值，则&lt;xref:System.Web.SessionState.SessionStateModule&gt;调用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt;方法以清除锁定会话项数据，然后再次调用 GetItemExclusive 方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt; &lt;/xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`actionFlags`</ph> parameter is used when the <ph id="ph2">`cookieless`</ph> and <ph id="ph3">`regenerateExpiredSessionId`</ph> attributes are both set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`actionFlags`</ph>使用参数时<ph id="ph2">`cookieless`</ph>和<ph id="ph3">`regenerateExpiredSessionId`</ph>属性都设置为<ph id="ph4">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">`actionFlags`</ph> value set to &lt;xref:System.Web.SessionState.SessionStateActions&gt; indicates that the entry in the session data store is a new session that requires initialization.</source>
+          <target state="translated"><ph id="ph1">`actionFlags`</ph>值设置为&lt;xref:System.Web.SessionState.SessionStateActions&gt;指示会话数据存储区中的项是需要初始化的新会话。&lt;/xref:System.Web.SessionState.SessionStateActions&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Uninitialized entries in the session data store are created by a call to the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateUninitializedItem%2A&gt; method.</source>
+          <target state="translated">通过调用创建会话数据存储区中的未经初始化即的项&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateUninitializedItem%2A&gt;方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.CreateUninitializedItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the item from the session data store is not an uninitialized item, the <ph id="ph1">`actionFlags`</ph> parameter will be set to zero.</source>
+          <target state="translated">如果会话数据存储区中的项不是未初始化的项，<ph id="ph1">`actionFlags`</ph>参数将设置为零。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Custom session-state store implementers that support cookieless sessions should set the <ph id="ph1">`actionFlags`</ph> <ph id="ph2">`out`</ph> parameter to the value returned from the session data store for the current item.</source>
+          <target state="translated">支持无 cookie 会话的自定义会话状态存储实施者应设置<ph id="ph1">`actionFlags`</ph><ph id="ph2">`out`</ph>从当前项的会话数据存储区返回的值的参数。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`actionFlags`</ph> parameter value for the requested session-store item equals the &lt;xref:System.Web.SessionState.SessionStateActions&gt; enumeration value, then the GetItemExclusive method should set the value in the data store to zero after setting the <ph id="ph2">`actionFlags`</ph> <ph id="ph3">`out`</ph> parameter.</source>
+          <target state="translated">如果<ph id="ph1">`actionFlags`</ph>请求的会话存储的参数值项等于&lt;xref:System.Web.SessionState.SessionStateActions&gt;枚举值，则 GetItemExclusive 方法应将值设置为零后设置数据存储区中<ph id="ph2">`actionFlags`</ph><ph id="ph3">`out`</ph>参数。&lt;/xref:System.Web.SessionState.SessionStateActions&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.HttpSessionState.SessionID*&gt; for the current request.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.HttpSessionState.SessionID*&gt;为当前请求。&lt;/xref:System.Web.SessionState.HttpSessionState.SessionID*&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a Boolean value that is set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a lock is successfully obtained; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">此方法返回时，包含一个布尔值，设置为<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>锁是否已成功获得; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a &lt;xref:System.TimeSpan&gt; object that is set to the amount of time that an item in the session data store has been locked.</source>
+          <target state="translated">此方法返回时，包含&lt;xref:System.TimeSpan&gt;设置为会话数据存储区中的项已被锁定的时间量的对象。&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an object that is set to the lock identifier for the current request.</source>
+          <target state="translated">此方法返回时，包含设置为当前请求的锁定标识符的对象。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For details on the lock identifier, see "Locking Session-Store Data" in the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreProviderBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class summary.</source>
+          <target state="translated">有关的锁定标识符的详细信息，请参见"锁定会话存储数据" <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreProviderBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>类摘要。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains one of the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateActions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values, indicating whether the current session is an uninitialized, cookieless session.</source>
+          <target state="translated">此方法返回时，包含之一<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateActions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，该值指示当前会话是否为未初始化，无 cookie 会话。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> populated with session values and information from the session data store.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用会话值和会话数据存储区中的信息来填充。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Called by the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for per-request initialization.</source>
+          <target state="translated">由调用<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateModule"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>每个请求的初始化的对象。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the InitializeRequest method before calling any other &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; method.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象前调用任何其他调用 InitializeRequest 方法&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>You can use the InitializeRequest method to perform any per-request initialization required by your session-state store provider.</source>
+          <target state="translated">InitializeRequest 方法可用于执行任何所需的会话状态存储提供程序的每个请求初始化。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Releases a lock on an item in the session data store.</source>
+          <target state="translated">版本存储会话数据中的项上的锁。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the ReleaseItemExclusive method to update the expiration date and release a lock on an item in the session data store.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象调用 ReleaseItemExclusive 方法更新的到期日期并释放会话数据存储区中的项上的锁。&lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>It is called at the end of a request, during the &lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt; event, if session values are unchanged.</source>
+          <target state="translated">它在结束时调用的请求期间&lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt;事件，如果会话值未更改。&lt;/xref:System.Web.HttpApplication.ReleaseRequestState&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If session values have been modified, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object instead calls the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.SetAndReleaseItemExclusive%2A&gt; method.</source>
+          <target state="translated">如果会话值进行了修改，&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象改为调用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.SetAndReleaseItemExclusive%2A&gt;方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.SetAndReleaseItemExclusive%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object also calls the ReleaseItemExclusive method when a lock on an item in the session data store has exceeded the &lt;xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt; value.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象还将调用 ReleaseItemExclusive 方法超过会话数据存储区中的项上的锁时&lt;xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt;值。&lt;/xref:System.Web.Configuration.HttpRuntimeSection.ExecutionTimeout%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For more information about locking and details about the lock identifier, see "Locking Session-Store Data" in the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; class overview.</source>
+          <target state="translated">有关锁定的详细信息和有关的锁定标识符的详细信息，请参阅"锁定会话存储数据"中&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;类概述。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The ReleaseItemExclusive method only removes the lock from an item in the session data store for the current application that matches the supplied session <ph id="ph1">`id`</ph> and <ph id="ph2">`lockId`</ph> values.</source>
+          <target state="translated">ReleaseItemExclusive 方法仅从一项中的当前应用程序与匹配提供的会话的会话数据存储中删除锁<ph id="ph1">`id`</ph>和<ph id="ph2">`lockId`</ph>值。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`lockId`</ph> does not match the one in the data store, the ReleaseItemExclusive method does nothing.</source>
+          <target state="translated">如果<ph id="ph1">`lockId`</ph>不匹配是数据存储区中，ReleaseItemExclusive 方法不执行任何操作。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The session identifier for the current request.</source>
+          <target state="translated">当前请求的会话标识符。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The lock identifier for the current request.</source>
+          <target state="translated">当前请求的锁定标识符。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Deletes item data from the session data store.</source>
+          <target state="translated">删除项中的会话数据存储的数据。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the RemoveItem method at the end of a request, during the &lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt; event, to delete the data for a session item from the session data store if the &lt;xref:System.Web.SessionState.HttpSessionState.Abandon%2A&gt; method has been called.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象期间调用 RemoveItem 方法末尾的请求，&lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt;事件，若要从会话数据存储区删除会话选项的数据，如果&lt;xref:System.Web.SessionState.HttpSessionState.Abandon%2A&gt;调用方法。&lt;/xref:System.Web.SessionState.HttpSessionState.Abandon%2A&gt; &lt;/xref:System.Web.HttpApplication.ReleaseRequestState&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Only session data for the current application that matches the supplied session <ph id="ph1">`id`</ph> and <ph id="ph2">`lockId`</ph> values is deleted.</source>
+          <target state="translated">匹配提供的会话的当前应用程序仅会话数据<ph id="ph1">`id`</ph>和<ph id="ph2">`lockId`</ph>删除值。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For more information about locking and details about the lock identifier, see "Locking Session-Store Data" in the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; class overview.</source>
+          <target state="translated">有关锁定的详细信息和有关的锁定标识符的详细信息，请参阅"锁定会话存储数据"中&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;类概述。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The session identifier for the current request.</source>
+          <target state="translated">当前请求的会话标识符。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The lock identifier for the current request.</source>
+          <target state="translated">当前请求的锁定标识符。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the item to delete from the data store.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示要从数据存储中删除的项。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Updates the expiration date and time of an item in the session data store.</source>
+          <target state="translated">更新的到期日期和时间的会话数据存储区中的项。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the ResetItemTimeout method to update the expiration date and time for a session to the current date and time plus the session &lt;xref:System.Web.SessionState.HttpSessionState.Timeout%2A&gt; value when either:      -   the &lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; attribute is <ph id="ph1">`true`</ph>, or      -   the request did not raise the &lt;xref:System.Web.HttpApplication.AcquireRequestState&gt; and &lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt; events due to an error.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象调用 ResetItemTimeout 方法来更新的到期日期和适用于会话的时间为当前日期和时间加上会话&lt;xref:System.Web.SessionState.HttpSessionState.Timeout%2A&gt;值时任一:-&lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;属性是<ph id="ph1">`true`</ph>，或-请求未引发&lt;xref:System.Web.HttpApplication.AcquireRequestState&gt;和&lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt;由于出错的事件。&lt;/xref:System.Web.HttpApplication.ReleaseRequestState&gt; &lt;/xref:System.Web.HttpApplication.AcquireRequestState&gt; &lt;/xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; &lt;/xref:System.Web.SessionState.HttpSessionState.Timeout%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If an ASP.NET page is requested and the &lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt; attribute is set to <ph id="ph1">`false`</ph>, the ResetItemTimeout method is still called to update the expiration date and time of the data in the session data store.</source>
+          <target state="translated">如果请求 ASP.NET 页和&lt;xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;属性设置为<ph id="ph1">`false`</ph>，ResetItemTimeout 方法仍调用以更新的到期日期和时间的会话数据存储区中的数据。&lt;/xref:System.Web.Configuration.PagesSection.EnableSessionState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The session identifier for the current request.</source>
+          <target state="translated">当前请求的会话标识符。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Updates the session-item information in the session-state data store with values from the current request, and clears the lock on the data.</source>
+          <target state="translated">通过当前请求的值更新会话状态数据存储区中的会话项信息并清除数据的锁定。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the SetAndReleaseItemExclusive method at the end of a request, during the &lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt; event, to insert current session-item information into the data store or update existing session-item information in the data store with current values, to update the expiration time on the item, and to release the lock on the data.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象期间调用 SetAndReleaseItemExclusive 方法末尾的请求，&lt;xref:System.Web.HttpApplication.ReleaseRequestState&gt;事件，将当前会话项信息插入到数据存储或使用当前值，以更新该项目，在过期并解锁数据更新数据存储区中的现有会话项信息。&lt;/xref:System.Web.HttpApplication.ReleaseRequestState&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Only session data for the current application that matches the supplied session <ph id="ph1">`id`</ph> and <ph id="ph2">`lockId`</ph> values is updated.</source>
+          <target state="translated">匹配提供的会话的当前应用程序仅会话数据<ph id="ph1">`id`</ph>和<ph id="ph2">`lockId`</ph>更新值。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>For more information about locking, see "Locking Session Store Data" in the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; class overview.</source>
+          <target state="translated">锁定的详细信息，请参阅"锁定会话存储区数据"中&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;类概述。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>If the session values for the current request have not been modified, the SetAndReleaseItemExclusive method is not called.</source>
+          <target state="translated">如果当前请求的会话值不进行了修改，则不会调用 SetAndReleaseItemExclusive 方法。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Instead, the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt; method is called.</source>
+          <target state="translated">相反，&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt;调用方法。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.ReleaseItemExclusive%2A&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.SessionState.HttpSessionState.Abandon%2A&gt; method has been called, the SetAndReleaseItemExclusive method is not called.</source>
+          <target state="translated">如果&lt;xref:System.Web.SessionState.HttpSessionState.Abandon%2A&gt;调用方法，不调用 SetAndReleaseItemExclusive 方法。&lt;/xref:System.Web.SessionState.HttpSessionState.Abandon%2A&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Instead, the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.RemoveItem%2A&gt; method to delete session-item data from the data source.</source>
+          <target state="translated">相反，&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象调用&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.RemoveItem%2A&gt;方法来删除会话项数据从数据源。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.RemoveItem%2A&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current request.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为当前请求。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The session identifier for the current request.</source>
+          <target state="translated">当前请求的会话标识符。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current session values to be stored.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateStoreData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象，其中包含要存储的当前会话值。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The lock identifier for the current request.</source>
+          <target state="translated">当前请求的锁定标识符。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to identify the session item as a new item; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to identify the session item as an existing item.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要确定会话项作为新项;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>来标识作为现有项会话项。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Sets a reference to the <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateItemExpireCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate for the <bpt id="p2">&lt;xref uid="langword_csharp_Session_OnEnd" name="Session_OnEnd" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event defined in the Global.asax file.</source>
+          <target state="translated">将引用设置为<bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateItemExpireCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>委托<bpt id="p2">&lt;xref uid="langword_csharp_Session_OnEnd" name="Session_OnEnd" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>在 Global.asax 文件中定义的事件。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.SessionState.SessionStateModule&gt; object calls the SetItemExpireCallback method when the module is initialized to determine whether calls to the <ph id="ph1">`Session_OnEnd`</ph> event are supported by the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; implementation and to associate the &lt;xref:System.Web.SessionState.SessionStateItemExpireCallback&gt; delegate with the <ph id="ph2">`Session_OnEnd`</ph> event.</source>
+          <target state="translated">&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象调用 SetItemExpireCallback 方法，以确定在初始化模块时是否调用<ph id="ph1">`Session_OnEnd`</ph>支持事件&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase&gt;实现并将关联&lt;xref:System.Web.SessionState.SessionStateItemExpireCallback&gt;委托以及<ph id="ph2">`Session_OnEnd`</ph>事件。&lt;/xref:System.Web.SessionState.SessionStateItemExpireCallback&gt; &lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Custom session-state store provider implementers should use the SetItemExpireCallback method to inform the &lt;xref:System.Web.SessionState.SessionStateModule&gt; object whether calls to the <ph id="ph1">`Session_OnEnd`</ph> event are supported and to set a local reference to the &lt;xref:System.Web.SessionState.SessionStateItemExpireCallback&gt; delegate supplied by the <ph id="ph2">`expireCallback`</ph> parameter.</source>
+          <target state="translated">自定义会话状态存储提供程序实施者应使用 SetItemExpireCallback 方法以通知&lt;xref:System.Web.SessionState.SessionStateModule&gt;对象是否调用<ph id="ph1">`Session_OnEnd`</ph>支持事件并将本地引用设置为&lt;xref:System.Web.SessionState.SessionStateItemExpireCallback&gt;委托提供<ph id="ph2">`expireCallback`</ph>参数。&lt;/xref:System.Web.SessionState.SessionStateItemExpireCallback&gt; &lt;/xref:System.Web.SessionState.SessionStateModule&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The custom implementation must decide when the local &lt;xref:System.Web.SessionState.SessionStateItemExpireCallback&gt; delegate will be called.</source>
+          <target state="translated">自定义实现必须确定何时本地&lt;xref:System.Web.SessionState.SessionStateItemExpireCallback&gt;将调用委托。&lt;/xref:System.Web.SessionState.SessionStateItemExpireCallback&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>For example, the delegate could be called during the call to the &lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.RemoveItem%2A&gt; method, which is called when a session is abandoned.</source>
+          <target state="translated">例如，无法在调用过程中调用该委托&lt;xref:System.Web.SessionState.SessionStateStoreProviderBase.RemoveItem%2A&gt;方法，它放弃会话时调用。&lt;/xref:System.Web.SessionState.SessionStateStoreProviderBase.RemoveItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateItemExpireCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate for the <bpt id="p2">&lt;xref uid="langword_csharp_Session_OnEnd" name="Session_OnEnd" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event defined in the Global.asax file.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.SessionState.SessionStateItemExpireCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>委托<bpt id="p2">&lt;xref uid="langword_csharp_Session_OnEnd" name="Session_OnEnd" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>在 Global.asax 文件中定义的事件。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the session-state store provider supports calling the <bpt id="p2">&lt;xref uid="langword_csharp_Session_OnEnd" name="Session_OnEnd" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果会话状态存储提供程序支持调用<bpt id="p2">&lt;xref uid="langword_csharp_Session_OnEnd" name="Session_OnEnd" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
