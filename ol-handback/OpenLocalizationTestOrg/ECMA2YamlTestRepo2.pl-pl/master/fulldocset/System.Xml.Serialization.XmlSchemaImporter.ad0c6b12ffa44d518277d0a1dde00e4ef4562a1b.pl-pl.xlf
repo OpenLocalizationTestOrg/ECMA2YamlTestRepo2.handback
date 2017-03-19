@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7eb651e6589edb88cbf33edb81fab0a4a9899da7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Xml.Serialization.XmlSchemaImporter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">be49ad830df0b0e4137ae823704515c38a81123c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">458033b6b4a5afe48f1b2a09fdc8df9f9a4cdb0a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Generates internal mappings to .NET Framework types for XML schema element declarations, including literal XSD message parts in a WSDL document.</source>
+          <target state="translated">Generuje wewnętrzne mapowania do typów .NET Framework dla deklaracji elementu schematu XML w tym literału części wiadomości XSD w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlSchemaImporter class is used by the <bpt id="p1">[</bpt>Web Services Description Language Tool (Wsdl.exe)<ept id="p1">](http://msdn.microsoft.com/en-us/b9210348-8bc2-4367-8c91-d1a04b403e88)</ept> and the &lt;xref:System.Web.Services.Description.ServiceDescriptionImporter&gt; class while generating client proxy classes or abstract server classes from a Web Services Description Language (WSDL) document.</source>
+          <target state="translated">Klasa XmlSchemaImporter jest używana przez <bpt id="p1">[</bpt>narzędzia języka opisu usługi sieci Web (Wsdl.exe)<ept id="p1">](http://msdn.microsoft.com/en-us/b9210348-8bc2-4367-8c91-d1a04b403e88)</ept> i &lt;xref:System.Web.Services.Description.ServiceDescriptionImporter&gt;klasy podczas generowania klasy serwera proxy klienta lub klasy abstrakcyjne serwera z dokumentu Web Services Description Language (WSDL).&lt;/xref:System.Web.Services.Description.ServiceDescriptionImporter&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class is also used by the <bpt id="p1">[</bpt>Web Services Description Language Tool (Wsdl.exe)<ept id="p1">](http://msdn.microsoft.com/en-us/b9210348-8bc2-4367-8c91-d1a04b403e88)</ept> while generating classes from XML Schema Definition (XSD) documents.</source>
+          <target state="translated">Klasa jest już używana przez <bpt id="p1">[</bpt>narzędzia języka opisu usługi sieci Web (Wsdl.exe)<ept id="p1">](http://msdn.microsoft.com/en-us/b9210348-8bc2-4367-8c91-d1a04b403e88)</ept> podczas generowania klasy z dokumentów definicji schematu XML (XSD).</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of using this class directly, use Wsdl.exe or Xsd.exe.</source>
+          <target state="translated">Zamiast bezpośrednio za pomocą tej klasy, użyj Wsdl.exe lub Xsd.exe.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XmlSchemaImporter class has methods to generate internal mappings to .NET Framework types for elements defined in an XSD document or as parts in a WSDL document.</source>
+          <target state="translated">Klasa XmlSchemaImporter ma metod do wygenerowania wewnętrzny mapowania do typów .NET Framework dla elementów zdefiniowanych w dokumencie XSD lub jako części w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following list shows when the class is used by Wsdl.exe:      -   A WSDL document specifies literal use, where the content of SOAP message parameters and return values (or request and response documents) is literally specified with XML schema definitions.</source>
+          <target state="translated">Na poniższej liście przedstawiono, jeśli klasa jest używana przez Wsdl.exe:-dokument A WSDL Określa użycie literału, dosłownie określoną zawartość protokołu SOAP wiadomości parametrów i zwracanych wartości (lub żądanie i odpowiedź dokumenty) z definicji schematów XML.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A WSDL document specifies the .NET Framework's non-SOAP implementations of Web services via the HTTP-GET and HTTP-POST operations.</source>
+          <target state="translated">-Dokument WSDL określa .NET Framework z systemem innym niż SOAP implementacji usług sieci Web za pomocą operacji HTTP GET i POST protokołu HTTP.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemaImporter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, taking a collection of &lt;xref:System.Xml.Schema.XmlSchema&gt; objects representing the XML schemas used by SOAP literal messages defined in a WSDL document.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemaImporter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy, biorąc Kolekcja &lt;xref:System.Xml.Schema.XmlSchema&gt;obiekty reprezentujące schematy XML używane przez literału wiadomości SOAP zdefiniowana w dokumencie WSDL.&lt;/xref:System.Xml.Schema.XmlSchema&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>A collection of &lt;xref:System.Xml.Schema.XmlSchema&gt; objects.</source>
+          <target state="translated">Kolekcja &lt;xref:System.Xml.Schema.XmlSchema&gt;obiektów.&lt;/xref:System.Xml.Schema.XmlSchema&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemaImporter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, taking a collection of &lt;xref:System.Xml.Schema.XmlSchema&gt; objects that represents the XML schemas used by SOAP literal messages, plus classes being generated for bindings defined in a Web Services Description Language (WSDL) document.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemaImporter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy, biorąc Kolekcja &lt;xref:System.Xml.Schema.XmlSchema&gt;obiektów, które reprezentuje schematy XML używane przez literału wiadomości SOAP, a także klas, generowany dla powiązań zdefiniowanych w dokumencie Web Services Description Language (WSDL).&lt;/xref:System.Xml.Schema.XmlSchema&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemas"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemas"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Serialization.CodeIdentifiers"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies a collection of classes being generated for bindings defined in a WSDL document.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Xml.Serialization.CodeIdentifiers"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który określa zbiór klasy generowane dla powiązań zdefiniowanych w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemaImporter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for a collection of XML schemas, using the specified code generation options and import context.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemaImporter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy dla kolekcji schematów XML, przy użyciu określonego kodu Opcje generowania i zaimportować kontekstu.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A collection of &lt;xref:System.Xml.Schema.XmlSchema&gt; objects.</source>
+          <target state="translated">Kolekcja &lt;xref:System.Xml.Schema.XmlSchema&gt;obiektów.&lt;/xref:System.Xml.Schema.XmlSchema&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Serialization.CodeGenerationOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that specifies code generation options.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Xml.Serialization.CodeGenerationOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wyliczenia, która określa opcje generowania kodu.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Serialization.ImportContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that specifies the import context.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Xml.Serialization.ImportContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienia, który określa kontekst importu.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemaImporter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, taking a collection of &lt;xref:System.Xml.Schema.XmlSchema&gt; objects that represents the XML schemas used by SOAP literal messages, plus classes being generated for bindings defined in a WSDL document, and a <bpt id="p2">&lt;xref href="System.Xml.Serialization.CodeGenerationOptions"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration value.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemaImporter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy, biorąc Kolekcja &lt;xref:System.Xml.Schema.XmlSchema&gt;obiektów, które reprezentuje schematy XML używane przez literału wiadomości SOAP, a także klasy generowane dla powiązań zdefiniowanych w dokumencie WSDL i <bpt id="p2">&lt;xref href="System.Xml.Serialization.CodeGenerationOptions"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> wartości wyliczenia.&lt;/xref:System.Xml.Schema.XmlSchema&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A collection of &lt;xref:System.Xml.Schema.XmlSchema&gt; objects.</source>
+          <target state="translated">Kolekcja &lt;xref:System.Xml.Schema.XmlSchema&gt;obiektów.&lt;/xref:System.Xml.Schema.XmlSchema&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Serialization.CodeIdentifiers"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies a collection of classes being generated for bindings defined in a WSDL document.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Xml.Serialization.CodeIdentifiers"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który określa zbiór klasy generowane dla powiązań zdefiniowanych w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the <bpt id="p1">&lt;xref href="System.Xml.Serialization.CodeGenerationOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the options to use when generating .NET Framework types for a Web service.</source>
+          <target state="translated">Bitowe połączenie <bpt id="p1">&lt;xref href="System.Xml.Serialization.CodeGenerationOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa opcje do użycia podczas generowania typów .NET Framework dla usługi sieci Web.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemaImporter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlSchemaImporter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A collection of &lt;xref:System.Xml.Schema.XmlSchema&gt; objects.</source>
+          <target state="translated">Kolekcja &lt;xref:System.Xml.Schema.XmlSchema&gt;obiektów.&lt;/xref:System.Xml.Schema.XmlSchema&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the <bpt id="p1">&lt;xref href="System.Xml.Serialization.CodeGenerationOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the options to use when generating .NET Framework types for a Web service.</source>
+          <target state="translated">Bitowe połączenie <bpt id="p1">&lt;xref href="System.Xml.Serialization.CodeGenerationOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które określa opcje do użycia podczas generowania typów .NET Framework dla usługi sieci Web.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeDomProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to generate the serialization code.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.CodeDomProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> służący do generowania kodu serializacji.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Serialization.ImportContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that specifies the import context.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Xml.Serialization.ImportContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienia, który określa kontekst importu.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for a single, (SOAP) literal element part defined in a WSDL document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla pojedynczego części literału elementu (SOAP) zdefiniowana w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ImportAnyType method is used by the Wsdl.exe tool while generating client proxy classes or abstract server classes from a Web Services Description Language (WSDL) document.</source>
+          <target state="translated">Metoda ImportAnyType jest używana przez narzędzie Wsdl.exe podczas generowania klasy serwera proxy klienta lub klasy abstrakcyjne serwera z dokumentu Web Services Description Language (WSDL).</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of calling this method directly, use Wsdl.exe or Xsd.exe.</source>
+          <target state="translated">Zamiast bezpośrednio wywołaniem tej metody, użyj Wsdl.exe lub Xsd.exe.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.Serialization.XmlSchemaImporter&gt; class is used only when a WSDL document specifies literal use.</source>
+          <target state="translated">&lt;xref:System.Xml.Serialization.XmlSchemaImporter&gt;Klasa jest używana tylko wtedy, gdy dokument WSDL Określa użycie literałów.&lt;/xref:System.Xml.Serialization.XmlSchemaImporter&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ImportAnyType method is used when a WSDL message has a single part element but the part has not been identified as a wrapper element.</source>
+          <target state="translated">Metoda ImportAnyType jest używana, gdy komunikat WSDL ma element jednej części, ale część nie została zidentyfikowana jako element otoki.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the name of an element's type for which a .NET Framework type is generated.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlQualifiedName&gt;, Który określa nazwę typu elementu, dla którego jest generowany typu .NET Framework.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The name of the part element in the WSDL document.</source>
+          <target state="translated">Nazwa elementu części w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlMembersMapping"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the .NET Framework type mapping for a single element part of a WSDL message definition.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlMembersMapping"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Reprezentujący mapowanie typu środowiska .NET Framework dla pojedynczego elementu częścią definicji komunikatu WSDL.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for an element defined in an XML schema document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla elementu zdefiniowanego w schemacie dokumentu XML.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the ImportDerivedTypeMapping method is used by the Xsd.exe tool to generate classes from an XML Schema Definition (XSD) document.</source>
+          <target state="translated">To przeciążenie metody ImportDerivedTypeMapping jest używany przez narzędzie Xsd.exe można wygenerować klas z dokumentu definicji schematu XML (XSD).</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of calling this method directly, use Xsd.exe.</source>
+          <target state="translated">Zamiast bezpośrednio wywołaniem tej metody, należy użyć Xsd.exe.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the name of an element defined in an XML schema document.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlQualifiedName&gt;, Który określa nazwę elementu zdefiniowanej w schemacie dokumentu XML.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A base type for the .NET Framework type that is generated to correspond to an XSD element's type.</source>
+          <target state="translated">Typ podstawowy dla typu .NET Framework, który jest generowany odpowiadać typowi elementu XSD.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt; representing the.NET Framework type mapping information for an XML schema element.</source>
+          <target state="translated">&lt;xref:System.Xml.Serialization.XmlTypeMapping&gt;Reprezentujący środowiska.NET Framework mapowania informacji o typie elementu schematu XML.&lt;/xref:System.Xml.Serialization.XmlTypeMapping&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for an element defined in an XML schema document or as a part in a WSDL document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla elementu zdefiniowanej w schemacie dokumentu XML lub jako części w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the ImportDerivedTypeMapping method is used by the Xsd.exe tool to generate classes from an XML Schema Definition (XSD) document.</source>
+          <target state="translated">To przeciążenie metody ImportDerivedTypeMapping jest używany przez narzędzie Xsd.exe można wygenerować klas z dokumentu definicji schematu XML (XSD).</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also is used by the Wsdl.exe tool while generating client proxy classes or abstract server classes from a Web Services Description Language (WSDL) document.</source>
+          <target state="translated">Ponadto jest używany przez narzędzie Wsdl.exe podczas generowania klasy serwera proxy klienta lub klasy abstrakcyjne serwera z dokumentu Web Services Description Language (WSDL).</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of calling this method directly, use Wsdl.exe or Xsd.exe.</source>
+          <target state="translated">Zamiast bezpośrednio wywołaniem tej metody, użyj Wsdl.exe lub Xsd.exe.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the name of an element defined in an XML schema document.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlQualifiedName&gt;, Który określa nazwę elementu zdefiniowanej w schemacie dokumentu XML.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A base type for the .NET Framework type that is generated to correspond to an XSD element's type.</source>
+          <target state="translated">Typ podstawowy dla typu .NET Framework, który jest generowany odpowiadać typowi elementu XSD.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the type corresponding to an XSD element can indirectly inherit from the base type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Aby wskazać, że typ odpowiadający elementu XSD pośrednio może dziedziczyć z typu podstawowego; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The .NET Framework type mapping information for an XML schema element.</source>
+          <target state="translated">.NET Framework mapowania informacji o typie elementu schematu XML.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for a single element part of a literal-use SOAP message defined in a WSDL document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla pojedynczego elementu część komunikatu SOAP Użyj literał zdefiniowana w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ImportMembersMapping method of the &lt;xref:System.Xml.Serialization.XmlSchemaImporter&gt; class is used by the Wsdl.exe tool while generating client proxy classes or abstract server classes from a Web Services Description Language (WSDL) document.</source>
+          <target state="translated">Metoda ImportMembersMapping &lt;xref:System.Xml.Serialization.XmlSchemaImporter&gt;Klasa jest używana przez narzędzie Wsdl.exe podczas generowania klasy serwera proxy klienta lub klasy abstrakcyjne serwera z dokumentu Web Services Description Language (WSDL).&lt;/xref:System.Xml.Serialization.XmlSchemaImporter&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of calling this method directly, use Wsdl.exe or Xsd.exe.</source>
+          <target state="translated">Zamiast bezpośrednio wywołaniem tej metody, użyj Wsdl.exe lub Xsd.exe.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.Serialization.XmlSchemaImporter&gt; class is used only when a WSDL document specifies literal use.</source>
+          <target state="translated">&lt;xref:System.Xml.Serialization.XmlSchemaImporter&gt;Klasa jest używana tylko wtedy, gdy dokument WSDL Określa użycie literałów.&lt;/xref:System.Xml.Serialization.XmlSchemaImporter&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload is used when a WSDL message is wrapped within a single part element.</source>
+          <target state="translated">To przeciążenie jest używany, gdy komunikat WSDL jest opakowane w elemencie jednoczęściowych.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the name of the message part.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlQualifiedName&gt;Która nazwa części wiadomości.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The .NET Framework type mapping for a WSDL message definition containing a single element part.</source>
+          <target state="translated">Mapowanie typu środowiska .NET Framework dla definicji komunikatu WSDL, zawierającej część pojedynczy element.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for the element parts of a literal-use SOAP message defined in a WSDL document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla elementu części komunikatu SOAP Użyj literał zdefiniowana w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ImportMembersMapping method is used by the Wsdl.exe tool while generating client proxy classes or abstract server classes from a Web Services Description Language (WSDL) document.</source>
+          <target state="translated">Metoda ImportMembersMapping jest używana przez narzędzie Wsdl.exe podczas generowania klasy serwera proxy klienta lub klasy abstrakcyjne serwera z dokumentu Web Services Description Language (WSDL).</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of calling this method directly, use Wsdl.exe or Xsd.exe.</source>
+          <target state="translated">Zamiast bezpośrednio wywołaniem tej metody, użyj Wsdl.exe lub Xsd.exe.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.Serialization.XmlSchemaImporter&gt; class is used only when a WSDL document specifies literal use.</source>
+          <target state="translated">&lt;xref:System.Xml.Serialization.XmlSchemaImporter&gt;Klasa jest używana tylko wtedy, gdy dokument WSDL Określa użycie literałów.&lt;/xref:System.Xml.Serialization.XmlSchemaImporter&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the <ph id="ph1">`names`</ph> parameter contains the qualified names of the parts elements under a message definition in a WSDL document.</source>
+          <target state="translated">Wartość <ph id="ph1">`names`</ph> parametr zawiera nazwy kwalifikowane elementów części w obszarze definicji komunikat w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not account for the part elements' types.</source>
+          <target state="translated">Typy elementów część bez uwzględnienia tej metody.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the names of the message parts.</source>
+          <target state="translated">Tablica typu &lt;xref:System.Xml.XmlQualifiedName&gt;, który określa nazwy części wiadomości.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlMembersMapping"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the .NET Framework type mappings for the element parts of a WSDL message definition.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlMembersMapping"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Reprezentujący mapowania typów .NET Framework dla części elementu definicji komunikatu WSDL.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for the element parts of a literal-use SOAP message defined in a WSDL document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla elementu części komunikatu SOAP Użyj literał zdefiniowana w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The name of the element for which to generate a mapping.</source>
+          <target state="translated">Nazwa elementu, do których chcesz wygenerować mapowania.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The namespace of the element for which to generate a mapping.</source>
+          <target state="translated">Przestrzeń nazw elementu, do których chcesz wygenerować mapowania.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An array of <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapSchemaMember"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances that specifies the members of the element for which to generate a mapping.</source>
+          <target state="translated">Tablica <bpt id="p1">&lt;xref href="System.Xml.Serialization.SoapSchemaMember"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpień, które określa element, do których chcesz wygenerować Mapowanie elementów członkowskich.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlMembersMapping"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains type mapping information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Xml.Serialization.XmlMembersMapping"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawierający informacje dotyczące mapowania typu.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for the element parts of a literal-use SOAP message defined in a WSDL document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla elementu części komunikatu SOAP Użyj literał zdefiniowana w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ImportMembersMapping method is used by the Wsdl.exe tool while generating client proxy classes or abstract server classes from a Web Services Description Language (WSDL) document.</source>
+          <target state="translated">Metoda ImportMembersMapping jest używana przez narzędzie Wsdl.exe podczas generowania klasy serwera proxy klienta lub klasy abstrakcyjne serwera z dokumentu Web Services Description Language (WSDL).</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of calling this method directly, use Wsdl.exe or Xsd.exe.</source>
+          <target state="translated">Zamiast bezpośrednio wywołaniem tej metody, użyj Wsdl.exe lub Xsd.exe.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.Serialization.XmlSchemaImporter&gt; class is used only when a WSDL document specifies literal use.</source>
+          <target state="translated">&lt;xref:System.Xml.Serialization.XmlSchemaImporter&gt;Klasa jest używana tylko wtedy, gdy dokument WSDL Określa użycie literałów.&lt;/xref:System.Xml.Serialization.XmlSchemaImporter&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the <ph id="ph1">`names`</ph> parameter contains the qualified names of the parts elements under a message definition in a WSDL document.</source>
+          <target state="translated">Wartość <ph id="ph1">`names`</ph> parametr zawiera nazwy kwalifikowane elementów części w obszarze definicji komunikat w dokumencie WSDL.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not account for the part elements' types.</source>
+          <target state="translated">Typy elementów część bez uwzględnienia tej metody.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the names of the message parts.</source>
+          <target state="translated">Tablica typu &lt;xref:System.Xml.XmlQualifiedName&gt;, który określa nazwy części wiadomości.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A base type for all .NET Framework types that are generated to correspond to message parts.</source>
+          <target state="translated">Typ podstawowy dla wszystkich typów .NET Framework, które są generowane, aby odpowiadały temu części wiadomości.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the types corresponding to message parts can indirectly inherit from the base type; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Aby wskazać, że typy odpowiadający części wiadomości pośrednio może dziedziczyć z typu podstawowego; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The .NET Framework type mappings for the element parts of a WSDL message definition.</source>
+          <target state="translated">Mapowania typu .NET Framework dla części elementu definicji komunikatu WSDL.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for an element defined in an XML schema document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla elementu zdefiniowanego w schemacie dokumentu XML.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies an XML element.</source>
+          <target state="translated">A &lt;xref:System.Xml.XmlQualifiedName&gt;— element XML, który określa.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt; object that describes a type mapping.</source>
+          <target state="translated">A &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt;obiektu, który opisuje mapowania typu.&lt;/xref:System.Xml.Serialization.XmlTypeMapping&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for an element defined in an XML schema document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla elementu zdefiniowanego w schemacie dokumentu XML.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies an XML element.</source>
+          <target state="translated">A &lt;xref:System.Xml.XmlQualifiedName&gt;— element XML, który określa.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; object that specifies a base type.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;obiekt, który określa typ podstawowy.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt; object that describes a type mapping.</source>
+          <target state="translated">A &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt;obiektu, który opisuje mapowania typu.&lt;/xref:System.Xml.Serialization.XmlTypeMapping&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for an element defined in an XML schema document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla elementu zdefiniowanego w schemacie dokumentu XML.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies an XML element.</source>
+          <target state="translated">A &lt;xref:System.Xml.XmlQualifiedName&gt;— element XML, który określa.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; object that specifies a base type.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;obiekt, który określa typ podstawowy.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Boolean&gt; value that specifies whether the generated type can indirectly inherit the <ph id="ph1">`baseType`</ph>.</source>
+          <target state="translated">A &lt;xref:System.Boolean&gt;wartość, która określa, czy typ wygenerowanego może dziedziczyć pośrednio <ph id="ph1">`baseType`</ph>.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt; object that describes a type mapping.</source>
+          <target state="translated">A &lt;xref:System.Xml.Serialization.XmlTypeMapping&gt;obiektu, który opisuje mapowania typu.&lt;/xref:System.Xml.Serialization.XmlTypeMapping&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Generates internal type mapping information for an element defined in an XML schema document.</source>
+          <target state="translated">Generuje informacje dotyczące mapowania typów wewnętrznych dla elementu zdefiniowanego w schemacie dokumentu XML.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ImportTypeMapping method is used by the Xsd.exe tool while generating classes XML Schema Definition (XSD) document.</source>
+          <target state="translated">Metoda ImportTypeMapping jest używana przez narzędzie Xsd.exe podczas generowania dokumentu definicji schematu XML (XSD) klasy.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of calling this method directly, use Xsd.exe.</source>
+          <target state="translated">Zamiast bezpośrednio wywołaniem tej metody, należy użyć Xsd.exe.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not account for the XML schema element's type.</source>
+          <target state="translated">Typ elementu schematu XML bez uwzględnienia tej metody.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlQualifiedName&gt; that specifies the name of an element defined in an XML schema document.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlQualifiedName&gt;, Który określa nazwę elementu zdefiniowanej w schemacie dokumentu XML.&lt;/xref:System.Xml.XmlQualifiedName&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The .NET Framework type mapping information for an XML schema element.</source>
+          <target state="translated">.NET Framework mapowania informacji o typie elementu schematu XML.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
