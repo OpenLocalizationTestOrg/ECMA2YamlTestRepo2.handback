@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c125eb92764a703c9eacc34b1bbf99e934b02c48</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.ControlBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">079b62f25acfb10367798d931e5cda5b6f5991b3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">126873f45bcf034722753941960487e197a043af</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Supports the page parser in building a control and the child controls it contains.</source>
+          <target state="translated">Поддерживает анализатор страницы при построении элемента управления и дочерние элементы управления, содержащихся в нем.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, every control on a page is associated with a default ControlBuilder class.</source>
+          <target state="translated">По умолчанию каждый элемент управления на странице связаны с классом ControlBuilder по умолчанию.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During parsing, the ASP.NET page framework builds a tree of ControlBuilder objects corresponding to the tree of controls for the page.</source>
+          <target state="translated">Во время синтаксического анализа, страниц ASP.NET строят дерево объектов ControlBuilder, соответствующих по дереву элементов управления для страницы.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ControlBuilder tree is then used to generate page code to create the control tree.</source>
+          <target state="translated">Дерево ControlBuilder затем используется для создания кода страницы для создания дерева элемента управления.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to child controls, the ControlBuilder defines the behavior of how the content within control tags is parsed.</source>
+          <target state="translated">В дополнение к дочерним элементам управления ControlBuilder определяет поведение способом анализа содержимого тегов элемента управления.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override this default behavior by defining your own custom control builder class.</source>
+          <target state="translated">Это поведение по умолчанию можно переопределить, определяя класс построителя собственный пользовательский элемент управления.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is done by applying a &lt;xref:System.Web.UI.ControlBuilderAttribute&gt; attribute to your control builder class as follows:       <ph id="ph1">`[ControlBuilderAttribute(typeof(ControlBuilderType))]`</ph></source>
+          <target state="translated">Это делается путем применения &lt;xref:System.Web.UI.ControlBuilderAttribute&gt;атрибута класса элемента управления построитель следующим образом: <ph id="ph1">`[ControlBuilderAttribute(typeof(ControlBuilderType))]`</ph> &lt;/xref:System.Web.UI.ControlBuilderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to create a new instance the &lt;xref:System.Web.UI.ControlBuilder&gt; class.</source>
+          <target state="translated">Этот конструктор используется для создания нового экземпляра &lt;xref:System.Web.UI.ControlBuilder&gt;класса.&lt;/xref:System.Web.UI.ControlBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This constructor is generally used by ASP.NET when parsing the page and creating the control hierarchy.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек этот конструктор обычно используется ASP.NET при анализе страницы и создание иерархии элементов управления.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not intended for use in your code.</source>
+          <target state="translated">Он не предназначен для использования в коде.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Determines whether white space literals are permitted in the content between a control's opening and closing tags.</source>
+          <target state="translated">Определяет, разрешены ли литералы пробелов в содержимом между открывающим и закрывающим тегами элемента управления.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AllowWhitespaceLiterals method is used to determine whether white space literals are permitted in the content between the opening and closing tags of a control.</source>
+          <target state="translated">Метод AllowWhitespaceLiterals используется, чтобы определить, разрешены ли литералы пробелов в содержимом между открывающим и закрывающим тегами элемента управления.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this method returns <ph id="ph1">`false`</ph>, the white space literals are trimmed from the content before the content is processed by the page parser.</source>
+          <target state="translated">Если этот метод возвращает <ph id="ph1">`false`</ph>, литералы пробелов изымаются из содержимого перед его обработкой анализатором страницы.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this method returns <ph id="ph1">`true`</ph>, the white space literals not removed.</source>
+          <target state="translated">Если этот метод возвращает <ph id="ph1">`true`</ph>, литералы пробелов не удаляется.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET во время синтаксического анализа и не предназначен для вызова из пользовательского кода.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Always returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Всегда возвращает <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Adds the specified literal content to a control.</source>
+          <target state="translated">Добавляет указанное текстовое содержимое элемента управления.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the AppendLiteralString method to control how literal content between the control's opening and closing tags is processed.</source>
+          <target state="translated">Переопределите метод AppendLiteralString для управления как текстовое содержимое между открывающим элемента управления и закрывающие теги обрабатывается.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Literal content can be any text that is passed by the browser to the server control.</source>
+          <target state="translated">Текстовое содержимое может быть любой текст, который передается с помощью браузера для серверного элемента управления.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, any HTML elements and text, between their opening and closing tags, are literal content.</source>
+          <target state="translated">Например все элементы HTML и текст, расположенный между их открывающим и закрывающим тегами, являются текстовым содержимым.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The content to add to the control.</source>
+          <target state="translated">Содержимое, чтобы добавить к элементу управления.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The string literal is not well formed.</source>
+          <target state="translated">Строковый литерал имеет неправильный формат.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Adds builders to the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for any child controls that belong to the container control.</source>
+          <target state="translated">Добавляет сборщики к <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта для дочерних элементов управления, принадлежащих элементу управления контейнера.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object assigned to the child control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Объект, присвоенный дочернего элемента управления.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the control builder that corresponds to the binding container for the control that this builder creates.</source>
+          <target state="translated">Получает конструктор элементов управления, который соответствует контейнера привязки для элемента управления, который создает этот построитель.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The control builder that corresponds to the binding container for the control.</source>
+          <target state="translated">Конструктор элементов управления, соответствующий контейнера привязки для элемента управления.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the type of the binding container for the control that this builder creates.</source>
+          <target state="translated">Возвращает тип контейнера привязки для элемента управления, который создает этот построитель.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represent the type of the binding container for the control that this builder creates.</source>
+          <target state="translated">Объект &lt;xref:System.Type&gt;, представляющие тип контейнера привязки для элемента управления, который создает этот построитель.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Builds a design-time instance of the control that is referred to by this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Создает экземпляр времени разработки элемента управления, на которую ссылается это <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The resulting built control.</source>
+          <target state="translated">Элемент управления результирующей сборки.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Called by the parser to inform the builder that the parsing of the control's opening and closing tags is complete.</source>
+          <target state="translated">Вызывается средством синтаксического анализа для оповещения сборщика о завершении синтаксический анализ открывающим и закрывающим тегами элемента управления.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CloseControl method is used by the parser to indicate to the builder that it has finished parsing the control.</source>
+          <target state="translated">Метод CloseControl используется средством синтаксического анализа для указания в построитель о завершении разбор элемента управления.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets a collection of complex property entries.</source>
+          <target state="translated">Получает коллекцию записей сложного свойства.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no entries, a static empty collection is returned.</source>
+          <target state="translated">Если нет записей, возвращается статический пустой коллекцией.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A collection of complex property entries.</source>
+          <target state="translated">Коллекция записей сложного свойства.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; for the control to be created.</source>
+          <target state="translated">Возвращает &lt;xref:System.Type&gt;для элемента управления должен быть создан.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; for the control to be created.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Для элемента управления должен быть создан.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from the specified tag name and object type, as well as other parameters defining the builder.</source>
+          <target state="translated">Создает <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект из указанного имени тега и типа объекта, а также других параметров, определяющих сборщик.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object responsible for parsing the control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Объект, ответственный за разбор элемента управления.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object responsible for building the parent control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Объекта, ответственного за построение родительского элемента управления.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object that the builder will create.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Объекта, который будет создать построитель.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The name of the tag to be built.</source>
+          <target state="translated">Имя тега для сборки.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This allows the builder to support multiple tag types.</source>
+          <target state="translated">Это позволяет сборщику поддерживать различные типы тегов.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ControlBuilder.ID*&gt; attribute assigned to the control.</source>
+          <target state="translated">&lt;xref:System.Web.UI.ControlBuilder.ID*&gt;Атрибут, назначенный элементу управления.&lt;/xref:System.Web.UI.ControlBuilder.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.IDictionary&gt; object that holds all the specified tag attributes.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;Объект, содержащий все атрибуты указанного тега.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The source file line number for the specified control.</source>
+          <target state="translated">Номер строки файла источника для указанного элемента управления.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The name of the source file from which the control is to be created.</source>
+          <target state="translated">Имя исходного файла, из которого будет создан элемент управления.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The builder that is responsible for creating the control.</source>
+          <target state="translated">Построитель, который отвечает за создание элемента управления.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets an <bpt id="p1">&lt;xref href="System.Web.UI.IFilterResolutionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is used to manage device-filter related services when parsing and persisting controls in the designer.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref href="System.Web.UI.IFilterResolutionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> служб, связанных с объект, используемый для управления фильтр устройств, при анализе и сохранении элементов управления в конструкторе.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.IFilterResolutionService&gt; interface is an interface that is specific to how a control uses device filters in a designer.</source>
+          <target state="translated">&lt;xref:System.Web.UI.IFilterResolutionService&gt;Интерфейс — это интерфейс, предназначенную для использования фильтров устройства в конструкторе элемента управления.&lt;/xref:System.Web.UI.IFilterResolutionService&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When controls are parsed or persisted in the designer outside the context of a browser request, the &lt;xref:System.Web.UI.IFilterResolutionService&gt; provides a way to determine whether the current control is affected by a named filter and whether a named filter is part of a specific device-filter hierarchy.</source>
+          <target state="translated">При анализе или сохранении в конструкторе вне контекста запроса обозревателя, элементы управления &lt;xref:System.Web.UI.IFilterResolutionService&gt;позволяет определить, затрагивается ли текущий элемент управления фильтром имени, и является ли фильтр имени входит в иерархию фильтра конкретного устройства.&lt;/xref:System.Web.UI.IFilterResolutionService&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.IFilterResolutionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is used to manage device filter related services when parsing and persisting controls in the designer.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.IFilterResolutionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Служб, связанных с объект, используемый для управления фильтр устройств, при анализе и сохранении элементов управления в конструкторе.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets the type that will be used by code generation to declare the control.</source>
+          <target state="translated">Возвращает тип, который будет использоваться при создании кода для объявления элемента управления.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the control used by code generation to declare the control.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Элемента управления, используемого при создании кода для объявления элемента управления.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Represents the <ph id="ph1">`"__designer"`</ph> literal string.</source>
+          <target state="translated">Представляет <ph id="ph1">`"__designer"`</ph> строковый литерал.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets a value that determines whether the control has a <bpt id="p1">&lt;xref href="System.Web.UI.ParseChildrenAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with &lt;xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt; set to <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает значение, определяющее, имеет ли элемент управления <bpt id="p1">&lt;xref href="System.Web.UI.ParseChildrenAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> с &lt;xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt;значение <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control has a <bpt id="p2">&lt;xref href="System.Web.UI.ParseChildrenAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> with &lt;xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt; set to <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если элемент управления имеет <bpt id="p2">&lt;xref href="System.Web.UI.ParseChildrenAttribute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> с &lt;xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt;значение <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>, в противном случае <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets a value that determines whether the control implements the <bpt id="p1">&lt;xref href="System.Web.UI.IParserAccessor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Возвращает значение, определяющее, является ли элемент управления реализует <bpt id="p1">&lt;xref href="System.Web.UI.IParserAccessor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> интерфейса.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control implements the <bpt id="p2">&lt;xref href="System.Web.UI.IParserAccessor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> interface, otherwise <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если элемент управления реализует <bpt id="p2">&lt;xref href="System.Web.UI.IParserAccessor"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> интерфейс, в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Obtains the &lt;xref:System.Type&gt; of the control type corresponding to a child tag.</source>
+          <target state="translated">Получает &lt;xref:System.Type&gt;типа элемента управления, соответствующего тегу дочернего.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET во время синтаксического анализа и не предназначен для вызова из пользовательского кода.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The tag name of the child.</source>
+          <target state="translated">Имя тега дочернего элемента.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An array of attributes contained in the child control.</source>
+          <target state="translated">Массив атрибутов, содержащихся в дочерний элемент управления.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the specified control's child.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Потомка заданного элемента управления.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Creates the <bpt id="p1">&lt;xref href="System.Web.UI.ObjectPersistData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Создает <bpt id="p1">&lt;xref href="System.Web.UI.ObjectPersistData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для этого объекта <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.ObjectPersistData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Web.UI.ObjectPersistData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Retrieves the resource key for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Извлекает ключ ресурса для данного <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The resource key for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ключ ресурса для этой <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the control contains any code blocks.</source>
+          <target state="translated">Возвращает значение, указывающее, содержит ли элемент управления блоков кода.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control contains at least one code block; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если элемент управления содержит по крайней мере один блок кода; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Determines if a control has both an opening and closing tag.</source>
+          <target state="translated">Определяет, имеет ли элемент управления открывающий и закрывающий тег.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET во время синтаксического анализа и не предназначен для вызова из пользовательского кода.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control has an opening and closing tag; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если элемент управления имеет открывающий и закрывающий тег; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Determines whether the literal string of an HTML control must be HTML decoded.</source>
+          <target state="translated">Определяет, должны ли быть HTML-декодирования текстовой строки элемента управления HTML.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A literal string refers to the text between the opening and closing tag of an HTML control.</source>
+          <target state="translated">Текстовая строка ссылается на текст между открывающим и закрывающим тегом элемента управления HTML.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HTML encoding is when text is converted into a string representation that the browser will display rather than interpret as HTML.</source>
+          <target state="translated">Кодировка HTML — текст, преобразованный в строковое представление, которое будет отображено браузера, а не интерпретировано как HTML.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Characters such as the question mark (?), ampersand (&amp;), slash mark (/), and spaces might be truncated or corrupted by some browsers, so those characters must be encoded when they appear in <ph id="ph1">`a`</ph> tags or in query strings.</source>
+          <target state="translated">Такие символы, как вопросительный знак (?), амперсанд (&amp;), косой черты (/) и пробелы может быть усечен или повреждены для некоторых браузеров, поэтому эти символы должны быть зашифрованы, когда они отображаются в <ph id="ph1">`a`</ph> теги или в строки запросов.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HtmlDecodeLiterals method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Метод HtmlDecodeLiterals вызывается платформой страницы ASP.NET во время синтаксического анализа и не предназначен для непосредственного вызова из кода вы.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the HTML control literal string is to be decoded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если HTML-элемента управления литерала строка представляет декодируемый; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets or sets the identifier property for the control to be built.</source>
+          <target state="translated">Возвращает или задает свойство идентификатора для элемента управления для построения.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The identifier property for the control.</source>
+          <target state="translated">Свойство идентификатора для элемента управления.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Returns whether the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is running in the designer.</source>
+          <target state="translated">Возвращает ли <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> запущен в режиме конструктора.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is running in the designer; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> запущен в режиме конструктора; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for use after it is instantiated.</source>
+          <target state="translated">Инициализирует <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для использования после ее создания.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET во время синтаксического анализа и не предназначен для вызова из пользовательского кода.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object responsible for parsing the control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Объект, ответственный за разбор элемента управления.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object responsible for building the parent control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Объекта, ответственного за построение родительского элемента управления.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; assigned to the control that the builder will create.</source>
+          <target state="translated">&lt;xref:System.Type&gt;Назначены элементу управления, конструктор создаст.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The name of the tag to be built.</source>
+          <target state="translated">Имя тега для сборки.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This allows the builder to support multiple tag types.</source>
+          <target state="translated">Это позволяет сборщику поддерживать различные типы тегов.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ControlBuilder.ID*&gt; attribute assigned to the control.</source>
+          <target state="translated">&lt;xref:System.Web.UI.ControlBuilder.ID*&gt;Атрибут, назначенный элементу управления.&lt;/xref:System.Web.UI.ControlBuilder.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.IDictionary&gt; object that holds all the specified tag attributes.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;Объект, содержащий все атрибуты указанного тега.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets a Boolean value indicating whether this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is used to generate page themes.</source>
+          <target state="translated">Возвращает логическое значение, указывающее, является ли это <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект используется для создания темы страницы.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to generate page themes; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>для использования этой <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> для создания темы страницы; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Gets the type set on the binding container.</source>
+          <target state="translated">Возвращает тип контейнера привязки.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The type set on the binding container.</source>
+          <target state="translated">Тип контейнера привязки.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets a Boolean value indicating whether the control that is created by this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is localized.</source>
+          <target state="translated">Возвращает логическое значение, указывающее, является ли элемент управления, созданный данным <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> локализованные объекта.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the control created by this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is localized; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Чтобы показать, что в данном элементе управления <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объекта Локализованный; в противном случае — <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets the type of the naming container for the control that this builder creates.</source>
+          <target state="translated">Возвращает тип контейнера именования для элемента управления, который создает этот построитель.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represent the type of the naming container for the control that this builder creates.</source>
+          <target state="translated">Объект &lt;xref:System.Type&gt;, представляющие тип контейнера именования для элемента управления, который создает этот построитель.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Determines if the control builder needs to get its inner text.</source>
+          <target state="translated">Определяет, должен ли конструктор элементов управления для получения внутреннем тексте.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If so, the &lt;xref:System.Web.UI.ControlBuilder.SetTagInnerText*&gt; method must be called.</source>
+          <target state="translated">В этом случае &lt;xref:System.Web.UI.ControlBuilder.SetTagInnerText*&gt;метод должен вызываться.&lt;/xref:System.Web.UI.ControlBuilder.SetTagInnerText*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The inner text is the text between the opening and closing tags of the control.</source>
+          <target state="translated">Внутренний текст — это текст между открывающим и закрывающим тегами элемента управления.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Этот метод вызывается платформой страницы ASP.NET во время синтаксического анализа и не предназначен для вызова из пользовательского кода.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control builder needs to get its inner text.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если сборщик элемента управления получает свой внутренний текст.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that it is being added to a parent control builder.</source>
+          <target state="translated">Уведомляет <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , оно добавляется к родительскому сборщику элемента управления.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to which the current builder is added.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Объекта, к которому добавляется текущий конструктор.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets the virtual path of a page to be built by this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Получает виртуальный путь страницы, создаваемой этим <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> экземпляра.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The virtual path of the page to be built.</source>
+          <target state="translated">Виртуальный путь страницы для построения.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> responsible for parsing the control.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> отвечает за синтаксический анализ элемента управления.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property retrieves the &lt;xref:System.Web.UI.TemplateParser&gt; responsible for parsing the control.</source>
+          <target state="translated">Это свойство получает &lt;xref:System.Web.UI.TemplateParser&gt;отвечает за синтаксический анализ элемента управления.&lt;/xref:System.Web.UI.TemplateParser&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to parse the control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Для анализа элемента управления.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Enables custom control builders to access the generated Code Document Object Model (CodeDom) and insert and modify code during the process of parsing and building controls.</source>
+          <target state="translated">Позволяет сборщикам пользовательского элемента управления для доступа к созданного документа объектной модели кода (CodeDom) и вставить и изменить код во время синтаксического анализа и создания элементов управления.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the single-file page model, the <ph id="ph1">`baseType`</ph> and <ph id="ph2">`derivedType`</ph> parameters are the same &lt;xref:System.CodeDom.CodeTypeDeclaration&gt; type, which typically derives from the &lt;xref:System.Web.UI.Page&gt; class.</source>
+          <target state="translated">В модели веб-архива <ph id="ph1">`baseType`</ph> и <ph id="ph2">`derivedType`</ph> параметры относятся к одному &lt;xref:System.CodeDom.CodeTypeDeclaration&gt;типу, который обычно является производным от &lt;xref:System.Web.UI.Page&gt;класса.&lt;/xref:System.Web.UI.Page&gt; &lt;/xref:System.CodeDom.CodeTypeDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the code-behind page model, <ph id="ph1">`baseType`</ph> is the &lt;xref:System.CodeDom.CodeTypeDeclaration&gt; type that represents the partial code-behind class, which is typically derived from the &lt;xref:System.Web.UI.Page&gt; class.</source>
+          <target state="translated">В модель страницы с выделенным кодом <ph id="ph1">`baseType`</ph> — это &lt;xref:System.CodeDom.CodeTypeDeclaration&gt;тип, представляющий класс частичного кода, который обычно является производным от &lt;xref:System.Web.UI.Page&gt;класса.&lt;/xref:System.Web.UI.Page&gt; &lt;/xref:System.CodeDom.CodeTypeDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`derivedType`</ph> parameter is the class that derives from the partial class that contains the markup.</source>
+          <target state="translated"><ph id="ph1">`derivedType`</ph> Параметр — это класс, производный от разделяемого класса, который содержит разметку.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about ASP.NET Web page models, see <bpt id="p1">[</bpt>ASP.NET Web Forms Page Syntax Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения о моделях ASP.NET веб-страниц см. в разделе <bpt id="p1">[</bpt>Общие сведения о ASP.NET Web Forms страницы синтаксис<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to use the CodeDOM to represent and generate source code, see <bpt id="p1">[</bpt>Dynamic Source Code Generation and Compilation<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения об использовании CodeDOM для представления и создания исходного кода см. в разделе <bpt id="p1">[</bpt>динамическое создание исходного кода и компиляция<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The root container of a CodeDOM graph of the control that is being built.</source>
+          <target state="translated">Корневой контейнер элемента управления, для которого производится построение графа CodeDOM.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The base type of the page or user control that contains the control that is being built.</source>
+          <target state="translated">Базовый тип страницы или пользовательского элемента управления, содержащий элемент управления, построение которого выполняется.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The derived type of the page or user control that contains the control that is being built.</source>
+          <target state="translated">Производный тип страницы или пользовательского элемента управления, содержащий элемент управления, построение которого выполняется.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The code that is used to build the control.</source>
+          <target state="translated">Код, который используется для создания элемента управления.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The code that is used to build the data-binding method of the control.</source>
+          <target state="translated">Код, который используется для создания метода привязки данных элемента управления.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Gets the service object for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Возвращает объект службы для этой <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IServiceProvider&gt; that represents the service object for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.IServiceProvider&gt;, Представляющий объект службы для данного <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Sets the resource key for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Задает ключ ресурса для этого <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The resource key for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ключ ресурса для этой <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Sets the service object for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Задает объект службы для данного <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IServiceProvider&gt; that represents the service object for the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.IServiceProvider&gt;, Представляющий объект службы для <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Provides the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the inner text of the control tag.</source>
+          <target state="translated">Предоставляет <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> внутренний текст тега элемента управления.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called only if &lt;xref:System.Web.UI.ControlBuilder.NeedsTagInnerText%2A&gt; previously returned <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Этот метод вызывается только в том случае, если &lt;xref:System.Web.UI.ControlBuilder.NeedsTagInnerText%2A&gt;вернул <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.ControlBuilder.NeedsTagInnerText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The text to be provided.</source>
+          <target state="translated">Текст, который должен предоставляться.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Gets a list of child <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Возвращает список дочерних <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объектов для данного <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>A list of child <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Список дочерних <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объектов.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets the tag name for the control to be built.</source>
+          <target state="translated">Возвращает имя тега для элемента управления для построения.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The tag name for the control.</source>
+          <target state="translated">Имя тега для элемента управления.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets a collection of template property entries.</source>
+          <target state="translated">Возвращает коллекцию записи свойств шаблона.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no entries, a static empty collection is returned.</source>
+          <target state="translated">Если нет записей, возвращается статический пустой коллекцией.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>A collection of template property entries.</source>
+          <target state="translated">Коллекция записи свойств шаблона.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Gets an <bpt id="p1">&lt;xref href="System.Web.UI.IThemeResolutionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is used in design time to manage control themes and skins.</source>
+          <target state="translated">Возвращает <bpt id="p1">&lt;xref href="System.Web.UI.IThemeResolutionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект, используемый во время разработки для управления управления тем и обложек.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.IThemeResolutionService&gt; interface is a container for one or more &lt;xref:System.Web.UI.ThemeProvider&gt; objects, which in turn supply the &lt;xref:System.Web.UI.SkinBuilder&gt; objects that apply themes and control skins to controls when they are created in a designer.</source>
+          <target state="translated">&lt;xref:System.Web.UI.IThemeResolutionService&gt;Интерфейса — это контейнер для одного или нескольких &lt;xref:System.Web.UI.ThemeProvider&gt;объекты, которые в свою очередь указать &lt;xref:System.Web.UI.SkinBuilder&gt;объекты, которые применяются темы и обложки элементов управления для элементов управления при их создании в конструкторе.&lt;/xref:System.Web.UI.SkinBuilder&gt; &lt;/xref:System.Web.UI.ThemeProvider&gt; &lt;/xref:System.Web.UI.IThemeResolutionService&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.IThemeResolutionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is used in design time to manage control themes and skins.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.IThemeResolutionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Объект, используемый во время разработки для управления управления тем и обложек.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

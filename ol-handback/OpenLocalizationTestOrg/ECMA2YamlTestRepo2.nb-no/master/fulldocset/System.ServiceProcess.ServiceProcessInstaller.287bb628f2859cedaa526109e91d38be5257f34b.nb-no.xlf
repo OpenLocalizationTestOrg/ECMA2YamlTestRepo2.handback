@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">97a7c4f8885a2c2c7cfc4df2d6e34d2ab9b8f0cf</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceProcessInstaller.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6e4db515e3f9ee4254042944e23a283c84760b8f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cca53f0457981453850874f6d66f61c7009da7cf</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Installs an executable containing classes that extend <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Installerer en kjørbar fil som inneholder klasser som utvide <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is called by installation utilities, such as InstallUtil.exe, when installing a service application.</source>
+          <target state="translated">Denne klassen kalles av installasjonen, for eksempel InstallUtil.exe,-verktøy når du installerer et tjenesteprogram.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServiceProcessInstaller does work common to all services in an executable.</source>
+          <target state="translated">ServiceProcessInstaller fungerer felles for alle tjenester i en kjørbar fil.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is used by the installation utility to write registry values associated with services you want to install.</source>
+          <target state="translated">Den brukes av installasjonen-verktøyet til å skrive registerverdier som er knyttet til tjenestene du vil installere.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To install a service, create a project installer class that inherits from &lt;xref:System.Configuration.Install.Installer&gt;, and set the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; on the class to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">For å installere en tjeneste, kan du opprette et prosjekt installasjonsprogrammet klassen som arver fra &lt;xref:System.Configuration.Install.Installer&gt;, og angi den &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;på klassen for å <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within your project, instantiate one ServiceProcessInstaller instance per service application, and one &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance for each service in the application.</source>
+          <target state="translated">I prosjektet, kan du starte én ServiceProcessInstaller forekomst per tjenesteprogrammet, og én &lt;xref:System.ServiceProcess.ServiceInstaller&gt;forekomsten for hver tjeneste i applikasjonen.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Finally, add the ServiceProcessInstaller instance and the &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances to your project installer class.</source>
+          <target state="translated">Legg til slutt ServiceProcessInstaller-forekomst og - &lt;xref:System.ServiceProcess.ServiceInstaller&gt;forekomster til klasse. installer den prosjektet&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When InstallUtil.exe runs, the utility looks for classes in the service assembly with the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Når InstallUtil.exe kjører, verktøyet ser etter klasser i service-samling med den &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;satt til <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Add classes to the service assembly by adding them to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection associated with your project installer.</source>
+          <target state="translated">Legg til klasser service-samlingen ved å legge dem til i &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;samling tilknyttet prosjektet-installer.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; is <ph id="ph1">`false`</ph>, the install utility ignores the project installer.</source>
+          <target state="translated">Hvis &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;er <ph id="ph1">`false`</ph>, installer verktøyet ignorerer installasjonsprogrammet for prosjektet.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an instance of ServiceProcessInstaller, properties you can modify include specifying that a service application run under an account other than the logged-on user.</source>
+          <target state="translated">En forekomst av ServiceProcessInstaller inkludere egenskaper kan du endre angir som et tjenesteprogram kjører under en annen konto enn den påloggede brukeren.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify a particular &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; pair under which the service should run, or you can use &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; to specify that the service run under the computer's System account, a local or network service account, or a user account.</source>
+          <target state="translated">Du kan angi en bestemt &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;og &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;paret tjenesten må kjøre som, eller du kan bruke &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;til å angi at tjenesten kjører under datamaskinens System-kontoen, en lokal eller Nettverkstjeneste eller en brukerkonto.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The computer's System account is not the same as the Administrator account.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Datamaskinens System-kontoen er ikke det samme som administratorkonto.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you do not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Vanligvis du ikke kaller metodene på &lt;xref:System.ServiceProcess.ServiceInstaller&gt;i koden; de vanligvis kalles bare av Installer verktøyet.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt; and &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt; methods during the installation process.</source>
+          <target state="translated">Installer verktøyet automatisk kaller den &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt;og &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt;metoder under installasjonen.&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt; (or &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt;) on all previously installed components.</source>
+          <target state="translated">Det tar ut feil, hvis nødvendig ved å kalle &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;(eller &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt;) på alle installerte komponenter.&lt;/xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application's install routine maintains information automatically about the components already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Et program Installer rutinen opprettholder informasjon automatisk om komponenter allerede er installert, ved hjelp av prosjektet installasjonsprogrammets &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information is continuously updated as the ServiceProcessInstaller instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">Denne statusinformasjon oppdateres kontinuerlig ServiceProcessInstaller forekomsten og hver &lt;xref:System.ServiceProcess.ServiceInstaller&gt;forekomsten er installert av verktøyet.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">Det er vanligvis unødvendige for koden til å endre denne statusinformasjon eksplisitt.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instantiating a ServiceProcessInstaller causes the base class constructor, &lt;xref:System.Configuration.Install.ComponentInstaller.%23ctor%2A&gt;, to be called.</source>
+          <target state="translated">Start av en ServiceProcessInstaller fører til at basisklassen-konstruktøren &lt;xref:System.Configuration.Install.ComponentInstaller.%23ctor%2A&gt;du kalles.&lt;/xref:System.Configuration.Install.ComponentInstaller.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Oppretter en ny forekomst av den <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets or sets the type of account under which to run this service application.</source>
+          <target state="translated">Henter eller angir hvilken type konto som du vil kjøre dette programmet under.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the Account property is <ph id="ph1">`User`</ph>, the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; properties are used to define an account under which the service application runs.</source>
+          <target state="translated">Når egenskapen Account er <ph id="ph1">`User`</ph>, &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;og &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;Egenskaper brukes til å definere en konto som tjenesteprogrammet kjører under.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; pair allows the service to run under an account other than the system account.</source>
+          <target state="translated">Den &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;og &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;paret, kan tjenesten kjøre under en annen konto enn systemkontoen.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can, for example, allow the service to start automatically at reboot, when no user is logged on.</source>
+          <target state="translated">Dette kan for eksempel at tjenesten skal starte automatisk ved omstart, når ingen bruker er logget på.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you leave either the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; or &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; empty and set Account to <ph id="ph1">`User`</ph>, you will be prompted for a valid user name and password at installation.</source>
+          <target state="translated">Hvis du forlater enten den &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;eller &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;tom og konfigurere konto <ph id="ph1">`User`</ph>, du blir bedt om å angi et gyldig brukernavn og passord på installasjonen.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also specify that the service run under the local system account, or as a local or network service.</source>
+          <target state="translated">Du kan også angi at tjenesten kjøre under den lokale systemkontoen eller som en lokal eller Nettverkstjeneste.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.ServiceProcess.ServiceAccount&gt; enumeration for details on types of accounts.</source>
+          <target state="translated">Se den &lt;xref:System.ServiceProcess.ServiceAccount&gt;-nummerering for informasjon om kontotyper.&lt;/xref:System.ServiceProcess.ServiceAccount&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceAccount"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that defines the type of account under which the system runs this service.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceAccount"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som definerer hvilken type konto systemet kjøres under denne tjenesten.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_User" name="User" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref uid="langword_csharp_User" name="User" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Implements the base class <ph id="ph1">&amp;lt;</ph>xref:System.Configuration.Install.ComponentInstaller.CopyFromComponent%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method with no <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class-specific behavior.</source>
+          <target state="translated">Implementerer basisklassen <ph id="ph1">&amp;lt;</ph>xref:System.Configuration.Install.ComponentInstaller.CopyFromComponent%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metoden uten <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse-spesifikke virkemåte.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should not be called within your code.</source>
+          <target state="translated">Denne metoden skal ikke kalles i koden.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base class method on &lt;xref:System.Configuration.Install.ComponentInstaller&gt; is <ph id="ph1">`abstract`</ph>, so it is implemented here on the derived class.</source>
+          <target state="translated">Basisklassen-metoden på &lt;xref:System.Configuration.Install.ComponentInstaller&gt;er <ph id="ph1">`abstract`</ph>, slik at den er implementert her i den utledede klassen.&lt;/xref:System.Configuration.Install.ComponentInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, there is no &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; class-specific processing in the method's implementation.</source>
+          <target state="translated">Det finnes ingen &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;klasse-spesifikk behandling i den metoden implementering.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the service process.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerer tjenesten.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets help text displayed for service installation options.</source>
+          <target state="translated">Henter hjelpe tekst som vises for tjenesten installasjonsalternativer.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This help text can be used when a service starts manually.</source>
+          <target state="translated">Denne hjelpeteksten kan brukes når en tjeneste starter manuelt.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It indicates to the user how to enter user name and password information.</source>
+          <target state="translated">Indikerer for brukeren slik Skriv inn brukerinformasjonen og passord.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Help text that provides a description of the steps for setting the user name and password in order to run the service under a particular account.</source>
+          <target state="translated">Hjelpe tekst som inneholder en beskrivelse av trinnene for å angi brukernavn og passord for å kjøre tjenesten med en bestemt kontoen.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Writes service application information to the registry.</source>
+          <target state="translated">Skriver informasjon om tjenesteprogram i registret.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>This method is meant to be used by installation tools, which call the appropriate methods automatically.</source>
+          <target state="translated">Denne metoden er ment å brukes av installasjonsverktøy som kaller de riktige automatisk.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you do not call the methods on &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Vanligvis du ikke kaller metodene på &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;i koden; de vanligvis kalles bare av Installer verktøyet.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the Install method during the installation process.</source>
+          <target state="translated">Installer verktøyet kaller automatisk metoden Installer under installasjonen.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt; on all previously installed components.</source>
+          <target state="translated">Det tar ut feil, hvis nødvendig ved å kalle &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;på alle installerte komponenter.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method passes the installation to the base class &lt;xref:System.Configuration.Install.Installer.Install%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Denne metoden sender installasjonen til basisklassen &lt;xref:System.Configuration.Install.Installer.Install%2A?displayProperty=fullName&gt;metode.&lt;/xref:System.Configuration.Install.Installer.Install%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Vanligvis skal ikke kalles metodene på &lt;xref:System.ServiceProcess.ServiceInstaller&gt;i koden; de vanligvis kalles bare av Installer verktøyet.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the Install and &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt; methods during the installation process.</source>
+          <target state="translated">Installer verktøyet kaller automatisk installasjon og &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt;metoder under installasjonen.&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt; (or &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt;) on all previously installed components       An application's install routine maintains information automatically about the components already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Det tar ut feil, hvis nødvendig ved å kalle &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;(eller &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt;) på alle installerte komponenter beholder en applikasjon Installer rutinen informasjon automatisk om komponentene allerede er installert, ved hjelp av prosjektet installasjonsprogrammets &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceInstaller.Rollback%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information, passed into Install as the <ph id="ph1">`stateSaver`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">Denne statusinformasjon ble sendt til installasjonen som den <ph id="ph1">`stateSaver`</ph> parameteren oppdateres kontinuerlig som den &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;forekomsten og hver &lt;xref:System.ServiceProcess.ServiceInstaller&gt;forekomsten er installert av verktøyet.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">Det er vanligvis unødvendige for koden til å endre denne statusinformasjon eksplisitt.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Install passes to the calling method any exceptions thrown by base class methods or &lt;xref:System.Configuration.Install.Installer.BeforeInstall&gt; / &lt;xref:System.Configuration.Install.Installer.AfterInstall&gt; event handlers.</source>
+          <target state="translated">Installer sender til metoden kall unntak av basisklassen metoder eller &lt;xref:System.Configuration.Install.Installer.BeforeInstall&gt;/ &lt;xref:System.Configuration.Install.Installer.AfterInstall&gt;hendelsesbehandling.&lt;/xref:System.Configuration.Install.Installer.AfterInstall&gt; &lt;/xref:System.Configuration.Install.Installer.BeforeInstall&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">En &lt;xref:System.Collections.IDictionary&gt;som inneholder informasjon om sikkerhetskontekst som er knyttet til installasjonen.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stateSaver</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stateSaver</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets the password associated with the user account under which the service application runs.</source>
+          <target state="translated">Henter eller angir passordet som er forbundet med brukerkontoen som kjører tjenesteprogrammet.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Password and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; pair allows the service to run under an account other than the system account.</source>
+          <target state="translated">Passordet og &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;paret, kan tjenesten kjøre under en annen konto enn systemkontoen.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can, for example, allow the service to start automatically at reboot, when no user is logged on.</source>
+          <target state="translated">Dette kan for eksempel at tjenesten skal starte automatisk ved omstart, når ingen bruker er logget på.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Password and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; are handled in a secure manner in that they are never serialized or saved to the install state (the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;) or other location with public access.</source>
+          <target state="translated">Passord og &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;behandles på en sikker måte ved at de er aldri serialisert eller lagres i installasjonsstatus (installasjonsprogrammet for prosjektet &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;) eller en annen plassering med public-tilgang.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; and Password allows an account to be associated automatically with the service at install time.</source>
+          <target state="translated">Angivelse av &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;og passord gjør det mulig for en konto som skal knyttes til automatisk tjenesten under installasjonen.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you leave either the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; or Password empty and set &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; to <ph id="ph1">`User`</ph>, you will be prompted for a valid user name and password at installation.</source>
+          <target state="translated">Hvis du forlater enten den &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;eller passordet tom og angitt &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;til <ph id="ph1">`User`</ph>, du blir bedt om å angi et gyldig brukernavn og passord på installasjonen.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Another option for running a service under a separate account is to use the computer's System account.</source>
+          <target state="translated">Et annet alternativ for å kjøre en tjeneste under en egen konto er å bruke datamaskinens System-kontoen.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That account, which is distinct from the Administrator account, requires no password.</source>
+          <target state="translated">Denne kontoen, som er forskjellig fra administratorkontoen, krever passord.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The System account's privileges may exceed those of the user currently logged in.</source>
+          <target state="translated">Den systemkontoen rettigheter, kan overskride i den påloggede brukeren.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Running under the System account rather than a user account avoids problems resulting from the user lacking a permission the service requires       If &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; is any value other than <ph id="ph1">`User`</ph>, the specifed account (local or network service, or local system) is used, even if the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; and Password properties are populated.</source>
+          <target state="translated">Kjører under systemkontoen i stedet for en brukerkonto forhindrer problemer som et resultat av brukeren mangler en tillatelse tjenesten krever Hvis &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;har en annen verdi enn <ph id="ph1">`User`</ph>, angitt-konto (lokalt eller Nettverkstjeneste eller lokalt system) brukes, selv om den &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt;og egenskaper for passord er utfylt.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Username%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The password associated with the account under which the service should run.</source>
+          <target state="translated">Passordet som er knyttet til kontoen som tjenesten skal kjøres.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Standarden er en tom streng ("").</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The property is not public, and is never serialized.</source>
+          <target state="translated">Egenskapen er ikke felles og aldri serialiseres.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Rolls back service application information written to the registry by the installation procedure.</source>
+          <target state="translated">Ruller tilbake informasjon om tjenesteprogram skrevet til registret av installasjonen.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This method is meant to be used by installation tools, which process the appropriate methods automatically.</source>
+          <target state="translated">Denne metoden er ment å brukes av installasjonsverktøy som behandler metodene riktig automatisk.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Normally, you do not call the methods on &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">Vanligvis du ikke kaller metodene på &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;i koden; de vanligvis kalles bare av Installer verktøyet.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The install utility automatically calls the &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt; method during the installation process.</source>
+          <target state="translated">Installer verktøyet automatisk kaller den &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt;metoden under installasjonen.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Install%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It backs out failures, if necessary, by calling Rollback on the object that generated the exception.</source>
+          <target state="translated">Det tar ut feil, hvis nødvendig, ved å kalle tilbakerulling på objektet som generert unntaket.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application's install routine maintains information automatically about the components already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Et program Installer rutinen opprettholder informasjon automatisk om komponenter allerede er installert, ved hjelp av prosjektet installasjonsprogrammets &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This state information, passed into Rollback as the <ph id="ph1">`savedState`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">Denne informasjon om, ble sendt til tilbakerulling som den <ph id="ph1">`savedState`</ph> parameteren oppdateres kontinuerlig som den &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;forekomsten og hver &lt;xref:System.ServiceProcess.ServiceInstaller&gt;forekomsten er installert av verktøyet.&lt;/xref:System.ServiceProcess.ServiceInstaller&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">Det er vanligvis unødvendige for koden til å endre denne statusinformasjon eksplisitt.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Rollback passes to the calling method any exceptions thrown by base class methods or &lt;xref:System.Configuration.Install.Installer.BeforeInstall&gt; / &lt;xref:System.Configuration.Install.Installer.AfterInstall&gt; event handlers.</source>
+          <target state="translated">Tilbakerulling sender til metoden kall unntak av basisklassen metoder eller &lt;xref:System.Configuration.Install.Installer.BeforeInstall&gt;/ &lt;xref:System.Configuration.Install.Installer.AfterInstall&gt;hendelsesbehandling.&lt;/xref:System.Configuration.Install.Installer.AfterInstall&gt; &lt;/xref:System.Configuration.Install.Installer.BeforeInstall&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">En &lt;xref:System.Collections.IDictionary&gt;som inneholder informasjon om sikkerhetskontekst som er knyttet til installasjonen.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> is corrupted or non-existent.</source>
+          <target state="translated">- eller - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">savedState</ph> <ept id="p1">&lt;/code&gt;</ept> er skadet eller ikke-eksisterende.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets or sets the user account under which the service application will run.</source>
+          <target state="translated">Henter eller angir brukerkontoen som tjenesteprogrammet skal kjøres.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Username and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; pair allows the service to run under an account other than the system account.</source>
+          <target state="translated">Brukernavnet og &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;paret, kan tjenesten kjøre under en annen konto enn systemkontoen.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can, for example, allow the service to start automatically at reboot, when no user is logged on.</source>
+          <target state="translated">Dette kan for eksempel at tjenesten skal starte automatisk ved omstart, når ingen bruker er logget på.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; and Username are handled in a secure manner in that they are never serialized or saved to the install state (the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;) or other location with public access.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;og brukernavnet håndteres på en sikker måte ved at de er aldri serialisert eller lagres i installasjonsstatus (installasjonsprogrammet for prosjektet &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;) eller en annen plassering med public-tilgang.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the Username and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; allows an account to be associated automatically with the service at install time.</source>
+          <target state="translated">Angi brukernavnet og &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;gjør det mulig for en konto som skal knyttes til automatisk tjenesten under installasjonen.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you leave either the Username or &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; empty and set &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; to <ph id="ph1">`User`</ph>, you will be prompted for a valid user name and password at installation.</source>
+          <target state="translated">Hvis du forlater enten brukernavnet eller &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;tom og angitt &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;til <ph id="ph1">`User`</ph>, du blir bedt om å angi et gyldig brukernavn og passord på installasjonen.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Another option for running a service under a separate account is to use the computer's System account.</source>
+          <target state="translated">Et annet alternativ for å kjøre en tjeneste under en egen konto er å bruke datamaskinens System-kontoen.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That account, which is distinct from the Administrator account, requires no password.</source>
+          <target state="translated">Denne kontoen, som er forskjellig fra administratorkontoen, krever passord.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The System account's privileges may exceed those of the user currently logged in.</source>
+          <target state="translated">Den systemkontoen rettigheter, kan overskride i den påloggede brukeren.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Running under the System account rather than a user account avoids problems resulting from the user lacking a permission the service requires       If &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt; is any value other than <ph id="ph1">`User`</ph>, the specified account (local or network service, or local system) is used, even if the Username and &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; properties are populated.</source>
+          <target state="translated">Kjører under systemkontoen i stedet for en brukerkonto forhindrer problemer som et resultat av brukeren mangler en tillatelse tjenesten krever Hvis &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;har en annen verdi enn <ph id="ph1">`User`</ph>, brukes den angitte kontoen (lokal eller Nettverkstjeneste eller lokalt system), selv om brukernavnet og &lt;xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt;Egenskaper er utfylt.&lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Password%2A&gt; &lt;/xref:System.ServiceProcess.ServiceProcessInstaller.Account%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The account under which the service should run.</source>
+          <target state="translated">Kontoen som tjenesten skal kjøres.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Standarden er en tom streng ("").</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a0e1caaa0dc89aa1f76ae5159557d531e52f15a0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.Timer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58efa2dba6b73dd78c9458ea030ed00f374e3296</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ee10a7f1704f5daf93b1482b7d45c48a3d52dee9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a timer that raises an event at user-defined intervals.</source>
+          <target state="translated">实现在用户定义的时间间隔引发事件的计时器。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This timer is optimized for use in Windows Forms applications and must be used in a window.</source>
+          <target state="translated">此计时器最宜用于 Windows 窗体应用程序，并且必须在窗口中使用。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A Timer is used to raise an event at user-defined intervals.</source>
+          <target state="translated">计时器用于在用户定义的时间间隔引发事件。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This Windows timer is designed for a single-threaded environment where UI threads are used to perform processing.</source>
+          <target state="translated">此 Windows 计时器专为使用 UI 线程来执行处理的单线程方式的环境。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It requires that the user code have a UI message pump available and always operate from the same thread, or marshal the call onto another thread.</source>
+          <target state="translated">此过程要求用户代码有一个可用的用户界面消息泵，并始终从相同线程中，运行或到另一个线程的调用封送。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When you use this timer, use the &lt;xref:System.Windows.Forms.Timer.Tick&gt; event to perform a polling operation or to display a splash screen for a specified period of time.</source>
+          <target state="translated">当你使用此计时器时，使用&lt;xref:System.Windows.Forms.Timer.Tick&gt;事件以执行轮询操作也可为指定的时间段显示初始屏幕。&lt;/xref:System.Windows.Forms.Timer.Tick&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Whenever the &lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt; property is set to <ph id="ph1">`true`</ph> and the &lt;xref:System.Windows.Forms.Timer.Interval%2A&gt; property is greater than zero, the &lt;xref:System.Windows.Forms.Timer.Tick&gt; event is raised at intervals based on the &lt;xref:System.Windows.Forms.Timer.Interval%2A&gt; property setting.</source>
+          <target state="translated">每当&lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt;属性设置为<ph id="ph1">`true`</ph>和&lt;xref:System.Windows.Forms.Timer.Interval%2A&gt;属性是大于零，&lt;xref:System.Windows.Forms.Timer.Tick&gt;时间间隔基于引发事件&lt;xref:System.Windows.Forms.Timer.Interval%2A&gt;属性设置。&lt;/xref:System.Windows.Forms.Timer.Interval%2A&gt; &lt;/xref:System.Windows.Forms.Timer.Tick&gt; &lt;/xref:System.Windows.Forms.Timer.Interval%2A&gt; &lt;/xref:System.Windows.Forms.Timer.Enabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>This class provides methods to set the interval, and to start and stop the timer.</source>
+          <target state="translated">此类提供方法设置的时间间隔，还可以启动和停止计时器。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Windows Forms Timer component is single-threaded, and is limited to an accuracy of 55 milliseconds.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; Windows 窗体 Timer 组件是单线程的且最多 55 毫秒的准确性。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you require a multithreaded timer with greater accuracy, use the &lt;xref:System.Timers.Timer&gt; class in the &lt;xref:System.Timers&gt; namespace.</source>
+          <target state="translated">如果需要更准确地多线程的计时器，使用&lt;xref:System.Timers.Timer&gt;类&lt;xref:System.Timers&gt;命名空间。&lt;/xref:System.Timers&gt; &lt;/xref:System.Timers.Timer&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Timer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Forms.Timer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When a new timer is created, it is disabled; that is, &lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt; is set to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">当创建一个新的计时器时，就会禁用;也就是说，&lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt;设置为<ph id="ph1">`false`</ph>。&lt;/xref:System.Windows.Forms.Timer.Enabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>To enable the timer, call the &lt;xref:System.Windows.Forms.Timer.Start%2A&gt; method or set &lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt; to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">若要启用计时器，请调用&lt;xref:System.Windows.Forms.Timer.Start%2A&gt;方法或一组&lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt;到<ph id="ph1">`true`</ph>。&lt;/xref:System.Windows.Forms.Timer.Enabled%2A&gt; &lt;/xref:System.Windows.Forms.Timer.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If the timer is disabled and the timer is out of scope, the timer will be disposed when garbage collection occurs.</source>
+          <target state="translated">如果禁用计时器，计时器超出作用域中，在垃圾回收发生时，将处理计时器。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If the timer is enabled, even if it is out of scope, it is not subject to garbage collection.</source>
+          <target state="translated">如果计时器处于启用状态，即使超出作用域，它不进行垃圾回收。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.Timer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class together with the specified container.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Windows.Forms.Timer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>以及指定的容器的类。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.Timer&gt; constructor enables you to associate a &lt;xref:System.Windows.Forms.Timer&gt; with any &lt;xref:System.ComponentModel.Container&gt; object.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.Timer&gt;构造函数，可将相关联&lt;xref:System.Windows.Forms.Timer&gt;与任意&lt;xref:System.ComponentModel.Container&gt;对象。&lt;/xref:System.ComponentModel.Container&gt; &lt;/xref:System.Windows.Forms.Timer&gt; &lt;/xref:System.Windows.Forms.Timer&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>By associating the &lt;xref:System.Windows.Forms.Timer&gt; like this, you hand over control of the lifetime of the &lt;xref:System.Windows.Forms.Timer&gt; to the &lt;xref:System.ComponentModel.Container&gt;.</source>
+          <target state="translated">通过将相关联的&lt;xref:System.Windows.Forms.Timer&gt;如下，你的控件移交&lt;xref:System.Windows.Forms.Timer&gt;到&lt;xref:System.ComponentModel.Container&gt;。&lt;/xref:System.ComponentModel.Container&gt;&lt;/xref:System.Windows.Forms.Timer&gt;的生存期&lt;/xref:System.Windows.Forms.Timer&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This can be useful if you use a number of components in your application and want to dispose of all of them simultaneously.</source>
+          <target state="translated">如果你在你的应用程序中使用的许多组件，并想要同时释放它们，这会很有用。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, if you associate a &lt;xref:System.Windows.Forms.ToolTip&gt;, an &lt;xref:System.Windows.Forms.ImageList&gt;, and a &lt;xref:System.Windows.Forms.Timer&gt; with a &lt;xref:System.ComponentModel.Container&gt;, calling &lt;xref:System.ComponentModel.Container.Dispose%2A&gt; on the &lt;xref:System.ComponentModel.Container&gt; will force disposal of all of these components as well.</source>
+          <target state="translated">例如，如果您将相关联&lt;xref:System.Windows.Forms.ToolTip&gt;、 &lt;xref:System.Windows.Forms.ImageList&gt;，和一个&lt;xref:System.Windows.Forms.Timer&gt;与&lt;xref:System.ComponentModel.Container&gt;，则调用&lt;xref:System.ComponentModel.Container.Dispose%2A&gt;上&lt;xref:System.ComponentModel.Container&gt;将强制释放所有这些组件也。&lt;/xref:System.ComponentModel.Container&gt; &lt;/xref:System.ComponentModel.Container.Dispose%2A&gt; &lt;/xref:System.ComponentModel.Container&gt; &lt;/xref:System.Windows.Forms.Timer&gt; &lt;/xref:System.Windows.Forms.ImageList&gt; &lt;/xref:System.Windows.Forms.ToolTip&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When a new timer is created, it is disabled; that is, &lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt; is set to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">当创建一个新的计时器时，就会禁用;也就是说，&lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt;设置为<ph id="ph1">`false`</ph>。&lt;/xref:System.Windows.Forms.Timer.Enabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To enable the timer, call the &lt;xref:System.Windows.Forms.Timer.Start%2A&gt; method or set &lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt; to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">若要启用计时器，请调用&lt;xref:System.Windows.Forms.Timer.Start%2A&gt;方法或一组&lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt;到<ph id="ph1">`true`</ph>。&lt;/xref:System.Windows.Forms.Timer.Enabled%2A&gt; &lt;/xref:System.Windows.Forms.Timer.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This instance will exist until its container releases it to garbage collection.</source>
+          <target state="translated">此实例将存在，直到其容器将它释放到垃圾回收。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the container for the timer.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>计时器表示的容器。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Disposes of the resources, other than memory, used by the timer.</source>
+          <target state="translated">释放由计时器使用的内存以外的资源。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Call Dispose when you are finished using the timer.</source>
+          <target state="translated">在完成使用计时器时，请调用释放。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The Dispose method leaves the timer in an unusable state.</source>
+          <target state="translated">Dispose 方法使计时器处于不可用状态。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>After you call Dispose, you must release all references to the timer so the memory it was occupying can be reclaimed by garbage collection.</source>
+          <target state="translated">调用 Dispose 后，你必须释放对计时器的所有引用，以便可以通过垃圾回收回收其占用的内存。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call Dispose before you release your last reference to the timer.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 始终调用 Dispose 在发布到计时器最后一个引用之前。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Otherwise, the resources the timer is using will not be freed until garbage collection calls the destructor of the timer object.</source>
+          <target state="translated">否则，仅直到垃圾回收调用计时器对象的析构函数时，不会释放计时器所使用的资源。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要释放托管和非托管资源。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release only the unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要仅释放非托管的资源。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets whether the timer is running.</source>
+          <target state="translated">获取或设置是否正在运行的计时器。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The timer is not subject to garbage collection when the value is <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">值时，计时器不进行垃圾回收<ph id="ph1">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Calling the &lt;xref:System.Windows.Forms.Timer.Start%2A&gt; method is the same as setting Enabled to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">调用&lt;xref:System.Windows.Forms.Timer.Start%2A&gt;方法等同于将 Enabled 设置为<ph id="ph1">`true`</ph>。&lt;/xref:System.Windows.Forms.Timer.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Likewise, calling the &lt;xref:System.Windows.Forms.Timer.Stop%2A&gt; method is the same as setting Enabled to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">同样，调用&lt;xref:System.Windows.Forms.Timer.Stop%2A&gt;方法等同于将 Enabled 设置为<ph id="ph1">`false`</ph>。&lt;/xref:System.Windows.Forms.Timer.Stop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the timer is currently enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果当前启用计时器;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets or sets the time, in milliseconds, before the <bpt id="p1">&lt;xref href="System.Windows.Forms.Timer.Tick"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event is raised relative to the last occurrence of the <bpt id="p2">&lt;xref href="System.Windows.Forms.Timer.Tick"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">获取或之前设置的时间，以毫秒为单位， <bpt id="p1">&lt;xref href="System.Windows.Forms.Timer.Tick"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>相对的最后一个匹配项于引发事件<bpt id="p2">&lt;xref href="System.Windows.Forms.Timer.Tick"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To get the number of seconds in the interval, divide this number by 1,000.</source>
+          <target state="translated">若要获取的秒数的时间间隔内，请将此数字除以 1000。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; specifying the number of milliseconds before the <bpt id="p1">&lt;xref href="System.Windows.Forms.Timer.Tick"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event is raised relative to the last occurrence of the <bpt id="p2">&lt;xref href="System.Windows.Forms.Timer.Tick"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;指定之前的毫秒数<bpt id="p1">&lt;xref href="System.Windows.Forms.Timer.Tick"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>相对的最后一个匹配项于引发事件<bpt id="p2">&lt;xref href="System.Windows.Forms.Timer.Tick"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>事件。&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The value cannot be less than one.</source>
+          <target state="translated">值不能小于一。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Forms.Timer.Tick"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引发<bpt id="p1">&lt;xref href="System.Windows.Forms.Timer.Tick"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This method is called for each timer tick.</source>
+          <target state="translated">为每个计时器刻度调用此方法。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>It calls any methods that are added through &lt;xref:System.Windows.Forms.Timer.Tick&gt;.</source>
+          <target state="translated">它调用通过&lt;xref:System.Windows.Forms.Timer.Tick&gt;.&lt;/xref:System.Windows.Forms.Timer.Tick&gt;添加任何方法</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If you are inheriting from &lt;xref:System.Windows.Forms.Timer&gt;, you can override this method.</source>
+          <target state="translated">如果从继承&lt;xref:System.Windows.Forms.Timer&gt;，您可以重写此方法。&lt;/xref:System.Windows.Forms.Timer&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引发事件时，将调用事件处理程序，通过委托。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Handling and Raising Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>处理和引发事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件数据。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This is always &lt;xref:System.EventArgs&gt;.</source>
+          <target state="translated">这始终是&lt;xref:System.EventArgs&gt;.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Starts the timer.</source>
+          <target state="translated">启动计时器。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>You can also start the timer by setting the &lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">你还可以通过设置启动计时器&lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt;属性<ph id="ph1">`true`</ph>。&lt;/xref:System.Windows.Forms.Timer.Enabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Stops the timer.</source>
+          <target state="translated">停止计时器。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>You can also stop the timer by setting the &lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt; property to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">也可以通过设置停止计时器&lt;xref:System.Windows.Forms.Timer.Enabled%2A&gt;属性<ph id="ph1">`false`</ph>。&lt;/xref:System.Windows.Forms.Timer.Enabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Windows.Forms.Timer&gt; object may be enabled and disabled multiple times within the same application session.</source>
+          <target state="translated">A&lt;xref:System.Windows.Forms.Timer&gt;对象可能处于启用状态并禁用在同一会话中应用程序多次。&lt;/xref:System.Windows.Forms.Timer&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Calling &lt;xref:System.Windows.Forms.Timer.Start%2A&gt; after you have disabled a &lt;xref:System.Windows.Forms.Timer&gt; by calling Stop will cause the &lt;xref:System.Windows.Forms.Timer&gt; to restart the interrupted interval.</source>
+          <target state="translated">调用&lt;xref:System.Windows.Forms.Timer.Start%2A&gt;已禁用后&lt;xref:System.Windows.Forms.Timer&gt;通过将导致停止时调&lt;xref:System.Windows.Forms.Timer&gt;以重新启动中断的时间间隔。&lt;/xref:System.Windows.Forms.Timer&gt; &lt;/xref:System.Windows.Forms.Timer&gt; &lt;/xref:System.Windows.Forms.Timer.Start%2A&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If your &lt;xref:System.Windows.Forms.Timer&gt; is set for a 5000-millisecond interval, and you call Stop at around 3000 milliseconds, calling &lt;xref:System.Windows.Forms.Timer.Start%2A&gt; will cause the &lt;xref:System.Windows.Forms.Timer&gt; to wait 5000 milliseconds before raising the &lt;xref:System.Windows.Forms.Timer.Tick&gt; event.</source>
+          <target state="translated">如果你&lt;xref:System.Windows.Forms.Timer&gt;设置 5000 毫秒的间隔时间，并且你调用停止在大约 3000 毫秒，调用&lt;xref:System.Windows.Forms.Timer.Start%2A&gt;将导致&lt;xref:System.Windows.Forms.Timer&gt;引发前等待 5000 毫秒&lt;xref:System.Windows.Forms.Timer.Tick&gt;事件。&lt;/xref:System.Windows.Forms.Timer.Tick&gt; &lt;/xref:System.Windows.Forms.Timer&gt; &lt;/xref:System.Windows.Forms.Timer.Start%2A&gt; &lt;/xref:System.Windows.Forms.Timer&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Calling Stop on any &lt;xref:System.Windows.Forms.Timer&gt; within a Windows Forms application can cause messages from other &lt;xref:System.Windows.Forms.Timer&gt; components in the application to be processed immediately, because all &lt;xref:System.Windows.Forms.Timer&gt; components operate on the main application thread.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 调用停止对任何&lt;xref:System.Windows.Forms.Timer&gt;Windows 窗体中应用程序可以从其他导致消息&lt;xref:System.Windows.Forms.Timer&gt;组件会立即，处理，因为应用程序中的所有&lt;xref:System.Windows.Forms.Timer&gt;在主应用程序线程上运行的组件。&lt;/xref:System.Windows.Forms.Timer&gt; &lt;/xref:System.Windows.Forms.Timer&gt; &lt;/xref:System.Windows.Forms.Timer&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>If you have two &lt;xref:System.Windows.Forms.Timer&gt; components, one set to 700 milliseconds and one set to 500 milliseconds, and you call Stop on the first &lt;xref:System.Windows.Forms.Timer&gt;, your application may receive an event callback for the second component first.</source>
+          <target state="translated">如果你有两个&lt;xref:System.Windows.Forms.Timer&gt;组件，一个设置为 700 毫秒和一个设置为 500 毫秒，并且在第一个调用停止&lt;xref:System.Windows.Forms.Timer&gt;，你的应用程序可能会首先收到第二个组件的事件回调。&lt;/xref:System.Windows.Forms.Timer&gt; &lt;/xref:System.Windows.Forms.Timer&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If this proves problematic, consider using the &lt;xref:System.Threading.Timer&gt; class in the &lt;xref:System.Threading&gt; namespace instead.</source>
+          <target state="translated">如果这证明有问题，请考虑使用&lt;xref:System.Threading.Timer&gt;类&lt;xref:System.Threading&gt;命名空间而。&lt;/xref:System.Threading&gt; &lt;/xref:System.Threading.Timer&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets or sets an arbitrary string representing some type of user state.</source>
+          <target state="translated">获取或设置一个任意字符串，表示某种类型的用户状态。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An arbitrary string representing some type of user state.</source>
+          <target state="translated">一个任意字符串，表示某种类型的用户状态。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Occurs when the specified timer interval has elapsed and the timer is enabled.</source>
+          <target state="translated">指定的计时器间隔已过去而且计时器处于启用状态时发生。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Calling the &lt;xref:System.Diagnostics.Debug.Assert%2A&gt; method on the &lt;xref:System.Diagnostics.Debug&gt; class from within the Tick event may not behave as expected, as displaying the assertion dialog box may cause Windows to raise the Tick event repeatedly.</source>
+          <target state="translated">调用&lt;xref:System.Diagnostics.Debug.Assert%2A&gt;方法&lt;xref:System.Diagnostics.Debug&gt;从 Tick 事件中的类可能不会按预期方式，作为显示断言对话框框中可能会导致 Windows 重复引发 Tick 事件。&lt;/xref:System.Diagnostics.Debug&gt; &lt;/xref:System.Diagnostics.Debug.Assert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>We recommend that you refrain from testing assertions within this event, and use the &lt;xref:System.Diagnostics.Debug.Write%2A&gt;, &lt;xref:System.Diagnostics.Debug.WriteIf%2A&gt;, &lt;xref:System.Diagnostics.Debug.WriteLine%2A&gt;, or &lt;xref:System.Diagnostics.Debug.WriteLineIf%2A&gt; methods instead.</source>
+          <target state="translated">我们建议你避免从测试此事件中的断言，并使用&lt;xref:System.Diagnostics.Debug.Write%2A&gt;， &lt;xref:System.Diagnostics.Debug.WriteIf%2A&gt;， &lt;xref:System.Diagnostics.Debug.WriteLine%2A&gt;，或&lt;xref:System.Diagnostics.Debug.WriteLineIf%2A&gt;方法相反。&lt;/xref:System.Diagnostics.Debug.WriteLineIf%2A&gt; &lt;/xref:System.Diagnostics.Debug.WriteLine%2A&gt; &lt;/xref:System.Diagnostics.Debug.WriteIf%2A&gt; &lt;/xref:System.Diagnostics.Debug.Write%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>Handling and Raising Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关处理事件的详细信息，请参阅<bpt id="p1">[</bpt>处理和引发事件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Returns a string that represents the <bpt id="p1">&lt;xref href="System.Windows.Forms.Timer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回一个字符串，表示<bpt id="p1">&lt;xref href="System.Windows.Forms.Timer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The ToString method returns a string that includes the value of the &lt;xref:System.Windows.Forms.Timer.Interval%2A&gt; property.</source>
+          <target state="translated">ToString 方法将返回包含的值的字符串&lt;xref:System.Windows.Forms.Timer.Interval%2A&gt;属性。&lt;/xref:System.Windows.Forms.Timer.Interval%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A string that represents the current <bpt id="p1">&lt;xref href="System.Windows.Forms.Timer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">一个字符串，表示当前<bpt id="p1">&lt;xref href="System.Windows.Forms.Timer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

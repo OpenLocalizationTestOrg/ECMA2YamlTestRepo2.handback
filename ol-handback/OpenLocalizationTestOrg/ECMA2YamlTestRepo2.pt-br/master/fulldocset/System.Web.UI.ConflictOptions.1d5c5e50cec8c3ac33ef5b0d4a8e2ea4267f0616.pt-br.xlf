@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b431c28d8b409bfcd0c7194ec2df5b445a42e5d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.ConflictOptions.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9eaedbc7fed931541ae7d578f21e0bf5ee2da682</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e017b22adc8551320f649a1b46fa14257c4704cb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Determines how ASP.NET data source controls handle data conflicts when updating or deleting data.</source>
+          <target state="translated">Determina como a fonte de dados do ASP.NET controla identificador conflitos de dados durante a atualização ou exclusão de dados.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Concurrency control is a technique that data stores use to control how data is read and changed in the store when multiple clients are accessing and manipulating the same data.</source>
+          <target state="translated">Controle de simultaneidade é uma técnica de repositórios de dados usam para controlar como os dados é lida e alterados no repositório quando vários clientes estão acessando e manipulando os mesmos dados.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, one client reads data and presents it to a user, while another client reads the same data, and presents it to a different user.</source>
+          <target state="translated">Por exemplo, um cliente lê os dados e apresenta-as para um usuário, enquanto outro cliente lê os mesmos dados e apresenta-as para um usuário diferente.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If both users update the data and submit it to the data storage, some unexpected result might occur, because the clients might update different values for the same data.</source>
+          <target state="translated">Se ambos os usuários atualizam os dados e enviá-lo para o armazenamento de dados, alguns resultados inesperados poderão ocorrer, pois os clientes podem atualizar valores diferentes para os mesmos dados.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is considered a conflict.</source>
+          <target state="translated">Isso é considerado um conflito.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`ConflictDetection`</ph> property that is defined for ASP.NET data source controls is used to determine how a control handles data conflicts in the underlying data storage when the underlying data storage is using optimistic concurrency and a delete or update operation is performed.</source>
+          <target state="translated">O <ph id="ph1">`ConflictDetection`</ph> propriedade que é definida para controles de fonte de dados do ASP.NET é usada para determinar como um controle manipula conflitos de dados no armazenamento de dados subjacente quando o armazenamento de dados subjacente é usando simultaneidade otimista e uma exclusão ou operação de atualização é executada.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the <ph id="ph1">`ConflictDetection`</ph> property is set to OverwriteChanges, which means the data source control will overwrite any changes made to a data row between the time the data source control first read data from the row and the time that the row is updated.</source>
+          <target state="translated">Por padrão, o <ph id="ph1">`ConflictDetection`</ph> está definida como OverwriteChanges, o que significa que o controle de fonte de dados substituirá as alterações feitas em uma linha de dados entre a hora em que o controle de fonte de dados primeiro ler dados da linha e a hora em que a linha é atualizada.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The primary key is used for locating the data row that will be updated or deleted, but no other comparison of the data is performed.</source>
+          <target state="translated">A chave primária é usada para localizar a linha de dados que será atualizada ou excluída, mas nenhuma outra comparação dos dados é executada.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data source control is configured to use the CompareAllValues option, however, the control passes the original data in the <ph id="ph1">`oldValues`</ph> collections of the <ph id="ph2">`Update`</ph> and <ph id="ph3">`Delete`</ph> methods so that you can write logic to update or delete data only if these values match the values currently in the data storage.</source>
+          <target state="translated">Se o controle de fonte de dados estiver configurado para usar a opção CompareAllValues, no entanto, o controle passa os dados originais no <ph id="ph1">`oldValues`</ph> coleções do <ph id="ph2">`Update`</ph> e <ph id="ph3">`Delete`</ph> métodos para que você possa escrever lógica para atualizar ou excluir dados somente se esses valores correspondem aos valores atualmente no armazenamento de dados.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The matching values indicate that the data has not changed since the time it was read.</source>
+          <target state="translated">Os valores correspondentes indicam que os dados não foram alterados desde a hora em que foi lido.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A data source control uses the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">oldValues</ph><ept id="p1">&lt;/code&gt;</ept> collection of the <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref uid="langword_csharp_Delete" name="Delete" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> methods to determine whether the data has been changed by another process.</source>
+          <target state="translated">Um controle de fonte de dados usa o <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">oldValues</ph> <ept id="p1">&lt;/code&gt;</ept> coleção do <bpt id="p2">&lt;xref uid="langword_csharp_Update" name="Update" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> e <bpt id="p3">&lt;xref uid="langword_csharp_Delete" name="Delete" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> métodos para determinar se os dados foram alterados por outro processo.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A data source control overwrites all values in a data row with its own values for the row.</source>
+          <target state="translated">Um controle de fonte de dados substitui todos os valores em uma linha de dados com seus próprios valores para a linha.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A ser adicionado.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

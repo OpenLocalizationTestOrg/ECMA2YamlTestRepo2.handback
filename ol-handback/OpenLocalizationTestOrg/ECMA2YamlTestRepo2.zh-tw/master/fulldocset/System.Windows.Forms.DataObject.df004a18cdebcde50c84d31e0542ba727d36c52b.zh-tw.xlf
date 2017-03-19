@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4d68bb3e9ff92de1344598b3c5a467d9c7b01d7e</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.DataObject.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">373d61627d0ec372e2fcdbb64299cecb89944b88</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e8af5b5199a36ed13873377ff3c233cbcb22a965</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a basic data transfer mechanism.</source>
+          <target state="translated">實作基本資料傳輸機制。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>DataObject implements the &lt;xref:System.Windows.Forms.IDataObject&gt; interface, whose methods provide a format-independent mechanism for data transfer.</source>
+          <target state="translated">DataObject 實作&lt;xref:System.Windows.Forms.IDataObject&gt;介面，其方法提供的資料傳輸格式無關的機制。&lt;/xref:System.Windows.Forms.IDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A DataObject is typically used with the &lt;xref:System.Windows.Forms.Clipboard&gt; and in drag-and-drop operations.</source>
+          <target state="translated">一般會搭配使用 DataObject&lt;xref:System.Windows.Forms.Clipboard&gt;和拖放作業中。&lt;/xref:System.Windows.Forms.Clipboard&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The DataObject class provides the recommended implementation of the &lt;xref:System.Windows.Forms.IDataObject&gt; interface.</source>
+          <target state="translated">DataObject 類別提供的建議的實作&lt;xref:System.Windows.Forms.IDataObject&gt;介面。&lt;/xref:System.Windows.Forms.IDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>It is suggested that you use the DataObject class rather than implementing &lt;xref:System.Windows.Forms.IDataObject&gt; yourself.</source>
+          <target state="translated">建議您使用 DataObject 類別而不需實作&lt;xref:System.Windows.Forms.IDataObject&gt;自行。&lt;/xref:System.Windows.Forms.IDataObject&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Multiple pieces of data in different formats can be stored in a DataObject.</source>
+          <target state="translated">多個以不同格式的資料片段可以儲存在 DataObject 中。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Data is retrieved from a DataObject by its associated format.</source>
+          <target state="translated">其相關的格式會從資料擷取資料。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Because the target application might not be known, you can increase the likelihood that the data will be in the appropriate format for an application by placing the data in a DataObject in multiple formats.</source>
+          <target state="translated">因為可能不知道目標應用程式，您可以增加，資料會以適當的格式為應用程式將資料放在以多種格式的 DataObject 的可能性。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Windows.Forms.DataFormats&gt; for the predefined formats.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Forms.DataFormats&gt;之預先定義的格式。&lt;/xref:System.Windows.Forms.DataFormats&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can implement your own format by creating an instance of the &lt;xref:System.Windows.Forms.DataFormats.Format&gt; class.</source>
+          <target state="translated">您可以實作您自己的格式來建立執行個體的&lt;xref:System.Windows.Forms.DataFormats.Format&gt;類別。&lt;/xref:System.Windows.Forms.DataFormats.Format&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To store data in a DataObject, pass the data to the constructor or call &lt;xref:System.Windows.Forms.DataObject.SetData%2A&gt;.</source>
+          <target state="translated">若要將資料儲存的資料，將資料傳遞至建構函式，或呼叫&lt;xref:System.Windows.Forms.DataObject.SetData%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.SetData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>You can add data in multiple formats to the same DataObject.</source>
+          <target state="translated">您可以將資料以多種格式加入相同的資料物件。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If you want the data you add to be retrieved in its native format only, call &lt;xref:System.Windows.Forms.DataObject.SetData%28System.String%2CSystem.Boolean%2CSystem.Object%29&gt; with the <ph id="ph1">`autoConvert`</ph> parameter set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">如果您要的資料加入其原生格式，呼叫中擷取&lt;xref:System.Windows.Forms.DataObject.SetData%28System.String%2CSystem.Boolean%2CSystem.Object%29&gt;與<ph id="ph1">`autoConvert`</ph>參數設定為<ph id="ph2">`false`</ph>。&lt;/xref:System.Windows.Forms.DataObject.SetData%28System.String%2CSystem.Boolean%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Data can be retrieved from a DataObject in any format which is compatible with &lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.</source>
+          <target state="translated">可以從與&lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A&gt;相容的所有格式 DataObject 擷取資料</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For example, text can be converted to Unicode.</source>
+          <target state="translated">例如，文字可以轉換成 Unicode。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To retrieve data in the format in which it was stored, call &lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt; with the <ph id="ph1">`autoConvert`</ph> parameter set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">若要擷取已儲存的格式中的資料，請呼叫&lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;與<ph id="ph1">`autoConvert`</ph>參數設定為<ph id="ph2">`false`</ph>。&lt;/xref:System.Windows.Forms.DataObject.GetData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To determine what formats the data is stored in, call &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;.</source>
+          <target state="translated">若要判斷資料儲存在何種格式，呼叫&lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To determine if a format is available, call &lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt; with the desired format.</source>
+          <target state="translated">若要判斷是否有可用的格式，請呼叫&lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt;與所需的格式。&lt;/xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>In <ph id="ph1">[!INCLUDE[dnprdnext](~/add/includes/dnprdnext-md.md)]</ph>, the DataObject class provides additional methods that make it easier to work with data in common formats.</source>
+          <target state="translated">在<ph id="ph1">[!INCLUDE[dnprdnext](~/add/includes/dnprdnext-md.md)]</ph>，DataObject 類別會提供額外的方法可讓您更輕鬆地使用資料共通的格式。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To add data of a particular format to the DataObject, use the appropriate <ph id="ph1">`Set`</ph><bpt id="p1">*</bpt>Format<ept id="p1">*</ept> method, such as &lt;xref:System.Windows.Forms.DataObject.SetText%2A&gt;.</source>
+          <target state="translated">若要加入資料物件的特定格式的資料，請使用適當<ph id="ph1">`Set`</ph><bpt id="p1">*</bpt>格式<ept id="p1">*</ept>方法，例如&lt;xref:System.Windows.Forms.DataObject.SetText%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.SetText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To retrieve data of a particular format from the DataObject, first call the appropriate <ph id="ph1">`Contains`</ph><bpt id="p1">*</bpt>Format<ept id="p1">*</ept> method (such as &lt;xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;) to determine whether the DataObject contains data in that format, then call the appropriate <ph id="ph2">`Get`</ph><bpt id="p2">*</bpt>Format<ept id="p2">*</ept> method (such as &lt;xref:System.Windows.Forms.DataObject.GetText%2A&gt;) to retrieve the data if the DataObject contains it.</source>
+          <target state="translated">若要從資料物件擷取特定格式的資料，請先呼叫適當<ph id="ph1">`Contains`</ph><bpt id="p1">*</bpt>格式<ept id="p1">*</ept>方法 (例如&lt;xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;) 若要判斷是否 DataObject 包含以該格式的資料，然後呼叫適當<ph id="ph2">`Get`</ph><bpt id="p2">*</bpt>格式<ept id="p2">*</ept>方法 (例如&lt;xref:System.Windows.Forms.DataObject.GetText%2A&gt;) 來擷取資料，如果 DataObject 包含它&lt;/xref:System.Windows.Forms.DataObject.GetText%2A&gt;&lt;/xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Special considerations may be necessary when using the metafile format with the Clipboard.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 特殊考量可能需要使用剪貼簿的中繼檔格式時。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Due to a limitation in the current implementation of the DataObject class, the metafile format used by the .NET Framework may not be recognized by applications that use an older metafile format.</source>
+          <target state="translated">基於目前 DataObject 類別的實作的限制，.NET Framework 所使用的中繼檔格式可能無法辨識的應用程式使用較舊的中繼檔格式。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>In this case, you must interoperate with the Win32 Clipboard application programming interfaces (APIs).</source>
+          <target state="translated">在此情況下，您必須與 Win32 剪貼簿應用程式開發介面 (Api) 的互通。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For more information, see article 323530, "Metafiles on Clipboard Are Not Visible to All Applications," in the Microsoft Knowledge Base at http://support.microsoft.com.</source>
+          <target state="translated">如需詳細資訊，請參閱文章 323530，"中繼檔上剪貼簿是不可見到所有應用程式，「 Microsoft 知識庫中在 http://support.microsoft.com。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  An object must be serializable for it to be put on the Clipboard.</source>
+          <target state="translated">&gt;&gt; 物件必須可序列化，才能放在剪貼簿上。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Runtime.Serialization&gt; for more information on serialization.</source>
+          <target state="translated">請參閱&lt;xref:System.Runtime.Serialization&gt;如需詳細資訊，在序列化。&lt;/xref:System.Runtime.Serialization&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If your target application requires a very specific data format, the headers added to the data in the serialization process may prevent the application from recognizing your data.</source>
+          <target state="translated">如果您的目標應用程式需要非常特定的資料格式，標頭加入至資料的序列化處理序可能會禁止應用程式無法辨識您的資料。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To preserve your data format, add your data as a &lt;xref:System.Byte&gt; array to a &lt;xref:System.IO.MemoryStream&gt; and pass the &lt;xref:System.IO.MemoryStream&gt; to the &lt;xref:System.Windows.Forms.DataObject.SetData%2A&gt; method.</source>
+          <target state="translated">若要保留您的資料格式，將加入資料做為&lt;xref:System.Byte&gt;陣列&lt;xref:System.IO.MemoryStream&gt;並傳遞&lt;xref:System.IO.MemoryStream&gt;至&lt;xref:System.Windows.Forms.DataObject.SetData%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.SetData%2A&gt; &lt;/xref:System.IO.MemoryStream&gt; &lt;/xref:System.IO.MemoryStream&gt; &lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and adds the specified object to it.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，並將指定的物件。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>You can add data in any format to the &lt;xref:System.Windows.Forms.DataObject&gt; when you use this constructor, or you can add data as an &lt;xref:System.Windows.Forms.IDataObject&gt; to provide multiple formats at once.</source>
+          <target state="translated">將資料加入至任何格式&lt;xref:System.Windows.Forms.DataObject&gt;當您使用這個建構函式，或者您可以加入資料做為&lt;xref:System.Windows.Forms.IDataObject&gt;提供多個格式一次。&lt;/xref:System.Windows.Forms.IDataObject&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If you are familiar with COM programming, you can also add a data object that implements the COM <ph id="ph1">`IDataObject`</ph> interface.</source>
+          <target state="translated">如果您熟悉 COM 程式設計，您也可以加入資料物件實作 COM<ph id="ph1">`IDataObject`</ph>介面。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>For more information, see <ph id="ph1">`IDataObject`</ph> in the MSDN library at http://msdn.microsoft.com/library.</source>
+          <target state="translated">如需詳細資訊，請參閱<ph id="ph1">`IDataObject`</ph>http://msdn.microsoft.com/library 在 MSDN library 中。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The data to store.</source>
+          <target state="translated">要儲存的資料。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and adds the specified object in the specified format.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，並以指定的格式將指定的物件。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The format of the specified data.</source>
+          <target state="translated">指定的資料格式。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">請參閱<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的預先定義的格式。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The data to store.</source>
+          <target state="translated">要儲存的資料。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Indicates whether the data object contains data in the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">指出資料物件是否包含資料<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>格式。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Use this method to determine whether the data object contains audio data before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetAudioStream%2A&gt; method.</source>
+          <target state="translated">使用這個方法來判斷資料物件是否包含音訊資料，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetAudioStream%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetAudioStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data object contains audio data; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料物件包含音訊資料。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Indicates whether the data object contains data that is in the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.FileDrop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format or can be converted to that format.</source>
+          <target state="translated">指出資料物件是否包含資料所用<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.FileDrop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>格式化，或可以轉換成該格式。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A file drop list is a collection of strings containing path information for files.</source>
+          <target state="translated">檔案的下拉式清單是包含檔案的路徑資訊的字串集合。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Use this method to determine whether the data object contains a file drop list before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetFileDropList%2A&gt; method.</source>
+          <target state="translated">使用這個方法來判斷資料物件是否包含檔案下拉清單，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetFileDropList%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetFileDropList%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data object contains a file drop list; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料物件包含檔案的下拉清單中。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Indicates whether the data object contains data that is in the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.Bitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format or can be converted to that format.</source>
+          <target state="translated">指出資料物件是否包含資料所用<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.Bitmap"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>格式化，或可以轉換成該格式。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Use this method to determine whether the data object contains image data before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetImage%2A&gt; method.</source>
+          <target state="translated">使用這個方法來判斷資料物件是否包含影像資料，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetImage%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetImage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data object contains image data; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料物件包含影像資料。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Indicates whether the data object contains data in the <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">指出資料物件是否包含資料<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>格式。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Use this method to determine whether the data object contains text data before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetText%2A&gt; method.</source>
+          <target state="translated">使用這個方法來判斷資料物件是否包含文字資料，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetText%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data object contains text data; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料物件包含文字資料。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Indicates whether the data object contains text data in the format indicated by the specified <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">指出資料物件是否包含指定所指出的格式中的文字資料<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use this method to determine whether the data object contains text data before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetText%2A&gt; method.</source>
+          <target state="translated">使用這個方法來判斷資料物件是否包含文字資料，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetText%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data object contains text data in the specified format; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料物件包含指定的格式; 中的文字資料否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>不是有效<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Retrieves an audio stream from the data object.</source>
+          <target state="translated">從資料物件擷取音效串流。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.DataObject.ContainsAudio%2A&gt; method to determine whether the data object contains audio data before retrieving it with this method.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.DataObject.ContainsAudio%2A&gt;方法來判斷資料物件是否包含音訊資料，然後再擷取以這個方法。&lt;/xref:System.Windows.Forms.DataObject.ContainsAudio%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.DataObject.SetAudio%2A&gt; method to add audio data to the data object.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.DataObject.SetAudio%2A&gt;音訊資料加入資料物件的方法。&lt;/xref:System.Windows.Forms.DataObject.SetAudio%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.Stream&gt; containing audio data or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data object does not contain any data in the <bpt id="p2">&lt;xref href="System.Windows.Forms.DataFormats.WaveAudio"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">A&lt;xref:System.IO.Stream&gt;包含音訊資料或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料物件不包含任何資料<bpt id="p2">&lt;xref href="System.Windows.Forms.DataFormats.WaveAudio"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>格式。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns the data associated with the specified data format.</source>
+          <target state="translated">傳回與指定的資料格式相關聯的資料。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If this method cannot find data in the specified format, it attempts to convert the data to the format.</source>
+          <target state="translated">如果這個方法在指定的格式中找不到資料，它會嘗試將資料轉換成的格式。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If the data cannot be converted to the specified format, or if the data was stored with automatic conversion set to <ph id="ph1">`false`</ph>, this method returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">如果資料無法轉換成指定的格式，或是儲存資料時自動轉換設定為<ph id="ph1">`false`</ph>，這個方法會傳回<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>To determine whether data is associated with, or can be converted to, a format, call &lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt; before calling &lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.</source>
+          <target state="translated">若要判斷資料是否相關，或可以轉換成格式時，呼叫&lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt;之前呼叫&lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A&gt; &lt;/xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt; for a list of valid formats for the data stored in this &lt;xref:System.Windows.Forms.DataObject&gt;.</source>
+          <target state="translated">呼叫&lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;此&lt;xref:System.Windows.Forms.DataObject&gt;。&lt;/xref:System.Windows.Forms.DataObject&gt;儲存資料的有效格式的清單&lt;/xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 資料可以轉換成另一種格式，如果儲存時指定，允許轉換，而且要求的格式與預存格式相容。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">例如，資料儲存為 Unicode 可以轉換成文字。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  When <ph id="ph1">`format`</ph> is &lt;xref:System.Windows.Forms.DataFormats.Html&gt;, this method returns a UTF-8 encoded string in applications that target .NET 4.5 or higher, and an ANSI encoded string in applications that target .NET 4.0 or lower.</source>
+          <target state="translated">&gt;&gt; 當<ph id="ph1">`format`</ph>是&lt;xref:System.Windows.Forms.DataFormats.Html&gt;，這個方法傳回 utf-8 編碼字串的目標.NET 4.5 或更新版本，應用程式中，使用 ANSI 編碼的字串，在應用程式中的對目標為.NET 4.0 或更低。&lt;/xref:System.Windows.Forms.DataFormats.Html&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The format of the data to retrieve.</source>
+          <target state="translated">要擷取的資料格式。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">請參閱<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的預先定義的格式。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The data associated with the specified format, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定的格式，與相關聯的資料或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Returns the data associated with the specified class type format.</source>
+          <target state="translated">傳回與指定的類別類型格式相關聯的資料。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>If this method cannot find data in the specified format, it attempts to convert the data to the format.</source>
+          <target state="translated">如果這個方法在指定的格式中找不到資料，它會嘗試將資料轉換成的格式。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If the data cannot be converted to the specified format, or if the data was stored with automatic conversion set to <ph id="ph1">`false`</ph>, this method returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">如果資料無法轉換成指定的格式，或是儲存資料時自動轉換設定為<ph id="ph1">`false`</ph>，這個方法會傳回<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>To determine whether data is associated with, or can be converted to, a format, call &lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt; before calling &lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.</source>
+          <target state="translated">若要判斷資料是否相關，或可以轉換成格式時，呼叫&lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt;之前呼叫&lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A&gt; &lt;/xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt; for a list of valid formats for the data stored in this &lt;xref:System.Windows.Forms.DataObject&gt;.</source>
+          <target state="translated">呼叫&lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;此&lt;xref:System.Windows.Forms.DataObject&gt;。&lt;/xref:System.Windows.Forms.DataObject&gt;儲存資料的有效格式的清單&lt;/xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 資料可以轉換成另一種格式，如果儲存時指定，允許轉換，而且要求的格式與預存格式相容。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">例如，資料儲存為 Unicode 可以轉換成文字。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; representing the format of the data to retrieve.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;代表要擷取之資料的格式。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The data associated with the specified format, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定的格式，與相關聯的資料或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Returns the data associated with the specified data format, using an automated conversion parameter to determine whether to convert the data to the format.</source>
+          <target state="translated">傳回與指定的資料格式，使用自動的轉換參數來判斷是否要將資料轉換成格式相關聯的資料。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`autoConvert`</ph> parameter is <ph id="ph2">`true`</ph> and this method cannot find data in the specified format, it attempts to convert the data to the format.</source>
+          <target state="translated">如果<ph id="ph1">`autoConvert`</ph>參數是<ph id="ph2">`true`</ph>而且這個方法在指定的格式中找不到資料，它會嘗試將資料轉換成的格式。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If the data cannot be converted to the specified format, or if the data was stored with the automatic conversion set to <ph id="ph1">`false`</ph>, this method returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">如果資料無法轉換成指定的格式，或是儲存資料時自動轉換設定為<ph id="ph1">`false`</ph>，這個方法會傳回<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`autoConvert`</ph> parameter is <ph id="ph2">`false`</ph>, this method returns data in the specified format, or <ph id="ph3">`null`</ph> if no data in this format can be found.</source>
+          <target state="translated">如果<ph id="ph1">`autoConvert`</ph>參數是<ph id="ph2">`false`</ph>，這個方法會傳回資料中指定的格式，或<ph id="ph3">`null`</ph>如果找不到沒有此格式的資料。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To determine whether data is associated with, or can be converted to, a format, call &lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt; before calling GetData.</source>
+          <target state="translated">若要判斷資料是否相關，或可以轉換成格式，請呼叫&lt;xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt;之前呼叫 GetData。&lt;/xref:System.Windows.Forms.DataObject.GetDataPresent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt; for a list of valid formats for the data stored in this &lt;xref:System.Windows.Forms.DataObject&gt;.</source>
+          <target state="translated">呼叫&lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;此&lt;xref:System.Windows.Forms.DataObject&gt;。&lt;/xref:System.Windows.Forms.DataObject&gt;儲存資料的有效格式的清單&lt;/xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 資料可以轉換成另一種格式，如果儲存時指定，允許轉換，而且要求的格式與預存格式相容。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">例如，資料儲存為 Unicode 可以轉換成文字。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  When <ph id="ph1">`format`</ph> is &lt;xref:System.Windows.Forms.DataFormats.Html&gt;, this method returns a UTF-8 encoded string in applications that target .NET 4.5 or higher, and an ANSI encoded string in applications that target .NET 4.0 or lower.</source>
+          <target state="translated">&gt;&gt; 當<ph id="ph1">`format`</ph>是&lt;xref:System.Windows.Forms.DataFormats.Html&gt;，這個方法傳回 utf-8 編碼字串的目標.NET 4.5 或更新版本，應用程式中，使用 ANSI 編碼的字串，在應用程式中的對目標為.NET 4.0 或更低。&lt;/xref:System.Windows.Forms.DataFormats.Html&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The format of the data to retrieve.</source>
+          <target state="translated">要擷取的資料格式。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">請參閱<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的預先定義的格式。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the convert data to the specified format; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>將指定的格式; 轉換資料否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The data associated with the specified format, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定的格式，與相關聯的資料或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Determines whether data stored in this <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated with, or can be converted to, the specified format.</source>
+          <target state="translated">判斷資料是否儲存在這個<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>相關聯，或可以轉換成指定的格式。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Call this method to determine whether a format exists before calling &lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.</source>
+          <target state="translated">呼叫此方法以判斷呼叫&lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A&gt;之前是否存在的格式</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt; for the formats that are available in this &lt;xref:System.Windows.Forms.DataObject&gt;.</source>
+          <target state="translated">呼叫&lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;格式，可用於此&lt;xref:System.Windows.Forms.DataObject&gt;.&lt;/xref:System.Windows.Forms.DataObject&gt; &lt;/xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 資料可以轉換成另一種格式，如果儲存時指定，允許轉換，而且要求的格式與預存格式相容。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">例如，資料儲存為 Unicode 可以轉換成文字。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If no data can be retrieved, no exception will be thrown.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果可以不擷取任何資料，會擲回任何例外狀況。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Instead, <ph id="ph1">`false`</ph> will be returned.</source>
+          <target state="translated">相反地，<ph id="ph1">`false`</ph>會傳回。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The format to check for.</source>
+          <target state="translated">要檢查的格式。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">請參閱<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的預先定義的格式。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data stored in this <bpt id="p2">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is associated with, or can be converted to, the specified format; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料儲存在這個<bpt id="p2">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>相關聯，或可以轉換成指定的格式; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Determines whether data stored in this <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated with, or can be converted to, the specified format.</source>
+          <target state="translated">判斷資料是否儲存在這個<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>相關聯，或可以轉換成指定的格式。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Call this method to determine whether a format exists before calling &lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.</source>
+          <target state="translated">呼叫此方法以判斷呼叫&lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A&gt;之前是否存在的格式</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt; for the formats that are available in this &lt;xref:System.Windows.Forms.DataObject&gt;.</source>
+          <target state="translated">呼叫&lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;格式，可用於此&lt;xref:System.Windows.Forms.DataObject&gt;.&lt;/xref:System.Windows.Forms.DataObject&gt; &lt;/xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed, and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 資料可以轉換成另一種格式，如果儲存時指定，允許轉換，而且要求的格式與預存格式相容。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">例如，資料儲存為 Unicode 可以轉換成文字。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If no data can be retrieved, no exception will be thrown.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果可以不擷取任何資料，會擲回任何例外狀況。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Instead, <ph id="ph1">`false`</ph> will be returned.</source>
+          <target state="translated">相反地，<ph id="ph1">`false`</ph>會傳回。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; representing the format to check for.</source>
+          <target state="translated">&lt;xref:System.Type&gt;代表要檢查 for...in 格式&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data stored in this <bpt id="p2">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is associated with, or can be converted to, the specified format; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料儲存在這個<bpt id="p2">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>相關聯，或可以轉換成指定的格式; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Determines whether this <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains data in the specified format or, optionally, contains data that can be converted to the specified format.</source>
+          <target state="translated">決定是否此<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含指定的格式中的資料，或 （選擇性） 包含可以轉換成指定的格式的資料。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Call this method to determine whether a format exists before calling &lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.</source>
+          <target state="translated">呼叫此方法以判斷呼叫&lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A&gt;之前是否存在的格式</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Call &lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt; for the formats that are available in this &lt;xref:System.Windows.Forms.DataObject&gt;.</source>
+          <target state="translated">呼叫&lt;xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;格式，可用於此&lt;xref:System.Windows.Forms.DataObject&gt;.&lt;/xref:System.Windows.Forms.DataObject&gt; &lt;/xref:System.Windows.Forms.DataObject.GetFormats%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>This method returns <ph id="ph1">`true`</ph> when:      -   The <ph id="ph2">`autoConvert`</ph> parameter is <ph id="ph3">`true`</ph> and the data is in a format that can be converted to the appropriate format.</source>
+          <target state="translated">這個方法會傳回<ph id="ph1">`true`</ph>時:-<ph id="ph2">`autoConvert`</ph>參數是<ph id="ph3">`true`</ph>且資料在可以轉換成適當格式的格式。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`autoConvert`</ph> parameter is <ph id="ph2">`false`</ph> and the data is in the appropriate format.</source>
+          <target state="translated">-<ph id="ph1">`autoConvert`</ph>參數是<ph id="ph2">`false`</ph>且資料在適當的格式。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>This method returns <ph id="ph1">`false`</ph> when:      -   The <ph id="ph2">`autoConvert`</ph> parameter is <ph id="ph3">`true`</ph> and this method cannot find data in the specified format, and it cannot convert data to the specified format, or the data was stored with automatic conversion set to <ph id="ph4">`false`</ph>.</source>
+          <target state="translated">這個方法會傳回<ph id="ph1">`false`</ph>時:-<ph id="ph2">`autoConvert`</ph>參數是<ph id="ph3">`true`</ph>和這個方法中指定的格式，找不到資料並不能在資料轉換成指定的格式，或儲存資料時自動轉換設定為<ph id="ph4">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`autoConvert`</ph> parameter is <ph id="ph2">`false`</ph> and data does not exist in this &lt;xref:System.Windows.Forms.DataObject&gt; in the specified format.</source>
+          <target state="translated">-<ph id="ph1">`autoConvert`</ph>參數是<ph id="ph2">`false`</ph>和資料不存在於這&lt;xref:System.Windows.Forms.DataObject&gt;中指定的格式。&lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 資料可以轉換成另一種格式，如果儲存時指定允許的轉換和要求的格式是否與預存格式相容。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">例如，資料儲存為 Unicode 可以轉換成文字。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If no data can be retrieved, no exception will be thrown.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果可以不擷取任何資料，會擲回任何例外狀況。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Instead, <ph id="ph1">`false`</ph> will be returned.</source>
+          <target state="translated">相反地，<ph id="ph1">`false`</ph>會傳回。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The format to check for.</source>
+          <target state="translated">要檢查的格式。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">請參閱<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的預先定義的格式。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to determine whether data stored in this <bpt id="p2">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> can be converted to the specified format; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> to check whether the data is in the specified format.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要判斷資料是否儲存在這個<bpt id="p2">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>可以轉換成指定的格式。<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>檢查資料是否為指定的格式。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data is in, or can be converted to, the specified format; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料中，或可以轉換成指定的格式。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Retrieves a collection of file names from the data object.</source>
+          <target state="translated">從資料物件擷取檔案名稱的集合。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>A file drop list is a collection of strings containing path information for files.</source>
+          <target state="translated">檔案的下拉式清單是包含檔案的路徑資訊的字串集合。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A file drop list is stored in a data object as a &lt;xref:System.String&gt; array.</source>
+          <target state="translated">檔案的下拉式清單會儲存在資料物件，做為&lt;xref:System.String&gt;陣列。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>This method converts this array to a &lt;xref:System.Collections.Specialized.StringCollection&gt; and returns the collection.</source>
+          <target state="translated">此方法會將此陣列與&lt;xref:System.Collections.Specialized.StringCollection&gt;，並傳回集合。&lt;/xref:System.Collections.Specialized.StringCollection&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.DataObject.ContainsFileDropList%2A&gt; method to determine whether the data object contains a file drop list before retrieving it with this method.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.DataObject.ContainsFileDropList%2A&gt;方法來判斷資料物件是否包含檔案下拉式清單，然後再擷取以這個方法。&lt;/xref:System.Windows.Forms.DataObject.ContainsFileDropList%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.DataObject.SetFileDropList%2A&gt; method to add a file drop list to the data object.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.DataObject.SetFileDropList%2A&gt;方法，將檔案拖放清單加入至資料物件。&lt;/xref:System.Windows.Forms.DataObject.SetFileDropList%2A&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing file names or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the data object does not contain any data that is in the <bpt id="p3">&lt;xref href="System.Windows.Forms.DataFormats.FileDrop"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> format or can be converted to that format.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含檔案名稱或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果資料物件不包含任何資料， <bpt id="p3">&lt;xref href="System.Windows.Forms.DataFormats.FileDrop"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>格式化，或可以轉換成該格式。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Returns a list of all formats that data stored in this <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated with or can be converted to.</source>
+          <target state="translated">會傳回一份所有格式資料儲存在這個<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>相關聯，或可以轉換成。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Call this method to get the supported data formats before calling &lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.</source>
+          <target state="translated">呼叫這個方法，然後再呼叫&lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A&gt;取得支援的資料格式</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Windows.Forms.DataFormats&gt; for the predefined formats.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Forms.DataFormats&gt;之預先定義的格式。&lt;/xref:System.Windows.Forms.DataFormats&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 資料可以轉換成另一種格式，如果儲存時指定允許的轉換和要求的格式是否與預存格式相容。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">例如，資料儲存為 Unicode 可以轉換成文字。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.String&gt;, containing a list of all formats that are supported by the data stored in this object.</source>
+          <target state="translated">類型的陣列&lt;xref:System.String&gt;，其中包含的所有資料儲存在此物件所支援的格式清單。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Returns a list of all formats that data stored in this <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated with or can be converted to, using an automatic conversion parameter to determine whether to retrieve only native data formats or all formats that the data can be converted to.</source>
+          <target state="translated">會傳回一份所有格式資料儲存在這個<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>相關聯，或可以使用進行轉換，自動轉換參數來判斷是否要擷取原生資料格式或所有資料都可以轉換成的格式。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Call this method to get the supported data formats before calling &lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.</source>
+          <target state="translated">呼叫這個方法，然後再呼叫&lt;xref:System.Windows.Forms.DataObject.GetData%2A&gt;.&lt;/xref:System.Windows.Forms.DataObject.GetData%2A&gt;取得支援的資料格式</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Windows.Forms.DataFormats&gt; for the predefined formats.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Forms.DataFormats&gt;之預先定義的格式。&lt;/xref:System.Windows.Forms.DataFormats&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Data can be converted to another format if it was stored specifying that conversion is allowed and if the requested format is compatible with the stored format.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 資料可以轉換成另一種格式，如果儲存時指定允許的轉換和要求的格式是否與預存格式相容。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>For example, data stored as Unicode can be converted to text.</source>
+          <target state="translated">例如，資料儲存為 Unicode 可以轉換成文字。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to retrieve all formats that data stored in this <bpt id="p2">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is associated with, or can be converted to; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> to retrieve only native data formats.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要擷取所有格式資料儲存在這個<bpt id="p2">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>相關聯，或可以轉換成;<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>擷取只有原生資料格式。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.String&gt;, containing a list of all formats that are supported by the data stored in this object.</source>
+          <target state="translated">類型的陣列&lt;xref:System.String&gt;，其中包含的所有資料儲存在此物件所支援的格式清單。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Retrieves an image from the data object.</source>
+          <target state="translated">從資料物件擷取影像。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.DataObject.ContainsImage%2A&gt; method to determine whether the data object contains image data before retrieving it with this method.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.DataObject.ContainsImage%2A&gt;方法來判斷資料物件是否包含影像資料，然後再擷取以這個方法。&lt;/xref:System.Windows.Forms.DataObject.ContainsImage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.DataObject.SetImage%2A&gt; method to add image data to the data object.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.DataObject.SetImage%2A&gt;映像資料加入資料物件的方法。&lt;/xref:System.Windows.Forms.DataObject.SetImage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Drawing.Image"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the image data in the data object or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the data object does not contain any data that is in the <bpt id="p3">&lt;xref href="System.Windows.Forms.DataFormats.Bitmap"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> format or can be converted to that format.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Image"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>影像以表示資料的資料物件或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果資料物件不包含任何資料， <bpt id="p3">&lt;xref href="System.Windows.Forms.DataFormats.Bitmap"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>格式化，或可以轉換成該格式。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Retrieves text data from the data object in the <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">從資料物件中擷取文字資料<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>格式。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.DataObject.ContainsText%2A&gt; method to determine whether the data object contains text data before retrieving it with this method.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;方法，以判斷資料物件是否包含文字資料，然後再擷取以這個方法。&lt;/xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.DataObject.SetText%2A&gt; method to add text data to the data object.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.DataObject.SetText%2A&gt;方法將文字資料加入至資料物件。&lt;/xref:System.Windows.Forms.DataObject.SetText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The text data in the data object or <ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> if the data object does not contain data in the <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">資料物件中的文字資料或<ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>資料物件不會包含在中的資料如果<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>格式。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Retrieves text data from the data object in the format indicated by the specified <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">從指定所指出的格式中的資料物件擷取文字資料<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.DataObject.ContainsText%2A&gt; method to determine whether the data object contains text data before retrieving it with this method.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;方法，以判斷資料物件是否包含文字資料，然後再擷取以這個方法。&lt;/xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.DataObject.SetText%2A&gt; method to add text data to the data object.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.DataObject.SetText%2A&gt;方法將文字資料加入至資料物件。&lt;/xref:System.Windows.Forms.DataObject.SetText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The text data in the data object or <ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> if the data object does not contain data in the specified format.</source>
+          <target state="translated">資料物件中的文字資料或<ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>如果資料物件不會包含在指定的格式中的資料。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>不是有效<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.Byte&gt; array to the data object in the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format after converting it to a &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">新增&lt;xref:System.Byte&gt;中的資料物件的陣列<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>格式之後將它轉換成&lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt; &lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>To retrieve audio data from the data object, first use the &lt;xref:System.Windows.Forms.DataObject.ContainsAudio%2A&gt; method to determine whether the data object contains audio data before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetAudioStream%2A&gt; method.</source>
+          <target state="translated">若要從資料物件擷取音效資料，請先使用&lt;xref:System.Windows.Forms.DataObject.ContainsAudio%2A&gt;方法來判斷資料物件是否包含音訊資料，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetAudioStream%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetAudioStream%2A&gt; &lt;/xref:System.Windows.Forms.DataObject.ContainsAudio%2A&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Byte&gt; array containing the audio data.</source>
+          <target state="translated">A&lt;xref:System.Byte&gt;陣列，其中包含音訊資料。&lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;audioBytes&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;audioBytes&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Adds a &lt;xref:System.IO.Stream&gt; to the data object in the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">新增&lt;xref:System.IO.Stream&gt;中的資料物件<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.WaveAudio"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>格式。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>To retrieve audio data from the data object, first use the &lt;xref:System.Windows.Forms.DataObject.ContainsAudio%2A&gt; method to determine whether the data object contains audio data before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetAudioStream%2A&gt; method.</source>
+          <target state="translated">若要從資料物件擷取音效資料，請先使用&lt;xref:System.Windows.Forms.DataObject.ContainsAudio%2A&gt;方法來判斷資料物件是否包含音訊資料，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetAudioStream%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetAudioStream%2A&gt; &lt;/xref:System.Windows.Forms.DataObject.ContainsAudio%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.Stream&gt; containing the audio data.</source>
+          <target state="translated">A&lt;xref:System.IO.Stream&gt;包含音訊資料。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;audioStream&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;audioStream&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Adds the specified object to the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the object type as the data format.</source>
+          <target state="translated">將指定的物件加入<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用物件類型作為資料格式。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>If you do not know the format of the target application, you can store data in multiple formats using this method.</source>
+          <target state="translated">如果您不知道目標應用程式格式，您可以使用此方法的多個格式儲存資料。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Data stored using this method can be converted to a compatible format when it is retrieved.</source>
+          <target state="translated">使用這個方法儲存的資料可以轉換成相容的格式，並在擷取時。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The SetData overload stores the <ph id="ph1">`data`</ph> value in a format that it determines by calling the &lt;xref:System.Object.GetType%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">SetData 多載儲存區<ph id="ph1">`data`</ph>值的格式，它會判斷呼叫&lt;xref:System.Object.GetType%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Object.GetType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`data`</ph> implements the &lt;xref:System.Runtime.Serialization.ISerializable&gt; interface, this overload also stores the value in the &lt;xref:System.Windows.DataFormats.Serializable&gt; format.</source>
+          <target state="translated">如果<ph id="ph1">`data`</ph>實作&lt;xref:System.Runtime.Serialization.ISerializable&gt;介面，這個多載也將值儲存在&lt;xref:System.Windows.DataFormats.Serializable&gt;格式。&lt;/xref:System.Windows.DataFormats.Serializable&gt; &lt;/xref:System.Runtime.Serialization.ISerializable&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The data to store.</source>
+          <target state="translated">要儲存的資料。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Adds the specified object to the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified format.</source>
+          <target state="translated">將指定的物件加入<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用指定的格式。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>If you do not know the format of the target application, you can store data in multiple formats using this method.</source>
+          <target state="translated">如果您不知道目標應用程式格式，您可以使用此方法的多個格式儲存資料。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Data stored using this method can be converted to a compatible format when it is retrieved.</source>
+          <target state="translated">使用這個方法儲存的資料可以轉換成相容的格式，並在擷取時。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The format associated with the data.</source>
+          <target state="translated">與資料相關聯的格式。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">請參閱<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的預先定義的格式。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The data to store.</source>
+          <target state="translated">要儲存的資料。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Adds the specified object to the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified type as the format.</source>
+          <target state="translated">將指定的物件加入<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用指定的類型與格式。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>If you do not know the format of the target application, you can store data in multiple formats using this method.</source>
+          <target state="translated">如果您不知道目標應用程式格式，您可以使用此方法的多個格式儲存資料。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Data stored using this method can be converted to a compatible format when it is retrieved.</source>
+          <target state="translated">使用這個方法儲存的資料可以轉換成相容的格式，並在擷取時。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; representing the format associated with the data.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;代表與資料相關聯的格式。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The data to store.</source>
+          <target state="translated">要儲存的資料。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Adds the specified object to the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified format and indicating whether the data can be converted to another format.</source>
+          <target state="translated">將指定的物件加入<bpt id="p1">&lt;xref href="System.Windows.Forms.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用指定的格式，並指出資料是否可以轉換成另一種格式。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>If you do not know the format of the target application, you can store data in multiple formats using this method.</source>
+          <target state="translated">如果您不知道目標應用程式格式，您可以使用此方法的多個格式儲存資料。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The format associated with the data.</source>
+          <target state="translated">與資料相關聯的格式。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for predefined formats.</source>
+          <target state="translated">請參閱<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的預先定義的格式。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to allow the data to be converted to another format; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要讓資料轉換成另一種格式。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The data to store.</source>
+          <target state="translated">要儲存的資料。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Adds a collection of file names to the data object in the <bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.FileDrop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">將檔案名稱的集合中的資料物件加入<bpt id="p1">&lt;xref href="System.Windows.Forms.DataFormats.FileDrop"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>格式。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>A file drop list is a collection of strings containing path information for files.</source>
+          <target state="translated">檔案的下拉式清單是包含檔案的路徑資訊的字串集合。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>A file drop list is stored in a data object as a &lt;xref:System.String&gt; array.</source>
+          <target state="translated">檔案的下拉式清單會儲存在資料物件，做為&lt;xref:System.String&gt;陣列。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>This method converts <ph id="ph1">`filePaths`</ph> to a &lt;xref:System.String&gt; array before adding it to the data object.</source>
+          <target state="translated">這個方法會將轉換<ph id="ph1">`filePaths`</ph>至&lt;xref:System.String&gt;再將其加入資料物件的陣列。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>To retrieve a file drop list from the data object, first use the &lt;xref:System.Windows.Forms.DataObject.ContainsFileDropList%2A&gt; method to determine whether the data object contains data in that format before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetFileDropList%2A&gt; method.</source>
+          <target state="translated">若要從資料物件擷取檔案的下拉式清單，請先使用&lt;xref:System.Windows.Forms.DataObject.ContainsFileDropList%2A&gt;方法來判斷資料物件是否包含以該格式的資料，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetFileDropList%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetFileDropList%2A&gt; &lt;/xref:System.Windows.Forms.DataObject.ContainsFileDropList%2A&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the file names.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Collections.Specialized.StringCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含檔案名稱。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;filePaths&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;filePaths&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Adds an <bpt id="p1">&lt;xref href="System.Drawing.Image"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the data object in the <bpt id="p2">&lt;xref href="System.Windows.Forms.DataFormats.Bitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">新增<bpt id="p1">&lt;xref href="System.Drawing.Image"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中的資料物件<bpt id="p2">&lt;xref href="System.Windows.Forms.DataFormats.Bitmap"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>格式。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>To retrieve image data from the data object, first use the &lt;xref:System.Windows.Forms.DataObject.ContainsImage%2A&gt; method to determine whether the data object contains image data before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetImage%2A&gt; method.</source>
+          <target state="translated">若要從資料物件擷取影像資料，請先使用&lt;xref:System.Windows.Forms.DataObject.ContainsImage%2A&gt;方法來判斷資料物件是否包含影像資料，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetImage%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetImage%2A&gt; &lt;/xref:System.Windows.Forms.DataObject.ContainsImage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Image"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add to the data object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Image"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>来加入資料物件。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;image&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;image&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Adds text data to the data object in the <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> format.</source>
+          <target state="translated">將文字資料中的資料物件加入<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>格式。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>To retrieve text data from the data object, first use the &lt;xref:System.Windows.Forms.DataObject.ContainsText%2A&gt; method to determine whether the data object contains image data before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetText%2A&gt; method.</source>
+          <target state="translated">若要從資料物件擷取文字資料，請先使用&lt;xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;方法來判斷資料物件是否包含影像資料，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetText%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetText%2A&gt; &lt;/xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The text to add to the data object.</source>
+          <target state="translated">要加入至資料物件的文字。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;textData&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph2">&lt;xref:System.String&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;textData&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph2">&lt;xref:System.String&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Adds text data to the data object in the format indicated by the specified <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">將文字資料加入至資料物件，指出所指定的格式<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>To retrieve text data from the data object, first use the &lt;xref:System.Windows.Forms.DataObject.ContainsText%2A&gt; method to determine whether the data object contains image data before retrieving it with the &lt;xref:System.Windows.Forms.DataObject.GetText%2A&gt; method.</source>
+          <target state="translated">若要從資料物件擷取文字資料，請先使用&lt;xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;方法來判斷資料物件是否包含影像資料，然後再擷取它與&lt;xref:System.Windows.Forms.DataObject.GetText%2A&gt;方法。&lt;/xref:System.Windows.Forms.DataObject.GetText%2A&gt; &lt;/xref:System.Windows.Forms.DataObject.ContainsText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The text to add to the data object.</source>
+          <target state="translated">要加入至資料物件的文字。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">其中一個<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;textData&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph2">&lt;xref:System.String.Empty&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;textData&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <ph id="ph2">&lt;xref:System.String.Empty&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;format&lt;/code&gt;</ph>不是有效<bpt id="p1">&lt;xref href="System.Windows.Forms.TextDataFormat"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Creates a connection between a data object and an advisory sink.</source>
+          <target state="translated">建立資料物件和通知接收之間的連接。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>This method is called by an object that supports an advisory sink and enables the advisory sink to be notified of changes in the object's data.</source>
+          <target state="translated">支援通知接收並可讓接收通知在物件的資料變更的物件，會呼叫這個方法。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Windows.Forms.DataObject&gt; is cast to an &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Windows.Forms.DataObject&gt;轉型成&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt;介面。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure, passed by reference, that defines the format, target device, aspect, and medium that will be used for future notifications.</source>
+          <target state="translated">A&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;定義格式、 目標裝置、 外觀，以及用於未來的通知中的參考所傳遞的結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>One of the &lt;xref:System.Runtime.InteropServices.ComTypes.ADVF&gt; values that specifies a group of flags for controlling the advisory connection.</source>
+          <target state="translated">其中一個&lt;xref:System.Runtime.InteropServices.ComTypes.ADVF&gt;值，指定群組控制諮詢連接的旗標。&lt;/xref:System.Runtime.InteropServices.ComTypes.ADVF&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>A pointer to the &lt;xref:System.Runtime.InteropServices.ComTypes.IAdviseSink&gt; interface on the advisory sink that will receive the change notification.</source>
+          <target state="translated">指標&lt;xref:System.Runtime.InteropServices.ComTypes.IAdviseSink&gt;介面將會收到變更通知之通知接收上的。&lt;/xref:System.Runtime.InteropServices.ComTypes.IAdviseSink&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a pointer to a DWORD token that identifies this connection.</source>
+          <target state="translated">此方法傳回時，包含識別這個連接的 DWORD 語彙基元的指標。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>You can use this token later to delete the advisory connection by passing it to &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.DUnadvise*&gt;.</source>
+          <target state="translated">您可以稍後使用這個語彙基元，藉由傳遞至&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.DUnadvise*&gt;。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject.DUnadvise*&gt;刪除諮詢連接</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>If this value is zero, the connection was not established.</source>
+          <target state="translated">如果此值為零，無法建立連接。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>This method supports the standard return values E_INVALIDARG, E_UNEXPECTED, and E_OUTOFMEMORY, as well as the following:</source>
+          <target state="translated">這個方法支援標準傳回值 E_INVALIDARG、 E_UNEXPECTED 和 E_OUTOFMEMORY，以及下列︰</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">值</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">說明</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>S_OK</source>
+          <target state="translated">S_OK</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The advisory connection was created.</source>
+          <target state="translated">已建立諮詢連接。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>E_NOTIMPL</source>
+          <target state="translated">E_NOTIMPL</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>This method is not implemented on the data object.</source>
+          <target state="translated">資料物件未實作這個方法。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>DV_E_LINDEX</source>
+          <target state="translated">DV_E_LINDEX</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>There is an invalid value for &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC.lindex&gt;; currently, only -1 is supported.</source>
+          <target state="translated">無效值&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC.lindex&gt;; 目前支援僅為-1。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC.lindex&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>DV_E_FORMATETC</source>
+          <target state="translated">DV_E_FORMATETC</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>There is an invalid value for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">pFormatetc</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">無效值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">pFormatetc</ph> <ept id="p1">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>OLE_E_ADVISENOTSUPPORTED</source>
+          <target state="translated">OLE_E_ADVISENOTSUPPORTED</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The data object does not support change notification.</source>
+          <target state="translated">資料物件不支援變更通知。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Destroys a notification connection that had been previously established.</source>
+          <target state="translated">終結先前已經建立的告知連接。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Windows.Forms.DataObject&gt; is cast to an &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Windows.Forms.DataObject&gt;轉型成&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt;介面。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>A DWORD token that specifies the connection to remove.</source>
+          <target state="translated">DWORD 語彙基元，指定要移除的連接。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Use the value returned by &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.DAdvise*&gt; when the connection was originally established.</source>
+          <target state="translated">使用所傳回的值&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.DAdvise*&gt;原先建立連線。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject.DAdvise*&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Creates an object that can be used to enumerate the current advisory connections.</source>
+          <target state="translated">建立可以用來列舉目前諮詢連接的物件。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Windows.Forms.DataObject&gt; is cast to an &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Windows.Forms.DataObject&gt;轉型成&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt;介面。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains an <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.ComTypes.IEnumSTATDATA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that receives the interface pointer to the new enumerator object.</source>
+          <target state="translated">這個方法傳回時，包含<bpt id="p1">&lt;xref href="System.Runtime.InteropServices.ComTypes.IEnumSTATDATA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接收新的列舉值物件的介面指標。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>If the implementation sets <ph id="ph1">`enumAdvise`</ph> to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, there are no connections to advisory sinks at this time.</source>
+          <target state="translated">如果實作會設定<ph id="ph1">`enumAdvise`</ph>至<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，這次沒有任何連線至諮詢接收。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>This method supports the standard return value E_OUTOFMEMORY, as well as the following:</source>
+          <target state="translated">這個方法支援標準傳回值 E_OUTOFMEMORY，以及下列︰</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">值</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">說明</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>S_OK</source>
+          <target state="translated">S_OK</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The enumerator object is successfully instantiated or there are no connections.</source>
+          <target state="translated">已成功產生列舉值物件，或沒有任何連線。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>OLE_E_ADVISENOTSUPPORTED</source>
+          <target state="translated">OLE_E_ADVISENOTSUPPORTED</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>This object does not support advisory notifications.</source>
+          <target state="translated">此物件不支援通知告知。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Creates an object for enumerating the &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structures for a data object.</source>
+          <target state="translated">建立物件以列舉&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;資料物件的結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>These structures are used in calls to &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.SetData<ept id="p1">*</ept>&gt;.</source>
+          <target state="translated">呼叫中使用這些結構&lt;&gt; <bpt id="p1">*</bpt>&gt; 或&lt;&gt; <ept id="p1">*</ept>&gt;。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Windows.Forms.DataObject&gt; is cast to an &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Windows.Forms.DataObject&gt;轉型成&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt;介面。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>One of the &lt;xref:System.Runtime.InteropServices.ComTypes.DATADIR&gt; values that specifies the direction of the data.</source>
+          <target state="translated">其中一個&lt;xref:System.Runtime.InteropServices.ComTypes.DATADIR&gt;值，指定資料的方向。&lt;/xref:System.Runtime.InteropServices.ComTypes.DATADIR&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>This method supports the standard return values E_INVALIDARG and E_OUTOFMEMORY, as well as the following:</source>
+          <target state="translated">這個方法支援標準傳回值 E_INVALIDARG 和 E_OUTOFMEMORY，以及下列︰</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">值</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">說明</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>S_OK</source>
+          <target state="translated">S_OK</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>The enumerator object was successfully created.</source>
+          <target state="translated">已成功建立列舉值物件。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>E_NOTIMPL</source>
+          <target state="translated">E_NOTIMPL</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>The direction specified by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">direction</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not supported.</source>
+          <target state="translated">所指定的方向<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">direction</ph> <ept id="p1">&lt;/code&gt;</ept>不支援參數。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>OLE_S_USEREG</source>
+          <target state="translated">OLE_S_USEREG</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Requests that OLE enumerate the formats from the registry.</source>
+          <target state="translated">要求 OLE 列舉登錄中的格式。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Provides a standard &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure that is logically equivalent to a more complex structure.</source>
+          <target state="translated">提供的標準&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;結構，這是邏輯上等同於較複雜的結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Use this method to determine whether two different &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structures would return the same data, removing the need for duplicate rendering.</source>
+          <target state="translated">使用此方法來判斷兩個不同&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;結構將會傳回相同的資料，不需要使用重複的轉譯。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Windows.Forms.DataObject&gt; is cast to an &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Windows.Forms.DataObject&gt;轉型成&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt;介面。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>A pointer to a &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure, passed by reference, that defines the format, medium, and target device that the caller would like to use to retrieve data in a subsequent call such as &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;.</source>
+          <target state="translated">指向&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;結構，由參考傳遞，定義格式、 中型和呼叫端想要用來擷取資料，例如&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;.&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;的後續呼叫中的目標裝置&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt; member is not significant in this case and should be ignored.</source>
+          <target state="translated">&lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;成員並不重要在此情況下，應予忽略。&lt;/xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a pointer to a &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure that contains the most general information possible for a specific rendering, making it canonically equivalent to <ph id="ph1">`formatetIn`</ph>.</source>
+          <target state="translated">此方法傳回時，包含指標&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;結構，其中包含可將特定的呈現方式，讓它以標準方式相當於大多數的一般資訊<ph id="ph1">`formatetIn`</ph>。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>The caller must allocate this structure and the &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetCanonicalFormatEtc<bpt id="p1">*</bpt>&gt; method must fill in the data. To retrieve data in a subsequent call such as &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData<ept id="p1">*</ept>&gt;, the caller uses the supplied value of <ph id="ph1">`formatOut`</ph>, unless the value supplied is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">呼叫端必須配置此結構和&lt;&gt; <bpt id="p1">*</bpt>&gt; 方法必須填入的資料。若要擷取的後續呼叫中的資料，例如&lt;&gt; <ept id="p1">*</ept>&gt;，呼叫端會使用所提供的值的<ph id="ph1">`formatOut`</ph>，除非您提供的值是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>This value is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the method returns <bpt id="p2">&lt;xref uid="langword_csharp_DATA_S_SAMEFORMATETC" name="DATA_S_SAMEFORMATETC" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個值是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果該方法會傳回<bpt id="p2">&lt;xref uid="langword_csharp_DATA_S_SAMEFORMATETC" name="DATA_S_SAMEFORMATETC" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt; member is not significant in this case and should be ignored.</source>
+          <target state="translated">&lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;成員並不重要在此情況下，應予忽略。&lt;/xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>This method supports the standard return values E_INVALIDARG, E_UNEXPECTED, and E_OUTOFMEMORY, as well as the following:</source>
+          <target state="translated">這個方法支援標準傳回值 E_INVALIDARG、 E_UNEXPECTED 和 E_OUTOFMEMORY，以及下列︰</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">值</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">說明</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>S_OK</source>
+          <target state="translated">S_OK</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure is different from the one that was passed.</source>
+          <target state="translated">傳回&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;結構是不同的傳遞。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>DATA_S_SAMEFORMATETC</source>
+          <target state="translated">DATA_S_SAMEFORMATETC</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structures are the same and <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is returned in the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">formatOut</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;是相同的結構和<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>中傳回<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">formatOut</ph> <ept id="p2">&lt;/code&gt;</ept>參數。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>DV_E_LINDEX</source>
+          <target state="translated">DV_E_LINDEX</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>There is an invalid value for &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC.lindex&gt;; currently, only -1 is supported.</source>
+          <target state="translated">無效值&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC.lindex&gt;; 目前支援僅為-1。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC.lindex&gt;</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>DV_E_FORMATETC</source>
+          <target state="translated">DV_E_FORMATETC</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>There is an invalid value for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">pFormatetc</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">無效值<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">pFormatetc</ph> <ept id="p1">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>OLE_E_NOTRUNNING</source>
+          <target state="translated">OLE_E_NOTRUNNING</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>The application is not running.</source>
+          <target state="translated">應用程式並未執行。</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>Obtains data from a source data object.</source>
+          <target state="translated">從來源資料物件取得資料。</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt; method, which is called by a data consumer, renders the data described in the specified &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure and transfers it through the specified &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; structure.</source>
+          <target state="translated">&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;方法，稱為資料取用者，就會呈現描述中指定的資料&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;結構，並將其傳輸透過指定&lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>The caller then assumes responsibility for releasing the &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; structure.</source>
+          <target state="translated">呼叫端然後假設負責釋放&lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Windows.Forms.DataObject&gt; is cast to an &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Windows.Forms.DataObject&gt;轉型成&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt;介面。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>A pointer to a &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure, passed by reference, that defines the format, medium, and target device to use when passing the data.</source>
+          <target state="translated">指標&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;定義格式、 中型和傳遞資料時所要使用的目標裝置的參考所傳遞的結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>It is possible to specify more than one medium by using the Boolean OR operator, allowing the method to choose the best medium among those specified.</source>
+          <target state="translated">您可使用布林值 OR 運算子，好讓選擇最佳的媒體，在指定的方法來指定多個媒體。</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains a pointer to the &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; structure that indicates the storage medium containing the returned data through its &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; member, and the responsibility for releasing the medium through the value of its &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; member.</source>
+          <target state="translated">此方法傳回時，包含指標&lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;結構，表示儲存媒體包含傳回的資料，透過其&lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;成員，並釋出的值透過媒體的責任其&lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;成員。&lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the receiver of the medium is responsible for releasing it; otherwise, &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; points to the <bpt id="p2">&lt;xref uid="langword_csharp_IUnknown" name="IUnknown" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> interface on the appropriate object so its <bpt id="p3">&lt;xref uid="langword_csharp_Release" name="Release" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> method can be called.</source>
+          <target state="translated">如果&lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，媒體接收器是負責釋放它; 否則&lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;指向<bpt id="p2">&lt;xref uid="langword_csharp_IUnknown" name="IUnknown" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>介面上適當的物件因此其<bpt id="p3">&lt;xref uid="langword_csharp_Release" name="Release" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>可以呼叫方法。&lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>The medium must be allocated and filled in by &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;.</source>
+          <target state="translated">媒體必須配置和填入&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;.&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>There is not enough memory to perform this operation.</source>
+          <target state="translated">沒有足夠的記憶體來執行這項作業。</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Obtains data from a source data object.</source>
+          <target state="translated">從來源資料物件取得資料。</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>This method, which is called by a data consumer, differs from the &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt; method in that the caller must allocate and free the specified storage medium.</source>
+          <target state="translated">這個方法會呼叫資料取用者，不同於&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;方法，呼叫端必須配置和釋放指定的儲存體。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Windows.Forms.DataObject&gt; is cast to an &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Windows.Forms.DataObject&gt;轉型成&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt;介面。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>A pointer to a &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure, passed by reference, that defines the format, medium, and target device to use when passing the data.</source>
+          <target state="translated">指標&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;定義格式、 中型和傳遞資料時所要使用的目標裝置的參考所傳遞的結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>Only one medium can be specified in &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;, and only the following &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt; values are valid: &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;, &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;, &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;, or &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;.</source>
+          <target state="translated">只能有一個媒體中只能指定&lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;，和只有下列&lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;是有效值︰ &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;， &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;， &lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;，或&lt;xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;.&lt;/xref:System.Runtime.InteropServices.ComTypes.TYMED&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.TYMED&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.TYMED&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.TYMED&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.TYMED&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.TYMED&gt;</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;, passed by reference, that defines the storage medium containing the data being transferred.</source>
+          <target state="translated">A &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;，定義包含所傳輸之資料的儲存媒體的參考所傳遞。&lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>The medium must be allocated by the caller and filled in by &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetDataHere*&gt;.</source>
+          <target state="translated">媒體必須由呼叫端所配置，並填入&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetDataHere*&gt;.&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetDataHere*&gt;</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>The caller must also free the medium.</source>
+          <target state="translated">呼叫端也必須釋放媒體。</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>The implementation of this method must always supply a value of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM.pUnkForRelease&gt; member of the &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; structure that this parameter points to.</source>
+          <target state="translated">這個方法的實作一律必須提供的值<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如&lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM.pUnkForRelease&gt;隸屬&lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;此參數指向的結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; &lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM.pUnkForRelease&gt;</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>Determines whether the data object is capable of rendering the data described in the &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure.</source>
+          <target state="translated">決定是否能夠轉譯資料中所述的資料物件&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>Objects attempting a paste or drop operation can call this method before calling &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt; to get an indication of whether the operation may be successful.</source>
+          <target state="translated">物件嘗試貼上或拖放作業，可以呼叫這個方法之前先呼叫&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;取得表示是否在作業可能會成功。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Windows.Forms.DataObject&gt; is cast to an &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Windows.Forms.DataObject&gt;轉型成&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt;介面。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>A pointer to a &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure, passed by reference, that defines the format, medium, and target device to use for the query.</source>
+          <target state="translated">指標&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;定義格式、 中型和要用於查詢的目標裝置的參考所傳遞的結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>This method supports the standard return values E_INVALIDARG, E_UNEXPECTED, and E_OUTOFMEMORY, as well as the following:</source>
+          <target state="translated">這個方法支援標準傳回值 E_INVALIDARG、 E_UNEXPECTED 和 E_OUTOFMEMORY，以及下列︰</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">值</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">說明</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>S_OK</source>
+          <target state="translated">S_OK</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>A subsequent call to &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt; would probably be successful.</source>
+          <target state="translated">後續呼叫&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;可能會成功。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject.GetData*&gt;</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>DV_E_LINDEX</source>
+          <target state="translated">DV_E_LINDEX</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>An invalid value for &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC.lindex&gt;; currently, only -1 is supported.</source>
+          <target state="translated">值無效&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC.lindex&gt;; 目前支援僅為-1。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC.lindex&gt;</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>DV_E_FORMATETC</source>
+          <target state="translated">DV_E_FORMATETC</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>An invalid value for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">pFormatetc</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">值無效<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">pFormatetc</ph> <ept id="p1">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>DV_E_TYMED</source>
+          <target state="translated">DV_E_TYMED</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>An invalid &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC.tymed&gt; value.</source>
+          <target state="translated">無效的&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC.tymed&gt;值。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC.tymed&gt;</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>DV_E_DVASPECT</source>
+          <target state="translated">DV_E_DVASPECT</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>An invalid &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC.dwAspect&gt; value.</source>
+          <target state="translated">無效的&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC.dwAspect&gt;值。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC.dwAspect&gt;</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>OLE_E_NOTRUNNING</source>
+          <target state="translated">OLE_E_NOTRUNNING</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>The application is not running.</source>
+          <target state="translated">應用程式並未執行。</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>Transfers data to the object that implements this method.</source>
+          <target state="translated">將資料傳輸給實作這個方法的物件。</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>This method is called by an object that contains a data source.</source>
+          <target state="translated">物件，包含資料來源會呼叫這個方法。</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">這個成員是明確介面成員實作。</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.Windows.Forms.DataObject&gt; is cast to an &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; interface.</source>
+          <target state="translated">它可用時，才&lt;xref:System.Windows.Forms.DataObject&gt;轉型成&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt;介面。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject&gt; &lt;/xref:System.Windows.Forms.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt; structure, passed by reference, that defines the format used by the data object when interpreting the data contained in the storage medium.</source>
+          <target state="translated">A&lt;xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;定義解譯之儲存媒體中包含的資料時，資料物件所使用的格式的參考所傳遞的結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.FORMATETC&gt;</target>       </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt; structure, passed by reference, that defines the storage medium in which the data is being passed.</source>
+          <target state="translated">A&lt;xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;定義傳遞資料所在之儲存媒體的參考所傳遞的結構。&lt;/xref:System.Runtime.InteropServices.ComTypes.STGMEDIUM&gt;</target>       </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to specify that the data object called, which implements &lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.SetData*&gt;, owns the storage medium after the call returns.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要指定的資料物件的呼叫，它會實作&lt;xref:System.Runtime.InteropServices.ComTypes.IDataObject.SetData*&gt;，在呼叫傳回之後，擁有儲存媒體。&lt;/xref:System.Runtime.InteropServices.ComTypes.IDataObject.SetData*&gt;</target>       </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>This means that the data object must free the medium after it has been used by calling the <bpt id="p1">&lt;xref uid="langword_csharp_ReleaseStgMedium" name="ReleaseStgMedium" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> function.</source>
+          <target state="translated">這表示已使用藉由呼叫之後的資料物件必須釋放媒體<bpt id="p1">&lt;xref uid="langword_csharp_ReleaseStgMedium" name="ReleaseStgMedium" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>函式。</target>       </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to specify that the caller retains ownership of the storage medium, and the data object called uses the storage medium for the duration of the call only.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定呼叫端保留的儲存媒體中，擁有權，並呼叫的物件資料只在呼叫期間會使用儲存媒體。</target>       </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>This method does not support the type of the underlying data object.</source>
+          <target state="translated">這個方法不支援基礎資料物件的類型。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

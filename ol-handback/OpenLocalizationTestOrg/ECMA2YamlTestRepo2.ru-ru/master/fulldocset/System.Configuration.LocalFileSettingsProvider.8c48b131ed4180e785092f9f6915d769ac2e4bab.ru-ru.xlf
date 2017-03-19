@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5cd89775d46609213130eab601bfd2cf758bbe0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.LocalFileSettingsProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2fbd8d4c4555dc932764fdeecd650310f37bd331</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f4e57a2f5baec8f0b4e3eb355084dcc6778d5ebd</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides persistence for application settings classes.</source>
+          <target state="translated">Обеспечивает механизм сохраняемости для классов параметров приложения.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting providers define a mechanism for storing configuration data used in the application settings architecture.</source>
+          <target state="translated">Поставщик параметров определяет механизм для хранения данных конфигурации, используемых в архитектуре параметров приложения.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> contains a single default settings provider, LocalFileSettingsProvider, which stores configuration data to the local file system.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> Содержит один поставщик параметров по умолчанию, LocalFileSettingsProvider, где хранятся данные конфигурации в локальной файловой системе.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application settings property or group of properties are associated to a specific settings provider through the use of the &lt;xref:System.Configuration.SettingsProviderAttribute&gt;.</source>
+          <target state="translated">Свойства параметров приложения или группу свойств связаны с поставщиком определенные параметры при помощи &lt;xref:System.Configuration.SettingsProviderAttribute&gt;.&lt;/xref:System.Configuration.SettingsProviderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the client program does not explicitly access this class; rather, the application settings architecture automatically invokes the appropriate settings provider when its services are required.</source>
+          <target state="translated">Как правило клиентская программа не обращается к явным образом этого класса; Вместо этого архитектура параметров приложения автоматически вызывает соответствующие параметры поставщика, когда требуются его службы.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, many of the members of &lt;xref:System.Configuration.ApplicationSettingsBase&gt; delegate their work to the associated settings provider.</source>
+          <target state="translated">Например, многие члены &lt;xref:System.Configuration.ApplicationSettingsBase&gt;Делегировать свою работу, поставщика связанные параметры.&lt;/xref:System.Configuration.ApplicationSettingsBase&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>LocalFileSettingsProvider persists settings to configuration files that have the extension <ph id="ph1">`.config`</ph>.</source>
+          <target state="translated">LocalFileSettingsProvider сохраняет параметры в файлах конфигурации, которые имеют расширение <ph id="ph1">`.config`</ph>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The contents of configuration files are structured as XML documents.</source>
+          <target state="translated">Содержимое файлов конфигурации структурированы в форме XML-документов.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on whether the setting is scoped at either the application-level or user-level, the configuration data is stored as elements within an <ph id="ph1">`&lt;applicationSettings&gt;`</ph> or a <ph id="ph2">`&lt;userSettings&gt;`</ph> section group, respectively.</source>
+          <target state="translated">В зависимости от того, является ли параметр действует на уровне приложения или уровня пользователя, данные конфигурации хранятся как элементы в <ph id="ph1">`&lt;applicationSettings&gt;`</ph> или <ph id="ph2">`&lt;userSettings&gt;`</ph> статьи группы, соответственно.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each of these section groups is represented by a corresponding &lt;xref:System.Configuration.AppSettingsSection&gt; or &lt;xref:System.Configuration.ClientSettingsSection&gt;, respectively.</source>
+          <target state="translated">Каждая из этих групп разделе представлен соответствующий &lt;xref:System.Configuration.AppSettingsSection&gt;или &lt;xref:System.Configuration.ClientSettingsSection&gt;соответственно.&lt;/xref:System.Configuration.ClientSettingsSection&gt; &lt;/xref:System.Configuration.AppSettingsSection&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each section object is owned and administered by a configuration section handler, which is an object of type &lt;xref:System.Configuration.IConfigurationSectionHandler&gt;.</source>
+          <target state="translated">Каждый раздел объект принадлежит и управляется обработчик раздела конфигурации, который представляет собой объект типа &lt;xref:System.Configuration.IConfigurationSectionHandler&gt;.&lt;/xref:System.Configuration.IConfigurationSectionHandler&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Application-scoped settings and the default user-scoped settings are stored in a file named <ph id="ph1">`application.exe.config`</ph>, which is created in the same directory as the executable file.</source>
+          <target state="translated">Параметры приложения и пользовательских параметров по умолчанию хранятся в файле с именем <ph id="ph1">`application.exe.config`</ph>, который создается в том же каталоге, что и исполняемый файл.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Application configuration settings are read-only.</source>
+          <target state="translated">Параметры конфигурации приложения доступны только для чтения.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Specific user data is stored in a file named <ph id="ph1">`user.config`</ph>, stored under the user's home directory.</source>
+          <target state="translated">Данные конкретного пользователя хранятся в файле с именем <ph id="ph1">`user.config`</ph>, сохраненные в домашнем каталоге пользователя.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If roaming profiles are enabled, two versions of the user configuration file could exist.</source>
+          <target state="translated">Если включены перемещаемые профили, удалось существуют две версии файла конфигурации пользователя.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In such a case, the entries in the roaming version take precedence over duplicated entries in the local user configuration file.</source>
+          <target state="translated">В этом случае записи в версии с перемещаемым профилем имеют приоритет над повторяющихся значений в файле конфигурации локального пользователя.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about application settings, see <bpt id="p1">[</bpt>Application Settings for Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения о параметрах приложений см. в разделе <bpt id="p1">[</bpt>параметры приложения для Windows Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Configuration.LocalFileSettingsProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Configuration.LocalFileSettingsProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default constructor sets the &lt;xref:System.Configuration.LocalFileSettingsProvider.ApplicationName%2A&gt; property to &lt;xref:System.String.Empty&gt;.</source>
+          <target state="translated">Конструктор по умолчанию устанавливает &lt;xref:System.Configuration.LocalFileSettingsProvider.ApplicationName%2A&gt;Свойства &lt;xref:System.String.Empty&gt;.&lt;/xref:System.String.Empty&gt; &lt;/xref:System.Configuration.LocalFileSettingsProvider.ApplicationName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the currently running application.</source>
+          <target state="translated">Возвращает или задает имя текущего выполняемого приложения.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ApplicationName and &lt;xref:System.Configuration.Provider.ProviderBase.Name%2A&gt; properties help to disambiguate similarly named setting properties in different applications.</source>
+          <target state="translated">ApplicationName и &lt;xref:System.Configuration.Provider.ProviderBase.Name%2A&gt;Свойства помогают устранить неоднозначность аналогично именованных параметров в разных приложениях.&lt;/xref:System.Configuration.Provider.ProviderBase.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A string that contains the application's display name.</source>
+          <target state="translated">Строка, содержащая отображаемое имя приложения.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Returns the value of the named settings property for the previous version of the same application.</source>
+          <target state="translated">Возвращает значение именованного свойства параметров для более ранней версии того же приложения.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetPreviousVersion method is often used in conjunction with the &lt;xref:System.Configuration.LocalFileSettingsProvider.Upgrade%2A&gt; method when migrating application settings during the installation of a new version of an application.</source>
+          <target state="translated">Метод GetPreviousVersion часто используется в сочетании с &lt;xref:System.Configuration.LocalFileSettingsProvider.Upgrade%2A&gt;метод при переносе параметров приложения во время установки новой версии приложения.&lt;/xref:System.Configuration.LocalFileSettingsProvider.Upgrade%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.Configuration.LocalFileSettingsProvider.Upgrade%2A&gt; method.</source>
+          <target state="translated">Дополнительные сведения см. в разделе &lt;xref:System.Configuration.LocalFileSettingsProvider.Upgrade%2A&gt;метод.&lt;/xref:System.Configuration.LocalFileSettingsProvider.Upgrade%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes where the application settings property is used.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , описывающее, где используются свойства параметров приложения.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Configuration.SettingsProperty"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose value is to be returned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Configuration.SettingsProperty"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Значение которого является должны быть возвращены.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValue"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the application setting if found; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValue"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> представляет параметр приложения, если он найден; в противном случае — <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns the collection of setting property values for the specified application instance and settings property group.</source>
+          <target state="translated">Возвращает коллекцию параметров свойства для указанного приложения экземпляра и параметры группы свойств.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetPropertyValues method also manages the special application settings type &lt;xref:System.Configuration.SpecialSetting&gt;.</source>
+          <target state="translated">Метод GetPropertyValues также управляет &lt;xref:System.Configuration.SpecialSetting&gt;.&lt;/xref:System.Configuration.SpecialSetting&gt; тип параметров специальные приложения</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Connection strings are stored in a special section of the configuration file delimited by the element <ph id="ph1">`&lt;connectionstrings&gt;`</ph>.</source>
+          <target state="translated">Строки подключения хранятся в специальном разделе файла конфигурации, разделенных элемент <ph id="ph1">`&lt;connectionstrings&gt;`</ph>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  &lt;xref:System.Configuration.LocalFileSettingsProvider&gt; does not use encryption to persist any settings.</source>
+          <target state="translated">настроек <ph id="ph1">[!CAUTION]</ph> настроек &lt;xref:System.Configuration.LocalFileSettingsProvider&gt;не использует шифрование для сохранения параметров.&lt;/xref:System.Configuration.LocalFileSettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, do not store plain text passwords or other sensitive information using this provider without taking additional precautions, such as separately encrypting the information within the configuration file.</source>
+          <target state="translated">Таким образом не хранить пароли в открытом виде или другую конфиденциальную информацию, с помощью этого поставщика, без учета дополнительные меры предосторожности, таких как отдельно шифрование сведения в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Encrypting Configuration Information Using Protected Configuration<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>шифрование конфигурации сведения с помощью защищенной конфигурации<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the current application usage.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> описания текущего использования приложений.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the settings property group whose values are to be retrieved.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий группы свойств параметров, значения которых требуется получить.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the values for the specified settings property group.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержит значения для группы свойств указанные параметры.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A user-scoped setting was encountered but the current configuration only supports application-scoped settings.</source>
+          <target state="translated">Параметр уровня пользователя, но текущая конфигурация поддерживает только параметры приложения.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Initializes the provider.</source>
+          <target state="translated">Инициализирует поставщика.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The friendly name of the provider.</source>
+          <target state="translated">Понятное имя поставщика.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A collection of the name/value pairs representing the provider-specific attributes specified in the configuration for this provider.</source>
+          <target state="translated">Коллекция пар имя значение, представляющих атрибуты поставщика, указанные в конфигурации для этого поставщика.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Resets all application settings properties associated with the specified application to their default values.</source>
+          <target state="translated">Сбрасывает все параметры приложения, связанные с указанным приложением к значениям по умолчанию.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Reset method restores the stored values of the specified application settings group.</source>
+          <target state="translated">Метод Reset восстанавливает хранимые значения группы параметров указанного приложения.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The action of Reset depends on the scope of the application settings property:      -   Application-scoped settings are not affected.</source>
+          <target state="translated">Действие сброса служб зависит от области свойства параметров приложения:-параметры приложения не затрагиваются.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   User-scoped settings are reset to the default values that are stored as read-only entries in the application configuration file, <ph id="ph1">`application.exe.config`</ph>.</source>
+          <target state="translated">-Параметры пользователя сбрасываются в значения по умолчанию, которые хранятся в виде только для чтения записей в файле конфигурации приложения <ph id="ph1">`application.exe.config`</ph>.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If roaming profiles are being used, any application settings values in the roaming profile take precedence over duplicates found in the local profile.</source>
+          <target state="translated">Если используются перемещаемые профили, любые значения параметров приложения в перемещаемом профиле имеют приоритет над повторяющиеся значения, обнаруженные в локальный профиль.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Notice that if roaming profiles are used, there can be two <ph id="ph1">`user.config`</ph> files, one for the local settings and one for the roaming profile.</source>
+          <target state="translated">Обратите внимание, что при использовании перемещаемых профилей может быть двух <ph id="ph1">`user.config`</ph> файлы, один для локальных параметров и один для перемещаемого профиля.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the current application usage.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> описания текущего использования приложений.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A user-scoped setting was encountered but the current configuration only supports application-scoped settings.</source>
+          <target state="translated">Параметр уровня пользователя, но текущая конфигурация поддерживает только параметры приложения.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Sets the values of the specified group of property settings.</source>
+          <target state="translated">Задает значения указанной группы параметров свойства.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A settings wrapper class, derived from &lt;xref:System.Configuration.ApplicationSettingsBase&gt;, contains the &lt;xref:System.Configuration.ApplicationSettingsBase.Save%2A&gt; method, which is called to persist the values of all of its settings properties.</source>
+          <target state="translated">Параметры класс-оболочку, производный от &lt;xref:System.Configuration.ApplicationSettingsBase&gt;, содержит &lt;xref:System.Configuration.ApplicationSettingsBase.Save%2A&gt;метод, который вызывается для сохранения значений всех его свойств параметров.&lt;/xref:System.Configuration.ApplicationSettingsBase.Save%2A&gt; &lt;/xref:System.Configuration.ApplicationSettingsBase&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method enumerates through all the settings providers associated with its settings properties, and calls the &lt;xref:System.Configuration.SettingsProvider.SetPropertyValues%2A&gt; method for each &lt;xref:System.Configuration.SettingsProvider&gt; to perform the actual serialization operation.</source>
+          <target state="translated">Этот метод перечисляет все параметры поставщиков, связанных с параметрами свойства и вызывает &lt;xref:System.Configuration.SettingsProvider.SetPropertyValues%2A&gt;метод для каждого &lt;xref:System.Configuration.SettingsProvider&gt;для выполнения фактической сериализации операции.&lt;/xref:System.Configuration.SettingsProvider&gt; &lt;/xref:System.Configuration.SettingsProvider.SetPropertyValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>SetPropertyValues individually serializes each user-scoped application settings property to its corresponding application setting in the appropriate <ph id="ph1">`user.config`</ph> configuration file.</source>
+          <target state="translated">SetPropertyValues сериализует отдельно каждое свойство параметров приложений пользователя его соответствующий параметр в соответствующую приложения <ph id="ph1">`user.config`</ph> файла конфигурации.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the SetPropertyValues method uses the following logical sequence to determine the serialization scheme, depending on type of the settings property:      1.</source>
+          <target state="translated">По умолчанию метод SetPropertyValues использует следующую последовательность логических для определения схемы сериализации, в зависимости от типа свойства параметров: 1.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the type has an associated &lt;xref:System.ComponentModel.TypeConverter&gt; with a &lt;xref:System.ComponentModel.TypeConverter.ConvertToString%2A&gt; method implementation, this conversion is used.</source>
+          <target state="translated">Если тип имеет связанный &lt;xref:System.ComponentModel.TypeConverter&gt;с &lt;xref:System.ComponentModel.TypeConverter.ConvertToString%2A&gt;реализации метода, это преобразование используется.&lt;/xref:System.ComponentModel.TypeConverter.ConvertToString%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XML serialization is used.</source>
+          <target state="translated">Используется XML-сериализации.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, you can specify a preferred serialization mechanism by using the &lt;xref:System.Configuration.SettingsSerializeAsAttribute&gt;.</source>
+          <target state="translated">Тем не менее можно указать предпочтительный механизм сериализации с помощью &lt;xref:System.Configuration.SettingsSerializeAsAttribute&gt;.&lt;/xref:System.Configuration.SettingsSerializeAsAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Configuration.LocalFileSettingsProvider&gt; does not support binary serialization in <ph id="ph1">[!INCLUDE[vsprvslong](~/add/includes/ajax-current-ext-md.md)]</ph>.</source>
+          <target state="translated">&lt;xref:System.Configuration.LocalFileSettingsProvider&gt;не поддерживает двоичную сериализацию в <ph id="ph1">[!INCLUDE[vsprvslong](~/add/includes/ajax-current-ext-md.md)]</ph>.&lt;/xref:System.Configuration.LocalFileSettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a user-scoped settings property is set back to its default value explicitly, then the local file settings provider will remove the entry for the associated setting from the user configuration file.</source>
+          <target state="translated">Если свойство параметров пользователя снова установить значение по умолчанию явно, поставщик параметров локального файла удалит запись для связанного параметра из файла конфигурации пользователя.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The next read access for this property will simply use the default value.</source>
+          <target state="translated">Далее доступ на чтение для этого свойства будет просто использовать значение по умолчанию.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  &lt;xref:System.Configuration.LocalFileSettingsProvider&gt; does not use encryption to persist any settings.</source>
+          <target state="translated">настроек <ph id="ph1">[!CAUTION]</ph> настроек &lt;xref:System.Configuration.LocalFileSettingsProvider&gt;не использует шифрование для сохранения параметров.&lt;/xref:System.Configuration.LocalFileSettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, do not store plain text passwords or other sensitive information using this provider without taking additional precautions, such as separately encrypting the information within the configuration file.</source>
+          <target state="translated">Таким образом не хранить пароли в открытом виде или другую конфиденциальную информацию, с помощью этого поставщика, без учета дополнительные меры предосторожности, таких как отдельно шифрование сведения в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Encrypting Configuration Information Using Protected Configuration<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>шифрование конфигурации сведения с помощью защищенной конфигурации<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the current application usage.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> описания текущего использования приложений.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValueCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the group of property settings to set.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyValueCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> представляющий группы свойств параметров для установки.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A user-scoped setting was encountered but the current configuration only supports application-scoped settings.</source>
+          <target state="translated">Параметр уровня пользователя, но текущая конфигурация поддерживает только параметры приложения.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-or-       There was a general failure saving the settings to the configuration file.</source>
+          <target state="translated">- или - произошла общая ошибка при сохранении параметров в файле конфигурации.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Attempts to migrate previous user-scoped settings from a previous version of the same application.</source>
+          <target state="translated">Пытается выполнить миграцию предыдущих параметров пользователя из предыдущей версии того же приложения.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Configuration.LocalFileSettingsProvider&gt; migrates the local and roaming settings in separate operations.</source>
+          <target state="translated">&lt;xref:System.Configuration.LocalFileSettingsProvider&gt;переносит локальные и перемещаемые параметры в отдельных операциях.&lt;/xref:System.Configuration.LocalFileSettingsProvider&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Upgrade method is suppressed for every application setting that has the &lt;xref:System.Configuration.NoSettingsVersionUpgradeAttribute&gt; applied to it, or to the entire settings wrapper class, derived from &lt;xref:System.Configuration.ApplicationSettingsBase&gt;.</source>
+          <target state="translated">Метод обновления подавляется для каждого параметра приложения, который был &lt;xref:System.Configuration.NoSettingsVersionUpgradeAttribute&gt;применен к нему, или для всей класс-оболочка параметров, производный от &lt;xref:System.Configuration.ApplicationSettingsBase&gt;.&lt;/xref:System.Configuration.ApplicationSettingsBase&gt; &lt;/xref:System.Configuration.NoSettingsVersionUpgradeAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This way this method is called depends on the type of application that is being upgraded:      -   Each version of a <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> application is stored in its own isolated installation directory.</source>
+          <target state="translated">Таким образом, этот метод вызывается зависит от типа приложения, которая обновляется:-каждой версии <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> приложения хранятся в собственном каталоге изолированной установки.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After a new version of a <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> application is installed, and when the new version is first run, internal logic will automatically call Upgrade to migrate all common application settings to the new version.</source>
+          <target state="translated">После новой версии <ph id="ph1">[!INCLUDE[ndptecclick](~/add/includes/ndptecclick-md.md)]</ph> приложение будет установлено, и при запуске новой версии внутренней логики автоматически вызывает обновление, чтобы перенести все общие параметры приложения до новой версии.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ClickOnce and Application Settings<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>ClickOnce и параметры приложения<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Standard Windows Forms and console applications must manually call Upgrade, because there is not a general, automatic way to determine when such an application is first run.</source>
+          <target state="translated">-Стандартных форм Windows Forms и консольных приложений вручную необходимо вызвать обновление, так как не общие, автоматический способ определения при первом запуске такого приложения.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The two common ways to do this are either from the installation program or using from the application itself, using a persisted property, often named something like <ph id="ph1">`IsFirstRun`</ph>.</source>
+          <target state="translated">Два обычных способа этого в программу установки или с помощью от самого приложения, с помощью свойств persisted, часто называемое как <ph id="ph1">`IsFirstRun`</ph>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that for the newer version to migrate application settings, it must be able to also load and read the older version of the application settings.</source>
+          <target state="translated">Обратите внимание, для более новой версии для миграции параметров приложения, его необходимо также загрузить и читать старую версию параметры приложения.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, it must contain wrapper classes compatible with both the new and previous versions of the application.</source>
+          <target state="translated">Таким образом он должен содержать классы-оболочки, совместимые с новой и с предыдущей версии приложения.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the current application usage.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.SettingsContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> описания текущего использования приложений.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the settings property group whose values are to be retrieved.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Configuration.SettingsPropertyCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> содержащий группы свойств параметров, значения которых требуется получить.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A user-scoped setting was encountered but the current configuration only supports application-scoped settings.</source>
+          <target state="translated">Параметр уровня пользователя, но текущая конфигурация поддерживает только параметры приложения.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>-or-       The previous version of the configuration file could not be accessed.</source>
+          <target state="translated">- или - предыдущей версии файла конфигурации будет недоступен.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

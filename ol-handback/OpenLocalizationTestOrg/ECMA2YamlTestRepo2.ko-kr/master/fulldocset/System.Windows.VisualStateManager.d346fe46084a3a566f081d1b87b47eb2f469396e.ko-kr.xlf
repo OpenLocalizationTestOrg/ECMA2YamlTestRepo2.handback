@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">537707eb43479188cd7f4360ff9dc953a6788589</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.VisualStateManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c53739c9dd1c2451f45b26e341994e77658fa0a6</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9af6ddbee3f1a7a4134ab097946275c78fe83162</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Manages states and the logic for transitioning between states for controls.</source>
+          <target state="translated">상태 및 컨트롤에 대 한 상태 간의 전환을 위한 논리를 관리 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The VisualStateManager enables you to specify states for a control, the appearance of a control when it is in a certain state, and when a control changes states.</source>
+          <target state="translated">VisualStateManager 시점과 컨트롤의 상태가 변경 특정 상태에 있을 때 컨트롤을 컨트롤의 모양에 대 한 상태를 지정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a &lt;xref:System.Windows.Controls.Button&gt; might have a slightly different appearance when it is pressed than when it is not pressed.</source>
+          <target state="translated">예를 들어 한 &lt;xref:System.Windows.Controls.Button&gt;를 누를 때 보다 눌려질 때 약간 다른 모양을 갖도록 수 있습니다.&lt;/xref:System.Windows.Controls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two states that the &lt;xref:System.Windows.Controls.Button&gt; defines correspond to when it is pressed (<ph id="ph1">`"Pressed"`</ph>) and when it is not (<ph id="ph2">`"Normal"`</ph>).</source>
+          <target state="translated">두 개의 상태는 &lt;xref:System.Windows.Controls.Button&gt;정의 누르면 해당 (<ph id="ph1">`"Pressed"`</ph>) 때 및 (<ph id="ph2">`"Normal"`</ph>).&lt;/xref:System.Windows.Controls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The appearance of a control when it is in a state is defined by a &lt;xref:System.Windows.VisualState&gt;.</source>
+          <target state="translated">상태에 있을 때 컨트롤의 모양에 &lt;xref:System.Windows.VisualState&gt;.&lt;/xref:System.Windows.VisualState&gt; 에 의해 정의 됩니다.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.VisualState&gt; contains a collection of &lt;xref:System.Windows.Media.Animation.Storyboard&gt; objects that specify how the control's appearance changes when the control is in that state.</source>
+          <target state="translated">A &lt;xref:System.Windows.VisualState&gt;의 컬렉션을 포함 &lt;xref:System.Windows.Media.Animation.Storyboard&gt;컨트롤이 해당 상태에 있을 때 컨트롤의 모양을 변경 하는 방법을 지정 하는 개체입니다.&lt;/xref:System.Windows.Media.Animation.Storyboard&gt; &lt;/xref:System.Windows.VisualState&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You add visual states to a control by setting the <ph id="ph1">`VisualStateManager.VisualStateGroups`</ph> attached property on the control.</source>
+          <target state="translated">시각적 상태를 설정 하 여 추가 컨트롤에는 <ph id="ph1">`VisualStateManager.VisualStateGroups`</ph> 컨트롤에 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each &lt;xref:System.Windows.VisualStateGroup&gt; contains a collection of &lt;xref:System.Windows.VisualState&gt; objects that are mutually exclusive.</source>
+          <target state="translated">각 &lt;xref:System.Windows.VisualStateGroup&gt;의 컬렉션을 포함 &lt;xref:System.Windows.VisualState&gt;함께 사용할 수 없는 개체.&lt;/xref:System.Windows.VisualState&gt; &lt;/xref:System.Windows.VisualStateGroup&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, the control is always in exactly one state of in each &lt;xref:System.Windows.VisualStateGroup&gt;.</source>
+          <target state="translated">즉, 컨트롤은 항상 각 &lt;xref:System.Windows.VisualStateGroup&gt;.&lt;/xref:System.Windows.VisualStateGroup&gt; 의 정확히 하나의 상태</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The VisualStateManager also enables you to specify when a control enters a specific state.</source>
+          <target state="translated">VisualStateManager를 사용 하면 컨트롤 특정 상태가 될 때 지정할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method that you should call to change states depends on your scenario.</source>
+          <target state="translated">상태를 변경할 호출 해야 하는 메서드는 각 시나리오에 따라 달라 집니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you create a control that uses the VisualStateManager in its &lt;xref:System.Windows.Controls.ControlTemplate&gt;, call the &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; method.</source>
+          <target state="translated">VisualStateManager를 사용 하는 컨트롤을 만들 경우 해당 &lt;xref:System.Windows.Controls.ControlTemplate&gt;, 호출의 &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;메서드.&lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt; &lt;/xref:System.Windows.Controls.ControlTemplate&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to create controls that use the VisualStateManager, see <bpt id="p1">[</bpt>Creating a Control That Has a Customizable Appearance<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">VisualStateManager를 사용 하는 컨트롤을 만드는 방법에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>모양을 사용자 지정할 수는 컨트롤이 올려진 만드는<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you use the VisualStateManager outside of a &lt;xref:System.Windows.Controls.ControlTemplate&gt; (for example, if you use a VisualStateManager in a &lt;xref:System.Windows.Controls.UserControl&gt; or in a single element), call the &lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt; method.</source>
+          <target state="translated">외부의 VisualStateManager를 사용 하는 경우는 &lt;xref:System.Windows.Controls.ControlTemplate&gt;(에 VisualStateManager를 사용 하는 경우에 예를 들어는 &lt;xref:System.Windows.Controls.UserControl&gt;또는 단일 요소), 호출의 &lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;메서드.&lt;/xref:System.Windows.VisualStateManager.GoToElementState%2A&gt; &lt;/xref:System.Windows.Controls.UserControl&gt; &lt;/xref:System.Windows.Controls.ControlTemplate&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In either case, the VisualStateManager performs the logic that is required to appropriately start and stop the storyboards that are associated with the involved state.</source>
+          <target state="translated">두 경우 모두는 VisualStateManager 적절 하 게 시작 하 고 관련 된 상태와 연결 된 스토리 보드를 중지 하는 데 필요한 논리를 수행 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, suppose that a control defines the states, <ph id="ph1">`State1`</ph> and <ph id="ph2">`State2`</ph>, each of which has a storyboard associated with it.</source>
+          <target state="translated">예를 들어, 컨트롤의 상태를 정의 하 <ph id="ph1">`State1`</ph> 및 <ph id="ph2">`State2`</ph>, 각각 연결 된 스토리 보드를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the control is in <ph id="ph1">`State1`</ph> and you pass <ph id="ph2">`State2`</ph> to &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; or &lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;, the VisualStateManager starts the storyboard in <ph id="ph3">`State2`</ph> and stops the storyboard in <ph id="ph4">`State1`</ph>.</source>
+          <target state="translated">컨트롤에 있으면 <ph id="ph1">`State1`</ph> 전달 하 <ph id="ph2">`State2`</ph> 를 &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;또는 &lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;에 스토리 보드를 시작 하는 VisualStateManager <ph id="ph3">`State2`</ph> /에서 스토리 보드를 중지 하 고 <ph id="ph4">`State1`</ph>.&lt;/xref:System.Windows.VisualStateManager.GoToElementState%2A&gt; &lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls that are included with <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> use the VisualStateManager to change visual states.</source>
+          <target state="translated">컨트롤에 포함 되어 있는 <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> 는 VisualStateManager를 사용 하 여 시각적 상태를 변경 합니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create a &lt;xref:System.Windows.Controls.ControlTemplate&gt; for a control that is included with <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>, you can add &lt;xref:System.Windows.VisualState&gt; objects to the control's &lt;xref:System.Windows.Controls.ControlTemplate&gt; to specify the control's appearance in a certain state.</source>
+          <target state="translated">만들 때는 &lt;xref:System.Windows.Controls.ControlTemplate&gt;에 포함 된 컨트롤에 대 한 <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>를 추가할 수 있습니다 &lt;xref:System.Windows.VisualState&gt;개체를 컨트롤의 &lt;xref:System.Windows.Controls.ControlTemplate&gt;특정 상태에 컨트롤의 모양을 지정 하려면.&lt;/xref:System.Windows.Controls.ControlTemplate&gt; &lt;/xref:System.Windows.VisualState&gt; &lt;/xref:System.Windows.Controls.ControlTemplate&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To find the names of the visual states for the controls that are included with <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>, see <bpt id="p1">[</bpt>Control Styles and Templates<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">에 포함 된 컨트롤에 대 한 시각적 상태의 이름을 찾으려면 <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>, 참조 <bpt id="p1">[</bpt>컨트롤 스타일 및 템플릿<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The control's logic handles transitioning between states, so you do not need to do anything other than define the &lt;xref:System.Windows.VisualState&gt; objects in the new &lt;xref:System.Windows.Controls.ControlTemplate&gt;.</source>
+          <target state="translated">컨트롤의 논리 핸들 되므로 이외의 아무런 작업도 하지 않고도 상태 간 전환을 &lt;xref:System.Windows.VisualState&gt; &lt;xref:System.Windows.Controls.ControlTemplate&gt;.&lt;/xref:System.Windows.Controls.ControlTemplate&gt; 새 개체&lt;/xref:System.Windows.VisualState&gt; 를 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to create control templates for existing controls, see <bpt id="p1">[</bpt>Customizing the Appearance of an Existing Control by Creating a ControlTemplate<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">기존 컨트롤에 대 한 컨트롤 템플릿을 작성 하는 방법에 대 한 자세한 내용은 참조 <bpt id="p1">[</bpt>는 ControlTemplate을 만들어 기존 컨트롤의 모양 사용자 지정<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to implement your own logic for transitioning between states, you must inherit from VisualStateManager, override the &lt;xref:System.Windows.VisualStateManager.GoToStateCore%2A&gt; method, and set the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A?displayProperty=fullName&gt; attached property on the control that uses the custom logic.</source>
+          <target state="translated">VisualStateManager에서 상속, 재정의 해야 상태 간 전환을 위한 자체 논리를 구현 하려는 경우는 &lt;xref:System.Windows.VisualStateManager.GoToStateCore%2A&gt;메서드와 집합은 &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A?displayProperty=fullName&gt;사용자 지정 논리를 사용 하는 컨트롤에 연결 합니다.&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.VisualStateManager.GoToStateCore%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt; dependency property.</source>
+          <target state="translated">식별 된 &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;종속성 속성입니다.&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt; attached property.</source>
+          <target state="translated">가져옵니다는 &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;연결 된 속성입니다.&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The element to get the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt; attached property from.</source>
+          <target state="translated">가져올 요소의 &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;연결 된 속성에서.&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The visual state manager that transitions between the states of a control.</source>
+          <target state="translated">컨트롤의 상태를 전환 하는 시각적 상태 관리자입니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the <ph id="ph1">&amp;lt;</ph>xref:System.Windows.VisualStateManager.VisualStateGroups%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> attached property.</source>
+          <target state="translated">가져옵니다는 <ph id="ph1">&amp;lt;</ph>xref:System.Windows.VisualStateManager.VisualStateGroups%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> 연결 된 속성입니다.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The element to get the <ph id="ph1">&amp;lt;</ph>xref:System.Windows.VisualStateManager.VisualStateGroups%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> attached property from.</source>
+          <target state="translated">가져올 요소의 <ph id="ph1">&amp;lt;</ph>xref:System.Windows.VisualStateManager.VisualStateGroups%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> 속성을 연결 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The collection of <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that is associated with the specified object.</source>
+          <target state="translated">컬렉션 <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정된 된 개체와 연결 된 개체입니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Transitions the element between two states.</source>
+          <target state="translated">두 상태 사이의 요소를 전환합니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use this method to transition states that are defined by an application, rather than defined by a control.</source>
+          <target state="translated">이 메서드를 사용 하 여 상태를 전환 하는 컨트롤에 의해 정의 하지 않고 응용 프로그램에서 정의 합니다.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the GoToElementState method to change states on an element outside of a &lt;xref:System.Windows.Controls.ControlTemplate&gt; (for example, if you use a &lt;xref:System.Windows.VisualStateManager&gt; in a &lt;xref:System.Windows.DataTemplate&gt; or &lt;xref:System.Windows.Window&gt;).</source>
+          <target state="translated">외부 요소에 상태를 변경할 GoToElementState 메서드를 호출 하는 &lt;xref:System.Windows.Controls.ControlTemplate&gt;(사용 하는 경우에 예를 들어 한 &lt;xref:System.Windows.VisualStateManager&gt;에 &lt;xref:System.Windows.DataTemplate&gt;또는 &lt;xref:System.Windows.Window&gt;).&lt;/xref:System.Windows.Window&gt; &lt;/xref:System.Windows.DataTemplate&gt; &lt;/xref:System.Windows.VisualStateManager&gt; &lt;/xref:System.Windows.Controls.ControlTemplate&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; method if you are changing states in a control that uses the &lt;xref:System.Windows.VisualStateManager&gt; in its &lt;xref:System.Windows.Controls.ControlTemplate&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;메서드는 &lt;xref:System.Windows.VisualStateManager&gt;해당 &lt;xref:System.Windows.Controls.ControlTemplate&gt;.&lt;/xref:System.Windows.Controls.ControlTemplate&gt; &lt;/xref:System.Windows.VisualStateManager&gt; 를 사용 하는 컨트롤의 상태를 변경 하는 경우&lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt; 호출</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The root element that contains the <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">포함 하는 루트 요소는 <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The state to transition to.</source>
+          <target state="translated">전환 상태입니다.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use a <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object to transition between states; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>사용 하는 <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> ; 상태 간 전환에는 개체, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control successfully transitioned to the new state; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>컨트롤에서 새 상태로; 성공적으로 전환 되 면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;stateName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;stateName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Transitions the control between two states.</source>
+          <target state="translated">두 상태 간의 컨트롤을 전환 합니다.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Use this method to transition states on control that has a <bpt id="p1">&lt;xref href="System.Windows.Controls.ControlTemplate"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">이 메서드를 사용 하 여 포함 된 컨트롤에서 전환 상태를 한 <bpt id="p1">&lt;xref href="System.Windows.Controls.ControlTemplate"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the GoToState method if you are changing states in a control that uses the &lt;xref:System.Windows.VisualStateManager&gt; in its &lt;xref:System.Windows.Controls.ControlTemplate&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.VisualStateManager&gt;해당 &lt;xref:System.Windows.Controls.ControlTemplate&gt;.&lt;/xref:System.Windows.Controls.ControlTemplate&gt; &lt;/xref:System.Windows.VisualStateManager&gt; 사용 하는 컨트롤의 상태를 변경 하는 경우 GoToState 메서드를 호출 합니다.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call the &lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt; method to change states on an element outside of a &lt;xref:System.Windows.Controls.ControlTemplate&gt; (for example, if you use a &lt;xref:System.Windows.VisualStateManager&gt; in a &lt;xref:System.Windows.Controls.UserControl&gt; or in a single element).</source>
+          <target state="translated">호출의 &lt;xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;변경 하려면 메서드 외부의 요소에서 상태는 &lt;xref:System.Windows.Controls.ControlTemplate&gt;(사용 하는 경우에 예를 들어는 &lt;xref:System.Windows.VisualStateManager&gt;에 &lt;xref:System.Windows.Controls.UserControl&gt;또는 단일 요소).&lt;/xref:System.Windows.Controls.UserControl&gt; &lt;/xref:System.Windows.VisualStateManager&gt; &lt;/xref:System.Windows.Controls.ControlTemplate&gt; &lt;/xref:System.Windows.VisualStateManager.GoToElementState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The control to transition between states.</source>
+          <target state="translated">상태 간 전환에는 컨트롤입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The state to transition to.</source>
+          <target state="translated">전환 상태입니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use a <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object to transition between states; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>사용 하는 <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> ; 상태 간 전환에는 개체, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control successfully transitioned to the new state; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>컨트롤에서 새 상태로; 성공적으로 전환 되 면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;control&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;control&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;stateName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;stateName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Transitions a control between states.</source>
+          <target state="translated">컨트롤을 상태 간에 전환합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GoToStateCore method performs the logic necessary to appropriately start and stop the storyboards that are associated with a transition.</source>
+          <target state="translated">GoToStateCore 메서드 적절 하 게 시작 하 고 전환과와 연결 된 스토리 보드를 중지 하는 데 필요한 논리를 수행 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a control calls &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; to change its state, the &lt;xref:System.Windows.VisualStateManager&gt; does the following:      -   First, if the &lt;xref:System.Windows.VisualState&gt; that the control is transitioning to has a &lt;xref:System.Windows.Media.Animation.Storyboard&gt;, the storyboard begins.</source>
+          <target state="translated">컨트롤을 호출 하는 경우 &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;해당 상태를 변경 하는 &lt;xref:System.Windows.VisualStateManager&gt;다음 작업을 수행:-, 첫 번째 경우는 &lt;xref:System.Windows.VisualState&gt;에 컨트롤을 전환 되는 &lt;xref:System.Windows.Media.Animation.Storyboard&gt;, 스토리 보드 시작.&lt;/xref:System.Windows.Media.Animation.Storyboard&gt; &lt;/xref:System.Windows.VisualState&gt; &lt;/xref:System.Windows.VisualStateManager&gt; &lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then, if the &lt;xref:System.Windows.VisualState&gt; that the control is coming from has a &lt;xref:System.Windows.Media.Animation.Storyboard&gt;, the storyboard ends.</source>
+          <target state="translated">그런 다음은 &lt;xref:System.Windows.VisualState&gt;가 컨트롤에서 제공 되는 &lt;xref:System.Windows.Media.Animation.Storyboard&gt;, 스토리 보드 끝.&lt;/xref:System.Windows.Media.Animation.Storyboard&gt; &lt;/xref:System.Windows.VisualState&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the control is already in the <ph id="ph1">`stateName`</ph> state, &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; takes no action and returns <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">-컨트롤이 이미 있으면는 <ph id="ph1">`stateName`</ph> 상태 &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;아무 작업도 수행 하 고 반환 <ph id="ph2">`true`</ph>.&lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If <ph id="ph1">`stateName`</ph> does not exist in the &lt;xref:System.Windows.Controls.ControlTemplate&gt; of <ph id="ph2">`control`</ph>, &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt; takes no action and returns <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">-If <ph id="ph1">`stateName`</ph> 에 존재 하지 않는 &lt;xref:System.Windows.Controls.ControlTemplate&gt;의 <ph id="ph2">`control`</ph>, &lt;xref:System.Windows.VisualStateManager.GoToState%2A&gt;아무 작업도 수행 하 고 반환 <ph id="ph3">`false`</ph>.&lt;/xref:System.Windows.VisualStateManager.GoToState%2A&gt; &lt;/xref:System.Windows.Controls.ControlTemplate&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement your own &lt;xref:System.Windows.VisualStateManager&gt; to provide different logic for transitioning between states.</source>
+          <target state="translated">직접 구현할 수 있습니다 &lt;xref:System.Windows.VisualStateManager&gt;상태 간 전환을 위한 다른 논리를 제공할 수 있습니다.&lt;/xref:System.Windows.VisualStateManager&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can change the logic described previously, or you can provide logic to transition between custom animation types.</source>
+          <target state="translated">예를 들어 앞에서 설명한 논리를 변경 하거나 사용자 지정 애니메이션 형식 사이 전환 하는 논리를 제공할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To implement a &lt;xref:System.Windows.VisualStateManager&gt;, create a class that inherits from &lt;xref:System.Windows.VisualStateManager&gt; and override the GoToStateCore method.</source>
+          <target state="translated">구현 하는 &lt;xref:System.Windows.VisualStateManager&gt;에서 상속 되는 클래스를 만듭니다 &lt;xref:System.Windows.VisualStateManager&gt;GoToStateCore 메서드를 재정의 합니다.&lt;/xref:System.Windows.VisualStateManager&gt; &lt;/xref:System.Windows.VisualStateManager&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use the custom class, set the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A&gt; property to an object of your custom type.</source>
+          <target state="translated">사용자 지정 클래스를 사용 하려면 설정는 &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A&gt;속성을 사용자 지정 형식의 개체로.&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The control to transition between states.</source>
+          <target state="translated">상태 간 전환에는 컨트롤입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The root element that contains the <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">포함 하는 루트 요소는 <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The name of the state to transition to.</source>
+          <target state="translated">상태 전환의 이름입니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the state belongs to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에 속하는 상태입니다.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The representation of the state to transition to.</source>
+          <target state="translated">상태 전환의 표현입니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use a <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object to transition between states; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>사용 하는 <bpt id="p2">&lt;xref href="System.Windows.VisualTransition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> ; 상태 간 전환에는 개체, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control successfully transitioned to the new state; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>컨트롤에서 새 상태로; 성공적으로 전환 되 면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event on the specified <bpt id="p2">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">발생는 <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정 된 이벤트 <bpt id="p2">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.VisualStateGroup&gt; is set on the &lt;xref:System.Windows.Controls.ControlTemplate&gt; of a control, the <ph id="ph1">`control`</ph> parameter is set to the control that owns &lt;xref:System.Windows.Controls.ControlTemplate&gt;.</source>
+          <target state="translated">때는 &lt;xref:System.Windows.VisualStateGroup&gt;에 설정 된 &lt;xref:System.Windows.Controls.ControlTemplate&gt;컨트롤의는 <ph id="ph1">`control`</ph> &lt;xref:System.Windows.Controls.ControlTemplate&gt;.&lt;/xref:System.Windows.Controls.ControlTemplate&gt; 소유 하는 컨트롤으로 설정 된&lt;/xref:System.Windows.Controls.ControlTemplate&gt; &lt;/xref:System.Windows.VisualStateGroup&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.VisualStateGroup&gt; is set on a &lt;xref:System.Windows.FrameworkElement&gt;, <ph id="ph1">`control`</ph> is <ph id="ph2">`null`</ph> and you should use the <ph id="ph3">`stateGroupsRoot`</ph> parameter.</source>
+          <target state="translated">때는 &lt;xref:System.Windows.VisualStateGroup&gt;에 설정 된 한 &lt;xref:System.Windows.FrameworkElement&gt;, <ph id="ph1">`control`</ph> 은 <ph id="ph2">`null`</ph> 사용 하 여 해야는 <ph id="ph3">`stateGroupsRoot`</ph> 매개 변수.&lt;/xref:System.Windows.FrameworkElement&gt; &lt;/xref:System.Windows.VisualStateGroup&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The object that the <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event occurred on.</source>
+          <target state="translated">개체는는 <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에서 이벤트가 발생 한 합니다.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The state that the control is transitioning from.</source>
+          <target state="translated">컨트롤에서 전환 중인 상태입니다.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The state that the control is transitioning to.</source>
+          <target state="translated">컨트롤을 전환 중인 상태입니다.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The control that is transitioning states.</source>
+          <target state="translated">상태를 전환 하는 컨트롤입니다.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The root element that contains the <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">포함 하는 루트 요소는 <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;newState&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;newState&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event on the specified <bpt id="p2">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">발생는 <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정 된 이벤트 <bpt id="p2">&lt;xref href="System.Windows.VisualStateGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.VisualStateGroup&gt; is set on the &lt;xref:System.Windows.Controls.ControlTemplate&gt; of a control, the <ph id="ph1">`control`</ph> parameter is set to the control that owns &lt;xref:System.Windows.Controls.ControlTemplate&gt;.</source>
+          <target state="translated">때는 &lt;xref:System.Windows.VisualStateGroup&gt;에 설정 된 &lt;xref:System.Windows.Controls.ControlTemplate&gt;컨트롤의는 <ph id="ph1">`control`</ph> &lt;xref:System.Windows.Controls.ControlTemplate&gt;.&lt;/xref:System.Windows.Controls.ControlTemplate&gt; 소유 하는 컨트롤으로 설정 된&lt;/xref:System.Windows.Controls.ControlTemplate&gt; &lt;/xref:System.Windows.VisualStateGroup&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.VisualStateGroup&gt; is set on a &lt;xref:System.Windows.FrameworkElement&gt;, <ph id="ph1">`control`</ph> is <ph id="ph2">`null`</ph> and you should use the <ph id="ph3">`stateGroupsRoot`</ph> parameter.</source>
+          <target state="translated">때는 &lt;xref:System.Windows.VisualStateGroup&gt;에 설정 된 한 &lt;xref:System.Windows.FrameworkElement&gt;, <ph id="ph1">`control`</ph> 은 <ph id="ph2">`null`</ph> 사용 하 여 해야는 <ph id="ph3">`stateGroupsRoot`</ph> 매개 변수.&lt;/xref:System.Windows.FrameworkElement&gt; &lt;/xref:System.Windows.VisualStateGroup&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The object that the <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event occurred on.</source>
+          <target state="translated">개체는는 <bpt id="p1">&lt;xref href="System.Windows.VisualStateGroup.CurrentStateChanging"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 에서 이벤트가 발생 한 합니다.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The state that the control is transitioning from.</source>
+          <target state="translated">컨트롤에서 전환 중인 상태입니다.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The state that the control is transitioning to.</source>
+          <target state="translated">컨트롤을 전환 중인 상태입니다.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The control that is transitioning states.</source>
+          <target state="translated">상태를 전환 하는 컨트롤입니다.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The root element that contains the <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">포함 하는 루트 요소는 <bpt id="p1">&lt;xref href="System.Windows.VisualStateManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;stateGroupsRoot&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;newState&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;newState&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Sets the &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt; attached property.</source>
+          <target state="translated">설정의 &lt;xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;연결 된 속성입니다.&lt;/xref:System.Windows.VisualStateManager.CustomVisualStateManager*&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The object to set the property on.</source>
+          <target state="translated">개체의 속성을 설정 하는입니다.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The visual state manager that transitions between the states of a control.</source>
+          <target state="translated">컨트롤의 상태를 전환 하는 시각적 상태 관리자입니다.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.VisualStateManager.VisualStateGroups*&gt; dependency property.</source>
+          <target state="translated">식별 된 &lt;xref:System.Windows.VisualStateManager.VisualStateGroups*&gt;종속성 속성입니다.&lt;/xref:System.Windows.VisualStateManager.VisualStateGroups*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

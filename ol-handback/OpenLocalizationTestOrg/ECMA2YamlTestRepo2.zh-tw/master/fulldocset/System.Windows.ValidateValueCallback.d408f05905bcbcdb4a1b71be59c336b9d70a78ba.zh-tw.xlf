@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">61e3daa7d15a4c3190ca1ca4000c5d6c5c630be2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.ValidateValueCallback.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">36c6a17b8a7992e2b56a34c7ccb0e7da6af2dd8e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2bcd63b94968598efe97cf24d85b33484465f8fe</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a method used as a callback that validates the effective value of a  dependency property.</source>
+          <target state="translated">表示做為驗證相依性屬性的有效值的回呼方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Callbacks based on this delegate are used by certain signatures of &lt;xref:System.Windows.DependencyProperty.Register%2A?displayProperty=fullName&gt; and related methods, such as &lt;xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt; and read-only equivalents.</source>
+          <target state="translated">特定的簽章使用根據此委派回呼&lt;xref:System.Windows.DependencyProperty.Register%2A?displayProperty=fullName&gt;和相關方法，例如&lt;xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt;唯讀對等項目。&lt;/xref:System.Windows.DependencyProperty.RegisterAttached%2A&gt; &lt;/xref:System.Windows.DependencyProperty.Register%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You should use signatures that take the <ph id="ph1">`validateValueCallback`</ph> parameter if you want specific validation of the property value each time that its effective is set.</source>
+          <target state="translated">您應該使用需要的簽章<ph id="ph1">`validateValueCallback`</ph>參數，如果您想要特定的驗證屬性值的每個時間，以設定其生效。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You should then implement this callback such that it performs the actual validation of the proposed value.</source>
+          <target state="translated">然後，它會執行實際的驗證的建議值，您應該實作這個回呼。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The callback should return <ph id="ph1">`true`</ph> if the value submitted to the callback is valid, and <ph id="ph2">`false`</ph> otherwise.</source>
+          <target state="translated">應該會傳回回呼<ph id="ph1">`true`</ph>提交給回呼的值是否有效，以及<ph id="ph2">`false`</ph>否則。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`false`</ph> value will produce an exception in the specific portion of the property system where the invalid property set was attempted, so your application should be prepared to handle these exceptions.</source>
+          <target state="translated">A<ph id="ph1">`false`</ph>的值會產生例外狀況，其中已嘗試在無效的屬性集，對屬性系統的特定部分，讓您的應用程式應該準備好處理這些例外狀況。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Validation callbacks are stored on dependency property identifiers, rather than dependency property metadata.</source>
+          <target state="translated">驗證回呼會儲存在相依性屬性的識別項，而不是相依性屬性中繼資料。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Your validation callback does not have access to a specific instance of a &lt;xref:System.Windows.DependencyObject&gt; on which the property is set, and can only influence what values are accepted for the property in general.</source>
+          <target state="translated">驗證回呼沒有存取權的特定執行個體&lt;xref:System.Windows.DependencyObject&gt;上的屬性是設定，而且可能只會影響哪些值會在一般情況下接受屬性。&lt;/xref:System.Windows.DependencyObject&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>If you need a callback that can change property values based on a specific instance, you should use a combination of a &lt;xref:System.Windows.CoerceValueCallback&gt; and &lt;xref:System.Windows.PropertyChangedCallback&gt; callbacks as applied to the property metadata of your property.</source>
+          <target state="translated">如果您需要可以變更屬性值的特定執行個體為基礎的回呼，您應該使用的組合&lt;xref:System.Windows.CoerceValueCallback&gt;和&lt;xref:System.Windows.PropertyChangedCallback&gt;回呼，當套用至您的屬性的屬性中繼資料。&lt;/xref:System.Windows.PropertyChangedCallback&gt; &lt;/xref:System.Windows.CoerceValueCallback&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You might also apply these callbacks to related properties that should influence your property's value.</source>
+          <target state="translated">您也可能會影響您的屬性值的相關屬性來套用這些回呼。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For details, see <bpt id="p1">[</bpt>Dependency Property Callbacks and Validation<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>相依性屬性的回呼和驗證<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
