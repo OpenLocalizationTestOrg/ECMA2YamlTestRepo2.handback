@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c125eb92764a703c9eacc34b1bbf99e934b02c48</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.ControlBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">079b62f25acfb10367798d931e5cda5b6f5991b3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">126873f45bcf034722753941960487e197a043af</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Supports the page parser in building a control and the child controls it contains.</source>
+          <target state="translated">Az oldal elemző támogatja a vezérlő és felépítése az alárendelt vezérlők tartalmaz.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, every control on a page is associated with a default ControlBuilder class.</source>
+          <target state="translated">Alapértelmezés szerint minden vezérlőelem lapon tartozik egy alapértelmezett ControlBuilder osztály.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>During parsing, the ASP.NET page framework builds a tree of ControlBuilder objects corresponding to the tree of controls for the page.</source>
+          <target state="translated">Elemzés közben az ASP.NET-lapok keretrendszerének fája, a lap vezérlői fáját megfelelő ControlBuilder objektumokat hoz létre.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ControlBuilder tree is then used to generate page code to create the control tree.</source>
+          <target state="translated">A ControlBuilder fa majd használt lap kódot létrehozni a vezérlők fájában.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to child controls, the ControlBuilder defines the behavior of how the content within control tags is parsed.</source>
+          <target state="translated">Alárendelt vezérlők mellett a ControlBuilder viselkedését vezérlő címkék tartalmakra elemzi hogyan határozza meg.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override this default behavior by defining your own custom control builder class.</source>
+          <target state="translated">Az alapértelmezett viselkedést felülírhatja a saját egyéni vezérlő jelentéskészítő osztály meghatározása.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is done by applying a &lt;xref:System.Web.UI.ControlBuilderAttribute&gt; attribute to your control builder class as follows:       <ph id="ph1">`[ControlBuilderAttribute(typeof(ControlBuilderType))]`</ph></source>
+          <target state="translated">Alkalmazása ehhez a &lt;xref:System.Web.UI.ControlBuilderAttribute&gt;attribútumot a vezérlő jelentéskészítő osztály az alábbiak szerint: <ph id="ph1">`[ControlBuilderAttribute(typeof(ControlBuilderType))]`</ph> &lt;/xref:System.Web.UI.ControlBuilderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to create a new instance the &lt;xref:System.Web.UI.ControlBuilder&gt; class.</source>
+          <target state="translated">Ez a konstruktor segítségével hozzon létre egy új példányt az &lt;xref:System.Web.UI.ControlBuilder&gt;osztályhoz.&lt;/xref:System.Web.UI.ControlBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This constructor is generally used by ASP.NET when parsing the page and creating the control hierarchy.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ez a konstruktor általában akkor használatos, az ASP.NET által a lap elemzése és a vezérlő hierarchia létrehozása.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is not intended for use in your code.</source>
+          <target state="translated">Nem célja a kód használható.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Determines whether white space literals are permitted in the content between a control's opening and closing tags.</source>
+          <target state="translated">Meghatározza, hogy szóköz literálok engedélyezve vannak-e a tartalom a vezérlő nyitó és záró címkék között.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer nevezik.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AllowWhitespaceLiterals method is used to determine whether white space literals are permitted in the content between the opening and closing tags of a control.</source>
+          <target state="translated">A AllowWhitespaceLiterals módszert annak meghatározásához, hogy szóköz literálok engedélyezettek-e a nyitó és záró címkék vezérlő között a tartalmat.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this method returns <ph id="ph1">`false`</ph>, the white space literals are trimmed from the content before the content is processed by the page parser.</source>
+          <target state="translated">Ha ez a metódus visszaadja <ph id="ph1">`false`</ph>, a fehér terület literálok levágja a tartalomról az oldal elemző által a tartalom feldolgozása előtt.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When this method returns <ph id="ph1">`true`</ph>, the white space literals not removed.</source>
+          <target state="translated">Ha ez a metódus visszaadja <ph id="ph1">`true`</ph>, a fehér terület literálok nem távolítja el.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer értelmezésekor nevezik, és nem javasolt közvetlenül a kód hívása.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Always returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Mindig vissza <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Adds the specified literal content to a control.</source>
+          <target state="translated">A megadott szöveges tartalom ad hozzá egy vezérlő.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer nevezik.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override the AppendLiteralString method to control how literal content between the control's opening and closing tags is processed.</source>
+          <target state="translated">Írja felül az AppendLiteralString metódust a hogyan szöveges tartalom a vezérlő nyitó között, és a záró címkék dolgoz fel.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Literal content can be any text that is passed by the browser to the server control.</source>
+          <target state="translated">Szöveges tartalom lehet a kiszolgálói vezérlőnek a böngésző által átadott szöveget.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, any HTML elements and text, between their opening and closing tags, are literal content.</source>
+          <target state="translated">Például minden olyan HTML-elem és a szöveg, amelyet a nyitó és záró címkék között szöveges tartalom.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The content to add to the control.</source>
+          <target state="translated">A tartalom a vezérlő hozzáadása.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The string literal is not well formed.</source>
+          <target state="translated">A literál karakterlánc formátuma nem megfelelő.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Adds builders to the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for any child controls that belong to the container control.</source>
+          <target state="translated">A szerkesztők hozzáadja a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> bármely tároló vezérlőhöz tartozó gyermekvezérlők objektumot.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object assigned to the child control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a gyermekvezérlő rendelt objektumot.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the control builder that corresponds to the binding container for the control that this builder creates.</source>
+          <target state="translated">Lekérdezi a vezérlő szerkesztő, amely megfelel a kötés tárolóhoz a vezérlő, amely a jelentéskészítő hoz létre.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The control builder that corresponds to the binding container for the control.</source>
+          <target state="translated">A vezérlő szerkesztő, amely megfelel a vezérlő kötési tárolóhoz.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the type of the binding container for the control that this builder creates.</source>
+          <target state="translated">A kötés tároló típusú lekérdezi a vezérlő, amely a jelentéskészítő hoz létre.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represent the type of the binding container for the control that this builder creates.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;, amelyek megfelelnek a kötés tároló, amely a jelentéskészítő hoz vezérlő típusát.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Builds a design-time instance of the control that is referred to by this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A vezérlő által hivatkozott egy tervezéskor példányt alkot <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The resulting built control.</source>
+          <target state="translated">A létrejövő beépített vezérlő.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Called by the parser to inform the builder that the parsing of the control's opening and closing tags is complete.</source>
+          <target state="translated">Hívja meg, hogy a vezérlő nyitó és záró címkék elemzése befejeződött a Lekérdezésszerkesztő tájékoztatnia az elemző.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CloseControl method is used by the parser to indicate to the builder that it has finished parsing the control.</source>
+          <target state="translated">A CloseControl metódus használják az elemző megjelenítésével jelzi a jelentéskészítő, hogy a vezérlő elemzése befejeződött.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets a collection of complex property entries.</source>
+          <target state="translated">Lekérdezi a komplex tulajdonság bejegyzések gyűjteményét.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no entries, a static empty collection is returned.</source>
+          <target state="translated">Ha nincsenek bejegyzések, a statikus üres gyűjtemény ad vissza.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A collection of complex property entries.</source>
+          <target state="translated">Összetett tulajdonság bejegyzések gyűjteményét.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; for the control to be created.</source>
+          <target state="translated">Lekérdezi a &lt;xref:System.Type&gt;vezérlő létrehozni.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; for the control to be created.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;vezérlő létrehozni.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from the specified tag name and object type, as well as other parameters defining the builder.</source>
+          <target state="translated">Létrehoz egy <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum a megadott kód nevét és objektumtípus, valamint egyéb a jelentéskészítő meghatározó paraméterek.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object responsible for parsing the control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum elemzése a vezérlő felelős.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object responsible for building the parent control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumot a szülő vezérlő összeállításáért felelős.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the object that the builder will create.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;az objektum, amely a jelentéskészítő hozza létre.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The name of the tag to be built.</source>
+          <target state="translated">Kialakítani a címke nevét.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This allows the builder to support multiple tag types.</source>
+          <target state="translated">Ez lehetővé teszi, hogy a jelentéskészítő több címkéket támogatásához.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ControlBuilder.ID*&gt; attribute assigned to the control.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.ControlBuilder.ID*&gt;vezérlőhöz rendelt attribútum.&lt;/xref:System.Web.UI.ControlBuilder.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.IDictionary&gt; object that holds all the specified tag attributes.</source>
+          <target state="translated">A &lt;xref:System.Collections.IDictionary&gt;objektum, amely tartalmazza a megadott kód attribútumok.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The source file line number for the specified control.</source>
+          <target state="translated">A forrás fájl sor száma a megadott vezérlő.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The name of the source file from which the control is to be created.</source>
+          <target state="translated">A forrásfájl, ahonnan a vezérlő létrehozni van neve.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The builder that is responsible for creating the control.</source>
+          <target state="translated">A jelentéskészítő, hogy a vezérlő létrehozásáért felelős.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets an <bpt id="p1">&lt;xref href="System.Web.UI.IFilterResolutionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is used to manage device-filter related services when parsing and persisting controls in the designer.</source>
+          <target state="translated">Lekérdezi egy <bpt id="p1">&lt;xref href="System.Web.UI.IFilterResolutionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elemzése és megőrzése szabályozza a tervezőben kapcsolatos szolgáltatások objektum, amely eszköz-szűrő kezelésére szolgál.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.IFilterResolutionService&gt; interface is an interface that is specific to how a control uses device filters in a designer.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.IFilterResolutionService&gt;objektumfelület adott hogyan vezérlőt használja a tervezőben eszközszűrők illesztőfelületben.&lt;/xref:System.Web.UI.IFilterResolutionService&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When controls are parsed or persisted in the designer outside the context of a browser request, the &lt;xref:System.Web.UI.IFilterResolutionService&gt; provides a way to determine whether the current control is affected by a named filter and whether a named filter is part of a specific device-filter hierarchy.</source>
+          <target state="translated">Ha vezérlők elemezni, vagy a tervezőben, a böngésző kérelmet, kívül maradnak a &lt;xref:System.Web.UI.IFilterResolutionService&gt;határozzák meg, hogy az aktuális vezérlő hatással van egy elnevezett szűrő, és hogy elnevezett szűrő része egy adott eszköz-hierarchiája lehetőséget kínál.&lt;/xref:System.Web.UI.IFilterResolutionService&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.IFilterResolutionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is used to manage device filter related services when parsing and persisting controls in the designer.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Web.UI.IFilterResolutionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eszközszűrő kezeléséhez használt objektum kapcsolódó szolgáltatások, ha elemzése és megőrzése szabályozza a tervezőben.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets the type that will be used by code generation to declare the control.</source>
+          <target state="translated">Lekérdezi a vezérlő deklarálható kódgenerálás által használt típus.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the control used by code generation to declare the control.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;a vezérlő segítségével deklarálja azt a vezérlő kódgenerálás használják.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Represents the <ph id="ph1">`"__designer"`</ph> literal string.</source>
+          <target state="translated">Jelzi a <ph id="ph1">`"__designer"`</ph> literál karakterlánc.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets a value that determines whether the control has a <bpt id="p1">&lt;xref href="System.Web.UI.ParseChildrenAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with &lt;xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt; set to <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy érték, amely meghatározza, hogy van-e a vezérlő lekérdezi egy <bpt id="p1">&lt;xref href="System.Web.UI.ParseChildrenAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> rendelkező &lt;xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt;beállítása <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control has a <bpt id="p2">&lt;xref href="System.Web.UI.ParseChildrenAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> with &lt;xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt; set to <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, otherwise <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a következő vezérlőnek egy <bpt id="p2">&lt;xref href="System.Web.UI.ParseChildrenAttribute"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> rendelkező &lt;xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt;beállítása <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>, ellenkező esetben <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.&lt;/xref:System.Web.UI.ParseChildrenAttribute.ChildrenAsProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets a value that determines whether the control implements the <bpt id="p1">&lt;xref href="System.Web.UI.IParserAccessor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Egy érték, amely meghatározza, hogy megvalósítja-e a vezérlő lekérdezi a <bpt id="p1">&lt;xref href="System.Web.UI.IParserAccessor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> felületet.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control implements the <bpt id="p2">&lt;xref href="System.Web.UI.IParserAccessor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> interface, otherwise <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a vezérlő megvalósítja a <bpt id="p2">&lt;xref href="System.Web.UI.IParserAccessor"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> felületet, egyébként pedig <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Obtains the &lt;xref:System.Type&gt; of the control type corresponding to a child tag.</source>
+          <target state="translated">Beolvassa a &lt;xref:System.Type&gt;egy gyermekcímke megfelelő típus.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer nevezik.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer értelmezésekor nevezik, és nem javasolt közvetlenül a kód hívása.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The tag name of the child.</source>
+          <target state="translated">A gyermek címke neve.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>An array of attributes contained in the child control.</source>
+          <target state="translated">A gyermekvezérlő attribútum tömbjét.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the specified control's child.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;a megadott vezérlő gyermek.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Creates the <bpt id="p1">&lt;xref href="System.Web.UI.ObjectPersistData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Létrehozza a <bpt id="p1">&lt;xref href="System.Web.UI.ObjectPersistData"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ezen objektum <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.ObjectPersistData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Web.UI.ObjectPersistData"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Retrieves the resource key for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Az erőforráskulcs lekéri a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The resource key for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ez az erőforrás kulcsa <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the control contains any code blocks.</source>
+          <target state="translated">Lekérdezi egy érték, amely jelzi, hogy a vezérlő bármely kódblokkokat tartalmaz.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control contains at least one code block; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a vezérlő tartalmaz legalább egy kódblokk; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Determines if a control has both an opening and closing tag.</source>
+          <target state="translated">Meghatározza, hogy a vezérlő rendelkezik-e a nyitó és záró címkéje is.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer nevezik.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer értelmezésekor nevezik, és nem javasolt közvetlenül a kód hívása.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control has an opening and closing tag; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a következő vezérlőnek egy nyitó és záró címkéje; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Determines whether the literal string of an HTML control must be HTML decoded.</source>
+          <target state="translated">Határozza meg, hogy a literál karakterlánc egy HTML-vezérlő dekódolni HTML kell lennie.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer nevezik.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A literal string refers to the text between the opening and closing tag of an HTML control.</source>
+          <target state="translated">Egy szöveges karakterlánc hivatkozik a nyitó és záró címkéje egy HTML-vezérlő között található szöveget.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>HTML encoding is when text is converted into a string representation that the browser will display rather than interpret as HTML.</source>
+          <target state="translated">HTML-kódolás esetén szöveges alakítható egy karakterlánc-ábrázolása, amely a böngésző fog megjeleníteni helyett HTML-ként értelmezni.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Characters such as the question mark (?), ampersand (&amp;), slash mark (/), and spaces might be truncated or corrupted by some browsers, so those characters must be encoded when they appear in <ph id="ph1">`a`</ph> tags or in query strings.</source>
+          <target state="translated">Például a kérdőjel (?), az és jel (&amp;), a perjel karakter (/), majd a tárolóhelyek lehet, hogy csonkolja vagy egyes böngészők által sérült, így azok a karakterek jelennek kell kódolni <ph id="ph1">`a`</ph> címkék vagy a lekérdezési karakterláncokat.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HtmlDecodeLiterals method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">A HtmlDecodeLiterals metódus elemzése során az ASP.NET-lap keretrendszer nevezik, és nem javasolt közvetlenül meg kód hívása.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the HTML control literal string is to be decoded; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha literális szabályozza a HTML-karakterlánc hoz dekódolható; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets or sets the identifier property for the control to be built.</source>
+          <target state="translated">Lekérdezi vagy beállítja a felhasználóazonosító tulajdonsághoz a vezérlő kialakítani.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The identifier property for the control.</source>
+          <target state="translated">A vezérlő azonosító tulajdonsága.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Returns whether the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is running in the designer.</source>
+          <target state="translated">Vissza e a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> fut. a tervezőben.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is running in the designer; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> fut. a tervezőben; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for use after it is instantiated.</source>
+          <target state="translated">Inicializálja a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> után létrejön az használatra.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer nevezik.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer értelmezésekor nevezik, és nem javasolt közvetlenül a kód hívása.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object responsible for parsing the control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum elemzése a vezérlő felelős.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object responsible for building the parent control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumot a szülő vezérlő összeállításáért felelős.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; assigned to the control that the builder will create.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;a szerkesztő létrehoz vezérlőhöz rendelt.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The name of the tag to be built.</source>
+          <target state="translated">Kialakítani a címke nevét.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This allows the builder to support multiple tag types.</source>
+          <target state="translated">Ez lehetővé teszi, hogy a jelentéskészítő több címkéket támogatásához.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ControlBuilder.ID*&gt; attribute assigned to the control.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.ControlBuilder.ID*&gt;vezérlőhöz rendelt attribútum.&lt;/xref:System.Web.UI.ControlBuilder.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Collections.IDictionary&gt; object that holds all the specified tag attributes.</source>
+          <target state="translated">A &lt;xref:System.Collections.IDictionary&gt;objektum, amely tartalmazza a megadott kód attribútumok.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets a Boolean value indicating whether this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is used to generate page themes.</source>
+          <target state="translated">Lekérdezi egy logikai érték, amely jelzi, hogy ez <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum lap témák előállítására szolgál.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to generate page themes; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>erre <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> létrehozása lap témák; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Gets the type set on the binding container.</source>
+          <target state="translated">Lekérdezi a kötés tároló beállított típusát.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The type set on the binding container.</source>
+          <target state="translated">A kötés tároló beállított típusát.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets a Boolean value indicating whether the control that is created by this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is localized.</source>
+          <target state="translated">Egy logikai érték, amely jelzi, hogy a vezérlő, amely lekérdezi a létrehozott <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum honosítva van.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the control created by this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is localized; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>jelzi, hogy a vezérlő által létrehozott <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum honosított; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Gets the type of the naming container for the control that this builder creates.</source>
+          <target state="translated">Az elnevező tárolónak típusú lekérdezi a vezérlő, amely a jelentéskészítő hoz létre.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represent the type of the naming container for the control that this builder creates.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;, amely képviseli az elnevező tárolónak a jelentéskészítő létrehozó vezérlő típusát.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Determines if the control builder needs to get its inner text.</source>
+          <target state="translated">Meghatározza, hogy kell-e a vezérlő jelentéskészítő belső szövegében eléréséhez.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If so, the &lt;xref:System.Web.UI.ControlBuilder.SetTagInnerText*&gt; method must be called.</source>
+          <target state="translated">Ha igen, a &lt;xref:System.Web.UI.ControlBuilder.SetTagInnerText*&gt;metódust kell hívni.&lt;/xref:System.Web.UI.ControlBuilder.SetTagInnerText*&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>This method is called by the ASP.NET page framework.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer nevezik.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The inner text is the text between the opening and closing tags of the control.</source>
+          <target state="translated">A belső szövege az a szöveg a nyitó és a vezérlő záró címkék között.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the ASP.NET page framework during parsing and is not intended to be called directly in you code.</source>
+          <target state="translated">Ez a módszer az ASP.NET-lap keretrendszer értelmezésekor nevezik, és nem javasolt közvetlenül a kód hívása.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control builder needs to get its inner text.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a vezérlő jelentéskészítő kell kapnia belső szövegében.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that it is being added to a parent control builder.</source>
+          <target state="translated">Értesíti a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely akkor ad hozzá a szülő vezérlő felépítőt.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to which the current builder is added.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a jelenlegi jelentéskészítő hozzá objektum.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets the virtual path of a page to be built by this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Lekérdezi a virtuális elérési út által ez a lap <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The virtual path of the page to be built.</source>
+          <target state="translated">A virtuális elérési út a lap kialakítani.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> responsible for parsing the control.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elemzése a vezérlő felelős.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property retrieves the &lt;xref:System.Web.UI.TemplateParser&gt; responsible for parsing the control.</source>
+          <target state="translated">Ez a tulajdonság lekéri a &lt;xref:System.Web.UI.TemplateParser&gt;felelős a vezérlő elemzésekor.&lt;/xref:System.Web.UI.TemplateParser&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> used to parse the control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.TemplateParser"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elemzése a vezérlő használja.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Enables custom control builders to access the generated Code Document Object Model (CodeDom) and insert and modify code during the process of parsing and building controls.</source>
+          <target state="translated">Lehetővé teszi, hogy egyéni vezérlő szerkesztők eléri a a generált kód Document Object Model (CodeDom) és a Beszúrás és a kód módosítása elemzése és vezérlők összeállítása során.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the single-file page model, the <ph id="ph1">`baseType`</ph> and <ph id="ph2">`derivedType`</ph> parameters are the same &lt;xref:System.CodeDom.CodeTypeDeclaration&gt; type, which typically derives from the &lt;xref:System.Web.UI.Page&gt; class.</source>
+          <target state="translated">Az egyfájlos lap modellben a <ph id="ph1">`baseType`</ph> és <ph id="ph2">`derivedType`</ph> paraméterei ugyanolyan &lt;xref:System.CodeDom.CodeTypeDeclaration&gt;típusú, amely általában a a &lt;xref:System.Web.UI.Page&gt;osztályból&lt;/xref:System.Web.UI.Page&gt; származik&lt;/xref:System.CodeDom.CodeTypeDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the code-behind page model, <ph id="ph1">`baseType`</ph> is the &lt;xref:System.CodeDom.CodeTypeDeclaration&gt; type that represents the partial code-behind class, which is typically derived from the &lt;xref:System.Web.UI.Page&gt; class.</source>
+          <target state="translated">A háttérkód lap modell <ph id="ph1">`baseType`</ph> &lt;xref:System.CodeDom.CodeTypeDeclaration&gt;típus, amely jelzi, hogy a részleges osztályhoz tartozó kódot, amely általában &lt;xref:System.Web.UI.Page&gt;osztályból&lt;/xref:System.Web.UI.Page&gt; származik&lt;/xref:System.CodeDom.CodeTypeDeclaration&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`derivedType`</ph> parameter is the class that derives from the partial class that contains the markup.</source>
+          <target state="translated">A <ph id="ph1">`derivedType`</ph> paraméter osztály, amely tartalmazza a kód a részleges osztályból származik.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about ASP.NET Web page models, see <bpt id="p1">[</bpt>ASP.NET Web Forms Page Syntax Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">ASP.NET webes lap modellek kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>ASP.NET Web Forms lap szintaxis áttekintése<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to use the CodeDOM to represent and generate source code, see <bpt id="p1">[</bpt>Dynamic Source Code Generation and Compilation<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">A CodeDOM határoz meg, és a forráskód generálásához használatával kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>dinamikus forrás kódgenerálás és fordítási<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The root container of a CodeDOM graph of the control that is being built.</source>
+          <target state="translated">A vezérlő éppen készül a CodeDOM gráf legfelső szintű tároló.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The base type of the page or user control that contains the control that is being built.</source>
+          <target state="translated">A vezérlőt tartalmaz, amely éppen készül lapján vagy a felhasználói vezérlő alaptípusa.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The derived type of the page or user control that contains the control that is being built.</source>
+          <target state="translated">A származtatott típus, amely a vezérlőt tartalmaz, amely éppen készül lapján vagy a felhasználói vezérlő.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The code that is used to build the control.</source>
+          <target state="translated">A kódot, amely segítségével hozhatók létre a vezérlő.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The code that is used to build the data-binding method of the control.</source>
+          <target state="translated">A kódot, amely segítségével hozhatók létre a vezérlő adatkötési metódusában.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Gets the service object for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ez a szolgáltatás objektum lekérdezi <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IServiceProvider&gt; that represents the service object for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy &lt;xref:System.IServiceProvider&gt;, amely a szolgáltatás az objektumot határozza meg a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Sets the resource key for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Az erőforráskulcs beállítja a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The resource key for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ez az erőforrás kulcsa <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Sets the service object for this <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A szolgáltatás objektum beállítja a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IServiceProvider&gt; that represents the service object for the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Egy &lt;xref:System.IServiceProvider&gt;a szolgáltatás objektumot, amely jelzi a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Provides the <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the inner text of the control tag.</source>
+          <target state="translated">Biztosítja a <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a vezérlő címke belső szöveget.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called only if &lt;xref:System.Web.UI.ControlBuilder.NeedsTagInnerText%2A&gt; previously returned <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Ezt a módszert nevezik, csak ha &lt;xref:System.Web.UI.ControlBuilder.NeedsTagInnerText%2A&gt;korábban visszaadott <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.ControlBuilder.NeedsTagInnerText%2A&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The text to be provided.</source>
+          <target state="translated">A szöveg, meg kell adni.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Gets a list of child <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for this <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Gyermek listájának lekérése <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ezen objektumok <bpt id="p2">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>A list of child <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">A gyermek listáját <bpt id="p1">&lt;xref href="System.Web.UI.ControlBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumok.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets the tag name for the control to be built.</source>
+          <target state="translated">Lekérdezi a vezérlő kialakítani a címke neve.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The tag name for the control.</source>
+          <target state="translated">A vezérlő címke neve.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets a collection of template property entries.</source>
+          <target state="translated">Lekérdezi a sablon tulajdonság bejegyzések gyűjteményét.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no entries, a static empty collection is returned.</source>
+          <target state="translated">Ha nincsenek bejegyzések, a statikus üres gyűjtemény ad vissza.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>A collection of template property entries.</source>
+          <target state="translated">Sablon tulajdonság bejegyzések gyűjteményét.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Gets an <bpt id="p1">&lt;xref href="System.Web.UI.IThemeResolutionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is used in design time to manage control themes and skins.</source>
+          <target state="translated">Lekérdezi egy <bpt id="p1">&lt;xref href="System.Web.UI.IThemeResolutionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tervezési időben vezérlő témák és felszíne kezeléséhez használt objektum.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.IThemeResolutionService&gt; interface is a container for one or more &lt;xref:System.Web.UI.ThemeProvider&gt; objects, which in turn supply the &lt;xref:System.Web.UI.SkinBuilder&gt; objects that apply themes and control skins to controls when they are created in a designer.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.IThemeResolutionService&gt;felület egy olyan tároló, egy vagy több &lt;xref:System.Web.UI.ThemeProvider&gt;objektumokat, amely pedig adja meg a &lt;xref:System.Web.UI.SkinBuilder&gt;objektumok, amelyek érvényesek a témákat a vezérlők felszíne szabályozza, amikor létrehozzák őket a tervezőben.&lt;/xref:System.Web.UI.SkinBuilder&gt; &lt;/xref:System.Web.UI.ThemeProvider&gt; &lt;/xref:System.Web.UI.IThemeResolutionService&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.IThemeResolutionService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is used in design time to manage control themes and skins.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Web.UI.IThemeResolutionService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> tervezési időben vezérlő témák és felszíne kezeléséhez használt objektum.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

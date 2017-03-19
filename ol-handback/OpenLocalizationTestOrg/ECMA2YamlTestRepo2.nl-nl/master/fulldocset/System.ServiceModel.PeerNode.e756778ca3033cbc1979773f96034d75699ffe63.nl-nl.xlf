@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b32176d6089fbbc162329a5d737b8d1019d7145</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.PeerNode.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7aaa79ec403146daf6303070b016f4e253f0913b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cc877a1d3b71f4be4bd47f8fb52425748b7fef15</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines the instance of of a peer node used by an application participating in a specific peer mesh.</source>
+          <target state="translated">Het exemplaar van van een knooppunt op hetzelfde niveau gebruikt door een toepassing die deel uitmaken van een specifieke peer NET definieert.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A peer node can host multiple peer channels within the mesh as long as they share a common URI and host name in the &lt;xref:System.ServiceModel.EndpointAddress&gt; supplied to the binding for each channel.</source>
+          <target state="translated">Een peer-knooppunt kan meerdere peer kanalen binnen de mesh hosten, zolang ze delen een gemeenschappelijke URI en host-naam in de &lt;xref:System.ServiceModel.EndpointAddress&gt;doorgegeven aan de binding voor elk kanaal.&lt;/xref:System.ServiceModel.EndpointAddress&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If two or more peer channels defined for a peer node are created with separate bindings, then the &lt;xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;, &lt;xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;, and &lt;xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt; properties must be identical on all bindings.</source>
+          <target state="translated">Als twee of meer peer kanalen gedefinieerd voor een peer-knooppunt zijn gemaakt met afzonderlijke bindingen, wordt de &lt;xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;, &lt;xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt;, en &lt;xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt;eigenschappen moeten identiek zijn op alle bindingen.&lt;/xref:System.ServiceModel.NetPeerTcpBinding.Resolver%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.ListenIPAddress%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.Port%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a subsequent channel binding is created after the first one for the same peer node instance, then the &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; property on this and subsequent bindings must be less than or equal to the value of &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; property as set on the first channel binding.</source>
+          <target state="translated">Als een latere kanaalbinding wordt gemaakt nadat het eerste beheerpunt voor de dezelfde peer knooppuntexemplaar, wordt de &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;eigenschap op deze en latere bindingen moet kleiner zijn dan of gelijk zijn aan de waarde van &lt;xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;eigenschap zoals ingesteld op de eerste kanaalbinding.&lt;/xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt; &lt;/xref:System.ServiceModel.NetPeerTcpBinding.MaxReceivedMessageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the peer node is online and able to send messages to neighboring nodes in the peer mesh.</source>
+          <target state="translated">Haalt een waarde die aangeeft of het knooppunt op hetzelfde niveau is online en kunnen berichten verzenden naar aangrenzende knooppunten in het raster peer.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>"Online" indicates that a peer node has available neighbor nodes.</source>
+          <target state="translated">'Online' geeft aan dat een knooppunt op hetzelfde niveau beschikbaar neighbor knooppunten heeft.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>"Offline" indicates that a peer node has no available neighbors.</source>
+          <target state="translated">'Offline' betekent dat een knooppunt op hetzelfde niveau geen neighbors beschikbaar heeft.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the peer node is online; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als het knooppunt op hetzelfde niveau online is; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Gets and sets a custom filter for messages received over the peer channel.</source>
+          <target state="translated">Opgehaald en ingesteld van een aangepast filter voor berichten die zijn ontvangen via het peer-kanaal.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The message filter must be a derived type and should be recast to that type to use any custom features defined on it.</source>
+          <target state="translated">Het berichtenfilter moet een afgeleid type en worden ondergebracht in dat type eventuele aangepaste functies gedefinieerd gebruiken.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.ServiceModel.PeerMessagePropagationFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains a custom message filter.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ServiceModel.PeerMessagePropagationFilter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>bevat een aangepast bericht-filter.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">Er is geen kanaal is geopend om te luisteren.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Signals when the peer node goes offline from the peer mesh.</source>
+          <target state="translated">Er net signalen wanneer het knooppunt op hetzelfde niveau van de peer offline gaat.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An offline peer node has no neighbor nodes within the peer mesh to which it can connect.</source>
+          <target state="translated">Een offline-peer-knooppunt heeft geen knooppunten neighbor binnen de peer mesh waarmee deze verbinding kan maken.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Signals when a peer node comes online within the peer mesh.</source>
+          <target state="translated">Geeft aan wanneer een knooppunt op hetzelfde niveau binnen de mesh peer online wordt gezet.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An online peer node has at least one neighbor node within the peer mesh to which it is connected.</source>
+          <target state="translated">Een knooppunt online peer heeft ten minste één neighbor knooppunt binnen de peer mesh waarmee deze is verbonden.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the network port on which the peer node is listening.</source>
+          <target state="translated">Hiermee haalt u de netwerkpoort waarop het knooppunt op hetzelfde niveau luistert.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Int32&gt; that specifies the network port on which the peer node is listening.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;Hiermee worden de netwerkpoort waarop het knooppunt op hetzelfde niveau luistert.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">Er is geen kanaal is geopend om te luisteren.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Refreshes the connection with the peer mesh.</source>
+          <target state="translated">Hiermee vernieuwt u de verbinding met de mesh peer.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>No channel is open for listening.</source>
+          <target state="translated">Er is geen kanaal is geopend om te luisteren.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The refresh operation timed out.</source>
+          <target state="translated">Er is een time-out opgetreden voor de vernieuwingsbewerking.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A network error occurred during the refresh attempt.</source>
+          <target state="translated">Er is een netwerkfout opgetreden tijdens de vernieuwingspoging.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The connection aborted during the refresh attempt.</source>
+          <target state="translated">De verbinding verbroken tijdens de vernieuwingspoging.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The connection faulted during the refresh attempt.</source>
+          <target state="translated">De verbinding is mislukt tijdens de vernieuwingspoging.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Provides a string representation of a peer node.</source>
+          <target state="translated">Biedt een tekenreeksrepresentatie van een knooppunt op hetzelfde niveau.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.String&gt; value that contains the mesh ID of the peer node if the mesh ID is set; otherwise, it returns the type.</source>
+          <target state="translated">&lt;xref:System.String&gt;waarde die de mesh-ID van het knooppunt op hetzelfde niveau bevat als de mesh-ID wordt ingesteld; anders wordt het type.&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

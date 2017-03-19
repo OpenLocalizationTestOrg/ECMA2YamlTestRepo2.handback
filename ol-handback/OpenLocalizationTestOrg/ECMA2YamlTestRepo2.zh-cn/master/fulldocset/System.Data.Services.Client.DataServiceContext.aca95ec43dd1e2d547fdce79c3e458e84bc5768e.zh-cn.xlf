@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3bbbc78bc920389f86537000d30e0706d29c409</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Services.Client.DataServiceContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f31d85671a819bd610102f0123eb40dad224fabe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05fba2226d1b0d6708c46d02b8b1b480d904befb</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The DataServiceContext represents the runtime context of the data service.</source>
+          <target state="translated">DataServiceContext 表示数据服务的运行时上下文。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[ssAstoria](~/add/includes/ssastoria-md.md)]</ph> are stateless, but the DataServiceContext is not.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ssAstoria](~/add/includes/ssastoria-md.md)]</ph>是无状态的但 DataServiceContext 并不是。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>State on the client is maintained between interactions in order to support features such as update management.</source>
+          <target state="translated">为了支持更新管理之类的功能的交互之间将保持客户端的状态。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This class, and the &lt;xref:System.Data.Services.Client.DataServiceQuery&gt; class that represents a particular HTTP request to a data service, are the two main classes in the client library.</source>
+          <target state="translated">此类与&lt;xref:System.Data.Services.Client.DataServiceQuery&gt;到数据服务时，表示特定的 HTTP 请求的类是客户端库中的两个主要类。&lt;/xref:System.Data.Services.Client.DataServiceQuery&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">serviceRoot</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用指定的类<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">serviceRoot</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The client library expects the <ph id="ph1">`baseURI`</ph> to point to the root of a data service, but it does not issue a request to validate it.</source>
+          <target state="translated">客户端库要求<ph id="ph1">`baseURI`</ph>以指向数据的根的服务，但它不会发出请求以对其进行验证。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`baseURI`</ph> does not identify the root of the service, the behavior of the client library is undefined.</source>
+          <target state="translated">如果<ph id="ph1">`baseURI`</ph>不会确定根的服务，客户端库的行为是不确定。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A URI with a trailing slash is equivalent to one without the trailing character.</source>
+          <target state="translated">带尾部反斜杠的 URI 相当于一个不带尾随字符。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>An absolute URI that identifies the root of a data service.</source>
+          <target state="translated">标识数据服务的根的绝对 URI。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serviceRoot</ph><ept id="p1">&lt;/code&gt;</ept> is null.</source>
+          <target state="translated">当<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serviceRoot</ph> <ept id="p1">&lt;/code&gt;</ept>为 null。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serviceRoot</ph><ept id="p1">&lt;/code&gt;</ept> is not an absolute URI       -or-       If the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">serviceRoot</ph><ept id="p2">&lt;/code&gt;</ept> is a well formed URI without a query or query fragment.</source>
+          <target state="translated">如果<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serviceRoot</ph> <ept id="p1">&lt;/code&gt;</ept>不是一个绝对 URI-或-如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">serviceRoot</ph> <ept id="p2">&lt;/code&gt;</ept>是不带查询或查询片段的格式正确的 URI。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Adds the specified link to the set of objects the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is tracking.</source>
+          <target state="translated">将指定的链接添加到的对象集<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是否在跟踪。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Notifies the &lt;xref:System.Data.Services.Client.DataServiceContext&gt; that a new link exists between the related source and target objects and that the link is represented by the specified source property.</source>
+          <target state="translated">通知&lt;xref:System.Data.Services.Client.DataServiceContext&gt;相关的源和目标对象之间存在新链接，链接由指定的源属性。&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Services.Client.DataServiceContext&gt; adds this link to the set of newly created links that will be sent to the data service on the next call to &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceContext&gt;将添加到新创建的链接，将发送到&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;.&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;的后续调用上的数据服务设置此链接&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Links are one-way relationships.</source>
+          <target state="translated">链接是单向关系。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Because associations are bi-directional, in a one-to-one association you must call either AddLink again to create the reverse link, and in a many-to-one association you must call &lt;xref:System.Data.Services.Client.DataServiceContext.SetLink%2A&gt; to create a reference link to the "one" end of the association.</source>
+          <target state="translated">由于关联是双向的必须一对一关联中调用任一 AddLink 以创建反向链接，并且在多对一关联，您必须调用&lt;xref:System.Data.Services.Client.DataServiceContext.SetLink%2A&gt;创建指向关联"一"端的引用。&lt;/xref:System.Data.Services.Client.DataServiceContext.SetLink%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The target object must be of the type identified by the <ph id="ph1">`sourceProperty`</ph> parameter or a subtype of the type.</source>
+          <target state="translated">目标对象的标识的类型必须是<ph id="ph1">`sourceProperty`</ph>参数或类型的子类型。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The source object for the new link.</source>
+          <target state="translated">新链接的的源对象。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The name of the navigation property on the source object that returns the related object.</source>
+          <target state="translated">返回相关的对象的源对象上的导航属性的名称。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The object related to the source object by the new link.</source>
+          <target state="translated">通过新链接的源对象相关联的对象。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">target</ph><ept id="p3">&lt;/code&gt;</ept> are null.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">target</ph><ept id="p3">&lt;/code&gt;</ept> are null.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If a link already exists.</source>
+          <target state="translated">如果链接已存在。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-or-       If either the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> objects are in a <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or <bpt id="p4">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">-or-       If either the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> objects are in a <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or <bpt id="p4">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>-or-       If <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceProperty</ph><ept id="p1">&lt;/code&gt;</ept> is not a collection.</source>
+          <target state="translated">-或-如果<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sourceProperty</ph> <ept id="p1">&lt;/code&gt;</ept>不是一个集合。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Adds the specified object to the set of objects that the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is tracking.</source>
+          <target state="translated">将指定的对象添加到的对象集的<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>是否在跟踪。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The object is put into the tracking set of the &lt;xref:System.Data.Services.Client.DataServiceContext&gt; in the &lt;xref:System.Data.Services.Client.EntityStates&gt; state.</source>
+          <target state="translated">该对象放入的跟踪集中&lt;xref:System.Data.Services.Client.DataServiceContext&gt;中&lt;xref:System.Data.Services.Client.EntityStates&gt;状态。&lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Services.Client.DataServiceContext&gt; will try to insert the object by HTTP POST on the next call to &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceContext&gt;将尝试插入到&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;下次调用的 HTTP POST 对象&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This method does not add objects related to the specified entity to the &lt;xref:System.Data.Services.Client.DataServiceContext&gt;.</source>
+          <target state="translated">此方法不会添加到指定的实体访问&lt;xref:System.Data.Services.Client.DataServiceContext&gt;.&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;相关的对象</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Each object must be added through a separate call to AddObject.</source>
+          <target state="translated">必须通过单独调用 AddObject 添加每个对象。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The method does not validate that the entity set specified is in the data service associated with the &lt;xref:System.Data.Services.Client.DataServiceContext&gt; or that the added object has the required properties needed to be added to the specified <ph id="ph1">`entity set`</ph>.</source>
+          <target state="translated">该方法不会验证与关联的数据服务中是否存在指定的实体集&lt;xref:System.Data.Services.Client.DataServiceContext&gt;需要添加的对象具有所需的属性或要添加到指定<ph id="ph1">`entity set`</ph>。&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name of the entity set to which the resource will be added.</source>
+          <target state="translated">实体的名称设置为将其添加资源。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The object to be tracked by the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">对象要跟踪通过<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entitySetName</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">entity</ph><ept id="p2">&lt;/code&gt;</ept> is null.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entitySetName</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">entity</ph><ept id="p2">&lt;/code&gt;</ept> is null.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entitySetName</ph><ept id="p1">&lt;/code&gt;</ept> is empty.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entitySetName</ph><ept id="p1">&lt;/code&gt;</ept> is empty.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>-or-       When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> does not have a key property defined.</source>
+          <target state="translated">-或-当<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>没有定义键属性。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When the entity is already being tracked by the context.</source>
+          <target state="translated">当已是由上下文跟踪实体。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Adds a related object to the context and creates the link that defines the relationship between the two objects in a single request.</source>
+          <target state="translated">将相关的对象添加到上下文，并创建链接，以便定义单个请求中的两个对象之间的关系。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>You can call the AddRelatedObject method to add a related object instead of calling these three methods: &lt;xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.SetLink%2A&gt;.</source>
+          <target state="translated">你可以调用 AddRelatedObject 方法来添加相关的对象，而不是调用这三种方法: &lt;xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt; &lt;xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt;、 &lt;xref:System.Data.Services.Client.DataServiceContext.SetLink%2A&gt;.&lt;/xref:System.Data.Services.Client.DataServiceContext.SetLink%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The parent object that is being tracked by the context.</source>
+          <target state="translated">正在跟踪上下文中的父对象。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The name of the navigation property that returns the related object based on an association between the two entities.</source>
+          <target state="translated">返回基于两个实体之间的关联的相关的对象的导航属性的名称。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The related object that is being added.</source>
+          <target state="translated">正在添加相关的对象。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is currently applying changes to tracked objects.</source>
+          <target state="translated">获取一个值，该值指示是否<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>当前正在将更改应用于所跟踪对象。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when changes are currently being applied; otherwise returns <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>时当前正在应用的更改; 否则返回<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to start tracking the specified link that defines a relationship between entity objects.</source>
+          <target state="translated">通知<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要开始跟踪指定的链接，以便定义实体对象之间的关系。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The source object in the new link.</source>
+          <target state="translated">中的新链接的源对象。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The name of the property on the source object that represents the link between the source and target object.</source>
+          <target state="translated">表示源和目标对象之间的链接的源对象上的属性名称。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The target object in the link that is bound to the source object specified in this call.</source>
+          <target state="translated">绑定到此调用中指定的源对象的链接中的目标对象。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The target object must be of the type identified by the source property or a subtype.</source>
+          <target state="translated">标识源属性或子类型必须是类型的目标对象。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">target</ph><ept id="p3">&lt;/code&gt;</ept> is null.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">target</ph><ept id="p3">&lt;/code&gt;</ept> is null.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When the link between the two entities already exists.</source>
+          <target state="translated">当存在两个实体之间的链接。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>-or-       When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> is in an <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or <bpt id="p4">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">-or-       When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> is in an <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or <bpt id="p4">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to start tracking the specified resource and supplies the location of the resource within the specified resource set.</source>
+          <target state="translated">通知<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>开始跟踪指定的资源，并提供集中的位置指定的资源中的资源。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If the entity is part of an object graph, this operation does not traverse the graph to add related objects.</source>
+          <target state="translated">如果实体为对象图的一部分，此操作不会遍历该图来添加相关的对象。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>It is a shallow operation.</source>
+          <target state="translated">它是浅表操作。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The method does not validate whether the specified entity set occurs in the data service associated with the &lt;xref:System.Data.Services.Client.DataServiceContext&gt;.</source>
+          <target state="translated">该方法不会验证是否出现在&lt;xref:System.Data.Services.Client.DataServiceContext&gt;.&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;与关联的数据服务中的指定的实体集</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The name of the set that contains the resource.</source>
+          <target state="translated">包含资源集的名称。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The resource to be tracked by the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">要跟踪通过资源<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The resource is attached in the Unchanged state.</source>
+          <target state="translated">将以未更改状态附加资源。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">entitySetName</ph><ept id="p2">&lt;/code&gt;</ept> is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">entitySetName</ph><ept id="p2">&lt;/code&gt;</ept> is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entitySetName</ph><ept id="p1">&lt;/code&gt;</ept> is an empty string.</source>
+          <target state="translated">当<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entitySetName</ph> <ept id="p1">&lt;/code&gt;</ept>为空字符串。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>-or-       When the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> does not have a key property defined.</source>
+          <target state="translated">-或-当<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>没有定义键属性。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>When the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is already being tracked by the context.</source>
+          <target state="translated">当<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>已由上下文跟踪。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to start tracking the specified resource and supplies the location of the resource in the specified resource set.</source>
+          <target state="translated">通知<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>开始跟踪指定的资源，并提供集中的位置中指定的资源的资源。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Calling this method notifies the &lt;xref:System.Data.Services.Client.DataServiceContext&gt; to start tracking the specified entity and identifies the entity set to which the entity belongs.</source>
+          <target state="translated">调用此方法通知&lt;xref:System.Data.Services.Client.DataServiceContext&gt;若要开始跟踪指定的实体和标识设置为该实体所属的实体。&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If the entity is part of an object graph, this operation does not traverse the graph to add related objects.</source>
+          <target state="translated">如果实体为对象图的一部分，此操作不会遍历该图来添加相关的对象。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The object is added to the &lt;xref:System.Data.Services.Client.DataServiceContext&gt; in the unchanged state.</source>
+          <target state="translated">该对象添加到&lt;xref:System.Data.Services.Client.DataServiceContext&gt;中未更改状态。&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The method does not validate whether the entity set specified occurs in the data service associated with the &lt;xref:System.Data.Services.Client.DataServiceContext&gt;.</source>
+          <target state="translated">该方法不会验证是否与&lt;xref:System.Data.Services.Client.DataServiceContext&gt;.&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;关联的数据服务中出现指定的实体集</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>If the overload with an etag is used, the specified etag is associated with the newly attached entity.</source>
+          <target state="translated">如果使用带 etag 的重载，则指定的 etag 将与新附加的实体关联。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The etag is then sent to the data service, with all subsequent update or query operations for the entity, according to HTTP semantics.</source>
+          <target state="translated">然后将 etag 发送到数据服务，与实体的所有后续更新或查询操作根据 HTTP 语义。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Manual generation of etag values is not recommended, but this overload is provided to enable entities that may have been serialized and stored to be reattached together with relevant concurrency metadata.</source>
+          <target state="translated">不建议手动生成 etag 值，但此重载用于启用实体可能已序列化和存储以及相关并发元数据重新附加。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The string value that contains the name of the entity set to which to the entity is attached.</source>
+          <target state="translated">包含实体的名称的字符串值设置为连接到实体。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The entity to add.</source>
+          <target state="translated">要添加的实体。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An etag value that represents the state of the entity the last time it was retrieved from the data service.</source>
+          <target state="translated">一个表示的上次从数据服务检索到它的状态的实体的 etag 值。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This value is treated as an opaque string; no validation is performed on it by the client library.</source>
+          <target state="translated">此值视为不透明的字符串;通过客户端库情况下，对其不执行任何验证。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entitySetName</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entitySetName</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>-or-       When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entitySetName</ph><ept id="p1">&lt;/code&gt;</ept> is an empty string.</source>
+          <target state="translated">当<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entitySetName</ph> <ept id="p1">&lt;/code&gt;</ept>为空字符串。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>-or-       When the supplied object does not have a key property.</source>
+          <target state="translated">-或者-如果所提供的对象不具有键属性。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When the supplied object is already being tracked by the context</source>
+          <target state="translated">当所提供的对象已跟踪上下文</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets the absolute URI identifying the root of the target data service.</source>
+          <target state="translated">获取标识目标数据服务的根的绝对 URI。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>A URI provided with a trailing slash is equivalent to one without the trailing character.</source>
+          <target state="translated">提供带尾部反斜杠的 URI 相当于一个不带尾随字符。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An absolute URI that identifies the root of a T data service.</source>
+          <target state="translated">用于标识 T 数据服务的根的绝对 URI。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Asynchronously submits a group of queries as a batch to the data service.</source>
+          <target state="translated">以异步方式将一组查询以对数据服务批处理方式提交。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The returned &lt;xref:System.IAsyncResult&gt; object is used to determine when the asynchronous operation has completed.</source>
+          <target state="translated">返回&lt;xref:System.IAsyncResult&gt;对象用于确定异步操作何时已完成。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Asynchronous Operations<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>异步操作<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The queries are specified as &lt;xref:System.Data.Services.Client.DataServiceRequest%601&gt; instances.</source>
+          <target state="translated">查询指定为&lt;xref:System.Data.Services.Client.DataServiceRequest%601&gt;实例。&lt;/xref:System.Data.Services.Client.DataServiceRequest%601&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.Data.Services.Client.DataServiceResponse&gt; that represents the response of the batch request as a whole.</source>
+          <target state="translated">返回&lt;xref:System.Data.Services.Client.DataServiceResponse&gt;表示作为一个整体的批处理请求的响应。&lt;/xref:System.Data.Services.Client.DataServiceResponse&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Individual query responses are represented as &lt;xref:System.Data.Services.Client.DataServiceResponse&gt; objects that can be accessed by enumerating the &lt;xref:System.Data.Services.Client.DataServiceResponse&gt; instance.</source>
+          <target state="translated">单个查询响应表示为&lt;xref:System.Data.Services.Client.DataServiceResponse&gt;可以通过枚举来访问的对象&lt;xref:System.Data.Services.Client.DataServiceResponse&gt;实例。&lt;/xref:System.Data.Services.Client.DataServiceResponse&gt; &lt;/xref:System.Data.Services.Client.DataServiceResponse&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>When this method returns, all of the HTTP response for the batch request has been read from the network stream but the responses have not been processed.</source>
+          <target state="translated">此方法返回时，已从网络流读取所有批处理请求的 HTTP 响应，但尚未处理响应。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>No identity resolution or object materialization occurs for a specified entity in the response until it is enumerated.</source>
+          <target state="translated">之前在枚举响应中指定的实体的标识解析或对象具体化操作。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The delegate that is called when a response to the batch request is received.</source>
+          <target state="translated">在收到批处理请求响应时调用的委托。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>User-defined state object that is used to pass context data to the callback method.</source>
+          <target state="translated">用于将上下文数据传递给回调方法的用户定义的状态对象。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The array of query requests to include in the batch request.</source>
+          <target state="translated">查询请求要包含在批处理请求中的数组。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; object that is used to track the status of the asynchronous operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;用于跟踪异步操作的状态的对象。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Asynchronously gets binary property data for the specified entity as a data stream along with the specified message headers.</source>
+          <target state="translated">以异步方式以及指定的消息标头数据流的形式获取为指定的实体的二进制属性数据。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Services.Client.DataServiceContext.GetReadStream%2A&gt; method asynchronously requests a data stream that contains the binary property of the requested <ph id="ph1">`entity`</ph>.</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceContext.GetReadStream%2A&gt;方法以异步方式请求包含所请求的二进制属性的数据流<ph id="ph1">`entity`</ph>。&lt;/xref:System.Data.Services.Client.DataServiceContext.GetReadStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>In the AtomPub protocol, the <ph id="ph1">`entity`</ph> is a Media Link Entry and the binary property is the associated Media Resource.</source>
+          <target state="translated">在 AtomPub 协议中，<ph id="ph1">`entity`</ph>为媒体链接入口，二进制属性为关联的媒体资源。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>No validation is performed on the headers that are set in <ph id="ph1">`args`</ph>.</source>
+          <target state="translated">在中设置的标头不执行任何验证<ph id="ph1">`args`</ph>。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Therefore, do not change an HTTP header in a way that changes the meaning of the request.</source>
+          <target state="translated">因此，不要以更改方式来更改请求含义的 HTTP 标头。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The entity that has the binary property to retrieve.</source>
+          <target state="translated">具有要检索的二进制属性的实体。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Instance of the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceRequestArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that contains settings for the HTTP request message.</source>
+          <target state="translated">实例<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceRequestArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含 HTTP 请求消息设置的类。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Delegate to invoke when results are available for client consumption.</source>
+          <target state="translated">当结果可供客户端使用时将调用的委托。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>User-defined state object passed to the callback.</source>
+          <target state="translated">用户定义的状态对象传递给回调。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; object that is used to track the status of the asynchronous operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;用于跟踪异步操作的状态的对象。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Any of the parameters supplied to the method is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">任何提供给方法的参数是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not tracked by this <bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>不跟踪此<bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not a Media Link Entry and does not have a binary property.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>不是媒体链接入口，并且没有二进制属性。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Asynchronously loads the value of the specified property from the data service.</source>
+          <target state="translated">从数据服务异步加载指定属性的值。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Calling this method invokes a network operation to retrieve the value of a property.</source>
+          <target state="translated">调用此方法时，将调用网络操作以检索属性的值。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The property specified may be any one of the properties on an entity, including properties which represent associations or links.</source>
+          <target state="translated">指定的属性可以为任意一个的实体，包括表示关联或链接的属性上的属性。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If the property represents an association or link or a deferred property, calling this method provides the client with a way to lazily load related resources.</source>
+          <target state="translated">如果属性是表示关联、 链接或延迟的属性，调用此方法提供延迟加载相关的资源的方式与客户端。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If the entity is in the modified state, the property value loads related entities and marks them and any links as unchanged.</source>
+          <target state="translated">如果实体处于已修改状态，属性值加载相关的实体，并将它们及为未更改的任何链接标记。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>If the property is already loaded, calling this method lets you refresh the value of the property.</source>
+          <target state="translated">如果已加载属性，则调用此方法将可让您刷新该属性的值。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The entity that contains the property to load.</source>
+          <target state="translated">包含要加载的属性的实体。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The name of the property on the specified entity to load.</source>
+          <target state="translated">要加载的指定实体上的属性名称。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The delegate called when a response to the request is received.</source>
+          <target state="translated">收到对请求的响应时调用的委托。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The user-defined state object that is used to pass context data to the callback method.</source>
+          <target state="translated">用于将上下文数据传递给回调方法的用户定义的状态对象。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_IAsyncResult" name="IAsyncResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the status of the asynchronous operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_IAsyncResult" name="IAsyncResult" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Asynchronously loads the next page of related entities from the data service by using the supplied query continuation object.</source>
+          <target state="translated">通过使用提供的查询延续对象从数据服务中异步加载下一页相关实体。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The supplied &lt;xref:System.Data.Services.Client.DataServiceQueryContinuation%601&gt; object contains the URI that, when executed, returns the next page of data in the query result.</source>
+          <target state="translated">提供&lt;xref:System.Data.Services.Client.DataServiceQueryContinuation%601&gt;对象包含的 URI，在执行时会返回查询结果中的下一页数据。&lt;/xref:System.Data.Services.Client.DataServiceQueryContinuation%601&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The entity that contains the property to load.</source>
+          <target state="translated">包含要加载的属性的实体。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The name of the property of the specified entity to load.</source>
+          <target state="translated">要加载的指定实体的属性的名称。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Data.Services.Client.DataServiceQueryContinuation%601<ph id="ph2">&amp;gt;</ph> object that represents the next page of related entity data to return from the data service.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Data.Services.Client.DataServiceQueryContinuation%601<ph id="ph2">&amp;gt;</ph>对象，表示的下一页相关实体数据要从数据服务返回。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>Delegate to invoke when results are available for client consumption.</source>
+          <target state="translated">当结果可供客户端使用时将调用的委托。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>User-defined state object passed to the callback.</source>
+          <target state="translated">用户定义的状态对象传递给回调。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the status of the operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;，表示该操作的状态。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Asynchronously loads a page of related entities from the data service by using the supplied next link URI.</source>
+          <target state="translated">通过使用提供的下一链接 URI 从数据服务中异步加载相关实体页。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`entity`</ph> is in an &lt;xref:System.Data.Services.Client.EntityStates&gt; or &lt;xref:System.Data.Services.Client.EntityStates&gt; state, the related entities are loaded in the &lt;xref:System.Data.Services.Client.EntityStates&gt; state, and the links between the entities are also created in an &lt;xref:System.Data.Services.Client.EntityStates&gt; state.</source>
+          <target state="translated">当<ph id="ph1">`entity`</ph>处于&lt;xref:System.Data.Services.Client.EntityStates&gt;或&lt;xref:System.Data.Services.Client.EntityStates&gt;状态时，在加载相关的实体&lt;xref:System.Data.Services.Client.EntityStates&gt;状态和实体之间的链接也在中创建&lt;xref:System.Data.Services.Client.EntityStates&gt;状态。&lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`entity`</ph> is in a &lt;xref:System.Data.Services.Client.EntityStates&gt; state, the related entities are loaded in the &lt;xref:System.Data.Services.Client.EntityStates&gt; state, and the links between the entities are created in the &lt;xref:System.Data.Services.Client.EntityStates&gt; state.</source>
+          <target state="translated">当<ph id="ph1">`entity`</ph>处于&lt;xref:System.Data.Services.Client.EntityStates&gt;状态时，在加载相关的实体&lt;xref:System.Data.Services.Client.EntityStates&gt;中创建状态和实体之间的链接&lt;xref:System.Data.Services.Client.EntityStates&gt;状态。&lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The entity that contains the property to load.</source>
+          <target state="translated">包含要加载的属性的实体。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The name of the property of the specified entity to load.</source>
+          <target state="translated">要加载的指定实体的属性的名称。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The URI used to load the next results page.</source>
+          <target state="translated">用于加载下一结果页的 URI。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Delegate to invoke when results are available for client consumption.</source>
+          <target state="translated">当结果可供客户端使用时将调用的委托。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>User-defined state object passed to the callback.</source>
+          <target state="translated">用户定义的状态对象传递给回调。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; object that is used to track the status of the asynchronous operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;用于跟踪异步操作的状态的对象。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Asynchronously submits the pending changes to the data service collected by the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> since the last time changes were saved.</source>
+          <target state="translated">以异步方式将提交到数据服务所收集的挂起的更改<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>由于已保存最近的时间更改。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Changes are added to the &lt;xref:System.Data.Services.Client.DataServiceContext&gt; by calling the &lt;xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.AttachTo%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.AttachLink%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.DeleteObject%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.DeleteLink%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.Detach%2A&gt;, or &lt;xref:System.Data.Services.Client.DataServiceContext.DetachLink%2A&gt;.</source>
+          <target state="translated">更改添加到&lt;xref:System.Data.Services.Client.DataServiceContext&gt;通过调用&lt;xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.AttachTo%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.AttachLink%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.DeleteObject%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.DeleteLink%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.Detach%2A&gt;，或&lt;xref:System.Data.Services.Client.DataServiceContext.DetachLink%2A&gt;。&lt;/xref:System.Data.Services.Client.DataServiceContext.DetachLink%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.Detach%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.DeleteLink%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.DeleteObject%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.AttachLink%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.AttachTo%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Changes are sent to the data service, as with the &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt; method, one change operation per HTTP request.</source>
+          <target state="translated">更改发送到数据服务，作为与&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;方法时，每个 HTTP 请求一个更改操作。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>If an error occurs while processing an operation, no additional operations are processed by the data service.</source>
+          <target state="translated">如果在处理操作时发生错误，不由数据服务处理任何其他操作。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Instead, a response is generated telling the client what operations were executed, the results, and which operations were not tried because of an error.</source>
+          <target state="translated">相反，会生成一个响应，告知客户端已执行的操作、 结果以及因错误而未尝试的操作。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the operation is completed.</source>
+          <target state="translated">要完成该操作后调用的委托。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The user-defined state object that is used to pass context data to the callback method.</source>
+          <target state="translated">用于将上下文数据传递给回调方法的用户定义的状态对象。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_IAsyncResult" name="IAsyncResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the status of the asynchronous operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_IAsyncResult" name="IAsyncResult" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示异步操作的状态。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Asynchronously submits the pending changes to the data service collected by the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> since the last time changes were saved.</source>
+          <target state="translated">以异步方式将提交到数据服务所收集的挂起的更改<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>由于已保存最近的时间更改。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Changes are added to the &lt;xref:System.Data.Services.Client.DataServiceContext&gt; by calling the &lt;xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.AttachTo%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.AttachLink%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.DeleteObject%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.DeleteLink%2A&gt;, &lt;xref:System.Data.Services.Client.DataServiceContext.Detach%2A&gt;, or &lt;xref:System.Data.Services.Client.DataServiceContext.DetachLink%2A&gt;.</source>
+          <target state="translated">更改添加到&lt;xref:System.Data.Services.Client.DataServiceContext&gt;通过调用&lt;xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.AttachTo%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.AttachLink%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.DeleteObject%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.DeleteLink%2A&gt;， &lt;xref:System.Data.Services.Client.DataServiceContext.Detach%2A&gt;，或&lt;xref:System.Data.Services.Client.DataServiceContext.DetachLink%2A&gt;。&lt;/xref:System.Data.Services.Client.DataServiceContext.DetachLink%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.Detach%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.DeleteLink%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.DeleteObject%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.AttachLink%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.AttachTo%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Data.Services.Client.SaveChangesOptions&gt; is set, all pending changes are included in a single change set in a batch and submitted to the data service in a single HTTP request.</source>
+          <target state="translated">如果&lt;xref:System.Data.Services.Client.SaveChangesOptions&gt;设置，所有挂起的更改都将包括在单个变更集中在批处理中，并提交到单个 HTTP 请求中的数据服务。&lt;/xref:System.Data.Services.Client.SaveChangesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This requires that the target service supports batching.</source>
+          <target state="translated">这要求目标服务支持批处理。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Data.Services.Client.SaveChangesOptions&gt; is not set:      -   Changes are sent to the data service such as in the &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges&gt; method: one operation to one HTTP request.</source>
+          <target state="translated">如果&lt;xref:System.Data.Services.Client.SaveChangesOptions&gt;未设置:-更改发送到数据服务例如，在&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges&gt;方法︰ 一个操作对应于一个 HTTP 请求。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges&gt; &lt;/xref:System.Data.Services.Client.SaveChangesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Data.Services.Client.OperationResponse.StatusCode%2A&gt; is always 200.</source>
+          <target state="translated">-&lt;xref:System.Data.Services.Client.OperationResponse.StatusCode%2A&gt;始终为 200。&lt;/xref:System.Data.Services.Client.OperationResponse.StatusCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>-   The &lt;xref:System.Data.Services.Client.OperationResponse.Headers%2A&gt; property returns an empty collection.</source>
+          <target state="translated">-&lt;xref:System.Data.Services.Client.OperationResponse.Headers%2A&gt;属性返回一个空集合。&lt;/xref:System.Data.Services.Client.OperationResponse.Headers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Data.Services.Client.SaveChangesOptions&gt; is set:      -   If an error occurs processing an operation in a change set, the subsequent operations in the change set will not be tried; however, the data service will continue to process the next change set in the batch.</source>
+          <target state="translated">如果&lt;xref:System.Data.Services.Client.SaveChangesOptions&gt;设置:-如果处理更改集中的操作发生错误，将不会尝试更改集中的后续操作; 但是，数据服务将继续处理下一次批处理中设置的更改。&lt;/xref:System.Data.Services.Client.SaveChangesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>-   This option cannot be set when &lt;xref:System.Data.Services.Client.SaveChangesOptions&gt; is set because when batching is enabled, all operations are positioned in a single change set.</source>
+          <target state="translated">-此选项不能设置时&lt;xref:System.Data.Services.Client.SaveChangesOptions&gt;设置，因为启用批处理时，所有操作都将都放置在单个变更集中。&lt;/xref:System.Data.Services.Client.SaveChangesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Data.Services.Client.SaveChangesOptions&gt; is not set:      -   If an error occurs while processing an operation, no additional operations are processed by the data service.</source>
+          <target state="translated">如果&lt;xref:System.Data.Services.Client.SaveChangesOptions&gt;未设置:-如果在处理操作，无需额外时发生错误操作处理数据服务。&lt;/xref:System.Data.Services.Client.SaveChangesOptions&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>A response is generated telling the client which operations were executed, their results, and what operations were not tried because of the error.</source>
+          <target state="translated">为生成响应，告知客户端已执行的操作、 它们的结果，以及因错误而未尝试的操作。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The options for how the client can save the pending set of changes.</source>
+          <target state="translated">有关客户端可以如何保存挂起的更改集的选项。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the operation is completed.</source>
+          <target state="translated">要完成该操作后调用的委托。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The user-defined state object that is used to pass context data to the callback method.</source>
+          <target state="translated">用于将上下文数据传递给回调方法的用户定义的状态对象。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the status of the asynchronous operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;表示异步操作的状态。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Attempts to cancel the operation that is associated with the supplied &lt;xref:System.IAsyncResult&gt; object.</source>
+          <target state="translated">尝试取消该操作与所提供的&lt;xref:System.IAsyncResult&gt;对象。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; object passed to the <ph id="ph1">`asyncResult`</ph> parameter is the object returned when an operation is executed asynchronously.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;对象传递给<ph id="ph1">`asyncResult`</ph>参数是以异步方式执行操作时返回的对象。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Asynchronous Operations<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.Until this request is processed, the &lt;xref:System.Data.Services.Client.DataServiceContext&gt; instance is not in a predictable state.</source>
+          <target state="translated">有关详细信息，请参阅<bpt id="p1">[</bpt>异步操作<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。处理此请求时，直到&lt;xref:System.Data.Services.Client.DataServiceContext&gt;实例未处于可预测的状态。&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Services.Client.DataServiceContext&gt; can be safely used when the &lt;xref:System.IAsyncResult.IsCompleted%2A&gt; property of the <ph id="ph1">`asyncResult`</ph> returns a value of <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceContext&gt;可以安全地时要使用&lt;xref:System.IAsyncResult.IsCompleted%2A&gt;属性<ph id="ph1">`asyncResult`</ph>返回的值<ph id="ph2">`true`</ph>。&lt;/xref:System.IAsyncResult.IsCompleted%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; object from the operation being canceled.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;从要取消操作的对象。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Gets or sets the authentication information that is used by each query created by using the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取或设置通过使用创建的每个查询使用的身份验证信息<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The base authentication interface for retrieving credentials for Web client authentication.</source>
+          <target state="translated">用于检索 Web 客户端身份验证的凭据的基本身份验证接口。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Gets or sets the XML namespace for data items, not metadata items, of an Atom payload.</source>
+          <target state="translated">获取或设置，而非元数据项，Atom 负载数据项的 XML 命名空间。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The default value of this property is the default <ph id="ph1">[!INCLUDE[ssAstoria](~/add/includes/ssastoria-md.md)]</ph> namespace: <ph id="ph2">`http://schemas.microsoft.com/ado/2007/08/dataservices`</ph>.</source>
+          <target state="translated">此属性的默认值是默认设置<ph id="ph1">[!INCLUDE[ssAstoria](~/add/includes/ssastoria-md.md)]</ph>命名空间︰ <ph id="ph2">`http://schemas.microsoft.com/ado/2007/08/dataservices`</ph>。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>This property affects both the namespace that is used for parsing content from the data service and the namespace used to generate content sent to the data service.</source>
+          <target state="translated">此属性会影响用于从数据服务的分析内容的命名空间和用于生成发送到数据服务的内容的命名空间。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>A string representing the XML namespace for data items of a payload in the ATOM format.</source>
+          <target state="translated">有关在 ATOM 负载数据项格式表示的 XML 命名空间的字符串。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Changes the state of the link to deleted in the list of links being tracked by the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">更改链接到的状态的跟踪的链接列表中删除<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Any link being tracked by the &lt;xref:System.Data.Services.Client.DataServiceContext&gt;, regardless of its current state, can be detached.</source>
+          <target state="translated">跟踪的任何链接&lt;xref:System.Data.Services.Client.DataServiceContext&gt;，而不考虑其当前状态，均可分离。&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The source object in the link to be marked for deletion.</source>
+          <target state="translated">中要标记为要删除的链接的源对象。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The name of the navigation property on the source object that is used to access the target object.</source>
+          <target state="translated">用于访问目标对象的源对象上的导航属性的名称。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The target object involved in the link that is bound to the source object.</source>
+          <target state="translated">绑定到源对象的链接中涉及的目标对象中。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The target object must be of the type identified by the source property or a subtype.</source>
+          <target state="translated">标识源属性或子类型必须是类型的目标对象。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">target</ph><ept id="p3">&lt;/code&gt;</ept> is null.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">target</ph><ept id="p3">&lt;/code&gt;</ept> is null.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> is in a <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or <bpt id="p4">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> is in a <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or <bpt id="p4">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>-or-       When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceProperty</ph><ept id="p1">&lt;/code&gt;</ept> is not a collection.</source>
+          <target state="translated">-或-当<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sourceProperty</ph> <ept id="p1">&lt;/code&gt;</ept>不是一个集合。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Changes the state of the specified object to be deleted in the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">要在中删除的指定对象的状态更改<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>All links to the specified entity are also marked deleted.</source>
+          <target state="translated">与指定实体的所有链接也会都标记已删除。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The tracked entity to be changed to the deleted state.</source>
+          <target state="translated">将更改为已删除状态被跟踪的实体。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>When the object is not being tracked by the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">当对象不由跟踪<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Removes the entity from the list of entities that the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is tracking.</source>
+          <target state="translated">从实体的列表中移除该实体， <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>是否在跟踪。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Once an object is detached, it is no longer tracked by the &lt;xref:System.Data.Services.Client.DataServiceContext&gt;.</source>
+          <target state="translated">一旦对象分离时，无法再跟踪&lt;xref:System.Data.Services.Client.DataServiceContext&gt;。&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The Detach method can be called to detach any object, regardless of its &lt;xref:System.Data.Services.Client.EntityStates&gt;.</source>
+          <target state="translated">Detach 方法可以调用以进行分离任何对象，而不考虑其&lt;xref:System.Data.Services.Client.EntityStates&gt;.&lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>After detaching the specified entity, this method also detaches any links related to the entity.</source>
+          <target state="translated">分离后指定的实体，此方法还将分离与实体相关的任何链接。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The tracked entity to be detached from the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">若要分离的被跟踪的实体<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>Returns <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified entity was detached; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果指定的实体已分离; 否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Removes the specified link from the list of links being tracked by the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">从所跟踪的链接列表中移除指定的链接<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Any link being tracked by the &lt;xref:System.Data.Services.Client.DataServiceContext&gt;, regardless of its current state, can be detached.</source>
+          <target state="translated">跟踪的任何链接&lt;xref:System.Data.Services.Client.DataServiceContext&gt;，而不考虑其当前状态，均可分离。&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>The source object participating in the link to be marked for deletion.</source>
+          <target state="translated">源对象参与标记为删除的链接。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The name of the property on the source object that represents the source in the link between the source and the target.</source>
+          <target state="translated">表示在源和目标之间的链接中的源的源对象上的属性名称。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The target object involved in the link that is bound to the source object.</source>
+          <target state="translated">绑定到源对象的链接中涉及的目标对象中。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The target object must be of the type identified by the source property or a subtype.</source>
+          <target state="translated">标识源属性或子类型必须是类型的目标对象。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Returns true if the specified entity was detached; otherwise false.</source>
+          <target state="translated">如果指定的实体已分离; 则返回 true否则为 false。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept> are <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept> are <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceProperty</ph><ept id="p1">&lt;/code&gt;</ept> is an empty string.</source>
+          <target state="translated">当<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sourceProperty</ph> <ept id="p1">&lt;/code&gt;</ept>为空字符串。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Called to complete the &lt;xref:System.Data.Services.Client.DataServiceContext.BeginExecuteBatch*&gt;.</source>
+          <target state="translated">调用以完成&lt;xref:System.Data.Services.Client.DataServiceContext.BeginExecuteBatch*&gt;.&lt;/xref:System.Data.Services.Client.DataServiceContext.BeginExecuteBatch*&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Submits a group of queries as a batch to the data service.</source>
+          <target state="translated">将一组查询以对数据服务批处理方式提交。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Individual query responses are represented as &lt;xref:System.Data.Services.Client.DataServiceResponse&gt; objects derived from &lt;xref:System.Data.Services.Client.OperationResponse&gt; that can be accessed from the &lt;xref:System.Data.Services.Client.DataServiceResponse&gt; instance.</source>
+          <target state="translated">单个查询响应表示为&lt;xref:System.Data.Services.Client.DataServiceResponse&gt;对象派生自&lt;xref:System.Data.Services.Client.OperationResponse&gt;可访问从&lt;xref:System.Data.Services.Client.DataServiceResponse&gt;实例。&lt;/xref:System.Data.Services.Client.DataServiceResponse&gt; &lt;/xref:System.Data.Services.Client.OperationResponse&gt; &lt;/xref:System.Data.Services.Client.DataServiceResponse&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the status of the asynchronous operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;表示异步操作的状态。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The<bpt id="p1">&lt;xref uid="langword_csharp_ DataServiceResult" name=" DataServiceResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that indicates the result of the batch operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_ DataServiceResult" name=" DataServiceResult" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象，指示批处理操作的结果。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Called to complete the asynchronous operation of retrieving a binary property as a stream.</source>
+          <target state="translated">调用以完成异步操作，检索以流的形式的二进制属性。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>The EndGetReadStream method is called to receive the results from the &lt;xref:System.Data.Services.Client.DataServiceContext.BeginGetReadStream%2A&gt; method.</source>
+          <target state="translated">调用 EndGetReadStream 方法以接收从结果&lt;xref:System.Data.Services.Client.DataServiceContext.BeginGetReadStream%2A&gt;方法。&lt;/xref:System.Data.Services.Client.DataServiceContext.BeginGetReadStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The EndGetReadStream method does not complete until the response is received from the &lt;xref:System.Data.Services.Client.DataServiceContext.BeginGetReadStream%2A&gt; method.</source>
+          <target state="translated">EndGetReadStream 方法不会完成之前收到来自响应&lt;xref:System.Data.Services.Client.DataServiceContext.BeginGetReadStream%2A&gt;方法。&lt;/xref:System.Data.Services.Client.DataServiceContext.BeginGetReadStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The result from the &lt;xref:System.Data.Services.Client.DataServiceContext.BeginGetReadStream*&gt; operation that contains the binary data stream.</source>
+          <target state="translated">从结果&lt;xref:System.Data.Services.Client.DataServiceContext.BeginGetReadStream*&gt;包含二进制数据流的操作。&lt;/xref:System.Data.Services.Client.DataServiceContext.BeginGetReadStream*&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceStreamResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> which contains the response stream along with its metadata.</source>
+          <target state="translated">实例<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceStreamResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>其中包含响应流及其元数据。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Called to complete the &lt;xref:System.Data.Services.Client.DataServiceContext.BeginLoadProperty*&gt; operation.</source>
+          <target state="translated">调用以完成&lt;xref:System.Data.Services.Client.DataServiceContext.BeginLoadProperty*&gt;操作。&lt;/xref:System.Data.Services.Client.DataServiceContext.BeginLoadProperty*&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>If an error occurs during the request or while processing the response from the data service, an exception is thrown.</source>
+          <target state="translated">如果发生错误的请求期间或在处理来自数据服务的响应时，将引发异常。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the status of the asynchronous operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;表示异步操作的状态。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The response to the load operation.</source>
+          <target state="translated">对加载操作的响应。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Called to complete the &lt;xref:System.Data.Services.Client.DataServiceContext.BeginSaveChanges*&gt; operation.</source>
+          <target state="translated">调用以完成&lt;xref:System.Data.Services.Client.DataServiceContext.BeginSaveChanges*&gt;操作。&lt;/xref:System.Data.Services.Client.DataServiceContext.BeginSaveChanges*&gt;</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Services.Client.DataServiceResponse.BatchStatusCode%2A&gt; should be inspected to see the result of batch operations.</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceResponse.BatchStatusCode%2A&gt;应检查以查看批处理操作的结果。&lt;/xref:System.Data.Services.Client.DataServiceResponse.BatchStatusCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Individual operation results can be retrieved on the operation objects returned by the &lt;xref:System.Data.Services.Client.DataServiceResponse&gt; enumerator.</source>
+          <target state="translated">可以返回的操作对象上检索单个操作结果&lt;xref:System.Data.Services.Client.DataServiceResponse&gt;枚举器。&lt;/xref:System.Data.Services.Client.DataServiceResponse&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the status of the asynchronous operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;表示异步操作的状态。&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that indicates the result of the batch operation.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对象，指示批处理操作的结果。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets a list of all the resources currently being tracked by the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">获取当前跟踪的所有资源的列表<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>If no resources are being tracked, a list that has zero elements is returned.</source>
+          <target state="translated">如果未不跟踪任何资源，则返回具有零个元素的列表。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>A list of <bpt id="p1">&lt;xref href="System.Data.Services.Client.EntityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that represent all the resources currently being tracked by the <bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">一份<bpt id="p1">&lt;xref href="System.Data.Services.Client.EntityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示当前跟踪的所有资源的对象<bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Submits a group of queries as a batch to the data service.</source>
+          <target state="translated">将一组查询以对数据服务批处理方式提交。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>The queries are specified as &lt;xref:System.Data.Services.Client.DataServiceRequest%601&gt; instances.</source>
+          <target state="translated">查询指定为&lt;xref:System.Data.Services.Client.DataServiceRequest%601&gt;实例。&lt;/xref:System.Data.Services.Client.DataServiceRequest%601&gt;</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>Returns a &lt;xref:System.Data.Services.Client.DataServiceResponse&gt; that represents the response of the batch request as a whole.</source>
+          <target state="translated">返回&lt;xref:System.Data.Services.Client.DataServiceResponse&gt;表示作为一个整体的批处理请求的响应。&lt;/xref:System.Data.Services.Client.DataServiceResponse&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Individual query responses are represented as individual &lt;xref:System.Data.Services.Client.OperationResponse&gt; objects that can be accessed by enumerating the &lt;xref:System.Data.Services.Client.DataServiceResponse&gt; instance.</source>
+          <target state="translated">单个查询响应表示为单个&lt;xref:System.Data.Services.Client.OperationResponse&gt;可以通过枚举来访问的对象&lt;xref:System.Data.Services.Client.DataServiceResponse&gt;实例。&lt;/xref:System.Data.Services.Client.DataServiceResponse&gt; &lt;/xref:System.Data.Services.Client.OperationResponse&gt;</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>When this method returns the whole HTTP response for the batch request has been read from the network stream, but the responses have not been processed.</source>
+          <target state="translated">当此方法返回的整个 HTTP 响应的批处理请求具有已从网络流读取，但尚未处理响应。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>No identity resolution or object materialization occurs for a specified entity in the response until it is enumerated.</source>
+          <target state="translated">之前在枚举响应中指定的实体的标识解析或对象具体化操作。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Array of [T:System.Data.Services.Client.DataServiceRequest<ph id="ph1">\&amp;</ph>lt;xref:System.Data.Services.Client.DataServiceRequest%5B%5D<ph id="ph2">&amp;gt;</ph> objects that make up the queries.</source>
+          <target state="translated">数组 [T:System.Data.Services.Client.DataServiceRequest<ph id="ph1">\&amp;</ph>lt;xref:System.Data.Services.Client.DataServiceRequest%5B%5D<ph id="ph2">&amp;gt;</ph>构成查询的对象。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The response to the batch operation.</source>
+          <target state="translated">对批处理操作的响应。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.Services.Client.EntityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the supplied entity object.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Data.Services.Client.EntityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>提供的实体对象。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The object for which to return the entity descriptor.</source>
+          <target state="translated">为其返回实体描述符的对象。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Services.Client.EntityDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance for the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p2">&lt;/code&gt;</ept>, or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if an <bpt id="p4">&lt;xref href="System.Data.Services.Client.EntityDescriptor"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> does not exist for the object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Services.Client.EntityDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>实例<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p2">&lt;/code&gt;</ept>，或<bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>如果<bpt id="p4">&lt;xref href="System.Data.Services.Client.EntityDescriptor"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>不存在的对象。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.Services.Client.LinkDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for a specific link that defines the relationship between two entities.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Data.Services.Client.LinkDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>特定的链接，以便定义两个实体之间的关系。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Source object in the link</source>
+          <target state="translated">链接中的源对象</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The name of the navigation property on the <ph id="ph1">`source`</ph> object that returns the related object.</source>
+          <target state="translated">上的导航属性的名称<ph id="ph1">`source`</ph>返回相关的对象的对象。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The related entity.</source>
+          <target state="translated">相关的实体。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.Services.Client.LinkDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance for the specified relationship, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if a <bpt id="p3">&lt;xref href="System.Data.Services.Client.LinkDescriptor"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> does not exist for the relationship.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.Services.Client.LinkDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>实例对于指定的关系，或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果<bpt id="p3">&lt;xref href="System.Data.Services.Client.LinkDescriptor"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>不存在关系。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Gets a URI of the location of .edmx metadata.</source>
+          <target state="translated">获取.edmx 元数据的位置的 URI。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>Returns the URI passed to the constructor with a single path segment (<ph id="ph1">`/$metadata`</ph>) appended.</source>
+          <target state="translated">返回传递到具有单个路径段的构造函数的 URI (<ph id="ph1">`/$metadata`</ph>) 追加。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Calling this method may generate a network operation to dynamically discover the metadata URI.</source>
+          <target state="translated">调用此方法可能会生成网络操作，以便动态发现元数据 URI。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>A URI that identifies the location of the metadata description, in .edmx format, for the data service identified by the base URI that is passed to the constructor.</source>
+          <target state="translated">一个 URI，标识中.edmx 格式，由传递给构造函数的基 URI 标识的数据服务元数据说明的位置。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Gets binary property data for the specified entity as a data stream.</source>
+          <target state="translated">以数据流的形式获取指定的实体二进制属性数据。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The GetReadStream method synchronously requests a data stream that contains the binary property of the requested <ph id="ph1">`entity`</ph>.</source>
+          <target state="translated">GetReadStream 方法以同步方式请求包含所请求的二进制属性的数据流<ph id="ph1">`entity`</ph>。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>In the AtomPub protocol, the <ph id="ph1">`entity`</ph> is a Media Link Entry and the binary property is the associated Media Resource.</source>
+          <target state="translated">在 AtomPub 协议中，<ph id="ph1">`entity`</ph>为媒体链接入口，二进制属性为关联的媒体资源。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The entity that has the binary property to retrieve.</source>
+          <target state="translated">具有要检索的二进制属性的实体。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceStreamResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the response.</source>
+          <target state="translated">实例<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceStreamResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示响应。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1"> entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The<bpt id="p1">&lt;code&gt;</bpt><ph id="ph1"> entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not tracked by this <bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>不跟踪此<bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not a Media Link Entry and does not have a binary property.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>不是媒体链接入口，并且没有二进制属性。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Gets binary property data for the specified entity as a data stream along with the specified message headers.</source>
+          <target state="translated">获取与指定的消息标头一起数据流形式指定的实体二进制属性数据。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>The GetReadStream method synchronously requests a data stream that contains the binary property of the requested <ph id="ph1">`entity`</ph>.</source>
+          <target state="translated">GetReadStream 方法以同步方式请求包含所请求的二进制属性的数据流<ph id="ph1">`entity`</ph>。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>In the AtomPub protocol, the <ph id="ph1">`entity`</ph> is a Media Link Entry and the binary property is the associated Media Resource.</source>
+          <target state="translated">在 AtomPub 协议中，<ph id="ph1">`entity`</ph>为媒体链接入口，二进制属性为关联的媒体资源。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>No validation is performed on the headers that are set in <ph id="ph1">`args`</ph>.</source>
+          <target state="translated">在中设置的标头不执行任何验证<ph id="ph1">`args`</ph>。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Therefore, do not change an HTTP header in a way that changes the meaning of the request.</source>
+          <target state="translated">因此，不要以更改方式来更改请求含义的 HTTP 标头。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>The entity that has the binary property to retrieve.</source>
+          <target state="translated">具有要检索的二进制属性的实体。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>Instance of <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceRequestArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that contains settings for the HTTP request message.</source>
+          <target state="translated">实例<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceRequestArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含 HTTP 请求消息设置的类。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceStreamResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the response.</source>
+          <target state="translated">实例<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceStreamResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示响应。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;entity&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;entity&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;args&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not tracked by this <bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>不跟踪此<bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not a Media Link Entry and does not have a binary property.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>不是媒体链接入口，并且没有二进制属性。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Gets binary property data for the specified entity as a data stream, with the specified Accept message header.</source>
+          <target state="translated">获取作为数据流中，指定 Accept 消息标头与指定的实体二进制属性数据。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`acceptContentType`</ph> parameter should be a valid value for the Accept HTTP header.</source>
+          <target state="translated"><ph id="ph1">`acceptContentType`</ph>参数应为有效接受 HTTP 标头值。</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>The GetReadStream method synchronously requests a data stream that contains the binary property of the requested <ph id="ph1">`entity`</ph>.</source>
+          <target state="translated">GetReadStream 方法以同步方式请求包含所请求的二进制属性的数据流<ph id="ph1">`entity`</ph>。</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>In the AtomPub protocol, the <ph id="ph1">`entity`</ph> is a Media Link Entry and the binary property is the associated Media Resource.</source>
+          <target state="translated">在 AtomPub 协议中，<ph id="ph1">`entity`</ph>为媒体链接入口，二进制属性为关联的媒体资源。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>No validation is performed on the headers that are set in <ph id="ph1">`acceptContentType`</ph>.</source>
+          <target state="translated">在中设置的标头不执行任何验证<ph id="ph1">`acceptContentType`</ph>。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>Therefore, do not change this HTTP header in a way that changes the meaning of the request.</source>
+          <target state="translated">因此，不要以更改此更改请求含义的方式的 HTTP 标头。</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>The entity that has the binary property to retrieve.</source>
+          <target state="translated">具有要检索的二进制属性的实体。</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>The content type of the data requested from the data service, specified in the Accept header.</source>
+          <target state="translated">从指定 Accept 标头中的数据服务请求的数据内容类型。</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceStreamResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the response.</source>
+          <target state="translated">实例<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceStreamResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示响应。</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;entity&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;entity&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;acceptContentType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;acceptContentType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not tracked by this <bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>不跟踪此<bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not a Media Link Entry and does not have a binary property.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>不是媒体链接入口，并且没有二进制属性。</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>Gets the URI that is used to return binary property data as a data stream.</source>
+          <target state="translated">获取用于返回数据流形式的二进制属性数据的 URI。</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>When the specified <ph id="ph1">`entity`</ph> is a Media Link Entry, the GetReadStreamUri method returns a URI that is used to access the content of the Media Resource.</source>
+          <target state="translated">当指定<ph id="ph1">`entity`</ph>是媒体链接入口，GetReadStreamUri 方法返回一个 URI，用于访问媒体资源内容。</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>This URI is only used to in a GET request to read the content of a Media Resource.</source>
+          <target state="translated">此 URI 是仅用于在 GET 请求来读取媒体资源内容。</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>It may not respond to POST, PUT, or DELETE requests.</source>
+          <target state="translated">它可能不响应 POST、 PUT 或 DELETE 请求。</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>The entity that has the binary property to retrieve.</source>
+          <target state="translated">具有要检索的二进制属性的实体。</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>The read URI of the binary data stream.</source>
+          <target state="translated">读取二进制数据流的 URI。</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>If the entity specified is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果指定的实体是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not tracked by this <bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>不跟踪此<bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>Gets or sets whether the properties read from the type must be mapped to properties on the client-side type.</source>
+          <target state="translated">获取或设置是否从类型读取的属性必须映射到客户端类型上的属性。</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`true`</ph>, materialization succeeds even if properties from the type cannot be mapped to properties of the client type.</source>
+          <target state="translated">如果<ph id="ph1">`true`</ph>，具体化将成功，即使从类型的属性不能映射到客户端类型的属性。</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`false`</ph>, the property mismatch raises an exception during object materialization.</source>
+          <target state="translated">如果<ph id="ph1">`false`</ph>，属性不匹配而引发对象具体化过程中的出现异常。</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>A Boolean value that indicates whether the properties read from the type must be mapped to properties on the client-side type.</source>
+          <target state="translated">一个布尔值，该值指示是否必须从类型读取的属性映射到客户端类型上的属性。</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Gets or sets whether an exception is raised when a 404 error (resource not found) is returned by the data service.</source>
+          <target state="translated">获取或设置是否由数据服务返回 404 错误 （找不到资源） 时，将引发异常。</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>When set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the client library returns an empty set instead of raising a <bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceQueryException"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> when the data service returns an HTTP 404: Resource Not Found error.</source>
+          <target state="translated">当设置为<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，客户端库会返回空集而不是引发<bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceQueryException"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>当数据服务返回 HTTP 404︰ 找不到资源错误。</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>Gets the collection of all associations or links currently being tracked by the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">获取所有关联的集合或链接当前跟踪<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>If no links are currently being tracked, a list that has 0 elements is returned.</source>
+          <target state="translated">如果当前未不跟踪任何链接，则返回具有 0 个元素的列表。</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>The collection is read only.</source>
+          <target state="translated">集合是只读的。</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Data.Services.Client.LinkDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that represent all associations or links current being tracked by the current being tracked by the <bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">集合<bpt id="p1">&lt;xref href="System.Data.Services.Client.LinkDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示所有关联或链接当前由当前跟踪的跟踪的对象<bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象。</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>Loads deferred content for a specified property from the data service.</source>
+          <target state="translated">加载延迟从数据服务的指定属性的内容。</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>Calling this method invokes a network operation to fetch the property value.</source>
+          <target state="translated">调用此方法时，将调用网络操作以提取属性值。</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>The property specified may be any one of the properties on the entity, including properties that represent associations or links.</source>
+          <target state="translated">指定的属性可以为任意一个的实体，包括表示关联或链接的属性上的属性。</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>If the property represents an association, link or deferred property, calling this method provides the client a way to lazily load related resources.</source>
+          <target state="translated">如果属性是表示关联、 链接或延迟的属性，调用此方法为客户端提供延迟加载相关的资源的方式。</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>If the entity is in the unchanged or modified state, the property value loads the related entities and marks them unchanged with unchanged links       If the property is already loaded, calling this method lets you refresh the value of the property.</source>
+          <target state="translated">如果实体处于 unchanged 或 modified 状态时，属性值加载相关的实体，并将其与未更改链接不变，如果已加载属性标记，调用此方法可让您刷新该属性的值。</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>The entity that contains the property to load.</source>
+          <target state="translated">包含要加载的属性的实体。</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>The name of the property of the specified entity to load.</source>
+          <target state="translated">要加载的指定实体的属性的名称。</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>The response to the load operation.</source>
+          <target state="translated">对加载操作的响应。</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>Loads the next page of related entities from the data service by using the supplied query continuation object.</source>
+          <target state="translated">通过使用所提供的查询延续对象从数据服务加载下一页相关实体。</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`entity`</ph> is in an &lt;xref:System.Data.Services.Client.EntityStates&gt; or &lt;xref:System.Data.Services.Client.EntityStates&gt; state, the related entities are loaded as objects in an &lt;xref:System.Data.Services.Client.EntityStates&gt; state, with links also in &lt;xref:System.Data.Services.Client.EntityStates&gt; state.</source>
+          <target state="translated">当<ph id="ph1">`entity`</ph>处于&lt;xref:System.Data.Services.Client.EntityStates&gt;或&lt;xref:System.Data.Services.Client.EntityStates&gt;状态时，将相关的实体作为对象中进行加载&lt;xref:System.Data.Services.Client.EntityStates&gt;状态，并且链接也在&lt;xref:System.Data.Services.Client.EntityStates&gt;状态。&lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`entity`</ph> is in a &lt;xref:System.Data.Services.Client.EntityStates&gt; state, the related entities are loaded as objects in an &lt;xref:System.Data.Services.Client.EntityStates&gt; state, with links that are in the &lt;xref:System.Data.Services.Client.EntityStates&gt; state.</source>
+          <target state="translated">当<ph id="ph1">`entity`</ph>处于&lt;xref:System.Data.Services.Client.EntityStates&gt;状态时，将相关的实体作为对象中进行加载&lt;xref:System.Data.Services.Client.EntityStates&gt;状态，并且链接也处于&lt;xref:System.Data.Services.Client.EntityStates&gt;状态。&lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>The entity that contains the property to load.</source>
+          <target state="translated">包含要加载的属性的实体。</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>The name of the property of the specified entity to load.</source>
+          <target state="translated">要加载的指定实体的属性的名称。</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">&amp;lt;</ph>xref:System.Data.Services.Client.DataServiceQueryContinuation%601<ph id="ph2">&amp;gt;</ph> object that represents the next page of related entities to load from the data service.</source>
+          <target state="translated">A <ph id="ph1">&amp;lt;</ph>xref:System.Data.Services.Client.DataServiceQueryContinuation%601<ph id="ph2">&amp;gt;</ph>表示的下一页相关实体，从数据服务加载的对象。</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>The response that contains the next page of related entity data.</source>
+          <target state="translated">包含下一页相关的实体数据的响应。</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>Loads a page of related entities by using the supplied next link URI.</source>
+          <target state="translated">通过使用提供的下一链接 URI 加载相关实体页。</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`entity`</ph> is in an &lt;xref:System.Data.Services.Client.EntityStates&gt; or &lt;xref:System.Data.Services.Client.EntityStates&gt; state, the related entities are loaded in the &lt;xref:System.Data.Services.Client.EntityStates&gt; state, and the links between the entities are also created in an &lt;xref:System.Data.Services.Client.EntityStates&gt; state.</source>
+          <target state="translated">当<ph id="ph1">`entity`</ph>处于&lt;xref:System.Data.Services.Client.EntityStates&gt;或&lt;xref:System.Data.Services.Client.EntityStates&gt;状态时，在加载相关的实体&lt;xref:System.Data.Services.Client.EntityStates&gt;状态和实体之间的链接也在中创建&lt;xref:System.Data.Services.Client.EntityStates&gt;状态。&lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`entity`</ph> is in a &lt;xref:System.Data.Services.Client.EntityStates&gt; state, the related entities are loaded in the &lt;xref:System.Data.Services.Client.EntityStates&gt; state, and the links between the entities are created in the &lt;xref:System.Data.Services.Client.EntityStates&gt; state.</source>
+          <target state="translated">当<ph id="ph1">`entity`</ph>处于&lt;xref:System.Data.Services.Client.EntityStates&gt;状态时，在加载相关的实体&lt;xref:System.Data.Services.Client.EntityStates&gt;中创建状态和实体之间的链接&lt;xref:System.Data.Services.Client.EntityStates&gt;状态。&lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>The entity that contains the property to load.</source>
+          <target state="translated">包含要加载的属性的实体。</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>The name of the property of the specified entity to load.</source>
+          <target state="translated">要加载的指定实体的属性的名称。</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>The URI that is used to load the next results page.</source>
+          <target state="translated">用于加载下一结果页的 URI。</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>An instance of <ph id="ph1">&amp;lt;</ph>xref:System.Data.Services.Client.QueryOperationResponse%601<ph id="ph2">&amp;gt;</ph> that contains the results of the request.</source>
+          <target state="translated">实例<ph id="ph1">&amp;lt;</ph>xref:System.Data.Services.Client.QueryOperationResponse%601<ph id="ph2">&amp;gt;</ph> ，其中包含请求的结果。</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in a <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in a <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>Gets or sets the synchronization option for receiving entities from a data service.</source>
+          <target state="translated">获取或设置从数据服务中接收实体的同步选项。</target>       </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>This value is read by the deserialization component of the client before materializing objects.</source>
+          <target state="translated">在具体化对象之前，客户端的反序列化组件读取此值。</target>       </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>Set this property to the appropriate materialization option before executing any queries or updates to the data service.</source>
+          <target state="translated">将此属性设置为适当的具体化选项之前对数据服务执行任何查询或更新。</target>       </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>The default value is &lt;xref:System.Data.Services.Client.MergeOption&gt;.</source>
+          <target state="translated">默认值为&lt;xref:System.Data.Services.Client.MergeOption&gt;。&lt;/xref:System.Data.Services.Client.MergeOption&gt;</target>       </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>One of the members of the <bpt id="p1">&lt;xref href="System.Data.Services.Client.MergeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">成员之一<bpt id="p1">&lt;xref href="System.Data.Services.Client.MergeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>Occurs after entity data has been completely read into the entity object.</source>
+          <target state="translated">在实体数据完全读入实体对象后发生。</target>       </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>The ReadingEntity event occurs after the entity data has been completely read into the target object together with all nested entities.</source>
+          <target state="translated">在实体数据完全读入目标对象以及所有嵌套实体后，将发生 ReadingEntity 事件。</target>       </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source>If tracking is anything other than &lt;xref:System.Data.Services.Client.MergeOption&gt;, the object is attached before the event occurs.</source>
+          <target state="translated">如果跟踪而不是任何其他&lt;xref:System.Data.Services.Client.MergeOption&gt;，该对象之前发生该事件时附加。&lt;/xref:System.Data.Services.Client.MergeOption&gt;</target>       </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>Gets or sets a function to override the default type resolution strategy used by the client library when you send entities to a data service.</source>
+          <target state="translated">获取或设置函数，以便重写到数据服务发送实体时，客户端库所用的默认类型解析策略。</target>       </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>Enables override of the default type resolution used by the client library.</source>
+          <target state="translated">允许重写客户端库所用的默认类型解析。</target>       </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>Set this property to a delegate that identifies a function that is used to resolve a type in the client application to a namespace-qualified type name.</source>
+          <target state="translated">将此属性设置为一个委托，用于解析为命名空间限定的类型名称的客户端应用中的类型的函数。</target>       </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>This enables the client to perform custom mapping between the type name provided in a response from the server and a type on the client.</source>
+          <target state="translated">这使客户端执行从服务器和客户端上的类型响应中提供的类型名称之间的自定义映射。</target>       </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method enables override of the entity name that is serialized to the target representation, such as Atom or JSON, for the specified type.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 这种方法实现重写到指定类型的目标表示形式，如 Atom 或 JSON，序列化的实体名称。</target>       </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source>Returns a string that contains the name of the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回一个字符串，其中包含名称<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>Gets or sets a function that is used to override the default type resolution option that is used by the client library when receiving entities from a data service.</source>
+          <target state="translated">获取或设置用于重写使用的默认类型解析选项由客户端库从数据服务中接收实体时的函数。</target>       </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>Enables override of the default type resolution strategy that is used by the client library.</source>
+          <target state="translated">允许重写客户端库所用的默认类型解析策略。</target>       </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>Set this property to a delegate that identifies a function that resolves a namespace-qualified type name to a type in the client application.</source>
+          <target state="translated">将此属性设置为标识解析的命名空间限定的类型名称为客户端应用程序中的类型的函数委托。</target>       </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>This enables the client to do custom mapping between the type name provided in a response from the server and a type on the client.</source>
+          <target state="translated">这使客户端进行服务器和客户端上的类型从响应中提供的类型名称之间的自定义映射。</target>       </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>Overriding type resolution also enables inserting a custom mapping strategy between a type name and a type.</source>
+          <target state="translated">重写类型解析还允许插入类型名称和类型之间的自定义映射策略。</target>       </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>It does not affect how a response is materialized to the identified type.</source>
+          <target state="translated">它不会影响如何响应具体化为标识的类型。</target>       </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>A function delegate that identifies an override function that is used to override the default type resolution option that is used by the client library.</source>
+          <target state="translated">一个函数委托，标识用于重写使用的默认类型解析选项由客户端库的重写函数。</target>       </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>Saves the changes that the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is tracking to storage.</source>
+          <target state="translated">将所做的更改保存<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>跟踪到存储。</target>       </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains status, headers, and errors that result from the call to &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges.Remarks*&gt;.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，包含状态、 标头，以及与&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges.Remarks*&gt;.&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges.Remarks*&gt;的调用导致的错误</target>       </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>Saves the changes that the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is tracking to storage.</source>
+          <target state="translated">将所做的更改保存<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>跟踪到存储。</target>       </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>Operations are sent to the data service in the following order      1.</source>
+          <target state="translated">操作会发送到以下顺序 1 中的数据服务。</target>       </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Services.Client.DataServiceContext.DeleteLink%2A&gt;      2.</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceContext.DeleteLink%2A&gt;2。&lt;/xref:System.Data.Services.Client.DataServiceContext.DeleteLink%2A&gt;</target>       </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Services.Client.DataServiceContext.DeleteObject%2A&gt;      3.</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceContext.DeleteObject%2A&gt;3。&lt;/xref:System.Data.Services.Client.DataServiceContext.DeleteObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Services.Client.DataServiceContext.UpdateObject%2A&gt;      4.</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceContext.UpdateObject%2A&gt;4。&lt;/xref:System.Data.Services.Client.DataServiceContext.UpdateObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt;      5.</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt;5。&lt;/xref:System.Data.Services.Client.DataServiceContext.AddObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Services.Client.DataServiceContext.SetLink%2A&gt; and &lt;xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt;</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceContext.SetLink%2A&gt;和&lt;xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt;&lt;/xref:System.Data.Services.Client.DataServiceContext.AddLink%2A&gt;&lt;/xref:System.Data.Services.Client.DataServiceContext.SetLink%2A&gt;</target>       </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve">
+          <source>A member of the <bpt id="p1">&lt;xref href="System.Data.Services.Client.MergeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration that specifies the materialization option.</source>
+          <target state="translated">成员<bpt id="p1">&lt;xref href="System.Data.Services.Client.MergeOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>枚举，用于指定具体化选项。</target>       </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceResponse"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains status, headers, and errors that result from the call to &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt;.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceResponse"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，包含状态、 标头，以及与&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt;.&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt;的调用导致的错误</target>       </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.Services.Client.SaveChangesOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that are used by the &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt; method.</source>
+          <target state="translated">获取或设置<bpt id="p1">&lt;xref href="System.Data.Services.Client.SaveChangesOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用的值&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt;方法。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt;</target>       </trans-unit>
+        <trans-unit id="475" translate="yes" xml:space="preserve">
+          <source>This property is provided so that options such as merge and replace semantics can be set one time for the &lt;xref:System.Data.Services.Client.DataServiceContext&gt; and then overridden as needed by calling one of the &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt; overloads.</source>
+          <target state="translated">此属性提供，如合并和替换语义的选项可将设置为一次&lt;xref:System.Data.Services.Client.DataServiceContext&gt;并根据需要通过调用之一，然后重写&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;重载。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="476" translate="yes" xml:space="preserve">
+          <source>The current options for the save changes operation.</source>
+          <target state="translated">保存的当前选项更改操作。</target>       </trans-unit>
+        <trans-unit id="477" translate="yes" xml:space="preserve">
+          <source>Occurs when a new &lt;xref:System.Net.HttpWebRequest&gt; has been created.</source>
+          <target state="translated">当新时发生&lt;xref:System.Net.HttpWebRequest&gt;已创建。&lt;/xref:System.Net.HttpWebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="478" translate="yes" xml:space="preserve">
+          <source>The SendingRequest event occurs before the required property values are set on the object.</source>
+          <target state="translated">SendingRequest 事件前所需的属性值设置的对象上发生。</target>       </trans-unit>
+        <trans-unit id="479" translate="yes" xml:space="preserve">
+          <source>guarantees</source>
+          <target state="translated">保证</target>       </trans-unit>
+        <trans-unit id="480" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="481" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that a new link exists between the objects specified and that the link is represented by the property specified by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">通知<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定的对象之间存在新链接，链接由指定的属性表示<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">sourceProperty</ph> <ept id="p2">&lt;/code&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="482" translate="yes" xml:space="preserve">
+          <source>A new link is created in the &lt;xref:System.Data.Services.Client.EntityStates&gt; state.</source>
+          <target state="translated">在中创建新的链接&lt;xref:System.Data.Services.Client.EntityStates&gt;状态。&lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="483" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Data.Services.Client.DataServiceContext&gt; adds this new link to the set of newly created links to be sent to the data service on the next call to &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.Services.Client.DataServiceContext&gt;添加的一套新创建的链接到&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;.&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;的后续调用上的数据服务发送到此新链接&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="484" translate="yes" xml:space="preserve">
+          <source>If the target argument is null, the link represented by sourceProperty should be removed or deleted (The link is moved to the &lt;xref:System.Data.Services.Client.EntityStates&gt; state).</source>
+          <target state="translated">如果目标参数为 null，应移除或删除由 sourceProperty 表示的链接 (该链接转为&lt;xref:System.Data.Services.Client.EntityStates&gt;状态)。&lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="485" translate="yes" xml:space="preserve">
+          <source>Links are one-way relationships.</source>
+          <target state="translated">链接是单向关系。</target>       </trans-unit>
+        <trans-unit id="486" translate="yes" xml:space="preserve">
+          <source>If a back pointer exists indicating a two way association, this method should be called again to notify the &lt;xref:System.Data.Services.Client.DataServiceContext&gt; of the second link       This method only supports adding links to relationships with multiplicity = 1 (The source property is an object reference).</source>
+          <target state="translated">如果后向指针存在，该值指示两个方法关联，此方法应该重新调用以通知&lt;xref:System.Data.Services.Client.DataServiceContext&gt;第二个链接，此方法仅支持添加链接到多重性与关系 = 的 1 （源属性是一个对象引用）。&lt;/xref:System.Data.Services.Client.DataServiceContext&gt;</target>       </trans-unit>
+        <trans-unit id="487" translate="yes" xml:space="preserve">
+          <source>For example, if a class <ph id="ph1">`Person`</ph> is related to another <ph id="ph2">`Person`</ph> by a <ph id="ph3">`Friend`</ph> property, this call could be used to relate <ph id="ph4">`Person`</ph> to <ph id="ph5">`Person`</ph>.</source>
+          <target state="translated">例如，如果一个类<ph id="ph1">`Person`</ph>与另一个相关<ph id="ph2">`Person`</ph>通过<ph id="ph3">`Friend`</ph>属性，此调用无法用于相关<ph id="ph4">`Person`</ph>到<ph id="ph5">`Person`</ph>。</target>       </trans-unit>
+        <trans-unit id="488" translate="yes" xml:space="preserve">
+          <source>This method will throw an exception if the <ph id="ph1">`sourceProperty`</ph> represented has a relationship of cardinality more than one.</source>
+          <target state="translated">此方法将引发异常，如果<ph id="ph1">`sourceProperty`</ph>表示具有多基数关系。</target>       </trans-unit>
+        <trans-unit id="489" translate="yes" xml:space="preserve">
+          <source>The source object for the new link.</source>
+          <target state="translated">新链接的的源对象。</target>       </trans-unit>
+        <trans-unit id="490" translate="yes" xml:space="preserve">
+          <source>The property on the source object that identifies the target object of the new link.</source>
+          <target state="translated">标识新链接的目标对象的源对象上的属性。</target>       </trans-unit>
+        <trans-unit id="491" translate="yes" xml:space="preserve">
+          <source>The child object involved in the new link that is to be initialized by calling this method.</source>
+          <target state="translated">若要通过调用此方法初始化的新链接中涉及的子对象中。</target>       </trans-unit>
+        <trans-unit id="492" translate="yes" xml:space="preserve">
+          <source>The target object must be a subtype of the type identified by the <ph id="ph1">`sourceProperty`</ph> parameter.</source>
+          <target state="translated">目标对象必须是标识的类型的子类型<ph id="ph1">`sourceProperty`</ph>参数。</target>       </trans-unit>
+        <trans-unit id="493" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`target`</ph> is set to null, the call represents a delete link operation.</source>
+          <target state="translated">如果<ph id="ph1">`target`</ph>设置为 null，则调用表示删除链接操作。</target>       </trans-unit>
+        <trans-unit id="494" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept> or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">target</ph><ept id="p3">&lt;/code&gt;</ept> are null.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept>, <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">sourceProperty</ph><ept id="p2">&lt;/code&gt;</ept> or <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">target</ph><ept id="p3">&lt;/code&gt;</ept> are null.</target>       </trans-unit>
+        <trans-unit id="495" translate="yes" xml:space="preserve">
+          <source>When the specified link already exists.</source>
+          <target state="translated">当指定的链接已存在。</target>       </trans-unit>
+        <trans-unit id="496" translate="yes" xml:space="preserve">
+          <source>-or-       When the objects supplied as <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> are in the <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or <bpt id="p4">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">-or-       When the objects supplied as <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">source</ph><ept id="p1">&lt;/code&gt;</ept> or <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">target</ph><ept id="p2">&lt;/code&gt;</ept> are in the <bpt id="p3">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> or <bpt id="p4">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="497" translate="yes" xml:space="preserve">
+          <source>-or-       When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">sourceProperty</ph><ept id="p1">&lt;/code&gt;</ept> is not a navigation property that defines a reference to a single related object.</source>
+          <target state="translated">-或-当<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">sourceProperty</ph> <ept id="p1">&lt;/code&gt;</ept>不是一个导航属性，定义对单个相关对象的引用。</target>       </trans-unit>
+        <trans-unit id="498" translate="yes" xml:space="preserve">
+          <source>Sets a new data stream as the binary property of an entity, with the specified settings in the request message.</source>
+          <target state="translated">将新的数据流设置为具有指定的设置请求消息中的实体的二进制属性。</target>       </trans-unit>
+        <trans-unit id="499" translate="yes" xml:space="preserve">
+          <source>The SetSaveStream method sets the binary stream that is the Media Resource that is associated with the <ph id="ph1">`entity`</ph>, which is called a Media Link Entry.</source>
+          <target state="translated">SetSaveStream 方法设置是与相关联的媒体资源的二进制流<ph id="ph1">`entity`</ph>，这种行为称为媒体链接入口。</target>       </trans-unit>
+        <trans-unit id="500" translate="yes" xml:space="preserve">
+          <source>Calling the SetSaveStream method marks the entity as a Media Link Entry.</source>
+          <target state="translated">调用 SetSaveStream 方法将实体标记为媒体链接入口。</target>       </trans-unit>
+        <trans-unit id="501" translate="yes" xml:space="preserve">
+          <source>The entity state is also set to &lt;xref:System.Data.Services.Client.EntityStates&gt; so that the stream will be sent to the data service the next time that the &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt; method is called.</source>
+          <target state="translated">实体状态也设置为&lt;xref:System.Data.Services.Client.EntityStates&gt;下一次，以便将流发送到数据服务&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;调用方法。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="502" translate="yes" xml:space="preserve">
+          <source>The SetSaveStream method reads the &lt;xref:System.IO.Stream&gt; through to the end.</source>
+          <target state="translated">SetSaveStream 方法读取&lt;xref:System.IO.Stream&gt;通过到末尾。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="503" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.Stream.Seek%2A&gt; operation is not tried on the &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Stream.Seek%2A&gt;操作未尝试的时间为&lt;xref:System.IO.Stream&gt;。&lt;/xref:System.IO.Stream&gt; &lt;/xref:System.IO.Stream.Seek%2A&gt;</target>       </trans-unit>
+        <trans-unit id="504" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`closeStream`</ph> is <ph id="ph2">`true`</ph>, the &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt; method closes the stream before it returns.</source>
+          <target state="translated">当<ph id="ph1">`closeStream`</ph>是<ph id="ph2">`true`</ph>、&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;方法返回之前关闭流。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="505" translate="yes" xml:space="preserve">
+          <source>The stream is closed even when an error occurs and the stream is not read.</source>
+          <target state="translated">即使在出错时，不读取流时，流已关闭。</target>       </trans-unit>
+        <trans-unit id="506" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`entity`</ph> has the &lt;xref:System.Data.Services.Client.MediaEntryAttribute&gt; applied, the Media Resource cannot be a data stream.</source>
+          <target state="translated">当<ph id="ph1">`entity`</ph>具有&lt;xref:System.Data.Services.Client.MediaEntryAttribute&gt;应用时，媒体资源不能为数据流。&lt;/xref:System.Data.Services.Client.MediaEntryAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="507" translate="yes" xml:space="preserve">
+          <source>Remove this attribute before you try to set the data stream for the <ph id="ph1">`entity`</ph>.</source>
+          <target state="translated">您尝试设置数据流之前删除此特性<ph id="ph1">`entity`</ph>。</target>       </trans-unit>
+        <trans-unit id="508" translate="yes" xml:space="preserve">
+          <source>No validation is performed on the headers that are set in <ph id="ph1">`args`</ph>.</source>
+          <target state="translated">在中设置的标头不执行任何验证<ph id="ph1">`args`</ph>。</target>       </trans-unit>
+        <trans-unit id="509" translate="yes" xml:space="preserve">
+          <source>Therefore, do not change an HTTP header in a way that changes the meaning of the request.</source>
+          <target state="translated">因此，不要以更改方式来更改请求含义的 HTTP 标头。</target>       </trans-unit>
+        <trans-unit id="510" translate="yes" xml:space="preserve">
+          <source>The entity that has a binary property to which to assign the data stream.</source>
+          <target state="translated">具有要为其分配数据流的二进制属性的实体。</target>       </trans-unit>
+        <trans-unit id="511" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Stream&gt; from which to read the binary data.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;从中进行读取的二进制数据。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="512" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Boolean&gt; value that determines whether the data stream is closed when the &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt; method is completed.</source>
+          <target state="translated">A&lt;xref:System.Boolean&gt;值，该值确定是否数据流已关闭时&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt;方法完成。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt; &lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="513" translate="yes" xml:space="preserve">
+          <source>An instance of the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceRequestArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that contains settings for the HTTP request message.</source>
+          <target state="translated">实例<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceRequestArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含 HTTP 请求消息设置的类。</target>       </trans-unit>
+        <trans-unit id="514" translate="yes" xml:space="preserve">
+          <source>Any of the parameters supplied to the method are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">任何提供给方法的参数是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="515" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not being tracked by this <bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>未被跟踪此<bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>实例。</target>       </trans-unit>
+        <trans-unit id="516" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> has the <bpt id="p2">&lt;xref href="System.Data.Services.Client.MediaEntryAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> applied.</source>
+          <target state="translated">-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> has the <bpt id="p2">&lt;xref href="System.Data.Services.Client.MediaEntryAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> applied.</target>       </trans-unit>
+        <trans-unit id="517" translate="yes" xml:space="preserve">
+          <source>Sets a new data stream as the binary property of an entity.</source>
+          <target state="translated">将新的数据流设置为实体的二进制属性。</target>       </trans-unit>
+        <trans-unit id="518" translate="yes" xml:space="preserve">
+          <source>The specified Content-Type and Slug headers are included in the request message.</source>
+          <target state="translated">指定的 Content-type 和 Slug 标头包含在请求消息。</target>       </trans-unit>
+        <trans-unit id="519" translate="yes" xml:space="preserve">
+          <source>The SetSaveStream method sets the binary stream that is the Media Resource that is associated with the <ph id="ph1">`entity`</ph>, which is called a Media Link Entry.</source>
+          <target state="translated">SetSaveStream 方法设置是与相关联的媒体资源的二进制流<ph id="ph1">`entity`</ph>，这种行为称为媒体链接入口。</target>       </trans-unit>
+        <trans-unit id="520" translate="yes" xml:space="preserve">
+          <source>Calling the SetSaveStream method marks the entity as Media Link Entry.</source>
+          <target state="translated">调用 SetSaveStream 方法将实体标记为媒体链接入口。</target>       </trans-unit>
+        <trans-unit id="521" translate="yes" xml:space="preserve">
+          <source>The entity state is also set to &lt;xref:System.Data.Services.Client.EntityStates&gt; so that the stream will be sent to the data service the next time that the &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt; method is called.</source>
+          <target state="translated">实体状态也设置为&lt;xref:System.Data.Services.Client.EntityStates&gt;下一次，以便将流发送到数据服务&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;调用方法。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt; &lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="522" translate="yes" xml:space="preserve">
+          <source>The SetSaveStream method reads the &lt;xref:System.IO.Stream&gt; through to the end.</source>
+          <target state="translated">SetSaveStream 方法读取&lt;xref:System.IO.Stream&gt;通过到末尾。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="523" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.Stream.Seek%2A&gt; operation is not tried on the &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">&lt;xref:System.IO.Stream.Seek%2A&gt;操作未尝试的时间为&lt;xref:System.IO.Stream&gt;。&lt;/xref:System.IO.Stream&gt; &lt;/xref:System.IO.Stream.Seek%2A&gt;</target>       </trans-unit>
+        <trans-unit id="524" translate="yes" xml:space="preserve">
+          <source>When <ph id="ph1">`closeStream`</ph> is <ph id="ph2">`true`</ph>, the &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt; method closes the stream before it returns.</source>
+          <target state="translated">当<ph id="ph1">`closeStream`</ph>是<ph id="ph2">`true`</ph>、&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;方法返回之前关闭流。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="525" translate="yes" xml:space="preserve">
+          <source>The stream is closed even when an error occurs and the stream is not read.</source>
+          <target state="translated">即使在出错时，不读取流时，流已关闭。</target>       </trans-unit>
+        <trans-unit id="526" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`entity`</ph> has the &lt;xref:System.Data.Services.Client.MediaEntryAttribute&gt; applied, the Media Resource cannot be a data stream.</source>
+          <target state="translated">当<ph id="ph1">`entity`</ph>具有&lt;xref:System.Data.Services.Client.MediaEntryAttribute&gt;应用时，媒体资源不能为数据流。&lt;/xref:System.Data.Services.Client.MediaEntryAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="527" translate="yes" xml:space="preserve">
+          <source>Remove this attribute before you try to set the data stream for the <ph id="ph1">`entity`</ph>.</source>
+          <target state="translated">您尝试设置数据流之前删除此特性<ph id="ph1">`entity`</ph>。</target>       </trans-unit>
+        <trans-unit id="528" translate="yes" xml:space="preserve">
+          <source>No validation is performed on the headers that are set in <ph id="ph1">`contentType`</ph> and <ph id="ph2">`slug`</ph>.</source>
+          <target state="translated">在中设置的标头不执行任何验证<ph id="ph1">`contentType`</ph>和<ph id="ph2">`slug`</ph>。</target>       </trans-unit>
+        <trans-unit id="529" translate="yes" xml:space="preserve">
+          <source>Therefore, do not change these HTTP headers in a way that changes the meaning of the request.</source>
+          <target state="translated">因此，不要更改这些 HTTP 标头中更改请求含义的方式。</target>       </trans-unit>
+        <trans-unit id="530" translate="yes" xml:space="preserve">
+          <source>The entity that has a binary property to which to assign the data stream.</source>
+          <target state="translated">具有要为其分配数据流的二进制属性的实体。</target>       </trans-unit>
+        <trans-unit id="531" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.Stream&gt; from which to read the binary data.</source>
+          <target state="translated">&lt;xref:System.IO.Stream&gt;从中进行读取的二进制数据。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="532" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Boolean&gt; value that determines whether the data stream is closed when the &lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt; method is completed.</source>
+          <target state="translated">A&lt;xref:System.Boolean&gt;值，该值确定是否数据流已关闭时&lt;xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt;方法完成。&lt;/xref:System.Data.Services.Client.DataServiceContext.SaveChanges*&gt; &lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="533" translate="yes" xml:space="preserve">
+          <source>The Content-Type header value for the request message.</source>
+          <target state="translated">请求消息的 Content-type 标头值。</target>       </trans-unit>
+        <trans-unit id="534" translate="yes" xml:space="preserve">
+          <source>The Slug header value for the request message.</source>
+          <target state="translated">请求消息的 Slug 标头值。</target>       </trans-unit>
+        <trans-unit id="535" translate="yes" xml:space="preserve">
+          <source>Any of the parameters supplied to the method are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">任何提供给方法的参数是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="536" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is not being tracked by this <bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">entity</ph> <ept id="p1">&lt;/code&gt;</ept>未被跟踪此<bpt id="p2">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>实例。</target>       </trans-unit>
+        <trans-unit id="537" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;xref uid="langword_csharp_entity" name="entity" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has the <bpt id="p2">&lt;xref href="System.Data.Services.Client.MediaEntryAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> applied.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;xref uid="langword_csharp_entity" name="entity" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>具有<bpt id="p2">&lt;xref href="System.Data.Services.Client.MediaEntryAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>应用。</target>       </trans-unit>
+        <trans-unit id="538" translate="yes" xml:space="preserve">
+          <source>Gets or sets the time-out option that is used for the underlying HTTP request to the data service.</source>
+          <target state="translated">获取或设置用于对数据服务的基础 HTTP 请求的超时选项。</target>       </trans-unit>
+        <trans-unit id="539" translate="yes" xml:space="preserve">
+          <source>This value is passed to the &lt;xref:System.Net.HttpWebRequest.Timeout&gt; property of the underlying &lt;xref:System.Net.HttpWebRequest&gt; object.</source>
+          <target state="translated">此值传递给&lt;xref:System.Net.HttpWebRequest.Timeout&gt;基础属性&lt;xref:System.Net.HttpWebRequest&gt;对象。&lt;/xref:System.Net.HttpWebRequest&gt; &lt;/xref:System.Net.HttpWebRequest.Timeout&gt;</target>       </trans-unit>
+        <trans-unit id="540" translate="yes" xml:space="preserve">
+          <source>The value must be set before executing any query or update operations against the target data service can affect the request.</source>
+          <target state="translated">执行针对目标数据服务的任何查询或更新操作可能会影响请求之前，必须设置值。</target>       </trans-unit>
+        <trans-unit id="541" translate="yes" xml:space="preserve">
+          <source>The value may be changed between requests to a data service and the new value will be picked up by the next data service request.</source>
+          <target state="translated">值可能更改之间对数据服务的请求和新值拾取下一步的数据服务请求。</target>       </trans-unit>
+        <trans-unit id="542" translate="yes" xml:space="preserve">
+          <source>An integer that indicates the time interval before time-out of a service request.</source>
+          <target state="translated">一个整数，指示的服务请求超时前的时间间隔。</target>       </trans-unit>
+        <trans-unit id="543" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="544" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="545" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="546" translate="yes" xml:space="preserve">
+          <source>Retrieves the canonical URI associated with the specified entity, if available.</source>
+          <target state="translated">如果可用，则检索与指定的实体关联的规范 URI。</target>       </trans-unit>
+        <trans-unit id="547" translate="yes" xml:space="preserve">
+          <source>Objects in the &lt;xref:System.Data.Services.Client.EntityStates&gt; state do not yet have a URI.</source>
+          <target state="translated">中的对象&lt;xref:System.Data.Services.Client.EntityStates&gt;状态还没有一个 URI。&lt;/xref:System.Data.Services.Client.EntityStates&gt;</target>       </trans-unit>
+        <trans-unit id="548" translate="yes" xml:space="preserve">
+          <source>The entity identified by the <ph id="ph1">`identity`</ph>.</source>
+          <target state="translated">通过标识的实体<ph id="ph1">`identity`</ph>。</target>       </trans-unit>
+        <trans-unit id="549" translate="yes" xml:space="preserve">
+          <source>The URI of the entity.</source>
+          <target state="translated">实体的 URI。</target>       </trans-unit>
+        <trans-unit id="550" translate="yes" xml:space="preserve">
+          <source>Returns true if the canonical URI is returned in the out parameter.</source>
+          <target state="translated">如果在输出参数中返回规范 URI，则返回 true。</target>       </trans-unit>
+        <trans-unit id="551" translate="yes" xml:space="preserve">
+          <source>If the specified entity is not tracked by the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or is in the added state, no URI is available and false is returned.</source>
+          <target state="translated">如果指定的实体不跟踪通过<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或已添加状态，没有 URI 是可用，则返回 false。</target>       </trans-unit>
+        <trans-unit id="552" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="553" translate="yes" xml:space="preserve">
+          <source>Gets or sets the URI used to indicate what type scheme is used by the service.</source>
+          <target state="translated">获取或设置用于指示类型方案所用的服务的 URI。</target>       </trans-unit>
+        <trans-unit id="554" translate="yes" xml:space="preserve">
+          <source>In an ATOM payload, the return value will be the scheme attribute of a category element used to identify the type of an entity.</source>
+          <target state="translated">在 ATOM 负载中，返回值将用来标识的实体类型的类别元素的方案属性。</target>       </trans-unit>
+        <trans-unit id="555" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">`http://schemas.microsoft.com/ado/2007/08/dataservices/scheme`</ph>.</source>
+          <target state="translated">默认值为 <ph id="ph1">`http://schemas.microsoft.com/ado/2007/08/dataservices/scheme`</ph>。</target>       </trans-unit>
+        <trans-unit id="556" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Uri&gt; object that contains the type scheme.</source>
+          <target state="translated">A&lt;xref:System.Uri&gt;对象，其中包含类型方案。&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="557" translate="yes" xml:space="preserve">
+          <source>Changes the state of the specified object in the <bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">中的指定对象的状态更改<bpt id="p1">&lt;xref href="System.Data.Services.Client.DataServiceContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到<bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="558" translate="yes" xml:space="preserve">
+          <source>The tracked entity to be assigned to the <bpt id="p1">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">要分配到的被跟踪的实体<bpt id="p1">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>状态。</target>       </trans-unit>
+        <trans-unit id="559" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="560" translate="yes" xml:space="preserve">
+          <source>When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</source>
+          <target state="translated">When <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">entity</ph><ept id="p1">&lt;/code&gt;</ept> is in the <bpt id="p2">&lt;xref href="System.Data.Services.Client.EntityStates"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> state.</target>       </trans-unit>
+        <trans-unit id="561" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether to use post tunneling.</source>
+          <target state="translated">获取或设置一个布尔值，该值指示是否使用 post 隧道。</target>       </trans-unit>
+        <trans-unit id="562" translate="yes" xml:space="preserve">
+          <source>This property controls whether create, update, and delete requests sent to the data service will use the post tunneling feature of the protocol or not.</source>
+          <target state="translated">此控件是否创建的属性，更新和删除请求发送到数据服务将使用 post 隧道的协议的功能，或不。</target>       </trans-unit>
+        <trans-unit id="563" translate="yes" xml:space="preserve">
+          <source>When set to true, tunneling is used.</source>
+          <target state="translated">当设置为 true，会使用隧道。</target>       </trans-unit>
+        <trans-unit id="564" translate="yes" xml:space="preserve">
+          <source>When set to false, standard HTTP methods are used.</source>
+          <target state="translated">当使用时设置为 false，标准 HTTP 方法。</target>       </trans-unit>
+        <trans-unit id="565" translate="yes" xml:space="preserve">
+          <source>The default value of this property is false.</source>
+          <target state="translated">此属性的默认值为 false。</target>       </trans-unit>
+        <trans-unit id="566" translate="yes" xml:space="preserve">
+          <source>A Boolean value that indicates whether to use post tunneling.</source>
+          <target state="translated">一个布尔值，该值指示是否使用 post 隧道。</target>       </trans-unit>
+        <trans-unit id="567" translate="yes" xml:space="preserve">
+          <source>Occurs after an entity has been fully serialized into XML in a request message.</source>
+          <target state="translated">实体已完全序列化为 XML 请求消息中后发生。</target>       </trans-unit>
+        <trans-unit id="568" translate="yes" xml:space="preserve">
+          <source>Handling the WritingEntity event enables you to change the XML in a request before it is sent.</source>
+          <target state="translated">处理 WritingEntity 事件可以发送之前更改请求中的 XML。</target>       </trans-unit>
+        <trans-unit id="569" translate="yes" xml:space="preserve">
+          <source>The WritingEntity event may occur on a different thread when you call &lt;xref:System.Data.Services.Client.DataServiceContext.BeginSaveChanges%28System.Data.Services.Client.SaveChangesOptions%2CSystem.AsyncCallback%2CSystem.Object%29&gt; without including &lt;xref:System.Data.Services.Client.SaveChangesOptions&gt; in the supplied &lt;xref:System.Data.Services.Client.SaveChangesOptions&gt; value.</source>
+          <target state="translated">当您调用 WritingEntity 事件可能会发生在另一个线程&lt;xref:System.Data.Services.Client.DataServiceContext.BeginSaveChanges%28System.Data.Services.Client.SaveChangesOptions%2CSystem.AsyncCallback%2CSystem.Object%29&gt;而不包括&lt;xref:System.Data.Services.Client.SaveChangesOptions&gt;从提供&lt;xref:System.Data.Services.Client.SaveChangesOptions&gt;值。&lt;/xref:System.Data.Services.Client.SaveChangesOptions&gt; &lt;/xref:System.Data.Services.Client.SaveChangesOptions&gt; &lt;/xref:System.Data.Services.Client.DataServiceContext.BeginSaveChanges%28System.Data.Services.Client.SaveChangesOptions%2CSystem.AsyncCallback%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="570" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

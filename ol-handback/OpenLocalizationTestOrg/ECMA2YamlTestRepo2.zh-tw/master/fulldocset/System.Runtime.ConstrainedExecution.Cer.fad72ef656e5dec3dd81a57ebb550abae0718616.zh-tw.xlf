@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f339edd02c3979d92b047f0bc1b45ec388fc13ab</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.ConstrainedExecution.Cer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a13fd1e6ba633a7bade46dbc434de04cc0ecbb0d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">73319a3c55db493e40b60d03cc8edd6e7fdb0088</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies a method's behavior when called within a constrained execution region.</source>
+          <target state="translated">指定限制的執行區域內呼叫時，該方法的行為。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Cer enumeration specifies the behavior of a method, type, or assembly within a constrained execution region (CER).</source>
+          <target state="translated">Cer 列舉指定的方法、 類型或組件在限制的執行區域 (CER) 內的行為。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Use one of the three available values to indicate that the entity will succeed, has no knowledge of a CER, or might (deterministically) be able to report success or failure.</source>
+          <target state="translated">使用其中一個可用的三個值，表示的實體將會成功，並不了解 CER，或者 （具決定性） 可報告成功或失敗。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A CER provides guarantees that the region of code will execute uninterrupted even if an asynchronous exception such as an aborted thread out-of-memory exception, or stack overflow is raised.</source>
+          <target state="translated">CER 提供將執行的程式碼區域的保證不會中斷即使已中止的執行緒記憶體不足例外狀況或堆疊溢位等非同步例外狀況。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the face of exceptional conditions, the method might fail.</source>
+          <target state="translated">例外狀況，此方法可能會失敗。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this case, the method will report back to the calling method whether it succeeded or failed.</source>
+          <target state="translated">在此情況下，此方法會回報給呼叫的方法是否成功或失敗。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The method must have a CER around the method body to ensure that it can report the return value.</source>
+          <target state="translated">方法必須有方法主體的周圍 CER 以確保它可以報告的傳回值。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The method, type, or assembly has no concept of a CER.</source>
+          <target state="translated">方法、 類型或組件有沒有 CER 的概念。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>It does not take advantage of CER guarantees.</source>
+          <target state="translated">它不會利用 CER 保證。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This implies the following:</source>
+          <target state="translated">這表示︰</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">-</ph>   In the face of exceptional conditions the method might fail.</source>
+          <target state="translated"><ph id="ph1">-</ph>例外狀況的方法可能會失敗。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   The method might or might not report that it failed (it is non-deterministic).</source>
+          <target state="translated">-此方法可能會或可能不會報告失敗 （它是不具決定性的）。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>-   The method is not written with CERs in mind (which is the most likely scenario).</source>
+          <target state="translated">-方法不會寫入與 Cer 記住 （這是最可能的案例）。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>If a method, type, or assembly is not explicitly marked to succeed, it is implicitly marked as <ph id="ph1">`Cer.None`</ph>.</source>
+          <target state="translated">如果方法、 類型或組件不明確標記為成功，隱含地標示為<ph id="ph1">`Cer.None`</ph>。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In the face of exceptional conditions, the method is guaranteed to succeed.</source>
+          <target state="translated">例外狀況，方法被保證成功。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You should always construct a CER around the method that is called, even when it is called from within a non-CER region.</source>
+          <target state="translated">您應該一律建構 CER 呼叫時，即使當呼叫它從非 CER 區域內的方法。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A method is successful if it accomplishes what is intended.</source>
+          <target state="translated">方法是成功，會完成想要的結果。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, marking &lt;xref:System.Collections.ArrayList.Count*&gt; with <ph id="ph1">`ReliabilityContractAttribute(Cer.Success)`</ph> implies that when it is run under a CER, it always returns a count of the number of elements in the <bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and it can never leave the internal fields in an undetermined state.</source>
+          <target state="translated">例如，標示&lt;xref:System.Collections.ArrayList.Count*&gt;與<ph id="ph1">`ReliabilityContractAttribute(Cer.Success)`</ph>意味著，CER 之下執行它時，它一律會傳回中的元素數目的計數<bpt id="p1">&lt;xref href="System.Collections.ArrayList"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和它處於不明狀態永遠無法離開內部欄位。&lt;/xref:System.Collections.ArrayList.Count*&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
