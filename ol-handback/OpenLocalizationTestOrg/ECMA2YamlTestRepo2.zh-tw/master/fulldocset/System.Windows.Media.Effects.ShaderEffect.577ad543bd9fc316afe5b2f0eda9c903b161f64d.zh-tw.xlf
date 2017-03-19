@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e8333e47452da439e51e711c57bb956b33202b18</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Effects.ShaderEffect.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">abaa176cd9feac850b4fbd61c0a93562f90dd277</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4f51ede56aba2d50a3cb41d9665515e6ef0c89d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a custom bitmap effect by using a <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">透過提供自訂點陣圖效果<bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Derive from the ShaderEffect class to implement a custom effect based on a single pixel shader.</source>
+          <target state="translated">衍生自 ShaderEffect 類別來實作單一像素著色器為基礎的自訂效果。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The following steps show how to create a custom effect.</source>
+          <target state="translated">下列步驟示範如何建立自訂效果。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Load a &lt;xref:System.Windows.Media.Effects.PixelShader&gt; from precompiled High Level Shading Language (HLSL) bytecode.</source>
+          <target state="translated">負載&lt;xref:System.Windows.Media.Effects.PixelShader&gt;從先行編譯的高等級陰影語言 」 (HLSL) bytecode。&lt;/xref:System.Windows.Media.Effects.PixelShader&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Define dependency properties that represent the parameters of the effect and the &lt;xref:System.Windows.Media.Brush&gt;-based surface inputs.</source>
+          <target state="translated">定義代表之參數的效果的相依性屬性和&lt;xref:System.Windows.Media.Brush&gt;-基礎介面的輸入。&lt;/xref:System.Windows.Media.Brush&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Use one of the &lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt; overloads to associate these inputs with register numbers that are referenced in the HLSL bytecode.</source>
+          <target state="translated">使用其中一種&lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;多載，可以將這些輸入與註冊 HLSL 位元組程式碼中所參考的數字。&lt;/xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The number of samplers is limited to 4.</source>
+          <target state="translated">取樣器的數目受限於 4。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The following restrictions apply when using a PS 3.0 shader.</source>
+          <target state="translated">使用 PS 3.0 著色器時，適用下列限制。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>-   When a PS 3.0 shader is assigned, the number of samplers increases to 8.</source>
+          <target state="translated">-當 PS 3.0 著色器指派時，取樣器的數目增加為 8。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Assign the PS 3.0 shader before other shaders to enable registering 8 samplers.</source>
+          <target state="translated">指定著色器的 PS 3.0 之前啟用註冊 8 取樣器的其他著色器。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-   The full shader constant register limit of 224 for floats is used.</source>
+          <target state="translated">-完整著色器常數暫存器的浮點數的 224 會使用的限制。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>ps_3_0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=166292)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>ps_3_0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=166292)</ept>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>-   The following data types are supported in PS 3.0 shaders only.</source>
+          <target state="translated">在 PS 3.0 著色器只支援-下列資料類型。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>An exception is thrown if these are used in lower shader versions.</source>
+          <target state="translated">這些在較低的著色器版本中使用，會擲回例外狀況。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>-   <ph id="ph1">`int`</ph> and types convertible to <ph id="ph2">`int`</ph>: <ph id="ph3">`uint`</ph>, <ph id="ph4">`byte`</ph>, <ph id="ph5">`sbyte`</ph>, <ph id="ph6">`long`</ph>, <ph id="ph7">`ulong`</ph>, <ph id="ph8">`short`</ph>, <ph id="ph9">`ushort`</ph>, <ph id="ph10">`char`</ph><ph id="ph11">          -   </ph><ph id="ph12">`bool`</ph>      -   If a valid PS 3.0 shader is loaded on a computer that does not have hardware support for PS 3.0, the shader is ignored.</source>
+          <target state="translated">-<ph id="ph1">`int`</ph>和類型轉換成<ph id="ph2">`int`</ph>: <ph id="ph3">`uint`</ph>， <ph id="ph4">`byte`</ph>， <ph id="ph5">`sbyte`</ph>， <ph id="ph6">`long`</ph>， <ph id="ph7">`ulong`</ph>， <ph id="ph8">`short`</ph>， <ph id="ph9">`ushort`</ph>， <ph id="ph10">`char`</ph> <ph id="ph11">          -   </ph> <ph id="ph12">`bool`</ph> -如果不需要硬體支援 PS 3.0、 著色器的電腦所載入的著色器有效 PS 3.0 會被忽略。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If the shader is invalid, no exception is thrown.</source>
+          <target state="translated">如果著色器無效，則會擲不回任何例外狀況。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-   If a computer has more than one video card, the behavior is defined by the least capable video card.</source>
+          <target state="translated">-如果電腦有一個以上的視訊卡，未至少支援的視訊卡所定義的行為。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For example, if the computer has two video cards, one of which supports PS 3.0 and one of which does not, the behavior is the same as if the computer does not support PS 3.0.</source>
+          <target state="translated">例如，如果電腦中有兩個視訊卡，其中支援 PS 3.0，其中並不會的行為是相同時，如果電腦不支援 PS 3.0。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>-   If a computer supports rendering PS 3.0 in hardware, but an invalid PS 3.0 shader is assigned, the &lt;xref:System.Windows.Media.Effects.PixelShader.InvalidPixelShaderEncountered&gt; event is raised.</source>
+          <target state="translated">-如果電腦有支援的硬體、 轉譯 PS 3.0，但是指派無效的 PS 3.0 著色器，&lt;xref:System.Windows.Media.Effects.PixelShader.InvalidPixelShaderEncountered&gt;就會引發事件。&lt;/xref:System.Windows.Media.Effects.PixelShader.InvalidPixelShaderEncountered&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>An example of an invalid PS 3.0 shader is one compiled with the <ph id="ph1">`ps_3_sw`</ph> flag.</source>
+          <target state="translated">無效的 PS 3.0 著色器的範例是一個以編譯<ph id="ph1">`ps_3_sw`</ph>旗標。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The ShaderEffect class accepts only PS 3.0 shaders that are compiled with the <ph id="ph1">`ps_3_0`</ph> flag passed to fxc.exe.</source>
+          <target state="translated">ShaderEffect 類別接受編譯使用 PS 3.0 著色器<ph id="ph1">`ps_3_0`</ph>旗標傳遞至 fxc.exe。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Effect-Compiler Tool<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=166293)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>效果編譯器工具<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=166293)</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  PS 2.0 shaders run when rendering in software.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; PS 2.0 著色器執行時在軟體中呈現。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>However, even if PS 3.0 is supported by the system's hardware, PS 3.0 shaders do not run during software rendering.</source>
+          <target state="translated">不過，即使系統的硬體支援 PS 3.0，PS 3.0 著色器不需要執行期間軟體呈現。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, making deep copies of this object's values.</source>
+          <target state="translated">建立可修改複製品這個<bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，製作這個物件值的深層複本。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When copying this object's dependency properties, this method copies resource references and data bindings (which may no longer resolve), but not animations or their current values.</source>
+          <target state="translated">當複製這個物件的相依性屬性，這個方法會複製資源參考和資料繫結 （但不能再解析），但不是動畫或它們目前的值。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The Clone method can be used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects.</source>
+          <target state="translated">Clone 方法可以用來產生的可修改複本凍結&lt;xref:System.Windows.Freezable&gt;物件。&lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For convenience, this method shadows the inherited &lt;xref:System.Windows.Freezable.Clone%2A&gt; method to provide a strongly typed implementation.</source>
+          <target state="translated">為了方便起見，這個方法會遮蔽繼承&lt;xref:System.Windows.Freezable.Clone%2A&gt;方法以提供強類型的實作。&lt;/xref:System.Windows.Freezable.Clone%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of this instance.</source>
+          <target state="translated">這個執行個體的可修改複本。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The returned clone is effectively a deep copy of the current object.</source>
+          <target state="translated">傳回的複製品實際上是目前物件的深層複本。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The clone's &lt;xref:System.Windows.Freezable.IsFrozen*&gt; property is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">複製品的&lt;xref:System.Windows.Freezable.IsFrozen*&gt;屬性是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Windows.Freezable.IsFrozen*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Makes the instance a clone (deep copy) of the specified <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using base (non-animated) property values.</source>
+          <target state="translated">將執行個體設為指定的複製品 （深層複製） <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用基底 （非動畫） 屬性值。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The object to clone.</source>
+          <target state="translated">要複製的物件。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, making deep copies of this object's current values.</source>
+          <target state="translated">建立可修改複製品這個<bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件，製作這個物件目前值的深層複本。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Resource references, data bindings, and animations are not copied, but their current values are copied.</source>
+          <target state="translated">不會複製資源參考、 資料繫結和動畫，但是會複製其目前值。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This method is used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects (or any &lt;xref:System.Windows.Freezable&gt; object).</source>
+          <target state="translated">這個方法用來產生的可修改複本凍結&lt;xref:System.Windows.Freezable&gt;物件 (或任何&lt;xref:System.Windows.Freezable&gt;物件)。&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>For convenience, this method shadows the inherited version with a strongly typed implementation.</source>
+          <target state="translated">為了方便起見，這個方法會遮蔽強型別實作繼承的版本。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">目前物件的可修改複本。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The cloned object's &lt;xref:System.Windows.Freezable.IsFrozen<bpt id="p1">*</bpt>&gt; property will be <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> even if the source's &lt;xref:System.Windows.Freezable.IsFrozen<ept id="p1">*</ept>&gt; property was <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">複製的物件&lt;&gt; <bpt id="p1">*</bpt>&gt; 屬性會是<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>即使來源的&lt;&gt; <ept id="p1">*</ept>&gt; 屬性是<bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Makes the instance a modifiable clone (deep copy) of the specified <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using current property values.</source>
+          <target state="translated">將執行個體設為指定的可修改複製品 （深層複製） <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用目前的屬性值。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be cloned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可以被複製。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> derived class.</source>
+          <target state="translated">建立的新執行個體<bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>衍生的類別。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The new instance.</source>
+          <target state="translated">新的執行個體。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates the shader register to use for the partial derivatives of the texture coordinates with respect to screen space.</source>
+          <target state="translated">取得或設定值，指出相對於螢幕空間之紋理座標的部分衍生項目使用的著色器暫存器。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Use the DdxUvDdyUvRegisterIndex property to specify the shader register that contains the partial derivatives of the texture coordinates with respect to screen space.</source>
+          <target state="translated">使用指定之著色器註冊 DdxUvDdyUvRegisterIndex 屬性包含紋理的部分衍生項目座標相對於螢幕空間。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>For example, if DdxUvDdyUvRegisterIndex is set to 4, the shader register c4 is used.</source>
+          <target state="translated">例如，如果 DdxUvDdyUvRegisterIndex 設為 4，會使用著色器暫存器 c4。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Register c4 contains four float fields.</source>
+          <target state="translated">暫存器 c4 包含四個浮點數的欄位。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The following High Level Shading Language (HLSL) code shows how this register is used.</source>
+          <target state="translated">下列的高等級陰影語言 」 (HLSL) 程式碼會示範如何使用此暫存器。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`nextPixelUV`</ph> value represents the next pixel to the right.</source>
+          <target state="translated"><ph id="ph1">`nextPixelUV`</ph>值代表右邊的下一個像素。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   float4 ddxUvDdyUv : register(c4);   SamplerState  sampler : register(S0);   ...   float2 nextPixelUV;   nextPixelUV.u = ddxUvDdyUv.x + u;   nextPixelUV.v = ddxUvDdyUv.y + v;      tex2D(sampler, nextPixelUV);   ```</ph>       The following table shows how the register specified for DdxUvDdyUvRegisterIndex is filled.</source>
+          <target state="translated"><ph id="ph1">```   float4 ddxUvDdyUv : register(c4);   SamplerState  sampler : register(S0);   ...   float2 nextPixelUV;   nextPixelUV.u = ddxUvDdyUv.x + u;   nextPixelUV.v = ddxUvDdyUv.y + v;      tex2D(sampler, nextPixelUV);   ```</ph>下表顯示填滿 DdxUvDdyUvRegisterIndex 針對指定的暫存器的方法。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>|Register Constant|Derivative Value|   |-----------------------|----------------------|   |x component|ddx(u)|   |y component|ddx(v)|   |z component|ddy(u)|   |w component|ddy(v)|       Texture coordinates are denoted as <ph id="ph1">`(u, v)`</ph>.</source>
+          <target state="translated">|註冊常數 |衍生項目值 |  |-----------------------|----------------------|  | x component|ddx(u) |  | y component|ddx(v) |  | z component|ddy(u) |  | w component|ddy(v) |      材質座標會表示為<ph id="ph1">`(u, v)`</ph>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`ddx(u)`</ph> is the constant partial derivative of the texture coordinate component <ph id="ph2">`u`</ph> with respect to the screen-space x-coordinate.</source>
+          <target state="translated"><ph id="ph1">`ddx(u)`</ph>是紋理座標元件常數部分衍生項目<ph id="ph2">`u`</ph>相對於螢幕空間 x 軸座標。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`ddy(u)`</ph> is the partial derivative of the texture coordinate <ph id="ph2">`u`</ph> with respect to the screen-space y-coordinate.</source>
+          <target state="translated"><ph id="ph1">`ddy(u)`</ph>是紋理座標的部分衍生項目<ph id="ph2">`u`</ph>相對於螢幕空間 y 座標。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Similarly, <ph id="ph1">`ddx(v)`</ph> and <ph id="ph2">`ddy(v)`</ph> are the corresponding screen-space derivatives for the texture coordinate component <ph id="ph3">`v`</ph>.</source>
+          <target state="translated">同樣地，<ph id="ph1">`ddx(v)`</ph>和<ph id="ph2">`ddy(v)`</ph>是紋理座標元件的對應螢幕空間衍生項目<ph id="ph3">`v`</ph>。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  HLSL has the ddx and ddy instructions to calculate these values, but these instructions are not available on all PixelShader 2.0 hardware.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; HLSL 的 ddx 和 ddy 指示來計算這些值，但這些指示不適用於所有 PixelShader 2.0 硬體。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You may think of these constants in the following way.</source>
+          <target state="translated">您可能認為這些常數的方式如下。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>If you step 1 pixel to the right in screen space (in the x direction), then <ph id="ph1">`ddx(u)`</ph> is the amount that <ph id="ph2">`u`</ph> changes in texture space, and <ph id="ph3">`ddx(v)`</ph> is the amount that <ph id="ph4">`v`</ph> changes in texture space.</source>
+          <target state="translated">如果您已逐步 1 像素至右側螢幕空間 （x 方向），然後<ph id="ph1">`ddx(u)`</ph>是容量的<ph id="ph2">`u`</ph>材質空間中的變更和<ph id="ph3">`ddx(v)`</ph>是容量的<ph id="ph4">`v`</ph>材質空間中的變更。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>If the effect is axis-aligned when it is rendered, then <ph id="ph1">`ddx(v)`</ph> is 0.</source>
+          <target state="translated">如果效果是軸對齊呈現時，然後<ph id="ph1">`ddx(v)`</ph>為 0。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If the effect is rotated when it is rendered, then <ph id="ph1">`ddx(v)`</ph> is non-zero.</source>
+          <target state="translated">如果在呈現時，然後，旋轉效果<ph id="ph1">`ddx(v)`</ph>不是零。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The index of the register that contains the partial derivatives.</source>
+          <target state="translated">登錄包含部分衍生項目索引。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the DdxUvDdyUvRegisterIndex property more than one time or after initial processing of the effect.</source>
+          <target state="translated">嘗試設定超過一次或之後的效果的初始處理 DdxUvDdyUvRegisterIndex 屬性。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Makes the instance a frozen clone of the specified <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using base (non-animated) property values.</source>
+          <target state="translated">將執行個體設為指定的凍結的複製品<bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用基底 （非動畫） 屬性值。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The instance to copy.</source>
+          <target state="translated">要複製的執行個體。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Makes the current instance a frozen clone of the specified <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">將目前的執行個體設為指定的凍結的複製品<bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the object has animated dependency properties, their current animated values are copied.</source>
+          <target state="translated">如果物件具有動畫相依性屬性，則會複製其目前的動畫的值。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to copy and freeze.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>来複製和凍結。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating that the effect's output texture is larger than its input texture along the bottom edge.</source>
+          <target state="translated">取得或設定值，指出該效果的輸出紋理大於輸入紋理的下邊緣。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The padding along the bottom edge of the effect.</source>
+          <target state="translated">沿著效果下邊緣處的填補。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The provided value is less than 0.</source>
+          <target state="translated">提供的值小於 0。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating that the effect's output texture is larger than its input texture along the left edge.</source>
+          <target state="translated">取得或設定值，指出該效果的輸出紋理大於輸入紋理左邊緣處。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The padding along the left edge of the effect.</source>
+          <target state="translated">沿著效果左邊緣處的填補。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The provided value is less than 0.</source>
+          <target state="translated">提供的值小於 0。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating that the effect's output texture is larger than its input texture along the right edge.</source>
+          <target state="translated">取得或設定值，指出該效果的輸出紋理大於輸入紋理的右邊緣。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The padding along the right edge of the effect.</source>
+          <target state="translated">沿著效果右邊緣處的填補。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The provided value is less than 0.</source>
+          <target state="translated">提供的值小於 0。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating that the effect's output texture is larger than its input texture along the top edge.</source>
+          <target state="translated">取得或設定值，指出該效果的輸出紋理大於輸入紋理的上邊緣。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The padding along the top edge of the effect.</source>
+          <target state="translated">沿著效果上邊緣處的填補。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The provided value is less than 0.</source>
+          <target state="translated">提供的值小於 0。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for the effect.</source>
+          <target state="translated">取得或設定<bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>来使用的效果。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;a name="dependencyPropertyInfo_PixelShader"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Dependency Property Information      |||   |-|-|   |Identifier field|&lt;xref:System.Windows.Media.Effects.ShaderEffect.PixelShaderProperty&gt;|   |Metadata properties set to <ph id="ph1">`true`</ph>|None|</source>
+          <target state="translated"><bpt id="p1">&lt;a name="dependencyPropertyInfo_PixelShader"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # 相依性屬性資訊 | | |  |-|-|  |識別項欄位 |&lt;xref:System.Windows.Media.Effects.ShaderEffect.PixelShaderProperty&gt;|  |中繼資料屬性設定為<ph id="ph1">`true`</ph>|None |&lt;/xref:System.Windows.Media.Effects.ShaderEffect.PixelShaderProperty&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the effect.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的效果。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Associates a dependency property value with a pixel shader's float constant register.</source>
+          <target state="translated">將相依性屬性值與像素著色器的浮點常數暫存器產生關聯。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Use the PixelShaderConstantCallback method when you register a dependency property for a shader constant.</source>
+          <target state="translated">當您註冊相依性屬性的著色器常數時，請使用 PixelShaderConstantCallback 方法。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The PixelShaderConstantCallback method constructs a &lt;xref:System.Windows.PropertyChangedCallback&gt; delegate that, when invoked, creates an association between the dependency property and the shader constant register specified by <ph id="ph1">`floatRegisterIndex`</ph>.</source>
+          <target state="translated">PixelShaderConstantCallback 方法建構&lt;xref:System.Windows.PropertyChangedCallback&gt;委派，叫用時，會建立相依性屬性與所指定的著色器常數暫存之間的關聯<ph id="ph1">`floatRegisterIndex`</ph>。&lt;/xref:System.Windows.PropertyChangedCallback&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The index of the shader register associated with the dependency property.</source>
+          <target state="translated">著色器暫存器與相依性屬性相關聯的索引。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate that associates a dependency property and the shader constant register specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">floatRegisterIndex</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>委派使相依性屬性所指定的著色器常數暫存<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">floatRegisterIndex</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The dependency property is an unknown type.</source>
+          <target state="translated">相依性屬性是未知的類型。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;floatRegisterIndex&lt;/code&gt;</ph> is greater than or equal to 32, or <ph id="ph2">&lt;code&gt;floatRegisterIndex&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;floatRegisterIndex&lt;/code&gt;</ph>大於或等於 32 時，或<ph id="ph2">&lt;code&gt;floatRegisterIndex&lt;/code&gt;</ph>小於 0。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.Media.Effects.ShaderEffect.PixelShader*&gt; dependency property.</source>
+          <target state="translated">識別&lt;xref:System.Windows.Media.Effects.ShaderEffect.PixelShader*&gt;相依性屬性。&lt;/xref:System.Windows.Media.Effects.ShaderEffect.PixelShader*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Associates a dependency property value with a pixel shader's sampler register.</source>
+          <target state="translated">將相依性屬性值與像素著色器取樣器暫存器產生關聯。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Use the PixelShaderSamplerCallback method when you register a &lt;xref:System.Windows.Media.Brush&gt;-valued dependency property for a shader sampler.</source>
+          <target state="translated">當您註冊時使用 PixelShaderSamplerCallback 方法&lt;xref:System.Windows.Media.Brush&gt;-相依性屬性值的著色器取樣器。&lt;/xref:System.Windows.Media.Brush&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The PixelShaderSamplerCallback method constructs a &lt;xref:System.Windows.PropertyChangedCallback&gt; delegate that, when invoked, creates an association between the dependency property and the shader sampler register specified by <ph id="ph1">`samplerRegisterIndex`</ph>.</source>
+          <target state="translated">PixelShaderSamplerCallback 方法建構&lt;xref:System.Windows.PropertyChangedCallback&gt;委派，叫用時，會建立相依性屬性與所指定的著色器取樣器暫存器之間的關聯<ph id="ph1">`samplerRegisterIndex`</ph>。&lt;/xref:System.Windows.PropertyChangedCallback&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The index of the shader sampler associated with the dependency property.</source>
+          <target state="translated">相依性屬性相關聯之著色器取樣器的索引。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate that associates a dependency property and the shader sampler register specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">samplerRegisterIndex</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>將相依性屬性和所指定的著色器取樣器暫存器產生關聯的委派<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">samplerRegisterIndex</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Associates a dependency property value with a pixel shader's sampler register and a <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">將相依性屬性值與像素著色器取樣器暫存器產生關聯和<bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt; method when you register a &lt;xref:System.Windows.Media.Brush&gt;-valued dependency property for a shader sampler.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;方法，當您註冊時&lt;xref:System.Windows.Media.Brush&gt;-相依性屬性值的著色器取樣器。&lt;/xref:System.Windows.Media.Brush&gt; &lt;/xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt; method constructs a &lt;xref:System.Windows.PropertyChangedCallback&gt; delegate that, when invoked, creates an association between the dependency property and the shader sampler register specified by <ph id="ph1">`samplerRegisterIndex`</ph>.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;方法建構&lt;xref:System.Windows.PropertyChangedCallback&gt;委派，叫用時，會建立相依性屬性與所指定的著色器取樣器暫存器之間的關聯<ph id="ph1">`samplerRegisterIndex`</ph>。&lt;/xref:System.Windows.PropertyChangedCallback&gt; &lt;/xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The index of the shader sampler associated with the dependency property.</source>
+          <target state="translated">相依性屬性相關聯之著色器取樣器的索引。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the shader sampler.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的著色器取樣器。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate that associates a dependency property and the shader sampler register specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">samplerRegisterIndex</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>將相依性屬性和所指定的著色器取樣器暫存器產生關聯的委派<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">samplerRegisterIndex</ph> <ept id="p2">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Associates a dependency property with a shader sampler register.</source>
+          <target state="translated">將相依性屬性與著色器取樣器暫存器產生關聯。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The name of the dependency property.</source>
+          <target state="translated">相依性屬性的名稱。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The type of the effect that has the dependency property.</source>
+          <target state="translated">具有相依性屬性之效果的類型。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The index of the shader sampler associated with the dependency property.</source>
+          <target state="translated">相依性屬性相關聯之著色器取樣器的索引。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A dependency property associated with the shader sampler specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">samplerRegisterIndex</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">相依性屬性所指定之著色器取樣器相關聯<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">samplerRegisterIndex</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Associates a dependency property with a shader sampler register and a <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">將相依性屬性與著色器取樣器暫存器產生關聯和<bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The name of the dependency property.</source>
+          <target state="translated">相依性屬性的名稱。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The type of the effect that has the dependency property.</source>
+          <target state="translated">具有相依性屬性之效果的類型。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The index of the shader sampler associated with the dependency property.</source>
+          <target state="translated">相依性屬性相關聯之著色器取樣器的索引。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the shader sampler.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的著色器取樣器。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A dependency property associated with the shader sampler specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">samplerRegisterIndex</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">相依性屬性所指定之著色器取樣器相關聯<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">samplerRegisterIndex</ph> <ept id="p1">&lt;/code&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Notifies the effect that the shader constant or sampler corresponding to the specified dependency property should be updated.</source>
+          <target state="translated">告知效果，應該更新著色器常數或取樣器對應到指定的相依性屬性。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The dependency property to be updated.</source>
+          <target state="translated">要更新的相依性屬性。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

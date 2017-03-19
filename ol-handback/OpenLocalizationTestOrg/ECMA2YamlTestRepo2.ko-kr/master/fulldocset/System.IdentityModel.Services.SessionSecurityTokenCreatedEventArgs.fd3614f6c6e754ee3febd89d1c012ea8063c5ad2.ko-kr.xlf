@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b9bddbd65aa56bef42f99acbe638f1d736622cba</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">606c32774f6f467bcd77ef507b05c5713e9dc63d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ba9717aa70dd243c83824721bb5be3824c610ab5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides data for the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SessionAuthenticationModule.SessionSecurityTokenCreated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event and for the <bpt id="p2">&lt;xref href="System.IdentityModel.Services.WSFederationAuthenticationModule.SessionSecurityTokenCreated"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">에 대 한 데이터를 제공는 <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SessionAuthenticationModule.SessionSecurityTokenCreated"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트 및에 대 한는 <bpt id="p2">&lt;xref href="System.IdentityModel.Services.WSFederationAuthenticationModule.SessionSecurityTokenCreated"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default:      -   In the session authentication module (SAM) the &lt;xref:System.IdentityModel.Services.SessionAuthenticationModule.SessionSecurityTokenCreated&gt; event is raised from within the &lt;xref:System.IdentityModel.Services.SessionAuthenticationModule.OnAuthenticateRequest%2A?displayProperty=fullName&gt; method after a session token (&lt;xref:System.IdentityModel.Tokens.SessionSecurityToken&gt;) has been created.</source>
+          <target state="translated">기본적으로:-세션 인증 모듈 (SAM)는 &lt;xref:System.IdentityModel.Services.SessionAuthenticationModule.SessionSecurityTokenCreated&gt;내에서 이벤트가 발생는 &lt;xref:System.IdentityModel.Services.SessionAuthenticationModule.OnAuthenticateRequest%2A?displayProperty=fullName&gt;호출한 후 세션 토큰 (&lt;xref:System.IdentityModel.Tokens.SessionSecurityToken&gt;) 만들어졌습니다.&lt;/xref:System.IdentityModel.Tokens.SessionSecurityToken&gt; &lt;/xref:System.IdentityModel.Services.SessionAuthenticationModule.OnAuthenticateRequest%2A?displayProperty=fullName&gt; &lt;/xref:System.IdentityModel.Services.SessionAuthenticationModule.SessionSecurityTokenCreated&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This happens, for example, if an event handler for the &lt;xref:System.IdentityModel.Services.SessionAuthenticationModule.SessionSecurityTokenReceived&gt; event modifies the token.</source>
+          <target state="translated">이런 경우 예를 들어 경우에 대 한 이벤트 처리기는 &lt;xref:System.IdentityModel.Services.SessionAuthenticationModule.SessionSecurityTokenReceived&gt;이벤트 토큰을 수정 합니다.&lt;/xref:System.IdentityModel.Services.SessionAuthenticationModule.SessionSecurityTokenReceived&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the SessionSecurityTokenCreatedEventArgs to modify the session token before it is passed further along the pipeline and is used to authenticate the entity making the request (user).</source>
+          <target state="translated">파이프라인을 통해 더 이상 전달 하 고 (사용자) 요청을 만드는 엔터티를 인증 하는 데 사용 하기 전에 세션 토큰을 수정 하는 SessionSecurityTokenCreatedEventArgs를 사용할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   In the WS-Federation authentication module (WSFAM), the &lt;xref:System.IdentityModel.Services.WSFederationAuthenticationModule.SessionSecurityTokenCreated&gt; event is raised from the request processing pipeline just after a session token has been created from the WS-Federation sign-in response message received from the STS and just before the SAM is called to set the thread principal and write the session cookie.</source>
+          <target state="translated">WS-페더레이션 인증 모듈 (WSFAM) 인는 &lt;xref:System.IdentityModel.Services.WSFederationAuthenticationModule.SessionSecurityTokenCreated&gt;이벤트는 SAM 스레드 보안 주체를 설정 하 고 세션 쿠키를 작성 하기 위해 호출 바로 전에 및 STS 로부터 받은 Ws-federation 로그인 응답 메시지에서 세션 토큰을 만든 후에 바로 요청 처리 파이프라인에서 발생 합니다.&lt;/xref:System.IdentityModel.Services.WSFederationAuthenticationModule.SessionSecurityTokenCreated&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.SessionToken%2A&gt; property to modify or replace the token.</source>
+          <target state="translated">사용할 수는 &lt;xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.SessionToken%2A&gt;속성을 수정 하거나 토큰을 바꿀.&lt;/xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.SessionToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the &lt;xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.WriteSessionCookie%2A&gt; to specify whether the session cookie should be written (or re-written).</source>
+          <target state="translated">설정할 수 있습니다는 &lt;xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.WriteSessionCookie%2A&gt;지정 여부 세션 쿠키 해야 수 기록 (또는 다시 작성).&lt;/xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.WriteSessionCookie%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified session security token.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 지정한 세션 보안 토큰을 사용 하 여 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.SessionToken%2A&gt; property is set to the token specified by the <ph id="ph1">`sessionToken`</ph> parameter.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.SessionToken%2A&gt;속성으로 지정 된 토큰에는 <ph id="ph1">`sessionToken`</ph> 매개 변수.&lt;/xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.SessionToken%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.WriteSessionCookie%2A&gt; property is initialized to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.WriteSessionCookie%2A&gt;속성은 초기화 <ph id="ph1">`false`</ph>.&lt;/xref:System.IdentityModel.Services.SessionSecurityTokenCreatedEventArgs.WriteSessionCookie%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The session security token that was created.</source>
+          <target state="translated">생성 된 세션 보안 토큰입니다.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;sessionToken&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;sessionToken&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets or sets the session security token that was created.</source>
+          <target state="translated">생성 된 세션 보안 토큰을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The session token that was created.</source>
+          <target state="translated">생성 된 세션 토큰입니다.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether a cookie should be written in the response.</source>
+          <target state="translated">응답에서 쿠키를 쓸지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to write a cookie in the response; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>응답에 쿠키를 작성 하려면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the cookie is not written in the response.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, 쿠키 응답에 기록 되지 않습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

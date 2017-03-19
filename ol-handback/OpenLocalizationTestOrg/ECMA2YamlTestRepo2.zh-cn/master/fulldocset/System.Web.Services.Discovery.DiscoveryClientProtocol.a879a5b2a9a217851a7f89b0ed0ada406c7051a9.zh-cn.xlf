@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">58eb84e140205c9b9a5ed0066d3a15b12c9f3a78</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Services.Discovery.DiscoveryClientProtocol.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">efa728816108e2e706a3b97724425741f8cc7ebc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">177f1734dd0f1ca43064f03f12c3dc92ff4a684d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides support for programmatically invoking XML Web services discovery.</source>
+          <target state="translated">提供以编程方式调用 XML Web services 发现支持。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>XML Web service discovery is the process of locating, or discovering, one or more related documents that describe available XML Web services.</source>
+          <target state="translated">XML Web 服务发现过程的查找，或发现、 一个或多个相关的文档，描述可用的 XML Web 服务。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It is through XML Web services discovery that XML Web service clients learn about the available XML Web services at a given URL and how to use them.</source>
+          <target state="translated">它是通过 XML Web 服务发现 XML Web 服务客户端了解有关可用的 XML Web 服务，在给定的 URL 以及如何使用它们。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>XML Web services discovery works from the premise that you have already obtained the URL to a discovery document, possibly through a directory service, such as http://uddi.microsoft.com, however, you do not have the details about the XML Web services offered.</source>
+          <target state="translated">提供 XML Web 服务发现的工作原理从本地，你有已获取的 URL 发现文档，可能通过目录服务，如 http://uddi.microsoft.com，但是，您没有 XML Web 服务有关的详细信息。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Through XML Web services discovery, you can discover the details about the XML Web services listed in a &lt;xref:System.Web.Services.Discovery.DiscoveryDocument&gt; at a specific URL.</source>
+          <target state="translated">可以通过 XML Web 服务发现，发现中列出了 XML Web 服务有关的详细信息&lt;xref:System.Web.Services.Discovery.DiscoveryDocument&gt;在特定的 URL。&lt;/xref:System.Web.Services.Discovery.DiscoveryDocument&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>An XML Web service client starts XML Web services discovery by supplying a URL to either the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt; or &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; methods.</source>
+          <target state="translated">XML Web 服务客户端通过提供的 URL 来启动发现 XML Web 服务&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;或&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;方法。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Typically, this URL refers to a discovery document, which in turn refers to documents that describe one or more XML Web services, which are added to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; property.</source>
+          <target state="translated">通常，此 URL 是指发现文档，它又引用文档，用于描述一个或多个 XML Web 服务，添加到&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>At that point, only that document is downloaded and verified to point to valid information about XML Web services.</source>
+          <target state="translated">此时，仅该文档下载和验证以指向 XML Web 服务的有效信息。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>However, the references contained in that document are not verified at this stage.</source>
+          <target state="translated">但是，在此阶段未验证该文档中包含的引用。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Instead they are added to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; property.</source>
+          <target state="translated">而是将它们添加到&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>To verify that the references are valid, invoke the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; or &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; methods, which add valid referenced documents to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt; property.</source>
+          <target state="translated">若要验证这些引用是否有效，请调用&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;或&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;方法，将它添加到有效的引用的文档&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Last, if a client wants to save the discovery results to disk, invoke the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.WriteAll%2A&gt; method.</source>
+          <target state="translated">最后，如果客户端想要保存到磁盘中，调用的发现结果&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.WriteAll%2A&gt;方法。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.WriteAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If programmatic access to XML Web services discovery is not needed, the <ph id="ph1">[!INCLUDE[winsdklong](~/add/includes/winsdklong-md.md)]</ph> ships the Web Services Discovery tool (Disco.exe) for discovering XML Web services within a command prompt.</source>
+          <target state="translated">如果不需要以编程方式访问 XML Web 服务发现，<ph id="ph1">[!INCLUDE[winsdklong](~/add/includes/winsdklong-md.md)]</ph>随 Web 服务发现工具 (Disco.exe) 提供用于发现在命令提示符内的 XML Web 服务。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more details, see <bpt id="p1">[</bpt>Web Services Discovery Tool (Disco.exe)<ept id="p1">](http://msdn.microsoft.com/en-us/acd88078-c581-42bc-94ca-6633e2851979)</ept>.</source>
+          <target state="translated">有关更多详细信息，请参阅<bpt id="p1">[</bpt>Web 服务发现工具 (Disco.exe)<ept id="p1">](http://msdn.microsoft.com/en-us/acd88078-c581-42bc-94ca-6633e2851979)</ept>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientProtocol"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientProtocol"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets information in addition to references found in the discovery document.</source>
+          <target state="translated">获取信息以及在发现文档中找到的引用。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The AdditionalInformation property primarily contains SOAP bindings, represented by the &lt;xref:System.Web.Services.Discovery.SoapBinding&gt; class, defined in the discovery document.</source>
+          <target state="translated">AdditionalInformation 属性主要包含 SOAP 绑定，由表示&lt;xref:System.Web.Services.Discovery.SoapBinding&gt;发现文档中定义的类。&lt;/xref:System.Web.Services.Discovery.SoapBinding&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IList&gt; containing additional information found in the discovery document.</source>
+          <target state="translated">&lt;xref:System.Collections.IList&gt;包含其他信息在发现文档中找到。&lt;/xref:System.Collections.IList&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Discovers the supplied URL to determine if it is a discovery document.</source>
+          <target state="translated">发现提供的 URL，以确定其是否发现文档。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The Discover method expects that the supplied URL is a discovery document.</source>
+          <target state="translated">发现方法需要提供的 URL 是发现文档。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>If the URL refers to a service description or an XML schema an exception is thrown.</source>
+          <target state="translated">如果 URL 指代的服务说明或 XML 架构是引发异常。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To discover an XML schema or a service description invoke the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; method.</source>
+          <target state="translated">若要了解 XML 架构或服务说明调用&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;方法。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If the supplied URL points to a valid discovery document, the discovery document at the supplied URL is added to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; collection.</source>
+          <target state="translated">如果提供的 URL 指向有效的发现文档，所提供的 URL 处发现文档添加到&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;集合。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Additionally, references within the discovery document are added to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; collection, but not verified to point to valid discovery documents.</source>
+          <target state="translated">此外，发现文档中的引用将添加到&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;集合，但不是验证是否指向有效的发现文档。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To verify the references, point to valid discovery documents to invoke the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; or &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; methods.</source>
+          <target state="translated">验证引用，指向有效的发现文档，以调用&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;或&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;方法。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The URL where XML Web services discovery begins.</source>
+          <target state="translated">发现 XML Web 服务的起始位置的 URL。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the results of XML Web services discovery at the supplied URL.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含结果的 XML Web 服务发现提供的 URL 处。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Accessing the supplied URL returned an HTTP status code other than &lt;xref:System.Net.HttpStatusCode&gt;.</source>
+          <target state="translated">访问提供的 URL 返回&lt;xref:System.Net.HttpStatusCode&gt;.&lt;/xref:System.Net.HttpStatusCode&gt;以外的 HTTP 状态代码</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">url</ph><ept id="p1">&lt;/code&gt;</ept> parameteris a valid URL, but does not point to a valid discovery document.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">url</ph> <ept id="p1">&lt;/code&gt;</ept>参数是有效的 URL，但不指向有效的发现文档。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Discovers the supplied URL to determine if it is a discovery document, service description or an XML Schema Definition (XSD) schema.</source>
+          <target state="translated">发现提供的 URL，以确定它是发现文档、 服务说明或 XML 架构定义 (XSD) 架构。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The DiscoverAny method discovers whether the supplied URL is a discovery document, service description or XSD schema.</source>
+          <target state="translated">DiscoverAny 方法发现提供的 URL 是发现文档、 服务说明或 XSD 架构。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If it is known that the URL only refers to a discovery document, the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt; method might be invoked.</source>
+          <target state="translated">如果它已知的 URL 仅指发现文档中，&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;可能调用方法。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If the supplied URL points to a valid discovery document, XSD schema, or service description, the discovery document at the supplied URL is added to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; collections.</source>
+          <target state="translated">如果提供的 URL 指向有效的发现文档、 XSD 架构或服务说明，将提供的 URL 处发现文档添加到&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;集合。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>When the supplied URL refers to an XSD schema or Service Description a &lt;xref:System.Web.Services.Discovery.DiscoveryDocument&gt; is created in memory and added to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; collections.</source>
+          <target state="translated">当所提供的 URL 引用 XSD 架构或服务说明&lt;xref:System.Web.Services.Discovery.DiscoveryDocument&gt;被在内存中创建并添加到&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;集合。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryDocument&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Additionally, references within the discovery document are added to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; collection, but not verified to point to valid discovery documents.</source>
+          <target state="translated">此外，发现文档中的引用将添加到&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;集合，但不是验证是否指向有效的发现文档。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To verify that references point to valid discovery documents, invoke the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; or &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; methods.</source>
+          <target state="translated">若要验证是否引用指向有效的发现文档，请调用&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;或&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;方法。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The URL where XML Web services discovery begins.</source>
+          <target state="translated">发现 XML Web 服务的起始位置的 URL。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the results of XML Web services discovery at the supplied URL.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含结果的 XML Web 服务发现提供的 URL 处。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">url</ph><ept id="p1">&lt;/code&gt;</ept> parameter refers to a service description or an XSD Schema, a <bpt id="p2">&lt;xref href="System.Web.Services.Discovery.DiscoveryDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is created in memory for it.</source>
+          <target state="translated">如果<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">url</ph> <ept id="p1">&lt;/code&gt;</ept>参数指的服务说明或 XSD 架构， <bpt id="p2">&lt;xref href="System.Web.Services.Discovery.DiscoveryDocument"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>在内存中创建它。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Accessing the supplied URL returned an HTTP status code other than &lt;xref:System.Net.HttpStatusCode&gt;.</source>
+          <target state="translated">访问提供的 URL 返回&lt;xref:System.Net.HttpStatusCode&gt;.&lt;/xref:System.Net.HttpStatusCode&gt;以外的 HTTP 状态代码</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">url</ph><ept id="p1">&lt;/code&gt;</ept> parameteris a valid URL, but does not point to a valid discovery document, service description, or XSD schema.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">url</ph> <ept id="p1">&lt;/code&gt;</ept>参数是有效的 URL，但不指向有效的发现文档、 服务说明或 XSD 架构。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Gets a collection of discovery documents.</source>
+          <target state="translated">获取发现文档的集合。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The Documents collection is populated during invocations to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;, &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;, &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; methods.</source>
+          <target state="translated">在调用期间填充文档集合&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;， &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;，&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;方法。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>During invocations to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; methods, if the supplied URL is a valid discovery document, that document is added to the Documents collection.</source>
+          <target state="translated">在调用期间&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;方法，如果提供的 URL 是一个有效的发现文档，该文档添加到文档集合。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>During invocations to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; methods, valid discovery document references in the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; collection are added to the Documents collection.</source>
+          <target state="translated">在调用期间&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;方法，有效的发现文档引用中&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;集合添加到文档集合。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientDocumentCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the collection of discovery documents found.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientDocumentCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示发现找到的文档的集合。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Downloads the discovery document at the supplied URL into a &lt;xref:System.IO.Stream&gt; object.</source>
+          <target state="translated">将下载到提供的 URL 处的发现文档&lt;xref:System.IO.Stream&gt;对象。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The URL of the discovery document to download.</source>
+          <target state="translated">要下载的发现文档的 URL。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.Stream&gt; containing the document at the supplied URL.</source>
+          <target state="translated">A&lt;xref:System.IO.Stream&gt;包含提供的 URL 处的文档。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The download from the supplied URL returned an HTTP status code other than &lt;xref:System.Net.HttpStatusCode&gt;.</source>
+          <target state="translated">从提供的 URL 下载返回&lt;xref:System.Net.HttpStatusCode&gt;.&lt;/xref:System.Net.HttpStatusCode&gt;以外的 HTTP 状态代码</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Downloads the discovery document at the supplied URL into a &lt;xref:System.IO.Stream&gt; object, setting the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">contentType</ph><ept id="p1">&lt;/code&gt;</ept> parameter to the MIME encoding of the discovery document.</source>
+          <target state="translated">将下载到提供的 URL 处的发现文档&lt;xref:System.IO.Stream&gt;对象，并设置<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">contentType</ph> <ept id="p1">&lt;/code&gt;</ept>发现文档的 MIME 编码参数。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The URL of the discovery document to download.</source>
+          <target state="translated">要下载的发现文档的 URL。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The MIME encoding of the downloaded discovery document.</source>
+          <target state="translated">下载的发现文档的 MIME 编码。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.Stream&gt; containing the document at the supplied URL.</source>
+          <target state="translated">A&lt;xref:System.IO.Stream&gt;包含提供的 URL 处的文档。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The download from the supplied URL returned an HTTP status code other than &lt;xref:System.Net.HttpStatusCode&gt;.</source>
+          <target state="translated">从提供的 URL 下载返回&lt;xref:System.Net.HttpStatusCode&gt;.&lt;/xref:System.Net.HttpStatusCode&gt;以外的 HTTP 状态代码</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a collection of exceptions that occurred during invocation of method from this class.</source>
+          <target state="translated">获取从该类的方法的调用过程中发生的异常的集合。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The Errors collection is populated with exceptions that occurred during invocations to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;, &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;, &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;, and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; methods.</source>
+          <target state="translated">错误集合填充到的调用过程中发生的异常与&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;， &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;， &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;，和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;方法。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.Services.Discovery.DiscoveryExceptionDictionary&gt; is cleared on invocation of these methods.</source>
+          <target state="translated">&lt;xref:System.Web.Services.Discovery.DiscoveryExceptionDictionary&gt;上调用这些方法清除。&lt;/xref:System.Web.Services.Discovery.DiscoveryExceptionDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryExceptionDictionary"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of exceptions.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryExceptionDictionary"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的异常。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Instructs the <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientProtocol"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to load any external references.</source>
+          <target state="translated">指示<bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientProtocol"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要加载的任何外部引用对象。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Reads in a file containing a map of saved discovery documents populating the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents<bpt id="p1">*</bpt>&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References<ept id="p1">*</ept>&gt; properties, with discovery documents, XML Schema Definition (XSD) schemas, and service descriptions referenced in the file.</source>
+          <target state="translated">在包含的已保存的发现文档填充的映射的文件中读取&lt;&gt; <bpt id="p1">*</bpt>1&gt; 和&lt;&gt; <ept id="p1">*</ept>1&gt; 属性，使用发现文档、 XML 架构定义 (XSD) 架构和文件中引用的服务说明。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A file containing a map of saved discovery documents can be created by the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.WriteAll%2A&gt; method or Disco.exe.</source>
+          <target state="translated">可以通过创建包含的已保存的发现文档的映射的文件&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.WriteAll%2A&gt;方法或 Disco.exe。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.WriteAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`topLevelFilename`</ph> parameter must include the fully qualified path if the file does not exist in the current directory.</source>
+          <target state="translated"><ph id="ph1">`topLevelFilename`</ph>参数必须包含完全限定的路径，如果文件不存在当前目录中。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Name of file to read in, containing the map of saved discovery documents.</source>
+          <target state="translated">名称的文件中读取，请包含的映射已保存的发现文档。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientResultCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the results found in the file with the map of saved discovery documents.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientResultCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含在与的映射文件中找到的结果已保存的发现文档。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The file format is a &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoveryClientResultsFile&gt; class serialized into XML; however, one would typically create the file using only the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.WriteAll*&gt; method or Disco.exe.</source>
+          <target state="translated">文件格式是&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoveryClientResultsFile&gt;类序列化为 XML; 但是，一个通常将创建仅使用该文件&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.WriteAll*&gt;方法或 Disco.exe。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.WriteAll*&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoveryClientResultsFile&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A collection of references founds in resolved discovery documents.</source>
+          <target state="translated">已解析的发现文档中找到的引用集合。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The References collection is populated during invocations to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;, &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;, &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; methods.</source>
+          <target state="translated">过程调用中填充引用集合&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;， &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;，&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;方法。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>During invocations to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; methods, if the supplied URL is a valid discovery document, that document is added to the References collection together with references found in the discovery document.</source>
+          <target state="translated">在调用期间&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;方法，如果提供的 URL 是一个有效的发现文档，该文档添加到以及在发现文档中找到引用的引用集合。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>References added during invocations to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; methods are not necessarily valid discovery documents.</source>
+          <target state="translated">在调用过程中添加的引用&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt;方法不一定是有效的发现文档。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoverAny%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Discover%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>During invocations to &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; references within the References collection are verified as being valid discovery documents.</source>
+          <target state="translated">在调用期间&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;引用集合中的引用为有效的发现文档验证。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>If they are valid and contain references, they are also added to the References collection.</source>
+          <target state="translated">如果它们有效，并且包含的引用，它们也添加到引用集合。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientReferenceCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of references discovered.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientReferenceCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>发现的引用。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Resolves all references to discovery documents, XML Schema Definition (XSD) schemas, and service descriptions in the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References*&gt; property, as well as references found in referenced discovery documents.</source>
+          <target state="translated">解析对发现文档、 XML 架构定义 (XSD) 架构和服务说明中的所有引用&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References*&gt;属性，以及在引用的发现文档中找到的引用。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References*&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>ResolveAll resolves all valid references it finds and places them in the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt; property.</source>
+          <target state="translated">ResolveAll 解析所有有效的引用，它将找到并将它们放入&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Both ResolveAll and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; download and verify XSD schemas and service descriptions in the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; property.</source>
+          <target state="translated">这两个 ResolveAll 和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;下载和验证 XSD 架构和服务中的描述&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>However, the two methods differ in how they handle discovery documents.</source>
+          <target state="translated">但是，两个方法的处理发现文档的方式有所不同。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; resolves all references in discovery documents within the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; property; if a discovery document contains references to other discovery documents, &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; resolves just those discovery documents.</source>
+          <target state="translated">&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;解析在发现中的文档中的所有引用&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;属性; 如果发现文档包含对其他发现文档，引用&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;都解析仅对这些发现文档。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Discovery documents found in those discovery documents nested one level deep are not resolved by &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;; whereas ResolveAll resolves them all.</source>
+          <target state="translated">在这些发现文档中找到的发现文档位于下一个未解决级别深层嵌套&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;; 而 ResolveAll 解析其全部。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveOneLevel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>ResolveAll continues to resolve references in nested discovery documents until there are no more references.</source>
+          <target state="translated">ResolveAll 继续解析嵌套的发现文档中的引用，直到没有更多的引用。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Errors occurring during the verification process done by ResolveAll are not thrown at the time of occurrence, but rather collected and added to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Errors%2A&gt; property.</source>
+          <target state="translated">通过 ResolveAll 完成验证过程中发生的错误将不会在匹配项，时引发，而是收集和添加到&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Errors%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Errors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Resolves all references to discovery documents, XML Schema Definition (XSD) schemas and service descriptions in &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References*&gt;, as well as references found in those discovery documents.</source>
+          <target state="translated">解析对发现文档、 XML 架构定义 (XSD) 架构和服务说明中的所有引用&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References*&gt;，以及这些发现文档中找到的引用。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References*&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>ResolveOneLevel resolves all valid references it finds and places them in the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt; property.</source>
+          <target state="translated">ResolveOneLevel 解析所有有效的引用，它将找到并将它们放入&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Both &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; and ResolveOneLevel download and verify XSD schemas and service descriptions in the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; property.</source>
+          <target state="translated">同时&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;和 ResolveOneLevel 下载和验证 XSD 架构和服务中的描述&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>However, the two methods differ in how they handle discovery documents.</source>
+          <target state="translated">但是，两个方法的处理发现文档的方式有所不同。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>ResolveOneLevel resolves all references in discovery documents within the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; property.</source>
+          <target state="translated">ResolveOneLevel 解析在发现中的文档中的所有引用&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>If a discovery document contains references to other discovery documents, ResolveOneLevel resolves just those discovery documents.</source>
+          <target state="translated">如果发现文档包含对其他发现文档引用，ResolveOneLevel 会解析仅对这些发现文档。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Discovery documents found in those discovery documents nested one level deep are not resolved by ResolveOneLevel; whereas &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; resolve them all.</source>
+          <target state="translated">在这些发现文档中找到的发现文档位于下一个级别的深度就不解析由 ResolveOneLevel; 嵌套而&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;解决所有这些问题。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt; continues to resolve references in nested discovery documents until there are no more references.</source>
+          <target state="translated">&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;继续解析嵌套的发现文档中的引用，直到没有更多的引用。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ResolveAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Errors occurring during the verification process done by ResolveOneLevel are not thrown at the time of occurrence, but rather collected and added to the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Errors%2A&gt; property.</source>
+          <target state="translated">通过 ResolveOneLevel 完成验证过程中发生的错误将不会在匹配项，时引发，而是收集和添加到&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Errors%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Errors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Writes all discovery documents, XML Schema Definition (XSD) schemas, and Service Descriptions in the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents*&gt; property to the supplied directory and creates a file in that directory.</source>
+          <target state="translated">将所有发现文档、 XML 架构定义 (XSD) 架构和服务说明中&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents*&gt;属性提供的目录并在该目录中创建的文件。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents*&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The file created with the name of the <ph id="ph1">`topLevelFilename`</ph> parameter in the directory specified by the directory parameter contains a map of saved discovery documents, XML Schema Definition (XSD) schemas and service descriptions.</source>
+          <target state="translated">创建同名的文件<ph id="ph1">`topLevelFilename`</ph>directory 参数所指定的目录中的参数包含一个已保存的发现文档、 XML 架构定义 (XSD) 架构和服务说明的映射。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>This file can be read in using the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ReadAll%2A&gt; method to populate the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; and &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt; properties.</source>
+          <target state="translated">可以使用读取此文件&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ReadAll%2A&gt;方法来填充&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt;和&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.References%2A&gt; &lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.ReadAll%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The format of the file is XML containing an serialized version of the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoveryClientResultsFile&gt; class.</source>
+          <target state="translated">文件的格式为 XML 包含序列化的版本的&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoveryClientResultsFile&gt;类。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.DiscoveryClientResultsFile&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>If a file exists with the same name as the <ph id="ph1">`topLevelFilename`</ph> parameter in the <ph id="ph2">`directory`</ph> parameter, that file is overwritten by the WriteAll method.</source>
+          <target state="translated">如果存在具有相同的名称的文件<ph id="ph1">`topLevelFilename`</ph>中的参数<ph id="ph2">`directory`</ph>WriteAll 方法参数，该文件将被覆盖。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`topLevelFilename`</ph> parameter must include the fully qualified path if the file does not exist in the current directory.</source>
+          <target state="translated"><ph id="ph1">`topLevelFilename`</ph>参数必须包含完全限定的路径，如果文件不存在当前目录中。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The directory in which to save all documents currently in the &lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents*&gt; property.</source>
+          <target state="translated">要在其中保存所有文档中当前目录&lt;xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents*&gt;属性。&lt;/xref:System.Web.Services.Discovery.DiscoveryClientProtocol.Documents*&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The name of the file to create or overwrite containing a map of all documents saved.</source>
+          <target state="translated">要创建或覆盖包含的保存的所有文档的映射的文件的名称。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientResultCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the results of all files saved.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Discovery.DiscoveryClientResultCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含结果的所有已保存文件。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
