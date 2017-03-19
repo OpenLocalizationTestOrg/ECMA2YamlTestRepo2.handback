@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e8db5497493ed4f1d1c732431595724849d63530</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.Install.Installer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">64bb3a55a54359e687ee393ded5ea2f8498957cd</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b8e93c6b04aae5c3cf2667494ffc3794e3c0b0f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the foundation for custom installations.</source>
+          <target state="translated">Предоставляет основу для пользовательских установок.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the base class for all custom installers in the .NET Framework.</source>
+          <target state="translated">Это базовый класс для всех настраиваемых установщиков в .NET Framework.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Installers are components that help install applications on a computer.</source>
+          <target state="translated">Установщики являются компонентами, помогающими установить приложения на компьютере.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are several steps you must follow to use an Installer:      -   Inherit the Installer class.</source>
+          <target state="translated">Существуют несколько шагов, которые необходимо выполнить, чтобы использовать установщик:-унаследовать класс установщика.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Override the &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, and &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; methods.</source>
+          <target state="translated">-Переопределить &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, и &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;методы.&lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Rollback%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Commit%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Add the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; to your derived class and set it to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">-Добавьте &lt;xref:System.ComponentModel.RunInstallerAttribute&gt;для производного класса и присвойте ему значение <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Put your derived class in the assembly with your application to install.</source>
+          <target state="translated">-Поместите производного класса в сборке с приложением для установки.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Invoke the installers.</source>
+          <target state="translated">-Запустить установщики.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, use the InstallUtil.exe to invoke the installers.</source>
+          <target state="translated">Например можно используйте InstallUtil.exe для запуска установщиков.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; property contains a collection of installers.</source>
+          <target state="translated">&lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;Свойство содержит коллекцию установщиков.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this instance of Installer is part of an installer collection, the &lt;xref:System.Configuration.Install.Installer.Parent%2A&gt; property is set to the Installer instance that contains the collection.</source>
+          <target state="translated">Если этот экземпляр установщика является частью коллекции установщиков, &lt;xref:System.Configuration.Install.Installer.Parent%2A&gt;свойству экземпляра установщик, содержащий коллекцию.&lt;/xref:System.Configuration.Install.Installer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example of the use of the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection, see the &lt;xref:System.Configuration.Install.AssemblyInstaller&gt; class.</source>
+          <target state="translated">Пример использования &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;коллекции, в разделе &lt;xref:System.Configuration.Install.AssemblyInstaller&gt;класса.&lt;/xref:System.Configuration.Install.AssemblyInstaller&gt; &lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, and &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; methods of the Installer class go through the collection of installers stored in the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; property, and invokes the corresponding method of each installer.</source>
+          <target state="translated">&lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, И &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;методы класса установщика проходить через коллекцию установщиков, хранящиеся в &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;свойство и вызывает соответствующий метод каждого установщика.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Rollback%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Commit%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, and &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; methods are not always called on the same Installer instance.</source>
+          <target state="translated">&lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, И &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;методы не всегда вызываются в том же экземпляре установщика.&lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Rollback%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Commit%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, one Installer instance might be used while installing and committing an application, and then the reference to that instance is released.</source>
+          <target state="translated">Например установки и фиксации приложения могут использовать один экземпляр установщика, а затем ссылка на этот экземпляр освобождается.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Later, uninstalling the application creates a reference to a new Installer instance, meaning that the &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; method is called by a different instance of Installer.</source>
+          <target state="translated">Позже, при удалении приложения создает ссылку на новый экземпляр установщика, что означает, что &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;метод вызывается методом на другой экземпляр программы установки.&lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For this reason, in your derived class, do not save the state of a computer in an installer.</source>
+          <target state="translated">По этой причине в производном классе, не следует сохранять состояние компьютера в установщик.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, use an &lt;xref:System.Collections.IDictionary&gt; that is preserved across calls and passed into your &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, and &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; methods.</source>
+          <target state="translated">Вместо этого используйте &lt;xref:System.Collections.IDictionary&gt;, сохраняет свое значение и передается в ваш &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, и &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;методы.&lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Rollback%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Commit%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Install%2A&gt; &lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Two situations illustrate the need to save information in the state-saver &lt;xref:System.Collections.IDictionary&gt;.</source>
+          <target state="translated">Необходимость сохранения информации о состоянии заставки &lt;xref:System.Collections.IDictionary&gt;.&lt;/xref:System.Collections.IDictionary&gt; показаны две ситуации</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>First, suppose that your installer sets a registry key.</source>
+          <target state="translated">Во-первых Предположим, что установщик устанавливает раздел реестра.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It should save the key's original value in the &lt;xref:System.Collections.IDictionary&gt;.</source>
+          <target state="translated">Исходное значение ключа должно быть сохранено в &lt;xref:System.Collections.IDictionary&gt;.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the installation is rolled back, the original value can be restored.</source>
+          <target state="translated">Если откат установки можно восстановить исходное значение.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Second, suppose the installer replaces an existing file.</source>
+          <target state="translated">Во-вторых Предположим, что программа установки заменяет существующий файл.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Save the existing file in a temporary directory and the location of the new location of the file in the &lt;xref:System.Collections.IDictionary&gt;.</source>
+          <target state="translated">Сохранить существующий файл во временный каталог и расположение нового местоположения файла в списке &lt;xref:System.Collections.IDictionary&gt;.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the installation is rolled back, the newer file is deleted and replaced by the original from the temporary location.</source>
+          <target state="translated">Если откат установки более новый файл удаляется и заменяется исходное из временного каталога.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt; property contains information about the installation.</source>
+          <target state="translated">&lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;Свойство содержит сведения об установке.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, information about the location of the log file for the installation, the location of the file to save information required by the &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; method, and the command line that was entered when the installation executable was run.</source>
+          <target state="translated">Например, сведения о расположении файла журнала установки и расположение файла для сохранения информации, необходимой &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;метод и программы командной строки, введенные во время запуска исполняемого файла установки.&lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Occurs after the &lt;xref:System.Configuration.Install.Installer.Install<bpt id="p1">*</bpt>&gt; methods of all the installers in the &lt;xref:System.Configuration.Install.Installer.Installers<ept id="p1">*</ept>&gt; property have run.</source>
+          <target state="translated">Происходит после &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>настроек методы всех установщиков из &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>настроек свойства.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Occurs after the installations of all the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property are rolled back.</source>
+          <target state="translated">Происходит после установки всех установщиков из &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство откатываются.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Occurs after all the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property perform their uninstallation operations.</source>
+          <target state="translated">Происходит после выполнения всех установщиков из &lt;xref:System.Configuration.Install.Installer.Installers*&gt;Свойства выполнения операций удаления.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Occurs before the &lt;xref:System.Configuration.Install.Installer.Install*&gt; method of each installer in the installer collection has run.</source>
+          <target state="translated">Происходит перед &lt;xref:System.Configuration.Install.Installer.Install*&gt;был запущен метод каждого установщика из коллекции установщиков.&lt;/xref:System.Configuration.Install.Installer.Install*&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Occurs before the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property are rolled back.</source>
+          <target state="translated">Происходит до в &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство откатываются.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Occurs before the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property perform their uninstall operations.</source>
+          <target state="translated">Происходит до в &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство выполнять свои операции удаления.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, completes the install transaction.</source>
+          <target state="translated">При переопределении в производном классе завершает транзакцию установки.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the state of the computer after all the installers in the collection have run.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера после выполнения всех установщиков из коллекции.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-or-       The saved-state &lt;xref:System.Collections.IDictionary&gt; might have been corrupted.</source>
+          <target state="translated">- или - сохраненного состояния &lt;xref:System.Collections.IDictionary&gt;Возможно, повреждены.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An exception occurred during the Commit phase of the installation.</source>
+          <target state="translated">На этапе фиксации установки возникло исключение.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This exception is ignored and the installation continues.</source>
+          <target state="translated">Исключение игнорируется, и установка продолжается.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>However, the application might not function correctly after the installation is complete.</source>
+          <target state="translated">Однако после завершения установки приложение может работать неправильно.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Occurs after all the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property have committed their installations.</source>
+          <target state="translated">Происходит после выполнения всех установщиков из &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство фиксации установки.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Occurs before the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property committ their installations.</source>
+          <target state="translated">Происходит до в &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство установщиками установок.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets information about the current installation.</source>
+          <target state="translated">Возвращает или задает сведения о текущей установке.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Context property contains installation information.</source>
+          <target state="translated">Контекстное свойство содержит сведения об установке.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, information about the location of the log file for the installation, the location of the file to save information required by the &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; method, and the command line that was entered when the installation executable was run.</source>
+          <target state="translated">Например, сведения о расположении файла журнала установки и расположение файла для сохранения информации, необходимой &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;метод и программы командной строки, введенные во время запуска исполняемого файла установки.&lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The program that calls the &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, or &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; methods sets the Context property with information that the methods need.</source>
+          <target state="translated">Программа, которая вызывает &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, или &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;методы задает для свойства значение контекста сведения, необходимые методы.&lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Rollback%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Commit%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an installer belongs to an installer collection, the parent installer sets the Context property before calling any of these methods.</source>
+          <target state="translated">Если установщик принадлежит к коллекции установщиков, родительский установщик устанавливает контекстное свойство перед вызовом любого из этих методов.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The parent installer can be accessed through the &lt;xref:System.Configuration.Install.Installer.Parent%2A&gt; property.</source>
+          <target state="translated">Родительский установщик может осуществляться через &lt;xref:System.Configuration.Install.Installer.Parent%2A&gt;свойство.&lt;/xref:System.Configuration.Install.Installer.Parent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Configuration.Install.InstallContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains information about the current installation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Configuration.Install.InstallContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , Содержащий сведения о текущей установке.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets the help text for all the installers in the installer collection.</source>
+          <target state="translated">Получает текст справки для всех установщиков из коллекции установщиков.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The help text for all the installers in the installer collection, including the description of what the installer does and the command line options for the installation executable, such as the InstallUtil.exe utility, that can be passed to and understood by this installer.</source>
+          <target state="translated">Текст справки для всех установщиков из коллекции, включающий описание действий установщика и параметры командной строки для исполняемого файла, например для служебной программы InstallUtil.exe, который может быть передан установщику и поняты им этой установки.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>One of the installers in the installer collection specifies a null reference instead of help text.</source>
+          <target state="translated">Один из установщиков из коллекции установщиков указывает указатель null, а не текст справки.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A likely cause for this exception is that a field to contain the help text is defined but not initialized.</source>
+          <target state="translated">Вероятной причиной для этого исключения может быть определен, поле, содержащее текст справки, но не инициализирован.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, performs the installation.</source>
+          <target state="translated">При переопределении в производном классе выполняет установку.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; used to save information needed to perform a commit, rollback, or uninstall operation.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;Используется для сохранения информации, необходимой для выполнения фиксации, отката или отмены.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stateSaver</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">stateSaver</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An exception occurred in the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.BeforeInstall"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event handler of one of the installers in the collection.</source>
+          <target state="translated">Возникло исключение в <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.BeforeInstall"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> обработчик событий для одного из установщиков из коллекции.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-or-       An exception occurred in the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.AfterInstall"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event handler of one of the installers in the collection.</source>
+          <target state="translated">- или - возникло исключение в <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.AfterInstall"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> обработчик событий для одного из установщиков из коллекции.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets the collection of installers that this installer contains.</source>
+          <target state="translated">Получает коллекцию установщиков, которые содержит данный установщик.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Installers property contains a collection of installers that install objects needed by this &lt;xref:System.Configuration.Install.Installer&gt; instance to correctly install the component.</source>
+          <target state="translated">Установщики свойство содержит коллекцию установщиков, устанавливающих объекты, необходимые данному &lt;xref:System.Configuration.Install.Installer&gt;экземпляр для правильной установки компонента.&lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, and &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; methods of the &lt;xref:System.Configuration.Install.Installer&gt; class go through the collection of installers and invokes the corresponding method of each installer.</source>
+          <target state="translated">&lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, И &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;методы &lt;xref:System.Configuration.Install.Installer&gt;класс из коллекции установщиков и вызывает соответствующий метод каждого установщика.&lt;/xref:System.Configuration.Install.Installer&gt; &lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Rollback%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Commit%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this instance of &lt;xref:System.Configuration.Install.Installer&gt; is contained in an installer collection, the &lt;xref:System.Configuration.Install.Installer.Parent%2A&gt; property is the &lt;xref:System.Configuration.Install.Installer&gt; instance that contains the collection.</source>
+          <target state="translated">Если этот экземпляр &lt;xref:System.Configuration.Install.Installer&gt;содержится в коллекции установщиков, &lt;xref:System.Configuration.Install.Installer.Parent%2A&gt;свойство &lt;xref:System.Configuration.Install.Installer&gt;экземпляр, содержащий коллекцию.&lt;/xref:System.Configuration.Install.Installer&gt; &lt;/xref:System.Configuration.Install.Installer.Parent%2A&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example of the use of the Installers collection, see the &lt;xref:System.Configuration.Install.AssemblyInstaller&gt; class.</source>
+          <target state="translated">Пример использования коллекции установщиков см. в разделе &lt;xref:System.Configuration.Install.AssemblyInstaller&gt;класса.&lt;/xref:System.Configuration.Install.AssemblyInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Configuration.Install.InstallerCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the collection of installers associated with this installer.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Configuration.Install.InstallerCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Содержащий коллекцию установщиков, которая связана с данным установщиком.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.AfterInstall"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.AfterInstall"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called after the &lt;xref:System.Configuration.Install.Installer.Install%2A&gt; methods of all the installers in this instance's &lt;xref:System.Configuration.Install.InstallerCollection&gt; run.</source>
+          <target state="translated">Этот метод вызывается после &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;методы всех установщиков в данном экземпляре &lt;xref:System.Configuration.Install.InstallerCollection&gt;запуска.&lt;/xref:System.Configuration.Install.InstallerCollection&gt; &lt;/xref:System.Configuration.Install.Installer.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnAfterInstall method allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnAfterInstall позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the state of the computer after all the installers contained in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property have completed their installations.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера после всех установщиков &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство завершения установки.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt; &lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.AfterRollback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.AfterRollback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called after the &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt; methods of all the installers in this instance's &lt;xref:System.Configuration.Install.InstallerCollection&gt; have run.</source>
+          <target state="translated">Этот метод вызывается после &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;методы всех установщиков в данном экземпляре &lt;xref:System.Configuration.Install.InstallerCollection&gt;запускали.&lt;/xref:System.Configuration.Install.InstallerCollection&gt; &lt;/xref:System.Configuration.Install.Installer.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnAfterRollback method allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnAfterRollback позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the state of the computer after the installers contained in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property are rolled back.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера после установщиков &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство откатываются.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt; &lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.AfterUninstall"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.AfterUninstall"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called after the &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; methods of all the installers in this instance's &lt;xref:System.Configuration.Install.InstallerCollection&gt; have run.</source>
+          <target state="translated">Этот метод вызывается после &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;методы всех установщиков в данном экземпляре &lt;xref:System.Configuration.Install.InstallerCollection&gt;запускали.&lt;/xref:System.Configuration.Install.InstallerCollection&gt; &lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnAfterUninstall method allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnAfterUninstall позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the state of the computer after all the installers contained in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property are uninstalled.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера после всех установщиков &lt;xref:System.Configuration.Install.Installer.Installers*&gt;Свойства удаляются.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt; &lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.BeforeInstall"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.BeforeInstall"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called before the &lt;xref:System.Configuration.Install.Installer.Install%2A&gt; methods of the installers in this instance's &lt;xref:System.Configuration.Install.InstallerCollection&gt; are called.</source>
+          <target state="translated">Этот метод вызывается перед &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;методы установщиков, содержащуюся в данном экземпляре &lt;xref:System.Configuration.Install.InstallerCollection&gt;называются.&lt;/xref:System.Configuration.Install.InstallerCollection&gt; &lt;/xref:System.Configuration.Install.Installer.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnBeforeInstall method allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnBeforeInstall позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the state of the computer before the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property are installed.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера до установщиков &lt;xref:System.Configuration.Install.Installer.Installers*&gt;устанавливаются свойства.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt; &lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>This &lt;xref:System.Collections.IDictionary&gt; object should be empty at this point.</source>
+          <target state="translated">Это &lt;xref:System.Collections.IDictionary&gt;объект на этом этапе должно быть пустым.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.BeforeRollback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.BeforeRollback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called before the &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt; methods of the installers in this instance's &lt;xref:System.Configuration.Install.InstallerCollection&gt; are called.</source>
+          <target state="translated">Этот метод вызывается перед &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;методы установщиков, содержащуюся в данном экземпляре &lt;xref:System.Configuration.Install.InstallerCollection&gt;называются.&lt;/xref:System.Configuration.Install.InstallerCollection&gt; &lt;/xref:System.Configuration.Install.Installer.Rollback%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnBeforeRollback method allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnBeforeRollback позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the state of the computer before the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property are rolled back.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера до установщиков &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство откатываются.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt; &lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.BeforeUninstall"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.BeforeUninstall"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called before the &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; methods of the installers in this instance's &lt;xref:System.Configuration.Install.InstallerCollection&gt; are uninstalled.</source>
+          <target state="translated">Этот метод вызывается перед &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;методы установщиков, содержащуюся в данном экземпляре &lt;xref:System.Configuration.Install.InstallerCollection&gt;удаляются.&lt;/xref:System.Configuration.Install.InstallerCollection&gt; &lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnBeforeUninstall method allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnBeforeUninstall позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the state of the computer before the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property uninstall their installations.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера до установщиков &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство отмены установок.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt; &lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.Committed"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.Committed"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called after the &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt; methods of all the installers contained in this instance's installer collection run.</source>
+          <target state="translated">Этот метод вызывается после &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;методы всех установщиков в коллекции установщиков данного экземпляра выполнения.&lt;/xref:System.Configuration.Install.Installer.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCommitted method allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnCommitted позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the state of the computer after all the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property run.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера после всех установщиков из &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство выполнения.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt; &lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.Committing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer.Committing"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called before the &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt; methods of the installers in this instance's &lt;xref:System.Configuration.Install.InstallerCollection&gt; run.</source>
+          <target state="translated">Этот метод вызывается перед &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;методы установщиков, содержащуюся в данном экземпляре &lt;xref:System.Configuration.Install.InstallerCollection&gt;запуска.&lt;/xref:System.Configuration.Install.InstallerCollection&gt; &lt;/xref:System.Configuration.Install.Installer.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">При возникновении события вызывается обработчик события в делегате.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>события<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCommitting method allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">Метод OnCommitting позволяет производным классам обрабатывать событие, не присоединяя делегат.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Это предпочтительная методика обработки событий в производном классе.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the state of the computer before the installers in the &lt;xref:System.Configuration.Install.Installer.Installers*&gt; property are committed.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера до установщиков &lt;xref:System.Configuration.Install.Installer.Installers*&gt;свойство фиксируются.&lt;/xref:System.Configuration.Install.Installer.Installers*&gt; &lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets or sets the installer containing the collection that this installer belongs to.</source>
+          <target state="translated">Возвращает или задает установщик, содержащий коллекцию, к которой принадлежит данный установщик.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this instance of &lt;xref:System.Configuration.Install.Installer&gt; is part of an installer collection, the Parent property is set to the &lt;xref:System.Configuration.Install.Installer&gt; instance that contains the collection.</source>
+          <target state="translated">Если этот экземпляр &lt;xref:System.Configuration.Install.Installer&gt;является частью коллекции установщиков, родительский свойству &lt;xref:System.Configuration.Install.Installer&gt;экземпляр, содержащий коллекцию.&lt;/xref:System.Configuration.Install.Installer&gt; &lt;/xref:System.Configuration.Install.Installer&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example of the use of the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection, see the &lt;xref:System.Configuration.Install.AssemblyInstaller&gt; class.</source>
+          <target state="translated">Пример использования &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;коллекции, в разделе &lt;xref:System.Configuration.Install.AssemblyInstaller&gt;класса.&lt;/xref:System.Configuration.Install.AssemblyInstaller&gt; &lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; property contains a collection of installers.</source>
+          <target state="translated">&lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;Свойство содержит коллекцию установщиков.&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, and &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt; methods of the &lt;xref:System.Configuration.Install.Installer&gt; class go through the collection of installers and invokes the corresponding method of each installer.</source>
+          <target state="translated">&lt;xref:System.Configuration.Install.Installer.Install%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Commit%2A&gt;, &lt;xref:System.Configuration.Install.Installer.Rollback%2A&gt;, И &lt;xref:System.Configuration.Install.Installer.Uninstall%2A&gt;методы &lt;xref:System.Configuration.Install.Installer&gt;класс из коллекции установщиков и вызывает соответствующий метод каждого установщика.&lt;/xref:System.Configuration.Install.Installer&gt; &lt;/xref:System.Configuration.Install.Installer.Uninstall%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Rollback%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Commit%2A&gt; &lt;/xref:System.Configuration.Install.Installer.Install%2A&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Configuration.Install.Installer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the collection that this instance belongs to, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if this instance does not belong to a collection.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Configuration.Install.Installer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Содержащий коллекцию, к которой принадлежит этот экземпляр или <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Если данный экземпляр не принадлежит к коллекции.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, restores the pre-installation state of the computer.</source>
+          <target state="translated">При переопределении в производном классе, восстанавливает состояние компьютера до установки.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the pre-installation state of the computer.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера до установки.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">savedState</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>-or-       The saved-state &lt;xref:System.Collections.IDictionary&gt; might have been corrupted.</source>
+          <target state="translated">- или - сохраненного состояния &lt;xref:System.Collections.IDictionary&gt;Возможно, повреждены.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>An exception occurred during the Rollback phase of the installation.</source>
+          <target state="translated">Возникло исключение во время стадии отката установки.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>This exception is ignored and the rollback continues.</source>
+          <target state="translated">Исключение игнорируется, и откат продолжается.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>However, the computer might not be fully reverted to its initial state after the rollback completes.</source>
+          <target state="translated">Тем не менее компьютер может быть возвращен не полностью в исходное состояние после завершения отката.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, removes an installation.</source>
+          <target state="translated">При переопределении в производном классе отменяет установку.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the state of the computer after the installation was complete.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;, Содержащий состояние компьютера после завершения установки.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The saved-state &lt;xref:System.Collections.IDictionary&gt; might have been corrupted.</source>
+          <target state="translated">Сохранить состояние &lt;xref:System.Collections.IDictionary&gt;Возможно, повреждены.&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>An exception occurred while uninstalling.</source>
+          <target state="translated">Возникло исключение при удалении.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>This exception is ignored and the uninstall continues.</source>
+          <target state="translated">Исключение игнорируется, и процесс удаления продолжается.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>However, the application might not be fully uninstalled after the uninstallation completes.</source>
+          <target state="translated">Однако после завершения процесса удаления приложение может быть удалено не полностью.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

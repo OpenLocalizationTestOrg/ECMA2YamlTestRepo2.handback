@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9a64c16d4669c656e23b4e623e8655f7b71ef07c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e7a9a8f11d2899b7d6f43a3468466acb30b66448</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2f7711d0f39b410b54ecfe1039fca63901605b05</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Processes session tokens by using signing and encryption keys specified in the ASP.NET <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;machineKey&amp;gt;" name="&amp;lt;machineKey&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> element in a configuration file.</source>
+          <target state="translated">Processa tokens de sessão usando chaves de assinatura e criptografia especificadas no ASP.NET <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;machineKey&amp;gt;" name="&amp;lt;machineKey&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> elemento em um arquivo de configuração.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; class uses the &lt;xref:System.IdentityModel.ProtectedDataCookieTransform&gt; class, which uses the Data Protection API (DPAPI), to protect the session token.</source>
+          <target state="translated">Por padrão, o &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;classe usa a &lt;xref:System.IdentityModel.ProtectedDataCookieTransform&gt;classe, que usa a API de proteção de dados (DPAPI), para proteger o token de sessão.&lt;/xref:System.IdentityModel.ProtectedDataCookieTransform&gt; &lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DPAPI provides protection by using the user or machine credentials and stores the key data in the user profile.</source>
+          <target state="translated">A DPAPI fornece proteção usando as credenciais de usuário ou computador e armazena os dados de chave no perfil do usuário.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that a session token signed and encrypted on one computer cannot be validated or decrypted on a different computer.</source>
+          <target state="translated">Isso significa que um token de sessão assinado e criptografado em um computador não pode ser validada ou descriptografada em um computador diferente.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By contrast, the MachineKeySessionSecurityTokenHandler class uses the &lt;xref:System.IdentityModel.Services.MachineKeyTransform&gt; class, which protects the session cookie data by using the cryptographic material specified in the <ph id="ph1">`&lt;machineKey&gt;`</ph> element in the configuration file.</source>
+          <target state="translated">Por outro lado, a classe MachineKeySessionSecurityTokenHandler usa o &lt;xref:System.IdentityModel.Services.MachineKeyTransform&gt;classe, que protege os dados do cookie de sessão usando o material criptográfico especificado no <ph id="ph1">`&lt;machineKey&gt;`</ph> elemento no arquivo de configuração.&lt;/xref:System.IdentityModel.Services.MachineKeyTransform&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that the same keys (and session tokens) can be used across multiple computers.</source>
+          <target state="translated">Isso significa que as mesmas chaves (e tokens de sessão) podem ser usados em vários computadores.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is particularly important when an application is deployed in a web farm.</source>
+          <target state="translated">Isso é particularmente importante quando um aplicativo é implantado em um web farm.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to use Windows Identity Foundation to protect applications that are deployed in a web farm, see <bpt id="p1">[</bpt>WIF and Web Farms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre como usar o Windows Identity Foundation para proteger os aplicativos que são implantados em um web farm, consulte <bpt id="p1">[</bpt>WIF e Web Farms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Configure the application to use the MachineKeySessionSecurityTokenHandler by adding it to the token handler collection.</source>
+          <target state="translated">Configure o aplicativo para usar o MachineKeySessionSecurityTokenHandler adicionando-o à coleção de manipulador de token.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must first remove the &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; (or any handler derived from the &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; class) from the token handler collection if such a handler is present.</source>
+          <target state="translated">Você deve primeiro remover o &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;(ou qualquer manipulador derivado a &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;classe) da coleção de manipulador de token, se houver tal um manipulador.&lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; &lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because MachineKeySessionSecurityTokenHandler derives from &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt; and a token handler collection cannot contain multiple handlers of any given type.</source>
+          <target state="translated">Isso ocorre porque deriva de MachineKeySessionSecurityTokenHandler &lt;xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;e uma coleção de manipulador de token não pode conter vários manipuladores de qualquer tipo determinado.&lt;/xref:System.IdentityModel.Tokens.SessionSecurityTokenHandler&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that has the specified default token lifetime.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.IdentityModel.Services.Tokens.MachineKeySessionSecurityTokenHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe que tem a vida útil do token padrão especificado.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The default lifetime for a token.</source>
+          <target state="translated">O tempo de vida padrão para um token.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;tokenLifetime&lt;/code&gt;</ph> is shorter than or equal to <ph id="ph2">&amp;lt;</ph>xref:System.TimeSpan?displayProperty=fullName<ph id="ph3">&amp;gt;</ph></source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;tokenLifetime&lt;/code&gt;</ph>é menor que ou igual a <ph id="ph2">&amp;lt;</ph>xref:System.TimeSpan?displayProperty=fullName<ph id="ph3">&amp;gt;</ph></target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

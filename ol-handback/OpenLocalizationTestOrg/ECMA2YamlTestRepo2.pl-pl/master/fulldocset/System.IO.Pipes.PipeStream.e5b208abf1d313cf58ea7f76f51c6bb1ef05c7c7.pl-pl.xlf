@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">567206194fcc78b2af7295b70140ef3a4b3cf108</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IO.Pipes.PipeStream.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">395a85fda44a142144f0474e371cb6458f50b09c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5dacffe4b1ddf3b42059c0b63d46919a756967b</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Exposes a &lt;xref:System.IO.Stream&gt; object around a pipe, which supports both anonymous and named pipes.</source>
+          <target state="translated">Przedstawia &lt;xref:System.IO.Stream&gt;obiekt wokół potok, który obsługuje potoki nazwane i anonimowe.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PipeStream class provides the base class for named and anonymous pipes operations in the .NET Framework.</source>
+          <target state="translated">Klasa PipeStream udostępnia klasę podstawową dla operacji nazwane i anonimowe potoki w programie .NET Framework.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.IO.Pipes.NamedPipeServerStream&gt; and &lt;xref:System.IO.Pipes.NamedPipeClientStream&gt; classes for named pipe operations.</source>
+          <target state="translated">Użyj &lt;xref:System.IO.Pipes.NamedPipeServerStream&gt;i &lt;xref:System.IO.Pipes.NamedPipeClientStream&gt;klasy dla operacji nazwanego potoku.&lt;/xref:System.IO.Pipes.NamedPipeClientStream&gt; &lt;/xref:System.IO.Pipes.NamedPipeServerStream&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt; and &lt;xref:System.IO.Pipes.AnonymousPipeClientStream&gt; classes for anonymous pipe operations.</source>
+          <target state="translated">Użyj &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt;i &lt;xref:System.IO.Pipes.AnonymousPipeClientStream&gt;klasy dla operacje potokowe anonimowego.&lt;/xref:System.IO.Pipes.AnonymousPipeClientStream&gt; &lt;/xref:System.IO.Pipes.AnonymousPipeServerStream&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about pipes, see <bpt id="p1">[</bpt>Pipes<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat potoków, zobacz <bpt id="p1">[</bpt>potoków<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example of anonymous pipes, see <bpt id="p1">[</bpt>How to: Use Anonymous Pipes for Local Interprocess Communication<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Na przykład potoków anonimowych zobacz <bpt id="p1">[</bpt>porady: użycie potoków anonimowych do lokalnej komunikacji międzyprocesowej<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example of named pipes, see <bpt id="p1">[</bpt>How to: Use Named Pipes for Network Interprocess Communication<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Na przykład nazwane potoki Zobacz <bpt id="p1">[</bpt>porady: użycie nazwanych potoków do sieciowej komunikacji międzyprocesowej<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value and buffer size.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przy użyciu określonego <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> rozmiar wartość i buforu.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor uses a pipe transmission mode of &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt;.</source>
+          <target state="translated">Ten konstruktor korzysta z trybu transmisji potoku &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt;.&lt;/xref:System.IO.Pipes.PipeTransmissionMode&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates the direction of the pipe object.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które wskazuje kierunek obiekt potoku.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A positive &lt;xref:System.Int32&gt; value greater than or equal to 0 that indicates the buffer size.</source>
+          <target state="translated">Dodatnią &lt;xref:System.Int32&gt;wartość większa niż lub równa 0, który wskazuje rozmiar buforu.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph>nie jest prawidłową <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;bufferSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;bufferSize&lt;/code&gt;</ph> jest mniejszy niż 0.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and buffer size.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przy użyciu określonego <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>, a rozmiar buforu.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates the direction of the pipe object.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które wskazuje kierunek obiekt potoku.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates the transmission mode of the pipe object.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które wskazuje tryb transmisji obiektu potoku.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A positive &lt;xref:System.Int32&gt; value greater than or equal to 0 that indicates the buffer size.</source>
+          <target state="translated">Dodatnią &lt;xref:System.Int32&gt;wartość większa niż lub równa 0, który wskazuje rozmiar buforu.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph>nie jest prawidłową <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;transmissionMode&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;transmissionMode&lt;/code&gt;</ph> nie jest prawidłową <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;bufferSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;bufferSize&lt;/code&gt;</ph> jest mniejszy niż 0.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous read operation.</source>
+          <target state="translated">Rozpoczyna operację asynchroniczną odczytu.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pass the returned &lt;xref:System.IAsyncResult&gt; object to the &lt;xref:System.IO.Pipes.PipeStream.EndRead%2A&gt; method to determine how many bytes were read and to release operating system resources used for reading.</source>
+          <target state="translated">Przekaż zwróconego &lt;xref:System.IAsyncResult&gt;do obiektu &lt;xref:System.IO.Pipes.PipeStream.EndRead%2A&gt;metody ustalić liczbę bajtów zostały odczytane i zwolnić zasoby systemu operacyjnego używany do odczytu.&lt;/xref:System.IO.Pipes.PipeStream.EndRead%2A&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.IO.Pipes.PipeStream.EndRead%2A&gt; must be called once for every call to BeginRead.</source>
+          <target state="translated">&lt;xref:System.IO.Pipes.PipeStream.EndRead%2A&gt;musi być wywołana raz dla każdego wywołania BeginRead.&lt;/xref:System.IO.Pipes.PipeStream.EndRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be done either in the same code that called BeginRead or in a callback that is passed to BeginRead.</source>
+          <target state="translated">Można to zrobić w ten sam kod, który wywołuje BeginRead albo w wywołaniu zwrotnym są przekazywane do BeginRead.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.IO.Pipes.PipeStream.CanRead%2A&gt; property to determine whether the current &lt;xref:System.IO.Pipes.PipeStream&gt; object supports read operations.</source>
+          <target state="translated">Użyj &lt;xref:System.IO.Pipes.PipeStream.CanRead%2A&gt;Umożliwia określenie, czy bieżący &lt;xref:System.IO.Pipes.PipeStream&gt;operacje odczytu dla obiekt obsługuje.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.PipeStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pipe is closed or an invalid argument is passed to BeginRead, the appropriate exceptions are raised immediately.</source>
+          <target state="translated">Jeśli potok został zamknięty lub nieprawidłowy argument jest przekazywany do BeginRead, odpowiednich wyjątków pojawienia się natychmiast.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Errors that occur during an asynchronous read request occur on the thread pool thread that is performing the request.</source>
+          <target state="translated">Występuje błędów występujących podczas odczytu żądania asynchronicznego na wątku puli wątków, który wykonuje żądanie.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exceptions are raised when the code calls the &lt;xref:System.IO.Pipes.PipeStream.EndRead%2A&gt; method.</source>
+          <target state="translated">Wyjątki są zgłaszane, gdy kod wywołuje &lt;xref:System.IO.Pipes.PipeStream.EndRead%2A&gt;metody.&lt;/xref:System.IO.Pipes.PipeStream.EndRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The buffer to read data into.</source>
+          <target state="translated">Bufor do wczytania danych.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The byte offset in <ph id="ph1">`buffer`</ph> at which to begin reading.</source>
+          <target state="translated">Przesunięcie bajtów w <ph id="ph1">`buffer`</ph> w którym ma rozpocząć się odczyt.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to read.</source>
+          <target state="translated">Maksymalna liczba bajtów do odczytania.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The method to call when the asynchronous read operation is completed.</source>
+          <target state="translated">Metoda wywoływana, gdy operacja odczytu asynchronicznego zostanie ukończona.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous read request from other requests.</source>
+          <target state="translated">Obiekt dostarczane przez użytkownika, która odróżnia to asynchroniczne żądanie odczytu z innych żądań.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; object that references the asynchronous read.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;Odczytu obiektu, który odwołuje się do asynchronicznego.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>jest mniejsza niż 0.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> jest mniejszy niż 0.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is greater than the number of bytes available in <ph id="ph2">&lt;code&gt;buffer&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph>jest większa niż liczba bajtów dostępnych w <ph id="ph2">&lt;code&gt;buffer&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The pipe does not support read operations.</source>
+          <target state="translated">Potok nie obsługuje operacji odczytu.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The pipe is disconnected, waiting to connect, or the handle has not been set.</source>
+          <target state="translated">Potok został odłączony, oczekiwanie na połączenie lub dojście nie zostało ustawione.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The pipe is broken or another I/O error occurred.</source>
+          <target state="translated">Potok jest uszkodzony lub wystąpił inny błąd We/Wy.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous write operation.</source>
+          <target state="translated">Rozpoczyna operację asynchronicznego zapisu.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.IO.Pipes.PipeStream.EndWrite%2A&gt; must be called once for every call to BeginWrite.</source>
+          <target state="translated">&lt;xref:System.IO.Pipes.PipeStream.EndWrite%2A&gt;musi być wywołana raz dla każdego wywołania BeginWrite.&lt;/xref:System.IO.Pipes.PipeStream.EndWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be done either in the same code that called BeginWrite or in a callback that is passed to BeginWrite.</source>
+          <target state="translated">Można to zrobić w ten sam kod, który wywołuje BeginWrite albo w wywołaniu zwrotnym są przekazywane do BeginWrite.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt; property to determine whether the current &lt;xref:System.IO.Pipes.PipeStream&gt; object supports write operations.</source>
+          <target state="translated">Użyj &lt;xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt;Właściwości, aby określić, czy bieżący &lt;xref:System.IO.Pipes.PipeStream&gt;operacji zapisu dla obiekt obsługuje.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pipe is closed or an invalid argument is passed to BeginWrite, the appropriate exceptions are raised immediately.</source>
+          <target state="translated">Jeśli potok został zamknięty lub nieprawidłowy argument jest przekazywany do BeginWrite, odpowiednich wyjątków pojawienia się natychmiast.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Errors that occur during an asynchronous write request occur on the thread pool thread that is performing the request.</source>
+          <target state="translated">Błędów występujących podczas żądania asynchronicznego zapisu są dokonywane na wątku puli wątków, który wykonuje żądanie.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exceptions are raised when the code calls the  &lt;xref:System.IO.Pipes.PipeStream.EndWrite%2A&gt; method.</source>
+          <target state="translated">Wyjątki są zgłaszane, gdy kod wywołuje &lt;xref:System.IO.Pipes.PipeStream.EndWrite%2A&gt;metody.&lt;/xref:System.IO.Pipes.PipeStream.EndWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The buffer that contains the data to write to the current stream.</source>
+          <target state="translated">Buforu, który zawiera dane do zapisania bieżącego strumienia.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in <ph id="ph1">`buffer`</ph> at which to begin copying bytes to the current stream.</source>
+          <target state="translated">Zerze przesunięcie w <ph id="ph1">`buffer`</ph> jaką należy zacząć kopiowanie bajtów do bieżącego strumienia.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to write.</source>
+          <target state="translated">Maksymalna liczba bajtów do zapisania.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The method to call when the asynchronous write operation is completed.</source>
+          <target state="translated">Metoda do wywołania po ukończeniu operacji zapis asynchroniczny.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous write request from other requests.</source>
+          <target state="translated">Obiekt dostarczane przez użytkownika, która odróżnia to żądanie określonego zapis asynchroniczny od innych żądań.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; object that references the asynchronous write operation.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;Obiekt, który odwołuje się do operacji zapisu asynchronicznego.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>jest mniejsza niż 0.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> jest mniejszy niż 0.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is greater than the number of bytes available in <ph id="ph2">&lt;code&gt;buffer&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph>jest większa niż liczba bajtów dostępnych w <ph id="ph2">&lt;code&gt;buffer&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The pipe does not support write operations.</source>
+          <target state="translated">Potok nie obsługuje operacji zapisu.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The pipe is disconnected, waiting to connect, or the handle has not been set.</source>
+          <target state="translated">Potok został odłączony, oczekiwanie na połączenie lub dojście nie zostało ustawione.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The pipe is broken or another I/O error occurred.</source>
+          <target state="translated">Potok jest uszkodzony lub wystąpił inny błąd We/Wy.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream supports read operations.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy bieżący strumień obsługuje operacji odczytu.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.IO.Pipes.PipeStream&gt; object is closed, this property returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Jeśli &lt;xref:System.IO.Pipes.PipeStream&gt;obiekt jest zamknięty, ta właściwość zwraca <ph id="ph1">`false`</ph>.&lt;/xref:System.IO.Pipes.PipeStream&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the stream supports read operations; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli obsługuje strumień odczytu operacje; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream supports seek operations.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy bieżący strumień obsługuje operacji szukania.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.IO.Pipes.PipeStream&gt; object is closed, this property returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Jeśli &lt;xref:System.IO.Pipes.PipeStream&gt;obiekt jest zamknięty, ta właściwość zwraca <ph id="ph1">`false`</ph>.&lt;/xref:System.IO.Pipes.PipeStream&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>we wszystkich przypadkach.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the current stream supports write operations.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy bieżący strumień obsługuje operacji zapisu.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.IO.Pipes.PipeStream&gt; object is closed, this property returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Jeśli &lt;xref:System.IO.Pipes.PipeStream&gt;obiekt jest zamknięty, ta właściwość zwraca <ph id="ph1">`false`</ph>.&lt;/xref:System.IO.Pipes.PipeStream&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the stream supports write operations; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>w przypadku strumienia obsługuje operacje zapisu; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Verifies that the pipe is in a proper state for getting or setting properties.</source>
+          <target state="translated">Sprawdza, czy potoku jest w odpowiednim stanie do pobierania lub ustawiania właściwości.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Verifies that the pipe is in a connected state for read operations.</source>
+          <target state="translated">Sprawdza, czy potoku jest w stanie połączenia dla operacji odczytu.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Verifies that the pipe is in a connected state for write operations.</source>
+          <target state="translated">Sprawdza, czy potoku jest w stanie połączenia dla operacji zapisu.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and optionally releases the managed resources.</source>
+          <target state="translated">Zwalnia zasoby niezarządzane używane przez <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i opcjonalnie zwalnia zasoby zarządzane.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public &lt;xref:System.ComponentModel.Component.Dispose%2A&gt; method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Ta metoda jest wywoływana przez metodę publiczną &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;— Metoda i &lt;xref:System.Object.Finalize%2A&gt;metody.&lt;/xref:System.Object.Finalize%2A&gt; &lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ComponentModel.Component.Dispose%2A&gt; invokes the protected Dispose method with the <ph id="ph1">`disposing`</ph> parameter set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Component.Dispose%2A&gt;wywołuje metodę Dispose chronionego z <ph id="ph1">`disposing`</ph> ustawiono parametr <ph id="ph2">`true`</ph>.&lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes Dispose with <ph id="ph1">`disposing`</ph> set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;wywołuje metodę Dispose z <ph id="ph1">`disposing`</ph> ustawioną <ph id="ph2">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the disposing parameter is <ph id="ph1">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.IO.Pipes.PipeStream&gt; object references.</source>
+          <target state="translated">Jeśli parametr disposing jest <ph id="ph1">`true`</ph>, ta metoda zwalnia wszystkie zasoby zajmowane przez wszelkie obiekty zarządzane przez to &lt;xref:System.IO.Pipes.PipeStream&gt;obiektu odwołania.&lt;/xref:System.IO.Pipes.PipeStream&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the Dispose method of each referenced object.</source>
+          <target state="translated">Ta metoda wywołuje metodę Dispose dla każdego odwołuje się do obiektu.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Aby zwolnić zasoby zarządzane i niezarządzane; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> aby zwolnić tylko zasoby niezarządzane.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Ends a pending asynchronous read request.</source>
+          <target state="translated">Kończy się oczekujące żądanie odczytu asynchronicznego.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns the number of bytes read into the byte array specified by the earlier call to &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;.</source>
+          <target state="translated">Ta metoda zwraca liczbę bajtów odczytanych do tablicy typu byte, określony przez wywołanie wcześniejszych &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;.&lt;/xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pass the returned &lt;xref:System.IAsyncResult&gt; object to the EndRead method to determine how many bytes were read and to release operating system resources used for reading.</source>
+          <target state="translated">Przekaż zwróconego &lt;xref:System.IAsyncResult&gt;w metodzie EndRead można wywołać, aby określić liczbę bajtów zostały odczytane i aby zwolnić zasoby systemu operacyjnego używany do odczytu.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>EndRead must be called once for every call to &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;.</source>
+          <target state="translated">Funkcję EndRead można wywołać raz dla każdego wywołania &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;.&lt;/xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be done either in the same code that called &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt; or in a callback that is passed to &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;.</source>
+          <target state="translated">Można to zrobić w ten sam kod, który wywołał &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;lub w wywołaniu zwrotnym, które są przekazywane do &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;.&lt;/xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt; &lt;/xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.IO.Pipes.PipeStream.CanRead%2A&gt; property to determine whether the current &lt;xref:System.IO.Pipes.PipeStream&gt; object supports read operations.</source>
+          <target state="translated">Użyj &lt;xref:System.IO.Pipes.PipeStream.CanRead%2A&gt;Umożliwia określenie, czy bieżący &lt;xref:System.IO.Pipes.PipeStream&gt;operacje odczytu dla obiekt obsługuje.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.PipeStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pipe is closed or an invalid argument is passed to &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;, the appropriate exceptions are raised immediately.</source>
+          <target state="translated">Jeśli potok został zamknięty lub nieprawidłowy argument jest przekazywany do &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;, odpowiednich wyjątków pojawienia się natychmiast.&lt;/xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Errors that occur during an asynchronous read request occur on the thread pool thread that is performing the request.</source>
+          <target state="translated">Występuje błędów występujących podczas odczytu żądania asynchronicznego na wątku puli wątków, który wykonuje żądanie.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exceptions are raised when the code calls the EndRead method.</source>
+          <target state="translated">Wyjątki są zgłaszane, gdy kod wywołuje metodę EndRead można wywołać.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The reference to the pending asynchronous request.</source>
+          <target state="translated">Odwołanie do oczekującego żądania asynchronicznego.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The number of bytes that were read.</source>
+          <target state="translated">Liczba bajtów, które zostały odczytane.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>A return value of 0 indicates the end of the stream (the pipe has been closed).</source>
+          <target state="translated">Wartość zwracana 0 wskazuje koniec strumienia (potok został zamknięty).</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph> did not originate from a <ph id="ph2">&lt;xref:System.IO.Pipes.PipeStream.BeginRead*&gt;</ph> method on the current stream.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph>nie pochodzi z <ph id="ph2">&lt;xref:System.IO.Pipes.PipeStream.BeginRead*&gt;</ph> metody dla bieżącej strumienia.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The stream is closed or an internal error has occurred.</source>
+          <target state="translated">Strumień jest zamknięty lub wystąpił błąd wewnętrzny.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Ends a pending asynchronous write request.</source>
+          <target state="translated">Kończy żądanie oczekującego zapisu asynchronicznego.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>EndWrite must be called once for every call to &lt;xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;.</source>
+          <target state="translated">Metoda EndWrite musi być wywołana raz dla każdego wywołania &lt;xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;.&lt;/xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be done either in the same code that called &lt;xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt; or in a callback that is passed to &lt;xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;.</source>
+          <target state="translated">Można to zrobić w ten sam kod, który wywołał &lt;xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;lub w wywołaniu zwrotnym, które są przekazywane do &lt;xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;.&lt;/xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt; &lt;/xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt; property to determine whether the current &lt;xref:System.IO.Pipes.PipeStream&gt; object supports write operations.</source>
+          <target state="translated">Użyj &lt;xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt;Właściwości, aby określić, czy bieżący &lt;xref:System.IO.Pipes.PipeStream&gt;operacji zapisu dla obiekt obsługuje.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pipe is closed or an invalid argument is passed to &lt;xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;, the appropriate exceptions are raised immediately.</source>
+          <target state="translated">Jeśli potok został zamknięty lub nieprawidłowy argument jest przekazywany do &lt;xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;, odpowiednich wyjątków pojawienia się natychmiast.&lt;/xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Errors that occur during an asynchronous write request occur on the thread pool thread that is performing the request.</source>
+          <target state="translated">Błędów występujących podczas żądania asynchronicznego zapisu są dokonywane na wątku puli wątków, który wykonuje żądanie.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exceptions are raised when the code the calls EndWrite method.</source>
+          <target state="translated">Wyjątki są zgłaszane po kod wywołuje element EndWrite metody.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The reference to the pending asynchronous request.</source>
+          <target state="translated">Odwołanie do oczekującego żądania asynchronicznego.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph> did not originate from a <ph id="ph2">&lt;xref:System.IO.Pipes.PipeStream.BeginWrite*&gt;</ph> method on the current stream.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;asyncResult&lt;/code&gt;</ph>nie pochodzi z <ph id="ph2">&lt;xref:System.IO.Pipes.PipeStream.BeginWrite*&gt;</ph> metody dla bieżącej strumienia.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The stream is closed or an internal error has occurred.</source>
+          <target state="translated">Strumień jest zamknięty lub wystąpił błąd wewnętrzny.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Clears the buffer for the current stream and causes any buffered data to be written to the underlying device.</source>
+          <target state="translated">Czyści bufor dla bieżącego strumienia i powoduje, że wszystkie buforowane dane są zapisywane w podstawowej urządzenia.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Flush method is not supported in the &lt;xref:System.IO.Pipes.PipeStream&gt; class and does nothing when it is called.</source>
+          <target state="translated">Metoda Flush nie jest obsługiwana w &lt;xref:System.IO.Pipes.PipeStream&gt;klasy i nie nic, gdy jest wywoływana.&lt;/xref:System.IO.Pipes.PipeStream&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The pipe does not support write operations.</source>
+          <target state="translated">Potok nie obsługuje operacji zapisu.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The pipe is broken or another I/O error occurred.</source>
+          <target state="translated">Potok jest uszkodzony lub wystąpił inny błąd We/Wy.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that encapsulates the access control list (ACL) entries for the pipe described by the current <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt hermetyzujący listę kontroli dostępu (ACL) wpisy kontroli dostępu dla potoku opisanego przez bieżący <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An access control list (ACL) describes individuals and/or groups that have, or do not have, rights to perform specific actions on a specified file.</source>
+          <target state="translated">Listy kontroli dostępu (ACL) w tym artykule opisano fizycznych i/lub grup, które ma lub ma prawa do wykonania określonych działań w określonym pliku.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>How to: Add or Remove Access Control List Entries<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz <bpt id="p1">[</bpt>porady: Dodawanie lub usuwanie pozycji listy kontroli dostępu<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that encapsulates the access control list (ACL) entries for the pipe described by the current <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt hermetyzujący listę kontroli dostępu (ACL) wpisy kontroli dostępu dla potoku opisanego przez bieżący <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The underlying call to set security information failed.</source>
+          <target state="translated">Nie można wywołać podstawowej, można ustawić informacji o zabezpieczeniach.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The underlying call to set security information failed.</source>
+          <target state="translated">Nie można wywołać podstawowej, można ustawić informacji o zabezpieczeniach.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The underlying call to set security information failed.</source>
+          <target state="translated">Nie można wywołać podstawowej, można ustawić informacji o zabezpieczeniach.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Gets the size, in bytes, of the inbound buffer for a pipe.</source>
+          <target state="translated">Pobiera rozmiar w bajtach buforu dla ruchu przychodzącego dla potoku.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If InBufferSize is 0, the buffer size is allocated as needed.</source>
+          <target state="translated">Jeśli InBufferSize ma wartość 0, rozmiar buforu jest przydzielane w razie potrzeby.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>An integer value that represents the inbound buffer size, in bytes.</source>
+          <target state="translated">Wartość całkowitą reprezentującą rozmiar buforu dla ruchu przychodzącego, w bajtach.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The stream is unreadable.</source>
+          <target state="translated">Strumień jest nie można go odczytać.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The pipe is waiting to connect.</source>
+          <target state="translated">Potok oczekuje na połączenie.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The pipe is broken or another I/O error occurred.</source>
+          <target state="translated">Potok jest uszkodzony lub wystąpił inny błąd We/Wy.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Initializes a <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object from the specified <bpt id="p2">&lt;xref href="Microsoft.Win32.SafeHandles.SafePipeHandle"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Inicjuje <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu z określonego <bpt id="p2">&lt;xref href="Microsoft.Win32.SafeHandles.SafePipeHandle"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pipe is in a connected state, this method also sets the &lt;xref:System.IO.Pipes.PipeStream.IsConnected%2A&gt; property to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Jeśli potoku jest w stanie połączenia, ta metoda określa również &lt;xref:System.IO.Pipes.PipeStream.IsConnected%2A&gt;właściwości <ph id="ph1">`true`</ph>.&lt;/xref:System.IO.Pipes.PipeStream.IsConnected%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="Microsoft.Win32.SafeHandles.SafePipeHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the pipe to initialize.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="Microsoft.Win32.SafeHandles.SafePipeHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Potoku można zainicjować obiektu.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to expose the handle; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Aby udostępnić dojście; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the handle was opened asynchronously; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Aby wskazać, że dojście zostało otwarte asynchronicznie; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>A handle cannot be bound to the pipe.</source>
+          <target state="translated">Nie można powiązać dojścia do potoku.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether a <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object was opened asynchronously or synchronously.</source>
+          <target state="translated">Pobiera wartość wskazującą czy <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektów otwarto asynchronicznie lub synchronicznie.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property enables your code to use the &lt;xref:System.IO.Pipes.PipeStream.SafePipeHandle%2A&gt; property correctly.</source>
+          <target state="translated">Ta właściwość umożliwia kod, aby używał &lt;xref:System.IO.Pipes.PipeStream.SafePipeHandle%2A&gt;Właściwości poprawnie.&lt;/xref:System.IO.Pipes.PipeStream.SafePipeHandle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object was opened asynchronously; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektów otwarto asynchronicznie; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether a <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is connected.</source>
+          <target state="translated">Pobiera lub ustawia wartość wskazującą czy <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt jest połączony.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IsConnected property returns <ph id="ph1">`true`</ph> only if the &lt;xref:System.IO.Pipes.PipeStream&gt; object is connected.</source>
+          <target state="translated">Zwraca właściwości IsConnected <ph id="ph1">`true`</ph> tylko wtedy, gdy &lt;xref:System.IO.Pipes.PipeStream&gt;obiekt jest połączony.&lt;/xref:System.IO.Pipes.PipeStream&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this property returns <ph id="ph1">`false`</ph>, the pipe may be waiting to connect, or may be disconnected, closed, or broken.</source>
+          <target state="translated">Jeśli ta właściwość zwraca <ph id="ph1">`false`</ph>, potoku może być oczekiwanie na połączenie, lub może być odłączony, zamknięte lub uszkodzony.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is connected; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiekt jest połączonych; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether a handle to a <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is exposed.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy dojścia do <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu jest widoczna.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is set when obtaining a handle to the pipe that is encapsulated by the current &lt;xref:System.IO.Pipes.PipeStream&gt; object.</source>
+          <target state="translated">Wartość tej właściwości jest ustawiona podczas uzyskiwania dojścia do potoku, który jest hermetyzowany przez bieżące &lt;xref:System.IO.Pipes.PipeStream&gt;obiektu.&lt;/xref:System.IO.Pipes.PipeStream&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a handle to the <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is exposed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli dojścia do <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiekt jest narażonych; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether there is more data in the message returned from the most recent read operation.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy komunikat zwrócony przez operację odczytu najnowszych jest więcej danych.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is relevant if the pipe's &lt;xref:System.IO.Pipes.PipeStream.ReadMode%2A&gt; property was set to &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt; by the most recent call to &lt;xref:System.IO.Pipes.PipeStream.Read%2A&gt; or &lt;xref:System.IO.Pipes.PipeStream.EndRead%2A&gt;.</source>
+          <target state="translated">Ta właściwość ma zastosowanie jeśli potoku &lt;xref:System.IO.Pipes.PipeStream.ReadMode%2A&gt;właściwości ustawiono &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt;przez wywołanie najnowszych &lt;xref:System.IO.Pipes.PipeStream.Read%2A&gt;lub &lt;xref:System.IO.Pipes.PipeStream.EndRead%2A&gt;.&lt;/xref:System.IO.Pipes.PipeStream.EndRead%2A&gt; &lt;/xref:System.IO.Pipes.PipeStream.Read%2A&gt; &lt;/xref:System.IO.Pipes.PipeTransmissionMode&gt; &lt;/xref:System.IO.Pipes.PipeStream.ReadMode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are no more characters to read in the message; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli nie są więcej znaki do odczytu w komunikacie; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The pipe is not connected.</source>
+          <target state="translated">Potok nie jest połączony.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>-or-       The pipe handle has not been set.</source>
+          <target state="translated">- lub - dojścia potoku nie została ustawiona.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>-or-       The pipe's &lt;xref:System.IO.Pipes.PipeStream.ReadMode*&gt; property value is not <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- lub - potoku &lt;xref:System.IO.Pipes.PipeStream.ReadMode*&gt;wartość właściwości jest <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.IO.Pipes.PipeStream.ReadMode*&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Gets the length of a stream, in bytes.</source>
+          <target state="translated">Pobiera długość strumienia, w bajtach.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.Pipes.PipeStream&gt; class does not support the Length property.</source>
+          <target state="translated">&lt;xref:System.IO.Pipes.PipeStream&gt;Klasa nie obsługuje właściwości Length.&lt;/xref:System.IO.Pipes.PipeStream&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>0 in all cases.</source>
+          <target state="translated">0 we wszystkich przypadkach.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Always thrown.</source>
+          <target state="translated">Zawsze generowany.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Gets the size, in bytes, of the outbound buffer for a pipe.</source>
+          <target state="translated">Pobiera rozmiar w bajtach buforu ruchu wychodzącego dla potoku.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If OutBufferSize is 0, the buffer size is allocated as needed.</source>
+          <target state="translated">Jeśli OutBufferSize ma wartość 0, rozmiar buforu jest przydzielane w razie potrzeby.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The outbound buffer size, in bytes.</source>
+          <target state="translated">Rozmiar buforu ruchu wychodzącego w bajtach.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The stream is unwriteable.</source>
+          <target state="translated">Strumień jest nie do zapisania.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The pipe is waiting to connect.</source>
+          <target state="translated">Potok oczekuje na połączenie.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The pipe is broken or another I/O error occurred.</source>
+          <target state="translated">Potok jest uszkodzony lub wystąpił inny błąd We/Wy.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets or sets the current position of the current stream.</source>
+          <target state="translated">Pobiera lub ustawia bieżącą pozycję bieżącego strumienia.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.Pipes.PipeStream&gt; class does not support the Position property.</source>
+          <target state="translated">&lt;xref:System.IO.Pipes.PipeStream&gt;Klasa nie obsługuje właściwości Position.&lt;/xref:System.IO.Pipes.PipeStream&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>0 in all cases.</source>
+          <target state="translated">0 we wszystkich przypadkach.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Always thrown.</source>
+          <target state="translated">Zawsze generowany.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Reads a block of bytes from a stream and writes the data to a specified buffer.</source>
+          <target state="translated">Odczytuje blok bajtów ze strumienia i zapisuje dane w buforze określona.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.IO.Pipes.PipeStream.CanRead%2A&gt; property to determine whether the current &lt;xref:System.IO.Pipes.PipeStream&gt; object supports read operations.</source>
+          <target state="translated">Użyj &lt;xref:System.IO.Pipes.PipeStream.CanRead%2A&gt;Umożliwia określenie, czy bieżący &lt;xref:System.IO.Pipes.PipeStream&gt;operacje odczytu dla obiekt obsługuje.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.PipeStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the Read method blocks until <ph id="ph1">`count`</ph> bytes are read or the end of the stream is reached.</source>
+          <target state="translated">Wywoływanie metody Read blokuje do <ph id="ph1">`count`</ph> bajtów do odczytu lub osiągnięto koniec strumienia.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For asynchronous read operations, see &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt; and &lt;xref:System.IO.Pipes.PipeStream.EndRead%2A&gt;.</source>
+          <target state="translated">Dla asynchronicznych operacji odczytu zobacz &lt;xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;i &lt;xref:System.IO.Pipes.PipeStream.EndRead%2A&gt;.&lt;/xref:System.IO.Pipes.PipeStream.EndRead%2A&gt; &lt;/xref:System.IO.Pipes.PipeStream.BeginRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the specified byte array with the values between <ph id="ph1">`offset`</ph> and (<ph id="ph2">`offset`</ph><ph id="ph3"> + </ph><ph id="ph4">`count`</ph> - 1) replaced by the bytes read from the current source.</source>
+          <target state="translated">Po powrocie z tej metody zawiera określonej tablicy bajtów z wartością pomiędzy <ph id="ph1">`offset`</ph> i (<ph id="ph2">`offset`</ph> <ph id="ph3"> + </ph> <ph id="ph4">`count`</ph> - 1) zastępuje Bajty odczytane z bieżącego źródła.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The byte offset in the <ph id="ph1">`buffer`</ph> array at which the bytes that are read will be placed.</source>
+          <target state="translated">Przesunięcie bajtów w <ph id="ph1">`buffer`</ph> tablicy, w której zostaną umieszczone bajtów, które są do odczytu.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to read.</source>
+          <target state="translated">Maksymalna liczba bajtów do odczytania.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The total number of bytes that are read into <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">buffer</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Całkowita liczba bajtów, które są do odczytu do <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">buffer</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>This might be less than the number of bytes requested if that number of bytes is not currently available, or 0 if the end of the stream is reached.</source>
+          <target state="translated">Przyczyną może być mniejsza niż żądana liczba bajtów, jeśli podanej liczby bajtów nie jest obecnie dostępny, lub wpisz 0, gdy zostanie osiągnięty koniec strumienia.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>jest mniejsza niż 0.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> jest mniejszy niż 0.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is greater than the number of bytes available in <ph id="ph2">&lt;code&gt;buffer&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph>jest większa niż liczba bajtów dostępnych w <ph id="ph2">&lt;code&gt;buffer&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The pipe does not support read operations.</source>
+          <target state="translated">Potok nie obsługuje operacji odczytu.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The pipe is disconnected, waiting to connect, or the handle has not been set.</source>
+          <target state="translated">Potok został odłączony, oczekiwanie na połączenie lub dojście nie zostało ustawione.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Any I/O error occurred.</source>
+          <target state="translated">Wystąpił błąd żadnych operacji We/Wy.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Reads a byte from a pipe.</source>
+          <target state="translated">Odczytuje bajt potoku.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.IO.Pipes.PipeStream.CanRead%2A&gt; property to determine whether the current &lt;xref:System.IO.Pipes.PipeStream&gt; object supports read operations.</source>
+          <target state="translated">Użyj &lt;xref:System.IO.Pipes.PipeStream.CanRead%2A&gt;Umożliwia określenie, czy bieżący &lt;xref:System.IO.Pipes.PipeStream&gt;operacje odczytu dla obiekt obsługuje.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.PipeStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The byte, cast to &lt;xref:System.Int32&gt;, or -1 indicates the end of the stream (the pipe has been closed).</source>
+          <target state="translated">Byte, rzutować &lt;xref:System.Int32&gt;, lub wartość -1 wskazuje koniec strumienia (potok został zamknięty).&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The pipe does not support read operations.</source>
+          <target state="translated">Potok nie obsługuje operacji odczytu.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The pipe is disconnected, waiting to connect, or the handle has not been set.</source>
+          <target state="translated">Potok został odłączony, oczekiwanie na połączenie lub dojście nie zostało ustawione.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Any I/O error occurred.</source>
+          <target state="translated">Wystąpił błąd żadnych operacji We/Wy.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Gets or sets the reading mode for a <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera lub ustawia tryb odczyt <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anonymous pipes do not support &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt; mode message transmission.</source>
+          <target state="translated">Potoki anonimowe nie obsługują &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt;Tryb transmisję wiadomości.&lt;/xref:System.IO.Pipes.PipeTransmissionMode&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates how the <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object reads from the pipe.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które wskazuje sposób <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> odczytuje obiekt z potoku.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The supplied value is not a valid <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Podana wartość nie jest prawidłową <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The supplied value is not a supported <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for this pipe stream.</source>
+          <target state="translated">Podana wartość nie jest obsługiwana <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartość dla tego strumienia potoku.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The handle has not been set.</source>
+          <target state="translated">Dojście nie została ustawiona.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>-or-       The pipe is waiting to connect with a named client.</source>
+          <target state="translated">- lub - potoku oczekuje na połączenie z nazwanym klienta.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The pipe is broken or an I/O error occurred with a named client.</source>
+          <target state="translated">Potoku jest uszkodzony lub wystąpił błąd We/Wy z nazwanym klienta.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Gets the safe handle for the local end of the pipe that the current <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object encapsulates.</source>
+          <target state="translated">Pobiera bezpieczne dojście lokalnego końca potoku bieżącego <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> hermetyzuje obiektu.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="Microsoft.Win32.SafeHandles.SafePipeHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the pipe that is encapsulated by the current <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="Microsoft.Win32.SafeHandles.SafePipeHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu dla potoku, hermetyzowaną przez bieżące <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The pipe handle has not been set.</source>
+          <target state="translated">Nie ustawiono dojścia potoku.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Sets the current position of the current stream to the specified value.</source>
+          <target state="translated">Ustawia bieżącą pozycję bieżącego strumienia z podaną wartością.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Seek method is not supported in pipes and raises a &lt;xref:System.NotSupportedException&gt; when it is called.</source>
+          <target state="translated">Metoda dostępu nie jest obsługiwana w potoków i zgłasza &lt;xref:System.NotSupportedException&gt;gdy jest wywoływana.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The point, relative to <ph id="ph1">`origin`</ph>, to begin seeking from.</source>
+          <target state="translated">Punkt, względem <ph id="ph1">`origin`</ph>, aby rozpocząć wyszukiwanie z.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Specifies the beginning, the end, or the current position as a reference point for <ph id="ph1">`offset`</ph>, using a value of type &lt;xref:System.IO.SeekOrigin&gt;.</source>
+          <target state="translated">Określa początek, końcu lub bieżącą pozycję jako punkt odniesienia dla <ph id="ph1">`offset`</ph>, za pomocą wartości typu &lt;xref:System.IO.SeekOrigin&gt;.&lt;/xref:System.IO.SeekOrigin&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The new position in the stream.</source>
+          <target state="translated">Nowa pozycja w strumieniu.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Applies the access control list (ACL) entries specified by a <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the pipe specified by the current <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Stosuje listę kontroli dostępu (ACL) wpisów kontroli dostępu określone przez <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu do potoku określony przez bieżącą <bpt id="p2">&lt;xref href="System.IO.Pipes.PipeStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An access control list (ACL) describes individuals and/or groups that have, or do not have, rights to perform specific actions on a specified file.</source>
+          <target state="translated">Listy kontroli dostępu (ACL) w tym artykule opisano fizycznych i/lub grup, które ma lub ma prawa do wykonania określonych działań w określonym pliku.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>How to: Add or Remove Access Control List Entries<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz <bpt id="p1">[</bpt>porady: Dodawanie lub usuwanie pozycji listy kontroli dostępu<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies an access control list (ACL) entry to apply to the current pipe.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeSecurity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt, który określa wpisu listę kontroli dostępu (ACL) kontroli dostępu do zastosowania do bieżącego potoku.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;pipeSecurity&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;pipeSecurity&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>The underlying call to set security information failed.</source>
+          <target state="translated">Nie można wywołać podstawowej, można ustawić informacji o zabezpieczeniach.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The underlying call to set security information failed.</source>
+          <target state="translated">Nie można wywołać podstawowej, można ustawić informacji o zabezpieczeniach.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>The underlying call to set security information failed.</source>
+          <target state="translated">Nie można wywołać podstawowej, można ustawić informacji o zabezpieczeniach.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Sets the length of the current stream to the specified value.</source>
+          <target state="translated">Ustawia długość bieżący strumień do określonej wartości.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.Pipes.PipeStream&gt; class does not support the SetLength method.</source>
+          <target state="translated">&lt;xref:System.IO.Pipes.PipeStream&gt;Klasa nie obsługuje metody SetLength.&lt;/xref:System.IO.Pipes.PipeStream&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The new length of the stream.</source>
+          <target state="translated">Nowe długość strumienia.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Gets the pipe transmission mode supported by the current pipe.</source>
+          <target state="translated">Pobiera tryb transmisji potoku obsługiwane przez bieżący potoku.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anonymous pipes do not support &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt; mode message transmission.</source>
+          <target state="translated">Potoki anonimowe nie obsługują &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt;Tryb transmisję wiadomości.&lt;/xref:System.IO.Pipes.PipeTransmissionMode&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates the transmission mode supported by the current pipe.</source>
+          <target state="translated">Jeden z <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wartości, które wskazuje tryb transmisji obsługiwane przez bieżący potoku.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The handle has not been set.</source>
+          <target state="translated">Dojście nie została ustawiona.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>-or-       The pipe is waiting to connect in an anonymous client/server operation or with a named client.</source>
+          <target state="translated">- lub - potoku oczekuje na połączenie w przypadku operacji anonimowego klienta/serwera lub za pomocą klienta o nazwie.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The pipe is broken or another I/O error occurred.</source>
+          <target state="translated">Potok jest uszkodzony lub wystąpił inny błąd We/Wy.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Waits for the other end of the pipe to read all sent bytes.</source>
+          <target state="translated">Czeka na drugim końcu potoku odczytywać wszystkie wysłane bajty.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WaitForPipeDrain method blocks until the other end of the pipe has read all sent bytes.</source>
+          <target state="translated">Bloki metody WaitForPipeDrain, aż po drugiej stronie potoku zapoznał się, że wszystkie wysłane bajty.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The pipe does not support write operations.</source>
+          <target state="translated">Potok nie obsługuje operacji zapisu.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The pipe is broken or another I/O error occurred.</source>
+          <target state="translated">Potok jest uszkodzony lub wystąpił inny błąd We/Wy.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Writes a block of bytes to the current stream using data from a buffer.</source>
+          <target state="translated">Zapisuje bieżący strumień przy użyciu danych z bufora bloku bajtów.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt; property to determine whether the current &lt;xref:System.IO.Pipes.PipeStream&gt; object supports write operations.</source>
+          <target state="translated">Użyj &lt;xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt;Właściwości, aby określić, czy bieżący &lt;xref:System.IO.Pipes.PipeStream&gt;operacji zapisu dla obiekt obsługuje.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the Write method blocks until <ph id="ph1">`count`</ph> bytes are read or the end of the stream is reached.</source>
+          <target state="translated">Wywoływanie metody zapisu blokuje do <ph id="ph1">`count`</ph> bajtów do odczytu lub osiągnięto koniec strumienia.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For asynchronous read operations, see &lt;xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt; and &lt;xref:System.IO.Pipes.PipeStream.EndWrite%2A&gt;.</source>
+          <target state="translated">Dla asynchronicznych operacji odczytu zobacz &lt;xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;i &lt;xref:System.IO.Pipes.PipeStream.EndWrite%2A&gt;.&lt;/xref:System.IO.Pipes.PipeStream.EndWrite%2A&gt; &lt;/xref:System.IO.Pipes.PipeStream.BeginWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The buffer that contains data to write to the pipe.</source>
+          <target state="translated">Buforu, który zawiera dane do zapisania do potoku.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The zero-based byte offset in <ph id="ph1">`buffer`</ph> at which to begin copying bytes to the current stream.</source>
+          <target state="translated">Zerze przesunięcie w <ph id="ph1">`buffer`</ph> jaką należy zacząć kopiowanie bajtów do bieżącego strumienia.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The maximum number of bytes to write to the current stream.</source>
+          <target state="translated">Maksymalna liczba bajtów do zapisania w strumieniu bieżącej.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;buffer&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;offset&lt;/code&gt;</ph>jest mniejsza niż 0.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated">- lub - <ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> jest mniejszy niż 0.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph> is greater than the number of bytes available in <ph id="ph2">&lt;code&gt;buffer&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;count&lt;/code&gt;</ph>jest większa niż liczba bajtów dostępnych w <ph id="ph2">&lt;code&gt;buffer&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The pipe does not support write operations.</source>
+          <target state="translated">Potok nie obsługuje operacji zapisu.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The pipe is broken or another I/O error occurred.</source>
+          <target state="translated">Potok jest uszkodzony lub wystąpił inny błąd We/Wy.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Writes a byte to the current stream.</source>
+          <target state="translated">Zapisuje bieżący strumień bajtów.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt; property to determine whether the current &lt;xref:System.IO.Pipes.PipeStream&gt; object supports write operations.</source>
+          <target state="translated">Użyj &lt;xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt;Właściwości, aby określić, czy bieżący &lt;xref:System.IO.Pipes.PipeStream&gt;operacji zapisu dla obiekt obsługuje.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.PipeStream.CanWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The byte to write to the stream.</source>
+          <target state="translated">Bajtów do zapisania w strumieniu.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Potok jest zamknięty.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The pipe does not support write operations.</source>
+          <target state="translated">Potok nie obsługuje operacji zapisu.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>The pipe is disconnected, waiting to connect, or the handle has not been set.</source>
+          <target state="translated">Potok został odłączony, oczekiwanie na połączenie lub dojście nie zostało ustawione.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>The pipe is broken or another I/O error occurred.</source>
+          <target state="translated">Potok jest uszkodzony lub wystąpił inny błąd We/Wy.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

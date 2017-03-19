@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2e328fe78b850bc0368bc6255abba9c34ebf555b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Pkcs.SignedCms.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c654195dfd80d0b9bcadd39634912c7b40bd4cfe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">30fb0ce18235193c7660d8dd614a1741a0c93a18</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The SignedCms class enables signing and verifying of CMS/PKCS #7 messages.</source>
+          <target state="translated">Класс SignedCms позволяет подписании и проверке сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Cryptographic Message Syntax RFC specifies the following MIME types and file name extensions for CMS/PKCS #7 messages with these content types.</source>
+          <target state="translated">CMS RFC определяет следующие типы MIME и расширения имен файлов для сообщения CMS/PKCS 7 с содержимым этих типов.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Content type|MIME type|Extension|   |------------------|---------------|---------------|   |envelopedData|application/pkcs7-mime|.p7m|   |signedData|application/pkcs7-signature|.p7s.p7c|</source>
+          <target state="translated">| Тип содержимого | Тип MIME | Расширение |   |------------------|---------------|---------------|   | envelopedData | приложения/pkcs7-mime |. p7m |   | signedData | подпись приложения или pkcs7 |. p7s.p7c|</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The SignedCms constructor creates an instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Конструктор SignedCms создает экземпляр <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Pkcs.SignedCms&gt; class has the following default property values.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Pkcs.SignedCms&gt;Класс имеет следующие значения свойств по умолчанию.&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Default value|   |--------------|-------------------|   |&lt;xref:System.Security.Cryptography.Pkcs.SignedCms.ContentInfo%2A&gt;|1.2.840.113549.1.7.1 (data)Length: zero|   |&lt;xref:System.Security.Cryptography.Pkcs.SignedCms.Detached%2A&gt;|Detached state: <ph id="ph1">`false`</ph> The content that is signed is included in the CMS/PKCS #7 message along with the signature information.|       The default &lt;xref:System.Security.Cryptography.Pkcs.SubjectIdentifierType&gt; for signers is SubjectIdentifierType.IssuerAndSerialNumber.</source>
+          <target state="translated">| Свойство | Значение по умолчанию |   |--------------|-------------------|   | &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.ContentInfo%2A&gt;| 1.2.840.113549.1.7.1 (данные), длина: нулевой |   | &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.Detached%2A&gt;| Отсоединенное состояние: <ph id="ph1">`false`</ph> содержимое, которое подписывается включается в сообщения CMS/PKCS 7 вместе с информацией подписи. |       Значение по умолчанию &lt;xref:System.Security.Cryptography.Pkcs.SubjectIdentifierType&gt;для авторов — SubjectIdentifierType.IssuerAndSerialNumber.&lt;/xref:System.Security.Cryptography.Pkcs.SubjectIdentifierType&gt; &lt;/xref:System.Security.Cryptography.Pkcs.SignedCms.Detached%2A&gt; &lt;/xref:System.Security.Cryptography.Pkcs.SignedCms.ContentInfo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`false`</ph> (the default), the signed content is included in the CMS/PKCS #7 message along with the signature information.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`false`</ph> (по умолчанию), подписанное содержимое включается в сообщение CMS/PKCS 7 вместе с информацией подписи.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`true`</ph>, clients that cannot decode S/MIME messages can still see the content of the message if it is sent separately.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`true`</ph>, клиенты, которые не удается декодировать S/MIME сообщения по-прежнему можно просмотреть содержимое сообщения, если оно передается отдельно.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This may be useful in an archiving application that archives message content whether the message sender can be verified for authenticity.</source>
+          <target state="translated">Это может быть полезно в средствах архивации, которая архивирует содержимое сообщения ли можно проверить подлинность отправителя сообщения.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The SignedCms constructor creates an instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified content information as the inner content.</source>
+          <target state="translated">Конструктор SignedCms создает экземпляр <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , используя указанные сведения об содержимого как внутреннее содержимое.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the default property values used with this constructor, see &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;.</source>
+          <target state="translated">Значения свойств по умолчанию, используемые конструктором в разделе &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;.&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`false`</ph> (the default), the content that is signed is included in the CMS/PKCS #7 message along with the signature information.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`false`</ph> (по умолчанию), содержимое, которое подписывается включается в сообщения CMS/PKCS 7 вместе с информацией подписи.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`true`</ph>, clients that cannot decode S/MIME messages can still see the content of the message if it is sent separately.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`true`</ph>, клиенты, которые не удается декодировать S/MIME сообщения по-прежнему можно просмотреть содержимое сообщения, если оно передается отдельно.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This might be useful in an archiving application that archives message content whether the message sender can be verified for authenticity.</source>
+          <target state="translated">Это может быть полезно в средствах архивации, которая архивирует содержимое сообщения ли можно проверить подлинность отправителя сообщения.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.ContentInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the content information as the inner content of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> message.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.ContentInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , указывающий сведения о содержимом как внутреннее содержимое <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> сообщения.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The SignedCms constructor creates an instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified subject identifier type as the default subject identifier type for signers.</source>
+          <target state="translated">Конструктор SignedCms создает экземпляр <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , используя тип идентификатора темы, указанного как тип идентификатора темы по умолчанию для авторов.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the default property values used with this constructor, see &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;.</source>
+          <target state="translated">Значения свойств по умолчанию, используемые конструктором в разделе &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;.&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`false`</ph> (the default), the content that is signed is included in the CMS/PKCS #7 message along with the signature information.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`false`</ph> (по умолчанию), содержимое, которое подписывается включается в сообщения CMS/PKCS 7 вместе с информацией подписи.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`true`</ph>, clients that cannot decode S/MIME messages can still see the content of the message if it is sent separately.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`true`</ph>, клиенты, которые не удается декодировать S/MIME сообщения по-прежнему можно просмотреть содержимое сообщения, если оно передается отдельно.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This might be useful in an archiving application that archives message content whether the message sender can be verified for authenticity.</source>
+          <target state="translated">Это может быть полезно в средствах архивации, которая архивирует содержимое сообщения ли можно проверить подлинность отправителя сообщения.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifierType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> member that specifies the default subject identifier type for signers.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifierType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> член, который указывает тип идентификатора темы по умолчанию для авторов.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The SignedCms constructor creates an instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified content information as the inner content and by using the detached state.</source>
+          <target state="translated">Конструктор SignedCms создает экземпляр <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса, используя указанные сведения об содержимого как внутреннее содержимое и с помощью отсоединенном состоянии.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the default property values used with this constructor, see &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;.</source>
+          <target state="translated">Значения свойств по умолчанию, используемые конструктором в разделе &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;.&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`false`</ph> (the default), the content that is signed is included in the CMS/PKCS #7 message along with the signature information.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`false`</ph> (по умолчанию), содержимое, которое подписывается включается в сообщения CMS/PKCS 7 вместе с информацией подписи.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`true`</ph>, clients that cannot decode S/MIME messages can still see the content of the message if it is sent separately.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`true`</ph>, клиенты, которые не удается декодировать S/MIME сообщения по-прежнему можно просмотреть содержимое сообщения, если оно передается отдельно.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This might be useful in an archiving application that archives message content whether the message sender can be verified for authenticity.</source>
+          <target state="translated">Это может быть полезно в средствах архивации, которая архивирует содержимое сообщения ли можно проверить подлинность отправителя сообщения.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.ContentInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the content information as the inner content of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> message.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.ContentInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , указывающий сведения о содержимом как внутреннее содержимое <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> сообщения.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Boolean&gt; value that specifies whether the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is for a detached signature.</source>
+          <target state="translated">Объект &lt;xref:System.Boolean&gt;значение, указывающее, является ли <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> представляет отсоединенной подписи.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`detached`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the signature is detached.</source>
+          <target state="translated">Если <ph id="ph1">`detached`</ph> — <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, подпись отсоединяется.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`detached`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the signature is not detached.</source>
+          <target state="translated">Если <ph id="ph1">`detached`</ph> — <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, подпись не отсоединяется.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The SignedCms constructor creates an instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified subject identifier type as the default subject identifier type for signers and content information as the inner content.</source>
+          <target state="translated">Конструктор SignedCms создает экземпляр <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , используя тип идентификатора темы, указанного как тип идентификатора темы по умолчанию для авторов и сведения о содержимом как внутреннее содержимое.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For the default property values used with this constructor, see &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;.</source>
+          <target state="translated">Значения свойств по умолчанию, используемые конструктором в разделе &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;.&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms.%23ctor&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`false`</ph> (the default), the content that is signed is included in the CMS/PKCS #7 message along with the signature information.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`false`</ph> (по умолчанию), содержимое, которое подписывается включается в сообщения CMS/PKCS 7 вместе с информацией подписи.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`true`</ph>, clients that cannot decode S/MIME messages can still see the content of the message if it is sent separately.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`true`</ph>, клиенты, которые не удается декодировать S/MIME сообщения по-прежнему можно просмотреть содержимое сообщения, если оно передается отдельно.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This might be useful in an archiving application that archives message content whether the message sender can be verified for authenticity.</source>
+          <target state="translated">Это может быть полезно в средствах архивации, которая архивирует содержимое сообщения ли можно проверить подлинность отправителя сообщения.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifierType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> member that specifies the default subject identifier type for signers.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifierType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> член, который указывает тип идентификатора темы по умолчанию для авторов.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.ContentInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the content information as the inner content of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> message.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.ContentInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , указывающий сведения о содержимом как внутреннее содержимое <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> сообщения.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The SignedCms constructor creates an instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by using the specified subject identifier type as the default subject identifier type for signers, the content information as the inner content, and by using the detached state.</source>
+          <target state="translated">Конструктор SignedCms создает экземпляр <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса с помощью тип идентификатора темы, указанного как тип идентификатора темы по умолчанию для авторов, сведения о содержимом как внутреннее содержимое и с помощью отсоединенном состоянии.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`false`</ph> (the default), the content that is signed is included in the CMS/PKCS #7 message along with the signature information.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`false`</ph> (по умолчанию), содержимое, которое подписывается включается в сообщения CMS/PKCS 7 вместе с информацией подписи.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the detached state is <ph id="ph1">`true`</ph>, clients that cannot decode S/MIME messages can still see the content of the message if it is sent separately.</source>
+          <target state="translated">Если свойство detached <ph id="ph1">`true`</ph>, клиенты, которые не удается декодировать S/MIME сообщения по-прежнему можно просмотреть содержимое сообщения, если оно передается отдельно.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This may be useful in an archiving application that archives message content whether or not the message sender can be verified for authenticity.</source>
+          <target state="translated">Это может быть полезно в средствах архивации, которая архивирует содержимое сообщения, независимо от того, имеется ли можно проверить подлинность отправителя сообщения.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifierType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> member that specifies the default subject identifier type for signers.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SubjectIdentifierType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> член, который указывает тип идентификатора темы по умолчанию для авторов.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.ContentInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that specifies the content information as the inner content of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> message.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.ContentInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , указывающий сведения о содержимом как внутреннее содержимое <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> сообщения.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Boolean&gt; value that specifies whether the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is for a detached signature.</source>
+          <target state="translated">Объект &lt;xref:System.Boolean&gt;значение, указывающее, является ли <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> представляет отсоединенной подписи.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`detached`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the signature is detached.</source>
+          <target state="translated">Если <ph id="ph1">`detached`</ph> — <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, подпись отсоединяется.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If detached is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the signature is not detached.</source>
+          <target state="translated">Если отсоединить — <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, подпись не отсоединяется.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The Certificates property retrieves the certificates associated with the encoded CMS/PKCS #7 message.</source>
+          <target state="translated">Свойство сертификаты извлекает сертификаты, связанные с закодированное сообщение CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2Collection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection that represents the set of certificates for the encoded CMS/PKCS #7 message.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2Collection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Коллекцию, представляющую набор сертификатов для закодированное сообщение CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The CheckHash method verifies the data integrity of the CMS/PKCS #7 message.</source>
+          <target state="translated">Метод CheckHash проверяет целостность данных сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>CheckHash is a specialized method used in specific security infrastructure applications that only wish to check the hash of the CMS message, rather than perform a full digital signature verification.</source>
+          <target state="translated">CheckHash является специальным методом, использовать в приложениях инфраструктуры безопасности, требуется только проверить хэш сообщения CMS, вместо выполнения проверки полной цифровой подписи.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>CheckHash does not authenticate the author nor sender of the message because this method does not involve verifying a digital signature.</source>
+          <target state="translated">CheckHash не выполняет проверку подлинности автор ни отправителя сообщения, так как этот метод не выполняется проверка цифровой подписи.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For general-purpose checking of the integrity and authenticity of a CMS/PKCS #7 message, use the <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignedCms.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> or <ph id="ph3">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignedCms.CheckSignature%28System.Security.Cryptography.X509Certificates.X509Certificate2Collection%2CSystem.Boolean%29<ph id="ph4">&amp;gt;</ph> methods.</source>
+          <target state="translated">Для общего назначения проверки целостности и подлинности сообщения CMS/PKCS #7, используйте <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignedCms.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> или <ph id="ph3">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignedCms.CheckSignature%28System.Security.Cryptography.X509Certificates.X509Certificate2Collection%2CSystem.Boolean%29<ph id="ph4">&amp;gt;</ph> методы.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method does not provide authentication of the CMS/PKCS #7 message.</source>
+          <target state="translated">Этот метод не выполняет проверку подлинности сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A method call was invalid for the object's current state.</source>
+          <target state="translated">Вызов метода недопустим для текущего состояния объекта.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method verifies all signatures, including countersignatures, on the CMS/PKCS #7 message.</source>
+          <target state="translated">Этот метод проверяет все подписи, включая скрепляющая подпись сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are signed attributes included with the message, these attributes are also verified.</source>
+          <target state="translated">Если сообщение подписанные атрибуты, эти атрибуты также проходят проверку.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the option is chosen to validate certificates, the entire included portion of the certificate chain is validated.</source>
+          <target state="translated">Если вы выбрали параметр для проверки сертификатов, проверяется весь включенный фрагмент цепочки сертификатов.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method throws an exception if the verification of a digital signature fails or any validation requirements are not met.</source>
+          <target state="translated">Этот метод создает исключение при сбое проверки цифровой подписи или любые требования проверки не выполняются.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Boolean&gt; value that specifies whether only the digital signatures are verified without the signers' certificates being validated.</source>
+          <target state="translated">Объект &lt;xref:System.Boolean&gt;значение, указывающее, проверяются ли только цифровые подписи без проверки сертификатов авторов.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`verifySignatureOnly`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, only the digital signatures are verified.</source>
+          <target state="translated">Если <ph id="ph1">`verifySignatureOnly`</ph> — <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, проверяются только цифровые подписи.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If it is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the digital signatures are verified, the signers' certificates are validated, and the purposes of the certificates are validated.</source>
+          <target state="translated">Если это <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, проверяются цифровые подписи, используется для проверки сертификатов авторов и проверяются назначения сертификатов.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The purposes of a certificate are considered valid if the certificate has no key usage or if the key usage supports digital signatures or nonrepudiation.</source>
+          <target state="translated">Назначение сертификата считаются допустимыми, если сертификат нет ключ или если ключ поддерживает цифровые подписи или неподдельность.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Не удалось выполнить операцию шифрования.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A method call was invalid for the object's current state.</source>
+          <target state="translated">Вызов метода недопустим для текущего состояния объекта.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method verifies all signatures, including countersignatures, on the CMS/PKCS #7 message.</source>
+          <target state="translated">Этот метод проверяет все подписи, включая скрепляющая подпись сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are signed attributes included with the message, these attributes are also verified.</source>
+          <target state="translated">Если сообщение подписанные атрибуты, эти атрибуты также проходят проверку.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the option is chosen to validate certificates, the entire included portion of the certificate chain is validated.</source>
+          <target state="translated">Если вы выбрали параметр для проверки сертификатов, проверяется весь включенный фрагмент цепочки сертификатов.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method throws an exception if the verification of a digital signature fails or any validation requirements are not met.</source>
+          <target state="translated">Этот метод создает исключение при сбое проверки цифровой подписи или любые требования проверки не выполняются.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2Collection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to validate the certificate chain.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2Collection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Объекта, который может использоваться для проверки цепочки сертификатов.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>If no additional certificates are to be used to validate the certificate chain, use <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignedCms.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> instead of CheckSignature.</source>
+          <target state="translated">Если дополнительные сертификаты не будут использоваться для проверки цепочки сертификатов, используйте <ph id="ph1">&amp;lt;</ph>xref:System.Security.Cryptography.Pkcs.SignedCms.CheckSignature%28System.Boolean%29<ph id="ph2">&amp;gt;</ph> вместо CheckSignature.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Boolean&gt; value that specifies whether only the digital signatures are verified without the signers' certificates being validated.</source>
+          <target state="translated">Объект &lt;xref:System.Boolean&gt;значение, указывающее, проверяются ли только цифровые подписи без проверки сертификатов авторов.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`verifySignatureOnly`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, only the digital signatures are verified.</source>
+          <target state="translated">Если <ph id="ph1">`verifySignatureOnly`</ph> — <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, проверяются только цифровые подписи.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>If it is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the digital signatures are verified, the signers' certificates are validated, and the purposes of the certificates are validated.</source>
+          <target state="translated">Если это <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, проверяются цифровые подписи, используется для проверки сертификатов авторов и проверяются назначения сертификатов.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The purposes of a certificate are considered valid if the certificate has no key usage or if the key usage supports digital signatures or nonrepudiation.</source>
+          <target state="translated">Назначение сертификата считаются допустимыми, если сертификат нет ключ или если ключ поддерживает цифровые подписи или неподдельность.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Не удалось выполнить операцию шифрования.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A method call was invalid for the object's current state.</source>
+          <target state="translated">Вызов метода недопустим для текущего состояния объекта.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The ComputeSignature method prompts the user to select a signing certificate, creates a signature, and adds the signature to the CMS/PKCS #7 message.</source>
+          <target state="translated">Метод ComputeSignature предлагает пользователю выбрать сертификат для подписи, создает подпись и добавляет подписи сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method displays a user interface in which you choose signers for this message.</source>
+          <target state="translated">Этот метод отображает пользовательский интерфейс, в котором выбираются авторов для данного сообщения.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This requires that the current process is running in <bpt id="p1">*</bpt>user interactive mode<ept id="p1">*</ept>, meaning that the &lt;xref:System.Environment.UserInteractive%2A?displayProperty=fullName&gt; property is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Это требует, что текущий процесс работает в <bpt id="p1">*</bpt>режиме взаимодействия с пользователем<ept id="p1">*</ept>, то есть, &lt;xref:System.Environment.UserInteractive%2A?displayProperty=fullName&gt;свойству <ph id="ph1">`true`</ph>.&lt;/xref:System.Environment.UserInteractive%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A process is normally in user interactive mode unless it is a service process or running inside a Web application.</source>
+          <target state="translated">Процесс обычно выполняется в режиме взаимодействия с пользователем, если он не является процессом службы или выполнения внутри веб-приложения.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Signers whose certificates meet the following conditions will be displayed in the list:      -   The certificate has an associated private key.</source>
+          <target state="translated">В списке будет отображаться авторов, чьи сертификаты удовлетворяют следующим условиям:-сертификат имеет соответствующий закрытый ключ.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The certificate is within its validity period.</source>
+          <target state="translated">— Сертификат находится в пределах срока его действия.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The certificate has no key usage or a key usage that supports digital signatures or nonrepudiation.</source>
+          <target state="translated">— Сертификат имеет без использования ключа или использования ключа, который поддерживает цифровые подписи или неподдельность.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Signer certificates are chosen from the My store.</source>
+          <target state="translated">Сертификаты подписавшего выбираются из хранилища My.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>.NET Framework Security    The following permissions are required to display the user interface:      -   &lt;xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;       The following permissions are required to access the signature key:      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;</source>
+          <target state="translated">Безопасность платформы .NET framework для отображения пользовательского интерфейса требуются следующие разрешения:- &lt;xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;для доступа к ключу подписи требуются следующие разрешения:- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;&lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Не удалось выполнить операцию шифрования.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The ComputeSignature method creates a signature using the specified signer and adds the signature to the CMS/PKCS #7 message.</source>
+          <target state="translated">Метод ComputeSignature создает подпись для указанного подписавшего и добавляет подписи сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>.NET Framework Security    The following permissions are required to access the signature key:      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;</source>
+          <target state="translated">Безопасность платформы .NET framework для доступа к ключу подписи требуются следующие разрешения:- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;&lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the signer.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий подписывающего лица.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Не удалось выполнить операцию шифрования.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Creates a signature using the specified signer and adds the signature to the CMS/PKCS #7 message.</source>
+          <target state="translated">Создает подпись для указанного подписавшего и добавляет подписи сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If the value of the silent parameter is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the &lt;xref:System.Security.Cryptography.Pkcs.CmsSigner.Certificate*&gt; property of the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object specified by the signer parameter is not set to a valid certificate, this method prompts the user to select a signing certificate.</source>
+          <target state="translated">Если значение параметра автоматического <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> и &lt;xref:System.Security.Cryptography.Pkcs.CmsSigner.Certificate*&gt;свойство <bpt id="p2">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> объекта, указанного в параметре подписавшего установлен действительный сертификат, этот метод предлагает пользователю выбрать сертификат для подписи.&lt;/xref:System.Security.Cryptography.Pkcs.CmsSigner.Certificate*&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>.NET Framework Security    The following permissions are required to display the user interface:      -   &lt;xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;       The following permissions are required to access the signature key:      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;      -   &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;</source>
+          <target state="translated">Безопасность платформы .NET framework для отображения пользовательского интерфейса требуются следующие разрешения:- &lt;xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;для доступа к ключу подписи требуются следующие разрешения:- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;- &lt;xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt;&lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.KeyContainerPermissionFlags?displayProperty=fullName&gt; &lt;/xref:System.Security.Permissions.UIPermissionWindow?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the signer.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.CmsSigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий подписывающего лица.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to prompt the user to select a signing certificate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Чтобы предложить пользователю выбрать сертификат для подписи.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Не удалось выполнить операцию шифрования.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">silent</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and a signing certificate is not specified.</source>
+          <target state="translated">Значение <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">silent</ph> <ept id="p1">&lt;/code&gt;</ept> параметр <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> и сертификат подписи не указан.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The ContentInfo property retrieves the inner contents of the encoded CMS/PKCS #7 message.</source>
+          <target state="translated">Свойство данных содержимого извлекает внутреннее содержимое закодированное сообщение CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.ContentInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the contents of the encoded CMS/PKCS #7 message.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.ContentInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект, представляющий содержимое закодированное сообщение CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The Decode method decodes an encoded <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> message.</source>
+          <target state="translated">Метод декодирования декодирует закодированный <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> сообщения.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Upon successful decoding, the decoded information can be retrieved from the properties of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">После успешного раскодирования декодированный сведения можно получить из свойства <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method resets all member variables of the object by using the information obtained from successful decoding.</source>
+          <target state="translated">Этот метод сбрасывает все переменные-члены объекта, используя информацию, полученную в результате успешного раскодирования.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Array of byte values that represents the encoded CMS/PKCS #7 message to be decoded.</source>
+          <target state="translated">Массив байтовых значений, представляющий закодированное сообщение CMS/PKCS #7 для декодирования.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Не удалось выполнить операцию шифрования.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The Detached property retrieves whether the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is for a detached signature.</source>
+          <target state="translated">Извлекает свойство отсоединенных ли <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> представляет отсоединенной подписи.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Boolean&gt; value that specifies whether the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is for a detached signature.</source>
+          <target state="translated">Объект &lt;xref:System.Boolean&gt;значение, указывающее, является ли <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignedCms"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> представляет отсоединенной подписи.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If this property is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the signature is detached.</source>
+          <target state="translated">Если это свойство имеет <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, подпись отсоединяется.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If this property is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the signature is not detached.</source>
+          <target state="translated">Если это свойство имеет <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, подпись не отсоединяется.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The Encode method encodes the information in the object into a CMS/PKCS #7 message.</source>
+          <target state="translated">Метод кодирования кодирует сведения в объекте в сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>An array of byte values that represents the encoded message.</source>
+          <target state="translated">Массив байтовых значений, представляющий закодированное сообщение.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The encoded message can be decoded by the &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.Decode*&gt; method.</source>
+          <target state="translated">Закодированное сообщение может расшифровываться &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.Decode*&gt;метод.&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms.Decode*&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Не удалось выполнить операцию шифрования.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>A method call was invalid for the object's current state.</source>
+          <target state="translated">Вызов метода недопустим для текущего состояния объекта.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Removes the signature at the specified index of the &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.SignerInfos*&gt; collection.</source>
+          <target state="translated">Удаляет подпись по указанному индексу из &lt;xref:System.Security.Cryptography.Pkcs.SignedCms.SignerInfos*&gt;коллекции.&lt;/xref:System.Security.Cryptography.Pkcs.SignedCms.SignerInfos*&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The zero-based index of the signature to remove.</source>
+          <target state="translated">Отсчитываемый от нуля индекс удаляемого подписи.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>A CMS/PKCS #7 message is not signed, and <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">index</ph><ept id="p1">&lt;/code&gt;</ept> is invalid.</source>
+          <target state="translated">Не имеет подписи сообщения CMS/PKCS #7, и <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">index</ph> <ept id="p1">&lt;/code&gt;</ept> является недопустимым.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;index&lt;/code&gt;</ph> is less than zero.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;index&lt;/code&gt;</ph>меньше нуля.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;index&lt;/code&gt;</ph> is greater than the signature count minus 1.</source>
+          <target state="translated">- или - <ph id="ph1">&lt;code&gt;index&lt;/code&gt;</ph> больше, чем число подписи минус 1.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The signature could not be removed.</source>
+          <target state="translated">Не удалось удалить подпись.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>-or-       An internal cryptographic error occurred.</source>
+          <target state="translated">- или - произошла внутренняя ошибка шифрования.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The RemoveSignature method removes the signature for the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Метод RemoveSignature удаляет подпись для указанного <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the countersignature being removed.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий удаляемый скрепляющая подпись.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>A null reference was passed to a method that does not accept it as a valid argument.</source>
+          <target state="translated">Указатель null был передан метод, который не принимает ее как допустимый аргумент.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The value of an argument was outside the allowable range of values as defined by the called method.</source>
+          <target state="translated">Значение аргумента было вне допустимого диапазона значений в соответствии с определением вызываемого метода.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>A cryptographic operation could not be completed.</source>
+          <target state="translated">Не удалось выполнить операцию шифрования.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The SignerInfos property retrieves the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> collection associated with the CMS/PKCS #7 message.</source>
+          <target state="translated">Извлекает свойство SignerInfos <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> коллекцию, связанную с сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfoCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the signer information for the CMS/PKCS #7 message.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Security.Cryptography.Pkcs.SignerInfoCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , представляющий информацию о подписавшем сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The Version property retrieves the version of the CMS/PKCS #7 message.</source>
+          <target state="translated">Свойство Version Возвращает версию сообщения CMS/PKCS 7.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The version determines whether the message is a PKCS #7 message or a Cryptographic Message Syntax (CMS) message.</source>
+          <target state="translated">Версия определяет, является ли сообщение PKCS #7 сообщения или сообщения шифрования Message Syntax (CMS).</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>CMS is a newer superset of PKCS #7.</source>
+          <target state="translated">CMS является надмножеством новой PKCS #7.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>An int value that represents the CMS/PKCS #7 message version.</source>
+          <target state="translated">Целочисленное значение, представляющее версию сообщения CMS/PKCS 7.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
