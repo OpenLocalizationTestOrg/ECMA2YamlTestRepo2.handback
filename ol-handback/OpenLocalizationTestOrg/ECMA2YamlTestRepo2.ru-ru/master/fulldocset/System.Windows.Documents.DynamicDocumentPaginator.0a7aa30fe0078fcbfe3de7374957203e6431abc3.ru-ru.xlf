@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">113ead11627856edc3095767ccfc6e625da2a81f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Documents.DynamicDocumentPaginator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb848020dbff7dd203f415eda6900d196995e9fe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9cc052fffc48440fab6f7f078343e7ebc6720a99</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an abstract base class that supports automatic background pagination and tracking content positions across repaginations in addition to the methods and properties of its own base class.</source>
+          <target state="translated">Предоставляет абстрактный базовый класс, который поддерживает автоматический фоновый разбиение на страницы и отслеживание позиций содержимого разбивке в дополнение к методам и свойствам базового класса.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a DynamicDocumentPaginator will automatically pre-paginate content in the background (this process begins when &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; is <ph id="ph1">`true`</ph>, which is the default setting).</source>
+          <target state="translated">По умолчанию DynamicDocumentPaginator будет автоматически предварительно разбиения на страницы содержимое в фоновом режиме (этот процесс начинается, когда &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;является <ph id="ph1">`true`</ph>, который является значением по умолчанию).&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; is <ph id="ph1">`true`</ph>, the layout will also be repaginated due to changes in content or changes in &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.</source>
+          <target state="translated">Когда &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;— <ph id="ph1">`true`</ph>, из-за изменения в содержимом или изменения &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.&lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; также разбивается макета&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event occurs upon completion of pagination (or repagination) of one or more pages, such as in the following situations:      -   &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; events occur as content is paginated in the background.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;Событие возникает после завершения разбиение на страницы (или разбивка на страницы) из одного или нескольких страниц, таких как в следующих случаях:- &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;события происходят при перелистывании содержимого в фоновом режиме.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation, the event may occur upon paginating one or multiple pages (&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; specifies which pages have been paginated).</source>
+          <target state="translated">В зависимости от реализации, это событие возникает после разбивки на страницы одной или нескольких страниц (&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; указывает разбивке страницы).&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Calls to &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; or &lt;xref:System.Windows.Documents.DocumentPaginator.GetPageAsync%2A&gt; may cause an &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event to occur if the page specified has not been paginated.</source>
+          <target state="translated">-Вызовы &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;или &lt;xref:System.Windows.Documents.DocumentPaginator.GetPageAsync%2A&gt;может привести к &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;событий в случае, если указанная страница не разбивки.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.GetPageAsync%2A&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if background pagination is enabled (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>) but pagination has only been completed up to the third page, a call of &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; with an argument of 6 will cause pages four, five, six, and seven to be paginated.</source>
+          <target state="translated">Например, если включено разбиение на страницы в фоновом режиме (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>), но разбиение на страницы только завершен до третьей странице вызов &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;с аргументом 6 будет причина страниц четыре, 5, 6 и семь разбиваемый.&lt;/xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Upon completion, a &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event will be raised with &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; settings of &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; = 4 and &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; = 4.</source>
+          <target state="translated">По завершении &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;возникает событие с &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt;Параметры &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;= 4 и &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt;= 4.&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   With background pagination enabled (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>), a change in &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; on flow-format content, such as a &lt;xref:System.Windows.Documents.FlowDocument&gt;, may cause repagination and associated &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; events.</source>
+          <target state="translated">-С фоновая разбивка включена (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>), изменения в &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;на формат потока содержимого, такие как &lt;xref:System.Windows.Documents.FlowDocument&gt;, могут вызвать разбивка на страницы и связанные &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;события.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; has no effect in repagination on fixed-format content, such as &lt;xref:System.Windows.Documents.FixedDocument&gt;, where the visual page size does not affect the layout.</source>
+          <target state="translated">Обратите внимание, что &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;не оказывает влияния в разбивка на страницы с фиксированным форматом содержимым, таких как &lt;xref:System.Windows.Documents.FixedDocument&gt;, где размер страницы visual не влияет на макет.&lt;/xref:System.Windows.Documents.FixedDocument&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; event also occurs when background pagination is disabled.</source>
+          <target state="translated">Объект &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;событие также возникает, когда фоновая разбивка отключен.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there is only one page of content and &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`false`</ph>), calling &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; with an argument of 0 will result in two events:      1.</source>
+          <target state="translated">Например, если имеется только одна страница содержимого и &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;= <ph id="ph1">`false`</ph>), что вызов &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;с аргументом 0 приведет к два события: 1.&lt;/xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event with &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; settings of &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; = 0 and &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; = 1.</source>
+          <target state="translated">Объект &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;событие с &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt;Параметры &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;= 0 и &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt;= 1.&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; event.</source>
+          <target state="translated">Объект &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;событий.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the specified &lt;xref:System.Object&gt;.</source>
+          <target state="translated">При переопределении в производном классе возвращает <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для указанного &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The object to return the <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of.</source>
+          <target state="translated">Объект для возврата <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объекта.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the given object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Данного объекта.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the zero-based page number of the specified <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">При переопределении в производном классе, возвращает отсчитываемый от нуля номер указанного <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If pages prior to the <ph id="ph1">`contentPosition`</ph> have not been formatted, they will be paginated synchronously prior to returning the requested page number.</source>
+          <target state="translated">Если страницы до <ph id="ph1">`contentPosition`</ph> не были отформатированы, они будут разбиты на страницы синхронно до возвращения номер запрошенной страницы.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt; provides similar functionality as GetPageNumber, but with asynchronous operation.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;предоставляет аналогичные функциональные возможности GetPageNumber, а с асинхронной операцией.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The content position whose page number is needed.</source>
+          <target state="translated">Позиция содержимого, номер страницы которого необходим.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; representing zero-based page number where the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">contentPosition</ph><ept id="p1">&lt;/code&gt;</ept> appears.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;Представляет отсчитываемый от нуля номер где указанного <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">contentPosition</ph> <ept id="p1">&lt;/code&gt;</ept> отображается.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Asynchronously, returns (through the This method raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event) the zero-based page number of the specified <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Асинхронно возвращает (через этот метод вызывает <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий) отсчитываемый от нуля номер указанного <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only way to cancel the asynchronous operation of this method is to cancel all asynchronous operations.</source>
+          <target state="translated">Единственный способ отменить асинхронную операцию данного метода является для отмены всех асинхронных операций.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Contrast this with the other overload of this method: &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;.</source>
+          <target state="translated">Сравните это с другая перегрузка этого метода: &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method raises the &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; event.</source>
+          <target state="translated">Этот метод вызывает &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;событий.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The page number is passed to the event as one of the event arguments.</source>
+          <target state="translated">Номер страницы передается в событие как один из аргументов события.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt; for how to use this method to get the page number.</source>
+          <target state="translated">В разделе &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;об использовании этого метода для получения номера страницы.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The content position whose page number is needed.</source>
+          <target state="translated">Позиция содержимого, номер страницы которого необходим.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Asynchronously, returns (through the This method raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event) the zero-based page number of the specified <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Асинхронно возвращает (через этот метод вызывает <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий) отсчитываемый от нуля номер указанного <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the method makes it possible to cancel this asynchronous operation without cancelling all asynchronous operations.</source>
+          <target state="translated">Эта перегрузка метода позволяет отменить данную асинхронную операцию без отмены всех асинхронных операций.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method raises the &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; event.</source>
+          <target state="translated">Этот метод вызывает &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;событий.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following steps illustrate how to retrieve the page number of a given <ph id="ph1">`contentPosition`</ph> asynchronously.</source>
+          <target state="translated">Ниже показано, как получить номер данной <ph id="ph1">`contentPosition`</ph> асинхронно.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Create a &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventHandler&gt; delegate and add it to be notified of &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; events.</source>
+          <target state="translated">Создание &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventHandler&gt;делегата и добавьте его для получения уведомлений об &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;события.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call GetPageNumberAsync specifying the <ph id="ph1">`contentPosition`</ph> desired and a unique <ph id="ph2">`userState`</ph> object that will be used to identify the asynchronous task.</source>
+          <target state="translated">Вызовите указание GetPageNumberAsync <ph id="ph1">`contentPosition`</ph> необходимые и уникальный <ph id="ph2">`userState`</ph> объекта, который будет использоваться для идентификации асинхронной задачи.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the event occurs and the delegate is called, compare the event's &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; property with the original GetPageNumberAsync <ph id="ph1">`userState`</ph> parameter.</source>
+          <target state="translated">Если происходит событие, делегат вызывается сравнения событий &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; свойство с исходной GetPageNumberAsync <ph id="ph1">`userState`</ph> параметр.&lt;/xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; property matches the original GetPageNumberAsync <ph id="ph1">`userState`</ph>, the operation is complete and the page number is ready.</source>
+          <target state="translated">Когда &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; свойства совпадает с исходной GetPageNumberAsync <ph id="ph1">`userState`</ph>, операция будет завершена, и номер страницы будет готов.&lt;/xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(The &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.ContentPosition%2A&gt; property will also match the original GetPageNumberAsync <ph id="ph1">`contentPosition`</ph> parameter.)      5.</source>
+          <target state="translated">( &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.ContentPosition%2A&gt; Свойство будет также сопоставлять исходного GetPageNumberAsync <ph id="ph1">`contentPosition`</ph> параметр.)&lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.ContentPosition%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;      5.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.PageNumber%2A&gt; property contains the zero-based page number of the specified <ph id="ph1">`contentPosition`</ph>.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.PageNumber%2A&gt; Свойство содержит номер страницы (с нуля) указанного <ph id="ph1">`contentPosition`</ph>.&lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.PageNumber%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumber%2A&gt; provides similar functionality as &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;, but for synchronous operation.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumber%2A&gt;предоставляет аналогичные функциональные возможности, как &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;, но для выполнения в синхронном режиме.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumber%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The content position element to return the page number of.</source>
+          <target state="translated">Элемент позиции содержимого для возврата номер страницы.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the asynchronous task.</source>
+          <target state="translated">Уникальный идентификатор для асинхронной задачи.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Occurs when &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync*&gt; has completed.</source>
+          <target state="translated">Происходит при &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync*&gt;завершена.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the position of the specified page in the document's content.</source>
+          <target state="translated">При переопределении в производном классе, возвращает позицию указанную страницу в содержимое документа.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The page whose position is needed.</source>
+          <target state="translated">Страница, позиция которого требуется.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the position of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">page</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> представляющего позицию <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">page</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether pagination is performed automatically in the background in response to certain events, such as a change in page size.</source>
+          <target state="translated">Возвращает или задает значение, указывающее, является ли разбиение на страницы выполняется автоматически в фоновом режиме в ответ на определенные события, такие как изменение размера страницы.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`true`</ph>, pagination is performed in the background, raising &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; and &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; events as appropriate.</source>
+          <target state="translated">Когда <ph id="ph1">`true`</ph>, разбиение на страницы выполняется в фоновом режиме, вызов &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;и &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;соответствующим образом.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pagination of &lt;xref:System.Windows.Documents.FixedDocument&gt; content, as distinct from a &lt;xref:System.Windows.Documents.FlowDocument&gt; is not affected by changes to the visual &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.</source>
+          <target state="translated">Разбиение на страницы содержимого &lt;xref:System.Windows.Documents.FixedDocument&gt;, в отличие от &lt;xref:System.Windows.Documents.FlowDocument&gt;не влияют изменения в визуальный &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.&lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Documents.FixedDocument&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if background pagination is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если включено разбиение на страницы в фоновом режиме; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.GetPageNumberCompletedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Windows.Documents.GetPageNumberCompletedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , содержащий данные события.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;, Содержащий данные события.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Вызывает <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> событий.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.PaginationProgressEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Windows.Documents.PaginationProgressEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , содержащий данные события.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Occurs when all document content has been paginated.</source>
+          <target state="translated">Происходит при разбивке все содержимое документа.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When PaginationCompleted occurs, &lt;xref:System.Windows.Documents.DocumentPaginator.IsPageCountValid%2A&gt; is <ph id="ph1">`true`</ph> until a new pagination is initiated.</source>
+          <target state="translated">В случае PaginationCompleted &lt;xref:System.Windows.Documents.DocumentPaginator.IsPageCountValid%2A&gt;— <ph id="ph1">`true`</ph> до запуска нового разбиение на страницы.&lt;/xref:System.Windows.Documents.DocumentPaginator.IsPageCountValid%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Occurs when one or more content pages have been paginated.</source>
+          <target state="translated">Происходит при разбивке одной или нескольких страниц содержимого.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; properties &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; and &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; identify the range of pages paginated.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt;свойства &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;и &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt;определить диапазон страниц с разбиением на страницы.&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Для добавления.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

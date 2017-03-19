@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ko-kr">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">113ead11627856edc3095767ccfc6e625da2a81f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Documents.DynamicDocumentPaginator.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb848020dbff7dd203f415eda6900d196995e9fe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9cc052fffc48440fab6f7f078343e7ebc6720a99</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an abstract base class that supports automatic background pagination and tracking content positions across repaginations in addition to the methods and properties of its own base class.</source>
+          <target state="translated">메서드 및 기본 클래스의 속성 외에도 매기기 자동 백그라운드 페이지 매김 및 추적 콘텐츠 위치를 지원 하는 추상 기본 클래스를 제공 합니다.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a DynamicDocumentPaginator will automatically pre-paginate content in the background (this process begins when &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; is <ph id="ph1">`true`</ph>, which is the default setting).</source>
+          <target state="translated">기본적으로는 DynamicDocumentPaginator는 자동으로 미리 페이지를 매기는 백그라운드에서 콘텐츠 (이 프로세스를 시작 하는 경우 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;은 <ph id="ph1">`true`</ph>, 기본 설정).&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; is <ph id="ph1">`true`</ph>, the layout will also be repaginated due to changes in content or changes in &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.</source>
+          <target state="translated">때 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;은 <ph id="ph1">`true`</ph>, 레이아웃은 또한 페이지가 다시 매겨집니다 &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.&lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; 또는 콘텐츠의 변경으로 인해&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event occurs upon completion of pagination (or repagination) of one or more pages, such as in the following situations:      -   &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; events occur as content is paginated in the background.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;이벤트 완료 될 때 발생 페이지 매김 (또는 매기) 하나 이상의 페이지의 예는 다음과 같이:- &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;콘텐츠 백그라운드에서 페이지가 매겨진에 이벤트가 발생 합니다.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the implementation, the event may occur upon paginating one or multiple pages (&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; specifies which pages have been paginated).</source>
+          <target state="translated">이 이벤트는 구현에 따라 하나 또는 여러 페이지를 매길 때 발생할 수 있습니다 (&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; 매겨 지 해당 페이지 지정).&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Calls to &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; or &lt;xref:System.Windows.Documents.DocumentPaginator.GetPageAsync%2A&gt; may cause an &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event to occur if the page specified has not been paginated.</source>
+          <target state="translated">-에 대 한 호출이 &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;또는 &lt;xref:System.Windows.Documents.DocumentPaginator.GetPageAsync%2A&gt;발생할 수 있습니다는 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;이벤트를 지정 된 페이지를 매겨지지 되어 발생 합니다.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.GetPageAsync%2A&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if background pagination is enabled (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>) but pagination has only been completed up to the third page, a call of &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; with an argument of 6 will cause pages four, five, six, and seven to be paginated.</source>
+          <target state="translated">예를 들어, 배경 페이지 매김을 사용 하는 경우 (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>) 페이지 매김만 완료 된 세 번째 페이지의 호출까지 하지만 &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;6의 인수와 함께 됩니다 원인 페이지 4, 5, 6 및 7 페이지가 매겨집니다.&lt;/xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Upon completion, a &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event will be raised with &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; settings of &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; = 4 and &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; = 4.</source>
+          <target state="translated">완료 되 면 한 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;이벤트가 발생 &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt;의 설정을 &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;= 4 및 &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt;= 4.&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   With background pagination enabled (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>), a change in &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; on flow-format content, such as a &lt;xref:System.Windows.Documents.FlowDocument&gt;, may cause repagination and associated &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; events.</source>
+          <target state="translated">-사용 하도록 설정 하는 백그라운드 페이지 매김 사용 (&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`true`</ph>), 변경 &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;흐름 형식 콘텐츠의 같은 한 &lt;xref:System.Windows.Documents.FlowDocument&gt;, 매기 발생할 수 있습니다 및 연결 된 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;이벤트.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; &lt;/xref:System.Windows.Documents.FlowDocument&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; has no effect in repagination on fixed-format content, such as &lt;xref:System.Windows.Documents.FixedDocument&gt;, where the visual page size does not affect the layout.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;에 적용 되지 않습니다 매김 고정 형식의 내용에 같은 &lt;xref:System.Windows.Documents.FixedDocument&gt;visual 페이지 크기는 레이아웃 그대로,.&lt;/xref:System.Windows.Documents.FixedDocument&gt; &lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; event also occurs when background pagination is disabled.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;이벤트 배경 페이지 매김을 사용 하지 않도록 설정 하는 경우에 발생 합니다.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if there is only one page of content and &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt; = <ph id="ph1">`false`</ph>), calling &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; with an argument of 0 will result in two events:      1.</source>
+          <target state="translated">예를 들어 있으면 하나만 콘텐츠 페이지 및 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;= <ph id="ph1">`false`</ph>)를 호출 &lt;xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt;인수를 0으로 두 가지 이벤트에서 발생 합니다: 1.&lt;/xref:System.Windows.Documents.DocumentPaginator.GetPage%2A&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.IsBackgroundPaginationEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; event with &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; settings of &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; = 0 and &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; = 1.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;사용 하 여 이벤트 &lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt;의 설정을 &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;= 0 및 &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt;= 1.&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; event.</source>
+          <target state="translated">A &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;이벤트.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">새 인스턴스를 초기화는 <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 클래스입니다.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns a <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the specified &lt;xref:System.Object&gt;.</source>
+          <target state="translated">파생된 클래스에서 재정의 되는 경우는 <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> &lt;xref:System.Object&gt;.&lt;/xref:System.Object&gt; 지정</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The object to return the <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of.</source>
+          <target state="translated">반환할 개체의 <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 입니다.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the given object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 개체입니다.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, returns the zero-based page number of the specified <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 지정된 된&amp;0;부터 시작 하는 페이지 수를 반환 <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If pages prior to the <ph id="ph1">`contentPosition`</ph> have not been formatted, they will be paginated synchronously prior to returning the requested page number.</source>
+          <target state="translated">하는 경우 이전에 페이지는 <ph id="ph1">`contentPosition`</ph> 적용 되지 않은 형식이 지정 매겨집니다 동기적으로 요청된 된 페이지 번호를 반환 하기 전에.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt; provides similar functionality as GetPageNumber, but with asynchronous operation.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;비동기 작업과 GetPageNumber, 같지만 유사한 기능을 제공합니다.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The content position whose page number is needed.</source>
+          <target state="translated">콘텐츠 위치 페이지 번호가 필요 합니다.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Int32&gt; representing zero-based page number where the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">contentPosition</ph><ept id="p1">&lt;/code&gt;</ept> appears.</source>
+          <target state="translated">&lt;xref:System.Int32&gt;0부터 시작 하는 페이지 번호를 나타내는 위치 지정 된 <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">contentPosition</ph> <ept id="p1">&lt;/code&gt;</ept> 나타납니다.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Asynchronously, returns (through the This method raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event) the zero-based page number of the specified <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">비동기적으로 반환 (이 통해 메서드를 발생 시킵니다는 <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트)는 지정 된&amp;0;부터 시작 하는 페이지 번호 <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only way to cancel the asynchronous operation of this method is to cancel all asynchronous operations.</source>
+          <target state="translated">이 메서드의 비동기 작업을 취소 하는 유일한 방법은 모든 비동기 작업을 취소 하는 것입니다.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Contrast this with the other overload of this method: &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;.</source>
+          <target state="translated">이 메서드의 다른 오버 로드를 가진 이와 반대로: &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method raises the &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; event.</source>
+          <target state="translated">이 메서드는 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;이벤트.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The page number is passed to the event as one of the event arguments.</source>
+          <target state="translated">페이지 번호는 이벤트에 이벤트의 인수 중 하나로 전달 됩니다.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt; for how to use this method to get the page number.</source>
+          <target state="translated">참조 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;페이지 번호를 가져오려면이 메서드를 사용 하는 방법에 대 한.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%28System.Windows.Documents.ContentPosition%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The content position whose page number is needed.</source>
+          <target state="translated">콘텐츠 위치 페이지 번호가 필요 합니다.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Asynchronously, returns (through the This method raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event) the zero-based page number of the specified <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">비동기적으로 반환 (이 통해 메서드를 발생 시킵니다는 <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트)는 지정 된&amp;0;부터 시작 하는 페이지 번호 <bpt id="p2">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This overload of the method makes it possible to cancel this asynchronous operation without cancelling all asynchronous operations.</source>
+          <target state="translated">메서드의이 오버 로드를 사용 하면 모든 비동기 작업을 취소 하지 않고이 비동기 작업을 취소할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method raises the &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; event.</source>
+          <target state="translated">이 메서드는 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;이벤트.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following steps illustrate how to retrieve the page number of a given <ph id="ph1">`contentPosition`</ph> asynchronously.</source>
+          <target state="translated">다음 단계에는의 페이지 번호를 검색 하는 방법을 보여 줍니다.는 주어진 <ph id="ph1">`contentPosition`</ph> 비동기적으로 합니다.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Create a &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventHandler&gt; delegate and add it to be notified of &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; events.</source>
+          <target state="translated">만들기는 &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventHandler&gt;대리자를 추가 하 여 알림을 받을 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt;이벤트.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call GetPageNumberAsync specifying the <ph id="ph1">`contentPosition`</ph> desired and a unique <ph id="ph2">`userState`</ph> object that will be used to identify the asynchronous task.</source>
+          <target state="translated">GetPageNumberAsync 지정 함으로써 호출는 <ph id="ph1">`contentPosition`</ph> 원하는 구성과 고유 <ph id="ph2">`userState`</ph> 비동기 작업을 식별 하는 사용할 개체입니다.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the event occurs and the delegate is called, compare the event's &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; property with the original GetPageNumberAsync <ph id="ph1">`userState`</ph> parameter.</source>
+          <target state="translated">이벤트 발생 및 대리자가 호출을 하는 경우 비교는 이벤트의 &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; 속성을 원래 GetPageNumberAsync <ph id="ph1">`userState`</ph> 매개 변수.&lt;/xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; property matches the original GetPageNumberAsync <ph id="ph1">`userState`</ph>, the operation is complete and the page number is ready.</source>
+          <target state="translated">경우는 &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; 속성이 일치 원래 GetPageNumberAsync <ph id="ph1">`userState`</ph>, 작업이 완료 되 고 페이지 번호가 준비 됩니다.&lt;/xref:System.ComponentModel.AsyncCompletedEventArgs.UserState%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(The &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.ContentPosition%2A&gt; property will also match the original GetPageNumberAsync <ph id="ph1">`contentPosition`</ph> parameter.)      5.</source>
+          <target state="translated">(의 &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.ContentPosition%2A&gt; 속성 원래 GetPageNumberAsync 일치 합니다 <ph id="ph1">`contentPosition`</ph> 매개 변수.)&lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.ContentPosition%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;      5.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.PageNumber%2A&gt; property contains the zero-based page number of the specified <ph id="ph1">`contentPosition`</ph>.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;.&lt;xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.PageNumber%2A&gt; 지정 된&amp;0;부터 시작 하는 페이지 번호를 포함 하는 속성 <ph id="ph1">`contentPosition`</ph>.&lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs.PageNumber%2A&gt; &lt;/xref:System.Windows.Documents.GetPageNumberCompletedEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumber%2A&gt; provides similar functionality as &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;, but for synchronous operation.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumber%2A&gt;유사한 기능을 제공 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;, 되지만 동기 작업에 대 한.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync%2A&gt;&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumber%2A&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The content position element to return the page number of.</source>
+          <target state="translated">페이지 번호를 반환 하는 콘텐츠 위치 요소입니다.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A unique identifier for the asynchronous task.</source>
+          <target state="translated">비동기 작업에 대 한 고유 식별자입니다.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Occurs when &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync*&gt; has completed.</source>
+          <target state="translated">발생 경우 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync*&gt;완료 되었습니다.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberAsync*&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the position of the specified page in the document's content.</source>
+          <target state="translated">파생된 클래스에서 재정의 되 면 문서 내용에 지정된 된 페이지의 위치를 가져옵니다.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The page whose position is needed.</source>
+          <target state="translated">페이지의 위치가 필요 합니다.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the position of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">page</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.ContentPosition"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 의 위치를 나타내는 <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">page</ph> <ept id="p2">&lt;/code&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether pagination is performed automatically in the background in response to certain events, such as a change in page size.</source>
+          <target state="translated">페이지 매김의 페이지 크기 변경과 같은 특정 이벤트에 대 한 응답으로 백그라운드에서 자동으로 수행 되는지 여부를 나타내는 값을 가져오거나 설정 합니다.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`true`</ph>, pagination is performed in the background, raising &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt; and &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; events as appropriate.</source>
+          <target state="translated">때 <ph id="ph1">`true`</ph>, 페이지 매기기는 백그라운드에서 수행 됩니다 발생 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;및 &lt;xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt;적절 하 게 하는 이벤트입니다.&lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted&gt; &lt;/xref:System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pagination of &lt;xref:System.Windows.Documents.FixedDocument&gt; content, as distinct from a &lt;xref:System.Windows.Documents.FlowDocument&gt; is not affected by changes to the visual &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.FixedDocument&gt; &lt;xref:System.Windows.Documents.FlowDocument&gt; &lt;xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt;.&lt;/xref:System.Windows.Documents.DocumentPaginator.PageSize%2A&gt; 시각적 개체에 대 한 변경의 영향을 받지 않는&lt;/xref:System.Windows.Documents.FlowDocument&gt; 와 구별 하 여&lt;/xref:System.Windows.Documents.FixedDocument&gt; 콘텐츠 페이지 매김</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if background pagination is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>배경 페이지 매김 활성화 되 면 그렇지 않으면 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">기본값은 <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>합니다.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.GetPageNumberCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.GetPageNumberCompletedEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.GetPageNumberCompletedEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 하는 이벤트 데이터를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationCompleted"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;이벤트 데이터를 포함 하는.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">발생 된 <bpt id="p1">&lt;xref href="System.Windows.Documents.DynamicDocumentPaginator.PaginationProgress"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 이벤트입니다.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Documents.PaginationProgressEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Documents.PaginationProgressEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> 하는 이벤트 데이터를 포함 합니다.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Occurs when all document content has been paginated.</source>
+          <target state="translated">모든 문서 내용에 페이지가 지정 된 경우 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When PaginationCompleted occurs, &lt;xref:System.Windows.Documents.DocumentPaginator.IsPageCountValid%2A&gt; is <ph id="ph1">`true`</ph> until a new pagination is initiated.</source>
+          <target state="translated">PaginationCompleted 발생할 때 &lt;xref:System.Windows.Documents.DocumentPaginator.IsPageCountValid%2A&gt;은 <ph id="ph1">`true`</ph> 새 페이지 매김 시작할 때까지.&lt;/xref:System.Windows.Documents.DocumentPaginator.IsPageCountValid%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Occurs when one or more content pages have been paginated.</source>
+          <target state="translated">하나 이상의 콘텐츠 페이지 페이지가 지정 된 때 발생 합니다.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt; properties &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt; and &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; identify the range of pages paginated.</source>
+          <target state="translated">&lt;xref:System.Windows.Documents.PaginationProgressEventArgs&gt;속성 &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;및 &lt;xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt;페이지가 매겨진 페이지 범위를 식별 합니다.&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Count%2A&gt; &lt;/xref:System.Windows.Documents.PaginationProgressEventArgs.Start%2A&gt;&lt;/xref:System.Windows.Documents.PaginationProgressEventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">추가할 수 있습니다.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
