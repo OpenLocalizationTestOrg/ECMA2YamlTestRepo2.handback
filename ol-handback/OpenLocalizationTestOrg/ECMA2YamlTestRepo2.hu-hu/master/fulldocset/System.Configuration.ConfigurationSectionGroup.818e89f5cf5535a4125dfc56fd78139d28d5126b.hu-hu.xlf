@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7699420f6321c6f215ec4cf87ba2d0c400e00360</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.ConfigurationSectionGroup.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0465f2e419fa830e8a92b2b1236a9d3381cfe6dc</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7263035c3b1d142aae0e332c6b07387ccd88e762</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a group of related sections within a configuration file.</source>
+          <target state="translated">Kapcsolódó szakaszok egy konfigurációs fájlban csoportja.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Settings in configuration files (such as the Web.config file) are organized into sections.</source>
+          <target state="translated">Beállítások a konfigurációs fájlok (például a Web.config fájl) szakaszokra vannak rendezve.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because some sections are related, it is often convenient to group them in a section group.</source>
+          <target state="translated">Mivel az egyes szakaszok kapcsolódó, célszerű a gyakran egy csoport csoportosításához.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConfigurationSectionGroup class represents the <ph id="ph1">`sectionGroup`</ph> XML element that is used to group sections when they are defined in the <ph id="ph2">`configSections`</ph> element of a configuration file.</source>
+          <target state="translated">A ConfigurationSectionGroup osztály pedig a <ph id="ph1">`sectionGroup`</ph> XML-elem, amely a csoport szakaszok segítségével vannak meghatározva, amikor a <ph id="ph2">`configSections`</ph> elem egy konfigurációs fájl.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Section groups can be nested (a section group can contain other section groups as well as sections).</source>
+          <target state="translated">A szakasz csoportok egymásba ágyazható (a csoport tartalmazhat más szakasz csoportokat, valamint a szakaszok).</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following example shows a <ph id="ph1">`configSections`</ph> element that defines three nested section groups:      <ph id="ph2">```   &lt;configSections&gt;     &lt;sectionGroup name="system.web.extensions"...&gt;       &lt;sectionGroup name="scripting" ...&gt;         &lt;section name="scriptResourceHandler".../&gt;         &lt;sectionGroup name="webServices"...&gt;           &lt;section name="jsonSerialization" .../&gt;           &lt;section name="profileService" ... /&gt;        &lt;section name="authenticationService" .../&gt;           &lt;section name="roleService" .../&gt;         &lt;/sectionGroup&gt;       &lt;/sectionGroup&gt;     &lt;/sectionGroup&gt;   &lt;/configSections&gt;   ```</ph>       The configuration system loads settings from configuration files into ConfigurationSectionGroup objects.</source>
+          <target state="translated">Az alábbi példa mutatja egy <ph id="ph1">`configSections`</ph> elem, amely meghatározza a három beágyazott csoportok: <ph id="ph2">```   &lt;configSections&gt;     &lt;sectionGroup name="system.web.extensions"...&gt;       &lt;sectionGroup name="scripting" ...&gt;         &lt;section name="scriptResourceHandler".../&gt;         &lt;sectionGroup name="webServices"...&gt;           &lt;section name="jsonSerialization" .../&gt;           &lt;section name="profileService" ... /&gt;        &lt;section name="authenticationService" .../&gt;           &lt;section name="roleService" .../&gt;         &lt;/sectionGroup&gt;       &lt;/sectionGroup&gt;     &lt;/sectionGroup&gt;   &lt;/configSections&gt;   ```</ph> a konfigurációs rendszer betölti beállítások a konfigurációs fájlokban a ConfigurationSectionGroup objektumok.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Configuration.ConfigurationSectionGroup.Sections%2A&gt; and &lt;xref:System.Configuration.ConfigurationSectionGroup.SectionGroups%2A&gt; properties to access the sections and section groups that are contained in a ConfigurationSectionGroup object.</source>
+          <target state="translated">Használhatja a &lt;xref:System.Configuration.ConfigurationSectionGroup.Sections%2A&gt;és &lt;xref:System.Configuration.ConfigurationSectionGroup.SectionGroups%2A&gt;Tulajdonságok a szakaszok és szakasz csoportok, amelyek szerepelnek a ConfigurationSectionGroup objektum elérésére.&lt;/xref:System.Configuration.ConfigurationSectionGroup.SectionGroups%2A&gt; &lt;/xref:System.Configuration.ConfigurationSectionGroup.Sections%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to access information from configuration files, see the &lt;xref:System.Configuration.ConfigurationManager&gt; class.</source>
+          <target state="translated">Hozzáférhet a konfigurációs fájlok kapcsolatos további információkért tekintse meg az &lt;xref:System.Configuration.ConfigurationManager&gt;osztályhoz.&lt;/xref:System.Configuration.ConfigurationManager&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Forces the declaration for this <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ez a nyilatkozat kényszeríti <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ForceDeclaration method can force a &lt;xref:System.Configuration.ConfigurationSectionGroup&gt; object to be written to a configuration file, even if it is not required because it is already declared in a parent file.</source>
+          <target state="translated">A ForceDeclaration metódus kényszerítheti a &lt;xref:System.Configuration.ConfigurationSectionGroup&gt;objektum írandó konfigurációs fájlt, akkor is, ha nincs rá szükség, mert már deklarálva van a szülőfájlban.&lt;/xref:System.Configuration.ConfigurationSectionGroup&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Forces the declaration for this <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ez a nyilatkozat kényszeríti <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.ConfigurationSectionGroup.ForceDeclaration%2A&gt; method forces this &lt;xref:System.Configuration.ConfigurationSectionGroup&gt; declaration to be written to the file if <ph id="ph1">`force`</ph> is <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">A &lt;xref:System.Configuration.ConfigurationSectionGroup.ForceDeclaration%2A&gt;metódus kényszeríti a &lt;xref:System.Configuration.ConfigurationSectionGroup&gt;lehet írni a fájlt, ha a deklaráció <ph id="ph1">`force`</ph> van <ph id="ph2">`true`</ph>.&lt;/xref:System.Configuration.ConfigurationSectionGroup&gt; &lt;/xref:System.Configuration.ConfigurationSectionGroup.ForceDeclaration%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`force`</ph> is <ph id="ph2">`false`</ph>, this action might be ignored if the &lt;xref:System.Configuration.ConfigurationSectionGroup&gt; object is required by the system.</source>
+          <target state="translated">Ha <ph id="ph1">`force`</ph> van <ph id="ph2">`false`</ph>, ez a művelet lehet, hogy figyelmen kívül lesz hagyva a &lt;xref:System.Configuration.ConfigurationSectionGroup&gt;objektumot a rendszer által igényelt.&lt;/xref:System.Configuration.ConfigurationSectionGroup&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ForceDeclaration method can force a &lt;xref:System.Configuration.ConfigurationSectionGroup&gt; object to be written to a configuration file, even if it is not required because it is already declared in a parent file.</source>
+          <target state="translated">A ForceDeclaration metódus kényszerítheti a &lt;xref:System.Configuration.ConfigurationSectionGroup&gt;objektum írandó konfigurációs fájlt, akkor is, ha nincs rá szükség, mert már deklarálva van a szülőfájlban.&lt;/xref:System.Configuration.ConfigurationSectionGroup&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, it can remove a group from a configuration file if the group is not required.</source>
+          <target state="translated">Emellett távolíthat el egy csoportot a konfigurációs fájlból származó Ha nincs szükség a csoport.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You might want to use the ForceDeclaration method to make a configuration file more portable from one computer to another, without worrying about whether the group declaration already exists.</source>
+          <target state="translated">Előfordulhat, hogy szeretné, hogy konfigurációs fájl több hordozható egyik számítógépről a másikra, anélkül, hogy a csoport deklaráció már létezik-e hogy ForceDeclaration metódus használatával.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object must be written to the file; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektumnak kell lennie, a fájl írva; ellenkező esetben <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object declaration is required.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy ez <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum deklaráció szükség.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> declaration is required; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> deklaráció szükség, ha sikertelen, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether this <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is declared.</source>
+          <target state="translated">Lekérdezi egy érték, amely azt jelzi, hogy ez <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum van deklarálva.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the section group is declared in the configuration file, the IsDeclared property returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Ha a csoport deklarálva van a konfigurációs fájlban, a IsDeclared tulajdonság visszaadja <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IsDeclared property returns <ph id="ph1">`false`</ph> if this section is inherited from Machine.config or a parent configuration file.</source>
+          <target state="translated">A IsDeclared tulajdonság beolvasása <ph id="ph1">`false`</ph> Ha ez a szakasz a Machine.config vagy egy szülő konfigurációs fájlból öröklődik.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is declared; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> deklarált; egyéb, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the name property of this <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lekérdezi a name tulajdonság ezen <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Name property value is the name of the section group that does not contain the parent section groups.</source>
+          <target state="translated">A Name tulajdonság értéke, amely nem tartalmazza a szülő szakasz csoportok a csoport nevét.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The name property of this <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A name tulajdonság ezen <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets the section group name associated with this <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Lekérdezi a társított szakaszcsoportnévhez <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SectionGroupName property value is the full path name of the section group, including the parent section groups..</source>
+          <target state="translated">A SectionGroupName tulajdonság értéke nem a csoport, beleértve a szülőcsoportok szakasz teljes elérési útját...</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The section group name of this <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ezen szakaszcsoportnévhez <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroupCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains all the <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects that are children of this <bpt id="p3">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroupCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely tartalmazza az összes a <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , amely a ezen objektumok <bpt id="p3">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroupCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains all the <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects that are children of this <bpt id="p3">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroupCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely tartalmazza az összes a <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , amely a ezen objektumok <bpt id="p3">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains all of <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects within this <bpt id="p3">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely tartalmazza az összes <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> ez belüli objektumok <bpt id="p3">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains all the <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects within this <bpt id="p3">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely tartalmazza az összes a <bpt id="p2">&lt;xref href="System.Configuration.ConfigurationSection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> ez belüli objektumok <bpt id="p3">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Indicates whether the current <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance should be serialized when the configuration object hierarchy is serialized for the specified target version of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated">Azt jelzi, hogy az aktuális <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> példány kell szerializálható, ha a konfiguráció eltér az objektumhierarchia szerializálva van a megadott cél verziójának a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each configuration section group that is created for the <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph> and later versions must explicitly override this method and return <ph id="ph2">`true`</ph>, but only if the section group is valid for the specified version of the <ph id="ph3">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated">Minden konfigurációs szakasz csoport médiát a <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph> és újabb verziók kell explicit módon bírálja felül ezt a módszert, és térjen vissza <ph id="ph2">`true`</ph>, de csak akkor, ha a csoport érvényes megadott verzióját, a <ph id="ph3">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Existing configuration section groups that were created for earlier versions of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> do not have to be changed.</source>
+          <target state="translated">A korábbi verzióiban létrehozott meglévő konfigurációs szakasz csoportok a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> nem kell módosítani.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The base type contains a default implementation of this method that always returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Az alaptípus tartalomtípusa tartalmazza a metódus, amely mindig adja meg az alapértelmezett megvalósításhoz <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, if a configuration section group implementer does not override this method, by default the configuration section group will be serialized for all framework versions.</source>
+          <target state="translated">Ez azt jelenti Ha a konfigurációs szakasz csoport végrehajtója nem bírálja felül ezt a módszert, alapértelmezés szerint a konfigurációs szakasz csoport mintaszavazások keretrendszer verziójához.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The target version of the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated">A cél verzióját a <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the current section group should be serialized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha az aktuális csoport kell szerializálni; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets or sets the type for this <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lekérdezi vagy beállítja a típusát a <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this instance of the &lt;xref:System.Configuration.ConfigurationSectionGroup&gt; class is a derived type, the Type property will return the name of the derived type that extends the &lt;xref:System.Configuration.ConfigurationSectionGroup&gt; class.</source>
+          <target state="translated">Ha ezen példánya számára a &lt;xref:System.Configuration.ConfigurationSectionGroup&gt;osztály származtatott típus, a Type tulajdonságot ad vissza, amely kibővíti az &lt;xref:System.Configuration.ConfigurationSectionGroup&gt;osztály&lt;/xref:System.Configuration.ConfigurationSectionGroup&gt; a származtatott típus neve&lt;/xref:System.Configuration.ConfigurationSectionGroup&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The type of this <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ez a típusú <bpt id="p1">&lt;xref href="System.Configuration.ConfigurationSectionGroup"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The section or group is already defined at another level.</source>
+          <target state="translated">A szakasz vagy csoportnév már definiálva van egy másik szinten.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

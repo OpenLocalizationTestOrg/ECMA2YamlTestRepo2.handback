@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7a37865e7688b61591359393f8d092041a920a6f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.ExpressionContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ea572d2d044efc9d4c1eec79b5efbc7ff8e0d734</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3e613d0f36a6c72b80b8574103081ba8086d1d17</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a means of passing context state among serializers.</source>
+          <target state="translated">提供方法來傳遞內容的序列化程式之間的狀態。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">這個類別無法被繼承。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>An ExpressionContext is placed on the context stack and contains the most relevant expression during serialization.</source>
+          <target state="translated">ExpressionContext 放置內容堆疊上，並包含在序列化期間最相關的運算式。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The following C# code demonstrates an assignment.</source>
+          <target state="translated">下列 C# 程式碼示範指派。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   button1.Text = "Hello";   ```</ph>       During serialization, several serializers are responsible for creating this single statement.</source>
+          <target state="translated"><ph id="ph1">```   button1.Text = "Hello";   ```</ph>在序列化期間，數個序列化程式會負責建立此單一陳述式。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>One of those serializers is responsible for creating "Hello".</source>
+          <target state="translated">其中一個序列化程式都會是負責建立"Hello"。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>There are times when that serializer may need to know the context in which it is creating its expression.</source>
+          <target state="translated">但有些的時候，當序列化程式可能需要知道在其中建立其運算式的內容。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>In the previous example, this context is not needed.</source>
+          <target state="translated">在上述範例中，不需要此內容。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The following C# code shows a situation in which knowledge of the context is necessary.</source>
+          <target state="translated">下列 C# 程式碼顯示環境的知識是必要的狀況。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   button1.Text = rm.GetString("button1_Text");   ```</ph>       In this case, the serializer responsible for creating the resource expression needs to be informed of the names of the target objects.</source>
+          <target state="translated"><ph id="ph1">```   button1.Text = rm.GetString("button1_Text");   ```</ph>在此情況下，序列化程式負責建立資源運算式必須收到通知的目標物件的名稱。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The ExpressionContext class can be used for this.</source>
+          <target state="translated">這可用 ExpressionContext 類別。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>As each serializer creates an expression and invokes a serializer to handle a smaller part of the statement as a whole, the serializer pushes an expression context on the context stack.</source>
+          <target state="translated">每個序列化程式會建立一個運算式，並叫用序列化程式來處理整個陳述式的一小部分，序列化程式將內容堆疊上推入運算式內容。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Each expression context has a parent property that locates the next expression context on the stack.</source>
+          <target state="translated">每個運算式內容都有一個在堆疊找出下一個運算式內容的父屬性。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>This provides a convenient traversal capability.</source>
+          <target state="translated">這提供方便的周遊功能。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ExpressionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the given expression and owner.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ExpressionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>與指定的運算式與擁有者的類別。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The given code expression.</source>
+          <target state="translated">指定的程式碼運算式。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The given code expression type.</source>
+          <target state="translated">指定的程式碼運算式型別。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The given code expression owner.</source>
+          <target state="translated">指定的程式碼運算式擁有者。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;expression&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;expressionType&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;owner&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;expression&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;expressionType&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;owner&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ExpressionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with a current value.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ExpressionContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別，而目前的值。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The given code expression.</source>
+          <target state="translated">指定的程式碼運算式。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The given code expression type.</source>
+          <target state="translated">指定的程式碼運算式型別。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The given code expression owner.</source>
+          <target state="translated">指定的程式碼運算式擁有者。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The given code expression preset value.</source>
+          <target state="translated">指定的程式碼運算式預設值。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;expression&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;expressionType&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;owner&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;expression&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;expressionType&lt;/code&gt;</ph>, or <ph id="ph3">&lt;code&gt;owner&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the expression this context represents.</source>
+          <target state="translated">取得這個內容表示的運算式。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The expression this context represents.</source>
+          <target state="translated">這個內容表示運算式。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; of the expression.</source>
+          <target state="translated">取得&lt;xref:System.Type&gt;的運算式。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>You can use &lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt; to determine if a cast is needed when assigning to the expression.</source>
+          <target state="translated">您可以使用&lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;以判斷指派給運算式時，是否需要轉型。&lt;/xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the expression.</source>
+          <target state="translated">&lt;xref:System.Type&gt;的運算式。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets the object owning this expression.</source>
+          <target state="translated">取得擁有此運算式的物件。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If the expression is a property reference to the &lt;xref:System.Windows.Forms.Control.Text%2A&gt; property of an instance of &lt;xref:System.Windows.Forms.Button&gt; called <ph id="ph1">`button1`</ph>, Owner returns <ph id="ph2">`button1`</ph>.</source>
+          <target state="translated">如果運算式的屬性參考&lt;xref:System.Windows.Forms.Control.Text%2A&gt;屬性的執行個體&lt;xref:System.Windows.Forms.Button&gt;呼叫<ph id="ph1">`button1`</ph>，擁有者會傳回<ph id="ph2">`button1`</ph>。&lt;/xref:System.Windows.Forms.Button&gt; &lt;/xref:System.Windows.Forms.Control.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The object owning this expression.</source>
+          <target state="translated">擁有此運算式的物件。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the preset value of an expression.</source>
+          <target state="translated">取得運算式的預設的值。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Contains the preset value of an expression, should one exist.</source>
+          <target state="translated">包含其中一個應該存在運算式，預設的的值。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>For example, if the expression is a property reference expression referring to the &lt;xref:System.Windows.Forms.Control.Controls%2A&gt; property of a &lt;xref:System.Windows.Forms.Button&gt;, the PresetValue property contains the instance of the &lt;xref:System.Windows.Forms.Control.Controls%2A&gt; property.</source>
+          <target state="translated">例如，如果運算式參考了屬性參考運算式&lt;xref:System.Windows.Forms.Control.Controls%2A&gt;屬性&lt;xref:System.Windows.Forms.Button&gt;，PresetValue 屬性包含的執行個體&lt;xref:System.Windows.Forms.Control.Controls%2A&gt;屬性。&lt;/xref:System.Windows.Forms.Control.Controls%2A&gt; &lt;/xref:System.Windows.Forms.Button&gt; &lt;/xref:System.Windows.Forms.Control.Controls%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This is because the property is read-only and preset by the object to contain a value.</source>
+          <target state="translated">這是因為屬性是唯讀，而且預設所要包含值的物件。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>On the other hand, a property such as &lt;xref:System.Windows.Forms.Control.Text%2A&gt; or &lt;xref:System.Windows.Forms.Control.Visible%2A&gt; does not have a preset value and therefore the PresetValue property returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">另一方面，例如屬性&lt;xref:System.Windows.Forms.Control.Text%2A&gt;或&lt;xref:System.Windows.Forms.Control.Visible%2A&gt;沒有預設的值，因此 PresetValue 屬性傳回<ph id="ph1">`null`</ph>。&lt;/xref:System.Windows.Forms.Control.Visible%2A&gt; &lt;/xref:System.Windows.Forms.Control.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The following C# code shows how serializers can use this information to guide serialization.</source>
+          <target state="translated">下列 C# 程式碼會示範如何序列化程式可以使用這項資訊來引導序列化。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>[C#]      <ph id="ph1">```   Padding p = new Padding();   p.Left = 5;   button1.Padding = p;      button1.Padding.Left = 5;   ```</ph>       The serializer of the &lt;xref:System.Windows.Forms.Padding&gt; structure needs to be informed if it should generate the first or second form.</source>
+          <target state="translated">[C#]     <ph id="ph1">```   Padding p = new Padding();   p.Left = 5;   button1.Padding = p;      button1.Padding.Left = 5;   ```</ph>的序列化程式&lt;xref:System.Windows.Forms.Padding&gt;結構必須收到通知，如果它應該產生第一個或第二個表單。&lt;/xref:System.Windows.Forms.Padding&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The first form is generated by default.</source>
+          <target state="translated">第一種形式，所預設產生。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The second form is only generated if there is an &lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt; on the context stack that contains a PresetValue equal to the value of the &lt;xref:System.Windows.Forms.Padding&gt; currently being serialized.</source>
+          <target state="translated">如果沒有，只會產生第二種形式&lt;xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;包含 PresetValue 內容堆疊上的值相等的&lt;xref:System.Windows.Forms.Padding&gt;目前序列化。&lt;/xref:System.Windows.Forms.Padding&gt; &lt;/xref:System.ComponentModel.Design.Serialization.ExpressionContext&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The preset value of this expression, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if not assigned.</source>
+          <target state="translated">這個運算式中，預設的值或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果未指派。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
