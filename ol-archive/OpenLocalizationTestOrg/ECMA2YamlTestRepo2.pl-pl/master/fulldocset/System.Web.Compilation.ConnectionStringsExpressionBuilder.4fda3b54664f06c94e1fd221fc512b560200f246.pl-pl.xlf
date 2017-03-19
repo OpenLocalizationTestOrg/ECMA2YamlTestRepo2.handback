@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">40da67562a8e87243a398b4d34cfdf5a0a9bcfb0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Compilation.ConnectionStringsExpressionBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">36e9bfe824c581e1deb449733a9d0e7eef723f54</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d9be30175ae372fd1dc274feb5107d7d2a3e659</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Retrieves, or generates code to retrieve, values from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">Pobiera lub generuje kod, aby pobrać wartości z <ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> sekcji w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ConnectionStringsExpressionBuilder class provides access to values in the &lt;<ph id="ph1">`connectionStrings`</ph>&gt; section of the Web.config file.</source>
+          <target state="translated">Klasa ConnectionStringsExpressionBuilder zapewnia dostęp do wartości w <ph id="ph1">`connectionStrings`</ph>&gt; sekcji w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`connectionStrings`</ph>&gt; section of the Web.config file contains connection string values in name/value pairs.</source>
+          <target state="translated"><ph id="ph1">`connectionStrings`</ph>&gt; Sekcja pliku Web.config zawiera wartości parametrów połączeń w pary nazwa/wartość.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A connection string value is retrieved by assigning an expression of the form       <ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph>       to a control property.</source>
+          <target state="translated">Wartość ciągu połączenia jest pobierana przez przypisanie wyrażenie w postaci <ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph> do właściwości formantu.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The part of the expression before the colon (:) designates the type of expression to be retrieved, and the part after the colon signifies the name of the connection string.</source>
+          <target state="translated">Część wyrażenia przed dwukropkiem (:) określa typ wyrażenia, które mają zostać pobrane i części po dwukropkiem oznacza nazwę parametrów połączenia.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The preceding expression would retrieve the following value from the Web.config file.</source>
+          <target state="translated">Poprzedniego wyrażenia może pobrać następującej wartości w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`&lt;connectionStrings&gt;`</ph>       <ph id="ph2">`&lt;add name="secureConnectionString" connectionString="Data`</ph>       <ph id="ph3">`Source=localhost;Integrated Security=SSPI;Initial`</ph>       <ph id="ph4">`Catalog=Northwind;" providerName="System.Data.SqlClient" /&gt;`</ph>       <ph id="ph5">`&lt;/connectionStrings&gt;`</ph>       When the page parser encounters an expression with the prefix <ph id="ph6">`ConnectionStrings`</ph>, it creates an instance of the ConnectionStringsExpressionBuilder class to handle the expression.</source>
+          <target state="translated"><ph id="ph1">`&lt;connectionStrings&gt;`</ph>       <ph id="ph2">`&lt;add name="secureConnectionString" connectionString="Data`</ph>       <ph id="ph3">`Source=localhost;Integrated Security=SSPI;Initial`</ph>       <ph id="ph4">`Catalog=Northwind;" providerName="System.Data.SqlClient" /&gt;`</ph>       <ph id="ph5">`&lt;/connectionStrings&gt;`</ph>Jeśli parser strony napotka wyrażenia z prefiksem <ph id="ph6">`ConnectionStrings`</ph>, tworzy wystąpienie klasy ConnectionStringsExpressionBuilder do obsługi wyrażenie.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression is encountered in a page that will be compiled, the ConnectionStringsExpressionBuilder object generates code that retrieves the specified connection string from the Web.config file.</source>
+          <target state="translated">Jeśli wyrażenie na stronie, który zostanie skompilowany, obiekt ConnectionStringsExpressionBuilder generuje kod, który pobiera określone parametry połączenia z pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression is encountered in a page that will not be compiled, the ConnectionStringsExpressionBuilder object returns the value from the Web.config file when the page is parsed.</source>
+          <target state="translated">Jeśli na stronie nie można skompilować wyrażenia, obiektu ConnectionStringsExpressionBuilder zwraca wartość z pliku Web.config, gdy strona zostanie przeanalizowany.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Compilation.ConnectionStringsExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Web.Compilation.ConnectionStringsExpressionBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns a value from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">Zwraca wartość z zakresu od <ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> sekcji w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when an expression of the form <ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph> is encountered in a page that is not compiled.</source>
+          <target state="translated">Ta metoda jest wywoływana, gdy wyrażenie w postaci <ph id="ph1">`&lt;%$ ConnectionStrings: secureConnectionString %&gt;`</ph> napotkano na stronie, która nie jest skompilowana.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It retrieves the appropriate value from the &lt;<ph id="ph1">`connectionStrings`</ph>&gt; section of the Web.config file.</source>
+          <target state="translated">Pobiera ona odpowiednią wartość z <ph id="ph1">`connectionStrings`</ph>&gt; sekcji w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides the &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt; method by calling the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString%2A&gt; method if a connection string is included in the <ph id="ph1">`parsedData`</ph> parameter, or by calling the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionStringProviderName%2A&gt; method if a connection string is not included in the <ph id="ph2">`parsedData`</ph> parameter.</source>
+          <target state="translated">Ta metoda zastępuje &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;metody przez wywołanie metody &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString%2A&gt;metodę, jeśli ciąg połączenia jest uwzględniona w <ph id="ph1">`parsedData`</ph> parametru lub poprzez wywołanie &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionStringProviderName%2A&gt;metodę, jeśli ciąg połączenia nie jest uwzględniony w <ph id="ph2">`parsedData`</ph> parametru.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionStringProviderName%2A&gt; &lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetConnectionString%2A&gt; &lt;/xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The object that contains the expression.</source>
+          <target state="translated">Obiekt, który zawiera wyrażenie.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The property to which the expression is bound.</source>
+          <target state="translated">Właściwość, z którym powiązany jest wyrażenie.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The object that represents parsed data as returned by &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">Obiekt reprezentujący przeanalizować danych zwrócony przez &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">Właściwości formantu lub strony.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; associated with a key in the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Skojarzony z kluczem w <ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> sekcji w pliku Web.config.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The connection string name could not be found in the Web.config file.</source>
+          <target state="translated">Nie można odnaleźć nazwę parametrów połączenia w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns a code expression to evaluate during page parsing.</source>
+          <target state="translated">Zwraca wartość wyrażenia kodu do oceny podczas przetwarzania strony.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called during the CodeDOM creation for a page or control.</source>
+          <target state="translated">Ta metoda jest wywoływana podczas tworzenia CodeDOM strony lub kontrolki.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.CodeDom.CodeExpression&gt; object returned is of the type &lt;xref:System.CodeDom.CodeMethodInvokeExpression&gt; and represents the method to call when retrieving a connection string value.</source>
+          <target state="translated">&lt;xref:System.CodeDom.CodeExpression&gt;Zwrócił obiekt jest typu &lt;xref:System.CodeDom.CodeMethodInvokeExpression&gt;i reprezentuje metodę wywoływaną podczas pobierania wartości parametrów połączenia.&lt;/xref:System.CodeDom.CodeMethodInvokeExpression&gt; &lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An object that represents information about the property bound to by the expression.</source>
+          <target state="translated">Obiekt, który reprezentuje informacje dotyczące właściwości powiązany z wyrażeniem.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The object that represents parsed data as returned by &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">Obiekt reprezentujący przeanalizować danych zwrócony przez &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.ParseExpression*&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">Właściwości formantu lub strony.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that invokes a method.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> która wywołuje metodę.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns a connection string from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">Zwraca ciąg połączenia z <ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> sekcji w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A&gt; property returns a collection of connection string values.</source>
+          <target state="translated">&lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A&gt;Właściwość zwraca kolekcję połączenia wartości ciągu.&lt;/xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetConnectionString method returns the value from this collection that is associated with the connection string name.</source>
+          <target state="translated">Metoda GetConnectionString zwraca wartość z tej kolekcji, który jest skojarzony z nazwą ciągu połączenia.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The name of the connection string.</source>
+          <target state="translated">Nazwa ciągu połączenia.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The connection string as a &lt;xref:System.String&gt; for this connection string name.</source>
+          <target state="translated">Parametry połączenia jako &lt;xref:System.String&gt;dla tej nazwy ciągu połączenia.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The connection string name could not be found in the Web.config file.</source>
+          <target state="translated">Nie można odnaleźć nazwę parametrów połączenia w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the connection string provider from the <ph id="ph1">&amp;lt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph2">&amp;gt;</ph> section of the Web.config file.</source>
+          <target state="translated">Zwraca dostawcę ciągu połączenia z <ph id="ph1">&amp;lt;</ph> <bpt id="p1">&lt;xref uid="langword_csharp_connectionStrings" name="connectionStrings" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph2">&amp;gt;</ph> sekcji w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A?displayProperty=fullName&gt; property returns a collection of connection string values.</source>
+          <target state="translated">&lt;xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A?displayProperty=fullName&gt;Właściwość zwraca kolekcję połączenia wartości ciągu.&lt;/xref:System.Configuration.ConfigurationManager.ConnectionStrings%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetConnectionStringProviderName method returns the provider for the value from this collection that is associated with the connection string name.</source>
+          <target state="translated">Metoda GetConnectionStringProviderName zwraca dostawcę wartości z tej kolekcji, który jest skojarzony z nazwą ciągu połączenia.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The name of the connection string.</source>
+          <target state="translated">Nazwa ciągu połączenia.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The provider as a &lt;xref:System.String&gt; for this connection string name.</source>
+          <target state="translated">Dostawcy jako &lt;xref:System.String&gt;dla tej nazwy ciągu połączenia.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The connection string name could not be found in the Web.config file.</source>
+          <target state="translated">Nie można odnaleźć nazwę parametrów połączenia w pliku Web.config.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Returns an object that represents the parsed expression.</source>
+          <target state="translated">Zwraca obiekt, który reprezentuje wyrażenie przeanalizowany.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned &lt;xref:System.Object&gt; is of the type &lt;xref:System.Web.UI.Pair&gt;.</source>
+          <target state="translated">Zwracane &lt;xref:System.Object&gt;jest typu &lt;xref:System.Web.UI.Pair&gt;.&lt;/xref:System.Web.UI.Pair&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This &lt;xref:System.Web.UI.Pair&gt; object can be passed to both the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; method and the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetCodeExpression%2A&gt; method as <ph id="ph1">`parsedData`</ph>.</source>
+          <target state="translated">To &lt;xref:System.Web.UI.Pair&gt;obiektu mogą zostać przekazane do obu &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;— Metoda i &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetCodeExpression%2A&gt;metodę jako <ph id="ph1">`parsedData`</ph>.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.GetCodeExpression%2A&gt; &lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; &lt;/xref:System.Web.UI.Pair&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.Pair&gt; object contains the name and value of the connection string.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Pair&gt;Obiekt zawiera nazwę i wartość parametrów połączenia.&lt;/xref:System.Web.UI.Pair&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The value of the declarative expression.</source>
+          <target state="translated">Wartość deklaratywne wyrażenia.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The targeted type for the expression.</source>
+          <target state="translated">Typ docelowego dla wyrażenia.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">Właściwości formantu lub strony.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; containing the parsed representation of the expression.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Zawierający przeanalizowana reprezentacja wyrażenia.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether an expression can be evaluated in a page that is not compiled.</source>
+          <target state="translated">Zwraca wartość wskazującą, czy można oszacować wyrażenia na stronie, która nie jest skompilowany.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SupportsEvaluate property indicates whether the &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; method has been implemented in the class.</source>
+          <target state="translated">Właściwość SupportsEvaluate wskazuje, czy &lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;Metoda została zaimplementowana w klasie.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt; must be implemented within an expression builder for an expression to be evaluated in a page that is not compiled.</source>
+          <target state="translated">&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;musi być implementowana w Konstruktor wyrażeń wyrażenie do obliczenia na stronie, która nie jest skompilowana.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt; supports no-compile evaluation of connection strings, so <ph id="ph1">`true`</ph> is always returned.</source>
+          <target state="translated">&lt;xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt;obsługuje kompilacji nie oceny parametry połączenia, więc <ph id="ph1">`true`</ph> zawsze jest zwracany.&lt;/xref:System.Web.Compilation.ConnectionStringsExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>we wszystkich przypadkach.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
