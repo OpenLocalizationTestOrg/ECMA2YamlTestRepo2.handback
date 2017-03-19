@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f29254e4c77a62e24dea1389ef9600a714c596c9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Dispatcher.IErrorHandler.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b4aec507f557f6cdc0e6abc42005d5e48a0cba73</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22f3fdfa3c121ba6baf2019a628d603c86da3fa9</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows an implementer to control the fault message returned to the caller and optionally perform custom error processing such as logging.</source>
+          <target state="translated">Gjør en implementer til å kontrollere feilmelding returnert til oppkalleren og utføre eventuelt egendefinert feilbehandling for eksempel logging.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To explicitly control the behavior of the application when an exception is thrown, implement the IErrorHandler interface and add it to the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;’s &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt; property.</source>
+          <target state="translated">For å kontrollere eksplisitt virkemåten for applikasjonen når et unntak, implementere grensesnittet IErrorHandler og legge den til den &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;'s &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt;egenskapen.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt; &lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IErrorHandler enables you to explicitly control the SOAP fault generated, decide whether to send it back to the client, and perform associated tasks, such as logging.</source>
+          <target state="translated">IErrorHandler kan du kontrollere SOAP-feil som er generert, bestemme om å sende den til klienten og utføre tilknyttede oppgaver, for eksempel logging eksplisitt.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Error handlers are called in the order in which they were added to the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt; property.</source>
+          <target state="translated">Feil behandlingsprogrammer kalles i rekkefølgen de ble lagt til i &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt;egenskapen.&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement the &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt; method to control the fault message that is returned to the client.</source>
+          <target state="translated">Implementer den &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;metode for å kontrollere feilmelding som returneres til klienten.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement the &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt; method to ensure error-related behaviors, including error logging, assuring a fail fast, shutting down the application, and so on.</source>
+          <target state="translated">Implementer den &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;metode for å kontrollere feil relatert virkemåter, inkludert feil logging, og det gjør feilfrie en mislykkes rask, avslutter programmet, og så videre.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because the &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt; method can be called from many different places there are no guarantees made about which thread the method is called on.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Fordi den &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;metoden kan bare kalles fra mange ulike steder det finnes ingen garantier gjort om hvilken tråd metoden kalles på.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not depend on &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt; method being called on the operation thread.</source>
+          <target state="translated">Ikke avhengige &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;metoden blir kalt i operasjonen-tråden.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt; implementations are called first, prior to sending a response message.</source>
+          <target state="translated">Alle &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;implementeringer først kalles før sending av en svarmelding.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When all &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt; implementations have been called and return, and if <ph id="ph1">`fault`</ph> is non-<ph id="ph2">`null`</ph>, it is sent back to the client according to the operation contract.</source>
+          <target state="translated">Når alle &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;implementeringer er kallet og returnere, og hvis <ph id="ph1">`fault`</ph> er ikke -<ph id="ph2">`null`</ph>, sendes til klienten i henhold til operasjonen kontrakten.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`fault`</ph> is <ph id="ph2">`null`</ph> after all implementations have been called, the response message is controlled by the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.IncludeExceptionDetailInFaults%2A?displayProperty=fullName&gt; property value.</source>
+          <target state="translated">Hvis <ph id="ph1">`fault`</ph> er <ph id="ph2">`null`</ph> etter at alle implementeringer er kalt, svarmeldingen kontrolleres av de &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.IncludeExceptionDetailInFaults%2A?displayProperty=fullName&gt;egenskapsverdi.&lt;/xref:System.ServiceModel.ServiceBehaviorAttribute.IncludeExceptionDetailInFaults%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Exceptions can occur after all &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt; implementations are called and a response message is handed to the channel.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Unntak kan oppstå når alle &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;implementeringer er kallet og en svarmelding leveres til kanalen.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.ProvideFault%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a channel exception occurs (for example, difficulty serializing the message) IErrorHandler objects are notified.</source>
+          <target state="translated">Hvis det oppstår et unntak for kanalen (for eksempel problemer serialisering meldingen) IErrorHandler objekter blir varslet.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, you should still make sure that your development environment catches and displays such exceptions to you or makes use of tracing to discover the problem.</source>
+          <target state="translated">I dette tilfellet kan du fortsatt Kontroller at utviklingsmiljøet fanger inn og viser slike unntak du bruker sporing til å finne problemet.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about tracing, see <bpt id="p1">[</bpt>Using Tracing to Troubleshoot Your Application<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om sporing <bpt id="p1">[</bpt>ved hjelp av sporing for å feilsøke ditt program<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the response message has been sent, all &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt; implementations are called in the same order.</source>
+          <target state="translated">Når svarmeldingen er sendt, alle &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;implementeringer kalles i samme rekkefølge.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler.HandleError%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, an IErrorHandler implementation is added to the &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt; property on the service (and the client in the case of duplex communication).</source>
+          <target state="translated">Vanligvis implementering av IErrorHandler legges til i &lt;xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt;egenskapen på tjenesten (og klienten når det oppstår duplekskommunikasjon).&lt;/xref:System.ServiceModel.Dispatcher.ChannelDispatcher.ErrorHandlers%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can add the IErrorHandler to the runtime by implementing a behavior (either an &lt;xref:System.ServiceModel.Description.IServiceBehavior?displayProperty=fullName&gt;, &lt;xref:System.ServiceModel.Description.IEndpointBehavior?displayProperty=fullName&gt;, &lt;xref:System.ServiceModel.Description.IContractBehavior?displayProperty=fullName&gt;, or &lt;xref:System.ServiceModel.Description.IOperationBehavior?displayProperty=fullName&gt; object) and use the behavior programmatically, from a configuration file or with a custom attribute to attach your IErrorHandler.</source>
+          <target state="translated">Du kan legge til IErrorHandler kjøretiden ved å implementere en virkemåte (enten en &lt;xref:System.ServiceModel.Description.IServiceBehavior?displayProperty=fullName&gt;, &lt;xref:System.ServiceModel.Description.IEndpointBehavior?displayProperty=fullName&gt;, &lt;xref:System.ServiceModel.Description.IContractBehavior?displayProperty=fullName&gt;, eller &lt;xref:System.ServiceModel.Description.IOperationBehavior?displayProperty=fullName&gt;objektet) og bruke virkemåten programmatisk fra en konfigurasjonsfil eller med et egendefinert attributt til å koble til din IErrorHandler.&lt;/xref:System.ServiceModel.Description.IOperationBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IContractBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IEndpointBehavior?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.IServiceBehavior?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about using behaviors to modify the runtime, see <bpt id="p1">[</bpt>Configuring and Extending the Runtime with Behaviors<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Du finner mer informasjon om hvordan du bruker virkemåter for å endre kjøretiden <bpt id="p1">[</bpt>konfigurasjon og utvider kjøretiden med virkemåter<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Enables error-related processing and returns a value that indicates whether the dispatcher aborts the session and the instance context in certain cases.</source>
+          <target state="translated">Aktiverer behandling av feil relatert, og returnerer en verdi som angir om dispatcher avbryter økten og forekomst-kontekst i enkelte tilfeller.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the HandleError method to implement error-related behaviors such as error logging, system notifications, shutting down the application, and so on, and return a value that specifies whether the exception has been handled appropriately.</source>
+          <target state="translated">Bruk metoden HandleError implementere feil relatert virkemåter for eksempel feil logging system varsler, avslutter programmet og så videre, og returnerer en verdi som angir om unntaket har blitt behandles på riktig måte.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because the HandleError method can be called from many different places there are no guarantees made about which thread the method is called on.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Fordi HandleError-metoden kan bare kalles fra mange ulike steder det finnes ingen garantier gjort om hvilken tråd metoden kalles i.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not depend on HandleError method being called on the operation thread.</source>
+          <target state="translated">Ikke avhengige HandleError-metoden blir kalt i operasjonen-tråden.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler&gt; implementations are called.</source>
+          <target state="translated">Alle &lt;xref:System.ServiceModel.Dispatcher.IErrorHandler&gt;implementeringer kalles.&lt;/xref:System.ServiceModel.Dispatcher.IErrorHandler&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default (when the return value is <ph id="ph1">`false`</ph>), if there is an exception, the dispatcher aborts any session and aborts the &lt;xref:System.ServiceModel.InstanceContext&gt; if the &lt;xref:System.ServiceModel.InstanceContextMode&gt; is anything other than &lt;xref:System.ServiceModel.InstanceContextMode&gt;.</source>
+          <target state="translated">Som standard (når er returverdien <ph id="ph1">`false`</ph>), hvis det oppstår et unntak, dispatcher avbryter en økt og avbryter den &lt;xref:System.ServiceModel.InstanceContext&gt;Hvis det &lt;xref:System.ServiceModel.InstanceContextMode&gt;er noe annet enn &lt;xref:System.ServiceModel.InstanceContextMode&gt;.&lt;/xref:System.ServiceModel.InstanceContextMode&gt; &lt;/xref:System.ServiceModel.InstanceContextMode&gt; &lt;/xref:System.ServiceModel.InstanceContext&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception is then considered unhandled and any state is considered corrupt.</source>
+          <target state="translated">Unntaket anses deretter ubehandlet, og tilstand anses skadet.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Return <ph id="ph1">`true`</ph> from HandleError to prevent this default behavior.</source>
+          <target state="translated">Returner <ph id="ph1">`true`</ph> fra HandleError å hindre denne standard virkemåte.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If any error handler returns <ph id="ph1">`true`</ph> it instructs <ph id="ph2">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> that it is safe to continue using state associated with the failed request.</source>
+          <target state="translated">Hvis noen feil behandlingsprogrammet returnerer <ph id="ph1">`true`</ph> ber <ph id="ph2">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> at det er trygt å fortsette å bruke tilstand som er knyttet til den mislykkede forespørselen.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no error handler returns <ph id="ph1">`true`</ph> from the HandleError method the exception is considered unhandled and the default response applies, potentially resulting in an aborted &lt;xref:System.ServiceModel.InstanceContext?displayProperty=fullName&gt; and channel when communicating on a session channel or the &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A?displayProperty=fullName&gt; property is not set to &lt;xref:System.ServiceModel.InstanceContextMode?displayProperty=fullName&gt;.</source>
+          <target state="translated">Hvis ingen feil behandling returnerer <ph id="ph1">`true`</ph> fra HandleError metoden unntaket anses ubehandlet og standard svaret gjelder, noe som kan resultere i en avbrutt &lt;xref:System.ServiceModel.InstanceContext?displayProperty=fullName&gt;og kanal ved kommunikasjon på en økt kanal eller &lt;xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A?displayProperty=fullName&gt;ikke settes til &lt;xref:System.ServiceModel.InstanceContextMode?displayProperty=fullName&gt;.&lt;/xref:System.ServiceModel.InstanceContextMode?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.InstanceContext?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`error`</ph> parameter is never <ph id="ph2">`null`</ph> and contains the exception object that was thrown.</source>
+          <target state="translated">Den <ph id="ph1">`error`</ph> parameteren er aldri <ph id="ph2">`null`</ph> og inneholder unntak-objektet som ble registrert.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The exception thrown during processing.</source>
+          <target state="translated">Unntak under behandling.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> should not abort the session (if there is one) and instance context if the instance context is not <bpt id="p2">&lt;xref href="System.ServiceModel.InstanceContextMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis <ph id="ph1">[!INCLUDE[indigo1](~/add/includes/ajax-current-ext-md.md)]</ph> bør Avbryt økten (Hvis det finnes et) og serverforekomsten konteksten hvis forekomsten konteksten ikke <bpt id="p2">&lt;xref href="System.ServiceModel.InstanceContextMode"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; ellers <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standard <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Enables the creation of a custom <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.FaultException%601<ph id="ph2">&amp;gt;</ph> that is returned from an exception in the course of a service method.</source>
+          <target state="translated">Aktiverer oppretting av en egendefinert <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.FaultException%601<ph id="ph2">&amp;gt;</ph> som er returnert fra et unntak i løpet av en Tjenestemetoden.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Implement the ProvideFault method to create a custom fault message that is returned to the client.</source>
+          <target state="translated">Implementere metoden ProvideFault for å opprette en egendefinert feilmelding som returneres til klienten.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ProvideFault method will always be called for exceptions that leave operations, except when the WCF runtime recognizes the exception as especially fatal and rethrows the exception itself.</source>
+          <target state="translated">Metoden ProvideFault vil alltid kalles for unntak som lar operasjoner, bortsett fra når kjøretiden WCF gjenkjenner unntak som spesielt uopprettelig og rethrows unntaket seg selv.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When all ProvideFault implementations have been called, the fault message is sent back to the client (if <ph id="ph1">`fault`</ph> is non-<ph id="ph2">`null`</ph>).</source>
+          <target state="translated">Når alle ProvideFault implementeringer har blitt kalt, feilmeldingen sendes til klienten (Hvis <ph id="ph1">`fault`</ph> er ikke -<ph id="ph2">`null`</ph>).</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`fault`</ph> parameter is <ph id="ph2">`null`</ph> the default fault is sent to the client.</source>
+          <target state="translated">Hvis den <ph id="ph1">`fault`</ph> parameteren er <ph id="ph2">`null`</ph> feilen som standard sendes til klienten.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The inbound message that caused the processing error is available during this method from the &lt;xref:System.ServiceModel.OperationContext.RequestContext%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Innkommende meldingen som forårsaket feilen behandling er tilgjengelig i løpet av denne metoden fra den &lt;xref:System.ServiceModel.OperationContext.RequestContext%2A?displayProperty=fullName&gt;egenskapen.&lt;/xref:System.ServiceModel.OperationContext.RequestContext%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because the ProvideFault method can be called from many different places there are no guarantees made about which thread the method is called on.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Fordi ProvideFault-metoden kan bare kalles fra mange ulike steder det finnes ingen garantier gjort om hvilken tråd metoden kalles i.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not depend on ProvideFault method being called on the operation thread.</source>
+          <target state="translated">Ikke avhengige ProvideFault-metoden blir kalt i operasjonen-tråden.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Exception&gt; object thrown in the course of the service operation.</source>
+          <target state="translated">Den &lt;xref:System.Exception&gt;objektet som er registrert i løpet av tjenesteoperasjonen.&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The SOAP version of the message.</source>
+          <target state="translated">SOAP-versjonen av meldingen.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.Channels.Message?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> object that is returned to the client, or service, in the duplex case.</source>
+          <target state="translated">Den <ph id="ph1">&amp;lt;</ph>xref:System.ServiceModel.Channels.Message?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> objektet som returneres til klient eller tjenesten i dobbeltsidig tilfeller.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

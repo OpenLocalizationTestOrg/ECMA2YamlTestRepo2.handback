@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">655ffbffba4695505f8ca982cc23dfc732582cbb</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Configuration.IPersistComponentSettings.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f15b1cc3c72cfeb09c434019c400a4f52b62f32c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3110686e11c84e8129aa29efc4ba41c6713a3c3d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines standard functionality for controls or libraries that store and retrieve application settings.</source>
+          <target state="translated">Definisce le funzionalità standard per i controlli o le librerie che archiviano e recuperano le impostazioni dell'applicazione.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, you can add application settings support to an application by creating a settings wrapper class, which is derived from &lt;xref:System.Configuration.ApplicationSettingsBase&gt;, and then add special properties to this class.</source>
+          <target state="translated">In genere, è possibile aggiungere il supporto delle impostazioni dell'applicazione a un'applicazione mediante la creazione di una classe wrapper di impostazioni, derivata da &lt;xref:System.Configuration.ApplicationSettingsBase&gt;, quindi aggiungere proprietà speciali per questa classe.&lt;/xref:System.Configuration.ApplicationSettingsBase&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, this approach does not sufficiently encapsulate application settings for a control so that its container is shielded from the details.</source>
+          <target state="translated">Tuttavia, questo approccio non sufficientemente incapsula le impostazioni dell'applicazione per un controllo in modo che il contenitore è schermato dai dettagli.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IPersistComponentSettings interface provides an application with a standard interface for communicating application settings state change requests to a control, component, or library module.</source>
+          <target state="translated">L'interfaccia IPersistComponentSettings fornisce un'applicazione con un'interfaccia standard per comunicare richieste di modifica dello stato di impostazioni applicazione a un modulo di libreria, componente o controllo.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Design-time tools also depend on this interface to properly manage controls and components.</source>
+          <target state="translated">Gli strumenti Design-time dipendono anche da questa interfaccia per gestire correttamente i controlli e componenti.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Reads the control's application settings into their corresponding properties and updates the control's state.</source>
+          <target state="translated">Legge le impostazioni del controllo dell'applicazione nelle corrispondenti proprietà e aggiorna lo stato del controllo.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In general, the LoadComponentSettings method performs two essential operations:      -   It causes each application settings instance contained by the control to refresh the values of its application settings properties, typically by calling their &lt;xref:System.Configuration.ApplicationSettingsBase.Reload%2A&gt; methods.</source>
+          <target state="translated">In generale, il metodo LoadComponentSettings vengono eseguite due operazioni fondamentali:-ogni istanza delle impostazioni dell'applicazione contenuti dal controllo per aggiornare i valori delle proprietà delle impostazioni dell'applicazione, in genere chiamando i relativi &lt;xref:System.Configuration.ApplicationSettingsBase.Reload%2A&gt;metodi.&lt;/xref:System.Configuration.ApplicationSettingsBase.Reload%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   As required, it updates those general properties that depend on these reloaded settings properties.</source>
+          <target state="translated">-Se necessario, aggiorna le proprietà generali che variano a seconda delle impostazioni ricaricate proprietà.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the settings class contained a <ph id="ph1">`location`</ph> settings property, LoadComponentSettings should ensure that the control's &lt;xref:System.Windows.Forms.Control.Location%2A&gt; property is updated to reflect this reloaded setting.</source>
+          <target state="translated">Ad esempio, se la classe di impostazioni è contenuta una <ph id="ph1">`location`</ph> proprietà delle impostazioni, LoadComponentSettings deve assicurarsi che il controllo &lt;xref:System.Windows.Forms.Control.Location%2A&gt;proprietà viene aggiornata per riflettere questa impostazione ricaricata.&lt;/xref:System.Windows.Forms.Control.Location%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Resets the control's application settings properties to their default values.</source>
+          <target state="translated">Reimposta le proprietà del controllo dell'applicazione delle impostazioni in base ai valori predefiniti.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implementation of the ResetComponentSettings method typically calls the &lt;xref:System.Configuration.ApplicationSettingsBase.Reset%2A&gt; method on each instance of an application settings class it contains.</source>
+          <target state="translated">L'implementazione del metodo ResetComponentSettings chiama in genere il &lt;xref:System.Configuration.ApplicationSettingsBase.Reset%2A&gt;metodo in ogni istanza di una classe di impostazioni dell'applicazione contiene.&lt;/xref:System.Configuration.ApplicationSettingsBase.Reset%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Persists the control's application settings properties.</source>
+          <target state="translated">Proprietà delle impostazioni dell'applicazione del controllo viene mantenuto.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SaveComponentSettings method writes the values of the control's application settings properties to the associated data store.</source>
+          <target state="translated">Il metodo SaveComponentSettings scrive i valori delle proprietà delle impostazioni dell'applicazione del controllo nell'archivio dati associato.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data store and serialization technique the method uses is determined by the settings provider associated with each settings class through the &lt;xref:System.Configuration.SettingsProviderAttribute&gt;.</source>
+          <target state="translated">La tecnica di memorizzazione e di serializzazione di dati che utilizza il metodo è determinata dal provider di impostazioni associate a ogni classe di impostazioni tramite &lt;xref:System.Configuration.SettingsProviderAttribute&gt;.&lt;/xref:System.Configuration.SettingsProviderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can override the choice of the settings provider by using the &lt;xref:System.Configuration.ISettingsProviderService&gt; interface.</source>
+          <target state="translated">È possibile ignorare la scelta del provider di impostazioni utilizzando il &lt;xref:System.Configuration.ISettingsProviderService&gt;interfaccia.&lt;/xref:System.Configuration.ISettingsProviderService&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.Configuration.IPersistComponentSettings.SaveSettings%2A&gt; property is <ph id="ph2">`true`</ph>, the control should call SaveComponentSettings in its own &lt;xref:System.Windows.Forms.Control.Dispose%2A&gt; method so that the control's configuration data is stored automatically before the application ends.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se il &lt;xref:System.Configuration.IPersistComponentSettings.SaveSettings%2A&gt;proprietà <ph id="ph2">`true`</ph>, il controllo deve chiamare SaveComponentSettings nella propria &lt;xref:System.Windows.Forms.Control.Dispose%2A&gt;metodo in modo che i dati di configurazione del controllo vengono automaticamente archiviati prima della chiusura dell'applicazione.&lt;/xref:System.Windows.Forms.Control.Dispose%2A&gt; &lt;/xref:System.Configuration.IPersistComponentSettings.SaveSettings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the control should automatically persist its application settings properties.</source>
+          <target state="translated">Ottiene o imposta un valore che indica se il controllo devono essere mantenute automaticamente alle proprietà delle impostazioni dell'applicazione.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control contains configuration data, it will typically persist this data in response to an explicit call to the &lt;xref:System.Configuration.IPersistComponentSettings.SaveComponentSettings%2A&gt; method or sometimes implicitly when the control's &lt;xref:System.Windows.Forms.Control.Dispose%2A&gt; method is invoked.</source>
+          <target state="translated">Se un controllo contiene dati di configurazione, in genere verranno mantenuti i dati in risposta a una chiamata esplicita al &lt;xref:System.Configuration.IPersistComponentSettings.SaveComponentSettings%2A&gt;metodo o a volte in modo implicito quando il controllo &lt;xref:System.Windows.Forms.Control.Dispose%2A&gt;metodo viene richiamato.&lt;/xref:System.Windows.Forms.Control.Dispose%2A&gt; &lt;/xref:System.Configuration.IPersistComponentSettings.SaveComponentSettings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SaveSettings property determines whether a control automatically persists its configuration data when it is disposed.</source>
+          <target state="translated">La proprietà SaveSettings determina se un controllo mantiene automaticamente i dati di configurazione quando viene eliminato.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value of SaveSettings depends on the implementation of the control.</source>
+          <target state="translated">Il valore predefinito di SaveSettings dipende dall'implementazione del controllo.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The documentation for the control should indicate whether it uses application settings, what data is persisted, and what the default value of the SaveSettings property is.</source>
+          <target state="translated">La documentazione per il controllo deve essere indicato se utilizza le impostazioni dell'applicazione, quali dati vengono mantenuti e qual è il valore predefinito della proprietà SaveSettings.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control should automatically persist its state; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il controllo devono essere mantenute automaticamente lo stato; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the application settings key for the current instance of the control.</source>
+          <target state="translated">Ottiene o imposta il valore della chiave di impostazioni dell'applicazione per l'istanza corrente del controllo.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the SettingsKey property to disambiguate groups of application settings properties when there are multiple instances of the same wrapper class.</source>
+          <target state="translated">Utilizzare la proprietà SettingsKey per evitare ambiguità nei gruppi di proprietà delle impostazioni dell'applicazione quando sono presenti più istanze della stessa classe wrapper.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if a control contains an associated wrapper class, then placing multiple instances of the same control in the same application will typically result in multiple instances of the wrapper class.</source>
+          <target state="translated">Ad esempio, se un controllo contiene una classe wrapper associata, quindi l'inserimento di più istanze dello stesso controllo nella stessa applicazione risultano in genere in più istanze della classe wrapper.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A settings key is required only when the configuration data differs on a per-instance basis; for example, the location of dynamically positioned controls.</source>
+          <target state="translated">È necessaria una chiave di impostazioni solo quando i dati di configurazione è diverso per singolo per ogni istanza. ad esempio, la posizione dei controlli posizionati in modo dinamico.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following general rules apply to the use of SettingsKey:      -   A control, like any class, may contain zero or more application settings classes, derived from &lt;xref:System.Configuration.ApplicationSettingsBase&gt;.</source>
+          <target state="translated">Le regole generali seguenti si applicano all'utilizzo di SettingsKey:-un controllo, come qualsiasi altra classe, può contenere zero o più classi di impostazioni dell'applicazione, derivata da &lt;xref:System.Configuration.ApplicationSettingsBase&gt;.&lt;/xref:System.Configuration.ApplicationSettingsBase&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each settings class contains its own &lt;xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt; property, which helps disambiguate multiple instances of that class.</source>
+          <target state="translated">Ogni classe di impostazioni contiene la &lt;xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt;proprietà, che consente di evitare ambiguità tra più istanze di tale classe.&lt;/xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A control should separate its per-instance data and its shared data into different settings classes.</source>
+          <target state="translated">-Un controllo deve separare i dati per ogni istanza e i relativi dati condivisi in classi di impostazioni diverse.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   For a control with any per-instance configuration data, the <ph id="ph1">`get`</ph> accessor of the SettingsKey property should default to the &lt;xref:System.Windows.Forms.Control.Name%2A&gt; of the control.</source>
+          <target state="translated">-Per un controllo con i dati di configurazione per istanza, il <ph id="ph1">`get`</ph> funzione di accesso della proprietà SettingsKey deve essere predefinito per il &lt;xref:System.Windows.Forms.Control.Name%2A&gt;del controllo.&lt;/xref:System.Windows.Forms.Control.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most cases the name of the control will be unique within an application.</source>
+          <target state="translated">Nella maggior parte dei casi il nome del controllo sarà univoco all'interno di un'applicazione.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the control contains only shared configuration data, <ph id="ph1">`get`</ph> should default to <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">Se il controllo contiene solo dati di configurazione condivisi <ph id="ph1">`get`</ph> deve essere predefinito per <ph id="ph2">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`set`</ph> accessor for this property should be implemented to distinguish between settings classes containing per-instance and shared configuration data.</source>
+          <target state="translated">-La <ph id="ph1">`set`</ph> funzione di accesso per questa proprietà deve essere implementato per distinguere tra le classi di impostazioni che contengono dati di configurazione condivisa e per ogni istanza.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For each settings class containing per-instance data, <ph id="ph1">`set`</ph> should just pass-through to the &lt;xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt; property of the settings class.</source>
+          <target state="translated">Per ogni classe di impostazioni che contiene dati per ogni istanza, <ph id="ph1">`set`</ph> deve essere passata alla &lt;xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt;proprietà della classe delle impostazioni.&lt;/xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For settings classes containing shared data, <ph id="ph1">`set`</ph> should perform no action for that settings class.</source>
+          <target state="translated">Per le classi di impostazioni che contiene dati condivisi, <ph id="ph1">`set`</ph> deve eseguire alcuna azione per tale classe di impostazioni.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; containing the settings key for the current instance of the control.</source>
+          <target state="translated">Oggetto &lt;xref:System.String&gt;contenente la chiave di impostazioni per l'istanza corrente del controllo.&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
