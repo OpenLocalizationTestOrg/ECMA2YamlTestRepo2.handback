@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">38fdd6dfdee9bc617a9e93db11acf3c7db135f7b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.IMessageFilter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b773061970d5d08501eaed564cf0b53e900adc7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7f83c972fb53d91a852e7407be310edc59327334</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a message filter interface.</source>
+          <target state="translated">定義訊息篩選條件介面。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This interface allows an application to capture a message before it is dispatched to a control or form.</source>
+          <target state="translated">這個介面可讓應用程式來擷取訊息之前會被分派至控制項或表單。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>A class that implements the IMessageFilter interface can be added to the application's message pump to filter out a message or perform other operations before the message is dispatched to a form or control.</source>
+          <target state="translated">實作 IMessageFilter 介面的類別可以加入篩選出訊息，或執行其他作業之前就被分派到表單或控制項的應用程式的訊息幫浦。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To add the message filter to an application's message pump, use the &lt;xref:System.Windows.Forms.Application.AddMessageFilter%2A&gt; method in the &lt;xref:System.Windows.Forms.Application&gt; class.</source>
+          <target state="translated">若要將訊息篩選條件加入至應用程式的訊息幫浦，使用 &lt;xref:System.Windows.Forms.Application.AddMessageFilter%2A&gt;&lt;xref:System.Windows.Forms.Application&gt;類別&lt;/xref:System.Windows.Forms.Application&gt;方法&lt;/xref:System.Windows.Forms.Application.AddMessageFilter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Filters out a message before it is dispatched.</source>
+          <target state="translated">在分派前，先篩選訊息。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Use PreFilterMessage to filter out a message before it is dispatched to a control or form.</source>
+          <target state="translated">使用 PreFilterMessage 來篩選出訊息之前會被分派至控制項或表單。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For example, to stop the &lt;xref:System.Windows.Forms.Control.Click&gt; event of a &lt;xref:System.Windows.Forms.Button&gt; control from being dispatched to the control, you implement the PreFilterMessage method and return a <ph id="ph1">`true`</ph> value when the &lt;xref:System.Windows.Forms.Control.Click&gt; message occurs.</source>
+          <target state="translated">例如，若要停止&lt;xref:System.Windows.Forms.Control.Click&gt;事件&lt;xref:System.Windows.Forms.Button&gt;控制項的分派至控制項，您需要實作 PreFilterMessage 方法並傳回<ph id="ph1">`true`</ph>值時&lt;xref:System.Windows.Forms.Control.Click&gt;訊息，就會發生。&lt;/xref:System.Windows.Forms.Control.Click&gt; &lt;/xref:System.Windows.Forms.Button&gt; &lt;/xref:System.Windows.Forms.Control.Click&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can also use this method to perform code work that you might need to do before the message is dispatched.</source>
+          <target state="translated">您也可以使用這個方法來執行程式碼的工作，您可能需要將訊息分派之前執行的動作。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The message to be dispatched.</source>
+          <target state="translated">要分派的訊息。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You cannot modify this message.</source>
+          <target state="translated">您無法修改此訊息。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to filter the message and stop it from being dispatched; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to allow the message to continue to the next filter or control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要篩選訊息並停止訊息的情況下發送。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>允許訊息繼續進入下一個篩選器或控制項。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

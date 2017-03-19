@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6f5f0fb84f5ab91f6e30b9b4e3d9713238b0506a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">90aec0665f1ed092fa4d48b186df9f0a4c1694c0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">45c4f07c36d0d475b09a775a981fb424d8d52774</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Allows Web Parts controls to track the specific phases of the personalization load and save process.</source>
+          <target state="translated">Позволяет элементам управления веб-частей отслеживать определенные этапы персонализации загрузки и сохранения процесса.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This interface allows control developers to track different phases of the personalization life cycle, including the loading and saving of personalization data.</source>
+          <target state="translated">Этот интерфейс позволяет разработчикам отслеживать различные этапы жизненного цикла персонализации, включая загрузку и сохранение данных персонализации.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most cases, to use this interface you would create a custom &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; or &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; and implement this interface.</source>
+          <target state="translated">В большинстве случаев для использования этого интерфейса необходимо создать пользовательский &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;или &lt;xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt;и реализуют этот интерфейс.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartManager&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additionally, controls that need to manage their own change ("dirty") tracking should implement this interface.</source>
+          <target state="translated">Кроме того элементы управления, которые управляют собственные («грязных») отслеживание изменений должны реализовывать этот интерфейс.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls that manage their own change tracking should return <ph id="ph1">`true`</ph> from the &lt;xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt; property.</source>
+          <target state="translated">Элементов, которые управляют собственные отслеживания изменений должны возвращать <ph id="ph1">`true`</ph> из &lt;xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt;свойство.&lt;/xref:System.Web.UI.WebControls.WebParts.ITrackingPersonalizable.TracksChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`false`</ph> is returned, then ASP.NET is responsible for determining changes by comparing the property information loaded with the property information that was saved.</source>
+          <target state="translated">Если <ph id="ph1">`false`</ph> возвращается, а затем ASP.NET отвечает, за определение изменений путем сравнения сведения о свойстве загружен с сведения о свойствах, которые были сохранены.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Represents the beginning of the load phase for personalization information.</source>
+          <target state="translated">Представляет начало этапа загрузки сведения персонализации.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method prior to applying personalization data.</source>
+          <target state="translated">Набор элементов управления веб-частей вызывает этот метод до применения данных персонализации.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control that tracks its own change state should use this method to set an internal flag indicating that properties should not call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.</source>
+          <target state="translated">Элемент управления, который отслеживает состояние изменений следует использовать этот метод для задания внутреннего флага, показывающее, что свойства не следует вызывать &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because property-setting methods can be called during the application of personalization data, subsequent to the call to BeginLoad.</source>
+          <target state="translated">Это так, как можно вызывать методы настройки свойства во время применения данных персонализации, после вызова метода BeginLoad.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most scenarios, a control should not be considered changed ("dirty") just because its personalizable properties have been set based on data loaded from the underlying data store.</source>
+          <target state="translated">В большинстве случаев элемент управления не должен считаться измененным («грязным») только потому, что его персонально настраиваемые свойства были заданы на основании данных, загруженных из базового хранилища данных.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is also called when personalization data is applied after importing a Web Parts control.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек этот метод также используется, когда данные персонализации применяются после импорта элемента управления веб-частей.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Represents the phase prior to extracting personalization data from a control.</source>
+          <target state="translated">Представляет этап до извлечения данных персонализации из элемента управления.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method prior to extracting personalization data from the control.</source>
+          <target state="translated">Набор элементов управления веб-частей вызывает этот метод до извлечения данных персонализации из элемента управления.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Represents the phase after personalization data has been applied to a control.</source>
+          <target state="translated">Представляет этап после применения данных персонализации к элементу управления.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method after personalization data has been applied to the control.</source>
+          <target state="translated">Установить элемент управления веб-частей вызывает этот метод после данные персонализации был применен к элементу управления.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control that tracks its change state should use this method to reset its internal state to indicate that subsequent property-setting methods should call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.</source>
+          <target state="translated">Элемент управления, который отслеживает состояние изменений следует использовать этот метод, чтобы сбросить его внутреннее состояние, чтобы указать, что последующие методы настройки свойства должны вызывать &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By the time the EndLoad method is called, the Web Parts control set has completed any application of personalization data to the control.</source>
+          <target state="translated">К моменту вызова метода EndLoad набор элементов управления веб-частей завершения любого приложения данные персонализации к элементу управления.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a result, subsequent changes to the control's state should be considered valid indicators that the control has changed (is "dirty").</source>
+          <target state="translated">В результате последующие изменения состояния элемента управления считается допустимым индикаторов, элемент управления был изменен (является «грязным»).</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This method is also called when personalization data is applied after importing a Web Parts control.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек этот метод также используется, когда данные персонализации применяются после импорта элемента управления веб-частей.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Represents the phase after personalization data has been extracted from a control.</source>
+          <target state="translated">Представляет этап после извлечения данных персонализации из элемента управления.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Web Parts control set calls this method after personalization data has been extracted from the control.</source>
+          <target state="translated">Установить элемент управления веб-частей вызывает этот метод после данные персонализации были извлечены из элемента управления.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Indicates whether the control tracks the status of its changes.</source>
+          <target state="translated">Указывает, является ли элемент управления отслеживает состояние изменения.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control returns <ph id="ph1">`true`</ph> from this property, then it is the Web Parts control's responsibility to determine when it considers itself "dirty."</source>
+          <target state="translated">Если элемент управления возвращает <ph id="ph1">`true`</ph> этим свойством, то это управления веб-частей необходимо самостоятельно определять, когда он считается «грязных».</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a control determines that it has changed (is "dirty"), that control must call &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt; on itself.</source>
+          <target state="translated">Если элемент управления определяет, изменилась (является «грязных»), что необходимо вызвать элемент управления &lt;xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;на себя.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart.SetPersonalizationDirty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Web Parts control is responsible for determining when the control is considered changed ("dirty"); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если элемент управления веб-частей отвечает за определение, когда элемент управления считается измененным («грязным»); в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

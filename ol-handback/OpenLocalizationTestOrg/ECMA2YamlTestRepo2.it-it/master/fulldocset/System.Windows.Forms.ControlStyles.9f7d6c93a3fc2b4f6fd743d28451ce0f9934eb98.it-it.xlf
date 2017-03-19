@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f8741904f60d9cdd9157e887a3c871a064f110f2</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.ControlStyles.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">6a2ce71469199fd814f434b8f0fafacaf977814f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e77d5af3fb11487e16d284bafd99c6ef3cb33a96</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the style and behavior of a control.</source>
+          <target state="translated">Specifica lo stile e il comportamento di un controllo.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Controls use this enumeration in various properties and methods to specify functionality.</source>
+          <target state="translated">Controlli di utilizzare questa enumerazione in varie proprietà e metodi per specificare le funzionalità.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control can enable a style by calling the &lt;xref:System.Windows.Forms.Control.SetStyle%2A&gt; method and passing in the appropriate ControlStyles bit (or bits) and the Boolean value to set the bit(s) to.</source>
+          <target state="translated">Un controllo è possibile attivare uno stile chiamando il &lt;xref:System.Windows.Forms.Control.SetStyle%2A&gt;metodo e passando il bit ControlStyles appropriati (o bits) e il valore booleano per impostare i bit.&lt;/xref:System.Windows.Forms.Control.SetStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following line of Visual Basic code would enable double-buffering.</source>
+          <target state="translated">Ad esempio, la seguente riga di codice Visual Basic consentirebbe il doppio buffer.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   myControl.SetStyle(UserPaint Or AllPaintingInWmPaint Or DoubleBuffer, True)   ```</ph>       If the AllPaintingInWmPaint bit is set to <ph id="ph2">`true`</ph>, the window message WM_ERASEBKGND is ignored, and both &lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt; and &lt;xref:System.Windows.Forms.Control.OnPaint%2A&gt; methods are called directly from the window message WM_PAINT.</source>
+          <target state="translated"><ph id="ph1">```   myControl.SetStyle(UserPaint Or AllPaintingInWmPaint Or DoubleBuffer, True)   ```</ph>Se il bit AllPaintingInWmPaint è impostato su <ph id="ph2">`true`</ph>, la finestra di messaggio WM_ERASEBKGND verrà ignorata ed entrambi &lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt;e &lt;xref:System.Windows.Forms.Control.OnPaint%2A&gt;metodi vengono chiamati direttamente dalla finestra di messaggio WM_PAINT.&lt;/xref:System.Windows.Forms.Control.OnPaint%2A&gt; &lt;/xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This generally reduces flicker unless other controls send the window message WM_ERASEBKGND to the control.</source>
+          <target state="translated">In genere una riduzione dello sfarfallio a meno che altri controlli di inviano il messaggio della finestra WM_ERASEBKGND al controllo.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You might send the window message WM_ERASEBKGRND to achieve a pseudo-transparent effect similar to SupportsTransparentBackColor; for example, a &lt;xref:System.Windows.Forms.ToolBar&gt; with flat appearance does this.</source>
+          <target state="translated">È possibile inviare il messaggio della finestra WM_ERASEBKGRND per ottenere un effetto pseudo-trasparente simile a SupportsTransparentBackColor; ad esempio, un &lt;xref:System.Windows.Forms.ToolBar&gt;con piatta esegue questa operazione.&lt;/xref:System.Windows.Forms.ToolBar&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To fully enable double-buffering, you can set the OptimizedDoubleBuffer and AllPaintingInWmPaint bits to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Per abilitare completamente il doppio buffer, è possibile impostare i bit OptimizedDoubleBuffer e AllPaintingInWmPaint <ph id="ph1">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However the preferred method for enabling double buffering, which yields the same result, is to set the &lt;xref:System.Windows.Forms.Control.DoubleBuffered%2A&gt; property for the control to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Tuttavia il metodo preferito per l'abilitazione del doppio buffer, che restituisce lo stesso risultato, consiste nell'impostare il &lt;xref:System.Windows.Forms.Control.DoubleBuffered%2A&gt;proprietà per il controllo <ph id="ph1">`true`</ph>.&lt;/xref:System.Windows.Forms.Control.DoubleBuffered%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the SupportsTransparentBackColor bit is set to <ph id="ph1">`true`</ph>, and the &lt;xref:System.Windows.Forms.Control.BackColor%2A&gt; is set to a color whose alpha component is less than 255, &lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt; will simulate transparency by asking its parent control to paint the background.</source>
+          <target state="translated">Se il bit SupportsTransparentBackColor è impostato su <ph id="ph1">`true`</ph>e &lt;xref:System.Windows.Forms.Control.BackColor%2A&gt;è impostata su un colore il cui componente alfa è minore di 255, &lt;xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt;consente di simulare la trasparenza richiedendo al relativo controllo padre per disegnare lo sfondo.&lt;/xref:System.Windows.Forms.Control.OnPaintBackground%2A&gt; &lt;/xref:System.Windows.Forms.Control.BackColor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is not true transparency.</source>
+          <target state="translated">Non si tratta di trasparenza vera e propria.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If there is another control between the control and its parent, the current control will not show the control in the middle.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Se è presente un altro controllo tra il controllo e il relativo elemento padre, il controllo corrente non visualizzerà il controllo al centro.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the UserMouse bit is set to <ph id="ph1">`true`</ph>, the following methods are still called: &lt;xref:System.Windows.Forms.Control.OnMouseDown%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseUp%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseEnter%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseMove%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseHover%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseLeave%2A?displayProperty=fullName&gt;, and &lt;xref:System.Windows.Forms.Control.OnMouseWheel%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Quando il bit UserMouse è impostato su <ph id="ph1">`true`</ph>, sono ancora chiamare i seguenti metodi: &lt;xref:System.Windows.Forms.Control.OnMouseDown%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseUp%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseEnter%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseMove%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseHover%2A?displayProperty=fullName&gt;, &lt;xref:System.Windows.Forms.Control.OnMouseLeave%2A?displayProperty=fullName&gt;e &lt;xref:System.Windows.Forms.Control.OnMouseWheel%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.Control.OnMouseWheel%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseLeave%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseHover%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseMove%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseEnter%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseUp%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnMouseDown%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the control is clicked, if the StandardClick bit is set to <ph id="ph1">`true`</ph> the &lt;xref:System.Windows.Forms.Control.OnClick%2A?displayProperty=fullName&gt; method is called and it raises the &lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt; event.</source>
+          <target state="translated">Quando il controllo è selezionato, se il bit StandardClick è impostato su <ph id="ph1">`true`</ph> il &lt;xref:System.Windows.Forms.Control.OnClick%2A?displayProperty=fullName&gt;metodo viene chiamato e viene generato il &lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt;evento.&lt;/xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnClick%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the control is double-clicked, and both the StandardClick and StandardDoubleClick bits are set to <ph id="ph1">`true`</ph>, the click is passed on to the &lt;xref:System.Windows.Forms.Control.DoubleClick&gt; event.</source>
+          <target state="translated">Quando si fa doppio clic il controllo e StandardClick sia StandardDoubleClick bit vengono impostati su <ph id="ph1">`true`</ph>, fare clic su viene passato al &lt;xref:System.Windows.Forms.Control.DoubleClick&gt;evento.&lt;/xref:System.Windows.Forms.Control.DoubleClick&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then the &lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A?displayProperty=fullName&gt; method is called and it raises the &lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; event.</source>
+          <target state="translated">Il &lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A?displayProperty=fullName&gt;metodo viene chiamato e viene generato il &lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt;evento.&lt;/xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.OnDoubleClick%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the control can call &lt;xref:System.Windows.Forms.Control.OnClick%2A&gt; or &lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A&gt; directly regardless of the StandardClick and StandardDoubleClick bit values.</source>
+          <target state="translated">Tuttavia, il controllo può chiamare &lt;xref:System.Windows.Forms.Control.OnClick%2A&gt;o &lt;xref:System.Windows.Forms.Control.OnDoubleClick%2A&gt;direttamente indipendentemente dal fatto di StandardClick e StandardDoubleClick valori di bit.&lt;/xref:System.Windows.Forms.Control.OnDoubleClick%2A&gt; &lt;/xref:System.Windows.Forms.Control.OnClick%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on control click and double click behaviors, see the &lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt; and &lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; topics.</source>
+          <target state="translated">Per ulteriori informazioni sul controllo fare clic su e fare doppio clic su comportamenti, vedere il &lt;xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt;e &lt;xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt;argomenti.&lt;/xref:System.Windows.Forms.Control.DoubleClick?displayProperty=fullName&gt; &lt;/xref:System.Windows.Forms.Control.Click?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the UseTextForAccessibility bit is set and there is a value in the control's <ph id="ph1">`Text`</ph> property, the value of that control's <ph id="ph2">`Text`</ph> property determines the control's default Active Accessibility name and shortcut key.</source>
+          <target state="translated">Quando viene impostato il bit UseTextForAccessibility e non vi è un valore del controllo <ph id="ph1">`Text`</ph> proprietà, il valore di tale controllo <ph id="ph2">`Text`</ph> proprietà determina tasto Active Accessibility predefiniti nome e la scelta rapida del controllo.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the text of the preceding &lt;xref:System.Windows.Forms.Label&gt; control will be used instead.</source>
+          <target state="translated">In caso contrario, il testo dell'oggetto precedente &lt;xref:System.Windows.Forms.Label&gt;controllo verrà utilizzato invece.&lt;/xref:System.Windows.Forms.Label&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This style is set by default.</source>
+          <target state="translated">Questo stile è impostato per impostazione predefinita.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Certain built-in control types, such as &lt;xref:System.Windows.Forms.TextBox&gt; and &lt;xref:System.Windows.Forms.ComboBox&gt;, reset this style so that the <ph id="ph1">`Text`</ph> property of those controls will not be used by Active Accessibility.</source>
+          <target state="translated">Tipi di controllo incorporato, ad esempio &lt;xref:System.Windows.Forms.TextBox&gt;e &lt;xref:System.Windows.Forms.ComboBox&gt;, reimpostare questo stile in modo che il <ph id="ph1">`Text`</ph> proprietà di tali controlli non essere utilizzata da Active Accessibility.&lt;/xref:System.Windows.Forms.ComboBox&gt; &lt;/xref:System.Windows.Forms.TextBox&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control ignores the window message WM_ERASEBKGND to reduce flicker.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo Ignora la finestra di messaggio WM_ERASEBKGND per ridurre lo sfarfallio.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This style should only be applied if the UserPaint bit is set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Questo stile deve essere applicato solo se il bit UserPaint è impostato su <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control keeps a copy of the text rather than getting it from the &lt;xref:System.Windows.Forms.Control.Handle*&gt; each time it is needed.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo mantiene una copia di testo, anziché dal recupero di &lt;xref:System.Windows.Forms.Control.Handle*&gt;ogni volta che risulta necessaria.&lt;/xref:System.Windows.Forms.Control.Handle*&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This style defaults to <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Per impostazione predefinita questo stile <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>This behavior improves performance, but makes it difficult to keep the text synchronized.</source>
+          <target state="translated">Questo comportamento consente di migliorare le prestazioni, ma è difficile mantenere la sincronizzazione del testo.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is a container-like control.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo è un controllo contenitore simile.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, drawing is performed in a buffer, and after it completes, the result is output to the screen.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>disegno viene eseguito in un buffer e una volta completato, il risultato viene restituito alla schermata.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Double-buffering prevents flicker caused by the redrawing of the control.</source>
+          <target state="translated">Doppio buffer impedisce lo sfarfallio causato dal ridisegno del controllo.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If you set DoubleBuffer to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, you should also set UserPaint and AllPaintingInWmPaint to <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se si imposta DoubleBuffer <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, è necessario impostare anche UserPaint e AllPaintingInWmPaint per <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the &lt;xref:System.Windows.Forms.Control.OnNotifyMessage<bpt id="p2">*</bpt>&gt; method is called for every message sent to the control's &lt;xref:System.Windows.Forms.Control.WndProc<ept id="p2">*</ept>&gt;.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; metodo viene chiamato per ogni messaggio inviato al controllo &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt;.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This style defaults to <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Per impostazione predefinita questo stile <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>EnableNotifyMessage does not work in partial trust.</source>
+          <target state="translated">EnableNotifyMessage non funziona in attendibilità parziale.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control has a fixed height when auto-scaled.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo ha un'altezza fissa quando verrà scalato.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For example, if a layout operation attempts to rescale the control to accommodate a new <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control's &lt;xref:System.Windows.Forms.Control.Height*&gt; remains unchanged.</source>
+          <target state="translated">Ad esempio, se un'operazione di layout tenta di modificare la scala il controllo per gestire un nuovo <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo &lt;xref:System.Windows.Forms.Control.Height*&gt;rimane invariato.&lt;/xref:System.Windows.Forms.Control.Height*&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control has a fixed width when auto-scaled.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo ha una larghezza fissa quando verrà scalato.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For example, if a layout operation attempts to rescale the control to accommodate a new <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control's &lt;xref:System.Windows.Forms.Control.Width*&gt; remains unchanged.</source>
+          <target state="translated">Ad esempio, se un'operazione di layout tenta di modificare la scala il controllo per gestire un nuovo <bpt id="p1">&lt;xref href="System.Drawing.Font"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo &lt;xref:System.Windows.Forms.Control.Width*&gt;rimane invariato.&lt;/xref:System.Windows.Forms.Control.Width*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is drawn opaque and the background is not painted.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo viene disegnato opaco e non viene disegnato lo sfondo.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is first drawn to a buffer rather than directly to the screen, which can reduce flicker.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo viene innanzitutto creato in un buffer anziché direttamente alla schermata, per ridurre lo sfarfallio.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>If you set this property to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, you should also set the AllPaintingInWmPaint to <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se si imposta questa proprietà su <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, è necessario impostare anche la AllPaintingInWmPaint <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control is redrawn when it is resized.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo viene ridisegnato quando viene ridimensionato.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control can receive focus.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo può ricevere lo stato attivo.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control implements the standard <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Click"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> behavior.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo implementa lo standard <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Click"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> comportamento.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control implements the standard <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.DoubleClick"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> behavior.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo implementa lo standard <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.DoubleClick"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> comportamento.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>This style is ignored if the StandardClick bit is not set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Questo stile viene ignorato se non è impostato il bit StandardClick <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control accepts a &lt;xref:System.Windows.Forms.Control.BackColor*&gt; with an alpha component of less than 255 to simulate transparency.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo accetta un &lt;xref:System.Windows.Forms.Control.BackColor*&gt;con un componente alfa minore di 255 per simulare la trasparenza.&lt;/xref:System.Windows.Forms.Control.BackColor*&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Transparency will be simulated only if the UserPaint bit is set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and the parent control is derived from <bpt id="p2">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">La trasparenza verrà simulata solo se il bit UserPaint è impostato su <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> e il controllo padre è derivato da <bpt id="p2">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control does its own mouse processing, and mouse events are not handled by the operating system.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo esegue la propria elaborazione di mouse e gli eventi del mouse non vengono gestiti dal sistema operativo.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the control paints itself rather than the operating system doing so.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, il controllo disegna se stesso, anziché il sistema operativo.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Paint"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event is not raised.</source>
+          <target state="translated">Se <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref href="System.Windows.Forms.Control.Paint"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> non viene generato l'evento.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>This style only applies to classes derived from <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Questo stile si applica solo alle classi derivate da <bpt id="p1">&lt;xref href="System.Windows.Forms.Control"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Specifies that the value of the control's <ph id="ph1">`Text`</ph> property, if set, determines the control's default Active Accessibility name and shortcut key.</source>
+          <target state="translated">Specifica che il valore del controllo <ph id="ph1">`Text`</ph> proprietà, se impostato, determina il tasto il controllo predefinito Active Accessibility nome e la scelta rapida.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Da aggiungere.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

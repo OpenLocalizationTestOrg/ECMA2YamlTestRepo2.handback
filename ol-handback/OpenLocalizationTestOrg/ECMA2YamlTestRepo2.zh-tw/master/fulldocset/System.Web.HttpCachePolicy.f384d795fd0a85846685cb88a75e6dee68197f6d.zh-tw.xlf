@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e300f570beecc6480e602fd0c71a57376460ef15</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.HttpCachePolicy.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae4e504656e2787609c8af0d40c7c767843a3c2c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a277b3b5da48450c497ad6f47cebc489cdae52c1</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains methods for setting cache-specific HTTP headers and for controlling the ASP.NET page output cache.</source>
+          <target state="translated">包含設定快取特定 HTTP 標頭，以及控制 ASP.NET 頁面輸出快取的方法。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>For background information about HTTP headers and controlling caching, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">如需 HTTP 標頭以及控制快取的背景資訊，請參閱 RFC 2616︰ 超文字傳輸通訊協定-HTTP/1.1 中，用於<bpt id="p1">[</bpt>World Wide Web Consortium (W3C) 網站<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Registers a validation callback for the current response.</source>
+          <target state="translated">註冊目前回應的驗證回呼。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>TheAddValidationCallback method provides a mechanism to check the response programmatically in the cache before the response is returned to the client by the output cache.</source>
+          <target state="translated">TheAddValidationCallback 方法提供一個機制，將回應傳回至用戶端依輸出快取之前，請檢查快取中，以程式設計的方式回應。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Before the response is served from the Web server cache, all registered handlers are queried to ensure resource validity.</source>
+          <target state="translated">從 Web 伺服器快取處理的回應之前，所有註冊處理常式會查詢來確認資源的有效性。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>If any handler sets a flag indicating that the cached response is not valid, the entry is marked as not valid and expelled from the cache.</source>
+          <target state="translated">如果任何處理常式設定旗標，表示快取的回應不有效，項目會從快取標示為無效並且取回。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In this case, as well as when any handler indicates that the cached response should be ignored for this request, the request is then handled as if it were a cache miss.</source>
+          <target state="translated">在此情況下，做為以及當任何處理常式表示應該忽略此要求的快取的回應，此要求，然後處理好像快取遺漏。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>AddValidationCallback is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 AddValidationCallback。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpCacheValidateHandler"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpCacheValidateHandler"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The arbitrary user-supplied data that is passed back to the AddValidationCallback delegate.</source>
+          <target state="translated">任意使用者提供的資料傳遞回 AddValidationCallback 委派。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">handler</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">handler</ph><ept id="p1">&lt;/code&gt;</ept> is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Appends the specified text to the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">指定將文字附加至<bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If the browser does not recognize cache control directives or extensions, the browser must ignore the unrecognized terms.</source>
+          <target state="translated">如果瀏覽器快取控制指示詞或延伸模組無法辨識，瀏覽器必須忽略無法辨識的詞彙。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱 RFC 2616︰ 超文字傳輸通訊協定-HTTP/1.1 中，用於<bpt id="p1">[</bpt>World Wide Web Consortium (W3C) 網站<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>AppendCacheExtension is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 AppendCacheExtension。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The text to append to the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">要附加至文字<bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;extension&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;extension&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets the cache-control directive.</source>
+          <target state="translated">取得快取控制指示詞。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The cache-control directive.</source>
+          <target state="translated">快取控制指示詞。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets the cache extensions.</source>
+          <target state="translated">取得快取擴充功能。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The cache extensions.</source>
+          <target state="translated">快取擴充功能。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Gets the ETag.</source>
+          <target state="translated">取得的 ETag。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The ETag.</source>
+          <target state="translated">ETag。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the status indicating whether the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header has been set  based on the timestamps of the file   dependencies of the handler.</source>
+          <target state="translated">取得狀態，指出是否<bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭已根據在設定處理常式檔案相依性的時間戳記。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header has been set  based on the timestamps of the file   dependencies of the handler; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>標頭已設定，根據處理常式檔案相依性的時間戳記，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the expire header.</source>
+          <target state="translated">取得設定為已過期的標頭。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The expire header.</source>
+          <target state="translated">設定為已過期標頭中。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets the status of ignore range requests.</source>
+          <target state="translated">取得略過範圍要求的狀態。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if range requests are ignored; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果範圍要求會被忽略;否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the status of the Last-Modified headerset to base on the timestamps of the   file dependencies of the handler.</source>
+          <target state="translated">取得根據處理常式檔案相依性的時間戳記 Last-modified headerset 狀態。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Last-Modified header  is set to base on the timestamps of the   file dependencies of the handler; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果 Last-modified 標頭設定為基礎的處理常式; 檔案相依性的時間戳記否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the cache-control max age.</source>
+          <target state="translated">取得快取控制的最大存留期。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The cache-control max age.</source>
+          <target state="translated">快取控制最大存留期。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the status of server caching for the current response.</source>
+          <target state="translated">取得目前的回應的快取伺服器的狀態。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if server caching is stopped for the current response; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果快取伺服器已停止目前的回應。否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the status of the store.</source>
+          <target state="translated">取得存放區的狀態。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no store is set; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果設定的存放區。否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the status of the HTTP No-Transform Directive.</source>
+          <target state="translated">取得 HTTP 否轉換指示詞的狀態。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Enables the sending of the Cache-Control HTTP header.</source>
+          <target state="translated">可傳送的快取控制 HTTP 標頭。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>true<bpt id="p1">&lt;xref uid="langword_csharp_" name="" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if the HTTP No-Transform Directive is set; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">true<bpt id="p1">&lt;xref uid="langword_csharp_" name="" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>HTTP 否轉換指示詞已設定，否則如果<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets the status of the <bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">取得狀態<bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header is omitted; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>標頭已省略，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets the HTTP Cache-Control: Proxy Max Age.</source>
+          <target state="translated">取得 HTTP Cache Control︰ 保留時間上限的 Proxy。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The HTTP Cache-Control: Proxy Max Age.</source>
+          <target state="translated">HTTP Cache-control: Proxy 最大存留期。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the Cache-Control: header to reflect either the must-revalidate or   proxy-revalidate directives.</source>
+          <target state="translated">取得 Cache-control︰ 標頭可反映 must-revalidate 或 proxy 指令 proxy-revalidate。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The default is to not send either of these directives unless explicitly enabled using this method.</source>
+          <target state="translated">預設值是不要傳送任一這些指示詞，除非明確啟用 使用此方法。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The Cache-Control: header to reflect either the must-revalidate or   proxy-revalidate directives.</source>
+          <target state="translated">Cache Control︰ 標頭可反映 must-revalidate 或 proxy 指令 proxy-revalidate。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the value of the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header in Coordinated Universal Time (UTC).</source>
+          <target state="translated">取得值<bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭以國際標準時間 (UTC)。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">值<bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the custom string that is used to vary the HTTP caching.</source>
+          <target state="translated">取得用來更改 HTTP 快取的自訂字串。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The custom string for varying the HTTP caching.</source>
+          <target state="translated">用於不同的 HTTP 快取的自訂字串。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets a value which specifies whether the cache has a sliding expiration policy.</source>
+          <target state="translated">取得值，這個值會指定快取是否有了滑動期限原則。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the the cache has a sliding expiration policy; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果快取具有滑動期限原則;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets a value which specifies whether the HTTP cache has been modified.</source>
+          <target state="translated">取得值，指定是否已修改 HTTP 快取。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the the cache has been modified; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果已修改快取。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets a value which specifies whether the ASP.NET cache should ignore HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers sent by the client that invalidate the cache.</source>
+          <target state="translated">取得值，指定 ASP.NET 快取是否應忽略 HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用戶端傳送標頭，確認快取。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the the ASP.NET cache should ignore HTTP <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> headers sent by the client; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果 ASP.NET 快取都應忽略 HTTP <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>在用戶端所傳送的標頭否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Makes the response is available in the client browser History cache, regardless of the <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> setting made on the server, when the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">allow</ph><ept id="p2">&lt;/code&gt;</ept> parameter is <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">讓回應是用於用戶端瀏覽器歷程記錄快取，而不論<bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>所做的伺服器上，設定當<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">allow</ph> <ept id="p2">&lt;/code&gt;</ept>參數是<bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>When &lt;xref:System.Web.HttpCacheability&gt; is set to &lt;xref:System.Web.HttpCacheability&gt; or &lt;xref:System.Web.HttpCacheability&gt; the <ph id="ph1">`Expires`</ph> HTTP header is by default set to -1; this tells the client not to cache responses in the History folder, so that when you use the back/forward buttons the client requests a new version of the response each time.</source>
+          <target state="translated">當&lt;xref:System.Web.HttpCacheability&gt;設&lt;xref:System.Web.HttpCacheability&gt;或&lt;xref:System.Web.HttpCacheability&gt;<ph id="ph1">`Expires`</ph>設為-1 預設為 HTTP 標頭; 這會告知用戶端不來快取回應在歷程記錄 資料夾中，如此當您使用上一步/向前按鈕用戶端要求回應的新版每次。&lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can override this behavior by calling the SetAllowResponseInBrowserHistory method with the <ph id="ph1">`allow`</ph> parameter set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">您可以呼叫具有 SetAllowResponseInBrowserHistory 方法覆寫這個行為<ph id="ph1">`allow`</ph>參數設定為<ph id="ph2">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If &lt;xref:System.Web.HttpCacheability&gt; is set to values other than &lt;xref:System.Web.HttpCacheability&gt; or &lt;xref:System.Web.HttpCacheability&gt;, calling the SetAllowResponseInBrowserHistory method with either value for <ph id="ph1">`allow`</ph> has no effect.</source>
+          <target state="translated">如果&lt;xref:System.Web.HttpCacheability&gt;以外設定為值&lt;xref:System.Web.HttpCacheability&gt;或&lt;xref:System.Web.HttpCacheability&gt;，呼叫其中一個值與 SetAllowResponseInBrowserHistory 方法<ph id="ph1">`allow`</ph>沒有任何作用。&lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt; &lt;/xref:System.Web.HttpCacheability&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>SetAllowResponseInBrowserHistory is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetAllowResponseInBrowserHistory。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to direct the client browser to store responses in the History folder; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要指示用戶端瀏覽器將回應儲存在 [記錄] 資料夾中。否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">預設值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header to one of the values of <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭的值來<bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>SetCacheability is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetCacheability。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>列舉值。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph> is not one of the enumeration values.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph>不是其中一個列舉值。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header to one of the values of <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and appends an extension to the directive.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭的值來<bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> ，並將擴充功能附加至指示詞。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The field name extension is valid only when used with the <ph id="ph1">`private`</ph> or <ph id="ph2">`no-cache`</ph> directives.</source>
+          <target state="translated">欄位名稱延伸模組是與搭配使用時才有效<ph id="ph1">`private`</ph>或<ph id="ph2">`no-cache`</ph>指示詞。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For more information, see RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1, available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱 RFC 2616︰ 超文字傳輸通訊協定-HTTP/1.1 中，用於<bpt id="p1">[</bpt>World Wide Web Consortium (W3C) 網站<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This method will throw an invalid argument exception if incompatible directives and extensions are combined.</source>
+          <target state="translated">如果不相容的指示詞和擴充功能結合時，這個方法會擲回無效的引數例外狀況。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>SetCacheability is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetCacheability。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value to set the header to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>來設定標頭的列舉值。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The cache control extension to add to the header.</source>
+          <target state="translated">若要加入標頭快取控制項擴充功能。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;field&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;field&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph> is not <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;cacheability&lt;/code&gt;</ph>is not <bpt id="p1">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Web.HttpCacheability"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to the specified string.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭，為指定的字串。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`ETag`</ph> header is a unique identifier for a specific version of a document.</source>
+          <target state="translated"><ph id="ph1">`ETag`</ph>標頭是文件的特定版本的唯一識別碼。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>It is used by clients to validate client-cached content to avoid requesting it again.</source>
+          <target state="translated">用戶端使用以驗證用戶端快取的內容，以避免再次提出要求。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Once an <ph id="ph1">`ETag`</ph> header is set, subsequent attempts to set it fail and an exception is thrown.</source>
+          <target state="translated">一次<ph id="ph1">`ETag`</ph>標頭已設定，後續的嘗試將它設定為失敗並擲回例外狀況。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>SetETag is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetETag。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The text to use for the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">若要使用的文字<bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;etag&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;etag&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the time stamps of the handler's file dependencies.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的處理常式檔案相依性的時間戳記為基礎的 HTTP 標頭。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>TheSetETagFromFileDependencies method sets the <ph id="ph1">`ETag`</ph> header by retrieving the last modified time stamps of all files on which the handler is dependent, combining all file names and time stamps into a single string, then hashing that string into a single digest that is used as the <ph id="ph2">`ETag`</ph>.</source>
+          <target state="translated">TheSetETagFromFileDependencies 方法會設定<ph id="ph1">`ETag`</ph>標頭擷取相依的處理常式是在其上的所有檔案的上次修改的時間戳記、 合併所有的檔案名稱和時間戳記成單一字串，然後在該字串插入做為單一摘要雜湊<ph id="ph2">`ETag`</ph>。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>SetETagFromFileDependencies is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetETagFromFileDependencies。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header has already been set.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_ETag" name="ETag" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>設定標頭。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to an absolute date and time.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭的絕對日期和時間。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>This method will fail if the expiration date violates the principle of restrictiveness.</source>
+          <target state="translated">如果到期日，違反了限制性原則，則這個方法會失敗。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The absolute &lt;xref:System.DateTime&gt; value to set the <bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header to.</source>
+          <target state="translated">Absolute&lt;xref:System.DateTime&gt;值來設定<bpt id="p1">&lt;xref uid="langword_csharp_Expires" name="Expires" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to the &lt;xref:System.DateTime&gt; value supplied.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭&lt;xref:System.DateTime&gt;提供值。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Last-Modified`</ph> HTTP header time stamps the document with the <ph id="ph2">`DateTime`</ph> value indicating when the document was last modified.</source>
+          <target state="translated"><ph id="ph1">`Last-Modified`</ph> HTTP 標頭的時間戳記與文件<ph id="ph2">`DateTime`</ph>值，指出上次修改文件。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This method will fail if the caching restrictiveness hierarchy is violated.</source>
+          <target state="translated">如果違反快取的限制性階層，這個方法將會失敗。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>SetLastModified is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetLastModified。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The new &lt;xref:System.DateTime&gt; value for the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">新&lt;xref:System.DateTime&gt;值<bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭。&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;date&lt;/code&gt;</ph> is later than the current <bpt id="p1">&lt;xref uid="langword_csharp_DateTime" name="DateTime" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;date&lt;/code&gt;</ph>晚於目前<bpt id="p1">&lt;xref uid="langword_csharp_DateTime" name="DateTime" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the time stamps of the handler's file dependencies.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_Last-Modified" name="Last-Modified" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的處理常式檔案相依性的時間戳記為基礎的 HTTP 標頭。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>SetLastModifiedFromFileDependencies is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetLastModifiedFromFileDependencies。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: max-age" name="Cache-Control: max-age" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the specified time span.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: max-age" name="Cache-Control: max-age" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭會根據指定的時間範圍。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Max-age`</ph> is the maximum absolute time a document is allowed to exist before being considered stale.</source>
+          <target state="translated"><ph id="ph1">`Max-age`</ph>為存在於之前被視為過時允許文件的最大絕對時間。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The SetMaxAge method does not use sliding expiration and will fail if the expiration date violates the principle of restrictiveness.</source>
+          <target state="translated">SetMaxAge 方法不會使用滑動期限和到期日，違反了限制性原則將會失敗。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>SetMaxAge is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetMaxAge。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the SetMaxAge method is called repeatedly, on the second and subsequent calls, the value of the maximum age can only be decreased.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 如果 SetMaxAge 上呼叫方法重複，第二個和後續的呼叫中，您只能減少的最長使用期限值。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The time span used to set the <bpt id="p1">&lt;xref uid="langword_csharp_Cache" name="Cache" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><ph id="ph1"> - </ph><bpt id="p2">&lt;xref uid="langword_csharp_Control: max-age" name="Control: max-age" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">用來設定的時間範圍<bpt id="p1">&lt;xref uid="langword_csharp_Cache" name="Cache" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> <ph id="ph1"> - </ph> <bpt id="p2">&lt;xref uid="langword_csharp_Control: max-age" name="Control: max-age" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>標頭。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph> is less than 0 or greater than one year.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph>小於 0 或大於一年。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Stops all origin-server caching for the current response.</source>
+          <target state="translated">停止所有原始伺服器的目前回應的快取。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Explicitly denies caching of the document on the origin-server.</source>
+          <target state="translated">明確拒絕快取的原始伺服器上的文件。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Once set, all requests for the document are fully processed.</source>
+          <target state="translated">設定之後，所有文件會完整處理要求。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>When this method is invoked, caching cannot be re-enabled for the current response.</source>
+          <target state="translated">叫用這個方法時，快取無法重新啟用目前回應。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>SetNoServerCaching is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetNoServerCaching。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-store" name="Cache-Control: no-store" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-store" name="Cache-Control: no-store" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-transform" name="Cache-Control: no-transform" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: no-transform" name="Cache-Control: no-transform" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP header instructs network caching applications not to modify the document.</source>
+          <target state="translated"><ph id="ph1">`Cache-Control: no-transform`</ph> HTTP 標頭指示快取不能修改文件的應用程式的網路。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP header prevents downstream proxy servers from changing any header values specified by the <ph id="ph2">`Content-Encoding`</ph>, <ph id="ph3">`Content-Range`</ph>, or <ph id="ph4">`Content-Type`</ph> headers (this includes the entity body).</source>
+          <target state="translated"><ph id="ph1">`Cache-Control: no-transform`</ph> HTTP 標頭可防止下游的 proxy 伺服器變更任何所指定的標頭值<ph id="ph2">`Content-Encoding`</ph>， <ph id="ph3">`Content-Range`</ph>，或<ph id="ph4">`Content-Type`</ph>標頭 （這包括實體主體）。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>For example, it prevents proxies from converting GIF images to PNG.</source>
+          <target state="translated">例如，它會防止 proxy 轉換為 PNG 的 GIF 影像。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>As with other restrictions on caching, once SetNoTransforms is called, the <ph id="ph1">`Cache-Control: no-transform`</ph> HTTP header cannot be disabled through the &lt;xref:System.Web.HttpCachePolicy&gt; interface.</source>
+          <target state="translated">如同上快取，一旦 SetNoTransforms 呼叫時，其他的限制<ph id="ph1">`Cache-Control: no-transform`</ph>HTTP 標頭不能停用透過&lt;xref:System.Web.HttpCachePolicy&gt;介面。&lt;/xref:System.Web.HttpCachePolicy&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>SetNoTransforms is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetNoTransforms。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Specifies whether the response should contain the <bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header when varying by parameters.</source>
+          <target state="translated">指定是否應該包含回應<bpt id="p1">&lt;xref uid="langword_csharp_vary:*" name="vary:*" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭時依參數而有所不同。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>This method allows you to prevent the output ached from adding a <ph id="ph1">`vary:*`</ph> header to the outgoing response when the cached response varies by parameter.</source>
+          <target state="translated">這個方法可讓您避免在輸出 vary 加入<ph id="ph1">`vary:*`</ph>標頭至外寄回應時快取的回應會依參數而有所不同。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This is useful for clients varying caching by query string because most clients will automatically vary by query string without requiring the <ph id="ph1">`vary:*`</ph> header.</source>
+          <target state="translated">這適用於不同的查詢字串快取，因為大部分的用戶端會自動隨著改變查詢字串而不需要用戶端<ph id="ph1">`vary:*`</ph>標頭。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The use of the <ph id="ph2">`vary:*`</ph> header can disable all client caching.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 使用<ph id="ph2">`vary:*`</ph>標頭可以停用所有用戶端快取。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>This is a convenience method to affect the &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt; property.</source>
+          <target state="translated">這是便利的方法，來影響&lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt;屬性。&lt;/xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Passing <ph id="ph1">`true`</ph> to the method directs the &lt;xref:System.Web.HttpCachePolicy&gt; to ignore the * value for the &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt; property.</source>
+          <target state="translated">傳遞<ph id="ph1">`true`</ph>方法指示&lt;xref:System.Web.HttpCachePolicy&gt;忽略 * 值&lt;xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt;屬性。&lt;/xref:System.Web.HttpCachePolicy.VaryByHeaders%2A&gt; &lt;/xref:System.Web.HttpCachePolicy&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>SetOmitVaryStar is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetOmitVaryStar。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to direct the <bpt id="p2">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to not use the <bpt id="p3">*</bpt> value for its &lt;xref:System.Web.HttpCachePolicy.VaryByHeaders<ept id="p3">*</ept>&gt; property; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要直接<bpt id="p2">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>為不使用<bpt id="p3">*</bpt>值其&lt;&gt; <ept id="p3">*</ept>&gt; 屬性，否則<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header based on the specified time span.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭會根據指定的時間範圍。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The SetProxyMaxAge method does not use sliding expiration and will fail if the expiration date violates the principle of restrictiveness.</source>
+          <target state="translated">SetProxyMaxAge 方法不會使用滑動期限和到期日，違反了限制性原則將會失敗。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>SetProxyMaxAge is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetProxyMaxAge。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The time span used to set the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> header.</source>
+          <target state="translated">用來設定的時間範圍<bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control: s-maxage" name="Cache-Control: s-maxage" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;delta&lt;/code&gt;</ph>小於 0。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Sets the <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header to either the <bpt id="p2">&lt;xref uid="langword_csharp_must-revalidate" name="must-revalidate" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or the <bpt id="p3">&lt;xref uid="langword_csharp_proxy-revalidate" name="proxy-revalidate" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> directives based on the supplied enumeration value.</source>
+          <target state="translated">設定<bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 標頭<bpt id="p2">&lt;xref uid="langword_csharp_must-revalidate" name="must-revalidate" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>或<bpt id="p3">&lt;xref uid="langword_csharp_proxy-revalidate" name="proxy-revalidate" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>指示詞會根據提供的列舉值。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The default, which is equivalent to &lt;xref:System.Web.HttpCacheRevalidation&gt;, is to send neither directive in a header unless explicitly specified by this method.</source>
+          <target state="translated">預設值，這相當於&lt;xref:System.Web.HttpCacheRevalidation&gt;，是標頭中傳送未指示詞，除非明確指定這個方法。&lt;/xref:System.Web.HttpCacheRevalidation&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>SetRevalidation is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetRevalidation。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.HttpCacheRevalidation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value to set the <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> header to.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpCacheRevalidation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>列舉值，以設定<bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>標頭。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;revalidation&lt;/code&gt;</ph> is not one of the enumeration values.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;revalidation&lt;/code&gt;</ph>不是其中一個列舉值。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Sets cache expiration to from absolute to sliding.</source>
+          <target state="translated">將快取到期從絕對滑動。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>When cache expiration is set to sliding, the <ph id="ph1">`Cache-Control`</ph> HTTP header will be renewed with each response.</source>
+          <target state="translated">當快取逾期設定為滑動， <ph id="ph1">`Cache-Control`</ph> HTTP 標頭會更新每個回應。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>This expiration mode is identical to the IIS configuration option to add an expiration header to all output set relative to the current time.</source>
+          <target state="translated">這個到期模式等同於 IIS 組態選項，將到期標頭新增至設定相對於目前時間的所有輸出。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>If you explicitly set sliding expiration to off (<ph id="ph1">`false`</ph>), that setting will be preserved and any attempts to enable sliding expiration will silently fail.</source>
+          <target state="translated">如果您明確地將滑動期限設為關閉 (<ph id="ph1">`false`</ph>) 將會保留該設定，任何嘗試啟用滑動期限會以無訊息模式失敗。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This method does not directly map to an HTTP header.</source>
+          <target state="translated">這個方法不會直接對應到 HTTP 標頭。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>It is used by subsequent modules or worker requests to set origin-server cache policy.</source>
+          <target state="translated">它由後續的模組或背景工作要求用來設定來源伺服器快取原則。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>SetSlidingExpiration is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetSlidingExpiration。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>or <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Specifies whether the ASP.NET cache should ignore HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers sent by the client that invalidate the cache.</source>
+          <target state="translated">指定 ASP.NET 快取是否應忽略 HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用戶端傳送標頭，確認快取。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The SetValidUntilExpires method is set to <ph id="ph1">`true`</ph> automatically when the high-level <ph id="ph2">`&lt;%@ OutputCache … %&gt;`</ph> page directive is used.</source>
+          <target state="translated">SetValidUntilExpires 方法設定為<ph id="ph1">`true`</ph>時自動高階<ph id="ph2">`&lt;%@ OutputCache … %&gt;`</ph>使用頁面指示詞。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>This method is provided because some browsers, when refreshing a page view, send HTTP cache invalidation headers to the Web server and evict the page from the cache.</source>
+          <target state="translated">這個方法提供，因為某些瀏覽器時重新整理頁面檢視，將 HTTP 快取失效標頭傳送到 Web 伺服器和收回的頁面上，從快取。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`validUntilExpires`</ph> parameter is <ph id="ph2">`true`</ph>, ASP.NET ignores cache invalidation headers and the page remains in the cache until it expires.</source>
+          <target state="translated">當<ph id="ph1">`validUntilExpires`</ph>參數是<ph id="ph2">`true`</ph>、 ASP.NET 會略過快取失效標頭和頁面會保留在快取，直到過期為止。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>SetValidUntilExpires is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetValidUntilExpires。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the cache ignores <bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> invalidation headers; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果快取會忽略<bpt id="p2">&lt;xref uid="langword_csharp_Cache-Control" name="Cache-Control" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>失效標頭，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Specifies a custom text string to vary cached output responses by.</source>
+          <target state="translated">指定的自訂文字字串來區分快取的輸出回應。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>SetVaryByCustom is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 SetVaryByCustom。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The text string to vary cached output by.</source>
+          <target state="translated">區分快取的輸出的文字字串。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;custom&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;custom&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The SetVaryByCustom method has already been called.</source>
+          <target state="translated">已經呼叫 SetVaryByCustom 方法。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>Gets or sets the timestamp in Coordinated Universal Iime (UTC) for the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">取得或設定時間戳記以協調通用 Iime (UTC) 的<bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DateTime&gt; for the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;xref:System.DateTime&gt; for the <bpt id="p1">&lt;xref href="System.Web.HttpCachePolicy"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Gets the list of <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers that will be used to vary the output cache.</source>
+          <target state="translated">取得清單<bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>將用於變更輸出快取的標頭。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The VaryByContentEncodings property returns a list of Content-Encoding headers that represent compression schemes to vary the output cache by.</source>
+          <target state="translated">VaryByContentEncodings 屬性會傳回代表壓縮配置，來變更輸出快取的內容編碼標頭的清單。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Caching dynamically compressed responses means that the cost of compression is incurred only one time, during the first request for the resource.</source>
+          <target state="translated">快取動態壓縮的回應，表示壓縮成本造成只有一個時段，對資源的第一個要求。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The VaryByContentEncodings property is used with the <ph id="ph1">`Accept-Encoding`</ph> header of a request to determine how to serve cached responses for different content encodings that are dynamically compressed.</source>
+          <target state="translated">搭配使用 VaryByContentEncodings 屬性<ph id="ph1">`Accept-Encoding`</ph>以決定如何提供不同的動態壓縮的內容編碼方式的快取回的應的要求標頭。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The Accept-Encoding header lists the encodings that the client can decompress.</source>
+          <target state="translated">Accept-encoding 標頭會列出可以解壓縮用戶端的編碼方式。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>When you set the cache to vary by content encoding, it lets the response vary indirectly by the value in the <ph id="ph1">`Accept-Encoding`</ph> header.</source>
+          <target state="translated">當您設定內容編碼方式會因快取時，它會讓回應中的值會因間接<ph id="ph1">`Accept-Encoding`</ph>標頭。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>When a request is processed, the <ph id="ph1">`Accept-Encoding`</ph> header is checked and the first acceptable encoding is identified and used to take one of the following actions:      -   If a matching encoding is found in the VaryByContentEncodings list and a cached response exists, the cached response is sent.</source>
+          <target state="translated">當處理要求時，<ph id="ph1">`Accept-Encoding`</ph>檢查標頭，而且第一個可接受編碼在識別用來執行下列動作之一:-如果 VaryByContentEncodings 清單中找到相符的編碼方式和快取的回應存在的話，會傳送快取的回應。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>-   If a matching encoding is found in the VaryByContentEncodings list but a cached response does not exist, a response is generated and inserted into the cache.</source>
+          <target state="translated">-如果 VaryByContentEncodings 清單中找到相符的編碼方式，但快取的回應不存在，回應就會產生，並插入快取。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>-   If a matching encoding is not found in the VaryByContentEncodings list, the cache is searched for a non-encoded response, also referred to as the identity response.</source>
+          <target state="translated">-如果 VaryByContentEncodings 清單中找不到相符的編碼方式，快取中搜尋非編碼回應，也稱為身分識別回應。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>If the non-encoded response is found, it is sent.</source>
+          <target state="translated">如果找到非編碼的回應，它會傳送。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Otherwise, a new non-encoded response is generated, sent, and stored in the cache.</source>
+          <target state="translated">否則，新的非編碼回應會產生、 傳送，並儲存在快取。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>For more information about the VaryByContentEncodings property, see "RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1," which is available on the <bpt id="p1">[</bpt>World Wide Web Consortium (W3C) Web site<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>.</source>
+          <target state="translated">如需 VaryByContentEncodings 屬性的詳細資訊，請參閱"RFC 2616:: 超文字傳輸通訊協定--HTTP/1.1，」 可使用<bpt id="p1">[</bpt>World Wide Web Consortium (W3C) 網站<ept id="p1">](http://go.microsoft.com/fwlink/?linkid=37125)</ept>。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Information about content encodings is in section 14, "Header Field Definitions."</source>
+          <target state="translated">內容編碼方式的相關資訊會在第 14 節 「 標頭欄位定義 」。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>You can set the VaryByContentEncodings property by using the <ph id="ph1">`VaryByContentEncodings`</ph> attribute of the  directive.</source>
+          <target state="translated">您可以透過設定 VaryByContentEncodings 屬性<ph id="ph1">`VaryByContentEncodings`</ph>指示詞的屬性。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>You can also add a cache profile to the  element in the Web.config file.</source>
+          <target state="translated">您也可以加入快取設定檔的 Web.config 檔案中的項目。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>VaryByContentEncodings is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 VaryByContentEncodings。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>An object that specifies which <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> headers are used to select the cached response.</source>
+          <target state="translated">物件，指定其<bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>標頭用來選取快取回的應。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Gets the list of all HTTP headers that will be used to vary cache output.</source>
+          <target state="translated">取得將用於區分快取輸出的所有 HTTP 標頭清單。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>When a cached item has several vary headers, a separate version of the requested document is available from the cache for each HTTP header type.</source>
+          <target state="translated">快取的項目有數個不同標頭，要求的文件的另一個版本可用時，從快取中的每個 HTTP 標頭類型。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>VaryByHeaders is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 VaryByHeaders。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByHeaders"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies which HTTP headers are used to select the cached response.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByHeaders"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定哪些 HTTP 標頭用來選取快取回的應。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Gets the list of parameters received by an HTTP <bpt id="p1">&lt;xref uid="langword_csharp_GET" name="GET" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or HTTP <bpt id="p2">&lt;xref uid="langword_csharp_POST" name="POST" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> that affect caching.</source>
+          <target state="translated">取得由 HTTP 接收的參數清單<bpt id="p1">&lt;xref uid="langword_csharp_GET" name="GET" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或 HTTP <bpt id="p2">&lt;xref uid="langword_csharp_POST" name="POST" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>之影響快取。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>A separate version of the requested document is available from the cache for each named parameter in the VaryByParams collection.</source>
+          <target state="translated">要求的文件的另一個版本可從快取中每個具名參數 VaryByParams 集合。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>VaryByParams is introduced in the .NET Framework version 3.5.</source>
+          <target state="translated">.NET Framework 3.5 版中引進 VaryByParams。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Versions and Dependencies<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>版本和相依性<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByParams"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that specifies which cache-control headers are used to select the cached response.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.HttpCacheVaryByParams"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>指定的快取控制標頭用來選取快取回的應。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
