@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-br">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0131a4243069a10cd83052e713bacc542eb28acd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IdentityModel.Scope.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3e60325bc1b9395814b3faf6a9399d5fe6b9bbe</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">77e0d71c8f84b563ca3cdfe0b4f8ace4b6dfe68d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the configuration for the token issuance request.</source>
+          <target state="translated">Representa a configuração para a solicitação de emissão de token.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Scope class encapsulates information about the relying party (RP) associated with a security token request (RST).</source>
+          <target state="translated">A classe de escopo encapsula informações sobre a terceira parte confiável (RP) associada a uma solicitação de token de segurança (primeira).</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This information is used by implementations of the &lt;xref:System.IdentityModel.SecurityTokenService&gt; class (STS) in the token issuance pipeline to return a response (RSTR) to a security token request (RST).</source>
+          <target state="translated">Essas informações são usadas por implementações de &lt;xref:System.IdentityModel.SecurityTokenService&gt;classe (STS) no pipeline de emissão de token para retornar uma resposta (RSTR) para uma solicitação de token de segurança (primeira).&lt;/xref:System.IdentityModel.SecurityTokenService&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Scope objects contain information about the address of the RP, the encrypting and signing credentials to be used with the issued security token, and whether the token itself or symmetric keys issued with the token should be encrypted.</source>
+          <target state="translated">Objetos de escopo contêm informações sobre o endereço do RP, criptografia e credenciais de autenticação a ser usado com o token de segurança emitido e se o token em si ou chaves simétricas emitidos com o token deve ser criptografado.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, both the token and symmetric keys are encrypted.</source>
+          <target state="translated">Por padrão, as chaves simétricas e token são criptografadas.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can extend the Scope class to carry additional information about the request, such as token types accepted by the RP, default token lifetime, maximum token lifetime, algorithm suites used by the RP, and so on; however, the information encapsulated in this class should not vary for individual requests.</source>
+          <target state="translated">Você pode estender a classe de escopo para conter informações adicionais sobre a solicitação, como tipos de token aceito pelo RP, vida útil do token padrão, a vida útil do token máximo, conjuntos de algoritmo usados pela RP e assim por diante; No entanto, as informações encapsuladas nessa classe não devem variar para solicitações individuais.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The token issuance pipeline is implemented in the &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt; method and this method invokes the &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; method to get the configuration for the RST.</source>
+          <target state="translated">O pipeline de emissão de token é implementado no &lt;xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;método e este método chama o &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;método para obter a configuração para a primeira.&lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; &lt;/xref:System.IdentityModel.SecurityTokenService.Issue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must implement a &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt; method in your custom STS and return a Scope object appropriate for the RP and your STS implementation.</source>
+          <target state="translated">Você deve implementar um &lt;xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;método no STS personalizado e retornar um objeto de escopo apropriado para o RP e sua implementação do STS.&lt;/xref:System.IdentityModel.SecurityTokenService.GetScope%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for the new &lt;xref:System.IdentityModel.Scope&gt; instance.</source>
+          <target state="translated">A tabela a seguir mostra os valores de propriedade inicial para o novo &lt;xref:System.IdentityModel.Scope&gt;instância.&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value.|   |--------------|------------|   |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|<ph id="ph1">`null`</ph> .|   |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|An empty dictionary.|   |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|<ph id="ph4">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|   |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|</source>
+          <target state="translated">| Propriedade | Valor. |   |--------------|------------|   | &lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;| <ph id="ph1">`null`</ph> .|   | &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;| <ph id="ph2">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.Properties%2A&gt;| Um dicionário vazio. |   | &lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;| <ph id="ph3">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;| <ph id="ph4">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;| <ph id="ph5">`true`</ph>.|   | &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;| <ph id="ph6">`true`</ph>.|&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;&lt;/xref:System.IdentityModel.Scope.Properties%2A&gt;&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified appliesTo address.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe com o endereço appliesTo especificado.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for the new &lt;xref:System.IdentityModel.Scope&gt; instance.</source>
+          <target state="translated">A tabela a seguir mostra os valores de propriedade inicial para o novo &lt;xref:System.IdentityModel.Scope&gt;instância.&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value.|   |--------------|------------|   |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|The value of the <ph id="ph1">`appliesToAddress`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|An empty dictionary.|   |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|<ph id="ph4">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|   |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|</source>
+          <target state="translated">| Propriedade | Valor. |   |--------------|------------|   | &lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;| O valor de <ph id="ph1">`appliesToAddress`</ph> parâmetro. |   | &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;| <ph id="ph2">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.Properties%2A&gt;| Um dicionário vazio. |   | &lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;| <ph id="ph3">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;| <ph id="ph4">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;| <ph id="ph5">`true`</ph>.|   | &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;| <ph id="ph6">`true`</ph>.|&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;&lt;/xref:System.IdentityModel.Scope.Properties%2A&gt;&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The appliesTo address of the relying party.</source>
+          <target state="translated">O endereço appliesTo da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">Geralmente é um URI.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified appliesTo address and encrypting credentials.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe com o endereço especificado appliesTo e criptografar credenciais.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for the new &lt;xref:System.IdentityModel.Scope&gt; instance.</source>
+          <target state="translated">A tabela a seguir mostra os valores de propriedade inicial para o novo &lt;xref:System.IdentityModel.Scope&gt;instância.&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value.|   |--------------|------------|   |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|The value of the <ph id="ph1">`appliesToAddress`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|An empty dictionary.|   |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|The value of the <ph id="ph4">`signingCredentials`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|   |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|</source>
+          <target state="translated">| Propriedade | Valor. |   |--------------|------------|   | &lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;| O valor de <ph id="ph1">`appliesToAddress`</ph> parâmetro. |   | &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;| <ph id="ph2">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.Properties%2A&gt;| Um dicionário vazio. |   | &lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;| <ph id="ph3">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;| O valor de <ph id="ph4">`signingCredentials`</ph> parâmetro. |   | &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;| <ph id="ph5">`true`</ph>.|   | &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;| <ph id="ph6">`true`</ph>.|&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;&lt;/xref:System.IdentityModel.Scope.Properties%2A&gt;&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The appliesTo address of the relying party.</source>
+          <target state="translated">O endereço appliesTo da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">Geralmente é um URI.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The encrypting credentials for the relying party.</source>
+          <target state="translated">As credenciais de criptografia para a terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified appliesTo address and signing credentials.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe com o endereço especificado appliesTo e as credenciais de assinatura.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for the new &lt;xref:System.IdentityModel.Scope&gt; instance.</source>
+          <target state="translated">A tabela a seguir mostra os valores de propriedade inicial para o novo &lt;xref:System.IdentityModel.Scope&gt;instância.&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value.|   |--------------|------------|   |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|The value of the <ph id="ph1">`appliesToAddress`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|<ph id="ph2">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|An empty dictionary.|   |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|The value of the <ph id="ph4">`signingCredentials`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|   |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|</source>
+          <target state="translated">| Propriedade | Valor. |   |--------------|------------|   | &lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;| O valor de <ph id="ph1">`appliesToAddress`</ph> parâmetro. |   | &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;| <ph id="ph2">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.Properties%2A&gt;| Um dicionário vazio. |   | &lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;| <ph id="ph3">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;| O valor de <ph id="ph4">`signingCredentials`</ph> parâmetro. |   | &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;| <ph id="ph5">`true`</ph>.|   | &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;| <ph id="ph6">`true`</ph>.|&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;&lt;/xref:System.IdentityModel.Scope.Properties%2A&gt;&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The appliesTo address of the relying party.</source>
+          <target state="translated">O endereço appliesTo da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">Geralmente é um URI.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The signing credentials for the relying party.</source>
+          <target state="translated">As credenciais de assinatura da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified appliesTo address, signing credentials, and encrypting credentials.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.IdentityModel.Scope"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe com o endereço appliesTo especificado, as credenciais de assinatura e criptografia de credenciais.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the initial property values for the new &lt;xref:System.IdentityModel.Scope&gt; instance.</source>
+          <target state="translated">A tabela a seguir mostra os valores de propriedade inicial para o novo &lt;xref:System.IdentityModel.Scope&gt;instância.&lt;/xref:System.IdentityModel.Scope&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Value|   |--------------|-----------|   |&lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;|The value of the <ph id="ph1">`appliesToAddress`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;|The value of the <ph id="ph2">`encryptingCredentials`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.Properties%2A&gt;|An empty dictionary.|   |&lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;|<ph id="ph3">`null`</ph>.|   |&lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;|The value of the <ph id="ph4">`signingCredentials`</ph> parameter.|   |&lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;|<ph id="ph5">`true`</ph>.|   |&lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;|<ph id="ph6">`true`</ph>.|</source>
+          <target state="translated">| Propriedade | Valor |   |--------------|-----------|   | &lt;xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;| O valor de <ph id="ph1">`appliesToAddress`</ph> parâmetro. |   | &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;| O valor de <ph id="ph2">`encryptingCredentials`</ph> parâmetro. |   | &lt;xref:System.IdentityModel.Scope.Properties%2A&gt;| Um dicionário vazio. |   | &lt;xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;| <ph id="ph3">`null`</ph>.|   | &lt;xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;| O valor de <ph id="ph4">`signingCredentials`</ph> parâmetro. |   | &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;| <ph id="ph5">`true`</ph>.|   | &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;| <ph id="ph6">`true`</ph>.|&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;&lt;/xref:System.IdentityModel.Scope.SigningCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.ReplyToAddress%2A&gt;&lt;/xref:System.IdentityModel.Scope.Properties%2A&gt;&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;&lt;/xref:System.IdentityModel.Scope.AppliesToAddress%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The appliesTo address of the relying party.</source>
+          <target state="translated">O endereço appliesTo da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">Geralmente é um URI.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The signing credentials for the relying party.</source>
+          <target state="translated">As credenciais de assinatura da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The encrypting credentials for the relying party.</source>
+          <target state="translated">As credenciais de criptografia para a terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets or sets the appliesTo address of the relying party.</source>
+          <target state="translated">Obtém ou define o endereço appliesTo da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The appliesTo address of the relying party.</source>
+          <target state="translated">O endereço appliesTo da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">Geralmente é um URI.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets or sets the encrypting credentials for the relying party.</source>
+          <target state="translated">Obtém ou define as credenciais de criptografia para a terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt; property is <ph id="ph1">`true`</ph>, the credentials are used to encrypt issued security tokens.</source>
+          <target state="translated">Se o &lt;xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;é de propriedade <ph id="ph1">`true`</ph>, as credenciais são usadas para criptografar tokens de segurança emitidos.&lt;/xref:System.IdentityModel.Scope.TokenEncryptionRequired%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt; property is <ph id="ph1">`true`</ph>, the credentials are used to encrypt symmetric keys issued with security tokens.</source>
+          <target state="translated">Se o &lt;xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;é de propriedade <ph id="ph1">`true`</ph>, as credenciais são usadas para criptografar chaves simétricas emitidas com tokens de segurança.&lt;/xref:System.IdentityModel.Scope.SymmetricKeyEncryptionRequired%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The encrypting credentials to be used for the relying party.</source>
+          <target state="translated">As credenciais de criptografia a ser usado para a terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets the properties bag to extend the object.</source>
+          <target state="translated">Obtém o recipiente de propriedades para estender o objeto.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The properties bag.</source>
+          <target state="translated">O recipiente de propriedades.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets or sets the replyTo address of the relying party.</source>
+          <target state="translated">Obtém ou define o endereço replyTo da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The replyTo address of the relying party.</source>
+          <target state="translated">O endereço replyTo da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This is typically a URI.</source>
+          <target state="translated">Geralmente é um URI.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets or sets the signing credentials for the relying party.</source>
+          <target state="translated">Obtém ou define as credenciais de assinatura da terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The signing credentials to be used for the relying party.</source>
+          <target state="translated">As credenciais de autenticação a ser usado para a terceira parte confiável.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether issued symmetric keys must be encrypted.</source>
+          <target state="translated">Obtém ou define um valor que indica se as chaves simétricas emitidas devem ser criptografadas.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the SymmetricKeyEncryptionRequired property is <ph id="ph1">`true`</ph>, symmetric keys are encrypted using the credentials in the &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt; property.</source>
+          <target state="translated">Se a propriedade SymmetricKeyEncryptionRequired <ph id="ph1">`true`</ph>, chaves simétricas são criptografadas usando as credenciais no &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;propriedade.&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if symmetric keys must be encrypted; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se as chaves simétricas devem ser criptografadas; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O padrão é <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether issued security tokens must be encrypted.</source>
+          <target state="translated">Obtém ou define um valor que indica se os tokens de segurança emitidos devem ser criptografados.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the TokenEncryptionRequired property is <ph id="ph1">`true`</ph>, security tokens are encrypted using the credentials in the &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt; property.</source>
+          <target state="translated">Se a propriedade TokenEncryptionRequired <ph id="ph1">`true`</ph>, tokens de segurança são criptografados usando as credenciais no &lt;xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;propriedade.&lt;/xref:System.IdentityModel.Scope.EncryptingCredentials%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if security tokens must be encrypted; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se os tokens de segurança devem ser criptografados; Caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O padrão é <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

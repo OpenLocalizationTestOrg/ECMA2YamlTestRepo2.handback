@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d66e028c567f177512e973b1bf40d0af70c456d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5150b5057234f0beb1231f0297dcd9526889c332</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">49c9d6e48c11ad3a73443e77781304be6aef06ca</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Contains the results from executing the <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> against an instance store.</source>
+          <target state="translated">Tartalmazza az eredményeket a végrehajtása a <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> egy példány tárolóban.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance store should periodically search for activatable workflow instances that belong to a workflow host that uses the store.</source>
+          <target state="translated">Az Egypéldányos tároló, amely a tárolót használja a munkafolyamat-gazda tartozó aktiválója munkafolyamat-példányok az rendszeres időközönként keresheti.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It should raise the &lt;xref:System.Activities.DurableInstancing.HasActivatableWorkflowEvent&gt; when it finds an activatable instance in the persistence store.</source>
+          <target state="translated">Akkor kell tennie a &lt;xref:System.Activities.DurableInstancing.HasActivatableWorkflowEvent&gt;Ha talál egy aktiválója példányát az állapotmegőrző tárolóban.&lt;/xref:System.Activities.DurableInstancing.HasActivatableWorkflowEvent&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the instance store does not find an activatable instance in the persistence store, it should continue to monitor the persistence store for any activatable instances.</source>
+          <target state="translated">Ha a példánytárolóban nem aktiválója példánya található az állapotmegőrző tárolóban, az állapotmegőrző tárolóban, bármilyen aktiválója példányok figyeléséhez továbbra is.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After raising the HasActivatableWorkflowEvent, the instance store should stop monitoring the persistence store for activatable instances until it receives and executes the &lt;xref:System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand&gt;.</source>
+          <target state="translated">A HasActivatableWorkflowEvent emelése, miután a példánytárolóban álljon le, az állapotmegőrző tárolóban aktiválója példányok figyelése, amíg nem kap, és végrehajtja a &lt;xref:System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand&gt;.&lt;/xref:System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The monitoring continues only if the command execution does not return any activatable workflow instances.</source>
+          <target state="translated">A figyelő továbbra is csak ha a parancs végrehajtása nem ad vissza semmilyen aktiválója munkafolyamat-példányok.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a generic host receives this event, it executes the &lt;xref:System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand&gt; against the instance store to obtain activation parameters required to create a workflow host.</source>
+          <target state="translated">Amikor egy általános állomás megkapja ezt az eseményt, végrehajtja a &lt;xref:System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand&gt;szemben a példánytárolóban az beszerzése egy munkafolyamat-gazda létrehozásához szükséges aktiválási paraméterek.&lt;/xref:System.Activities.DurableInstancing.QueryActivatableWorkflowsCommand&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The generic host uses these activation parameters to create a workflow host, which in turn loads and runs the service instance.</source>
+          <target state="translated">Az általános állomás ezen aktiválási paraméterek segítségével hozzon létre egy munkafolyamat-gazda, ami viszont betölt, és a szolgáltatáspéldány futtat.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The activation parameters for the WAS activation type are: Site Name, Application Path (relative to the site), and Service Path (relative to the application).</source>
+          <target state="translated">A WAS aktiválási típus aktiválási paraméterek: hely neve, az alkalmazás elérési útja (képest a hely) és a szolgáltatás elérési útját (relatív az alkalmazás).</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance store could return multiple sets of these three activation parameters.</source>
+          <target state="translated">Az Egypéldányos tároló több beállítása a következő három aktiválási paraméterek visszaadhatja.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A generic host is a host that has an XName parameter named <bpt id="p1">**</bpt>ActivationType<ept id="p1">**</ept>, which should be set to a value supported by the instance store.</source>
+          <target state="translated">Egy általános gazdagépre olyan gazdagépet, amely XName paramétere a nevű <bpt id="p1">**</bpt>ActivationType<ept id="p1">**</ept>, amely támogatja a példánytárolóban értékre kell beállítani.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Currently, the SQL Workflow Instance Store supports generic hosts with ActivationType parameter set to value: <bpt id="p1">**</bpt>WAS<ept id="p1">**</ept>.</source>
+          <target state="translated">Jelenleg a SQL munkafolyamat példány áruház támogatja az általános állomások ActivationType paraméter értéke: <bpt id="p1">**</bpt>WAS<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the ActivationType is not set at all, the SQL Workflow Instance Store treats the host as a generic host.</source>
+          <target state="translated">Ha a ActivationType egyáltalán nincs beállítva, az SQL-munkafolyamat Példánytárolóban kezeli a gazdagép általános gazdagépként.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Workflow Management Service that ships with the code named “Dublin” (Application Server Extensions for .NET 4.0) is a generic host that has the activation type set to <bpt id="p1">**</bpt>WAS<ept id="p1">**</ept>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A munkafolyamat felügyeleti szolgáltatás, hogy a kód hajók neve "Dublin" (Application Server Extensions for .NET 4.0-s) nem rendelkező általános állomás az aktiválási típusa <bpt id="p1">**</bpt>WAS<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes an instance of the <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy példányát inicializálja a <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and initializes the &lt;xref:System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult.ActivationParameters*&gt; property with the data in the dictionary object passed in as a parameter.</source>
+          <target state="translated">Létrehoz egy példányát a <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály és inicializálása a &lt;xref:System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult.ActivationParameters*&gt;paraméterként átadott tulajdonság az adatokat a szótárobjektum.&lt;/xref:System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult.ActivationParameters*&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A dictionary object containing activation parameters.</source>
+          <target state="translated">Aktiválási paraméterek tartalmazó szótárobjektum.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and initializes the &lt;xref:System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult.ActivationParameters*&gt; property with the data in the enumerable dictionary object passed in as a parameter.</source>
+          <target state="translated">Létrehoz egy példányát a <bpt id="p1">&lt;xref href="System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály és inicializálása a &lt;xref:System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult.ActivationParameters*&gt;paraméterként átadott tulajdonság az adatokat a számbavehető szótárobjektum.&lt;/xref:System.Activities.DurableInstancing.ActivatableWorkflowsQueryResult.ActivationParameters*&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>An enumerable dictionary object containing activation parameters.</source>
+          <target state="translated">Az aktiválási paraméterek tartalmazó enumerálható szótárobjektum.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A list of activation parameters that a generic host uses to create a workflow host.</source>
+          <target state="translated">Egy általános gazdagép által használt egy munkafolyamat-gazda létrehozásához aktiválási paraméterek listáját.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A List object containing activation parameters.</source>
+          <target state="translated">Egy lista objektumot tartalmazó aktiválási paraméterek.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

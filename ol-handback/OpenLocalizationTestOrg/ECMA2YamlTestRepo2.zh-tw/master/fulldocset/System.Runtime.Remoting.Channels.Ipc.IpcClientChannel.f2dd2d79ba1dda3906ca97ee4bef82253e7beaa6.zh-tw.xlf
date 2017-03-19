@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fc9c658c3c045f0fd297b10d048f30c95d6128d8</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0ed2ea0b0afff2110b32d3328abb0e3df536a11b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">af7276eb57830069e6730c74ec37667da49f0a52</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Implements a client channel for remote calls that uses the IPC protocol to transmit messages.</source>
+          <target state="translated">實作的用戶端通道為使用 IPC 通訊協定以傳輸訊息的遠端呼叫。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Channels are used by the.NET Framework remoting infrastructure to transport remote calls.</source>
+          <target state="translated">通道會使用.net Framework 遠端處理基礎結構來傳輸遠端呼叫。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>When a client calls a remote object, the call is serialized into a message that is sent by a client channel and received by a server channel.</source>
+          <target state="translated">當用戶端呼叫遠端物件時，呼叫會序列化成訊息是由用戶端通道所傳送和接收的伺服器通道。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>After the message is received, it is deserialized and processed.</source>
+          <target state="translated">收到訊息之後，它是還原序列化，並處理。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Any returned values are transmitted by the server channel and received by the client channel.</source>
+          <target state="translated">任何傳回的值是由伺服器通道傳送，並由用戶端通道接收。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The IpcClientChannel class uses the Windows interprocess communication (IPC) system to transport messages between application domains on the same computer.</source>
+          <target state="translated">IpcClientChannel 類別會在相同電腦上的應用程式定義域之間使用 Windows 處理序間通訊 (IPC) 系統來傳輸訊息。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When communicating between application domains on the same computer, the IPC channel is much faster than the TCP or HTTP channels.</source>
+          <target state="translated">在相同電腦上的應用程式定義域之間的通訊，IPC 通道時，速度比 TCP 或 HTTP 通道。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>To perform additional processing of messages on the client side, you can specify an implementation of the &lt;xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider&gt; interface through which all messages processed by the IpcClientChannel object will be passed.</source>
+          <target state="translated">若要執行額外處理的訊息用戶端，您可以指定的實作&lt;xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider&gt;透過 IpcClientChannel 物件所處理的所有訊息都傳遞介面。&lt;/xref:System.Runtime.Remoting.Channels.IClientChannelSinkProvider&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>By default, the IpcClientChannel class uses a binary formatter to serialize all messages.</source>
+          <target state="translated">根據預設，IpcClientChannel 類別會使用二進位格式子，將所有訊息都序列化。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>A IpcClientChannel object has associated configuration properties that can be set at run time either in a configuration file (by invoking the static &lt;xref:System.Runtime.Remoting.RemotingConfiguration.Configure%2A?displayProperty=fullName&gt; method) or programmatically (by passing a &lt;xref:System.Collections.IDictionary&gt; collection to the &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.%23ctor%2A&gt; constructor).</source>
+          <target state="translated">IpcClientChannel 物件具有相關聯的組態屬性可以設定在執行階段組態檔中 (藉由叫用靜態&lt;xref:System.Runtime.Remoting.RemotingConfiguration.Configure%2A?displayProperty=fullName&gt;方法) 或以程式設計方式 (藉由傳遞&lt;xref:System.Collections.IDictionary&gt;集合&lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.%23ctor%2A&gt;建構函式)。&lt;/xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.%23ctor%2A&gt; &lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Runtime.Remoting.RemotingConfiguration.Configure%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For a list of these configuration properties, see the documentation for the &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.%23ctor%2A&gt; constructor.</source>
+          <target state="translated">如需這些組態屬性的清單，請參閱文件&lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.%23ctor%2A&gt;建構函式。&lt;/xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.%23ctor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcServerChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcServerChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The configuration properties of the &lt;xref:System.Runtime.Remoting.Channels.Tcp.TcpClientChannel&gt; instance returned by this constructor are all set to their default values.</source>
+          <target state="translated">組態屬性&lt;xref:System.Runtime.Remoting.Channels.Tcp.TcpClientChannel&gt;這個建構函式所傳回的執行個體設定為其預設值。&lt;/xref:System.Runtime.Remoting.Channels.Tcp.TcpClientChannel&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The following table shows the default value for each configuration property.</source>
+          <target state="translated">下表顯示每個組態屬性的預設值。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>|Configuration property|Description|   |----------------------------|-----------------|   |<ph id="ph1">`name`</ph>|The default name is "ipc client".</source>
+          <target state="translated">|組態屬性 |描述 |  |----------------------------|-----------------|  |<ph id="ph1">`name`</ph>|預設名稱是 「 ipc 用戶端 」。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Each channel must have a unique name.|   |<ph id="ph1">`priority`</ph>|The default priority is 1.|</source>
+          <target state="translated">每個通道都必須具有唯一的名稱。 |  |<ph id="ph1">`priority`</ph>|預設優先權為 1。 |</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcClientChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified configuration properties and sink.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcClientChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>具有指定之組態屬性和接收器的類別。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For more information about channel configuration properties, see <bpt id="p1">[</bpt>Channel and Formatter Configuration Properties<ept id="p1">](http://msdn.microsoft.com/en-us/226ecf74-ebbd-4ea0-a701-dcf4441deefe)</ept>.</source>
+          <target state="translated">如需通道組態屬性的詳細資訊，請參閱<bpt id="p1">[</bpt>通道和格式器組態屬性<ept id="p1">](http://msdn.microsoft.com/en-us/226ecf74-ebbd-4ea0-a701-dcf4441deefe)</ept>。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If you do not require sink functionality, set the <ph id="ph1">`sinkProvider`</ph> parameter to <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">如果您不需要接收功能，設定<ph id="ph1">`sinkProvider`</ph>參數<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Collections.IDictionary&gt; collection that specifies values for configuration properties to be used by the channel.</source>
+          <target state="translated">A&lt;xref:System.Collections.IDictionary&gt;指定之通道所使用的組態屬性值的集合。&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IServerChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to be used by the channel.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IServerChannelSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>通道所使用的實作。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcClientChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified name and sink.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.Ipc.IpcClientChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>具有指定的名稱和接收器的類別。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This constructor sets the &lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.ChannelName%2A&gt; property by using the <ph id="ph1">`name`</ph> parameter.</source>
+          <target state="translated">這個建構函式設定&lt;xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.ChannelName%2A&gt;屬性使用<ph id="ph1">`name`</ph>參數。&lt;/xref:System.Runtime.Remoting.Channels.Ipc.IpcClientChannel.ChannelName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If you want to register more than one channel, each channel must have a unique name.</source>
+          <target state="translated">如果您想要註冊一個以上的通道，每個通道都必須具有唯一的名稱。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you do not require sink functionality, set the <ph id="ph1">`sinkProvider`</ph> parameter to <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">如果您不需要接收功能，設定<ph id="ph1">`sinkProvider`</ph>參數<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The name of the channel.</source>
+          <target state="translated">通道的名稱。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> implementation to be used by the channel.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Remoting.Channels.IClientChannelSinkProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>通道所使用的實作。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the name of the current channel.</source>
+          <target state="translated">取得目前通道的名稱。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Every registered channel has a unique name.</source>
+          <target state="translated">每個已註冊的通道都有唯一的名稱。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name is used to retrieve a specific channel when calling the &lt;xref:System.Runtime.Remoting.Channels.ChannelServices.GetChannel%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">名稱用來呼叫時，擷取特定頻道&lt;xref:System.Runtime.Remoting.Channels.ChannelServices.GetChannel%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Runtime.Remoting.Channels.ChannelServices.GetChannel%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The default name is "ipc client".</source>
+          <target state="translated">預設名稱是 「 ipc 用戶端 」。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; instance that contains the name of the channel.</source>
+          <target state="translated">A&lt;xref:System.String&gt;執行個體，其中包含通道的名稱。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets the priority of the current channel.</source>
+          <target state="translated">取得目前通道的優先權。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The priority controls the order in which competing clients connect to a given endpoint; higher priority channels connect before lower priority channels.</source>
+          <target state="translated">優先順序控制的順序中的競爭的用戶端連線到指定的端點。較高的優先順序通道連線之前較低優先順序通道。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The default priority is 1; negative priorities are allowed.</source>
+          <target state="translated">預設優先權為 1。允許使用負值的優先順序。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An integer that indicates the priority assigned to the channel.</source>
+          <target state="translated">整數，表示指派給通道的優先權。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Returns a channel message sink that delivers messages to the specified URL or channel data object.</source>
+          <target state="translated">傳回將訊息傳遞至指定的 URL 或通道資料物件的通道訊息接收。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The CreateMessageSink method returns a channel message sink that delivers messages to either the specified URL or the channel data object.</source>
+          <target state="translated">CreateMessageSink 方法會傳回將訊息傳遞至指定的 URL 或通道資料物件的通道訊息接收。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`uri`</ph> parameter is <ph id="ph2">`null`</ph>, <ph id="ph3">`remoteChannelData`</ph> is used as a target for the sink.</source>
+          <target state="translated">如果<ph id="ph1">`uri`</ph>參數是<ph id="ph2">`null`</ph>，<ph id="ph3">`remoteChannelData`</ph>接收做為目標。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Either the <ph id="ph1">`url`</ph> or <ph id="ph2">`remoteChannelData`</ph> parameters can be <ph id="ph3">`null`</ph>, but not both.</source>
+          <target state="translated">可能是<ph id="ph1">`url`</ph>或<ph id="ph2">`remoteChannelData`</ph>參數可以是<ph id="ph3">`null`</ph>，但非兩者。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The URL to which the new sink delivers messages.</source>
+          <target state="translated">新的接收將訊息傳遞的 URL。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個參數可以是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The channel data object of the remote host to which the new sink will deliver messages.</source>
+          <target state="translated">新的接收應該將訊息傳遞的遠端主機的通道資料物件。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個參數可以是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the URI of the new channel message sink that delivers messages to the specified URL or channel data object.</source>
+          <target state="translated">這個方法傳回時，包含將訊息傳遞至指定的 URL 或通道資料物件的新通道訊息接收的 URI。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A channel message sink that delivers messages to the specified URL or channel data object.</source>
+          <target state="translated">通道訊息的接收，將訊息傳遞至指定的 URL 或通道資料物件。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The provided sink does not implement <bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMessageSink"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">提供的接收未實作<bpt id="p1">&lt;xref href="System.Runtime.Remoting.Messaging.IMessageSink"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the current channel is secure.</source>
+          <target state="translated">取得或設定布林值，指出目前的通道是否安全。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A Boolean value that indicates whether the current instance is secure.</source>
+          <target state="translated">布林值，指出目前的執行個體是否為安全。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Extracts the channel URI and the remote well-known object URI from the specified URL.</source>
+          <target state="translated">從指定的 URL 擷取通道的 URI 以及遠端的已知物件的 URI。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The URL from which to extract the object URI.</source>
+          <target state="translated">要從中擷取物件 URI URL。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>When this method returns, a &lt;xref:System.String&gt; instance that holds the URI of the remote well-known object.</source>
+          <target state="translated">此方法傳回時，&lt;xref:System.String&gt;遠端的已知物件的 URI 會保存的執行個體。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">這個參數未初始化便傳遞。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that contains the channel URI.</source>
+          <target state="translated">A &lt;xref:System.String&gt;，其中包含通道 URI。&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

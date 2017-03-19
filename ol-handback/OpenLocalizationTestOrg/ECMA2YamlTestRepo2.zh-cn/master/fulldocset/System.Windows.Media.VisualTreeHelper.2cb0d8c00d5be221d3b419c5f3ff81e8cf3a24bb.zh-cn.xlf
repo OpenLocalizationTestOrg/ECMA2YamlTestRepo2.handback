@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2d1be838ed22bdf5f1c9157974c5a138117fec5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.VisualTreeHelper.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0926e20da5cdbc153bc9f06878a2675c84a380f1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">873a24dee826c7c55f5b7c719c77bc76907e849f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides utility methods that perform common tasks involving nodes in a visual tree.</source>
+          <target state="translated">提供实用工具方法，用于执行涉及可视化树中的节点的常见任务。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Nodes in the visual tree can be either &lt;xref:System.Windows.Media.Visual&gt; or &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; objects.</source>
+          <target state="translated">可视化树中的节点可以是&lt;xref:System.Windows.Media.Visual&gt;或&lt;xref:System.Windows.Media.Media3D.Visual3D&gt;对象。&lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Methods that are specific to a type of visual object are typed as either &lt;xref:System.Windows.Media.Visual&gt; or &lt;xref:System.Windows.Media.Media3D.Visual3D&gt;.</source>
+          <target state="translated">特定于一种视觉对象的方法被类型化为其中一种&lt;xref:System.Windows.Media.Visual&gt;或&lt;xref:System.Windows.Media.Media3D.Visual3D&gt;。&lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>However, some methods in the VisualTreeHelper class can accept a &lt;xref:System.Windows.DependencyObject&gt; value that represents either type of visual object.</source>
+          <target state="translated">但是，可以接受 VisualTreeHelper 类中的某些方法&lt;xref:System.Windows.DependencyObject&gt;表示其中任何一种视觉对象的值。&lt;/xref:System.Windows.DependencyObject&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> supports programmatic access to several different tree structures of objects.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>支持以编程方式访问的对象的几种不同树结构。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Primarily, this is exposed as a visual tree and a logical tree.</source>
+          <target state="translated">主要原因是，此名称公开为可视化树和逻辑树。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>In some cases, the logical tree is a more useful representation of the elements in a <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> application, but conceptually the logical tree is implemented at a level beyond the &lt;xref:System.Windows.Media.Visual&gt; class.</source>
+          <target state="translated">在某些情况下，逻辑树是中的元素的更多有用表示<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>在超出&lt;xref:System.Windows.Media.Visual&gt;类&lt;/xref:System.Windows.Media.Visual&gt;级别实现应用程序，但从概念上讲逻辑树</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Unlike the visual tree, the logical tree can represent nonvisual data objects, such as &lt;xref:System.Windows.Documents.ListItem&gt;.</source>
+          <target state="translated">与可视化树中，不同的逻辑树可以表示非可视化数据对象，如&lt;xref:System.Windows.Documents.ListItem&gt;.&lt;/xref:System.Windows.Documents.ListItem&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For more information on the logical tree, see <bpt id="p1">[</bpt>Trees in WPF<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">有关逻辑树的详细信息，请参阅<bpt id="p1">[</bpt>WPF 中的树<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The logical tree also is supported by a similar utility method class, &lt;xref:System.Windows.LogicalTreeHelper&gt;.</source>
+          <target state="translated">逻辑树还支持一个类似的实用工具方法类， &lt;xref:System.Windows.LogicalTreeHelper&gt;.&lt;/xref:System.Windows.LogicalTreeHelper&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值指定<bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the bitmap effect.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含的位图效果。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffectInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffectInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值指定<bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the bitmap effect input value.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含位图效果的输入的值。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffectInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffectInput"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Retrieves the cached representation of the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">检索指定的缓存的表示<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to get the <bpt id="p2">&lt;xref href="System.Windows.Media.CacheMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to get the <bpt id="p2">&lt;xref href="System.Windows.Media.CacheMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.CacheMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">reference</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.CacheMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">reference</ph><ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Returns the child visual object from the specified collection index within a specified parent.</source>
+          <target state="translated">返回子 visual 对象从指定的父项中的指定的集合索引。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Windows.Media.VisualTreeHelper.GetChildrenCount%2A&gt; method to determine the total number of child elements of a parent visual.</source>
+          <target state="translated">调用&lt;xref:System.Windows.Media.VisualTreeHelper.GetChildrenCount%2A&gt;方法来确定父可视对象的子元素的总数。&lt;/xref:System.Windows.Media.VisualTreeHelper.GetChildrenCount%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The value of <ph id="ph1">`reference`</ph> can represent either a &lt;xref:System.Windows.Media.Visual&gt; or &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; object, which is why the common base type &lt;xref:System.Windows.DependencyObject&gt; is used here as a parameter type.</source>
+          <target state="translated">值<ph id="ph1">`reference`</ph>可以表示&lt;xref:System.Windows.Media.Visual&gt;或&lt;xref:System.Windows.Media.Media3D.Visual3D&gt;对象，这正是公共基类型&lt;xref:System.Windows.DependencyObject&gt;使用此处作为参数类型。&lt;/xref:System.Windows.DependencyObject&gt; &lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The parent visual, referenced as a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">父可视对象，作为引用<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The index that represents the child visual that is contained by <ph id="ph1">`reference`</ph>.</source>
+          <target state="translated">表示子视觉对象所包含的索引<ph id="ph1">`reference`</ph>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The index value of the child visual object.</source>
+          <target state="translated">子 visual 对象的索引值。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns the number of children that the specified visual object contains.</source>
+          <target state="translated">返回的包含指定的视觉对象的子级的个数。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Media.VisualTreeHelper.GetChild%2A&gt; method to retrieve a specified child of a parent visual.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Media.VisualTreeHelper.GetChild%2A&gt;方法来检索父可视对象的指定的子。&lt;/xref:System.Windows.Media.VisualTreeHelper.GetChild%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The value of <ph id="ph1">`reference`</ph> can represent either a &lt;xref:System.Windows.Media.Visual&gt; or &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; object, which is why the common base type &lt;xref:System.Windows.DependencyObject&gt; is used here as a parameter type.</source>
+          <target state="translated">值<ph id="ph1">`reference`</ph>可以表示&lt;xref:System.Windows.Media.Visual&gt;或&lt;xref:System.Windows.Media.Media3D.Visual3D&gt;对象，这正是公共基类型&lt;xref:System.Windows.DependencyObject&gt;使用此处作为参数类型。&lt;/xref:System.Windows.DependencyObject&gt; &lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The parent visual that is referenced as a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">作为引用的父可视<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The number of child visuals that the parent visual contains.</source>
+          <target state="translated">父可视对象包含的子视觉对象数。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Return the clip region of the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as a <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">返回指定的剪辑区域<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>作为<bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose clip region value is returned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回其剪辑区域值。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The clip region value of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returned as a <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> type.</source>
+          <target state="translated">剪辑区域值<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>作为返回<bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>类型。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Returns the cached bounding box rectangle for the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回指定的缓存边界框矩形<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt; method to return the union of all the content bounding boxes for all the descendants of a 3D visual object, which includes the &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; itself.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt;方法返回的所有内容边界框的 3D visual 对象，其中包括的所有子代联合&lt;xref:System.Windows.Media.Media3D.Visual3D&gt;本身。&lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The 3D visual whose bounding box value is computed.</source>
+          <target state="translated">计算的 3D 可视对象的边界框值。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The bounding box 3D rectangle for the <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">边界框 3D 矩形<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Returns the cached bounding box rectangle for the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回指定的缓存边界框矩形<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt; method to return the union of all the content bounding boxes for all the descendants of a visual object, which includes the &lt;xref:System.Windows.Media.Visual&gt; itself.</source>
+          <target state="translated">调用&lt;xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt;方法返回的所有内容边界框的 visual 对象，其中包括的所有子代联合&lt;xref:System.Windows.Media.Visual&gt;本身。&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Media.VisualTreeHelper.GetDescendantBounds%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose bounding box value is computed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>计算其边界框值。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The bounding box rectangle for the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">边界框矩形<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Returns the union of all the content bounding boxes for all the descendants of the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which includes the content bounding box of the <bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回的所有内容为所有的后代中的指定边界框的联合<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，其中包括内容边界框<bpt id="p2">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt; method to return the cached bounding box rectangle for a 3D visual object.</source>
+          <target state="translated">调用&lt;xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt;方法以返回 3D 视觉对象中缓存的边界框矩形。&lt;/xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The 3D visual whose bounding box value for all descendants is computed.</source>
+          <target state="translated">计算的 3D 可视对象的所有后代其边界框值。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Returns the bounding box 3D rectangle for the 3D visual.</source>
+          <target state="translated">返回的三维可视对象的边界框 3D 矩形。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Returns the union of all the content bounding boxes for all the descendants of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which includes the content bounding box of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回的所有内容边界框的所有后代联合<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，其中包括内容边界框<bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Call the &lt;xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt; method to return the cached bounding box rectangle for a &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">调用&lt;xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt;方法来返回已缓存边界框&lt;xref:System.Windows.Media.Visual&gt;.&lt;/xref:System.Windows.Media.Visual&gt;矩形&lt;/xref:System.Windows.Media.VisualTreeHelper.GetContentBounds%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose bounding box value for all descendants is computed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>计算所有后代其边界框值。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The bounding box rectangle for the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">指定的边界框矩形<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the DPI information at which this Visual is measured and rendered.</source>
+          <target state="translated">获取此视觉对象是测量并呈现的 DPI 信息。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The Visual target object.</source>
+          <target state="translated">Visual 目标对象。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A DPIScale value.</source>
+          <target state="translated">一个 DPIScale 值。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Returns the drawing content of the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回指定的绘制内容<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose drawing content is returned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回其绘制内容。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The drawing content of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returned as a <bpt id="p2">&lt;xref href="System.Windows.Media.DrawingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> type.</source>
+          <target state="translated">绘制内容<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>作为返回<bpt id="p2">&lt;xref href="System.Windows.Media.DrawingGroup"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>类型。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Returns the edge mode of the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> as an <bpt id="p2">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">返回指定的边缘模式<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>作为<bpt id="p2">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The edge mode value determines how the edges of non-text primitives are rendered.</source>
+          <target state="translated">边缘模式值确定非文本基元的边缘的呈现方式。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>|Edge mode value|Description|   |---------------------|-----------------|   |&lt;xref:System.Windows.Media.EdgeMode&gt;|Render edges of non-text primitives as aliased edges.|   |&lt;xref:System.Windows.Media.EdgeMode&gt;|No edge mode is specified.</source>
+          <target state="translated">|边缘模式值 |说明 |  |---------------------|-----------------|  |&lt;xref:System.Windows.Media.EdgeMode&gt;|呈现为锯齿边缘的非文本基元的边缘。 |  |&lt;xref:System.Windows.Media.EdgeMode&gt;|指定无边缘模式。&lt;/xref:System.Windows.Media.EdgeMode&gt; &lt;/xref:System.Windows.Media.EdgeMode&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Do not change the current edge mode that is applied to non-text primitives.|</source>
+          <target state="translated">不要更改当前应用于非文本基元的边缘模式。 |</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose edge mode value is returned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回其边缘模式值。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.EdgeMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Gets the bitmap effect for the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">获取指定的位图效果<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to get the bitmap effect for.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>若要获取的位图效果。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.Effect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> applied to <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">reference</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.Effect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> applied to <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">reference</ph><ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Returns the offset of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回的偏移量<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The returned offset value is relative to the parent of the &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">偏移量的返回的值是相对于的&lt;xref:System.Windows.Media.Visual&gt;。&lt;/xref:System.Windows.Media.Visual&gt;父级</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>If you want to return an offset value that is not relative to the parent of a &lt;xref:System.Windows.Media.Visual&gt;, use the &lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt; method.</source>
+          <target state="translated">如果你想要返回不是相对于的父级的偏移量的值&lt;xref:System.Windows.Media.Visual&gt;，使用&lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;方法。&lt;/xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose offset is returned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回其偏移量。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Vector"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the offset value of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Windows.Vector"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示的偏移量的值<bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Returns the opacity of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回的不透明度<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The value of the opacity is expressed as a value between 0 and 1.</source>
+          <target state="translated">不透明度的值表示为介于 0 和 1 之间的值。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A value of 0 indicates that the element is completely transparent, while a value of 1 indicates that the element is completely opaque.</source>
+          <target state="translated">值为 0，则表示该元素完全透明，如果值为 1 指示元素是完全不透明。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A value of 0.5 indicates that the element is 50 percent opaque.</source>
+          <target state="translated">如果值为 0.5 表示该元素为 50%不透明。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Values less than 0 are treated as 0, and values greater than 1 are treated as 1.</source>
+          <target state="translated">值小于 0 将被视为 0，而大于 1 的值将被视为 1。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose opacity value is returned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回其不透明度值。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>A value of type &lt;xref:System.Double&gt; that represents the opacity value of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">类型的值&lt;xref:System.Double&gt;表示的不透明度值<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。&lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the opacity mask of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值，该值表示的不透明蒙<bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The opacity mask is a &lt;xref:System.Windows.Media.Brush&gt; that is applied to any alpha-channel masking for the rendered content of this &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">不透明蒙版在于&lt;xref:System.Windows.Media.Brush&gt;，应用于此&lt;xref:System.Windows.Media.Visual&gt;。&lt;/xref:System.Windows.Media.Visual&gt;所呈现内容的任何 alpha 通道蒙&lt;/xref:System.Windows.Media.Brush&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose opacity mask value is returned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回其不透明度掩码值。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A value of type <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the opacity mask value of the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">类型的值<bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示的不透明度掩码值<bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that represents the parent of the visual object.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref href="System.Windows.DependencyObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示的视觉对象的父项的值。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The value of <ph id="ph1">`reference`</ph> can represent either a &lt;xref:System.Windows.Media.Visual&gt; or &lt;xref:System.Windows.Media.Media3D.Visual3D&gt; object.</source>
+          <target state="translated">值<ph id="ph1">`reference`</ph>可以表示&lt;xref:System.Windows.Media.Visual&gt;或&lt;xref:System.Windows.Media.Media3D.Visual3D&gt;对象。&lt;/xref:System.Windows.Media.Media3D.Visual3D&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The visual whose parent is returned.</source>
+          <target state="translated">返回其父视觉对象。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The parent of the visual.</source>
+          <target state="translated">视觉对象的父级。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Windows.Media.Transform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value for the <bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回<bpt id="p1">&lt;xref href="System.Windows.Media.Transform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值<bpt id="p2">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Alternatively, you can use the &lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt; method to return a transform value for the ancestor of a &lt;xref:System.Windows.Media.Visual&gt;.</source>
+          <target state="translated">或者，可以使用该&lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;方法返回的一种&lt;xref:System.Windows.Media.Visual&gt;。&lt;/xref:System.Windows.Media.Visual&gt;祖先的转换值&lt;/xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>This method always returns a valid transform.</source>
+          <target state="translated">此方法始终返回一个有效的转换。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The following code example shows how to use &lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt; method.</source>
+          <target state="translated">下面的代码示例演示如何使用&lt;xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;方法。&lt;/xref:System.Windows.Media.Visual.TransformToAncestor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>VisualSnippets#VisualSnippet3<ept id="p2">](~/add/codesnippet/visualbasic/visualsnippets/window1.xaml.vb#visualsnippet3)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>VisualSnippets#VisualSnippet3<ept id="p4">](~/add/codesnippet/csharp/VisualSnippets/Window1.xaml.cs#visualsnippet3)</ept><ept id="p3">]</ept></source>
+          <target state="translated"><bpt id="p1">[!code-vb</bpt><bpt id="p2">[</bpt>VisualSnippets #VisualSnippet3<ept id="p2">](~/add/codesnippet/visualbasic/visualsnippets/window1.xaml.vb#visualsnippet3)</ept><ept id="p1">]</ept><bpt id="p3">[!code-cs</bpt><bpt id="p4">[</bpt>VisualSnippets #VisualSnippet3  <ept id="p4">](~/add/codesnippet/csharp/VisualSnippets/Window1.xaml.cs#visualsnippet3)</ept><ept id="p3">]</ept></target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose transform value is returned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回其转换值。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The transform value of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">reference</ph><ept id="p3">&lt;/code&gt;</ept> does not have a transform defined.</source>
+          <target state="translated">转换值<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>如果<bpt id="p3">&lt;code&gt;</bpt> <ph id="ph1">reference</ph> <ept id="p3">&lt;/code&gt;</ept>没有一个定义的转换。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Returns an X-coordinate (vertical) guideline collection.</source>
+          <target state="translated">返回 X 坐标 （垂直） 准线集合。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Pixel snapping is the process in which content layout is fixed so that object edges are rendered on device-specific pixels.</source>
+          <target state="translated">像素对齐是内容的布局固定，以便对象边缘呈现特定于设备的像素的过程。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> graphics system uses device-independent units to enable resolution and device independence.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>图形系统使用独立于设备的单位来启用分辨率和设备独立。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Each device independent pixel automatically scales with the system's <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> setting.</source>
+          <target state="translated">使用系统的自动缩放每个设备无关的像素<ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph>设置。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This provides <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> applications proper scaling for different <ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> settings and makes the application automatically <ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>-aware.</source>
+          <target state="translated">这提供了<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>应用程序正确缩放为不同<ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>设置并自动使应用程序<ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>-感知。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>However, this <ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> independence can create irregular edge rendering due to anti-aliasing.</source>
+          <target state="translated">但是，这<ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>独立性可能会由于抗锯齿的不规则的边缘呈现出。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>These artifacts, commonly seen as blurry, or "soft" edges, can occur when the location of an edge falls in the middle of a device pixel rather than between device pixels.</source>
+          <target state="translated">当边缘的位置位于中间设备像素，而不是设备像素之间，会发生这些项目，通常被视为分明，还是"软"边缘。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To address this issue, <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> provides a way for object edges in a visual tree to "snap" to device pixels through pixel snapping, eliminating the soft edges produced by anti-aliasing.</source>
+          <target state="translated">若要解决此问题，<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>提供一种方法与设备像素为单位通过像素对齐，"对齐"可视化树中的对象边缘消除产生抗锯齿的软边缘。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose X-coordinate guideline collection is returned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回其 X 坐标准线集合。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The X-coordinate guideline collection of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">X 坐标准线集合<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Returns a Y-coordinate (horizontal) guideline collection.</source>
+          <target state="translated">返回 Y 坐标 （水平） 准线集合。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Pixel snapping is the process in which content layout is fixed so that object edges are rendered on device-specific pixels.</source>
+          <target state="translated">像素对齐是内容的布局固定，以便对象边缘呈现特定于设备的像素的过程。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> graphics system uses device-independent units to enable resolution and device independence.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>图形系统使用独立于设备的单位来启用分辨率和设备独立。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Each device independent pixel automatically scales with the system's <ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph> setting.</source>
+          <target state="translated">使用系统的自动缩放每个设备无关的像素<ph id="ph1">[!INCLUDE[TLA#tla_dpi](~/add/includes/ajax-current-ext-md.md)]</ph>设置。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This provides <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> applications proper scaling for different <ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> settings and makes the application automatically <ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>-aware.</source>
+          <target state="translated">这提供了<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>应用程序正确缩放为不同<ph id="ph2">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>设置并自动使应用程序<ph id="ph3">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>-感知。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>However, this <ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph> independence can create irregular edge rendering due to anti-aliasing.</source>
+          <target state="translated">但是，这<ph id="ph1">[!INCLUDE[TLA2#tla_dpi](~/add/includes/tla2sharptla-dpi-md.md)]</ph>独立性可能会由于抗锯齿的不规则的边缘呈现出。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>These artifacts, commonly seen as blurry, or "soft" edges, can occur when the location of an edge falls in the middle of a device pixel rather than between device pixels.</source>
+          <target state="translated">当边缘的位置位于中间设备像素，而不是设备像素之间，会发生这些项目，通常被视为分明，还是"软"边缘。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>To address this issue, <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> provides a way for object edges in a visual tree to "snap" to device pixels through pixel snapping, eliminating the soft edges produced by anti-aliasing.</source>
+          <target state="translated">若要解决此问题，<ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph>提供一种方法与设备像素为单位通过像素对齐，"对齐"可视化树中的对象边缘消除产生抗锯齿的软边缘。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose Y-coordinate guideline collection is returned.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>返回其 Y 坐标准线集合。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The Y-coordinate guideline collection of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Y 坐标准线集合<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Returns the topmost <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of a hit test by specifying a <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">返回的最顶层<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>通过指定的命中测试的对象<bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Media.HitTestResult.VisualHit%2A&gt; property of the return value represents the &lt;xref:System.Windows.Media.Visual&gt; object that was hit.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.HitTestResult.VisualHit%2A&gt;属性的返回值表示&lt;xref:System.Windows.Media.Visual&gt;命中对象。&lt;/xref:System.Windows.Media.Visual&gt; &lt;/xref:System.Windows.Media.HitTestResult.VisualHit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is possible for a hit test that starts in a 2D visual tree to return &lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;, which is a 3D hit test result object.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; 可能的命中测试返回二维可视化树中启动&lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;，这是一个三维命中的测试结果对象。&lt;/xref:System.Windows.Media.Media3D.RayHitTestResult&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Hit testing that starts in a 2D visual tree seamlessly extends into any defined 3D visual tree.</source>
+          <target state="translated">命中测试二维的可视化树中的启动无缝地延伸至任何定义的 3D 可视化树。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to hit test.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要进行命中测试。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The point value to hit test against.</source>
+          <target state="translated">要进行命中测试的点值。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The hit test result of the <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, returned as a <bpt id="p2">&lt;xref href="System.Windows.Media.HitTestResult"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> type.</source>
+          <target state="translated">命中的测试结果<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、 作为返回<bpt id="p2">&lt;xref href="System.Windows.Media.HitTestResult"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>类型。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Initiates a hit test on the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, with caller-defined <bpt id="p2">&lt;xref href="System.Windows.Media.HitTestFilterCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref href="System.Windows.Media.HitTestResultCallback"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> methods.</source>
+          <target state="translated">启动对指定命中的测试<bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，使用调用方定义<bpt id="p2">&lt;xref href="System.Windows.Media.HitTestFilterCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>和<bpt id="p3">&lt;xref href="System.Windows.Media.HitTestResultCallback"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>方法。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`filterCallback`</ph> parameter can be <ph id="ph2">`null`</ph>, in which case, it is ignored.</source>
+          <target state="translated"><ph id="ph1">`filterCallback`</ph>参数可以为<ph id="ph2">`null`</ph>，在这种情况下，它将被忽略。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`filterCallback`</ph> is not <ph id="ph2">`null`</ph>, it is invoked before <ph id="ph3">`resultCallback`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`filterCallback`</ph>不<ph id="ph2">`null`</ph>之前, 调用<ph id="ph3">`resultCallback`</ph>。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`resultCallback`</ph> cannot be <ph id="ph2">`null`</ph>.</source>
+          <target state="translated"><ph id="ph1">`resultCallback`</ph>不能为<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is possible for a hit test that starts in a 2D visual tree to return &lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;, which is a 3D hit test result object.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; 可能的命中测试返回二维可视化树中启动&lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;，这是一个三维命中的测试结果对象。&lt;/xref:System.Windows.Media.Media3D.RayHitTestResult&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Hit testing that starts in a 2D visual tree seamlessly extends into any defined 3D visual tree.</source>
+          <target state="translated">命中测试二维的可视化树中的启动无缝地延伸至任何定义的 3D 可视化树。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to hit test.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Media3D.Visual3D"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要进行命中测试。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The method that represents the hit test filter callback value.</source>
+          <target state="translated">表示命中的测试筛选回调值的方法。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The method that represents the hit test result callback value.</source>
+          <target state="translated">表示命中的测试结果回调值的方法。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The 3D parameter value to hit test against.</source>
+          <target state="translated">要命中测试的 3D 参数值。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Initiates a hit test on the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, with caller-defined <bpt id="p2">&lt;xref href="System.Windows.Media.HitTestFilterCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref href="System.Windows.Media.HitTestResultCallback"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> methods.</source>
+          <target state="translated">启动对指定命中的测试<bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，使用调用方定义<bpt id="p2">&lt;xref href="System.Windows.Media.HitTestFilterCallback"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>和<bpt id="p3">&lt;xref href="System.Windows.Media.HitTestResultCallback"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>方法。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`filterCallback`</ph> parameter can be <ph id="ph2">`null`</ph>, in which case it is ignored.</source>
+          <target state="translated"><ph id="ph1">`filterCallback`</ph>参数可以为<ph id="ph2">`null`</ph>，在这种情况下它将被忽略。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`filterCallback`</ph> is not <ph id="ph2">`null`</ph>, it is invoked before <ph id="ph3">`resultCallback`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`filterCallback`</ph>不<ph id="ph2">`null`</ph>之前, 调用<ph id="ph3">`resultCallback`</ph>。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`resultCallback`</ph> cannot be <ph id="ph2">`null`</ph>.</source>
+          <target state="translated"><ph id="ph1">`resultCallback`</ph>不能为<ph id="ph2">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is possible for a hit test that starts in a 2D visual tree to return &lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;, which is a 3D hit test result object.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; 可能的命中测试返回二维可视化树中启动&lt;xref:System.Windows.Media.Media3D.RayHitTestResult&gt;，这是一个三维命中的测试结果对象。&lt;/xref:System.Windows.Media.Media3D.RayHitTestResult&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Hit testing that starts in a 2D visual tree seamlessly extends into any defined 3D visual tree.</source>
+          <target state="translated">命中测试二维的可视化树中的启动无缝地延伸至任何定义的 3D 可视化树。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to hit test.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Media.Visual"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要进行命中测试。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The method that represents the hit test filter callback value.</source>
+          <target state="translated">表示命中的测试筛选回调值的方法。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The method that represents the hit test result callback value.</source>
+          <target state="translated">表示命中的测试结果回调值的方法。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The parameter value to hit test against.</source>
+          <target state="translated">要命中测试的参数值。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Updates the DPI information of a Visual.</source>
+          <target state="translated">更新视觉对象的 DPI 信息。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>It can only be called on a Visual without a parent.</source>
+          <target state="translated">它只能调用在无父视觉对象上。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>A Visual object target.</source>
+          <target state="translated">视觉对象目标。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>DPI information for the target Visual.</source>
+          <target state="translated">目标 Visual 的 DPI 信息。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

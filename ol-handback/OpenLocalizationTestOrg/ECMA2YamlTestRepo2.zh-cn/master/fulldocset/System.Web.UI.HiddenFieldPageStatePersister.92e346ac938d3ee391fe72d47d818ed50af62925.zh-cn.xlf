@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a99717b7b656fad38c46e072ef7b632e07dca2df</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.HiddenFieldPageStatePersister.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7fee01bbd99cfe07330a5602c41d87571b8d30ef</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2936632a32404261550ab6a3a7105c02c8599fb4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Stores ASP.NET page view state on the Web client in a hidden HTML element.</source>
+          <target state="translated">在中隐藏的 HTML 元素的 Web 客户端上存储 ASP.NET 页面视图状态。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ASP.NET pages can store &lt;xref:System.Web.UI.Page&gt; state between the inherently stateless HTTP request and response required to process and serve any Web page.</source>
+          <target state="translated">可以存储 ASP.NET 页面&lt;xref:System.Web.UI.Page&gt;之间本质上是无状态的 HTTP 请求和响应处理和提供任何网页所需状态。&lt;/xref:System.Web.UI.Page&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This state is called "view state".</source>
+          <target state="translated">此状态称为"查看状态"。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The default mechanism used to store view state for a page and its controls is in one or more <ph id="ph1">`&lt;hidden&gt;`</ph> HTML fields included in the page that is served to a client from a Web server.</source>
+          <target state="translated">用于存储页面和其控件的视图状态的默认机制是在一个或多个<ph id="ph1">`&lt;hidden&gt;`</ph>从 Web 服务器提供给客户端的页面中包含的 HTML 字段。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.Page&gt; class can use the HiddenFieldPageStatePersister class to do this work.</source>
+          <target state="translated">&lt;xref:System.Web.UI.Page&gt;类可以使用 HiddenFieldPageStatePersister 类来完成此工作。&lt;/xref:System.Web.UI.Page&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>HiddenFieldPageStatePersister implements the &lt;xref:System.Web.UI.HiddenFieldPageStatePersister.Save%2A&gt; and &lt;xref:System.Web.UI.HiddenFieldPageStatePersister.Load%2A&gt; methods of the &lt;xref:System.Web.UI.PageStatePersister&gt; class so that the &lt;xref:System.Web.UI.Page&gt; can store state in a <ph id="ph1">`&lt;hidden&gt;`</ph> HTML element named "__VIEWSTATE" on a Web client.</source>
+          <target state="translated">HiddenFieldPageStatePersister 实现&lt;xref:System.Web.UI.HiddenFieldPageStatePersister.Save%2A&gt;和&lt;xref:System.Web.UI.HiddenFieldPageStatePersister.Load%2A&gt;方法&lt;xref:System.Web.UI.PageStatePersister&gt;类，以便&lt;xref:System.Web.UI.Page&gt;可以存储在状态<ph id="ph1">`&lt;hidden&gt;`</ph>名为"__VIEWSTATE"Web 客户端上的 HTML 元素。&lt;/xref:System.Web.UI.Page&gt; &lt;/xref:System.Web.UI.PageStatePersister&gt; &lt;/xref:System.Web.UI.HiddenFieldPageStatePersister.Load%2A&gt; &lt;/xref:System.Web.UI.HiddenFieldPageStatePersister.Save%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When the client requests the same page from the Web server (a postback), the <ph id="ph1">`&lt;hidden&gt;`</ph> element is parsed and converted to state information by ASP.NET.</source>
+          <target state="translated">当客户端请求同一页上，从 Web 服务器 （回发），<ph id="ph1">`&lt;hidden&gt;`</ph>分析元素并将其转换为状态信息的 ASP.NET。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Web.UI.Page&gt; instance that is requested has an associated &lt;xref:System.Web.UI.Adapters.PageAdapter&gt; class, it retrieves the &lt;xref:System.Web.UI.PageStatePersister&gt; object from this adapter using the &lt;xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt; method.</source>
+          <target state="translated">如果&lt;xref:System.Web.UI.Page&gt;请求的实例都有一个相关&lt;xref:System.Web.UI.Adapters.PageAdapter&gt;类，它将检索&lt;xref:System.Web.UI.PageStatePersister&gt;从此适配器使用的对象&lt;xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt;方法。&lt;/xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt; &lt;/xref:System.Web.UI.PageStatePersister&gt; &lt;/xref:System.Web.UI.Adapters.PageAdapter&gt; &lt;/xref:System.Web.UI.Page&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Adapters can override the &lt;xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt; method to return a &lt;xref:System.Web.UI.PageStatePersister&gt; object that stores page and control state in some way that a specific client supports.</source>
+          <target state="translated">可以重写适配器&lt;xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt;方法以返回&lt;xref:System.Web.UI.PageStatePersister&gt;对象，用于以特定的客户端支持某种方式存储页和控件状态。&lt;/xref:System.Web.UI.PageStatePersister&gt; &lt;/xref:System.Web.UI.Adapters.PageAdapter.GetStatePersister%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For example, the &lt;xref:System.Web.UI.SessionPageStatePersister&gt; class stores page and controls' state on the Web server, instead of the client, to decrease the amount of information that must be sent and stored on a client that has potentially limited memory and bandwidth.</source>
+          <target state="translated">例如，&lt;xref:System.Web.UI.SessionPageStatePersister&gt;类将页和控件的状态存储在 Web 服务器上，而不是客户端，减少了必须发送和存储在客户端可能具有有限的内存和带宽的信息。&lt;/xref:System.Web.UI.SessionPageStatePersister&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The maximum size of the "_VIEWSTATE" <ph id="ph1">`&lt;hidden&gt;`</ph> HTML element can be set through the &lt;xref:System.Web.UI.Page.MaxPageStateFieldLength%2A&gt; property or through the &lt;xref:System.Web.Configuration.PagesSection.MaxPageStateFieldLength%2A&gt; configuration setting.</source>
+          <target state="translated">"_VIEWSTATE"的最大大小<ph id="ph1">`&lt;hidden&gt;`</ph>可通过设置 HTML 元素&lt;xref:System.Web.UI.Page.MaxPageStateFieldLength%2A&gt;属性或通过&lt;xref:System.Web.Configuration.PagesSection.MaxPageStateFieldLength%2A&gt;配置设置。&lt;/xref:System.Web.Configuration.PagesSection.MaxPageStateFieldLength%2A&gt; &lt;/xref:System.Web.UI.Page.MaxPageStateFieldLength%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>When this value is set and the length of the "_VIEWSTATE" element would exceed the maximum length, the content is divided into multiple "_VIEWSTATE" elements.</source>
+          <target state="translated">当设置此值和"_VIEWSTATE"元素的长度将超过最大长度时，内容被划分多个"_VIEWSTATE"元素。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.HiddenFieldPageStatePersister"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.UI.HiddenFieldPageStatePersister"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that the view state persistence mechanism is created for.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>为创建的视图状态持久性机制。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Deserializes and loads persisted state information from an <bpt id="p1">&lt;xref href="System.Web.HttpRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object when a <bpt id="p2">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object initializes its control hierarchy.</source>
+          <target state="translated">反序列化并将从保留的状态信息加载<bpt id="p1">&lt;xref href="System.Web.HttpRequest"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对象时<bpt id="p2">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>对象初始化其控件层次结构。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.HiddenFieldPageStatePersister&gt; class implements the Load method to load page and control state information from an incoming request to the Web server.</source>
+          <target state="translated">&lt;xref:System.Web.UI.HiddenFieldPageStatePersister&gt;类实现负载方法，可以从传入的请求的页和控件的状态信息加载到 Web 服务器。&lt;/xref:System.Web.UI.HiddenFieldPageStatePersister&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ObjectStateFormatter&gt; object accessed by the &lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt; property is used to deserialize the data.</source>
+          <target state="translated">&lt;xref:System.Web.UI.ObjectStateFormatter&gt;访问的对象&lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt;属性用于反序列化数据。&lt;/xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt; &lt;/xref:System.Web.UI.ObjectStateFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The Load method could not successfully deserialize the state information contained in the request to the Web server.</source>
+          <target state="translated">Load 方法无法不成功反序列化到 Web 服务器请求中包含的状态信息。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Serializes any object state contained in the &lt;xref:System.Web.UI.PageStatePersister.ViewState<bpt id="p1">*</bpt>&gt; or &lt;xref:System.Web.UI.PageStatePersister.ControlState<ept id="p1">*</ept>&gt; property and writes the state to the response stream.</source>
+          <target state="translated">序列化中包含任何对象状态&lt;&gt; <bpt id="p1">*</bpt>1&gt; 或&lt;&gt; <ept id="p1">*</ept>1&gt; 属性，并将写入响应流的状态。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.HiddenFieldPageStatePersister&gt; implements the Save method to persist page and control state to a client by writing it to a <ph id="ph1">`&lt;hidden&gt;`</ph> HTML element in the outgoing response to the client.</source>
+          <target state="translated">&lt;xref:System.Web.UI.HiddenFieldPageStatePersister&gt;实现 Save 方法，以写入到保留给客户端的页和控件状态<ph id="ph1">`&lt;hidden&gt;`</ph>到客户端的传出响应中的 HTML 元素。&lt;/xref:System.Web.UI.HiddenFieldPageStatePersister&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.ObjectStateFormatter&gt; object accessed by the &lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt; property is used to deserialize the data.</source>
+          <target state="translated">&lt;xref:System.Web.UI.ObjectStateFormatter&gt;访问的对象&lt;xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt;属性用于反序列化数据。&lt;/xref:System.Web.UI.PageStatePersister.StateFormatter%2A&gt; &lt;/xref:System.Web.UI.ObjectStateFormatter&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
