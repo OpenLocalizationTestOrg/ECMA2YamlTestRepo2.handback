@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">47b8e4b950129a21b4b1c99257bf151060f70c7b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.Serialization.DesignerSerializationManager.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">309e45a51d6c5f0fe91d220569a4e8b5b4ddd904</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3d10d95625110147c0bf5bb1d1f5dd295770667</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an implementation of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface.</source>
+          <target state="translated">Biedt een implementatie van de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> interface.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt; interface is designed to be a format-independent interface to an object that controls serialization.</source>
+          <target state="translated">De &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;interface is ontworpen om te worden van een interface onafhankelijk van de indeling naar een object dat bepaalt van serialisatie.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It essentially provides context and services to serializers, which actually perform the deserialization.</source>
+          <target state="translated">In wezen biedt context en services aan objectserializers die daadwerkelijk uitvoeren van het deserialiseren.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt; assists in the deserialization process by keeping track of objects.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;het deserialisatieproces helpt door de objecten te houden.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is similar in technique to the &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; interface: designers actually provide the user interface (UI), and &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; provides the glue that allows different designers to work together.</source>
+          <target state="translated">Dit is vergelijkbaar in techniek de &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;interface: designers daadwerkelijk zorgen voor de gebruikersinterface (UI) en &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;biedt de lijm waarmee verschillende designers om samen te werken.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignerSerializationManager class implements &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;.</source>
+          <target state="translated">De DesignerSerializationManager klasse implementeert &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is designed to provide a generic form of deserialization that is similar to run-time serializers like the &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;.</source>
+          <target state="translated">Het is zodanig ontworpen dat een generieke formulier van deserialisatie die vergelijkbaar is met runtime-objectserializers zoals de &lt;xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;.&lt;/xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignerSerializationManager class achieves three goals:      -   It is a simple, turnkey object that can be used to deserialize a variety of formats.</source>
+          <target state="translated">De klasse DesignerSerializationManager realiseert drie doelen:-het is een eenvoudige, klare-object dat kan worden gebruikt voor het deserialiseren van een groot aantal indelingen.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It is generic and not tied to any particular format.</source>
+          <target state="translated">-Het is algemeen zijn en zijn niet gekoppeld aan een bepaalde opmaak.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used equally for CodeDOM deserialization as well as markup deserialization.</source>
+          <target state="translated">Het kan zowel worden gebruikt voor CodeDOM-deserialisatie, evenals markup deserialisatie.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   It is extensible and supports different serialization methods that are used in copy/paste and undo/redo scenarios.</source>
+          <target state="translated">-Het kan worden uitgebreid en biedt ondersteuning voor verschillende serialisatie methoden die worden gebruikt in kopiëren en plakken en ongedaan maken/opnieuw scenario's.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Design-time serialization has the following differences from run-time object serialization:      -   The object performing the serialization is generally separate from the run-time object, so that design-time logic can be removed from a component.</source>
+          <target state="translated">Ontwerptijd serialisatie heeft de volgende verschillen van de runtime-object serialisatie:-het uitvoeren van de serialisatie-object is doorgaans gescheiden van de runtime-object zodat ontwerptijd logica van een onderdeel kan worden verwijderd.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The serialization scheme assumes the object will be created fully initialized, and then modified through property and method invocations during deserialization.</source>
+          <target state="translated">-De serialisatie-schema wordt ervan uitgegaan dat het object wordt gemaakt volledig geïnitialiseerd, en vervolgens via de eigenschap en methode aanroepen zijn gewijzigd tijdens de deserialisatie.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Properties of an object that have values that were never set on the object (the properties contain the default values) are not serialized.</source>
+          <target state="translated">-Eigenschappen van een object met waarden die nooit zijn ingesteld op het object (de eigenschappen bevatten de standaardwaarden) zijn niet geserialiseerd.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversely, the deserialization stream may have holes.</source>
+          <target state="translated">De stroom deserialiseren kan daarentegen gaten hebben.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Emphasis is placed on the quality of the content within the serialization stream, rather than the full serialization of an object.</source>
+          <target state="translated">-De nadruk wordt op de kwaliteit van de inhoud van de serialisatiestroom, in plaats van de volledige serialisatie van een object geplaatst.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that if there is no defined way to serialize an object, that object may be skipped rather than throwing an exception.</source>
+          <target state="translated">Dit betekent dat als er geen gedefinieerde manier voor het serialiseren van een object, dat object kan worden overgeslagen in plaats van er een uitzondering is opgetreden.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization engine may provide heuristics here to decide which failures can be ignored and which are unrecoverable.</source>
+          <target state="translated">De serialisatie-engine kan bieden methodiek hier om te bepalen welke fouten kunnen worden genegeerd en welke onherstelbare zijn.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The serialization stream may have more data than is needed for deserialization.</source>
+          <target state="translated">-De serialisatiestroom wellicht meer gegevens dan nodig is voor de deserialisatie.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Source code serialization, for example, has user code mixed in with the code needed to deserialize an object graph.</source>
+          <target state="translated">Serialisatie van bron-code, heeft bijvoorbeeld gebruikerscode gemengd met de code die nodig zijn voor het deserialiseren van een objectgrafiek.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This user code must be ignored on deserialization and preserved on serialization.</source>
+          <target state="translated">Deze gebruikerscode moet worden genegeerd bij deserialisatie en behouden op serialisatie.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because of these differences, a different serialization model applies to design-time serialization.</source>
+          <target state="translated">Vanwege deze verschillen, is een andere serialisatie-model van toepassing op moment van ontwerp serialisatie.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This model utilizes a separate serializer object for each data type being serialized.</source>
+          <target state="translated">Dit model maakt gebruik van een afzonderlijke serializer-object voor elk gegevenstype worden geserialiseerd.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each serializer provides its small contribution to the problem as a whole.</source>
+          <target state="translated">Elke serializer biedt kleine bijdragen tot het probleem als geheel.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These serializers are all coordinated through a common serialization manager.</source>
+          <target state="translated">Deze objectserializers worden alle gecoördineerd via een gemeenschappelijke serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization manager is responsible for maintaining state between these different serializers.</source>
+          <target state="translated">De serialisatie-manager is verantwoordelijk voor het onderhouden van de status tussen deze verschillende objectserializers.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As an example, consider the following class:       <bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#2<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_1.cs)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#2<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_1.vb)</ept><ept id="p3">]</ept>       An instance of this class would utilize three different serializers: one for <ph id="ph1">`SampleObject`</ph>, one for strings, and another for integers.</source>
+          <target state="translated">Houd rekening met de volgende klasse als een voorbeeld: <bpt id="p1">[!code-cs</bpt> <bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#2<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_1.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#2<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_1.vb)</ept> <ept id="p3">]</ept> drie verschillende objectserializers zou gebruikmaken van een exemplaar van deze klasse: één voor <ph id="ph1">`SampleObject`</ph>, één voor tekenreeksen en een voor gehele getallen.  </target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serializer for <ph id="ph1">`SampleObject`</ph> is called the root serializer because <ph id="ph2">`SampleObject`</ph> is the root of the serialization graph.</source>
+          <target state="translated">De serialisatiefunctie voor <ph id="ph1">`SampleObject`</ph> de serializer van de hoofdmap wordt genoemd, omdat <ph id="ph2">`SampleObject`</ph> is de hoofdmap van de serialisatiegrafiek.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>More complex object graphs can be created as well.</source>
+          <target state="translated">Complexere objectgrafieken kunnen ook worden gemaakt.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, consider what would happen if <ph id="ph1">`SampleObject`</ph> were changed as follows:       <bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#11<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_2.cs)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#11<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_2.vb)</ept><ept id="p3">]</ept>       This allows <ph id="ph2">`SampleObject`</ph> to have a child that is another instance of itself.</source>
+          <target state="translated">Denk bijvoorbeeld wat er zou gebeuren als <ph id="ph1">`SampleObject`</ph> zijn als volgt gewijzigd: <bpt id="p1">[!code-cs</bpt> <bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#11<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_2.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#11<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_2.vb)</ept> <ept id="p3">]</ept> hierdoor <ph id="ph2">`SampleObject`</ph> hebben een onderliggend element dat een ander exemplaar van zichzelf.  </target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following code fills in the object graph:       <bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#12<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_3.cs)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#12<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_3.vb)</ept><ept id="p3">]</ept>       When <ph id="ph1">`root`</ph> is serialized, there will be four serializers used: one root serializer, one serializer for the child <ph id="ph2">`SampleObject`</ph>, one serializer for <ph id="ph3">`int`</ph>, and one serializer for <ph id="ph4">`string`</ph>.</source>
+          <target state="translated">De volgende code in de objectgrafiek ingevuld: <bpt id="p1">[!code-cs</bpt> <bpt id="p2">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#12<ept id="p2">](~/add/codesnippet/csharp/t-system.componentmodel._7_3.cs)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>System.ComponentModel.Design.Serialization.DesignerSerializationManager.SampleObject#12<ept id="p4">](~/add/codesnippet/visualbasic/t-system.componentmodel._7_3.vb)</ept> <ept id="p3">]</ept> wanneer <ph id="ph1">`root`</ph> geserialiseerd, zullen er vier objectserializers gebruikt: één toegangspunt serializer, een serialisatiefunctie voor het onderliggende <ph id="ph2">`SampleObject`</ph>, één serialisatiefunctie voor <ph id="ph3">`int`</ph>, en één serialisatiefunctie voor <ph id="ph4">`string`</ph>.  </target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Serializers are cached based on type, so there is no need to create a serializer for each instance of <ph id="ph1">`SampleObject`</ph>.</source>
+          <target state="translated">Objectserializers in cache zijn opgeslagen op basis van type, dus u hoeft niet te maken van een serialisatiefunctie voor elk exemplaar van <ph id="ph1">`SampleObject`</ph>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DesignerSerializationManager class is based on the idea of a serialization session.</source>
+          <target state="translated">De klasse DesignerSerializationManager is gebaseerd op het idee van een sessie voor serialisatie.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A session maintains state that can be accessed by the various serializers.</source>
+          <target state="translated">Een sessie zorgt ervoor dat toegankelijk is voor de verschillende objectserializers.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a session is disposed, this state is destroyed.</source>
+          <target state="translated">Wanneer een sessie is verwijderd, wordt deze status wordt vernietigd.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This helps to ensure that serializers remain largely stateless, and helps to clean up serializers that are have been corrupted.</source>
+          <target state="translated">Dit zorgt ervoor dat objectserializers grotendeels staatloze blijven en helpt om op te schonen objectserializers die zijn beschadigd.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following tables describe how state is managed in and among sessions.</source>
+          <target state="translated">De volgende tabellen beschrijven hoe status wordt beheerd in en tussen sessies.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Global State    This state is owned by the serialization manager object, but is independent of the current serialization session.</source>
+          <target state="translated">Globale status deze status is eigendom van het beheerobject voor serialisatie, maar is onafhankelijk van de huidige sessie van serialisatie.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Object|Usage|   |------------|-----------|   |Serialization providers|Objects can add themselves as custom serialization providers.</source>
+          <target state="translated">| Object | Gebruik |   |------------|-----------|   | Serialisatie providers | Objecten kunnen zichzelf toevoegen als aangepaste serialisatie-providers.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because these providers are used to locate serializers, they outlive a serialization session.|      ## Session-Owned State    This state is owned by a session and is destroyed when a session is destroyed.</source>
+          <target state="translated">Omdat deze providers worden gebruikt voor het vinden van objectserializers, ze een serialisatiebeheer outlive. |      ## Sessie die eigendom zijn van status van deze status is eigendom van een sessie en wordt vernietigd wanneer een sessie wordt vernietigd.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Consequently, accessing any properties or methods that would manipulate this state will throw an exception if the serialization manager is not in an active session.</source>
+          <target state="translated">Als gevolg daarvan kan wordt toegang tot eigenschappen of methoden die deze status manipuleren zou Veroorzaak een uitzondering als de serialisatie-manager niet in een actieve sessie.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Object|Usage|   |------------|-----------|   |&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt; event|The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt; event is attached by a serializer to provide additional resolution of names.</source>
+          <target state="translated">| Object | Gebruik |   |------------|-----------|   | &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt;gebeurtenis | De &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt;gebeurtenis is gekoppeld door een serialisatiefunctie om extra omzetting van namen te leveren.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All handlers are detached from this event when a session terminates.|   |&lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt; event|The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt; event is raised just before a session is disposed.</source>
+          <target state="translated">Alle handlers worden ontkoppeld van deze gebeurtenis op wanneer een sessie wordt beëindigd. |   | &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt;gebeurtenis | De &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt;gebeurtenis wordt geactiveerd vlak voordat een sessie is verwijderd.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.SerializationComplete&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Then, all handlers are detached from this event.|   |Name table|The serialization manager maintains a table that maps between objects and their names.</source>
+          <target state="translated">Vervolgens alle handlers worden ontkoppeld van deze gebeurtenis. |   | De naamtabel | De serialisatie-manager onderhoudt een tabel die is toegewezen tussen de objecten en hun namen.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Serializers may give objects names for easy identification.</source>
+          <target state="translated">Objectserializers kunnen namen van objecten voor eenvoudige identificatie geven.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This name table is cleared when the session terminates.|   |Serializer cache|The serialization manager maintains a cache of serializers it has been asked to supply.</source>
+          <target state="translated">Deze tabel is uitgeschakeld wanneer de sessie wordt beëindigd. |   | Serialisatiefunctie cache | De serialisatie-manager onderhoudt een cache van objectserializers die is gevraagd om op te geven.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This cache is cleared when the session terminates.</source>
+          <target state="translated">Deze cache wordt gewist wanneer de sessie wordt beëindigd.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The public &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt; method can safely be called at any time, but its value is cached only if it is called from within a session.|   |Context stack|The serialization manager maintains an object called the context stack, which you can access with the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt; property.</source>
+          <target state="translated">De openbare &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt;methode veilig op elk gewenst moment kan worden aangeroepen, maar de waarde in de cache geplaatst alleen als deze is aangeroepen in een sessie. |   | De context-stack | De serialisatie-manager onderhoudt een object met de naam van de contextstack die u met openen kunt de &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt;eigenschap.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Context%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Serializers can use this stack to store additional information that is available to other serializers.</source>
+          <target state="translated">Objectserializers kunnen deze stack gebruiken om aanvullende informatie die beschikbaar is voor andere objectserializers opslaan.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a serializer that is serializing a property value can push the property name on the serialization stack before asking the value to serialize.</source>
+          <target state="translated">Bijvoorbeeld kunt een serialisatiefunctie die is een eigenschapswaarde serialiseren push-naam van de eigenschap op de stack serialisatie voordat u de waarde voor het serialiseren van vragen.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This stack is cleared when the session is terminated.|   |Error list|The serialization manager maintains a list of errors that occurred during serialization.</source>
+          <target state="translated">Deze wordt leeggemaakt wanneer de sessie is beëindigd. |   | Fout bij het lijst | De serialisatie-manager houdt een lijst van fouten die zijn opgetreden tijdens de serialisatie.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This list, which is accessed through the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt; property, is cleared when the session is terminated.</source>
+          <target state="translated">Deze lijst, die wordt geopend via de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;eigenschap, wordt gewist wanneer de sessie is beëindigd.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Accessing the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt; property between sessions will result in an exception.|</source>
+          <target state="translated">Toegang tot de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;eigenschap tussen sessies leidt ertoe dat een uitzondering. |&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor sets the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt; and &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt; properties to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Hiermee stelt u deze constructor de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;en &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt;eigenschappen <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the given service provider.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse met de opgegeven serviceprovider.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a serializer requests services that cannot be satisfied by the serialization manager, the default implementation will forward those requests to the <ph id="ph1">`provider`</ph> parameter.</source>
+          <target state="translated">Als een serialisatiefunctie services die door de serialisatie-manager kunnen niet worden verwerkt vraagt, stuurt de standaardimplementatie deze aanvragen voor de <ph id="ph1">`provider`</ph> parameter.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor sets the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt; and &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt; properties to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Hiermee stelt u deze constructor de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;en &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt;eigenschappen <ph id="ph1">`true`</ph>.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IServiceProvider&gt;.</source>
+          <target state="translated">An &lt;xref:System.IServiceProvider&gt;.&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets or sets to the container for this serialization manager.</source>
+          <target state="translated">Opgehaald of ingesteld voor de container voor serialisatiesessie.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a container exists, all components that are created by the serialization manager will be added to the container.</source>
+          <target state="translated">Als een container bestaat, wordt alle onderdelen die zijn gemaakt door de serialisatie-manager toegevoegd aan de container.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this property will search the service provider for an &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; and use the container provided by the designer host, should one exist.</source>
+          <target state="translated">De standaardimplementatie van deze eigenschap zoekt de serviceprovider voor een &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;en de container die is geleverd door de ontwerpfunctie host gebruiken, moet een bestaat.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, this property will return <ph id="ph1">`null`</ph> and no components will be added to a container.</source>
+          <target state="translated">Anders wordt deze eigenschap wordt geretourneerd <ph id="ph1">`null`</ph> en er zijn geen onderdelen naar een container worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which the serialization manager will add components.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.ComponentModel.IContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waaraan de serialisatiebeheer onderdelen wilt toevoegen.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The serialization manager has an active serialization session.</source>
+          <target state="translated">De serialisatie-manager heeft een actieve serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Creates an instance of a type.</source>
+          <target state="translated">Maakt een exemplaar van een type.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by serializers when they attempt to create an instance of a type.</source>
+          <target state="translated">Deze methode wordt aangeroepen door objectserializers wanneer ze proberen te maken van een exemplaar van een type.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation creates a new instance of the type, or it may return an existing instance depending on the values of the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt; and &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt; properties.</source>
+          <target state="translated">De standaardimplementatie maakt een nieuw exemplaar van het type of een bestaand exemplaar, afhankelijk van de waarden van mogelijk geretourneerd de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;en &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt;Eigenschappen.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.PreserveNames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt; method uses reflection to create instances and will perform some generic &lt;xref:System.IConvertible&gt; transformations on parameters to find a matching constructor.</source>
+          <target state="translated">De &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt;methode reflectie gebruikt om exemplaren te maken en voert enkele algemene &lt;xref:System.IConvertible&gt;transformaties voor parameters geen overeenkomende constructor vinden.&lt;/xref:System.IConvertible&gt; &lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The type to create an instance of.</source>
+          <target state="translated">Het type dat geen exemplaar maken van.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The parameters of the type’s constructor.</source>
+          <target state="translated">De parameters van het type-constructor.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>This can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty collection to invoke the default constructor.</source>
+          <target state="translated">Dit kan zijn <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> of een lege verzameling op te roepen de standaardconstructor.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A name to give the object.</source>
+          <target state="translated">Een naam opgeven voor het object.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the object will not be given a name, unless the object is added to a container and the container gives the object a name.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, het object niet krijgt een naam, tenzij het object is toegevoegd aan een container en de container het object een naam krijgt.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add the object to the container if the object implements <bpt id="p2">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>het object toevoegen aan de container als het object implementeert <bpt id="p2">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; anders <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A new instance of the type specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Een nieuw exemplaar van het type dat is opgegeven door <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> does not have a constructor that takes parameters contained in <ph id="ph2">&lt;code&gt;arguments&lt;/code&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>heeft geen constructor die parameters die zijn opgenomen in <ph id="ph2">&lt;code&gt;arguments&lt;/code&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Creates a new serialization session.</source>
+          <target state="translated">Maakt een nieuwe sessie van serialisatie.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most data within the serialization manager is transient and only lives for the life of a serialization session.</source>
+          <target state="translated">De meeste gegevens in het serialisatiebeheer is tijdelijk en bevinden zich alleen voor de levensduur van een serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a session is disposed, serialization is considered to be complete and this transient state is cleared.</source>
+          <target state="translated">Wanneer een sessie is verwijderd, serialisatie wordt beschouwd als voltooid en deze tijdelijke status is uitgeschakeld.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows a single instance of a serialization manager to be used to serialize multiple object trees.</source>
+          <target state="translated">Hiermee wordt één exemplaar van een serialisatiebeheer moet worden gebruikt voor het serialiseren van meerdere structuren van het object.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some state, including the service provider and any custom serialization providers that were added to the serialization manager, span sessions.</source>
+          <target state="translated">Span sessies sommige staat, met inbegrip van de serviceprovider en eventuele aangepaste serialisatie-providers die zijn toegevoegd aan het serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IDisposable&gt; that represents a new serialization session.</source>
+          <target state="translated">Een &lt;xref:System.IDisposable&gt;die staat voor een nieuwe sessie van serialisatie.&lt;/xref:System.IDisposable&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The serialization manager is already within a session.</source>
+          <target state="translated">De serialisatie-manager is al in een sessie.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>This version of <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> does not support simultaneous sessions.</source>
+          <target state="translated">Deze versie van <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> biedt geen ondersteuning voor gelijktijdige sessies.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets the list of errors that occurred during serialization or deserialization.</source>
+          <target state="translated">Hiermee wordt de lijst met fouten die zijn opgetreden tijdens het serialiseren of deserialiseren opgehaald.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can only read the error list while a serialization session is active.</source>
+          <target state="translated">U kunt alleen de foutenlijst lezen terwijl een serialisatie-sessie actief is.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The list of errors that occurred during serialization or deserialization.</source>
+          <target state="translated">De lijst met fouten die zijn opgetreden tijdens het serialiseren of deserialiseren.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Deze eigenschap is toegankelijk van buiten een serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets the type corresponding to the specified type name.</source>
+          <target state="translated">Hiermee wordt het type overeenkomt met de naam van het opgegeven type.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The name of the type to get.</source>
+          <target state="translated">De naam van het type om op te halen.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The specified type.</source>
+          <target state="translated">Het opgegeven type.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets the serializer for the given object type.</source>
+          <target state="translated">Hiermee wordt de serialisatiefunctie voor het opgegeven objecttype.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can request the type of serializer you would like.</source>
+          <target state="translated">U kunt het type van de serialisatiefunctie die u wilt aanvragen.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`null`</ph> if there is no serializer of the requested type for the specified object type.</source>
+          <target state="translated">Deze methode retourneert <ph id="ph1">`null`</ph> als er geen serialisatiefunctie van het gevraagde type voor het opgegeven object-type.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The type of object for which to retrieve the serializer.</source>
+          <target state="translated">Het type van object waarvoor de serialisatiefunctie ophalen.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The type of serializer to retrieve.</source>
+          <target state="translated">Het type serialisatiefunctie om op te halen.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The serializer for <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">objectType</ph><ept id="p1">&lt;/code&gt;</ept>, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, if not found.</source>
+          <target state="translated">De serialisatiefunctie voor <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">objectType</ph> <ept id="p1">&lt;/code&gt;</ept>, of <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>als niet gevonden.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;objectType&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;serializerType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;objectType&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;serializerType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">De aangevraagde service opgehaald.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetService method provides access to the underlying container or service provider that was set in the constructor.</source>
+          <target state="translated">De methode mag GetService biedt toegang tot de onderliggende container of -provider die is ingesteld in de constructor.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">Het type van de service om op te halen.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service cannot be resolved.</source>
+          <target state="translated">De aangevraagde service of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als de service kan niet omgezet worden.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets the requested type.</source>
+          <target state="translated">Hiermee wordt het aangevraagde type.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt; method will search the service provider for an &lt;xref:System.ComponentModel.Design.ITypeResolutionService&gt; and, if available, it will delegate to that service to resolve the type.</source>
+          <target state="translated">De &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt;methode zoekt de serviceprovider voor een &lt;xref:System.ComponentModel.Design.ITypeResolutionService&gt;en, indien beschikbaar, wordt het delegeren aan die service omzetten van het type.&lt;/xref:System.ComponentModel.Design.ITypeResolutionService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an &lt;xref:System.ComponentModel.Design.ITypeResolutionService&gt; is not available, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt; will call the &lt;xref:System.Object.GetType%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Als een &lt;xref:System.ComponentModel.Design.ITypeResolutionService&gt;is niet beschikbaar, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt;roept de &lt;xref:System.Object.GetType%2A?displayProperty=fullName&gt;methode.&lt;/xref:System.Object.GetType%2A?displayProperty=fullName&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetType%2A&gt; &lt;/xref:System.ComponentModel.Design.ITypeResolutionService&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The name of the type to retrieve.</source>
+          <target state="translated">De naam van het type om op te halen.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The requested type, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the type cannot be resolved.</source>
+          <target state="translated">Het gevraagde type of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als het type kan niet omgezet worden.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Geeft de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Een gebeurtenis te verhogen, roept de gebeurtenis-handler via een gemachtigde.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>KROONTJESPEN: verhogen van een gebeurtenis<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnResolveName method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">De methode OnResolveName kan afgeleide klassen de gebeurtenis te verwerken zonder te koppelen van een gemachtigde.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Dit is de voorkeur voor het afhandelen van de gebeurtenis in een afgeleide klasse.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ResolveNameEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the event data.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ResolveNameEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarin de gebeurtenisgegevens worden opgeslagen.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager.SessionCreated"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Geeft de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager.SessionCreated"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Een gebeurtenis te verhogen, roept de gebeurtenis-handler via een gemachtigde.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>KROONTJESPEN: verhogen van een gebeurtenis<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnSessionCreated method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">De methode OnSessionCreated kan afgeleide klassen de gebeurtenis te verwerken zonder te koppelen van een gemachtigde.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Dit is de voorkeur voor het afhandelen van de gebeurtenis in een afgeleide klasse.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Een &lt;xref:System.EventArgs&gt;waarin de gebeurtenisgegevens.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager.SessionDisposed"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Geeft de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.DesignerSerializationManager.SessionDisposed"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Een gebeurtenis te verhogen, roept de gebeurtenis-handler via een gemachtigde.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Zie voor meer informatie <bpt id="p1">[</bpt>KROONTJESPEN: verhogen van een gebeurtenis<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnSessionDisposed method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">De methode OnSessionDisposed kan afgeleide klassen de gebeurtenis te verwerken zonder te koppelen van een gemachtigde.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Dit is de voorkeur voor het afhandelen van de gebeurtenis in een afgeleide klasse.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Een &lt;xref:System.EventArgs&gt;waarin de gebeurtenisgegevens.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt; method should check for the presence of the given name in the container.</source>
+          <target state="translated">Opgehaald of ingesteld met een waarde die aangeeft of de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;methode moet controleren op de aanwezigheid van de opgegeven naam in de container.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PreserveNames property determines the behavior of the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; method.</source>
+          <target state="translated">De eigenschap PreserveNames bepaalt het gedrag van de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;methode.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`true`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will pass the given component name.</source>
+          <target state="translated">Als <ph id="ph1">`true`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;wordt geaccepteerd door de opgegeven onderdeelnaam.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`false`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will check for the presence of the given name in the container.</source>
+          <target state="translated">Als <ph id="ph1">`false`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;wordt gecontroleerd op de aanwezigheid van de opgegeven naam in de container.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the name does not exist in the container, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will use the given name.</source>
+          <target state="translated">Als de naam niet in de container bestaat &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;gebruikt de opgegeven naam.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the name does exist in the container, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will pass a null value as the name of a component when adding it to the container, thereby giving it a new name.</source>
+          <target state="translated">Als de naam in de container bestaat &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;geeft een null-waarde als de naam van een onderdeel wanneer u deze toevoegt aan de container, zodat deze een nieuwe naam.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This second variation is useful for implementing a serializer that always duplicates objects, rather than assuming those objects do not exist.</source>
+          <target state="translated">Deze tweede variatie is nuttig voor het implementeren van een serialisatiefunctie waarbij objecten altijd worden gedupliceerd in plaats van ervan uitgaande dat deze objecten bestaan niet.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Paste commands often use this type of serializer.</source>
+          <target state="translated">Opdrachten plakken is vaak gebruik van dit type serializer.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can only change this property when you are not in a serialization session.</source>
+          <target state="translated">U kunt deze eigenschap alleen wijzigen wanneer u zich niet in een sessie voor serialisatie.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance<bpt id="p2">*</bpt>&gt; will pass the given component name; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance<ept id="p2">*</ept>&gt; will check for the presence of the given name in the container.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; geeft de naam van het opgegeven onderdeel; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> als &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; wordt gecontroleerd op de aanwezigheid van de opgegeven naam in de container.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>This property was changed from within a serialization session.</source>
+          <target state="translated">Deze eigenschap is gewijzigd van binnen een serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets the object that should be used to provide properties to the serialization manager's &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt; property.</source>
+          <target state="translated">Hiermee wordt het object dat moet worden gebruikt voor eigenschappen van de serialisatie-manager &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;eigenschap.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PropertyProvider property provides a way to give the serialization manager a set of serialization properties that serializers can use to guide their behavior.</source>
+          <target state="translated">De eigenschap PropertyProvider biedt een manier om aan te geven de serialisatie-manager een reeks eigenschappen objectserializers gebruiken kunnen om u te helpen hun gedrag voor serialisatie.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This object's public properties will be inspected and wrapped in new property descriptors that have a target object of the serialization manager.</source>
+          <target state="translated">Openbare eigenschappen van dit object wordt gecontroleerd en ingepakt in de nieuwe eigenschap descriptors die geen doel-van het serialisatiebeheer object.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The object that should be used to provide properties to the serialization manager's &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt; property.</source>
+          <target state="translated">Het object dat moet worden gebruikt voor het bieden van eigenschappen aan de serialisatie-manager &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;eigenschap.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Gets or sets a flag indicating whether &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt; will always create a new instance of a type.</source>
+          <target state="translated">Opgehaald of ingesteld van een vlag die aangeeft of &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;maakt altijd een nieuw exemplaar van een type.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the RecycleInstances property is <ph id="ph1">`false`</ph>, the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; method will always create a new instance of a type.</source>
+          <target state="translated">Als de eigenschap RecycleInstances <ph id="ph1">`false`</ph>, wordt de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;methode maakt altijd een nieuw exemplaar van een type.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If RecycleInstances is <ph id="ph1">`true`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will first search the name table and container for an object of the same name.</source>
+          <target state="translated">Als RecycleInstances <ph id="ph1">`true`</ph>, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;wordt eerst zoeken in de tabel en de container voor een object met dezelfde naam.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If such an object exists and is of the same type, &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; will return the existing instance.</source>
+          <target state="translated">Als een dergelijk object bestaat en is van hetzelfde type &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;wordt het bestaande exemplaar geretourneerd.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This second variation is useful for implementing a serializer that applies serialization state to an existing set of objects, rather than always creating a new tree.</source>
+          <target state="translated">Deze tweede variatie is nuttig voor het implementeren van een serialisatiefunctie die van toepassing serialisatie status aan een bestaande set van objecten is in plaats van altijd maken van een nieuwe structuur.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>Undo<ept id="p1">**</ept> command often uses this type of serializer.</source>
+          <target state="translated">De <bpt id="p1">**</bpt>ongedaan<ept id="p1">**</ept> opdracht wordt vaak gebruikt voor dit type serializer.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the case where the RecycleInstances property is <ph id="ph1">`true`</ph>, the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt; property will further modify the behavior of &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; depending on the types of the two objects.</source>
+          <target state="translated">In het geval waarin de eigenschap RecycleInstances wordt <ph id="ph1">`true`</ph>, wordt de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt;eigenschap wordt het gedrag van verdere wijzigen &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;, afhankelijk van de typen van de twee objecten.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.ValidateRecycledTypes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance<bpt id="p2">*</bpt>&gt; will return the existing instance; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance<ept id="p2">*</ept>&gt; will create a new instance of a type.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; resulteert in het bestaande exemplaar; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> als &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; maakt een nieuw exemplaar van een type.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The serialization manager has an active serialization session.</source>
+          <target state="translated">De serialisatie-manager heeft een actieve serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Occurs when a session is created.</source>
+          <target state="translated">Deze gebeurtenis treedt op wanneer een sessie wordt gemaakt.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Occurs when a session is disposed.</source>
+          <target state="translated">Treedt op wanneer een sessie is verwijderd.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Adds a custom serialization provider to the serialization manager.</source>
+          <target state="translated">Een aangepaste serialisatie-provider toegevoegd aan het serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt; method is used to request a serialization provider, the serialization manager queries the custom serialization providers first before looking in the type's metadata for the appropriate serializer.</source>
+          <target state="translated">Wanneer de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt;methode wordt gebruikt om aan te vragen een serialisatie-provider, de serialisatie-manager vraagt de aangepaste serialisatie-providers eerst voordat opzoeken in de metagegevens van het type voor de juiste serialisatiefunctie.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.GetSerializer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The serialization provider to add.</source>
+          <target state="translated">De serialisatie-provider om toe te voegen.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets the context stack for this serialization session.</source>
+          <target state="translated">Hiermee wordt de contextstack voor deze sessie serialisatie.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A context stack provides a user-defined storage area, implemented as a stack.</source>
+          <target state="translated">Een contextstack biedt een gebied van de gebruiker gedefinieerde opslag, geïmplementeerd als een stack.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This storage area is a useful way to provide communication across serializers, as serialization is a generally hierarchical process.</source>
+          <target state="translated">Deze opslaggebied is een handige manier om te voorzien in communicatie objectserializers, omdat de serialisatie is een algemeen hiërarchische proces.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ContextStack"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that stores data.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.ContextStack"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die gegevens worden opgeslagen.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Deze eigenschap is toegankelijk van buiten een serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Implements the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance*&gt; method.</source>
+          <target state="translated">Implementeert de &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance*&gt;methode.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The data type to create.</source>
+          <target state="translated">Het gegevenstype te maken.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The arguments to pass to the constructor for this type.</source>
+          <target state="translated">De argumenten worden doorgegeven aan de constructor voor dit type.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The name of the object.</source>
+          <target state="translated">De naam van het object.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This name can be used to access the object later through &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance*&gt;.</source>
+          <target state="translated">Deze naam kan worden gebruikt voor toegang tot het object later via &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance*&gt;.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.GetInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the object is still created but cannot be accessed by name.</source>
+          <target state="translated">Als <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> is doorgegeven, het object is nog steeds gemaakt, maar met de naam kan niet worden geopend.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add this object to the design container.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Dit object aan de ontwerp-container toevoegen.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The object must implement <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for this to have any effect.</source>
+          <target state="translated">Het object moet worden geïmplementeerd <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor deze geen effect.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The newly created object instance.</source>
+          <target state="translated">Het gemaakte object-exemplaar.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Retrieves an instance of a created object of the specified name.</source>
+          <target state="translated">Hiermee haalt u een exemplaar van een object van de opgegeven naam.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The name of the object to retrieve.</source>
+          <target state="translated">De naam van het object ophalen.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>An instance of the object with the given name, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no object by that name can be found.</source>
+          <target state="translated">Een exemplaar van het object met de opgegeven naam of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als er geen object met die naam kan worden gevonden.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;name&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Deze eigenschap is toegankelijk van buiten een serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Retrieves a name for the specified object.</source>
+          <target state="translated">Een naam voor het opgegeven object opgehaald.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the IDesignerSerializationManager.GetName method cannot find a corresponding name for the <ph id="ph1">`value`</ph> parameter, it raises the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt; event before it returns <ph id="ph2">`null`</ph>.</source>
+          <target state="translated">Als de methode IDesignerSerializationManager.GetName een overeenkomstige naam in voor niet vinden de <ph id="ph1">`value`</ph> parameter, genereert de &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt;gebeurtenis voordat het resultaat <ph id="ph2">`null`</ph>.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.ResolveName&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The object for which to retrieve the name.</source>
+          <target state="translated">Het object waarvoor u de naam ophalen.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The name of the object, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object is unnamed.</source>
+          <target state="translated">De naam van het object of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als het object geen naam is.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Deze eigenschap is toegankelijk van buiten een serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Gets a serializer of the requested type for the specified object type.</source>
+          <target state="translated">Hiermee wordt een serialisatiefunctie van het gevraagde type voor het opgegeven objecttype.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The type of the object to get the serializer for.</source>
+          <target state="translated">Het type van het object de serialisatiefunctie voor ophalen.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The type of the serializer to retrieve.</source>
+          <target state="translated">Het type van de serializer om op te halen.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>An instance of the requested serializer, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no appropriate serializer can be located.</source>
+          <target state="translated">Een exemplaar van de aangevraagde serializer of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als er geen bijbehorende serialisatiefunctie kan worden gevonden.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Gets a type of the specified name.</source>
+          <target state="translated">Hiermee wordt een type van de opgegeven naam.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The fully qualified name of the type to load.</source>
+          <target state="translated">De volledig gekwalificeerde naam van het type te laden.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>An instance of the type, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the type cannot be loaded.</source>
+          <target state="translated">Een exemplaar van het type of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als het type kan niet worden geladen.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Deze eigenschap is toegankelijk van buiten een serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Implements the &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt; property.</source>
+          <target state="translated">Implementeert de &lt;xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;eigenschap.&lt;/xref:System.ComponentModel.Design.Serialization.IDesignerSerializationManager.Properties*&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the properties to be serialized.</source>
+          <target state="translated">Een <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> met de eigenschappen om te worden geserialiseerd.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>Removes a previously added serialization provider.</source>
+          <target state="translated">Hiermee verwijdert u een eerder toegevoegde serialisatie-provider.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IDesignerSerializationManager.RemoveSerializationProvider method removes a custom serialization provider that was previously added by a call to the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23AddSerializationProvider%2A&gt; method.</source>
+          <target state="translated">De methode IDesignerSerializationManager.RemoveSerializationProvider verwijdert u een aangepaste serialisatie-provider die eerder is toegevoegd door een aanroep naar de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23AddSerializationProvider%2A&gt;methode.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23AddSerializationProvider%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to remove.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> te verwijderen.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Used to report a recoverable error in serialization.</source>
+          <target state="translated">Gebruikt voor het rapporteren van een herstelbare fout in serialisatie.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Serializers can be written to handle recoverable errors gracefully by calling the IDesignerSerializationManager.ReportError method with the error information.</source>
+          <target state="translated">Objectserializers kunnen herstelbare fouten probleemloos verwerkt door het aanroepen van de methode IDesignerSerializationManager.ReportError met de informatie over de fout worden geschreven.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serialization manager may support reporting a list of errors after it completes, or it may throw an exception from this method and abort the serialization process.</source>
+          <target state="translated">De serialisatie-manager mogelijk ondersteuning voor een lijst met fouten reporting nadat deze is voltooid, maar mogelijk Veroorzaak een exception van deze methode en het proces serialisatie afbreken.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The serializer should continue after calling this function.</source>
+          <target state="translated">De serialisatiefunctie moet blijven na het aanroepen van deze functie.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IDesignerSerializationManager.ReportError adds the <ph id="ph1">`errorInformation`</ph> parameter to the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt; collection.</source>
+          <target state="translated">IDesignerSerializationManager.ReportError voegt de <ph id="ph1">`errorInformation`</ph> -parameter voor de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;verzameling.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.Errors%2A&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`errorInformation`</ph> is <ph id="ph2">`null`</ph>, no action is taken.</source>
+          <target state="translated">Als <ph id="ph1">`errorInformation`</ph> is <ph id="ph2">`null`</ph>, er geen actie ondernomen.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>An object containing the error information, usually of type &lt;xref:System.String&gt; or &lt;xref:System.Exception&gt;.</source>
+          <target state="translated">Een object met de foutgegevens, meestal van het type &lt;xref:System.String&gt;of &lt;xref:System.Exception&gt;.&lt;/xref:System.Exception&gt; &lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Deze eigenschap is toegankelijk van buiten een serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Sets the name for the specified object.</source>
+          <target state="translated">Hiermee stelt u de naam voor het opgegeven object.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IDesignerSerializationManager.SetName method provides a way to set the name of an existing object.</source>
+          <target state="translated">De methode IDesignerSerializationManager.SetName biedt een manier om de naam van een bestaand object.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enables creation of an instance of the object through a call to the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23GetInstance%2A&gt; method, avoiding the overhead of the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; method.</source>
+          <target state="translated">Hierdoor is het maken van een exemplaar van het object via een aanroep van de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23GetInstance%2A&gt;methode, voorkomen van de overhead van de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;methode.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.System%23ComponentModel%23Design%23Serialization%23IDesignerSerializationManager%23GetInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The object to set the name.</source>
+          <target state="translated">Het object dat de naam niet instellen.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; used as the name of the object.</source>
+          <target state="translated">Een &lt;xref:System.String&gt;gebruikt als de naam van het object.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>One or both of the parameters are <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een of beide van de parameters zijn <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The object specified by instance already has a name, or <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">name</ph><ept id="p1">&lt;/code&gt;</ept> is already used by another named object.</source>
+          <target state="translated">Het object al door exemplaar opgegeven, heeft een naam of <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">name</ph> <ept id="p1">&lt;/code&gt;</ept> wordt al gebruikt door een andere benoemde object.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>This property was accessed outside of a serialization session.</source>
+          <target state="translated">Deze eigenschap is toegankelijk van buiten een serialisatiebeheer.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the &lt;xref:System.IServiceProvider.GetService*&gt; method.</source>
+          <target state="translated">Zie voor een beschrijving van dit lid, de &lt;xref:System.IServiceProvider.GetService*&gt;methode.&lt;/xref:System.IServiceProvider.GetService*&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Dit lid is een expliciete interface lid-implementatie.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager&gt; instance is cast to an &lt;xref:System.IServiceProvider&gt; interface.</source>
+          <target state="translated">Het kan worden gebruikt alleen wanneer de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager&gt;exemplaar is geconverteerd naar een &lt;xref:System.IServiceProvider&gt;interface.&lt;/xref:System.IServiceProvider&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>An object that specifies the type of service object to get.</source>
+          <target state="translated">Een object dat hiermee het type van service-object wordt ophalen.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>A service object of type <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">serviceType</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">Een serviceobject van het type <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">serviceType</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there is no service object of type <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">serviceType</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">- of - <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als er geen serviceobject van het type is <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">serviceType</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Gets or sets a flag indicating whether the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt; method will verify that matching names refer to the same type.</source>
+          <target state="translated">Opgehaald of ingesteld van een vlag die aangeeft of de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;methode controleert of dat er overeenkomende namen naar hetzelfde type verwijzen.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ValidateRecycledTypes property modifies the behavior of the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt; method when the &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt; property is <ph id="ph1">`true`</ph>, as detailed in the following table.</source>
+          <target state="translated">De eigenschap ValidateRecycledTypes wijzigt u de werking van de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;methode wanneer de &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt;eigenschap is <ph id="ph1">`true`</ph>, zoals beschreven in de volgende tabel.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.RecycleInstances%2A&gt; &lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<ph id="ph1">`RecycleInstances`</ph><ph id="ph2">|</ph><ph id="ph3">`ValidateRecycledTypes`</ph>|Behavior of <ph id="ph4">`CreateInstance`</ph>|   |------------------------|-----------------------------|----------------------------------|   |<ph id="ph5">`false`</ph><ph id="ph6">|</ph><ph id="ph7">`true`</ph> or <ph id="ph8">`false`</ph>|Always create a new instance of the specified type|   |<ph id="ph9">`true`</ph><ph id="ph10">|</ph><ph id="ph11">`false`</ph>|If a matching instance is found it is returned, regardless of its type.|   |<ph id="ph12">`true`</ph><ph id="ph13">|</ph><ph id="ph14">`true`</ph>|If a matching instance is found, it is returned only if its type is the same as specified in the method call.|       ValidateRecycledTypes is useful for morphing one type of object to another if they have similar properties but share no common parent or interface.</source>
+          <target state="translated">| <ph id="ph1">`RecycleInstances`</ph><ph id="ph2">|</ph><ph id="ph3">`ValidateRecycledTypes`</ph>| Gedrag van <ph id="ph4">`CreateInstance`</ph>|   |------------------------|-----------------------------|----------------------------------|   | <ph id="ph5">`false`</ph><ph id="ph6">|</ph><ph id="ph7">`true`</ph> or <ph id="ph8">`false`</ph>| Maak een nieuw exemplaar van het opgegeven type altijd |   | <ph id="ph9">`true`</ph><ph id="ph10">|</ph><ph id="ph11">`false`</ph>| Als een overeenkomende instantie wordt gevonden het wordt geretourneerd, ongeacht het type. |   | <ph id="ph12">`true`</ph><ph id="ph13">|</ph><ph id="ph14">`true`</ph>| Als een overeenkomende instantie wordt gevonden, deze wordt alleen geretourneerd als het type hetzelfde als opgegeven in de methodeaanroep is. |       ValidateRecycledTypes is nuttig voor één type object naar de andere morphing als ze vergelijkbare eigenschappen hebben maar geen gemeenschappelijk bovenliggend niveau of interface delen.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt; verifies types; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if it does not.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als &lt;xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;controleert of de typen; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> als dit niet.&lt;/xref:System.ComponentModel.Design.Serialization.DesignerSerializationManager.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De standaardwaarde is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The serialization manager has an active serialization session.</source>
+          <target state="translated">De serialisatie-manager heeft een actieve serialisatiebeheer.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

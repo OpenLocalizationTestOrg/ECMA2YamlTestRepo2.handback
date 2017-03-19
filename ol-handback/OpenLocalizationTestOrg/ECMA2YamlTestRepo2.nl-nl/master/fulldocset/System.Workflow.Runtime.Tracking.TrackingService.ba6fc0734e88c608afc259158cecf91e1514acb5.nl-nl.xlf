@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa32982522f7ad6980a833a6cb510d1c5b7ca13a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Tracking.TrackingService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">47d9cf0dfefb3bfc5e10b4320593849b88b092e4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24ada49c9987d63518208c856cbdf0909b3d436c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the basic interface between a tracking service and the run-time tracking infrastructure.</source>
+          <target state="translated">Biedt de basic-interface tussen een service bijhouden en de tracerings-runtime-infrastructuur.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       A tracking service is responsible for supplying tracking channels and tracking profiles to the workflow run-time engine.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>Een bijhouden-service is verantwoordelijk voor het bijhouden kanalen levert en bijhouden van de profielen in de workflow runtime engine.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine requests one &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; from a tracking service for each workflow instance for which it has a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.</source>
+          <target state="translated">De workflow runtime engine aanvragen één &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;uit een traceringsservice voor elk werkstroomexemplaar waarvoor een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; heeft&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine uses this &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; to send tracking records associated with that workflow instance.</source>
+          <target state="translated">De workflow runtime-engine gebruikt dit &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;verzenden voor het bijhouden van records die zijn gekoppeld aan die werkstroomexemplaar.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; contains track points that specify a set of tracking events for which the run-time tracking infrastructure should send tracking records.</source>
+          <target state="translated">Een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;bevat bijhouden punten die een set traceringsgebeurtenissen waarvoor het bijhouden van de runtime-infrastructuur bijhouden records moet verzenden opgeven.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; may also specify data to be extracted from the workflow instance when one of these tracking events occurs.</source>
+          <target state="translated">Een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;mogelijk ook gegevens worden opgehaald uit het workflowexemplaar wanneer een van deze gebeurtenissen bijhouden optreedt opgeven.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The run-time tracking infrastructure uses a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; to filter tracking events emitted by a workflow instance.</source>
+          <target state="translated">Het bijhouden van de runtime-infrastructuur maakt gebruik van een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;filter bijhouden van gebeurtenissen die door een workflowexemplaar.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a tracking event is emitted that matches a track point in the &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;, the run-time tracking infrastructure extracts any data specified in the &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; from the workflow instance and encapsulates this data and information about the tracking event in a tracking record.</source>
+          <target state="translated">Wanneer een gebeurtenis bijhouden verzonden die overeenkomt met een punt bijhouden in de &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;, het bijhouden van de runtime-infrastructuur haalt alle gegevens die zijn opgegeven in de &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;van het workflowexemplaar en deze gegevens en informatie over de gebeurtenis bijhouden in een record bijhouden ingekapseld.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This tracking record is then sent over the &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; associated with the workflow instance.</source>
+          <target state="translated">Deze record bijhouden wordt verzonden via de &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;die zijn gekoppeld aan het werkstroomexemplaar.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A tracking record may be one of the following kinds:       &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingRecord&gt;       &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;       &lt;xref:System.Workflow.Runtime.Tracking.WorkflowTrackingRecord&gt;       The host application can use the tracking record in any way that it chooses.</source>
+          <target state="translated">Een record bijhouden mogelijk een van de volgende typen: &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingRecord&gt; &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; &lt;xref:System.Workflow.Runtime.Tracking.WorkflowTrackingRecord&gt;de hosttoepassing de record bijhouden kunt gebruiken op een manier waardoor worden gekozen.&lt;/xref:System.Workflow.Runtime.Tracking.WorkflowTrackingRecord&gt;       &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;       &lt;/xref:System.Workflow.Runtime.Tracking.ActivityTrackingRecord&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the host application may store the tracking information in a database and use it to implement a sophisticated user interface, or it may use the information to inform an administrator of a condition that requires some action.</source>
+          <target state="translated">Bijvoorbeeld, de hosttoepassing mag de traceringsgegevens opslaan in een database en deze gebruiken voor het implementeren van een geavanceerde gebruikersinterface of gebruik de informatie kan deze kennis van de beheerder van een voorwaarde die een bepaalde actie vereist.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can register a tracking service with the workflow run-time engine by calling &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A?displayProperty=fullName&gt; or by including the appropriate entry in the application configuration file.</source>
+          <target state="translated">U kunt een service bijhouden met de workflow runtime engine registreren door het aanroepen van &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A?displayProperty=fullName&gt;of door de desbetreffende vermelding in het toepassingsconfiguratiebestand.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All tracking services must inherit from the TrackingService abstract class.</source>
+          <target state="translated">Alle bijhouden services moeten worden overgenomen van de TrackingService abstracte klasse.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class defines the basic interface between a tracking service and the run-time tracking infrastructure.</source>
+          <target state="translated">Deze klasse definieert de basic-interface tussen een service bijhouden en de tracerings-runtime-infrastructuur.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine requests a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for a specific workflow instance or workflow &lt;xref:System.Type&gt; by calling one of the overloaded &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt; methods or the &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt; method.</source>
+          <target state="translated">De workflow runtime engine aanvragen een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;voor een specifiek workflowexemplaar of de werkstroom &lt;xref:System.Type&gt;door het aanroepen van een van de overbelaste &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;methoden of de &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt;methode.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine calls &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetTrackingChannel%2A&gt; to request a &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;.</source>
+          <target state="translated">De workflow runtime-engine roept &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetTrackingChannel%2A&gt;om aan te vragen een &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetTrackingChannel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow tracking runtime calls the &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt; and &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt; methods whenever a workflow instance is created or loaded from the persistence store.</source>
+          <target state="translated">De workflow runtime aanroepen bijhouden de &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;en &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt;methoden wanneer een workflowexemplaar is gemaakt of uit de opslag voor persistentie geladen.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The overhead associated with these calls can be costly to the tracking service (many database calls, for example).</source>
+          <target state="translated">De overhead die is gekoppeld aan deze aanroepen is een kostbare aangelegenheid de traceringsservice (veel van de database-aanroepen, bijvoorbeeld).</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt; interface in your tracking service to circumvent this call-based mechanism and use events to notify the workflow runtime engine of changes to a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.</source>
+          <target state="translated">U kunt de &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;interface in de traceringsservice dit mechanisme op basis van oproep omzeilen en gebruiken van gebeurtenissen voor het verwittigen van de workflow runtime engine van wijzigingen in een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt; implementeren</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For tracking services that implement the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt; interface, the workflow run-time engine subscribes to the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileUpdated&gt; and &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileRemoved&gt; events.</source>
+          <target state="translated">Voor het bijhouden van services die worden geïmplementeerd de &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;interface, de werkstroom-runtime-engine is lid van de &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileUpdated&gt;en &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileRemoved&gt;gebeurtenissen.&lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileRemoved&gt; &lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileUpdated&gt; &lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your tracking service can raise the appropriate event when a change to one of its tracking profiles occurs.</source>
+          <target state="translated">De traceringsservice kan de gebeurtenis wanneer er een wijziging in een van de profielen bijhouden optreedt oproepen.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; class implements this interface.</source>
+          <target state="translated">De &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;klasse implementeert deze interface.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine calls the &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryReloadProfile%2A&gt; method to test whether a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; has been updated or removed as a result of an explicit call by a host or a service to &lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A&gt; on a workflow instance.</source>
+          <target state="translated">De workflow runtime engine roept de &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryReloadProfile%2A&gt;methode om te testen of een &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;is bijgewerkt of verwijderd als gevolg van een expliciete aanroep van door een host of een service &lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A&gt;op een workflowexemplaar.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.TryReloadProfile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This process enables a host or service to dynamically change the tracking profile that is being used for a specific workflow instance.</source>
+          <target state="translated">Dit proces kunt een host of service om het profiel bijhouden die wordt gebruikt voor een specifiek workflowexemplaar dynamisch te wijzigen.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Wanneer een geïmplementeerd in een afgeleide klasse, initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, returns the tracking profile for the specified workflow instance.</source>
+          <target state="translated">In de afgeleide klasse, en wanneer geïmplementeerd moet worden vervangen, het bijhouden van profiel voor het opgegeven werkstroomexemplaar retourneert.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A tracking service is responsible for managing the tracking profiles available for specific workflow types and specific workflow instances.</source>
+          <target state="translated">Een bijhouden-service is verantwoordelijk voor het beheren van de profielen bijhouden beschikbaar voor een specifieke werkstroom typen en exemplaren van specifieke werkstroom.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement this management in whatever manner you choose.</source>
+          <target state="translated">Op welke manier u kiest, kunt u dit management implementeren.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can return the same &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for every workflow &lt;xref:System.Type&gt; and workflow instance; or you can manage a sophisticated store of tracking profiles referenced by workflow instance, workflow &lt;xref:System.Type&gt;, and &lt;xref:System.Version&gt;.</source>
+          <target state="translated">Bijvoorbeeld, kunt u terugkeren dezelfde &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;voor elke werkstroom &lt;xref:System.Type&gt;en workflowexemplaar; of u kunt een geavanceerde winkel voor het bijhouden van profielen waarnaar wordt verwezen door werkstroomexemplaar beheren werkstroom &lt;xref:System.Type&gt;, en &lt;xref:System.Version&gt;.&lt;/xref:System.Version&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the workflow instance.</source>
+          <target state="translated">De &lt;xref:System.Guid&gt;van het workflowexemplaar.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The tracking profile for the specified workflow instance.</source>
+          <target state="translated">Het bijhouden van profiel voor het opgegeven workflowexemplaar.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, returns the tracking profile, qualified by version, for the specified workflow &lt;xref:System.Type&gt;.</source>
+          <target state="translated">In de afgeleide klasse, en wanneer geïmplementeerd moet worden vervangen, resulteert het profiel bijhouden, gekwalificeerd door de versie voor de opgegeven werkstroom &lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A tracking service is responsible for managing the tracking profiles available for specific workflow types and specific workflow instances.</source>
+          <target state="translated">Een bijhouden-service is verantwoordelijk voor het beheren van de profielen bijhouden beschikbaar voor een specifieke werkstroom typen en exemplaren van specifieke werkstroom.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement this management in whatever manner you choose.</source>
+          <target state="translated">Op welke manier u kiest, kunt u dit management implementeren.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can return the same &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for every workflow &lt;xref:System.Type&gt; and workflow instance; or you can manage a sophisticated store of tracking profiles referenced by workflow instance, workflow &lt;xref:System.Type&gt;, and &lt;xref:System.Version&gt;.</source>
+          <target state="translated">Bijvoorbeeld, kunt u terugkeren dezelfde &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;voor elke werkstroom &lt;xref:System.Type&gt;en workflowexemplaar; of u kunt een geavanceerde winkel voor het bijhouden van profielen waarnaar wordt verwezen door werkstroomexemplaar beheren werkstroom &lt;xref:System.Type&gt;, en &lt;xref:System.Version&gt;.&lt;/xref:System.Version&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the workflow.</source>
+          <target state="translated">De &lt;xref:System.Type&gt;van de werkstroom.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Version&gt; of the tracking profile.</source>
+          <target state="translated">De &lt;xref:System.Version&gt;van het profiel bijhouden.&lt;/xref:System.Version&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The tracking profile for the specified workflow type.</source>
+          <target state="translated">Het bijhouden van profiel voor het opgegeven type.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, returns the channel that the run-time tracking infrastructure uses to send tracking records to the tracking service.</source>
+          <target state="translated">In de afgeleide klasse, en wanneer geïmplementeerd moet worden vervangen, het kanaal dat de tracerings-runtime-infrastructuur gebruikt om te verzenden bijhouden registreert de traceringsservice retourneert.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The run-time tracking infrastructure uses one &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; for each tracking service for each workflow instance.</source>
+          <target state="translated">Het bijhouden van de runtime-infrastructuur gebruikt een &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;voor elke service bijhouden voor elk werkstroomexemplaar.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine calls GetTrackingChannel on each tracking service to get the &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; for that service.</source>
+          <target state="translated">De workflow runtime engine GetTrackingChannel aanroepen op elke service bijhouden om op te halen de &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;voor de service.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the information passed in &lt;xref:System.Workflow.Runtime.Tracking.TrackingParameters&gt; to associate tracking data sent on the &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; for your tracking service with a particular root workflow instance.</source>
+          <target state="translated">Kunt u de informatie die wordt doorgegeven &lt;xref:System.Workflow.Runtime.Tracking.TrackingParameters&gt;koppelen traceergegevens verzonden op de &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;voor uw service bijhouden met een specifieke werkstroom hoofdexemplaar.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingParameters&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the workflow instance.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die zijn gekoppeld aan het werkstroomexemplaar.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used to send tracking records to the tracking service.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingChannel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die wordt gebruikt voor het bijhouden van records verzenden naar de traceringsservice.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, retrieves the tracking profile for the specified workflow type if one is available.</source>
+          <target state="translated">In de afgeleide klasse, en wanneer geïmplementeerd moet worden vervangen, opgehaald van het profiel bijhouden voor het type opgegeven werkstroom als deze beschikbaar is.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A tracking service is responsible for managing the tracking profiles available for specific workflow types and specific workflow instances.</source>
+          <target state="translated">Een bijhouden-service is verantwoordelijk voor het beheren van de profielen bijhouden beschikbaar voor een specifieke werkstroom typen en exemplaren van specifieke werkstroom.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement this management in whatever manner you choose.</source>
+          <target state="translated">Op welke manier u kiest, kunt u dit management implementeren.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can return the same &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for every workflow &lt;xref:System.Type&gt; and workflow instance; or you can manage a sophisticated store of tracking profiles referenced by workflow instance, workflow &lt;xref:System.Type&gt;, and &lt;xref:System.Version&gt;.</source>
+          <target state="translated">Bijvoorbeeld, kunt u terugkeren dezelfde &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;voor elke werkstroom &lt;xref:System.Type&gt;en workflowexemplaar; of u kunt een geavanceerde winkel voor het bijhouden van profielen waarnaar wordt verwezen door werkstroomexemplaar beheren werkstroom &lt;xref:System.Type&gt;, en &lt;xref:System.Version&gt;.&lt;/xref:System.Version&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the workflow for which to get the tracking profile.</source>
+          <target state="translated">De &lt;xref:System.Type&gt;van de werkstroom waarvoor u het profiel bijhouden ophalen.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to load.</source>
+          <target state="translated">Wanneer deze methode retourneert, bevat de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> laden.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Deze parameter wordt doorgegeven niet geïnitialiseerd.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for the specified workflow &lt;xref:System.Type&gt; is available; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als een <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> voor de opgegeven werkstroom &lt;xref:System.Type&gt;is beschikbaar, anders, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, retrieves a new tracking profile for the specified workflow instance if the tracking profile has changed since it was last loaded.</source>
+          <target state="translated">Moet worden vervangen in de afgeleide klasse en wanneer het wordt geïmplementeerd, haalt een nieuw profiel bijhouden voor het opgegeven workflowexemplaar als het profiel bijhouden is gewijzigd sinds deze het laatst is geladen.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TryReloadProfile is called by the run-time tracking infrastructure to determine whether a new &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; should be loaded for the specified workflow instance.</source>
+          <target state="translated">TryReloadProfile wordt aangeroepen door de tracerings-runtime-infrastructuur om te bepalen of een nieuwe &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;moet worden geladen voor het opgegeven werkstroomexemplaar.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a new &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; is required, it is returned in <ph id="ph1">`profile`</ph>.</source>
+          <target state="translated">Als een nieuwe &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;is vereist, wordt deze geretourneerd in <ph id="ph1">`profile`</ph>.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want the run-time tracking infrastructure to stop tracking a workflow instance, your tracking service should return <ph id="ph1">`true`</ph> and set <ph id="ph2">`profile`</ph> equal to a null reference (<ph id="ph3">`Nothing`</ph> in Visual Basic).</source>
+          <target state="translated">Als u wilt dat de tracerings-runtime-infrastructuur voor de stop met volgen van een workflowexemplaar, moet de retourneren de traceringsservice <ph id="ph1">`true`</ph> en stel <ph id="ph2">`profile`</ph> gelijk is aan een null-verwijzing (<ph id="ph3">`Nothing`</ph> in Visual Basic).</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your tracking service can use <ph id="ph1">`workflowType`</ph> or <ph id="ph2">`workflowInstanceId`</ph> in whatever manner you choose to determine whether a tracking profile should be reloaded.</source>
+          <target state="translated">De traceringsservice kunt <ph id="ph1">`workflowType`</ph> of <ph id="ph2">`workflowInstanceId`</ph> in gelijk welke wijze u ervoor kiezen om te bepalen of een profiel bijhouden moet opnieuw worden geladen.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; only uses <ph id="ph1">`workflowInstanceId`</ph> to decide whether the tracking profile should be reloaded.</source>
+          <target state="translated">Bijvoorbeeld, de &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;gebruikt alleen <ph id="ph1">`workflowInstanceId`</ph> om te bepalen of het profiel bijhouden moet opnieuw worden geladen.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TryReloadProfile is called by the run-time tracking infrastructure according to its own tracking semantics, or in response to the host or a service calling &lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A?displayProperty=fullName&gt; on a workflow instance.</source>
+          <target state="translated">TryReloadProfile wordt aangeroepen door de runtime-bijhouden infrastructuur volgens een eigen semantiek bijhouden of als reactie op de host of een service-aanroepen &lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A?displayProperty=fullName&gt;op een workflowexemplaar.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the workflow instance.</source>
+          <target state="translated">De &lt;xref:System.Type&gt;van het workflowexemplaar.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the workflow instance.</source>
+          <target state="translated">De &lt;xref:System.Guid&gt;van het workflowexemplaar.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to load.</source>
+          <target state="translated">Wanneer deze methode retourneert, bevat de <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> laden.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Deze parameter wordt doorgegeven niet geïnitialiseerd.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a new <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> should be loaded; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als een nieuwe <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> moet worden geladen, anders wordt <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

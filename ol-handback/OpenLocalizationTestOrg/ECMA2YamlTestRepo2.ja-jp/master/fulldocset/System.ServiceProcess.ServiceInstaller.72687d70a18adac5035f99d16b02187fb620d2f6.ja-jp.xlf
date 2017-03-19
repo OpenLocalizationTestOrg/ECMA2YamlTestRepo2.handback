@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2d080e942bc01bdab55cc0fa71bb2f058252c627</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceProcess.ServiceInstaller.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">10c1a817c83c23eb1f5eaf6e9a6162755dfbb2e8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">932ee898a773c28235a19471fbf564156f98032e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Installs a class that extends <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to implement a service.</source>
+          <target state="translated">拡張するクラスをインストール<bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>サービスの実装です。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class is called by the install utility when installing a service application.</source>
+          <target state="translated">このクラスは、サービス アプリケーションをインストールするときに、インストール ユーティリティによって呼び出されます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスです。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To install a service, create a project installer class that inherits from the &lt;xref:System.Configuration.Install.Installer&gt; class, and set the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; attribute on the class to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">サービスをインストールするには、継承されたプロジェクト インストーラー クラスを作成、&lt;xref:System.Configuration.Install.Installer&gt;クラス、し、設定、&lt;xref:System.ComponentModel.RunInstallerAttribute&gt;属性をクラスに<ph id="ph1">`true`</ph>&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt;&lt;/xref:System.Configuration.Install.Installer&gt;。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Within your project, create one &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance per service application, and one &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance for each service in the application.</source>
+          <target state="translated">プロジェクト内には、1 つを作成&lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;サービス アプリケーションと、1 つごとにインスタンス&lt;xref:System.ServiceProcess.ServiceInstaller&gt;アプリケーション内の各サービスのインスタンス&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Within your project installer class constructor, set the installation properties for the service using the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; and &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances, and add the instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection.</source>
+          <target state="translated">クラスのコンス トラクター、プロジェクト インストーラー内で設定を使用して、サービスのインストール プロパティ、&lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;と&lt;xref:System.ServiceProcess.ServiceInstaller&gt;インスタンスし、インスタンスを追加、&lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;コレクションです&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The ServiceInstaller constructor automatically generates an event log source whose &lt;xref:System.Diagnostics.EventLog.Log%2A&gt; property is set to the computer's Application log, and an &lt;xref:System.Diagnostics.EventLogInstaller&gt;.</source>
+          <target state="translated">ServiceInstaller コンス トラクターを自動的に生成、イベント ログ ソース&lt;xref:System.Diagnostics.EventLog.Log%2A&gt;プロパティは、コンピューターのアプリケーション ログ、および&lt;xref:System.Diagnostics.EventLogInstaller&gt;。&lt;/xref:System.Diagnostics.EventLogInstaller&gt;に設定&lt;/xref:System.Diagnostics.EventLog.Log%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When you set the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; of the &lt;xref:System.ServiceProcess.ServiceInstaller&gt;, which should be identical to the &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt; of the service, the &lt;xref:System.Diagnostics.EventLog.Source%2A&gt; property of the event log is automatically set to the same value.</source>
+          <target state="translated">設定すると、&lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;の&lt;xref:System.ServiceProcess.ServiceInstaller&gt;、これと同じにする必要があります、 &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt;、サービスの&lt;xref:System.Diagnostics.EventLog.Source%2A&gt;イベント ログのプロパティは自動的に同じ値に設定します&lt;/xref:System.Diagnostics.EventLog.Source%2A&gt;&lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt;&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;&lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The source is deleted automatically in the case of an installation failure.</source>
+          <target state="translated">ソースは、インストールの障害の場合に自動的に削除されます。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The ServiceInstaller constructor sets the &lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt; property to <ph id="ph1">`ServiceStartMode.Manual`</ph> to specify that a user start the service.</source>
+          <target state="translated">ServiceInstaller コンス トラクターのセット、&lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;プロパティを<ph id="ph1">`ServiceStartMode.Manual`</ph>をユーザーがサービスを開始することを指定します&lt;/xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You can reset the property to <ph id="ph1">`ServiceStartMode.Automatic`</ph> to specify that the service start when the computer reboots.</source>
+          <target state="translated">プロパティをリセットできます<ph id="ph1">`ServiceStartMode.Automatic`</ph>コンピューターが再起動したら、サービスを開始を指定します。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Copies properties from an instance of <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to this installer.</source>
+          <target state="translated">インスタンスからプロパティをコピー <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このインストーラーにします。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This method will rarely be called within your code.</source>
+          <target state="translated">コード内で、このメソッドを呼び出すことはほとんどありませんが。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>CopyFromComponent is usually called only by designers.</source>
+          <target state="translated">通常、CopyFromComponent はデザイナーによってのみ呼び出されます。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>CopyFromComponent saves the service name of the <ph id="ph1">`component`</ph> parameter to the &lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt; of the &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance.</source>
+          <target state="translated">CopyFromComponent 保存のサービス名、<ph id="ph1">`component`</ph>パラメーターを&lt;xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;の&lt;xref:System.ServiceProcess.ServiceInstaller&gt;インスタンス&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;&lt;/xref:System.ServiceProcess.ServiceInstaller.ServiceName%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>(Because the parameter must be an instance of a class that derives from &lt;xref:System.ServiceProcess.ServiceBase&gt;, <ph id="ph1">`component`</ph> is guaranteed to have a &lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt; property.)      &gt; <ph id="ph2">[!NOTE]</ph> &gt;  If you are using the Visual Studio designer, this method is called at design time when the user clicks <ph id="ph3">`Add Installer`</ph> on a component that specified this class as its installer.</source>
+          <target state="translated">(パラメーター&lt;xref:System.ServiceProcess.ServiceBase&gt;から派生したクラスのインスタンスである必要がありますので<ph id="ph1">`component`</ph>&lt;xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt;プロパティを持つことが保証されます)。     &gt; <ph id="ph2">[!NOTE]</ph> &gt; デザイン時のユーザーがクリックしたときにこのメソッドを呼び出した場合は、Visual Studio デザイナーを使用している<ph id="ph3">`Add Installer`</ph>コンポーネントのインストーラーとしてこのクラスを指定します&lt;/xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName&gt;&lt;/xref:System.ServiceProcess.ServiceBase&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The installer takes all information it can from the live component and stores it for use at install time.</source>
+          <target state="translated">インストーラーでは、ライブして格納し、インストール時に使用するすべての情報を受け取ります。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from which to copy.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.IComponent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>からコピー先です。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The component you are associating with this installer does not inherit from <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">このインストーラーを関連付けているコンポーネントがから継承していない<bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceBase"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the service should be delayed from starting until other automatically started services are running.</source>
+          <target state="translated">取得またはサービスを自動的に開始されるその他のサービスが実行するまでは開始遅延させるかどうかを示す値を設定します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The DelayedAutoStart property can be applied to any service, but it is ignored unless the service's start mode is &lt;xref:System.ServiceProcess.ServiceStartMode&gt;.</source>
+          <target state="translated">DelayedAutoStart プロパティは、任意のサービスに適用されることができますが、サービスの開始モードが&lt;xref:System.ServiceProcess.ServiceStartMode&gt;。&lt;/xref:System.ServiceProcess.ServiceStartMode&gt;場合を除き、無視されます。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The setting takes effect the next time the system is restarted.</source>
+          <target state="translated">設定は、次に、システムが再起動したときに有効にします。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Service Control Manager does not guarantee a specific start time for the service.</source>
+          <target state="translated">サービス コントロール マネージャーでは、サービスの特定の開始時刻は保証されません。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A delayed automatic start service cannot be a member of a load ordering group, but it can depend on another automatic start service.</source>
+          <target state="translated">遅延自動開始サービスが読み込み順序、グループのメンバーにすることはできませんが、別の自動開始サービスが依存することができます。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If an application calls a delayed automatic start service before it is loaded, the call fails.</source>
+          <target state="translated">アプリケーションで読み込まれる前に遅延自動開始サービスを呼び出す場合、呼び出しが失敗します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>On operating systems that do not support delayed automatic start, setting this property has no effect.</source>
+          <target state="translated">遅延自動開始をサポートしないオペレーティング システムでこのプロパティの設定は影響しません。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to delay automatic start of the service; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>自動遅延にサービスを開始します。それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets or sets the description for the service.</source>
+          <target state="translated">取得またはサービスの説明を設定します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Use the Description property to describe the purpose of the installed service to the user.</source>
+          <target state="translated">Description プロパティを使用して、ユーザーがインストールされているサービスの目的を説明します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The user can view the service description in applications that display details for installed services.</source>
+          <target state="translated">ユーザーは、インストールされているサービスの詳細を表示するアプリケーションでサービスの説明を表示できます。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For example, using Windows XP, you can view the service description with the Service Control command-line utility (Sc.exe) or you can view the service description within the <bpt id="p1">**</bpt>Services<ept id="p1">**</ept> node of the <bpt id="p2">**</bpt>Computer Management<ept id="p2">**</ept> console.</source>
+          <target state="translated">たとえば、Windows XP を使用して、サービス コントロール コマンド ライン ユーティリティ (Sc.exe) を使用してサービスの説明を表示することができますか内でサービスの説明を表示することができます、 <bpt id="p1">**</bpt>Services<ept id="p1">**</ept>のノード、<bpt id="p2">**</bpt>コンピューターの管理<ept id="p2">**</ept>コンソールです。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The description of the service.</source>
+          <target state="translated">サービスの説明です。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">既定値は空の文字列 ("") です。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Indicates the friendly name that identifies the service to the user.</source>
+          <target state="translated">ユーザーにサービスを識別するフレンドリ名を示します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The name associated with the service, used frequently for interactive tools.</source>
+          <target state="translated">対話型ツールに頻繁に使用する、サービスに関連付けられた名前です。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Installs the service by writing service application information to the registry.</source>
+          <target state="translated">サービス アプリケーションの情報をレジストリに書き込むことにより、サービスをインストールします。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This method is meant to be used by installation tools, which process the appropriate methods automatically.</source>
+          <target state="translated">このメソッドは、インストールのツールは、適切なメソッドを自動的に処理で使用することはできます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">通常がないメソッドを呼び出す、 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;; コード内で一般的にして呼び出されただけインストール ユーティリティ&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The install utility automatically calls the Install method during installation.</source>
+          <target state="translated">インストール ユーティリティは、インストール時に自動的にインストール メソッドを呼び出します。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>It backs out failures, if necessary, by calling &lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A&gt; on the object that generated the exception.</source>
+          <target state="translated">バックアップ障害、out、必要に応じて呼び出すことによって&lt;xref:System.ServiceProcess.ServiceInstaller.Rollback%2A&gt;例外を生成するオブジェクト&lt;/xref:System.ServiceProcess.ServiceInstaller.Rollback%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An application's install routine maintains information automatically about the components that were already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">アプリケーションのインストールが既にインストールされている、インストーラーを使用して、プロジェクトの&lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;。&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;コンポーネントを自動的に情報を保持します。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>This state information, passed into Install as the <ph id="ph1">`stateSaver`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">としてのインストールにこの状態情報が渡された、<ph id="ph1">`stateSaver`</ph>パラメーターでは継続的に更新、&lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;インスタンスとその各&lt;xref:System.ServiceProcess.ServiceInstaller&gt;ユーティリティによってインスタンスがインストールされている&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">通常、コードのこの状態情報を明示的に変更する必要はありません。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; associated with your project installation class installs information common to all &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances in the project.</source>
+          <target state="translated">&lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;情報に関連付けられた、プロジェクトのインストール クラス インストールすべてに共通する&lt;xref:System.ServiceProcess.ServiceInstaller&gt;プロジェクト内のインスタンス&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If this service has anything that separates it from the other services in the installation project, that service-specific information is installed by this method.</source>
+          <target state="translated">このサービスが何もインストール プロジェクト内の他のサービスから分離する場合、そのサービスに固有の情報はこのメソッドによってインストールされます。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>To install a service, create a project installer class that inherits from the &lt;xref:System.Configuration.Install.Installer&gt; class, and set the &lt;xref:System.ComponentModel.RunInstallerAttribute&gt; attribute on the class to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">サービスをインストールするには、継承されたプロジェクト インストーラー クラスを作成、&lt;xref:System.Configuration.Install.Installer&gt;クラス、し、設定、&lt;xref:System.ComponentModel.RunInstallerAttribute&gt;属性をクラスに<ph id="ph1">`true`</ph>&lt;/xref:System.ComponentModel.RunInstallerAttribute&gt;&lt;/xref:System.Configuration.Install.Installer&gt;。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Within your project, create one &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance per service application, and one &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance for each service in the application.</source>
+          <target state="translated">プロジェクト内には、1 つを作成&lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;サービス アプリケーションと、1 つごとにインスタンス&lt;xref:System.ServiceProcess.ServiceInstaller&gt;アプリケーション内の各サービスのインスタンス&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Within your project installer class constructor, set the installation properties for the service using the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; and &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instances, and add the instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection.</source>
+          <target state="translated">クラスのコンス トラクター、プロジェクト インストーラー内で設定を使用して、サービスのインストール プロパティ、&lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;と&lt;xref:System.ServiceProcess.ServiceInstaller&gt;インスタンスし、インスタンスを追加、&lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;コレクションです&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is recommended that you use the constructor for adding installer instances; however, if you need to add to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection in the Install method, be sure to perform the same additions to the collection in the &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; method.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; インストーラーのインスタンスを追加するため、コンス トラクターを使用することをお勧めただしに追加する必要がある場合、&lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;メソッドでは、インストール、コレクションを実行してくださいでコレクションに同じ追加機能、&lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;メソッド&lt;/xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>For all classes deriving from the &lt;xref:System.Configuration.Install.Installer&gt; class, the state of the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection must be the same in the Install and &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; methods.</source>
+          <target state="translated">すべてのクラスから派生する、&lt;xref:System.Configuration.Install.Installer&gt;クラスの状態、&lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;コレクションは、現在のインストールで同じである必要がありますと&lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;メソッド&lt;/xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;&lt;/xref:System.Configuration.Install.Installer&gt;。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>However, you can avoid the maintenance of the collection across the Install and &lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt; methods if you add installer instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection in your custom installer class constructor.</source>
+          <target state="translated">ただし、インストールの間で、コレクションのメンテナンスを回避できますと&lt;xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;メソッドへのインストーラーのインスタンスを追加する場合、&lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;カスタム インストーラー クラスのコンス トラクターでコレクションです&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;&lt;/xref:System.ServiceProcess.ServiceInstaller.Uninstall%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;インストールに関連付けられているコンテキスト情報を格納します&lt;/xref:System.Collections.IDictionary&gt;。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The installation does not contain a <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the executable.</source>
+          <target state="translated">インストールが含まれていない、 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceProcessInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可能です。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>-or-       The file name for the assembly is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated">または、アセンブリのファイル名は<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>または空の文字列。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>-or-       The service name is invalid.</source>
+          <target state="translated">または、サービス名は無効です。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>-or-       The Service Control Manager could not be opened.</source>
+          <target state="translated">または、サービス コントロール マネージャーを開けませんでした。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The display name for the service is more than 255 characters in length.</source>
+          <target state="translated">サービスの表示名は、長さ 255 よりも多くの文字です。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The system could not generate a handle to the service.</source>
+          <target state="translated">システムは、サービスへのハンドルを生成できませんでした。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>-or-       A service with that name is already installed.</source>
+          <target state="translated">または、その名前のサービスが既にインストールされています。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Indicates whether two installers would install the same service.</source>
+          <target state="translated">2 つのインストーラーと同じサービスをインストールするかどうかを示します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>IsEquivalentInstaller indicates, for example, whether two installers would install the same service under the same user account.</source>
+          <target state="translated">IsEquivalentInstaller を示します、たとえば、2 つのインストーラーは、同じユーザー アカウントで同じサービスをインストールするかどうか。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Configuration.Install.ComponentInstaller"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to which you are comparing the current installer.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Configuration.Install.ComponentInstaller"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>現在インストーラーを比較します。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if calling &lt;xref:System.ServiceProcess.ServiceInstaller.Install*&gt; on both of these installers would result in installing the same service; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>呼び出す場合&lt;xref:System.ServiceProcess.ServiceInstaller.Install*&gt;これらのインストーラーの両方でのインストールと同じになるサービスですそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ServiceProcess.ServiceInstaller.Install*&gt; 。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Rolls back service application information written to the registry by the installation procedure.</source>
+          <target state="translated">インストール プロシージャによって、レジストリに書き込まれるサービス アプリケーションの情報をロールバックします。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This method is meant to be used by installation tools, which process the appropriate methods automatically.</source>
+          <target state="translated">このメソッドは、インストールのツールは、適切なメソッドを自動的に処理で使用することはできます。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">通常がないメソッドを呼び出す、 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;; コード内で一般的にして呼び出されただけインストール ユーティリティ&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The install utility automatically calls the &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; method during the installation process.</source>
+          <target state="translated">インストール ユーティリティを自動的に呼び出して、&lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;インストール プロセス中にメソッド&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>It backs out failures, if necessary, by calling Rollback on the object that generated the exception.</source>
+          <target state="translated">必要に応じて、オブジェクトのロールバックを呼び出すことによって、例外生成された場合の障害をバックアップします。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>An application's install routine maintains information automatically about the components already installed, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">アプリケーションのインストールが自動的にインストーラーを使用して、プロジェクトの&lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;。&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;に既にインストールされているコンポーネントに関する情報を保持します。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This state information, passed into Rollback as the <ph id="ph1">`savedState`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">としてロールバックにこの状態情報が渡された、<ph id="ph1">`savedState`</ph>パラメーターでは継続的に更新、&lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;インスタンスとその各&lt;xref:System.ServiceProcess.ServiceInstaller&gt;ユーティリティによってインスタンスがインストールされている&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">通常、コードのこの状態情報を明示的に変更する必要はありません。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;インストールに関連付けられているコンテキスト情報を格納します&lt;/xref:System.Collections.IDictionary&gt;。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Indicates the name used by the system to identify this service.</source>
+          <target state="translated">このサービスを識別する、システムによって使用される名前を示します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>This property must be identical to the <ph id="ph1">&amp;lt;</ph>xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> of the service you want to install.</source>
+          <target state="translated">このプロパティと同じである必要があります、 <ph id="ph1">&amp;lt;</ph>xref:System.ServiceProcess.ServiceBase.ServiceName%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>をインストールするサービスです。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The name of the service to be installed.</source>
+          <target state="translated">インストールするサービスの名前。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>This value must be set before the install utility attempts to install the service.</source>
+          <target state="translated">この値は、サービスをインストールするのには、インストールする前に設定する必要があります。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The ServiceName property is invalid.</source>
+          <target state="translated">ServiceName プロパティが正しくありません。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Indicates the services that must be running for this service to run.</source>
+          <target state="translated">サービスを実行するには、このサービスが実行されている必要がありますを示します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A service can require other services to be running before it can start.</source>
+          <target state="translated">サービスには、他のサービスを開始する前に実行することが必要です。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The information from this property is written to a key in the registry.</source>
+          <target state="translated">このプロパティの情報は、レジストリのキーに書き込まれます。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>When the user (or the system, in the case of automatic startup) tries to run the service, the Service Control Manager (SCM) verifies that each of the services in the array has already been started.</source>
+          <target state="translated">ユーザー (または自動的に起動した場合に、システム) は、サービスの実行を試みると、サービス コントロール マネージャー (SCM) では、各配列内のサービスが既に開始されていることを確認します。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>If any service in the array is not running then, the SCM tries to start them.</source>
+          <target state="translated">配列内のサービスが、実行されていない場合、SCM はそれらを開始しようとします。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>This includes services with <ph id="ph1">`Manual`</ph>&lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;.</source>
+          <target state="translated">これにより、サービスが含まれます<ph id="ph1">`Manual`</ph> &lt;xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt;。&lt;/xref:System.ServiceProcess.ServiceInstaller.StartType%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If any service upon which this service depends fails to start, this service will not start.</source>
+          <target state="translated">このサービスが依存している任意のサービスは、起動に失敗すると、このサービスは開始されません。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>An exception is not thrown if the system is not started because there is no exception handling at the system level to detect this.</source>
+          <target state="translated">これを検出するために、システム レベルで処理例外が存在しないため、システムが開始されていない場合は、例外はスローされません。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Decide how to handle service start failures and implement this in your code.</source>
+          <target state="translated">サービスの開始の失敗を処理し、コードでこれを実装する方法を決定します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Typically, a dialog appears to the user at startup if a service fails to start.</source>
+          <target state="translated">通常、サービスが開始に失敗した場合は、起動時にユーザーにダイアログ ボックスが表示されます。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>If the service does not start, an entry is written to the Application event log.</source>
+          <target state="translated">サービスが起動しない場合は、アプリケーション イベント ログにエントリが書き込まれます。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The services upon which this service depends do not need to be in the same executable.</source>
+          <target state="translated">このサービスが依存しているサービスは、同じ実行可能ファイル内にある必要はありません。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>An array of services that must be running before the service associated with this installer can run.</source>
+          <target state="translated">このインストーラーに関連付けられているサービスを実行前に実行する必要があるサービスの配列。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Indicates how and when this service is started.</source>
+          <target state="translated">このサービスを開始する方法とタイミングを示します。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Set the StartType to specify either that the service be started automatically after reboot or that a user must manually start the service.</source>
+          <target state="translated">再起動後に、サービスが自動的に開始するか、ユーザーが、サービスを手動で開始する必要がありますを指定する開始の種類を設定します。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>A service can also be disabled, specifying that it cannot be started, either manually or programmatically, until it is enabled.</source>
+          <target state="translated">サービスできますも無効になります、することはできません開始する必要が、手動またはプログラムによって、有効になっているまでを指定します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>You cannot change &lt;xref:System.ServiceProcess.ServiceInstaller&gt; property values after installation.</source>
+          <target state="translated">変更することはできません&lt;xref:System.ServiceProcess.ServiceInstaller&gt;インストール後にプロパティの値&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To change the StartType, you either have to uninstall and reinstall your service, or manually change the setting using the Service Control Manager.</source>
+          <target state="translated">開始の種類を変更するにするアンインストールし、サービスを再インストールする必要があるか、サービス コントロール マネージャーを使用して設定を手動で変更します。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the way the service is started.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を表すサービスを開始する方法です。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_Manual" name="Manual" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which specifies that the service will not automatically start after reboot.</source>
+          <target state="translated">既定値は<bpt id="p1">&lt;xref uid="langword_csharp_Manual" name="Manual" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>再起動後に、サービスは自動的に開始されませんを指定します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The start mode is not a value of the <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">開始モードがの値ではない、 <bpt id="p1">&lt;xref href="System.ServiceProcess.ServiceStartMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>列挙します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Uninstalls the service by removing information about it from the registry.</source>
+          <target state="translated">レジストリからの情報を削除することで、サービスをアンインストールします。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Uninstall first attempts to stop the service before uninstalling it.</source>
+          <target state="translated">これをアンインストールする前に、サービスを停止する最初の試みをアンインストールします。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If the service cannot be stopped, no exception is caught, and the method continues with the removal of the service.</source>
+          <target state="translated">サービスを停止できない場合は例外がキャッチされないと、メソッドは、サービスの削除を続行します。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Normally, you will not call the methods on &lt;xref:System.ServiceProcess.ServiceInstaller&gt; within your code; they are generally called only by the install utility.</source>
+          <target state="translated">通常がないメソッドを呼び出す、 &lt;xref:System.ServiceProcess.ServiceInstaller&gt;; コード内で一般的にして呼び出されただけインストール ユーティリティ&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>InstallUtil is used to uninstall services as well as install them; uninstalling takes a switch in the command line call.</source>
+          <target state="translated">InstallUtil がサービスをアンインストールするだけでなく; にインストールします。コマンドラインの呼び出し、スイッチは、アンインストールします。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>An application's uninstall routine maintains information automatically about the components being uninstalled, using the project installer's &lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">アプリケーションのアンインストール ルーチンに自動的には、コンポーネントに関する情報を保持をアンインストールして、インストーラーを使用して、プロジェクトの&lt;xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;.&lt;/xref:System.Configuration.Install.Installer.Context%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This state information, passed into Uninstall as the <ph id="ph1">`savedState`</ph> parameter, is continuously updated as the &lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt; instance and each &lt;xref:System.ServiceProcess.ServiceInstaller&gt; instance is installed by the utility.</source>
+          <target state="translated">としてアンインストールにこの状態情報が渡された、<ph id="ph1">`savedState`</ph>パラメーターでは継続的に更新、&lt;xref:System.ServiceProcess.ServiceProcessInstaller&gt;インスタンスとその各&lt;xref:System.ServiceProcess.ServiceInstaller&gt;ユーティリティによってインスタンスがインストールされている&lt;/xref:System.ServiceProcess.ServiceInstaller&gt;&lt;/xref:System.ServiceProcess.ServiceProcessInstaller&gt;。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>It is usually unnecessary for your code to modify this state information explicitly.</source>
+          <target state="translated">通常、コードのこの状態情報を明示的に変更する必要はありません。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>For all classes deriving from the &lt;xref:System.Configuration.Install.Installer&gt; class, the state of the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection must be the same in the &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; and Uninstall methods.</source>
+          <target state="translated">すべてのクラスから派生する、&lt;xref:System.Configuration.Install.Installer&gt;クラスの状態、&lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;コレクションが同じである必要があります、&lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;およびメソッドをアンインストールします&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;&lt;/xref:System.Configuration.Install.Installer&gt;。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>However, you can avoid the maintenance of the collection across the &lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt; and Uninstall methods if you add installer instances to the &lt;xref:System.Configuration.Install.Installer.Installers%2A&gt; collection in your custom installer class constructor.</source>
+          <target state="translated">ただし、全体でコレクションのメンテナンスを避けることができます、&lt;xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;するインストーラーのインスタンスを追加する場合、メソッドをアンインストールし、&lt;xref:System.Configuration.Install.Installer.Installers%2A&gt;カスタム インストーラー クラスのコンス トラクター内のコレクション&lt;/xref:System.Configuration.Install.Installer.Installers%2A&gt;&lt;/xref:System.ServiceProcess.ServiceInstaller.Install%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>There is no rollback mechanism for uninstalling, so if one service fails to uninstall, this does not affect the other services (usually within the same installation project) being uninstalled.</source>
+          <target state="translated">1 つのサービスは、アンインストールに失敗すると、これが影響しないように、ある他のサービス (通常、同じインストール プロジェクト) をアンインストールして、アンインストールするためのロールバック メカニズムはありません。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that contains the context information associated with the installation.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;インストールに関連付けられているコンテキスト情報を格納します&lt;/xref:System.Collections.IDictionary&gt;。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The Service Control Manager could not be opened.</source>
+          <target state="translated">サービス コントロール マネージャーを開けませんでした。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>-or-       The system could not get a handle to the service.</source>
+          <target state="translated">または、システムは、サービスへのハンドルを取得できませんでした。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">566306b9947c2fdb94adf168c5d7cb0eeb0dd30f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Claims.ClaimsPrincipal.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">347b89ff566110c99f8dc3370144ceb85b89fdb3</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0b19ef9d11b98dfdcdc385718d9695db3a394699</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Security.Principal.IPrincipal&gt; implementation that supports multiple claims-based identities.</source>
+          <target state="translated">&lt;xref:System.Security.Principal.IPrincipal&gt;Implementację, która obsługuje wiele tożsamości opartego na oświadczeniach.&lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Beginning with .NET Framework 4.5, Windows Identity Foundation (WIF) and claims-based identity have been fully integrated into the .NET Framework.</source>
+          <target state="translated">Począwszy od programu .NET Framework 4.5, Windows Identity Foundation (WIF) i tożsamości opartego na oświadczeniach zostały pełni zintegrowane w programie .NET Framework.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that many classes that represent a principal in the .NET Framework now derive from ClaimsPrincipal rather than simply implementing the &lt;xref:System.Security.Principal.IPrincipal&gt; interface.</source>
+          <target state="translated">Oznacza to, że wiele klas reprezentujących podmiot zabezpieczeń w programie .NET Framework teraz pochodzi od ClaimsPrincipal niż wdrożenie &lt;xref:System.Security.Principal.IPrincipal&gt;interfejsu.&lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to implementing the &lt;xref:System.Security.Principal.IPrincipal&gt; interface, ClaimsPrincipal exposes properties and methods that are useful for working with claims.</source>
+          <target state="translated">Oprócz wykonania &lt;xref:System.Security.Principal.IPrincipal&gt;interfejsu ClaimsPrincipal udostępnia właściwości i metody, które są przydatne podczas pracy z oświadczeniami.&lt;/xref:System.Security.Principal.IPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ClaimsPrincipal exposes a collection of identities, each of which is a &lt;xref:System.Security.Claims.ClaimsIdentity&gt;.</source>
+          <target state="translated">ClaimsPrincipal udostępnia kolekcję tożsamości, z których każdy jest &lt;xref:System.Security.Claims.ClaimsIdentity&gt;.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the common case, this collection, which is accessed through the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; property, will only have a single element.</source>
+          <target state="translated">W przypadku typowych tej kolekcji, który jest dostępny za pośrednictwem &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;właściwość, będzie mieć tylko jeden element.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The introduction of ClaimsPrincipal in .NET 4.5 as the principal from which most principal classes derive does not force you to change anything in the way in which you deal with identity.</source>
+          <target state="translated">Wprowadzenie ClaimsPrincipal w programie .NET 4.5 jako podmiot zabezpieczeń, z którego pochodzi najbardziej głównych klas nie wymusza wprowadzanie zmian w sposób, w którym postępowania z tożsamością.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It does, however open up more possibilities and offer more chances to exercise finer access control.</source>
+          <target state="translated">Tak, jednak otworzyć więcej możliwości i oferować więcej szansa, aby uzyskać bardziej precyzyjną kontrolę dostępu.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example:      -   The application code itself can work directly with the claims contained in the current principal to drive extra authentication, authorization, and personalization tasks.</source>
+          <target state="translated">Na przykład:-kodu aplikacji może współpracować bezpośrednio z oświadczeń zawartych w bieżący podmiot zabezpieczeń do kierowania dodatkowe zadania uwierzytelniania, autoryzacji i personalizacji.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   You can front your resources with a claims processing pipeline, which can deal with authentication requests and authorization policy even before execution reaches your code.</source>
+          <target state="translated">-FrontPage zasobów z oświadczeń przetwarzania potoku, którego może dotyczyć żądań uwierzytelniania i zasady autoryzacji nawet przed wykonywania osiągnie kodu.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can configure a web-based application or service with a custom claims authentication manager, an instance of a class that derives from the &lt;xref:System.Security.Claims.ClaimsAuthenticationManager&gt; class.</source>
+          <target state="translated">Na przykład można skonfigurować do aplikacji sieci web lub usługi w Menedżerze uwierzytelniania oświadczeń niestandardowych, wystąpienia klasy, która jest pochodną &lt;xref:System.Security.Claims.ClaimsAuthenticationManager&gt;klasy.&lt;/xref:System.Security.Claims.ClaimsAuthenticationManager&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When so configured, the request processing pipeline invokes the &lt;xref:System.Security.Claims.ClaimsAuthenticationManager.Authenticate%2A&gt; method on your claims authentication manager passing it a ClaimsPrincipal that represents the context of the incoming request.</source>
+          <target state="translated">Po odpowiednim skonfigurowaniu potoku przetwarzania żądań wywołuje &lt;xref:System.Security.Claims.ClaimsAuthenticationManager.Authenticate%2A&gt;metody dla Menedżera uwierzytelniania oświadczeń przekazanie jej ClaimsPrincipal, reprezentujący kontekstu żądania przychodzącego.&lt;/xref:System.Security.Claims.ClaimsAuthenticationManager.Authenticate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your claims authentication manager can then perform authentication based on the values of the incoming claims.</source>
+          <target state="translated">Menedżera uwierzytelniania oświadczeń można wykonywać uwierzytelnianie na podstawie wartości oświadczenia przychodzącego.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can also filter, transform, or add claims to the incoming claim set.</source>
+          <target state="translated">On też filtrować, przekształcanie i dodawać oświadczenia do zestawu oświadczeń przychodzących.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, it could be used to enrich the incoming claim set with new claims created from a local data source such as a local user profile      -   You can configure a web-based application with a custom claims authorization manager, an instance of a class that derives from the &lt;xref:System.Security.Claims.ClaimsAuthorizationManager&gt; class.</source>
+          <target state="translated">Na przykład można wzbogacić oświadczenia przychodzącego ustawiony za pomocą nowych oświadczeń, utworzyć ze źródła danych lokalnych, takich jak lokalny profil użytkownika — można skonfigurować aplikacji sieci web w Menedżerze autoryzacji oświadczeń niestandardowych, wystąpienia klasy, która jest pochodną &lt;xref:System.Security.Claims.ClaimsAuthorizationManager&gt;klasy.&lt;/xref:System.Security.Claims.ClaimsAuthorizationManager&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When so configured, the request processing pipeline packages the incoming ClaimsPrincipal in an &lt;xref:System.Security.Claims.AuthorizationContext&gt; and invokes the &lt;xref:System.Security.Claims.ClaimsAuthorizationManager.CheckAccess%2A&gt; method on your claims authorization manager.</source>
+          <target state="translated">Po odpowiednim skonfigurowaniu potoku przetwarzania żądań pakietów przychodzących ClaimsPrincipal w &lt;xref:System.Security.Claims.AuthorizationContext&gt;i wywołuje &lt;xref:System.Security.Claims.ClaimsAuthorizationManager.CheckAccess%2A&gt;Metoda Menedżera autoryzacji oświadczeń.&lt;/xref:System.Security.Claims.ClaimsAuthorizationManager.CheckAccess%2A&gt; &lt;/xref:System.Security.Claims.AuthorizationContext&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your claims authorization manager can then enforce authorization based on the incoming claims.</source>
+          <target state="translated">Menedżera autoryzacji oświadczeń może wtedy wymusić autoryzacji na podstawie oświadczeń przychodzących.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Inline claims-based code access checks can be performed by configuring your application with a custom claims authorization manager and using either the &lt;xref:System.IdentityModel.Services.ClaimsPrincipalPermission&gt; class to perform imperative access checks or the &lt;xref:System.IdentityModel.Services.ClaimsPrincipalPermissionAttribute&gt; to perform declarative access checks.</source>
+          <target state="translated">-Wbudowanego kontroli dostępu opartej na oświadczeniach kodu może zostać wykonana przez konfigurowanie aplikacji przy użyciu niestandardowego oświadczeń Menedżera autoryzacji i za pomocą &lt;xref:System.IdentityModel.Services.ClaimsPrincipalPermission&gt;klasy do wykonywania kontroli dostępu konieczne lub &lt;xref:System.IdentityModel.Services.ClaimsPrincipalPermissionAttribute&gt;wykonywania procedur kontroli dostępu deklaratywne.&lt;/xref:System.IdentityModel.Services.ClaimsPrincipalPermissionAttribute&gt; &lt;/xref:System.IdentityModel.Services.ClaimsPrincipalPermission&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Claims-based code access checks are performed inline, outside of the processing pipeline, and so are available to all applications as long as a claims authorization manager is configured.</source>
+          <target state="translated">Kontroli dostępu opartej na oświadczeniach kodu są wykonywane w tekście, poza potoku przetwarzania i dlatego są dostępne dla wszystkich aplikacji tak długo, jak Menedżer autoryzacji oświadczeń jest skonfigurowany.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can obtain a ClaimsPrincipal instance for the principal associated with a request in an RP application (or the principal under which a thread is executing) by casting the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property to ClaimsPrincipal.</source>
+          <target state="translated">Możesz uzyskać wystąpienia ClaimsPrincipal podmiot zabezpieczeń skojarzony z żądaniem w aplikacji RP (lub podmiot zabezpieczeń, pod którym wątek jest wykonywany) przez rzutowanie &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;Właściwości ClaimsPrincipal.&lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The claims associated with an ClaimsPrincipal object are available through its &lt;xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt; property.</source>
+          <target state="translated">Skojarzona z obiektem ClaimsPrincipal oświadczenia są dostępne za pośrednictwem jego &lt;xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt;Właściwości.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt; property returns all of the claims contained by the identities associated with the principal.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt;Właściwość zwraca wszystkie oświadczenia zawarty w tożsamościami skojarzonymi z podmiot zabezpieczeń.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Claims%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the uncommon case in which the ClaimsPrincipal contains multiple &lt;xref:System.Security.Claims.ClaimsIdentity&gt; instances, you can use the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; property or you can access the primary identity by using the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt; property.</source>
+          <target state="translated">W przypadku rzadko, w którym elementu ClaimsPrincipal zawiera wiele &lt;xref:System.Security.Claims.ClaimsIdentity&gt;wystąpień, można użyć &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;Właściwości lub mogą korzystać podstawowej tożsamości za pomocą &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt;Właściwości.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; &lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ClaimsPrincipal provides several methods through which these claims may be searched and fully supports Language Integrated Query (LINQ).</source>
+          <target state="translated">ClaimsPrincipal zapewnia kilka metod za pomocą których można przeszukać tych oświadczeń i w pełni obsługuje język kwerendy zintegrowanym (LINQ).</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Identities can be added to the principal by using the &lt;xref:System.Security.Claims.ClaimsPrincipal.AddIdentities%2A&gt; or &lt;xref:System.Security.Claims.ClaimsPrincipal.AddIdentity%2A&gt; methods.</source>
+          <target state="translated">Można dodać tożsamości do podmiotu zabezpieczeń przy użyciu &lt;xref:System.Security.Claims.ClaimsPrincipal.AddIdentities%2A&gt;lub &lt;xref:System.Security.Claims.ClaimsPrincipal.AddIdentity%2A&gt;metody.&lt;/xref:System.Security.Claims.ClaimsPrincipal.AddIdentity%2A&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal.AddIdentities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To add identities to the ClaimsPrincipal, a caller must have full trust.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Można dodać tożsamości do elementu ClaimsPrincipal, obiekt wywołujący musi mieć pełne zaufanie.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, WIF prioritizes &lt;xref:System.Security.Principal.WindowsIdentity&gt; objects when selecting the primary identity to return through the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt; property.</source>
+          <target state="translated">Domyślnie priorytet ma WIF &lt;xref:System.Security.Principal.WindowsIdentity&gt;obiekty podczas wybierania podstawowej tożsamości, aby powrócić do &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt;Właściwości.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt; &lt;/xref:System.Security.Principal.WindowsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can modify this behavior by supplying a delegate through the &lt;xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt; property to perform the selection.</source>
+          <target state="translated">To zachowanie można zmienić, podając delegata za pośrednictwem &lt;xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt;właściwości do wykonania zaznaczenia.&lt;/xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt; property provides similar functionality for the &lt;xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt; property.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt;Właściwość oferuje podobne funkcje dla &lt;xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt;Właściwości.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the claim-based model, whether a principal is in a specified role is determined by the claims presented by its underlying identities.</source>
+          <target state="translated">W modelu na podstawie oświadczeń Określa, czy podmiot zabezpieczeń znajduje się w określonej roli zależy od wnioski przedstawione przez jego podstawowej tożsamości.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.ClaimsPrincipal.IsInRole%2A&gt; method essentially examines each identity associated with the principal to determine whether it possesses a claim with the specified role value.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.ClaimsPrincipal.IsInRole%2A&gt;Metoda sprawdza zasadniczo każda tożsamość skojarzoną z podmiot zabezpieczeń, aby określić, czy posiada oświadczenie z wartością określoną rolę.&lt;/xref:System.Security.Claims.ClaimsPrincipal.IsInRole%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The type of the claim (represented by its &lt;xref:System.Security.Claims.Claim.Type%2A?displayProperty=fullName&gt; property) used to determine which claims should be examined during role checks is specified on an identity through its &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Typ oświadczenia (reprezentowany przez jej &lt;xref:System.Security.Claims.Claim.Type%2A?displayProperty=fullName&gt;Właściwości) używany do określenia, jakie oświadczenia należy zbadać podczas roli kontroli jest określona w tożsamości za pomocą jego &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt;Właściwości.&lt;/xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt; &lt;/xref:System.Security.Claims.Claim.Type%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thus, the claims examined during role checks can be of a different type for different identities associated with the principal.</source>
+          <target state="translated">W związku z tym oświadczenia zbadane podczas kontroli roli może być innego typu dla różnych tożsamościami skojarzonymi z podmiot zabezpieczeń.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No identities are associated with the new instance.</source>
+          <target state="translated">Brak tożsamości są skojarzone z nowego wystąpienia.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(The &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection is empty).</source>
+          <target state="translated">( &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;Kolekcja jest pusta).&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified claims identities.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przy użyciu tożsamości określone oświadczenia.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection is initialized with the specified identities.</source>
+          <target state="translated">&lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;Kolekcji jest inicjowany z określonej tożsamości.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The identities from which to initialize the new claims principal.</source>
+          <target state="translated">Tożsamości, z którego można zainicjować nowe podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;identities&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;identities&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified identity.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy z określoną tożsamością.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified identity is assignable from &lt;xref:System.Security.Claims.ClaimsIdentity&gt;, it is used to initialize the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection.</source>
+          <target state="translated">Jeśli określona tożsamość jest z &lt;xref:System.Security.Claims.ClaimsIdentity&gt;, jest używana do inicjowania &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;kolekcji.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; &lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, a &lt;xref:System.Security.Claims.ClaimsIdentity&gt; is created using the specified identity and is used to initialize the collection.</source>
+          <target state="translated">W przeciwnym razie &lt;xref:System.Security.Claims.ClaimsIdentity&gt;jest tworzony przy użyciu określonej tożsamości i jest używany do zainicjowania dla kolekcji.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The identity from which to initialize the new claims principal.</source>
+          <target state="translated">Tożsamość, z którego można zainicjować nowe podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;identity&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;identity&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified principal.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy z określonego podmiotu.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified principal is assignable from &lt;xref:System.Security.Claims.ClaimsPrincipal&gt;, all of its identities are added to the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection.</source>
+          <target state="translated">Jeśli określony podmiot zabezpieczeń jest z &lt;xref:System.Security.Claims.ClaimsPrincipal&gt;, wszystkie jego tożsamości są dodawane do &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;kolekcji.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the specified principal is not assignable from &lt;xref:System.Security.Claims.ClaimsPrincipal&gt;, a new &lt;xref:System.Security.Claims.ClaimsIdentity&gt; is created from the &lt;xref:System.Security.Principal.IIdentity&gt; in its &lt;xref:System.Security.Principal.IPrincipal.Identity%2A?displayProperty=fullName&gt; property and added to the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection.</source>
+          <target state="translated">Jeśli określony podmiot zabezpieczeń nie można przypisać z &lt;xref:System.Security.Claims.ClaimsPrincipal&gt;, nowy &lt;xref:System.Security.Claims.ClaimsIdentity&gt;jest tworzona na podstawie &lt;xref:System.Security.Principal.IIdentity&gt;w jego &lt;xref:System.Security.Principal.IPrincipal.Identity%2A?displayProperty=fullName&gt;Właściwości i dodać do &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;kolekcji.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; &lt;/xref:System.Security.Principal.IPrincipal.Identity%2A?displayProperty=fullName&gt; &lt;/xref:System.Security.Principal.IIdentity&gt; &lt;/xref:System.Security.Claims.ClaimsIdentity&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The principal from which to initialize the new claims principal.</source>
+          <target state="translated">Podmiot zabezpieczeń, z którego można zainicjować nowe podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;principal&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;principal&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from a serialized stream created by using <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy z szeregowanego strumienia utworzone za pomocą <bpt id="p2">&lt;xref href="System.Runtime.Serialization.ISerializable"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The serialized data.</source>
+          <target state="translated">Dane serializowane.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The context for serialization.</source>
+          <target state="translated">Kontekst serializacji.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Adds the specified claims identities to this claims principal.</source>
+          <target state="translated">Dodaje określone oświadczenia tożsamości do tego podmiotu zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The identities are added to the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection.</source>
+          <target state="translated">Tożsamości są dodawane do &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;kolekcji.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The claims identities to add.</source>
+          <target state="translated">Aby dodać tożsamości oświadczeń.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;identities&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;identities&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Adds the specified claims identity to this claims principal.</source>
+          <target state="translated">Dodaje określone oświadczenia tożsamości do tego podmiotu zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The identity is added to the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection.</source>
+          <target state="translated">Tożsamość jest dodawany do &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;kolekcji.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The claims identity to add.</source>
+          <target state="translated">Tożsamość oświadczeń do dodania.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;identity&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;identity&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Gets a collection that contains all of the claims from all of the claims identities associated with this claims principal.</source>
+          <target state="translated">Pobiera kolekcję zawierającą wszystkie oświadczenia ze wszystkich tożsamości oświadczeń skojarzone z tym podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A claims principal has a collection of &lt;xref:System.Security.Claims.ClaimsIdentity&gt; objects that is accessible through the Identities property.</source>
+          <target state="translated">Podmiot zabezpieczeń oświadczeń ma kolekcję &lt;xref:System.Security.Claims.ClaimsIdentity&gt;obiektów, które jest dostępny za pośrednictwem właściwości tożsamości.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each &lt;xref:System.Security.Claims.ClaimsIdentity&gt; in the collection contains one or more claims.</source>
+          <target state="translated">Każdy &lt;xref:System.Security.Claims.ClaimsIdentity&gt;w kolekcji zawiera co najmniej jedno oświadczenie.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Claims property returns all of the claims from all of the claims identities in this collection.</source>
+          <target state="translated">Właściwość oświadczenia zwraca wszystkie oświadczenia ze wszystkich tożsamości oświadczeń w tej kolekcji.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Claims property can be examined by custom implementations of the &lt;xref:System.Security.Claims.ClaimsAuthenticationManager&gt; class to make authentication decisions or to filter, transform, or enrich an incoming claim set; by custom implementations of the &lt;xref:System.Security.Claims.ClaimsAuthorizationManager&gt; class to enforce authorization policy; or by application code to make authorization decisions or to customize user experience based on the claims present in the collection.</source>
+          <target state="translated">Właściwość oświadczenia może sprawdzić implementacji niestandardowych &lt;xref:System.Security.Claims.ClaimsAuthenticationManager&gt;klasy do podejmowania decyzji uwierzytelniania lub do filtrowania, Przekształć lub wzbogacić zestawu oświadczeń przychodzących; przez implementacje niestandardowe &lt;xref:System.Security.Claims.ClaimsAuthorizationManager&gt;klasy w celu wymuszenia zasad autoryzacji, lub przez kod aplikacji do podejmowania decyzji dotyczących autoryzacji lub dostosować użytkownika wystąpić na podstawie oświadczeń istnieje w kolekcji.&lt;/xref:System.Security.Claims.ClaimsAuthorizationManager&gt; &lt;/xref:System.Security.Claims.ClaimsAuthenticationManager&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The claims associated with this principal.</source>
+          <target state="translated">Oświadczenia skojarzonego z tego podmiotu zabezpieczeń.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Gets and sets the delegate used to select the claims principal returned by the &lt;xref:System.Security.Claims.ClaimsPrincipal.Current*&gt; property.</source>
+          <target state="translated">Pobiera i ustawia delegata używany do wybierania zwrócony przez podmiot zabezpieczeń oświadczeń &lt;xref:System.Security.Claims.ClaimsPrincipal.Current*&gt;Właściwości.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Current*&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set this property to override the default behavior of the &lt;xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt; property.</source>
+          <target state="translated">Można ustawić tę właściwość, aby zastąpić domyślne zachowanie &lt;xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt;Właściwości.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The delegate.</source>
+          <target state="translated">Delegat.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość domyślna to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Returns a copy of this instance.</source>
+          <target state="translated">Zwraca kopię tego wystąpienia.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A new copy of the <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Nową kopię <bpt id="p1">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Creates a new claims identity.</source>
+          <target state="translated">Tworzy nową tożsamość oświadczeń.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The binary reader.</source>
+          <target state="translated">Czytnik binarnego.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The created claims identity.</source>
+          <target state="translated">Tożsamość oświadczeń utworzony.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets the current claims principal.</source>
+          <target state="translated">Pobiera bieżący podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; is returned.</source>
+          <target state="translated">Domyślnie &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;jest zwracana.&lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can change this behavior by setting the &lt;xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt; property to specify a delegate to be called to determine the current principal.</source>
+          <target state="translated">To zachowanie można zmienić, określając &lt;xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt;Właściwości w celu określenia delegowaną, która ma być wywoływana w celu ustalenia bieżący podmiot zabezpieczeń.&lt;/xref:System.Security.Claims.ClaimsPrincipal.ClaimsPrincipalSelector%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The current claims principal.</source>
+          <target state="translated">Bieżący podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Retrieves all of the claims that are matched by the specified predicate.</source>
+          <target state="translated">Pobiera wszystkie oświadczenia, które są dopasowane przez określony predykat.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Returns claims from all identities associated with the claims principal.</source>
+          <target state="translated">Zwraca oświadczenia z tożsamości wszystkie skojarzone z podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The function that performs the matching logic.</source>
+          <target state="translated">Funkcja, która wykonuje logika dopasowywania.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The matching claims.</source>
+          <target state="translated">Oświadczenia zgodne.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Retrieves all or the claims that have the specified claim type.</source>
+          <target state="translated">Pobiera wszystkie lub oświadczenia, które mają określonego typu oświadczenia.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Returns claims from all identities associated with the claims principal.</source>
+          <target state="translated">Zwraca oświadczenia z tożsamości wszystkie skojarzone z podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The comparison is made using Ordinal case in-sensitive on <ph id="ph1">`type`</ph>.</source>
+          <target state="translated">Porównanie jest utworzone za pomocą liczby porządkowej przypadku wrażliwe na <ph id="ph1">`type`</ph>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The claim type against which to match claims.</source>
+          <target state="translated">Typ oświadczenia, względem którego odpowiadające oświadczeń.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The matching claims.</source>
+          <target state="translated">Oświadczenia zgodne.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Retrieves the first claim that is matched by the specified predicate.</source>
+          <target state="translated">Pobiera pierwszego oświadczenia dostosowanego przez określony predykat.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The function that performs the matching logic.</source>
+          <target state="translated">Funkcja, która wykonuje logika dopasowywania.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The first matching claim or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no match is found.</source>
+          <target state="translated">Pierwszy dopasowywania oświadczeń lub <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeżeli nie znaleziono.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Retrieves the first claim with the specified claim type.</source>
+          <target state="translated">Pobiera pierwszego oświadczenia z określonego typu oświadczenia.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The claim type to match.</source>
+          <target state="translated">Typ oświadczenia do dopasowania.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The first matching claim or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no match is found.</source>
+          <target state="translated">Pierwszy dopasowywania oświadczeń lub <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeżeli nie znaleziono.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Populates the <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with data needed to serialize the current <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Wypełnia <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> z dane potrzebne do serializacji bieżącego <bpt id="p2">&lt;xref href="System.Security.Claims.ClaimsPrincipal"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The object to populate with data.</source>
+          <target state="translated">Obiekt do wypełniania danych.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The destination for this serialization.</source>
+          <target state="translated">Lokalizacja docelowa tej serializacji.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;info&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Determines whether any of the claims identities associated with this claims principal contains a claim that is matched by the specified predicate.</source>
+          <target state="translated">Określa, czy żadnego tożsamości oświadczeń skojarzone z tym podmiot zabezpieczeń oświadczeń zawiera oświadczenia dostosowanego przez określony predykat.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The function that performs the matching logic.</source>
+          <target state="translated">Funkcja, która wykonuje logika dopasowywania.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a matching claim exists; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli oświadczenie zgodne istnieje; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;match&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Determines whether any of the claims identities associated with this claims principal contains a claim with the specified claim type and value.</source>
+          <target state="translated">Określa, czy dowolne tożsamości oświadczeń skojarzone z tym podmiot zabezpieczeń oświadczeń zawiera oświadczenie o określony typ oświadczenia i wartości.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Does not check the &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; or &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; properties.</source>
+          <target state="translated">Nie sprawdza &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt;lub &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt;Właściwości.&lt;/xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; &lt;/xref:System.Security.Claims.Claim.Issuer%2A&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The comparison is made using Ordinal, case sensitive on value; case in-sensitive on type.</source>
+          <target state="translated">Porównanie jest utworzone za pomocą porządkową, z uwzględnieniem wielkości liter w wartości. w przypadku liter w typie.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The type of the claim to match.</source>
+          <target state="translated">Typ oświadczenia do dopasowania.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The value of the claim to match.</source>
+          <target state="translated">Wartość oświadczenia do dopasowania.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a matching claim exists; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli oświadczenie zgodne istnieje; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;type&lt;/code&gt;</ph>is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</source>
+          <target state="translated">-or-       <ph id="ph1">&lt;code&gt;value&lt;/code&gt;</ph> is <bpt id="p1">**</bpt>null<ept id="p1">**</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets a collection that contains all of the claims identities associated with this claims principal.</source>
+          <target state="translated">Pobiera kolekcję zawierającą wszystkie tożsamości oświadczeń skojarzone z tym podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the common case, the collection contains only a single element.</source>
+          <target state="translated">W typowych przypadkach kolekcja zawiera tylko jeden element.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is possible for the collection to contain some elements which are <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Istnieje możliwość kolekcji zawiera niektóre elementy, które są <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The collection of claims identities.</source>
+          <target state="translated">Kolekcja tożsamości oświadczeń.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets the primary claims identity associated with this claims principal.</source>
+          <target state="translated">Pobiera podstawowy oświadczeń tożsamość skojarzoną z tym podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the framework prioritizes identities of type &lt;xref:System.Security.Principal.WindowsIdentity&gt; when returning the identity.</source>
+          <target state="translated">Domyślnie platformę priorytetem tożsamości typu &lt;xref:System.Security.Principal.WindowsIdentity&gt;wracając tożsamości.&lt;/xref:System.Security.Principal.WindowsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The first &lt;xref:System.Security.Principal.WindowsIdentity&gt; found in the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection is returned.</source>
+          <target state="translated">Pierwszy &lt;xref:System.Security.Principal.WindowsIdentity&gt;w &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;kolekcji jest zwracana.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; &lt;/xref:System.Security.Principal.WindowsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no &lt;xref:System.Security.Principal.WindowsIdentity&gt; in the collection, the first identity assignable from &lt;xref:System.Security.Claims.ClaimsIdentity&gt; is returned.</source>
+          <target state="translated">W przypadku nie &lt;xref:System.Security.Principal.WindowsIdentity&gt;w kolekcji, pierwszy tożsamości z &lt;xref:System.Security.Claims.ClaimsIdentity&gt;jest zwracana.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt; &lt;/xref:System.Security.Principal.WindowsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there is no &lt;xref:System.Security.Claims.ClaimsIdentity&gt;, <ph id="ph1">`null`</ph> is returned.</source>
+          <target state="translated">W przypadku nie &lt;xref:System.Security.Claims.ClaimsIdentity&gt;, <ph id="ph1">`null`</ph> jest zwracana.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt; collection is empty, an &lt;xref:System.ArgumentNullException&gt; is thrown.</source>
+          <target state="translated">Jeśli &lt;xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;Kolekcja jest pusta, &lt;xref:System.ArgumentNullException&gt;jest generowany.&lt;/xref:System.ArgumentNullException&gt; &lt;/xref:System.Security.Claims.ClaimsPrincipal.Identities%2A&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can change the default behavior by setting the &lt;xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt; property to specify a delegate to be called to determine the identity.</source>
+          <target state="translated">Domyślne zachowanie można zmienić, ustawiając &lt;xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt;Właściwości w celu określenia delegowaną, która ma być wywoływana w celu ustalenia tożsamości.&lt;/xref:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The primary claims identity associated with this claims principal.</source>
+          <target state="translated">Głównej oświadczoną tożsamość skojarzoną z tym podmiot zabezpieczeń oświadczeń.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether the entity (user) represented by this claims principal is in the specified role.</source>
+          <target state="translated">Zwraca wartość wskazującą, czy jednostka (użytkownik) reprezentowany przez ten podmiot zabezpieczeń oświadczeń jest w określonej roli.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The IsInRole method checks whether an identity that this claims principal possesses contains a claim of type &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt; where the value of the claim is equal to the value specified by the <ph id="ph1">`role`</ph> parameter.</source>
+          <target state="translated">Metoda IsInRole sprawdza, czy tożsamości, która posiada ten podmiot zabezpieczeń oświadczeń zawiera oświadczenie typu &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt;gdy wartość oświadczenia jest określony przez wartość <ph id="ph1">`role`</ph> parametru.&lt;/xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Each &lt;xref:System.Security.Claims.ClaimsIdentity&gt; has its own definition of the claim type that represents a role.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Każdego &lt;xref:System.Security.Claims.ClaimsIdentity&gt;ma swoją własną definicję typu oświadczenia, który reprezentuje roli.&lt;/xref:System.Security.Claims.ClaimsIdentity&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This claim type can be accessed and set through the &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Można uzyskać dostępu do tego typu oświadczenia i ustawiana za pośrednictwem &lt;xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt;Właściwości.&lt;/xref:System.Security.Claims.ClaimsIdentity.RoleClaimType%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The role for which to check.</source>
+          <target state="translated">Rola, do których chcesz sprawdzić.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if claims principal is in the specified role; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli podmiot zabezpieczeń oświadczeń znajduje się w określonej roli; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets and sets the delegate used to select the claims identity returned by the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity*&gt; property.</source>
+          <target state="translated">Pobiera i ustawia delegata używany do wybierania tożsamość oświadczeń zwrócony przez &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity*&gt;Właściwości.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identity*&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set this property to override the default behavior of the &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt; property.</source>
+          <target state="translated">Można ustawić tę właściwość, aby zastąpić domyślne zachowanie &lt;xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt;Właściwości.&lt;/xref:System.Security.Claims.ClaimsPrincipal.Identity%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The delegate.</source>
+          <target state="translated">Delegat.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość domyślna to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

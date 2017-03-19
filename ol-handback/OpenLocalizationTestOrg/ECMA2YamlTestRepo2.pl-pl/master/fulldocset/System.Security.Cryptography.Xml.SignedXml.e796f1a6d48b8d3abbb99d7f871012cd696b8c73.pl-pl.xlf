@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1ab3a38bb33c08f523a94ccc761706d881ffb338</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Security.Cryptography.Xml.SignedXml.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f319c881acdc7c798c11511c5d0ed93f61097427</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">29d9c6c0721dc7db0c92fa9039e45f9f58ba4dd3</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a wrapper on a core XML signature object to facilitate creating XML signatures.</source>
+          <target state="translated">Udostępnia otokę w obiekcie podpisu XML core ułatwiające tworzenie podpisów XML.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SignedXml class is the .NET Framework implementation of the World Wide Web Consortium (W3C) <bpt id="p1">[</bpt>XML Signature Syntax and Processing Specification<ept id="p1">](http://www.w3.org/TR/xmldsig-core/)</ept>, also known as XMLDSIG (XML Digital Signature).</source>
+          <target state="translated">Klasa SignedXml jest implementacja .NET Framework w sieci World Wide Web konsorcjum W3C <bpt id="p1">[</bpt>składni podpisu XML i specyfikacja przetwarzania<ept id="p1">](http://www.w3.org/TR/xmldsig-core/)</ept>, znanej również jako XMLDSIG (podpis cyfrowy XML).</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>XMLDSIG is a standards-based, interoperable way to sign and verify all or part of an XML document or other data that is addressable from a Uniform Resource Identifier (URI).</source>
+          <target state="translated">XMLDSIG jest oparta na standardach i interoperacyjne sposobem podpisywanie i weryfikowanie całości lub części dokumentu XML lub inne dane, które jest adresowana z zasobów identyfikator URI (Uniform).</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the SignedXml class whenever you need to share signed XML data between applications or organizations in a standard way.</source>
+          <target state="translated">Użyj klasy SignedXml, gdy należy udostępnić podpisane dane XML między aplikacji lub organizacje w standardowy sposób.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any data signed using this class can be verified by any conforming implementation of the W3C specification for XMLDSIG.</source>
+          <target state="translated">Wszystkie dane podpisany przy użyciu tej klasy można sprawdzić przy implementacji zgodnych ze specyfikacją W3C XMLDSIG.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SignedXml class allows you to create the following three kinds of XML digital signatures:      |Signature Type|Description|   |--------------------|-----------------|   |Enveloped signature|The signature is contained within the XML element being signed.|   |Enveloping signature|The signed XML is contained within the &lt;<ph id="ph1">`Signature`</ph>&gt; element.|   |Internal detached signature|The signature and signed XML are in the same document, but neither element contains the other.|       There is also a fourth kind of signature called an external detached signature which is when the data and signature are in separate XML documents.</source>
+          <target state="translated">Klasa SignedXml umożliwia tworzenie następujące trzy rodzaje podpisy cyfrowe XML: | Podpis typu | Opis elementu |   |--------------------|-----------------|   | Przekształcenie podpisu | Podpis jest zawarty w elemencie XML podpisywana. |   | Podpis obejmujących punkty kontrolne | Podpisem XML znajduje się w obrębie <ph id="ph1">`Signature`</ph>&gt; elementu. |   | Wewnętrzny odłączonego podpisu | Podpis i podpisem XML znajdują się w tym samym dokumencie, ale nie zawiera innych. |       Istnieje również czwarty rodzaj podpisu o nazwie zewnętrznych odłączonego podpisu, czyli gdy dane i podpis znajdują się w oddzielnych dokumentów XML.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>External detached signatures are not supported by the SignedXml class.</source>
+          <target state="translated">Zewnętrzne odłączyć podpisów nie są obsługiwane przez klasę SignedXml.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The structure of an  XML Signature    XMLDSIG creates a &lt;<ph id="ph1">`Signature`</ph>&gt; element, which contains a digital signature of an XML document or other data that is addressable from a URI.</source>
+          <target state="translated">Tworzy struktury XML podpisu XMLDSIG <ph id="ph1">`Signature`</ph>&gt; element, który zawiera podpis cyfrowy dokumentu XML lub innych danych, który jest adresowana z identyfikatora URI.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`Signature`</ph>&gt; element can optionally contain information about where to find a key that will verify the signature and which cryptographic algorithm was used for signing.</source>
+          <target state="translated"><ph id="ph1">`Signature`</ph>&gt; Element opcjonalnie może zawierać informacje o tym, gdzie znaleźć klucz, który będzie zweryfikować podpisu i który algorytm kryptograficzny został użyty do podpisania.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The basic structure is as follows:      <ph id="ph1">```xml      &lt;Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;       &lt;SignedInfo&gt;         &lt;CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;         &lt;SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/&gt;         &lt;Reference URI=""&gt;           &lt;Transforms&gt;             &lt;Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;           &lt;/Transforms&gt;           &lt;DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;           &lt;DigestValue&gt;Base64EncodedValue==&lt;/DigestValue&gt;         &lt;/Reference&gt;       &lt;/SignedInfo&gt;       &lt;SignatureValue&gt;AnotherBase64EncodedValue===&lt;/SignatureValue&gt;     &lt;/Signature&gt;      ```</ph>       The main parts of this structure are:       The &lt;<ph id="ph2">`CanonicalizationMethod`</ph>&gt; element    Specifies the rules for rewriting the <ph id="ph3">`Signature`</ph> element from XML/text into bytes for signature validation.</source>
+          <target state="translated">Podstawowa struktura jest następująca: <ph id="ph1">```xml      &lt;Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;       &lt;SignedInfo&gt;         &lt;CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;         &lt;SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/&gt;         &lt;Reference URI=""&gt;           &lt;Transforms&gt;             &lt;Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;           &lt;/Transforms&gt;           &lt;DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;           &lt;DigestValue&gt;Base64EncodedValue==&lt;/DigestValue&gt;         &lt;/Reference&gt;       &lt;/SignedInfo&gt;       &lt;SignatureValue&gt;AnotherBase64EncodedValue===&lt;/SignatureValue&gt;     &lt;/Signature&gt;      ```</ph> głównych części tej struktury są: <ph id="ph2">`CanonicalizationMethod`</ph>&gt; element określa zasady ponowne zapisywanie <ph id="ph3">`Signature`</ph> element na podstawie tekstu/XML w bajtach Walidacja podpisu.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default value in the .NET Framework is http://www.w3.org/TR/2001/REC-xml-c14n-20010315, which identifies a trustworthy algorithm.</source>
+          <target state="translated">Wartość domyślna w programie .NET Framework jest http://www.w3.org/TR/2001/REC-xml-c14n-20010315, które identyfikuje algorytm godne zaufania.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This element is represented by the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Ten element jest reprezentowana przez &lt;xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A?displayProperty=fullName&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedInfo.CanonicalizationMethod%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`SignatureMethod`</ph>&gt; element    Specifies the algorithm used for signature generation and validation, which was applied to the &lt;<ph id="ph2">`Signature`</ph>&gt; element to produce the value in &lt;<ph id="ph3">`SignatureValue`</ph>&gt;.</source>
+          <target state="translated"><ph id="ph1">`SignatureMethod`</ph>&gt; Element Określa algorytm używany do generowania podpisu i sprawdzania poprawności, która została zastosowana do <ph id="ph2">`Signature`</ph>&gt; elementem wartość <ph id="ph3">`SignatureValue`</ph>&gt;.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the example above, the value http://www.w3.org/2000/09/xmldsig#rsa-sha1 identifies an RSA PKCS1 SHA-1 signature.</source>
+          <target state="translated">W powyższym przykładzie http://www.w3.org/2000/09/xmldsig#rsa-sha1 wartość identyfikuje podpisu RSA PKCS1 SHA-1.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This element is represented by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod%2A&gt; property.</source>
+          <target state="translated">Ten element jest reprezentowana przez &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod%2A&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`SignatureValue`</ph>&gt; element    Specifies the cryptographic signature for the &lt;<ph id="ph2">`Signature`</ph>&gt; element.</source>
+          <target state="translated"><ph id="ph1">`SignatureValue`</ph>&gt; Element Określa podpis kryptograficzny dla <ph id="ph2">`Signature`</ph>&gt; elementu.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this signature does not verify, then some portion of the &lt;<ph id="ph1">`Signature`</ph>&gt; block was tampered with, and the document is considered invalid.</source>
+          <target state="translated">Jeśli podpis nie sprawdza, następnie część <ph id="ph1">`Signature`</ph>&gt; bloku został zmodyfikowany, a dokument jest uznawane za nieprawidłowe.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As long as the &lt;<ph id="ph1">`CanonicalizationMethod`</ph>&gt; value is trustworthy, this value is highly resistant to tampering.</source>
+          <target state="translated">Tak długo, jak <ph id="ph1">`CanonicalizationMethod`</ph>&gt; wartość jest godne zaufania, ta wartość jest wysoce odporne na próby naruszenia.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This element is represented by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureValue%2A&gt; property.</source>
+          <target state="translated">Ten element jest reprezentowana przez &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureValue%2A&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignatureValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`URI`</ph> attribute of the &lt;<ph id="ph2">`Reference`</ph>&gt; element    Specifies a data object using a URI reference.</source>
+          <target state="translated"><ph id="ph1">`URI`</ph> Atrybutu <ph id="ph2">`Reference`</ph>&gt; element określa obiekt danych przy użyciu identyfikatora URI odwołania.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This attribute is represented by the &lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Ten atrybut jest reprezentowana przez &lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Not specifying the <ph id="ph1">`URI`</ph> attribute, that is, setting the  &lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt; property to <ph id="ph2">`null`</ph>, means that the receiving application is expected to know the identity of the object.</source>
+          <target state="translated">-Nieokreślenie <ph id="ph1">`URI`</ph> atrybutu, oznacza to, że ustawienie &lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt;właściwości <ph id="ph2">`null`</ph>, oznacza, że aplikacja odbierająca może znać tożsamość obiektu.&lt;/xref:System.Security.Cryptography.Xml.Reference.Uri%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most cases, a <ph id="ph1">`null`</ph> URI will result in an exception being thrown.</source>
+          <target state="translated">W większości przypadków <ph id="ph1">`null`</ph> URI spowodują wyjątek.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not use a <ph id="ph1">`null`</ph> URI, unless your application is interoperating with a protocol which requires it.</source>
+          <target state="translated">Nie używaj <ph id="ph1">`null`</ph> identyfikatora URI, chyba że aplikacja jest współdziałanie z protokołem, którego wymaga.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Setting the <ph id="ph1">`URI`</ph> attribute to an empty string indicates that the root element of the document is being signed, a form of enveloped signature.</source>
+          <target state="translated">-Ustawienie <ph id="ph1">`URI`</ph> atrybutu na ciąg pusty oznacza, że element główny dokumentu jest podpisywana, formę przekształcenie podpisu.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the value of <ph id="ph1">`URI`</ph> attribute starts with #, then the value must resolve to an element in the current document.</source>
+          <target state="translated">— W przypadku wartość <ph id="ph1">`URI`</ph> atrybutu rozpoczyna się od #, a następnie wartość musi być rozpoznawana elementu w bieżącym dokumencie.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This form can be used with any of the supported signature types (enveloped signature, enveloping signature or internal detached signature).</source>
+          <target state="translated">Ten formularz może służyć ze wszystkimi typami obsługiwanych podpisu (transformacjach podpis obejmujące podpisu lub podpis odłączyć wewnętrznego).</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Anything else is considered an external resource detached signature and is not supported by the SignedXml class.</source>
+          <target state="translated">-Inaczej jest traktowany jako zasób zewnętrzny podpis odłączony i nie jest obsługiwana przez klasę SignedXml.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`Transforms`</ph>&gt; element    Contains an ordered list of &lt;<ph id="ph2">`Transform`</ph>&gt; elements that describe how the signer obtained the data object that was digested.</source>
+          <target state="translated"><ph id="ph1">`Transforms`</ph>&gt; Element zawiera uporządkowaną listę <ph id="ph2">`Transform`</ph>&gt; została rozłożona elementy, które opisują sposób osoby podpisującej otrzymanych obiektu danych.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A transform algorithm is similar to the canonicalization method, but instead of rewriting the &lt;<ph id="ph1">`Signature`</ph>&gt; element, it rewrites the content identified by the <ph id="ph2">`URI`</ph> attribute of the &lt;<ph id="ph3">`Reference`</ph>&gt; element.</source>
+          <target state="translated">Algorytm przekształcenia jest podobna do metody zapewniania kanoniczności, ale zamiast ponowne zapisywanie <ph id="ph1">`Signature`</ph>&gt; elementu go ponownie zapisuje zawartość oznaczona <ph id="ph2">`URI`</ph> atrybutu <ph id="ph3">`Reference`</ph>&gt; elementu.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`Transforms`</ph>&gt; element is represented by the &lt;xref:System.Security.Cryptography.Xml.TransformChain&gt; class.</source>
+          <target state="translated"><ph id="ph1">`Transforms`</ph>&gt; Element jest reprezentowany przez &lt;xref:System.Security.Cryptography.Xml.TransformChain&gt;klasę.&lt;/xref:System.Security.Cryptography.Xml.TransformChain&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Each transform algorithm is defined as taking either XML (an XPath node-set) or bytes as input.</source>
+          <target state="translated">-Każdy algorytm przekształcenia jest zdefiniowany jako biorąc jako dane wejściowe XML (zestaw węzłów XPath) lub bajtów.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the format of the current data differs from the transform input requirements, conversion rules are applied.</source>
+          <target state="translated">Jeśli format bieżących danych różni się od wymagania wprowadzania przekształcania, są stosowane reguły konwersji.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Each transform algorithm is defined as producing either XML or bytes as the output.</source>
+          <target state="translated">-Każdy algorytm przekształcenia jest zdefiniowany jako produkujących XML lub bajty jako dane wyjściowe.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the output of the last transform algorithm is not defined in bytes (or no transforms were specified), then the canonicalization method http://www.w3.org/TR/2001/REC-xml-c14n-20010315 is used as an implicit transform (even if a different algorithm was specified in the &lt;<ph id="ph1">`CanonicalizationMethod`</ph>&gt; element).</source>
+          <target state="translated">— Jeśli dane wyjściowe ostatniego algorytm przekształcenia nie jest zdefiniowany w bajtach (lub nie określono żadnych transformacje), następnie http://www.w3.org/TR/2001/REC-xml-c14n-20010315 metody zapewniania kanoniczności jest używany jako niejawne transformacji (nawet jeśli inny algorytm została określona w <ph id="ph1">`CanonicalizationMethod`</ph>&gt; elementu).</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   A value of http://www.w3.org/2000/09/xmldsig#enveloped-signature for the transform algorithm encodes a rule which is interpreted as remove the &lt;<ph id="ph1">`Signature`</ph>&gt; element from the document.</source>
+          <target state="translated">— Wartość http://www.w3.org/2000/09/xmldsig#enveloped-signature dla algorytm przekształcenia koduje regułę, która jest interpretowana jako Usuń <ph id="ph1">`Signature`</ph>&gt; elementu z dokumentu.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, a verifier of an enveloped signature will digest the document, including the signature, but the signer would have digested the document before the signature was applied, leading to different answers.</source>
+          <target state="translated">W przeciwnym razie wartość weryfikator przekształcenie podpisu będą szyfrowane dokumencie, łącznie z podpisu, ale osoby podpisującej będzie mieć rozłożona dokumentu przed zastosowaniem podpisu, co może prowadzić do różnych odpowiedzi.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`DigestMethod`</ph>&gt; element    Identifies the digest (cryptographic hash) method to apply on the transformed content identified by the <ph id="ph2">`URI`</ph> attribute of the &lt;<ph id="ph3">`Reference`</ph>&gt; element.</source>
+          <target state="translated"><ph id="ph1">`DigestMethod`</ph>&gt; Element identyfikuje metody tworzenia skrótu (skrót kryptograficzny) do zastosowania do zawartości po przekształceniu identyfikowane przez <ph id="ph2">`URI`</ph> atrybutu <ph id="ph3">`Reference`</ph>&gt; elementu.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is represented by the &lt;xref:System.Security.Cryptography.Xml.Reference.DigestMethod%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">To jest reprezentowana przez &lt;xref:System.Security.Cryptography.Xml.Reference.DigestMethod%2A?displayProperty=fullName&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.Reference.DigestMethod%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Choosing a canonicalization method    Unless interoperating with a specification which requires the use of a different value, we recommend that you use the default canonicalization method in the .NET Framework which is the XML-C14N 1.0 algorithm, whose value is http://www.w3.org/TR/2001/REC-xml-c14n-20010315.</source>
+          <target state="translated">Wybieranie metody zapewniania kanoniczności, chyba że współpracy z specyfikacją, która wymaga użycia inną wartość, zalecane jest użycie domyślnej metody zapewniania kanoniczności w programie .NET Framework, która jest algorytm XML C14N 1.0, którego wartość jest http://www.w3.org/TR/2001/REC-xml-c14n-20010315.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The XML-C14N 1.0 algorithm is required to be supported by all implementations of XMLDSIG, particularly as it is an implicit final transform to apply.</source>
+          <target state="translated">Algorytm XML C14N 1.0 jest wymagana obsługiwany przez implementacje wszystkich XMLDSIG, szczególnie w przypadku, ponieważ jest on niejawne końcowego przekształcenie do zastosowania.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are versions of canonicalization algorithms which support preserving comments.</source>
+          <target state="translated">Dostępne są wersje zapewniania kanoniczności algorytmy, które obsługuje komentarzy zachowania.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Comment-preserving canonicalization methods are not recommended because they violate the "sign what is seen" principle.</source>
+          <target state="translated">Zachowywanie komentarz metody zapewniania kanoniczności nie są zalecane, ponieważ ich narusza zasadę "Zaloguj się, co jest widoczne".</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, the comments in a &lt;<ph id="ph1">`Signature`</ph>&gt; element will not alter the processing logic for how the signature is performed, merely what the signature value is.</source>
+          <target state="translated">Oznacza to, komentarze w <ph id="ph1">`Signature`</ph>&gt; elementu nie można zmienić logika przetwarzania dla realizację podpis, jest jedynie jakie podpis wartości.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When combined with a weak signature algorithm, allowing the comments to be included gives an attacker unnecessary freedom to force a hash collision, making a tampered document appear legitimate.</source>
+          <target state="translated">W połączeniu z algorytmem słabych podpisów, umożliwiając komentarze, aby być uwzględniane zapewnia swobody niepotrzebnych atakująca wymusić kolizji wyznaczania wartości skrótu, wprowadzenie zmodyfikowany dokumentu są wyświetlane uzasadnione.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In the .NET Framework, only built-in canonicalizers are supported by default.</source>
+          <target state="translated">W programie .NET Framework tylko wbudowane canonicalizers są obsługiwane domyślnie.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To support additional or custom canonicalizers, see the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt; property.</source>
+          <target state="translated">Aby obsługiwać canonicalizers dodatkowe lub niestandardowe, zobacz &lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the document uses a canonicalization method that is not in the collection represented by the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt; property, then the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method will return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Jeśli dokument używa metody zapewniania kanoniczności, która nie znajduje się w kolekcji reprezentowany przez &lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;Właściwości, a następnie &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;metoda zwróci <ph id="ph1">`false`</ph>.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  An extremely defensive application can remove any values it does not expect signers to use from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt; collection.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Bardzo obrony aplikacji można usunąć wartości nie oczekuje osoby podpisujące do użycia z &lt;xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;kolekcji.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SafeCanonicalizationMethods%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Are the Reference values safe from tampering?</source>
+          <target state="translated">Czy przed naruszeniem wartości odwołania?</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Yes, the &lt;<ph id="ph1">`Reference`</ph>&gt; values are safe from tampering.</source>
+          <target state="translated">Tak, <ph id="ph1">`Reference`</ph>&gt; wartości są bezpieczne naruszeniu.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The .NET framework verifies the &lt;<ph id="ph1">`SignatureValue`</ph>&gt; computation before processing any of the &lt;<ph id="ph2">`Reference`</ph>&gt; values and their associated transforms, and will abort early to avoid potentially malicious processing instructions.</source>
+          <target state="translated">.NET framework sprawdza <ph id="ph1">`SignatureValue`</ph>&gt; obliczeń przed przetworzeniem wszystkich <ph id="ph2">`Reference`</ph>&gt; wartości skojarzone z nimi przekształca i przerwie wcześnie w celu uniknięcia instrukcji przetwarzania mogą okazać się złośliwe.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Choosing the elements to sign    We recommend that you use the value of "" for the <ph id="ph1">`URI`</ph> attribute (or set the &lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A&gt; property to an empty string), if possible.</source>
+          <target state="translated">Wybieranie elementów do podpisania zalecane jest użycie wartości "" dla <ph id="ph1">`URI`</ph> atrybutu (lub ustaw &lt;xref:System.Security.Cryptography.Xml.Reference.Uri%2A&gt;pusty ciąg dla właściwości), jeśli to możliwe.&lt;/xref:System.Security.Cryptography.Xml.Reference.Uri%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means the whole document is considered for the digest computation, which means the whole document is protected from tampering.</source>
+          <target state="translated">Oznacza to, że cały dokument jest uznawany za do obliczeń szyfrowane, co oznacza, że cały dokument jest chroniony przed naruszeniem.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is very common to see <ph id="ph1">`URI`</ph> values in the form of anchors such as #foo, referring to an element whose ID attribute is "foo".</source>
+          <target state="translated">Bardzo często, aby wyświetlić <ph id="ph1">`URI`</ph> wartości w formularzu kotwice, takich jak #foo odwołujących się do elementu, którego atrybut ID jest "foo".</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unfortunately, it is easy for this to be tampered with because this includes only the content of the target element, not the context.</source>
+          <target state="translated">Niestety jest łatwy w tym celu niepowołane ponieważ dotyczy tylko zawartość elementu docelowego nie kontekstu.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Abusing this distinction is known as XML Signature Wrapping (XSW).</source>
+          <target state="translated">SMTP ta różnica jest znany jako zawijania podpisu XML (XSW).</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your application considers comments to be semantic (which is not common when dealing with XML), then you should use "#xpointer(/)" instead of "", and "#xpointer(id('foo'))" instead of "#foo".</source>
+          <target state="translated">Aplikacja uwzględnia komentarzy semantyczne (który nie jest typowe w przypadku zajmuje się XML), następnie należy użyć "#xpointer(/)" zamiast "", a "#xpointer(id('foo'))" zamiast "#foo".</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The #xpointer versions are interpreted as including comments, while the shortname forms are excluding comments.</source>
+          <target state="translated">Wersje #xpointer są interpretowane jako tym komentarzy, gdy formularze nazwa_skrócona wyłączenie się komentarze.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you need to accept documents which are only partially protected and you want to ensure that you are reading the same content that the signature protected, use the &lt;xref:System.Security.Cryptography.Xml.SignedXml.GetIdElement%2A&gt; method.</source>
+          <target state="translated">Jeśli użytkownik musi zaakceptować dokumenty, które są tylko częściowo chronione i chcesz zapewnić odczytują tę samą zawartość chroniona podpisu, użyj &lt;xref:System.Security.Cryptography.Xml.SignedXml.GetIdElement%2A&gt;metody.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.GetIdElement%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Security considerations about the KeyInfo element    The data in the optional &lt;<ph id="ph1">`KeyInfo`</ph>&gt; element (that is, the &lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt; property), which contains a key to validate the signature,  should not be trusted.</source>
+          <target state="translated">Zagadnienia dotyczące zabezpieczeń o elemencie KeyInfo dane w opcjonalnym <ph id="ph1">`KeyInfo`</ph>&gt; elementu (oznacza to, &lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt;Właściwości), który zawiera klucz, aby zweryfikować podpisu, nie należy ufać.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In particular, when the &lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt; value represents a bare RSA, DSA or ECDSA public key,  the document could have been tampered with, despite the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method reporting that the signature is valid.</source>
+          <target state="translated">W szczególności, &lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt;wartość reprezentuje systemu od zera klucza publicznego RSA, DSA lub ECDSA, dokument można zostały naruszone, pomimo &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;raportowania jest prawidłowy podpis metody.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can happen because the entity doing the tampering just has to generate a new key and re-sign the tampered document with that new key.</source>
+          <target state="translated">Może to się zdarzyć jednostki czynności, po prostu naruszeniu ma wygenerowanie nowego klucza i ponowne podpisanie zmodyfikowany dokumentu z tego nowego klucza.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>So, unless your application verifies that the public key is an expected value, the document should be treated as if it were tampered with.</source>
+          <target state="translated">Tak chyba że aplikacji sprawdza, czy klucz publiczny jest oczekiwana wartość, dokument powinien być traktowany tak, jakby zostały naruszone.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This requires that your application examine the public key embedded within the document and verify it against a list of known values for the document context.</source>
+          <target state="translated">Wymaga to zbadać klucza publicznego osadzony w dokumencie i listę znanych wartości dla kontekstu dokumentu weryfikacji aplikacji.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the document could be understood to be issued by a known user, you'd check the key against a list of known keys used by that user.</source>
+          <target state="translated">Na przykład jeśli dokument można rozumieć wydawane przez znanych użytkowników, możesz sprawdzić klucza z listą znanych kluczy używanych przez tego użytkownika.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also verify the key after processing the document by using the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignatureReturningKey%2A&gt; method, instead of using the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method.</source>
+          <target state="translated">Można również sprawdzić po przetworzeniu dokumentu za pomocą klucza &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignatureReturningKey%2A&gt;metody zamiast &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;metody.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignatureReturningKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>But, for the optimal security, you should verify the key beforehand.</source>
+          <target state="translated">Jednak optymalne zabezpieczeń, należy sprawdzić klucz wcześniej.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Alternately, consider trying the user's registered public keys, rather than reading what's in the &lt;<ph id="ph1">`KeyInfo`</ph>&gt; element.</source>
+          <target state="translated">Alternatywnie należy wziąć pod uwagę użytkownika w trakcie zarejestrowany kluczy publicznych, zamiast odczytywanie <ph id="ph1">`KeyInfo`</ph>&gt; elementu.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Security considerations about the X509Data element    The optional &lt;<ph id="ph1">`X509Data`</ph>&gt; element is a child of the &lt;<ph id="ph2">`KeyInfo`</ph>&gt; element and contains one or more X509 certificates or identifiers for X509 certificates.</source>
+          <target state="translated">Zagadnienia dotyczące zabezpieczeń dotyczące opcjonalnego elementu X509Data <ph id="ph1">`X509Data`</ph>&gt; element jest elementem podrzędnym <ph id="ph2">`KeyInfo`</ph>&gt; element i zawiera co najmniej jeden X509 certyfikatów lub identyfikatory X509 certyfikatów.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data in the &lt;<ph id="ph1">`X509Data`</ph>&gt; element should also not be inherently trusted.</source>
+          <target state="translated">Dane w <ph id="ph1">`X509Data`</ph>&gt; element nie należy także dodatkowo z natury zaufanych.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When verifying a document with the embedded &lt;<ph id="ph1">`X509Data`</ph>&gt; element, the .NET Framework verifies only that the data resolves to an X509 certificate whose public key can be successfully used to validate the document signature.</source>
+          <target state="translated">Podczas weryfikowania dokument z osadzonego <ph id="ph1">`X509Data`</ph>&gt; elementu, .NET Framework sprawdza tylko że danych jest rozpoznawana jako X509 certyfikatu, którego klucz publiczny pomyślnie można sprawdzić poprawności podpisu dokumentu.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike calling the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method with the <ph id="ph1">`verifySignatureOnly`</ph> parameter set to <ph id="ph2">`false`</ph>, no revocation check is performed, no chain trust is checked, and no expiration is verified.</source>
+          <target state="translated">W przeciwieństwie do wywoływania &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;metody z <ph id="ph1">`verifySignatureOnly`</ph> parametru <ph id="ph2">`false`</ph>, nie odwołania jest sprawdzane zaznaczono łańcuch zaufania i wygaśnięcia nie jest weryfikowany.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Even if your application extracts the certificate itself and passes it to the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method with the <ph id="ph1">`verifySignatureOnly`</ph> parameter set to <ph id="ph2">`false`</ph>, that is still not sufficient validation to prevent document tampering.</source>
+          <target state="translated">Nawet jeśli sam certyfikat wyodrębnia i przekazuje je do aplikacji &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;metody z <ph id="ph1">`verifySignatureOnly`</ph> parametru <ph id="ph2">`false`</ph>, która jest nadal weryfikacji nie są wystarczające, aby zapobiec modyfikowaniu dokumentu.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The certificate still needs to be verified as being appropriate for the document being signed.</source>
+          <target state="translated">Ten certyfikat musi nadal jest weryfikowany jako możliwy odpowiednie dla dokument jest podpisany.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using an embedded signing certificate can provide useful key rotation strategies, whether in the &lt;<ph id="ph1">`X509Data`</ph>&gt; section or in the document content.</source>
+          <target state="translated">Przy użyciu osadzony certyfikat podpisywania zapewnić strategii przydatne obrotu klucza, czy w <ph id="ph1">`X509Data`</ph>&gt; sekcji lub w treści dokumentu.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When using this approach an application should extract the certificate manually and perform validation similar to:      -   The certificate was issued directly or via a chain by a Certificate Authority (CA) whose public certificate is embedded in the application.</source>
+          <target state="translated">Korzystając z tej metody aplikacja powinna Wyodrębnij certyfikat ręcznie i sprawdzania poprawności podobnie jak: - certyfikat został wystawiony bezpośrednio lub za pośrednictwem łańcucha przez urząd certyfikacji, którego certyfikat publiczny jest osadzony w aplikacji.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using the OS-provided trust list without additional checks, such as a known subject name, is not sufficient to prevent tampering in SignedXml.</source>
+          <target state="translated">Przy użyciu listy zaufania wprowadzone do systemu operacyjnego bez dodatkowe kontrole, takie jak nazwa podmiotu znane, nie jest wystarczające, aby zapobiec modyfikowaniu w SignedXml.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The certificate is verified to have not been expired at the time of document signing (or “now” for near real-time document processing).</source>
+          <target state="translated">Certyfikat został zweryfikowany nie zostały wygasła w momencie podpisywania dokumentów (lub "teraz" dla niemal przetwarzania dokumentów w czasie rzeczywistym).</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   For long-lived certificates issued by a CA which supports revocation, verify the certificate was not revoked.</source>
+          <target state="translated">— Dla długotrwałe certyfikatów wystawianych przez urząd certyfikacji, który obsługuje odwołań Sprawdź, czy certyfikat nie został odwołany.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The certificate subject is verified as being appropriate to the current document.</source>
+          <target state="translated">-Podmiot certyfikatu jest weryfikowany jako możliwy odpowiednie do bieżącego dokumentu.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Choosing the transform algorithm    If you are interoperating with a specification which has dictated specific values (such as XrML), then you need to follow the specification.</source>
+          <target state="translated">Wybieranie algorytm przekształcenia, gdy jest współdziałanie ze specyfikacją, który ma być definiowane określone wartości (na przykład XrML), należy postępować zgodnie ze specyfikacją.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you have an enveloped signature (such as when signing the whole document), then you need to use http://www.w3.org/2000/09/xmldsig#enveloped-signature (represented by the &lt;xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt; class).</source>
+          <target state="translated">Jeśli masz przekształcenie podpisu (takie jak kiedy podpisywania całego dokumentu), a następnie należy użyć http://www.w3.org/2000/09/xmldsig#enveloped-signature (reprezentowany przez &lt;xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt;klasy).&lt;/xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify the implicit XML-C14N transform as well, but it's not necessary.</source>
+          <target state="translated">Można określić również niejawne transformacji XML C14N, ale nie jest konieczne.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an enveloping or detached signature, no transforms are required.</source>
+          <target state="translated">Podpis obejmujących punkty kontrolne lub odłączone niezbędne są nie transformacji.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The implicit XML-C14N transform takes care of everything.</source>
+          <target state="translated">Niejawne transformacji XML C14N odpowiada on za wszystko.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With the security updated introduced by the <bpt id="p1">[</bpt>Microsoft Security Bulletin MS16-035<ept id="p1">](https://technet.microsoft.com/en-us/library/security/ms16-035.aspx)</ept>, the .NET Framework has restricted what transforms can be used in document verification by default, with untrusted transforms causing &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; to always return <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Z zabezpieczeniami zaktualizowane wprowadzone przez <bpt id="p1">[</bpt>biuletyn zabezpieczeń firmy Microsoft MS16-035<ept id="p1">](https://technet.microsoft.com/en-us/library/security/ms16-035.aspx)</ept>, .NET Framework ma ograniczone transformacje, które można używane w dokumencie weryfikacji domyślnie z niezaufanych transformacje powoduje &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;do zawsze zwracają <ph id="ph1">`false`</ph>.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In particular, transforms which require additional input (specified as child elements in the XML) are no longer allowed due to their susceptibility of abuse by malicious users.</source>
+          <target state="translated">W szczególności transformacje, które wymagają dodatkowych danych wejściowych (określony jako elementy podrzędne w pliku XML) nie są już dozwolone z powodu ich podatności nadużycia złośliwych użytkowników.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The W3C advises avoiding the XPath and XSLT transforms, which are the two main transforms affected by these restrictions.</source>
+          <target state="translated">W3C informacją o tym, unikając transformacje XPath i XSLT, które są dwie główne przekształcenia wpływ tych ograniczeń.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The problem with external references    If an application does not verify that external references seem appropriate for the current context, they can be abused in ways that provide for many security vulnerabilities (including Denial of Service, Distributed Reflection Denial of Service, Information Disclosure, Signature Bypass, and Remote Code Execution).</source>
+          <target state="translated">Problem z odwołań zewnętrznych, jeśli aplikacja nie Sprawdź, czy odwołań zewnętrznych nie jest odpowiednia dla bieżącego kontekstu, może być użyte w sposób, które zapewniają dla wielu luk w zabezpieczeniach (w tym "odmowa usługi", rozproszonych odbicia "odmowa usługi", ujawnienie informacji, obejścia podpisu i zdalne wykonywanie kodu).</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Even if an application were to validate the external reference URI, there would remain a problem of the resource being loaded twice: once when your application reads it, and once when SignedXml reads it.</source>
+          <target state="translated">Nawet jeśli były aplikacji można sprawdzić poprawności odwołania zewnętrznego identyfikatora URI, pozostanie problem zasobu ładowany dwa razy: po podczas aplikacji odczytuje go i po po SignedXml ona odczytana.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Since there’s no guarantee that the application read and document verify steps have the same content, the signature does not provide trustworthiness.</source>
+          <target state="translated">Ponieważ nie ma żadnej gwarancji, że odczytu aplikacji i zarządzania dokumentami Sprawdź, czy czynności mają taką samą zawartość, podpisu nie zapewnia wiarygodności.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Given the risks of external references, SignedXml will throw an exception when an external reference is encountered.</source>
+          <target state="translated">Biorąc pod uwagę ryzyko odwołań zewnętrznych, SignedXml spowoduje zgłoszenie wyjątku po napotkaniu odwołania zewnętrznego.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about this issue, see <bpt id="p1">[</bpt>KB article 3148821<ept id="p1">](https://support.microsoft.com/en-us/kb/3148821)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat tego problemu, zobacz <bpt id="p1">[</bpt>artykułu KB 3148821<ept id="p1">](https://support.microsoft.com/en-us/kb/3148821)</ept>.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified XML document.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy z określonego dokumentu XML.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to use to initialize the new instance of <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu na potrzeby inicjuje nowe wystąpienie klasy <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">document</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">document</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">document</ph><ept id="p1">&lt;/code&gt;</ept> parameter contains a null &lt;xref:System.Xml.XmlDocument.DocumentElement*&gt; property.</source>
+          <target state="translated">- lub - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">document</ph> <ept id="p1">&lt;/code&gt;</ept> parametru zawiera wartość null &lt;xref:System.Xml.XmlDocument.DocumentElement*&gt;Właściwości.&lt;/xref:System.Xml.XmlDocument.DocumentElement*&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified <bpt id="p2">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy z określonego <bpt id="p2">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to use to initialize the new instance of <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu na potrzeby inicjuje nowe wystąpienie klasy <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">elem</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the list of objects to be signed.</source>
+          <target state="translated">Dodaje <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.DataObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt do listy obiektów do podpisania.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddObject method adds an &lt;<ph id="ph1">`Object`</ph>&gt; element that represents an object to be signed to the &lt;<ph id="ph2">`Signature`</ph>&gt; element of an XML digital signature.</source>
+          <target state="translated">Dodaje metody AddObject <ph id="ph1">`Object`</ph>&gt; element, który reprezentuje obiekt do podpisania <ph id="ph2">`Signature`</ph>&gt; — element XML podpisu cyfrowego.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddObject method internally calls the &lt;xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt; method of the &lt;xref:System.Security.Cryptography.Xml.Signature&gt; object encapsulated by the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object.</source>
+          <target state="translated">Wewnętrznie wywołuje metodę AddObject &lt;xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt;metody &lt;xref:System.Security.Cryptography.Xml.Signature&gt;obiektu zamknięte przez &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;obiektu.&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt; &lt;/xref:System.Security.Cryptography.Xml.Signature&gt; &lt;/xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also add a &lt;xref:System.Security.Cryptography.Xml.DataObject&gt; object by directly calling the &lt;xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt; method from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature%2A&gt; property.</source>
+          <target state="translated">Można również dodać &lt;xref:System.Security.Cryptography.Xml.DataObject&gt;obiektu poprzez bezpośrednie wywoływanie &lt;xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt;metody z &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature%2A&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.Signature.AddObject%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.DataObject&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about XML digital signatures, see the XMLDSIG specification available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat podpisy cyfrowe XML zobacz specyfikację XMLDSIG dostępne pod adresem www.w3.org/TR/xmldsig-core/.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.DataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to add to the list of objects to be signed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.DataObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt do dodania do listy obiektów do podpisania.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Adds a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Reference"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object that describes a digest method, digest value, and transform to use for creating an XML digital signature.</source>
+          <target state="translated">Dodaje <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Reference"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do obiektu <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiekt, który opisano metody tworzenia skrótu, wartość skrótu i przekształcenie służące do tworzenia podpisu cyfrowego XML.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddReference method adds a &lt;<ph id="ph1">`Reference`</ph>&gt; element to the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object that describes a digest method, digest value, and transform to use for creating an XML digital signature.</source>
+          <target state="translated">Dodaje metody AddReference <ph id="ph1">`Reference`</ph>&gt; elementu &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;obiekt, który opisano metody tworzenia skrótu, wartość skrótu i przekształcenie służące do tworzenia podpisu cyfrowego XML.&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`Reference`</ph>&gt; element is a subelement of the &lt;<ph id="ph2">`SignedInfo`</ph>&gt; element.</source>
+          <target state="translated"><ph id="ph1">`Reference`</ph>&gt; Element jest podelement <ph id="ph2">`SignedInfo`</ph>&gt; elementu.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AddReference method internally calls the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt; method of the &lt;xref:System.Security.Cryptography.Xml.SignedInfo&gt; object encapsulated by the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object.</source>
+          <target state="translated">Wewnętrznie wywołuje metodę AddReference &lt;xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt;metody &lt;xref:System.Security.Cryptography.Xml.SignedInfo&gt;obiektu zamknięte przez &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;obiektu.&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedInfo&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also add a &lt;xref:System.Security.Cryptography.Xml.Reference&gt; object by directly calling the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt; method from the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; property.</source>
+          <target state="translated">Można również dodać &lt;xref:System.Security.Cryptography.Xml.Reference&gt;obiektu poprzez bezpośrednie wywoływanie &lt;xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt;metody z &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedInfo.AddReference%2A&gt; &lt;/xref:System.Security.Cryptography.Xml.Reference&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about XML digital signatures, see the XMLDSIG specification available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat podpisy cyfrowe XML zobacz specyfikację XMLDSIG dostępne pod adresem www.w3.org/TR/xmldsig-core/.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The  <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Reference"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes a digest method, digest value, and transform to use for creating an XML digital signature.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Reference"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt, który opisano metody tworzenia skrótu, wartość skrótu i przekształcenie służące do tworzenia podpisu cyfrowego XML.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies using the public key in the signature.</source>
+          <target state="translated">Określa, czy &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;Właściwość sprawdza przy użyciu klucza publicznego w podpisie.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method also computes the digest of the references and the value of the signature.</source>
+          <target state="translated">Ta metoda również oblicza skrót odwołań i wartości podpisu.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an XML document was signed with an X.509 signature, the CheckSignature method will search the "AddressBook" store for certificates suitable for the verification.</source>
+          <target state="translated">Jeśli dokument XML został podpisany z podpisem X.509, metoda CheckSignature będzie Wyszukaj w sklepie "Książka adresowa" certyfikatów umożliwiających weryfikację.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the certificate is referenced by a Subject Key Identifier (SKI), the &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt; method will select certificates with this SKI and try them one after another until it can verify the certificate.</source>
+          <target state="translated">Na przykład, jeśli certyfikat jest wywoływany przez podmiot klucza identyfikator (SKI) &lt;xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;— Metoda będzie wybierz certyfikatów przy użyciu tego SKI i spróbuj je po kolei, dopóki nie można sprawdzić certyfikatu.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.CheckSignature%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;sprawdza właściwości; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm<bpt id="p1">*</bpt>&gt; property of the public key in the signature does not match the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod<ept id="p1">*</ept>&gt; property.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; Właściwość klucza publicznego w podpisie nie pasuje do &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; właściwości.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-or-       The signature description could not be created.</source>
+          <target state="translated">- lub - nie można utworzyć opisu podpisu.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>-or       The hash algorithm could not be created.</source>
+          <target state="translated">- lub nie można utworzyć algorytmu wyznaczania wartości skrótu.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies for the specified key.</source>
+          <target state="translated">Określa, czy &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;sprawdza właściwości dla określonego klucza.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The implementation of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property that holds the key to be used to verify the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property.</source>
+          <target state="translated">Implementacja <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> właściwość, która przechowuje klucz do weryfikowania &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies for the specified key; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;sprawdza właściwości dla określonego klucza; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm<bpt id="p1">*</bpt>&gt; property of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">key</ph><ept id="p2">&lt;/code&gt;</ept> parameter does not match the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod<ept id="p1">*</ept>&gt; property.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; Właściwość <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">key</ph> <ept id="p2">&lt;/code&gt;</ept> parametr niezgodny &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; właściwości.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>-or-       The signature description could not be created.</source>
+          <target state="translated">- lub - nie można utworzyć opisu podpisu.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>-or       The hash algorithm could not be created.</source>
+          <target state="translated">- lub nie można utworzyć algorytmu wyznaczania wartości skrótu.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies for the specified message authentication code (MAC) algorithm.</source>
+          <target state="translated">Określa, czy &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;Właściwość sprawdza algorytmu określony komunikat uwierzytelniania kodu (MAC).&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The implementation of <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that holds the MAC to be used to verify the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property.</source>
+          <target state="translated">Implementacja <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przechowuje MAC do weryfikowania &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies for the specified MAC; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;sprawdza właściwości dla określonych komputerów MAC; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">macAlg</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">macAlg</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.HashAlgorithm.HashSize<bpt id="p1">*</bpt>&gt; property of the specified <bpt id="p2">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object is not valid.       -or-       The &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature<ept id="p1">*</ept>&gt; property is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; Właściwości określonego <bpt id="p2">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiekt jest nieprawidłowy.       -or-       The &lt;&gt;<ept id="p1">*</ept>&gt; property is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-or-       The cryptographic transform used to check the signature could not be created.</source>
+          <target state="translated">- lub - nie można utworzyć transformacja kryptograficzna użytych do sprawdzenia podpisu.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies for the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and, optionally, whether the certificate is valid.</source>
+          <target state="translated">Określa, czy &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;sprawdza właściwości dla określonego <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu i, opcjonalnie, czy certyfikat jest prawidłowy.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In version 1.1 of the .NET Framework, the X.509 certificate is not verified.</source>
+          <target state="translated">Certyfikat X.509 w wersji 1.1 programu .NET Framework nie został zweryfikowany.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In version 2.0 and later, the X.509 certificate is verified.</source>
+          <target state="translated">W wersji 2.0 lub nowszej jest weryfikowany certyfikat X.509.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In version 2.0 and later of the .NET Framework, the CheckSignature method will search the "AddressBook" store for certificates suitable for the verification.</source>
+          <target state="translated">W wersji 2.0 lub nowszej programu .NET Framework metoda CheckSignature będzie Wyszukaj w sklepie "Książka adresowa" certyfikatów umożliwiających weryfikację.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the certificate is referenced by a Subject Key Identifier (SKI), the CheckSignature method will select certificates with this SKI and try them one after another until it can verify the certificate.</source>
+          <target state="translated">Na przykład jeśli certyfikat jest wywoływany przez identyfikator klucza podmiotu (SKI), metoda CheckSignature wybierz certyfikaty z tej SKI i spróbuj je po kolei, dopóki nie można sprawdzić certyfikatu.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to use to verify the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.X509Certificates.X509Certificate2"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu do weryfikowania &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to verify the signature only; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to verify both the signature and certificate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>można zweryfikować podpisu. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> do weryfikowania podpisu i certyfikatów.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the signature is valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli podpis jest nieprawidłowy; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>-or-       <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the signature and certificate are valid; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">- lub - <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli podpisu i certyfikatów są prawidłowe; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>A signature description could not be created for the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">certificate</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Nie można utworzyć opisu podpisu dla <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">certificate</ph> <ept id="p1">&lt;/code&gt;</ept> parametru.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Determines whether the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies using the public key in the signature.</source>
+          <target state="translated">Określa, czy &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;Właściwość sprawdza przy użyciu klucza publicznego w podpisie.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the implementation of <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that holds the public key in the signature.</source>
+          <target state="translated">Gdy metoda zwróci wartość, zawiera implementację <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> przechowuje klucz publiczny w podpisie.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Ten parametr jest przekazywany jako niezainicjowany.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property verifies using the public key in the signature; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;Właściwość sprawdza przy użyciu publicznego klucza w podpisie; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">signingKey</ph><ept id="p1">&lt;/code&gt;</ept> parameter is null.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">signingKey</ph> <ept id="p1">&lt;/code&gt;</ept> Parametr ma wartość null.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm<bpt id="p1">*</bpt>&gt; property of the public key in the signature does not match the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureMethod<ept id="p1">*</ept>&gt; property.</source>
+          <target state="translated">&lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; Właściwość klucza publicznego w podpisie nie pasuje do &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; właściwości.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>-or-       The signature description could not be created.</source>
+          <target state="translated">- lub - nie można utworzyć opisu podpisu.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>-or       The hash algorithm could not be created.</source>
+          <target state="translated">- lub nie można utworzyć algorytmu wyznaczania wartości skrótu.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Computes an XML digital signature.</source>
+          <target state="translated">Oblicza podpisu cyfrowego XML.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ComputeSignature method creates an XML digital signature and constructs many of the XML elements needed.</source>
+          <target state="translated">Metoda ComputeSignature tworzy podpis cyfrowy XML i tworzy wiele elementów XML potrzebne.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must set the data to be signed and the &lt;xref:System.Security.Cryptography.Xml.SignedXml.SigningKey%2A&gt; property before calling this method.</source>
+          <target state="translated">Należy ustawić danych do podpisania i &lt;xref:System.Security.Cryptography.Xml.SignedXml.SigningKey%2A&gt;Właściwość przed wywołaniem tej metody.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.SigningKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.SignedXml.SigningKey<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.       -or-       The &lt;xref:System.Security.Cryptography.Xml.SignedXml.SigningKey<ept id="p1">*</ept>&gt; property is not a <bpt id="p3">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> object or <bpt id="p4">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">The &lt;&gt;<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.       - lub - &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; właściwość nie jest <bpt id="p3">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> obiektu lub <bpt id="p4">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>-or-       The key could not be loaded.</source>
+          <target state="translated">- lub - nie można załadować klucza.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Computes an XML digital signature using the specified message authentication code (MAC) algorithm.</source>
+          <target state="translated">Oblicza podpis cyfrowy XML przy użyciu algorytmu określony komunikat uwierzytelniania kodu (MAC).</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ComputeSignature method creates an XML digital signature using the specified MAC algorithm and constructs many of the XML elements needed.</source>
+          <target state="translated">Metoda ComputeSignature tworzy podpis cyfrowy XML przy użyciu określony algorytm MAC i tworzy wiele elementów XML potrzebne.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must set the data to be signed before calling this method.</source>
+          <target state="translated">Należy ustawić danych do podpisania przed wywołaniem tej metody.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that holds the MAC to be used to compute the value of the &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt; property.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiekt przechowujący MAC ma być używany do obliczenia wartości &lt;xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.Signature*&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">macAlg</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">macAlg</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object specified by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">macAlg</ph><ept id="p2">&lt;/code&gt;</ept> parameter is not an instance of <bpt id="p3">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt określony przez <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">macAlg</ph> <ept id="p2">&lt;/code&gt;</ept> parametr nie jest wystąpieniem <bpt id="p3">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.Security.Cryptography.HashAlgorithm.HashSize*&gt; property of the specified <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is not valid.</source>
+          <target state="translated">- lub - &lt;xref:System.Security.Cryptography.HashAlgorithm.HashSize*&gt;Właściwości określonego <bpt id="p1">&lt;xref href="System.Security.Cryptography.KeyedHashAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu jest nieprawidłowa.&lt;/xref:System.Security.Cryptography.HashAlgorithm.HashSize*&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>-or-       The cryptographic transform used to check the signature could not be created.</source>
+          <target state="translated">- lub - nie można utworzyć transformacja kryptograficzna użytych do sprawdzenia podpisu.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets or sets an <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that defines the XML encryption processing rules.</source>
+          <target state="translated">Pobiera lub ustawia <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu, który definiuje reguły przetwarzania XML szyfrowania.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that defines the XML encryption processing rules.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.EncryptedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu, który definiuje reguły przetwarzania XML szyfrowania.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the specified ID from the specified <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Zwraca <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu o określonym identyfikatorze z określonego <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to retrieve the <bpt id="p2">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object from.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt, aby pobrać <bpt id="p2">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiekt z.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The ID of the <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to retrieve from the <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Identyfikator <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu pobrać <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object with the specified ID from the specified <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object, or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if it could not be found.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Xml.XmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu o określonym identyfikatorze z określonego <bpt id="p2">&lt;xref href="System.Xml.XmlDocument"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiekt, lub <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> , jeśli nie można go odnaleźć.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Returns the public key of a signature.</source>
+          <target state="translated">Zwraca klucz publiczny podpisu.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetPublicKey method returns an &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm&gt; object that contains a public key that can be used to verify an XML digital signature.</source>
+          <target state="translated">Zwraca metodę GetPublicKey &lt;xref:System.Security.Cryptography.AsymmetricAlgorithm&gt;obiekt, który zawiera klucz publiczny, który może służyć do weryfikacji podpisu cyfrowego XML.&lt;/xref:System.Security.Cryptography.AsymmetricAlgorithm&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The key must be either a &lt;xref:System.Security.Cryptography.DSA&gt; or an &lt;xref:System.Security.Cryptography.RSA&gt; key.</source>
+          <target state="translated">Klucz musi być równa albo &lt;xref:System.Security.Cryptography.DSA&gt;lub &lt;xref:System.Security.Cryptography.RSA&gt;klucza.&lt;/xref:System.Security.Cryptography.RSA&gt; &lt;/xref:System.Security.Cryptography.DSA&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the public key of the signature, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the key cannot be found.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.AsymmetricAlgorithm"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiekt, który zawiera klucz publiczny podpisu, lub <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Jeśli nie można odnaleźć klucza.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo*&gt; property is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo*&gt;Właściwość jest <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.KeyInfo*&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Returns the XML representation of a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Zwraca reprezentację XML <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The XML representation of the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Reprezentacja XML <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.       -or-       The &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureValue<ept id="p1">*</ept>&gt; property is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The &lt;&gt;<bpt id="p1">*</bpt>&gt; property is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.       -or-       The &lt;&gt;<ept id="p1">*</ept>&gt; property is <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.KeyInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera lub ustawia <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.KeyInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu bieżącego <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The KeyInfo property represents the &lt;<ph id="ph1">`KeyInfo`</ph>&gt; element of an XML digital signature using a &lt;xref:System.Security.Cryptography.Xml.KeyInfo&gt; object contained within the property.</source>
+          <target state="translated">Reprezentuje właściwość KeyInfo <ph id="ph1">`KeyInfo`</ph>&gt; element podpisu cyfrowego XML przy użyciu &lt;xref:System.Security.Cryptography.Xml.KeyInfo&gt;obiektów zawartych w ramach właściwości.&lt;/xref:System.Security.Cryptography.Xml.KeyInfo&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`KeyInfo`</ph>&gt; element is a subelement of the &lt;<ph id="ph2">`Signature`</ph>&gt; element.</source>
+          <target state="translated"><ph id="ph1">`KeyInfo`</ph>&gt; Element jest podelement <ph id="ph2">`Signature`</ph>&gt; elementu.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the KeyInfo property to embed key-related information intended to help identify the key necessary for validating an XML document.</source>
+          <target state="translated">Użyj właściwości wartości KeyInfo wymaganej do osadzenia klucz powiązane informacje, które ułatwiają identyfikację klucz niezbędny do zweryfikowania dokumentu XML.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the <ph id="ph1">`&lt;KeyInfo&gt;`</ph> element, see the XMLDSIG specification, which is available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat <ph id="ph1">`&lt;KeyInfo&gt;`</ph> elementu, zobacz specyfikację XMLDSIG, która jest dostępna w www.w3.org/TR/xmldsig-core/.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.KeyInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.KeyInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu bieżącego <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Loads a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> state from an XML element.</source>
+          <target state="translated">Ładunki <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> stanu z elementem XML.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The XML element to load the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> state from.</source>
+          <target state="translated">Element XML załadować <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> stanu z.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">value</ph><ept id="p1">&lt;/code&gt;</ept> parameter does not contain a valid &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignatureValue<bpt id="p2">*</bpt>&gt; property.       -or-       The <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">value</ph><ept id="p3">&lt;/code&gt;</ept> parameter does not contain a valid &lt;xref:System.Security.Cryptography.Xml.SignedXml.SignedInfo<ept id="p2">*</ept>&gt; property.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">value</ph> <ept id="p1">&lt;/code&gt;</ept> Parametru nie zawiera prawidłowej &lt;&gt; &lt;/&gt; <bpt id="p2">*</bpt>&gt; właściwości.       - lub - <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">value</ph> <ept id="p3">&lt;/code&gt;</ept> parametru nie zawiera prawidłowej &lt;&gt; &lt;/&gt; <ept id="p2">*</ept>&gt; właściwości.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Represents the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Reprezentuje <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu bieżącego <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Represents the name of the installed key to be used for signing the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Reprezentuje nazwę zainstalowanego klucza ma być używany do podpisywania <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Sets the current <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ustawia bieżący <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Xml.XmlResolver&gt; class resolves external XML resources named by a Uniform Resource Identifier (URI).</source>
+          <target state="translated">&lt;xref:System.Xml.XmlResolver&gt;Klasy rozpoznaje zasobów zewnętrznych XML o nazwie przez zasób identyfikator URI (Uniform).&lt;/xref:System.Xml.XmlResolver&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not trust the source of the XML file, you might not want to allow the XML file to access computer resources named by the URI.</source>
+          <target state="translated">Jeśli nie ufasz źródłu pliku XML, możesz nie zezwala na dostęp do zasobów komputera o nazwie przez identyfikator URI pliku XML.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the Resolver property to control the level of access that XML files have to computer resources by specifying different &lt;xref:System.Xml.XmlResolver&gt; objects.</source>
+          <target state="translated">Właściwości programu rozpoznawania nazw umożliwia kontrolę dostępu pliki XML do zasobów komputera, określając inną &lt;xref:System.Xml.XmlResolver&gt;obiektów.&lt;/xref:System.Xml.XmlResolver&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not want to allow any access, you can set this property to <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> in Visual Basic).</source>
+          <target state="translated">Jeśli nie chcesz zezwolić na dostęp, można ustawić tę właściwość <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> w języku Visual Basic).</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Bieżący <bpt id="p1">&lt;xref href="System.Xml.XmlResolver"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The defaults is a <bpt id="p1">&lt;xref href="System.Xml.XmlSecureResolver"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Wartości domyślne to <bpt id="p1">&lt;xref href="System.Xml.XmlSecureResolver"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Gets the names of methods whose canonicalization algorithms are explicitly allowed.</source>
+          <target state="translated">[Obsługiwane w programie .NET Framework 4.5.1 i nowszych wersjach]       Pobiera nazwy metody, której algorytmy zapewniania kanoniczności są jawnie dozwolone.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Canonicalization methods convert an XML document to its canonical form.</source>
+          <target state="translated">Metody zapewniania kanoniczności przekonwertować dokument XML do postaci kanonicznej.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about canonical XML, see <bpt id="p1">[</bpt>Canonical XML<ept id="p1">](http://www.w3.org/TR/xml-c14n)</ept> on the W3C website.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat canonical XML, zobacz <bpt id="p1">[</bpt>Canonical XML<ept id="p1">](http://www.w3.org/TR/xml-c14n)</ept> w witrynie sieci Web W3C.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>A collection of the names of methods that safely produce canonical XML.</source>
+          <target state="translated">Kolekcja nazw metod bezpiecznie powodującymi canonical XML.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu bieżącego <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Signature property represents the &lt;<ph id="ph1">`Signature`</ph>&gt; element of an XML digital signature using a &lt;xref:System.Security.Cryptography.Xml.Signature&gt; object contained within the property.</source>
+          <target state="translated">Reprezentuje właściwości podpisu <ph id="ph1">`Signature`</ph>&gt; element podpisu cyfrowego XML przy użyciu &lt;xref:System.Security.Cryptography.Xml.Signature&gt;obiektów zawartych w ramach właściwości.&lt;/xref:System.Security.Cryptography.Xml.Signature&gt;</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`Signature`</ph>&gt; element is the root element used for XML digital signature creation and verification.</source>
+          <target state="translated"><ph id="ph1">`Signature`</ph>&gt; Element jest elementem głównym używany do tworzenia podpisu cyfrowego XML i weryfikacji.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Signature property to retrieve the &lt;xref:System.Security.Cryptography.Xml.Signature&gt; object used by the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object.</source>
+          <target state="translated">Aby pobrać, użyj właściwości podpisu &lt;xref:System.Security.Cryptography.Xml.Signature&gt;obiekt używany przez &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;obiektu.&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt; &lt;/xref:System.Security.Cryptography.Xml.Signature&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the <ph id="ph1">`&lt;Signature&gt;`</ph> element, see the XMLDSIG specification, which is available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat <ph id="ph1">`&lt;Signature&gt;`</ph> elementu, zobacz specyfikację XMLDSIG, która jest dostępna w www.w3.org/TR/xmldsig-core/.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.Signature"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu bieżącego <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Gets a delegate that will be called to validate the format (not the cryptographic security) of an XML signature.</source>
+          <target state="translated">Pobiera metodę delegowaną, która będzie wywoływana w celu weryfikacji podpisu XML format (nie kryptograficznych zabezpieczeń).</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be used to ensure that only certain transforms are used, or that the signature uses a certain hash algorithm, and so on.</source>
+          <target state="translated">Ta metoda może służyć do zapewnienia służą tylko do niektórych transformacji lub podpis używany w niektórych algorytmu wyznaczania wartości skrótu i tak dalej.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the property to <ph id="ph1">`null`</ph> removes all signature format validation from the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object.</source>
+          <target state="translated">Ustawienie właściwości <ph id="ph1">`null`</ph> usuwa wszystkie Walidacja formatu podpisu z &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;obiektu.&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also read the object's current delegate and chain to it if you want.</source>
+          <target state="translated">Jeśli chcesz, aby uzyskać więcej łańcucha do niego i delegata bieżącego obiektu.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are setting up a format validator, the delegate you supply will receive as an input parameter the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object being verified and returns a Boolean value – <ph id="ph1">`true`</ph> if the format is acceptable, <ph id="ph2">`false`</ph> if it is not.</source>
+          <target state="translated">Jeśli konfigurujesz modułu sprawdzania poprawności formatu delegata podasz zostanie wyświetlony jako parametr wejściowy &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;obiekt weryfikowany i zwraca wartość logiczną — <ph id="ph1">`true`</ph> Jeśli format jest dopuszczalna, <ph id="ph2">`false`</ph> Jeśli nie jest.&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the delegate returns <ph id="ph1">`false`</ph> for any reason, the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object will report that the XML signature is not valid.</source>
+          <target state="translated">Jeśli delegat zwraca <ph id="ph1">`false`</ph> z jakiejkolwiek przyczyny, &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;obiektu zgłasza, że podpis XML jest nieprawidłowy.&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the format is acceptable; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli format jest dopuszczalna; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Gets the length of the signature for the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera długość podpisu dla bieżącego <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The length of the signature for the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Długość podpisu dla bieżącego <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Gets the signature method of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera metodę podpisu bieżącego <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SignatureMethod property represents the &lt;<ph id="ph1">`SignatureMethod`</ph>&gt; element of an XML digital signature using a Uniform Resource Identifier (URI) string contained within the property.</source>
+          <target state="translated">Reprezentuje właściwość elementu SignatureMethod <ph id="ph1">`SignatureMethod`</ph>&gt; element podpisu cyfrowego XML za pomocą ciągu identyfikatora URI (Uniform Resource) zawartych w właściwości.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`SignatureMethod`</ph>&gt; element is a subelement of the &lt;<ph id="ph2">`SignedInfo`</ph>&gt; element.</source>
+          <target state="translated"><ph id="ph1">`SignatureMethod`</ph>&gt; Element jest podelement <ph id="ph2">`SignedInfo`</ph>&gt; elementu.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the SignatureMethod property to retrieve the &lt;<ph id="ph1">`SignatureMethod`</ph>&gt; URI used by the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object.</source>
+          <target state="translated">Aby pobrać, użyj właściwości elementu SignatureMethod <ph id="ph1">`SignatureMethod`</ph>&gt; identyfikator URI używany przez &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;obiektu.&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt;</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is read only.</source>
+          <target state="translated">Ta właściwość jest tylko do odczytu.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about programmatically specifying a URI for the &lt;<ph id="ph1">`SignatureMethod`</ph>&gt; element, see the &lt;xref:System.Security.Cryptography.Xml.SignedInfo.SignatureMethod%2A&gt; property.</source>
+          <target state="translated">Aby uzyskać więcej informacji o określaniu programowo identyfikator URI dla <ph id="ph1">`SignatureMethod`</ph>&gt; elementu, zobacz &lt;xref:System.Security.Cryptography.Xml.SignedInfo.SignatureMethod%2A&gt;Właściwości.&lt;/xref:System.Security.Cryptography.Xml.SignedInfo.SignatureMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the <ph id="ph1">`&lt;SignatureMethod&gt;`</ph> element, see the XMLDSIG specification, which is available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat <ph id="ph1">`&lt;SignatureMethod&gt;`</ph> elementu, zobacz specyfikację XMLDSIG, która jest dostępna w www.w3.org/TR/xmldsig-core/.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The signature method of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Metoda podpisu bieżącego <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Gets the signature value of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera wartość podpisu bieżącego <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SignatureValue property represents the &lt;<ph id="ph1">`SignatureValue`</ph>&gt; element of an XML digital signature using an array of bytes contained within the property.</source>
+          <target state="translated">Reprezentuje właściwość SignatureValue <ph id="ph1">`SignatureValue`</ph>&gt; element podpisu cyfrowego XML przy użyciu tablicy bajtów zawartych w właściwości.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`SignatureValue`</ph>&gt; element is a subelement of the &lt;<ph id="ph2">`Signature&gt;`</ph> element.</source>
+          <target state="translated"><ph id="ph1">`SignatureValue`</ph>&gt; Element jest podelement <ph id="ph2">`Signature&gt;`</ph> elementu.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the SignatureValue property to retrieve the value of the XML digital signature.</source>
+          <target state="translated">Właściwość SignatureValue służy do pobierania wartości XML podpisu cyfrowego.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is automatically populated when you make a successful call to the &lt;xref:System.Security.Cryptography.Xml.SignedXml.ComputeSignature%2A&gt; method.</source>
+          <target state="translated">Ta właściwość jest wypełniane automatycznie po wprowadzeniu pomyślnym nawiązaniu połączenia z &lt;xref:System.Security.Cryptography.Xml.SignedXml.ComputeSignature%2A&gt;metody.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.ComputeSignature%2A&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the <ph id="ph1">`&lt;SignatureValue&gt;`</ph> element, see the XMLDSIG specification, which is available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat <ph id="ph1">`&lt;SignatureValue&gt;`</ph> elementu, zobacz specyfikację XMLDSIG, która jest dostępna w www.w3.org/TR/xmldsig-core/.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>A byte array that contains the signature value of the current <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Tablica bajtów zawierająca wartość podpisu bieżącego <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu bieżącego <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SignedInfo property represents the &lt;<ph id="ph1">`SignedInfo`</ph>&gt; element of an XML digital signature using an array of bytes contained within the property.</source>
+          <target state="translated">Reprezentuje właściwość SignedInfo <ph id="ph1">`SignedInfo`</ph>&gt; element podpisu cyfrowego XML przy użyciu tablicy bajtów zawartych w właściwości.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;<ph id="ph1">`SignedInfo`</ph>&gt; element is a subelement of the &lt;<ph id="ph2">`Signature&gt;`</ph> element.</source>
+          <target state="translated"><ph id="ph1">`SignedInfo`</ph>&gt; Element jest podelement <ph id="ph2">`Signature&gt;`</ph> elementu.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the SignedInfo property to retrieve the &lt;xref:System.Security.Cryptography.Xml.SignedInfo&gt; object that is used by the &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt; object to create an XML digital signature.</source>
+          <target state="translated">Aby pobrać, użyj właściwości SignedInfo &lt;xref:System.Security.Cryptography.Xml.SignedInfo&gt;obiektu, który jest używany przez &lt;xref:System.Security.Cryptography.Xml.SignedXml&gt;obiekt, aby utworzyć podpis cyfrowy XML.&lt;/xref:System.Security.Cryptography.Xml.SignedXml&gt; &lt;/xref:System.Security.Cryptography.Xml.SignedInfo&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the <ph id="ph1">`&lt;SignedInfo&gt;`</ph> element, see the XMLDSIG specification, which is available at www.w3.org/TR/xmldsig-core/.</source>
+          <target state="translated">Aby uzyskać więcej informacji na temat <ph id="ph1">`&lt;SignedInfo&gt;`</ph> elementu, zobacz specyfikację XMLDSIG, która jest dostępna w www.w3.org/TR/xmldsig-core/.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object of the current <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Obiektu bieżącego <bpt id="p2">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Gets or sets the asymmetric algorithm key used for signing a <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera lub ustawia klucz algorytmu asymetrycznego używany do podpisywania <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the SigningKey property to specify the asymmetric key you want to use to create an XML digital signature.</source>
+          <target state="translated">Właściwość SigningKey umożliwia określenie klucza asymetrycznego, który ma być używana do tworzenia podpisu cyfrowego XML.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The asymmetric algorithm key used for signing the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Klucz algorytmu asymetrycznego, używany do podpisywania <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the installed key to be used for signing the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Pobiera lub ustawia nazwę zainstalowanego klucza ma być używany do podpisywania <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The name of the installed key to be used for signing the <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Nazwa zainstalowanego klucza ma być używany do podpisywania <bpt id="p1">&lt;xref href="System.Security.Cryptography.Xml.SignedXml"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektu.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the XML mode decryption transformation.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) dla transformacji deszyfrowania tryb XML.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDecryptionTransformUrl field is "http://www.w3.org/2002/07/decrypt#XML".</source>
+          <target state="translated">Wartość pola XmlDecryptionTransformUrl jest "http://www.w3.org/2002/07/decrypt#XML".</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2002/07/decrypt#XML.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2002/07/decrypt#XML.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the base 64 transformation.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) dla podstawowej transformacji 64.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigBase64TransformUrl field is "http://www.w3.org/2000/09/xmldsig#base64".</source>
+          <target state="translated">Wartość pola XmlDsigBase64TransformUrl jest "http://www.w3.org/2000/09/xmldsig#base64".</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigBase64Transform&gt; class implements the transform described by the XmlDsigBase64TransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigBase64Transform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlDsigBase64TransformUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigBase64Transform&gt;</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#base64.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2000/09/xmldsig#base64.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the Canonical XML transformation.</source>
+          <target state="translated">Reprezentuje jednolitego identyfikatora zasobów (URI) dla transformacji XML kanonicznej.</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigC14NTransformUrl field is "http://www.w3.org/TR/2001/REC-xml-c14n-20010315".</source>
+          <target state="translated">Wartość pola XmlDsigC14NTransformUrl jest "http://www.w3.org/TR/2001/REC-xml-c14n-20010315".</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt; class implements the transform described by the XmlDsigC14NTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlDsigC14NTransformUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/2001/REC-xml-c14n-20010315.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/TR/2001/REC-xml-c14n-20010315.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field has the same value as the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationUrl&gt; field.</source>
+          <target state="translated">To pole ma taką samą wartość jak &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationUrl&gt;pola.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationUrl&gt;</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the Canonical XML transformation, with comments.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) dla transformacji Canonical XML, z komentarzami.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigC14NWithCommentsTransformUrl field is "http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments ".</source>
+          <target state="translated">Wartość pola XmlDsigC14NWithCommentsTransformUrl jest "http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments".</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt; class implements the transform described by the XmlDsigC14NWithCommentsTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlDsigC14NWithCommentsTransformUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt;</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field has the same value as the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationWithCommentsUrl&gt; field.</source>
+          <target state="translated">To pole ma taką samą wartość jak &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationWithCommentsUrl&gt;pola.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigCanonicalizationWithCommentsUrl&gt;</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard canonicalization algorithm for XML digital signatures.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) dla algorytm kanonizacji standardowe podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigCanonicalizationUrl field is "http://www.w3.org/TR/2001/REC-xml-c14n-20010315".</source>
+          <target state="translated">Wartość pola XmlDsigCanonicalizationUrl jest "http://www.w3.org/TR/2001/REC-xml-c14n-20010315".</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt; class implements the transform described by the XmlDsigCanonicalizationUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlDsigCanonicalizationUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NTransform&gt;</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/2001/REC-xml-c14n-20010315.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/TR/2001/REC-xml-c14n-20010315.</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field has the same value as the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NTransformUrl&gt; field.</source>
+          <target state="translated">To pole ma taką samą wartość jak &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NTransformUrl&gt;pola.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NTransformUrl&gt;</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard canonicalization algorithm for XML digital signatures and includes comments.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) dla algorytm kanonizacji standardowe podpisy cyfrowe XML i zawiera komentarze.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigCanonicalizationWithCommentsUrl field is "http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments".</source>
+          <target state="translated">Wartość pola XmlDsigCanonicalizationWithCommentsUrl jest "http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments".</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt; class implements the transform described by the XmlDsigCanonicalizationWithCommentsUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlDsigCanonicalizationWithCommentsUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransform&gt;</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This field has the same value as the &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NWithCommentsTransformUrl&gt; field.</source>
+          <target state="translated">To pole ma taką samą wartość jak &lt;xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NWithCommentsTransformUrl&gt;pola.&lt;/xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigC14NWithCommentsTransformUrl&gt;</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm for XML digital signatures.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) standardu <bpt id="p1">&lt;xref href="System.Security.Cryptography.DSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> algorytm podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigDSAUrl field is "http://www.w3.org/2000/09/xmldsig#dsa-sha1".</source>
+          <target state="translated">Wartość pola XmlDsigDSAUrl jest "http://www.w3.org/2000/09/xmldsig#dsa-sha1".</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#dsa-sha1.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2000/09/xmldsig#dsa-sha1.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for enveloped signature transformation.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) dla transformacji przekształcenie podpisu.</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigEnvelopedSignatureTransformUrl field is "http://www.w3.org/2000/09/xmldsig#enveloped-signature".</source>
+          <target state="translated">Wartość pola XmlDsigEnvelopedSignatureTransformUrl jest "http://www.w3.org/2000/09/xmldsig#enveloped-signature".</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt; class implements the transform described by the XmlDsigEnvelopedSignatureTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlDsigEnvelopedSignatureTransformUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTransform&gt;</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#enveloped-signature.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2000/09/xmldsig#enveloped-signature.</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for exclusive XML canonicalization.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) na wyłączność kanonizacji XML.</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigExcC14NTransformUrl field is "http://www.w3.org/2001/10/xml-exc-c14n#".</source>
+          <target state="translated">Wartość pola XmlDsigExcC14NTransformUrl jest "http://www.w3.org/2001/10/xml-exc-c14n#".</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt; class implements the transform described by the XmlDsigExcC14NTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlDsigExcC14NTransformUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NTransform&gt;</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2001/10/xml-exc-c14n#.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2001/10/xml-exc-c14n#.</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for exclusive XML canonicalization, with comments.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) dla wyłącznego kanonizacji XML, z komentarzami.</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigExcC14NWithCommentsTransformUrl field is "http://www.w3.org/2001/10/xml-exc-c14n#WithComments".</source>
+          <target state="translated">Wartość pola XmlDsigExcC14NWithCommentsTransformUrl jest "http://www.w3.org/2001/10/xml-exc-c14n#WithComments".</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt; class implements the transform described by the XmlDsigExcC14NWithCommentsTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlDsigExcC14NWithCommentsTransformUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTransform&gt;</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2001/10/xml-exc-c14n#WithComments.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2001/10/xml-exc-c14n#WithComments.</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> algorithm for XML digital signatures.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) standardu <bpt id="p1">&lt;xref href="System.Security.Cryptography.HMACSHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> algorytm podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigHMACSHA1Url field is "http://www.w3.org/2000/09/xmldsig#hmac-sha1".</source>
+          <target state="translated">Wartość pola XmlDsigHMACSHA1Url jest "http://www.w3.org/2000/09/xmldsig#hmac-sha1".</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#hmac-sha1.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2000/09/xmldsig#hmac-sha1.</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard minimal canonicalization algorithm for XML digital signatures.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) dla algorytmu standardowe minimalnego zapewniania kanoniczności dla podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigMinimalCanonicalizationUrl field is "http://www.w3.org/2000/09/xmldsig#minimal".</source>
+          <target state="translated">Wartość pola XmlDsigMinimalCanonicalizationUrl jest "http://www.w3.org/2000/09/xmldsig#minimal".</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#minimal.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2000/09/xmldsig#minimal.</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard namespace for XML digital signatures.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) dla standardowych przestrzeni nazw dla podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigNamespaceUrl field is "http://www.w3.org/2000/09/xmldsig#".</source>
+          <target state="translated">Wartość pola XmlDsigNamespaceUrl jest "http://www.w3.org/2000/09/xmldsig#".</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2000/09/xmldsig#.</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> signature method for XML digital signatures.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) standardu <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> podpis metody podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigRSASHA1Url field is "http://www.w3.org/2000/09/xmldsig#rsa-sha1".</source>
+          <target state="translated">Wartość pola XmlDsigRSASHA1Url jest "http://www.w3.org/2000/09/xmldsig#rsa-sha1".</target>       </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#rsa-sha1.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2000/09/xmldsig#rsa-sha1.</target>       </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the  <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> SHA-256 signature method variation for XML digital signatures.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) dla <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> algorytmu SHA-256 podpis metody odmiana podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigRSASHA256Url field is "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256".</source>
+          <target state="translated">Wartość pola XmlDsigRSASHA256Url jest "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256".</target>       </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha256<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz specyfikację sieci World Wide Web konsorcjum W3C w <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha256<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more)</ept>.</target>       </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the  <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> SHA-384 signature method variation for XML digital signatures.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) dla <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> algorytmu SHA-384 podpis metody odmiana podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigRSASHA384Url field is "http://www.w3.org/2001/04/xmldsig-more#rsa-sha384".</source>
+          <target state="translated">Wartość pola XmlDsigRSASHA384Url jest "http://www.w3.org/2001/04/xmldsig-more#rsa-sha384".</target>       </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha384<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#rsa-sha384)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz specyfikację sieci World Wide Web konsorcjum W3C w <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha384<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#rsa-sha384)</ept>.</target>       </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the  <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> SHA-512 signature method variation for XML digital signatures.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) dla <bpt id="p1">&lt;xref href="System.Security.Cryptography.RSA"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> SHA-512 podpis metody odmiana podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigRSASHA512Url field is "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512".</source>
+          <target state="translated">Wartość pola XmlDsigRSASHA512Url jest "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512".</target>       </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha512<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#rsa-sha512)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz specyfikację sieci World Wide Web konsorcjum W3C w <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#rsa-sha512<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#rsa-sha512)</ept>.</target>       </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA1"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> digest method for XML digital signatures.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) standardu <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA1"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szyfrowanego metodę podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigSHA1Url field is "http://www.w3.org/2000/09/xmldsig#sha1".</source>
+          <target state="translated">Wartość pola XmlDsigSHA1Url jest "http://www.w3.org/2000/09/xmldsig#sha1".</target>       </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#sha1.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/2000/09/xmldsig#sha1.</target>       </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA256"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> digest method for XML digital signatures.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) standardu <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA256"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szyfrowanego metodę podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigSHA256Url field is "http://www.w3.org/2001/04/xmlenc#sha256".</source>
+          <target state="translated">Wartość pola XmlDsigSHA256Url jest "http://www.w3.org/2001/04/xmlenc#sha256".</target>       </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmlenc#sha256<ept id="p1">](http://www.w3.org/2001/04/xmlenc#sha256)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz specyfikację sieci World Wide Web konsorcjum W3C w <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmlenc#sha256<ept id="p1">](http://www.w3.org/2001/04/xmlenc#sha256)</ept>.</target>       </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="475" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA384"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> digest method for XML digital signatures.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) standardu <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA384"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szyfrowanego metodę podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="476" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="477" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigSHA384Url field is "http://www.w3.org/2001/04/xmldsig-more#sha384".</source>
+          <target state="translated">Wartość pola XmlDsigSHA384Url jest "http://www.w3.org/2001/04/xmldsig-more#sha384".</target>       </trans-unit>
+        <trans-unit id="478" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="479" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#sha384<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#sha384)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz specyfikację sieci World Wide Web konsorcjum W3C w <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmldsig-more#sha384<ept id="p1">](http://www.w3.org/2001/04/xmldsig-more#sha384)</ept>.</target>       </trans-unit>
+        <trans-unit id="480" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="481" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the standard <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA512"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> digest method for XML digital signatures.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) standardu <bpt id="p1">&lt;xref href="System.Security.Cryptography.SHA512"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> szyfrowanego metodę podpisy cyfrowe XML.</target>       </trans-unit>
+        <trans-unit id="482" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="483" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigSHA512Url field is "http://www.w3.org/2001/04/xmlenc#sha512".</source>
+          <target state="translated">Wartość pola XmlDsigSHA512Url jest "http://www.w3.org/2001/04/xmlenc#sha512".</target>       </trans-unit>
+        <trans-unit id="484" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="485" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmlenc#sha512<ept id="p1">](http://www.w3.org/2001/04/xmlenc#sha512)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz specyfikację sieci World Wide Web konsorcjum W3C w <bpt id="p1">[</bpt>http://www.w3.org/2001/04/xmlenc#sha512<ept id="p1">](http://www.w3.org/2001/04/xmlenc#sha512)</ept>.</target>       </trans-unit>
+        <trans-unit id="486" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="487" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the XML Path Language (XPath).</source>
+          <target state="translated">Reprezentuje Uniform Resource Identifier (URI) dla XML Path Language (XPath).</target>       </trans-unit>
+        <trans-unit id="488" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="489" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigXPathTransformUrl field is "http://www.w3.org/TR/1999/REC-xpath-19991116".</source>
+          <target state="translated">Wartość pola XmlDsigXPathTransformUrl jest "http://www.w3.org/TR/1999/REC-xpath-19991116".</target>       </trans-unit>
+        <trans-unit id="490" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="491" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigXPathTransform&gt; class implements the transform described by the XmlDsigXPathTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigXPathTransform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlDsigXPathTransformUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigXPathTransform&gt;</target>       </trans-unit>
+        <trans-unit id="492" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/1999/REC-xpath-19991116.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/TR/1999/REC-xpath-19991116.</target>       </trans-unit>
+        <trans-unit id="493" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="494" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for XSLT transformations.</source>
+          <target state="translated">Reprezentuje jednolity identyfikator zasobów (URI) dla przekształceń XSLT.</target>       </trans-unit>
+        <trans-unit id="495" translate="yes" xml:space="preserve">
+          <source>This field is constant.</source>
+          <target state="translated">To pole jest stałą.</target>       </trans-unit>
+        <trans-unit id="496" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlDsigXsltTransformUrl field is "http://www.w3.org/TR/1999/REC-xslt-19991116".</source>
+          <target state="translated">Wartość pola XmlDsigXsltTransformUrl jest "http://www.w3.org/TR/1999/REC-xslt-19991116".</target>       </trans-unit>
+        <trans-unit id="497" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="498" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlDsigXsltTransform&gt; class implements the transform described by the XmlDsigXsltTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlDsigXsltTransform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlDsigXsltTransformUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlDsigXsltTransform&gt;</target>       </trans-unit>
+        <trans-unit id="499" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/TR/1999/REC-xslt-19991116.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz specyfikację sieci World Wide Web konsorcjum W3C w http://www.w3.org/TR/1999/REC-xslt-19991116.</target>       </trans-unit>
+        <trans-unit id="500" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="501" translate="yes" xml:space="preserve">
+          <source>Represents the Uniform Resource Identifier (URI) for the license transform algorithm used to normalize XrML licenses for signatures.</source>
+          <target state="translated">Reprezentuje identyfikator URI (Uniform Resource) dla algorytmu przekształcenia licencji używać do normalizowania licencji XrML podpisów.</target>       </trans-unit>
+        <trans-unit id="502" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the XmlLicenseTransformUrl field is "urn:mpeg:mpeg21:2003:01-REL-R-NS:licenseTransform"       Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.</source>
+          <target state="translated">Wartość pola XmlLicenseTransformUrl jest "urn: mpeg:mpeg21:2003:01-REL-R-NS:licenseTransform" Użyj tego pola wygodnie podania wartości do jednego z atrybutów identyfikatora URI używany do XMLDSIG elementu.</target>       </trans-unit>
+        <trans-unit id="503" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Security.Cryptography.Xml.XmlLicenseTransform&gt; class implements the transform described by the XmlLicenseTransformUrl field.</source>
+          <target state="translated">&lt;xref:System.Security.Cryptography.Xml.XmlLicenseTransform&gt;Klasa implementuje przekształcenia opisanego przez pole XmlLicenseTransformUrl.&lt;/xref:System.Security.Cryptography.Xml.XmlLicenseTransform&gt;</target>       </trans-unit>
+        <trans-unit id="504" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
