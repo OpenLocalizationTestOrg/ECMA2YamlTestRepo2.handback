@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">22ef00ff8e29bcf055dac4b83a0263b7ccaf7420</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.TypeConverter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7b390f47e8ec2a5b82d99d417c7939eb424a3129</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">85f8101833ab2c5ec4b8919718650ce813d8b407</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a unified way of converting types of values to other types, as well as for accessing standard values and subproperties.</source>
+          <target state="translated">提供統一的方式，將類型的值轉換為其他類型，以及用於存取標準值和子屬性。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The most common type of converter is one that converts to and from a text representation.</source>
+          <target state="translated">最常見類型是轉換器的轉換和文字表示。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The type converter for a class is bound to the class with a &lt;xref:System.ComponentModel.TypeConverterAttribute&gt;.</source>
+          <target state="translated">類別的類型轉換器會繫結至具有&lt;xref:System.ComponentModel.TypeConverterAttribute&gt;.&lt;/xref:System.ComponentModel.TypeConverterAttribute&gt;類別</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Unless this attribute is overridden, all classes that inherit from this class use the same type converter as the base class.</source>
+          <target state="translated">除非遭到覆寫這個屬性，繼承自這個類別的所有類別會都使用相同的型別轉換子的基底類別。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For general type system purposes, do not access a type converter directly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 用於一般類型系統的用途，不會存取型別轉換子直接。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Instead, access the appropriate converter by using &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">相反地，使用&lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;存取適當的轉換程式</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>For more information, see the code examples provided.</source>
+          <target state="translated">如需詳細資訊，請參閱提供的程式碼範例。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> For XAML purposes, a XAML processor searches for the &lt;xref:System.ComponentModel.TypeConverterAttribute&gt; directly, instead of going through &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated"><bpt id="p1">**</bpt>請注意<ept id="p1">**</ept>基於 XAML，XAML 處理器會搜尋&lt;xref:System.ComponentModel.TypeConverterAttribute&gt;直接管理，而不是經過&lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt; &lt;/xref:System.ComponentModel.TypeConverterAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>For cases where you do want a &lt;xref:System.ComponentModel.TypeDescriptor&gt; instance from code, or where you create a shared instance in WPF resources, it is acceptable to construct it directly without referencing &lt;xref:System.ComponentModel.TypeDescriptor&gt; or other reflection and type system support.</source>
+          <target state="translated">您希望的情況下&lt;xref:System.ComponentModel.TypeDescriptor&gt;從程式碼中，執行個體，或是讓您建立的共用執行個體在 WPF 中資源，是可接受的建構直接不需參考&lt;xref:System.ComponentModel.TypeDescriptor&gt;或其他支援的反映和型別系統。&lt;/xref:System.ComponentModel.TypeDescriptor&gt; &lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Classes derived from TypeConverter are often referenced as part of how a XAML processor converts an attribute or initialization text value from markup (which is inherently a string) and generates an object for a run-time representation.</source>
+          <target state="translated">衍生自 TypeConverter 類別通常會被參照 XAML 處理器如何將屬性或初始化文字值轉換從標記 （這是原本就是字串） 的一部分，並產生執行階段表示的物件。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Custom type authors that intend to support a type conversion behavior for XAML typically implement a TypeConverter class that supports their own unique <ph id="ph1">`ConvertFrom`</ph> behavior from a string.</source>
+          <target state="translated">自訂型別作者想要的 XAML 支援類型轉換行為，通常會實作支援自己唯一的 TypeConverter 類別<ph id="ph1">`ConvertFrom`</ph>從字串的行為。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This behavior enables type conversion from the string provided as a XAML attribute value and provides a XAML processor with the support needed to create an object from the string, so that the object can be produced in a parsed object graph.</source>
+          <target state="translated">此行為可讓從提供做為 XAML 屬性值的字串類型轉換，並提供 XAML 處理器，讓物件可以產生已剖析的物件圖形中，從字串建立物件所需的支援。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Custom types or members of custom types are indicated by applying &lt;xref:System.ComponentModel.TypeConverterAttribute&gt; to the definitions, with the attribute referencing the custom TypeConverter implementation.</source>
+          <target state="translated">自訂型別或成員的自訂型別以套用&lt;xref:System.ComponentModel.TypeConverterAttribute&gt;定義，具有屬性參考自訂 TypeConverter 實作。&lt;/xref:System.ComponentModel.TypeConverterAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Type Converters for XAML Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>類型轉換器 XAML 概觀<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert an object of the given type to the type of this converter.</source>
+          <target state="translated">傳回這個轉換子是否可以將給定型別的物件轉換成這個轉換子的型別。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>It never returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">永遠不會傳回<ph id="ph1">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert from.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;代表您想要從轉換的類型。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果這個轉換子可以執行轉換，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert an object of the given type to the type of this converter, using the specified context.</source>
+          <target state="translated">傳回這個轉換器是否可以轉換成這個轉換子，並使用指定的內容類型的給定類型的物件。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method returns <ph id="ph1">`false`</ph>, unless <ph id="ph2">`sourceType`</ph> is an &lt;xref:System.ComponentModel.Design.Serialization.InstanceDescriptor&gt;.</source>
+          <target state="translated">在這個類別中實作時，這個方法會傳回<ph id="ph1">`false`</ph>，除非<ph id="ph2">`sourceType`</ph>為&lt;xref:System.ComponentModel.Design.Serialization.InstanceDescriptor&gt;。&lt;/xref:System.ComponentModel.Design.Serialization.InstanceDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert from.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;代表您想要從轉換的類型。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果這個轉換子可以執行轉換，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert the object to the specified type.</source>
+          <target state="translated">傳回這個轉換子是否可以將物件轉換成指定的類型。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`destinationType`</ph> is a string, the default implementation of &lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt; always returns <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`destinationType`</ph>是一個字串的預設實作&lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;一律會傳回<ph id="ph2">`true`</ph>。&lt;/xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert to.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;表示您想要轉換成的型別。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果這個轉換子可以執行轉換，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Returns whether this converter can convert the object to the specified type, using the specified context.</source>
+          <target state="translated">傳回這個轉換子是否可以將物件轉換為指定的型別，並使用指定的內容。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`destinationType`</ph> is a string, the default implementation of &lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt; always returns <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`destinationType`</ph>是一個字串的預設實作&lt;xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;一律會傳回<ph id="ph2">`true`</ph>。&lt;/xref:System.ComponentModel.TypeConverter.CanConvertTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type you want to convert to.</source>
+          <target state="translated">A&lt;xref:System.Type&gt;表示您想要轉換成的型別。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this converter can perform the conversion; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果這個轉換子可以執行轉換，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Converts the given value to the type of this converter.</source>
+          <target state="translated">將指定的值轉換成這個轉換子的類型。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Converts the given object to the type of this converter, using the specified context and culture information.</source>
+          <target state="translated">將指定的物件轉換成這個轉換子，並使用指定的內容和文化特性資訊的類型。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Custom type authors that intend to support a type conversion behavior for XAML typically implement a &lt;xref:System.ComponentModel.TypeConverter&gt; class that supports ConvertFrom behavior from a string.</source>
+          <target state="translated">自訂型別作者想要的 XAML 支援類型轉換行為，通常會實作&lt;xref:System.ComponentModel.TypeConverter&gt;支援 ConvertFrom 字串行為的類別。&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This behavior enables type conversion from the string provided as a XAML attribute value and provides a XAML processor with the support needed to create an object from the string, so that the object can be produced in a parsed object graph.</source>
+          <target state="translated">此行為可讓從提供做為 XAML 屬性值的字串類型轉換，並提供 XAML 處理器，讓物件可以產生已剖析的物件圖形中，從字串建立物件所需的支援。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Custom types or members of custom types are indicated by applying &lt;xref:System.ComponentModel.TypeConverterAttribute&gt; to the definitions, with the attribute referencing the custom &lt;xref:System.ComponentModel.TypeConverter&gt; implementation.</source>
+          <target state="translated">自訂型別或成員的自訂型別以套用&lt;xref:System.ComponentModel.TypeConverterAttribute&gt;定義，具有屬性參考自訂&lt;xref:System.ComponentModel.TypeConverter&gt;實作。&lt;/xref:System.ComponentModel.TypeConverter&gt; &lt;/xref:System.ComponentModel.TypeConverterAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>For XAML purposes, you do not typically provide branching implementations based on <ph id="ph1">`culture`</ph>.</source>
+          <target state="translated">基於 XAML，您不通常提供分支實作根據<ph id="ph1">`culture`</ph>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This is because XAML is precompiled in a development environment context, and culture-specific information for runtime XAML is not relevant for XAML type conversion.</source>
+          <target state="translated">這是因為在開發環境內容中，先行編譯的 XAML 時，執行階段的特定文化特性資訊 XAML 無關 XAML 類型轉換。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Type Converters for XAML Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>類型轉換器 XAML 概觀<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Globalization.CultureInfo&gt; to use as the current culture.</source>
+          <target state="translated">&lt;xref:System.Globalization.CultureInfo&gt;要做為目前的文化特性。&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Converts the given string to the type of this converter, using the invariant culture.</source>
+          <target state="translated">將指定的字串轉換成這個轉換子，並使用文化特性而異的類型。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">預設實作一定會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.String&gt;轉換。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的文字。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Converts the given string to the type of this converter, using the invariant culture and the specified context.</source>
+          <target state="translated">將指定的字串轉換成這個轉換子，而異的文化特性和指定的內容使用的類型。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An exception is raised if the string cannot be converted into the appropriate object.</source>
+          <target state="translated">如果字串無法轉換為適當的物件，會引發例外狀況。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">預設實作一定會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.String&gt;轉換。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的文字。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Converts the specified text to an object.</source>
+          <target state="translated">將指定的文字轉換成物件。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">預設實作一定會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The text representation of the object to convert.</source>
+          <target state="translated">要轉換之物件的文字表示。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的文字。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The string cannot be converted into the appropriate object.</source>
+          <target state="translated">字串無法轉換為適當的物件。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Converts the given text to an object, using the specified context.</source>
+          <target state="translated">將指定的文字轉換成物件，使用指定的內容。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>An exception is raised if the string cannot be converted into the appropriate object.</source>
+          <target state="translated">如果字串無法轉換為適當的物件，會引發例外狀況。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">預設實作一定會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.String&gt;轉換。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的文字。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Converts the given text to an object, using the specified context and culture information.</source>
+          <target state="translated">將指定的文字轉換成物件，使用指定的內容和文化特性資訊。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An exception is raised if the string cannot be converted into the appropriate object.</source>
+          <target state="translated">如果字串無法轉換為適當的物件，會引發例外狀況。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The default implementation always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">預設實作一定會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt;.</source>
+          <target state="translated">A &lt;xref:System.Globalization.CultureInfo&gt;.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the current culture is assumed.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>傳遞，則目前會假設文化特性。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.String&gt;轉換。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted text.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的文字。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Converts the given value object to the specified type, using the arguments.</source>
+          <target state="translated">將指定的值物件轉換成指定的類型，使用的引數。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The most common type to convert to and from is a string object.</source>
+          <target state="translated">要轉換的最常見的類型是字串物件。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>This implementation calls &lt;xref:System.Object.ToString%2A&gt; on the object, if the object is valid and if the destination type is a string.</source>
+          <target state="translated">這個實作會呼叫&lt;xref:System.Object.ToString%2A&gt;物件上的物件是否有效，而且如果目標類型是字串。&lt;/xref:System.Object.ToString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to convert the <ph id="ph1">`value`</ph> parameter to.</source>
+          <target state="translated">&lt;xref:System.Type&gt;轉換<ph id="ph1">`value`</ph>參數。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Converts the given value object to the specified type, using the specified context and culture information.</source>
+          <target state="translated">將指定的值物件轉換成指定的型別，並使用指定的內容和文化特性資訊。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The most common types to convert are to and from a string object.</source>
+          <target state="translated">最常見的類型，將轉換為字串物件。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>This implementation calls &lt;xref:System.Object.ToString%2A&gt; on the object if the object is valid and if the destination type is a string.</source>
+          <target state="translated">這個實作會呼叫&lt;xref:System.Object.ToString%2A&gt;物件上的物件是否有效，而且如果目標類型是字串。&lt;/xref:System.Object.ToString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Custom type authors that intend to support a type conversion behavior for XAML typically implement a &lt;xref:System.ComponentModel.TypeConverter&gt; class that supports &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; behavior from a string.</source>
+          <target state="translated">自訂型別作者想要的 XAML 支援類型轉換行為，通常會實作&lt;xref:System.ComponentModel.TypeConverter&gt;支援類別&lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;從字串的行為。&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>These type converters might also implement ConvertTo to support serialization back to XAML.</source>
+          <target state="translated">這些型別轉換子也可能會實作 ConvertTo 來支援 XAML 序列化。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Some XAML serialization scenarios cannot be adequately addressed with &lt;xref:System.ComponentModel.TypeConverter&gt; alone.</source>
+          <target state="translated">某些 XAML 序列化的情況下無法適當地處理與&lt;xref:System.ComponentModel.TypeConverter&gt;單獨。&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>In these cases, it may be necessary to also define a &lt;xref:System.Windows.Markup.ValueSerializer&gt; that handles the serialization cases that would otherwise be handled by ConvertTo.</source>
+          <target state="translated">在這些情況下，可能有必要也定義&lt;xref:System.Windows.Markup.ValueSerializer&gt;可處理的序列化情況，否則會由 ConvertTo。&lt;/xref:System.Windows.Markup.ValueSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Windows.Markup.ValueSerializer&gt;.</source>
+          <target state="translated">如需詳細資訊，請參閱&lt;xref:System.Windows.Markup.ValueSerializer&gt;.&lt;/xref:System.Windows.Markup.ValueSerializer&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt;.</source>
+          <target state="translated">A &lt;xref:System.Globalization.CultureInfo&gt;.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the current culture is assumed.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>傳遞，則目前會假設文化特性。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; to convert the <ph id="ph1">`value`</ph> parameter to.</source>
+          <target state="translated">&lt;xref:System.Type&gt;轉換<ph id="ph1">`value`</ph>參數。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">destinationType</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Converts the specified value to a culture-invariant string representation.</source>
+          <target state="translated">將指定的值轉換成不變的文化特性的字串表示。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`context`</ph> parameter can be used to extract additional information about the environment from which this converter is being invoked.</source>
+          <target state="translated"><ph id="ph1">`context`</ph>參數可以用來擷取的環境的這個轉換子所叫用的其他資訊。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>This can be <ph id="ph1">`null`</ph>, so always check.</source>
+          <target state="translated">這可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">不同的值格式子的實作，可能會將傳回的字串到值格式子，來重新建立物件的執行個體。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that represents the converted value.</source>
+          <target state="translated">A&lt;xref:System.String&gt;表示已轉換的值。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Converts the specified value to a culture-invariant string representation, using the specified context.</source>
+          <target state="translated">將指定的值轉換成不變的文化特性的字串表示，使用指定的內容。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">不同的值格式子的實作，可能會將傳回的字串到值格式子，來重新建立物件的執行個體。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; that represents the converted value.</source>
+          <target state="translated">A&lt;xref:System.String&gt;表示已轉換的值。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Converts the specified value to a string representation.</source>
+          <target state="translated">將指定的值轉換為字串表示。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">不同的值格式子的實作，可能會將傳回的字串到值格式子，來重新建立物件的執行個體。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Converts the given value to a string representation, using the given context.</source>
+          <target state="translated">將指定的值轉換為字串表示，使用指定的內容。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">不同的值格式子的實作，可能會將傳回的字串到值格式子，來重新建立物件的執行個體。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Converts the given value to a string representation, using the specified context and culture information.</source>
+          <target state="translated">將指定的值轉換為字串表示，使用指定的內容和文化特性資訊。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Depending on the implementation of the value formatter, it might be possible to pass the returned string back into the value formatter to re-create an instance of the object.</source>
+          <target state="translated">不同的值格式子的實作，可能會將傳回的字串到值格式子，來重新建立物件的執行個體。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Globalization.CultureInfo&gt;.</source>
+          <target state="translated">A &lt;xref:System.Globalization.CultureInfo&gt;.&lt;/xref:System.Globalization.CultureInfo&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is passed, the current culture is assumed.</source>
+          <target state="translated">如果<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>傳遞，則目前會假設文化特性。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that represents the converted value.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示已轉換的值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The conversion cannot be performed.</source>
+          <target state="translated">無法執行轉換。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Re-creates an &lt;xref:System.Object&gt; given a set of property values for the object.</source>
+          <target state="translated">重新建立&lt;xref:System.Object&gt;物件指定一組屬性值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Use this method for objects that are immutable, but for which you want to provide changeable properties.</source>
+          <target state="translated">使用此方法不可變的但您想要提供可變更屬性的物件。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The dictionary provided by the <ph id="ph1">`propertyValues`</ph> parameter has a series of name/value pairs, one for each property returned from &lt;xref:System.ComponentModel.TypeConverter.GetProperties%2A&gt;.</source>
+          <target state="translated">所提供的字典<ph id="ph1">`propertyValues`</ph>參數有一系列的名稱/值組&lt;xref:System.ComponentModel.TypeConverter.GetProperties%2A&gt;.&lt;/xref:System.ComponentModel.TypeConverter.GetProperties%2A&gt;從傳回的每一個屬性的其中一個</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; that represents a dictionary of new property values.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;，代表新的屬性值的字典。&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the given &lt;xref:System.Collections.IDictionary&gt;, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object cannot be created.</source>
+          <target state="translated">&lt;xref:System.Object&gt;代表給定&lt;xref:System.Collections.IDictionary&gt;，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果無法建立物件。&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>This method always returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個方法一律會傳回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Creates an instance of the type that this <bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is associated with, using the specified context, given a set of property values for the object.</source>
+          <target state="translated">建立類型的執行個體，這<bpt id="p1">&lt;xref href="System.ComponentModel.TypeConverter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>相關聯，使用指定的內容中，指定物件的一組屬性值。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>Use this method for objects that are immutable, but for which you want to provide changeable properties.</source>
+          <target state="translated">使用此方法不可變的但您想要提供可變更屬性的物件。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IDictionary&gt; of new property values.</source>
+          <target state="translated">&lt;xref:System.Collections.IDictionary&gt;新屬性值。&lt;/xref:System.Collections.IDictionary&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the given &lt;xref:System.Collections.IDictionary&gt;, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object cannot be created.</source>
+          <target state="translated">&lt;xref:System.Object&gt;代表給定&lt;xref:System.Collections.IDictionary&gt;，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果無法建立物件。&lt;/xref:System.Collections.IDictionary&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>This method always returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個方法一律會傳回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Returns an exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">傳回時無法執行轉換所擲回例外狀況。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object is not available.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果物件無法使用。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Exception&gt; that represents the exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">&lt;xref:System.Exception&gt;表示無法執行轉換時擲回的例外狀況。&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Automatically thrown by this method.</source>
+          <target state="translated">會自動由這個方法會擲回。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Returns an exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">傳回時無法執行轉換所擲回例外狀況。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to convert, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object is not available.</source>
+          <target state="translated">&lt;xref:System.Object&gt;轉換，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果物件無法使用。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that represents the type the conversion was trying to convert to.</source>
+          <target state="translated">A &lt;xref:System.Type&gt;，代表轉換嘗試轉換成的型別。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Exception&gt; that represents the exception to throw when a conversion cannot be performed.</source>
+          <target state="translated">&lt;xref:System.Exception&gt;表示無法執行轉換時擲回的例外狀況。&lt;/xref:System.Exception&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Automatically thrown by this method.</source>
+          <target state="translated">會自動由這個方法會擲回。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Returns whether changing a value on this object requires a call to the &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; method to create a new value.</source>
+          <target state="translated">傳回變更的值，這個物件上是否需要呼叫&lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;方法來建立新的值。&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if changing a property on this object requires a call to &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; to create a new value; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果變更此物件上的屬性需要呼叫&lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;以建立新的值; 否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Returns whether changing a value on this object requires a call to &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; to create a new value, using the specified context.</source>
+          <target state="translated">傳回變更的值，這個物件上是否需要呼叫&lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;以建立新的值，並使用指定的內容。&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if changing a property on this object requires a call to &lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt; to create a new value; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果變更此物件上的屬性需要呼叫&lt;xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;以建立新的值; 否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ComponentModel.TypeConverter.CreateInstance*&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Returns a collection of properties for the type of array specified by the value parameter.</source>
+          <target state="translated">傳回由值參數所指定的陣列型別的屬性集合。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>By default, a type does not return properties.</source>
+          <target state="translated">根據預設，型別所傳回的屬性。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>An easy implementation of this method can call &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt; for the correct data type.</source>
+          <target state="translated">可以呼叫此方法的簡單實作&lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;正確的資料類型。&lt;/xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that specifies the type of array for which to get properties.</source>
+          <target state="translated">&lt;xref:System.Object&gt;指定之要取得屬性的陣列型別。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the properties that are exposed for this data type, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there are no properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>為這種資料類型所公開的屬性或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>是否有任何屬性。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Returns a collection of properties for the type of array specified by the value parameter, using the specified context.</source>
+          <target state="translated">傳回由值參數，使用指定的內容所指定的陣列型別的屬性集合。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>By default, a type does not return properties.</source>
+          <target state="translated">根據預設，型別所傳回的屬性。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>An easy implementation of this method can call &lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt; for the correct data type.</source>
+          <target state="translated">可以呼叫此方法的簡單實作&lt;xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;正確的資料類型。&lt;/xref:System.ComponentModel.TypeDescriptor.GetProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that specifies the type of array for which to get properties.</source>
+          <target state="translated">&lt;xref:System.Object&gt;指定之要取得屬性的陣列型別。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the properties that are exposed for this data type, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there are no properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>為這種資料類型所公開的屬性或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>是否有任何屬性。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>Returns a collection of properties for the type of array specified by the value parameter, using the specified context and attributes.</source>
+          <target state="translated">傳回由值參數，使用指定的內容和屬性所指定的陣列型別的屬性集合。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; that specifies the type of array for which to get properties.</source>
+          <target state="translated">&lt;xref:System.Object&gt;指定之要取得屬性的陣列型別。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Attribute&gt; that is used as a filter.</source>
+          <target state="translated">類型的陣列&lt;xref:System.Attribute&gt;，可當做篩選條件。&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the properties that are exposed for this data type, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there are no properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>為這種資料類型所公開的屬性或<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>是否有任何屬性。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports properties.</source>
+          <target state="translated">傳回這個物件是否支援屬性。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt; should be called to find the properties of this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt;應該會呼叫以尋找這個物件的屬性，否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ComponentModel.TypeConverter.GetProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports properties, using the specified context.</source>
+          <target state="translated">傳回這個物件是否支援屬性，請使用指定的內容。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt; should be called to find the properties of this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.ComponentModel.TypeConverter.GetProperties*&gt;應該會呼叫以尋找這個物件的屬性，否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ComponentModel.TypeConverter.GetProperties*&gt;</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Returns a collection of standard values from the default context for the data type this type converter is designed for.</source>
+          <target state="translated">從這個型別轉換子所針對的資料類型的預設內容中傳回標準值的集合。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; containing a standard set of valid values, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data type does not support a standard set of values.</source>
+          <target state="translated">A&lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;包含一組標準的有效值，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料類型不支援的標準值集合。&lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Returns a collection of standard values for the data type this type converter is designed for when provided with a format context.</source>
+          <target state="translated">傳回資料類型，提供格式內容時，針對此型別轉換子的標準值的集合。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>As implemented in &lt;xref:System.ComponentModel.TypeConverter&gt;, this method always returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">在中實作&lt;xref:System.ComponentModel.TypeConverter&gt;，這個方法一律會傳回<ph id="ph1">`null`</ph>。&lt;/xref:System.ComponentModel.TypeConverter&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context that can be used to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容，可用來擷取要從中叫用這個轉換子的環境的其他資訊。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This parameter or properties of this parameter can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">這個參數或這個參數的屬性可以是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; that holds a standard set of valid values, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the data type does not support a standard set of values.</source>
+          <target state="translated">A&lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;保存一組標準的有效值，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果資料類型不支援的標準值集合。&lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Returns whether the collection of standard values returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exclusive list.</source>
+          <target state="translated">傳回的標準值集合是否從傳回&lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;是獨占清單。&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>If the list is exclusive, such as in an enumeration data type, then no other values are valid.</source>
+          <target state="translated">如果是獨占清單，例如在列舉資料型別，則沒有其他有效值。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>If the list is not exclusive, then other valid values might exist in addition to the list of standard values that the &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; method provides.</source>
+          <target state="translated">如果清單不是獨佔的則除了的清單，可能還有其他有效值標準值&lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;方法提供。&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>If the values are exclusive, the list returned by &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; should not allow these values to be edited.</source>
+          <target state="translated">如果是獨占值，所傳回的清單&lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;應該不允許編輯這些值。&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exhaustive list of possible values; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if other values are possible.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果從&lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;傳回&lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;，是可能的值的獨占清單<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果其他的值為可能。 &lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>Returns whether the collection of standard values returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exclusive list of possible values, using the specified context.</source>
+          <target state="translated">傳回的標準值集合是否從傳回&lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;是可能的值，使用指定的內容的獨占清單。&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>If the list is exclusive, such as in an enumeration data type, then no other values are valid.</source>
+          <target state="translated">如果是獨占清單，例如在列舉資料型別，則沒有其他有效值。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>If the list is not exclusive, then other valid values might exist in addition to the list of standard values that the &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; method provides.</source>
+          <target state="translated">如果清單不是獨佔的則除了的清單，可能還有其他有效值標準值&lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;方法提供。&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>If the values are exclusive, the list returned by &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt; should not allow these values to be edited.</source>
+          <target state="translated">如果是獨占值，所傳回的清單&lt;xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;應該不允許編輯這些值。&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues%2A&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt; returned from &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; is an exhaustive list of possible values; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if other values are possible.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果從&lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;傳回&lt;xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;，是可能的值的獨占清單<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果其他的值為可能。 &lt;/xref:System.ComponentModel.TypeConverter.StandardValuesCollection&gt;&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports a standard set of values that can be picked from a list.</source>
+          <target state="translated">傳回這個物件是否支援一組標準可從清單中挑選的值。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; should be called to find a common set of values the object supports; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;呼叫尋找一組常用的物件支援的值; 否則應該是<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Returns whether this object supports a standard set of values that can be picked from a list, using the specified context.</source>
+          <target state="translated">傳回這個物件是否支援一組標準可從清單中，使用指定的內容中挑選的值。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>As implemented in this class, this method always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">在這個類別中實作時，這個方法一律會傳回<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt; should be called to find a common set of values the object supports; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;呼叫尋找一組常用的物件支援的值; 否則應該是<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.ComponentModel.TypeConverter.GetStandardValues*&gt;</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>Returns whether the given value object is valid for this type.</source>
+          <target state="translated">傳回是否適用於此類型指定的值物件。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Starting in <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, the &lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt; method catches exceptions from the &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; and &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; methods.</source>
+          <target state="translated">從開始<ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>、&lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt;方法攔截例外狀況，從&lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;和&lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;方法。&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.IsValid%2A&gt;</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>If the input value type causes &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; to return <ph id="ph1">`false`</ph>, or if the input value causes &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; to raise an exception, the &lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt; method returns <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">如果輸入的值類型會導致&lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;傳回<ph id="ph1">`false`</ph>，或如果輸入的值會導致&lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;引發例外狀況，&lt;xref:System.ComponentModel.TypeConverter.IsValid%2A&gt;方法會傳回<ph id="ph2">`false`</ph>。&lt;/xref:System.ComponentModel.TypeConverter.IsValid%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>To enable the legacy behavior, insert the following lines into the configuration file of the application, for example, application1.exe.config.</source>
+          <target state="translated">若要啟用舊版行為，將下列行插入應用程式，例如 application1.exe.config 的組態檔。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The object to test for validity.</source>
+          <target state="translated">要測試有效性的物件。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified value is valid for this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果指定的值無效，此物件。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Returns whether the given value object is valid for this type and for the specified context.</source>
+          <target state="translated">傳回給定的值的物件是否有效，此類型和指定的內容。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">`context`</ph> parameter to extract additional information about the environment from which this converter is invoked.</source>
+          <target state="translated">使用<ph id="ph1">`context`</ph>參數可以用於擷取的環境從中叫用這個轉換子的其他資訊。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>This parameter can be <ph id="ph1">`null`</ph>, so always check it.</source>
+          <target state="translated">這個參數可以是<ph id="ph1">`null`</ph>，所以一定要檢查。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Also, properties on the context object can return <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">此外，物件上的屬性可能會傳回<ph id="ph1">`null`</ph>。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Starting in <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, the IsValid method catches exceptions from the &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; and &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; methods.</source>
+          <target state="translated">從開始<ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>，IsValid 方法攔截例外狀況，從&lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;和&lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;方法。&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>If the input value type causes &lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt; to return <ph id="ph1">`false`</ph>, or if the input value causes &lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; to raise an exception, the IsValid method returns <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">如果輸入的值類型會導致&lt;xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;傳回<ph id="ph1">`false`</ph>，或如果輸入的值會導致&lt;xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt;IsValid 方法會傳回引發例外狀況， <ph id="ph2">`false`</ph>。&lt;/xref:System.ComponentModel.TypeConverter.ConvertFrom%2A&gt; &lt;/xref:System.ComponentModel.TypeConverter.CanConvertFrom%2A&gt;</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>To enable the legacy behavior, insert the following lines into the configuration file of the application, for example, application1.exe.config.</source>
+          <target state="translated">若要啟用舊版行為，將下列行插入應用程式，例如 application1.exe.config 的組態檔。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that provides a format context.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，提供格式內容。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; to test for validity.</source>
+          <target state="translated">&lt;xref:System.Object&gt;要測試有效性。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified value is valid for this object; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果指定的值無效，此物件。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Sorts a collection of properties.</source>
+          <target state="translated">排序屬性的集合。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>All properties in the collection that are not already in the array of names are added alphabetically to the end.</source>
+          <target state="translated">集合中所有不存在於名稱的陣列的屬性會依字母順序加入至結尾。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`names`</ph> parameter is an empty array or <ph id="ph2">`null`</ph>, all the properties in the collection are sorted alphabetically.</source>
+          <target state="translated">如果<ph id="ph1">`names`</ph>參數是空陣列或<ph id="ph2">`null`</ph>，依字母順序排序集合中的所有屬性。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that has the properties to sort.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的已排序的屬性。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>An array of names in the order you want the properties to appear in the collection.</source>
+          <target state="translated">在順序中的名稱陣列您想要在集合中出現的屬性。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the sorted properties.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptorCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含已排序的屬性。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

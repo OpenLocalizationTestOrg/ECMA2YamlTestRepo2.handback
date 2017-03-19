@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84001643cee21329e2b20587531460d50085f65f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.ITypeDescriptorFilterService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">699f3dca98edb254cc346e8e4768f0562b6f19c4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">67eb26302d7d96bfe2932f82f40a90746cac1513</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides an interface to modify the set of member descriptors for a component in design mode.</source>
+          <target state="translated">提供介面來修改的元件，以在設計模式中的成員描述項集。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The ITypeDescriptorFilterService interface provides an interface that allows modification of the properties, events, and class-level attributes of a component at design time.</source>
+          <target state="translated">ITypeDescriptorFilterService 介面提供可讓修改設計階段屬性、 事件和元件的類別層級屬性的介面。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This modification occurs through the set of descriptors that a component provides through a &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">這項修改，就會發生透過&lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;元件所提供的描述元組</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The type descriptor will query a component's site for the ITypeDescriptorFilterService service and, if it exists, the type descriptor will pass all metadata it has collected to this service.</source>
+          <target state="translated">型別描述項會查詢 ITypeDescriptorFilterService 服務元件的站台和類型描述元如果存在的話，會傳遞到此服務所收集的所有中繼資料。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The service can then modify the metadata by adding, removing, and altering existing characteristics of the component.</source>
+          <target state="translated">服務可以透過新增、 移除和變更現有的元件特性修改中繼資料。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For example, the properties of a component can be modified through a call to the &lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt; method.</source>
+          <target state="translated">例如，修改元件的屬性，透過呼叫&lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt;方法。&lt;/xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The filter service obtains a dictionary that contains property names and their property descriptors of type &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.</source>
+          <target state="translated">篩選服務所取得字典，其中包含屬性名稱和型別&lt;xref:System.ComponentModel.PropertyDescriptor&gt;.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;其屬性描述項</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The modifications are implemented using the following logic.</source>
+          <target state="translated">使用下列邏輯來實作所做的修改。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>|Modification|Implementation|   |------------------|--------------------|   |Removal|Delete the corresponding entry in the dictionary.|   |Addition|Add the appropriate entry to the dictionary.|   |Alteration|Call existing property descriptor methods, replace the associated property descriptor entry, or replace the entire property key/value pair in the dictionary.|       The return value of &lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt; determines if this set of properties is fixed.</source>
+          <target state="translated">|修改 |實作 |  |------------------|--------------------|  |移除 |刪除在字典中的對應項目。 |  |加法 |將適當的項目加入至字典。 |  |改變 |呼叫現有的屬性描述元方法、 取代關聯的屬性描述元的項目，或取代在字典中的整個屬性索引鍵/值組。 |      傳回值&lt;xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt;決定是否要修正這一組屬性。&lt;/xref:System.ComponentModel.Design.ITypeDescriptorFilterService.FilterProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If this method returns <ph id="ph1">`true`</ph>, the &lt;xref:System.ComponentModel.TypeDescriptor&gt; for this component can cache the results.</source>
+          <target state="translated">如果此方法傳回<ph id="ph1">`true`</ph>、&lt;xref:System.ComponentModel.TypeDescriptor&gt;針對此元件可以快取結果。&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This cache is maintained until either the component is garbage collected or the &lt;xref:System.ComponentModel.TypeDescriptor.Refresh%2A&gt; method of the type descriptor is called.</source>
+          <target state="translated">此快取會維護，直到其中一個元件是記憶體回收或&lt;xref:System.ComponentModel.TypeDescriptor.Refresh%2A&gt;呼叫方法的類型描述元。&lt;/xref:System.ComponentModel.TypeDescriptor.Refresh%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Filters the attributes that a component exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">透過公開元件屬性的篩選<bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This method is called when a user requests a set of attributes for a component.</source>
+          <target state="translated">當使用者要求一組元件的屬性，會呼叫這個方法。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The attributes are added to the dictionary with the attribute's &lt;xref:System.Attribute.TypeId%2A&gt; as the keys and the actual attribute as the value.</source>
+          <target state="translated">屬性會加入到具有該屬性的字典&lt;xref:System.Attribute.TypeId%2A&gt;列為索引鍵，做為值的實際屬性。&lt;/xref:System.Attribute.TypeId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Implementers of this service can add, remove, or alter existing attribute entries in the dictionary.</source>
+          <target state="translated">此服務的實作器可以新增、 移除或變更在字典中的現有屬性項目。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The component to filter the attributes of.</source>
+          <target state="translated">要篩選的屬性的元件。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A dictionary of attributes that can be modified.</source>
+          <target state="translated">您可以修改的屬性的字典。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the set of filtered attributes is to be cached; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the filter service must query again.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果已篩選屬性集的快取。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果篩選器服務必須再次查詢。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Filters the events that a component exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">篩選事件的元件會公開透過<bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This method is called when a user requests a set of events for a component.</source>
+          <target state="translated">當使用者要求一組元件的事件，會呼叫這個方法。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The events are added to the dictionary with the event names as the keys and the corresponding &lt;xref:System.ComponentModel.EventDescriptor&gt; objects as the values.</source>
+          <target state="translated">事件做為索引鍵和對應新增到事件名稱與字典&lt;xref:System.ComponentModel.EventDescriptor&gt;做為值的物件。&lt;/xref:System.ComponentModel.EventDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Implementers of this service can add, remove, or alter event entries in the dictionary.</source>
+          <target state="translated">此服務的實作器可以新增、 移除或變更在字典中的事件項目。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The component to filter events for.</source>
+          <target state="translated">要篩選事件的元件。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>A dictionary of events that can be modified.</source>
+          <target state="translated">您可以修改的事件字典。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the set of filtered events is to be cached; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the filter service must query again.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>篩選的事件集是否要快取。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果篩選器服務必須再次查詢。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Filters the properties that a component exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">篩選之屬性的元件會公開透過<bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>This method is called when a user requests a set of properties for a component.</source>
+          <target state="translated">當使用者要求一組元件的屬性，會呼叫這個方法。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The properties are added to the dictionary with the property names as the keys and the corresponding &lt;xref:System.ComponentModel.PropertyDescriptor&gt; objects as the values.</source>
+          <target state="translated">屬性加入至字典的屬性名稱做為索引鍵和對應&lt;xref:System.ComponentModel.PropertyDescriptor&gt;做為值的物件。&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Implementers of this service can add, remove, or alter property entries in the dictionary.</source>
+          <target state="translated">此服務的實作器可以新增、 移除或變更屬性字典中的項目。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The component to filter properties for.</source>
+          <target state="translated">要篩選屬性的元件。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A dictionary of properties that can be modified.</source>
+          <target state="translated">可修改的屬性的字典。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the set of filtered properties is to be cached; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the filter service must query again.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>篩選的屬性集是否要快取。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>如果篩選器服務必須再次查詢。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
