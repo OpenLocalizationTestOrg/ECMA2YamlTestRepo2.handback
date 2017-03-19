@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">542f10add087de6916a0ed43cc35e2cf0c663ef0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Services.Protocols.MimeParameterWriter.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa6a6d1d8263c983a01dd2dfe399353ad16ed32c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">83fec4aa452c50ddc9ef3c40f0ab2608d5d87e6f</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a common base implementation for writers of out-going request parameters for Web service clients implemented using HTTP but without SOAP.</source>
+          <target state="translated">Biedt een algemene basisimplementatie voor schrijvers van de uitgaande aanvraagparameters voor Web serviceclients geïmplementeerd met behulp van HTTP, maar zonder SOAP.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>MimeParameterWriter and other classes in the &lt;xref:System.Web.Services.Protocols&gt; namespace support the .NET Framework's implementations of Web services via the HTTP-GET and HTTP-POST operations.</source>
+          <target state="translated">MimeParameterWriter en andere klassen in de &lt;xref:System.Web.Services.Protocols&gt;naamruimte ondersteuning voor .NET Framework-implementaties van Web-services via de HTTP GET- en HTTP POST-bewerkingen.&lt;/xref:System.Web.Services.Protocols&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Web service writers and readers serialize and deserialize, respectively, between the parameters or return objects of Web methods and the HTTP request or response streams.</source>
+          <target state="translated">Web service schrijvers en lezers serialiseren en deserialiseren, respectievelijk tussen de parameters of return webmethoden-objecten en de HTTP-aanvraag of antwoord stromen.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Web service writers and readers use HTTP for transport but don't exchange messages using the SOAP standard.</source>
+          <target state="translated">Web service schrijvers en lezers HTTP gebruiken voor het transport, maar niet wisselen berichten met de SOAP-standaard.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The MimeParameterWriter class establishes a common request-writing format for client-side writing of Web method parameters into HTTP request streams.</source>
+          <target state="translated">De klasse MimeParameterWriter stelt u een algemene indeling van aanvraag schrijven voor clientzijde schrijven van Web-methodeparameters in HTTP-Aanvraagstromen.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will typically not need to use MimeParameterWriter or its descendant classes directly.</source>
+          <target state="translated">Doorgaans wordt niet hoeft te MimeParameterWriter of de afgeleide klassen rechtstreeks gebruiken.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, when the Wsdl.exe tool generates client proxy code according to the HTTP-GET or HTTP-POST implementations, it applies the &lt;xref:System.Web.Services.Protocols.HttpMethodAttribute&gt; to each Web method and sets the attribute's &lt;xref:System.Web.Services.Protocols.HttpMethodAttribute.ParameterFormatter%2A&gt; property to the appropriate type.</source>
+          <target state="translated">In plaats daarvan wanneer het hulpprogramma Wsdl.exe proxy clientcode volgens de HTTP GET- of HTTP POST-implementaties genereert, geldt deze de &lt;xref:System.Web.Services.Protocols.HttpMethodAttribute&gt;naar elke webmethode en stelt u het kenmerk &lt;xref:System.Web.Services.Protocols.HttpMethodAttribute.ParameterFormatter%2A&gt;eigenschap in op het juiste type.&lt;/xref:System.Web.Services.Protocols.HttpMethodAttribute.ParameterFormatter%2A&gt; &lt;/xref:System.Web.Services.Protocols.HttpMethodAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeParameterWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.MimeParameterWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, modifies the outgoing HTTP request's Uniform Request Locator (URL).</source>
+          <target state="translated">Wanneer in een afgeleide klasse genegeerd, wijzigt Uniform aanvraag Locator (URL) van de uitgaande HTTP-aanvraag.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the classes derived from &lt;xref:System.Web.Services.Protocols.MimeParameterWriter&gt;, only &lt;xref:System.Web.Services.Protocols.UrlParameterWriter&gt; modifies the HTTP request URL.</source>
+          <target state="translated">Van de klassen die zijn afgeleid van &lt;xref:System.Web.Services.Protocols.MimeParameterWriter&gt;, alleen &lt;xref:System.Web.Services.Protocols.UrlParameterWriter&gt;wordt de HTTP-aanvraag-URL gewijzigd.&lt;/xref:System.Web.Services.Protocols.UrlParameterWriter&gt; &lt;/xref:System.Web.Services.Protocols.MimeParameterWriter&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The HTTP request's original Uniform Resource Locator (URL).</source>
+          <target state="translated">De HTTP-aanvraag oorspronkelijke Uniform Resource Locator (URL).</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The Web method parameter values to be added to the URL, if necessary.</source>
+          <target state="translated">De Web-methode parameterwaarden worden toegevoegd aan de URL, indien nodig.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; object that contains the modified, outgoing HTTP request's Uniform Request Locator (URL).</source>
+          <target state="translated">Een &lt;xref:System.String&gt;object die de gewijzigde bevat, uitgaande HTTP-aanvraag Uniform aanvraag Locator (URL).&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, initializes the out-going HTTP request.</source>
+          <target state="translated">Wanneer in een afgeleide klasse genegeerd, initialiseert de uitgaande gaan HTTP-aanvraag.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the classes derived from &lt;xref:System.Web.Services.Protocols.MimeParameterWriter&gt;, only &lt;xref:System.Web.Services.Protocols.HtmlFormParameterWriter&gt; implements the &lt;xref:System.Web.Services.Protocols.MimeParameterWriter&gt; method.</source>
+          <target state="translated">Van de klassen die zijn afgeleid van &lt;xref:System.Web.Services.Protocols.MimeParameterWriter&gt;, alleen &lt;xref:System.Web.Services.Protocols.HtmlFormParameterWriter&gt;implementeert de &lt;xref:System.Web.Services.Protocols.MimeParameterWriter&gt;methode.&lt;/xref:System.Web.Services.Protocols.MimeParameterWriter&gt; &lt;/xref:System.Web.Services.Protocols.HtmlFormParameterWriter&gt; &lt;/xref:System.Web.Services.Protocols.MimeParameterWriter&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The out-going request, where the &lt;xref:System.Net.WebRequest&gt; class allows transport protocols besides HTTP.</source>
+          <target state="translated">De uitgaande gaan aanvraag waarin de &lt;xref:System.Net.WebRequest&gt;klasse kunnen transportprotocollen naast HTTP.&lt;/xref:System.Net.WebRequest&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The Web method parameter values.</source>
+          <target state="translated">De Web-methode parameterwaarden.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets or sets the encoding used to write parameters to the HTTP request.</source>
+          <target state="translated">Opgehaald of ingesteld van de codering die wordt gebruikt voor parameters om de HTTP-aanvragen te schrijven.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An encoding, as represented by the &lt;xref:System.Text.Encoding&gt; class, defines how to transform characters into a sequence of bytes.</source>
+          <target state="translated">Een codering, zoals wordt weergegeven met de &lt;xref:System.Text.Encoding&gt;klasse, definieert hoe tekens transformeren naar een reeks bytes.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The encoding used to write parameters to the HTTP request.</source>
+          <target state="translated">De codering gebruikt parameters schrijven naar de HTTP-aanvraag.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether Web method parameter values are serialized to the out-going HTTP request body.</source>
+          <target state="translated">Haalt een waarde die aangeeft of de parameterwaarden voor Web-methode aan de uitgaande gaan hoofdtekst van de HTTP-aanvraag worden geserialiseerd.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UsesWriteRequest property determines whether the &lt;xref:System.Web.Services.Protocols.MimeParameterWriter.WriteRequest%2A&gt; method is invoked.</source>
+          <target state="translated">De eigenschap UsesWriteRequest bepaalt of de &lt;xref:System.Web.Services.Protocols.MimeParameterWriter.WriteRequest%2A&gt;methode wordt aangeroepen.&lt;/xref:System.Web.Services.Protocols.MimeParameterWriter.WriteRequest%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Services.Protocols.MimeParameterWriter&gt; class's implementation of UsesWriteRequest returns a value of <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">De &lt;xref:System.Web.Services.Protocols.MimeParameterWriter&gt;implementatie van de klasse van UsesWriteRequest retourneert een waarde van <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.Services.Protocols.MimeParameterWriter&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The only derived class that overrides UsesWriteRequest is &lt;xref:System.Web.Services.Protocols.HtmlFormParameterWriter&gt;, whose implementation returns a value of <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Is de enige afgeleide klasse die UsesWriteRequest &lt;xref:System.Web.Services.Protocols.HtmlFormParameterWriter&gt;, waarvan implementatie retourneert een waarde van <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.Services.Protocols.HtmlFormParameterWriter&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the Web method parameter values are serialized to the out-going HTTP request body; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de parameterwaarden voor Web-methode worden geserialiseerd naar de uitgaande gaan HTTP aanvraagtekst; anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, serializes Web method parameter values into a stream representing the outgoing HTTP request body.</source>
+          <target state="translated">Wanneer in een afgeleide klasse genegeerd, serialiseert parameterwaarden voor Web-methode in een stroom die de uitgaande HTTP-aanvraagtekst vertegenwoordigt.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the classes derived from &lt;xref:System.Web.Services.Protocols.MimeParameterWriter&gt;, only &lt;xref:System.Web.Services.Protocols.HtmlFormParameterWriter&gt; implements the WriteRequest method.</source>
+          <target state="translated">Van de klassen die zijn afgeleid van &lt;xref:System.Web.Services.Protocols.MimeParameterWriter&gt;, alleen &lt;xref:System.Web.Services.Protocols.HtmlFormParameterWriter&gt;de methode WriteRequest implementeert.&lt;/xref:System.Web.Services.Protocols.HtmlFormParameterWriter&gt; &lt;/xref:System.Web.Services.Protocols.MimeParameterWriter&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An input stream for the outgoing HTTP request's body.</source>
+          <target state="translated">Een invoerstroom voor de hoofdtekst van de uitgaande HTTP-aanvraag.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The Web method parameter values.</source>
+          <target state="translated">De Web-methode parameterwaarden.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

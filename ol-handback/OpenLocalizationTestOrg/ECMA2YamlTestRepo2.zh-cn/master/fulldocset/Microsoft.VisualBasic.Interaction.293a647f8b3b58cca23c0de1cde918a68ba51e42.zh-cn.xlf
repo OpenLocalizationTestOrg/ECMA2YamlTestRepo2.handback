@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">53cdbcff879447b7df466e6fdec2302020f9c391</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.VisualBasic.Interaction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">05f9f0ab6e16a8263bcd26172e2cc54627668fd0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15d5936509635708e53a79258d3df560b09b0391</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_Interaction" name="Interaction" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> module contains procedures used to interact with objects, applications, and systems.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Interaction" name="Interaction" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>模块包含用于与对象、 应用程序和系统进行交互的过程。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This module supports the Visual Basic language keywords and run-time library members that run other programs, call a method or property, sound a beep from the computer, provide a command-line string, manipulate COM objects, and control dialog boxes.</source>
+          <target state="translated">此模块支持的 Visual Basic 语言关键字和运行其他程序，调用方法或属性，从计算机提示音、 提供命令行字符串、 操作 COM 对象，并控制对话框的运行时库成员。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Activates an application that is already running.</source>
+          <target state="translated">激活的应用程序已在运行。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>You use <ph id="ph1">`AppActivate`</ph> to bring an application's active window into focus.</source>
+          <target state="translated">你使用<ph id="ph1">`AppActivate`</ph>将应用程序的活动窗口引入焦点。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You might not have a handle or a reference to the active window, or even know which window is active at a given moment.</source>
+          <target state="translated">不可能具有一个句柄或活动窗口时，对的引用，或甚至知道哪个窗口在给定时刻处于活动状态。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In such a case, you cannot use the &lt;xref:System.Windows.Forms.Control.Focus%2A&gt; method.</source>
+          <target state="translated">在这种情况下，不能使用&lt;xref:System.Windows.Forms.Control.Focus%2A&gt;方法。&lt;/xref:System.Windows.Forms.Control.Focus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`AppActivate`</ph> function changes the focus to the named application or window but does not affect whether it is maximized or minimized.</source>
+          <target state="translated"><ph id="ph1">`AppActivate`</ph>函数将焦点更改到命名的应用程序或窗口，但不会影响是否它被最大化或最小化。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Focus moves away from the activated application window when the user takes some action to change the focus or close the window.</source>
+          <target state="translated">当用户执行某些操作，以将焦点更改或关闭窗口时，焦点移动的激活的应用程序窗口外。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can use the <ph id="ph1">`Shell`</ph> function to start an application and set the window style.</source>
+          <target state="translated">你可以使用<ph id="ph1">`Shell`</ph>函数来启动应用程序和设置窗口样式。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you use the <ph id="ph1">`Title`</ph> parameter, <ph id="ph2">`AppActivate`</ph> uses a case-insensitive comparison but otherwise requires an exact match with the contents of the title bar.</source>
+          <target state="translated">如果你使用<ph id="ph1">`Title`</ph>参数，<ph id="ph2">`AppActivate`</ph>使用不区分大小写的比较，但要求的标题栏的内容完全匹配。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>It first looks through the top-level windows and then through the child windows.</source>
+          <target state="translated">它首先查找顶级窗口，然后通过子窗口。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If it cannot find a match, it throws an &lt;xref:System.ArgumentException&gt;.</source>
+          <target state="translated">如果它找不到匹配项，则会引发&lt;xref:System.ArgumentException&gt;.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You can use <ph id="ph1">`AppActivate`</ph> only with processes that own windows.</source>
+          <target state="translated">你可以使用<ph id="ph1">`AppActivate`</ph>仅与拥有 windows 的过程。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Most console applications do not own windows, which means that they do not appear in the list of processes that <ph id="ph1">`AppActivate`</ph> searches.</source>
+          <target state="translated">大多数的控制台应用程序都不具有的窗口，这意味着，它们不会出现在列表中处理<ph id="ph1">`AppActivate`</ph>搜索。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When running from a console application, the system creates a separate process to run the application and returns the output to the console process.</source>
+          <target state="translated">从一个控制台应用程序运行时，系统将创建一个单独的进程运行该应用程序，并将输出返回到控制台进程。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Consequently, when you request the current process ID, you get the process ID of this separate process, rather than the console application's process ID.</source>
+          <target state="translated">因此，当你请求的当前进程 ID，你获得此单独的进程的进程 ID，而不是控制台应用程序的进程 id。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>At run time, the <ph id="ph1">`AppActivate`</ph> function activates any running application with a title that matches <ph id="ph2">`Title`</ph> or with a process ID that matches <ph id="ph3">`ProcessId`</ph>.</source>
+          <target state="translated">在运行时，<ph id="ph1">`AppActivate`</ph>函数激活任何运行的应用程序具有匹配标题<ph id="ph2">`Title`</ph>或进程 id 相匹配<ph id="ph3">`ProcessId`</ph>。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If there is no exact match, it activates any application whose title string ends with <ph id="ph1">`Title`</ph>.</source>
+          <target state="translated">如果没有任何确切匹配项，则会激活任何应用程序，其标题字符串结尾<ph id="ph1">`Title`</ph>。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>If there is more than one application named <ph id="ph1">`Title`</ph>, the <ph id="ph2">`AppActivate`</ph> function arbitrarily chooses one to activate.</source>
+          <target state="translated">如果没有名为的多个应用程序<ph id="ph1">`Title`</ph>、<ph id="ph2">`AppActivate`</ph>函数随机选择一个用于激活。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`AppActivate`</ph> function requires <ph id="ph3">`UIPermission`</ph> at the &lt;xref:System.Security.Permissions.UIPermissionWindow&gt; level, which may affect its execution in partial-trust situations.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt;<ph id="ph2">`AppActivate`</ph>函数需要<ph id="ph3">`UIPermission`</ph>在&lt;xref:System.Security.Permissions.UIPermissionWindow&gt;级别，这可能会影响在部分信任情况下其执行。&lt;/xref:System.Security.Permissions.UIPermissionWindow&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Security.Permissions.UIPermission&gt; .</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Security.Permissions.UIPermission&gt;。&lt;/xref:System.Security.Permissions.UIPermission&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Integer" name="Integer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the Win32 process ID number assigned to this process.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Integer" name="Integer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定分配给该进程的 Win32 进程 ID 号。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>You can use the ID returned by the &lt;xref:Microsoft.VisualBasic.Interaction.Shell*&gt;, provided it is not zero.</source>
+          <target state="translated">你可以使用返回的 ID &lt;xref:Microsoft.VisualBasic.Interaction.Shell*&gt;，则它不为零。&lt;/xref:Microsoft.VisualBasic.Interaction.Shell*&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Activates an application that is already running.</source>
+          <target state="translated">激活的应用程序已在运行。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>You use <ph id="ph1">`AppActivate`</ph> to bring an application's active window into focus.</source>
+          <target state="translated">你使用<ph id="ph1">`AppActivate`</ph>将应用程序的活动窗口引入焦点。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>You might not have a handle or a reference to the active window, or even know which window is active at a given moment.</source>
+          <target state="translated">不可能具有一个句柄或活动窗口时，对的引用，或甚至知道哪个窗口在给定时刻处于活动状态。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In such a case, you cannot use the &lt;xref:System.Windows.Forms.Control.Focus%2A&gt; method.</source>
+          <target state="translated">在这种情况下，不能使用&lt;xref:System.Windows.Forms.Control.Focus%2A&gt;方法。&lt;/xref:System.Windows.Forms.Control.Focus%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`AppActivate`</ph> function changes the focus to the named application or window but does not affect whether it is maximized or minimized.</source>
+          <target state="translated"><ph id="ph1">`AppActivate`</ph>函数将焦点更改到命名的应用程序或窗口，但不会影响是否它被最大化或最小化。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Focus moves away from the activated application window when the user takes some action to change the focus or close the window.</source>
+          <target state="translated">当用户执行某些操作，以将焦点更改或关闭窗口时，焦点移动的激活的应用程序窗口外。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>You can use the <ph id="ph1">`Shell`</ph> function to start an application and set the window style.</source>
+          <target state="translated">你可以使用<ph id="ph1">`Shell`</ph>函数来启动应用程序和设置窗口样式。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>If you use the <ph id="ph1">`Title`</ph> parameter, <ph id="ph2">`AppActivate`</ph> uses a case-insensitive comparison but otherwise requires an exact match with the contents of the title bar.</source>
+          <target state="translated">如果你使用<ph id="ph1">`Title`</ph>参数，<ph id="ph2">`AppActivate`</ph>使用不区分大小写的比较，但要求的标题栏的内容完全匹配。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>It first looks through the top-level windows and then through the child windows.</source>
+          <target state="translated">它首先查找顶级窗口，然后通过子窗口。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>If it cannot find a match, it throws an &lt;xref:System.ArgumentException&gt;.</source>
+          <target state="translated">如果它找不到匹配项，则会引发&lt;xref:System.ArgumentException&gt;.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>You can use <ph id="ph1">`AppActivate`</ph> only with processes that own windows.</source>
+          <target state="translated">你可以使用<ph id="ph1">`AppActivate`</ph>仅与拥有 windows 的过程。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Most console applications do not own windows, which means that they do not appear in the list of processes that <ph id="ph1">`AppActivate`</ph> searches.</source>
+          <target state="translated">大多数的控制台应用程序都不具有的窗口，这意味着，它们不会出现在列表中处理<ph id="ph1">`AppActivate`</ph>搜索。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When running from a console application, the system creates a separate process to run the application and returns the output to the console process.</source>
+          <target state="translated">从一个控制台应用程序运行时，系统将创建一个单独的进程运行该应用程序，并将输出返回到控制台进程。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Consequently, when you request the current process ID, you get the process ID of this separate process, rather than the console application's process ID.</source>
+          <target state="translated">因此，当你请求的当前进程 ID，你获得此单独的进程的进程 ID，而不是控制台应用程序的进程 id。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>At run time, the <ph id="ph1">`AppActivate`</ph> function activates any running application with a title that matches <ph id="ph2">`Title`</ph> or with a process ID that matches <ph id="ph3">`ProcessId`</ph>.</source>
+          <target state="translated">在运行时，<ph id="ph1">`AppActivate`</ph>函数激活任何运行的应用程序具有匹配标题<ph id="ph2">`Title`</ph>或进程 id 相匹配<ph id="ph3">`ProcessId`</ph>。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If there is no exact match, it activates any application whose title string ends with <ph id="ph1">`Title`</ph>.</source>
+          <target state="translated">如果没有任何确切匹配项，则会激活任何应用程序，其标题字符串结尾<ph id="ph1">`Title`</ph>。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If there is more than one application named <ph id="ph1">`Title`</ph>, the <ph id="ph2">`AppActivate`</ph> function arbitrarily chooses one to activate.</source>
+          <target state="translated">如果没有名为的多个应用程序<ph id="ph1">`Title`</ph>、<ph id="ph2">`AppActivate`</ph>函数随机选择一个用于激活。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`AppActivate`</ph> function requires <ph id="ph3">`UIPermission`</ph> at the &lt;xref:System.Security.Permissions.UIPermissionWindow&gt; level, which may affect its execution in partial-trust situations.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt;<ph id="ph2">`AppActivate`</ph>函数需要<ph id="ph3">`UIPermission`</ph>在&lt;xref:System.Security.Permissions.UIPermissionWindow&gt;级别，这可能会影响在部分信任情况下其执行。&lt;/xref:System.Security.Permissions.UIPermissionWindow&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Security.Permissions.UIPermission&gt; .</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Security.Permissions.UIPermission&gt;。&lt;/xref:System.Security.Permissions.UIPermission&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression specifying the title in the title bar of the application you want to activate.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在你要激活的应用程序的标题栏中指定标题的表达式。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>You can use the title assigned to the application when it was launched.</source>
+          <target state="translated">你可以使用其启动时分配给应用程序的标题。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Sounds a tone through the computer's speaker.</source>
+          <target state="translated">声音通过计算机的扬声器发出音调。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The pitch and duration of the beep depend on your hardware and system software and therefore vary among computers.</source>
+          <target state="translated">音调和提示音的持续时间取决于你的硬件和系统软件，因此不同计算机之间。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`Beep`</ph> function requires <ph id="ph3">`UIPermission`</ph> at the &lt;xref:System.Security.Permissions.UIPermissionWindow&gt; level, which may affect its execution in partial-trust situations.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt;<ph id="ph2">`Beep`</ph>函数需要<ph id="ph3">`UIPermission`</ph>在&lt;xref:System.Security.Permissions.UIPermissionWindow&gt;级别，这可能会影响在部分信任情况下其执行。&lt;/xref:System.Security.Permissions.UIPermissionWindow&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Security.Permissions.UIPermission&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Security.Permissions.UIPermission&gt;。&lt;/xref:System.Security.Permissions.UIPermission&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Executes a method on an object, or sets or returns a property on an object.</source>
+          <target state="translated">在对象上执行的方法或设置或对象上返回一个属性。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`CallByName`</ph> function is used at runtime to get a property, set a property, or invoke a method.</source>
+          <target state="translated"><ph id="ph1">`CallByName`</ph>函数用于在运行时获取的属性、 设置属性，或调用方法。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A pointer to the object exposing the property or method.</source>
+          <target state="translated">指向公开的属性或方法的对象的指针。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A string expression containing the name of the property or method on the object.</source>
+          <target state="translated">包含的属性或方法的对象的名称的字符串表达式。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>An enumeration member of type <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.CallType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the type of procedure being called.</source>
+          <target state="translated">类型的枚举成员<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.CallType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示的过程调用的类型。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The value of <bpt id="p1">&lt;xref uid="langword_csharp_CallType" name="CallType" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> can be <bpt id="p2">&lt;xref uid="langword_csharp_Method" name="Method" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_Get" name="Get" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref uid="langword_csharp_Set" name="Set" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The value of <bpt id="p1">&lt;xref uid="langword_csharp_CallType" name="CallType" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> can be <bpt id="p2">&lt;xref uid="langword_csharp_Method" name="Method" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_Get" name="Get" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref uid="langword_csharp_Set" name="Set" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_ParamArray" name="ParamArray" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_ParamArray" name="ParamArray" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A parameter array containing the arguments to be passed to the property or method being called.</source>
+          <target state="translated">包含要传递到的属性或方法调用的自变量的参数数组。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Executes a method on an object, or sets or returns a property on an object.</source>
+          <target state="translated">在对象上执行的方法或设置或对象上返回一个属性。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Invalid <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">UseCallType</ph><ept id="p1">&lt;/code&gt;</ept> value; must be <bpt id="p2">&lt;xref uid="langword_csharp_Method" name="Method" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_Get" name="Get" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref uid="langword_csharp_Set" name="Set" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Invalid <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">UseCallType</ph><ept id="p1">&lt;/code&gt;</ept> value; must be <bpt id="p2">&lt;xref uid="langword_csharp_Method" name="Method" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_Get" name="Get" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, or <bpt id="p4">&lt;xref uid="langword_csharp_Set" name="Set" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Selects and returns a value from a list of arguments.</source>
+          <target state="translated">选择并从自变量列表中返回一个值。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Choose`</ph> function returns a member of the list passed in <ph id="ph2">`Choice()`</ph>, based on the value of <ph id="ph3">`Index`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Choose`</ph>函数将返回列表中传递的成员<ph id="ph2">`Choice()`</ph>、 基于值的<ph id="ph3">`Index`</ph>。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The first member of the list is selected when <ph id="ph1">`Index`</ph> is 1.</source>
+          <target state="translated">选择列表的第一个成员时<ph id="ph1">`Index`</ph>为 1。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The last member of the list is selected when <ph id="ph1">`Index`</ph> is <ph id="ph2">`UBound`</ph>(<ph id="ph3">`Choice()`</ph>).</source>
+          <target state="translated">选择列表的最后一个成员时<ph id="ph1">`Index`</ph>是<ph id="ph2">`UBound`</ph>(<ph id="ph3">`Choice()`</ph>)。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Index`</ph> is outside these limits, <ph id="ph2">`Choose`</ph> returns <ph id="ph3">`Nothing`</ph>.</source>
+          <target state="translated">如果<ph id="ph1">`Index`</ph>超出这些限制，<ph id="ph2">`Choose`</ph>返回<ph id="ph3">`Nothing`</ph>。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Index`</ph> is not a whole number, it is rounded to the nearest whole number before being evaluated.</source>
+          <target state="translated">如果<ph id="ph1">`Index`</ph>不是整数，它正在评估之前四舍五入为最接近的整数。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>You can use <ph id="ph1">`Choose`</ph> to look up a value in a list of possibilities.</source>
+          <target state="translated">你可以使用<ph id="ph1">`Choose`</ph>以查找可能的匹配项的列表中的值。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The expressions in the argument list can include function calls.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 自变量列表中的表达式可以包括函数调用。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>As part of preparing the argument list for the call to <ph id="ph1">`Choose`</ph>, the Visual Basic compiler calls every function in every expression.</source>
+          <target state="translated">作为准备调用的自变量列表的一部分<ph id="ph1">`Choose`</ph>，Visual Basic 编译器在每个表达式中调用每个函数。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>This means that you cannot rely on a particular function not being called if a different expression is selected by <ph id="ph1">`Index`</ph>.</source>
+          <target state="translated">这意味着您不能依赖于特定函数，如果通过选择不同的表达式不调用<ph id="ph1">`Index`</ph>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Double" name="Double" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Numeric expression that results in a value between 1 and the number of elements passed in the <ph id="ph1">`Choice`</ph> argument.</source>
+          <target state="translated">传入的结果值介于 1 和的元素数之间的数值表达式<ph id="ph1">`Choice`</ph>自变量。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter array.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>参数数组。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>You can supply either a single variable or an expression that evaluates to the <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> data type, to a list of <bpt id="p2">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> variables or expressions separated by commas, or to a single-dimensional array of <bpt id="p3">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> elements.</source>
+          <target state="translated">你可以提供单个变量或表达式计算结果为<bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>数据类型，列表的<bpt id="p2">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>变量或表达式分隔用逗号，或指向的一维数组的<bpt id="p3">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>元素。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Selects and returns a value from a list of arguments.</source>
+          <target state="translated">选择并从自变量列表中返回一个值。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Returns the argument portion of the command line used to start Visual Basic or an executable program developed with Visual Basic.</source>
+          <target state="translated">返回用来启动 Visual Basic 或可执行程序的命令行的参数部分使用 Visual Basic 开发。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> feature provides greater productivity and performance than the <bpt id="p2">&lt;xref uid="langword_csharp_Command " name="Command " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>function.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>功能提供更高的工作效率和性能比<bpt id="p2">&lt;xref uid="langword_csharp_Command " name="Command " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>函数。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:Microsoft.VisualBasic.ApplicationServices.ConsoleApplicationBase.CommandLineArgs*&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:Microsoft.VisualBasic.ApplicationServices.ConsoleApplicationBase.CommandLineArgs*&gt;。&lt;/xref:Microsoft.VisualBasic.ApplicationServices.ConsoleApplicationBase.CommandLineArgs*&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>After the arguments are returned, you can search for common delimiters, such as spaces, backward or forward slashes, hyphens, or quotation marks, to split or search the string for individual parameters.</source>
+          <target state="translated">返回自变量后，你可以搜索常用分隔符，例如空格、 向前或向后斜杠、 连字符或引号引起来，拆分或搜索单个参数的字符串。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>For applications developed with Visual Basic and compiled to an .exe file, the <ph id="ph1">`Command`</ph> function returns any arguments that appear after the name of the application on the command line, in this form: <ph id="ph2">`MyApp(cmdlineargs)`</ph>.</source>
+          <target state="translated">为应用程序使用 Visual Basic 开发和编译为.exe 文件，<ph id="ph1">`Command`</ph>函数返回出现在命令行，在此窗体应用程序的名称之后的任何自变量︰ <ph id="ph2">`MyApp(cmdlineargs)`</ph>。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Returns the argument portion of the command line used to start Visual Basic or an executable program developed with Visual Basic.</source>
+          <target state="translated">返回用来启动 Visual Basic 或可执行程序的命令行的参数部分使用 Visual Basic 开发。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> feature provides greater productivity and performance than the <bpt id="p2">&lt;xref uid="langword_csharp_Command " name="Command " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>function.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>功能提供更高的工作效率和性能比<bpt id="p2">&lt;xref uid="langword_csharp_Command " name="Command " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>函数。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:Microsoft.VisualBasic.ApplicationServices.ConsoleApplicationBase.CommandLineArgs*&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:Microsoft.VisualBasic.ApplicationServices.ConsoleApplicationBase.CommandLineArgs*&gt;。&lt;/xref:Microsoft.VisualBasic.ApplicationServices.ConsoleApplicationBase.CommandLineArgs*&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Creates and returns a reference to a COM object.</source>
+          <target state="translated">创建并返回对 COM 对象的引用。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_CreateObject" name="CreateObject" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot be used to create instances of classes in Visual Basic unless those classes are explicitly exposed as COM components.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_CreateObject" name="CreateObject" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>不能用于在 Visual Basic 中创建的类的实例，除非这些类显式公开为 COM 组件。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The program ID of the object to create.</source>
+          <target state="translated">要创建对象的程序 ID。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The name of the network server where the object will be created.</source>
+          <target state="translated">将在其中创建对象网络服务器的名称。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`ServerName`</ph> is an empty string (""), the local computer is used.</source>
+          <target state="translated">如果<ph id="ph1">`ServerName`</ph>为空字符串 ("")，则使用本地计算机。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Creates and returns a reference to a COM object.</source>
+          <target state="translated">创建并返回对 COM 对象的引用。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_CreateObject" name="CreateObject" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot be used to create instances of classes in Visual Basic unless those classes are explicitly exposed as COM components.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_CreateObject" name="CreateObject" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>不能用于在 Visual Basic 中创建的类的实例，除非这些类显式公开为 COM 组件。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Server is unavailable</source>
+          <target state="translated">服务器不可用</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>No object of the specified type exists</source>
+          <target state="translated">不存在指定类型的对象</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Deletes a section or key setting from an application's entry in the Windows registry.</source>
+          <target state="translated">从 Windows 注册表中的应用程序的项中删除节或键设置。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> feature gives you greater productivity and performance in registry operations than the <bpt id="p2">&lt;xref uid="langword_csharp_DeleteSetting " name="DeleteSetting " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>function.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在比注册表操作方面可为你提供更高的工作效率和性能<bpt id="p2">&lt;xref uid="langword_csharp_DeleteSetting " name="DeleteSetting " href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>函数。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt; .</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;。&lt;/xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the application or project to which the section or key setting applies.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含应用程序或节或键设置应用到的项目的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the section from which the key setting is being deleted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含要从中删除的项设置的节的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>If only <ph id="ph1">`AppName`</ph> and <ph id="ph2">`Section`</ph> are provided, the specified section is deleted along with all related key settings.</source>
+          <target state="translated">如果仅<ph id="ph1">`AppName`</ph>和<ph id="ph2">`Section`</ph>提供所有相关的密钥设置以及删除指定的节。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the key setting being deleted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含要删除的项设置的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>User is not logged in.</source>
+          <target state="translated">用户未登录。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Returns the string associated with an operating-system environment variable.</source>
+          <target state="translated">返回与操作系统环境变量关联的字符串。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Expression`</ph> contains a string, the &lt;xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt; function returns the text assigned to the specified environment string—that is, the text following the equal sign (=) in the environment-string table for that environment variable.</source>
+          <target state="translated">如果<ph id="ph1">`Expression`</ph>包含一个字符串，&lt;xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt;函数返回分配给指定的环境字符串的文本-即，后面等号 （=） 该环境变量的环境字符串表中的文本。&lt;/xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>If the string in <ph id="ph1">`Expression`</ph> cannot be found in the environment-string table, a zero-length string ("") is returned.</source>
+          <target state="translated">如果中的字符串<ph id="ph1">`Expression`</ph>找不到在环境字符串表中，一个零长度字符串 ("") 返回。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Expression`</ph> contains an integer, the string occupying that numeric position in the environment-string table is returned.</source>
+          <target state="translated">如果<ph id="ph1">`Expression`</ph>包含一个整数，占用环境字符串表中的数字位置返回的字符串。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>In this case, &lt;xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt; returns all of the text, including the name of the environment variable.</source>
+          <target state="translated">在这种情况下，&lt;xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt;返回所有文本，包括环境变量的名称。&lt;/xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If there is no environment string in the specified position, &lt;xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt; returns a zero-length string.</source>
+          <target state="translated">如果在指定的位置中没有任何环境字符串&lt;xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt;返回一个零长度字符串。&lt;/xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The &lt;xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt; function requires environment permission, which might affect its execution in partial-trust situations.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt;&lt;xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt;函数需要环境权限，这可能会影响在部分信任情况下其执行。&lt;/xref:Microsoft.VisualBasic.Interaction.Environ%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Security.Permissions.SecurityPermission&gt; and <bpt id="p1">[</bpt>Code Access Permissions<ept id="p1">](http://msdn.microsoft.com/en-us/e5ae402f-6dda-4732-bbe8-77296630f675)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Security.Permissions.SecurityPermission&gt;和<bpt id="p1">[</bpt>代码访问权限<ept id="p1">](http://msdn.microsoft.com/en-us/e5ae402f-6dda-4732-bbe8-77296630f675)</ept>。&lt;/xref:System.Security.Permissions.SecurityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Expression that evaluates either a string containing the name of an environment variable, or an integer corresponding to the numeric order of an environment string in the environment-string table.</source>
+          <target state="translated">计算为包含环境变量或对应于环境字符串表中的一个环境字符串的数字顺序的整数值的名称的字符串的表达式。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Returns the string associated with an operating-system environment variable.</source>
+          <target state="translated">返回与操作系统环境变量关联的字符串。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Expression&lt;/code&gt;</ph> is missing.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Expression&lt;/code&gt;</ph>找不到。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Returns the string associated with an operating-system environment variable.</source>
+          <target state="translated">返回与操作系统环境变量关联的字符串。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Expression`</ph> contains a string, the Environ function returns the text assigned to the specified environment string—that is, the text following the equal sign (=) in the environment-string table for that environment variable.</source>
+          <target state="translated">如果<ph id="ph1">`Expression`</ph>包含一个字符串，那么函数将返回分配给指定的环境字符串的文本 Environ-即，后面等号 （=） 该环境变量的环境字符串表中的文本。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>If the string in <ph id="ph1">`Expression`</ph> cannot be found in the environment-string table, a zero-length string ("") is returned.</source>
+          <target state="translated">如果中的字符串<ph id="ph1">`Expression`</ph>找不到在环境字符串表中，一个零长度字符串 ("") 返回。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Expression`</ph> contains an integer, the string occupying that numeric position in the environment-string table is returned.</source>
+          <target state="translated">如果<ph id="ph1">`Expression`</ph>包含一个整数，占用环境字符串表中的数字位置返回的字符串。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>In this case, Environ returns all of the text, including the name of the environment variable.</source>
+          <target state="translated">在这种情况下，那么 Environ 将返回所有文本，包括环境变量的名称。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If there is no environment string in the specified position, Environ returns a zero-length string.</source>
+          <target state="translated">如果在指定位置中没有任何环境字符串，那么 Environ 将返回一个零长度字符串。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  The Environ function requires environment permission, which might affect its execution in partial-trust situations.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!IMPORTANT]</ph>&amp;1;&gt; Environ 函数需要环境权限，这可能会影响在部分信任情况下其执行。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Security.Permissions.SecurityPermission&gt; and <bpt id="p1">[</bpt>Code Access Permissions<ept id="p1">](http://msdn.microsoft.com/en-us/e5ae402f-6dda-4732-bbe8-77296630f675)</ept>.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Security.Permissions.SecurityPermission&gt;和<bpt id="p1">[</bpt>代码访问权限<ept id="p1">](http://msdn.microsoft.com/en-us/e5ae402f-6dda-4732-bbe8-77296630f675)</ept>。&lt;/xref:System.Security.Permissions.SecurityPermission&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Expression that evaluates either a string containing the name of an environment variable, or an integer corresponding to the numeric order of an environment string in the environment-string table.</source>
+          <target state="translated">计算为包含环境变量或对应于环境字符串表中的一个环境字符串的数字顺序的整数值的名称的字符串的表达式。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Returns the string associated with an operating-system environment variable.</source>
+          <target state="translated">返回与操作系统环境变量关联的字符串。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Expression&lt;/code&gt;</ph> is missing.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Expression&lt;/code&gt;</ph>找不到。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Returns a list of key settings and their respective values (originally created with <bpt id="p1">&lt;xref uid="langword_csharp_SaveSetting" name="SaveSetting" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) from an application's entry in the Windows registry.</source>
+          <target state="translated">返回的密钥设置及其各自的值列表 (最初创建时<bpt id="p1">&lt;xref uid="langword_csharp_SaveSetting" name="SaveSetting" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>) 从 Windows 注册表中的应用程序的条目。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Using the <bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> feature gives you greater productivity and performance in registry operations than <bpt id="p2">&lt;xref uid="langword_csharp_GetAllSettings" name="GetAllSettings" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">使用<bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在比注册表操作方面可为你提供更高的工作效率和性能<bpt id="p2">&lt;xref uid="langword_csharp_GetAllSettings" name="GetAllSettings" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;。&lt;/xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the application or project whose key settings are requested.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含应用程序或所请求的密钥设置的项目的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the section whose key settings are requested.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含要请求其注册表项设置的节的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_GetAllSettings" name="GetAllSettings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> returns an object that contains a two-dimensional array of strings.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_GetAllSettings" name="GetAllSettings" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>返回一个包含字符串的二维数组对象。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The strings contain all the key settings in the specified section, plus their corresponding values.</source>
+          <target state="translated">这些字符串包含指定的节，加上其对应的值中的所有密钥设置。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Returns a list of key settings and their respective values (originally created with <bpt id="p1">&lt;xref uid="langword_csharp_SaveSetting" name="SaveSetting" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) from an application's entry in the Windows registry.</source>
+          <target state="translated">返回的密钥设置及其各自的值列表 (最初创建时<bpt id="p1">&lt;xref uid="langword_csharp_SaveSetting" name="SaveSetting" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>) 从 Windows 注册表中的应用程序的条目。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Using the <bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> feature gives you greater productivity and performance in registry operations than <bpt id="p2">&lt;xref uid="langword_csharp_GetAllSettings" name="GetAllSettings" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">使用<bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在比注册表操作方面可为你提供更高的工作效率和性能<bpt id="p2">&lt;xref uid="langword_csharp_GetAllSettings" name="GetAllSettings" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;。&lt;/xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>User is not logged in.</source>
+          <target state="translated">用户未登录。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Returns a reference to an object provided by a COM component.</source>
+          <target state="translated">返回对 COM 组件所提供的对象的引用。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The full path and name of the file containing the object to retrieve.</source>
+          <target state="translated">完整路径和包含要检索的对象的文件的名称。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`PathName`</ph> is omitted, <ph id="ph2">`Class`</ph> is required.</source>
+          <target state="translated">如果<ph id="ph1">`PathName`</ph>省略，<ph id="ph2">`Class`</ph>是必需的。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Required if <ph id="ph1">`PathName`</ph> is not supplied.</source>
+          <target state="translated">如果存在<ph id="ph1">`PathName`</ph>未提供。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>A string representing the class of the object.</source>
+          <target state="translated">表示对象的类的字符串。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Class`</ph> argument has the following syntax and parts:       <ph id="ph2">`appname`</ph> <ph id="ph3">`.`</ph> <ph id="ph4">`objecttype`</ph>       [1|1] Parameter       [1|2] Description       [2|1] <ph id="ph5">`appname`</ph>       [2|2] Required.</source>
+          <target state="translated"><ph id="ph1">`Class`</ph>自变量具有以下语法和部件︰ <ph id="ph2">`appname`</ph> <ph id="ph3">`.`</ph> <ph id="ph4">`objecttype`</ph> [1 |&amp;1;] 参数 [1 |&amp;2;] 说明 [2 |&amp;1;] <ph id="ph5">`appname`</ph> [2 |&amp;2;] 所需。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The name of the application providing the object.</source>
+          <target state="translated">提供对象的应用程序名称。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>[3|1] <ph id="ph1">`objecttype`</ph>       [3|2] Required.</source>
+          <target state="translated">[3 |&amp;1;]<ph id="ph1">`objecttype`</ph> [3 |&amp;2;] 所需。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The type or class of object to create.</source>
+          <target state="translated">若要创建的类型或类的对象。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Returns a reference to an object provided by a COM component.</source>
+          <target state="translated">返回对 COM 组件所提供的对象的引用。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>No object of the specified class type exists.</source>
+          <target state="translated">不存在的对象指定的类类型。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>No object with the specified path and file name exists.</source>
+          <target state="translated">用指定的路径和文件名没有任何对象存在。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Returns a key setting value from an application's entry in the Windows registry.</source>
+          <target state="translated">从 Windows 注册表中的应用程序的条目返回一个项设置值。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> feature gives you greater productivity and performance in registry operations than <bpt id="p2">&lt;xref uid="langword_csharp_GetAllSettings" name="GetAllSettings" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在比注册表操作方面可为你提供更高的工作效率和性能<bpt id="p2">&lt;xref uid="langword_csharp_GetAllSettings" name="GetAllSettings" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;。&lt;/xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the application or project whose key setting is requested.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含应用程序或其键设置为请求的项目的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the section in which the key setting is found.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含在其中找到的项设置的节的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the key setting to return.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含要返回的密钥设置的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>Expression containing the value to return if no value is set in the <ph id="ph1">`Key`</ph> setting.</source>
+          <target state="translated">包含要返回如果设置任何值的值表达式<ph id="ph1">`Key`</ph>设置。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>If omitted, <ph id="ph1">`Default`</ph> is assumed to be a zero-length string ("").</source>
+          <target state="translated">如果省略，<ph id="ph1">`Default`</ph>被假定为零长度字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Returns a key setting value from an application's entry in the Windows registry.</source>
+          <target state="translated">从 Windows 注册表中的应用程序的条目返回一个项设置值。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> feature gives you greater productivity and performance in registry operations than <bpt id="p2">&lt;xref uid="langword_csharp_GetAllSettings" name="GetAllSettings" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在比注册表操作方面可为你提供更高的工作效率和性能<bpt id="p2">&lt;xref uid="langword_csharp_GetAllSettings" name="GetAllSettings" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>One or more arguments are not <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expressions, or user is not logged in.</source>
+          <target state="translated">一个或多个自变量不是<bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表达式或用户未登录。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Returns one of two objects, depending on the evaluation of an expression.</source>
+          <target state="translated">返回两个对象，具体取决于表达式求值之一。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`IIf`</ph> function provides a counterpart for the ternary <bpt id="p1">[</bpt>Conditional Operator: ? :<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> in Visual C++.</source>
+          <target state="translated"><ph id="ph1">`IIf`</ph>函数提供了三元存在对应<bpt id="p1">[</bpt>条件运算符:？:<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> Visual c + +。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The expression you want to evaluate.</source>
+          <target state="translated">你想要评估表达式。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>Returned if <ph id="ph1">`Expression`</ph> evaluates to <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">时返回<ph id="ph1">`Expression`</ph>计算结果为<bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>Returned if <ph id="ph1">`Expression`</ph> evaluates to <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">时返回<ph id="ph1">`Expression`</ph>计算结果为<bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Returns one of two objects, depending on the evaluation of an expression.</source>
+          <target state="translated">返回两个对象，具体取决于表达式求值之一。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Displays a prompt in a dialog box, waits for the user to input text or click a button, and then returns a string containing the contents of the text box.</source>
+          <target state="translated">在对话框中显示一个提示，等待用户输入文本，或单击一个按钮，然后返回包含文本框的内容的字符串。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>If the user clicks <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept>, a zero-length string is returned.</source>
+          <target state="translated">如果用户单击<bpt id="p1">**</bpt>取消<ept id="p1">**</ept>，则返回一个零长度字符串。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>To specify more than the first argument, you must use the <ph id="ph1">`InputBox`</ph> function in an expression.</source>
+          <target state="translated">若要指定多个第一个参数，必须使用<ph id="ph1">`InputBox`</ph>在表达式中的函数。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>If you omit any positional arguments, you must retain the corresponding comma delimiter.</source>
+          <target state="translated">如果省略任何位置的自变量，你必须保留相应的逗号分隔符。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`InputBox`</ph> function requires <ph id="ph3">`UIPermission`</ph> at the &lt;xref:System.Security.Permissions.UIPermissionWindow&gt; level, which may affect its execution in partial-trust situations.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt;<ph id="ph2">`InputBox`</ph>函数需要<ph id="ph3">`UIPermission`</ph>在&lt;xref:System.Security.Permissions.UIPermissionWindow&gt;级别，这可能会影响在部分信任情况下其执行。&lt;/xref:System.Security.Permissions.UIPermissionWindow&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>For more information, see  and &lt;xref:System.Security.Permissions.UIPermission&gt; .</source>
+          <target state="translated">有关详细信息，请参阅和&lt;xref:System.Security.Permissions.UIPermission&gt;.&lt;/xref:System.Security.Permissions.UIPermission&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Required <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression displayed as the message in the dialog box.</source>
+          <target state="translated">所需<bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表达式显示为对话框中的消息。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The maximum length of <ph id="ph1">`Prompt`</ph> is approximately 1024 characters, depending on the width of the characters used.</source>
+          <target state="translated">最大长度<ph id="ph1">`Prompt`</ph>大约为 1024年个字符，具体取决于使用的字符的宽度。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Prompt`</ph> consists of more than one line, you can separate the lines using a carriage return character (<bpt id="p1">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>13<bpt id="p2">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>), a line feed character (<bpt id="p3">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>10<bpt id="p4">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>), or a carriage return/line feed combination (<bpt id="p5">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>13<bpt id="p6">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept> <ph id="ph2">&amp;amp;</ph> <bpt id="p7">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept>10<bpt id="p8">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>) between each line.</source>
+          <target state="translated">如果<ph id="ph1">`Prompt`</ph>包含的多个行，你可以单独的行使用回车符 (<bpt id="p1">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>13<bpt id="p2">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>)，以换行符 (<bpt id="p3">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>10<bpt id="p4">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>)，或回车/换行组合 (<bpt id="p5">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>13<bpt id="p6">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt> <ept id="p6">&lt;/xref&gt;</ept> <ph id="ph2">&amp;amp;</ph> <bpt id="p7">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt> <ept id="p7">&lt;/xref&gt;</ept>10<bpt id="p8">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>) 之间的每一行。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression displayed in the title bar of the dialog box.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对话框中的标题栏中显示的表达式。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>If you omit <ph id="ph1">`Title`</ph>, the application name is placed in the title bar.</source>
+          <target state="translated">如果省略<ph id="ph1">`Title`</ph>，放在标题栏中的应用程序名称。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression displayed in the text box as the default response if no other input is provided.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>显示在文本框中为默认响应如果提供任何其他输入的表达式。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>If you omit <ph id="ph1">`DefaultResponse`</ph>, the displayed text box is empty.</source>
+          <target state="translated">如果省略<ph id="ph1">`DefaultResponse`</ph>，显示的文本框为空。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Numeric expression that specifies, in twips, the distance of the left edge of the dialog box from the left edge of the screen.</source>
+          <target state="translated">指定以缇为单位，屏幕的对话框中从左边缘的左边缘的距离的数值表达式。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>If you omit <ph id="ph1">`XPos`</ph>, the dialog box is centered horizontally.</source>
+          <target state="translated">如果省略<ph id="ph1">`XPos`</ph>，对话框中的水平居中位置。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Numeric expression that specifies, in twips, the distance of the upper edge of the dialog box from the top of the screen.</source>
+          <target state="translated">指定以缇为单位，从屏幕顶部的对话框中的上边缘的距离的数值表达式。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>If you omit <ph id="ph1">`YPos`</ph>, the dialog box is positioned vertically approximately one-third of the way down the screen.</source>
+          <target state="translated">如果省略<ph id="ph1">`YPos`</ph>，对话框中定位垂直约三分之一的屏幕的方式。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Displays a prompt in a dialog box, waits for the user to input text or click a button, and then returns a string containing the contents of the text box.</source>
+          <target state="translated">在对话框中显示一个提示，等待用户输入文本，或单击一个按钮，然后返回包含文本框的内容的字符串。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Displays a message in a dialog box, waits for the user to click a button, and then returns an integer indicating which button the user clicked.</source>
+          <target state="translated">在对话框中显示一条消息，会等待用户单击按钮，然后返回一个整数，指示哪个用户单击的按钮。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>If you omit any positional arguments, you must retain the corresponding comma delimiter.</source>
+          <target state="translated">如果省略任何位置的自变量，你必须保留相应的逗号分隔符。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>If the dialog box displays a <bpt id="p1">**</bpt>Cancel<ept id="p1">**</ept> button, pressing the ESC key has the same effect as clicking <bpt id="p2">**</bpt>Cancel<ept id="p2">**</ept>       If the dialog box contains a <bpt id="p3">**</bpt>Help<ept id="p3">**</ept> button, context-sensitive Help is provided for the dialog box.</source>
+          <target state="translated">如果对话框显示<bpt id="p1">**</bpt>取消<ept id="p1">**</ept>按钮，则按 ESC 键具有相同的效果与单击<bpt id="p2">**</bpt>取消<ept id="p2">**</ept>如果对话框包含<bpt id="p3">**</bpt>帮助<ept id="p3">**</ept>按钮，在对话框中提供区分上下文的帮助。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>However, no value is returned until one of the other buttons is chosen.</source>
+          <target state="translated">但是，直到选择其他按钮之一，被不返回任何值。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>In Windows Form applications, choosing the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> button executes the &lt;xref:System.Windows.Forms.Control.HelpRequested&gt; event for the form.</source>
+          <target state="translated">在 Windows 窗体应用程序中，选择<bpt id="p1">**</bpt>帮助<ept id="p1">**</ept>按钮执行&lt;xref:System.Windows.Forms.Control.HelpRequested&gt;窗体的事件。&lt;/xref:System.Windows.Forms.Control.HelpRequested&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The <ph id="ph2">`MsgBox`</ph> function requires <ph id="ph3">`UIPermission`</ph> at the &lt;xref:System.Security.Permissions.UIPermissionWindow&gt; level, which may affect its execution in partial-trust situations.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt;<ph id="ph2">`MsgBox`</ph>函数需要<ph id="ph3">`UIPermission`</ph>在&lt;xref:System.Security.Permissions.UIPermissionWindow&gt;级别，这可能会影响在部分信任情况下其执行。&lt;/xref:System.Security.Permissions.UIPermissionWindow&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Security.Permissions.UIPermission&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Security.Permissions.UIPermission&gt;。&lt;/xref:System.Security.Permissions.UIPermission&gt;</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`MsgBoxStyle`</ph> enumeration values are listed in the following table.</source>
+          <target state="translated"><ph id="ph1">`MsgBoxStyle`</ph>下表列出了枚举值。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>||||   |-|-|-|   |Member|Value|Description|   |<ph id="ph1">`OKOnly`</ph>|0|Displays OK button only.|   |<ph id="ph2">`OKCancel`</ph>|1|Displays OK and Cancel buttons.|   |<ph id="ph3">`AbortRetryIgnore`</ph>|2|Displays Abort, Retry, and Ignore buttons.|   |<ph id="ph4">`YesNoCancel`</ph>|3|Displays Yes, No, and Cancel buttons.|   |<ph id="ph5">`YesNo`</ph>|4|Displays Yes and No buttons.|   |<ph id="ph6">`RetryCancel`</ph>|5|Displays Retry and Cancel buttons.|   |<ph id="ph7">`Critical`</ph>|16|Displays Critical Message icon.|   |<ph id="ph8">`Question`</ph>|32|Displays Warning Query icon.|   |<ph id="ph9">`Exclamation`</ph>|48|Displays Warning Message icon.|   |<ph id="ph10">`Information`</ph>|64|Displays Information Message icon.|   |<ph id="ph11">`DefaultButton1`</ph>|0|First button is default.|   |<ph id="ph12">`DefaultButton2`</ph>|256|Second button is default.|   |<ph id="ph13">`DefaultButton3`</ph>|512|Third button is default.|   |<ph id="ph14">`ApplicationModal`</ph>|0|Application is modal.</source>
+          <target state="translated">||||  |-|-|-|  |成员 |值 |说明 |  |<ph id="ph1">`OKOnly`</ph>|0|仅显示确定按钮。 |  |<ph id="ph2">`OKCancel`</ph>|1|显示确定和取消按钮。 |  |<ph id="ph3">`AbortRetryIgnore`</ph>|2|显示中止、 重试，和忽略按钮。 |  |<ph id="ph4">`YesNoCancel`</ph>|3|显示是、 否和取消按钮。 |  |<ph id="ph5">`YesNo`</ph>|4|显示是和无按钮。 |  |<ph id="ph6">`RetryCancel`</ph>|5|显示重试和取消按钮。 |  |<ph id="ph7">`Critical`</ph>|16|显示关键消息图标。 |  |<ph id="ph8">`Question`</ph>|32|显示警告查询图标。 |  |<ph id="ph9">`Exclamation`</ph>|48|显示警告消息图标。 |  |<ph id="ph10">`Information`</ph>|64|显示信息性消息图标。 |  |<ph id="ph11">`DefaultButton1`</ph>|0|第一个按钮是默认值。 |  |<ph id="ph12">`DefaultButton2`</ph>|256|第二个按钮为默认值。 |  |<ph id="ph13">`DefaultButton3`</ph>|512|第三个按钮为默认值。 |  |<ph id="ph14">`ApplicationModal`</ph>|0|应用程序是模式。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The user must respond to the message box before continuing work in the current application.|   |<ph id="ph1">`SystemModal`</ph>|4096|System is modal.</source>
+          <target state="translated">用户必须响应此消息框才能继续在当前应用程序中的工作。 |  |<ph id="ph1">`SystemModal`</ph>|4096|系统为模式。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>All applications are suspended until the user responds to the message box.|   |<ph id="ph1">`MsgBoxSetForeground`</ph>|65536|Specifies the message box window as the foreground window.|   |<ph id="ph2">`MsgBoxRight`</ph>|524288|Text is right-aligned.|   |<ph id="ph3">`MsgBoxRtlReading`</ph>|1048576|Specifies text should appear as right-to-left reading on Hebrew and Arabic systems.|       The first group of values (0–5) describes the number and type of buttons displayed in the dialog box.</source>
+          <target state="translated">所有应用程序挂起，直到用户响应消息框。 |  |<ph id="ph1">`MsgBoxSetForeground`</ph>|&amp;65536; |指定消息框窗口中作为前台窗口。 |  |<ph id="ph2">`MsgBoxRight`</ph>|&amp;52428;8 |文本为右对齐。 |  |<ph id="ph3">`MsgBoxRtlReading`</ph>|&amp;10485;76 |指定文本应显示为右到左读取希伯来语和阿拉伯语系统上。 |      第一组值 (0 –&amp;5;) 描述的数量和类型的对话框中显示的按钮。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The second group (16, 32, 48, 64) describes the icon style.</source>
+          <target state="translated">第二个组 （16、 32、 48、 64） 描述图标样式。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The third group (0, 256, 512) determines which button is the default.</source>
+          <target state="translated">第三个组 （0、 256、 512） 确定哪个按钮为默认值。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The fourth group (0, 4096) determines the modality of the message box, and the fifth group specifies whether or not the message box window is the foreground window, along with the alignment and direction of the text.</source>
+          <target state="translated">第四个组 （0，4096） 确定消息框的模式和第五个组指定消息框窗口为前台窗口时，以及对齐方式和文本的方向。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>When adding numbers to create a final value for the <ph id="ph1">`Buttons`</ph> argument, use only one number from each group.</source>
+          <target state="translated">添加编号，以创建最终值时<ph id="ph1">`Buttons`</ph>自变量，每个组中使用只有一个数。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression displayed as the message in the dialog box.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>显示在对话框中作为消息的表达式。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The maximum length of <ph id="ph1">`Prompt`</ph> is approximately 1024 characters, depending on the width of the characters used.</source>
+          <target state="translated">最大长度<ph id="ph1">`Prompt`</ph>大约为 1024年个字符，具体取决于使用的字符的宽度。</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Prompt`</ph> consists of more than one line, you can separate the lines using a carriage return character (<bpt id="p1">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>13<bpt id="p2">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>), a line feed character (<bpt id="p3">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>10<bpt id="p4">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>), or a carriage return/linefeed character combination (<bpt id="p5">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>13<bpt id="p6">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p6">&lt;/xref&gt;</ept> <ph id="ph2">&amp;amp;</ph> <bpt id="p7">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p7">&lt;/xref&gt;</ept>10<bpt id="p8">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>) between each line.</source>
+          <target state="translated">如果<ph id="ph1">`Prompt`</ph>包含的多个行，你可以单独的行使用回车符 (<bpt id="p1">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>13<bpt id="p2">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>)，以换行符 (<bpt id="p3">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>10<bpt id="p4">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>)，或回车符/换行符组合 (<bpt id="p5">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>13<bpt id="p6">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt> <ept id="p6">&lt;/xref&gt;</ept> <ph id="ph2">&amp;amp;</ph> <bpt id="p7">&lt;xref uid="langword_csharp_Chr(" name="Chr(" href=""&gt;</bpt> <ept id="p7">&lt;/xref&gt;</ept>10<bpt id="p8">&lt;xref uid="langword_csharp_)" name=")" href=""&gt;</bpt><ept id="p8">&lt;/xref&gt;</ept>) 之间的每一行。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>Numeric expression that is the sum of values specifying the number and type of buttons to display, the icon style to use, the identity of the default button, and the modality of the message box.</source>
+          <target state="translated">指定要显示，要使用的默认按钮，标识和消息框的样式等的图标样式的数量和类型的按钮的值之和的数值表达式。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>If you omit <ph id="ph1">`Buttons`</ph>, the default value is zero.</source>
+          <target state="translated">如果省略<ph id="ph1">`Buttons`</ph>，默认值为&amp;0;。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression displayed in the title bar of the dialog box.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对话框中的标题栏中显示的表达式。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>If you omit <ph id="ph1">`Title`</ph>, the application name is placed in the title bar.</source>
+          <target state="translated">如果省略<ph id="ph1">`Title`</ph>，放在标题栏中的应用程序名称。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Constant</source>
+          <target state="translated">常量</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">值</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>1</source>
+          <target state="translated">1</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>3</source>
+          <target state="translated">3</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>4</source>
+          <target state="translated">4</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>5</source>
+          <target state="translated">5</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>6</source>
+          <target state="translated">6</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>7</source>
+          <target state="translated">7</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Prompt&lt;/code&gt;</ph> is not a <bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression, or <ph id="ph2">&lt;code&gt;Title&lt;/code&gt;</ph> is invalid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Prompt&lt;/code&gt;</ph>不是<bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表达式，或<ph id="ph2">&lt;code&gt;Title&lt;/code&gt;</ph>无效。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>Process is not running in User Interactive mode.</source>
+          <target state="translated">进程不在用户交互模式中运行。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>One or more parameters not a member of <bpt id="p1">&lt;xref uid="langword_csharp_MsgBoxResult" name="MsgBoxResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref uid="langword_csharp_MsgBoxStyle" name="MsgBoxStyle" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> enumeration.</source>
+          <target state="translated">一个或多个参数不是成员的<bpt id="p1">&lt;xref uid="langword_csharp_MsgBoxResult" name="MsgBoxResult" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref uid="langword_csharp_MsgBoxStyle" name="MsgBoxStyle" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>枚举。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Returns a string representing the calculated range that contains a number.</source>
+          <target state="translated">返回一个字符串，表示包含大量的计算的范围。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Partition`</ph> function calculates a set of numeric ranges, each containing the number of values specified by <ph id="ph2">`Interval`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Partition`</ph>函数计算的一组数值范围，各包含由指定的值的数目<ph id="ph2">`Interval`</ph>。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>The first range begins at <ph id="ph1">`Start`</ph>, and the last range ends at <ph id="ph2">`Stop`</ph>.</source>
+          <target state="translated">第一个范围开始<ph id="ph1">`Start`</ph>，并在最后一个范围结束<ph id="ph2">`Stop`</ph>。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Partition`</ph> function then identifies which range contains <ph id="ph2">`Number`</ph> and returns a string describing that range.</source>
+          <target state="translated"><ph id="ph1">`Partition`</ph>函数然后确定哪一个范围包含<ph id="ph2">`Number`</ph>并返回一个描述该范围内的字符串。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The range is represented in the string as "<bpt id="p1">*</bpt>lowervalue<ept id="p1">*</ept>:<bpt id="p2">*</bpt>uppervalue<ept id="p2">*</ept>", where the low end of the range (<bpt id="p3">*</bpt>lowervalue<ept id="p3">*</ept>) is separated from the high end (<bpt id="p4">*</bpt>uppervalue<ept id="p4">*</ept>) by a colon (:).</source>
+          <target state="translated">范围表示为字符串中"<bpt id="p1">*</bpt>较<ept id="p1">*</ept>:<bpt id="p2">*</bpt>值<ept id="p2">*</ept>"，其中低范围的末尾 (<bpt id="p3">*</bpt>较<ept id="p3">*</ept>) 与高端分隔 (<bpt id="p4">*</bpt>值<ept id="p4">*</ept>) 以冒号 （:）。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>If necessary, the <ph id="ph1">`Partition`</ph> function inserts leading spaces before <bpt id="p1">*</bpt>lowervalue<ept id="p1">*</ept> and <bpt id="p2">*</bpt>uppervalue<ept id="p2">*</ept> so that they both have the same number of characters as the string representation of the value (<ph id="ph2">`Stop`</ph> + 1).</source>
+          <target state="translated">如有必要，<ph id="ph1">`Partition`</ph>函数将插入前的前导空格<bpt id="p1">*</bpt>较<ept id="p1">*</ept>和<bpt id="p2">*</bpt>值<ept id="p2">*</ept>，以便它们都具有相同数量的字符的值的字符串表示形式 (<ph id="ph2">`Stop`</ph> + 1)。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>This ensures that if you use the output of the <ph id="ph1">`Partition`</ph> function with several values of <ph id="ph2">`Number`</ph>, the resulting text will be handled properly during any subsequent sort operation.</source>
+          <target state="translated">这可确保︰ 如果你使用的输出<ph id="ph1">`Partition`</ph>的多个值具有函数<ph id="ph2">`Number`</ph>，将在任何后续排序操作过程正确处理结果的文本。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>The following table shows some sample strings for ranges calculated using three sets of <ph id="ph1">`Start`</ph>, <ph id="ph2">`Stop`</ph>, and <ph id="ph3">`Interval`</ph>.</source>
+          <target state="translated">下表显示使用三组计算的范围某些示例字符串<ph id="ph1">`Start`</ph>， <ph id="ph2">`Stop`</ph>，和<ph id="ph3">`Interval`</ph>。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>The "First range" and "Last range" columns show the lowest and highest ranges possible given the values of <ph id="ph1">`Start`</ph> and <ph id="ph2">`Stop`</ph>.</source>
+          <target state="translated">"第一个范围"和"最后一个范围"列显示在给定的值时可能的最低和最高范围<ph id="ph1">`Start`</ph>和<ph id="ph2">`Stop`</ph>。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>The "Before first range" and "After last range" columns show the strings returned for values of <ph id="ph1">`Number`</ph> less than <ph id="ph2">`Start`</ph> and greater than <ph id="ph3">`Stop`</ph>, respectively.</source>
+          <target state="translated">"之前第一个范围"和"之后最后一个范围"列显示返回的值的字符串<ph id="ph1">`Number`</ph>小于<ph id="ph2">`Start`</ph>和大于<ph id="ph3">`Stop`</ph>分别。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>||||||||   |-|-|-|-|-|-|-|   |<ph id="ph1">`Start`</ph><ph id="ph2">|</ph><ph id="ph3">`Stop`</ph><ph id="ph4">|</ph><ph id="ph5">`Interval`</ph>|Before first range|First range|Last range|After last range|   |0|99|5|"   : -1"|"  0:  4"|" 95: 99"|"100:   "|   |20|199|10|"   : 19"|" 20: 29"|"190:199"|"200:   "|   |100|1010|20|"    : 99"|" 100: 119"|"1000:1010"|"1011:    "|       In the preceding table, the third line shows the result when <ph id="ph6">`Start`</ph> and <ph id="ph7">`Stop`</ph> define a set of numbers that cannot be evenly divided by <ph id="ph8">`Interval`</ph>.</source>
+          <target state="translated">||||||||  |-|-|-|-|-|-|-|  |<ph id="ph1">`Start`</ph><ph id="ph2">|</ph><ph id="ph3">`Stop`</ph><ph id="ph4">|</ph><ph id="ph5">`Interval`</ph>|第一个范围之前 |第一个范围 |最后一个范围 |最后一个范围之后 |  | 0 | 99 | 5 |":-1"|" 0: 4"|"95: 99"|"100:"|  | 20 | 199 | 10 |": 19"|"20: 29"|"190:199"|"200:"|  | 100 | 1010年 | 20 |": 99"|"100: 119"|"1000:1010"|"1011:"|      在上表中，第三行显示结果时<ph id="ph6">`Start`</ph>和<ph id="ph7">`Stop`</ph>定义一组不能由均匀划分的数字<ph id="ph8">`Interval`</ph>。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The last range ends at <ph id="ph1">`Stop`</ph>, making it only 11 numbers long, even though <ph id="ph2">`Interval`</ph> is 20.</source>
+          <target state="translated">最后一个范围结束<ph id="ph1">`Stop`</ph>，使其仅有 11 个字符，即使<ph id="ph2">`Interval`</ph>为 20。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Interval`</ph> is 1, the range is "<ph id="ph2">`Number`</ph>:<ph id="ph3">`Number`</ph>", regardless of the <ph id="ph4">`Start`</ph> and <ph id="ph5">`Stop`</ph> arguments.</source>
+          <target state="translated">如果<ph id="ph1">`Interval`</ph>为 1，范围是"<ph id="ph2">`Number`</ph>:<ph id="ph3">`Number`</ph>"，而不管<ph id="ph4">`Start`</ph>和<ph id="ph5">`Stop`</ph>自变量。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`Number`</ph> is 267, <ph id="ph2">`Stop`</ph> is 1000, and <ph id="ph3">`Interval`</ph> is 1, <ph id="ph4">`Partition`</ph> returns " 267: 267".</source>
+          <target state="translated">例如，如果<ph id="ph1">`Number`</ph>是 267，<ph id="ph2">`Stop`</ph>为 1000，和<ph id="ph3">`Interval`</ph>为 1，<ph id="ph4">`Partition`</ph>返回"267: 267"。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Partition`</ph> can be useful when constructing database queries.</source>
+          <target state="translated"><ph id="ph1">`Partition`</ph>构建数据库查询时，可以很有用。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>You can create a SELECT query that shows how many orders occur within various value ranges, for example with invoice values from 1 to 1000, 1001 to 2000, and so on.</source>
+          <target state="translated">你可以创建一个选择查询以显示多少订单出现在各种值的范围，例如，使用发票值从 1 到 1000、 1001年到 2000 中，依次类推。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Whole number that you want to locate within one of the calculated ranges.</source>
+          <target state="translated">要查找计算范围之一内的整数。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Whole number that indicates the start of the set of calculated ranges.</source>
+          <target state="translated">指示组的计算范围的开头的整数。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Start`</ph> cannot be less than 0.</source>
+          <target state="translated"><ph id="ph1">`Start`</ph>不能小于 0。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Whole number that indicates the end of the set of calculated ranges.</source>
+          <target state="translated">指示组的计算范围的末尾的整数。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Stop`</ph> cannot be less than or equal to <ph id="ph2">`Start`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Stop`</ph>不能小于或等于<ph id="ph2">`Start`</ph>。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>Whole number that indicates the size of each range calculated between <ph id="ph1">`Start`</ph> and <ph id="ph2">`Stop`</ph>.</source>
+          <target state="translated">之间的整数，指示每个范围的大小计算<ph id="ph1">`Start`</ph>和<ph id="ph2">`Stop`</ph>。</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Interval`</ph> cannot be less than 1.</source>
+          <target state="translated"><ph id="ph1">`Interval`</ph>不能小于 1。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>Returns a string representing the calculated range that contains a number.</source>
+          <target state="translated">返回一个字符串，表示包含大量的计算的范围。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Start&lt;/code&gt;</ph> <ph id="ph2">&amp;lt;</ph> 0, <ph id="ph3">&lt;code&gt;Stop&lt;/code&gt;</ph> <ph id="ph4">&amp;lt;</ph><ph id="ph5">= </ph><ph id="ph6">&lt;code&gt;Start&lt;/code&gt;</ph>, or <ph id="ph7">&lt;code&gt;Interval&lt;/code&gt;</ph> <ph id="ph8">&amp;lt;</ph> 1.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Start&lt;/code&gt;</ph><ph id="ph2">&amp;lt;</ph> 0, <ph id="ph3">&lt;code&gt;Stop&lt;/code&gt;</ph> <ph id="ph4">&amp;lt;</ph><ph id="ph5">= </ph><ph id="ph6">&lt;code&gt;Start&lt;/code&gt;</ph>, or <ph id="ph7">&lt;code&gt;Interval&lt;/code&gt;</ph> <ph id="ph8">&amp;lt;</ph> 1.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>Saves or creates an application entry in the Windows registry.</source>
+          <target state="translated">保存或在 Windows 注册表中创建应用程序条目。</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> feature gives you greater productivity and performance in registry operations than <bpt id="p2">&lt;xref uid="langword_csharp_SaveSetting" name="SaveSetting" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_My" name="My" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>在比注册表操作方面可为你提供更高的工作效率和性能<bpt id="p2">&lt;xref uid="langword_csharp_SaveSetting" name="SaveSetting" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;。&lt;/xref:Microsoft.VisualBasic.Devices.ServerComputer.Registry*&gt;</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the application or project to which the setting applies.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含应用程序或该设置将应用的项目的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the section in which the key setting is being saved.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含在其中保存的项设置的节的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> expression containing the name of the key setting being saved.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>包含要保存的密钥设置的名称的表达式。</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>Expression containing the value to which <ph id="ph1">`Key`</ph> is being set.</source>
+          <target state="translated">包含的值表达式<ph id="ph1">`Key`</ph>设置。</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>Key registry could not be created, or user is not logged in.</source>
+          <target state="translated">无法创建注册表项，或用户未登录。</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>Runs an executable program and returns an integer containing the program's process ID if it is still running.</source>
+          <target state="translated">运行可执行程序，并返回一个整数，如果它仍在运行包含该程序的进程 ID。</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_AppWinStyle" name="AppWinStyle" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_AppWinStyle" name="AppWinStyle" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>A value chosen from the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.AppWinStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> specifying the style of the window in which the program is to run.</source>
+          <target state="translated">从选择的值<bpt id="p1">&lt;xref href="Microsoft.VisualBasic.AppWinStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>指定是用要运行程序窗口的样式。</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Style`</ph> is omitted, <bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> uses <bpt id="p2">&lt;xref uid="langword_csharp_AppWinStyle.MinimizedFocus" name="AppWinStyle.MinimizedFocus" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, which starts the program minimized and with focus.</source>
+          <target state="translated">如果<ph id="ph1">`Style`</ph>省略， <bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用<bpt id="p2">&lt;xref uid="langword_csharp_AppWinStyle.MinimizedFocus" name="AppWinStyle.MinimizedFocus" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，以启动该程序，最小化并获得焦点。</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>A value indicating whether the <bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> function should wait for completion of the program.</source>
+          <target state="translated">一个值，该值指示是否<bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>函数应等待完成程序。</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Wait`</ph> is omitted, <bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> uses <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">If <ph id="ph1">`Wait`</ph> is omitted, <bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> uses <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>Optional.</source>
+          <target state="translated">可选。</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Integer" name="Integer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Integer" name="Integer" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>The number of milliseconds to wait for completion if <ph id="ph1">`Wait`</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果完成等待的毫秒数<ph id="ph1">`Wait`</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`Timeout`</ph> is omitted, <bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> uses -1, which means there is no timeout and <bpt id="p2">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> does not return until the program finishes.</source>
+          <target state="translated">如果<ph id="ph1">`Timeout`</ph>省略， <bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用-1，这意味着无超时和<bpt id="p2">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>程序完成后才返回值。</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>Therefore, if you omit <ph id="ph1">`Timeout`</ph> or set it to -1, it is possible that <bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> might never return control to your program.</source>
+          <target state="translated">因此，如果省略<ph id="ph1">`Timeout`</ph>或一组很可能为-1，它的<bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>可能永远不会将控制权返回给你的程序。</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>Runs an executable program and returns an integer containing the program's process ID if it is still running.</source>
+          <target state="translated">运行可执行程序，并返回一个整数，如果它仍在运行包含该程序的进程 ID。</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;Style&lt;/code&gt;</ph> is not within range 0 through 9, inclusive.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;Style&lt;/code&gt;</ph>不在 0 到 9，（含) 范围内。</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot find the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">PathName</ph><ept id="p2">&lt;/code&gt;</ept> file.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Shell" name="Shell" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>找不到<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">PathName</ph> <ept id="p2">&lt;/code&gt;</ept>文件。</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;PathName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;PathName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>Evaluates a list of expressions and returns an <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value corresponding to the first expression in the list that is <bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">计算的表达式并返回列表<bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对应的列表中的第一个表达式的值<bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>The argument supplied to <ph id="ph1">`VarExpr`</ph> consists of paired expressions and values.</source>
+          <target state="translated">自变量提供给<ph id="ph1">`VarExpr`</ph>成对的表达式和值组成。</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`Switch`</ph> function evaluates the odd-numbered expressions from lowest to highest index in <ph id="ph2">`VarExpr`</ph>, and returns the even-numbered value associated with the first expression that evaluates to <ph id="ph3">`True`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Switch`</ph>函数的计算结果奇数表达式从低到中的最高索引<ph id="ph2">`VarExpr`</ph>，并返回与计算结果为第一个表达式相关联的偶数值<ph id="ph3">`True`</ph>。</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>For example, if <ph id="ph1">`VarExpr(0)`</ph> is <ph id="ph2">`True`</ph>, <ph id="ph3">`Switch`</ph> returns <ph id="ph4">`VarExpr(1)`</ph>, and if <ph id="ph5">`VarExpr(0)`</ph> is <ph id="ph6">`False`</ph> but <ph id="ph7">`VarExpr(2)`</ph> is <ph id="ph8">`True`</ph>, <ph id="ph9">`Switch`</ph> returns <ph id="ph10">`VarExpr(3)`</ph>, and so on.</source>
+          <target state="translated">例如，如果<ph id="ph1">`VarExpr(0)`</ph>是<ph id="ph2">`True`</ph>，<ph id="ph3">`Switch`</ph>返回<ph id="ph4">`VarExpr(1)`</ph>，并且如果<ph id="ph5">`VarExpr(0)`</ph>是<ph id="ph6">`False`</ph>但<ph id="ph7">`VarExpr(2)`</ph>是<ph id="ph8">`True`</ph>，<ph id="ph9">`Switch`</ph>返回<ph id="ph10">`VarExpr(3)`</ph>，依次类推。</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>If you do not supply the <ph id="ph1">`VarExpr`</ph> argument, <ph id="ph2">`Switch`</ph> returns <ph id="ph3">`Nothing`</ph>.</source>
+          <target state="translated">如果未提供<ph id="ph1">`VarExpr`</ph>自变量，<ph id="ph2">`Switch`</ph>返回<ph id="ph3">`Nothing`</ph>。</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The expressions in the argument list can include function calls.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 自变量列表中的表达式可以包括函数调用。</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>As part of preparing the argument list for the call to <ph id="ph1">`Switch`</ph>, the Visual Basic compiler calls every function in every expression.</source>
+          <target state="translated">作为准备调用的自变量列表的一部分<ph id="ph1">`Switch`</ph>，Visual Basic 编译器在每个表达式中调用每个函数。</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>This means that you cannot rely on a particular function not being called if an expression earlier in the argument list is <ph id="ph1">`True`</ph>.</source>
+          <target state="translated">这意味着您不能依赖于特定函数参数列表中前面的表达式为时未调用<ph id="ph1">`True`</ph>。</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source>Required.</source>
+          <target state="translated">必需。</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> parameter array.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>参数数组。</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>Must have an even number of elements.</source>
+          <target state="translated">必须具有偶数数目的元素。</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>You can supply a list of <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> variables or expressions separated by commas, or a single-dimensional array of <bpt id="p2">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> elements.</source>
+          <target state="translated">你可以提供一份<bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>隔开逗号、 或的一维数组的变量或表达式<bpt id="p2">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>元素。</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>Evaluates a list of expressions and returns an <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value corresponding to the first expression in the list that is <bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">计算的表达式并返回列表<bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>对应的列表中的第一个表达式的值<bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>Number of arguments is odd.</source>
+          <target state="translated">参数个数为奇数。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

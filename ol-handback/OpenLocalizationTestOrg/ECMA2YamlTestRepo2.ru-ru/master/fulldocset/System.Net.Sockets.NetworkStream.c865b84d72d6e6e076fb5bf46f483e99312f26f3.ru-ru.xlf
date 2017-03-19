@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f790c88906c95d6c2a8db4d44c7945fe4465d574</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Net.Sockets.NetworkStream.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cb9308d5fc6194e7b4648de1df8891b06a9d6949</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e5e0a9aaff159d95d3c5e2b7dabe294458c219c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the underlying stream of data for network access.</source>
+          <target state="translated">Предоставляет основной поток данных для доступа к сети.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The NetworkStream class provides methods for sending and receiving data over &lt;xref:System.Net.Sockets.SocketType&gt; sockets in blocking mode.</source>
+          <target state="translated">NetworkStream класс предоставляет методы для отправки и получения данных через &lt;xref:System.Net.Sockets.SocketType&gt;сокетов в блокирующем режиме.&lt;/xref:System.Net.Sockets.SocketType&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about blocking versus nonblocking &lt;xref:System.Net.Sockets.Socket&gt;s, see <bpt id="p1">[</bpt>Using an Asynchronous Client Socket<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения о блокирующей версии неблокирующего &lt;xref:System.Net.Sockets.Socket&gt;s, в разделе <bpt id="p1">[</bpt>использование асинхронных сокетов клиента<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the NetworkStream class for both synchronous and asynchronous data transfer.</source>
+          <target state="translated">Класс NetworkStream для обоих синхронной и асинхронной передачи.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about synchronous and asynchronous communication, see <bpt id="p1">[</bpt>Sockets<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения о синхронной и асинхронной связи см. в разделе <bpt id="p1">[</bpt>сокеты<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a NetworkStream, you must provide a connected &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">Чтобы создать NetworkStream, необходимо предоставить подключенных &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also specify what &lt;xref:System.IO.FileAccess&gt; permission the NetworkStream has over the provided &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">Можно также указать, какие &lt;xref:System.IO.FileAccess&gt;разрешения NetworkStream имеют на предоставленный &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.IO.FileAccess&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, closing the NetworkStream does not close the provided &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">По умолчанию Закрытие NetworkStream не закрывает указанный &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want the NetworkStream to have permission to close the provided &lt;xref:System.Net.Sockets.Socket&gt;, you must specify <ph id="ph1">`true`</ph> for the value of the <ph id="ph2">`ownsSocket`</ph> parameter.</source>
+          <target state="translated">Следует ли NetworkStream иметь разрешение на закрытие обеспечивающего &lt;xref:System.Net.Sockets.Socket&gt;, необходимо указать <ph id="ph1">`true`</ph> значения <ph id="ph2">`ownsSocket`</ph> параметр.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt; and &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt; methods for simple single thread synchronous blocking I/O.</source>
+          <target state="translated">Используйте &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt;и &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt;методы для простой одного потока синхронной блокировки ввода-вывода.&lt;/xref:System.Net.Sockets.NetworkStream.Read%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream.Write%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want to process your I/O using separate threads, consider using the &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt; and &lt;xref:System.Net.Sockets.NetworkStream.EndWrite%2A&gt; methods, or the &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt; and &lt;xref:System.Net.Sockets.NetworkStream.EndRead%2A&gt; methods for communication.</source>
+          <target state="translated">Если вы хотите обработки вашей ввода-вывода с помощью отдельных потоков, рассмотрите возможность использования &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;и &lt;xref:System.Net.Sockets.NetworkStream.EndWrite%2A&gt;методов, или &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;и &lt;xref:System.Net.Sockets.NetworkStream.EndRead%2A&gt;методы для обмена данными.&lt;/xref:System.Net.Sockets.NetworkStream.EndRead%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream.EndWrite%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The NetworkStream does not support random access to the network data stream.</source>
+          <target state="translated">NetworkStream не поддерживает произвольный доступ к сети потока данных.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of the &lt;xref:System.Net.Sockets.NetworkStream.CanSeek%2A&gt; property, which indicates whether the stream supports seeking, is always <ph id="ph1">`false`</ph>; reading the &lt;xref:System.Net.Sockets.NetworkStream.Position%2A&gt; property, reading the &lt;xref:System.Net.Sockets.NetworkStream.Length%2A&gt; property, or calling the &lt;xref:System.Net.Sockets.NetworkStream.Seek%2A&gt; method will throw a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Значение &lt;xref:System.Net.Sockets.NetworkStream.CanSeek%2A&gt;Свойства, которое указывает, поддерживает ли поток поиск, всегда является <ph id="ph1">`false`</ph>; чтения &lt;xref:System.Net.Sockets.NetworkStream.Position%2A&gt;Свойства, чтение &lt;xref:System.Net.Sockets.NetworkStream.Length%2A&gt;Свойства, или вызова, &lt;xref:System.Net.Sockets.NetworkStream.Seek%2A&gt;метод вызывает исключение &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt; &lt;/xref:System.Net.Sockets.NetworkStream.Seek%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream.Length%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream.Position%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream.CanSeek%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read and write operations can be performed simultaneously on an instance of the NetworkStream class without the need for synchronization.</source>
+          <target state="translated">Операций чтения и записи в экземпляре класса NetworkStream без необходимости синхронизации могут выполняться одновременно.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As long as there is one unique thread for the write operations and one unique thread for the read operations, there will be no cross-interference between read and write threads and no synchronization is required.</source>
+          <target state="translated">При условии, что имеется один уникальный поток для операций записи и один уникальный поток для операций чтения, будет перекрестных конфликтов между чтения и записи потоков и синхронизация не требуется.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for the specified &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">Создает новый экземпляр <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса для указанного &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.Sockets.NetworkStream&gt; is created with read/write access to the specified &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.NetworkStream&gt;Создается с доступом на чтение и запись на указанный &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.Sockets.NetworkStream&gt; does not own the underlying &lt;xref:System.Net.Sockets.Socket&gt;, so calling the &lt;xref:System.Net.Sockets.NetworkStream.Close%2A&gt; method does not close the &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.NetworkStream&gt;Не владеет базовой &lt;xref:System.Net.Sockets.Socket&gt;поэтому вызов &lt;xref:System.Net.Sockets.NetworkStream.Close%2A&gt;метода не закрывает &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream.Close%2A&gt; &lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; that the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will use to send and receive data.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;, <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Будет использовать для отправки и получения данных.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not connected.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> Параметра не подключен.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.Net.Sockets.Socket.SocketType*&gt; property of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <ph id="ph2">&amp;lt;</ph>xref:System.Net.Sockets.SocketType?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated">- или - &lt;xref:System.Net.Sockets.Socket.SocketType*&gt;свойство <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> не <ph id="ph2">&amp;lt;</ph>xref:System.Net.Sockets.SocketType?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.&lt;/xref:System.Net.Sockets.Socket.SocketType*&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is in a nonblocking state.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> параметр находится в состоянии неблокируемый.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for the specified &lt;xref:System.Net.Sockets.Socket&gt; with the specified &lt;xref:System.Net.Sockets.Socket&gt; ownership.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса для указанного &lt;xref:System.Net.Sockets.Socket&gt;с указанным &lt;xref:System.Net.Sockets.Socket&gt;владения.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.Sockets.NetworkStream&gt; is created with read/write access to the specified &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.NetworkStream&gt;Создается с доступом на чтение и запись на указанный &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of <ph id="ph1">`ownsSocket`</ph> parameter is <ph id="ph2">`true`</ph>, the &lt;xref:System.Net.Sockets.NetworkStream&gt; takes ownership of the underlying &lt;xref:System.Net.Sockets.Socket&gt;, and calling the &lt;xref:System.Net.Sockets.NetworkStream.Close%2A&gt; method also closes the underlying &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">Если значение <ph id="ph1">`ownsSocket`</ph> параметр <ph id="ph2">`true`</ph>, &lt;xref:System.Net.Sockets.NetworkStream&gt;принимает право на владение базовым &lt;xref:System.Net.Sockets.Socket&gt;и вызов &lt;xref:System.Net.Sockets.NetworkStream.Close%2A&gt;метода также закрывает основной &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream.Close%2A&gt; &lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; that the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will use to send and receive data.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;, <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Будет использовать для отправки и получения данных.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will take ownership of the &lt;xref:System.Net.Sockets.Socket&gt;; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> указывает, что <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> будет распоряжаться &lt;xref:System.Net.Sockets.Socket&gt;; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not connected.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> Параметра не подключен.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-or-       the value of the &lt;xref:System.Net.Sockets.Socket.SocketType*&gt; property of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <ph id="ph2">&amp;lt;</ph>xref:System.Net.Sockets.SocketType?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated">- или - значение &lt;xref:System.Net.Sockets.Socket.SocketType*&gt;Свойства <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> не <ph id="ph2">&amp;lt;</ph>xref:System.Net.Sockets.SocketType?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.&lt;/xref:System.Net.Sockets.Socket.SocketType*&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>-or-       the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is in a nonblocking state.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> параметр находится в состоянии неблокируемый.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for the specified &lt;xref:System.Net.Sockets.Socket&gt; with the specified access rights.</source>
+          <target state="translated">Создает новый экземпляр <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса для указанного &lt;xref:System.Net.Sockets.Socket&gt;с заданными правами доступа.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.Sockets.NetworkStream&gt; is created with the specified access to the specified &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.NetworkStream&gt;Создается с указанным доступом к указанным &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With this constructor, the &lt;xref:System.Net.Sockets.NetworkStream&gt; does not own the underlying &lt;xref:System.Net.Sockets.Socket&gt;, so calling the &lt;xref:System.Net.Sockets.NetworkStream.Close%2A&gt; method does not close the underlying &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">С помощью этого конструктора &lt;xref:System.Net.Sockets.NetworkStream&gt;не владеет базовой &lt;xref:System.Net.Sockets.Socket&gt;поэтому вызов &lt;xref:System.Net.Sockets.NetworkStream.Close%2A&gt;метода не приводит к закрытию базового &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream.Close%2A&gt; &lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`access`</ph> parameter sets the &lt;xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt; and &lt;xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt; properties of the &lt;xref:System.Net.Sockets.NetworkStream&gt;.</source>
+          <target state="translated"><ph id="ph1">`access`</ph> Параметр задает &lt;xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt;и &lt;xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt;Свойства &lt;xref:System.Net.Sockets.NetworkStream&gt;.&lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you specify &lt;xref:System.IO.FileAccess&gt;, then the &lt;xref:System.Net.Sockets.NetworkStream&gt; allows calls to the &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt; method.</source>
+          <target state="translated">При указании &lt;xref:System.IO.FileAccess&gt;, то &lt;xref:System.Net.Sockets.NetworkStream&gt;разрешает вызовы &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.Write%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.IO.FileAccess&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you specify &lt;xref:System.IO.FileAccess&gt;, then the &lt;xref:System.Net.Sockets.NetworkStream&gt; allows calls to the &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt; method.</source>
+          <target state="translated">При указании &lt;xref:System.IO.FileAccess&gt;, то &lt;xref:System.Net.Sockets.NetworkStream&gt;разрешает вызовы &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.Read%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.IO.FileAccess&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you specify &lt;xref:System.IO.FileAccess&gt;, both method calls are allowed.</source>
+          <target state="translated">При указании &lt;xref:System.IO.FileAccess&gt;, оба вызова метода разрешены.&lt;/xref:System.IO.FileAccess&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; that the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will use to send and receive data.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;, <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Будет использовать для отправки и получения данных.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specify the type of access given to the <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> over the provided &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">Побитовое сочетание <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значения, указывающие тип доступа, предоставленный <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> на предоставленный &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not connected.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> Параметра не подключен.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>-or-       the &lt;xref:System.Net.Sockets.Socket.SocketType*&gt; property of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <ph id="ph2">&amp;lt;</ph>xref:System.Net.Sockets.SocketType?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated">- или - &lt;xref:System.Net.Sockets.Socket.SocketType*&gt;свойство <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> не <ph id="ph2">&amp;lt;</ph>xref:System.Net.Sockets.SocketType?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.&lt;/xref:System.Net.Sockets.Socket.SocketType*&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-or-       the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is in a nonblocking state.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> параметр находится в состоянии неблокируемый.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class for the specified &lt;xref:System.Net.Sockets.Socket&gt; with the specified access rights and the specified &lt;xref:System.Net.Sockets.Socket&gt; ownership.</source>
+          <target state="translated">Создает новый экземпляр <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класса для указанного &lt;xref:System.Net.Sockets.Socket&gt;с заданными правами доступа и указанным &lt;xref:System.Net.Sockets.Socket&gt;владения.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Net.Sockets.NetworkStream&gt; is created with read/write access to the specified &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.NetworkStream&gt;Создается с доступом на чтение и запись на указанный &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the value of the <ph id="ph1">`ownsSocket`</ph> parameter is <ph id="ph2">`true`</ph>, the &lt;xref:System.Net.Sockets.NetworkStream&gt; takes ownership of the underlying &lt;xref:System.Net.Sockets.Socket&gt;, and calling the &lt;xref:System.Net.Sockets.NetworkStream.Close%2A&gt; method also closes the underlying &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">Если значение <ph id="ph1">`ownsSocket`</ph> параметр <ph id="ph2">`true`</ph>, &lt;xref:System.Net.Sockets.NetworkStream&gt;принимает право на владение базовым &lt;xref:System.Net.Sockets.Socket&gt;и вызов &lt;xref:System.Net.Sockets.NetworkStream.Close%2A&gt;метода также закрывает основной &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream.Close%2A&gt; &lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`access`</ph> parameter sets the &lt;xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt; and &lt;xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt; properties of the &lt;xref:System.Net.Sockets.NetworkStream&gt;.</source>
+          <target state="translated"><ph id="ph1">`access`</ph> Параметр задает &lt;xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt;и &lt;xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt;Свойства &lt;xref:System.Net.Sockets.NetworkStream&gt;.&lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you specify &lt;xref:System.IO.FileAccess&gt;, then the &lt;xref:System.Net.Sockets.NetworkStream&gt; allows calls to the &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt; method.</source>
+          <target state="translated">При указании &lt;xref:System.IO.FileAccess&gt;, то &lt;xref:System.Net.Sockets.NetworkStream&gt;разрешает вызовы &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.Write%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.IO.FileAccess&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you specify &lt;xref:System.IO.FileAccess&gt;, then the &lt;xref:System.Net.Sockets.NetworkStream&gt; allows calls to the &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt; method.</source>
+          <target state="translated">При указании &lt;xref:System.IO.FileAccess&gt;, то &lt;xref:System.Net.Sockets.NetworkStream&gt;разрешает вызовы &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.Read%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.IO.FileAccess&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you specify &lt;xref:System.IO.FileAccess&gt;, both method calls are allowed.</source>
+          <target state="translated">При указании &lt;xref:System.IO.FileAccess&gt;, оба вызова метода разрешены.&lt;/xref:System.IO.FileAccess&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Net.Sockets.Socket&gt; that the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> will use to send and receive data.</source>
+          <target state="translated">&lt;xref:System.Net.Sockets.Socket&gt;, <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Будет использовать для отправки и получения данных.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the type of access given to the <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> over the provided &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">Побитовое сочетание <bpt id="p1">&lt;xref href="System.IO.FileAccess"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значения, которое указывает тип доступа, предоставленный <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> на предоставленный &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Set to <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> will take ownership of the &lt;xref:System.Net.Sockets.Socket&gt;; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> указывает, что <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> будет распоряжаться &lt;xref:System.Net.Sockets.Socket&gt;; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not connected.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> Параметра не подключен.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>-or-       The &lt;xref:System.Net.Sockets.Socket.SocketType*&gt; property of the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is not <ph id="ph2">&amp;lt;</ph>xref:System.Net.Sockets.SocketType?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated">- или - &lt;xref:System.Net.Sockets.Socket.SocketType*&gt;свойство <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> не <ph id="ph2">&amp;lt;</ph>xref:System.Net.Sockets.SocketType?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.&lt;/xref:System.Net.Sockets.Socket.SocketType*&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">socket</ph><ept id="p1">&lt;/code&gt;</ept> parameter is in a nonblocking state.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">socket</ph> <ept id="p1">&lt;/code&gt;</ept> параметр находится в состоянии неблокируемый.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous read from the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Начинает асинхронное чтение из <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BeginRead method starts asynchronously reading data from the incoming network buffers.</source>
+          <target state="translated">Метод BeginRead запускает асинхронное чтение данных из входящих сетевых буферов.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the BeginRead method gives you the ability to receive data within a separate execution thread.</source>
+          <target state="translated">Метод BeginRead дает возможность принимать данные в отдельном потоке.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must create a callback method that implements the &lt;xref:System.AsyncCallback&gt; delegate and pass its name to the BeginRead method.</source>
+          <target state="translated">Необходимо создать метод обратного вызова, который реализует &lt;xref:System.AsyncCallback&gt;делегата и передает его имя в метод BeginRead.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At the very minimum, your <ph id="ph1">`state`</ph> parameter must contain the &lt;xref:System.Net.Sockets.NetworkStream&gt;.</source>
+          <target state="translated">По крайней мере к <ph id="ph1">`state`</ph> параметр должен содержать &lt;xref:System.Net.Sockets.NetworkStream&gt;.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because you will want to obtain the received data within your callback method, you should create a small class or structure to hold a read buffer and any other useful information.</source>
+          <target state="translated">Так как может потребоваться получить поступившие данные в рамках метода обратного вызова, следует создать небольшой класс или структуру для хранения буфера чтения и любых других полезных сведений.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pass the structure or class instance to the BeginRead method through the <ph id="ph1">`state`</ph> parameter.</source>
+          <target state="translated">Передайте этот экземпляр структуры или класса метод BeginRead через <ph id="ph1">`state`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your callback method should call the &lt;xref:System.Net.Sockets.NetworkStream.EndRead%2A&gt; method.</source>
+          <target state="translated">Метод обратного вызова должен вызывать &lt;xref:System.Net.Sockets.NetworkStream.EndRead%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.EndRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When your application calls BeginRead, the system will wait until data is received or an error occurs, and then the system will use a separate thread to execute the specified callback method, and blocks on &lt;xref:System.Net.Sockets.NetworkStream.EndRead%2A&gt; until the provided &lt;xref:System.Net.Sockets.NetworkStream&gt; reads data or throws an exception.</source>
+          <target state="translated">Когда приложение вызывает метод BeginRead, система будет ждать получения данных или возникает ошибка и затем система будет использовать отдельный поток для выполнения указанный метод обратного вызова и блоки на &lt;xref:System.Net.Sockets.NetworkStream.EndRead%2A&gt;до указанных &lt;xref:System.Net.Sockets.NetworkStream&gt;считывает данные или создает исключение.&lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.Net.Sockets.NetworkStream.EndRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want the original thread to block after you call the BeginRead method, use the &lt;xref:System.Threading.WaitHandle.WaitOne%2A&gt; method.</source>
+          <target state="translated">Исходный поток для блокировки после вызова метода BeginRead используйте &lt;xref:System.Threading.WaitHandle.WaitOne%2A&gt;метод.&lt;/xref:System.Threading.WaitHandle.WaitOne%2A&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Threading.EventWaitHandle.Set%2A&gt; in the callback method when you want the original thread to continue executing.</source>
+          <target state="translated">Вызовите &lt;xref:System.Threading.EventWaitHandle.Set%2A&gt;в методе обратного вызова, если необходимо продолжить исполнение исходного потока.&lt;/xref:System.Threading.EventWaitHandle.Set%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For additional information about writing callback methods, see <bpt id="p1">[</bpt>Marshaling a Delegate as a Callback Method<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения о создании методов обратного вызова см. в разделе <bpt id="p1">[</bpt>маршалинг делегата как метода обратного вызова<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BeginRead method reads as much data as is available, up to the number of bytes specified by the <ph id="ph1">`size`</ph> parameter.</source>
+          <target state="translated">Метод BeginRead считывает столько доступных данных, до числа байтов, указанное в <ph id="ph1">`size`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive an &lt;xref:System.IO.IOException&gt;, check the &lt;xref:System.Exception.InnerException%2A&gt; property to determine if it was caused by a &lt;xref:System.Net.Sockets.SocketException&gt;.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек при получении &lt;xref:System.IO.IOException&gt;Проверьте &lt;xref:System.Exception.InnerException%2A&gt;свойство, чтобы определить, если она была вызвана &lt;xref:System.Net.Sockets.SocketException&gt;.&lt;/xref:System.Net.Sockets.SocketException&gt; &lt;/xref:System.Exception.InnerException%2A&gt; &lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If so, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt; property to obtain the specific error code, and refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">В этом случае используйте &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt;свойство для получения определенного кода ошибки и ссылки на подробное описание ошибки документации по кодам ошибок API Windows Sockets версии 2 в библиотеке MSDN.&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read and write operations can be performed simultaneously on an instance of the &lt;xref:System.Net.Sockets.NetworkStream&gt; class without the need for synchronization.</source>
+          <target state="translated">Чтение и запись операции могут выполняться одновременно на экземпляре &lt;xref:System.Net.Sockets.NetworkStream&gt;класс без необходимости синхронизации.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As long as there is one unique thread for the write operations and one unique thread for the read operations, there will be no cross-interference between read and write threads and no synchronization is required.</source>
+          <target state="translated">При условии, что имеется один уникальный поток для операций записи и один уникальный поток для операций чтения, будет перекрестных конфликтов между чтения и записи потоков и синхронизация не требуется.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Byte&gt; that is the location in memory to store data read from the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Массив объектов типа &lt;xref:System.Byte&gt;это расположение в памяти для хранения данных, считанных из <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The location in <ph id="ph1">`buffer`</ph> to begin storing the data.</source>
+          <target state="translated">Расположение в <ph id="ph1">`buffer`</ph> начинается сохранение данных.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The number of bytes to read from the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Число байтов, считываемых из <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that is executed when BeginRead completes.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;Делегат, который выполняется при завершении BeginRead.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>An object that contains any additional user-defined data.</source>
+          <target state="translated">Объект, содержащий любые дополнительные данные, определяемые пользователем.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the asynchronous call.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;, Представляющий асинхронного вызова.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">buffer</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">buffer</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than 0.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept> Параметр меньше 0.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than the length of the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">buffer</ph><ept id="p2">&lt;/code&gt;</ept> paramater.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept> параметр больше, чем длина <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">buffer</ph> <ept id="p2">&lt;/code&gt;</ept> параметр ".</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">size</ph><ept id="p1">&lt;/code&gt;</ept> is less than 0.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">size</ph> <ept id="p1">&lt;/code&gt;</ept> меньше 0.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">size</ph><ept id="p1">&lt;/code&gt;</ept> is greater than the length of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">buffer</ph><ept id="p2">&lt;/code&gt;</ept> minus the value of the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">offset</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">size</ph> <ept id="p1">&lt;/code&gt;</ept> больше, чем длина <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">buffer</ph> <ept id="p2">&lt;/code&gt;</ept> минус значение <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph3">offset</ph> <ept id="p3">&lt;/code&gt;</ept> параметра.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; is closed.</source>
+          <target state="translated">Базовый &lt;xref:System.Net.Sockets.Socket&gt;закрыт.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>-or-       There was a failure while reading from the network.</source>
+          <target state="translated">- или - произошла ошибка при чтении из сети.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>-or-       An error occurred when accessing the socket.</source>
+          <target state="translated">- или - произошла ошибка при обращении к сокету.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">Дополнительные сведения см.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Закрыт.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Begins an asynchronous write to a stream.</source>
+          <target state="translated">Начинает асинхронную запись в поток.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The BeginWrite method starts an asynchronous send operation to the remote host.</source>
+          <target state="translated">Метод BeginWrite начинает операцию асинхронной передачи на удаленный узел.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the BeginWrite method gives you the ability to send data within a separate execution thread.</source>
+          <target state="translated">Вызов метода BeginWrite дает возможность отправлять данные в отдельном потоке.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must create a callback method that implements the &lt;xref:System.AsyncCallback&gt; delegate and pass its name to the BeginWrite method.</source>
+          <target state="translated">Необходимо создать метод обратного вызова, который реализует &lt;xref:System.AsyncCallback&gt;делегата и передает его имя в метод BeginWrite.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>At the very minimum, your <ph id="ph1">`state`</ph> parameter must contain the &lt;xref:System.Net.Sockets.NetworkStream&gt;.</source>
+          <target state="translated">По крайней мере к <ph id="ph1">`state`</ph> параметр должен содержать &lt;xref:System.Net.Sockets.NetworkStream&gt;.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your callback needs more information, you can create a small class or structure to hold the &lt;xref:System.Net.Sockets.NetworkStream&gt; and the other required information.</source>
+          <target state="translated">Если обратного вызова необходимы дополнительные сведения, можно создать небольшой класс или структуру для хранения &lt;xref:System.Net.Sockets.NetworkStream&gt;и другие необходимые сведения.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Pass the structure or class instance to the BeginWrite method through the <ph id="ph1">`state`</ph> parameter.</source>
+          <target state="translated">Передайте этот экземпляр структуры или класса метод BeginWrite через <ph id="ph1">`state`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your callback method should implement the &lt;xref:System.Net.Sockets.NetworkStream.EndWrite%2A&gt; method.</source>
+          <target state="translated">Метод обратного вызова должен реализовывать &lt;xref:System.Net.Sockets.NetworkStream.EndWrite%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.EndWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When your application calls BeginWrite, the system uses a separate thread to execute the specified callback method, and blocks on &lt;xref:System.Net.Sockets.NetworkStream.EndWrite%2A&gt; until the &lt;xref:System.Net.Sockets.NetworkStream&gt; sends the number of bytes requested or throws an exception.</source>
+          <target state="translated">Когда приложение вызывает метод BeginWrite, система использует отдельный поток для выполнения указанный метод обратного вызова и блокирует на &lt;xref:System.Net.Sockets.NetworkStream.EndWrite%2A&gt;до &lt;xref:System.Net.Sockets.NetworkStream&gt;отправляет запрошенного числа байтов или создает исключение.&lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.Net.Sockets.NetworkStream.EndWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want the original thread to block after you call the BeginWrite method, use the &lt;xref:System.Threading.WaitHandle.WaitOne%2A&gt; method.</source>
+          <target state="translated">Исходный поток для блокировки после вызова метода BeginWrite используйте &lt;xref:System.Threading.WaitHandle.WaitOne%2A&gt;метод.&lt;/xref:System.Threading.WaitHandle.WaitOne%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Threading.EventWaitHandle.Set%2A&gt; in the callback method when you want the original thread to continue executing.</source>
+          <target state="translated">Вызовите &lt;xref:System.Threading.EventWaitHandle.Set%2A&gt;в методе обратного вызова, если необходимо продолжить исполнение исходного потока.&lt;/xref:System.Threading.EventWaitHandle.Set%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For additional information about writing callback methods, see <bpt id="p1">[</bpt>Marshaling a Delegate as a Callback Method<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Дополнительные сведения о создании методов обратного вызова см. в разделе <bpt id="p1">[</bpt>маршалинг делегата как метода обратного вызова<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive an &lt;xref:System.IO.IOException&gt;, check the &lt;xref:System.Exception.InnerException%2A&gt; property to determine if it was caused by a &lt;xref:System.Net.Sockets.SocketException&gt;.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек при получении &lt;xref:System.IO.IOException&gt;Проверьте &lt;xref:System.Exception.InnerException%2A&gt;свойство, чтобы определить, если она была вызвана &lt;xref:System.Net.Sockets.SocketException&gt;.&lt;/xref:System.Net.Sockets.SocketException&gt; &lt;/xref:System.Exception.InnerException%2A&gt; &lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If so, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt; property to obtain the specific error code, and refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">В этом случае используйте &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt;свойство для получения определенного кода ошибки и ссылки на подробное описание ошибки документации по кодам ошибок API Windows Sockets версии 2 в библиотеке MSDN.&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Read and write operations can be performed simultaneously on an instance of the &lt;xref:System.Net.Sockets.NetworkStream&gt; class without the need for synchronization.</source>
+          <target state="translated">Чтение и запись операции могут выполняться одновременно на экземпляре &lt;xref:System.Net.Sockets.NetworkStream&gt;класс без необходимости синхронизации.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As long as there is one unique thread for the write operations and one unique thread for the read operations, there will be no cross-interference between read and write threads and no synchronization is required.</source>
+          <target state="translated">При условии, что имеется один уникальный поток для операций записи и один уникальный поток для операций чтения, будет перекрестных конфликтов между чтения и записи потоков и синхронизация не требуется.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Byte&gt; that contains the data to write to the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Массив объектов типа &lt;xref:System.Byte&gt;, содержащий данные для записи <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The location in <ph id="ph1">`buffer`</ph> to begin sending the data.</source>
+          <target state="translated">Расположение в <ph id="ph1">`buffer`</ph> начинается отправка данных.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The number of bytes to write to the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Число байтов для записи <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.AsyncCallback&gt; delegate that is executed when BeginWrite completes.</source>
+          <target state="translated">&lt;xref:System.AsyncCallback&gt;Делегат, который выполняется при завершении BeginWrite.&lt;/xref:System.AsyncCallback&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>An object that contains any additional user-defined data.</source>
+          <target state="translated">Объект, содержащий любые дополнительные данные, определяемые пользователем.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents the asynchronous call.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;, Представляющий асинхронного вызова.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">buffer</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">buffer</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than 0.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept> Параметр меньше 0.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than the length of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">buffer</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept> параметр больше, чем длина <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">buffer</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">size</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than 0.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">size</ph> <ept id="p1">&lt;/code&gt;</ept> параметр меньше 0.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">size</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than the length of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">buffer</ph><ept id="p2">&lt;/code&gt;</ept> minus the value of the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">offset</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">size</ph> <ept id="p1">&lt;/code&gt;</ept> параметр больше, чем длина <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">buffer</ph> <ept id="p2">&lt;/code&gt;</ept> минус значение <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph3">offset</ph> <ept id="p3">&lt;/code&gt;</ept> параметра.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; is closed.</source>
+          <target state="translated">Базовый &lt;xref:System.Net.Sockets.Socket&gt;закрыт.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>-or-       There was a failure while writing to the network.</source>
+          <target state="translated">- или - произошел сбой при записи в сеть.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>-or-       An error occurred when accessing the socket.</source>
+          <target state="translated">- или - произошла ошибка при обращении к сокету.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">Дополнительные сведения см.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Закрыт.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> supports reading.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> поддерживает чтение.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If CanRead is <ph id="ph1">`true`</ph>, &lt;xref:System.Net.Sockets.NetworkStream&gt; allows calls to the &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt; method.</source>
+          <target state="translated">Если CanRead <ph id="ph1">`true`</ph>, &lt;xref:System.Net.Sockets.NetworkStream&gt;разрешает вызовы &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.Read%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Provide the appropriate &lt;xref:System.IO.FileAccess&gt; enumerated value in the constructor to set the readability and writability of the &lt;xref:System.Net.Sockets.NetworkStream&gt;.</source>
+          <target state="translated">Укажите соответствующие &lt;xref:System.IO.FileAccess&gt;значения в конструкторе, чтобы задать для удобства чтения и записи для объекта &lt;xref:System.Net.Sockets.NetworkStream&gt;.&lt;/xref:System.Net.Sockets.NetworkStream&gt; перечисления&lt;/xref:System.IO.FileAccess&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CanRead property is set when the &lt;xref:System.Net.Sockets.NetworkStream&gt; is initialized.</source>
+          <target state="translated">Когда задано свойство CanRead &lt;xref:System.Net.Sockets.NetworkStream&gt;инициализируется.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data can be read from the stream; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если данные могут быть прочитаны из потока; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the stream supports seeking.</source>
+          <target state="translated">Возвращает значение, указывающее, поддерживает ли поток поиск.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>This property is not currently supported.This property always returns <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Это свойство в настоящее время не поддерживается. Это свойство всегда возвращает <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases to indicate that <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> cannot seek a specific location in the stream.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>во всех случаях, чтобы указать, что <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> не удается выполнить поиск в определенное расположение в потоке.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Indicates whether timeout properties are usable for <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Указывает, являются ли свойства времени ожидания для <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is present because it is inherited from &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">Это свойство присутствует, поскольку оно унаследовано из &lt;xref:System.IO.Stream&gt;.&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>во всех случаях.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> supports writing.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> поддерживает запись.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If CanWrite is <ph id="ph1">`true`</ph>, &lt;xref:System.Net.Sockets.NetworkStream&gt; allows calls to the &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt; method.</source>
+          <target state="translated">Если CanWrite <ph id="ph1">`true`</ph>, &lt;xref:System.Net.Sockets.NetworkStream&gt;разрешает вызовы &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.Write%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Provide the appropriate &lt;xref:System.IO.FileAccess&gt; enumerated value in the constructor to set the readability and writability of the &lt;xref:System.Net.Sockets.NetworkStream&gt;.</source>
+          <target state="translated">Укажите соответствующие &lt;xref:System.IO.FileAccess&gt;значения в конструкторе, чтобы задать для удобства чтения и записи для объекта &lt;xref:System.Net.Sockets.NetworkStream&gt;.&lt;/xref:System.Net.Sockets.NetworkStream&gt; перечисления&lt;/xref:System.IO.FileAccess&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CanWrite property is set when the &lt;xref:System.Net.Sockets.NetworkStream&gt; is initialized.</source>
+          <target state="translated">Когда задано свойство CanWrite &lt;xref:System.Net.Sockets.NetworkStream&gt;инициализируется.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data can be written to the <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если данные могут быть записаны <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; в противном случае <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Closes the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> after waiting the specified time to allow data to be sent.</source>
+          <target state="translated">Закрывает <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> после ожидания в указанное время, чтобы разрешить отправку данных.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close method frees both unmanaged and managed resources associated with the &lt;xref:System.Net.Sockets.NetworkStream&gt;.</source>
+          <target state="translated">Метод Close освобождает управляемые и неуправляемые ресурсы, связанные с &lt;xref:System.Net.Sockets.NetworkStream&gt;.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the &lt;xref:System.Net.Sockets.NetworkStream&gt; owns the underlying &lt;xref:System.Net.Sockets.Socket&gt;, it is closed as well.</source>
+          <target state="translated">Если &lt;xref:System.Net.Sockets.NetworkStream&gt;владеет основным &lt;xref:System.Net.Sockets.Socket&gt;, также закрывается.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a &lt;xref:System.Net.Sockets.NetworkStream&gt; was associated with a &lt;xref:System.Net.Sockets.TcpClient&gt;, the Close method will close the TCP connection, but not dispose of the associated &lt;xref:System.Net.Sockets.TcpClient&gt;.</source>
+          <target state="translated">Если &lt;xref:System.Net.Sockets.NetworkStream&gt;был связан с &lt;xref:System.Net.Sockets.TcpClient&gt;метод Close закрывается TCP-соединение, но не удаления связанного &lt;xref:System.Net.Sockets.TcpClient&gt;.&lt;/xref:System.Net.Sockets.TcpClient&gt; &lt;/xref:System.Net.Sockets.TcpClient&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>A 32-bit signed integer that specifies the number of milliseconds to wait to send any remaining data before closing.</source>
+          <target state="translated">32-разрядное знаковое целое число, указывающее количество миллисекунд ожидания для отправки оставшихся данных перед закрытием.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> Параметр является меньше -1.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether data is available on the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be read.</source>
+          <target state="translated">Возвращает значение, указывающее, доступен ли данные на <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> для чтения.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DataAvailable property to determine if data is ready to be read.</source>
+          <target state="translated">Используйте свойство DataAvailable, чтобы определить, если данные можно считывать.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If DataAvailable is <ph id="ph1">`true`</ph>, a call to &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt; returns immediately.</source>
+          <target state="translated">Если DataAvailable <ph id="ph1">`true`</ph>, вызов &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt;возвращается немедленно.&lt;/xref:System.Net.Sockets.NetworkStream.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the remote host shuts down or closes the connection, DataAvailable may throw a &lt;xref:System.Net.Sockets.SocketException&gt;.</source>
+          <target state="translated">Удаленный узел отключается или закрывает соединение, DataAvailable может вызвать &lt;xref:System.Net.Sockets.SocketException&gt;.&lt;/xref:System.Net.Sockets.SocketException&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data is available on the stream to be read; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>При наличии данных в потоке для чтения; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Закрыт.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; is closed.</source>
+          <target state="translated">Базовый &lt;xref:System.Net.Sockets.Socket&gt;закрыт.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Use the <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property to obtain the specific error code, and refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">Используйте <ph id="ph1">&amp;lt;</ph>xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> свойство для получения определенного кода ошибки и ссылки на подробное описание ошибки документации по кодам ошибок API Windows Sockets версии 2 в библиотеке MSDN.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Освобождает неуправляемые ресурсы, используемые <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> и при необходимости освобождает также управляемые ресурсы.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Этот метод вызывается методом открытые <ph id="ph1">`Dispose`</ph> метод и &lt;xref:System.Object.Finalize%2A&gt;метод.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose`</ph>вызывает защищенный <ph id="ph2">`Dispose(Boolean)`</ph> метод с <ph id="ph3">`disposing`</ph> равным <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;вызывает <ph id="ph1">`Dispose`</ph> с <ph id="ph2">`disposing`</ph> значение <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.Net.Sockets.NetworkStream&gt; references.</source>
+          <target state="translated">При <ph id="ph1">`disposing`</ph> параметр <ph id="ph2">`true`</ph>, данный метод освобождает все ресурсы, занятые любыми управляемыми объектами, которые &lt;xref:System.Net.Sockets.NetworkStream&gt;ссылки.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose`</ph> method of each referenced object.</source>
+          <target state="translated">Этот метод вызывает <ph id="ph1">`Dispose`</ph> метод для каждого объекта, на который указывает ссылка.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>для освобождения управляемых и неуправляемых ресурсов; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> для освобождения только неуправляемых ресурсов.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Handles the end of an asynchronous read.</source>
+          <target state="translated">Обрабатывает завершение асинхронного чтения.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EndRead method completes the asynchronous read operation started in the &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt; method.</source>
+          <target state="translated">Метод EndRead завершает асинхронную операцию чтения, запущенную &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before calling &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;, you need to create a callback method that implements the &lt;xref:System.AsyncCallback&gt; delegate.</source>
+          <target state="translated">Перед вызовом метода &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;, необходимо создать метод обратного вызова, который реализует &lt;xref:System.AsyncCallback&gt;делегировать.&lt;/xref:System.AsyncCallback&gt; &lt;/xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This callback method executes in a separate thread and is called by the system after &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt; returns.</source>
+          <target state="translated">Этот метод обратного вызова выполняется в отдельном потоке и вызывается системой после &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;возвращает.&lt;/xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The callback method must accept the &lt;xref:System.IAsyncResult&gt; returned from the &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt; method as a parameter.</source>
+          <target state="translated">Метод обратного вызова должен принимать &lt;xref:System.IAsyncResult&gt;возвращенные &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;методу в качестве параметра.&lt;/xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within the callback method, call the &lt;xref:System.IAsyncResult.AsyncState%2A&gt; property of the &lt;xref:System.IAsyncResult&gt; to obtain the state object passed to the &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt; method.</source>
+          <target state="translated">В методе обратного вызова &lt;xref:System.IAsyncResult.AsyncState%2A&gt;свойство &lt;xref:System.IAsyncResult&gt;получить состояние объекта, переданного в &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt; &lt;/xref:System.IAsyncResult&gt; &lt;/xref:System.IAsyncResult.AsyncState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Extract the receiving &lt;xref:System.Net.Sockets.NetworkStream&gt; from this state object.</source>
+          <target state="translated">Извлеките полученный &lt;xref:System.Net.Sockets.NetworkStream&gt;из этого объекта состояния.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After obtaining the &lt;xref:System.Net.Sockets.NetworkStream&gt;, call the EndRead method to successfully complete the read operation and return the number of bytes read.</source>
+          <target state="translated">После получения &lt;xref:System.Net.Sockets.NetworkStream&gt;, вызовите метод EndRead для успешного завершения операции чтения и возвращают число считанных байтов.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EndRead method blocks until data is available.</source>
+          <target state="translated">Метод EndRead блокируется до данные недоступны.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EndRead method reads as much data as is available up to the number of bytes specified in the <ph id="ph1">`size`</ph> parameter of the &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt; method.</source>
+          <target state="translated">Метод EndRead считывает столько данных доступно до числа байтов, указанного в <ph id="ph1">`size`</ph> параметр &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the remote host shuts down the &lt;xref:System.Net.Sockets.Socket&gt; connection and all available data has been received, the EndRead method completes immediately and returns zero bytes.</source>
+          <target state="translated">Если удаленный узел отключает &lt;xref:System.Net.Sockets.Socket&gt;Получено подключения и все доступные данные, метод EndRead немедленно завершается и возвращает нуль байт.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To obtain the received data, call the &lt;xref:System.IAsyncResult.AsyncState%2A&gt; property of the &lt;xref:System.IAsyncResult&gt;, and extract the buffer contained in the resulting state object.</source>
+          <target state="translated">Чтобы получить поступившие данные, вызовите &lt;xref:System.IAsyncResult.AsyncState%2A&gt;свойство &lt;xref:System.IAsyncResult&gt;и извлеките буфер, содержащийся в объекте результирующего состояния.&lt;/xref:System.IAsyncResult&gt; &lt;/xref:System.IAsyncResult.AsyncState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive an &lt;xref:System.IO.IOException&gt;, check the &lt;xref:System.Exception.InnerException%2A&gt; property to determine if it was caused by a &lt;xref:System.Net.Sockets.SocketException&gt;.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек при получении &lt;xref:System.IO.IOException&gt;Проверьте &lt;xref:System.Exception.InnerException%2A&gt;свойство, чтобы определить, если она была вызвана &lt;xref:System.Net.Sockets.SocketException&gt;.&lt;/xref:System.Net.Sockets.SocketException&gt; &lt;/xref:System.Exception.InnerException%2A&gt; &lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If so, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt; property to obtain the specific error code, and refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">В этом случае используйте &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt;свойство для получения определенного кода ошибки и ссылки на подробное описание ошибки документации по кодам ошибок API Windows Sockets версии 2 в библиотеке MSDN.&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IAsyncResult&gt; that represents an asynchronous call.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;, Представляющий асинхронный вызов.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The number of bytes read from the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Количество прочитанных байтов из <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; is closed.</source>
+          <target state="translated">Базовый &lt;xref:System.Net.Sockets.Socket&gt;закрыт.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>-or-       An error occurred when accessing the socket.</source>
+          <target state="translated">- или - произошла ошибка при обращении к сокету.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">Дополнительные сведения см.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Закрыт.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Handles the end of an asynchronous write.</source>
+          <target state="translated">Обрабатывает завершение асинхронной записи.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>EndWrite completes the asynchronous send operation started in &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;.</source>
+          <target state="translated">Метод EndWrite завершения операции асинхронного чтения, запущенный в &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;.&lt;/xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before calling &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;, you need to create a callback method that implements the &lt;xref:System.AsyncCallback&gt; delegate.</source>
+          <target state="translated">Перед вызовом метода &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;, необходимо создать метод обратного вызова, который реализует &lt;xref:System.AsyncCallback&gt;делегировать.&lt;/xref:System.AsyncCallback&gt; &lt;/xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This callback method executes in a separate thread and is called by the system after &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt; returns.</source>
+          <target state="translated">Этот метод обратного вызова выполняется в отдельном потоке и вызывается системой после &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;возвращает.&lt;/xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The callback method must accept the &lt;xref:System.IAsyncResult&gt; returned from the &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt; method as a parameter.</source>
+          <target state="translated">Метод обратного вызова должен принимать &lt;xref:System.IAsyncResult&gt;возвращенные &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;методу в качестве параметра.&lt;/xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt; &lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within the callback method, call the &lt;xref:System.IAsyncResult.AsyncState%2A&gt; property of the <ph id="ph1">`IAsyncResult`</ph> parameter to obtain the &lt;xref:System.Net.Sockets.NetworkStream&gt;.</source>
+          <target state="translated">В методе обратного вызова &lt;xref:System.IAsyncResult.AsyncState%2A&gt;свойство <ph id="ph1">`IAsyncResult`</ph> параметр, чтобы получить &lt;xref:System.Net.Sockets.NetworkStream&gt;.&lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.IAsyncResult.AsyncState%2A&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After obtaining the &lt;xref:System.Net.Sockets.NetworkStream&gt;, you can call the EndWrite method to successfully complete the send operation and return the number of bytes sent.</source>
+          <target state="translated">После получения &lt;xref:System.Net.Sockets.NetworkStream&gt;, можно вызвать метод EndWrite для успешного завершения операции отправки и вернуть количество байтов, отправленных.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The EndWrite method blocks until the requested number of bytes are sent.</source>
+          <target state="translated">Метод EndWrite блокируется до отправки запрошенное количество байтов.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive an &lt;xref:System.IO.IOException&gt;, check the &lt;xref:System.Exception.InnerException%2A&gt; property to determine if it was caused by a &lt;xref:System.Net.Sockets.SocketException&gt;.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек при получении &lt;xref:System.IO.IOException&gt;Проверьте &lt;xref:System.Exception.InnerException%2A&gt;свойство, чтобы определить, если она была вызвана &lt;xref:System.Net.Sockets.SocketException&gt;.&lt;/xref:System.Net.Sockets.SocketException&gt; &lt;/xref:System.Exception.InnerException%2A&gt; &lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If so, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt; property to obtain the specific error code, and refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">В этом случае используйте &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt;свойство для получения определенного кода ошибки и ссылки на подробное описание ошибки документации по кодам ошибок API Windows Sockets версии 2 в библиотеке MSDN.&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IAsyncResult&gt; that represents the asynchronous call.</source>
+          <target state="translated">&lt;xref:System.IAsyncResult&gt;, Представляющий асинхронного вызова.&lt;/xref:System.IAsyncResult&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">asyncResult</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; is closed.</source>
+          <target state="translated">Базовый &lt;xref:System.Net.Sockets.Socket&gt;закрыт.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>-or-       An error occurred while writing to the network.</source>
+          <target state="translated">- или - произошла ошибка при записи в сеть.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>-or-       An error occurred when accessing the socket.</source>
+          <target state="translated">- или - произошла ошибка при обращении к сокету.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">Дополнительные сведения см.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Закрыт.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Освобождает все ресурсы, используемые <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Этот метод переопределяет &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;.&lt;/xref:System.Object.Finalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Application code should not call this method; an object's &lt;xref:System.Object.Finalize%2A&gt; method is automatically invoked during garbage collection, unless finalization by the garbage collector has been disabled by a call to the &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Код приложения не должен вызывать этот метод; Объект &lt;xref:System.Object.Finalize%2A&gt;метод автоматически вызывается во время сборки мусора, если завершение работы сборщика мусора была отключена с помощью вызова &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;метод.&lt;/xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt; &lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about using the Finalize method, see <bpt id="p1">[</bpt>Finalize Methods and Destructors<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>Cleaning Up Unmanaged Resources<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, and <bpt id="p3">[</bpt>Overriding the Finalize Method<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</source>
+          <target state="translated">Дополнительные сведения об использовании метода Finalize см. в разделе <bpt id="p1">[</bpt>методы Finalize и деструкторы<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>очистки неуправляемых ресурсов<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, и <bpt id="p3">[</bpt>переопределение метода Finalize<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Flushes data from the stream.</source>
+          <target state="translated">Удаляет данные из потока.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>This method is reserved for future use.</source>
+          <target state="translated">Этот метод зарезервирован для будущего использования.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Flush method implements the &lt;xref:System.IO.Stream.Flush%2A?displayProperty=fullName&gt; method; however, because &lt;xref:System.Net.Sockets.NetworkStream&gt; is not buffered, it has no affect on network streams.</source>
+          <target state="translated">Реализует метод Flush &lt;xref:System.IO.Stream.Flush%2A?displayProperty=fullName&gt;метод, однако, поскольку &lt;xref:System.Net.Sockets.NetworkStream&gt;является не помещаются в буфер, не оказывает воздействия на сетевые потоки.&lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.IO.Stream.Flush%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling the Flush method does not throw an exception.</source>
+          <target state="translated">Вызов метода очистки не вызывает исключение.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>Flushes data from the stream as an asynchronous operation.</source>
+          <target state="translated">Удаляет данные из потока в асинхронной операции.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This operation will not block.</source>
+          <target state="translated">Эта операция не будет блокирована.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned &lt;xref:System.Threading.Tasks.Task&gt; object will complete after data has been flushed from the stream for the &lt;xref:System.Net.Sockets.NetworkStream&gt; instance.</source>
+          <target state="translated">Возвращенный &lt;xref:System.Threading.Tasks.Task&gt;объекта будет выполнена после очистки данных из потока для &lt;xref:System.Net.Sockets.NetworkStream&gt;экземпляра.&lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.Threading.Tasks.Task&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>A cancellation token used to propagate notification that this  operation should be canceled.</source>
+          <target state="translated">Токен отмены, используемый для распространения уведомления о, что эта операция должна быть отменена.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.Threading.Tasks.Task&gt;.</source>
+          <target state="translated">Возвращает &lt;xref:System.Threading.Tasks.Task&gt;.&lt;/xref:System.Threading.Tasks.Task&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>The task object representing the asynchronous operation.</source>
+          <target state="translated">Объект задачи, представляющий асинхронную операцию.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Gets the length of the data available on the stream.</source>
+          <target state="translated">Возвращает длину данных, доступных в потоке.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>This property is not currently supported and always throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Это свойство не поддерживается и всегда вызывает исключение &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>The length of the data available on the stream.</source>
+          <target state="translated">Длина данных в потоке.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Any use of this property.</source>
+          <target state="translated">Любое использование этого свойства.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>Gets or sets the current position in the stream.</source>
+          <target state="translated">Возвращает или задает текущую позицию в потоке.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>This property is not currently supported and always throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Это свойство не поддерживается и всегда вызывает исключение &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>The current position in the stream.</source>
+          <target state="translated">Текущая позиция в потоке.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Any use of this property.</source>
+          <target state="translated">Любое использование этого свойства.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Reads data from the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Считывает данные из <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method reads data into the <ph id="ph1">`buffer`</ph> parameter and returns the number of bytes successfully read.</source>
+          <target state="translated">Этот метод считывает данные в <ph id="ph1">`buffer`</ph> параметра и возвращает количество успешно прочитанных байтов.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no data is available for reading, the Read method returns 0.</source>
+          <target state="translated">Если данные недоступны для чтения, метод Read возвращает 0.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Read operation reads as much data as is available, up to the number of bytes specified by the <ph id="ph1">`size`</ph> parameter.</source>
+          <target state="translated">Операция чтения считывает столько доступных данных, до числа байтов, указанное в <ph id="ph1">`size`</ph> параметра.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the remote host shuts down the connection, and all available data has been received, the Read method completes immediately and return zero bytes.</source>
+          <target state="translated">Если удаленный узел отключает соединение и получил все доступные данные, метод Read сразу же завершает работу и возвращают&amp;0; байт.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Check to see if the &lt;xref:System.Net.Sockets.NetworkStream&gt; is readable by calling the &lt;xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt; property.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек проверьте &lt;xref:System.Net.Sockets.NetworkStream&gt;доступен для чтения, вызвав &lt;xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt;свойство.&lt;/xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you attempt to read from a &lt;xref:System.Net.Sockets.NetworkStream&gt; that is not readable, you will get an &lt;xref:System.IO.IOException&gt;.</source>
+          <target state="translated">При попытке чтения из &lt;xref:System.Net.Sockets.NetworkStream&gt;недоступны для чтения, вы получите &lt;xref:System.IO.IOException&gt;.&lt;/xref:System.IO.IOException&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you receive an &lt;xref:System.IO.IOException&gt;, check the &lt;xref:System.Exception.InnerException%2A&gt; property to determine if it was caused by a &lt;xref:System.Net.Sockets.SocketException&gt;.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек при получении &lt;xref:System.IO.IOException&gt;Проверьте &lt;xref:System.Exception.InnerException%2A&gt;свойство, чтобы определить, если она была вызвана &lt;xref:System.Net.Sockets.SocketException&gt;.&lt;/xref:System.Net.Sockets.SocketException&gt; &lt;/xref:System.Exception.InnerException%2A&gt; &lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If so, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt; property to obtain the specific error code, and refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">В этом случае используйте &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt;свойство для получения определенного кода ошибки и ссылки на подробное описание ошибки документации по кодам ошибок API Windows Sockets версии 2 в библиотеке MSDN.&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A&gt;</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Byte&gt; that is the location in memory to store data read from the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Массив объектов типа &lt;xref:System.Byte&gt;это расположение в памяти для хранения данных, считанных из <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>The location in <ph id="ph1">`buffer`</ph> to begin storing the data to.</source>
+          <target state="translated">Расположение в <ph id="ph1">`buffer`</ph> начинается сохранение данных.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>The number of bytes to read from the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Число байтов, считываемых из <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The number of bytes read from the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Количество прочитанных байтов из <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">buffer</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">buffer</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than 0.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept> Параметр меньше 0.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than the length of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">buffer</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept> параметр больше, чем длина <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">buffer</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">size</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than 0.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">size</ph> <ept id="p1">&lt;/code&gt;</ept> параметр меньше 0.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">size</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than the length of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">buffer</ph><ept id="p2">&lt;/code&gt;</ept> minus the value of the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">offset</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">size</ph> <ept id="p1">&lt;/code&gt;</ept> параметр больше, чем длина <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">buffer</ph> <ept id="p2">&lt;/code&gt;</ept> минус значение <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph3">offset</ph> <ept id="p3">&lt;/code&gt;</ept> параметра.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>-or-       An error occurred when accessing the socket.</source>
+          <target state="translated">- или - произошла ошибка при обращении к сокету.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">Дополнительные сведения см.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The underlying &lt;xref:System.Net.Sockets.Socket&gt; is closed.</source>
+          <target state="translated">Базовый &lt;xref:System.Net.Sockets.Socket&gt;закрыт.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Закрыт.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>-or-       There is a failure reading from the network.</source>
+          <target state="translated">- или - ошибка при чтении из сети.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> can be read.</source>
+          <target state="translated">Возвращает или задает значение, указывающее, является ли <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> могут быть прочитаны.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must derive from the &lt;xref:System.Net.Sockets.NetworkStream&gt; class to use the Readable property.</source>
+          <target state="translated">Должен быть производным от &lt;xref:System.Net.Sockets.NetworkStream&gt;класс, используемый для чтения свойство.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Readable is <ph id="ph1">`true`</ph>, &lt;xref:System.Net.Sockets.NetworkStream&gt; allows calls to the &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt; method.</source>
+          <target state="translated">Если доступная для чтения <ph id="ph1">`true`</ph>, &lt;xref:System.Net.Sockets.NetworkStream&gt;разрешает вызовы &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.Read%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also determine whether a &lt;xref:System.Net.Sockets.NetworkStream&gt; is readable by checking the publicly accessible &lt;xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt; property.</source>
+          <target state="translated">Можно также определить ли &lt;xref:System.Net.Sockets.NetworkStream&gt;доступен для чтения, путем проверки общедоступного &lt;xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt;свойство.&lt;/xref:System.Net.Sockets.NetworkStream.CanRead%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Readable property is set when the &lt;xref:System.Net.Sockets.NetworkStream&gt; is initialized.</source>
+          <target state="translated">Доступное для чтения свойство устанавливается, когда &lt;xref:System.Net.Sockets.NetworkStream&gt;инициализируется.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> can be read; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Чтобы указать, что <bpt id="p2">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> можно считать; в противном случае — <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>Gets or sets the amount of time that a read operation blocks waiting for data.</source>
+          <target state="translated">Возвращает или задает количество времени, которое блокирует операцию чтения, ожидание данных.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the read operation does not complete within the time specified by this property, the read operation throws an &lt;xref:System.IO.IOException&gt;.</source>
+          <target state="translated">Если операция чтения не завершается в течение времени, заданного этим свойством, операции чтения вызывает &lt;xref:System.IO.IOException&gt;.&lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This property affects only synchronous reads performed by calling the &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt; method.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек это свойство влияет только синхронных операций чтения, выполненных вызов &lt;xref:System.Net.Sockets.NetworkStream.Read%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.Read%2A&gt;</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property does not affect asynchronous reads performed by calling the &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt; method.</source>
+          <target state="translated">Это свойство не влияет на асинхронных операций чтения, выполненных вызов &lt;xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.BeginRead%2A&gt;</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Int32&gt; that specifies the amount of time, in milliseconds, that will elapse before a read operation fails.</source>
+          <target state="translated">Объект &lt;xref:System.Int32&gt;задает количество времени, в миллисекундах, по истечении которого происходит сбой операции чтения.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The default value, &lt;xref:System.Threading.Timeout.Infinite&gt;, specifies that the read operation does not time out.</source>
+          <target state="translated">Значение по умолчанию &lt;xref:System.Threading.Timeout.Infinite&gt;, указывает, что операции чтения время ожидания не истекает.&lt;/xref:System.Threading.Timeout.Infinite&gt;</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>The value specified is less than or equal to zero and is not &lt;xref:System.Threading.Timeout.Infinite&gt;.</source>
+          <target state="translated">Указанное значение меньше или равно нулю и не &lt;xref:System.Threading.Timeout.Infinite&gt;.&lt;/xref:System.Threading.Timeout.Infinite&gt;</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Sets the current position of the stream to the given value.</source>
+          <target state="translated">Задает текущую позицию потока на заданное значение.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>This method is not currently supported and always throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Этот метод не поддерживается и всегда вызывает исключение &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>This parameter is not used.</source>
+          <target state="translated">Этот параметр не используется.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>This parameter is not used.</source>
+          <target state="translated">Этот параметр не используется.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>The position in the stream.</source>
+          <target state="translated">Позиция в потоке.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Any use of this property.</source>
+          <target state="translated">Любое использование этого свойства.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>Sets the length of the stream.</source>
+          <target state="translated">Задает длину потока.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>This method always throws a &lt;xref:System.NotSupportedException&gt;.</source>
+          <target state="translated">Этот метод всегда создает исключение &lt;xref:System.NotSupportedException&gt;.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>This parameter is not used.</source>
+          <target state="translated">Этот параметр не используется.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Any use of this property.</source>
+          <target state="translated">Любое использование этого свойства.</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>Gets the underlying &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">Возвращает базовый &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes deriving from &lt;xref:System.Net.Sockets.NetworkStream&gt; can use this property to get the underlying &lt;xref:System.Net.Sockets.Socket&gt;.</source>
+          <target state="translated">Классы, производные от &lt;xref:System.Net.Sockets.NetworkStream&gt;можно использовать это свойство для получения базовых &lt;xref:System.Net.Sockets.Socket&gt;.&lt;/xref:System.Net.Sockets.Socket&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the underlying &lt;xref:System.Net.Sockets.Socket&gt; returned from the Socket property if you require access beyond that which &lt;xref:System.Net.Sockets.NetworkStream&gt; provides.</source>
+          <target state="translated">Используйте основной &lt;xref:System.Net.Sockets.Socket&gt;возвращается из свойства сокета, если требуется доступ, выходящих за пределы которой &lt;xref:System.Net.Sockets.NetworkStream&gt;предоставляет.&lt;/xref:System.Net.Sockets.NetworkStream&gt; &lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This property is accessible only through this class or a derived class.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек это свойство доступно только с помощью этого класса или производного класса.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Net.Sockets.Socket&gt; that represents the underlying network connection.</source>
+          <target state="translated">Объект &lt;xref:System.Net.Sockets.Socket&gt;, представляющий на базовое сетевое подключение.&lt;/xref:System.Net.Sockets.Socket&gt;</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Writes data to the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Записывает данные в <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Write method starts at the specified <ph id="ph1">`offset`</ph> and sends <ph id="ph2">`size`</ph> bytes from the contents of <ph id="ph3">`buffer`</ph> to the network.</source>
+          <target state="translated">Метод записи начинается с указанного <ph id="ph1">`offset`</ph> и отправляет <ph id="ph2">`size`</ph> байт из содержимого <ph id="ph3">`buffer`</ph> к сети.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Write method blocks until the requested number of bytes is sent or a &lt;xref:System.Net.Sockets.SocketException&gt; is thrown.</source>
+          <target state="translated">Метод записи блокируется, пока не будет передано запрошенное количество байтов или &lt;xref:System.Net.Sockets.SocketException&gt;возникает исключение.&lt;/xref:System.Net.Sockets.SocketException&gt;</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you receive a &lt;xref:System.Net.Sockets.SocketException&gt;, use the &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; property to obtain the specific error code, and refer to the Windows Sockets version 2 API error code documentation in MSDN for a detailed description of the error.</source>
+          <target state="translated">При получении &lt;xref:System.Net.Sockets.SocketException&gt;, используйте &lt;xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt;свойство для получения определенного кода ошибки и ссылки на подробное описание ошибки документации по кодам ошибок API Windows Sockets версии 2 в библиотеке MSDN.&lt;/xref:System.Net.Sockets.SocketException.ErrorCode%2A?displayProperty=fullName&gt; &lt;/xref:System.Net.Sockets.SocketException&gt;</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Check to see if the &lt;xref:System.Net.Sockets.NetworkStream&gt; is writable by accessing the &lt;xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt; property.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек проверьте &lt;xref:System.Net.Sockets.NetworkStream&gt;доступен для записи, обратившись к &lt;xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt;свойство.&lt;/xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you attempt to write to a &lt;xref:System.Net.Sockets.NetworkStream&gt; that is not writable, you will get an &lt;xref:System.IO.IOException&gt;.</source>
+          <target state="translated">При попытке записи &lt;xref:System.Net.Sockets.NetworkStream&gt;защищены от записи, вы получите &lt;xref:System.IO.IOException&gt;.&lt;/xref:System.IO.IOException&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you receive an &lt;xref:System.IO.IOException&gt;, check the &lt;xref:System.Exception.InnerException%2A&gt; property to determine if it was caused by a &lt;xref:System.Net.Sockets.SocketException&gt;.</source>
+          <target state="translated">Если появляется &lt;xref:System.IO.IOException&gt;Проверьте &lt;xref:System.Exception.InnerException%2A&gt;свойство, чтобы определить, если она была вызвана &lt;xref:System.Net.Sockets.SocketException&gt;.&lt;/xref:System.Net.Sockets.SocketException&gt; &lt;/xref:System.Exception.InnerException%2A&gt; &lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Byte&gt; that contains the data to write to the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Массив объектов типа &lt;xref:System.Byte&gt;, содержащий данные для записи <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>The location in <ph id="ph1">`buffer`</ph> from which to start writing data.</source>
+          <target state="translated">Расположение в <ph id="ph1">`buffer`</ph> из которого записываются данные.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>The number of bytes to write to the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Число байтов для записи <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">buffer</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">buffer</ph><ept id="p1">&lt;/code&gt;</ept> parameter is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than 0.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept> Параметр меньше 0.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">offset</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than the length of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">buffer</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">offset</ph> <ept id="p1">&lt;/code&gt;</ept> параметр больше, чем длина <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">buffer</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">size</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than 0.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">size</ph> <ept id="p1">&lt;/code&gt;</ept> параметр меньше 0.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">size</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than the length of <bpt id="p2">&lt;code&gt;</bpt><ph id="ph2">buffer</ph><ept id="p2">&lt;/code&gt;</ept> minus the value of the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph3">offset</ph><ept id="p3">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">- или - <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">size</ph> <ept id="p1">&lt;/code&gt;</ept> параметр больше, чем длина <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph2">buffer</ph> <ept id="p2">&lt;/code&gt;</ept> минус значение <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph3">offset</ph> <ept id="p3">&lt;/code&gt;</ept> параметра.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>There was a failure while writing to the network.</source>
+          <target state="translated">Произошла ошибка при записи в сеть.</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>-or-       An error occurred when accessing the socket.</source>
+          <target state="translated">- или - произошла ошибка при обращении к сокету.</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for more information.</source>
+          <target state="translated">Дополнительные сведения см.</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Закрыт.</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>-or-       There was a failure reading from the network.</source>
+          <target state="translated">- или - произошла ошибка при чтении из сети.</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is writable.</source>
+          <target state="translated">Возвращает значение, указывающее, является ли <bpt id="p1">&lt;xref href="System.Net.Sockets.NetworkStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> доступен для записи.</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must derive from the &lt;xref:System.Net.Sockets.NetworkStream&gt; class to use the Writeable property.</source>
+          <target state="translated">Должен быть производным от &lt;xref:System.Net.Sockets.NetworkStream&gt;класс, используемый для записи свойства.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Writeable is <ph id="ph1">`true`</ph>, &lt;xref:System.Net.Sockets.NetworkStream&gt; allows calls to the &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt; method.</source>
+          <target state="translated">Если Writeable <ph id="ph1">`true`</ph>, &lt;xref:System.Net.Sockets.NetworkStream&gt;разрешает вызовы &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.Write%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also determine whether a &lt;xref:System.Net.Sockets.NetworkStream&gt; is writable by checking the publicly accessible &lt;xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt; property.</source>
+          <target state="translated">Можно также определить ли &lt;xref:System.Net.Sockets.NetworkStream&gt;доступен для записи, путем проверки общедоступного &lt;xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt;свойство.&lt;/xref:System.Net.Sockets.NetworkStream.CanWrite%2A&gt; &lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Writeable property is set when the &lt;xref:System.Net.Sockets.NetworkStream&gt; is initialized.</source>
+          <target state="translated">Если задано свойство Writeable &lt;xref:System.Net.Sockets.NetworkStream&gt;инициализируется.&lt;/xref:System.Net.Sockets.NetworkStream&gt;</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if data can be written to the stream; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Если данные могут быть записаны в поток; в противном случае <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>Gets or sets the amount of time that a write operation blocks waiting for data.</source>
+          <target state="translated">Возвращает или задает количество времени, которое блокирует операцию записи, ожидание данных.</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the write operation does not complete within the time specified by this property, the write operation throws a &lt;xref:System.IO.IOException&gt;.</source>
+          <target state="translated">Если операция записи не завершается в течение времени, заданного этим свойством, операция записи вызывает &lt;xref:System.IO.IOException&gt;.&lt;/xref:System.IO.IOException&gt;</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This property affects only synchronous write operations performed by calling the &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt; method.</source>
+          <target state="translated">Настроек <ph id="ph1">[!NOTE]</ph> настроек это свойство влияет только синхронной записи операций путем вызова &lt;xref:System.Net.Sockets.NetworkStream.Write%2A&gt;метод.&lt;/xref:System.Net.Sockets.NetworkStream.Write%2A&gt;</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property does not affect asynchronous writes performed by calling the &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt; method.</source>
+          <target state="translated">Это свойство не влияет на асинхронных операций записи при вызове &lt;xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;метода.&lt;/xref:System.Net.Sockets.NetworkStream.BeginWrite%2A&gt;</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Int32&gt; that specifies the amount of time, in milliseconds, that will elapse before a write operation fails.</source>
+          <target state="translated">Объект &lt;xref:System.Int32&gt;задает количество времени, в миллисекундах, по истечении которого происходит сбой операции записи.&lt;/xref:System.Int32&gt;</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>The default value, &lt;xref:System.Threading.Timeout.Infinite&gt;, specifies that the write operation does not time out.</source>
+          <target state="translated">Значение по умолчанию &lt;xref:System.Threading.Timeout.Infinite&gt;, указывает, что операция записи время ожидания не истекает.&lt;/xref:System.Threading.Timeout.Infinite&gt;</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>The value specified is less than or equal to zero and is not &lt;xref:System.Threading.Timeout.Infinite&gt;.</source>
+          <target state="translated">Указанное значение меньше или равно нулю и не &lt;xref:System.Threading.Timeout.Infinite&gt;.&lt;/xref:System.Threading.Timeout.Infinite&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

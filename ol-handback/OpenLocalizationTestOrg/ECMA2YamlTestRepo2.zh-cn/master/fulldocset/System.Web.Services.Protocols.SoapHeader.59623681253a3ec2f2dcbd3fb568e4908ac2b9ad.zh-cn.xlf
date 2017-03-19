@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">794e7ed6ede7700f78ce7673a2ee37bdaba24d1f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Services.Protocols.SoapHeader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3dae021eb7ab82d5736db4430914890dce621001</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b003cd28596535c6d24304ccd5075a885c27a619</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, represents the content of a SOAP header.</source>
+          <target state="translated">当在派生类中重写，则表示 SOAP 标头的内容。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>SOAP headers offer a method for passing data to and from an XML Web service method if the data is not directly related to the XML Web service method's primary functionality.</source>
+          <target state="translated">SOAP 标头提供了用于传递数据传入和传出 XML Web 服务方法，如果数据不与 XML Web service 方法的主要功能直接相关的方法。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>For instance, an XML Web service might contain several XML Web service methods that each require a custom authentication scheme.</source>
+          <target state="translated">例如，XML Web 服务可能包含多个 XML Web 服务方法，每个需要自定义身份验证方案。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Instead of adding parameters to each XML Web service method for the custom authentication scheme, a &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt;, referring to a class deriving from SoapHeader, can be applied to each XML Web service method.</source>
+          <target state="translated">而不是将参数添加到自定义身份验证方案中，每个 XML Web service 方法&lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt;、 参考 SoapHeader 从派生类，可以应用到每个 XML Web service 方法。&lt;/xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>The implementation for the class deriving from SoapHeader handles the custom authentication scheme.</source>
+          <target state="translated">从 SoapHeader 派生的类的实现处理的自定义身份验证方案。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>In this manner, the XML Web service method implements only the functionality specific to it and adds additional functionality using a SOAP header.</source>
+          <target state="translated">这种方式，XML Web 服务方法实现特定于它的功能，并添加了使用 SOAP 标头的其他功能。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following list outlines the basic steps to receiving and processing a SOAP header:      1.</source>
+          <target state="translated">以下列表概述了与接收和处理的 SOAP 标头的基本步骤︰ 1。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Create a class that derives from SoapHeader representing the data passed into the SOAP header.</source>
+          <target state="translated">创建一个派生自 SoapHeader 表示传入的 SOAP 标头的数据的类。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Add a member to the class implementing an XML Web service or an XML Web service client proxy class, of the type created in the first step.</source>
+          <target state="translated">将成员添加到实现 XML Web 服务的类或 XML Web 服务客户端代理类，在第一步中创建的类型。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Apply a &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt; to the XML Web service method or the corresponding method in the proxy class, specifying the member created in the second step in the &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt; property.</source>
+          <target state="translated">应用&lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt;为 XML Web service 方法或代理类中的相应方法，指定该成员在第二步中创建&lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt;属性。&lt;/xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapHeaderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Within the XML Web service method or XML Web service client code, access the &lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt; property to process the data sent in the SOAP header.</source>
+          <target state="translated">在 XML Web service 方法或 XML Web 服务客户端代码中，访问&lt;xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt;属性来处理的 SOAP 标头中发送的数据。&lt;/xref:System.Web.Services.Protocols.SoapHeaderAttribute.MemberName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets the recipient of the SOAP header.</source>
+          <target state="translated">获取或设置的 SOAP 标头的接收方。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To set the recipient of a SOAP header, set the Actor property.</source>
+          <target state="translated">若要设置的 SOAP 标头的接收方，设置参与者属性。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Regardless of the version of the SOAP protocol used to communicate with an XML Web service, the .NET Framework automatically generates the SOAP message specific to the version of the SOAP protocol.</source>
+          <target state="translated">而不考虑与 XML Web 服务进行通信时使用 SOAP 协议的版本，.NET Framework 自动生成特定于 SOAP 协议的版本的 SOAP 消息。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifically, the XML element and XML namespace representing the recipient differ for the two versions.</source>
+          <target state="translated">具体而言，显示的 XML 元素和表示接收方的 XML 命名空间不同的两个版本。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>XML Web services receiving the SOAP header can get the intended recipient by getting either the &lt;xref:System.Web.Services.Protocols.SoapHeader.Role%2A&gt; or Actor properties.</source>
+          <target state="translated">XML Web 服务接收的 SOAP 标头可以获取的目标接收方通过获取任一&lt;xref:System.Web.Services.Protocols.SoapHeader.Role%2A&gt;或 Actor 属性。&lt;/xref:System.Web.Services.Protocols.SoapHeader.Role%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The recipient(s) for the <ph id="ph1">`Body`</ph> element and each of the SOAP headers within the <ph id="ph2">`Header`</ph> element of a SOAP message need not be the same.</source>
+          <target state="translated">为收件人<ph id="ph1">`Body`</ph>元素和每个 SOAP 标头内<ph id="ph2">`Header`</ph>SOAP 消息元素需要不能相同。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>If a <ph id="ph1">`Header`</ph> element exists in the SOAP message, it represents additional data that can be sent to and from the XML Web service method or an intermediary.</source>
+          <target state="translated">如果<ph id="ph1">`Header`</ph>SOAP 消息中存在元素，它表示与 XML Web service 方法或中介可以发送的其他数据。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The recipient of that data, known as the SOAP <ph id="ph1">`Actor`</ph> in version 1.1, can be a different URI than the URI for the XML Web service method.</source>
+          <target state="translated">该数据，称为 SOAP 的接收方<ph id="ph1">`Actor`</ph>在 1.1 版中，可以比 XML Web service 方法的 URI 不同的 URI。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>For more information on the SOAP <ph id="ph1">`actor`</ph> attribute, see the SOAP specification at http://www.w3.org/TR/SOAP/.</source>
+          <target state="translated">有关详细信息 SOAP<ph id="ph1">`actor`</ph>属性，请参阅在 http://www.w3.org/TR/SOAP/ SOAP 规范。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The recipient of the SOAP header.</source>
+          <target state="translated">SOAP 头的接收方。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">默认值为空字符串 ("")。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether an XML Web service method properly processed a SOAP header.</source>
+          <target state="translated">获取或设置一个值，该值指示 XML Web 服务方法是否正确处理的 SOAP 标头。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For SOAP headers defined by an XML Web service, ASP.NET assumes the XML Web service method properly processed the SOAP header by setting the initial value of DidUnderstand to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">为 XML Web 服务定义的 SOAP 标头，ASP.NET 假定 XML Web 服务方法正确处理的 SOAP 标头设置到 DidUnderstand 的初始值<ph id="ph1">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>For SOAP headers not defined by the XML Web service, the initial value is <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">为未定义的 XML Web 服务 SOAP 标头的初始值是<ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>If ASP.NET detects SOAP headers passed to an XML Web service method with DidUnderstand set to <ph id="ph1">`false`</ph> after the method returns, a &lt;xref:System.Web.Services.Protocols.SoapHeaderException&gt; is thrown back to the XML Web service client instead of the results from the XML Web service method.</source>
+          <target state="translated">如果 ASP.NET 检测到 SOAP 标头设置为 DidUnderstand 与传递到 XML Web 服务方法<ph id="ph1">`false`</ph>该方法返回后即&lt;xref:System.Web.Services.Protocols.SoapHeaderException&gt;返回调用而不是结果的 XML Web 服务客户端从 XML Web 服务方法。&lt;/xref:System.Web.Services.Protocols.SoapHeaderException&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the SOAP header was properly processed; otherwise <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果正确处理的 SOAP 标头;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> XML attribute for the SOAP header when communicating with SOAP protocol version 1.1.</source>
+          <target state="translated">获取或设置的值<bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的 SOAP 标头与 SOAP 协议版本 1.1 通信时的 XML 属性。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Do not use this property.</source>
+          <target state="translated">不要使用此属性。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Instead use the &lt;xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt; property.</source>
+          <target state="translated">改用&lt;xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt;属性。&lt;/xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> attribute.</source>
+          <target state="translated">值<bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>属性。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The default is "0".</source>
+          <target state="translated">默认值为"0"。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The property is set to a value other than: "0", "1", "true", or "false".</source>
+          <target state="translated">属性设置为值:"0"、"1"、"true"或"false"。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value of the <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> XML attribute for the SOAP header when communicating with SOAP protocol version 1.2.</source>
+          <target state="translated">获取或设置的值<bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>的 SOAP 标头与 SOAP 协议版本 1.2 通信时的 XML 属性。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Do not use this property.</source>
+          <target state="translated">不要使用此属性。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Instead use the &lt;xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt; property.</source>
+          <target state="translated">改用&lt;xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt;属性。&lt;/xref:System.Web.Services.Protocols.SoapHeader.MustUnderstand%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> XML attribute of a SOAP header.</source>
+          <target state="translated">值<bpt id="p1">&lt;xref uid="langword_csharp_mustUnderstand" name="mustUnderstand" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> SOAP 标头的 XML 属性。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The default is "0".</source>
+          <target state="translated">默认值为"0"。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The property is set to a value other than: "0", "1", "true", or "false".</source>
+          <target state="translated">属性设置为值:"0"、"1"、"true"或"false"。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets or sets the relay attribute of the SOAP 1.2 header.</source>
+          <target state="translated">获取或设置 SOAP 1.2 标头的中继属性。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The EncodedRelay property applies only to SOAP 1.2 and indicates whether the recipient of the message forwards this header when it forwards the message to the next node downstream.</source>
+          <target state="translated">EncodedRelay 属性仅适用于 SOAP 1.2，并指示它转发到下游的下一个节点消息时，消息的接收方是否转发此标头。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Because the .NET Framework does not support SOAP intermediaries, this property is serialized and deserialized but ignored.</source>
+          <target state="translated">.NET Framework 不支持 SOAP 媒介，因为此属性是序列化和反序列化但忽略。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Either "0", "false", "1", or "true".</source>
+          <target state="translated">任一"0"，"false"、"1"或"true"。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> must be understood.</source>
+          <target state="translated">获取或设置一个值，该值指示是否<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>必须理解。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the XML Web service must properly interpret and process the <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果 XML Web 服务必须正确解释和处理<bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapHeader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>; 否则为<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the SOAP header is to be relayed to the next SOAP node if the current node does not understand the header.</source>
+          <target state="translated">获取或设置一个值，该值指示是否要中继到下一个 SOAP 节点中，如果当前节点无法理解标头的 SOAP 标头。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The default SOAP 1.2 processing rules require SOAP nodes to remove headers that are not understood by the SOAP processing node before passing the message on to the next node.</source>
+          <target state="translated">默认 SOAP 1.2 处理规则需要 SOAP 节点进行删除然后再将传递到下一个节点的消息的 SOAP 处理节点不理解的标头。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the SOAP header has a "relay" attribute set to "true"; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果 SOAP 标头中包含"中继"属性设置为"true";否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets the recipient of the SOAP header.</source>
+          <target state="translated">获取或设置的 SOAP 标头的接收方。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To set the recipient of a SOAP header, set the &lt;xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt; property.</source>
+          <target state="translated">若要设置的 SOAP 标头的接收方，设置&lt;xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt;属性。&lt;/xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Regardless of the version of the SOAP protocol used to communicate with an XML Web service, the .NET Framework automatically generates the SOAP message specific to the version of the SOAP protocol.</source>
+          <target state="translated">而不考虑与 XML Web 服务进行通信时使用 SOAP 协议的版本，.NET Framework 自动生成特定于 SOAP 协议的版本的 SOAP 消息。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Specifically, the XML element and XML namespace representing the recipient differ for the two versions.</source>
+          <target state="translated">具体而言，显示的 XML 元素和表示接收方的 XML 命名空间不同的两个版本。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>XML Web services receiving the SOAP header can get the intended recipient by getting either the Role or &lt;xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt; properties.</source>
+          <target state="translated">XML Web 服务接收的 SOAP 标头可以获取的目标接收方通过获取任一角色或&lt;xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt;属性。&lt;/xref:System.Web.Services.Protocols.SoapHeader.Actor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The recipient(s) for the <ph id="ph1">`Body`</ph> element and each of the SOAP headers within the <ph id="ph2">`Header`</ph> element of a SOAP message need not be the same.</source>
+          <target state="translated">为收件人<ph id="ph1">`Body`</ph>元素和每个 SOAP 标头内<ph id="ph2">`Header`</ph>SOAP 消息元素需要不能相同。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If a <ph id="ph1">`Header`</ph> element exists in the SOAP message, it represents additional data that can be sent to and from the XML Web service method or an intermediary.</source>
+          <target state="translated">如果<ph id="ph1">`Header`</ph>SOAP 消息中存在元素，它表示与 XML Web service 方法或中介可以发送的其他数据。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The recipient of that data, known as the SOAP <ph id="ph1">`Role`</ph> in version 1.2 of the SOAP specification and the SOAP <ph id="ph2">`Actor`</ph> in version 1.1, can be a different URI than the URI for the XML Web service method.</source>
+          <target state="translated">该数据，称为 SOAP 的接收方<ph id="ph1">`Role`</ph>版本的 SOAP 规范和 SOAP 1.2 中<ph id="ph2">`Actor`</ph>在 1.1 版中，可以比 XML Web service 方法的 URI 不同的 URI。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For more information on the SOAP <ph id="ph1">`actor`</ph> attribute, see the SOAP specification at http://www.w3.org/TR/SOAP/.</source>
+          <target state="translated">有关详细信息 SOAP<ph id="ph1">`actor`</ph>属性，请参阅在 http://www.w3.org/TR/SOAP/ SOAP 规范。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>A URI that represents the recipient of the SOAP header.</source>
+          <target state="translated">一个 URI，表示 SOAP 标头的接收方。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">默认值为空字符串 ("")。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
