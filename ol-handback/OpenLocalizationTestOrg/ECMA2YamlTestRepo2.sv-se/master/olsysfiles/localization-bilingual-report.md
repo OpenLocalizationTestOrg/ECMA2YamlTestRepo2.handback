@@ -1,30 +1,11 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [fulldocset\System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.yml) | InSyncHandedBackSuccess | [Details](#e0e25dd1de1a29eefdbdca5da08f4b005e7c013483050)
 
 ## Item Details
-##### <a name='e0e25dd1de1a29eefdbdca5da08f4b005e7c013483050'></a> Source: [fulldocset\System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2/blob/9a577bbd8ead778fd4723fbdbce691e69b3b14d4/fulldocset/System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.yml)
-* Status: InSyncHandedBackSuccess
-* Target File: [fulldocset\System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.yml](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.sv-se/blob/f350fdc005735e5cb88e1592e2fd4826abb6487e/fulldocset/System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.yml)
-* Handoff File: [System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.16c10a89b442a1443779b34a0d6f07c4445fee1e.sv-se.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handoff/blob/781482d297b8b1d38838677f99034b1318de6629/ol-handoff/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.sv-se/master/fulldocset/System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.16c10a89b442a1443779b34a0d6f07c4445fee1e.sv-se.xlf)
-* Handoff Datetime: 2017-03-16 04:48:53
-* Handoff Reason: Include
-* Handoff Name: 
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.16c10a89b442a1443779b34a0d6f07c4445fee1e.sv-se.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b6147b450e5922b738d5a4602f0384e7043f4bff/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.sv-se/master/fulldocset/System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.16c10a89b442a1443779b34a0d6f07c4445fee1e.sv-se.xlf)
-* Handback Datetime: 2017-03-19 20:21:32
-* Handback Name: ECMA2YamlTestRepo2_HT_OL#CPub#20170317T091258-ko-kr-nb-no-nl-nl-pl-pl-pt-br-pt-pt-ru-ru-sv-se-zh-cn-zh-tw
-* Bilingual File: [System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.16c10a89b442a1443779b34a0d6f07c4445fee1e.sv-se.xlf](https://github.com/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.handback/blob/b6147b450e5922b738d5a4602f0384e7043f4bff/ol-handback/OpenLocalizationTestOrg/ECMA2YamlTestRepo2.sv-se/master/fulldocset/System.Web.UI.WebControls.Adapters.HideDisabledControlAdapter.16c10a89b442a1443779b34a0d6f07c4445fee1e.sv-se.xlf)
-* Bilingual Datetime: 2017-03-19 20:38:47
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
