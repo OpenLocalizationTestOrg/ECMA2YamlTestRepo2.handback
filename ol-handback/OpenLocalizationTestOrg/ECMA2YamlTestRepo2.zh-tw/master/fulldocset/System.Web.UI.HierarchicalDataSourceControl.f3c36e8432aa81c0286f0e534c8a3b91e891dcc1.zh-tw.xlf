@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ae57a649531c96bdae4b358bb3d6b15487f94ab</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.HierarchicalDataSourceControl.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">71e79e9bd648241e5a1ea80606149147f14940a9</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ed260eae41b1315699b105eaa04ef471b09e3367</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for data source controls that represent hierarchical data.</source>
+          <target state="translated">提供代表階層式資料的資料來源控制項的基底類別。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ASP.NET supports a controls data-binding architecture that enables Web server controls to bind to data and present it in a consistent fashion.</source>
+          <target state="translated">ASP.NET 支援的控制項資料繫結架構，可讓 Web 伺服器控制項繫結至資料，並加以呈現一致的方式。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Web server controls that bind to data are called data-bound controls, and the classes that facilitate binding are called data source controls.</source>
+          <target state="translated">繫結至資料的 web 伺服器控制項的稱為資料繫結控制項，並協助繫結的類別稱為資料來源控制項。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Data source controls can represent any data source: a file, a stream, a relational database, a business object, and so on.</source>
+          <target state="translated">資料來源控制項可以表示任何資料來源︰ 檔案、 資料流、 關聯式資料庫、 商務物件等等。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Data source controls present data in a consistent way to data-bound controls, regardless of the source or format of the underlying data.</source>
+          <target state="translated">資料繫結控制項，不論來源或基礎資料的格式一致的方式中的資料來源控制項呈現資料。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Data source controls that represent hierarchical data derive from the HierarchicalDataSourceControl class, while data source controls that represent lists or tables of data derive from the &lt;xref:System.Web.UI.DataSourceControl&gt; class.</source>
+          <target state="translated">代表階層式資料的資料來源控制項衍生自 HierarchicalDataSourceControl 類別，代表清單的資料來源控制項時，或資料表的資料衍生自該&lt;xref:System.Web.UI.DataSourceControl&gt;類別。&lt;/xref:System.Web.UI.DataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The HierarchicalDataSourceControl class is the base implementation of the &lt;xref:System.Web.UI.IHierarchicalDataSource&gt; interface, which defines a single method to retrieve hierarchical data source view objects associated with the data source control, &lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;.</source>
+          <target state="translated">HierarchicalDataSourceControl 類別是基底實作的&lt;xref:System.Web.UI.IHierarchicalDataSource&gt;介面，而後者可定義一個方法，以擷取階層式資料來源檢視物件相關聯資料來源控制項&lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;.&lt;/xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt; &lt;/xref:System.Web.UI.IHierarchicalDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can think of a data source control as the combination of the HierarchicalDataSourceControl object and its associated views on the underlying data, called data source view objects.</source>
+          <target state="translated">您可以視為資料來源控制項之 HierarchicalDataSourceControl 物件和其相關聯的檢視，在基礎資料上，稱為資料來源檢視物件的組合。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>While data source controls that represent tabular data are typically associated with only one named view, the HierarchicalDataSourceControl class supports a data source view for each level of hierarchical data that the data source control represents.</source>
+          <target state="translated">表示表格式資料的資料來源控制項通常只有一個具名的檢視與相關聯時，HierarchicalDataSourceControl 類別支援資料來源檢視的資料來源控制項所代表的階層式資料的每個層級。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The level of hierarchical data is identified by a unique hierarchical path, passed to the &lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt; method in the <ph id="ph1">`viewPath`</ph> parameter.</source>
+          <target state="translated">階層式資料的層級由唯一的階層式路徑，傳遞至&lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;方法中的<ph id="ph1">`viewPath`</ph>參數。&lt;/xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Each &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt; object defines the capabilities of a data source control for the hierarchical level represented, and performs operations such as insert, update, delete, and sort.</source>
+          <target state="translated">每個&lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;物件定義的資料來源控制項表示，階層的層級的功能，並執行例如 insert、 update、 delete 和排序作業。&lt;/xref:System.Web.UI.HierarchicalDataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Web server controls that derive from the &lt;xref:System.Web.UI.WebControls.HierarchicalDataBoundControl&gt; class, such as &lt;xref:System.Web.UI.WebControls.TreeView&gt;, use hierarchical data source controls to bind to hierarchical data.</source>
+          <target state="translated">Web 伺服器控制項衍生自&lt;xref:System.Web.UI.WebControls.HierarchicalDataBoundControl&gt;類別，例如&lt;xref:System.Web.UI.WebControls.TreeView&gt;，使用階層式資料來源控制項繫結至階層式資料。&lt;/xref:System.Web.UI.WebControls.TreeView&gt; &lt;/xref:System.Web.UI.WebControls.HierarchicalDataBoundControl&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Data source controls are implemented as controls to enable declarative persistence and to optionally permit participation in state management.</source>
+          <target state="translated">資料來源控制項會實作為控制項，讓宣告式的持續性，並選擇性地允許參與狀態管理。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Data source controls have no visual rendering, and therefore do not support themes.</source>
+          <target state="translated">資料來源控制項沒有視覺化呈現，並因此不支援佈景主題。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Applies the style properties that are defined in the page style sheet to the control.</source>
+          <target state="translated">套用至控制項的頁面樣式表中所定義的樣式屬性。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the control.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>包含控制項。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets the server control identifier generated by ASP.NET.</source>
+          <target state="translated">取得 ASP.NET 所產生的伺服器控制項識別碼。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The server control identifier generated by ASP.NET.</source>
+          <target state="translated">產生的 ASP.NET 伺服器控制項的識別碼。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This property is not used for data source controls.</source>
+          <target state="translated">這個屬性不使用資料來源控制項。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This property of the &lt;xref:System.Web.UI.Control&gt; base class is not used for data source controls because data source controls do not render markup.</source>
+          <target state="translated">這個屬性的&lt;xref:System.Web.UI.Control&gt;基底類別不會用於資料來源控制項因為資料來源控制項不會呈現標記。&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This property is not used for data source controls.</source>
+          <target state="translated">這個屬性不使用資料來源控制項。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the child controls for a specified server control in the UI hierarchy.</source>
+          <target state="translated">取得<bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示 UI 階層架構中指定的伺服器控制項的子控制項的物件。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The collection of child controls for the specified server control.</source>
+          <target state="translated">指定的伺服器控制項的子控制項的集合。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to hold the child controls (both literal and server) of the server control.</source>
+          <target state="translated">建立新<bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件來保存伺服器控制項的子控制項 （常值和伺服器）。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The CreateControlCollection method is overridden by the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class to prevent child controls from being added.</source>
+          <target state="translated">CreateControlCollection 方法會覆寫&lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;類別，以防止加入子控制項。&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.EmptyControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that prevents any child controls from being added.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.EmptyControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，防止加入任何子控制項。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this control supports themes.</source>
+          <target state="translated">取得值，指出這個控制項是否支援佈景主題。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class has no visual rendering, it does not support themes.</source>
+          <target state="translated">因為&lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;類別沒有視覺化呈現，不支援佈景主題。&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在所有情況下。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the EnableTheming property.</source>
+          <target state="translated">嘗試設定 EnableTheming 屬性的值。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Searches the current naming container for a server control with the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">id</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">搜尋具有指定的伺服器控制項目前命名容器<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">id</ph> <ept id="p1">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The identifier for the control to be found.</source>
+          <target state="translated">要找的控制項識別碼。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The specified control, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified control does not exist.</source>
+          <target state="translated">指定的控制項，或<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果指定的控制項不存在。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Sets input focus to the control.</source>
+          <target state="translated">設定輸入焦點至控制項。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class has no visual rendering, calling the Focus method on it throws a &lt;xref:System.NotSupportedException&gt; exception.</source>
+          <target state="translated">因為&lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;類別具有沒有視覺化呈現，呼叫方法，它會擲回的焦點&lt;xref:System.NotSupportedException&gt;例外狀況。&lt;/xref:System.NotSupportedException&gt; &lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An attempt was made to call the Focus method.</source>
+          <target state="translated">嘗試呼叫焦點方法。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the view helper object for the <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the specified path.</source>
+          <target state="translated">取得檢視協助程式物件<bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>介面指定的路徑。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This GetHierarchicalView method provides the default implementation for the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class, which simply returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">這個 GetHierarchicalView 方法提供的預設實作&lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;類別，只會傳回<ph id="ph1">`null`</ph>。&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Classes that derive from the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class override this method and provide an implementation to return a strongly typed view that derives from &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;.</source>
+          <target state="translated">類別衍生自&lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;類別覆寫這個方法，並提供實作以傳回衍生自&lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;.&lt;/xref:System.Web.UI.HierarchicalDataSourceView&gt;強型別的檢視&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The hierarchical path of the view to retrieve.</source>
+          <target state="translated">要擷取之檢視的階層式路徑。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents a single view of the data at the hierarchical level identified by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">viewPath</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，代表所識別層級階層式資料的單一檢視<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">viewPath</ph> <ept id="p2">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Determines if the server control contains any child controls.</source>
+          <target state="translated">判斷伺服器控制項是否包含任何子控制項。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control contains other controls; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果控制項包含其他控制項。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource.DataSourceChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">引發<bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource.DataSourceChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>事件。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The OnDataSourceChanged method notifies a data-bound control that the underlying data source or the data cached in memory has changed, that the control should rebind, and that any necessary work should be performed.</source>
+          <target state="translated">OnDataSourceChanged 方法通知基礎資料來源或快取在記憶體中的資料已經變更，控制項應該重新繫結，以及任何所需的工作要執行的資料繫結控制項。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">引發事件會透過委派事件處理常式叫用。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>NIB︰ 引發事件<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The OnDataSourceChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">OnDataSourceChanged 方法也允許衍生的類別處理事件，而不用附加委派。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">這是處理衍生類別中的事件的慣用的技巧。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains event data.</source>
+          <target state="translated">&lt;xref:System.EventArgs&gt;包含事件資料。&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Outputs server control content to a provided <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and stores tracing information about the control if tracing is enabled.</source>
+          <target state="translated">輸出至提供的伺服器控制項內容<bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件並啟用追蹤時儲存控制項的追蹤資訊。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that receives the control content.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>接收控制項內容的物件。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets the skin to apply to the <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">取得或設定要套用至面板<bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>控制項。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; has no visual rendering, it does not support themes or skins.</source>
+          <target state="translated">因為&lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;有任何視覺效果轉譯時，它不支援主題或面板。&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> in all cases.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>在所有情況下。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the SkinID property.</source>
+          <target state="translated">嘗試設定 SkinID 屬性的值。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets the view helper object for the <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the specified path.</source>
+          <target state="translated">取得檢視協助程式物件<bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>介面指定的路徑。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt; method is called by clients when a &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; is manipulated as an &lt;xref:System.Web.UI.IHierarchicalDataSource&gt; interface.</source>
+          <target state="translated">&lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;方法由用戶端呼叫時&lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;操作為&lt;xref:System.Web.UI.IHierarchicalDataSource&gt;介面。&lt;/xref:System.Web.UI.IHierarchicalDataSource&gt; &lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt; &lt;/xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>It delegates to the &lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt; method, which derived classes override to return strongly typed &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt; objects.</source>
+          <target state="translated">它會委派至&lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;方法，衍生類別覆寫以傳回強型別&lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;物件。&lt;/xref:System.Web.UI.HierarchicalDataSourceView&gt; &lt;/xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The hierarchical path of the view to retrieve.</source>
+          <target state="translated">要擷取之檢視的階層式路徑。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents a single view of the data at the hierarchical level identified by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">viewPath</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">傳回<bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，代表所識別層級階層式資料的單一檢視<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">viewPath</ph> <ept id="p2">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the control is visually displayed.</source>
+          <target state="translated">取得或設定值，指出是否以視覺化方式顯示控制項。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class has no visual rendering, Visible always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">因為&lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;類別有沒有視覺化呈現，看得見一律會傳回<ph id="ph1">`false`</ph>。&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>在所有情況下。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the Visible property.</source>
+          <target state="translated">嘗試設定 Visible 屬性的值。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

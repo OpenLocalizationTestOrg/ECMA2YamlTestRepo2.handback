@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b7cc34f4ba3dd5f204326a45aef2983b3020b0b4</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.ReceiveErrorHandling.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2efbcae43ae84e0f58edb8e9211bc9190bf78ee</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eb7506a78c7567753ba03c99378618e11fb8f6ce</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>An enumeration that specifies handling for a poison message.</source>
+          <target state="translated">列舉指定如何處理有害訊息。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>A poison message is a message that fails repeated attempts to deliver to the application.</source>
+          <target state="translated">有害訊息是會嘗試重複傳送至應用程式失敗的訊息。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This is applicable only when using a Message Queuing (MSMQ)-based binding.</source>
+          <target state="translated">只有在使用訊息佇列的 MSMQ 繫結時，這是適用。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">`Fault`</ph>, which faults the listener and therefore the ServiceHost.</source>
+          <target state="translated">預設值是<ph id="ph1">`Fault`</ph>，其中錯誤接聽程式，因此 ServiceHost。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In the case where the service was to fault because of a poison message, a &lt;xref:System.ServiceModel.MsmqPoisonMessageException&gt; is thrown.</source>
+          <target state="translated">在服務所在的情況下有害訊息，因為發生錯誤&lt;xref:System.ServiceModel.MsmqPoisonMessageException&gt;就會擲回。&lt;/xref:System.ServiceModel.MsmqPoisonMessageException&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The exception contains the <ph id="ph1">`LookupId`</ph> of the MSMQ message that can be used to move the message out of the way using System.Messaging API.</source>
+          <target state="translated">例外狀況包含<ph id="ph1">`LookupId`</ph>，可用來移動的方式使用 System.Messaging API 訊息的 MSMQ 訊息。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Certain values of the ReceiveErrorHandling enumeration such as <ph id="ph1">`Reject`</ph> and <ph id="ph2">`Move`</ph> are only available on <ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>.</source>
+          <target state="translated">例如 ReceiveErrorHandling 列舉型別的某些值<ph id="ph1">`Reject`</ph>和<ph id="ph2">`Move`</ph>只可用在<ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You control poison message handling by setting the &lt;xref:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling%2A&gt; property to one of the values of this enumeration.</source>
+          <target state="translated">您可以控制有害訊息處理設定&lt;xref:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling%2A&gt;屬性設為其中的值，這個列舉型別。&lt;/xref:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>This option drops the poison message.</source>
+          <target state="translated">此選項可捨棄有害訊息。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The message never gets delivered to the application.</source>
+          <target state="translated">訊息從未準時傳遞給應用程式。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the message's TTL had already expired at this point, then the message may appear in the sender's Dead Letter Queue.</source>
+          <target state="translated">如果訊息的 TTL 此時已過期，訊息可能會出現在寄件者的寄不出信件佇列中。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If not, the message does not appear anywhere.</source>
+          <target state="translated">如果沒有的話，訊息不會顯示任何地方。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>This option indicates that the user does not really care if the message is lost.</source>
+          <target state="translated">這個選項表示，使用者不在意訊息是否遺失。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Applicable platforms: <ph id="ph1">[!INCLUDE[wxp](~/add/includes/wxp-md.md)]</ph>, <ph id="ph2">[!INCLUDE[ws2003](~/add/includes/ws2003-md.md)]</ph>, and <ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>.</source>
+          <target state="translated">適用平台︰ <ph id="ph1">[!INCLUDE[wxp](~/add/includes/wxp-md.md)]</ph>， <ph id="ph2">[!INCLUDE[ws2003](~/add/includes/ws2003-md.md)]</ph>，和<ph id="ph3">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This option sends a fault to the listener that caused the ServiceHost to fault.</source>
+          <target state="translated">此選項會將錯誤傳送至造成 ServiceHost 失敗的接聽程式。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The message must be removed from the application queue by some external mechanism before the application can continue to process messages from the queue.</source>
+          <target state="translated">訊息必須從佇列中移除應用程式藉由某種外部機制來處理來自佇列的訊息的應用程式才能繼續執行。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Applicable platforms: Windows XP, Windows Server 2003, and Windows Vista.</source>
+          <target state="translated">適用平台︰ Windows XP、 Windows Server 2003 和 Windows Vista。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This moves the poison message to a Poison Message Queue for later processing by a poison message handling application.</source>
+          <target state="translated">這將有害訊息移至有害訊息佇列供稍後處理有害訊息處理應用程式。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Applicable platforms: <ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph> only.</source>
+          <target state="translated">適用平台︰<ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>只。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This instructs MSMQ to send a negative acknowledgement back to the sending queue manager that the message cannot be received by the application.</source>
+          <target state="translated">這會指示 MSMQ 將負值通知傳回傳送佇列管理員在應用程式無法接收訊息。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The message is placed in the sending queue manager's Dead Letter Queue.</source>
+          <target state="translated">訊息會放在傳送的佇列管理員寄不出信件佇列中。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Applicable platforms: <ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph> only.</source>
+          <target state="translated">適用平台︰<ph id="ph1">[!INCLUDE[wv](~/add/includes/wv-md.md)]</ph>只。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

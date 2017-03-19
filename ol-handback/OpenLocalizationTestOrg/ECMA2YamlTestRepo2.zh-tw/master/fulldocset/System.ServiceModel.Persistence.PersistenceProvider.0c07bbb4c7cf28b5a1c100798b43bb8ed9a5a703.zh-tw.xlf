@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">34d137b0bd75e6250459e432410542e249eabdb9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Persistence.PersistenceProvider.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d8597dabcc289fc602c11082b0277bcbdd00df4f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1b87fc190f082c28f889e5f527de7e571b7410f4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The abstract base class from which all durable service persistence providers are derived.</source>
+          <target state="translated">從中衍生所有長期服務持續性提供者的抽象基底類別。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Users can create classes derived from this type to create durable service persistence providers that use custom persistence stores, such as third-party databases, the file system, or storage systems accessed remotely.</source>
+          <target state="translated">使用者可以建立衍生自這個類型建立使用自訂持續性存放區，例如協力廠商資料庫、 檔案系統或從遠端存取的儲存系統的長期服務持續性提供者的類別。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To create a system-provided implementation of this type that uses Microsoft SQL Server as a persistence store, see &lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory&gt;.</source>
+          <target state="translated">若要建立使用 Microsoft SQL Server 持續性存放區作為此類型的系統提供實作，請參閱&lt;xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory&gt;.&lt;/xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When creating persistence provider implementations, it is important to maintain the thread's original identity in the new provider's methods (such as &lt;xref:System.ServiceModel.Persistence.PersistenceProvider.Load%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 時建立持續性提供者實作，請務必維護新的提供者方法 （例如&lt;xref:System.ServiceModel.Persistence.PersistenceProvider.Load%2A&gt;.&lt;/xref:System.ServiceModel.Persistence.PersistenceProvider.Load%2A&gt;執行緒的原始身分識別</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Otherwise, security loopholes could be created, because operations would then run under the wrong identity.</source>
+          <target state="translated">否則安全性漏洞時無法建立，因為作業可能會執行在錯誤的身分識別。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">在衍生類別中實作時，初始化新執行個體<bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The unique identifier of the service state data being saved.</source>
+          <target state="translated">已儲存的服務狀態資料的唯一識別碼。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the beginning of the Create phase.</source>
+          <target state="translated">在衍生類別中實作時，代表 「 建立 」 階段的開始。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Create phase occurs when service instance records are first created in the persistence store.</source>
+          <target state="translated">當服務執行個體記錄首次在持續性存放區中建立時，就會發生 「 建立 」 階段。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The actual instance state.</source>
+          <target state="translated">實際的執行個體的狀態。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">一段時間之後的持續性提供者會中止這次嘗試。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">要在作業完成時呼叫的方法。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">使用者提供的物件，可區別這個特定非同步作業與其他作業。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The state of the BeginCreate asynchronous method call.</source>
+          <target state="translated">BeginCreate 非同步方法呼叫的狀態。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the beginning of the Delete phase.</source>
+          <target state="translated">在衍生類別中實作時，代表 「 刪除 」 階段的開始。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The Delete phase occurs when service state data is permanently deleted from the persistence store.</source>
+          <target state="translated">從持續性存放區永久刪除服務狀態資料時，就會發生 「 刪除 」 階段。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The actual instance state.</source>
+          <target state="translated">實際的執行個體的狀態。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">一段時間之後的持續性提供者會中止這次嘗試。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">要在作業完成時呼叫的方法。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">使用者提供的物件，可區別這個特定非同步作業與其他作業。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The state of the BeginDelete asynchronous method call.</source>
+          <target state="translated">BeginDelete 非同步方法呼叫的狀態。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the beginning of the Load phase.</source>
+          <target state="translated">在衍生類別中實作時，代表 「 載入 」 階段的開始。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The Load phase occurs when state data is loaded into the persistence provider from the persistence store.</source>
+          <target state="translated">狀態資料載入至持續性存放區從持續性提供者時，就會發生 「 載入 」 階段。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">一段時間之後的持續性提供者會中止這次嘗試。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">要在作業完成時呼叫的方法。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">使用者提供的物件，可區別這個特定非同步作業與其他作業。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The state of the BeginLoad asynchronous method call.</source>
+          <target state="translated">BeginLoad 非同步方法呼叫的狀態。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the beginning of the LoadIfChanged phase.</source>
+          <target state="translated">在衍生類別中實作時，代表 LoadIfChanged 階段的開始。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The LoadIfChanged phase occurs when state data is loaded into the persistence provider from the persistence store, and the state data in the persistence store has been changed.</source>
+          <target state="translated">狀態資料載入至持續性存放區中，從持續性提供者和已變更的持續性存放區中的狀態資料時，就會發生 LoadIfChanged 階段。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">一段時間之後的持續性提供者會中止這次嘗試。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The token returned by a previous &lt;xref:System.ServiceModel.Persistence.PersistenceProvider.Create<bpt id="p1">*</bpt>&gt; or &lt;xref:System.ServiceModel.Persistence.PersistenceProvider.Update<ept id="p1">*</ept>&gt; that represents the current state held by the caller.</source>
+          <target state="translated">先前傳回的權杖&lt;&gt; <bpt id="p1">*</bpt>&gt; 或&lt;&gt; <ept id="p1">*</ept>&gt;，代表呼叫端所持有的目前狀態。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">要在作業完成時呼叫的方法。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">使用者提供的物件，可區別這個特定非同步作業與其他作業。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The state of the BeginLoadIfChanged asynchronous method call.</source>
+          <target state="translated">BeginLoadIfChanged 非同步方法呼叫的狀態。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the beginning of the Update phase.</source>
+          <target state="translated">在衍生類別中實作時，代表 「 更新 」 階段的開始。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Update phase occurs when service state data is updated in the persistence store.</source>
+          <target state="translated">持續性存放區中更新服務狀態資料時，就會發生 「 更新 」 階段。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The actual instance state.</source>
+          <target state="translated">實際的執行個體的狀態。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">一段時間之後的持續性提供者會中止這次嘗試。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The method to be called when the operation is completed.</source>
+          <target state="translated">要在作業完成時呼叫的方法。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A user-provided object that distinguishes this particular asynchronous operation from other operations.</source>
+          <target state="translated">使用者提供的物件，可區別這個特定非同步作業與其他作業。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The state of the BeginUpdate asynchronous method call.</source>
+          <target state="translated">BeginUpdate 非同步方法呼叫的狀態。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, creates a service state record in the persistence store.</source>
+          <target state="translated">在衍生類別中實作時，會建立持續性存放區服務狀態記錄。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The actual instance state.</source>
+          <target state="translated">實際的執行個體的狀態。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">一段時間之後的持續性提供者會中止這次嘗試。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The instance token corresponding to the state just saved.</source>
+          <target state="translated">對應至剛儲存之狀態執行個體的語彙基元。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>This can be passed to &lt;xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt; to determine whether the state in the persistence store differs from the state when Create was called.</source>
+          <target state="translated">這可以傳遞至&lt;xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt;以判斷建立 」 呼叫時是否持續性存放區中的狀態不同狀態。&lt;/xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, permanently deletes service state information from the persistence store.</source>
+          <target state="translated">在衍生類別中實作時，永久刪除服務狀態資訊從持續性存放區。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The actual instance state.</source>
+          <target state="translated">實際的執行個體的狀態。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">一段時間之後的持續性提供者會中止這次嘗試。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the end of the Create phase.</source>
+          <target state="translated">在衍生類別中實作時，代表 「 建立 」 階段的結尾。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The Create phase occurs when service state records are first created in the persistence store.</source>
+          <target state="translated">服務狀態記錄首次在持續性存放區中建立時，就會發生 「 建立 」 階段。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">運算結果的參考。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The instance token corresponding to the state just saved.</source>
+          <target state="translated">對應至剛儲存之狀態執行個體的語彙基元。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>This can be passed to &lt;xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt; to determine whether the state in the persistence store differs from the state when Create was called.</source>
+          <target state="translated">這可以傳遞至&lt;xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt;以判斷建立 」 呼叫時是否持續性存放區中的狀態不同狀態。&lt;/xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the end of the Delete phase.</source>
+          <target state="translated">在衍生類別中實作時，代表 「 刪除 」 階段的結尾。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The Delete phase occurs when state data is permanently deleted from the persistence store.</source>
+          <target state="translated">狀態資料從持續性存放區永久刪除時，就會發生 「 刪除 」 階段。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">運算結果的參考。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the end of the Load phase.</source>
+          <target state="translated">在衍生類別中實作時，代表 「 載入 」 階段的結尾。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The Load phase occurs when state data is loaded into the persistence provider from the persistence store.</source>
+          <target state="translated">狀態資料載入至持續性存放區從持續性提供者時，就會發生 「 載入 」 階段。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">運算結果的參考。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The service state information.</source>
+          <target state="translated">服務狀態資訊。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, represents the end of the LoadIfChanged phase.</source>
+          <target state="translated">在衍生類別中實作時，代表 LoadIfChanged 階段的結束。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The LoadIfChanged phase occurs when state data is loaded into the persistence provider from the persistence store, and the state data in the persistence store has been changed.</source>
+          <target state="translated">狀態資料載入至持續性存放區中，從持續性提供者和已變更的持續性存放區中的狀態資料時，就會發生 LoadIfChanged 階段。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">運算結果的參考。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The actual instance state.</source>
+          <target state="translated">實際的執行個體的狀態。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the instance <bpt id="p2">&lt;xref uid="langword_csharp_out" name="out" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> parameter has been set with the latest copy from the persistence store; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the locally cached state is already up-to-date.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果執行個體<bpt id="p2">&lt;xref uid="langword_csharp_out" name="out" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>從持續性存放區; 參數設定的最新的複本<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>如果本機快取的狀態已經是最新狀態。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Represents the end of the Update phase.</source>
+          <target state="translated">代表 「 更新 」 階段結束。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The Update phase occurs when service state records are updated in the persistence store.</source>
+          <target state="translated">在持續性存放區中更新服務狀態記錄時，就會發生 「 更新 」 階段。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A reference to the result of the operation.</source>
+          <target state="translated">運算結果的參考。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The instance token corresponding to the state just saved.</source>
+          <target state="translated">對應至剛儲存之狀態執行個體的語彙基元。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This can be passed to &lt;xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt; to determine whether the state in the persistence store differs from the state when Create was called.</source>
+          <target state="translated">這可以傳遞至&lt;xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt;以判斷建立 」 呼叫時是否持續性存放區中的狀態不同狀態。&lt;/xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Represents the &lt;xref:System.Guid&gt; associated with this instance.</source>
+          <target state="translated">代表&lt;xref:System.Guid&gt;與這個執行個體相關聯。&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The GUID associated with this instance.</source>
+          <target state="translated">與這個執行個體相關聯的 GUID。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, loads service state information from the persistence store.</source>
+          <target state="translated">在衍生類別中實作時，請從持續性存放區中載入服務狀態資訊。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Changes made to the security token in the Load method, if not reverted, stay in effect for the remainder of that message's processing.</source>
+          <target state="translated">變更載入方法中的安全性權杖，如果未還原時，保持作用中處理該訊息的其餘部分。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This means that the service operation's user code, the response message path through the dispatcher, as well as any error paths, run in the changed security context.</source>
+          <target state="translated">這表示服務作業的使用者程式碼、 透過發送器的回應訊息路徑，以及任何錯誤路徑，在執行變更的安全性內容。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">一段時間之後的持續性提供者會中止這次嘗試。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The loaded instance state.</source>
+          <target state="translated">載入的執行個體的狀態。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, loads service state information from the persistence store if that data has been changed.</source>
+          <target state="translated">在衍生類別中實作時，載入服務狀態資訊從持續性存放區若該資料已變更。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">一段時間之後的持續性提供者會中止這次嘗試。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The token returned by a previous &lt;xref:System.ServiceModel.Persistence.PersistenceProvider.Create<bpt id="p1">*</bpt>&gt; or &lt;xref:System.ServiceModel.Persistence.PersistenceProvider.Update<ept id="p1">*</ept>&gt;, which represents the current state held by the caller.</source>
+          <target state="translated">先前傳回的權杖&lt;&gt; <bpt id="p1">*</bpt>&gt; 或&lt;&gt; <ept id="p1">*</ept>&gt;，表示呼叫端所持有的目前狀態。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The actual instance state.</source>
+          <target state="translated">實際的執行個體的狀態。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">instance</ph><ept id="p2">&lt;/code&gt;</ept><bpt id="p3">&lt;xref uid="langword_csharp_out" name="out" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> parameter has been set with the latest copy from the persistence store; <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept> if the locally cached state is already up to date.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">instance</ph> <ept id="p2">&lt;/code&gt;</ept> <bpt id="p3">&lt;xref uid="langword_csharp_out" name="out" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>從持續性存放區; 參數設定的最新的複本<bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>如果本機快取的狀態已經是最新狀態。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, updates service state records in the persistence store.</source>
+          <target state="translated">在衍生類別中實作時，更新的服務狀態記錄的持續性存放區中。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The actual instance state.</source>
+          <target state="translated">實際的執行個體的狀態。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The time period after which the persistence provider aborts this attempt.</source>
+          <target state="translated">一段時間之後的持續性提供者會中止這次嘗試。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The instance token corresponding to the state just saved.</source>
+          <target state="translated">對應至剛儲存之狀態執行個體的語彙基元。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This can be passed to &lt;xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt; to determine whether the state in the persistence store differs from the state when Create was called.</source>
+          <target state="translated">這可以傳遞至&lt;xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt;以判斷建立 」 呼叫時是否持續性存放區中的狀態不同狀態。&lt;/xref:System.ServiceModel.Persistence.PersistenceProvider.LoadIfChanged*&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
