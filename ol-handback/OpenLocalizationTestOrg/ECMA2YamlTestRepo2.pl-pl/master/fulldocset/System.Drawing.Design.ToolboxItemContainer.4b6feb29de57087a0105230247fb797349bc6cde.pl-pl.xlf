@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d6020f6e8e7a92f7569646efcbe518fb1ab18e2b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Drawing.Design.ToolboxItemContainer.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a72f502d55f5c4d4806fda8d6eee932ea0bb6bc4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e44034bf435c1db0d80e37b15af288a687a5144e</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Encapsulates a <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hermetyzuje <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ToolboxItemContainer is a simple class that encapsulates a &lt;xref:System.Drawing.Design.ToolboxItem&gt; for efficiency.</source>
+          <target state="translated">ToolboxItemContainer jest prostą klasę, która hermetyzuje &lt;xref:System.Drawing.Design.ToolboxItem&gt;w celu zwiększenia wydajności.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By having a single class that is always loaded, you can defer the loading of the &lt;xref:System.Drawing.Design.ToolboxItem&gt; until it is needed.</source>
+          <target state="translated">Używanie jednej klasy, która zawsze jest ładowany, w przypadku opóźnienia ładowania &lt;xref:System.Drawing.Design.ToolboxItem&gt;dopóki nie jest wymagana.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because new classes can be derived from &lt;xref:System.Drawing.Design.ToolboxItem&gt;, you could load a &lt;xref:System.Drawing.Design.ToolboxItem&gt; that could, in turn, load an assembly that is not already in memory.</source>
+          <target state="translated">Ponieważ nowe klasy mogą pochodzić z &lt;xref:System.Drawing.Design.ToolboxItem&gt;, można załadować &lt;xref:System.Drawing.Design.ToolboxItem&gt;który z kolei można załadować zestawu, który nie jest już w pamięci.&lt;/xref:System.Drawing.Design.ToolboxItem&gt; &lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a large collection of &lt;xref:System.Drawing.Design.ToolboxItem&gt; objects, this could cause a large number of assemblies to be loaded, which decreases performance.</source>
+          <target state="translated">W przypadku dużych zbierania &lt;xref:System.Drawing.Design.ToolboxItem&gt;obiekty, może to powodować dużą liczbę zestawów do załadowania, co obniża wydajność.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, the toolbox service deals only with ToolboxItemContainer objects and retrieves their contained &lt;xref:System.Drawing.Design.ToolboxItem&gt; only when necessary.</source>
+          <target state="translated">Zamiast tego usługa przybornika dotyczy jedynie obiekty ToolboxItemContainer i pobiera ich zawartych w niej &lt;xref:System.Drawing.Design.ToolboxItem&gt;tylko wtedy, gdy jest to konieczne.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ToolboxItemContainer is designed to hold any cached data from the &lt;xref:System.Drawing.Design.ToolboxItem&gt;.</source>
+          <target state="translated">ToolboxItemContainer jest przeznaczony do przechowywania wszystkie buforowane dane z &lt;xref:System.Drawing.Design.ToolboxItem&gt;.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation only holds the filter of the &lt;xref:System.Drawing.Design.ToolboxItem&gt;, but deriving classes may choose to cache the name, image, and other information.</source>
+          <target state="translated">Domyślna implementacja zawiera jedynie filtrze &lt;xref:System.Drawing.Design.ToolboxItem&gt;, ale wyprowadzanie klas może dołączyć do pamięci podręcznej nazwę, obrazu i innych informacji.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ToolboxItemContainer objects support two forms of serialization: they can be serialized through standard runtime serialization, and they can also load and save themselves from a &lt;xref:System.Windows.Forms.IDataObject?displayProperty=fullName&gt;.</source>
+          <target state="translated">Obiekty ToolboxItemContainer obsługują dwa rodzaje serializacji: może być Zserializowany za pomocą serializacji standardowe środowiska uruchomieniowego i mogą także obciążenia i Zapisz sobie z &lt;xref:System.Windows.Forms.IDataObject?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Forms.IDataObject?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The former provides a very easy way to save ToolboxItemContainer objects to a persistent storage.</source>
+          <target state="translated">Pierwsza umożliwia bardzo łatwe do zapisywania obiektów ToolboxItemContainer do magazynu trwałego.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The latter provides a way to integrate ToolboxItemContainer objects with mixed data storage formats.</source>
+          <target state="translated">Drugie umożliwia integrację obiektów ToolboxItemContainer z formatów przechowywania mieszane dane.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from a <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasę z <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The container’s cache of information is filled by accessing properties on the &lt;xref:System.Drawing.Design.ToolboxItem&gt;.</source>
+          <target state="translated">Pamięć podręczna kontenera informacji jest wypełniony uzyskując dostęp do właściwości &lt;xref:System.Drawing.Design.ToolboxItem&gt;.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for which to create a <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Dla której ma zostać utworzony <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from a <bpt id="p2">&lt;xref href="System.Windows.Forms.IDataObject"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasę z <bpt id="p2">&lt;xref href="System.Windows.Forms.IDataObject"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`data`</ph> parameter may contain data provided by the &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt; class.</source>
+          <target state="translated"><ph id="ph1">`data`</ph> Parametr może zawierać dane dostarczone przez &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt;klasę.&lt;/xref:System.Drawing.Design.ToolboxItemContainer&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It may contain data that can be read by one of the &lt;xref:System.Drawing.Design.ToolboxItem&gt; creators that have been supplied by the user.</source>
+          <target state="translated">Może on zawierać dane, które mogą być odczytywane przez jedną z &lt;xref:System.Drawing.Design.ToolboxItem&gt;twórców, które zostały dostarczone przez użytkownika.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It may also be data with a clipboard format that has a &lt;xref:System.Drawing.Design.ToolboxItem&gt; creator assigned to it.</source>
+          <target state="translated">Może to być również danych przy użyciu formatu schowka ma &lt;xref:System.Drawing.Design.ToolboxItem&gt;twórcy przypisane do niego.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the &lt;xref:System.Drawing.Design.ToolboxItem&gt; is created on demand.</source>
+          <target state="translated">W takim przypadku &lt;xref:System.Drawing.Design.ToolboxItem&gt;jest tworzone na żądanie.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A data object that represents a <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Obiekt danych reprezentujący <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from a serialization stream.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy ze strumienia serializacji.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The serialization information passed in by the serializer when deserializing the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Informacje o serializacji przekazany przez serializator podczas deserializacji <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The streaming context passed in by the serializer when deserializing the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Kontekst przesyłania strumieniowego przekazany przez serializator podczas deserializacji <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Determines whether two <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances are equal.</source>
+          <target state="translated">Określa, czy dwa <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienia są takie same.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to compare with the current <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Do porównania z bieżącym <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is equal to the current <bpt id="p3">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli określony <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> jest taki sam, jak bieżący <bpt id="p3">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>; w przeciwnym razie <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Returns a collection of <bpt id="p1">&lt;xref href="System.ComponentModel.ToolboxItemFilterAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that represent the current filter for the <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwraca kolekcję <bpt id="p1">&lt;xref href="System.ComponentModel.ToolboxItemFilterAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektów, które reprezentują bieżący filtr dla <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`creators`</ph> parameter is a collection of &lt;xref:System.Drawing.Design.ToolboxItemCreator&gt; objects that represent any custom &lt;xref:System.Drawing.Design.ToolboxItem&gt; creators that should be included when the filter is generated.</source>
+          <target state="translated"><ph id="ph1">`creators`</ph> Parametru jest kolekcją &lt;xref:System.Drawing.Design.ToolboxItemCreator&gt;obiektów, które reprezentują niestandardowe &lt;xref:System.Drawing.Design.ToolboxItem&gt;twórców, które mają zostać uwzględnione podczas generowania filtr.&lt;/xref:System.Drawing.Design.ToolboxItem&gt; &lt;/xref:System.Drawing.Design.ToolboxItemCreator&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom creators may contribute to the filters.</source>
+          <target state="translated">Kreatory niestandardowe mogą przyczynić się do filtrów.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph> if no creators are needed.</source>
+          <target state="translated">Ten parametr może mieć <ph id="ph1">`null`</ph> jeśli niezbędne są nie twórców.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The types stored in a &lt;xref:System.Drawing.Design.ToolboxItem&gt; may have a filter associated with them.</source>
+          <target state="translated">Typy są przechowywane w &lt;xref:System.Drawing.Design.ToolboxItem&gt;może mieć skojarzone z nimi filtr.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Filters can be used to restrict the tools that can be placed on designers.</source>
+          <target state="translated">Filtry może być używany do ograniczania narzędzia, które można umieścić w projektantach.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCreator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Kolekcja <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCreator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektów.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.ComponentModel.ToolboxItemFilterAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Kolekcja <bpt id="p1">&lt;xref href="System.ComponentModel.ToolboxItemFilterAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektów.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>This never returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">To nigdy nie zwraca <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Returns the hash code for this instance.</source>
+          <target state="translated">Zwraca wartość skrótu dla tego wystąpienia.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A hash code for the current <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Wartość skrótu dla bieżącego <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Saves the serialization state for the object.</source>
+          <target state="translated">Zapisuje stan serializacji obiektu.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The serialization information passed in by the serializer when serializing this object.</source>
+          <target state="translated">Informacje o serializacji przekazany przez serializator podczas serializowania tego obiektu.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The streaming context passed in by the serializer when serializing this object.</source>
+          <target state="translated">Kontekst przesyłania strumieniowego przekazany przez serializator podczas serializowania tego obiektu.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Returns the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contained in the <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Zwraca <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawartych w <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`creators`</ph> parameter is a collection of &lt;xref:System.Drawing.Design.ToolboxItemCreator&gt; objects that represent any custom &lt;xref:System.Drawing.Design.ToolboxItem&gt; creators that should be included when the &lt;xref:System.Drawing.Design.ToolboxItem&gt; is obtained.</source>
+          <target state="translated"><ph id="ph1">`creators`</ph> Parametru jest kolekcją &lt;xref:System.Drawing.Design.ToolboxItemCreator&gt;obiektów, które reprezentują niestandardowe &lt;xref:System.Drawing.Design.ToolboxItem&gt;twórców, które należy uwzględnić podczas obliczania &lt;xref:System.Drawing.Design.ToolboxItem&gt;są uzyskiwane.&lt;/xref:System.Drawing.Design.ToolboxItem&gt; &lt;/xref:System.Drawing.Design.ToolboxItem&gt; &lt;/xref:System.Drawing.Design.ToolboxItemCreator&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This parameter can be <ph id="ph1">`null`</ph> if no creators are needed.</source>
+          <target state="translated">Ten parametr może mieć <ph id="ph1">`null`</ph> jeśli niezbędne są nie twórców.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetToolboxItem method returns a &lt;xref:System.Drawing.Design.ToolboxItem&gt; that represents the data stored in the &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt;.</source>
+          <target state="translated">Metoda GetToolboxItem zwraca &lt;xref:System.Drawing.Design.ToolboxItem&gt;reprezentujący dane przechowywane w &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt;.&lt;/xref:System.Drawing.Design.ToolboxItemContainer&gt; &lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetToolboxItem never returns <ph id="ph1">`null`</ph>, nor does it ever raise an exception, except in extreme cases (for example, out of memory).</source>
+          <target state="translated">Nigdy nie zwraca GetToolboxItem <ph id="ph1">`null`</ph>, ani nie jest ona kiedykolwiek zgłosić wyjątek, z wyjątkiem w ekstremalnych przypadkach (na przykład, Brak pamięci).</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a &lt;xref:System.Drawing.Design.ToolboxItem&gt; cannot be fabricated, the appropriate exception is embedded within a special &lt;xref:System.Drawing.Design.ToolboxItem&gt;.</source>
+          <target state="translated">Jeśli &lt;xref:System.Drawing.Design.ToolboxItem&gt;nie może być wykonane, odpowiedni wyjątek jest osadzony w specjalnej &lt;xref:System.Drawing.Design.ToolboxItem&gt;.&lt;/xref:System.Drawing.Design.ToolboxItem&gt; &lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The exception is thrown when the &lt;xref:System.Drawing.Design.ToolboxItem.CreateComponents%2A&gt; method on this special &lt;xref:System.Drawing.Design.ToolboxItem&gt; is called.</source>
+          <target state="translated">Wyjątek jest zgłaszany, gdy &lt;xref:System.Drawing.Design.ToolboxItem.CreateComponents%2A&gt;metody w tym specjalnych &lt;xref:System.Drawing.Design.ToolboxItem&gt;jest wywoływana.&lt;/xref:System.Drawing.Design.ToolboxItem&gt; &lt;/xref:System.Drawing.Design.ToolboxItem.CreateComponents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This puts the exception at the point of user action.</source>
+          <target state="translated">Spowoduje to umieszczenie wyjątek w punkcie akcja ze strony użytkownika.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A collection of <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCreator"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Kolekcja <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItemCreator"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> obiektów.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contained in the <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Zawartych w <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the underlying toolbox item has been deserialized.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy podstawowy element przybornika został zdeserializowany.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the underlying toolbox item has been deserialized; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli podstawowy element przybornika został zdeserializowany; w przeciwnym razie <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating if the <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contained in the <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is transient.</source>
+          <target state="translated">Pobiera z Jeśli wskazujące wartość <bpt id="p1">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawartych w <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> jest przejściowy.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if the <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contained in the <bpt id="p3">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> is marked as transient; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, jeśli <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItem"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> zawartych w <bpt id="p3">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> jest oznaczony jako przejściowa; w przeciwnym razie <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the &lt;xref:System.Drawing.Design.ToolboxItemContainer.GetObjectData*&gt; method.</source>
+          <target state="translated">Opis tego elementu członkowskiego, zobacz &lt;xref:System.Drawing.Design.ToolboxItemContainer.GetObjectData*&gt;metody.&lt;/xref:System.Drawing.Design.ToolboxItemContainer.GetObjectData*&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Ten element jest jawną implementacją elementu interfejsu.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt; instance is cast to an &lt;xref:System.Runtime.Serialization.ISerializable&gt; interface.</source>
+          <target state="translated">Można go używać tylko wtedy, gdy &lt;xref:System.Drawing.Design.ToolboxItemContainer&gt;wystąpienia jest rzutowane na &lt;xref:System.Runtime.Serialization.ISerializable&gt;interfejsu.&lt;/xref:System.Runtime.Serialization.ISerializable&gt; &lt;/xref:System.Drawing.Design.ToolboxItemContainer&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The serialization information passed in by the serializer when serializing this object.</source>
+          <target state="translated">Informacje o serializacji przekazany przez serializator podczas serializowania tego obiektu.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The streaming context passed in by the serializer when serializing this object.</source>
+          <target state="translated">Kontekst przesyłania strumieniowego przekazany przez serializator podczas serializowania tego obiektu.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Gets an <bpt id="p1">&lt;xref href="System.Windows.Forms.IDataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes this <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera <bpt id="p1">&lt;xref href="System.Windows.Forms.IDataObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> opisujący to <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ToolboxData property creates the serialized version of the &lt;xref:System.Drawing.Design.ToolboxItem&gt;.</source>
+          <target state="translated">Właściwość ToolboxData tworzy wersja serializowanego &lt;xref:System.Drawing.Design.ToolboxItem&gt;.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data object can be used by an application to store this &lt;xref:System.Drawing.Design.ToolboxItem&gt;.</source>
+          <target state="translated">Obiekt danych można używany przez aplikację do przechowywania tym &lt;xref:System.Drawing.Design.ToolboxItem&gt;.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This data object is fabricated from the &lt;xref:System.Drawing.Design.ToolboxItem&gt;, if necessary.</source>
+          <target state="translated">Ten obiekt danych jest wykonane z &lt;xref:System.Drawing.Design.ToolboxItem&gt;, jeśli to konieczne.&lt;/xref:System.Drawing.Design.ToolboxItem&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.IDataObject"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes this <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.IDataObject"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Opisujący to <bpt id="p2">&lt;xref href="System.Drawing.Design.ToolboxItemContainer"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Merges the container's filter with the filter from the given item.</source>
+          <target state="translated">Scala filtru kontenera z filtrem z danego elementu.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should call the UpdateFilter method when the toolbox item is modified or configured.</source>
+          <target state="translated">Powinien wywoływać metodę UpdateFilter, gdy element przybornika jest zmodyfikowany lub skonfigurowane.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should also call it if a new &lt;xref:System.ComponentModel.TypeDescriptionProvider&gt;, which the changes the filter, is added.</source>
+          <target state="translated">Należy także wywołać ją Jeśli nowy &lt;xref:System.ComponentModel.TypeDescriptionProvider&gt;, która zmiany filtr zostanie dodany.&lt;/xref:System.ComponentModel.TypeDescriptionProvider&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The source of the filter to merge with the container's filter.</source>
+          <target state="translated">Źródło filtr do scalenia z filtrem kontenera.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

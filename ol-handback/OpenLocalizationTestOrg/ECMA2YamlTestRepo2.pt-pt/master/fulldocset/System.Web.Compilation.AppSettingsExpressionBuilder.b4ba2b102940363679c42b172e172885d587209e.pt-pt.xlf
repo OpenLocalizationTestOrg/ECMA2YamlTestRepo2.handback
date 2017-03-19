@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aee558e05285276443f78e5dff25d12615ebce25</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Compilation.AppSettingsExpressionBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a8b5e536a7b4f0b86fe4a4e1c0b421288b3d8915</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">07c0dee0827b395cf543bc7b5982f92e79150925</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Retrieves values, as specified in a declarative expression, from the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">Obtém os valores, conforme especificado numa expressão declarativa, a partir de <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> secção do ficheiro Web. config.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AppSettingsExpressionBuilder class provides access to values in the <ph id="ph1">`&lt;appSettings&gt;`</ph> section of the Web.config file.</source>
+          <target state="translated">A classe de AppSettingsExpressionBuilder fornece acesso aos valores de <ph id="ph1">`&lt;appSettings&gt;`</ph> secção do ficheiro Web. config.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`&lt;appSettings&gt;`</ph> section of the Web.config file contains application-specific values in key/value pairs.</source>
+          <target state="translated">O <ph id="ph1">`&lt;appSettings&gt;`</ph> secção do ficheiro Web. config contém valores específicos da aplicação em pares chave/valor.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application value is retrieved by assigning an expression of the form       <ph id="ph1">`&lt;%$ AppSettings: appSettingsKey %&gt;`</ph>       to a property in a control declaration.</source>
+          <target state="translated">Um valor de aplicação é obtido através da atribuição de uma expressão do formulário <ph id="ph1">`&lt;%$ AppSettings: appSettingsKey %&gt;`</ph> para uma propriedade de uma declaração de controlo.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The part of the expression before the colon (:) designates the type of expression to be retrieved, and the part after the colon signifies the key.</source>
+          <target state="translated">A parte da expressão antes da vírgula (:) designa o tipo de expressão a ser obtidos e a parte após a vírgula significa a chave.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The preceding expression would retrieve the following value from the Web.config file.</source>
+          <target state="translated">A expressão anterior seria obter o seguinte valor do ficheiro Web. config.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`&lt;appSettings&gt;`</ph>       <ph id="ph2">`&lt;add key="appSettingsKey" value="appSettingsValue"/&gt;`</ph>       <ph id="ph3">`&lt;/appSettings&gt;`</ph>       When the page parser encounters an expression with the <ph id="ph4">`AppSettings`</ph> prefix, it creates an instance of the AppSettingsExpressionBuilder class to handle the expression.</source>
+          <target state="translated"><ph id="ph1">`&lt;appSettings&gt;`</ph>       <ph id="ph2">`&lt;add key="appSettingsKey" value="appSettingsValue"/&gt;`</ph>       <ph id="ph3">`&lt;/appSettings&gt;`</ph>Quando o analisador de página encontra uma expressão com o <ph id="ph4">`AppSettings`</ph> prefixo, cria uma instância da classe AppSettingsExpressionBuilder para processar a expressão.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression is encountered in a page that will be compiled, the AppSettingsExpressionBuilder object generates code to retrieve the specified value from the Web.config file.</source>
+          <target state="translated">Se a expressão é encontrou uma página que será compilado, o objeto de AppSettingsExpressionBuilder gera o código para obter o valor especificado a partir do ficheiro Web. config.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This code is executed during the execution of the generated page class.</source>
+          <target state="translated">Este código for executado durante a execução da classe página gerado.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the expression is encountered in a page that will not be compiled, the AppSettingsExpressionBuilder object returns the value from the Web.config file when the page is parsed and executed.</source>
+          <target state="translated">Se a expressão é encontrou uma página que não será compilado, o objeto de AppSettingsExpressionBuilder devolve o valor do ficheiro Web. config quando a página é analisada e executada.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.Compilation.AppSettingsExpressionBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Web.Compilation.AppSettingsExpressionBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Returns a value from the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">Devolve um valor entre o <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> secção do ficheiro Web. config.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when an expression of the form <ph id="ph1">`&lt;%$ AppSettings: someApplicationSetting %&gt;`</ph> is encountered in a no-compile page.</source>
+          <target state="translated">Este método é chamado quando uma expressão do formulário <ph id="ph1">`&lt;%$ AppSettings: someApplicationSetting %&gt;`</ph> uma página de compilação não é encontrada.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It retrieves the appropriate value from the key/value pairs in the <ph id="ph1">`&lt;appSettings&gt;`</ph> section of the Web.config file.</source>
+          <target state="translated">Obtém o valor adequado dos pares chave/valor no <ph id="ph1">`&lt;appSettings&gt;`</ph> secção do ficheiro Web. config.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt; by calling the &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.GetAppSetting%2A&gt; method with the &lt;xref:System.Web.UI.BoundPropertyEntry.Expression%2A&gt; property as the <ph id="ph1">`key`</ph> parameter, the &lt;xref:System.Web.UI.PropertyEntry.Name%2A&gt; property on the &lt;xref:System.Web.UI.PropertyEntry.PropertyInfo%2A?displayProperty=fullName&gt; property as the <ph id="ph2">`propertyName`</ph> parameter, and the &lt;xref:System.Type&gt; of the <ph id="ph3">`target`</ph> parameter as the <ph id="ph4">`targetType`</ph> parameter.</source>
+          <target state="translated">Este método substitui &lt;xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;chamando o &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.GetAppSetting%2A&gt;método com o &lt;xref:System.Web.UI.BoundPropertyEntry.Expression%2A&gt;propriedade como o <ph id="ph1">`key`</ph> parâmetro, a &lt;xref:System.Web.UI.PropertyEntry.Name%2A&gt;propriedade no &lt;xref:System.Web.UI.PropertyEntry.PropertyInfo%2A?displayProperty=fullName&gt;propriedade como o <ph id="ph2">`propertyName`</ph> parâmetro e o &lt;xref:System.Type&gt;do <ph id="ph3">`target`</ph> parâmetro como o <ph id="ph4">`targetType`</ph> parâmetro.&lt;/xref:System.Type&gt; &lt;/xref:System.Web.UI.PropertyEntry.PropertyInfo%2A?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.PropertyEntry.Name%2A&gt; &lt;/xref:System.Web.UI.BoundPropertyEntry.Expression%2A&gt; &lt;/xref:System.Web.Compilation.AppSettingsExpressionBuilder.GetAppSetting%2A&gt; &lt;/xref:System.Web.Compilation.ExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The object that contains the property entry.</source>
+          <target state="translated">O objeto que contém a entrada de propriedade.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The property to which the expression is bound..</source>
+          <target state="translated">A propriedade à qual a expressão está vinculada...</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The object that represents parsed data as returned by &lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">O objecto que representa analisar dados, tal como devolvido pelo &lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">Propriedades para o controlo ou página.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; associated with a key in the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;associados com uma chave de <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> secção do ficheiro Web. config.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Returns a value from the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">Devolve um valor entre o <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> secção do ficheiro Web. config.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method retrieves the appropriate value from the key/value pairs in the <ph id="ph1">`&lt;appSettings&gt;`</ph> section of the Web.config file.</source>
+          <target state="translated">Este método obtém o valor adequado a partir de pares chave/valor no <ph id="ph1">`&lt;appSettings&gt;`</ph> secção do ficheiro Web. config.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It retrieves the value by getting the &lt;xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt; property with the key as the index.</source>
+          <target state="translated">Obtém o valor obtendo o &lt;xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt;propriedade com a chave que o índice.&lt;/xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Object&gt; returned is of the type &lt;xref:System.String&gt;.</source>
+          <target state="translated">&lt;xref:System.Object&gt;Devolvido é do tipo &lt;xref:System.String&gt;.&lt;/xref:System.String&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The key for the value to be retrieved from the configuration file.</source>
+          <target state="translated">A chave para o valor a ser obtidos a partir do ficheiro de configuração.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; associated with the key in the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;associado à chave no <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> secção do ficheiro Web. config.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>The key is not found in Web.config.</source>
+          <target state="translated">Não é possível localizar a chave na Web. config.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Returns a value from the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file with the value converted to a target type.</source>
+          <target state="translated">Devolve um valor entre o <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> secção do ficheiro Web. config com o valor convertido para um tipo de destino.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method retrieves the appropriate value from the key/value pairs in the <ph id="ph1">`&lt;appSettings&gt;`</ph> section of the Web.config file.</source>
+          <target state="translated">Este método obtém o valor adequado a partir de pares chave/valor no <ph id="ph1">`&lt;appSettings&gt;`</ph> secção do ficheiro Web. config.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value is retrieved by getting the &lt;xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt; property with the key as the index.</source>
+          <target state="translated">O valor é obtido por obter o &lt;xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt;propriedade com a chave que o índice.&lt;/xref:System.Configuration.ConfigurationManager.AppSettings%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The resulting string value is converted to a new type based on the <ph id="ph1">`targetType`</ph> and <ph id="ph2">`propertyName`</ph> parameters.</source>
+          <target state="translated">O valor de cadeia resultante é convertido para um novo tipo com base no <ph id="ph1">`targetType`</ph> e <ph id="ph2">`propertyName`</ph> parâmetros.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The key for a value to be retrieved from the configuration file.</source>
+          <target state="translated">A chave para um valor a ser obtidos a partir do ficheiro de configuração.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The type of the object that contains the property entry.</source>
+          <target state="translated">O tipo do objeto que contém a entrada de propriedade.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The name of the property to which the expression is bound.</source>
+          <target state="translated">O nome da propriedade ao qual a expressão está vinculada.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Object&gt; associated with the key in the <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> section of the Web.config file.</source>
+          <target state="translated">O &lt;xref:System.Object&gt;associado à chave no <bpt id="p1">&lt;xref uid="langword_csharp_&amp;lt;appSettings&amp;gt;" name="&amp;lt;appSettings&amp;gt;" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> secção do ficheiro Web. config.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Returns a code expression that is used to perform the property assignment in the generated page class.</source>
+          <target state="translated">Devolve uma expressão de código que é utilizada para efetuar a atribuição de propriedade na classe gerada página.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called during the CodeDOM creation for a page or control.</source>
+          <target state="translated">Este método é denominado durante a criação de CodeDOM para uma página ou um controlo.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The returned &lt;xref:System.CodeDom.CodeExpression&gt; object represents the code expression to add to the property assignment in the generated page class.</source>
+          <target state="translated">Devolvido &lt;xref:System.CodeDom.CodeExpression&gt;objeto representa a expressão de código para adicionar a atribuição de propriedade na classe de página gerado.&lt;/xref:System.CodeDom.CodeExpression&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The property to which the expression is bound.</source>
+          <target state="translated">A propriedade à qual a expressão está vinculada.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The object that represents parsed data as returned by &lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.</source>
+          <target state="translated">O objecto que representa analisar dados, tal como devolvido pelo &lt;xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;.&lt;/xref:System.Web.Compilation.ExpressionBuilder.ParseExpression*&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Properties for the control or page.</source>
+          <target state="translated">Propriedades para o controlo ou página.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used in the property assignment.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.CodeDom.CodeExpression"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que é utilizado numa atribuição de propriedade.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Returns a value indicating whether an expression can be evaluated in a page that is not compiled.</source>
+          <target state="translated">Devolve um valor que indica se uma expressão pode ser avaliada numa página de que não é compilada.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SupportsEvaluate property indicates whether the &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt; method has been implemented in the class and can return a value for the expression.</source>
+          <target state="translated">A propriedade SupportsEvaluate indica se o &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt;método foi implementado na classe e pode devolver um valor para a expressão.&lt;/xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt; must be implemented within an expression builder for an expression to be evaluated in a page that is not compiled.</source>
+          <target state="translated">&lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt;tem de ser implementado dentro de um construtor de expressão para uma expressão a avaliar numa página de que não é compilada.&lt;/xref:System.Web.Compilation.AppSettingsExpressionBuilder.EvaluateExpression%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder&gt; class supports evaluation of an application setting in a page that is not compiled, so it always returns <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">O &lt;xref:System.Web.Compilation.AppSettingsExpressionBuilder&gt;classe suporta a avaliação de uma definição de aplicação numa página de que não é compilada, de modo que devolva sempre <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.Compilation.AppSettingsExpressionBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>em todos os casos.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

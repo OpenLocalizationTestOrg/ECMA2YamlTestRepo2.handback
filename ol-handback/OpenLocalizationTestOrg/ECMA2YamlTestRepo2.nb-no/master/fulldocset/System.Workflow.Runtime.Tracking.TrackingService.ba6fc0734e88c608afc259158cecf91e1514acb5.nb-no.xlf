@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">aa32982522f7ad6980a833a6cb510d1c5b7ca13a</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.Runtime.Tracking.TrackingService.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">47d9cf0dfefb3bfc5e10b4320593849b88b092e4</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">24ada49c9987d63518208c856cbdf0909b3d436c</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides the basic interface between a tracking service and the run-time tracking infrastructure.</source>
+          <target state="translated">Gir grunnleggende grensesnittet mellom en Sporingstjenesten og infrastruktur for kjøring sporing.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       A tracking service is responsible for supplying tracking channels and tracking profiles to the workflow run-time engine.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>En Sporingstjenesten er ansvarlig for oppgir sporing kanaler og sporing profiler til arbeidsflyten kjøretid-motoren.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine requests one &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; from a tracking service for each workflow instance for which it has a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.</source>
+          <target state="translated">Arbeidsflyten kjøretid motoren ber om en &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;fra en Sporingstjenesten for hver arbeidsflytforekomsten som den har en &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine uses this &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; to send tracking records associated with that workflow instance.</source>
+          <target state="translated">Motoren for arbeidsflyten kjøretid bruker denne &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;sende sporing poster som er knyttet til denne arbeidsflytforekomsten.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; contains track points that specify a set of tracking events for which the run-time tracking infrastructure should send tracking records.</source>
+          <target state="translated">En &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;inneholder spor punkt som angir et sett med hendelser som kjøretid sporing-infrastruktur skal sende sporing oppføringer for sporing.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; may also specify data to be extracted from the workflow instance when one of these tracking events occurs.</source>
+          <target state="translated">En &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;kan også angi dataene som skal trekkes ut arbeidsflytforekomsten når en av disse sporing hendelser inntreffer.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The run-time tracking infrastructure uses a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; to filter tracking events emitted by a workflow instance.</source>
+          <target state="translated">Kjøretid sporing-infrastruktur bruker en &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;Filter sporing hendelser slippes ut av en arbeidsflytforekomst.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a tracking event is emitted that matches a track point in the &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;, the run-time tracking infrastructure extracts any data specified in the &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; from the workflow instance and encapsulates this data and information about the tracking event in a tracking record.</source>
+          <target state="translated">Når en hendelse for sporing er slippes ut som samsvarer med et Sporingspunkt i den &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;, kjøretid sporing-infrastruktur trekker ut alle data som er angitt i den &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;fra arbeidsflytforekomsten og innkapsler denne data og informasjon om hendelsen sporing i en oppføring for sporing.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This tracking record is then sent over the &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; associated with the workflow instance.</source>
+          <target state="translated">Denne oppføring sporing deretter sendes via den &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;knyttet til arbeidsflytforekomsten.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A tracking record may be one of the following kinds:       &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingRecord&gt;       &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;       &lt;xref:System.Workflow.Runtime.Tracking.WorkflowTrackingRecord&gt;       The host application can use the tracking record in any way that it chooses.</source>
+          <target state="translated">Sporing kan være én av følgende: &lt;xref:System.Workflow.Runtime.Tracking.ActivityTrackingRecord&gt; &lt;xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt; &lt;xref:System.Workflow.Runtime.Tracking.WorkflowTrackingRecord&gt;vertsprogrammet kan bruke sporing oppføringen i en slik måte at den velger.&lt;/xref:System.Workflow.Runtime.Tracking.WorkflowTrackingRecord&gt;       &lt;/xref:System.Workflow.Runtime.Tracking.UserTrackingRecord&gt;       &lt;/xref:System.Workflow.Runtime.Tracking.ActivityTrackingRecord&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the host application may store the tracking information in a database and use it to implement a sophisticated user interface, or it may use the information to inform an administrator of a condition that requires some action.</source>
+          <target state="translated">For eksempel vertsprogrammet kan lagre sporingsinformasjonen i en database og bruke den til å implementere et avansert brukergrensesnitt, eller den kan bruke informasjonen til å informere administrator i en tilstand som krever en handling.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can register a tracking service with the workflow run-time engine by calling &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A?displayProperty=fullName&gt; or by including the appropriate entry in the application configuration file.</source>
+          <target state="translated">Du kan registrere en Sporingstjenesten med arbeidsflyten kjøretid motoren ved å kalle &lt;xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A?displayProperty=fullName&gt;eller ved å inkludere riktig oppføring i programmets konfigurasjonsfil.&lt;/xref:System.Workflow.Runtime.WorkflowRuntime.AddService%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All tracking services must inherit from the TrackingService abstract class.</source>
+          <target state="translated">Sporing tjenestene må arve fra den TrackingService abstrakt klassen.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class defines the basic interface between a tracking service and the run-time tracking infrastructure.</source>
+          <target state="translated">Denne klassen definerer grunnleggende grensesnittet mellom en Sporingstjenesten og infrastruktur for kjøring sporing.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine requests a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for a specific workflow instance or workflow &lt;xref:System.Type&gt; by calling one of the overloaded &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt; methods or the &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt; method.</source>
+          <target state="translated">Arbeidsflyten kjøretid motoren forespørsler en &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;for en bestemt arbeidsflytforekomst eller arbeidsflyt &lt;xref:System.Type&gt;ved å kalle en av de overbelastet &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;metoder eller &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt;metode.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine calls &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetTrackingChannel%2A&gt; to request a &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;.</source>
+          <target state="translated">Arbeidsflyten kjøretid motoren kall &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetTrackingChannel%2A&gt;å be om en &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetTrackingChannel%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow tracking runtime calls the &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt; and &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt; methods whenever a workflow instance is created or loaded from the persistence store.</source>
+          <target state="translated">Arbeidsflyten sporing runtime kall av &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;og &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt;metoder når en arbeidsflytforekomst som er opprettet eller lastet inn fra vedvarende lager.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.TryGetProfile%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.GetProfile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The overhead associated with these calls can be costly to the tracking service (many database calls, for example).</source>
+          <target state="translated">Overhead tilknyttet kallene kan være vanskelig å Sporingstjenesten (mange databasen kall, for eksempel).</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt; interface in your tracking service to circumvent this call-based mechanism and use events to notify the workflow runtime engine of changes to a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.</source>
+          <target state="translated">Du kan implementere &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;grensesnittet i din Sporingstjenesten å omgå dette kallet kodebasert mekanisme og bruke hendelser for å varsle arbeidsflyten runtime motoren om endringer i &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For tracking services that implement the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt; interface, the workflow run-time engine subscribes to the &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileUpdated&gt; and &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileRemoved&gt; events.</source>
+          <target state="translated">For å spore tjenester som implementerer den &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;grensesnittet arbeidsflyten kjøretid motoren abonnerer på den &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileUpdated&gt;og &lt;xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileRemoved&gt;hendelser.&lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileRemoved&gt; &lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification.ProfileUpdated&gt; &lt;/xref:System.Workflow.Runtime.Tracking.IProfileNotification&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your tracking service can raise the appropriate event when a change to one of its tracking profiles occurs.</source>
+          <target state="translated">Din Sporingstjenesten kan øke riktig hendelse når en endring i ett av sporing profilene oppstår.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; class implements this interface.</source>
+          <target state="translated">Den &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;klassen implementerer dette grensesnittet.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine calls the &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryReloadProfile%2A&gt; method to test whether a &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; has been updated or removed as a result of an explicit call by a host or a service to &lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A&gt; on a workflow instance.</source>
+          <target state="translated">Arbeidsflyten kjøretid motoren kall av &lt;xref:System.Workflow.Runtime.Tracking.TrackingService.TryReloadProfile%2A&gt;metode for å teste om en &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;er oppdatert eller fjernet som følge av et eksplisitt kall av vert eller en tjeneste som &lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A&gt;på en arbeidsflytforekomst.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingService.TryReloadProfile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This process enables a host or service to dynamically change the tracking profile that is being used for a specific workflow instance.</source>
+          <target state="translated">Dette gjør det mulig et vertsnavn eller en tjeneste endre dynamisk sporing-profil som brukes for en bestemt arbeidsflytforekomst.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Når implementert i en avledet klasse, initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, returns the tracking profile for the specified workflow instance.</source>
+          <target state="translated">Må overstyres i den utledede klassen, og når implementert, returnerer sporing profilen for den angitte arbeidsflytforekomsten.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A tracking service is responsible for managing the tracking profiles available for specific workflow types and specific workflow instances.</source>
+          <target state="translated">En Sporingstjenesten er ansvarlig for behandling av sporing-profiler som er tilgjengelige for spesifikk arbeidsflyttyper og bestemte arbeidsflytforekomster.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement this management in whatever manner you choose.</source>
+          <target state="translated">Du kan implementere denne administrasjonspakken på måten du velger.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can return the same &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for every workflow &lt;xref:System.Type&gt; and workflow instance; or you can manage a sophisticated store of tracking profiles referenced by workflow instance, workflow &lt;xref:System.Type&gt;, and &lt;xref:System.Version&gt;.</source>
+          <target state="translated">For eksempel kan du gå tilbake samme &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;for hver arbeidsflyt &lt;xref:System.Type&gt;og arbeidsflytforekomsten; eller du kan administrere en avansert butikk for å spore profiler refererer til arbeidsflytforekomsten, arbeidsflyt &lt;xref:System.Type&gt;, og &lt;xref:System.Version&gt;.&lt;/xref:System.Version&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the workflow instance.</source>
+          <target state="translated">Den &lt;xref:System.Guid&gt;til arbeidsflytforekomsten.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The tracking profile for the specified workflow instance.</source>
+          <target state="translated">Profilen sporing for den angitte arbeidsflytforekomsten.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, returns the tracking profile, qualified by version, for the specified workflow &lt;xref:System.Type&gt;.</source>
+          <target state="translated">Må overstyres i den utledede klassen, og når implementert, returnerer sporing-profil kvalifisert av versjon for den angitte arbeidsflyten &lt;xref:System.Type&gt;.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A tracking service is responsible for managing the tracking profiles available for specific workflow types and specific workflow instances.</source>
+          <target state="translated">En Sporingstjenesten er ansvarlig for behandling av sporing-profiler som er tilgjengelige for spesifikk arbeidsflyttyper og bestemte arbeidsflytforekomster.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement this management in whatever manner you choose.</source>
+          <target state="translated">Du kan implementere denne administrasjonspakken på måten du velger.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can return the same &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for every workflow &lt;xref:System.Type&gt; and workflow instance; or you can manage a sophisticated store of tracking profiles referenced by workflow instance, workflow &lt;xref:System.Type&gt;, and &lt;xref:System.Version&gt;.</source>
+          <target state="translated">For eksempel kan du gå tilbake samme &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;for hver arbeidsflyt &lt;xref:System.Type&gt;og arbeidsflytforekomsten; eller du kan administrere en avansert butikk for å spore profiler refererer til arbeidsflytforekomsten, arbeidsflyt &lt;xref:System.Type&gt;, og &lt;xref:System.Version&gt;.&lt;/xref:System.Version&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the workflow.</source>
+          <target state="translated">Den &lt;xref:System.Type&gt;av arbeidsflyten.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Version&gt; of the tracking profile.</source>
+          <target state="translated">Den &lt;xref:System.Version&gt;av sporing profilen.&lt;/xref:System.Version&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The tracking profile for the specified workflow type.</source>
+          <target state="translated">Profilen sporing for den angitte arbeidsflyttypen.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, returns the channel that the run-time tracking infrastructure uses to send tracking records to the tracking service.</source>
+          <target state="translated">Må overstyres i den utledede klassen, og når implementert, returnerer kanalen som kjøretid sporing-infrastruktur bruker til å sende sporing poster til Sporingstjenesten.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The run-time tracking infrastructure uses one &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; for each tracking service for each workflow instance.</source>
+          <target state="translated">Kjøretid sporing-infrastruktur bruker en &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;for hver Sporingstjenesten for hver arbeidsflytforekomsten.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The workflow run-time engine calls GetTrackingChannel on each tracking service to get the &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; for that service.</source>
+          <target state="translated">Motoren for arbeidsflyten kjøretid kaller GetTrackingChannel på hver Sporingstjenesten å hente den &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;for tjenesten.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the information passed in &lt;xref:System.Workflow.Runtime.Tracking.TrackingParameters&gt; to associate tracking data sent on the &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; for your tracking service with a particular root workflow instance.</source>
+          <target state="translated">Du kan bruke informasjonen innsendte &lt;xref:System.Workflow.Runtime.Tracking.TrackingParameters&gt;å knytte sporing data sendes på den &lt;xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt;for av Sporingstjenesten med en bestemt roten arbeidsflytforekomst.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingChannel&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingParameters&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingParameters"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with the workflow instance.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingParameters"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> knyttet til arbeidsflytforekomsten.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingChannel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used to send tracking records to the tracking service.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingChannel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som brukes til å sende sporing poster til Sporingstjenesten.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, retrieves the tracking profile for the specified workflow type if one is available.</source>
+          <target state="translated">Må overstyres i den utledede klassen, og når implementert, henter sporing profilen for den angitte arbeidsflyttypen Hvis det er tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A tracking service is responsible for managing the tracking profiles available for specific workflow types and specific workflow instances.</source>
+          <target state="translated">En Sporingstjenesten er ansvarlig for behandling av sporing-profiler som er tilgjengelige for spesifikk arbeidsflyttyper og bestemte arbeidsflytforekomster.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can implement this management in whatever manner you choose.</source>
+          <target state="translated">Du kan implementere denne administrasjonspakken på måten du velger.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can return the same &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; for every workflow &lt;xref:System.Type&gt; and workflow instance; or you can manage a sophisticated store of tracking profiles referenced by workflow instance, workflow &lt;xref:System.Type&gt;, and &lt;xref:System.Version&gt;.</source>
+          <target state="translated">For eksempel kan du gå tilbake samme &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;for hver arbeidsflyt &lt;xref:System.Type&gt;og arbeidsflytforekomsten; eller du kan administrere en avansert butikk for å spore profiler refererer til arbeidsflytforekomsten, arbeidsflyt &lt;xref:System.Type&gt;, og &lt;xref:System.Version&gt;.&lt;/xref:System.Version&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Type&gt; &lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the workflow for which to get the tracking profile.</source>
+          <target state="translated">Den &lt;xref:System.Type&gt;av arbeidsflyten som skal få sporing-profil.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to load.</source>
+          <target state="translated">Låse denne metoden, inneholder den <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ikke laste inn.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Denne parameteren sendes ikke initialisert.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> for the specified workflow &lt;xref:System.Type&gt; is available; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis en <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> for den angitte arbeidsflyten &lt;xref:System.Type&gt;er tilgjengelig; ellers, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Must be overridden in the derived class, and when implemented, retrieves a new tracking profile for the specified workflow instance if the tracking profile has changed since it was last loaded.</source>
+          <target state="translated">Må overstyres i den utledede klassen, og når implementert, henter en ny sporing-profil for den angitte arbeidsflytforekomsten Hvis sporing profilen er endret siden den sist ble lastet inn.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TryReloadProfile is called by the run-time tracking infrastructure to determine whether a new &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; should be loaded for the specified workflow instance.</source>
+          <target state="translated">TryReloadProfile kalles ved kjøretid sporing-infrastruktur for å fastslå om en ny &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;må være lastet inn for den angitte arbeidsflytforekomsten.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a new &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt; is required, it is returned in <ph id="ph1">`profile`</ph>.</source>
+          <target state="translated">Hvis en ny &lt;xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;er nødvendig, returneres i <ph id="ph1">`profile`</ph>.&lt;/xref:System.Workflow.Runtime.Tracking.TrackingProfile&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you want the run-time tracking infrastructure to stop tracking a workflow instance, your tracking service should return <ph id="ph1">`true`</ph> and set <ph id="ph2">`profile`</ph> equal to a null reference (<ph id="ph3">`Nothing`</ph> in Visual Basic).</source>
+          <target state="translated">Hvis du vil kjøretid sporing-infrastruktur for å stoppe sporing av en arbeidsflytforekomst, din sporingstjenesten skal returnere <ph id="ph1">`true`</ph> og <ph id="ph2">`profile`</ph> lik en nullreferanse (<ph id="ph3">`Nothing`</ph> i Visual Basic).</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Your tracking service can use <ph id="ph1">`workflowType`</ph> or <ph id="ph2">`workflowInstanceId`</ph> in whatever manner you choose to determine whether a tracking profile should be reloaded.</source>
+          <target state="translated">Din Sporingstjenesten kan bruke <ph id="ph1">`workflowType`</ph> eller <ph id="ph2">`workflowInstanceId`</ph> på måten du vil finne ut om en sporing profil skal lastes inn på nytt.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt; only uses <ph id="ph1">`workflowInstanceId`</ph> to decide whether the tracking profile should be reloaded.</source>
+          <target state="translated">For eksempel den &lt;xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;bare bruker <ph id="ph1">`workflowInstanceId`</ph> til å avgjøre om sporing profilen skal lastes inn på nytt.&lt;/xref:System.Workflow.Runtime.Tracking.SqlTrackingService&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>TryReloadProfile is called by the run-time tracking infrastructure according to its own tracking semantics, or in response to the host or a service calling &lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A?displayProperty=fullName&gt; on a workflow instance.</source>
+          <target state="translated">TryReloadProfile kalles ved kjøretid sporing-infrastruktur i henhold til sin egen sporing semantikk eller som svar på verten eller en tjeneste-kaller &lt;xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A?displayProperty=fullName&gt;på en arbeidsflytforekomst.&lt;/xref:System.Workflow.Runtime.WorkflowInstance.ReloadTrackingProfiles%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; of the workflow instance.</source>
+          <target state="translated">Den &lt;xref:System.Type&gt;til arbeidsflytforekomsten.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Guid&gt; of the workflow instance.</source>
+          <target state="translated">Den &lt;xref:System.Guid&gt;til arbeidsflytforekomsten.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to load.</source>
+          <target state="translated">Låse denne metoden, inneholder den <bpt id="p1">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ikke laste inn.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>This parameter is passed uninitialized.</source>
+          <target state="translated">Denne parameteren sendes ikke initialisert.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if a new <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> should be loaded; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis en ny <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> skal lastes inn; ellers, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</source>
+          <target state="translated">If <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, the <bpt id="p2">&lt;xref href="System.Workflow.Runtime.Tracking.TrackingProfile"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is returned in <bpt id="p3">&lt;code&gt;</bpt><ph id="ph1">profile</ph><ept id="p3">&lt;/code&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

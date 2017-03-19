@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1cd8bfb9cf67423af9f400645f5a37817279863</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.EventInstance.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ad3f555e2e7985f21677eeb428b69f4e3a54cba</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ae21ae61b4bed74f7fb9cb5d5d2338a7f6a62ee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents language-neutral information for an event log entry.</source>
+          <target state="translated">表示一个事件日志条目的非特定于语言的信息。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Use EventInstance to write an event log entry with a resource identifier rather than a string value.</source>
+          <target state="translated">使用 EventInstance 写入事件日志条目使用的资源标识符，而不是一个字符串值。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To write an event log entry, initialize the &lt;xref:System.Diagnostics.EventInstance.InstanceId%2A&gt; property and pass the instance to the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">若要写入事件日志条目，初始化&lt;xref:System.Diagnostics.EventInstance.InstanceId%2A&gt;属性并将传递到实例&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;方法。&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; &lt;/xref:System.Diagnostics.EventInstance.InstanceId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the instance identifier to find and display the corresponding string from the localized resource file based on current language settings.</source>
+          <target state="translated">事件查看器使用实例标识符来查找并显示基于当前语言设置的本地化的资源文件中的相应字符串。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You must register the event source with the corresponding resource file before you write events using resource identifiers.</source>
+          <target state="translated">需要在编写使用资源标识符的事件前，必须将事件源注册相应的资源文件。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>When writing events, you can set the &lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt; property to specify the icon that the Event Viewer displays for the entry.</source>
+          <target state="translated">写入事件时，你可以设置&lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt;属性指定为该项的事件查看器显示的图标。&lt;/xref:System.Diagnostics.EventInstance.EntryType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>You can also specify a &lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt; property to specify the category that the Event Viewer displays for the entry.</source>
+          <target state="translated">你还可以指定&lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;属性指定为该项的事件查看器显示的类别。&lt;/xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the category to filter events written by an event source.</source>
+          <target state="translated">事件查看器将使用到按事件源写入筛选器事件类别。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The Event Viewer can display the category as a numeric value, or it can use the category as a resource identifier to display a localized category string.</source>
+          <target state="translated">事件查看器可将类别显示为数字值，或者它可以作为资源标识符使用类别，以显示本地化的类别字符串。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To display localized category strings in the Event Viewer, you must use an event source configured with a category resource file, and set the &lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt; to a resource identifier in the category resource file.</source>
+          <target state="translated">若要在事件查看器中显示本地化的类别字符串，必须使用事件源使用类别资源文件，配置和设置&lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;类别资源文件中的资源标识符。&lt;/xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>If the event source does not have a configured category resource file, or the specified &lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt; does not index a string in the category resource file, and then the Event Viewer displays the numeric category value for that entry.</source>
+          <target state="translated">如果事件源没有配置的类别资源文件，或指定&lt;xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;不得索引类别资源文件，然后选择事件查看器中的字符串是否显示该条目的数字类别值。&lt;/xref:System.Diagnostics.EventInstance.CategoryId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Configure the category resource file, along with the number of category strings in the resource file, using the &lt;xref:System.Diagnostics.EventLogInstaller&gt; or the &lt;xref:System.Diagnostics.EventSourceCreationData&gt; class.</source>
+          <target state="translated">配置类别资源文件，以及数量的类别字符串在资源文件中，使用&lt;xref:System.Diagnostics.EventLogInstaller&gt;或&lt;xref:System.Diagnostics.EventSourceCreationData&gt;类。&lt;/xref:System.Diagnostics.EventSourceCreationData&gt; &lt;/xref:System.Diagnostics.EventLogInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>You must register a source for an event log before using EventInstance to write an event with the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">你必须使用 EventInstance 中写入事件之前注册为事件日志源&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;方法。&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The source must be configured for writing localized entries to the log and the source must define at least a message resource file.</source>
+          <target state="translated">必须向日志写入本地化的项配置源和源必须定义至少一个消息资源文件。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Create the new event source during the installation of your application.</source>
+          <target state="translated">在你的应用程序的安装过程中创建新的事件源。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This allows time for the operating system to refresh its list of registered event sources and their configurations.</source>
+          <target state="translated">这样，可以为操作系统来刷新其已注册的事件源的列表和它们的配置的时间。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>If the operating system has not refreshed its list of event sources, and you attempt to write an event with the new source, the write operation will fail.</source>
+          <target state="translated">如果操作系统未刷新其事件源的列表，并尝试写入新的源的事件写入操作将失败。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You can configure a new source using an &lt;xref:System.Diagnostics.EventLogInstaller&gt;, or using the &lt;xref:System.Diagnostics.EventLog.CreateEventSource%2A&gt; method.</source>
+          <target state="translated">你可以配置新的源使用&lt;xref:System.Diagnostics.EventLogInstaller&gt;，或使用&lt;xref:System.Diagnostics.EventLog.CreateEventSource%2A&gt;方法。&lt;/xref:System.Diagnostics.EventLog.CreateEventSource%2A&gt; &lt;/xref:System.Diagnostics.EventLogInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You must have administrative rights on the computer to create a new event source.</source>
+          <target state="translated">若要创建新的事件源的计算机上，必须具有管理权限。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>For details about defining event messages and building event log resource files, see the "Message Compiler" topic in the Platform SDK documentation at <bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com)</ept>.</source>
+          <target state="translated">有关如何定义事件消息和生成事件日志资源文件的详细信息，请参阅处平台 SDK 文档中的"消息编译器"主题<bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com)</ept>。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified resource identifiers for the localized message and category text of the event entry.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Diagnostics.EventInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类事件项的本地化消息和类别文本使用指定的资源标识符。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To write an informational entry to an event log, initialize an &lt;xref:System.Diagnostics.EventInstance&gt; and pass it to the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">若要向事件日志中写入信息条目，初始化&lt;xref:System.Diagnostics.EventInstance&gt;和将其传递到&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;方法。&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; &lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`instanceId`</ph> to the resource identifier of the event message in the corresponding &lt;xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt; property for the source.</source>
+          <target state="translated">设置<ph id="ph1">`instanceId`</ph>到中相应的事件消息的资源标识符&lt;xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt;源的属性。&lt;/xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`categoryId`</ph> to a numeric category value, or the resource identifier of the event category in the &lt;xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt; property for the source; set the <ph id="ph2">`categoryId`</ph> to zero for no event category.</source>
+          <target state="translated">设置<ph id="ph1">`categoryId`</ph>为数值类别值或事件类别中的资源标识符&lt;xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt;源的属性; 设置<ph id="ph2">`categoryId`</ph>为零没有事件类别。&lt;/xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt; property for the new instance is set to &lt;xref:System.Diagnostics.EventLogEntryType&gt; by default.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt;的新实例的属性设置为&lt;xref:System.Diagnostics.EventLogEntryType&gt;默认情况下。&lt;/xref:System.Diagnostics.EventLogEntryType&gt; &lt;/xref:System.Diagnostics.EventInstance.EntryType%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the resource identifiers to display the corresponding strings from the localized resource files for the source.</source>
+          <target state="translated">事件查看器使用的资源标识符来显示源的本地化的资源文件中的相应字符串。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You must register the source with the corresponding resource files before you can write events using resource identifiers.</source>
+          <target state="translated">你可以编写使用资源标识符的事件前，必须将源注册相应的资源文件。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>A resource identifier that corresponds to a string defined in the message resource file of the event source.</source>
+          <target state="translated">对应于事件源的消息资源文件中定义的字符串资源标识符。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A resource identifier that corresponds to a string defined in the category resource file of the event source, or zero to specify no category for the event.</source>
+          <target state="translated">对应于事件源，则为零，以不指定事件的任何类别的类别资源文件中定义的字符串资源标识符。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">instanceId</ph><ept id="p1">&lt;/code&gt;</ept> parameter is a negative value or a value larger than <ph id="ph2">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">instanceId</ph> <ept id="p1">&lt;/code&gt;</ept>参数是负值或值大于<ph id="ph2">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">categoryId</ph><ept id="p1">&lt;/code&gt;</ept> parameter is a negative value or a value larger than <ph id="ph2">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated">-或- <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">categoryId</ph> <ept id="p1">&lt;/code&gt;</ept>参数是负值或值大于<ph id="ph2">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified resource identifiers for the localized message and category text of the event entry and the specified event log entry type.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Diagnostics.EventInstance"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类事件项和指定的事件日志条目类型的本地化的消息和类别文本使用指定的资源标识符。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To write an entry to an event log, initialize an &lt;xref:System.Diagnostics.EventInstance&gt; and pass it to the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">若要向事件日志中写入条目，初始化&lt;xref:System.Diagnostics.EventInstance&gt;和将其传递到&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;方法。&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; &lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`instanceId`</ph> to the resource identifier of the event message in the corresponding &lt;xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt; property for the source.</source>
+          <target state="translated">设置<ph id="ph1">`instanceId`</ph>到中相应的事件消息的资源标识符&lt;xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt;源的属性。&lt;/xref:System.Diagnostics.EventSourceCreationData.MessageResourceFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`categoryId`</ph> to a numeric category value, or the resource identifier of the event category in the &lt;xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt; property for the source; set the <ph id="ph2">`categoryId`</ph> to zero for no event category.</source>
+          <target state="translated">设置<ph id="ph1">`categoryId`</ph>为数值类别值或事件类别中的资源标识符&lt;xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt;源的属性; 设置<ph id="ph2">`categoryId`</ph>为零没有事件类别。&lt;/xref:System.Diagnostics.EventSourceCreationData.CategoryResourceFile%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the resource identifiers to display the corresponding strings from the localized resource files for the source.</source>
+          <target state="translated">事件查看器使用的资源标识符来显示源的本地化的资源文件中的相应字符串。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>You must register the source with the corresponding resource files before you can write events using resource identifiers.</source>
+          <target state="translated">你可以编写使用资源标识符的事件前，必须将源注册相应的资源文件。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Set the <ph id="ph1">`entryType`</ph> to one of the pre-defined entry types.</source>
+          <target state="translated">设置<ph id="ph1">`entryType`</ph>到预定义的条目类型之一。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the event type to determine which icon to display in the list view of the event log.</source>
+          <target state="translated">事件查看器使用的事件类型来确定要在事件日志的列表视图中显示的图标。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A resource identifier that corresponds to a string defined in the message resource file of the event source.</source>
+          <target state="translated">对应于事件源的消息资源文件中定义的字符串资源标识符。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A resource identifier that corresponds to a string defined in the category resource file of the event source, or zero to specify no category for the event.</source>
+          <target state="translated">对应于事件源，则为零，以不指定事件的任何类别的类别资源文件中定义的字符串资源标识符。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that indicates the event type.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指示事件类型。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;entryType&lt;/code&gt;</ph> is not a valid <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;entryType&lt;/code&gt;</ph>不是有效<bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;instanceId&lt;/code&gt;</ph> is a negative value or a value larger than <ph id="ph2">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;instanceId&lt;/code&gt;</ph>是负值或值大于<ph id="ph2">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;categoryId&lt;/code&gt;</ph> is a negative value or a value larger than <ph id="ph2">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated">-<ph id="ph1">&lt;code&gt;categoryId&lt;/code&gt;</ph>是负值或值大于<ph id="ph2">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets or sets the resource identifier that specifies the application-defined category of the event entry.</source>
+          <target state="translated">获取或设置指定事件项的应用程序定义类别的资源标识符。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Event log categories are application-defined values that help filter events, or provide further information about the event.</source>
+          <target state="translated">事件日志类别是应用程序定义的值，用于帮助筛选事件，或进一步提供有关事件的信息。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>For example, your application can define separate categories for different components or different operations.</source>
+          <target state="translated">例如，你的应用程序可以定义为不同的组件或不同的操作分隔不同类别。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Set the CategoryId property to specify the category that the Event Viewer displays for the entry.</source>
+          <target state="translated">设置 CategoryId 属性以指定事件查看器显示的项的类别。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The Event Viewer can display the category as a numeric value, or it can use the CategoryId as a resource identifier to display a localized category string based on the current language settings.</source>
+          <target state="translated">事件查看器可将类别显示为数字值，或者它可以作为资源标识符使用 CategoryId，若要显示本地化的类别字符串基于当前语言设置。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To display localized category strings in the Event Viewer, you must use an event source configured with a category resource file, and set the CategoryId to a resource identifier in the category resource file.</source>
+          <target state="translated">若要显示本地化的类别字符串，在事件查看器中，你必须使用事件源配置类别资源文件，和 CategoryId 设类别资源文件中的资源标识符。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>If the event source does not have a configured category resource file, or the specified CategoryId does not index a string in the category resource file, and then the Event Viewer displays the numeric category value for that entry.</source>
+          <target state="translated">如果事件源不具有配置的类别资源文件或指定的 CategoryId 未对索引在类别资源文件中，一个字符串，然后事件查看器显示该条目的数字类别值。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You must register the source with the corresponding resource file before you write event categories using resource identifiers.</source>
+          <target state="translated">需要在编写使用资源标识符的事件类别前，必须将源注册相应的资源文件。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Configure the category resource file, along with the number of category strings in the resource file, using the &lt;xref:System.Diagnostics.EventLogInstaller&gt; or the &lt;xref:System.Diagnostics.EventSourceCreationData&gt; class.</source>
+          <target state="translated">配置类别资源文件，以及数量的类别字符串在资源文件中，使用&lt;xref:System.Diagnostics.EventLogInstaller&gt;或&lt;xref:System.Diagnostics.EventSourceCreationData&gt;类。&lt;/xref:System.Diagnostics.EventSourceCreationData&gt; &lt;/xref:System.Diagnostics.EventLogInstaller&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>When defining category strings in a resource file, the category resource identifiers must be numbered consecutively starting at 1, up to the configured &lt;xref:System.Diagnostics.EventSourceCreationData.CategoryCount%2A&gt; property value.</source>
+          <target state="translated">当在资源文件中定义类别字符串，必须连续从 1 开始的最多配置编号类别资源标识符&lt;xref:System.Diagnostics.EventSourceCreationData.CategoryCount%2A&gt;属性值。&lt;/xref:System.Diagnostics.EventSourceCreationData.CategoryCount%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Event categories are optional.</source>
+          <target state="translated">事件类别是可选的。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If your application does not use categories, do not set the CategoryId for the event log entry.</source>
+          <target state="translated">如果你的应用程序不使用类别，则不要设置事件日志条目 CategoryId。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For details about defining event messages and building event resource files, see the "Message Compiler" topic in the Platform SDK documentation at <bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com/)</ept>.</source>
+          <target state="translated">有关如何定义事件消息和生成事件资源文件的详细信息，请参阅处平台 SDK 文档中的"消息编译器"主题<bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com/)</ept>。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>For details about defining event categories in resource files, see the "Event Categories" topic in the Platform SDK</source>
+          <target state="translated">有关在资源文件中定义的事件类别的详细信息，请参阅平台 SDK 中的"事件类别"主题</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A numeric category value or resource identifier that corresponds to a string defined in the category resource file of the event source.</source>
+          <target state="translated">数值类别值或资源标识符，对应的事件源的类别资源文件中定义的字符串。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The default is zero, which signifies that no category will be displayed for the event entry.</source>
+          <target state="translated">默认值为零，这意味着，没有类别将显示事件项。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The property is set to a negative value or to a value larger than <ph id="ph1">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">属性设置为负值或值大于<ph id="ph1">&amp;lt;</ph>xref:System.UInt16.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets the event type of the event log entry.</source>
+          <target state="translated">获取或设置事件日志条目的事件类型。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Each event is of a single type, which the application indicates when it reports the event.</source>
+          <target state="translated">每个事件是应用程序将指示它在报告事件时的单一类型。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the event type to determine which icon to display in the list view of the event log.</source>
+          <target state="translated">事件查看器使用的事件类型来确定要在事件日志的列表视图中显示的图标。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that indicates the event entry type.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，该值指示事件条目类型。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The property is not set to a valid <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">该属性未设置为有效<bpt id="p1">&lt;xref href="System.Diagnostics.EventLogEntryType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the resource identifier that designates the message text of the event entry.</source>
+          <target state="translated">获取或设置指定事件项的消息文本的资源标识符。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The InstanceId property uniquely identifies an event entry for a configured event source.</source>
+          <target state="translated">InstanceId 属性唯一地标识配置的事件源的事件条目。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For events defined in message resource files, the InstanceId corresponds to the resource identifier compiled from the message definition fields in the message text file.</source>
+          <target state="translated">对于在消息资源文件中定义的事件，InstanceId 对应于的消息文本文件中的消息定义字段从编译的资源标识符。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Your application can write localized event log entries by setting the InstanceId to a resource identifier.</source>
+          <target state="translated">你的应用程序可以通过设置 InstanceId 为资源标识符写入本地化的事件日志项。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The Event Viewer uses the InstanceId resource identifier to find and display the corresponding string from the localized resource file based on current language settings.</source>
+          <target state="translated">事件查看器使用 InstanceId 资源标识符来查找并显示基于当前语言设置的本地化的资源文件中的相应字符串。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>You must register the source with the corresponding resource file before you write events using resource identifiers.</source>
+          <target state="translated">需要在编写使用资源标识符的事件前，必须将源注册相应的资源文件。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>For details about defining event messages and building event log resource files, see the "Message Compiler" topic in the Platform SDK documentation at <bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com/)</ept>.</source>
+          <target state="translated">有关如何定义事件消息和生成事件日志资源文件的详细信息，请参阅处平台 SDK 文档中的"消息编译器"主题<bpt id="p1">[</bpt>http://msdn.microsoft.com<ept id="p1">](http://msdn.microsoft.com/)</ept>。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>For details about event log identifiers, see the "Event Identifiers" topic in the Platform SDK.</source>
+          <target state="translated">有关事件日志的标识符的详细信息，请参阅平台 SDK 中的"事件标识符"主题。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A resource identifier that corresponds to a string defined in the message resource file of the event source.</source>
+          <target state="translated">对应于事件源的消息资源文件中定义的字符串资源标识符。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The property is set to a negative value or to a value larger than <ph id="ph1">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">属性设置为负值或值大于<ph id="ph1">&amp;lt;</ph>xref:System.UInt32.MaxValue?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

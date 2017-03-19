@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">54af61422f0aebc6b7b4ac1f5dd3ac8aefef9fdd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4a30dcda14f246fc74dee4ad78dd87222dc0c983</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9bfad7c70bcee35517b165e6ce1c15027e1ffd60</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Identifies the callback method in a server control acting as the consumer in a Web Parts connection, and enables developers to specify details about the consumer's connection point.</source>
+          <target state="translated">Identifierar Återanropsmetoden i en serverkontroll som fungerar som konsumenten i en webbdelar anslutning och gör att utvecklare kan ange information om den anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Web Parts connection consists of two server controls residing in a &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt; zone and sharing data by means of an interface instance passed from one control to the other.</source>
+          <target state="translated">En anslutning med webbdelar som består av två server-kontroller som finns i en &lt;xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;zon och dela data med hjälp av en instans av gränssnittet som skickats från en kontroll till en annan.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartZoneBase&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The control that serves the interface instance is called the provider, and the control that receives the interface instance and processes or displays the data is called the consumer.</source>
+          <target state="translated">Kontrollen som fungerar gränssnittet-instans är providern, och den kontroll som tar emot gränssnittet instansen och processer eller visar data kallas konsumenten.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details on connections, see the &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt; class and <bpt id="p1">[</bpt>Web Parts Connections Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information om anslutningar finns i &lt;xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;klass och <bpt id="p1">[</bpt>översikt över webbserver delar anslutningar<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPartConnection&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The consumer control in a connection can be a &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt; control or any type of server or user control, but it must have a method designated as a callback method.</source>
+          <target state="translated">Konsumentkontroll i en anslutning kan vara en &lt;xref:System.Web.UI.WebControls.WebParts.WebPart&gt;kontrollen eller någon typ av server eller en användare, men det måste ha en metod som en Återanropsmetoden.&lt;/xref:System.Web.UI.WebControls.WebParts.WebPart&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The callback method is invoked during the connection process, and its purpose is to receive from the provider an interface instance that contains data.</source>
+          <target state="translated">Motringningsmetoden anropas under anslutningsprocessen och dess syfte är att ta emot från providern en gränssnittet-instans som innehåller data.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To designate the method that serves as the callback method in a consumer, you must add a <ph id="ph1">`ConnectionConsumerAttribute`</ph> metadata element to the method (the element is based on the ConnectionConsumerAttribute class).</source>
+          <target state="translated">Om du vill ange den metod som fungerar som Återanropsmetoden i en konsument, måste du lägga till en <ph id="ph1">`ConnectionConsumerAttribute`</ph> metadataelement till-metoden (elementet baseras på klassen ConnectionConsumerAttribute).</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to designating the callback method in a consumer, the ConnectionConsumerAttribute object also enables you to specify certain details about a consumer's connection point.</source>
+          <target state="translated">Förutom utser Återanropsmetoden i en konsument kan ConnectionConsumerAttribute objektet du också ange vissa uppgifter om en anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A consumer connection point is an instance of the &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class that encapsulates all the details about a consumer needed to establish a connection, including the consumer's control type, whether it can connect to multiple providers at the same time, what type of interface the consumer can receive from a provider, details about the callback method, and a display name that represents the consumer connection point in the user interface (UI).</source>
+          <target state="translated">En Förbrukaranslutningspunkten är en instans av den &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;klass som innehåller all information om en konsument som behövs för att upprätta en anslutning, inklusive konsumentens kontrolltypen, om den kan ansluta till flera providers på samma gång, vilken typ av gränssnittet konsumenten kan ta emot från en leverantör, information om Återanropsmetoden och ett namn som representerar Förbrukaranslutningspunkten i användargränssnittet (UI).&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Every Web Parts connection includes a consumer connection point that is associated with the consumer control.</source>
+          <target state="translated">Varje webbdelar anslutning innehåller en Förbrukaranslutningspunkten som är associerat med kontrollen konsumenten.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you add the <ph id="ph1">`ConnectionConsumerAttribute`</ph> metadata element to the callback method in a consumer, you can also use it to specify the following details about the consumer connection point: a display name for the connection point (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt; property), whether the consumer can connect to multiple providers at the same time (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.AllowsMultipleConnections%2A&gt; property), an ID for the connection point (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID%2A&gt; property), and the type of the connection point that the consumer uses (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ConnectionPointType%2A&gt; property).</source>
+          <target state="translated">När du lägger till den <ph id="ph1">`ConnectionConsumerAttribute`</ph> metadataelement till Återanropsmetoden i en konsument, du kan också använda det för att ange följande information om Förbrukaranslutningspunkten: ett visningsnamn för kopplingspunkt (information finns i egenskapen &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt;), om klienten kan ansluta till flera providers på samma gång (information finns i egenskapen &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.AllowsMultipleConnections%2A&gt;), ett ID för kopplingspunkt (Mer information finns det &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID%2A&gt;egenskapen), och vilken typ av anslutningspunkten som klienten använder (Mer information finns i &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ConnectionPointType%2A&gt;egenskap).&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ConnectionPointType%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.AllowsMultipleConnections%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The four overloads of the constructor for the ConnectionConsumerAttribute class each have parameters that allow you to specify values for one or more of these connection point properties when a new instance of the class is created.</source>
+          <target state="translated">Fyra överlagringar av konstruktorn för ConnectionConsumerAttribute klassen varje har parametrar som du vill ange värden för en eller flera av dessa punkt anslutningsegenskaper när en ny instans av klassen skapas.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the properties for a consumer connection point can also be set programmatically; setting them using the <ph id="ph1">`ConnectionConsumerAttribute`</ph> element is optional.</source>
+          <target state="translated">De flesta egenskaper för en Förbrukaranslutningspunkten kan också anges programmässigt. ställa in dem med hjälp av den <ph id="ph1">`ConnectionConsumerAttribute`</ph> element är valfria.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When you add the <ph id="ph2">`ConnectionConsumerAttribute`</ph> metadata element to a callback method in a consumer, the only required parameter that you must always specify is the <ph id="ph3">`displayName`</ph> parameter (for details, see the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.%23ctor%28System.String%29&gt; constructor overload).</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; När du lägger till den <ph id="ph2">`ConnectionConsumerAttribute`</ph> metadataelement till en metod i en konsument endast obligatoriska parametern som du måste alltid ange är den <ph id="ph3">`displayName`</ph> parameter (Mer information finns i &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.%23ctor%28System.String%29&gt;konstruktorn överlagring).&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.%23ctor%28System.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this parameter is assigned to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt; property, and when a user opens the connection UI (created by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control), the display name represents the consumer connection point in the UI.</source>
+          <target state="translated">Värdet för den här parametern har tilldelats den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt;egenskap, och när en användare öppnar anslutningen Användargränssnittet (skapas av den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;kontroll), visningsnamnet representerar Förbrukaranslutningspunkten i Användargränssnittet.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you designate multiple callback methods in a consumer control, you will have multiple possible connection points to choose from, and when you add the <ph id="ph1">`ConnectionConsumerAttribute`</ph> metadata element to each callback method, you should also specify a value for the <ph id="ph2">`id`</ph> parameter, so that each consumer connection point has a known, unique identifier.</source>
+          <target state="translated">Om du anger flera återanrop metoder i en Konsumentkontroll, du har flera möjliga kopplingspunkterna kan välja mellan, och när du lägger till den <ph id="ph1">`ConnectionConsumerAttribute`</ph> metadataelement till varje metod, bör du också ange ett värde för den <ph id="ph2">`id`</ph> parameter, så att varje konsument kopplingspunkt har en känd, unika identifierare.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name for the consumer connection point.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass, ange ett namn för anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates an instance of the attribute that is used with a method of a Web Parts control acting as a consumer.</source>
+          <target state="translated">Den här konstruktorn skapar en instans av attributet som används med en metod för en kontroll för webbdelar som fungerar som en konsument.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method becomes the connection point between the provider and the consumer.</source>
+          <target state="translated">Den här metoden blir anslutningspunkten mellan providern och konsumenter.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Typically, the way you use this constructor is to declare a <ph id="ph1">`ConnectionConsumerAttribute`</ph> metadata element on a method that you want to designate as a callback method in a consumer control.</source>
+          <target state="translated">Hur du använder den här konstruktorn är vanligtvis att deklarera en <ph id="ph1">`ConnectionConsumerAttribute`</ph> metadataelement på en metod som du vill beteckna som en metod i en Konsumentkontroll.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the consumer connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a consumer's connection point in the UI.</source>
+          <target state="translated">Den <ph id="ph1">`displayName`</ph> parametern är ett eget namn för Förbrukaranslutningspunkten som används av den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;kontroll för att representera en konsument kopplingspunkt i Användargränssnittet.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the consumer connection point to display in the user interface (UI).</source>
+          <target state="translated">En sträng som innehåller ett eget namn för anslutningen konsumenten peka visas i användargränssnittet (UI).</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name and an ID for the consumer connection point.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass, ange ett namn och ett ID för anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the consumer connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a consumer's connection point in the UI.</source>
+          <target state="translated">Den <ph id="ph1">`displayName`</ph> parametern är ett eget namn för Förbrukaranslutningspunkten som används av den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;kontroll för att representera en konsument kopplingspunkt i Användargränssnittet.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`id`</ph> parameter is used to specify the ID for the consumer connection point associated with the specific callback method.</source>
+          <target state="translated">Den <ph id="ph1">`id`</ph> används för att ange ID för Förbrukaranslutningspunkten som är kopplade till specifika Återanropsmetoden.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control can have multiple connection points, but the <ph id="ph1">`id`</ph> for each must be unique.</source>
+          <target state="translated">En kontroll kan ha flera anslutningspunkter, men <ph id="ph1">`id`</ph> för varje måste vara unika.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, this overload of the constructor is useful if you have multiple callback methods in your consumer control.</source>
+          <target state="translated">Den här överlagring för konstruktorn är därför användbart om du har flera återanrop metoder i Konsumentkontroll.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the consumer connection point to display in the user interface (UI).</source>
+          <target state="translated">En sträng som innehåller ett eget namn för anslutningen konsumenten peka visas i användargränssnittet (UI).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID*&gt;, a unique string value assigned to the consumer connection point.</source>
+          <target state="translated">Den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID*&gt;, ett unikt strängvärde som tilldelats anslutningspunkten.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;id&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;id&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name and a specific type of connection point object to use for the consumer connection point.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass, ange ett namn och en viss typ av plats anslutningsobjektet ska användas för anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the consumer connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a consumer's connection point in the UI.</source>
+          <target state="translated">Den <ph id="ph1">`displayName`</ph> parametern är ett eget namn för Förbrukaranslutningspunkten som används av den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;kontroll för att representera en konsument kopplingspunkt i Användargränssnittet.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`connectionPointType`</ph> parameter must be a &lt;xref:System.Type&gt; derived from &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;.</source>
+          <target state="translated">Den <ph id="ph1">`connectionPointType`</ph> parametern måste vara en &lt;xref:System.Type&gt;härledd från &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this parameter is specified, the &lt;xref:System.Type&gt; is used to create the connection point instead of the standard &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class provided with the Web Parts control set.</source>
+          <target state="translated">Om den här parametern anges den &lt;xref:System.Type&gt;används för att skapa anslutningspunkten i stället för vanlig &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;klass som angetts med webbdelar kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the consumer connection point to display in the user interface (UI).</source>
+          <target state="translated">En sträng som innehåller ett eget namn för anslutningen konsumenten peka visas i användargränssnittet (UI).</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that derives from <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and that you want to specify as the type of connection point object to use with a specific callback method.</source>
+          <target state="translated">En &lt;xref:System.Type&gt;som härleds från <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, och att du vill ange vilken typ av anslutning peka objekt som ska användas med en specifik Återanropsmetoden.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph> or<ph id="ph2">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>or<ph id="ph2">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph>är inte giltig.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class, specifying a display name, an ID, and a specific type of connection point object to use for the consumer connection point.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass, ange ett namn, ett ID och en viss typ av anslutning point-objekt ska användas för anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`displayName`</ph> parameter is a friendly name of the consumer connection point that is used by the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control to represent a consumer's connection point in the UI.</source>
+          <target state="translated">Den <ph id="ph1">`displayName`</ph> parametern är ett eget namn för Förbrukaranslutningspunkten som används av den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;kontroll för att representera en konsument kopplingspunkt i Användargränssnittet.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`id`</ph> parameter is used to specify the ID for the consumer connection point associated with the specific callback method.</source>
+          <target state="translated">Den <ph id="ph1">`id`</ph> används för att ange ID för Förbrukaranslutningspunkten som är kopplade till specifika Återanropsmetoden.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A control can have multiple connection points, but the <ph id="ph1">`id`</ph> for each must be unique.</source>
+          <target state="translated">En kontroll kan ha flera anslutningspunkter, men <ph id="ph1">`id`</ph> för varje måste vara unika.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, this overload of the constructor is useful if you have multiple callback methods in your consumer control.</source>
+          <target state="translated">Den här överlagring för konstruktorn är därför användbart om du har flera återanrop metoder i Konsumentkontroll.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`connectionPointType`</ph> parameter must be a &lt;xref:System.Type&gt; derived from &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;.</source>
+          <target state="translated">Den <ph id="ph1">`connectionPointType`</ph> parametern måste vara en &lt;xref:System.Type&gt;härledd från &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this parameter is specified, the &lt;xref:System.Type&gt; is used to create the connection point instead of the standard &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class provided with the Web Parts control set.</source>
+          <target state="translated">Om den här parametern anges den &lt;xref:System.Type&gt;används för att skapa anslutningspunkten i stället för vanlig &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;klass som angetts med webbdelar kontroll.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A string that contains a friendly name for the consumer connection point to display in the user interface (UI).</source>
+          <target state="translated">En sträng som innehåller ett eget namn för anslutningen konsumenten peka visas i användargränssnittet (UI).</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID*&gt;, a unique string value assigned to the consumer connection point.</source>
+          <target state="translated">Den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID*&gt;, ett unikt strängvärde som tilldelats anslutningspunkten.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID*&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that derives from <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and that you want to specify as the type of connection point object to use with a specific callback method.</source>
+          <target state="translated">En &lt;xref:System.Type&gt;som härleds från <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, och att du vill ange vilken typ av anslutning peka objekt som ska användas med en specifik Återanropsmetoden.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;id&lt;/code&gt;</ph>, or<ph id="ph3">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;displayName&lt;/code&gt;</ph>, <ph id="ph2">&lt;code&gt;id&lt;/code&gt;</ph>, or<ph id="ph3">&lt;code&gt; connectionPointType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph> is not valid.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;connectionPointType&lt;/code&gt;</ph>är inte giltig.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the connection point allows multiple connections.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger om anslutningspunkten tillåter flera anslutningar.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, consumer connections do not accept multiple connections, so this property is set to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Som standard förbrukaranslutningar accepterar inte flera anslutningar, så den här egenskapen är inställd på <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Provider connections, however, do accept multiple connections by default, and this property on a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt; object is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Provideranslutningar, men accepterar flera anslutningar som standard och den här egenskapen på ett &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;objekt har angetts till <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionProviderAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the connection point accepts multiple connections; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om anslutningspunkten accepterar flera anslutningar. Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Gets the connection point type of the consumer connection point.</source>
+          <target state="translated">Hämtar typ av anslutning av anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property returns the &lt;xref:System.Type&gt; of the consumer connection point.</source>
+          <target state="translated">Den här egenskapen returnerar den &lt;xref:System.Type&gt;av anslutningspunkten.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Type&gt; must derive from &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;, and when you declare the <ph id="ph1">`connectionPointType`</ph> parameter with a <ph id="ph2">`ConnectionConsumerAttribute`</ph> metadata element on a callback method, an instance of the type you declare is used to create a connection point instead of the standard &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; class.</source>
+          <target state="translated">Den &lt;xref:System.Type&gt;måste vara härledd från &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;, och när du deklarera den <ph id="ph1">`connectionPointType`</ph> parameter med en <ph id="ph2">`ConnectionConsumerAttribute`</ph> metadataelement för en instans av typen du deklarera en motringning-metod som används för att skapa en kopplingspunkt i stället för standard &lt;xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt;klass.&lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint&gt; &lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Type&gt; that indicates the type of the connection point.</source>
+          <target state="translated">En &lt;xref:System.Type&gt;som anger vilken typ av anslutningspunkten.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>An invalid connection point type (one that does not derive from the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class) was used.</source>
+          <target state="translated">En ogiltig anslutningstyp (en som inte är härledd från den <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.WebParts.ConsumerConnectionPoint"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen) användes.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Gets the friendly name of the consumer connection point.</source>
+          <target state="translated">Hämtar det egna namnet för anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is the friendly name of a consumer connection point.</source>
+          <target state="translated">Den här egenskapen är det egna namnet för en anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Its value can be set declaratively, when you add the <ph id="ph1">`displayName`</ph> parameter to a <ph id="ph2">`ConnectionConsumerAttribute`</ph> metadata element on a callback method.</source>
+          <target state="translated">Värdet kan anges deklarativt, när du lägger till den <ph id="ph1">`displayName`</ph> parameter till en <ph id="ph2">`ConnectionConsumerAttribute`</ph> metadataelement på en-metod.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can also be set programmatically by a derived class, by using the protected &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayNameValue%2A&gt; property.</source>
+          <target state="translated">Det kan också ställas in via programmering genom en härledd klass med hjälp av den skyddade &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayNameValue%2A&gt;egenskap.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayNameValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are searching through a connection point collection, you should use the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID%2A&gt; property, because the ID property must be unique, but the DisplayName property need not be.</source>
+          <target state="translated">När du söker igenom en anslutning punkt samling, bör du använda den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID%2A&gt;egenskap, eftersom egenskapen ID måste vara unikt, men egenskapen DisplayName behöver inte vara.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.ID%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DisplayName property of a consumer connection point is displayed to users when a &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt; control is on the page, the connection user interface (UI) is open, and the users are in a view where they are allowed to select connection points to establish a connection.</source>
+          <target state="translated">Egenskapen DisplayName för en Förbrukaranslutningspunkten visas för användarna när en &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;kontrollen finns på sidan användargränssnittet (UI) för anslutningen är öppen och användarna är i ett läge där de kan markera kopplingspunkter att upprätta en anslutning.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionsZone&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A string containing a friendly display name for the consumer connection point.</source>
+          <target state="translated">En sträng som innehåller ett eget namn för anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string used as the value of the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName*&gt; property, for use in localization scenarios.</source>
+          <target state="translated">Hämtar eller anger den sträng som värde för den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName*&gt;-egenskapen i lokalisering situationer.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName*&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This extra property exists so that you can derive from &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt; and provide a localized version.</source>
+          <target state="translated">Den här extra egenskapen finns så att du kan härledas från &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;och ange en lokaliserad version.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The derived localizable &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt; attribute will maintain a private Boolean field to indicate whether it has been localized.</source>
+          <target state="translated">Den härledda lokaliserbara &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;attributet ska behålla privata Boolean-fältet för att ange om den har översatts.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>On the first access to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt; property, it will look up the localized string, and then use the DisplayNameValue property to assign the localized value to the &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt; property.</source>
+          <target state="translated">På den första åtkomsten till den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt;egenskapen, det Leta upp den lokaliserade strängen och sedan använda egenskapen DisplayNameValue för att tilldela det lokaliserade värdet till den &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt;egenskapen.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt; &lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A string that is used as the value of &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName*&gt;.</source>
+          <target state="translated">En sträng som används som värde för &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName*&gt;.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName*&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Gets a string that represents the unique identity of the consumer connection point.</source>
+          <target state="translated">Hämtar en sträng som representerar Förbrukaranslutningspunkten unika identitet.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If searching through a connection point collection, you should use the ID property to locate a particular connection point.</source>
+          <target state="translated">Om söker igenom en anslutning punkt samling, ska du använda ID-egenskapen att söka efter en viss kopplingspunkt.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property can be used to distinguish between two connection points of the same name.</source>
+          <target state="translated">Den här egenskapen kan användas för att skilja mellan två kopplingspunkter med samma namn.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Consumer connection points can have the same &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt; property value, but the ID property must be different.</source>
+          <target state="translated">Konsumenten kopplingspunkter kan ha samma &lt;xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt;egenskapsvärde, men egenskapen ID måste vara olika.&lt;/xref:System.Web.UI.WebControls.WebParts.ConnectionConsumerAttribute.DisplayName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The unique ID assigned to the consumer connection point.</source>
+          <target state="translated">Unikt ID som tilldelats till anslutningspunkten.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The default value is &lt;xref:System.String&gt;.</source>
+          <target state="translated">Standardvärdet är &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

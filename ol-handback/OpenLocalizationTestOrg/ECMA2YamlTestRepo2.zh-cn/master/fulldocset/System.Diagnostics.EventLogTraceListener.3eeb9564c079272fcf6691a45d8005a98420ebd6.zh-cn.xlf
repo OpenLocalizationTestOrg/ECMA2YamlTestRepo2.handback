@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5cce57058e85059cdd5c0136344b6374933088c5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.EventLogTraceListener.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4d7d3551478dd2fd17f0fc8c80076ea08df73df</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5e1f4f4678e744ac9c6ee85b71086c1fdad7f886</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a simple listener that directs tracing or debugging output to an <bpt id="p1">&lt;xref href="System.Diagnostics.EventLog"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">提供一个将跟踪或调试输出到定向的简单侦听器<bpt id="p1">&lt;xref href="System.Diagnostics.EventLog"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>An instance of this EventLogTraceListener can be added to the &lt;xref:System.Diagnostics.Debug.Listeners%2A?displayProperty=fullName&gt;, &lt;xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt;, or &lt;xref:System.Diagnostics.TraceSource.Listeners%2A?displayProperty=fullName&gt; collections to send output from tracing or debugging to an &lt;xref:System.Diagnostics.EventLog&gt;.</source>
+          <target state="translated">可以将此 EventLogTraceListener 的实例添加到&lt;xref:System.Diagnostics.Debug.Listeners%2A?displayProperty=fullName&gt;， &lt;xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt;，或&lt;xref:System.Diagnostics.TraceSource.Listeners%2A?displayProperty=fullName&gt;要发送的跟踪或调试到&lt;xref:System.Diagnostics.EventLog&gt;。&lt;/xref:System.Diagnostics.EventLog&gt;输出集合&lt;/xref:System.Diagnostics.TraceSource.Listeners%2A?displayProperty=fullName&gt;&lt;/xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt;&lt;/xref:System.Diagnostics.Debug.Listeners%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>You can add the instance in your code or specify it in the application configuration file.</source>
+          <target state="translated">你可以将实例添加在代码中或在应用程序配置文件中指定它。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To add an EventLogTraceListener using an application configuration file, edit the file that corresponds to the name of your application or the app.config file in a <ph id="ph1">[!INCLUDE[vsprvslong](~/add/includes/ajax-current-ext-md.md)]</ph> project.</source>
+          <target state="translated">若要添加 EventLogTraceListener 使用应用程序配置文件，编辑对应于你的应用程序的名称的文件或 app.config 文件中的<ph id="ph1">[!INCLUDE[vsprvslong](~/add/includes/ajax-current-ext-md.md)]</ph>项目。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>In this file, insert an element for a EventLogTraceListener type.</source>
+          <target state="translated">在此文件中，插入 EventLogTraceListener 类型的元素。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The following example adds a EventLogTraceListener object named <ph id="ph1">`myListener`</ph> to the &lt;xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt; collection.</source>
+          <target state="translated">下面的示例添加名为的 EventLogTraceListener 对象<ph id="ph1">`myListener`</ph>到&lt;xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt;集合。&lt;/xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`initializeData`</ph> parameter specifies the name of the event log source that is to be passed to the &lt;xref:System.Diagnostics.EventLogTraceListener.%23ctor%28System.String%29&gt; constructor.</source>
+          <target state="translated"><ph id="ph1">`initializeData`</ph>参数指定要传递到事件日志源的名称&lt;xref:System.Diagnostics.EventLogTraceListener.%23ctor%28System.String%29&gt;构造函数。&lt;/xref:System.Diagnostics.EventLogTraceListener.%23ctor%28System.String%29&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;configuration&gt;     &lt;system.diagnostics&gt;       &lt;trace autoflush="false" indentsize="4"&gt;         &lt;listeners&gt;           &lt;add name="myListener"             type="System.Diagnostics.EventLogTraceListener"             initializeData="TraceListenerLog" /&gt;         &lt;/listeners&gt;       &lt;/trace&gt;     &lt;/system.diagnostics&gt;   &lt;/configuration&gt;   ```</ph>       For more information about how to add trace listeners in the application configuration file, see  or .</source>
+          <target state="translated"><ph id="ph1">```   &lt;configuration&gt;     &lt;system.diagnostics&gt;       &lt;trace autoflush="false" indentsize="4"&gt;         &lt;listeners&gt;           &lt;add name="myListener"             type="System.Diagnostics.EventLogTraceListener"             initializeData="TraceListenerLog" /&gt;         &lt;/listeners&gt;       &lt;/trace&gt;     &lt;/system.diagnostics&gt;   &lt;/configuration&gt;   ```</ph>有关如何在应用程序配置文件中添加跟踪侦听器的详细信息，请参阅或。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.Diagnostics.EventLog.Source%2A&gt; for the event log that is associated with the EventLogTraceListener instance does not exist, a new event source is created.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 如果&lt;xref:System.Diagnostics.EventLog.Source%2A&gt;EventLogTraceListener 实例相关联的事件日志不存在，创建新的事件源。&lt;/xref:System.Diagnostics.EventLog.Source%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>To create an event source in Windows Vista, Windows XP Professional, or Windows Server 2003, you must have administrative privileges.</source>
+          <target state="translated">若要在 Windows Vista、 Windows XP Professional 或 Windows Server 2003 中创建事件源，必须具有管理权限。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  The reason for this requirement is that all event logs, including security, must be searched to determine whether the event source is unique.</source>
+          <target state="translated">&gt;&gt; 此要求的原因是所有的事件日志，包括安全性，必须进行搜索以确定事件源是否唯一。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In Windows Vista, users do not have permission to access the security log; therefore, a &lt;xref:System.Security.SecurityException&gt; is thrown.</source>
+          <target state="translated">在 Windows Vista 中，用户没有权限访问安全事件日志中。因此，&lt;xref:System.Security.SecurityException&gt;引发。&lt;/xref:System.Security.SecurityException&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>&gt;    &gt;  In Windows Vista, User Account Control (UAC) determines the privileges of a user.</source>
+          <target state="translated">&gt;&gt; 在 Windows Vista 中，用户帐户控制 (UAC) 决定用户的特权。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>If you are a member of the Built-in Administrators group, you are assigned two run-time access tokens: a standard user access token and an administrator access token.</source>
+          <target state="translated">如果您是内置的 Administrators 组的成员，您分配两个运行时访问令牌︰ 一个标准用户访问令牌和一个管理员访问令牌。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>By default, you are in the standard user role.</source>
+          <target state="translated">默认情况下，您拥有标准用户角色中。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>To execute the code that accesses the security log, you must first elevate your privileges from standard user to administrator.</source>
+          <target state="translated">若要执行的代码访问安全日志，首先必须将你的特权从标准用户提升至管理员。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>You can do this when you start an application by right-clicking the application icon and indicating that you want to run as an administrator.</source>
+          <target state="translated">通过右键单击应用程序图标并指示需以管理员身份运行启动应用程序时，你可以执行此操作。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The class provides the &lt;xref:System.Diagnostics.EventLogTraceListener.EventLog%2A&gt; property to get or set the event log that receives the tracing or debugging output, and the &lt;xref:System.Diagnostics.EventLogTraceListener.Name%2A&gt; property to hold the name of the EventLogTraceListener.</source>
+          <target state="translated">此类提供&lt;xref:System.Diagnostics.EventLogTraceListener.EventLog%2A&gt;属性来获取或设置接收跟踪或调试输出，事件日志和&lt;xref:System.Diagnostics.EventLogTraceListener.Name%2A&gt;属性以存放 EventLogTraceListener 的名称。&lt;/xref:System.Diagnostics.EventLogTraceListener.Name%2A&gt; &lt;/xref:System.Diagnostics.EventLogTraceListener.EventLog%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventLogTraceListener.Close%2A&gt; method closes the event log so it no longer receives tracing or debugging output.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventLogTraceListener.Close%2A&gt;方法关闭事件日志以使它不再接收跟踪或调试输出。&lt;/xref:System.Diagnostics.EventLogTraceListener.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventLogTraceListener.Write%2A&gt; and &lt;xref:System.Diagnostics.EventLogTraceListener.WriteLine%2A&gt; methods write a message to the event log.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventLogTraceListener.Write%2A&gt;和&lt;xref:System.Diagnostics.EventLogTraceListener.WriteLine%2A&gt;方法可写消息发送到事件日志。&lt;/xref:System.Diagnostics.EventLogTraceListener.WriteLine%2A&gt; &lt;/xref:System.Diagnostics.EventLogTraceListener.Write%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To avoid the possibility of writing large amounts of data to the event log, the EventLogTraceListener does not output the optional trace data specified by the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 若要避免向事件日志中写入大量的数据的可能性，EventLogTraceListener 不会输出指定的可选跟踪数据&lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;属性。&lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class without a trace listener.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Diagnostics.EventLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>而无需跟踪侦听器的类。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified event log.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Diagnostics.EventLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用指定的事件日志。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The event log to write to.</source>
+          <target state="translated">要写入的事件日志。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified source.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Diagnostics.EventLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类使用指定的源。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The name of an existing event log source.</source>
+          <target state="translated">现有的事件日志源的名称。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Closes the event log so that it no longer receives tracing or debugging output.</source>
+          <target state="translated">关闭事件日志，以使它不再接收跟踪或调试输出。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Gets or sets the event log to write to.</source>
+          <target state="translated">获取或设置要写入的事件日志。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The event log to write to.</source>
+          <target state="translated">要写入的事件日志。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of this <bpt id="p1">&lt;xref href="System.Diagnostics.EventLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">获取或设置此名称<bpt id="p1">&lt;xref href="System.Diagnostics.EventLogTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This property defaults to the source name of the event log.</source>
+          <target state="translated">此属性默认为事件日志的源名称。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The name of this trace listener.</source>
+          <target state="translated">此跟踪侦听器的名称。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a data object, and event information to the event log.</source>
+          <target state="translated">写入跟踪信息、 数据对象和事件信息写入事件日志。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  The &lt;xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt; methods are not intended to be called by application code.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>1&gt;&lt;xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt;方法不应由应用程序代码调用。&lt;/xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>They are called by methods of the &lt;xref:System.Diagnostics.Debug&gt;, &lt;xref:System.Diagnostics.Trace&gt;, and &lt;xref:System.Diagnostics.TraceSource&gt; classes to output trace data.</source>
+          <target state="translated">方法调用它们&lt;xref:System.Diagnostics.Debug&gt;， &lt;xref:System.Diagnostics.Trace&gt;，和&lt;xref:System.Diagnostics.TraceSource&gt;类输出跟踪数据存入。&lt;/xref:System.Diagnostics.TraceSource&gt; &lt;/xref:System.Diagnostics.Trace&gt; &lt;/xref:System.Diagnostics.Debug&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt; method, like the &lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt; method is intended for automated tools but also allows the attaching of additional objects, for example an exception instance, to the trace.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt;方法、 like&lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt;方法适用于自动化的工具，但还允许附加其他对象，例如异常实例，对此跟踪。&lt;/xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt; &lt;/xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`eventCache`</ph> and <ph id="ph2">`source`</ph> parameters are used to determine if the event should be traced.</source>
+          <target state="translated"><ph id="ph1">`eventCache`</ph>和<ph id="ph2">`source`</ph>参数用于确定是否应跟踪的事件。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`id`</ph> is used to create an &lt;xref:System.Diagnostics.EventInstance&gt; object and the &lt;xref:System.Diagnostics.TraceEventType&gt; is equated to an &lt;xref:System.Diagnostics.EventLogEntryType&gt; for the &lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt; property.</source>
+          <target state="translated"><ph id="ph1">`id`</ph>用于创建&lt;xref:System.Diagnostics.EventInstance&gt;对象和&lt;xref:System.Diagnostics.TraceEventType&gt;等同于&lt;xref:System.Diagnostics.EventLogEntryType&gt;为&lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt;属性。&lt;/xref:System.Diagnostics.EventInstance.EntryType%2A&gt; &lt;/xref:System.Diagnostics.EventLogEntryType&gt; &lt;/xref:System.Diagnostics.TraceEventType&gt; &lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventInstance&gt; is written to the event log with the <ph id="ph1">`data`</ph> object, formatted as a string, using the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventInstance&gt;写入事件日志<ph id="ph1">`data`</ph>对象，其格式为字符串，使用&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;方法。&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; &lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The maximum value of the <ph id="ph2">`id`</ph> parameter is 65,535.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; 的最大值<ph id="ph2">`id`</ph>参数是 65,535。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`id`</ph> value specified is greater than 65,535, the maximum value is used.</source>
+          <target state="translated">如果<ph id="ph1">`id`</ph>指定的值是否大于 65,535，则使用最大值。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>An object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">一个对象，包含当前进程 ID、 线程 ID 以及堆栈跟踪信息。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output; typically the name of the application that generated the trace event.</source>
+          <target state="translated">用于标识输出; 的名称通常生成跟踪事件的应用程序的名称。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the type of event that has caused the trace.</source>
+          <target state="translated">指定引发跟踪的事件的类型的枚举值之一。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">事件的数值标识符。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The combination of <ph id="ph1">`source`</ph> and <ph id="ph2">`id`</ph> uniquely identifies an event.</source>
+          <target state="translated">组合<ph id="ph1">`source`</ph>和<ph id="ph2">`id`</ph>唯一标识的事件。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A data object to write to the output file or stream.</source>
+          <target state="translated">用于写入输出文件或流的数据对象。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;source&lt;/code&gt;</ph> is not specified.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;source&lt;/code&gt;</ph>未指定。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>-or-       The log entry string exceeds 32,766 characters.</source>
+          <target state="translated">-或者-日志条目字符串超过 32766 个字符。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Writes trace information, an array of data objects, and event information to the event log.</source>
+          <target state="translated">写入跟踪信息、 数据对象和事件信息写入事件日志的数组。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  The &lt;xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt; methods are not intended to be called by application code.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>1&gt;&lt;xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt;方法不应由应用程序代码调用。&lt;/xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>They are called by methods of the &lt;xref:System.Diagnostics.Debug&gt;, &lt;xref:System.Diagnostics.Trace&gt;, and &lt;xref:System.Diagnostics.TraceSource&gt; classes to output trace data.</source>
+          <target state="translated">方法调用它们&lt;xref:System.Diagnostics.Debug&gt;， &lt;xref:System.Diagnostics.Trace&gt;，和&lt;xref:System.Diagnostics.TraceSource&gt;类输出跟踪数据存入。&lt;/xref:System.Diagnostics.TraceSource&gt; &lt;/xref:System.Diagnostics.Trace&gt; &lt;/xref:System.Diagnostics.Debug&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt; method, like the &lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt; method is intended for automated tools but also allows the attaching of additional objects, for example an exception instance, to the trace.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt;方法、 like&lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt;方法适用于自动化的工具，但还允许附加其他对象，例如异常实例，对此跟踪。&lt;/xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt; &lt;/xref:System.Diagnostics.EventLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`severity`</ph> and <ph id="ph2">`id`</ph> parameter data is used to create an &lt;xref:System.Diagnostics.EventInstance&gt; object, which is written to the event log with the data from the array of data objects.</source>
+          <target state="translated"><ph id="ph1">`severity`</ph>和<ph id="ph2">`id`</ph>参数数据用于创建&lt;xref:System.Diagnostics.EventInstance&gt;对象，该写入事件日志的数据从数据对象的数组对象。&lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`eventCache`</ph> and <ph id="ph2">`source`</ph> parameters are used to determine if the event should be traced.</source>
+          <target state="translated"><ph id="ph1">`eventCache`</ph>和<ph id="ph2">`source`</ph>参数用于确定是否应跟踪的事件。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`id`</ph> is used to create an &lt;xref:System.Diagnostics.EventInstance&gt; object and the &lt;xref:System.Diagnostics.TraceEventType&gt; is equated to an &lt;xref:System.Diagnostics.EventLogEntryType&gt; for the &lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt; property.</source>
+          <target state="translated"><ph id="ph1">`id`</ph>用于创建&lt;xref:System.Diagnostics.EventInstance&gt;对象和&lt;xref:System.Diagnostics.TraceEventType&gt;等同于&lt;xref:System.Diagnostics.EventLogEntryType&gt;为&lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt;属性。&lt;/xref:System.Diagnostics.EventInstance.EntryType%2A&gt; &lt;/xref:System.Diagnostics.EventLogEntryType&gt; &lt;/xref:System.Diagnostics.TraceEventType&gt; &lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventInstance&gt; is written to the event log with the <ph id="ph1">`data`</ph> object array, formatted as a string array, using the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventInstance&gt;写入事件日志<ph id="ph1">`data`</ph>对象数组，格式化为字符串数组，使用&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;方法。&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; &lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The maximum value of the <ph id="ph2">`id`</ph> parameter is 65,535.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; 的最大值<ph id="ph2">`id`</ph>参数是 65,535。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`id`</ph> value specified is greater than 65,535, the maximum value is used.</source>
+          <target state="translated">如果<ph id="ph1">`id`</ph>指定的值是否大于 65,535，则使用最大值。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>An object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">一个对象，包含当前进程 ID、 线程 ID 以及堆栈跟踪信息。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output; typically the name of the application that generated the trace event.</source>
+          <target state="translated">用于标识输出; 的名称通常生成跟踪事件的应用程序的名称。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the type of event that has caused the trace.</source>
+          <target state="translated">指定引发跟踪的事件的类型的枚举值之一。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">事件的数值标识符。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The combination of <ph id="ph1">`source`</ph> and <ph id="ph2">`id`</ph> uniquely identifies an event.</source>
+          <target state="translated">组合<ph id="ph1">`source`</ph>和<ph id="ph2">`id`</ph>唯一标识的事件。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An array of data objects.</source>
+          <target state="translated">数据对象的数组。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;source&lt;/code&gt;</ph> is not specified.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;source&lt;/code&gt;</ph>未指定。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>-or-       The log entry string exceeds 32,766 characters.</source>
+          <target state="translated">-或者-日志条目字符串超过 32766 个字符。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a message, and event information to the event log.</source>
+          <target state="translated">写入跟踪信息、 消息和事件信息写入事件日志。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  The &lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt; methods are not intended to be called by application code.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>1&gt;&lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt;方法不应由应用程序代码调用。&lt;/xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>These methods are called by methods of the &lt;xref:System.Diagnostics.Debug&gt;, &lt;xref:System.Diagnostics.Trace&gt;, and &lt;xref:System.Diagnostics.TraceSource&gt; classes to write trace data.</source>
+          <target state="translated">方法的调用这些方法&lt;xref:System.Diagnostics.Debug&gt;， &lt;xref:System.Diagnostics.Trace&gt;，和&lt;xref:System.Diagnostics.TraceSource&gt;类将跟踪数据写入。&lt;/xref:System.Diagnostics.TraceSource&gt; &lt;/xref:System.Diagnostics.Trace&gt; &lt;/xref:System.Diagnostics.Debug&gt;</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt; method is intended to trace events that can be processed automatically by tools.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt;方法的意图是可由工具自动处理的跟踪事件。&lt;/xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For example a monitoring tool can notify an administrator if a specific event is traced by a specific source.</source>
+          <target state="translated">例如监视工具可以通知管理员特定事件跟踪由特定的源。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`eventCache`</ph> and <ph id="ph2">`source`</ph> parameters are used to determine if the event should be traced.</source>
+          <target state="translated"><ph id="ph1">`eventCache`</ph>和<ph id="ph2">`source`</ph>参数用于确定是否应跟踪的事件。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`id`</ph> is used to create an &lt;xref:System.Diagnostics.EventInstance&gt; object and the &lt;xref:System.Diagnostics.TraceEventType&gt; is equated to an &lt;xref:System.Diagnostics.EventLogEntryType&gt; for the &lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt; property.</source>
+          <target state="translated"><ph id="ph1">`id`</ph>用于创建&lt;xref:System.Diagnostics.EventInstance&gt;对象和&lt;xref:System.Diagnostics.TraceEventType&gt;等同于&lt;xref:System.Diagnostics.EventLogEntryType&gt;为&lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt;属性。&lt;/xref:System.Diagnostics.EventInstance.EntryType%2A&gt; &lt;/xref:System.Diagnostics.EventLogEntryType&gt; &lt;/xref:System.Diagnostics.TraceEventType&gt; &lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventInstance&gt; is written to the event log with the <ph id="ph1">`message`</ph> data using the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventInstance&gt;写入事件日志<ph id="ph1">`message`</ph>数据使用&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;方法。&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; &lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The maximum value of the <ph id="ph2">`id`</ph> parameter is 65,535.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; 的最大值<ph id="ph2">`id`</ph>参数是 65,535。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`id`</ph> value specified is greater than 65,535, the maximum value is used.</source>
+          <target state="translated">如果<ph id="ph1">`id`</ph>指定的值是否大于 65,535，则使用最大值。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">一个对象，包含当前进程 ID、 线程 ID 以及堆栈跟踪信息。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output; typically the name of the application that generated the trace event.</source>
+          <target state="translated">用于标识输出; 的名称通常生成跟踪事件的应用程序的名称。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the type of event that has caused the trace.</source>
+          <target state="translated">指定引发跟踪的事件的类型的枚举值之一。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">事件的数值标识符。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The combination of <ph id="ph1">`source`</ph> and <ph id="ph2">`id`</ph> uniquely identifies an event.</source>
+          <target state="translated">组合<ph id="ph1">`source`</ph>和<ph id="ph2">`id`</ph>唯一标识的事件。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The trace message.</source>
+          <target state="translated">跟踪消息。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;source&lt;/code&gt;</ph> is not specified.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;source&lt;/code&gt;</ph>未指定。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>-or-       The log entry string exceeds 32,766 characters.</source>
+          <target state="translated">-或者-日志条目字符串超过 32766 个字符。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a formatted array of objects, and event information to the event log.</source>
+          <target state="translated">写入跟踪信息、 格式化的对象和事件信息写入事件日志的数组。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  The &lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt; methods are not intended to be called by application code.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>1&gt;&lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt;方法不应由应用程序代码调用。&lt;/xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>These methods are called by methods of the &lt;xref:System.Diagnostics.Debug&gt;, &lt;xref:System.Diagnostics.Trace&gt;, and &lt;xref:System.Diagnostics.TraceSource&gt; classes to write trace data.</source>
+          <target state="translated">方法的调用这些方法&lt;xref:System.Diagnostics.Debug&gt;， &lt;xref:System.Diagnostics.Trace&gt;，和&lt;xref:System.Diagnostics.TraceSource&gt;类将跟踪数据写入。&lt;/xref:System.Diagnostics.TraceSource&gt; &lt;/xref:System.Diagnostics.Trace&gt; &lt;/xref:System.Diagnostics.Debug&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt; method is intended to trace events that can be processed automatically by tools.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt;方法的意图是可由工具自动处理的跟踪事件。&lt;/xref:System.Diagnostics.EventLogTraceListener.TraceEvent%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For example a monitoring tool can notify an administrator if a specific event is traced by a specific source.</source>
+          <target state="translated">例如监视工具可以通知管理员特定事件跟踪由特定的源。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`eventCache`</ph> and <ph id="ph2">`source`</ph> parameters are used to determine if the event should be traced.</source>
+          <target state="translated"><ph id="ph1">`eventCache`</ph>和<ph id="ph2">`source`</ph>参数用于确定是否应跟踪的事件。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`id`</ph> is used to create an &lt;xref:System.Diagnostics.EventInstance&gt; object and the &lt;xref:System.Diagnostics.TraceEventType&gt; is equated to an &lt;xref:System.Diagnostics.EventLogEntryType&gt; for the &lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt; property.</source>
+          <target state="translated"><ph id="ph1">`id`</ph>用于创建&lt;xref:System.Diagnostics.EventInstance&gt;对象和&lt;xref:System.Diagnostics.TraceEventType&gt;等同于&lt;xref:System.Diagnostics.EventLogEntryType&gt;为&lt;xref:System.Diagnostics.EventInstance.EntryType%2A&gt;属性。&lt;/xref:System.Diagnostics.EventInstance.EntryType%2A&gt; &lt;/xref:System.Diagnostics.EventLogEntryType&gt; &lt;/xref:System.Diagnostics.TraceEventType&gt; &lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Diagnostics.EventInstance&gt; is written to the event log, using the &lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; method, with the message obtained from the <ph id="ph1">`format`</ph> and <ph id="ph2">`args`</ph> parameters.</source>
+          <target state="translated">&lt;xref:System.Diagnostics.EventInstance&gt;写入事件日志中，使用&lt;xref:System.Diagnostics.EventLog.WriteEvent%2A&gt;方法，并从获取消息<ph id="ph1">`format`</ph>和<ph id="ph2">`args`</ph>参数。&lt;/xref:System.Diagnostics.EventLog.WriteEvent%2A&gt; &lt;/xref:System.Diagnostics.EventInstance&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`args`</ph> object array is converted to a string using the &lt;xref:System.String.Format%2A&gt; method, passing the <ph id="ph2">`format`</ph> string and <ph id="ph3">`args`</ph> array to format the string as the message for the event log.</source>
+          <target state="translated"><ph id="ph1">`args`</ph>对象数组转换为字符串使用&lt;xref:System.String.Format%2A&gt;方法，并传递<ph id="ph2">`format`</ph>字符串和<ph id="ph3">`args`</ph>要作为事件日志消息格式的字符串数组&lt;/xref:System.String.Format%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The maximum value of the <ph id="ph2">`id`</ph> parameter is 65,535.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph> 1&gt; 的最大值<ph id="ph2">`id`</ph>参数是 65,535。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`id`</ph> value specified is greater than 65,535, the maximum value is used.</source>
+          <target state="translated">如果<ph id="ph1">`id`</ph>指定的值是否大于 65,535，则使用最大值。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>An object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">一个对象，包含当前进程 ID、 线程 ID 以及堆栈跟踪信息。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output; typically the name of the application that generated the trace event.</source>
+          <target state="translated">用于标识输出; 的名称通常生成跟踪事件的应用程序的名称。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that specifies the type of event that has caused the trace.</source>
+          <target state="translated">指定引发跟踪的事件的类型的枚举值之一。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">事件的数值标识符。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The combination of <ph id="ph1">`source`</ph> and <ph id="ph2">`id`</ph> uniquely identifies an event.</source>
+          <target state="translated">组合<ph id="ph1">`source`</ph>和<ph id="ph2">`id`</ph>唯一标识的事件。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A format string that contains zero or more format items that correspond to objects in the <ph id="ph1">`args`</ph> array.</source>
+          <target state="translated">包含零个或多个格式项中的对象对应一个格式字符串<ph id="ph1">`args`</ph>数组。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_object" name="object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array containing zero or more objects to format.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_object" name="object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>数组，其中包含零个或多个要格式化的对象。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;source&lt;/code&gt;</ph> is not specified.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;source&lt;/code&gt;</ph>未指定。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>-or-       The log entry string exceeds 32,766 characters.</source>
+          <target state="translated">-或者-日志条目字符串超过 32766 个字符。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Writes a message to the event log for this instance.</source>
+          <target state="translated">此实例在事件日志中写入一条消息。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The message to write.</source>
+          <target state="translated">要写入的消息。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> exceeds 32,766 characters.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>超过 32766 个字符。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Writes a message to the event log for this instance.</source>
+          <target state="translated">此实例在事件日志中写入一条消息。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The message to write.</source>
+          <target state="translated">要写入的消息。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph> exceeds 32,766 characters.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;message&lt;/code&gt;</ph>超过 32766 个字符。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e1609fc76d053bbdd0cb67da0a482c84638abc0b</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.ComponentDesigner.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">1bd0f851b411fa40fb64a3aff8c9db366d598879</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">629016caf217e17adcad956af31397a0dca350ff</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Extends the design mode behavior of a component.</source>
+          <target state="translated">Utökar design läge beteendet för en komponent.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ComponentDesigner base designer class provides a simple designer that can extend the behavior of an associated component in design mode.</source>
+          <target state="translated">ComponentDesigner designer basklassen tillhandahåller en enkel designer som kan utöka beteendet för en associerade komponenten i designläge.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ComponentDesigner provides an empty &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt; interface implementation, whose methods can be overridden to adjust the attributes, properties and events of the associated component at design time.</source>
+          <target state="translated">ComponentDesigner innehåller en tom &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt;gränssnitt implementering, vars metoder kan åsidosättas för att justera attribut, egenskaper och händelser för den associerade komponenten vid designtillfället.&lt;/xref:System.ComponentModel.Design.IDesignerFilter&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can associate a designer with a type using a &lt;xref:System.ComponentModel.DesignerAttribute&gt;.</source>
+          <target state="translated">Du kan associera en designer med en typ med en &lt;xref:System.ComponentModel.DesignerAttribute&gt;.&lt;/xref:System.ComponentModel.DesignerAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an overview of customizing design-time behavior, see <bpt id="p1">[</bpt>Extending Design-Time Support<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">En översikt över anpassning designen finns <bpt id="p1">[</bpt>utöka designläge Support<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ComponentDesigner class implements a special behavior for the property descriptors of inherited components.</source>
+          <target state="translated">ComponentDesigner-klassen implementerar ett speciellt uppträdande för egenskapen beskrivningar av ärvda komponenter.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An internal type named <ph id="ph1">`InheritedPropertyDescriptor`</ph> is used by the default ComponentDesigner implementation to stand in for properties that are inherited from a base class.</source>
+          <target state="translated">Ett internt typ med namnet <ph id="ph1">`InheritedPropertyDescriptor`</ph> används av ComponentDesigner standardimplementering stå egenskaper som ärvs från en basklass.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There are two cases in which these property descriptors are added.</source>
+          <target state="translated">Det finns två fall där dessa beskrivningar för egenskapen har lagts till.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To the root object itself, which is returned by the &lt;xref:System.ComponentModel.Design.IDesignerHost.RootComponent%2A?displayProperty=fullName&gt; property, because you are inheriting from its base class.</source>
+          <target state="translated">För rotobjektet sig själv som returneras av den &lt;xref:System.ComponentModel.Design.IDesignerHost.RootComponent%2A?displayProperty=fullName&gt;egenskap, eftersom du ärver från dess grundläggande klass&lt;/xref:System.ComponentModel.Design.IDesignerHost.RootComponent%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To fields found in the base class of the root object.</source>
+          <target state="translated">Till fält i basklassen för rotobjektet.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Public and protected fields from the base class are added to the designer so that they can be manipulated by the user.</source>
+          <target state="translated">Offentliga och skyddade fält från basklassen läggs Designer så att de kan ändras av användaren.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`InheritedPropertyDescriptor`</ph> class modifies the default value of a property, so that the default value is the current value at object instantiation.</source>
+          <target state="translated">Den <ph id="ph1">`InheritedPropertyDescriptor`</ph> klass ändrar standardvärdet för en egenskap, så att standardvärdet är det aktuella värdet på objektet instansiering.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is because the property is inherited from another instance.</source>
+          <target state="translated">Det beror på att egenskapen har ärvts från en annan instans.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The designer defines resetting the property value as setting it to the value that was set by the inherited class.</source>
+          <target state="translated">Designern definierar återställer egenskapens värde som anger värdet som angavs av ärvd klass.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value may differ from the default value stored in metadata.</source>
+          <target state="translated">Det här värdet kan skilja sig från standardvärdet lagras i metadata.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentDesigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentDesigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the design-time action lists supported by the component associated with the designer.</source>
+          <target state="translated">Hämtar listorna åtgärd för designtid stöds av komponenten som associeras med designern.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The design-time action lists supported by the component associated with the designer.</source>
+          <target state="translated">Åtgärd för designtid listorna stöds av komponenten som associeras med designern.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the collection of components associated with the component managed by the designer.</source>
+          <target state="translated">Hämtar antal komponenter som är associerade med den komponent som hanteras av designern.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property indicates any components to copy or move along with the component managed by the designer during a copy, drag, or move operation.</source>
+          <target state="translated">Den här egenskapen anger alla komponenter för att kopiera eller flytta tillsammans med den komponent som hanteras av designern under en kopia dra eller flytta igen.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this collection contains references to other components in the current design mode document, those components will be copied along with the component managed by the designer during a copy operation.</source>
+          <target state="translated">Om den här samlingen innehåller referenser till andra komponenter i det aktuella dokumentet i design-läge, kopieras komponenterna tillsammans med den komponent som hanteras av designern under en kopieringsåtgärd.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the component managed by the designer is selected, this collection is filled with any nested controls.</source>
+          <target state="translated">När den komponent som hanteras av designern väljs, fylls den här samlingen med kapslade kontroller.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This collection can also include other components, such as the buttons of a toolbar.</source>
+          <target state="translated">Den här samlingen kan även innehålla andra komponenter, till exempel knappar i ett verktygsfält.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The components that are associated with the component managed by the designer.</source>
+          <target state="translated">De komponenter som är associerade med den komponent som hanteras av designern.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets the component this designer is designing.</source>
+          <target state="translated">Hämtar komponenten designar denna designer.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.ComponentDesigner.Initialize%2A&gt; method of &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; sets this property.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.ComponentDesigner.Initialize%2A&gt;metod för &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;anges den här egenskapen.&lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When overriding the &lt;xref:System.ComponentModel.Design.ComponentDesigner.Initialize%2A&gt; method, be sure to call the base class &lt;xref:System.ComponentModel.Design.ComponentDesigner.Initialize%2A&gt; method before using this property.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; När åsidosätts den &lt;xref:System.ComponentModel.Design.ComponentDesigner.Initialize%2A&gt;metoden, måste du anropa basklassen &lt;xref:System.ComponentModel.Design.ComponentDesigner.Initialize%2A&gt;metoden innan du använder den här egenskapen.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.Initialize%2A&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner.Initialize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The component managed by the designer.</source>
+          <target state="translated">Den komponent som hanteras av designern.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentDesigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Frigör alla resurser som används av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentDesigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt; when you are finished using the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;.</source>
+          <target state="translated">När &lt;xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt;du är klar med hjälp av &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;.&lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt; method leaves the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; in an unusable state.</source>
+          <target state="translated">Den &lt;xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt;metoden lämnar kvar det &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;oanvändbar.&lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After calling &lt;xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt;, you must release all references to the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; so the garbage collector can reclaim the memory that the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; was occupying.</source>
+          <target state="translated">När du anropar &lt;xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt;, måste du släppa alla referenser till den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;så skräpinsamlingen kan frigöra minne som den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;var använder.&lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Cleaning Up Unmanaged Resources<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Implementing a Dispose Method<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>Rensa ohanterade resurser<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> och <bpt id="p2">[</bpt>implementera en metod för ta bort<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Always call &lt;xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt; before you release your last reference to the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alltid anropa &lt;xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt;innan du släpper senaste referens till &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;.&lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the resources it is using will not be freed until the garbage collector calls the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; object's <ph id="ph1">`Finalize`</ph> method.</source>
+          <target state="translated">De resurser som den använder frigörs annars inte förrän skräpinsamlingen anrop av &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;objektets <ph id="ph1">`Finalize`</ph> metod.&lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentDesigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Släpper de ohanterade resurser som används av den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentDesigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> och släpper du de hantera resurserna.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas av allmänheten <ph id="ph1">`Dispose()`</ph> metod och &lt;xref:System.Object.Finalize%2A&gt;metod.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>anropar den skyddade <ph id="ph2">`Dispose(Boolean)`</ph> metod med den <ph id="ph3">`disposing`</ph> parametern <ph id="ph4">`true`</ph>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;anropar <ph id="ph1">`Dispose`</ph> med <ph id="ph2">`disposing`</ph> inställd på <ph id="ph3">`false`</ph>.&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is true, this method releases all resources held by any managed objects that this &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; references.</source>
+          <target state="translated">När den <ph id="ph1">`disposing`</ph> parametern är true, den här metoden Frigör alla resurser som innehas av alla hanterade objekt som den här &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;referenser.&lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">Den här metoden startar den <ph id="ph1">`Dispose()`</ph> metod för varje refererade till objekt.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Frisläpp både hanterade och ohanterade resurser. <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> att släppa endast resurser som inte hanteras.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Creates a method signature in the source code file for the default event on the component and navigates the user's cursor to that location.</source>
+          <target state="translated">Skapar en Metodsignaturen i källkoden för standardhändelsen på komponenten och navigerar användarens markören till den platsen.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In Windows Forms and Web Forms designers, this method is invoked when a user double-clicks a component.</source>
+          <target state="translated">I Windows Forms och Web Forms designers, är den här metoden anropas när en användare dubbelklickar på en komponent.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An attempt to check out a file that is checked into a source code management program failed.</source>
+          <target state="translated">Ett försök att checka ut en fil som kontrolleras i ett källprogram kod management misslyckades.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Attempts to free resources by calling <bpt id="p1">&lt;xref uid="langword_csharp_Dispose(false)" name="Dispose(false)" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> before the object is reclaimed by garbage collection.</source>
+          <target state="translated">Försök att frigöra de resurser genom att anropa <bpt id="p1">&lt;xref uid="langword_csharp_Dispose(false)" name="Dispose(false)" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> innan objektet har frigjorts av skräpinsamling.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method overrides &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt; and cleans up resources by calling <ph id="ph1">`Dispose(false)`</ph>.</source>
+          <target state="translated">Den här metoden åsidosätter &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;och rensar resurser genom att anropa <ph id="ph1">`Dispose(false)`</ph>.&lt;/xref:System.Object.Finalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Override <ph id="ph1">`Dispose(Boolean)`</ph> to customize the cleanup.</source>
+          <target state="translated">Åsidosätt <ph id="ph1">`Dispose(Boolean)`</ph> att anpassa rensningen.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Application code should not call this method; an object's <ph id="ph1">`Finalize`</ph> method is automatically invoked during garbage collection, unless finalization by the garbage collector has been disabled by a call to the &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Programkod bör inte anropa den här metoden. ett objekt <ph id="ph1">`Finalize`</ph> metoden anropas automatiskt under skräpinsamling, såvida inte slutförande av skräpinsamlingen har inaktiverats av ett anrop till den &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Finalize Methods and Destructors<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>Cleaning Up Unmanaged Resources<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, and <bpt id="p3">[</bpt>Overriding the Finalize Method<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>Finalize-metoderna och destruktorer<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>Rensa ohanterade resurser<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, och <bpt id="p3">[</bpt>åsidosätter metoden Slutför<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Attempts to retrieve the specified type of service from the design mode site of the designer's component.</source>
+          <target state="translated">Försök att hämta den angivna typen av tjänst från webbplatsen design läge för den designer komponenten.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method requests the service from the site of the component.</source>
+          <target state="translated">Standardimplementering av den här metoden begär tjänsten från platsen för komponenten.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The type of service to request.</source>
+          <target state="translated">Typ av tjänst att begära.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>An object implementing the requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service cannot be resolved.</source>
+          <target state="translated">Ett objekt som implementerar den begärda tjänsten eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om tjänsten inte kan matchas.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets an attribute that indicates the type of inheritance of the associated component.</source>
+          <target state="translated">Hämtar ett attribut som anger vilken typ av arv av den associerade komponenten.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.InheritanceAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the associated component.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.InheritanceAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för den associerade komponenten.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this component is inherited.</source>
+          <target state="translated">Hämtar ett värde som anger om den här komponenten ärvs.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the component is inherited; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om komponenten ärvs; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Prepares the designer to view, edit, and design the specified component.</source>
+          <target state="translated">Förbereder att visa, redigera och skapa den angivna komponenten.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The designer host calls this method when it is ready to use the designer.</source>
+          <target state="translated">Designer värden anropar den här metoden när den är klar att använda designer.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The component for this designer.</source>
+          <target state="translated">Komponenten för denna designer.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Reinitializes an existing component.</source>
+          <target state="translated">Initierar en befintlig komponent.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The InitializeExistingComponent method is called when an existing component is being reinitialized.</source>
+          <target state="translated">InitializeExistingComponent-metoden anropas när en befintlig komponent som initieras på nytt.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, this may occur after the user drags a component to another container.</source>
+          <target state="translated">Detta kan till exempel uppstå när användaren drar en komponent till en annan behållare.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may use the <ph id="ph1">`defaultValues`</ph> dictionary to apply recommended defaults to properties; however, you should not modify component properties aside from those stored in the dictionary, because this existing component may already have properties set on it.</source>
+          <target state="translated">Du kan använda den <ph id="ph1">`defaultValues`</ph> ordlista att tillämpa rekommenderas standardvärden till egenskaper, men du bör inte ändra egenskaperna för komponenten utöver de som lagras i ordlistan eftersom befintliga komponenten kanske redan har egenskaper som angetts för den.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method does nothing.</source>
+          <target state="translated">Standardimplementering av den här metoden ingen effekt.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A name/value dictionary of default values to apply to properties.</source>
+          <target state="translated">En namn/värde-ordlista med standardvärden som ska tillämpas på Egenskaper.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>May be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no default values are specified.</source>
+          <target state="translated">Kan vara <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om några standardvärden anges.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Initializes a newly created component.</source>
+          <target state="translated">Initierar en nyligen skapade komponent.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The InitializeNewComponent method is called when a component is first initialized, typically after being first added to a design surface.</source>
+          <target state="translated">InitializeNewComponent-metoden anropas när en komponent först initieras vanligtvis efter först som läggs till i en designytan.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may perform any necessary initialization of this component, and you may ignore the <ph id="ph1">`defaultValues`</ph> dictionary altogether.</source>
+          <target state="translated">Du kan utföra alla nödvändiga initieringen av den här komponenten och du kan ignorera den <ph id="ph1">`defaultValues`</ph> ordlista helt och hållet.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method does nothing.</source>
+          <target state="translated">Standardimplementering av den här metoden ingen effekt.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A name/value dictionary of default values to apply to properties.</source>
+          <target state="translated">En namn/värde-ordlista med standardvärden som ska tillämpas på Egenskaper.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>May be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no default values are specified.</source>
+          <target state="translated">Kan vara <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om några standardvärden anges.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Initializes the settings for an imported component that is already initialized to settings other than the defaults.</source>
+          <target state="translated">Initierar inställningarna för en importerad komponenten som har redan initierats till andra inställningar än standardinställningarna.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called when the designer is associated with a control that is not in its default state, such as a control that you paste or move with a drag-and-drop operation onto the designer.</source>
+          <target state="translated">Den här metoden anropas när designverktyget är associerad med en kontroll som inte är i standardtillståndet, till exempel en kontroll som du klistrar in eller flytta med dra och släppa till designern.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides an opportunity for implementers to modify or shadow the properties of the component rather than initialize the properties for the component to their defaults.</source>
+          <target state="translated">Den här metoden ger en möjlighet för implementerare ändra eller skugga egenskaperna för komponenten i stället för att initiera egenskaperna för komponenten till sina standardinställningar.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called after the other initialization functions.</source>
+          <target state="translated">Den här metoden anropas efter initieringen funktionerna.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.ComponentModel.InheritanceAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the specified <bpt id="p2">&lt;xref href="System.ComponentModel.Design.ComponentDesigner"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hämtar den <bpt id="p1">&lt;xref href="System.ComponentModel.InheritanceAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i den angivna <bpt id="p2">&lt;xref href="System.ComponentModel.Design.ComponentDesigner"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentDesigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> whose inheritance attribute to retrieve.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.ComponentDesigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vars arvsattribut för att hämta.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.InheritanceAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the specified designer.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.InheritanceAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> i angiven Designer.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Sets the default properties for the component.</source>
+          <target state="translated">Anger standardegenskaperna för komponenten.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OnSetComponentDefaults is called when the designer is initialized.</source>
+          <target state="translated">OnSetComponentDefaults anropas när designverktyget har initierats.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows the designer to provide default values for the base component.</source>
+          <target state="translated">Detta gör att ange standardvärden för grundläggande komponenten.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called only once: when you first create the component by dragging it from the Toolbox to the design surface.</source>
+          <target state="translated">Den här metoden anropas en gång: när du först skapar komponenten genom att dra dem från verktygslådan till designytan.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent initializations of the designer do not invoke this method.</source>
+          <target state="translated">Efterföljande initieringar av designer anropa inte den här metoden.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this method sets the default property of the component to the name of the component if the default property is a string and the property is not already set.</source>
+          <target state="translated">Standardimplementering av den här metoden anger standardegenskapen för komponenten med namnet på komponenten om standardegenskapen är en sträng och egenskapen inte är redan inställd.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method can be implemented in a derived class to customize the initialization of the component that this designer is designing.</source>
+          <target state="translated">Den här metoden kan implementeras i en härledd klass för att anpassa initieringen av den komponent som denna designer designar.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets the parent component for this designer.</source>
+          <target state="translated">Hämtar den överordnade komponenten för denna designer.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property provides a generic mechanism for discovering parent relationships within designers, and is used by the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; object's &lt;xref:System.ComponentModel.Design.ITreeDesigner&gt; interface implementation.</source>
+          <target state="translated">Den här egenskapen är en generisk mekanism för identifiering av överordnade relationer inom designers och används av den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;objektets &lt;xref:System.ComponentModel.Design.ITreeDesigner&gt;gränssnitt implementering.&lt;/xref:System.ComponentModel.Design.ITreeDesigner&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property should only return <ph id="ph1">`null`</ph> when this designer is the root component.</source>
+          <target state="translated">Den här egenskapen bör endast returnera <ph id="ph1">`null`</ph> när denna designer är rotkomponent.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of this property returns the root component for all components that are not the root component, and it returns <ph id="ph1">`null`</ph> for the root component.</source>
+          <target state="translated">Standardimplementering av den här egenskapen returnerar rotkomponenten för alla komponenter som inte är rotkomponenten och returnerar <ph id="ph1">`null`</ph> för rotkomponent.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The parent component for this designer, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if this designer is the root component.</source>
+          <target state="translated">Den överordnade komponenten för den här designer eller <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om denna designer är rotkomponent.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>Allows a designer to change or remove items from the set of attributes that it exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gör en designer att ändra eller ta bort objekt från en uppsättning attribut som den exponerar via en <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides a way to change or remove the items within the dictionary of attributes that are exposed through a &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">Den här metoden ger ett sätt att ändra eller ta bort objekt i ordlistan av attribut som är tillgängliga via en &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The keys in the dictionary of attributes are the type identifiers of the attributes, as specified by the value of their &lt;xref:System.Attribute.TypeId%2A&gt; property.</source>
+          <target state="translated">Nycklarna i ordlistan attribut är identifierarna som typ av attribut som anges av värdet för sina &lt;xref:System.Attribute.TypeId%2A&gt;egenskap.&lt;/xref:System.Attribute.TypeId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The objects are of type &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.</source>
+          <target state="translated">Objekten är av typen &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called immediately after the &lt;xref:System.ComponentModel.Design.ComponentDesigner.PreFilterAttributes%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas omedelbart efter den &lt;xref:System.ComponentModel.Design.ComponentDesigner.PreFilterAttributes%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.PreFilterAttributes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The attributes for the class of the component.</source>
+          <target state="translated">Attribut för komponenten.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Allows a designer to change or remove items from the set of events that it exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gör en designer att ändra eller ta bort objekt från uppsättningen av händelser som den exponerar via en <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides a way to change or remove the items within the dictionary of events that are exposed through a &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">Den här metoden ger ett sätt att ändra eller ta bort objekt i ordlistan av händelser som är tillgängliga via en &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The keys in the dictionary of events are the names of the events.</source>
+          <target state="translated">Nycklarna i ordlistan händelser är namnen på händelserna.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The objects are of type &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.</source>
+          <target state="translated">Objekten är av typen &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called immediately after the &lt;xref:System.ComponentModel.Design.ComponentDesigner.PreFilterEvents%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas omedelbart efter den &lt;xref:System.ComponentModel.Design.ComponentDesigner.PreFilterEvents%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.PreFilterEvents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The events for the class of the component.</source>
+          <target state="translated">Händelser för komponenten.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Allows a designer to change or remove items from the set of properties that it exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gör en designer att ändra eller ta bort objekt från uppsättningen med egenskaper som det visar via en <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides a way to change or remove the items within the dictionary of properties that are exposed through a &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">Den här metoden ger ett sätt att ändra eller ta bort objekt i ordlistan av egenskaper som exponeras via &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The keys in the dictionary of properties are the names of the properties.</source>
+          <target state="translated">Nycklarna i ordlistan egenskaper är namnen på egenskaperna.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The objects are of type &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.</source>
+          <target state="translated">Objekten är av typen &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called immediately after the &lt;xref:System.ComponentModel.Design.ComponentDesigner.PreFilterProperties%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas omedelbart efter den &lt;xref:System.ComponentModel.Design.ComponentDesigner.PreFilterProperties%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.PreFilterProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The properties for the class of the component.</source>
+          <target state="translated">Egenskaperna för komponenten.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Allows a designer to add to the set of attributes that it exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gör en designer att lägga till en uppsättning attribut som den exponerar via en <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides a way to add items to the dictionary of attributes that a designer exposes through a &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">Den här metoden ger ett sätt att lägga till objekt i ordlistan av attribut som en designer exponerar via &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The keys in the dictionary of attributes are the type identifiers of the attributes, as specified by the value of their &lt;xref:System.Attribute.TypeId%2A&gt; property.</source>
+          <target state="translated">Nycklarna i ordlistan attribut är identifierarna som typ av attribut som anges av värdet för sina &lt;xref:System.Attribute.TypeId%2A&gt;egenskap.&lt;/xref:System.Attribute.TypeId%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The objects are of type &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.</source>
+          <target state="translated">Objekten är av typen &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called immediately before the &lt;xref:System.ComponentModel.Design.ComponentDesigner.PostFilterAttributes%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas omedelbart före den &lt;xref:System.ComponentModel.Design.ComponentDesigner.PostFilterAttributes%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.PostFilterAttributes%2A&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The attributes for the class of the component.</source>
+          <target state="translated">Attribut för komponenten.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Allows a designer to add to the set of events that it exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gör en designer att lägga till i uppsättningen av händelser som den exponerar via en <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides a way to add items to the dictionary of events that a designer exposes through a &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">Den här metoden ger ett sätt att lägga till objekt i ordlistan av händelser som en designer exponerar via &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The keys in the dictionary of events are the names of the events.</source>
+          <target state="translated">Nycklarna i ordlistan händelser är namnen på händelserna.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The objects are of type &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.</source>
+          <target state="translated">Objekten är av typen &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called immediately before the &lt;xref:System.ComponentModel.Design.ComponentDesigner.PostFilterEvents%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas omedelbart före den &lt;xref:System.ComponentModel.Design.ComponentDesigner.PostFilterEvents%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.PostFilterEvents%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The events for the class of the component.</source>
+          <target state="translated">Händelser för komponenten.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Allows a designer to add to the set of properties that it exposes through a <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gör en designer att lägga till en uppsättning egenskaper som det visar via en <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method provides a way to add items to the dictionary of properties that a designer exposes through a &lt;xref:System.ComponentModel.TypeDescriptor&gt;.</source>
+          <target state="translated">Den här metoden ger ett sätt att lägga till objekt i ordlistan för egenskaper som en designer exponerar via &lt;xref:System.ComponentModel.TypeDescriptor&gt;.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The keys in the dictionary of properties are the names of the properties.</source>
+          <target state="translated">Nycklarna i ordlistan egenskaper är namnen på egenskaperna.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The objects are of type &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.</source>
+          <target state="translated">Objekten är av typen &lt;xref:System.ComponentModel.PropertyDescriptor&gt;.&lt;/xref:System.ComponentModel.PropertyDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called immediately before the &lt;xref:System.ComponentModel.Design.ComponentDesigner.PostFilterProperties%2A&gt; method.</source>
+          <target state="translated">Den här metoden anropas omedelbart före den &lt;xref:System.ComponentModel.Design.ComponentDesigner.PostFilterProperties%2A&gt;metoden.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.PostFilterProperties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The properties for the class of the component.</source>
+          <target state="translated">Egenskaperna för komponenten.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IComponentChangeService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that this component has been changed.</source>
+          <target state="translated">Meddelar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IComponentChangeService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som den här komponenten har ändrats.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method only when you affect component properties directly and not through the accessors provided by &lt;xref:System.ComponentModel.MemberDescriptor&gt;.</source>
+          <target state="translated">Anropa den här metoden endast när egenskaperna för komponenten påverkas direkt och inte via accessorer som tillhandahålls av &lt;xref:System.ComponentModel.MemberDescriptor&gt;.&lt;/xref:System.ComponentModel.MemberDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.MemberDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the member that has been changed.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ComponentModel.MemberDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som anger den medlem som har ändrats.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The old value of the member.</source>
+          <target state="translated">Det gamla värdet för medlemmen.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The new value of the member.</source>
+          <target state="translated">Det nya värdet för medlemmen.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Notifies the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IComponentChangeService"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that this component is about to be changed.</source>
+          <target state="translated">Meddelar den <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IComponentChangeService"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> att den här komponenten håller på att ändras.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method only when you affect component properties directly and not through accessors provided by &lt;xref:System.ComponentModel.MemberDescriptor&gt;.</source>
+          <target state="translated">Anropa den här metoden endast när egenskaperna för komponenten påverkas direkt och inte via accessorer som tillhandahålls av &lt;xref:System.ComponentModel.MemberDescriptor&gt;.&lt;/xref:System.ComponentModel.MemberDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.MemberDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates the member that is about to be changed.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ComponentModel.MemberDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som anger den medlem som ska ändras.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets a collection of property values that override user settings.</source>
+          <target state="translated">Hämtar en uppsättning egenskapsvärden som Åsidosätt användarens inställningar.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.ComponentModel.Design.ComponentDesigner.ShadowPropertyCollection&gt; that indicates the shadow properties of the design document.</source>
+          <target state="translated">En &lt;xref:System.ComponentModel.Design.ComponentDesigner.ShadowPropertyCollection&gt;-värde som anger egenskaperna för skuggkopior för designen dokumentet.&lt;/xref:System.ComponentModel.Design.ComponentDesigner.ShadowPropertyCollection&gt;</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PostFilterAttributes%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">En beskrivning av den här medlemmen, finns det <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PostFilterAttributes%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metod.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Den här medlemmen är en implementering för medlem av explicit gränssnitt.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; instance is cast to an &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt; interface.</source>
+          <target state="translated">Det kan användas endast när den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;instans omvandlas till ett &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt;gränssnitt.&lt;/xref:System.ComponentModel.Design.IDesignerFilter&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Attribute&gt; objects for the class of the component.</source>
+          <target state="translated">Den &lt;xref:System.Attribute&gt;objekt för komponenten.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The keys in the dictionary of attributes are the &lt;xref:System.Attribute.TypeId*&gt; values of the attributes.</source>
+          <target state="translated">Nycklarna i ordlistan attribut är den &lt;xref:System.Attribute.TypeId*&gt;värdena för attribut.&lt;/xref:System.Attribute.TypeId*&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PostFilterEvents%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">En beskrivning av den här medlemmen, finns det <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PostFilterEvents%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metod.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Den här medlemmen är en implementering för medlem av explicit gränssnitt.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; instance is cast to an &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt; interface.</source>
+          <target state="translated">Det kan användas endast när den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;instans omvandlas till ett &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt;gränssnitt.&lt;/xref:System.ComponentModel.Design.IDesignerFilter&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that represent the events of the class of the component.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som representerar händelser i klassen för komponenten.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The keys in the dictionary of events are event names.</source>
+          <target state="translated">Nycklarna i ordlistan händelser är händelsenamn.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PostFilterProperties%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">En beskrivning av den här medlemmen, finns det <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PostFilterProperties%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metod.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Den här medlemmen är en implementering för medlem av explicit gränssnitt.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; instance is cast to an &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt; interface.</source>
+          <target state="translated">Det kan användas endast när den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;instans omvandlas till ett &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt;gränssnitt.&lt;/xref:System.ComponentModel.Design.IDesignerFilter&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that represent the properties of the class of the component.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som representerar egenskaper i klassen för komponenten.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The keys in the dictionary of properties are property names.</source>
+          <target state="translated">Nycklarna i ordlistan egenskaper är egenskapsnamn.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PreFilterAttributes%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">En beskrivning av den här medlemmen, finns det <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PreFilterAttributes%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metod.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Den här medlemmen är en implementering för medlem av explicit gränssnitt.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; instance is cast to an &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt; interface.</source>
+          <target state="translated">Det kan användas endast när den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;instans omvandlas till ett &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt;gränssnitt.&lt;/xref:System.ComponentModel.Design.IDesignerFilter&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Attribute&gt; objects for the class of the component.</source>
+          <target state="translated">Den &lt;xref:System.Attribute&gt;objekt för komponenten.&lt;/xref:System.Attribute&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The keys in the dictionary of attributes are the &lt;xref:System.Attribute.TypeId*&gt; values of the attributes.</source>
+          <target state="translated">Nycklarna i ordlistan attribut är den &lt;xref:System.Attribute.TypeId*&gt;värdena för attribut.&lt;/xref:System.Attribute.TypeId*&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PreFilterEvents%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">En beskrivning av den här medlemmen, finns det <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PreFilterEvents%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metod.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Den här medlemmen är en implementering för medlem av explicit gränssnitt.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; instance is cast to an &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt; interface.</source>
+          <target state="translated">Det kan användas endast när den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;instans omvandlas till ett &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt;gränssnitt.&lt;/xref:System.ComponentModel.Design.IDesignerFilter&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that represent the events of the class of the component.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.EventDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som representerar händelser i klassen för komponenten.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The keys in the dictionary of events are event names.</source>
+          <target state="translated">Nycklarna i ordlistan händelser är händelsenamn.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PreFilterProperties%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> method.</source>
+          <target state="translated">En beskrivning av den här medlemmen, finns det <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.IDesignerFilter.PreFilterProperties%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> metod.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Den här medlemmen är en implementering för medlem av explicit gränssnitt.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; instance is cast to an &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt; interface.</source>
+          <target state="translated">Det kan användas endast när den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;instans omvandlas till ett &lt;xref:System.ComponentModel.Design.IDesignerFilter&gt;gränssnitt.&lt;/xref:System.ComponentModel.Design.IDesignerFilter&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects that represent the properties of the class of the component.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.ComponentModel.PropertyDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som representerar egenskaper i klassen för komponenten.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The keys in the dictionary of properties are property names.</source>
+          <target state="translated">Nycklarna i ordlistan egenskaper är egenskapsnamn.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.ITreeDesigner.Children%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">En beskrivning av den här medlemmen, finns det <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.ITreeDesigner.Children%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> egenskapen.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Den här medlemmen är en implementering för medlem av explicit gränssnitt.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; instance is cast to an &lt;xref:System.ComponentModel.Design.ITreeDesigner&gt; interface.</source>
+          <target state="translated">Det kan användas endast när den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;instans omvandlas till ett &lt;xref:System.ComponentModel.Design.ITreeDesigner&gt;gränssnitt.&lt;/xref:System.ComponentModel.Design.ITreeDesigner&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the collection of <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> designers contained in the current parent designer.</source>
+          <target state="translated">En &lt;xref:System.Collections.ICollection&gt;som innehåller samlingen av <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> designers som ingår i den aktuella överordnade designern.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see the <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.ITreeDesigner.Parent%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property.</source>
+          <target state="translated">En beskrivning av den här medlemmen, finns det <ph id="ph1">&amp;lt;</ph>xref:System.ComponentModel.Design.ITreeDesigner.Parent%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> egenskapen.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Den här medlemmen är en implementering för medlem av explicit gränssnitt.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt; instance is cast to an &lt;xref:System.ComponentModel.Design.ITreeDesigner&gt; interface.</source>
+          <target state="translated">Det kan användas endast när den &lt;xref:System.ComponentModel.Design.ComponentDesigner&gt;instans omvandlas till ett &lt;xref:System.ComponentModel.Design.ITreeDesigner&gt;gränssnitt.&lt;/xref:System.ComponentModel.Design.ITreeDesigner&gt; &lt;/xref:System.ComponentModel.Design.ComponentDesigner&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesigner"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the parent designer, or <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if there is no parent.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ComponentModel.Design.IDesigner"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerar överordnade-designer eller <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> om det finns ingen överordnad.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Gets the design-time verbs supported by the component that is associated with the designer.</source>
+          <target state="translated">Hämtar designläge-verb som stöds av den komponent som associeras med designern.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns <ph id="ph1">`null`</ph> if the component has no design-time verbs.</source>
+          <target state="translated">Den här metoden returnerar <ph id="ph1">`null`</ph> om komponenten har inga designläge verb.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The design-time environment typically displays verbs returned by this method in a shortcut (right-click) menu.</source>
+          <target state="translated">Designtid miljön visas vanligtvis verb som returneras av den här metoden i en snabbmeny (högerklicka).</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a user selects one of the verbs, the &lt;xref:System.ComponentModel.Design.MenuCommand.Invoke%2A&gt; method of the corresponding &lt;xref:System.ComponentModel.Design.DesignerVerb&gt; is invoked.</source>
+          <target state="translated">När en användare väljer ett av verb den &lt;xref:System.ComponentModel.Design.MenuCommand.Invoke%2A&gt;metoden för motsvarande &lt;xref:System.ComponentModel.Design.DesignerVerb&gt;har anropats.&lt;/xref:System.ComponentModel.Design.DesignerVerb&gt; &lt;/xref:System.ComponentModel.Design.MenuCommand.Invoke%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  A design-time environment typically provides a <bpt id="p1">**</bpt>Properties<ept id="p1">**</ept> command on a component's shortcut menu.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; En design-miljön tillhandahåller vanligtvis ett <bpt id="p1">**</bpt>egenskaper<ept id="p1">**</ept> på snabbmenyn för en komponent.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, do not include such an entry in the collection of designer-specified verbs.</source>
+          <target state="translated">Därför ta inte med denna registrering i samlingen med angivna designer-verb.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerbCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignerVerb"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects, or <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if no designer verbs are available.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.ComponentModel.Design.DesignerVerbCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> av <bpt id="p2">&lt;xref href="System.ComponentModel.Design.DesignerVerb"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objekt, eller <bpt id="p3">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> om det finns ingen designer verb.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>This default implementation always returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardimplementering alltid returnerar <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
