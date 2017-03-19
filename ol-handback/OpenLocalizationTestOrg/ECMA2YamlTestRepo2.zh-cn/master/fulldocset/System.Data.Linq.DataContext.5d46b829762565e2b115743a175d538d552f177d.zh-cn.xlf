@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">14be8aef7bbf0954b3531707eda6ac0d1c8eb140</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.Linq.DataContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">baf1bb0c4e568e7899fd512cc2a9cf57c6b71ab0</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">15150288bd3c42b577a6b50773bca2a430b4e3e8</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the main entry point for the <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> framework.</source>
+          <target state="translated">表示的主入口点<ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>framework。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The DataContext is the source of all entities mapped over a database connection.</source>
+          <target state="translated">在 DataContext 是通过数据库连接映射的所有实体的源。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It tracks changes that you made to all retrieved entities and maintains an "identity cache" that guarantees that entities retrieved more than one time are represented by using the same object instance.</source>
+          <target state="translated">它跟踪对检索到的所有实体所做的更改并保留"标识缓存"表示实体检索不止一次的保证使用同一个对象实例。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>In general, a DataContext instance is designed to last for one "unit of work" however your application defines that term.</source>
+          <target state="translated">一般情况下，DataContext 实例旨在持续一个"的工作单位"应用程序但是定义该术语。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A DataContext is lightweight and is not expensive to create.</source>
+          <target state="translated">DataContext 是轻量，并且不创建开销很大。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A typical <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> application creates DataContext instances at method scope or as a member of short-lived classes that represent a logical set of related database operations.</source>
+          <target state="translated">典型<ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>应用程序创建 DataContext 实例，在方法范围内或表示一组逻辑的相关的数据库操作的生存期较短类成员。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing the connection used by the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类通过引用使用的连接<ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Data.Linq.DataContext&gt; opens and closes a database connection as needed if you provide a closed connection or a connection string.</source>
+          <target state="translated">A&lt;xref:System.Data.Linq.DataContext&gt;打开和关闭数据库连接，根据需要如果您提供关闭的连接或连接字符串。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>In general, you should never have to call <ph id="ph1">`Dispose`</ph> on a &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">一般情况下，你应永远不需要调用<ph id="ph1">`Dispose`</ph> &lt;xref:System.Data.Linq.DataContext&gt;。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you provide an open connection, the &lt;xref:System.Data.Linq.DataContext&gt; will not close it.</source>
+          <target state="translated">如果你提供的打开连接，&lt;xref:System.Data.Linq.DataContext&gt;不会关闭它。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Therefore, do not instantiate a &lt;xref:System.Data.Linq.DataContext&gt; with an open connection unless you have a good reason to do this.</source>
+          <target state="translated">因此，不要实例化&lt;xref:System.Data.Linq.DataContext&gt;具有打开的连接除非你有理由要这样做。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>In a &lt;xref:System.Transactions&gt; transaction, a &lt;xref:System.Data.Linq.DataContext&gt; will not open or close a connection to avoid promotion.</source>
+          <target state="translated">在&lt;xref:System.Transactions&gt;事务，&lt;xref:System.Data.Linq.DataContext&gt;将不打开或关闭的连接，为了避免出现提升。&lt;/xref:System.Data.Linq.DataContext&gt; &lt;/xref:System.Transactions&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The connection used by the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated">使用的连接<ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing a file source.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>通过引用文件源的类。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>This argument can be any one of the following:       The name of a file where a SQL Server Express database resides.</source>
+          <target state="translated">此参数可以是任何以下一项︰ SQL Server Express 数据库所在的文件的名称。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The name of a server where a database is present.</source>
+          <target state="translated">数据库为存在的服务器的名称。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>In this case the provider uses the default database for a user.</source>
+          <target state="translated">在这种情况下提供程序的用户使用的默认数据库。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>A complete connection string.</source>
+          <target state="translated">完整的连接字符串。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> just passes the string to the provider without modification.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>只需将字符串传递给提供程序而不进行修改。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing a connection and a mapping source.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>引用连接和映射源类。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>The connection used by the .NET Framework.</source>
+          <target state="translated">使用.NET Framework 的连接。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A source for mapping.</source>
+          <target state="translated">用于映射的源。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class by referencing a file source and a mapping source.</source>
+          <target state="translated">初始化的新实例<bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>通过引用文件源和映射源类。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>This argument can be any one of the following:       The name of a file where a SQL Server Express database resides.</source>
+          <target state="translated">此参数可以是任何以下一项︰ SQL Server Express 数据库所在的文件的名称。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The name of a server where a database is present.</source>
+          <target state="translated">数据库为存在的服务器的名称。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>In this case the provider uses the default database for a user.</source>
+          <target state="translated">在这种情况下提供程序的用户使用的默认数据库。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A complete connection string.</source>
+          <target state="translated">完整的连接字符串。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> just passes the string to the provider without modification.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>只需将字符串传递给提供程序而不进行修改。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>A source for mapping.</source>
+          <target state="translated">用于映射的源。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets a collection of objects that caused concurrency conflicts when &lt;xref:System.Data.Linq.DataContext.SubmitChanges*&gt; was called.</source>
+          <target state="translated">获取导致并发冲突的对象的集合时&lt;xref:System.Data.Linq.DataContext.SubmitChanges*&gt;曾。&lt;/xref:System.Data.Linq.DataContext.SubmitChanges*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The following example shows how the collection can be iterated over to retrieve conflict information.</source>
+          <target state="translated">下面的示例演示如何集合可以循环访问，以检索冲突信息。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A collection of objects that caused concurrency conflicts.</source>
+          <target state="translated">导致并发冲突的对象的集合。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that increases the time-out period for queries that would otherwise time out during the default time-out period.</source>
+          <target state="translated">获取或设置一个值，会增加在默认超时期限内将否则为超时的查询的超时期限。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>This property gets or sets the command time-out used to execute generated commands (<ph id="ph1">`IDbCommands`</ph>).</source>
+          <target state="translated">此属性获取或设置用于执行生成的命令的命令超时值 (<ph id="ph1">`IDbCommands`</ph>)。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>For more information, see &lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt;。&lt;/xref:System.Data.IDbCommand.CommandTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>When this property is not set, the default value of &lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt; is used for query command execution.</source>
+          <target state="translated">当此属性未设置，默认值的&lt;xref:System.Data.IDbCommand.CommandTimeout%2A&gt;用于执行查询命令。&lt;/xref:System.Data.IDbCommand.CommandTimeout%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This default value is set by the storage provider.</source>
+          <target state="translated">此默认值由存储提供程序设置。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Note that some providers may throw exceptions if this value is set to a non-zero value.</source>
+          <target state="translated">请注意，某些访问接口可能引发异常，是否此值设置为非零值。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>An integer value that increases the time-out period for queries that would otherwise time out during the default time-out period.</source>
+          <target state="translated">一个整数值可提高在默认超时期限内将否则为超时的查询的超时期限。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the connection used by the framework.</source>
+          <target state="translated">获取由框架使用的连接。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>You can use this property to interoperate with relational ADO.NET code.</source>
+          <target state="translated">可以使用此属性与关系的 ADO.NET 代码进行互操作。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The returned connection will be closed unless it has been explicitly opened by the user.</source>
+          <target state="translated">返回的连接将关闭，除非已由用户显式打开。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The connection used by the framework.</source>
+          <target state="translated">由框架使用的连接。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Creates a database on the server.</source>
+          <target state="translated">在服务器上创建数据库。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The name of the database is derived by using the following algorithm:      -   If a database is identified in the connection string, its name is used.</source>
+          <target state="translated">通过使用以下算法派生的数据库名称:-如果数据库在连接字符串中标识的则使用其名称。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>-   If a &lt;xref:System.Data.Linq.Mapping.DatabaseAttribute&gt; attribute is present, its &lt;xref:System.Data.Linq.Mapping.DatabaseAttribute.Name%2A&gt; property is used as the name of the database.</source>
+          <target state="translated">-如果&lt;xref:System.Data.Linq.Mapping.DatabaseAttribute&gt;属性不存在，其&lt;xref:System.Data.Linq.Mapping.DatabaseAttribute.Name%2A&gt;属性用作数据库的名称。&lt;/xref:System.Data.Linq.Mapping.DatabaseAttribute.Name%2A&gt; &lt;/xref:System.Data.Linq.Mapping.DatabaseAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-   If there is no database tag in the connection string and a strongly typed &lt;xref:System.Data.Linq.DataContext&gt; is used, a database that has the same name as the &lt;xref:System.Data.Linq.DataContext&gt; inheriting class is checked.</source>
+          <target state="translated">-如果没有连接字符串和强类型中的没有数据库标记&lt;xref:System.Data.Linq.DataContext&gt;使用时，具有与同名的数据库&lt;xref:System.Data.Linq.DataContext&gt;继承类已选中。&lt;/xref:System.Data.Linq.DataContext&gt; &lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>-   If a weakly typed &lt;xref:System.Data.Linq.DataContext&gt; is used, an exception is thrown.</source>
+          <target state="translated">-如果使用弱类型&lt;xref:System.Data.Linq.DataContext&gt;是使用，将引发异常。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>-   If the &lt;xref:System.Data.Linq.DataContext&gt; has been created by using a file name, the database corresponding to that file name is created.</source>
+          <target state="translated">-如果&lt;xref:System.Data.Linq.DataContext&gt;已创建通过使用文件名称，创建与该文件名称对应的数据库。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Determines whether the associated database can be opened.</source>
+          <target state="translated">确定是否可以打开关联的数据库。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>This method uses the connection in the &lt;xref:System.Data.Linq.DataContext.Connection%2A&gt; property to attempt to open the associated database.</source>
+          <target state="translated">此方法使用中的连接&lt;xref:System.Data.Linq.DataContext.Connection%2A&gt;尝试打开关联的数据库的属性。&lt;/xref:System.Data.Linq.DataContext.Connection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified database can be opened; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果可以打开指定的数据库;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to delay-load one-to-many or one-to-one relationships.</source>
+          <target state="translated">获取或设置一个值，该值指示是否延迟加载的一对多关系还是一对一关系的关系。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>When the code accesses one of these relationships, null is returned if the relationship is one-to-one, and an empty collection is returned if it is one-to-many.</source>
+          <target state="translated">返回代码访问这些关系，null 之一时，如果关系是一对一，并且如果它是一个一对多，则返回一个空集合。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>The relationships can still be filled by setting the &lt;xref:System.Data.Linq.DataContext.LoadOptions%2A&gt; property.</source>
+          <target state="translated">仍可通过设置填写关系&lt;xref:System.Data.Linq.DataContext.LoadOptions%2A&gt;属性。&lt;/xref:System.Data.Linq.DataContext.LoadOptions%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The main scenario for this property is to enable you to extract a piece of the object model and send it out (for example, to a Web service).</source>
+          <target state="translated">此属性的主要方案是，可以提取一种对象模型并将它发送 （例如，到 Web 服务）。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If this property is set to <ph id="ph2">`false`</ph> after a query has been executed, an exception is thrown.</source>
+          <target state="translated">1&gt; <ph id="ph1">[!NOTE]</ph>&amp;1;&gt; 如果此属性设置为<ph id="ph2">`false`</ph>执行查询后，将引发异常。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>See the <bpt id="p1">**</bpt>Valid Modes<ept id="p1">**</ept> section below for more information.</source>
+          <target state="translated">请参阅<bpt id="p1">**</bpt>有效模式<ept id="p1">**</ept>下面部分以了解详细信息。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Valid modes    Deferred loading requires object tracking.</source>
+          <target state="translated">有效的模式已推迟加载需要对象跟踪。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Only the following three modes are valid:      -   &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt; = <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">只有以下三种模式有效:- &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt;= <ph id="ph1">`false`</ph>。&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>DeferredLoadingEnabled is ignored and inferred to be <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">忽略和推断 DeferredLoadingEnabled <ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>This behavior corresponds to a read-only &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">此行为对应于一只读&lt;xref:System.Data.Linq.DataContext&gt;。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt; = <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">-   &lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt; = <ph id="ph1">`true`</ph>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>DeferredLoadingEnabled = <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">DeferredLoadingEnabled = <ph id="ph1">`false`</ph>。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This situation corresponds to a &lt;xref:System.Data.Linq.DataContext&gt; that allows users to load an object graph by using &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; directives, but it does not enable deferred loading.</source>
+          <target state="translated">这种情况下对应于&lt;xref:System.Data.Linq.DataContext&gt;，允许用户通过使用来加载对象图&lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;指令，但它不会启用延迟的加载。&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; &lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-   Both are set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">-两者都设置为<ph id="ph1">`true`</ph>。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>This is the default.</source>
+          <target state="translated">这是默认值。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The flags may not be changed after a query has been executed.</source>
+          <target state="translated">在执行查询后，不能更改标志。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Any change after the execution of the first query that uses that &lt;xref:System.Data.Linq.DataContext&gt; throws an exception.</source>
+          <target state="translated">之后使用，在第一个查询执行的任何更改&lt;xref:System.Data.Linq.DataContext&gt;引发异常。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if deferred loading is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果启用了延迟的加载;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Deletes the associated database.</source>
+          <target state="translated">删除关联的数据库。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>This method uses the connection in the &lt;xref:System.Data.Linq.DataContext.Connection%2A&gt; property to identify the database to be deleted.</source>
+          <target state="translated">此方法使用中的连接&lt;xref:System.Data.Linq.DataContext.Connection%2A&gt;属性来标识要删除的数据库。&lt;/xref:System.Data.Linq.DataContext.Connection%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the current instance of the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">释放当前实例所使用的所有资源<bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class and optionally releases the managed resource.</source>
+          <target state="translated">释放由非托管的资源<bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类，还可以释放托管的资源。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要释放托管和非托管资源;<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>若要仅释放非托管的资源。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Executes SQL commands directly on the database.</source>
+          <target state="translated">直接在数据库上执行的 SQL 命令。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The SQL command to be executed.</source>
+          <target state="translated">要执行 SQL 命令。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The array of parameters to be passed to the command.</source>
+          <target state="translated">要传递到该命令的参数数组。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Note the following behavior:       If the number of objects in the array is less than the highest number identified in the command string, an exception is thrown.</source>
+          <target state="translated">请注意以下行为︰ 如果数组中的对象数小于命令字符串中标识的最高编号，引发异常。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>If the array contains objects that are not referenced in the command string, no exception is thrown.</source>
+          <target state="translated">如果数组包含命令字符串中未引用的对象，不引发异常。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>If any one of the parameters is null, it is converted to <bpt id="p1">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果任一参数为 null，则将它转换为<bpt id="p1">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The number of rows modified by the executed command.</source>
+          <target state="translated">执行命令修改的行数。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Executes, inside delete override methods, to redelegate to <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> the task of generating and executing dynamic SQL for delete operations.</source>
+          <target state="translated">执行时，在删除重写方法，以向<ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>生成并执行动态 SQL 来执行的任务删除操作。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;.</source>
+          <target state="translated">请参阅&lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;。&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The entity to be deleted.</source>
+          <target state="translated">要删除实体。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Executes, inside insert override methods, to redelegate to <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> the task of generating and executing dynamic SQL for insert operations.</source>
+          <target state="translated">内插入替代方法，以对执行<ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>生成并执行动态 SQL 来执行的任务插入操作。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Note the following considerations:      -   Because the method has a protected modifier, its use requires subclassing &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">请注意以下事项:-由于该方法具有受保护的修饰符，使用它必须子类化&lt;xref:System.Data.Linq.DataContext&gt;.&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>-   An exception is thrown if this operation is not called inside a &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; operation.</source>
+          <target state="translated">的如果在不调用此操作引发异常&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;操作。&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>It is not intended to be called as a stand-alone operation outside the scope of a &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; operation.</source>
+          <target state="translated">它不可作为独立操作的范围之外调用&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;操作。&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; itself calls override methods if they are implemented and the previous methods are intended to be called inside the override methods.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;自身调用重写方法如果它们实现，上述方法旨在用于内部重写方法调用。&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>-   It is the responsibility of the developer to pass in the correct entity.</source>
+          <target state="translated">-它是开发人员可以传递正确的实体中的责任。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The implementation verifies that the passed-in entity is tracked.</source>
+          <target state="translated">该实现可确保传入的实体进行跟踪。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>However, it is the responsibility of the developer to maintain the order or pass in the same entity two times.</source>
+          <target state="translated">但是，它是开发人员可以维护的顺序，或将两次传递同一实体中的责任。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>-   It is the responsibility of the developer to invoke the correct dynamic API.</source>
+          <target state="translated">-它是开发人员可以调用正确的动态 API 的责任。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>For example, in the <ph id="ph1">`Update`</ph> override method, only the &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicUpdate%2A&gt; method can be called.</source>
+          <target state="translated">例如，在<ph id="ph1">`Update`</ph>重写方法，仅&lt;xref:System.Data.Linq.DataContext.ExecuteDynamicUpdate%2A&gt;可以调用方法。&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicUpdate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> does not detect or verify whether the invoked dynamic method matches the applicable operation.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>不检测或验证调用的动态方法是否与适用的操作相匹配。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The results are undefined if an inapplicable method is called (for example, calling &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicDelete%2A&gt; for an object to be updated).</source>
+          <target state="translated">结果是不确定的如果将不适用，则方法调用 (例如，调用&lt;xref:System.Data.Linq.DataContext.ExecuteDynamicDelete%2A&gt;要更新的对象)。&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicDelete%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The entity to be inserted.</source>
+          <target state="translated">要插入的实体。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Executes, inside update override methods, to redelegate to <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> the task of generating and executing dynamic SQL for update operations.</source>
+          <target state="translated">执行时，在更新重写方法，以向<ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>生成并执行动态 SQL 来执行更新操作的任务。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;.</source>
+          <target state="translated">请参阅&lt;xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;。&lt;/xref:System.Data.Linq.DataContext.ExecuteDynamicInsert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The entity to be updated.</source>
+          <target state="translated">要更新实体。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Executes the stored database procedure or scalar function associated with the specified CLR method.</source>
+          <target state="translated">执行数据库存储的过程或标量函数与指定的 CLR 方法关联。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The ExecuteMethodCall method is used in automatically generated code and acts as a proxy to database functions.</source>
+          <target state="translated">ExecuteMethodCall 方法使用自动生成的代码中，并且可作为数据库函数的代理。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The instance of the method invocation (the current object).</source>
+          <target state="translated">方法调用 （当前对象） 的实例。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Identifies the CLR method that corresponds to a database method.</source>
+          <target state="translated">标识对应于一个数据库方法的 CLR 方法。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The array of parameters to be passed to the command.</source>
+          <target state="translated">要传递到该命令的参数数组。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The result (the return value and output parameters) of executing the specified method.</source>
+          <target state="translated">执行指定的方法的结果 （返回值和输出参数）。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Executes SQL queries directly on the database.</source>
+          <target state="translated">直接对数据库执行 SQL 查询。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The type of the <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> to be returned.</source>
+          <target state="translated">一种<ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph>要返回。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The algorithm for matching columns in the result of the query to fields or properties in the object works as follows:       If a field or property is mapped to a particular column name, that column name is expected in the resultset.</source>
+          <target state="translated">用于匹配的字段对查询结果中的列或属性的对象中的算法的工作方式如下︰ 如果字段或属性映射到特定的列名称，则结果集中应包含该列名称。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>If a field or property is not mapped, a column with the same name as the field or property is expected in the resultset.</source>
+          <target state="translated">如果未映射的字段或属性，则结果集中应具有与同名的字段或属性的列。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The comparison is performed by looking for a case-sensitive match first.</source>
+          <target state="translated">通过首先查找区分大小写的匹配项进行比较。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>If this match is not found, a subsequent search occurs for a case-insensitive match.</source>
+          <target state="translated">如果未找到此匹配项，后续搜索则会不区分大小写的匹配项。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The query must return all the tracked fields and properties of the object (except those that are loaded on a deferred basis) when all the following conditions are true:       <ph id="ph1">`T`</ph> is an entity explicitly tracked by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">该查询必须返回所有跟踪的字段和属性 （基于延迟加载除外） 的对象的下列所有条件都都为真时︰<ph id="ph1">`T`</ph>将实体显式跟踪<bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>The entity has a primary key.</source>
+          <target state="translated">实体具有主键。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Otherwise an exception is thrown.</source>
+          <target state="translated">否则会引发异常。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The SQL query to be executed.</source>
+          <target state="translated">要执行的 SQL 查询。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The array of parameters to be passed to the command.</source>
+          <target state="translated">要传递到该命令的参数数组。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Note the following behavior:       If the number of objects in the array is less than the highest number identified in the command string, an exception is thrown.</source>
+          <target state="translated">请注意以下行为︰ 如果数组中的对象数小于命令字符串中标识的最高编号，引发异常。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>If the array contains objects that are not referenced in the command string, no exception is thrown.</source>
+          <target state="translated">如果数组包含命令字符串中未引用的对象，不引发异常。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If a parameter is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, it is converted to <bpt id="p2">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果参数是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，它将转换为<bpt id="p2">&lt;xref uid="langword_csharp_DBNull.Value" name="DBNull.Value" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> collection of objects returned by the query.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>Xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph>由查询返回的对象的集合。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Gets the modified objects tracked by <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">获取已修改的对象跟踪的<bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Note the following considerations:      -   GetChangeSet might have side effects, such as inference of insert and delete operations that are usually performed at the time of &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;.</source>
+          <target state="translated">请注意以下事项:-GetChangeSet 可能产生副作用，如推理的插入和删除&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;.&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;时通常执行的操作</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>For example, objects that are used in the following operations can create corresponding inferred operations in the following list:          -   &lt;xref:System.Data.Linq.EntitySet%601.Add%2A&gt; to &lt;xref:System.Data.Linq.Table%601.InsertOnSubmit%2A&gt;.</source>
+          <target state="translated">例如，以下操作中使用的对象可以创建相应的推断的操作，以下列表中:-&lt;xref:System.Data.Linq.EntitySet%601.Add%2A&gt;到&lt;xref:System.Data.Linq.Table%601.InsertOnSubmit%2A&gt;。&lt;/xref:System.Data.Linq.Table%601.InsertOnSubmit%2A&gt; &lt;/xref:System.Data.Linq.EntitySet%601.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Data.Linq.EntityRef%601&gt; assignment to null (possibly because of &lt;xref:System.Data.Linq.EntitySet%601.Remove%2A&gt; to &lt;xref:System.Data.Linq.Table%601.DeleteOnSubmit%2A&gt;.</source>
+          <target state="translated">- &lt;xref:System.Data.Linq.EntityRef%601&gt;null 赋值 (可能是由于&lt;xref:System.Data.Linq.EntitySet%601.Remove%2A&gt;为&lt;xref:System.Data.Linq.Table%601.DeleteOnSubmit%2A&gt;。&lt;/xref:System.Data.Linq.Table%601.DeleteOnSubmit%2A&gt; &lt;/xref:System.Data.Linq.EntitySet%601.Remove%2A&gt; &lt;/xref:System.Data.Linq.EntityRef%601&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>-   The set may not be ordered according to foreign key constraints.</source>
+          <target state="translated">的不可能根据外键约束排序集。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>-   Database-generated values (for example, primary and foreign key values, timestamps, and so forth) are not available.</source>
+          <target state="translated">-数据库生成的值 （例如，主键和外键的值、 时间戳，等） 将不可用。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Such information requires database command execution and perhaps the propagation of retrieved information (for example, foreign key from primary key).</source>
+          <target state="translated">此类信息需要执行数据库命令，可能是检索信息 （例如，从主键的外键） 的传播。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>-   The set of changed objects is computed at the time of the call.</source>
+          <target state="translated">更改的对象-组是在调用时计算的。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Subsequent calls to &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; can produce a different set if additional changes are made.</source>
+          <target state="translated">后续调用&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;如果进行其他更改可能会产生一组不同。&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Output when no changes have been made appears as follows:       <ph id="ph1">`{Added: 0, Removed: 0, Modified: 0}`</ph></source>
+          <target state="translated">在不进行任何更改后的输出显示如下︰<ph id="ph1">`{Added: 0, Removed: 0, Modified: 0}`</ph></target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The set of objects is returned as three read-only collections.</source>
+          <target state="translated">作为三个的只读集合返回的对象集。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Gets the information about SQL commands generated by <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>.</source>
+          <target state="translated">获取有关生成的 SQL 命令的信息<ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>This method is only a getter and does not affect &lt;xref:System.Data.Linq.DataContext&gt; state.</source>
+          <target state="translated">此方法是仅 getter 并且不会影响&lt;xref:System.Data.Linq.DataContext&gt;状态。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Note the following considerations:      -   The argument must be non-null.</source>
+          <target state="translated">请注意以下事项:-自变量必须为非 null。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Otherwise, a null argument exception is thrown.</source>
+          <target state="translated">否则，会引发空参数异常。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>-   Normal query translation exceptions thrown during <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> query execution apply for a query that cannot be translated.</source>
+          <target state="translated">-正常查询期间引发的转换异常<ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>查询执行适用于无法转换的查询。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>-   Only the first query command is returned.</source>
+          <target state="translated">的返回仅第一个查询命令。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Specifically, additional commands that are used for eager loading (&lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;) are not included.</source>
+          <target state="translated">具体而言，适用于预先加载的其他命令 (&lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;)，不会包括。&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>-   &lt;xref:System.Data.Linq.DataContext&gt; does not track what the user does with the command.</source>
+          <target state="translated">-&lt;xref:System.Data.Linq.DataContext&gt;不会跟踪用户如何处理该命令。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>For example, results from the execution of the returned command are not tracked and do not affect &lt;xref:System.Data.Linq.DataContext&gt; state.</source>
+          <target state="translated">例如，返回命令的执行结果不会跟踪，并且不会影响&lt;xref:System.Data.Linq.DataContext&gt;状态。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>The query whose SQL command information is to be retrieved.</source>
+          <target state="translated">其 SQL 命令信息的查询是要检索。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The requested command information object.</source>
+          <target state="translated">请求的命令信息对象。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>Returns a collection of objects of a particular type, where the type is defined by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">返回特定类型，其中由定义类型的对象的集合<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>This is a weakly typed version of &lt;xref:System.Data.Linq.DataContext.GetTable%2A&gt;.</source>
+          <target state="translated">这是&lt;xref:System.Data.Linq.DataContext.GetTable%2A&gt;.&lt;/xref:System.Data.Linq.DataContext.GetTable%2A&gt;的弱类型化的版本</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>It is important to have a weakly typed version because it is a relatively common practice to construct queries dynamically.</source>
+          <target state="translated">请务必具有弱类型的版本，因为它是相对较常见的做法动态构造查询。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>It would be inconvenient to force the application to use reflection to call the correct generic method.</source>
+          <target state="translated">它将是强制应用程序使用反射来调用正确的泛型方法很不方便。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>If there is no collection for a particular type, an exception is thrown.</source>
+          <target state="translated">如果没有为特定类型的集合，则引发异常。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The type of the objects to be returned.</source>
+          <target state="translated">要返回的对象的类型。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>A collection of objects defined by the <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">type</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">定义的对象的集合<bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">type</ph> <ept id="p1">&lt;/code&gt;</ept>参数。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Data.Linq.DataLoadOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> associated with this <bpt id="p2">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">获取或设置<bpt id="p1">&lt;xref href="System.Data.Linq.DataLoadOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与此关联<bpt id="p2">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>This property gets or sets the options that are used to define prefetch behavior for deferred-loaded members and membership of related collections.</source>
+          <target state="translated">此属性获取或设置用于定义延迟加载成员和相关的集合成员身份的预提取行为的选项。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The prefetch load options for related data.</source>
+          <target state="translated">预提取加载相关数据的选项。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Gets or sets the destination to write the SQL query or command.</source>
+          <target state="translated">获取或设置目标编写 SQL 查询或命令。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>Set this property to <ph id="ph1">`null`</ph> to disable command logging.</source>
+          <target state="translated">将此属性设置为<ph id="ph1">`null`</ph>禁用命令日志记录。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.IO.TextReader&gt; to use for writing the command.</source>
+          <target state="translated">&lt;xref:System.IO.TextReader&gt;用于编写命令。&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Data.Linq.Mapping.MetaModel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> on which the mapping is based.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Data.Linq.Mapping.MetaModel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>所基于的映射。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The mapping between a database and domain objects.</source>
+          <target state="translated">数据库和域的对象之间的映射。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether object tracking is enabled.</source>
+          <target state="translated">获取或设置一个值，该值指示是否启用跟踪的对象。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Setting this property to <ph id="ph1">`false`</ph> improves performance at retrieval time, because there are fewer items to track.</source>
+          <target state="translated">此属性设置为<ph id="ph1">`false`</ph>可提高在检索时的性能，因为存在可减少要跟踪的项目。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>An exception is thrown:      -   If the property is set to <ph id="ph1">`false`</ph> after a query has been executed.</source>
+          <target state="translated">引发异常:-如果该属性设置为<ph id="ph1">`false`</ph>执行查询后。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>For more information, see the Valid Modes section in &lt;xref:System.Data.Linq.DataContext&gt;.</source>
+          <target state="translated">有关详细信息，请参阅&lt;xref:System.Data.Linq.DataContext&gt;.&lt;/xref:System.Data.Linq.DataContext&gt;中的有效模式部分</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>-   If the property is set to <ph id="ph1">`false`</ph> and &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; is called.</source>
+          <target state="translated">-如果该属性设置为<ph id="ph1">`false`</ph>和&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;称为。&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>If ObjectTrackingEnabled is <ph id="ph1">`false`</ph>, &lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt; is ignored and treated as <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">如果 ObjectTrackingEnabled <ph id="ph1">`false`</ph>，&lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;被忽略并且视为<ph id="ph2">`false`</ph>。&lt;/xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>In this case, the &lt;xref:System.Data.Linq.DataContext&gt; is read-only.</source>
+          <target state="translated">在这种情况下，&lt;xref:System.Data.Linq.DataContext&gt;是只读的。&lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>If ObjectTrackingEnabled is <ph id="ph1">`true`</ph>, &lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt; is <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">如果 ObjectTrackingEnabled <ph id="ph1">`true`</ph>，&lt;xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;是<ph id="ph2">`false`</ph>。&lt;/xref:System.Data.Linq.DataContext.DeferredLoadingEnabled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>In this case, &lt;xref:System.Data.Linq.DataContext&gt; allows you to load an object graph by using &lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; directives, but does not enable deferred loading.</source>
+          <target state="translated">在这种情况下，&lt;xref:System.Data.Linq.DataContext&gt;允许你通过使用加载对象图&lt;xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt;指令，但不会启用延迟的加载。&lt;/xref:System.Data.Linq.DataLoadOptions.LoadWith%2A&gt; &lt;/xref:System.Data.Linq.DataContext&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the object tracking is enabled; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果启用了跟踪的对象;否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Refreshes a collection of entity objects according to the specified mode.</source>
+          <target state="translated">刷新的按指定模式的实体对象的集合。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>A value that specifies how optimistic concurrency conflicts are handled.</source>
+          <target state="translated">处理一个值，指定如何开放式并发冲突。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The collection of entities to be refreshed.</source>
+          <target state="translated">要刷新的实体的集合。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Refreshes an entity object according to the specified mode.</source>
+          <target state="translated">刷新实体对象按指定模式。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>A value that specifies how optimistic concurrency conflicts are handled.</source>
+          <target state="translated">处理一个值，指定如何开放式并发冲突。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The object to be refreshed.</source>
+          <target state="translated">要刷新的对象。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>Refreshes an array of entity objects according to the specified mode.</source>
+          <target state="translated">刷新按指定模式的实体对象的数组。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>A value that specifies how optimistic concurrency conflicts are handled.</source>
+          <target state="translated">处理一个值，指定如何开放式并发冲突。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The array of entity objects to be refreshed.</source>
+          <target state="translated">要刷新的实体对象的数组。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Computes the set of modified objects to be inserted, updated, or deleted, and executes the appropriate commands to implement the changes to the database.</source>
+          <target state="translated">计算的一套已修改的对象，以插入、 更新或删除，并执行适当的命令来实现对数据库的更改。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>If override methods are present for insert, update, or delete, &lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt; executes these methods instead of the default <ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph> commands.</source>
+          <target state="translated">如果存在用于插入、 更新或删除、 重写方法&lt;xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;执行这些方法，而不是默认值<ph id="ph1">[!INCLUDE[vbtecdlinq](~/add/includes/vbtecdlinq-md.md)]</ph>命令。&lt;/xref:System.Data.Linq.DataContext.SubmitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Sends changes that were made to retrieved objects to the underlying database, and specifies the action to be taken if the submission fails.</source>
+          <target state="translated">发送对所做的更改检索到基础数据库中，对象和指定要提交失败时要采取的操作。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>Default failure mode is &lt;xref:System.Data.Linq.ConflictMode&gt;.</source>
+          <target state="translated">默认失败模式是&lt;xref:System.Data.Linq.ConflictMode&gt;.&lt;/xref:System.Data.Linq.ConflictMode&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>The action to be taken if the submission fails.</source>
+          <target state="translated">要提交失败时要采取的操作。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>Valid arguments are as follows:       <bpt id="p1">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept></source>
+          <target state="translated">有效的参数如下所示︰<bpt id="p1">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept><bpt id="p2">&lt;xref href="System.Data.Linq.ConflictMode"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept></target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Gets or sets a local transaction for the <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph> to use to access the database.</source>
+          <target state="translated">获取或设置的本地事务<ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>要用于访问数据库。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The primary scenario for this property is interoperability with relational <ph id="ph1">[!INCLUDE[vstecado](~/add/includes/vstecado-md.md)]</ph> code.</source>
+          <target state="translated">此属性的主要方案是与关系互操作性<ph id="ph1">[!INCLUDE[vstecado](~/add/includes/vstecado-md.md)]</ph>代码。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>For example, use this property when you write your own <ph id="ph1">`Create`</ph><ph id="ph2">/</ph><ph id="ph3">`Update`</ph><ph id="ph4">/</ph><ph id="ph5">`Delete`</ph> methods to set the <ph id="ph6">`Transaction`</ph> property on the ADO <ph id="ph7">`Command`</ph> object.</source>
+          <target state="translated">例如，使用此属性，当你编写你自己<ph id="ph1">`Create`</ph> <ph id="ph2">/</ph> <ph id="ph3">`Update`</ph> <ph id="ph4">/</ph> <ph id="ph5">`Delete`</ph>方法，以便设置<ph id="ph6">`Transaction`</ph>属性 ADO<ph id="ph7">`Command`</ph>对象。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Note the following:      -   If this property has not been explicitly set, the getter returns null.</source>
+          <target state="translated">请注意以下事项:-如果此属性未显式设置，getter 返回 null。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>-   If the code is executing in a &lt;xref:System.Transactions.Transaction&gt; context, setting this property throws an exception.</source>
+          <target state="translated">-如果在中执行代码&lt;xref:System.Transactions.Transaction&gt;上下文中，设置此属性将引发异常。&lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>-   If this property is set and a new &lt;xref:System.Transactions.Transaction&gt; is opened, an exception is thrown when a query or update is executed.</source>
+          <target state="translated">-如果此属性是组和一个新&lt;xref:System.Transactions.Transaction&gt;是打开，将引发异常时执行的查询或更新。&lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>The transaction object used by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> when executing queries and commands.</source>
+          <target state="translated">使用的事务对象<bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>时执行查询和命令。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>Converts an existing <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to objects.</source>
+          <target state="translated">将转换的现有<bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到对象。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be converted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要转换。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>A list of objects returned by the conversion.</source>
+          <target state="translated">返回转换的对象列表。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Converts an existing <bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to objects.</source>
+          <target state="translated">将转换的现有<bpt id="p1">&lt;xref href="System.Data.Common.DbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>到对象。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>The type of the <ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph> to be returned.</source>
+          <target state="translated">一种<ph id="ph1">&amp;lt;</ph>xref:System.Collections.Generic.IEnumerable%601<ph id="ph2">&amp;gt;</ph>要返回。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The algorithm for matching columns in the result to fields and properties in the object works as follows:       If a field or property is mapped to a particular column name, that column name is expected in the resultset.</source>
+          <target state="translated">相匹配的结果与字段中的列和属性的对象中的算法的工作方式如下︰ 如果字段或属性映射到特定的列名称，则结果集中应包含该列名称。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>If a field or property is not mapped, a column with the same name as the field or property is expected in the resultset.</source>
+          <target state="translated">如果未映射的字段或属性，则结果集中应具有与同名的字段或属性的列。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>The comparison is performed by looking for a case-sensitive match first.</source>
+          <target state="translated">通过首先查找区分大小写的匹配项进行比较。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>If this match is not found, a subsequent search is occurs for a case-insensitive match.</source>
+          <target state="translated">如果未找到此匹配项，则会继续搜索不区分大小写的匹配项。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The query must return all the tracked fields and properties of the object (except those that are loaded on a deferred basis) when all the following conditions are true:       <ph id="ph1">`T`</ph> is an entity explicitly tracked by the <bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">该查询必须返回所有跟踪的字段和属性 （基于延迟加载除外） 的对象的下列所有条件都都为真时︰<ph id="ph1">`T`</ph>将实体显式跟踪<bpt id="p1">&lt;xref href="System.Data.Linq.DataContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt; is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Data.Linq.DataContext.ObjectTrackingEnabled*&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The entity has a primary key.</source>
+          <target state="translated">实体具有主键。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Otherwise an exception is thrown.</source>
+          <target state="translated">否则会引发异常。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be converted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Data.IDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>要转换。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>A list of objects returned by the conversion.</source>
+          <target state="translated">返回转换的对象列表。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">要添加。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
