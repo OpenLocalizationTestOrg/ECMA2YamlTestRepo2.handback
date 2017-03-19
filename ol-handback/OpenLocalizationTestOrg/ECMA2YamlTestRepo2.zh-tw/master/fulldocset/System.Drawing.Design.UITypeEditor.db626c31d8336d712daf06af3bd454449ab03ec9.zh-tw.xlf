@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9289105ab53b448345438da5931861f6c963fe1c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Drawing.Design.UITypeEditor.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0702ac5d84305e86d7c1b876b3d469ce6d0c67ff</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4e9ecb9ef4fe62cb742c03eb08485fd2f8ea4f17</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class that can be used to design value editors that can provide a user interface (UI) for representing and editing the values of objects of the supported data types.</source>
+          <target state="translated">提供可用來設計可提供使用者介面 (UI) 的值編輯器的基底類別，表示並編輯物件支援的資料類型的值。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The UITypeEditor class provides a base class that you can derive from and extend to implement a custom type editor for the design-time environment.</source>
+          <target state="translated">UITypeEditor 類別提供基底類別，您可以從衍生並擴充實作的設計階段環境的自訂類型編輯器。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Typically, your custom type editor interacts with the &lt;xref:System.Windows.Forms.PropertyGrid&gt; control.</source>
+          <target state="translated">一般而言，您的自訂型別編輯器互動&lt;xref:System.Windows.Forms.PropertyGrid&gt;控制項。&lt;/xref:System.Windows.Forms.PropertyGrid&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Custom type editors are useful in situations where a text-box value editor is insufficient to effectively select the values of certain types.</source>
+          <target state="translated">自訂型別編輯器適合的情況下的文字方塊中的值編輯器不足，無法有效地選取 特定類型的值。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To implement a custom design-time UI type editor, you must perform the following steps:      -   Define a class that derives from UITypeEditor.</source>
+          <target state="translated">若要實作自訂的設計階段 UI 類型編輯器，您必須執行下列步驟:-定義衍生自 UITypeEditor 的類別。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   Override the &lt;xref:System.Drawing.Design.UITypeEditor.EditValue%2A&gt; method to handle the user interface, user input processing, and value assignment.</source>
+          <target state="translated">-覆寫&lt;xref:System.Drawing.Design.UITypeEditor.EditValue%2A&gt;方法以處理使用者介面、 使用者輸入的處理，以及值指派。&lt;/xref:System.Drawing.Design.UITypeEditor.EditValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>-   Override the &lt;xref:System.Drawing.Design.UITypeEditor.GetEditStyle%2A&gt; method to inform the Properties window of the type of editor style that the editor will use.</source>
+          <target state="translated">-覆寫&lt;xref:System.Drawing.Design.UITypeEditor.GetEditStyle%2A&gt;方法，以通知類型的編輯器樣式，將會使用編輯器 中的 屬性 視窗。&lt;/xref:System.Drawing.Design.UITypeEditor.GetEditStyle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can add additional support for painting a value's representation in the Properties window by performing the following steps:      -   Override the &lt;xref:System.Drawing.Design.UITypeEditor.GetPaintValueSupported%2A&gt; method to indicate that the editor supports displaying the value's representation.</source>
+          <target state="translated">您可以加入其他支援繪製值的表示法，在 [屬性] 視窗中執行下列步驟:-覆寫&lt;xref:System.Drawing.Design.UITypeEditor.GetPaintValueSupported%2A&gt;方法，以表示此編輯器支援顯示值的表示法。&lt;/xref:System.Drawing.Design.UITypeEditor.GetPaintValueSupported%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>-   Override the &lt;xref:System.Drawing.Design.UITypeEditor.PaintValue%2A&gt; method to implement the display of the value's representation.</source>
+          <target state="translated">-覆寫&lt;xref:System.Drawing.Design.UITypeEditor.PaintValue%2A&gt;方法，以實作的值的表示法顯示。&lt;/xref:System.Drawing.Design.UITypeEditor.PaintValue%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   Override the UITypeEditor constructor method if the editor should have initialization behavior.</source>
+          <target state="translated">-編輯器 中應該有初始設定行為，覆寫 UITypeEditor 建構函式方法。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The UITypeEditor class does not support right-to-left (RTL) layouts.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 的 UITypeEditor 類別不支援由右至左 (RTL) 配置。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>For more information about enhancing design-time support, see <bpt id="p1">[</bpt>Extending Design-Time Support<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需強化設計階段支援的詳細資訊，請參閱<bpt id="p1">[</bpt>擴充設計階段支援<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>For more information on implementing a UITypeEditor, see <bpt id="p1">[</bpt>User Interface Type Editors Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需實作 UITypeEditor 的詳細資訊，請參閱<bpt id="p1">[</bpt>使用者介面型別編輯器概觀<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Drawing.Design.UITypeEditor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Drawing.Design.UITypeEditor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Edits the value of the specified object using the editor style indicated by the &lt;xref:System.Drawing.Design.UITypeEditor.GetEditStyle*&gt; method.</source>
+          <target state="translated">指定的物件使用的編輯器樣式的值所指示的編輯&lt;xref:System.Drawing.Design.UITypeEditor.GetEditStyle*&gt;方法。&lt;/xref:System.Drawing.Design.UITypeEditor.GetEditStyle*&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This method launches the user interface for value editing, and is called by the Properties window when a user attempts to edit the value of a type that this editor is configured to edit the value of.</source>
+          <target state="translated">此方法會啟動使用者介面進行數值編輯，而且當使用者嘗試編輯這個編輯器會設定為編輯的值類型的值由 [屬性] 視窗中呼叫。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A service provider is provided so that the editor can obtain any required services.</source>
+          <target state="translated">提供的服務提供者，使編輯器可以取得任何必要的服務。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IServiceProvider&gt; that this editor can use to obtain services.</source>
+          <target state="translated">&lt;xref:System.IServiceProvider&gt;這個編輯器可用來取得服務。&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The object to edit.</source>
+          <target state="translated">要編輯的物件。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The new value of the object.</source>
+          <target state="translated">物件的新值。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Edits the specified object's value using the editor style indicated by the &lt;xref:System.Drawing.Design.UITypeEditor.GetEditStyle*&gt; method.</source>
+          <target state="translated">指定的物件使用的編輯器樣式的值所指示的編輯&lt;xref:System.Drawing.Design.UITypeEditor.GetEditStyle*&gt;方法。&lt;/xref:System.Drawing.Design.UITypeEditor.GetEditStyle*&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A service provider is provided so that the editor can obtain any required services.</source>
+          <target state="translated">提供的服務提供者，使編輯器可以取得任何必要的服務。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used to gain additional context information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，可用來取得額外的內容資訊。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IServiceProvider&gt; that this editor can use to obtain services.</source>
+          <target state="translated">&lt;xref:System.IServiceProvider&gt;這個編輯器可用來取得服務。&lt;/xref:System.IServiceProvider&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The object to edit.</source>
+          <target state="translated">要編輯的物件。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The new value of the object.</source>
+          <target state="translated">物件的新值。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the value of the object has not changed, this should return the same object it was passed.</source>
+          <target state="translated">如果物件的值未經變更，這應該會傳回與已傳遞相同的物件。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets the editor style used by the &lt;xref:System.Drawing.Design.UITypeEditor.EditValue*&gt; method.</source>
+          <target state="translated">取得所使用的編輯器樣式&lt;xref:System.Drawing.Design.UITypeEditor.EditValue*&gt;方法。&lt;/xref:System.Drawing.Design.UITypeEditor.EditValue*&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>If a &lt;xref:System.Drawing.Design.UITypeEditor&gt; does not override and implement this method, GetEditStyle will return &lt;xref:System.Drawing.Design.UITypeEditorEditStyle&gt; by default.</source>
+          <target state="translated">如果&lt;xref:System.Drawing.Design.UITypeEditor&gt;不覆寫並實作這個方法中，將會傳回 GetEditStyle&lt;xref:System.Drawing.Design.UITypeEditorEditStyle&gt;預設。&lt;/xref:System.Drawing.Design.UITypeEditorEditStyle&gt; &lt;/xref:System.Drawing.Design.UITypeEditor&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Design.UITypeEditorEditStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value that indicates the style of editor used by the current <bpt id="p2">&lt;xref href="System.Drawing.Design.UITypeEditor"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Design.UITypeEditorEditStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>列舉值，指出目前所使用的編輯器樣式<bpt id="p2">&lt;xref href="System.Drawing.Design.UITypeEditor"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>By default, this method will return <bpt id="p1">&lt;xref href="System.Drawing.Design.UITypeEditorEditStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">根據預設，這個方法會傳回<bpt id="p1">&lt;xref href="System.Drawing.Design.UITypeEditorEditStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the editor style used by the &lt;xref:System.Drawing.Design.UITypeEditor.EditValue*&gt; method.</source>
+          <target state="translated">取得所使用的編輯器樣式&lt;xref:System.Drawing.Design.UITypeEditor.EditValue*&gt;方法。&lt;/xref:System.Drawing.Design.UITypeEditor.EditValue*&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used to gain additional context information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，可用來取得額外的內容資訊。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Design.UITypeEditorEditStyle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value that indicates the style of editor used by the &lt;xref:System.Drawing.Design.UITypeEditor.EditValue<bpt id="p2">*</bpt>&gt; method. If the <bpt id="p3">&lt;xref href="System.Drawing.Design.UITypeEditor"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> does not support this method, then &lt;xref:System.Drawing.Design.UITypeEditor.GetEditStyle<ept id="p2">*</ept>&gt; will return <bpt id="p4">&lt;xref href="System.Drawing.Design.UITypeEditorEditStyle"&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Design.UITypeEditorEditStyle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>值，指出所使用的編輯器樣式&lt;&gt; <bpt id="p2">*</bpt>&gt; 方法。如果<bpt id="p3">&lt;xref href="System.Drawing.Design.UITypeEditor"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>不支援這種方法，則&lt;&gt; <ept id="p2">*</ept>&gt; 會傳回<bpt id="p4">&lt;xref href="System.Drawing.Design.UITypeEditorEditStyle"&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Indicates whether this editor supports painting a representation of an object's value.</source>
+          <target state="translated">指出這個編輯器是否支援繪製物件值的表示。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.Drawing.Design.UITypeEditor.PaintValue*&gt; is implemented; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.Drawing.Design.UITypeEditor.PaintValue*&gt;實作，否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Drawing.Design.UITypeEditor.PaintValue*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified context supports painting a representation of an object's value within the specified context.</source>
+          <target state="translated">指出指定的內容是否支援繪製物件值，指定的內容中的表示。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used to gain additional context information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.ITypeDescriptorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，可用來取得額外的內容資訊。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if &lt;xref:System.Drawing.Design.UITypeEditor.PaintValue*&gt; is implemented; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.Drawing.Design.UITypeEditor.PaintValue*&gt;實作，否則<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Drawing.Design.UITypeEditor.PaintValue*&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether drop-down editors should be resizable by the user.</source>
+          <target state="translated">取得值，指出是否應該由使用者調整下拉式編輯器。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if drop-down editors are resizable; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果下拉式編輯器的可調整大小;否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Paints a representation of the value of an object using the specified <bpt id="p1">&lt;xref href="System.Drawing.Design.PaintValueEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">繪製的物件使用指定的值表示<bpt id="p1">&lt;xref href="System.Drawing.Design.PaintValueEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Editors should paint within the boundaries of the specified rectangle.</source>
+          <target state="translated">編輯器應該繪製在指定的矩形界限內。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This rectangle indicates the area of the Properties window to draw a representation of the value within.</source>
+          <target state="translated">這個矩形表示要繪製的表示法中之值的 [屬性] 視窗的區域。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Starting with the <ph id="ph1">[!INCLUDE[net_v46](~/add/includes/net-v46-md.md)]</ph>, the rectangle specified by &lt;xref:System.Drawing.Design.PaintValueEventArgs.Bounds%2A&gt; will be resized based on the system DPI setting when the app.config file contains the following entry:      <ph id="ph2">```   &lt;appSettings&gt;     &lt;add key="EnableWindowsFormsHighDpiAutoResizing" value="true" /&gt;   &lt;/appSettings&gt;      ```</ph></source>
+          <target state="translated">從開始<ph id="ph1">[!INCLUDE[net_v46](~/add/includes/net-v46-md.md)]</ph>，所指定的矩形&lt;xref:System.Drawing.Design.PaintValueEventArgs.Bounds%2A&gt;將會根據系統 DPI 設定時的 app.config 檔案包含下列項目調整大小︰ <ph id="ph2">```   &lt;appSettings&gt;     &lt;add key="EnableWindowsFormsHighDpiAutoResizing" value="true" /&gt;   &lt;/appSettings&gt;      ```</ph> &lt;/xref:System.Drawing.Design.PaintValueEventArgs.Bounds%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Design.PaintValueEventArgs"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that indicates what to paint and where to paint it.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Design.PaintValueEventArgs"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，表示要繪製的項目及如何繪製它。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Paints a representation of the value of the specified object to the specified canvas.</source>
+          <target state="translated">繪製指定的畫布上指定之物件的值的表示。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Editors should paint within the boundaries of the specified rectangle.</source>
+          <target state="translated">編輯器應該繪製在指定的矩形界限內。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>This rectangle indicates the area of the Properties window to draw a representation of the value within.</source>
+          <target state="translated">這個矩形表示要繪製的表示法中之值的 [屬性] 視窗的區域。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Starting with the <ph id="ph1">[!INCLUDE[net_v46](~/add/includes/net-v46-md.md)]</ph>, the rectangle specified by &lt;xref:System.Drawing.Design.PaintValueEventArgs.Bounds%2A&gt; will be resized based on the system DPI setting when the app.config file contains the following entry:      <ph id="ph2">```   &lt;appSettings&gt;     &lt;add key="EnableWindowsFormsHighDpiAutoResizing" value="true" /&gt;   &lt;/appSettings&gt;      ```</ph></source>
+          <target state="translated">從開始<ph id="ph1">[!INCLUDE[net_v46](~/add/includes/net-v46-md.md)]</ph>，所指定的矩形&lt;xref:System.Drawing.Design.PaintValueEventArgs.Bounds%2A&gt;將會根據系統 DPI 設定時的 app.config 檔案包含下列項目調整大小︰ <ph id="ph2">```   &lt;appSettings&gt;     &lt;add key="EnableWindowsFormsHighDpiAutoResizing" value="true" /&gt;   &lt;/appSettings&gt;      ```</ph> &lt;/xref:System.Drawing.Design.PaintValueEventArgs.Bounds%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The object whose value this type editor will display.</source>
+          <target state="translated">這個型別編輯器會顯示其值的物件。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>A drawing canvas on which to paint the representation of the object's value.</source>
+          <target state="translated">要繪製物件的值，表示畫布。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Rectangle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> within whose boundaries to paint the value.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Rectangle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>來繪製值的界限內。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
