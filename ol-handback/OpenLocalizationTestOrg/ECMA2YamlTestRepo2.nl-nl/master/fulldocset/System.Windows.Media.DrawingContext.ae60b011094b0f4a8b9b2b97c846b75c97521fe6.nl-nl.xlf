@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3cd3670b346907398bb304aa136215c22a491501</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.DrawingContext.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8d8034638f84240576929485db64ce4d15886b63</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">71e217b1a1ad14b796ff827dca6df0d8b202ff97</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Describes visual content using draw, push, and pop commands.</source>
+          <target state="translated">Beschrijft visual inhoud met behulp van getrokken, push- en pop-opdrachten.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use a DrawingContext to populate a &lt;xref:System.Windows.Media.Visual&gt; or a &lt;xref:System.Windows.Media.Drawing&gt; with visual content.</source>
+          <target state="translated">Gebruik een DrawingContext voor het vullen een &lt;xref:System.Windows.Media.Visual&gt;of een &lt;xref:System.Windows.Media.Drawing&gt;met visuele inhoud.&lt;/xref:System.Windows.Media.Drawing&gt; &lt;/xref:System.Windows.Media.Visual&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although the DrawingContext draw methods appear similar to the draw methods of the &lt;xref:System.Drawing.Graphics?displayProperty=fullName&gt; type, they function very differently: DrawingContext is used with a retained mode graphics system, while the &lt;xref:System.Drawing.Graphics?displayProperty=fullName&gt; type is used with an immediate mode graphics system.</source>
+          <target state="translated">Hoewel de DrawingContext tekenen methoden weergegeven vergelijkbaar met de methoden tekenen van de &lt;xref:System.Drawing.Graphics?displayProperty=fullName&gt;type, werken ze zeer anders: DrawingContext wordt gebruikt met een terugkerende modus graphics-systeem, terwijl de &lt;xref:System.Drawing.Graphics?displayProperty=fullName&gt;type wordt gebruikt met een directe modus graphics-systeem.&lt;/xref:System.Drawing.Graphics?displayProperty=fullName&gt; &lt;/xref:System.Drawing.Graphics?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use a DrawingContext object's draw commands, you are actually storing a set of rendering instructions (although the exact storage mechanism depends on the type of object that supplies the DrawingContext) that will later be used by the graphics system; you are not drawing to the screen in real-time.</source>
+          <target state="translated">Wanneer u een DrawingContext-object tekenen opdrachten gebruikt, u daadwerkelijk opslaat rendering instructies (Hoewel de exacte opslagmethode, is afhankelijk van het type object waaruit de DrawingContext) die later wordt gebruikt door het afbeeldingssysteem; u tekent niet naar het scherm in realtime.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how the <ph id="ph1">[!INCLUDE[TLA#tla_wpf](~/add/includes/tlasharptla-wpf-md.md)]</ph> graphics system works, see <bpt id="p1">[</bpt>WPF Graphics Rendering Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Voor meer informatie over hoe de <ph id="ph1">[!INCLUDE[TLA#tla_wpf](~/add/includes/tlasharptla-wpf-md.md)]</ph> graphics system Zie <bpt id="p1">[</bpt>WPF Graphics Rendering overzicht<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You never directly instantiate a DrawingContext; you can, however, acquire a drawing context from certain methods, such as &lt;xref:System.Windows.Media.DrawingGroup.Open%2A?displayProperty=fullName&gt; and &lt;xref:System.Windows.Media.DrawingVisual.RenderOpen%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">U nooit rechtstreeks exemplaar maken van een DrawingContext; u kunt echter een tekenen context uit bepaalde methoden, zoals &lt;xref:System.Windows.Media.DrawingGroup.Open%2A?displayProperty=fullName&gt;en &lt;xref:System.Windows.Media.DrawingVisual.RenderOpen%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Media.DrawingVisual.RenderOpen%2A?displayProperty=fullName&gt; &lt;/xref:System.Windows.Media.DrawingGroup.Open%2A?displayProperty=fullName&gt; verkrijgen</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Closes the <bpt id="p1">&lt;xref href="System.Windows.Media.DrawingContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and flushes the content.</source>
+          <target state="translated">Hiermee sluit u de <bpt id="p1">&lt;xref href="System.Windows.Media.DrawingContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en schrijft de inhoud.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Afterward, the <bpt id="p1">&lt;xref href="System.Windows.Media.DrawingContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> cannot be modified.</source>
+          <target state="translated">Daarna wordt de <bpt id="p1">&lt;xref href="System.Windows.Media.DrawingContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kan niet worden gewijzigd.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.Windows.Media.DrawingContext&gt; must be closed before its content can be rendered, but after it has been closed, it cannot be modified.</source>
+          <target state="translated">Een &lt;xref:System.Windows.Media.DrawingContext&gt;moeten worden gesloten voordat de inhoud ervan kan worden weergegeven, maar nadat het is gesloten, kan niet worden gewijzigd.&lt;/xref:System.Windows.Media.DrawingContext&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This call does not require all Push calls to have been Popped.</source>
+          <target state="translated">Deze aanroep is niet vereist voor alle Push aanroepen naar hebben is verschijnt.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>This object has already been closed or disposed.</source>
+          <target state="translated">Dit object is al gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.Windows.Media.DrawingContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Versies van alle resources die worden gebruikt door de <bpt id="p1">&lt;xref href="System.Windows.Media.DrawingContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Do not call this method directly from your code; use the &lt;xref:System.Windows.Media.DrawingContext.System%23IDisposable%23Dispose%2A&gt; method instead.</source>
+          <target state="translated">Roep deze methode niet rechtstreeks vanuit uw code; Gebruik de &lt;xref:System.Windows.Media.DrawingContext.System%23IDisposable%23Dispose%2A&gt;methode in plaats daarvan.&lt;/xref:System.Windows.Media.DrawingContext.System%23IDisposable%23Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The object has already been closed or disposed.</source>
+          <target state="translated">Het object is al gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Draws the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Drawing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">De opgegeven tekent <bpt id="p1">&lt;xref href="System.Windows.Media.Drawing"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> object.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The drawing to append.</source>
+          <target state="translated">De tekening toe te voegen.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Draws an ellipse with the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een ovaal tekenen met de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The brush and the pen can both be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De kwast en de pen kunnen beide worden <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the brush is <ph id="ph1">`null`</ph>, then no fill is performed.</source>
+          <target state="translated">Als de kwast is <ph id="ph1">`null`</ph>, en vervolgens geen opvulling wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pen is <ph id="ph1">`null`</ph>, then no stoke is performed.</source>
+          <target state="translated">Als de pen <ph id="ph1">`null`</ph>, en vervolgens geen lijn toe wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If both the pen and the brush are <ph id="ph1">`null`</ph>, then the drawing is not visible.</source>
+          <target state="translated">Als de pen en de kwast <ph id="ph1">`null`</ph>, en vervolgens de tekening niet zichtbaar is.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The brush with which to fill the ellipse.</source>
+          <target state="translated">De kwast waarmee de knop met weglatingstekens vullen.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>This is optional, and can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit is optioneel en kan <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If the brush is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, no fill is drawn.</source>
+          <target state="translated">Als de kwast is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, geen opvulling wordt getekend.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The pen with which to stroke the ellipse.</source>
+          <target state="translated">De pen waarmee de knop met weglatingstekens lijn.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This is optional, and can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit is optioneel en kan <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>If the pen is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, no stroke is drawn.</source>
+          <target state="translated">Als de pen <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, zonder streek wordt getekend.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The location of the center of the ellipse.</source>
+          <target state="translated">De locatie van het middelpunt van de knop met weglatingstekens.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The horizontal radius of the ellipse.</source>
+          <target state="translated">De horizontale radius van de knop met weglatingstekens.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The vertical radius of the ellipse.</source>
+          <target state="translated">De verticale radius van de knop met weglatingstekens.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Draws an ellipse with the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and applies the specified animation clocks.</source>
+          <target state="translated">Een ovaal tekenen met de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en past de klokken opgegeven animatie.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The brush and the pen can both be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De kwast en de pen kunnen beide worden <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the brush is <ph id="ph1">`null`</ph>, then no fill is performed.</source>
+          <target state="translated">Als de kwast is <ph id="ph1">`null`</ph>, en vervolgens geen opvulling wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pen is <ph id="ph1">`null`</ph>, then no stoke is performed.</source>
+          <target state="translated">Als de pen <ph id="ph1">`null`</ph>, en vervolgens geen lijn toe wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If both the pen and the brush are <ph id="ph1">`null`</ph>, then the drawing is not visible.</source>
+          <target state="translated">Als de pen en de kwast <ph id="ph1">`null`</ph>, en vervolgens de tekening niet zichtbaar is.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The brush with which to fill the ellipse.</source>
+          <target state="translated">De kwast waarmee de knop met weglatingstekens vullen.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This is optional, and can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit is optioneel en kan <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>If the brush is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, no fill is drawn.</source>
+          <target state="translated">Als de kwast is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, geen opvulling wordt getekend.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The pen with which to stroke the ellipse.</source>
+          <target state="translated">De pen waarmee de knop met weglatingstekens lijn.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>This is optional, and can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit is optioneel en kan <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If the pen is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, no stroke is drawn.</source>
+          <target state="translated">Als de pen <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, zonder streek wordt getekend.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The location of the center of the ellipse.</source>
+          <target state="translated">De locatie van het middelpunt van de knop met weglatingstekens.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the ellipse's center position, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee de ellips center positie, animeren of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The horizontal radius of the ellipse.</source>
+          <target state="translated">De horizontale radius van de knop met weglatingstekens.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the ellipse's x-radius, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee de ellips x-radius, animeren of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate &lt;xref:System.Double&gt; objects.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren &lt;xref:System.Double&gt;objecten.&lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The vertical radius of the ellipse.</source>
+          <target state="translated">De verticale radius van de knop met weglatingstekens.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the ellipse's y-radius, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee de ellips y-radius, animeren of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate &lt;xref:System.Double&gt; objects.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren &lt;xref:System.Double&gt;objecten.&lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Draws the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified <bpt id="p2">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and <bpt id="p3">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De opgegeven tekent <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> met behulp van de opgegeven <bpt id="p2">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en <bpt id="p3">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with which to fill the <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> waarmee vult de <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>This is optional, and can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit is optioneel en kan <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If the brush is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, no fill is drawn.</source>
+          <target state="translated">Als de kwast is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, geen opvulling wordt getekend.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with which to stroke the <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> lijn waarmee de <bpt id="p2">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>This is optional, and can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit is optioneel en kan <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If the pen is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, no stroke is drawn.</source>
+          <target state="translated">Als de pen <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, zonder streek wordt getekend.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to draw.</source>
+          <target state="translated">De <bpt id="p1">&lt;xref href="System.Windows.Media.Geometry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wordt getekend.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Draws the specified text.</source>
+          <target state="translated">De opgegeven tekst tekent.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The brush used to paint the text.</source>
+          <target state="translated">De kwast gebruikt voor het tekenen van de tekst.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The text to draw.</source>
+          <target state="translated">De tekst die moet worden getekend.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Draws an image into the region defined by the specified <bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een installatiekopie van een tekent in de regio die wordt gedefinieerd door de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The image to draw.</source>
+          <target state="translated">De afbeelding die moet worden getekend.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The region in which to draw <ph id="ph1">`bitmapSource`</ph>.</source>
+          <target state="translated">De regio waarin u wordt getekend <ph id="ph1">`bitmapSource`</ph>.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Draws an image into the region defined by the specified <bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and applies the specified animation clock.</source>
+          <target state="translated">Een installatiekopie van een tekent in de regio die wordt gedefinieerd door de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Rect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en past de klok opgegeven animatie.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The image to draw.</source>
+          <target state="translated">De afbeelding die moet worden getekend.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The region in which to draw <ph id="ph1">`bitmapSource`</ph>.</source>
+          <target state="translated">De regio waarin u wordt getekend <ph id="ph1">`bitmapSource`</ph>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the rectangle's size and dimensions, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee voor het animeren van de grootte en dimensies, de rechthoek of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate <bpt id="p2">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren <bpt id="p2">&lt;xref href="System.Windows.Rect"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Draws a line between the specified points using the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een lijn tussen de opgegeven punten met behulp van de opgegeven getekend <bpt id="p1">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The pen with which to stroke the line.</source>
+          <target state="translated">De pen waarmee lijn van de regel.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The start point of the line.</source>
+          <target state="translated">Het eindpunt van de regel.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The end point of the line.</source>
+          <target state="translated">Het eindpunt van de regel.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Draws a line between the specified points using the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and applies the specified animation clocks.</source>
+          <target state="translated">Een lijn tussen de opgegeven punten met behulp van de opgegeven getekend <bpt id="p1">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en past de klokken opgegeven animatie.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The pen to stroke the line.</source>
+          <target state="translated">De pen naar lijn van de regel.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The start point of the line.</source>
+          <target state="translated">Het eindpunt van de regel.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the start point of the line, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee voor het animeren van het eindpunt van de regel of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The end point of the line.</source>
+          <target state="translated">Het eindpunt van de regel.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the end point of the line, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee voor het animeren van het eindpunt van de regel of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren <bpt id="p2">&lt;xref href="System.Windows.Point"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Draws a rectangle with the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een rechthoek tekenen met de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The pen and the brush can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">De pen en de kwast kunnen worden <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The brush and the pen can both be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De kwast en de pen kunnen beide worden <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the brush is <ph id="ph1">`null`</ph>, then no fill is performed.</source>
+          <target state="translated">Als de kwast is <ph id="ph1">`null`</ph>, en vervolgens geen opvulling wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pen is <ph id="ph1">`null`</ph>, then no stoke is performed.</source>
+          <target state="translated">Als de pen <ph id="ph1">`null`</ph>, en vervolgens geen lijn toe wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If both the pen and the brush are <ph id="ph1">`null`</ph>, then the drawing is not visible.</source>
+          <target state="translated">Als de pen en de kwast <ph id="ph1">`null`</ph>, en vervolgens de tekening niet zichtbaar is.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The brush with which to fill the rectangle.</source>
+          <target state="translated">De kwast waarmee de rechthoek vullen.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>This is optional, and can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit is optioneel en kan <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>If the brush is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, no fill is drawn.</source>
+          <target state="translated">Als de kwast is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, geen opvulling wordt getekend.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The pen with which to stroke the rectangle.</source>
+          <target state="translated">De pen waarmee lijn van de rechthoek.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This is optional, and can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit is optioneel en kan <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>If the pen is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, no stroke is drawn.</source>
+          <target state="translated">Als de pen <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, zonder streek wordt getekend.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>The rectangle to draw.</source>
+          <target state="translated">De rechthoek te tekenen.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Draws a rectangle with the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and applies the specified animation clocks.</source>
+          <target state="translated">Een rechthoek tekenen met de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en past de klokken opgegeven animatie.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The brush and the pen can both be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De kwast en de pen kunnen beide worden <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the brush is <ph id="ph1">`null`</ph>, then no fill is performed.</source>
+          <target state="translated">Als de kwast is <ph id="ph1">`null`</ph>, en vervolgens geen opvulling wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pen is <ph id="ph1">`null`</ph>, then no stoke is performed.</source>
+          <target state="translated">Als de pen <ph id="ph1">`null`</ph>, en vervolgens geen lijn toe wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If both the pen and the brush are <ph id="ph1">`null`</ph>, then the drawing is not visible.</source>
+          <target state="translated">Als de pen en de kwast <ph id="ph1">`null`</ph>, en vervolgens de tekening niet zichtbaar is.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The brush with which to fill the rectangle.</source>
+          <target state="translated">De kwast waarmee de rechthoek vullen.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>This is optional, and can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit is optioneel en kan <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>If the brush is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, no fill is drawn.</source>
+          <target state="translated">Als de kwast is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, geen opvulling wordt getekend.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The pen with which to stroke the rectangle.</source>
+          <target state="translated">De pen waarmee lijn van de rechthoek.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This is optional, and can be <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Dit is optioneel en kan <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>If the pen is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, no stroke is drawn.</source>
+          <target state="translated">Als de pen <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, zonder streek wordt getekend.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The rectangle to draw.</source>
+          <target state="translated">De rechthoek te tekenen.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the rectangle's size and dimensions, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee voor het animeren van de grootte en dimensies, de rechthoek of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate <bpt id="p2">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren <bpt id="p2">&lt;xref href="System.Windows.Rect"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Draws a rounded rectangle with the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Een afgeronde rechthoek tekenen met de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The brush and the pen can both be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De kwast en de pen kunnen beide worden <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the brush is <ph id="ph1">`null`</ph>, then no fill is performed.</source>
+          <target state="translated">Als de kwast is <ph id="ph1">`null`</ph>, en vervolgens geen opvulling wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pen is <ph id="ph1">`null`</ph>, then no stoke is performed.</source>
+          <target state="translated">Als de pen <ph id="ph1">`null`</ph>, en vervolgens geen lijn toe wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If both the pen and the brush are <ph id="ph1">`null`</ph>, then the drawing is not visible.</source>
+          <target state="translated">Als de pen en de kwast <ph id="ph1">`null`</ph>, en vervolgens de tekening niet zichtbaar is.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The brush used to fill the rectangle.</source>
+          <target state="translated">De kwast gebruikt voor het vervullen van de rechthoek.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The pen used to stroke the rectangle.</source>
+          <target state="translated">De pen gebruikt voor de lijn van de rechthoek.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The rectangle to draw.</source>
+          <target state="translated">De rechthoek te tekenen.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The radius in the X dimension of the rounded corners.</source>
+          <target state="translated">De straal in de dimensie X van de afgeronde hoeken.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>This value will be clamped to the range of 0 to &lt;xref:System.Windows.Rect.Width*&gt;/2.</source>
+          <target state="translated">Deze waarde zal worden vastgeklemd zit aan het bereik van 0 tot en met &lt;xref:System.Windows.Rect.Width*&gt;/2.&lt;/xref:System.Windows.Rect.Width*&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The radius in the Y dimension of the rounded corners.</source>
+          <target state="translated">De straal in de dimensie Y van de afgeronde hoeken.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>This value will be clamped to a value between 0 to &lt;xref:System.Windows.Rect.Height*&gt;/2.</source>
+          <target state="translated">Deze waarde zal worden vastgeklemd zit in een waarde tussen 0 en &lt;xref:System.Windows.Rect.Height*&gt;/2.&lt;/xref:System.Windows.Rect.Height*&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Draws a rounded rectangle with the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and applies the specified animation clocks.</source>
+          <target state="translated">Een afgeronde rechthoek tekenen met de opgegeven <bpt id="p1">&lt;xref href="System.Windows.Media.Brush"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en <bpt id="p2">&lt;xref href="System.Windows.Media.Pen"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> en past de klokken opgegeven animatie.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The brush and the pen can both be <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">De kwast en de pen kunnen beide worden <ph id="ph1">`null`</ph>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the brush is <ph id="ph1">`null`</ph>, then no fill is performed.</source>
+          <target state="translated">Als de kwast is <ph id="ph1">`null`</ph>, en vervolgens geen opvulling wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the pen is <ph id="ph1">`null`</ph>, then no stoke is performed.</source>
+          <target state="translated">Als de pen <ph id="ph1">`null`</ph>, en vervolgens geen lijn toe wordt uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If both the pen and the brush are <ph id="ph1">`null`</ph>, then the drawing is not visible.</source>
+          <target state="translated">Als de pen en de kwast <ph id="ph1">`null`</ph>, en vervolgens de tekening niet zichtbaar is.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The brush used to fill the rectangle, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no fill.</source>
+          <target state="translated">De kwast gebruikt voor het vervullen van de rechthoek of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen opvulling.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The pen used to stroke the rectangle, or <bpt id="p1">&lt;xref uid="langword_csharp_null " name="null " href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>for no stroke.</source>
+          <target state="translated">De pen gebruikt voor de lijn van de rechthoek of <bpt id="p1">&lt;xref uid="langword_csharp_null " name="null " href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>voor geen lijn.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The rectangle to draw.</source>
+          <target state="translated">De rechthoek te tekenen.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the rectangle's size and dimensions, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee voor het animeren van de grootte en dimensies, de rechthoek of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate <bpt id="p2">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren <bpt id="p2">&lt;xref href="System.Windows.Rect"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The radius in the X dimension of the rounded corners.</source>
+          <target state="translated">De straal in de dimensie X van de afgeronde hoeken.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>This value will be clamped to the range of 0 to &lt;xref:System.Windows.Rect.Width*&gt;/2</source>
+          <target state="translated">Deze waarde zal worden vastgeklemd zit aan het bereik van 0 &lt;xref:System.Windows.Rect.Width*&gt;tot/2&lt;/xref:System.Windows.Rect.Width*&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the rectangle's <ph id="ph1">`radiusX`</ph> value, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee voor het animeren van de rechthoek <ph id="ph1">`radiusX`</ph> waarde, of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren &lt;xref:System.Double&gt;waarden.&lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The radius in the Y dimension of the rounded corners.</source>
+          <target state="translated">De straal in de dimensie Y van de afgeronde hoeken.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>This value will be clamped to a value between 0 to &lt;xref:System.Windows.Rect.Height*&gt;/2.</source>
+          <target state="translated">Deze waarde zal worden vastgeklemd zit in een waarde tussen 0 en &lt;xref:System.Windows.Rect.Height*&gt;/2.&lt;/xref:System.Windows.Rect.Height*&gt;</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the rectangle's <ph id="ph1">`radiusY`</ph> value, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee voor het animeren van de rechthoek <ph id="ph1">`radiusY`</ph> waarde, of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren &lt;xref:System.Double&gt;waarden.&lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Draws formatted text at the specified location.</source>
+          <target state="translated">Hiermee tekent opgemaakte tekst op de opgegeven locatie.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The formatted text to be drawn.</source>
+          <target state="translated">Het opgemaakte tekst die moet worden getekend.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The location where the text is to be drawn.</source>
+          <target state="translated">De locatie waar de tekst die moet worden getekend.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>The object has already been closed or disposed.</source>
+          <target state="translated">Het object is al gesloten of verwijderd.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>Draws a video into the specified region.</source>
+          <target state="translated">Een video tekent in de opgegeven regio.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the media will be stretched to fit inside the area defined by the rectangle parameter.</source>
+          <target state="translated">Houd er rekening mee dat de media wordt aangepast om aan te passen binnen het gebied gedefinieerd door de parameter rechthoek.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If rectangle and media have different aspect ratios, distortion will occur.</source>
+          <target state="translated">Als de rechthoek en media hebt verschillende verhoudingen, vervormd uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more control over how media is used to fill an area, use the &lt;xref:System.Windows.Media.DrawingContext.DrawRectangle%2A&gt; command to draw a rectangle and fill it with a &lt;xref:System.Windows.Media.VisualBrush&gt; that contains media.</source>
+          <target state="translated">Voor meer controle over hoe media wordt gebruikt voor het vullen van een gebied, gebruikt u de &lt;xref:System.Windows.Media.DrawingContext.DrawRectangle%2A&gt;opdracht voor het tekenen van een rechthoek en vult u deze met een &lt;xref:System.Windows.Media.VisualBrush&gt;die media bevat.&lt;/xref:System.Windows.Media.VisualBrush&gt; &lt;/xref:System.Windows.Media.DrawingContext.DrawRectangle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The media to draw.</source>
+          <target state="translated">Het medium wordt getekend.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The region in which to draw <ph id="ph1">`player`</ph>.</source>
+          <target state="translated">De regio waarin u wordt getekend <ph id="ph1">`player`</ph>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Draws a video into the specified region and applies the specified animation clock.</source>
+          <target state="translated">Een video tekent in de opgegeven regio en past de klok opgegeven animatie.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that the media will be stretched to fit inside the area defined by the rectangle parameter.</source>
+          <target state="translated">Houd er rekening mee dat de media wordt aangepast om aan te passen binnen het gebied gedefinieerd door de parameter rechthoek.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If rectangle and media have different aspect ratios, distortion will occur.</source>
+          <target state="translated">Als de rechthoek en media hebt verschillende verhoudingen, vervormd uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more control over how media is used to fill an area, use the &lt;xref:System.Windows.Media.DrawingContext.DrawRectangle%2A&gt; command to draw a rectangle and fill it with a &lt;xref:System.Windows.Media.VisualBrush&gt; that contains media.</source>
+          <target state="translated">Voor meer controle over hoe media wordt gebruikt voor het vullen van een gebied, gebruikt u de &lt;xref:System.Windows.Media.DrawingContext.DrawRectangle%2A&gt;opdracht voor het tekenen van een rechthoek en vult u deze met een &lt;xref:System.Windows.Media.VisualBrush&gt;die media bevat.&lt;/xref:System.Windows.Media.VisualBrush&gt; &lt;/xref:System.Windows.Media.DrawingContext.DrawRectangle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The media to draw.</source>
+          <target state="translated">Het medium wordt getekend.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The area in which to draw the media.</source>
+          <target state="translated">Het gebied waarin u de media wordt getekend.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the rectangle's size and dimensions, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee voor het animeren van de grootte en dimensies, de rechthoek of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate <bpt id="p2">&lt;xref href="System.Windows.Rect"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> objects.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren <bpt id="p2">&lt;xref href="System.Windows.Rect"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objecten.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>Pops the last opacity mask, opacity, clip, effect, or transform operation that was pushed onto the drawing context.</source>
+          <target state="translated">De laatste dekkingsmasker, dekking, clip, effect of transformatiebewerking die naar de tekening context is doorgeschoven verschijnt.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once an operation is popped, it is no longer applied to subsequent drawing commands.</source>
+          <target state="translated">Nadat een bewerking is verschijnt, is het niet meer op de daaropvolgende tekenen opdrachten toegepast.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Pushes the specified clip region onto the drawing context.</source>
+          <target state="translated">De opgegeven clip regio op de tekening context duwt.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The clip region applies to all subsequent drawing commands until it is removed by the &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt; command.</source>
+          <target state="translated">De regio clip is van toepassing op alle volgende tekenen opdrachten totdat deze is verwijderd door de &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt;opdracht.&lt;/xref:System.Windows.Media.DrawingContext.Pop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The clip region to apply to subsequent drawing commands.</source>
+          <target state="translated">De regio clip toepassen op de volgende opdrachten voor tekenen.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Pushes the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> onto the drawing context.</source>
+          <target state="translated">De opgegeven pushes <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.BitmapEffect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> naar de tekening context.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The effect is applied to all subsequent drawing operations until it is removed by the &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt; command.</source>
+          <target state="translated">Het effect is toegepast op alle volgende tekenen bewerkingen totdat deze is verwijderd door de &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt;opdracht.&lt;/xref:System.Windows.Media.DrawingContext.Pop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>The effect to apply to subsequent drawings.</source>
+          <target state="translated">Het effect dat van toepassing op toekomstige tekeningen.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The area to which the effect is applied, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the effect is to be applied to the entire area of subsequent drawings.</source>
+          <target state="translated">Het gebied waarop het effect is toegepast, of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als het effect is op het hele gedeelte van de volgende tekeningen moet worden toegepast.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Pushes the specified <bpt id="p1">&lt;xref href="System.Windows.Media.GuidelineSet"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> onto the drawing context.</source>
+          <target state="translated">De opgegeven pushes <bpt id="p1">&lt;xref href="System.Windows.Media.GuidelineSet"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> naar de tekening context.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The guideline set applies to all subsequent drawing commands until it is removed by the &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt; operation.</source>
+          <target state="translated">De set richtlijn geldt voor alle volgende tekenen opdrachten totdat deze is verwijderd door de &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt;bewerking.&lt;/xref:System.Windows.Media.DrawingContext.Pop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The guideline set to apply to subsequent drawing commands.</source>
+          <target state="translated">De richtlijn is ingesteld op de van toepassing op de volgende opdrachten voor tekenen.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Pushes the specified opacity setting onto the drawing context.</source>
+          <target state="translated">De opgegeven dekkingsinstelling op de tekening context duwt.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The opacity is blended into all subsequent drawing commands until it is removed by the &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt; command.</source>
+          <target state="translated">Ondoorzichtigheid is in alle daaropvolgende tekenen opdrachten gemengd totdat deze is verwijderd door de &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt;opdracht.&lt;/xref:System.Windows.Media.DrawingContext.Pop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The opacity factor to apply to subsequent drawing commands.</source>
+          <target state="translated">De factor dekking toepassen op de volgende opdrachten voor tekenen.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>This factor is cumulative with previous PushOpacity operations.</source>
+          <target state="translated">Deze factor is cumulatieve met vorige PushOpacity bewerkingen.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Pushes the specified opacity setting onto the drawing context and applies the specified animation clock.</source>
+          <target state="translated">De opgegeven dekkingsinstelling op de tekening context pushes en past de klok opgegeven animatie.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The opacity is blended into all subsequent drawing commands until it is removed by the &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt; command.</source>
+          <target state="translated">Ondoorzichtigheid is in alle daaropvolgende tekenen opdrachten gemengd totdat deze is verwijderd door de &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt;opdracht.&lt;/xref:System.Windows.Media.DrawingContext.Pop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The opacity factor to apply to subsequent drawing commands.</source>
+          <target state="translated">De factor dekking toepassen op de volgende opdrachten voor tekenen.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>This factor is cumulative with previous &lt;xref:System.Windows.Media.DrawingContext.PushOpacity*&gt; operations.</source>
+          <target state="translated">Deze factor is cumulatieve met vorige &lt;xref:System.Windows.Media.DrawingContext.PushOpacity*&gt;operations.&lt;/xref:System.Windows.Media.DrawingContext.PushOpacity*&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The clock with which to animate the opacity value, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for no animation.</source>
+          <target state="translated">De klok waarmee de waarde voor de watermerktransparantie animeren of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor geen animatie.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>This clock must be created from an <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can animate &lt;xref:System.Double&gt; values.</source>
+          <target state="translated">Deze clock moet worden gemaakt op basis van een <bpt id="p1">&lt;xref href="System.Windows.Media.Animation.AnimationTimeline"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> die kunt animeren &lt;xref:System.Double&gt;waarden.&lt;/xref:System.Double&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>Pushes the specified opacity mask onto the drawing context.</source>
+          <target state="translated">Het dekkingsmasker opgegeven naar de tekening context duwt.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The mask is applied to all subsequent drawing commands until it is removed by the &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt; operation.</source>
+          <target state="translated">Het masker is toegepast op alle volgende tekenen opdrachten totdat deze is verwijderd door de &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt;bewerking.&lt;/xref:System.Windows.Media.DrawingContext.Pop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about creating opacity masks, see <bpt id="p1">[</bpt>Opacity Masks Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Zie voor meer informatie over het maken van de dekkingsmaskers <bpt id="p1">[</bpt>dekking maskers overzicht<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The opacity mask to apply to subsequent drawings.</source>
+          <target state="translated">Het dekkingsmasker toe te passen aan toekomstige tekeningen.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>The alpha values of this brush determine the opacity of the drawing to which it is applied.</source>
+          <target state="translated">De alfanumerieke waarden van deze kwast bepalen de dekking van de tekening waarop deze wordt toegepast.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Pushes the specified <bpt id="p1">&lt;xref href="System.Windows.Media.Transform"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> onto the drawing context.</source>
+          <target state="translated">De opgegeven pushes <bpt id="p1">&lt;xref href="System.Windows.Media.Transform"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> naar de tekening context.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The transform applies to all subsequent drawing commands until it is removed by the &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt; command.</source>
+          <target state="translated">De transformatie is van toepassing op alle volgende tekenen opdrachten totdat deze is verwijderd door de &lt;xref:System.Windows.Media.DrawingContext.Pop%2A&gt;opdracht.&lt;/xref:System.Windows.Media.DrawingContext.Pop%2A&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The transform to apply to subsequent drawing commands.</source>
+          <target state="translated">De transformatie toepassen op de volgende opdrachten voor tekenen.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>This member supports the <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">Dit lid ondersteunt de <ph id="ph1">[!INCLUDE[TLA#tla_winclient](~/add/includes/ajax-current-ext-md.md)]</ph> infrastructuur en is niet bedoeld voor rechtstreeks gebruik vanuit uw code.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>This member supports the <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> infrastructure and is not intended to be used directly from your code.</source>
+          <target state="translated">Dit lid ondersteunt de <ph id="ph1">[!INCLUDE[TLA2#tla_winclient](~/add/includes/tla2sharptla-winclient-md.md)]</ph> infrastructuur en is niet bedoeld voor rechtstreeks gebruik vanuit uw code.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

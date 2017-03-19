@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">371cb8a83467140ed6a2b741b3a3a0a9e0fdd9ea</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OleDb.OleDbConnection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d78223092dcc8ca6829cb4e6d4b4f3d75043fb4b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">601b91497f62c9d193a8c3b8a36efb9ed063ccc6</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents an open connection to a data source.</source>
+          <target state="translated">Adatforrás-kapcsolat jelöli.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An OleDbConnection object represents a unique connection to a data source.</source>
+          <target state="translated">OleDbConnection objektum adatforráshoz egyedi kapcsolatot jelöl.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With a client/server database system, it is equivalent to a network connection to the server.</source>
+          <target state="translated">Egy ügyfél-kiszolgáló adatbázis rendszerrel megegyezik a hálózati kapcsolat a kiszolgálóval.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Depending on the functionality supported by the native OLE DB provider, some methods or properties of an OleDbConnection object may not be available.</source>
+          <target state="translated">Attól függően, hogy a funkció a natív OLE DB-szolgáltató támogatja néhány módszerek vagy egy OleDbConnection objektum tulajdonságai nem érhetők el.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you create an instance of OleDbConnection, all properties are set to their initial values.</source>
+          <target state="translated">OleDbConnection példányának létrehozásakor összes tulajdonsága az eredeti értékekre.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For a list of these values, see the OleDbConnection constructor.</source>
+          <target state="translated">Ezek az értékek listája tekintse meg a OleDbConnection konstruktor.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can open more than one DataReader on a single OleDbConnection.</source>
+          <target state="translated">Az egyetlen OleDbConnection egynél több DataReader nyithatja meg.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the OLE DB provider you use does not support more than one DataReader on a single connection, the provider implicitly opens an additional connection for each.</source>
+          <target state="translated">Ha használ OLE DB-szolgáltatója nem támogatja egynél több DataReader egyetlen kapcsolat, a szolgáltató implicit módon megnyílik egy további kapcsolatot az egyes.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the OleDbConnection goes out of scope, it is not closed.</source>
+          <target state="translated">Ha a OleDbConnection kerül a hatókörén kívül, akkor nincs lezárva.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must explicitly close the connection by calling &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, or by using the OleDbConnection object within a <ph id="ph1">`Using`</ph> statement.</source>
+          <target state="translated">Ezért kifejezetten zárja be a kapcsolat meghívásával &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;vagy <bpt id="p1">**</bpt>eldobásakor<ept id="p1">**</ept>, vagy a OleDbConnection objektummal belül egy <ph id="ph1">`Using`</ph> utasítást.&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  To deploy high-performance applications, you must use connection pooling.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Nagy teljesítményű alkalmazások központi telepítése érdekében használjon kapcsolatkészletezést.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you use the .NET Framework Data Provider for OLE DB, you do not have to enable connection pooling because the provider manages this automatically.</source>
+          <target state="translated">Ha a .NET Framework Data Provider OLE DB használja, nem kell engedélyezni a kapcsolatkészletezést, mert a szolgáltató automatikusan kezeli ezt.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about how to use connection pooling with the .NET Framework Data Provider for OLE DB, see <bpt id="p1">[</bpt>OLE DB, ODBC, and Oracle Connection Pooling<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Kapcsolat használatával kapcsolatos további információk az OLE DB rendszerhez, a .NET-keretrendszer adatszolgáltatója a készletezési: <bpt id="p1">[</bpt>OLE DB ODBC és Oracle kapcsolatkészletezést<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a fatal &lt;xref:System.Data.OleDb.OleDbException&gt; (for example, a SQL Server severity level of 20 or greater) is generated by the method executing an &lt;xref:System.Data.OleDb.OleDbCommand&gt;, the OleDbConnection might be closed.</source>
+          <target state="translated">Ha egy végzetes &lt;xref:System.Data.OleDb.OleDbException&gt;(például egy SQL Server súlyossági szint 20 vagy nagyobb) állítja elő a metódus végrehajtása egy &lt;xref:System.Data.OleDb.OleDbCommand&gt;, a OleDbConnection esetleg be van zárva.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.OleDb.OleDbException&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the user can reopen the connection and continue.</source>
+          <target state="translated">Azonban a felhasználó újra megnyitni és folytatható.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application that creates an instance of the OleDbConnection object can require all direct and indirect callers to have sufficient permission to the code by setting declarative or imperative security demands.</source>
+          <target state="translated">Egy alkalmazás által létrehozott a OleDbConnection objektum egy példányát megkövetelheti az összes közvetlen és közvetett hívó számára rendelkezik megfelelő engedéllyel a kód által beállítás deklaratív vagy imperatív biztonsági követelményeinek.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>OleDbConnection makes security demands using the &lt;xref:System.Data.OleDb.OleDbPermission&gt; object.</source>
+          <target state="translated">OleDbConnection biztonsági iránti igények kielégítése érdekében használata lehetővé teszi a &lt;xref:System.Data.OleDb.OleDbPermission&gt;objektum.&lt;/xref:System.Data.OleDb.OleDbPermission&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users can verify that their code has sufficient permissions by using the &lt;xref:System.Data.OleDb.OleDbPermissionAttribute&gt; object.</source>
+          <target state="translated">Felhasználók ellenőrizheti, hogy a kód a megfelelő engedélyekkel rendelkezik a &lt;xref:System.Data.OleDb.OleDbPermissionAttribute&gt;objektum.&lt;/xref:System.Data.OleDb.OleDbPermissionAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Users and administrators can also use the <bpt id="p1">[</bpt>Caspol.exe (Code Access Security Policy Tool)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> to modify security policy at the computer, user, and enterprise levels.</source>
+          <target state="translated">Felhasználók és rendszergazdák is használhatják a <bpt id="p1">[</bpt>Caspol.exe (Code Access biztonsági házirend eszközzel)<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> a számítógép, a felhasználó- és a vállalati szintű biztonsági házirend módosítására.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Code Access Security and ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>kódelérés-biztonsági és ADO.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling warning and informational messages from the data server, see <bpt id="p1">[</bpt>Connection Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Az kiszolgáló figyelmeztetés és információs üzenetek kezelésére vonatkozó további információkért lásd: <bpt id="p1">[</bpt>Kapcsolateseményei<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The OleDbConnection object does not support setting or retrieving dynamic properties specific to an OLE DB provider.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A OleDbConnection objektum nem támogatja a dinamikus jellemző OLE DB-szolgáltató tulajdonságainak beállítása vagy beolvasása.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only properties that can be passed in the connection string for the OLE DB provider are supported.</source>
+          <target state="translated">Csak az OLE DB-szolgáltatója a kapcsolódási karakterláncban átadhatók tulajdonságok támogatottak.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a new instance of &lt;xref:System.Data.OleDb.OleDbConnection&gt; is created, the read/write properties are set to the following initial values unless they are specifically set using their associated keywords in the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">Ha egy új példányát &lt;xref:System.Data.OleDb.OleDbConnection&gt;jön létre, az olvasási/írási tulajdonságok beállítása a következő kezdeti értékekre, kivéve, ha kifejezetten megfelelőek-e a kapcsolódó kulcsszavak használatával a &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;tulajdonság.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;|empty string ("")|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|15|   |&lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;|empty string ("")|   |&lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;|empty string ("")|       You can change the value for these properties only by using the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">| Tulajdonságok |} A kezdeti érték |}   |----------------|-------------------|   | &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;|} üres karakterlánc ("") |}   | &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|}&amp;15; |}   | &lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;|} üres karakterlánc ("") |}   | &lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;|} üres karakterlánc ("") |}       Ezek a tulajdonságok értékét csak használatával módosíthatja a &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;tulajdonság.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.Database%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified connection string.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály a megadott kapcsolati karakterlánccal.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a new instance of &lt;xref:System.Data.OleDb.OleDbConnection&gt; is created, the read/write properties are set to the following initial values unless they are specifically set using their associated keywords in the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">Ha egy új példányát &lt;xref:System.Data.OleDb.OleDbConnection&gt;jön létre, az olvasási/írási tulajdonságok beállítása a következő kezdeti értékekre, kivéve, ha kifejezetten megfelelőek-e a kapcsolódó kulcsszavak használatával a &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;tulajdonság.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Properties|Initial value|   |----------------|-------------------|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;|<ph id="ph1">`connectionString`</ph>|   |&lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|15|   |&lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;|empty string ("")|   |&lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;|empty string ("")|       You can change the value for these properties only by using the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; property.</source>
+          <target state="translated">| Tulajdonságok |} A kezdeti érték |}   |----------------|-------------------|   | &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;| <ph id="ph1">`connectionString`</ph>|   | &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt;|}&amp;15; |}   | &lt;xref:System.Data.OleDb.OleDbConnection.Database%2A&gt;|} üres karakterlánc ("") |}   | &lt;xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt;|} üres karakterlánc ("") |}       Ezek a tulajdonságok értékét csak használatával módosíthatja a &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;tulajdonság.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.DataSource%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.Database%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionTimeout%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The connection used to open the database.</source>
+          <target state="translated">Az adatbázis megnyitásához használt kapcsolat.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Starts a database transaction with the current <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> value.</source>
+          <target state="translated">Adatbázis-tranzakció kezdődik-e az aktuális <bpt id="p1">&lt;xref href="System.Data.IsolationLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly commit or roll back the transaction using the &lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt; or &lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt; method.</source>
+          <target state="translated">Explicit módon kell véglegesítése, vagy állítsa vissza a tranzakciót használja a &lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;vagy &lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt;metódus.&lt;/xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt; &lt;/xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make sure that the .NET Framework Data Provider for OLE DB transaction management model performs correctly, avoid using other transaction management models, such as those provided by the data source.</source>
+          <target state="translated">Győződjön meg arról, hogy a .NET Framework Data Provider OLE DB tranzakció felügyeleti modell megfelelően végez-e, hogy kerülje a más tranzakció felügyeleti modellek, például az adatforrás által kínáltak mellett.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">Az új tranzakció képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">A párhuzamos tranzakciók nem támogatottak.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Starts a database transaction with the specified isolation level.</source>
+          <target state="translated">Adatbázis-tranzakció kezdődik-e a megadott elkülönítési szint.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly commit or roll back the transaction using the &lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt; or &lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt; method.</source>
+          <target state="translated">Explicit módon kell véglegesítése, vagy állítsa vissza a tranzakciót használja a &lt;xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;vagy &lt;xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt;metódus.&lt;/xref:System.Data.OleDb.OleDbTransaction.Rollback%2A&gt; &lt;/xref:System.Data.OleDb.OleDbTransaction.Commit%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To make sure that the .NET Framework Data Provider for OLE DB transaction management model performs correctly, avoid using other transaction management models, such as those provided by the data source.</source>
+          <target state="translated">Győződjön meg arról, hogy a .NET Framework Data Provider OLE DB tranzakció felügyeleti modell megfelelően végez-e, hogy kerülje a más tranzakció felügyeleti modellek, például az adatforrás által kínáltak mellett.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If you do not specify an isolation level, the default isolation level for the underlying provider is used.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Nem ad meg egy elkülönítési szintet, ha az alapul szolgáló szolgáltató az alapértelmezett elkülönítési szintet használja.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify an isolation level with the BeginTransaction method, use the overload that takes the <ph id="ph1">`isolationLevel`</ph> parameter.</source>
+          <target state="translated">Adja meg egy elkülönítési szintet a BeginTransaction metódus, használja a rendelkező túlterhelést a <ph id="ph1">`isolationLevel`</ph> paraméter.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The isolation level under which the transaction should run.</source>
+          <target state="translated">Az elkülönítési szintet, amely alatt a tranzakció futni.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>An object representing the new transaction.</source>
+          <target state="translated">Az új tranzakció képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Parallel transactions are not supported.</source>
+          <target state="translated">A párhuzamos tranzakciók nem támogatottak.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Changes the current database for an open <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Módosítja az aktuális adatbázisban egy nyílt <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value supplied in the <ph id="ph1">`database`</ph> parameter must be a valid database name.</source>
+          <target state="translated">A megadott érték a <ph id="ph1">`database`</ph> paraméternek kell lennie egy érvényes adatbázisnevet.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`database`</ph> parameter cannot contain a null value, an empty string, or a string with only blank characters.</source>
+          <target state="translated">A <ph id="ph1">`database`</ph> paraméter nem tartalmazhat null értékű, üres vagy csak üres karaktereket tartalmazó karakterláncnak.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The database name.</source>
+          <target state="translated">AZ adatbázis neve.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The database name is not valid.</source>
+          <target state="translated">Az adatbázisnév érvénytelen.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The connection is not open.</source>
+          <target state="translated">A kapcsolat nincs megnyitva.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Cannot change the database.</source>
+          <target state="translated">Az adatbázis nem módosítható.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Closes the connection to the data source.</source>
+          <target state="translated">Megszünteti a kapcsolatot az adatforráshoz.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Close method rolls back any pending transactions.</source>
+          <target state="translated">A Close metódus visszaállítja a folyamatban lévő tranzakciók.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It then releases the connection to the connection pool, or closes the connection if connection pooling is disabled.</source>
+          <target state="translated">Majd kiadja a kapcsolatkészletbe csatlakozni, vagy bezárja a kapcsolatot, ha kapcsolatkészletezést le van tiltva.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Close is called while handling a &lt;xref:System.Data.Common.DbConnection.StateChange&gt; event, no additional &lt;xref:System.Data.Common.DbConnection.StateChange&gt; events are fired.</source>
+          <target state="translated">Zárja be a kezelési közben hívása esetén egy &lt;xref:System.Data.Common.DbConnection.StateChange&gt;esemény, nem további &lt;xref:System.Data.Common.DbConnection.StateChange&gt;eseményeket.&lt;/xref:System.Data.Common.DbConnection.StateChange&gt; &lt;/xref:System.Data.Common.DbConnection.StateChange&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An application can call Close more than one time.</source>
+          <target state="translated">Egy alkalmazás egyszer lehet meghívni a Close eljárást.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No exception is generated.</source>
+          <target state="translated">Nincs kivétel jön létre.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Do not call Close or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> on an &lt;xref:System.Data.OleDb.OleDbConnection&gt;, an &lt;xref:System.Data.OleDb.OleDbDataReader&gt;, or any other managed object in the <ph id="ph2">`Finalize`</ph> method of your class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Nem meghívni a Close eljárást vagy <bpt id="p1">**</bpt>eldobásakor<ept id="p1">**</ept> a egy &lt;xref:System.Data.OleDb.OleDbConnection&gt;, egy &lt;xref:System.Data.OleDb.OleDbDataReader&gt;, vagy bármely más felügyelt objektumot a <ph id="ph2">`Finalize`</ph> módszer a osztályból&lt;/xref:System.Data.OleDb.OleDbDataReader&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a finalizer, you should only release unmanaged resources that your class owns directly.</source>
+          <target state="translated">A véglegesítőt, a kiadás csak nem felügyelt erőforrást, amely a osztály birtokolja közvetlenül.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your class does not own any unmanaged resources, do not include a <ph id="ph1">`Finalize`</ph> method in your class definition.</source>
+          <target state="translated">Ha az osztály nem rendelkezik a nem felügyelt erőforrás nem tartalmaznak egy <ph id="ph1">`Finalize`</ph> az osztálydefiníció metódust.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Garbage Collection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>szemétgyűjtés<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets the string used to open a database.</source>
+          <target state="translated">Lekérdezi vagy beállítja a karakterlánc, amely egy adatbázis megnyitása.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The OLE DB provider connection string that includes the data source name, and other parameters needed to establish the initial connection.</source>
+          <target state="translated">Az OLE DB provider kapcsolati karakterlánc, amely tartalmazza az adatforrás nevét, és más paramétereket, a kezdeti kapcsolat létrehozásához szükséges.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">Az alapértelmezett érték: üres karakterlánc.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An invalid connection string argument has been supplied or a required connection string argument has not been supplied.</source>
+          <target state="translated">Az érvénytelen kapcsolati karakterlánc-argumentummal adta meg, vagy nem lett megadva egy szükséges kapcsolati karakterlánc-argumentum.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Gets the time to wait while trying to establish a connection before terminating the attempt and generating an error.</source>
+          <target state="translated">Lekérdezi a kapcsolat létrehozása előtt megszakítja a kísérletet és hibát generál közben várakozási időt.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A value of 0 indicates no limit, and should be avoided in a &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt; because an attempt to connect will wait indefinitely.</source>
+          <target state="translated">A 0 érték azt jelzi nincs korlátozva, és el kell kerülni a egy &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;, mert a csatlakozásra tett kísérlet határozatlan ideig vár.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The time in seconds to wait for a connection to open.</source>
+          <target state="translated">Az az idő, várjon egy kapcsolat megnyitásához.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default value is 15 seconds.</source>
+          <target state="translated">Az alapértelmezett érték 15 másodpercre.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The value set is less than 0.</source>
+          <target state="translated">A beállított érték a 0-nál kisebb.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Creates and returns an <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object associated with the <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hoz létre, és adja vissza egy <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> rendelt objektumot a <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbCommand"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets the name of the current database or the database to be used after a connection is opened.</source>
+          <target state="translated">Lekérdezi az aktuális adatbázisban vagy használható egy kapcsolat megnyitása után az adatbázis nevét.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Database property updates dynamically.</source>
+          <target state="translated">Az adatbázis tulajdonság dinamikusan frissíti.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you change the current database using a SQL statement or the &lt;xref:System.Data.OleDb.OleDbConnection.ChangeDatabase%2A&gt; method, an informational message is sent and the property is updated automatically.</source>
+          <target state="translated">Ha módosítja az aktuális adatbázis SQL-utasítás használatával, vagy a &lt;xref:System.Data.OleDb.OleDbConnection.ChangeDatabase%2A&gt;módszer, egy információs üzenetet kap, és a tulajdonság automatikusan frissül.&lt;/xref:System.Data.OleDb.OleDbConnection.ChangeDatabase%2A&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The name of the current database or the name of the database to be used after a connection is opened.</source>
+          <target state="translated">Az aktuális adatbázisban vagy használható egy kapcsolat megnyitása után az adatbázis nevét a neve.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">Az alapértelmezett érték: üres karakterlánc.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets the server name or file name of the data source.</source>
+          <target state="translated">Lekérdezi a kiszolgáló neve vagy az adatforrás nevét.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the connection to the database is closed, the <ph id="ph1">`DataSource`</ph> property returns whatever is contained in <ph id="ph2">`ConnectionString`</ph> for the data source keyword.</source>
+          <target state="translated">Ha a kapcsolat az adatbázissal le van zárva, a <ph id="ph1">`DataSource`</ph> tulajdonság adja vissza, függetlenül az szerepel <ph id="ph2">`ConnectionString`</ph> adatok forrás kulcsszóra.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the connection is open and the <ph id="ph1">`ConnectionString`</ph> data source keyword's value starts with "&amp;#124;datadirectory&amp;#124;", the property returns whatever is contained in <ph id="ph2">`ConnectionString`</ph> for the data source keyword only.</source>
+          <target state="translated">Ha a kapcsolat meg nyitva, és a <ph id="ph1">`ConnectionString`</ph> adatok forrás kulcsszó érték kezdődik "|} datadirectory |}", a tulajdonság adja vissza, függetlenül az szerepel <ph id="ph2">`ConnectionString`</ph> a data source kulcsszó csak.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the connection to the database is open, the property returns what the native provider returns for the <ph id="ph1">`DBPROP_INIT_DATASOURCE,`</ph> and if that is empty, the native provider’s <ph id="ph2">`DBPROP_DATASOURCENAME`</ph> is returned.</source>
+          <target state="translated">A kapcsolat az adatbázissal meg nyitva, ha a tulajdonság adja vissza, mi a natív szolgáltató adja vissza a <ph id="ph1">`DBPROP_INIT_DATASOURCE,`</ph> , és ha üres, ez a natív szolgáltató <ph id="ph2">`DBPROP_DATASOURCENAME`</ph> adja vissza.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The server name or file name of the data source.</source>
+          <target state="translated">A kiszolgáló neve vagy az adatforrás nevét.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">Az alapértelmezett érték: üres karakterlánc.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Enlists in the specified transaction as a distributed transaction.</source>
+          <target state="translated">Felveszi a megadott tranzakció elosztott tranzakcióként.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>New in ADO.NET 2.0 is support for using the &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt; method to enlist in a distributed transaction.</source>
+          <target state="translated">Új ADO.NET 2.0 van támogatási használatához a &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;metódus az elosztott tranzakciókba való.&lt;/xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because it enlists a connection in a &lt;xref:System.Transactions.Transaction&gt; instance, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> takes advantage of functionality available in the &lt;xref:System.Transactions&gt; namespace for managing distributed transactions, making it preferable to <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept> for this purpose.</source>
+          <target state="translated">Mivel azt felveszi a kapcsolatot a &lt;xref:System.Transactions.Transaction&gt;példány, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> funkcionalitást kihasználja a &lt;xref:System.Transactions&gt;névtér kezelésére szolgáló elosztott tranzakciók, így azt előnyösebb <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept> erre a célra.&lt;/xref:System.Transactions&gt; &lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>elosztott tranzakciók<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can continue to enlist in an existing distributed transaction using the EnlistDistributedTransaction method if auto-enlistment is disabled.</source>
+          <target state="translated">Továbbra is egy meglévő elosztott tranzakció a EnlistDistributedTransaction metódussal, ha automatikus-általi bejegyzés le van tiltva a besorolásra.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Enlisting in an existing distributed transaction makes sure that, if the transaction is committed or rolled back, modifications made by the code at the data source are also committed or rolled back.</source>
+          <target state="translated">Meglévő elosztott tranzakcióban történő besorolásakor biztosítja, hogy ha a tranzakció van véglegesítés vagy visszaállítás, a kódot az adatforrásban által végrehajtott módosítások vannak is véglegesítés vagy visszaállítás.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about distributed transactions, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](../Topic/Distributed%20Transactions.md)</ept>.</source>
+          <target state="translated">Az elosztott tranzakciók kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>elosztott tranzakciók<ept id="p1">](../Topic/Distributed%20Transactions.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>EnlistDistributedTransaction returns an exception if the &lt;xref:System.Data.OleDb.OleDbConnection&gt; has already started a transaction using &lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">EnlistDistributedTransaction kivételt adja vissza, ha &lt;xref:System.Data.OleDb.OleDbConnection&gt;már elindította a tranzakció &lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt; használatával&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, if the transaction is a local transaction started at the data source (for example, by explicitly executing the BEGIN TRANSACTION statement using an &lt;xref:System.Data.OleDbClient.OleDbCommand&gt; object), EnlistDistributedTransaction rolls back the local transaction and enlists in the existing distributed transaction as requested.</source>
+          <target state="translated">Azonban ha a tranzakció nem egy helyi tranzakció elindult az adatforrásban (például végrehajtásával explicit módon a BEGIN TRANSACTION utasítás használatával egy &lt;xref:System.Data.OleDbClient.OleDbCommand&gt;objektum), EnlistDistributedTransaction visszaállítja a helyi tranzakció, és felveszi a meglévő elosztott tranzakció a kérelemnek megfelelően.&lt;/xref:System.Data.OleDbClient.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You will not receive notice that the local transaction was rolled back, and are responsible for managing any local transactions not started using&lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.</source>
+          <target state="translated">Ön nem kap értesítést, hogy a helyi tranzakció vissza lett állítva, és a helyi tranzakciók nem kezeléséért indított&lt;xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection.BeginTransaction%2A&gt; használatával</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A reference to an existing <bpt id="p1">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which to enlist.</source>
+          <target state="translated">Egy meglévő hivatkozás <bpt id="p1">&lt;xref href="System.EnterpriseServices.ITransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyben a besorolásra.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Enlists in the specified transaction as a distributed transaction.</source>
+          <target state="translated">Felveszi a megadott tranzakció elosztott tranzakcióként.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>New in ADO.NET 2.0 is support for using the &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt; method to enlist in a distributed transaction.</source>
+          <target state="translated">Új ADO.NET 2.0 van támogatási használatához a &lt;xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;metódus az elosztott tranzakciókba való.&lt;/xref:System.Data.Common.DbConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because it enlists a connection in a &lt;xref:System.Transactions.Transaction&gt; instance, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> takes advantage of functionality available in the &lt;xref:System.Transactions&gt; namespace for managing distributed transactions, making it preferable to <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept>, which uses a &lt;xref:System.EnterpriseServices.ITransaction&gt; object.</source>
+          <target state="translated">Mivel azt felveszi a kapcsolatot a &lt;xref:System.Transactions.Transaction&gt;példány, <bpt id="p1">**</bpt>EnlistTransaction<ept id="p1">**</ept> funkcionalitást kihasználja a &lt;xref:System.Transactions&gt;névtér kezelésére szolgáló elosztott tranzakciók, így azt előnyösebb <bpt id="p2">**</bpt>EnlistDistributedTransaction<ept id="p2">**</ept>, használó egy &lt;xref:System.EnterpriseServices.ITransaction&gt;objektum.&lt;/xref:System.EnterpriseServices.ITransaction&gt; &lt;/xref:System.Transactions&gt; &lt;/xref:System.Transactions.Transaction&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It also has slightly different semantics: once a connection is explicitly enlisted on a transaction, it cannot be unenlisted or enlisted in another transaction until the first transaction finishes.</source>
+          <target state="translated">Azt is némileg eltérő szemantikájának módosítása: Miután kapcsolat explicit módon feliratkozott a tranzakcióra, nem lehet unenlisted és egy másik tranzakció bejelentkezve, amíg befejeződik az első tranzakció.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about distributed transactions, see <bpt id="p1">[</bpt>Distributed Transactions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Az elosztott tranzakciók kapcsolatos további információkért lásd: <bpt id="p1">[</bpt>elosztott tranzakciók<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A reference to an existing <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in which to enlist.</source>
+          <target state="translated">Egy meglévő hivatkozás <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyben a besorolásra.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Returns schema information from a data source as indicated by a GUID, and after it applies the specified restrictions.</source>
+          <target state="translated">Adja vissza a sémaadatok adatforrásból származó GUID jelöli, majd alkalmazza a megadott korlátozások.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The schema table is returned as a &lt;xref:System.Data.DataTable&gt; that has the same format as the OLE DB schema rowset specified by the <ph id="ph1">`schema`</ph> parameter.</source>
+          <target state="translated">A sématábla adja vissza a rendszer egy &lt;xref:System.Data.DataTable&gt;, amely rendelkezik, mint a megadott OLE DB-séma sorkészlete ugyanazt a formátumot a <ph id="ph1">`schema`</ph> paraméter.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the <ph id="ph1">`restrictions`</ph> parameter to filter the rows to be returned in the &lt;xref:System.Data.DataTable&gt; (for example, by specifying restrictions for table name, type, owner, or schema).</source>
+          <target state="translated">Használja a <ph id="ph1">`restrictions`</ph> paraméter a visszaadandó sorok szűrése a &lt;xref:System.Data.DataTable&gt;(például a táblázat nevét, a típus, a tulajdonos vagy a séma korlátozásokat megadásával).&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you pass values in the array, include empty strings or nulls for array elements that do not contain values.</source>
+          <target state="translated">Ha értéket átadni a tömbben, vegye fel az üres karakterlánc vagy tömb elemei, amelyek nem tartalmaznak értékeket a null értékeket.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you pass an empty array to <ph id="ph1">`restrictions`</ph>, all rows (one for each table) are returned in default order.</source>
+          <target state="translated">Ha az üres tömb át <ph id="ph1">`restrictions`</ph>, minden sor (egy mindegyik tábla) az alapértelmezett rendelés visszaadása.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Values in the array correspond to the order of the columns in the source table and &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">A tömbben szereplő értékeket megfelelő sorrendben, ahogy az oszlop szerepel a forrástábla és &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each element in the restrictions array is compared with the content of the corresponding column in the schema rowset.</source>
+          <target state="translated">A korlátozások tömb egyes elemei összeveti a séma sorkészlete a megfelelő oszlop tartalmát.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the first element in the restrictions array is compared to first column in the rowset.</source>
+          <target state="translated">Például a a korlátozások tömb első eleme a rendszer összehasonlítja első oszlop a sorhalmazban.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a restriction element is not null, only rows from the schema rowset that exactly match the value of the restriction are added to the resulting &lt;xref:System.Data.DataTable&gt;.</source>
+          <target state="translated">Ha egy korlátozás elemnek nem null, csak sorait a séma sorkészlete, amelyek pontosan megfelelnek a szoftverkorlátozó értékének kerülnek az eredményül kapott &lt;xref:System.Data.DataTable&gt;.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbConnection&gt; method calls the underlying OLE DB <bpt id="p1">**</bpt>IDBSchemaRowset::GetRowset<ept id="p1">**</ept> method using standard common language runtime conversion rules.</source>
+          <target state="translated">A &lt;xref:System.Data.OleDb.OleDbConnection&gt;metódus meghívja az alapul szolgáló OLE DB <bpt id="p1">**</bpt>IDBSchemaRowset::GetRowset<ept id="p1">**</ept> módszerrel nyelvi futtatókörnyezet szabványos közös konvertálási szabályai.&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>COM Data Types<ept id="p1">](http://msdn.microsoft.com/en-us/f93ae35d-a416-4218-8700-c8218cc90061)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>COM adattípusok<ept id="p1">](http://msdn.microsoft.com/en-us/f93ae35d-a416-4218-8700-c8218cc90061)</ept>.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can retrieve information about literals by using &lt;xref:System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals&gt;.</source>
+          <target state="translated">Konstansértékeiről információt &lt;xref:System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals&gt;.&lt;/xref:System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals&gt; használatával lekérhető.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This provides information equivalent to calling the OLE DB <bpt id="p1">**</bpt>IDBInfo::GetLiteralInfo<ept id="p1">**</ept> interface, or the ADO <bpt id="p2">**</bpt>Connection.OpenSchema<ept id="p2">**</ept> method with the <ph id="ph1">`adSchemaDBInfoLiterals`</ph> constant.</source>
+          <target state="translated">Ez egyenértékű hívja meg az OLE DB információkat nyújt <bpt id="p1">**</bpt>IDBInfo::GetLiteralInfo<ept id="p1">**</ept> illesztőfelület, vagy a ADO <bpt id="p2">**</bpt>Connection.OpenSchema<ept id="p2">**</ept> metódust a <ph id="ph1">`adSchemaDBInfoLiterals`</ph> konstans.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that specifies the schema table to return.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> érték, amely meghatározza a sématábla való visszatéréshez.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; array of restriction values.</source>
+          <target state="translated">Egy &lt;xref:System.Object&gt;korlátozási értékek tömbje.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>These are applied in the order of the restriction columns.</source>
+          <target state="translated">Alkalmazza ezeket a beállításokat a korlátozás oszlopok sorrendjében.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>That is, the first restriction value applies to the first restriction column, the second restriction value applies to the second restriction column, and so on.</source>
+          <target state="translated">Ez azt jelenti, hogy az első oszlop korlátozás vonatkozik első korlátozási érték, a második korlátozási érték vonatkozik a második korlátozás oszlopban, és így tovább.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the requested schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely tartalmazza a kért séma adatait.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The specified set of restrictions is invalid.</source>
+          <target state="translated">Korlátozások a megadott készlete érvénytelen.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> le van zárva.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The specified schema rowset is not supported by the OLE DB provider.</source>
+          <target state="translated">A megadott séma sorkészlete az OLE DB-szolgáltató nem támogatja.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>-or-       The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">schema</ph><ept id="p1">&lt;/code&gt;</ept> parameter contains a value of <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> and the <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">restrictions</ph><ept id="p3">&lt;/code&gt;</ept> parameter contains one or more restrictions.</source>
+          <target state="translated">– vagy – a <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">schema</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter értéke <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbSchemaGuid.DbInfoLiterals"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> és a <bpt id="p3">&lt;code&gt;</bpt> <ph id="ph2">restrictions</ph> <ept id="p3">&lt;/code&gt;</ept> paraméter tartalmaz egy vagy több korlátozás.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Erre az adatforrásra vonatkozóan séma adatait adja vissza <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyek séma információkat tartalmaznak.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified string for the schema name.</source>
+          <target state="translated">Erre az adatforrásra vonatkozóan séma adatait adja vissza <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott karakterlánc használ a séma neve.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`collectionName`</ph> is specified as null, the &lt;xref:System.Data.DataTable&gt; will contain information about all the metadata that is available, and its restrictions.</source>
+          <target state="translated">Ha <ph id="ph1">`collectionName`</ph> beállítása null, a &lt;xref:System.Data.DataTable&gt;érhető el minden metaadat és a korlátozások információkat tartalmaznak.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the schema to return.</source>
+          <target state="translated">Vissza a séma neve.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyek séma információkat tartalmaznak.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Returns schema information for the data source of this <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the specified string for the schema name and the specified string array for the restriction values.</source>
+          <target state="translated">Erre az adatforrásra vonatkozóan séma adatait adja vissza <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott karakterlánc használata a sémanév és a korlátozás értékeket a megadott karakterlánc-tömbben.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`collectionName`</ph> is specified as null, the &lt;xref:System.Data.DataTable&gt; will contain information about all the metadata that is available, and its restrictions.</source>
+          <target state="translated">Ha <ph id="ph1">`collectionName`</ph> beállítása null, a &lt;xref:System.Data.DataTable&gt;érhető el minden metaadat és a korlátozások információkat tartalmaznak.&lt;/xref:System.Data.DataTable&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`restrictionValues`</ph> parameter can supply <bpt id="p1">*</bpt>n<ept id="p1">*</ept> depth of values which are specified by the restrictions collection for a specific collection.</source>
+          <target state="translated">A <ph id="ph1">`restrictionValues`</ph> paraméter megadhatja <bpt id="p1">*</bpt>n<ept id="p1">*</ept> a korlátozásgyűjtemény egy adott gyűjtemény által megadott értékek mélységét.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to set values on a given restriction, and not set the values of other restrictions, you need to set the preceding restrictions to null and then put the appropriate value in for the restriction that you would like to specify a value for.</source>
+          <target state="translated">Ahhoz, hogy egy adott korlátozás kapacitásértékeinek beállítása, és nincs beállítva az egyéb korlátozások értékeit, be kell az előző korlátozások null, és majd írja be a megfelelő értéket a korlátozásokat, amelyeket szeretne, adjon meg egy értéket.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of this is the "Tables" collection.</source>
+          <target state="translated">Például az "Tábla" gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the "Tables" collection has three restrictions (database, owner, and table name), and you want to get back only the tables associated with the owner "Carl," you must pass in the following values (at a minimum): null, "Carl".</source>
+          <target state="translated">Ha a "Tábla" gyűjtemény rendelkezik három korlátozások (a adatbázis, a tulajdonos és a tábla neve), és le szeretné kérdezni vissza csak a "Carl" tulajdonosa társított táblákat, át kell adnia az alábbi értékek (minimum): null, a "Carl".</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a restriction value is not passed in, the default values are used for that restriction.</source>
+          <target state="translated">Egy korlátozási érték nem kerül át, a, ha az alapértelmezett értékeket használják, hogy korlátozásra vonatkozóan.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the same mapping as passing in null, which is different from passing in an empty string for the parameter value.</source>
+          <target state="translated">Ez az azonos leképezése null, a sikeres, ami eltér a paraméter értéke üres karakterláncot a sikeres.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In that case, the empty string ("") is considered to be the value for the specified parameter.</source>
+          <target state="translated">Ebben az esetben, az üres karakterlánc ("") a megadott paraméter értéke számít.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the schema to return.</source>
+          <target state="translated">Vissza a séma neve.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Specifies a set of restriction values for the requested schema.</source>
+          <target state="translated">Itt adhatja meg a kért séma korlátozás értékeit.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains schema information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amelyek séma információkat tartalmaznak.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Occurs when the provider sends a warning or an informational message.</source>
+          <target state="translated">Akkor következik be, amikor a szolgáltató elküld egy figyelmeztető vagy tájékoztató üzenet.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Clients that want to process warnings or informational messages sent by the server should create an &lt;xref:System.Data.OleDb.OleDbInfoMessageEventHandler&gt; delegate to listen to this event.</source>
+          <target state="translated">Ügyfelek, figyelmeztetés vagy a kiszolgáló által küldött tájékoztató üzeneteket dolgozni hozzon létre egy &lt;xref:System.Data.OleDb.OleDbInfoMessageEventHandler&gt;delegált figyelni ezt az eseményt.&lt;/xref:System.Data.OleDb.OleDbInfoMessageEventHandler&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The InfoMessage event occurs when a message with low severity is returned from the data source.</source>
+          <target state="translated">Alacsony súlyosságú üzenetet küld vissza az adatforrás a InfoMessage esemény következik be.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Low severity messages are those that do not cause an exception.</source>
+          <target state="translated">Alacsony súlyosságú üzenetek azok, amelyek nem okozhat kivételt.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For Microsoft SQL Server, this includes error messages that have a severity of 10 or less       For more information and an example, see <bpt id="p1">[</bpt>Connection Events<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">A Microsoft SQL Server, ez magában foglalja hibaüzeneteket, amelyek 10 besorolással vagy kisebb tegyük fel, és további információért lásd: <bpt id="p1">[</bpt>Kapcsolateseményei<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Fel kell venni a párbeszédpanelre.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Opens a database connection with the property settings specified by the &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString*&gt;.</source>
+          <target state="translated">A &lt;xref:System.Data.OleDb.OleDbConnection.ConnectionString*&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection.ConnectionString*&gt; által megadott tulajdonságbeállítások tartalmazó adatbázis-kapcsolat megnyitása</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbConnection&gt; draws an open connection from the connection pool if one is available.</source>
+          <target state="translated">A &lt;xref:System.Data.OleDb.OleDbConnection&gt;megrajzolja a kapcsolat készletből nyitott kapcsolat, ha elérhető ilyen.&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, it establishes a new connection to the data source.</source>
+          <target state="translated">Ellenkező esetben az adatforráshoz való új kapcsolat létesítése.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can open more than one DataReader on a single &lt;xref:System.Data.OleDb.OleDbConnection&gt;.</source>
+          <target state="translated">Egynél több DataReader &lt;xref:System.Data.OleDb.OleDbConnection&gt;.&lt;/xref:System.Data.OleDb.OleDbConnection&gt; egyetlen is megnyithatja.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the OLEDB provider you use does not support more than one active DataReader on a single connection, the OLEDB provider implicitly opens an additional connection for each.</source>
+          <target state="translated">Használja az OLEDB-szolgáltató nem támogatja egynél több aktív DataReader egyetlen kapcsolaton keresztül, ha az OLEDB-szolgáltató az egyes implicit módon megnyílik egy további kapcsolatot.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  If the &lt;xref:System.Data.OleDb.OleDbConnection&gt; goes out of scope, it is not closed.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ha a &lt;xref:System.Data.OleDb.OleDbConnection&gt;kívüli is megnőnek hatókör, nem le van zárva.&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must explicitly close the connection by calling &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; or <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept>, or using the connection within a <ph id="ph1">`Using`</ph> statement.</source>
+          <target state="translated">Ezért kifejezetten zárja be a kapcsolat meghívásával &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;vagy <bpt id="p1">**</bpt>eldobásakor<ept id="p1">**</ept>, vagy a kapcsolat belül egy <ph id="ph1">`Using`</ph> utasítást.&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The connection is already open.</source>
+          <target state="translated">A kapcsolat már meg nyitva.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>A connection-level error occurred while opening the connection.</source>
+          <target state="translated">A kapcsolati szintű hiba történt a kapcsolat megnyitása.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>Gets the name of the OLE DB provider specified in the "Provider= " clause of the connection string.</source>
+          <target state="translated">Lekérdezi a megadott OLE DB szolgáltató neve a "Provider =" a kapcsolódási karakterlánc záradékában.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>The name of the provider as specified in the "Provider= " clause of the connection string.</source>
+          <target state="translated">A szolgáltató neve a "Provider =" záradék a kapcsolati karakterlánc.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string.</source>
+          <target state="translated">Az alapértelmezett érték: üres karakterlánc.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Indicates that the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object pool can be released when the last underlying connection is released.</source>
+          <target state="translated">Azt jelzi, hogy a <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum készlet mikorra várható, amikor megjelenik az utolsó alapul szolgáló kapcsolatban.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`ReleaseObjectPool`</ph> can be called to free resources that would otherwise be reserved for pooled &lt;xref:System.Data.OleDb.OleDbConnection&gt; objects.</source>
+          <target state="translated"><ph id="ph1">`ReleaseObjectPool`</ph>készletezett, ellenkező esetben tenné fenntartott szabad erőforrásokhoz hívható &lt;xref:System.Data.OleDb.OleDbConnection&gt;objektumok.&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You might want to call this method if, for example, the connection object will not be used again for the amount of time that OLE DB services ordinarily keeps pooled connections active.</source>
+          <target state="translated">Ez a metódus meghívható, ha például a kapcsolati objektum nem használható újra időmennyiség OLE DB services szokásos tartja a készletezett kapcsolatainak aktív kívánt.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that calling the method alone does not actually release the active connections that exist in the pool.</source>
+          <target state="translated">Vegye figyelembe, hogy kizárólag a metódus hívása nem ténylegesen kiadási az aktív kapcsolatok, amely a készletben.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following must occur before the pool is finally disposed:      1.</source>
+          <target state="translated">A következő kell történnie, a készlet végül eldobása előtt: 1.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; to return the connection object to the pool.</source>
+          <target state="translated">Hívás &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;a kapcsolati objektum visszahelyezni a készletbe.&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Allow each connection object to time out of the pool.</source>
+          <target state="translated">Időtúllépés a készlet minden egyes objektum engedélyezése.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call ReleaseObjectPool.</source>
+          <target state="translated">ReleaseObjectPool hívja.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>4.</source>
+          <target state="translated">4.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Invoke garbage collection.</source>
+          <target state="translated">A szemétgyűjtés meghívni.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Conversely, if you call &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; on all active connections, and invoke garbage collection, but do not call ReleaseObjectPool, the resources reserved for the pooled objects will remain available.</source>
+          <target state="translated">Ezzel szemben ha meghívja a &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;minden aktív kapcsolatok használata esetén, és szemétgyűjtés meghívni, de ne hívja meg ReleaseObjectPool, a forrásokat a készletezett objektumok is elérhető marad a.&lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>Updates the &lt;xref:System.Data.OleDb.OleDbConnection.State*&gt; property of the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Frissítések a &lt;xref:System.Data.OleDb.OleDbConnection.State*&gt;tulajdonsága a <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.&lt;/xref:System.Data.OleDb.OleDbConnection.State*&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some OLE DB providers can check the current state of the connection.</source>
+          <target state="translated">Néhány OLE DB-szolgáltató ellenőrizheti a kapcsolat jelenlegi állapotával.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the database server has recycled since you opened your &lt;xref:System.Data.OleDb.OleDbConnection&gt;, the &lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt; property will continue to return <ph id="ph1">`Open`</ph>.</source>
+          <target state="translated">Például, ha az adatbázis-kiszolgáló rendelkezik újrahasznosított óta indította el a &lt;xref:System.Data.OleDb.OleDbConnection&gt;, a &lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt;tulajdonság továbbra is vissza <ph id="ph1">`Open`</ph>.&lt;/xref:System.Data.OleDb.OleDbConnection.State%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are working with an OLE DB Provider that supports polling for this information on a live connection, calling the ResetState method and then checking the &lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt; property will tell you that the connection is no longer open.</source>
+          <target state="translated">Ha egy OLE DB-szolgáltató, amely támogatja az élő kapcsolattal kapcsolatos dolgozik, a ResetState metódust, és jelölje a &lt;xref:System.Data.OleDb.OleDbConnection.State%2A&gt;tulajdonság jelzi, hogy a kapcsolat már nincs megnyitva.&lt;/xref:System.Data.OleDb.OleDbConnection.State%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ResetState method relies on functionality in the OLE DB Provider to verify the current state of the connection.</source>
+          <target state="translated">A ResetState metódus az OLE DB-szolgáltató a kapcsolat jelenlegi állapotának ellenőrzése funkció támaszkodik.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine if your OLE DB Provider supports this functionality, check the provider's documentation for information on DBPROP_CONNECTIONSTATUS.</source>
+          <target state="translated">Annak megállapításához, hogy az OLE DB-szolgáltató támogatja-e ezt a funkciót, ellenőrizze a szolgáltató a DBPROP_CONNECTIONSTATUS.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Gets a string that contains the version of the server to which the client is connected.</source>
+          <target state="translated">Lekérdezi a kiszolgálót, amelyhez az ügyfél csatlakozik a verzióját tartalmazó karakterlánc.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ServerVersion property maps to the OLE DB DBPROP_DBMSVER property.</source>
+          <target state="translated">Az OWA tulajdonságleképezések OLE DB DBPROP_DBMSVER tulajdonság.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If ServerVersion is not supported by the underlying OLE DB provider, an empty string is returned.</source>
+          <target state="translated">OWA az alapul szolgáló OLE DB-szolgáltató nem támogatja, ha üres karakterláncot ad vissza.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The version is of the form <bpt id="p1">*</bpt>##.##.####<ept id="p1">*</ept>, where the first two digits are the major version, the next two digits are the minor version, and the last four digits are the release version.</source>
+          <target state="translated">A verzió a következő formátumban: <bpt id="p1">*</bpt>##. ##. ###<ept id="p1">*</ept>, ahol az első két szám főverziója, a következő két szám a alverzió, és az utolsó négy számjegye a végleges verziót.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The provider must render the product version in this form but can also append the product-specific version—for example, "04.01.0000 Rdb 4.1".</source>
+          <target state="translated">A szolgáltató ezen a képernyőn termékverziója kell igazodnia, de is fűzze hozzá a termékspecifikus verziója – például "04.01.0000 rekordadatbázis 4.1".</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string is of the form <bpt id="p1">*</bpt>major.minor.build<ept id="p1">*</ept>, where major and minor are exactly two digits and build is exactly four digits.</source>
+          <target state="translated">A karakterlánc a következő formátumban: <bpt id="p1">*</bpt>major.minor.build<ept id="p1">*</ept>, ahol a fő és kisebb pontosan két számjegyek és build pontosan négy számjegyét.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The version of the connected server.</source>
+          <target state="translated">A csatlakoztatott kiszolgáló verziója.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The connection is closed.</source>
+          <target state="translated">A kapcsolat le van zárva.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Gets the current state of the connection.</source>
+          <target state="translated">A kapcsolat jelenlegi állapotának beolvasása.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following are allowed state changes:      -   From <ph id="ph1">`Closed`</ph> to <ph id="ph2">`Open`</ph>, using the &lt;xref:System.Data.OleDb.OleDbConnection.Open%2A&gt; method of the &lt;xref:System.Data.OleDb.OleDbConnection&gt; object.</source>
+          <target state="translated">A következő engedélyezettek állapotváltozások: – a <ph id="ph1">`Closed`</ph> való <ph id="ph2">`Open`</ph>használatával a &lt;xref:System.Data.OleDb.OleDbConnection.Open%2A&gt;metódusában a &lt;xref:System.Data.OleDb.OleDbConnection&gt;objektum.&lt;/xref:System.Data.OleDb.OleDbConnection&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   From <ph id="ph1">`Open`</ph> to <ph id="ph2">`Closed`</ph>, using either the &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt; method or the <bpt id="p1">**</bpt>Dispose<ept id="p1">**</ept> method of the &lt;xref:System.Data.OleDb.OleDbConnection&gt; object.</source>
+          <target state="translated">-A <ph id="ph1">`Open`</ph> való <ph id="ph2">`Closed`</ph>, segítségével a &lt;xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;metódust vagy a <bpt id="p1">**</bpt>eldobásakor<ept id="p1">**</ept> metódusában a &lt;xref:System.Data.OleDb.OleDbConnection&gt;objektum.&lt;/xref:System.Data.OleDb.OleDbConnection&gt; &lt;/xref:System.Data.OleDb.OleDbConnection.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  In previous version of the .NET Framework, calling the State property increased application overhead because each call caused a call to the OLE DB DBPROP_CONNECTIONSTATUS property for an open connection.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A .NET-keretrendszer korábbi verziójában, hívja az állapot tulajdonság nőtt alkalmazás terhelés mert minden hívás nyitott kapcsolat OLE DB DBPROP_CONNECTIONSTATUS tulajdonságához hívásakor.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With the release of the .NET Framework 2.0, this is no longer an issue.</source>
+          <target state="translated">A .NET-keretrendszer 2.0-s verziójában ez a már nem probléma.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>A bitwise combination of the <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Tagértékeinek a <bpt id="p1">&lt;xref href="System.Data.ConnectionState"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékeket.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The default is Closed.</source>
+          <target state="translated">Alapértelmezés szerint le van zárva.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>For a description of this member, see <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">Ez a tag ismertetését lásd: <ph id="ph1">&amp;lt;</ph>xref:System.ICloneable.Clone%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">Ez a tag egy explicit illesztőfelületet tag megvalósítása.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can be used only when the &lt;xref:System.Data.OleDb.OleDbConnection&gt; instance is cast to an &lt;xref:System.ICloneable&gt; interface.</source>
+          <target state="translated">Használat csak akkor, ha a &lt;xref:System.Data.OleDb.OleDbConnection&gt;példány típusúvá egy &lt;xref:System.ICloneable&gt;felületet.&lt;/xref:System.ICloneable&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.Object&gt; that is a copy of this instance.</source>
+          <target state="translated">Egy új &lt;xref:System.Object&gt;ezt a példányt, amely egy példányát.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
