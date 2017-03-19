@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ccd12e1b3cd99c5c3d2719de97c7ebbdd0c033dd</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.CodeDom.Compiler.TempFileCollection.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2b02bc318320a7488c5d90644ba02e448280d0a1</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3f1054b5196419b21955f6d41228074145bff859</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a collection of temporary files.</source>
+          <target state="translated">一時ファイルのコレクションを表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>TempFileCollection can be used to generate unique file names and to keep track of a list of files.</source>
+          <target state="translated">TempFileCollection は、一意のファイル名を生成し、ファイルの一覧を追跡するために使用できます。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>This can be useful to &lt;xref:System.CodeDom.Compiler.ICodeCompiler&gt; implementers when managing a list of compiler-generated intermediate files, which are sometimes deleted after use.</source>
+          <target state="translated">これは役に立ちます&lt;xref:System.CodeDom.Compiler.ICodeCompiler&gt;コンパイラによって生成された中間ファイル、使用後が削除される場合がありますの一覧を管理する場合に実装します&lt;/xref:System.CodeDom.Compiler.ICodeCompiler&gt;。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To specify a directory to generate unique temporary file names in, use an appropriately overloaded constructor.</source>
+          <target state="translated">内の一意の一時ファイル名を生成するディレクトリを指定するには、適切にオーバー ロードされたコンス トラクターを使用します。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>You can also use a constructor overload to indicate whether files added to the collection should, if not specified otherwise when using the &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddFile%2A&gt; or &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt; methods, be deleted when the collection is disposed or the &lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt; method is called.</source>
+          <target state="translated">かどうかをコレクションに追加されたファイルは、指定されていない場合それ以外の場合を使用する場合を示すために、コンス トラクター オーバー ロードを使用することもできます、&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddFile%2A&gt;または&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;メソッド、コレクションが破棄されるときに削除するか、&lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt;メソッドが呼び出されます。&lt;/xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt; &lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt; &lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddFile%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>A file in any directory can be added to an instance of TempFileCollection using the &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddFile%2A&gt; method.</source>
+          <target state="translated">TempFileCollection を使用してのインスタンスに任意のディレクトリ内のファイルを追加することができます、&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddFile%2A&gt;メソッド&lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddFile%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>To generate a unique name for a temporary file of a particular file extension, call &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt; and specifiy the extension of the file name to generate.</source>
+          <target state="translated">特定のファイル拡張子の一時ファイルの一意の名前を生成する呼び出す&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;および生成するファイル名の拡張子を指定します&lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt; method will return a string consisting of a full path to a file name of the specified extension in the directory specified by the &lt;xref:System.CodeDom.Compiler.TempFileCollection.TempDir%2A&gt; property.</source>
+          <target state="translated">&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;メソッドは、完全なパスで指定されたディレクトリで指定された拡張子のファイル名から成る文字列を返します、&lt;xref:System.CodeDom.Compiler.TempFileCollection.TempDir%2A&gt;プロパティ&lt;/xref:System.CodeDom.Compiler.TempFileCollection.TempDir%2A&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt; method will only return one unique file name per file name extension.</source>
+          <target state="translated">&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;メソッドは&amp;1; つのファイル名拡張子の&amp;1; つの一意のファイル名だけを返します&lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Both the &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddFile%2A&gt; and &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt; methods have overloads that allow you to specify whether the files should be deleted when the collection is disposed or the &lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt; method is called.</source>
+          <target state="translated">両方の&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddFile%2A&gt;と&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;メソッド コレクションが破棄されるときに、ファイルを削除するかどうかを指定できるオーバー ロードがありますまたは&lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt;メソッドが呼び出されます&lt;/xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddFile%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt; method will delete all the files in the collection except those that are marked to be kept.</source>
+          <target state="translated">&lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt;メソッド保持するとマークされているものを除き、コレクション内のすべてのファイルが削除されます&lt;/xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.CodeDom.Compiler.TempFileCollection.BasePath%2A&gt; property indicates a full path to the base file name, without a file name extension, used to generate the file names returned by the &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt; method.</source>
+          <target state="translated">&lt;xref:System.CodeDom.Compiler.TempFileCollection.BasePath%2A&gt;プロパティによって返されるファイル名の生成に使用されるファイル名拡張子の付かない、基本ファイル名に完全なパスを示す、&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;メソッド&lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection.BasePath%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This class contains a link demand and an inheritance demand at the class level that applies to all members.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; このクラスには、リンク確認要求し、すべてのメンバーに適用されるクラス レベルの継承確認要求が含まれています。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Security.SecurityException&gt; is thrown when either the immediate caller or the derived class does not have full-trust permission.</source>
+          <target state="translated">A&lt;xref:System.Security.SecurityException&gt;直前の呼び出し元または派生クラスのいずれかに完全信頼アクセス許可がない場合にスローされます&lt;/xref:System.Security.SecurityException&gt;。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For details about security demands, see <bpt id="p1">[</bpt>Link Demands<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Inheritance Demands<ept id="p2">](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9)</ept>.</source>
+          <target state="translated">セキュリティ要求の詳細については、「<bpt id="p1">[</bpt>リンク確認要求<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>と<bpt id="p2">[</bpt>継承確認要求<ept id="p2">](http://msdn.microsoft.com/en-us/28b9adbb-8f08-4f10-b856-dbf59eb932d9)</ept>です。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.TempFileCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with default values.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.TempFileCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>既定値を持つクラス。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This is a default constructor that initializes the collection with default settings.</source>
+          <target state="translated">これは、既定の設定を使用して、コレクションを初期化する既定のコンス トラクターです。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>By default, this temporary files collection will store the files in a default temporary directory and will delete the temporary files after they have been generated and used.</source>
+          <target state="translated">既定では、この一時ファイル コレクションは、既定の一時ディレクトリにファイルを保管して、生成および使用された後に、一時ファイルを削除します。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.TempFileCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified temporary directory that is set to delete the temporary files after their generation and use, by default.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.TempFileCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスを生成して、使用後に一時ファイルを削除する既定で設定されている指定された一時ディレクトリを使用します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A path to the temporary directory to use for storing the temporary files.</source>
+          <target state="translated">一時ファイルを格納するのに使用する一時ディレクトリへのパス。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.TempFileCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified temporary directory and specified value indicating whether to keep or delete the temporary files after their generation and use, by default.</source>
+          <target state="translated">新しいインスタンスを初期化、 <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.TempFileCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>クラスの指定された一時ディレクトリとの保持または既定で生成して、使用後に、一時ファイルを削除するかどうかを示す値を使用します。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The value of <ph id="ph1">`keepFiles`</ph> is used to set the &lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt; parameter.</source>
+          <target state="translated">値<ph id="ph1">`keepFiles`</ph>設定に使用される、&lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;パラメーター&lt;/xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt; 。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The temporary files in the collection are retained or deleted upon the completion of compiler activity based on the value of the &lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt; property in the collection.</source>
+          <target state="translated">コレクション内の一時ファイルを保持またはの値に基づいてコンパイラ アクティビティの完了時に削除された、&lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;コレクション内のプロパティ&lt;/xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>As each file is added to the collection, the current value of &lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt; is associated with it, unless it is added with a method that has a <ph id="ph1">`keepFile`</ph> parameter, in which case that value is used for that specific file.</source>
+          <target state="translated">各ファイルが、このコレクションの現在の値に追加されるにつれて&lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;を持つメソッドに追加しない限り、それに関連付けられたが、<ph id="ph1">`keepFile`</ph>その特定のファイルに対して値を使用する場合のパラメーターです&lt;/xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt; method is called, if &lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt; is <ph id="ph1">`true`</ph>, all files are deleted, including those added with a &lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt; value of <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">ときに、&lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt;メソッドを呼び出す場合&lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;は<ph id="ph1">`true`</ph>を使用して追加含めすべてのファイルが削除されると、&lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;の値<ph id="ph2">`true`</ph>&lt;/xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>This allows specific files, those identified as being keep files, to be temporarily retained after compilation for purposes such as error reporting, then deleted when they are no longer needed.</source>
+          <target state="translated">これにより、ファイルを一時的にエラーが報告などの目的のコンパイル後に保持し、不要になったときに削除する、保存されているとして識別された特定のファイルです。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A path to the temporary directory to use for storing the temporary files.</source>
+          <target state="translated">一時ファイルを格納するのに使用する一時ディレクトリへのパス。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the temporary files should be kept after use; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the temporary files should be deleted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用後も、一時ファイルを保持する場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>場合は、一時ファイルを削除する必要があります。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Adds a file name with the specified file name extension to the collection.</source>
+          <target state="translated">コレクションに指定されたファイル名拡張子を持つファイル名を追加します。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>This method returns a file name with the specified extension that has been added to the temporary files collection.</source>
+          <target state="translated">このメソッドは、指定された拡張子を一時ファイルのコレクションに追加されたファイル名を返します。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Other code must still create the file before it can be used.</source>
+          <target state="translated">使用する前に、その他のコードはファイルを作成して必要があります。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>This method can be called only once for each file name extension, because it will return the same name if it is called with the same extension.</source>
+          <target state="translated">このメソッドは、同じ拡張機能を使用して呼び出した場合は、同じ名前を返すために、各ファイル名拡張子では、一度だけ呼び出すことができます。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The file name extension for the auto-generated temporary file name to add to the collection.</source>
+          <target state="translated">コレクションに追加する一時ファイルの自動生成された名前のファイル名拡張子。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>A file name with the specified extension that was just added to the collection.</source>
+          <target state="translated">指定された拡張子をコレクションに追加されたファイル名です。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Adds a file name with the specified file name extension to the collection, using the specified value indicating whether the file should be deleted or retained.</source>
+          <target state="translated">ファイルを削除または保持するかどうかを示す値を指定して、このコレクションに指定されたファイル名拡張子を持つファイル名を追加します。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>This method returns a file name with the specified extension that has been added to the temporary files collection.</source>
+          <target state="translated">このメソッドは、指定された拡張子を一時ファイルのコレクションに追加されたファイル名を返します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Other code must still create the file before it can be used.</source>
+          <target state="translated">使用する前に、その他のコードはファイルを作成して必要があります。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>This method can be called only once for each file name extension, because it will return the same name if it is called with the same extension.</source>
+          <target state="translated">このメソッドは、同じ拡張機能を使用して呼び出した場合は、同じ名前を返すために、各ファイル名拡張子では、一度だけ呼び出すことができます。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The file name extension for the auto-generated temporary file name to add to the collection.</source>
+          <target state="translated">コレクションに追加する一時ファイルの自動生成された名前のファイル名拡張子。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the file should be kept after use; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the file should be deleted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用後も、ファイルを保持する場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>場合は、ファイルを削除する必要があります。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A file name with the specified extension that was just added to the collection.</source>
+          <target state="translated">指定された拡張子をコレクションに追加されたファイル名です。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileExtension&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileExtension&lt;/code&gt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>または空の文字列。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Adds the specified file to the collection, using the specified value indicating whether to keep the file after the collection is disposed or when the &lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete*&gt; method is called.</source>
+          <target state="translated">コレクションが破棄された後に、またはファイルを保持するかどうかを示す値を指定して、このコレクションに指定されたファイルを追加、&lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete*&gt;メソッドが呼び出されます&lt;/xref:System.CodeDom.Compiler.TempFileCollection.Delete*&gt;。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The name of the file to add to the collection.</source>
+          <target state="translated">コレクションに追加するファイルの名前。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the file should be kept after use; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the file should be deleted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>使用後も、ファイルを保持する場合<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>場合は、ファイルを削除する必要があります。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or an empty string.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>または空の文字列。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph> is a duplicate.</source>
+          <target state="translated">- または -<ph id="ph1">&lt;code&gt;fileName&lt;/code&gt;</ph>と重複しています。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets the full path to the base file name, without a file name extension, on the temporary directory path, that is used to generate temporary file names for the collection.</source>
+          <target state="translated">コレクションの一時ファイル名を生成するために使用される一時ディレクトリ パスのファイル名拡張子を除いた、基本ファイル名への完全パスを取得します。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The full path to the base file name, without a file name extension, on the temporary directory path, that is used to generate temporary file names for the collection.</source>
+          <target state="translated">コレクションの一時ファイル名を生成するために使用される、一時ディレクトリ パス上のファイル名拡張子の付かない、基本ファイル名の完全パスです。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>If the BasePath property has not been set or is set to <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and <bpt id="p2">&lt;xref href="System.Security.Permissions.FileIOPermissionAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is not granted for the temporary directory indicated by the &lt;xref:System.CodeDom.Compiler.TempFileCollection.TempDir*&gt; property.</source>
+          <target state="translated">BasePath プロパティが設定されていないかに設定されているかどうかは<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>、および<bpt id="p2">&lt;xref href="System.Security.Permissions.FileIOPermissionAccess"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>がで指定された一時ディレクトリに対して許可されていない、&lt;xref:System.CodeDom.Compiler.TempFileCollection.TempDir*&gt;プロパティ&lt;/xref:System.CodeDom.Compiler.TempFileCollection.TempDir*&gt;。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Copies the members of the collection to the specified string, beginning at the specified index.</source>
+          <target state="translated">指定したインデックスから始まる、指定した文字列に、コレクションのメンバーをコピーします。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>The array of strings to copy to.</source>
+          <target state="translated">コピー先の文字列の配列。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The index of the array to begin copying to.</source>
+          <target state="translated">コピーを開始する配列のインデックス。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets the number of files in the collection.</source>
+          <target state="translated">コレクション内のファイルの数を取得します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The number of files in the collection.</source>
+          <target state="translated">コレクション内のファイルの数。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Deletes the temporary files within this collection that were not marked to be kept.</source>
+          <target state="translated">保持するマークされていません、このコレクション内で、一時ファイルを削除します。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The Delete method examines each file in the collection to determine, on an individual basis, whether the file is to be kept or deleted.</source>
+          <target state="translated">Delete メソッドでは、調べるを個別に、ファイルを保持するか削除するか、コレクション内の各ファイルをチェックします。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Files can be explicitly marked to be kept when added to the collection using add methods that take a <ph id="ph1">`keepFile`</ph> parameter.</source>
+          <target state="translated">受け取るメソッドを追加するコレクションを使用して、追加されたときに保持するファイルを明示的にマークすることができます、<ph id="ph1">`keepFile`</ph>パラメーター。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When adding a file to the collection using the &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt; overload that does not have a <ph id="ph1">`keepFile`</ph> parameter the value of the &lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt; property is used as the default keep file indicator.</source>
+          <target state="translated">使用してコレクションにファイルを追加する場合、&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;オーバー ロードはありませんが、<ph id="ph1">`keepFile`</ph>パラメーター値の&lt;xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;プロパティは、既定の保持ファイル インジケーターとして使用します&lt;/xref:System.CodeDom.Compiler.TempFileCollection.KeepFiles%2A&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.TempFileCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">によって使用されるアンマネージ リソースを解放、 <bpt id="p1">&lt;xref href="System.CodeDom.Compiler.TempFileCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>し、必要に応じてマネージ リソースを解放します。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This method is called by the public <ph id="ph1">`Dispose()`</ph> method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">このメソッドは、パブリック<ph id="ph1">`Dispose()`</ph>メソッドおよび&lt;xref:System.Object.Finalize%2A&gt;メソッド&lt;/xref:System.Object.Finalize%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`Dispose()`</ph> invokes the protected <ph id="ph2">`Dispose(Boolean)`</ph> method with the <ph id="ph3">`disposing`</ph> parameter set to <ph id="ph4">`true`</ph>.</source>
+          <target state="translated"><ph id="ph1">`Dispose()`</ph>プロテクト呼び出します<ph id="ph2">`Dispose(Boolean)`</ph>メソッドを<ph id="ph3">`disposing`</ph>パラメーターに設定<ph id="ph4">`true`</ph>です。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes <ph id="ph1">`Dispose`</ph> with <ph id="ph2">`disposing`</ph> set to <ph id="ph3">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;呼び出す<ph id="ph1">`Dispose`</ph>で<ph id="ph2">`disposing`</ph>'éý'<ph id="ph3">`false`</ph>です。&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources held by any managed objects that this &lt;xref:System.CodeDom.Compiler.TempFileCollection&gt; references.</source>
+          <target state="translated">ときに、<ph id="ph1">`disposing`</ph>パラメーターは<ph id="ph2">`true`</ph>、このメソッドは、すべてのマネージ オブジェクトによって保持されているすべてのリソースを解放しますこの&lt;xref:System.CodeDom.Compiler.TempFileCollection&gt;参照。&lt;/xref:System.CodeDom.Compiler.TempFileCollection&gt; 。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This method invokes the <ph id="ph1">`Dispose()`</ph> method of each referenced object.</source>
+          <target state="translated">このメソッドを呼び出して、<ph id="ph1">`Dispose()`</ph>参照される各オブジェクトのメソッドです。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>マネージ コードとアンマネージ リソースを解放するには<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>アンマネージ リソースだけを解放します。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Attempts to delete the temporary files before this object is reclaimed by garbage collection.</source>
+          <target state="translated">このオブジェクトがガベージ コレクションによって回収される前に一時ファイルを削除しようとしています。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>This method overrides &lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt; and cleans up resources by calling <ph id="ph1">`Dispose(false)`</ph>.</source>
+          <target state="translated">このメソッドは&lt;xref:System.Object.Finalize%2A?displayProperty=fullName&gt;を呼び出してリソースをクリーンアップし、 <ph id="ph1">`Dispose(false)`</ph>&lt;/xref:System.Object.Finalize%2A?displayProperty=fullName&gt; 。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Override <ph id="ph1">`Dispose(Boolean)`</ph> to customize the cleanup.</source>
+          <target state="translated">オーバーライド<ph id="ph1">`Dispose(Boolean)`</ph>してクリーンアップをカスタマイズします。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Application code should not call this method; an object's <ph id="ph1">`Finalize`</ph> method is automatically invoked during garbage collection, unless finalization by the garbage collector has been disabled by a call to the &lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">アプリケーション コードではこのメソッドを呼び出す必要がありますいません。オブジェクトの<ph id="ph1">`Finalize`</ph>への呼び出しによって、ガベージ コレクターによって終了処理が無効になっていない限り、ガベージ コレクション中にメソッドが自動的に起動、&lt;xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;メソッド&lt;/xref:System.GC.SuppressFinalize%2A?displayProperty=fullName&gt;。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Finalize Methods and Destructors<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>, <bpt id="p2">[</bpt>Cleaning Up Unmanaged Resources<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>, and <bpt id="p3">[</bpt>Overriding the Finalize Method<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</source>
+          <target state="translated">詳細については、次を参照してください。 <bpt id="p1">[</bpt>Finalize メソッドおよびデストラクター<ept id="p1">](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70)</ept>、<bpt id="p2">[</bpt>アンマネージ リソースのクリーンアップ<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>、および<bpt id="p3">[</bpt>Finalize メソッドをオーバーライドする<ept id="p3">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>です。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>Gets an enumerator that can enumerate the members of the collection.</source>
+          <target state="translated">コレクションのメンバーを列挙できる列挙子を取得します。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; that contains the collection's members.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;コレクションのメンバーを格納している&lt;/xref:System.Collections.IEnumerator&gt;。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether to keep the files, by default, when the &lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete*&gt; method is called or the collection is disposed.</source>
+          <target state="translated">取得または既定では、ファイルを保持するかどうかを示す値を設定するときに、&lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete*&gt;メソッドが呼び出されるか、コレクションは破棄されます&lt;/xref:System.CodeDom.Compiler.TempFileCollection.Delete*&gt;。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The value of the KeepFiles property is used as the default value when the &lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt; overload that does not have a <ph id="ph1">`keepFile`</ph> parameter is called to add a temporary file to the collection.</source>
+          <target state="translated">KeepFiles プロパティの値が既定値として使用されるときの値、&lt;xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;がないオーバー ロード、<ph id="ph1">`keepFile`</ph>一時ファイルをコレクションに追加するパラメーターと呼びます&lt;/xref:System.CodeDom.Compiler.TempFileCollection.AddExtension%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>Each temporary file in the collection has an associated keep file flag that determines, on a per-file basis, whether that file is to be kept or deleted.</source>
+          <target state="translated">コレクション内の各一時ファイルは、関連付けられているファイル保持フラグがそのファイルを保持するか削除するかをファイルごとに決定するがします。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Files are automatically kept or deleted on completion of the compilation based on their associated keep files value.</source>
+          <target state="translated">ファイルは自動的に保持または、ファイルの関連付けの保持の値に基づいて、コンパイルの完了時に削除します。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>However, after compilation is complete, files that were kept can be released by setting KeepFiles false and calling the &lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt; method.</source>
+          <target state="translated">ただし、コンパイルが完了したら、ファイル保持されていることができますを解放 false と呼び出し元に KeepFiles を設定して、&lt;xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt;メソッド&lt;/xref:System.CodeDom.Compiler.TempFileCollection.Delete%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>This will result in all files being deleted.</source>
+          <target state="translated">これにより、すべてのファイルが削除されているが発生します。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the files should be kept; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>ファイルを保持する場合それ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Copies the elements of the collection to an array, starting at the specified index of the target array.</source>
+          <target state="translated">ターゲット配列の指定したインデックスにある開始位置として、配列にコレクションの要素をコピーします。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.CodeDom.Compiler.TempFileCollection&gt; instance is cast to an &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.CodeDom.Compiler.TempFileCollection&gt;にインスタンスをキャスト、&lt;xref:System.Collections.ICollection&gt;インターフェイス&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The one-dimensional &lt;xref:System.Array&gt; that is the destination of the elements copied from &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">&lt;xref:System.Array&gt; &lt;xref:System.Collections.ICollection&gt;。&lt;/xref:System.Collections.ICollection&gt;からコピーした要素のコピー先である&lt;/xref:System.Array&gt;1 次元</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Array&gt; must have zero-based indexing.</source>
+          <target state="translated">&lt;xref:System.Array&gt;0 から始まるインデックス番号が必要です&lt;/xref:System.Array&gt;。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The zero-based index in array at which copying begins.</source>
+          <target state="translated">開始するコピーの配列の&amp;0; から始まるインデックス。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets the number of elements contained in the collection.</source>
+          <target state="translated">コレクションに含まれる要素の数を取得します。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.CodeDom.Compiler.TempFileCollection&gt; instance is cast to an &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.CodeDom.Compiler.TempFileCollection&gt;にインスタンスをキャスト、&lt;xref:System.Collections.ICollection&gt;インターフェイス&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The number of elements contained in the &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;。&lt;/xref:System.Collections.ICollection&gt;に含まれる要素の数</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether access to the collection is synchronized (thread safe).</source>
+          <target state="translated">コレクションへのアクセスが同期されているかどうかを示す値 (スレッド セーフである) を取得します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.CodeDom.Compiler.TempFileCollection&gt; instance is cast to an &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.CodeDom.Compiler.TempFileCollection&gt;にインスタンスをキャスト、&lt;xref:System.Collections.ICollection&gt;インターフェイス&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if access to the &lt;xref:System.Collections.ICollection&gt; is synchronized (thread safe); otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合へのアクセス、&lt;xref:System.Collections.ICollection&gt;が同期 (スレッド セーフな) ですそれ以外の場合、 <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。&lt;/xref:System.Collections.ICollection&gt; 。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Gets an object that can be used to synchronize access to the collection.</source>
+          <target state="translated">コレクションへのアクセスを同期するために使用できるオブジェクトを取得します。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.CodeDom.Compiler.TempFileCollection&gt; instance is cast to an &lt;xref:System.Collections.ICollection&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.CodeDom.Compiler.TempFileCollection&gt;にインスタンスをキャスト、&lt;xref:System.Collections.ICollection&gt;インターフェイス&lt;/xref:System.Collections.ICollection&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>An object that can be used to synchronize access to the &lt;xref:System.Collections.ICollection&gt;.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;。&lt;/xref:System.Collections.ICollection&gt;へのアクセスを同期するために使用できるオブジェクト</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Returns an enumerator that iterates through a collection.</source>
+          <target state="translated">コレクションを反復処理する列挙子を返します。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.CodeDom.Compiler.TempFileCollection&gt; instance is cast to an &lt;xref:System.Collections.IEnumerable&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.CodeDom.Compiler.TempFileCollection&gt;にインスタンスをキャスト、&lt;xref:System.Collections.IEnumerable&gt;インターフェイス&lt;/xref:System.Collections.IEnumerable&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; that can be used to iterate through the collection.</source>
+          <target state="translated">&lt;xref:System.Collections.IEnumerator&gt;コレクションを反復処理に使用できる&lt;/xref:System.Collections.IEnumerator&gt;。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</source>
+          <target state="translated">解放、リリース、またはアンマネージ リソースのリセットに関連付けられているアプリケーション定義のタスクを実行します。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>This member is an explicit interface member implementation.</source>
+          <target state="translated">このメンバーは、明示的なインターフェイス メンバーの実装です。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>It can be used only when the &lt;xref:System.CodeDom.Compiler.TempFileCollection&gt; instance is cast to an &lt;xref:System.IDisposable&gt; interface.</source>
+          <target state="translated">使用する場合にのみ、&lt;xref:System.CodeDom.Compiler.TempFileCollection&gt;にインスタンスをキャスト、&lt;xref:System.IDisposable&gt;インターフェイス&lt;/xref:System.IDisposable&gt;&lt;/xref:System.CodeDom.Compiler.TempFileCollection&gt;。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Gets the temporary directory to store the temporary files in.</source>
+          <target state="translated">一時ファイルを保存する一時ディレクトリを取得します。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The temporary directory to store the temporary files in.</source>
+          <target state="translated">一時ファイルを保存する一時ディレクトリです。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

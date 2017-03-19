@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ca694fa893704040c1750b3af4a5b75a4d11345</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Threading.ThreadPool.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">20e6e7007a343a4397389f4342ee168c6fa4feba</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">104685958ab9f148f376ded976c4acf120b8d949</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a pool of threads that can be used to execute tasks, post work items, process asynchronous I/O, wait on behalf of other threads, and process timers.</source>
+          <target state="translated">Gir et utvalg av tråder som kan brukes til å utføre oppgaver, post-arbeidselementer, behandle asynkront i/u, Ventingen på vegne av andre tråder og behandle tidtakerne.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Many applications create threads that spend a great deal of time in the sleeping state, waiting for an event to occur.</source>
+          <target state="translated">Mange programmer opprette tråder som bruker mye tidspunktet tilstanden i dvalemodus, venter på en hendelse kan utføres.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Other threads might enter a sleeping state only to be awakened periodically to poll for a change or update status information.</source>
+          <target state="translated">Andre tråder kan angi en i dvalemodus tilstand bare reaktiveres regelmessig for å registrere deg for en endring eller oppdatere statusinformasjon.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The thread pool enables you to use threads more efficiently by providing your application with a pool of worker threads that are managed by the system.</source>
+          <target state="translated">Trådutvalget kan du bruke tråder mer effektivt ved å gi programmet med et utvalg av arbeidstråder som administreres av systemet.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Examples of operations that use thread pool threads include the following:      -   When you create a &lt;xref:System.Threading.Tasks.Task&gt; or &lt;xref:System.Threading.Tasks.Task%601&gt; object to perform some task asynchronously, by default the task is scheduled to run on a thread pool thread.</source>
+          <target state="translated">Operasjoner som bruker tråd applikasjonsutvalget tråder eksempler på følgende: – Når du oppretter en &lt;xref:System.Threading.Tasks.Task&gt;eller &lt;xref:System.Threading.Tasks.Task%601&gt;-objektet til å utføre noen asynkront, som standard planlegges til å kjøre på en tråd applikasjonsutvalget tråd.&lt;/xref:System.Threading.Tasks.Task%601&gt; &lt;/xref:System.Threading.Tasks.Task&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Asynchronous timers use the thread pool.</source>
+          <target state="translated">-Asynkron tidtakerne Bruk trådutvalget.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Thread pool threads execute callbacks from the &lt;xref:System.Threading.Timer?displayProperty=fullName&gt; class and raise events from the &lt;xref:System.Timers.Timer?displayProperty=fullName&gt; class.</source>
+          <target state="translated">Tråden applikasjonsutvalget tråder utføres tilbakeringinger fra &lt;xref:System.Threading.Timer?displayProperty=fullName&gt;klassen og øke hendelser fra &lt;xref:System.Timers.Timer?displayProperty=fullName&gt;klasse.&lt;/xref:System.Timers.Timer?displayProperty=fullName&gt; &lt;/xref:System.Threading.Timer?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When you use registered wait handles, a system thread monitors the status of the wait handles.</source>
+          <target state="translated">-Når du bruker registrerte Vent håndtak, overvåker en systemtråd statusen for Vent håndtakene.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a wait operation completes, a worker thread from the thread pool executes the corresponding callback function.</source>
+          <target state="translated">Når en Venteoperasjonen er fullført, utfører en arbeidstråd fra trådutvalget tilsvarende Tilbakekallfunksjonen.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When you call the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; method to queue a method for execution on a thread pool thread.</source>
+          <target state="translated">-Når du kaller den &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;metoden kø en metode for kjøring på en tråd applikasjonsutvalget tråd.&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do this by passing the method a &lt;xref:System.Threading.WaitCallback&gt; delegate.</source>
+          <target state="translated">Du gjør dette ved å sende metoden en &lt;xref:System.Threading.WaitCallback&gt;delegere.&lt;/xref:System.Threading.WaitCallback&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The delegate has the signature      <bpt id="p1">&lt;CodeContentPlaceHolder&gt;</bpt>0<ept id="p1">&lt;/CodeContentPlaceHolder&gt;</ept>   <bpt id="p2">&lt;CodeContentPlaceHolder&gt;</bpt>1<ept id="p2">&lt;/CodeContentPlaceHolder&gt;</ept>        where <ph id="ph1">`state`</ph> is an object that contains data to be used by the delegate.</source>
+          <target state="translated">Representanten har signaturen <bpt id="p1">&lt;CodeContentPlaceHolder&gt;</bpt>0<ept id="p1">&lt;/CodeContentPlaceHolder&gt;</ept><bpt id="p2">&lt;CodeContentPlaceHolder&gt;</bpt>1<ept id="p2">&lt;/CodeContentPlaceHolder&gt;</ept> der <ph id="ph1">`state`</ph> er et objekt som inneholder data som skal brukes av representanten.   </target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The actual data can be passed to the delegate by calling the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt; method.</source>
+          <target state="translated">De faktiske dataene kan sendes til representanten ved å kalle den &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt;metoden.&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The threads in the managed thread pool are background threads.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Tråder i forvaltet trådutvalget er bakgrunnstråder som.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>That is, their &lt;xref:System.Threading.Thread.IsBackground%2A&gt; properties are <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Det vil si deres &lt;xref:System.Threading.Thread.IsBackground%2A&gt;egenskapene <ph id="ph1">`true`</ph>.&lt;/xref:System.Threading.Thread.IsBackground%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that a ThreadPool thread will not keep an application running after all foreground threads have exited.</source>
+          <target state="translated">Dette betyr at en arbeidstråd tråd ikke ta et program som kjører etter at alle forgrunnen tråder er avsluttet.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When the thread pool reuses a thread, it does not clear the data in thread local storage or in fields that are marked with the &lt;xref:System.ThreadStaticAttribute&gt; attribute.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Når trådutvalget blir brukt en tråd, operasjonen fjerner ikke data i tråd lokalt eller i feltene som er merket med den &lt;xref:System.ThreadStaticAttribute&gt;attributtet.&lt;/xref:System.ThreadStaticAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, when a method examines thread local storage or fields that are marked with the &lt;xref:System.ThreadStaticAttribute&gt; attribute, the values it finds might be left over from an earlier use of the thread pool thread.</source>
+          <target state="translated">Derfor når en metode undersøker tråd lokalt eller felt som er merket med den &lt;xref:System.ThreadStaticAttribute&gt;attributtet verdiene oppdages kan stå fra tidligere ved bruk av tråd applikasjonsutvalget tråden.&lt;/xref:System.ThreadStaticAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also queue work items that are not related to a wait operation to the thread pool.</source>
+          <target state="translated">Du kan også kø arbeidselementer som ikke er relatert til en operasjon for Vent til trådutvalget.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To request that a work item be handled by a thread in the thread pool, call the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; method.</source>
+          <target state="translated">For å be om at et arbeidselement håndteres av en tråd i thread pool kalle den &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;metoden.&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method takes as a parameter a reference to the method or delegate that will be called by the thread selected from the thread pool.</source>
+          <target state="translated">Denne metoden tar som en parameter en referanse til metoden eller representanten som kalles av tråd valgte fra trådutvalget.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no way to cancel a work item after it has been queued.</source>
+          <target state="translated">Det er ikke mulig å avbryte et arbeidselement etter at den er plassert i kø.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Timer-queue timers and registered wait operations also use the thread pool.</source>
+          <target state="translated">Tidtaker køen tidtakerne og registrert Vent operasjoner må du også bruke trådutvalget.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Their callback functions are queued to the thread pool.</source>
+          <target state="translated">Funksjonene sine tilbakeringing er i kø til trådutvalget.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is one thread pool per process.</source>
+          <target state="translated">Det er én trådutvalget per sekund.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Beginning with the <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, the default size of the thread pool for a process depends on several factors, such as the size of the virtual address space.</source>
+          <target state="translated">Begynner med den <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, standardstørrelsen på trådutvalget for en prosess som er avhengig av flere faktorer, for eksempel størrelsen på det virtuelle adresseområdet.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A process can call the &lt;xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt; method to determine the number of threads.</source>
+          <target state="translated">En prosess kan kalle den &lt;xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt;metode for å bestemme antall tråder.&lt;/xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The number of threads in the thread pool can be changed by using the &lt;xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt; method.</source>
+          <target state="translated">Antall tråder som trådutvalget kan endres ved hjelp av den &lt;xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt;metoden.&lt;/xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each thread uses the default stack size and runs at the default priority.</source>
+          <target state="translated">Hver tråd bruker stakk standardstørrelsen og kjører på standardprioritet.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Unmanaged code that hosts the .NET Framework can change the size of the thread pool by using the <ph id="ph2">`CorSetMaxThreads`</ph> function, defined in the mscoree.h file.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ubehandlet kode som er vert for .NET Framework kan endre størrelsen på trådutvalget ved hjelp av <ph id="ph2">`CorSetMaxThreads`</ph> -funksjonen, som er definert i filen mscoree.h.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The thread pool provides new worker threads or I/O completion threads on demand until it reaches the minimum for each category.</source>
+          <target state="translated">Thread pool gir nye arbeidstråder eller i/u-fullføring tråder ved behov før den når minimumsverdien for hver kategori.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When a minimum is reached, the thread pool can create additional threads in that category or wait until some tasks complete.</source>
+          <target state="translated">Når en minimumsverdi er nådd, kan trådutvalget opprette flere tråder i denne kategorien eller vente til noen oppgaver er fullført.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Beginning with the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the thread pool creates and destroys worker threads in order to optimize throughput, which is defined as the number of tasks that complete per unit of time.</source>
+          <target state="translated">Begynner med den <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, trådutvalget oppretter og ødelegger arbeidstråder for å optimalisere ytelse, som er definert som antall oppgaver som fullfører per tidsenheten.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Too few threads might not make optimal use of available resources, whereas too many threads could increase resource contention.</source>
+          <target state="translated">For få tråder kan ikke gjøre optimalisere bruken av tilgjengelige ressurser mens for mange tråder kan øke ressursen konflikten.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When demand is low, the actual number of thread pool threads can fall below the minimum values.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Når behov er lavt, faktisk antall tråder som tråd applikasjonsutvalget kan faller under minimumsverdien.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Threading.ThreadPool.GetMinThreads%2A&gt; method to obtain these minimum values.</source>
+          <target state="translated">Du kan bruke den &lt;xref:System.Threading.ThreadPool.GetMinThreads%2A&gt;metode for å hente disse minimumsverdiene.&lt;/xref:System.Threading.ThreadPool.GetMinThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  You can use the &lt;xref:System.Threading.ThreadPool.SetMinThreads%2A&gt; method to increase the minimum number of threads.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Kan du bruke den &lt;xref:System.Threading.ThreadPool.SetMinThreads%2A&gt;metode for å øke antallet tråder.&lt;/xref:System.Threading.ThreadPool.SetMinThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, unnecessarily increasing these values can cause performance problems.</source>
+          <target state="translated">Uten grunn øke disse verdiene kan imidlertid føre til problemer.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If too many tasks start at the same time, all of them might appear to be slow.</source>
+          <target state="translated">Hvis for mange oppgaver starter samtidig, vises alle kan derfor være treg.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most cases the thread pool will perform better with its own algorithm for allocating threads.</source>
+          <target state="translated">I de fleste tilfeller utfører trådutvalget bedre med sin egen algoritme for tilordning av tråder.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Binds an operating system handle to the <bpt id="p1">&lt;xref href="System.Threading.ThreadPool"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Binding en operativsystemet håndtak til den <bpt id="p1">&lt;xref href="System.Threading.ThreadPool"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; that holds the handle.</source>
+          <target state="translated">En &lt;xref:System.IntPtr&gt;som inneholder håndtaket.&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The handle must have been opened for overlapped I/O on the unmanaged side.</source>
+          <target state="translated">Referansen må ha åpnet for overlappende i/u på uforvaltede side.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the handle is bound; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis referansen er bundet; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">Oppkalleren har ikke den nødvendige tillatelsen.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Binds an operating system handle to the <bpt id="p1">&lt;xref href="System.Threading.ThreadPool"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Binding en operativsystemet håndtak til den <bpt id="p1">&lt;xref href="System.Threading.ThreadPool"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`osHandle`</ph> parameter should be a &lt;xref:Microsoft.Win32.SafeHandles.SafeFileHandle&gt;, which derives from the abstract &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; class.</source>
+          <target state="translated">Den <ph id="ph1">`osHandle`</ph> -parameteren må være en &lt;xref:Microsoft.Win32.SafeHandles.SafeFileHandle&gt;som er avledet fra abstrakt &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;klasse.&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt; &lt;/xref:Microsoft.Win32.SafeHandles.SafeFileHandle&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; that holds the operating system handle.</source>
+          <target state="translated">En &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;som inneholder operativsystemet håndtaket.&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The handle must have been opened for overlapped I/O on the unmanaged side.</source>
+          <target state="translated">Referansen må ha åpnet for overlappende i/u på uforvaltede side.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the handle is bound; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis referansen er bundet; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;osHandle&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;osHandle&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Retrieves the difference between the maximum number of thread pool threads returned by the &lt;xref:System.Threading.ThreadPool.GetMaxThreads*&gt; method, and the number currently active.</source>
+          <target state="translated">Henter forskjellen mellom det maksimale antallet tråd applikasjonsutvalget tråder som ble returnert av den &lt;xref:System.Threading.ThreadPool.GetMaxThreads*&gt;metoden og antall aktive.&lt;/xref:System.Threading.ThreadPool.GetMaxThreads*&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When GetAvailableThreads returns, the variable specified by <ph id="ph1">`workerThreads`</ph> contains the number of additional worker threads that can be started, and the variable specified by <ph id="ph2">`completionPortThreads`</ph> contains the number of additional asynchronous I/O threads that can be started.</source>
+          <target state="translated">Når GetAvailableThreads returnerer, variabelen som er angitt av <ph id="ph1">`workerThreads`</ph> inneholder antallet ekstra arbeidstråder som kan starte og variabelen som er angitt av <ph id="ph2">`completionPortThreads`</ph> inneholder antall ekstra asynkront i/u-tråder som kan startes.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are no available threads, additional thread pool requests remain queued until thread pool threads become available.</source>
+          <target state="translated">Hvis det er ingen tilgjengelige tråder, forblir ekstra tråd applikasjonsutvalget forespørsler i kø til tråd applikasjonsutvalget tråder blir tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The number of available worker threads.</source>
+          <target state="translated">Antall tilgjengelige arbeidstråder.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The number of available asynchronous I/O threads.</source>
+          <target state="translated">Antall tilgjengelige asynkrone i/u-tråder.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Retrieves the number of requests to the thread pool that can be active concurrently.</source>
+          <target state="translated">Henter antall forespørsler til trådutvalget som kan være aktive samtidig.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>All requests above that number remain queued until thread pool threads become available.</source>
+          <target state="translated">Alle forespørsler over dette nummeret forblir i kø til tråd applikasjonsutvalget tråder blir tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When GetMaxThreads returns, the variable specified by <ph id="ph1">`workerThreads`</ph> contains the maximum number of worker threads allowed in the thread pool, and the variable specified by <ph id="ph2">`completionPortThreads`</ph> contains the maximum number of asynchronous I/O threads allowed in the thread pool.</source>
+          <target state="translated">Når GetMaxThreads returnerer, variabelen som er angitt av <ph id="ph1">`workerThreads`</ph> inneholder maksimalt antall arbeidstråder som er tillatt i thread pool og variabel som er angitt av <ph id="ph2">`completionPortThreads`</ph> inneholder maksimalt antall tillatte i thread pool asynkront i/u-tråder.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Threading.ThreadPool.GetAvailableThreads%2A&gt; method to determine the actual number of threads in the thread pool at any given time.</source>
+          <target state="translated">Du kan bruke den &lt;xref:System.Threading.ThreadPool.GetAvailableThreads%2A&gt;metoden for å bestemme antall tråder i thread pool om gangen.&lt;/xref:System.Threading.ThreadPool.GetAvailableThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt; to set the maximum number of worker threads and asynchronous I/O threads in the thread pool.</source>
+          <target state="translated">Du kan bruke den &lt;xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt;du angir det maksimale antallet arbeidstråder og asynkront i/u-tråder i thread pool.&lt;/xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can queue as many thread pool requests as system memory allows.</source>
+          <target state="translated">Du kan sette som mange tråd applikasjonsutvalget forespørsler som tillater systemminnet.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If there are more requests than thread pool threads, the additional requests remain queued until thread pool threads become available.</source>
+          <target state="translated">Hvis det finnes flere forespørsler enn tråd applikasjonsutvalget tråder, forblir flere forespørsler i kø til tråd applikasjonsutvalget tråder blir tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The maximum number of worker threads in the thread pool.</source>
+          <target state="translated">Maksimalt antall arbeidstråder i trådutvalget.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The maximum number of asynchronous I/O threads in the thread pool.</source>
+          <target state="translated">Maksimalt antall tråder som asynkront i/u i trådutvalget.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Retrieves the minimum number of threads the thread pool creates on demand, as new requests are made, before switching to an algorithm for managing thread creation and destruction.</source>
+          <target state="translated">Henter minimum antall tråder som trådutvalget oppretter ved behov, slik at nye forespørsler, før du bytter til en algoritme for administrasjon av tråd oppretting og ødelegges.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The thread pool provides new worker threads or I/O completion threads on demand until it reaches the minimum for each category.</source>
+          <target state="translated">Thread pool gir nye arbeidstråder eller i/u-fullføring tråder ved behov før den når minimumsverdien for hver kategori.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the minimum number of threads is set to the number of processors on a system.</source>
+          <target state="translated">Minste antall tråder som er satt til antallet prosessorer på et system som standard.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the minimum is reached, the thread pool can create additional threads in that category or wait until some tasks complete.</source>
+          <target state="translated">Når minimumsverdien er nådd, kan trådutvalget opprette flere tråder i denne kategorien eller vente til noen oppgaver er fullført.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Beginning with the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the thread pool creates and destroys threads in order to optimize throughput, which is defined as the number of tasks that complete per unit of time.</source>
+          <target state="translated">Begynner med den <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, trådutvalget oppretter og ødelegger tråder for å optimalisere ytelse, som er definert som antall oppgaver som fullfører per tidsenheten.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Too few threads might not make optimal use of available resources, whereas too many threads could increase resource contention.</source>
+          <target state="translated">For få tråder kan ikke gjøre optimalisere bruken av tilgjengelige ressurser mens for mange tråder kan øke ressursen konflikten.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When demand is low, the actual number of thread pool threads can fall below the minimum values.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Når behov er lavt, faktisk antall tråder som tråd applikasjonsutvalget kan faller under minimumsverdien.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the minimum number of worker threads that the thread pool creates on demand.</source>
+          <target state="translated">Låse denne metoden, inneholder det minste antallet arbeidstråder som trådutvalget oppretter ved behov.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the minimum number of asynchronous I/O threads that the thread pool creates on demand.</source>
+          <target state="translated">Låse denne metoden, inneholder minimumsantallet asynkront i/u-tråder som trådutvalget oppretter ved behov.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Queues a method for execution.</source>
+          <target state="translated">En annen metode for kjøring i kø.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The method executes when a thread pool thread becomes available.</source>
+          <target state="translated">Metoden utfører når en tråd applikasjonsutvalget tråd blir tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can place data required by the queued method in the instance fields of the class in which the method is defined, or you can use the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt; overload that accepts an object containing the necessary data.</source>
+          <target state="translated">Du kan sette inn data som kreves av metoden i kø i feltene forekomsten av klassen der metoden er definert, eller du kan bruke den &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt;overbelastning som godtar et objekt som inneholder de nødvendige dataene.&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Visual Basic users can omit the &lt;xref:System.Threading.WaitCallback&gt; constructor, and simply use the <ph id="ph2">`AddressOf`</ph> operator when passing the callback method to &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Visual Basic-brukere kan utelate den &lt;xref:System.Threading.WaitCallback&gt;konstruktøren, og ganske enkelt å bruke den <ph id="ph2">`AddressOf`</ph> operatoren ved sending av tilbakeringing-metoden til &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;.&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; &lt;/xref:System.Threading.WaitCallback&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Visual Basic automatically calls the correct delegate constructor.</source>
+          <target state="translated">Visual Basic kaller automatisk riktig representanten-konstruktøren.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Version Information    In the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; method.</source>
+          <target state="translated">Versjonen informasjon i i .NET Framework, versjon 2.0, den &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;egenskapsverdien er overført til arbeidstråder i kø ved hjelp av den &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;metoden.&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">Sikkerhetskontohaveren informasjonen er ikke overført i tidligere versjoner.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the method to be executed.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerer metoden kjøres.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the method is successfully queued; &lt;xref:System.NotSupportedException&gt; is thrown if the work item could not be queued.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis metoden er lagt i kø; &lt;xref:System.NotSupportedException&gt;oppstår hvis arbeidselementet ikke kan plasseres i kø.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The common language runtime (CLR) is hosted, and the host does not support this action.</source>
+          <target state="translated">Common language runtime (CLR) er vertsbasert og verten støtter ikke denne handlingen.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Queues a method for execution, and specifies an object containing data to be used by the method.</source>
+          <target state="translated">En annen metode for kjøring i kø, og angir et objekt som inneholder data som skal brukes ved hjelp av metoden.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The method executes when a thread pool thread becomes available.</source>
+          <target state="translated">Metoden utfører når en tråd applikasjonsutvalget tråd blir tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the callback method requires complex data, you can define a class to contain the data.</source>
+          <target state="translated">Hvis metoden tilbakeringing krever kompliserte data, kan du definere en klasse skal inneholde dataene.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Visual Basic users can omit the &lt;xref:System.Threading.WaitCallback&gt; constructor, and simply use the <ph id="ph2">`AddressOf`</ph> operator when passing the callback method to QueueUserWorkItem.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Visual Basic-brukere kan utelate den &lt;xref:System.Threading.WaitCallback&gt;konstruktøren, og ganske enkelt å bruke den <ph id="ph2">`AddressOf`</ph> operatoren ved sending av tilbakeringing-metoden til QueueUserWorkItem.&lt;/xref:System.Threading.WaitCallback&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Visual Basic automatically calls the correct delegate constructor.</source>
+          <target state="translated">Visual Basic kaller automatisk riktig representanten-konstruktøren.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Version Information    In the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; method.</source>
+          <target state="translated">Versjonen informasjon i i .NET Framework, versjon 2.0, den &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;egenskapsverdien er overført til arbeidstråder i kø ved hjelp av den &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;metoden.&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">Sikkerhetskontohaveren informasjonen er ikke overført i tidligere versjoner.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the method to execute.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerer metoden som skal kjøres.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An object containing data to be used by the method.</source>
+          <target state="translated">Et objekt som inneholder data som skal brukes av metoden.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the method is successfully queued; &lt;xref:System.NotSupportedException&gt; is thrown if the work item could not be queued.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis metoden er lagt i kø; &lt;xref:System.NotSupportedException&gt;oppstår hvis arbeidselementet ikke kan plasseres i kø.&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The common language runtime (CLR) is hosted, and the host does not support this action.</source>
+          <target state="translated">Common language runtime (CLR) er vertsbasert og verten støtter ikke denne handlingen.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a 32-bit signed integer for the time-out in milliseconds.</source>
+          <target state="translated">Registrerer representant man skal vente på en &lt;xref:System.Threading.WaitHandle&gt;, angir et 32-biters fortegn for tidsavbrudd for i millisekunder.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">Når du er ferdig med den &lt;xref:System.Threading.RegisteredWaitHandle&gt;som returneres av denne metoden, kan du kontakte den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metode for å frigjøre referanser til Vent håndtaket.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">Vi anbefaler at du alltid ringer den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden, selv om du angir <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">Datasanering fungerer mer effektivt Hvis du kaller den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden i stedet for avhengig av den registrerte Vent referansen Sluttbehandler.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RegisterWaitForSingleObject method queues the specified delegate to the thread pool.</source>
+          <target state="translated">Metoden RegisterWaitForSingleObject køer angitte representanten til trådutvalget.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A worker thread will execute the delegate when one of the following occurs:      -   The specified object is in the signaled state.</source>
+          <target state="translated">En arbeidstråd vil kjøre representanten når oppstår ett av følgende:-det angitte objektet er i tilstanden signalisert.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The time-out interval elapses.</source>
+          <target state="translated">Det går-tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RegisterWaitForSingleObject method checks the current state of the specified object's &lt;xref:System.Threading.WaitHandle&gt;.</source>
+          <target state="translated">Metoden RegisterWaitForSingleObject kontrollerer den gjeldende tilstanden til det angitte objektet &lt;xref:System.Threading.WaitHandle&gt;.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object's state is unsignaled, the method registers a wait operation.</source>
+          <target state="translated">Hvis objektets tilstand unsignaled, registrerer metoden en operasjon på vent.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wait operation is performed by a thread from the thread pool.</source>
+          <target state="translated">Venteoperasjonen utføres av en tråd fra trådutvalget.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The delegate is executed by a worker thread when the object's state becomes signaled or the time-out interval elapses.</source>
+          <target state="translated">Representanten utføres av en arbeidstråd når objektets tilstand er signalisert eller tidsavbruddet utløper.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`timeOutInterval`</ph> parameter is not 0 (zero) and the <ph id="ph2">`executeOnlyOnce`</ph> parameter is <ph id="ph3">`false`</ph>, the timer is reset every time the event is signaled or the time-out interval elapses.</source>
+          <target state="translated">Hvis den <ph id="ph1">`timeOutInterval`</ph> parameteren er 0 (null) og <ph id="ph2">`executeOnlyOnce`</ph> parameteren er <ph id="ph3">`false`</ph>, tidtakeren tilbakestilles hver gang hendelsen signalisert eller tidsavbruddet utløper.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph2">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Ved hjelp av en &lt;xref:System.Threading.Mutex&gt;for <ph id="ph2">`waitObject`</ph> leverer ikke gjensidig unntak for tilbakeringinger fordi underliggende Win32 API bruker standard <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flagget, slik at hver tilbakeringing fordele på en egen tråd applikasjonsutvalget tråd.&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of a &lt;xref:System.Threading.Mutex&gt;, use a &lt;xref:System.Threading.Semaphore&gt; with a maximum count of 1.</source>
+          <target state="translated">I stedet for en &lt;xref:System.Threading.Mutex&gt;, Bruk et &lt;xref:System.Threading.Semaphore&gt;med et maksimalt antall 1.&lt;/xref:System.Threading.Semaphore&gt; &lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To cancel the wait operation, call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Hvis du vil avbryte Venteoperasjonen, kan du kalle den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wait thread uses the Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> function to monitor registered wait operations.</source>
+          <target state="translated">Vent tråden bruker Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> funksjonen til å overvåke registrerte Vent operasjoner.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if you must use the same native operating system handle in multiple calls to RegisterWaitForSingleObject, you must duplicate the handle using the Win32 <ph id="ph1">`DuplicateHandle`</ph> function.</source>
+          <target state="translated">Hvis du må bruke samme opprinnelig operativsystemet håndtaket i flere kall til RegisterWaitForSingleObject, må du derfor duplisere håndtak med Win32 <ph id="ph1">`DuplicateHandle`</ph> funksjonen.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that you should not pulse an event object passed to RegisterWaitForSingleObject, because the wait thread might not detect that the event is signaled before it is reset.</source>
+          <target state="translated">Vær oppmerksom på at du ikke skal pulse en hendelsesobjektet som er sendt til RegisterWaitForSingleObject, fordi Vent tråden ikke registrerer at hendelsen er signalisert før den er tilbakestilt.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before returning, the function modifies the state of some types of synchronization objects.</source>
+          <target state="translated">Før den returnerer, endrer funksjonen tilstanden av enkelte dokumenttyper synkroniseringsobjektene.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Modification occurs only for the object whose signaled state caused the wait condition to be satisfied.</source>
+          <target state="translated">Endringen oppstår bare for objektet som har angitt tilstand forårsaket Vent betingelsen oppfylles.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the count of a semaphore is decreased by one.</source>
+          <target state="translated">For eksempel er antall en semafor redusert av en.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Version Information    Starting with the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method.</source>
+          <target state="translated">Versjonen informasjon fra og med .NET Framework, versjon 2.0, den &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;egenskapsverdien er overført til arbeidstråder i kø ved hjelp av den &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;metoden.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">Sikkerhetskontohaveren informasjonen er ikke overført i tidligere versjoner.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">Den &lt;xref:System.Threading.WaitHandle&gt;til å registrere.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">Bruk en &lt;xref:System.Threading.WaitHandle&gt;enn &lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> representanten å kalle når den <ph id="ph1">`waitObject`</ph> parameteren signalisert.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate.</source>
+          <target state="translated">Objektet som er sendt til representanten.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">Tidsavbrudd i millisekunder.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">Hvis den <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameteren er 0 (null), funksjonen tester objektets tilstand, og returnerer umiddelbart.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">Hvis <ph id="ph1">`millisecondsTimeOutInterval`</ph> er -1, aldri går funksjonens tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>for å angi at tråden vil ikke lenger vente den <ph id="ph1">`waitObject`</ph> parameteren etter representanten er kalt; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> til å angi at tidtakeren tilbakestilles hver gang Venteoperasjonen er fullført før ventetiden er fjernet.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that encapsulates the native handle.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innkapsler den opprinnelige referansen.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">millisecondsTimeOutInterval</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">millisecondsTimeOutInterval</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er mindre enn -1.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a 64-bit signed integer for the time-out in milliseconds.</source>
+          <target state="translated">Registrerer representant man skal vente på en &lt;xref:System.Threading.WaitHandle&gt;, angir et 64-biters fortegn for tidsavbrudd for i millisekunder.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">Når du er ferdig med den &lt;xref:System.Threading.RegisteredWaitHandle&gt;som returneres av denne metoden, kan du kontakte den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metode for å frigjøre referanser til Vent håndtaket.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">Vi anbefaler at du alltid ringer den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden, selv om du angir <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">Datasanering fungerer mer effektivt Hvis du kaller den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden i stedet for avhengig av den registrerte Vent referansen Sluttbehandler.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RegisterWaitForSingleObject method queues the specified delegate to the thread pool.</source>
+          <target state="translated">Metoden RegisterWaitForSingleObject køer angitte representanten til trådutvalget.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A worker thread will execute the delegate when one of the following occurs:      -   The specified object is in the signaled state.</source>
+          <target state="translated">En arbeidstråd vil kjøre representanten når oppstår ett av følgende:-det angitte objektet er i tilstanden signalisert.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The time-out interval elapses.</source>
+          <target state="translated">Det går-tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RegisterWaitForSingleObject method checks the current state of the specified object's &lt;xref:System.Threading.WaitHandle&gt;.</source>
+          <target state="translated">Metoden RegisterWaitForSingleObject kontrollerer den gjeldende tilstanden til det angitte objektet &lt;xref:System.Threading.WaitHandle&gt;.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object's state is unsignaled, the method registers a wait operation.</source>
+          <target state="translated">Hvis objektets tilstand unsignaled, registrerer metoden en operasjon på vent.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wait operation is performed by a thread from the thread pool.</source>
+          <target state="translated">Venteoperasjonen utføres av en tråd fra trådutvalget.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The delegate is executed by a worker thread when the object's state becomes signaled or the time-out interval elapses.</source>
+          <target state="translated">Representanten utføres av en arbeidstråd når objektets tilstand er signalisert eller tidsavbruddet utløper.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`timeOutInterval`</ph> parameter is not 0 (zero) and the <ph id="ph2">`executeOnlyOnce`</ph> parameter is <ph id="ph3">`false`</ph>, the timer is reset every time the event is signaled or the time-out interval elapses.</source>
+          <target state="translated">Hvis den <ph id="ph1">`timeOutInterval`</ph> parameteren er 0 (null) og <ph id="ph2">`executeOnlyOnce`</ph> parameteren er <ph id="ph3">`false`</ph>, tidtakeren tilbakestilles hver gang hendelsen signalisert eller tidsavbruddet utløper.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph2">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Ved hjelp av en &lt;xref:System.Threading.Mutex&gt;for <ph id="ph2">`waitObject`</ph> leverer ikke gjensidig unntak for tilbakeringinger fordi underliggende Win32 API bruker standard <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flagget, slik at hver tilbakeringing fordele på en egen tråd applikasjonsutvalget tråd.&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of a &lt;xref:System.Threading.Mutex&gt;, use a &lt;xref:System.Threading.Semaphore&gt; with a maximum count of 1.</source>
+          <target state="translated">I stedet for en &lt;xref:System.Threading.Mutex&gt;, Bruk et &lt;xref:System.Threading.Semaphore&gt;med et maksimalt antall 1.&lt;/xref:System.Threading.Semaphore&gt; &lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To cancel the wait operation, call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Hvis du vil avbryte Venteoperasjonen, kan du kalle den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wait thread uses the Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> function to monitor registered wait operations.</source>
+          <target state="translated">Vent tråden bruker Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> funksjonen til å overvåke registrerte Vent operasjoner.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if you must use the same native operating system handle in multiple calls to RegisterWaitForSingleObject, you must duplicate the handle using the Win32 <ph id="ph1">`DuplicateHandle`</ph> function.</source>
+          <target state="translated">Hvis du må bruke samme opprinnelig operativsystemet håndtaket i flere kall til RegisterWaitForSingleObject, må du derfor duplisere håndtak med Win32 <ph id="ph1">`DuplicateHandle`</ph> funksjonen.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that you should not pulse an event object passed to RegisterWaitForSingleObject, because the wait thread might not detect that the event is signaled before it is reset.</source>
+          <target state="translated">Vær oppmerksom på at du ikke skal pulse en hendelsesobjektet som er sendt til RegisterWaitForSingleObject, fordi Vent tråden ikke registrerer at hendelsen er signalisert før den er tilbakestilt.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before returning, the function modifies the state of some types of synchronization objects.</source>
+          <target state="translated">Før den returnerer, endrer funksjonen tilstanden av enkelte dokumenttyper synkroniseringsobjektene.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Modification occurs only for the object whose signaled state caused the wait condition to be satisfied.</source>
+          <target state="translated">Endringen oppstår bare for objektet som har angitt tilstand forårsaket Vent betingelsen oppfylles.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the count of a semaphore is decreased by one.</source>
+          <target state="translated">For eksempel er antall en semafor redusert av en.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Version Information    Starting with the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method.</source>
+          <target state="translated">Versjonen informasjon fra og med .NET Framework, versjon 2.0, den &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;egenskapsverdien er overført til arbeidstråder i kø ved hjelp av den &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;metoden.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">Sikkerhetskontohaveren informasjonen er ikke overført i tidligere versjoner.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">Den &lt;xref:System.Threading.WaitHandle&gt;til å registrere.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">Bruk en &lt;xref:System.Threading.WaitHandle&gt;enn &lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> representanten å kalle når den <ph id="ph1">`waitObject`</ph> parameteren signalisert.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The object passed to the delegate.</source>
+          <target state="translated">Objektet som er sendt til representanten.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">Tidsavbrudd i millisekunder.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">Hvis den <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameteren er 0 (null), funksjonen tester objektets tilstand, og returnerer umiddelbart.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">Hvis <ph id="ph1">`millisecondsTimeOutInterval`</ph> er -1, aldri går funksjonens tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>for å angi at tråden vil ikke lenger vente den <ph id="ph1">`waitObject`</ph> parameteren etter representanten er kalt; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> til å angi at tidtakeren tilbakestilles hver gang Venteoperasjonen er fullført før ventetiden er fjernet.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that encapsulates the native handle.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innkapsler den opprinnelige referansen.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">millisecondsTimeOutInterval</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">millisecondsTimeOutInterval</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er mindre enn -1.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a &lt;xref:System.TimeSpan&gt; value for the time-out.</source>
+          <target state="translated">Registrerer representant man skal vente på en &lt;xref:System.Threading.WaitHandle&gt;, som angir en &lt;xref:System.TimeSpan&gt;verdien for tidsavbrudd for.&lt;/xref:System.TimeSpan&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">Når du er ferdig med den &lt;xref:System.Threading.RegisteredWaitHandle&gt;som returneres av denne metoden, kan du kontakte den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metode for å frigjøre referanser til Vent håndtaket.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">Vi anbefaler at du alltid ringer den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden, selv om du angir <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">Datasanering fungerer mer effektivt Hvis du kaller den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden i stedet for avhengig av den registrerte Vent referansen Sluttbehandler.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RegisterWaitForSingleObject method queues the specified delegate to the thread pool.</source>
+          <target state="translated">Metoden RegisterWaitForSingleObject køer angitte representanten til trådutvalget.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A worker thread will execute the delegate when one of the following occurs:      -   The specified object is in the signaled state.</source>
+          <target state="translated">En arbeidstråd vil kjøre representanten når oppstår ett av følgende:-det angitte objektet er i tilstanden signalisert.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The time-out interval elapses.</source>
+          <target state="translated">Det går-tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RegisterWaitForSingleObject method checks the current state of the specified object's &lt;xref:System.Threading.WaitHandle&gt;.</source>
+          <target state="translated">Metoden RegisterWaitForSingleObject kontrollerer den gjeldende tilstanden til det angitte objektet &lt;xref:System.Threading.WaitHandle&gt;.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object's state is unsignaled, the method registers a wait operation.</source>
+          <target state="translated">Hvis objektets tilstand unsignaled, registrerer metoden en operasjon på vent.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wait operation is performed by a thread from the thread pool.</source>
+          <target state="translated">Venteoperasjonen utføres av en tråd fra trådutvalget.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The delegate is executed by a worker thread when the object's state becomes signaled or the time-out interval elapses.</source>
+          <target state="translated">Representanten utføres av en arbeidstråd når objektets tilstand er signalisert eller tidsavbruddet utløper.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`timeOutInterval`</ph> parameter is not 0 (zero) and the <ph id="ph2">`executeOnlyOnce`</ph> parameter is <ph id="ph3">`false`</ph>, the timer is reset every time the event is signaled or the time-out interval elapses.</source>
+          <target state="translated">Hvis den <ph id="ph1">`timeOutInterval`</ph> parameteren er 0 (null) og <ph id="ph2">`executeOnlyOnce`</ph> parameteren er <ph id="ph3">`false`</ph>, tidtakeren tilbakestilles hver gang hendelsen signalisert eller tidsavbruddet utløper.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph2">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Ved hjelp av en &lt;xref:System.Threading.Mutex&gt;for <ph id="ph2">`waitObject`</ph> leverer ikke gjensidig unntak for tilbakeringinger fordi underliggende Win32 API bruker standard <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flagget, slik at hver tilbakeringing fordele på en egen tråd applikasjonsutvalget tråd.&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of a &lt;xref:System.Threading.Mutex&gt;, use a &lt;xref:System.Threading.Semaphore&gt; with a maximum count of 1.</source>
+          <target state="translated">I stedet for en &lt;xref:System.Threading.Mutex&gt;, Bruk et &lt;xref:System.Threading.Semaphore&gt;med et maksimalt antall 1.&lt;/xref:System.Threading.Semaphore&gt; &lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To cancel the wait operation, call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Hvis du vil avbryte Venteoperasjonen, kan du kalle den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wait thread uses the Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> function to monitor registered wait operations.</source>
+          <target state="translated">Vent tråden bruker Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> funksjonen til å overvåke registrerte Vent operasjoner.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if you must use the same native operating system handle in multiple calls to RegisterWaitForSingleObject, you must duplicate the handle using the Win32 <ph id="ph1">`DuplicateHandle`</ph> function.</source>
+          <target state="translated">Hvis du må bruke samme opprinnelig operativsystemet håndtaket i flere kall til RegisterWaitForSingleObject, må du derfor duplisere håndtak med Win32 <ph id="ph1">`DuplicateHandle`</ph> funksjonen.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that you should not pulse an event object passed to RegisterWaitForSingleObject, because the wait thread might not detect that the event is signaled before it is reset.</source>
+          <target state="translated">Vær oppmerksom på at du ikke skal pulse en hendelsesobjektet som er sendt til RegisterWaitForSingleObject, fordi Vent tråden ikke registrerer at hendelsen er signalisert før den er tilbakestilt.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before returning, the function modifies the state of some types of synchronization objects.</source>
+          <target state="translated">Før den returnerer, endrer funksjonen tilstanden av enkelte dokumenttyper synkroniseringsobjektene.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Modification occurs only for the object whose signaled state caused the wait condition to be satisfied.</source>
+          <target state="translated">Endringen oppstår bare for objektet som har angitt tilstand forårsaket Vent betingelsen oppfylles.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the count of a semaphore is decreased by one.</source>
+          <target state="translated">For eksempel er antall en semafor redusert av en.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Version Information    Starting with the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method.</source>
+          <target state="translated">Versjonen informasjon fra og med .NET Framework, versjon 2.0, den &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;egenskapsverdien er overført til arbeidstråder i kø ved hjelp av den &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;metoden.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">Sikkerhetskontohaveren informasjonen er ikke overført i tidligere versjoner.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">Den &lt;xref:System.Threading.WaitHandle&gt;til å registrere.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">Bruk en &lt;xref:System.Threading.WaitHandle&gt;enn &lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> representanten å kalle når den <ph id="ph1">`waitObject`</ph> parameteren signalisert.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The object passed to the delegate.</source>
+          <target state="translated">Objektet som er sendt til representanten.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The time-out represented by a &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated">Tidsavbruddet som er representert av &lt;xref:System.TimeSpan&gt;.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`timeout`</ph> is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">Hvis <ph id="ph1">`timeout`</ph> er 0 (null), funksjonen tester objektets tilstand, og returnerer umiddelbart.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`timeout`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">Hvis <ph id="ph1">`timeout`</ph> er -1, aldri går funksjonens tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>for å angi at tråden vil ikke lenger vente den <ph id="ph1">`waitObject`</ph> parameteren etter representanten er kalt; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> til å angi at tidtakeren tilbakestilles hver gang Venteoperasjonen er fullført før ventetiden er fjernet.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that encapsulates the native handle.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som innkapsler den opprinnelige referansen.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er mindre enn -1.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than <ph id="ph2">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er større enn <ph id="ph2">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a 32-bit unsigned integer for the time-out in milliseconds.</source>
+          <target state="translated">Registrerer representant man skal vente på en &lt;xref:System.Threading.WaitHandle&gt;, angir et 32-biters heltall uten fortegn for tidsavbrudd for i millisekunder.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">Når du er ferdig med den &lt;xref:System.Threading.RegisteredWaitHandle&gt;som returneres av denne metoden, kan du kontakte den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metode for å frigjøre referanser til Vent håndtaket.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">Vi anbefaler at du alltid ringer den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden, selv om du angir <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">Datasanering fungerer mer effektivt Hvis du kaller den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden i stedet for avhengig av den registrerte Vent referansen Sluttbehandler.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method queues the specified delegate to the thread pool.</source>
+          <target state="translated">Den &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;metoden køer angitte representanten til trådutvalget.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A worker thread will execute the delegate when one of the following occurs:      -   The specified object is in the signaled state.</source>
+          <target state="translated">En arbeidstråd vil kjøre representanten når oppstår ett av følgende:-det angitte objektet er i tilstanden signalisert.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The time-out interval elapses.</source>
+          <target state="translated">Det går-tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;method checks the current state of the specified object's &lt;xref:System.Threading.WaitHandle&gt;.</source>
+          <target state="translated">&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;Metoden kontrollerer den gjeldende tilstanden til det angitte objektet &lt;xref:System.Threading.WaitHandle&gt;.&lt;/xref:System.Threading.WaitHandle&gt; &lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the object's state is unsignaled, the method registers a wait operation.</source>
+          <target state="translated">Hvis objektets tilstand unsignaled, registrerer metoden en operasjon på vent.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wait operation is performed by a thread from the thread pool.</source>
+          <target state="translated">Venteoperasjonen utføres av en tråd fra trådutvalget.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The delegate is executed by a worker thread when the object's state becomes signaled or the time-out interval elapses.</source>
+          <target state="translated">Representanten utføres av en arbeidstråd når objektets tilstand er signalisert eller tidsavbruddet utløper.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the <ph id="ph1">`timeOutInterval`</ph> parameter is not 0 (zero) and the <ph id="ph2">`executeOnlyOnce`</ph> parameter is <ph id="ph3">`false`</ph>, the timer is reset every time the event is signaled or the time-out interval elapses.</source>
+          <target state="translated">Hvis den <ph id="ph1">`timeOutInterval`</ph> parameteren er 0 (null) og <ph id="ph2">`executeOnlyOnce`</ph> parameteren er <ph id="ph3">`false`</ph>, tidtakeren tilbakestilles hver gang hendelsen signalisert eller tidsavbruddet utløper.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph2">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; Ved hjelp av en &lt;xref:System.Threading.Mutex&gt;for <ph id="ph2">`waitObject`</ph> leverer ikke gjensidig unntak for tilbakeringinger fordi underliggende Win32 API bruker standard <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flagget, slik at hver tilbakeringing fordele på en egen tråd applikasjonsutvalget tråd.&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead of a &lt;xref:System.Threading.Mutex&gt;, use a &lt;xref:System.Threading.Semaphore&gt; with a maximum count of 1.</source>
+          <target state="translated">I stedet for en &lt;xref:System.Threading.Mutex&gt;, Bruk et &lt;xref:System.Threading.Semaphore&gt;med et maksimalt antall 1.&lt;/xref:System.Threading.Semaphore&gt; &lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To cancel the wait operation, call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">Hvis du vil avbryte Venteoperasjonen, kan du kalle den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The wait thread uses the Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> function to monitor registered wait operations.</source>
+          <target state="translated">Vent tråden bruker Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> funksjonen til å overvåke registrerte Vent operasjoner.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, if you must use the same native operating system handle in multiple calls to &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;, you must duplicate the handle using the Win32 <ph id="ph1">`DuplicateHandle`</ph> function.</source>
+          <target state="translated">Derfor Hvis du må bruke samme opprinnelig operativsystemet håndtaket i flere kall til &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;, må du duplisere håndtak med Win32 <ph id="ph1">`DuplicateHandle`</ph> funksjonen.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Note that you should not pulse an event object passed to &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;, because the wait thread might not detect that the event is signaled before it is reset.</source>
+          <target state="translated">Vær oppmerksom på at du ikke skal pulse en hendelse-objekt som er sendt til &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;fordi Vent tråden ikke registrerer at hendelsen er signalisert før den er tilbakestilt.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before returning, the function modifies the state of some types of synchronization objects.</source>
+          <target state="translated">Før den returnerer, endrer funksjonen tilstanden av enkelte dokumenttyper synkroniseringsobjektene.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Modification occurs only for the object whose signaled state caused the wait condition to be satisfied.</source>
+          <target state="translated">Endringen oppstår bare for objektet som har angitt tilstand forårsaket Vent betingelsen oppfylles.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the count of a semaphore is decreased by one.</source>
+          <target state="translated">For eksempel er antall en semafor redusert av en.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Version Information    Starting with the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method.</source>
+          <target state="translated">Versjonen informasjon fra og med .NET Framework, versjon 2.0, den &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;egenskapsverdien er overført til arbeidstråder i kø ved hjelp av den &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;metoden.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">Sikkerhetskontohaveren informasjonen er ikke overført i tidligere versjoner.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">Den &lt;xref:System.Threading.WaitHandle&gt;til å registrere.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">Bruk en &lt;xref:System.Threading.WaitHandle&gt;enn &lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> representanten å kalle når den <ph id="ph1">`waitObject`</ph> parameteren signalisert.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The object passed to the delegate.</source>
+          <target state="translated">Objektet som er sendt til representanten.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">Tidsavbrudd i millisekunder.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">Hvis den <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameteren er 0 (null), funksjonen tester objektets tilstand, og returnerer umiddelbart.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">Hvis <ph id="ph1">`millisecondsTimeOutInterval`</ph> er -1, aldri går funksjonens tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>for å angi at tråden vil ikke lenger vente den <ph id="ph1">`waitObject`</ph> parameteren etter representanten er kalt; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> til å angi at tidtakeren tilbakestilles hver gang Venteoperasjonen er fullført før ventetiden er fjernet.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used to cancel the registered wait operation.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som kan brukes til å avbryte Venteoperasjonen registrerte.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">millisecondsTimeOutInterval</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">millisecondsTimeOutInterval</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er mindre enn -1.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Sets the number of requests to the thread pool that can be active concurrently.</source>
+          <target state="translated">Angir antallet forespørsler til trådutvalget som kan være aktive samtidig.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>All requests above that number remain queued until thread pool threads become available.</source>
+          <target state="translated">Alle forespørsler over dette nummeret forblir i kø til tråd applikasjonsutvalget tråder blir tilgjengelig.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You cannot set the maximum number of worker threads or I/O completion threads to a number smaller than the number of processors on the computer.</source>
+          <target state="translated">Du kan ikke angi maksimalt antall arbeidstråder eller i/u-fullføring tråder til et tall mindre enn antallet prosessorer på datamaskinen.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine how many processors are present, retrieve the value of the &lt;xref:System.Environment.ProcessorCount%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">Hvis du vil finne ut hvor mange prosessorer finnes, kan du hente verdien for den &lt;xref:System.Environment.ProcessorCount%2A?displayProperty=fullName&gt;egenskapen.&lt;/xref:System.Environment.ProcessorCount%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition, you cannot set the maximum number of worker threads or I/O completion threads to a number smaller than the corresponding minimum number of worker threads or I/O completion threads.</source>
+          <target state="translated">I tillegg kan du angi maksimalt antall arbeidstråder eller i/u-fullføring tråder til et tall som er mindre enn det tilsvarende minste antallet arbeidstråder eller i/u-fullføring tråder.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To determine the minimum thread pool size,  call the &lt;xref:System.Threading.ThreadPool.GetMinThreads%2A&gt; method.</source>
+          <target state="translated">Hvis du vil finne den minste tråd størrelsen for tilkoblingsutvalg, kan du kalle den &lt;xref:System.Threading.ThreadPool.GetMinThreads%2A&gt;metoden.&lt;/xref:System.Threading.ThreadPool.GetMinThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the common language runtime is hosted, for example by Internet Information Services (IIS) or SQL Server, the host can limit or prevent changes to the thread pool size.</source>
+          <target state="translated">Hvis common language runtime er plassert, for eksempel av Internet Information Services (IIS) eller SQL Server, kan verten begrense eller forhindre endringer i størrelse for tilkoblingsutvalg for tråd.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use caution when changing the maximum number of threads in the thread pool.</source>
+          <target state="translated">Vær forsiktig når du endrer det maksimale antallet tråder i trådutvalget.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While your code might benefit, the changes might have an adverse effect on code libraries you use.</source>
+          <target state="translated">Mens koden kan fordelene med, vil endringene kan ha en negativ innvirkning på kodebiblioteker du bruker.</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting the thread pool size too large can cause performance problems.</source>
+          <target state="translated">Angi størrelse for tilkoblingsutvalg for tråd for stor, kan det føre til problemer.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If too many threads are executing at the same time, the task switching overhead becomes a significant factor.</source>
+          <target state="translated">Hvis for mange tråder kjøres samtidig, blir oppgaven bytter indirekte betydelige faktorer.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The maximum number of worker threads in the thread pool.</source>
+          <target state="translated">Maksimalt antall arbeidstråder i trådutvalget.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The maximum number of asynchronous I/O threads in the thread pool.</source>
+          <target state="translated">Maksimalt antall tråder som asynkront i/u i trådutvalget.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the change is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis endringen er fullført. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Sets the minimum number of threads the thread pool creates on demand, as new requests are made, before switching to an algorithm for managing thread creation and destruction.</source>
+          <target state="translated">Angir minimum antall tråder som trådutvalget oppretter ved behov, slik at nye forespørsler, før du bytter til en algoritme for administrasjon av tråd oppretting og ødelegges.</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The thread pool provides new worker threads or I/O completion threads on demand until it reaches the minimum for each category.</source>
+          <target state="translated">Thread pool gir nye arbeidstråder eller i/u-fullføring tråder ved behov før den når minimumsverdien for hver kategori.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the minimum is reached, the thread pool can create additional threads in that category or wait until some tasks complete.</source>
+          <target state="translated">Når minimumsverdien er nådd, kan trådutvalget opprette flere tråder i denne kategorien eller vente til noen oppgaver er fullført.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Beginning with the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the thread pool creates and destroys threads in order to optimize throughput, which is defined as the number of tasks that complete per unit of time.</source>
+          <target state="translated">Begynner med den <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, trådutvalget oppretter og ødelegger tråder for å optimalisere ytelse, som er definert som antall oppgaver som fullfører per tidsenheten.</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Too few threads might not make optimal use of available resources, whereas too many threads could increase resource contention.</source>
+          <target state="translated">For få tråder kan ikke gjøre optimalisere bruken av tilgjengelige ressurser mens for mange tråder kan øke ressursen konflikten.</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When demand is low, the actual number of thread pool threads can fall below the minimum values.</source>
+          <target state="translated">Når behov er lavt, kan faktisk antall tråder som tråd applikasjonsutvalget faller under minimumsverdien.</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you specify a negative number or a number larger than the maximum number of active thread pool threads (obtained using &lt;xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt;), SetMinThreads returns <ph id="ph1">`false`</ph> and does not change either of the minimum values.</source>
+          <target state="translated">Hvis du angir et negativt tall eller et tall som er større enn maksimalt antall aktive tråder applikasjonsutvalget tråder (hentet ved hjelp av &lt;xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt;), SetMinThreads returnerer <ph id="ph1">`false`</ph> og endres ikke ett av de laveste verdiene.&lt;/xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  By default, the minimum number of threads is set to the number of processors on a system.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Som standard er det minste antallet tråder satt til antallet prosessorer på et system.</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the SetMinThreads method to increase the minimum number ofthreads.</source>
+          <target state="translated">Du kan bruke SetMinThreads-metoden til å øke den minste tallet ofthreads.</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, unnecessarily increasing these values can cause performance problems.</source>
+          <target state="translated">Uten grunn øke disse verdiene kan imidlertid føre til problemer.</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If too many tasks start at the same time, all of them might appear to be slow.</source>
+          <target state="translated">Hvis for mange oppgaver starter samtidig, vises alle kan derfor være treg.</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In most cases, the thread pool will perform better with its own algorithm for allocating threads.</source>
+          <target state="translated">I de fleste tilfeller utfører trådutvalget bedre med sin egen algoritme for tilordning av tråder.</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Reducing the minimum to less than the number of processors can also hurt performance.</source>
+          <target state="translated">Å redusere minimum til mindre enn antallet prosessorer kan også legge ytelse.</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The minimum number of worker threads that the thread pool creates on demand.</source>
+          <target state="translated">Minste antall arbeidstråder som trådutvalget oppretter ved behov.</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The minimum number of asynchronous I/O threads that the thread pool creates on demand.</source>
+          <target state="translated">Minste antall asynkrone i/u-tråder som trådutvalget oppretter ved behov.</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the change is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis endringen er fullført. Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Queues an overlapped I/O operation for execution.</source>
+          <target state="translated">En overlappende i/u-operasjon for kjøring i kø.</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about using native Win32 overlapped I/O, see the &lt;xref:System.Threading.Overlapped&gt; class, the &lt;xref:System.Threading.NativeOverlapped&gt; structure, and the <ph id="ph1">`OVERLAPPED`</ph> structure in the Win32 Platform SDK.</source>
+          <target state="translated">For informasjon om bruk av opprinnelig Win32 overlapper i/u, kan du se den &lt;xref:System.Threading.Overlapped&gt;klassen den &lt;xref:System.Threading.NativeOverlapped&gt;strukturen og <ph id="ph1">`OVERLAPPED`</ph> strukturen i Win32 SDK.&lt;/xref:System.Threading.NativeOverlapped&gt; &lt;/xref:System.Threading.Overlapped&gt;</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using the UnsafeQueueNativeOverlapped method could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Ved hjelp av UnsafeQueueNativeOverlapped metoden kan utilsiktet åpner et hull i sikkerheten.</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">Kodetilgangssikkerhet baseres tillatelse kontrollen i tillatelsene for alle brukere på stakken.</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When work is queued on a thread pool thread using UnsafeQueueNativeOverlapped, the stack of the thread pool thread does not have the context of the actual callers.</source>
+          <target state="translated">Når jobb er lagt i kø på en tråd applikasjonsutvalget tråd med UnsafeQueueNativeOverlapped, har ikke stakken tråd applikasjonsutvalget trådens konteksten for en faktisk brukere.</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">Skadelig kode kanskje utnytte dette for å unngå tillatelse database.</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.NativeOverlapped"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to queue.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.NativeOverlapped"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> strukturen til køen.</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the operation was successfully queued to an I/O completion port; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis operasjonen ble lagt i kø til en i/u-fullføring port; Ellers <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Queues the specified delegate to the thread pool, but does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">Køer angitte representanten til trådutvalget, men overføre ikke kall stakken til Arbeidstråden.</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; method, UnsafeQueueUserWorkItem does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">I motsetning til det &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;metode, UnsafeQueueUserWorkItem ikke overføre kall stakken til Arbeidstråden.&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows code to lose the calling stack and thereby to elevate its security privileges.</source>
+          <target state="translated">Dette gjør at koden miste kall bunken, og dermed å utvide sikkerhetsprivilegier.</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using UnsafeQueueUserWorkItem could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Ved hjelp av UnsafeQueueUserWorkItem utilsiktet kan åpne et hull i sikkerheten.</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">Kodetilgangssikkerhet baseres tillatelse kontrollen i tillatelsene for alle brukere på stakken.</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When work is queued on a thread pool thread using UnsafeQueueUserWorkItem, the stack of the thread pool thread will not have the context of the actual callers.</source>
+          <target state="translated">Når jobb er lagt i kø på en tråd applikasjonsutvalget tråd med UnsafeQueueUserWorkItem, får ikke stakken tråd applikasjonsutvalget trådens konteksten for en faktisk brukere.</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">Skadelig kode kanskje utnytte dette for å unngå tillatelse database.</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the delegate to invoke when a thread in the thread pool picks up the work item.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som representerer representanten å aktivere når en tråd i thread pool plukker opp arbeidselementet.</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate when serviced from the thread pool.</source>
+          <target state="translated">Objektet som er sendt til representanten når vedlikeholdt fra trådutvalget.</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the method succeeds; &lt;xref:System.OutOfMemoryException&gt; is thrown if the work item could not be queued.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Hvis metoden lykkes. &lt;xref:System.OutOfMemoryException&gt;oppstår hvis arbeidselementet ikke kan plasseres i kø.&lt;/xref:System.OutOfMemoryException&gt;</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">Oppkalleren har ikke den nødvendige tillatelsen.</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>An out-of-memory condition was encountered.</source>
+          <target state="translated">Fant en betingelse for lite minne.</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>The work item could not be queued.</source>
+          <target state="translated">Arbeidselementet kan ikke plasseres i kø.</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, using a 32-bit signed integer for the time-out in milliseconds.</source>
+          <target state="translated">Registrerer representant man skal vente på en &lt;xref:System.Threading.WaitHandle&gt;, ved hjelp av et 32-biters heltall med fortegn for tidsavbrudd i millisekunder.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>This method does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">Denne metoden overføre ikke kall stakken til Arbeidstråden.</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method, UnsafeRegisterWaitForSingleObject does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">I motsetning til det &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;metode, UnsafeRegisterWaitForSingleObject ikke overføre kall stakken til Arbeidstråden.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows code to lose the calling stack and thereby to elevate its security privileges.</source>
+          <target state="translated">Dette gjør at koden miste kall bunken, og dermed å utvide sikkerhetsprivilegier.</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using UnsafeRegisterWaitForSingleObject could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Ved hjelp av UnsafeRegisterWaitForSingleObject utilsiktet kan åpne et hull i sikkerheten.</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">Kodetilgangssikkerhet baseres tillatelse kontrollen i tillatelsene for alle brukere på stakken.</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When work is queued on a thread pool thread using UnsafeRegisterWaitForSingleObject, the stack of the thread pool thread will not have the context of the actual callers.</source>
+          <target state="translated">Når jobb er lagt i kø på en tråd applikasjonsutvalget tråd med UnsafeRegisterWaitForSingleObject, får ikke stakken tråd applikasjonsutvalget trådens konteksten for en faktisk brukere.</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">Skadelig kode kanskje utnytte dette for å unngå tillatelse database.</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph1">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">Ved hjelp av en &lt;xref:System.Threading.Mutex&gt;for <ph id="ph1">`waitObject`</ph> leverer ikke gjensidig unntak for tilbakeringinger fordi underliggende Win32 API bruker standard <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flagget, slik at hver tilbakeringing fordele på en egen tråd applikasjonsutvalget tråd.&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">Når du er ferdig med den &lt;xref:System.Threading.RegisteredWaitHandle&gt;som returneres av denne metoden, kan du kontakte den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metode for å frigjøre referanser til Vent håndtaket.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">Vi anbefaler at du alltid ringer den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden, selv om du angir <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">Datasanering fungerer mer effektivt Hvis du kaller den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden i stedet for avhengig av den registrerte Vent referansen Sluttbehandler.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">Den &lt;xref:System.Threading.WaitHandle&gt;til å registrere.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">Bruk en &lt;xref:System.Threading.WaitHandle&gt;enn &lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">Representanten å kalle når den <ph id="ph1">`waitObject`</ph> parameteren signalisert.</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate.</source>
+          <target state="translated">Objektet som er sendt til representanten.</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">Tidsavbrudd i millisekunder.</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">Hvis den <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameteren er 0 (null), funksjonen tester objektets tilstand, og returnerer umiddelbart.</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">Hvis <ph id="ph1">`millisecondsTimeOutInterval`</ph> er -1, aldri går funksjonens tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>for å angi at tråden vil ikke lenger vente den <ph id="ph1">`waitObject`</ph> parameteren etter representanten er kalt; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> til å angi at tidtakeren tilbakestilles hver gang Venteoperasjonen er fullført før ventetiden er fjernet.</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to cancel the registered wait operation.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som kan brukes til å avbryte Venteoperasjonen registrerte.</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">millisecondsTimeOutInterval</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">millisecondsTimeOutInterval</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er mindre enn -1.</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">Oppkalleren har ikke den nødvendige tillatelsen.</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a 64-bit signed integer for the time-out in milliseconds.</source>
+          <target state="translated">Registrerer representant man skal vente på en &lt;xref:System.Threading.WaitHandle&gt;, angir et 64-biters fortegn for tidsavbrudd for i millisekunder.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>This method does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">Denne metoden overføre ikke kall stakken til Arbeidstråden.</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method, UnsafeRegisterWaitForSingleObject does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">I motsetning til det &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;metode, UnsafeRegisterWaitForSingleObject ikke overføre kall stakken til Arbeidstråden.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows code to lose the calling stack and thereby to elevate its security privileges.</source>
+          <target state="translated">Dette gjør at koden miste kall bunken, og dermed å utvide sikkerhetsprivilegier.</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using UnsafeRegisterWaitForSingleObject could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Ved hjelp av UnsafeRegisterWaitForSingleObject utilsiktet kan åpne et hull i sikkerheten.</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">Kodetilgangssikkerhet baseres tillatelse kontrollen i tillatelsene for alle brukere på stakken.</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When work is queued on a thread pool thread using UnsafeRegisterWaitForSingleObject, the stack of the thread pool thread will not have the context of the actual callers.</source>
+          <target state="translated">Når jobb er lagt i kø på en tråd applikasjonsutvalget tråd med UnsafeRegisterWaitForSingleObject, får ikke stakken tråd applikasjonsutvalget trådens konteksten for en faktisk brukere.</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">Skadelig kode kanskje utnytte dette for å unngå tillatelse database.</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph1">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">Ved hjelp av en &lt;xref:System.Threading.Mutex&gt;for <ph id="ph1">`waitObject`</ph> leverer ikke gjensidig unntak for tilbakeringinger fordi underliggende Win32 API bruker standard <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flagget, slik at hver tilbakeringing fordele på en egen tråd applikasjonsutvalget tråd.&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">Når du er ferdig med den &lt;xref:System.Threading.RegisteredWaitHandle&gt;som returneres av denne metoden, kan du kontakte den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metode for å frigjøre referanser til Vent håndtaket.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">Vi anbefaler at du alltid ringer den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden, selv om du angir <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">Datasanering fungerer mer effektivt Hvis du kaller den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden i stedet for avhengig av den registrerte Vent referansen Sluttbehandler.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">Den &lt;xref:System.Threading.WaitHandle&gt;til å registrere.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">Bruk en &lt;xref:System.Threading.WaitHandle&gt;enn &lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">Representanten å kalle når den <ph id="ph1">`waitObject`</ph> parameteren signalisert.</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate.</source>
+          <target state="translated">Objektet som er sendt til representanten.</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">Tidsavbrudd i millisekunder.</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">Hvis den <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameteren er 0 (null), funksjonen tester objektets tilstand, og returnerer umiddelbart.</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">Hvis <ph id="ph1">`millisecondsTimeOutInterval`</ph> er -1, aldri går funksjonens tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>for å angi at tråden vil ikke lenger vente den <ph id="ph1">`waitObject`</ph> parameteren etter representanten er kalt; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> til å angi at tidtakeren tilbakestilles hver gang Venteoperasjonen er fullført før ventetiden er fjernet.</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to cancel the registered wait operation.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som kan brukes til å avbryte Venteoperasjonen registrerte.</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">millisecondsTimeOutInterval</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">millisecondsTimeOutInterval</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er mindre enn -1.</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">Oppkalleren har ikke den nødvendige tillatelsen.</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a &lt;xref:System.TimeSpan&gt; value for the time-out.</source>
+          <target state="translated">Registrerer representant man skal vente på en &lt;xref:System.Threading.WaitHandle&gt;, som angir en &lt;xref:System.TimeSpan&gt;verdien for tidsavbrudd for.&lt;/xref:System.TimeSpan&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>This method does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">Denne metoden overføre ikke kall stakken til Arbeidstråden.</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method, UnsafeRegisterWaitForSingleObject does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">I motsetning til det &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;metode, UnsafeRegisterWaitForSingleObject ikke overføre kall stakken til Arbeidstråden.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows code to lose the calling stack and thereby to elevate its security privileges.</source>
+          <target state="translated">Dette gjør at koden miste kall bunken, og dermed å utvide sikkerhetsprivilegier.</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using UnsafeRegisterWaitForSingleObject could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Ved hjelp av UnsafeRegisterWaitForSingleObject utilsiktet kan åpne et hull i sikkerheten.</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">Kodetilgangssikkerhet baseres tillatelse kontrollen i tillatelsene for alle brukere på stakken.</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When work is queued on a thread pool thread using UnsafeRegisterWaitForSingleObject, the stack of the thread pool thread will not have the context of the actual callers.</source>
+          <target state="translated">Når jobb er lagt i kø på en tråd applikasjonsutvalget tråd med UnsafeRegisterWaitForSingleObject, får ikke stakken tråd applikasjonsutvalget trådens konteksten for en faktisk brukere.</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">Skadelig kode kanskje utnytte dette for å unngå tillatelse database.</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph1">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">Ved hjelp av en &lt;xref:System.Threading.Mutex&gt;for <ph id="ph1">`waitObject`</ph> leverer ikke gjensidig unntak for tilbakeringinger fordi underliggende Win32 API bruker standard <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flagget, slik at hver tilbakeringing fordele på en egen tråd applikasjonsutvalget tråd.&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">Når du er ferdig med den &lt;xref:System.Threading.RegisteredWaitHandle&gt;som returneres av denne metoden, kan du kontakte den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metode for å frigjøre referanser til Vent håndtaket.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">Vi anbefaler at du alltid ringer den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden, selv om du angir <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">Datasanering fungerer mer effektivt Hvis du kaller den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden i stedet for avhengig av den registrerte Vent referansen Sluttbehandler.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">Den &lt;xref:System.Threading.WaitHandle&gt;til å registrere.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">Bruk en &lt;xref:System.Threading.WaitHandle&gt;enn &lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">Representanten å kalle når den <ph id="ph1">`waitObject`</ph> parameteren signalisert.</target>       </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate.</source>
+          <target state="translated">Objektet som er sendt til representanten.</target>       </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>The time-out represented by a &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated">Tidsavbruddet som er representert av &lt;xref:System.TimeSpan&gt;.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`timeout`</ph> is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">Hvis <ph id="ph1">`timeout`</ph> er 0 (null), funksjonen tester objektets tilstand, og returnerer umiddelbart.</target>       </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`timeout`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">Hvis <ph id="ph1">`timeout`</ph> er -1, aldri går funksjonens tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>for å angi at tråden vil ikke lenger vente den <ph id="ph1">`waitObject`</ph> parameteren etter representanten er kalt; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> til å angi at tidtakeren tilbakestilles hver gang Venteoperasjonen er fullført før ventetiden er fjernet.</target>       </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to cancel the registered wait operation.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som kan brukes til å avbryte Venteoperasjonen registrerte.</target>       </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er mindre enn -1.</target>       </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than <ph id="ph2">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated">Den <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept> parameteren er større enn <ph id="ph2">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">Oppkalleren har ikke den nødvendige tillatelsen.</target>       </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a 32-bit unsigned integer for the time-out in milliseconds.</source>
+          <target state="translated">Registrerer representant man skal vente på en &lt;xref:System.Threading.WaitHandle&gt;, angir et 32-biters heltall uten fortegn for tidsavbrudd for i millisekunder.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>This method does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">Denne metoden overføre ikke kall stakken til Arbeidstråden.</target>       </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Unlike the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method, UnsafeRegisterWaitForSingleObject does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">I motsetning til det &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;metode, UnsafeRegisterWaitForSingleObject ikke overføre kall stakken til Arbeidstråden.&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows code to lose the calling stack and thereby to elevate its security privileges.</source>
+          <target state="translated">Dette gjør at koden miste kall bunken, og dermed å utvide sikkerhetsprivilegier.</target>       </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using UnsafeRegisterWaitForSingleObject could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Ved hjelp av UnsafeRegisterWaitForSingleObject utilsiktet kan åpne et hull i sikkerheten.</target>       </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">Kodetilgangssikkerhet baseres tillatelse kontrollen i tillatelsene for alle brukere på stakken.</target>       </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When work is queued on a thread pool thread using UnsafeRegisterWaitForSingleObject, the stack of the thread pool thread will not have the context of the actual callers.</source>
+          <target state="translated">Når jobb er lagt i kø på en tråd applikasjonsutvalget tråd med UnsafeRegisterWaitForSingleObject, får ikke stakken tråd applikasjonsutvalget trådens konteksten for en faktisk brukere.</target>       </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">Skadelig kode kanskje utnytte dette for å unngå tillatelse database.</target>       </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph1">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">Ved hjelp av en &lt;xref:System.Threading.Mutex&gt;for <ph id="ph1">`waitObject`</ph> leverer ikke gjensidig unntak for tilbakeringinger fordi underliggende Win32 API bruker standard <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flagget, slik at hver tilbakeringing fordele på en egen tråd applikasjonsutvalget tråd.&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">Når du er ferdig med den &lt;xref:System.Threading.RegisteredWaitHandle&gt;som returneres av denne metoden, kan du kontakte den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metode for å frigjøre referanser til Vent håndtaket.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">Vi anbefaler at du alltid ringer den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden, selv om du angir <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">Datasanering fungerer mer effektivt Hvis du kaller den &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;metoden i stedet for avhengig av den registrerte Vent referansen Sluttbehandler.&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">Den &lt;xref:System.Threading.WaitHandle&gt;til å registrere.&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">Bruk en &lt;xref:System.Threading.WaitHandle&gt;enn &lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">Representanten å kalle når den <ph id="ph1">`waitObject`</ph> parameteren signalisert.</target>       </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate.</source>
+          <target state="translated">Objektet som er sendt til representanten.</target>       </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">Tidsavbrudd i millisekunder.</target>       </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">Hvis den <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameteren er 0 (null), funksjonen tester objektets tilstand, og returnerer umiddelbart.</target>       </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">Hvis <ph id="ph1">`millisecondsTimeOutInterval`</ph> er -1, aldri går funksjonens tidsavbrudd.</target>       </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>for å angi at tråden vil ikke lenger vente den <ph id="ph1">`waitObject`</ph> parameteren etter representanten er kalt; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> til å angi at tidtakeren tilbakestilles hver gang Venteoperasjonen er fullført før ventetiden er fjernet.</target>       </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to cancel the registered wait operation.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som kan brukes til å avbryte Venteoperasjonen registrerte.</target>       </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">Oppkalleren har ikke den nødvendige tillatelsen.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

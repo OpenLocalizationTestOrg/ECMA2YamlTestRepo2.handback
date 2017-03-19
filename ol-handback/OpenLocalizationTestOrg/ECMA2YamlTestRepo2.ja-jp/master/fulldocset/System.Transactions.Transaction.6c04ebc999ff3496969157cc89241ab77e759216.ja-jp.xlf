@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ja-jp">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5ced48c8d5d0f7dd424160950e131c9d580b5721</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Transactions.Transaction.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a3c285e915fc187ed624a06c0e008febeb252ef2</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">f5cf89252844805604385470e7e18ee37838defc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents a transaction.</source>
+          <target state="translated">トランザクションを表します。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Transactions&gt; namespace provides both an explicit programming model based on the Transaction class, as well as an implicit programming model using the &lt;xref:System.Transactions.TransactionScope&gt; class, in which transactions are automatically managed by the infrastructure.</source>
+          <target state="translated">&lt;xref:System.Transactions&gt;名前空間には明示的なプログラミング モデルに基づいて、トランザクション クラスだけでなく、暗黙的なプログラミング モデルを使用して、&lt;xref:System.Transactions.TransactionScope&gt;トランザクションを自動的にインフラストラクチャを管理するクラス&lt;/xref:System.Transactions.TransactionScope&gt;&lt;/xref:System.Transactions&gt;。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>It is highly recommended that you use the easier implicit model for development.</source>
+          <target state="translated">開発のため、簡単に暗黙的なモデルを使用することを強くお勧めします。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>To get started, please see the <bpt id="p1">[</bpt>Implementing An Implicit Transaction Using Transaction Scope<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept> topic.</source>
+          <target state="translated">最初に、次を参照してください、<bpt id="p1">[</bpt>を実装する、暗黙的なトランザクションを使用してトランザクション スコープ<ept id="p1">](http://msdn.microsoft.com/en-us/1ddba95e-7587-48b2-8838-708c275e7199)</ept>トピックです。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For more information on writing a transactional application, see <bpt id="p1">[</bpt>Writing A Transactional Application<ept id="p1">](http://msdn.microsoft.com/en-us/4a7cc4d1-0891-4605-941f-a933b9ce5bc8)</ept>.</source>
+          <target state="translated">トランザクション アプリケーションの作成の詳細については、次を参照してください。 <bpt id="p1">[</bpt>A トランザクション アプリケーションの記述<ept id="p1">](http://msdn.microsoft.com/en-us/4a7cc4d1-0891-4605-941f-a933b9ce5bc8)</ept>です。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>The Transaction class contains methods used by developers implementing resource managers for enlistment.</source>
+          <target state="translated">Transaction クラスには、リソース マネージャーの参加を実装している開発者によって使用されるメソッドが含まれています。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>It also provides functionalities for cloning a transaction and controlling the current transaction context.</source>
+          <target state="translated">トランザクションを複製および現在のトランザクション コンテキストを制御するための機能も提供します。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>You can obtain the current transaction, if one is set, using the static &lt;xref:System.Transactions.Transaction.Current%2A&gt; property.</source>
+          <target state="translated">現在のトランザクションを取得するには、1 つ設定されている場合、静的&lt;xref:System.Transactions.Transaction.Current%2A&gt;プロパティ&lt;/xref:System.Transactions.Transaction.Current%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Creates a clone of the transaction.</source>
+          <target state="translated">トランザクションの複製を作成します。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Clones are created to pass transactions.</source>
+          <target state="translated">トランザクションを渡すには、複製が作成されます。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>For example, you might not want to pass a &lt;xref:System.Transactions.CommittableTransaction&gt; to other applications, because you do not want others to commit your transaction.</source>
+          <target state="translated">たとえば、たくないに渡す、&lt;xref:System.Transactions.CommittableTransaction&gt;他のアプリケーションに対するたくない、トランザクションをコミットするためです&lt;/xref:System.Transactions.CommittableTransaction&gt;。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>If you try to marshal or serialize a transaction, a clone is created for you automatically.</source>
+          <target state="translated">マーシャ リングやトランザクションをシリアル化しようとする場合、複製する自動的に作成されます。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is a copy of the current transaction object.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>現在のトランザクション オブジェクトのコピーであります。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Gets or sets the ambient transaction.</source>
+          <target state="translated">取得またはアンビエント トランザクションを設定します。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information on ambient transactions, please see the "Managing transaction flow using TransactionScopeOption" section of the <bpt id="p1">[</bpt>Implementing an Implicit Transaction using Transaction Scope<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> topic.</source>
+          <target state="translated">アンビエント トランザクションの詳細については、「TransactionScopeOption を使用してトランザクション フローを管理する」セクションを参照してください、<bpt id="p1">[</bpt>トランザクション スコープを使用して、暗黙的なトランザクションを実装する<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>トピックです。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Although you can set the ambient transaction using this property, you should use the &lt;xref:System.Transactions.TransactionScope&gt; object to manipulate the ambient transaction whenever possible.</source>
+          <target state="translated">使用する必要がありますが、このプロパティを使用してアンビエント トランザクションを設定することができます、&lt;xref:System.Transactions.TransactionScope&gt;可能な場合は、アンビエント トランザクションを操作するオブジェクト&lt;/xref:System.Transactions.TransactionScope&gt;。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This property is thread static.</source>
+          <target state="translated">このプロパティは、静的なスレッドです。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>If you change the ambient transaction using this property inside a &lt;xref:System.Transactions.TransactionScope&gt; an &lt;xref:System.InvalidOperationException&gt; is thrown when &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; is called, and the previous ambient transaction value is restored.</source>
+          <target state="translated">内には、このプロパティを使用してアンビエント トランザクションを変更するかどうか、 &lt;xref:System.Transactions.TransactionScope&gt;、&lt;xref:System.InvalidOperationException&gt;場合にスローされる&lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;が呼び出されると、アンビエント トランザクションの前の値を復元します&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt;&lt;/xref:System.InvalidOperationException&gt;&lt;/xref:System.Transactions.TransactionScope&gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the current transaction.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>現在のトランザクションを説明します。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Creates a dependent clone of the transaction.</source>
+          <target state="translated">トランザクションの依存する複製を作成します。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A dependent transaction is a transaction whose outcome depends on the outcome of the transaction from which it was cloned.</source>
+          <target state="translated">従属トランザクションは、トランザクションの結果が複製元となるトランザクションの結果によって異なります。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`cloneoption`</ph> parameter controls what kind of dependent transaction to create.</source>
+          <target state="translated"><ph id="ph1">`cloneoption`</ph>パラメーターが作成する従属トランザクションの種類を制御します。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>If a dependent transaction is created with &lt;xref:System.Transactions.DependentCloneOption&gt;, it blocks the commit process of the transaction until the transaction times out, or &lt;xref:System.Transactions.DependentTransaction.Complete%2A&gt; is called on the &lt;xref:System.Transactions.DependentTransaction&gt;.</source>
+          <target state="translated">依存するトランザクションが&lt;xref:System.Transactions.DependentCloneOption&gt;ブロックのトランザクションがタイムアウトするまでのトランザクションまたは&lt;xref:System.Transactions.DependentTransaction.Complete%2A&gt;&lt;xref:System.Transactions.DependentTransaction&gt;。&lt;/xref:System.Transactions.DependentTransaction&gt;で呼び出されると&lt;/xref:System.Transactions.DependentTransaction.Complete%2A&gt;コミット処理&lt;/xref:System.Transactions.DependentCloneOption&gt;で作成された場合</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If it is created with &lt;xref:System.Transactions.DependentCloneOption&gt;, it automatically aborts the transaction if &lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt; is called before &lt;xref:System.Transactions.DependentTransaction.Complete%2A&gt; is called on the &lt;xref:System.Transactions.DependentTransaction&gt;.</source>
+          <target state="translated">使用して作成された場合&lt;xref:System.Transactions.DependentCloneOption&gt;場合、トランザクションは自動的に中止&lt;xref:System.Transactions.CommittableTransaction.Commit%2A&gt;&lt;xref:System.Transactions.DependentTransaction.Complete%2A&gt;&lt;xref:System.Transactions.DependentTransaction&gt;.&lt;/xref:System.Transactions.DependentTransaction&gt;で呼び出される&lt;/xref:System.Transactions.DependentTransaction.Complete%2A&gt;前に呼び出されます&lt;/xref:System.Transactions.CommittableTransaction.Commit%2A&gt;&lt;/xref:System.Transactions.DependentCloneOption&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.DependentCloneOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that controls what kind of dependent transaction to create.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.DependentCloneOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>作成に依存するトランザクションの種類を制御します。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.DependentTransaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the dependent clone.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.DependentTransaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>を表す依存クローンします。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Releases the resources that are held by the object.</source>
+          <target state="translated">オブジェクトによって保持されているリソースを解放します。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>If you change the ambient transaction by setting &lt;xref:System.Transactions.Transaction.Current%2A&gt; inside a &lt;xref:System.Transactions.TransactionScope&gt; an &lt;xref:System.InvalidOperationException&gt; is thrown when &lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt; is called, and the previous ambient transaction value is restored.</source>
+          <target state="translated">設定して、アンビエント トランザクションを変更した場合&lt;xref:System.Transactions.Transaction.Current%2A&gt;内、 &lt;xref:System.Transactions.TransactionScope&gt;、&lt;xref:System.InvalidOperationException&gt;場合にスローされる&lt;xref:System.Transactions.TransactionScope.Dispose%2A&gt;が呼び出されると、アンビエント トランザクションの前の値を復元します&lt;/xref:System.Transactions.TransactionScope.Dispose%2A&gt;&lt;/xref:System.InvalidOperationException&gt;&lt;/xref:System.Transactions.TransactionScope&gt;&lt;/xref:System.Transactions.Transaction.Current%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Enlists a durable resource manager that supports two phase commit to participate in a transaction.</source>
+          <target state="translated">トランザクションに参加する&amp;2; フェーズ コミットをサポートする永続的なリソース マネージャーを参加させます。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Resource managers with a durable enlistment must be able to perform recovery if they experience a failure.</source>
+          <target state="translated">永続参加リストを持つリソース マネージャーは、エラーが発生した場合、回復を実行できる必要があります。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">回復の詳細については、次を参照してください。<bpt id="p1">[</bpt>を実行する回復<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>です。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>For more information on volatile and durable resources, as well as how to enlist a resource, see <bpt id="p1">[</bpt>Implementing A Resource Manager<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>.</source>
+          <target state="translated">揮発性および持続性のあるリソースだけでなく、リソースを参加させる方法の詳細については、次を参照してください。 <bpt id="p1">[</bpt>A リソース マネージャーの実装<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>です。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>For more information on how a resource manager responds to commit notification and prepare the commit in two-phase commit, see <bpt id="p1">[</bpt>Committing A Transaction In Single-Phase and Multi-Phase<ept id="p1">](http://msdn.microsoft.com/en-us/74b3cfe1-d33a-45b8-91f4-dfd6f6598c4d)</ept>.</source>
+          <target state="translated">リソース マネージャーが通知をコミットし、2 フェーズ コミットのコミットの準備にどのように応答する方法の詳細については、次を参照してください。 <bpt id="p1">[</bpt>Single-Phase で、トランザクションのコミットとマルチ フェーズ<ept id="p1">](http://msdn.microsoft.com/en-us/74b3cfe1-d33a-45b8-91f4-dfd6f6598c4d)</ept>です。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Resource managers enlisted for participation in a transaction through this method receive two phase commit notifications that correspond to the methods defined on the &lt;xref:System.Transactions.IEnlistmentNotification&gt; interface.</source>
+          <target state="translated">このメソッドをトランザクションに参加するために参加しているリソース マネージャーで定義されたメソッドに対応する&amp;2; つのフェーズ コミットの通知を受信する、&lt;xref:System.Transactions.IEnlistmentNotification&gt;インターフェイス&lt;/xref:System.Transactions.IEnlistmentNotification&gt;。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A unique identifier for a resource manager, which should persist across resource manager failure or reboot.</source>
+          <target state="translated">リソース マネージャーのエラーの後も維持または再起動する必要がありますリソース マネージャーの一意の識別子。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface to receive two phase commit notifications.</source>
+          <target state="translated">実装するオブジェクト、 <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インターフェイスが&amp;2; フェーズ コミットの通知を受信します。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resource manager wants to perform additional work during the prepare phase.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>リソース マネージャーが準備フェーズ中に追加の処理を実行する場合。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>参加リストを記述するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Enlists a durable resource manager that supports single phase commit optimization to participate in a transaction.</source>
+          <target state="translated">トランザクションに参加する&amp;1; つのフェーズのコミットの最適化をサポートする永続的なリソース マネージャーを参加させます。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Resource managers with a durable enlistment must be able to perform recovery if they experience a failure.</source>
+          <target state="translated">永続参加リストを持つリソース マネージャーは、エラーが発生した場合、回復を実行できる必要があります。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>For more information on recovery, see <bpt id="p1">[</bpt>Performing Recovery<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>.</source>
+          <target state="translated">回復の詳細については、次を参照してください。<bpt id="p1">[</bpt>を実行する回復<ept id="p1">](http://msdn.microsoft.com/en-us/d342c5c7-da64-4a4c-8e63-b52f4fbf2691)</ept>です。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>For more information on volatile and durable resources, as well as how to enlist a resource, see <bpt id="p1">[</bpt>Implementing A Resource Manager<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>.</source>
+          <target state="translated">揮発性および持続性のあるリソースだけでなく、リソースを参加させる方法の詳細については、次を参照してください。 <bpt id="p1">[</bpt>A リソース マネージャーの実装<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>です。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You should note that even when your resource manager implementation enlists with this method, it is not guaranteed that it receives a single phase commit.</source>
+          <target state="translated">このメソッド、リソース マネージャーの実装に参加させた場合でもは保証されません単一フェーズのコミットを受け取ることに注意してください。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The transaction manager can still send two phase commit notifications instead.</source>
+          <target state="translated">トランザクション マネージャーは、2 フェーズ コミットの通知を代わりに送信することができますも。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>For more information on the single phase commit optimization, see <bpt id="p1">[</bpt>Optimization Using Single Phase Commit and Promotable Single Phase Notification<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>.</source>
+          <target state="translated">単一フェーズのコミットの最適化の詳細については、次を参照してください。<bpt id="p1">[</bpt>最適化を使用して単一フェーズのコミットが、昇格可能な&amp;1; つのフェーズ通知<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>です。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>A unique identifier for a resource manager, which should persist across resource manager failure or reboot.</source>
+          <target state="translated">リソース マネージャーのエラーの後も維持または再起動する必要がありますリソース マネージャーの一意の識別子。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Transactions.ISinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface that must be able to receive single phase commit and two phase commit notifications.</source>
+          <target state="translated">実装するオブジェクト、 <bpt id="p1">&lt;xref href="System.Transactions.ISinglePhaseNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>単一フェーズのコミットおよび&amp;2; フェーズ コミットの通知を受信できる必要があるインターフェイスです。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resource manager wants to perform additional work during the prepare phase.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>リソース マネージャーが準備フェーズ中に追加の処理を実行する場合。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>参加リストを記述するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Enlists a resource manager that has an internal transaction using a promotable single phase enlistment (PSPE).</source>
+          <target state="translated">昇格可能な単一フェーズの参加リスト (PSPE) を使用して内部トランザクションを持つリソース マネージャーを参加させます。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Enlistments in a transaction are volatile; that is, they do not survive the failure of the participant.</source>
+          <target state="translated">トランザクションの参加リストは揮発性です。つまり、参加者の障害は保持されません。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>In addition, this method only suggests the transaction manager to escalate control, but the escalation itself is not guaranteed.</source>
+          <target state="translated">さらに、このメソッドは、のみ制御をエスカレートするトランザクション マネージャーを提示は、エスカレーション自体とは限りません。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>If escalation fails, the user is not notified and the transaction is rolled back.</source>
+          <target state="translated">エスカレーションが失敗した場合、ユーザーは通知されず、トランザクションがロールバックします。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The parameter <ph id="ph1">`promotableSinglePhaseNotification`</ph> is used to communicate to the transaction manager the outcome of attempting to commit the resource manager's internal transaction.</source>
+          <target state="translated">パラメーター<ph id="ph1">`promotableSinglePhaseNotification`</ph>リソース マネージャーの内部トランザクションをコミットしようとしての結果、トランザクション マネージャーと通信するために使用します。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If inconsistent data is reported, the transaction manager throws an exception.</source>
+          <target state="translated">データの矛盾が報告された場合、トランザクション マネージャーは、例外をスローします。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>If an &lt;xref:System.Transactions.TransactionStatus&gt; outcome is reported, the transaction manager looks for the outcome notification in its own internal enlistment and ignores the reported response.</source>
+          <target state="translated">場合、&lt;xref:System.Transactions.TransactionStatus&gt;結果が報告された、トランザクション マネージャーが、独自の社内参加リストの結果の通知を検索し、報告された応答を無視します&lt;/xref:System.Transactions.TransactionStatus&gt;。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>For more information on enlistments and escalation of a transaction, please see <bpt id="p1">[</bpt>Transaction Management Escalation<ept id="p1">](http://msdn.microsoft.com/en-us/5b87ae58-8ccf-4b9b-9715-41e4aade89b7)</ept>.</source>
+          <target state="translated">参加リストと、トランザクションの昇格の詳細についてを参照してください<bpt id="p1">[</bpt>トランザクション管理のエスカレーション<ept id="p1">](http://msdn.microsoft.com/en-us/5b87ae58-8ccf-4b9b-9715-41e4aade89b7)</ept>です。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>For more information on PSPE, see <bpt id="p1">[</bpt>Optimization Using Single Phase Commit and Promotable Single Phase Notification<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>.</source>
+          <target state="translated">PSPE の詳細については、次を参照してください。<bpt id="p1">[</bpt>最適化を使用して&amp;1; つのフェーズをコミットし、昇格可能な&amp;1; つのフェーズ通知<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>です。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> This method uses &lt;xref:System.Security.Permissions.SecurityAction&gt; to prevent it from being called from untrusted code; however, only the immediate caller is required to possess the <ph id="ph1">`FullTrust`</ph> permission set.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注<ept id="p1">**</ept>このメソッドを使用して&lt;xref:System.Security.Permissions.SecurityAction&gt;されないようにするで、信頼されていないコードから呼び出されますただし、直前の呼び出し元だけが所有する必要が、<ph id="ph1">`FullTrust`</ph>アクセス許可セット。&lt;/xref:System.Security.Permissions.SecurityAction&gt; 。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface implemented by the participant.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>参加要素によって実装されるインターフェイス。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface implementation that describes the enlistment.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インターフェイスを実装します。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Enlists a resource manager that has an internal transaction using a promotable single phase enlistment (PSPE).</source>
+          <target state="translated">昇格可能な単一フェーズの参加リスト (PSPE) を使用して内部トランザクションを持つリソース マネージャーを参加させます。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If the value specified for the <ph id="ph1">`promoterType`</ph> parameter is <ph id="ph2">`TransactionInterop.PromoterTypeDtc`</ph>, the transaction <bpt id="p1">**</bpt>must<ept id="p1">**</ept> be promoted by MSDTC and the <ph id="ph3">`byte[]`</ph> returned from the <ph id="ph4">`IPromotableSinglePhaseNotification.Promote`</ph> method <bpt id="p2">**</bpt>must<ept id="p2">**</ept> be an MSDTC transaction propagation token.</source>
+          <target state="translated">値が指定されている場合、<ph id="ph1">`promoterType`</ph>パラメーターは<ph id="ph2">`TransactionInterop.PromoterTypeDtc`</ph>、トランザクション<bpt id="p1">**</bpt>必要があります<ept id="p1">**</ept>MSDTC によって昇格され、<ph id="ph3">`byte[]`</ph>から返される、<ph id="ph4">`IPromotableSinglePhaseNotification.Promote`</ph>メソッド<bpt id="p2">**</bpt>必要があります<ept id="p2">**</ept>MSDTC トランザクション伝達トークンであります。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If the value specified for the <ph id="ph1">`promoterType`</ph> parameter is <bpt id="p1">**</bpt>not<ept id="p1">**</ept><ph id="ph2">`TransactionInterop.PromoterTypeDTC`</ph>, the transaction will not be promoted by MSDTC, but rather by the caller’s implementation of <ph id="ph3">`IPromotableSinglePhaseNotification`</ph>.</source>
+          <target state="translated">値が指定されている場合、<ph id="ph1">`promoterType`</ph>パラメーターは<bpt id="p1">**</bpt>いない<ept id="p1">**</ept><ph id="ph2">`TransactionInterop.PromoterTypeDTC`</ph>、MSDTC によりがの呼び出し元の実装ではなく、トランザクションは昇格されません<ph id="ph3">`IPromotableSinglePhaseNotification`</ph>です。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>If this call is successful, there is a set of subsequent operations on the transaction that will return a <ph id="ph1">`TransactionPromotionException`</ph>.</source>
+          <target state="translated">返すトランザクションの後続の処理のセットがある場合、この呼び出しが成功すると、<ph id="ph1">`TransactionPromotionException`</ph>です。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>These operations are:      -   <ph id="ph1">`Transaction.EnlistDurable`</ph><ph id="ph2">      -   </ph><ph id="ph3">`TransactionInterop.GetDtcTransaction`</ph><ph id="ph4">      -   </ph><ph id="ph5">`TransactionInterop.GetExportCookie`</ph><ph id="ph6">      -   </ph><ph id="ph7">`TransctionInterop.GetTransmitterPropagationToken`</ph>      -   Serialization of a Transaction object</source>
+          <target state="translated">これらの操作:- <ph id="ph1">`Transaction.EnlistDurable`</ph> <ph id="ph2">      -   </ph> <ph id="ph3">`TransactionInterop.GetDtcTransaction`</ph> <ph id="ph4">      -   </ph> <ph id="ph5">`TransactionInterop.GetExportCookie`</ph> <ph id="ph6">      -   </ph> <ph id="ph7">`TransctionInterop.GetTransmitterPropagationToken`</ph> -トランザクション オブジェクトのシリアル化</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface implemented by the participant.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>参加要素によって実装されるインターフェイス。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The type of the distributed transaction processor.</source>
+          <target state="translated">分散トランザクション プロセッサの種類。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface implementation that describes the enlistment.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.SinglePhaseEnlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インターフェイスを実装します。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Enlists a volatile resource manager that supports two phase commit to participate in a transaction.</source>
+          <target state="translated">トランザクションに参加する&amp;2; フェーズ コミットをサポートしている揮発性リソース マネージャーを参加させます。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Volatile resource managers cannot recovery from failure to complete a transaction in which they were participating.</source>
+          <target state="translated">揮発性リソース マネージャーでは、関与してトランザクションを完了する障害からの復旧はできません。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>To obtain a durable enlistment in a transaction, use the &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; method.</source>
+          <target state="translated">トランザクションで永続参加リストを取得するを使用して、&lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;メソッド&lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Resource managers enlisted for participation in a transaction through this method receive two phase commit notifications that correspond to the methods defined on the &lt;xref:System.Transactions.IEnlistmentNotification&gt; interface.</source>
+          <target state="translated">このメソッドをトランザクションに参加するために参加しているリソース マネージャーで定義されたメソッドに対応する&amp;2; つのフェーズ コミットの通知を受信する、&lt;xref:System.Transactions.IEnlistmentNotification&gt;インターフェイス&lt;/xref:System.Transactions.IEnlistmentNotification&gt;。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface to receive two-phase commit notifications.</source>
+          <target state="translated">実装するオブジェクト、 <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インターフェイスが&amp;2; フェーズ コミットの通知を受信します。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resource manager wants to perform additional work during the prepare phase.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>リソース マネージャーが準備フェーズ中に追加の処理を実行する場合。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>参加リストを記述するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Enlists a volatile resource manager that supports single phase commit optimization to participate in a transaction.</source>
+          <target state="translated">トランザクションに参加する&amp;1; つのフェーズのコミットの最適化をサポートする揮発性リソース マネージャーを参加させます。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Volatile resource managers cannot recovery from failure to complete a transaction in which they were participating.</source>
+          <target state="translated">揮発性リソース マネージャーでは、関与してトランザクションを完了する障害からの復旧はできません。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>To obtain a durable enlistment in a transaction, use the &lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt; method.</source>
+          <target state="translated">トランザクションで永続参加リストを取得するを使用して、&lt;xref:System.Transactions.Transaction.EnlistDurable%2A&gt;メソッド&lt;/xref:System.Transactions.Transaction.EnlistDurable%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For more information on volatile and durable resources, as well as how to enlist a resource, see <bpt id="p1">[</bpt>Implementing A Resource Manager<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>.</source>
+          <target state="translated">揮発性および持続性のあるリソースだけでなく、リソースを参加させる方法の詳細については、次を参照してください。 <bpt id="p1">[</bpt>A リソース マネージャーの実装<ept id="p1">](http://msdn.microsoft.com/en-us/81509719-d579-4530-831e-42e1acdef63e)</ept>です。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>For more information on how a resource manager responds to commit notification and prepare the commit, see <bpt id="p1">[</bpt>Committing A Transaction In Single-Phase and Multi-Phase<ept id="p1">](http://msdn.microsoft.com/en-us/74b3cfe1-d33a-45b8-91f4-dfd6f6598c4d)</ept>.</source>
+          <target state="translated">リソース マネージャーが通知をコミットし、コミットの準備にどのように応答する方法の詳細については、次を参照してください。 <bpt id="p1">[</bpt>Single-Phase で、トランザクションのコミットとマルチ フェーズ<ept id="p1">](http://msdn.microsoft.com/en-us/74b3cfe1-d33a-45b8-91f4-dfd6f6598c4d)</ept>です。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>You should note that even when your resource manager implementation enlists with this method, it is not guaranteed that it receives a single phase commit.</source>
+          <target state="translated">このメソッド、リソース マネージャーの実装に参加させた場合でもは保証されません単一フェーズのコミットを受け取ることに注意してください。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The transaction manager can still send two phase commit notifications instead.</source>
+          <target state="translated">トランザクション マネージャーは、2 フェーズ コミットの通知を代わりに送信することができますも。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For more information on the single phase commit optimization, see <bpt id="p1">[</bpt>Optimization Using Single Phase Commit and Promotable Single Phase Notification<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>.</source>
+          <target state="translated">単一フェーズのコミットの最適化の詳細については、次を参照してください。<bpt id="p1">[</bpt>最適化を使用して単一フェーズのコミットが、昇格可能な&amp;1; つのフェーズ通知<ept id="p1">](http://msdn.microsoft.com/en-us/653d51d1-b4bf-4e34-9a6f-aec073f0f5bb)</ept>です。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Transactions.ISinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface that must be able to receive single phase commit and two phase commit notifications.</source>
+          <target state="translated">実装するオブジェクト、 <bpt id="p1">&lt;xref href="System.Transactions.ISinglePhaseNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>単一フェーズのコミットおよび&amp;2; フェーズ コミットの通知を受信できる必要があるインターフェイスです。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resource manager wants to perform additional work during the prepare phase.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>リソース マネージャーが準備フェーズ中に追加の処理を実行する場合。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that describes the enlistment.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Enlistment"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>参加リストを記述するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Determines whether this transaction and the specified object are equal.</source>
+          <target state="translated">このトランザクションと、指定したオブジェクトが等しいかどうかを判断します。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The object to compare with this instance.</source>
+          <target state="translated">このインスタンスと比較するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">obj</ph><ept id="p2">&lt;/code&gt;</ept> and this transaction are identical; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>場合<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">obj</ph> <ept id="p2">&lt;/code&gt;</ept>このトランザクションが同じである、それ以外の場合と<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>です。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Returns the hash code for this instance.</source>
+          <target state="translated">このインスタンスのハッシュ コードを返します。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>A 32-bit signed integer hash code.</source>
+          <target state="translated">32 ビット符号付き整数ハッシュ コード。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets the  <ph id="ph1">`byte[]`</ph> returned by the <ph id="ph2">`Promote`</ph> method when the transaction is promoted.</source>
+          <target state="translated">取得、<ph id="ph1">`byte[]`</ph>によって返される、<ph id="ph2">`Promote`</ph>メソッド、トランザクションを昇格するときにします。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>This method has the side effect of causing promotion of the transaction if it is not already promoted.</source>
+          <target state="translated">このメソッドでは、既に昇格していない場合は、トランザクションの昇格の原因の副作用が発生します。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The format of the returned <ph id="ph1">`byte[]`</ph> is defined by the value of the <ph id="ph2">`Transation.PromoterType`</ph> property.</source>
+          <target state="translated">返されたの形式<ph id="ph1">`byte[]`</ph>の値によって定義された、<ph id="ph2">`Transation.PromoterType`</ph>プロパティです。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>If the value of the <ph id="ph1">`Transaction.PromoterType`</ph> property is <ph id="ph2">`TransactionInterop.PromoterTypeDtc`</ph> or <ph id="ph3">`Guid.Empty`</ph>, then the <ph id="ph4">`byte[]`</ph> returned by this method is an MSDTC transmitter propagation token.</source>
+          <target state="translated">場合の値、<ph id="ph1">`Transaction.PromoterType`</ph>プロパティは<ph id="ph2">`TransactionInterop.PromoterTypeDtc`</ph>または<ph id="ph3">`Guid.Empty`</ph>、 <ph id="ph4">`byte[]`</ph> MSDTC トランスミッター伝達トークンは、このメソッドによって返されます。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Any other value for the <ph id="ph1">`Transaction.PromoterType`</ph> property specifies a format that is defined by the caller of <ph id="ph2">`Transaction.EnlistPromotableSinglePhase`</ph> that specified the property type value.</source>
+          <target state="translated">その他の値を<ph id="ph1">`Transaction.PromoterType`</ph>プロパティの呼び出し元が定義されている形式を指定する<ph id="ph2">`Transaction.EnlistPromotableSinglePhase`</ph>プロパティ型の値を指定します。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>In order to interpret the promoted token in this latter case, you will need to consult the documentation for the code that made the <ph id="ph1">`EnlistPromotableSinglePhase`</ph> call.</source>
+          <target state="translated">昇格を解釈するためにトークンをこの後者の場合にする必要が行われたコードのマニュアルを参照、<ph id="ph1">`EnlistPromotableSinglePhase`</ph>呼び出します。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The  <ph id="ph1">`byte[]`</ph> returned by the <ph id="ph2">`Promote`</ph> method when the transaction is promoted.</source>
+          <target state="translated"><ph id="ph1">`byte[]`</ph>によって返される、<ph id="ph2">`Promote`</ph>メソッド、トランザクションを昇格するときにします。</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Gets the isolation level of the transaction.</source>
+          <target state="translated">トランザクションの分離レベルを取得します。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>The isolation level of a transaction determines what level of access other transactions have to volatile data before a transaction completes.</source>
+          <target state="translated">トランザクションの分離レベルは、完了の他のトランザクションがトランザクションの前に揮発性のデータに対して持つアクセス レベルを決定します。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>For more information about isolation levels, see the documentation for the &lt;xref:System.Transactions.IsolationLevel&gt; enumeration.</source>
+          <target state="translated">分離レベルの詳細については、のドキュメントを参照して、&lt;xref:System.Transactions.IsolationLevel&gt;列挙体です&lt;/xref:System.Transactions.IsolationLevel&gt;。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Transactions.IsolationLevel"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values that indicates the isolation level of the transaction.</source>
+          <target state="translated">1 つ、 <bpt id="p1">&lt;xref href="System.Transactions.IsolationLevel"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>をトランザクションの分離レベルを示す値。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Tests whether two specified <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances are equivalent.</source>
+          <target state="translated">指定した&amp;2; つあるかどうかをテスト<bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>が等価です。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that is to the left of the equality operator.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>等値演算子の左側にあるインスタンスです。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that is to the right of the equality operator.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>等値演算子の右側にあるインスタンスです。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">x</ph><ept id="p2">&lt;/code&gt;</ept> and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">y</ph><ept id="p3">&lt;/code&gt;</ept> are equal; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">x</ph><ept id="p2">&lt;/code&gt;</ept> and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">y</ph><ept id="p3">&lt;/code&gt;</ept> are equal; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Returns a value that indicates whether two <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instances are not equal.</source>
+          <target state="translated">示す値を返します&amp;2; つあるかどうか<bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>インスタンスが等しくないです。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that is to the left of the inequality operator.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>非等値演算子の左側にあるインスタンスです。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance that is to the right of the inequality operator.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.Transaction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>非等値演算子の右側にあるインスタンスです。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">x</ph><ept id="p2">&lt;/code&gt;</ept> and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">y</ph><ept id="p3">&lt;/code&gt;</ept> are not equal; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">x</ph><ept id="p2">&lt;/code&gt;</ept> and <bpt id="p3">&lt;code&gt;</bpt><ph id="ph2">y</ph><ept id="p3">&lt;/code&gt;</ept> are not equal; otherwise, <bpt id="p4">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.2 and later versions]       Promotes and enlists a durable resource manager that supports two phase commit to participate in a transaction.</source>
+          <target state="translated">[.NET Framework 4.5.2 以降のバージョンでサポート]      昇格し、トランザクションに参加する 2 フェーズ コミットをサポートする永続的なリソース マネージャーを参加させます。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>A unique identifier for a resource manager, which should persist across resource manager failure or reboot.</source>
+          <target state="translated">リソース マネージャーのエラーの後も維持または再起動する必要がありますリソース マネージャーの一意の識別子。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>An object that acts as a commit delegate for a non-distributed transaction internal to a resource manager.</source>
+          <target state="translated">リソース マネージャーの内部非分散トランザクションのコミット代理として機能するオブジェクト。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>An object that implements the <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface to receive two phase commit notifications.</source>
+          <target state="translated">実装するオブジェクト、 <bpt id="p1">&lt;xref href="System.Transactions.IEnlistmentNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>インターフェイスが&amp;2; フェーズ コミットの通知を受信します。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the resource manager wants to perform additional work during the prepare phase.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Transactions.EnlistmentOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>リソース マネージャーが準備フェーズ中に追加の処理を実行する場合。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.2 and later versions]       Promotes and enlists a durable resource manager that supports two phase commit to participate in a transaction.</source>
+          <target state="translated">[.NET Framework 4.5.2 以降のバージョンでサポート]      昇格し、トランザクションに参加する 2 フェーズ コミットをサポートする永続的なリソース マネージャーを参加させます。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Uniquely identifies the format of the <ph id="ph1">`byte[]`</ph> returned by the Promote method when the transaction is promoted.</source>
+          <target state="translated">形式を一意に識別、<ph id="ph1">`byte[]`</ph>トランザクションを昇格するときに、Promote メソッドで返されます。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>If the transaction has not yet been promoted and does not yet have a promotable single phase enlistment, the value of this property will be <ph id="ph1">`Guid.Empty`</ph>.</source>
+          <target state="translated">トランザクションがまだ昇格されていない、昇格可能な単一フェーズの参加リストがない場合は、このプロパティの値になります<ph id="ph1">`Guid.Empty`</ph>です。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>If the transaction has been or will be promoted to MSDTC, then the value of this property will be <ph id="ph1">`TransactionInterop.PromoterTypeDtc`</ph>.</source>
+          <target state="translated">かどうか、トランザクションを超えたかは、MSDTC に昇格し、このプロパティの値になります<ph id="ph1">`TransactionInterop.PromoterTypeDtc`</ph>です。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>If the transaction has been or will be promoted by a non-MSDTC promoter, the value of this property will be the value specified to an earlier call to <ph id="ph1">`Transaction.EnlistPromotableSinglePhase`</ph>.</source>
+          <target state="translated">このプロパティの値が、以前の呼び出しに指定された値になりますかトランザクションが MSDTC でないプロモーターによって昇格されます、<ph id="ph1">`Transaction.EnlistPromotableSinglePhase`</ph>です。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>A guid that uniquely identifies the format of the <ph id="ph1">`byte[]`</ph> returned by the Promote method when the transaction is promoted.</source>
+          <target state="translated">形式を一意に識別する guid、<ph id="ph1">`byte[]`</ph>トランザクションを昇格するときに、Promote メソッドで返されます。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Rolls back (aborts) the transaction.</source>
+          <target state="translated">ロールバック (中止) トランザクション。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Any copy of a transaction object can initiate the rollback of the transaction by calling this method.</source>
+          <target state="translated">トランザクション オブジェクトのすべてのコピーは、このメソッドを呼び出すことによって、トランザクションのロールバックを開始できます。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Only the original transaction object, which is a &lt;xref:System.Transactions.CommittableTransaction&gt; object, can be used to initiate an attempt to commit the transaction.</source>
+          <target state="translated">元のトランザクション オブジェクトのみ、これは、&lt;xref:System.Transactions.CommittableTransaction&gt;オブジェクト、トランザクションのコミットを開始するために使用できます&lt;/xref:System.Transactions.CommittableTransaction&gt;。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>An exception is thrown when this method is called after the outcome of the transaction has already been determined.</source>
+          <target state="translated">トランザクションの結果が既に決定した後、このメソッドが呼び出されたときに、例外がスローされます。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Rolls back (aborts) the transaction.</source>
+          <target state="translated">ロールバック (中止) トランザクション。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>An explanation of why a rollback occurred.</source>
+          <target state="translated">ロールバックが発生した理由の説明。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>Sets the distributed transaction identifier generated by the non-MSDTC promoter.</source>
+          <target state="translated">MSDTC でないプロモーターによって生成される分散トランザクション識別子を設定します。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This method can only be called successfully while the <ph id="ph1">`IPromotableSinglePhaseNotification.Promote`</ph> method is being processed.</source>
+          <target state="translated">このメソッドは、正常にのみ呼び出すことができます中に、<ph id="ph1">`IPromotableSinglePhaseNotification.Promote`</ph>メソッドを処理しています。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If this method is called at any other time, a <ph id="ph1">`TransactionException`</ph> is thrown.</source>
+          <target state="translated">その他の任意の時にこのメソッドが呼び出された場合、<ph id="ph1">`TransactionException`</ph>がスローされます。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>The specified value of the <ph id="ph1">`promotableNotification`</ph> parameter must be the same object that was originally specified to the <ph id="ph2">`Transaction.EnlistPromotableSinglePhase`</ph> invocation.</source>
+          <target state="translated">指定された値、<ph id="ph1">`promotableNotification`</ph>パラメーターが指定されていたものを同じオブジェクトにする必要があります、<ph id="ph2">`Transaction.EnlistPromotableSinglePhase`</ph>呼び出しです。</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If this is not the case, then an <ph id="ph1">`InvalidOperationException`</ph> is thrown.</source>
+          <target state="translated">この場合、これがない場合、<ph id="ph1">`InvalidOperationException`</ph>がスローされます。</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface implemented by the participant.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.IPromotableSinglePhaseNotification"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>参加要素によって実装されるインターフェイス。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The identifier for the transaction used by the distributed transaction manager.</source>
+          <target state="translated">分散トランザクション マネージャーによって使用されるトランザクションの識別子。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with the data required to serialize this transaction.</source>
+          <target state="translated">取得、 <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>このトランザクションをシリアル化するために必要なデータを使用します。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to populate with data.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Runtime.Serialization.SerializationInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>にデータを設定します。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The destination (see &lt;xref:System.Runtime.Serialization.StreamingContext&gt; ) for this serialization.</source>
+          <target state="translated">宛先 (を参照してください&lt;xref:System.Runtime.Serialization.StreamingContext&gt;) このシリアル化します&lt;/xref:System.Runtime.Serialization.StreamingContext&gt;。</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Indicates that the transaction is completed.</source>
+          <target state="translated">トランザクションが完了したことを示します。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>You can register for this event instead of using a volatile enlistment to get outcome information for transactions.</source>
+          <target state="translated">揮発性参加リストを使用して、トランザクションの結果情報を取得する代わりにこのイベントを登録することができます。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The parameter passed to the &lt;xref:System.Transactions.TransactionCompletedEventHandler&gt; delegate is a &lt;xref:System.Transactions.Transaction&gt; instance.</source>
+          <target state="translated">渡されたパラメーター、&lt;xref:System.Transactions.TransactionCompletedEventHandler&gt;デリゲートは、&lt;xref:System.Transactions.Transaction&gt;インスタンス&lt;/xref:System.Transactions.Transaction&gt;&lt;/xref:System.Transactions.TransactionCompletedEventHandler&gt;。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>You can then query the &lt;xref:System.Transactions.Transaction.TransactionInformation%2A&gt; property of the specific instance to get an instance of &lt;xref:System.Transactions.TransactionInformation&gt;, whose &lt;xref:System.Transactions.TransactionInformation.Status%2A&gt; property contains the status of a transaction with either the &lt;xref:System.Transactions.TransactionStatus&gt; or &lt;xref:System.Transactions.TransactionStatus&gt; value.</source>
+          <target state="translated">クエリを実行できます、&lt;xref:System.Transactions.Transaction.TransactionInformation%2A&gt;のインスタンスを取得する特定のインスタンスのプロパティを&lt;xref:System.Transactions.TransactionInformation&gt;が&lt;xref:System.Transactions.TransactionInformation.Status%2A&gt;プロパティがいずれかでトランザクションの状態を表す、&lt;xref:System.Transactions.TransactionStatus&gt;または&lt;xref:System.Transactions.TransactionStatus&gt;値&lt;/xref:System.Transactions.TransactionStatus&gt;&lt;/xref:System.Transactions.TransactionStatus&gt;&lt;/xref:System.Transactions.TransactionInformation.Status%2A&gt;&lt;/xref:System.Transactions.TransactionInformation&gt;&lt;/xref:System.Transactions.Transaction.TransactionInformation%2A&gt;。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">**</bpt>Caution<ept id="p1">**</ept> Signing up for this event negatively affects the performance of the transaction it is attached to.</source>
+          <target state="translated"><bpt id="p1">**</bpt>注意<ept id="p1">**</ept>にアタッチされているトランザクションのパフォーマンスに影響を与える悪影響このイベントにサインアップします。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">追加します。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>An attempt to subscribe this event on a transaction that has been disposed.</source>
+          <target state="translated">このイベントは破棄されているトランザクションにサブスクライブしようとしました。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Retrieves additional information about a transaction.</source>
+          <target state="translated">トランザクションに関する追加情報を取得します。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Transactions.TransactionInformation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains additional information about the transaction.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Transactions.TransactionInformation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>トランザクションに関する追加情報を格納します。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

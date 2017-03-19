@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">701514d8fbb2b85a3e7b46d30e1550f0e3c78547</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.OleDb.OleDbDataReader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2874b24cb0c89dd24089184d9fb6d1a72a65c365</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2c65848ef14fc589f3d250d9a9226192a80b18fc</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a way of reading a forward-only stream of data rows from a data source.</source>
+          <target state="translated">Kan läsa en endast-framåt-dataström med rader med data från en datakälla.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class cannot be inherited.</source>
+          <target state="translated">Den här klassen kan inte ärvas.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create an OleDbDataReader, you must call the &lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt; method of the &lt;xref:System.Data.OleDb.OleDbCommand&gt; object, instead of directly using a constructor.</source>
+          <target state="translated">Om du vill skapa en OleDbDataReader måste du anropa den &lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;metod för den &lt;xref:System.Data.OleDb.OleDbCommand&gt;objektet i stället för direkt med en konstruktor.&lt;/xref:System.Data.OleDb.OleDbCommand&gt; &lt;/xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Before you close the &lt;xref:System.Data.OleDb.OleDbConnection&gt;, first close the OleDbDataReader object.</source>
+          <target state="translated">Innan du stänger den &lt;xref:System.Data.OleDb.OleDbConnection&gt;, först stänga objektet OleDbDataReader.&lt;/xref:System.Data.OleDb.OleDbConnection&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must also close the OleDbDataReader object if you plan to resuse an &lt;xref:System.Data.OleDb.OleDbCommand&gt; object.For example, you cannot retrieve output parameters until after you call &lt;xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt;.</source>
+          <target state="translated">Du måste också stänga OleDbDataReader objektet om du planerar att resuse ett &lt;xref:System.Data.OleDb.OleDbCommand&gt;-objekt. T.ex, du kan inte hämta utdataparametrar tills när du anropar &lt;xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt;.&lt;/xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt; &lt;/xref:System.Data.OleDb.OleDbCommand&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changes made to a result set by another process or thread while data is being read may be visible to the user of the OleDbDataReader.</source>
+          <target state="translated">Ändringar som gjorts i en resultatuppsättning med en annan process eller tråd när data läses kan vara synliga för användare av OleDbDataReader.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the precise behavior is timing dependent.</source>
+          <target state="translated">Dock beteendet exakt timing beroende.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.OleDb.OleDbDataReader.IsClosed%2A&gt; and &lt;xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt; are the only properties that you can call after the OleDbDataReader is closed.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbDataReader.IsClosed%2A&gt;och &lt;xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt;endast egenskaper som kan anropas när OleDbDataReader har stängts.&lt;/xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt;&lt;/xref:System.Data.OleDb.OleDbDataReader.IsClosed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although the &lt;xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt; property may be accessed while the OleDbDataReader exists, always call &lt;xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt; before returning the value of &lt;xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt; to guarantee an accurate return value.</source>
+          <target state="translated">Även om den &lt;xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt;egenskapen kanske alltid nås medan OleDbDataReader finns anropa &lt;xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt;innan det returneras värdet för &lt;xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt;att garantera en korrekt returvärde.&lt;/xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt; &lt;/xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt; &lt;/xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Closes the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Stänger den <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must explicitly call the Close method when you are through using the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; to use the associated &lt;xref:System.Data.OleDb.OleDbConnection&gt; for any other purpose.</source>
+          <target state="translated">Du måste explicit anropa metoden Close när du är klar med den &lt;xref:System.Data.OleDb.OleDbDataReader&gt;att använda den associerade &lt;xref:System.Data.OleDb.OleDbConnection&gt;i något annat syfte.&lt;/xref:System.Data.OleDb.OleDbConnection&gt; &lt;/xref:System.Data.OleDb.OleDbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Do not call <bpt id="p1">**</bpt>Close<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Dispose<ept id="p2">**</ept> on a Connection, a DataReader, or any other managed object in the <bpt id="p3">**</bpt>Finalize<ept id="p3">**</ept> method of your class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Anropar inte <bpt id="p1">**</bpt>Stäng<ept id="p1">**</ept> eller <bpt id="p2">**</bpt>ta bort<ept id="p2">**</ept> på en anslutning, en DataReader eller andra hanterat objekt i den <bpt id="p3">**</bpt>Slutför<ept id="p3">**</ept> -metoden i klassen.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In a finalizer, you should only release unmanaged resources that your class owns directly.</source>
+          <target state="translated">Du bör endast släpper ohanterade resurser som din klass äger direkt i en slutföraren.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If your class does not own any unmanaged resources, do not include a <bpt id="p1">**</bpt>Finalize<ept id="p1">**</ept> method in your class definition.</source>
+          <target state="translated">Om klassen inte äger ohanterade resurser innehåller inte en <bpt id="p1">**</bpt>Slutför<ept id="p1">**</ept> metod i klassdefinition.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Garbage Collection<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>skräpinsamling<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates the depth of nesting for the current row.</source>
+          <target state="translated">Hämtar ett värde som anger Nivådjupet för den aktuella raden.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The outermost table has a depth of zero.</source>
+          <target state="translated">Den yttersta tabellen har ett djup på noll.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The depth of nesting for the current row.</source>
+          <target state="translated">Djupet kapslingsnivåer för den aktuella raden.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets the number of columns in the current row.</source>
+          <target state="translated">Hämtar antalet kolumner i den aktuella raden.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Includes hidden fields.</source>
+          <target state="translated">Innehåller dolda fält.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use &lt;xref:System.Data.OleDb.OleDbDataReader.VisibleFieldCount%2A&gt; to exclude hidden fields.</source>
+          <target state="translated">Använd &lt;xref:System.Data.OleDb.OleDbDataReader.VisibleFieldCount%2A&gt;för att utesluta dolda fält.&lt;/xref:System.Data.OleDb.OleDbDataReader.VisibleFieldCount%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After executing a query that does not return rows, FieldCount returns 0.</source>
+          <target state="translated">När du kör en fråga som inte returnerar rader returnerar FieldCount 0.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>When not positioned in a valid recordset, 0; otherwise the number of columns in the current record.</source>
+          <target state="translated">När den inte placeras i en giltig postuppsättning 0; Annars antalet kolumner i den aktuella posten.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The default is -1.</source>
+          <target state="translated">Standardvärdet är -1.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>There is no current connection to a data source.</source>
+          <target state="translated">Det finns inte någon anslutning till en datakälla.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a Boolean.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som ett booleskt värde.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a Boolean, or an exception is generated.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara ett booleskt värde eller ett undantag genereras.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The value of the column.</source>
+          <target state="translated">Värdet för kolumnen.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a byte.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som en byte.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a byte.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara en byte.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The value of the specified column as a byte.</source>
+          <target state="translated">Värdet för den angivna kolumnen som en byte.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Reads a stream of bytes from the specified column offset into the buffer as an array starting at the given buffer offset.</source>
+          <target state="translated">Läser in en dataström med byte från den angivna kolumn förskjutningen i bufferten som en matris som börjar vid buffertförskjutningen för angivna.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetBytes returns the number of available bytes in the field.</source>
+          <target state="translated">GetBytes returnerar antalet tillgängliga byte i fältet.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the time this is the exact length of the field.</source>
+          <target state="translated">I de flesta fall är detta den exakta längden för fältet.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the number returned may be less than the true length of the field if <ph id="ph1">`GetBytes`</ph> has already been used to obtain bytes from the field.</source>
+          <target state="translated">Dock tal som returneras kan vara mindre än true längden för fältet om <ph id="ph1">`GetBytes`</ph> redan har använts för att hämta byte från fältet.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This may be the case, for example, when the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; is reading a large data structure into a buffer.</source>
+          <target state="translated">Detta kan vara fallet, till exempel när den &lt;xref:System.Data.OleDb.OleDbDataReader&gt;läser en struktur för stora mängder data i en buffert.&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the <ph id="ph1">`SequentialAccess`</ph> setting for &lt;xref:System.Data.CommandBehavior&gt;.</source>
+          <target state="translated">Mer information finns i <ph id="ph1">`SequentialAccess`</ph> inställning för &lt;xref:System.Data.CommandBehavior&gt;.&lt;/xref:System.Data.CommandBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you pass a buffer that is <ph id="ph1">`null`</ph>, GetBytes returns the length of the field in bytes.</source>
+          <target state="translated">Om du skickar en buffert som <ph id="ph1">`null`</ph>, GetBytes returnerar längden på fältet i byte.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be a byte array.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara en byte-matris.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The index within the field from which to start the read operation.</source>
+          <target state="translated">Det index i fältet från att starta läsningen.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The buffer into which to read the stream of bytes.</source>
+          <target state="translated">Den buffert som att läsa dataström med byte.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The index within the <ph id="ph1">`buffer`</ph> where the write operation is to start.</source>
+          <target state="translated">Indexet i den <ph id="ph1">`buffer`</ph> där åtgärden är att starta.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The maximum length to copy into the buffer.</source>
+          <target state="translated">Den maximala längden ska kopieras till bufferten.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The actual number of bytes read.</source>
+          <target state="translated">Det faktiska antalet lästa byte.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a character.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som ett tecken.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Not supported for &lt;xref:System.Data.OleDb&gt;.</source>
+          <target state="translated">Stöds inte för &lt;xref:System.Data.OleDb&gt;.&lt;/xref:System.Data.OleDb&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Reads a stream of characters from the specified column offset into the buffer as an array starting at the given buffer offset.</source>
+          <target state="translated">Läser in en dataström med tecken från den angivna kolumn förskjutningen i bufferten som en matris som börjar vid buffertförskjutningen för angivna.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetChars returns the number of available characters in the field.</source>
+          <target state="translated">GetChars returnerar antalet tillgängliga tecken i fältet.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Most of the time this is the exact length of the field.</source>
+          <target state="translated">I de flesta fall är detta den exakta längden för fältet.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, the number returned may be less than the true length of the field if <ph id="ph1">`GetChars`</ph> has already been used to obtain characters from the field.</source>
+          <target state="translated">Dock tal som returneras kan vara mindre än true längden för fältet om <ph id="ph1">`GetChars`</ph> har redan använts tecknen ska hämtas från fältet.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This may be the case, for example, when the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; is reading a large data structure into a buffer.</source>
+          <target state="translated">Detta kan vara fallet, till exempel när den &lt;xref:System.Data.OleDb.OleDbDataReader&gt;läser en struktur för stora mängder data i en buffert.&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the <ph id="ph1">`SequentialAccess`</ph> setting for &lt;xref:System.Data.CommandBehavior&gt;.</source>
+          <target state="translated">Mer information finns i <ph id="ph1">`SequentialAccess`</ph> inställning för &lt;xref:System.Data.CommandBehavior&gt;.&lt;/xref:System.Data.CommandBehavior&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you pass a buffer that is <ph id="ph1">`null`</ph>, GetChars returns the length of the field in characters.</source>
+          <target state="translated">Om du skickar en buffert som <ph id="ph1">`null`</ph>, GetChars returnerar längden för fältet i tecken.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be a character array.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara en matris med tecken.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The index within the row from which to start the read operation.</source>
+          <target state="translated">Det index i raden från vilket att starta läsningen.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The buffer into which to copy data.</source>
+          <target state="translated">Den buffert som att kopiera data.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The index within the <ph id="ph1">`buffer`</ph> where the write operation is to start.</source>
+          <target state="translated">Indexet i den <ph id="ph1">`buffer`</ph> där åtgärden är att starta.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The number of characters to read.</source>
+          <target state="translated">Antalet tecken som ska läsas.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The actual number of characters read.</source>
+          <target state="translated">Läs det faktiska antalet tecken.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Returns an <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object for the requested column ordinal.</source>
+          <target state="translated">Returnerar en <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt för den begärda kolumnen ordningstal.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt; will call GetData if the provider returns a &lt;xref:System.Data.IDataReader&gt; that has a column that supports &lt;xref:System.Data.IDataReader&gt;.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;Anropar GetData om providern returnerar ett &lt;xref:System.Data.IDataReader&gt;som har en kolumn som stöder &lt;xref:System.Data.IDataReader&gt;.&lt;/xref:System.Data.IDataReader&gt; &lt;/xref:System.Data.IDataReader&gt; &lt;/xref:System.Data.OleDb.OleDbDataAdapter.Fill%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets the name of the source data type.</source>
+          <target state="translated">Hämtar namnet på typ av data.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The name of the back-end data type.</source>
+          <target state="translated">Namnet på backend-datatypen.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>SQL Server data types<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=198032)</ept> or <bpt id="p2">[</bpt>Access data types<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=198033)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>SQL Server-datatyper<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=198032)</ept> eller <bpt id="p2">[</bpt>åtkomst till datatyper<ept id="p2">](http://go.microsoft.com/fwlink/?LinkId=198033)</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som ett &lt;xref:System.DateTime&gt;objekt.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be a &lt;xref:System.DateTime&gt; object.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara en &lt;xref:System.DateTime&gt;objektet.&lt;/xref:System.DateTime&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.Decimal&gt; object.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som ett &lt;xref:System.Decimal&gt;objekt.&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be a &lt;xref:System.Decimal&gt; object.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara en &lt;xref:System.Decimal&gt;objektet.&lt;/xref:System.Decimal&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a double-precision floating-point number.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som ett flyttal med dubbel precision.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be a double-precision floating-point number.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara ett flyttal med dubbel precision.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Returns an &lt;xref:System.Collections.IEnumerator&gt; that can be used to iterate through the rows in the data reader.</source>
+          <target state="translated">Returnerar en &lt;xref:System.Collections.IEnumerator&gt;som kan användas för att gå igenom dataraderna i dataläsaren.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Although you can use this method to retrieve an explicit enumerator, in languages that support a <ph id="ph1">`foreach`</ph> construct, it is simpler to use the looping construct directly in order to iterate through the rows in the data reader.</source>
+          <target state="translated">Men du kan använda den här metoden för att hämta en explicit uppräknare, i språk som stöder en <ph id="ph1">`foreach`</ph> konstruktion, det är enklare att använda slingor konstruktion direkt för att gå igenom dataraderna i dataläsaren.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.IEnumerator&gt; that can be used to iterate through the rows in the data reader.</source>
+          <target state="translated">En &lt;xref:System.Collections.IEnumerator&gt;som kan användas för att gå igenom dataraderna i dataläsaren.&lt;/xref:System.Collections.IEnumerator&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>Gets the &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">Hämtar den &lt;xref:System.Type&gt;som datatypen för objektet.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Type&gt; that is the data type of the object.</source>
+          <target state="translated">Den &lt;xref:System.Type&gt;som datatypen för objektet.&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a single-precision floating-point number.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som ett flyttal med enkel precision.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed.</source>
+          <target state="translated">Inga konverteringar utförs.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, the data retrieved must already be a single-precision floating-point number.</source>
+          <target state="translated">Data som hämtats måste därför redan vara ett flyttal med enkel precision.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a globally unique identifier (GUID).</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som en globalt unik identifierare (GUID).</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a globally unique identifier.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara en globalt unik identifierare.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 16-bit signed integer.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som ett 16-bitars heltal.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be a 16-bit signed integer.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara ett 16-bitars heltal.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 32-bit signed integer.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som ett 32-bitars heltal.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be a 32-bit signed integer.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara ett 32-bitars heltal.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a 64-bit signed integer.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som ett 64-bitars heltal.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be a 64-bit signed integer.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara en 64-bitars heltal.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Gets the name of the specified column.</source>
+          <target state="translated">Hämtar namnet på den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The name of the specified column.</source>
+          <target state="translated">Namnet på den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Gets the column ordinal, given the name of the column.</source>
+          <target state="translated">Hämtar kolumnen ordningstal, baserat på namnet på kolumnen.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetOrdinal performs a case-sensitive lookup first.</source>
+          <target state="translated">GetOrdinal utför först en skiftlägeskänslig sökning.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it fails, a second case-insensitive search is made.</source>
+          <target state="translated">Om det misslyckas, görs en andra icke skiftlägeskänslig sökning.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The method throws an <ph id="ph1">`IndexOutOfRange`</ph> exceptionif the zero-based column ordinal is not found.</source>
+          <target state="translated">Metoden genererar ett <ph id="ph1">`IndexOutOfRange`</ph> exceptionif det gick inte att hitta det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>GetOrdinal is kana-width insensitive.</source>
+          <target state="translated">GetOrdinal är kana-bredd skiftlägeskänsligt.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because ordinal-based lookups are more efficient than named lookups, it is inefficient to call GetOrdinal within a loop.</source>
+          <target state="translated">Eftersom ordningstal-baserade sökningar är effektivare än namngivna sökningar, är den ineffektiv att anropa GetOrdinal inom en loop.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Save time by calling GetOrdinal one time and assigning the results to an integer variable for use within the loop.</source>
+          <target state="translated">Spara tid genom att anropa GetOrdinal en gång och tilldela en heltalsvariabel användas inom loopen resultaten.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The name of the column.</source>
+          <target state="translated">Namnet på kolumnen.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>The name specified is not a valid column name.</source>
+          <target state="translated">Namnet som angetts är inte ett giltigt kolumnnamn.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata of the <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Returnerar en <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som beskriver kolumnmetadata för den <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetSchemaTable method maps to the OLE DB <bpt id="p1">**</bpt>IColumnsRowset::GetColumnsRowset<ept id="p1">**</ept> method, and returns metadata about each column in the following order:      |DataReader column|OLE DB column ID|Description|   |-----------------------|----------------------|-----------------|   |ColumnName|DBCOLUMN_NAME|The name of the column; this might not be unique.</source>
+          <target state="translated">Metoden GetSchemaTable mappar till OLE DB <bpt id="p1">**</bpt>IColumnsRowset::GetColumnsRowset<ept id="p1">**</ept> metod och returnerar metadata om varje kolumn i följande ordning: | DataReader kolumnen | OLE DB kolumn-ID | Beskrivning |   |-----------------------|----------------------|-----------------|   | ColumnName | DBCOLUMN_NAME | Namnet på kolumnen. Det kan inte vara unika.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this cannot be determined, a null value is returned.</source>
+          <target state="translated">Om detta inte kan fastställas returnerade ett null-värde.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This name always reflects the most recent renaming of the column in the current view or command text.|   |ColumnOrdinal|DBCOLUMN_NUMBER|The zero-based ordinal of the column.</source>
+          <target state="translated">Det här namnet visar alltid senaste namnbyte av kolumnen i den aktuella vyn eller kommandot texten. |   | ColumnOrdinal | DBCOLUMN_NUMBER | Det nollbaserade ordningstalet för kolumnen.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This column cannot contain a null value.|   |ColumnSize|DBCOLUMN_COLUMNSIZE|The maximum possible length of a value in the column.</source>
+          <target state="translated">Den här kolumnen får inte innehålla ett null-värde. |   | ColumnSize | DBCOLUMN_COLUMNSIZE | Möjliga högst ett värde i kolumnen.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For columns that use a fixed-length data type, this is the size of the data type.|   |NumericPrecision|DBCOLUMN_PRECISION|If DbType is a numeric data type, this is the maximum precision of the column.</source>
+          <target state="translated">För kolumner som använder en datatyp med fast längd är storleken på datatypen. |   | NumericPrecision | DBCOLUMN_PRECISION | Om DbType är en numerisk datatyp, är den maximala precisionen för kolumnen.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The precision of columns with a data type of DBTYPE_DECIMAL or DBTYPE_NUMERIC depends on the definition of the column.</source>
+          <target state="translated">Precisionen för kolumner med datatypen DBTYPE_DECIMAL eller DBTYPE_NUMERIC beror på definitionen av kolumnen.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If DbType is not a numeric data type, this is a null value.|   |NumericScale|DBCOLUMN_SCALE|If DbType is DBTYPE_DECIMAL or DBTYPE_NUMERIC, this is the number of digits to the right of the decimal point.</source>
+          <target state="translated">Om DbType inte är en numerisk datatyp, detta är ett null-värde. |   | NumericScale | DBCOLUMN_SCALE | Om DbType är DBTYPE_DECIMAL eller DBTYPE_NUMERIC, är antalet siffror till höger om decimaltecknet.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, this is a null value.|   |DataType|None|Maps to the .NET Framework type of the column.|   |ProviderType|DBCOLUMN_TYPE|The indicator of the column's data type.</source>
+          <target state="translated">I annat fall är ett null-värde. |   | DataType | Ingen | Mappas till .NET Framework-typen för kolumnen. |   | Providertyp | DBCOLUMN_TYPE | Indikator för kolumnens datatyp.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data type of the column varies from row to row, this must be DBTYPE_VARIANT.</source>
+          <target state="translated">Om datatypen för kolumnen varierar från rad till rad måste vara DBTYPE_VARIANT.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This column cannot contain a null value.|   |IsLong|DBCOLUMNFLAGS_ISLONG|The provider sets DBCOLUMNFLAGS_ISLONG if the column contains a Binary Long Object (BLOB) that contains very long data.</source>
+          <target state="translated">Den här kolumnen får inte innehålla ett null-värde. |   | IsLong | DBCOLUMNFLAGS_ISLONG | Providern anger DBCOLUMNFLAGS_ISLONG om kolumnen innehåller en binär lång objekt (BLOB) som innehåller mycket långa data.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The definition of very long data is provider-specific.</source>
+          <target state="translated">Definitionen av mycket långa data är provider-specifik.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The setting of this flag corresponds to the value of the IS_LONG column in the PROVIDER_TYPES rowset for the data type.|   |AllowDBNull|DBCOLUMNFLAGS_ISNULLABLE|The provider sets DBCOLUMNFLAGS_ISNULLABLE if the consumer can set the column to a null value, or if the provider cannot determine whether the consumer can set the column to a null value.</source>
+          <target state="translated">Inställningen för den här flaggan motsvarar värdet i kolumnen IS_LONG i raduppsättningen PROVIDER_TYPES för datatypen. |   | AllowDBNull | DBCOLUMNFLAGS_ISNULLABLE | Providern anger DBCOLUMNFLAGS_ISNULLABLE om konsumenten kan ange kolumnen till ett null-värde, eller om providern inte kan avgöra om användaren kan ange kolumnen till ett null-värde.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A column may contain null values, even if it cannot be set to a null value.|   |IsReadOnly|DBCOLUMNFLAGS_WRITE|<ph id="ph1">`true`</ph> if the column cannot be modified; otherwise <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">En kolumn kan innehålla null-värden, även om det inte går att ange ett null-värde. |   | IsReadOnly | DBCOLUMNFLAGS_WRITE | <ph id="ph1">`true`</ph> om kolumnen inte kan vara ändrade, annars <ph id="ph2">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The column is assumed to be writable if the provider has set either the DBCOLUMNFLAGS_WRITE or DBCOLUMNFLAGS_WRITEUNKNOWN flag.|   |IsRowVersion|DBCOLUMNFLAGS_ISROWID|The provider sets DBCOLUMNFLAGS_ISROWID if the column contains a persistent row identifier that cannot be written to, and has no meaningful value except to identity the row.|   |IsUnique|DBCOLUMN_ISUNIQUE|VARIANT_TRUE: No two rows in the base table-the table returned in BaseTableName-can have the same value in this column.</source>
+          <target state="translated">Kolumnen antas vara skrivbar om providern har flaggan antingen DBCOLUMNFLAGS_WRITE eller DBCOLUMNFLAGS_WRITEUNKNOWN. |   | IsRowVersion | DBCOLUMNFLAGS_ISROWID | Providern anger DBCOLUMNFLAGS_ISROWID om kolumnen innehåller en beständig rad-ID som inte kan skrivas till och inte har något beskrivande värde utom identitet raden. |   | IsUnique | DBCOLUMN_ISUNIQUE | VARIANT_TRUE: Inga två rader i tabellen i bastabellen returneras i BaseTableName kan ha samma värde i den här kolumnen.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IsUnique is guaranteed to be VARIANT_TRUE if the column represents a key by itself or if there is a constraint of type UNIQUE that applies only to this column.</source>
+          <target state="translated">IsUnique är garanterat VARIANT_TRUE om kolumnen representerar en nyckel av sig själv eller om det finns en begränsning av typen UNIQUE som gäller enbart för den här kolumnen.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>VARIANT_FALSE: The column can contain duplicate values in the base table.</source>
+          <target state="translated">VARIANT_FALSE: Kolumnen kan innehålla dubblettvärden i bastabellen.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is VARIANT_FALSE.|   |IsKey|DBCOLUMN_KEYCOLUMN|VARIANT_TRUE: The column is one of a set of columns in the rowset that, taken together, uniquely identify the row.</source>
+          <target state="translated">Standardvärdet för den här kolumnen är VARIANT_FALSE. |   | IsKey | DBCOLUMN_KEYCOLUMN | VARIANT_TRUE: Kolumnen är en av en uppsättning kolumner i raduppsättningen, sammanlagt identifiera raden.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The set of columns with IsKey set to VARIANT_TRUE must uniquely identify a row in the rowset.</source>
+          <target state="translated">Uppsättningen kolumner med IsKey värdet VARIANT_TRUE måste identifiera en rad i raduppsättningen.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>There is no requirement that this set of columns is a minimal set of columns.</source>
+          <target state="translated">Det finns inga krav på att den här uppsättningen av kolumner är ett minimalt antal kolumner.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This set of columns may be generated from a base table primary key, a unique constraint or a unique index.</source>
+          <target state="translated">Den här uppsättningen kolumner kan genereras från en primär nyckel för bastabellen, en unik begränsning eller ett unikt index.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>VARIANT_FALSE: The column is not required to uniquely identify the row.|   |IsAutoIncrement|DBCOLUMN_ISAUTOINCREMENT|VARIANT_TRUE: The column assigns values to new rows in fixed increments.</source>
+          <target state="translated">VARIANT_FALSE: Kolumnen inte krävs för att identifiera raden. |   | IsAutoIncrement | DBCOLUMN_ISAUTOINCREMENT | VARIANT_TRUE: Kolumnen tilldelar värden till nya rader i fasta steg.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>VARIANT_FALSE: The column does not assign values to new rows in fixed increments.</source>
+          <target state="translated">VARIANT_FALSE: Kolumnen inte tilldelar värden till nya rader i fasta steg.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is VARIANT_FALSE.|   |BaseSchemaName|DBCOLUMN_BASESCHEMANAME|The name of the schema in the data store that contains the column.</source>
+          <target state="translated">Standardvärdet för den här kolumnen är VARIANT_FALSE. |   | BaseSchemaName | DBCOLUMN_BASESCHEMANAME | Namnet på schemat i datalagret som innehåller kolumnen.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A null value if the base schema name cannot be determined.</source>
+          <target state="translated">Ett null-värde om grundläggande schemanamnet inte kan fastställas.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is a null value.|   |BaseCatalogName|DBCOLUMN_BASECATALOGNAME|The name of the catalog in the data store that contains the column.</source>
+          <target state="translated">Standardvärdet för den här kolumnen är ett null-värde. |   | BaseCatalogName | DBCOLUMN_BASECATALOGNAME | Namnet på katalogen i datakällan som innehåller kolumnen.</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A null value if the base catalog name cannot be determined.</source>
+          <target state="translated">Ett null-värde om grundläggande katalognamnet inte kan fastställas.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is a null value.|   |BaseTableName|DBCOLUMN_BASETABLENAME|The name of the table or view in the data store that contains the column.</source>
+          <target state="translated">Standardvärdet för den här kolumnen är ett null-värde. |   | BaseTableName | DBCOLUMN_BASETABLENAME | Namnet på den tabell eller vy i datakällan som innehåller kolumnen.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A null value if the base table name cannot be determined.</source>
+          <target state="translated">Ett null-värde om inte det går att fastställa namnet på bastabellen.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is a null value.|   |BaseColumnName|DBCOLUMN_BASECOLUMNNAME|The name of the column in the data store.</source>
+          <target state="translated">Standardvärdet för den här kolumnen är ett null-värde. |   | BaseColumnName | DBCOLUMN_BASECOLUMNNAME | Namnet på kolumnen i datalagret.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This might be different from the column name returned in the ColumnName column if an alias was used.</source>
+          <target state="translated">Detta kan skilja sig från kolumnnamnet som returernas i kolumnen ColumnName om ett alias användes.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A null value if the base column name cannot be determined or if the rowset column is derived, but not identical to, a column in the data store.</source>
+          <target state="translated">Ett null-värde om baskolumn namn inte kan fastställas eller om kolumnen raduppsättningen härledda, men inte är identisk med en kolumn i data lagras.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default of this column is a null value.|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  To make sure that metadata columns return the correct information, you must call &lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt; with the <ph id="ph2">`behavior`</ph> parameter set to <ph id="ph3">`KeyInfo`</ph>.</source>
+          <target state="translated">Standardvärdet för den här kolumnen är ett null-värde. |      &gt; <ph id="ph1">[!NOTE]</ph> &gt; Att se till att metadatakolumner returneras rätt information, måste du anropa &lt;xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;med den <ph id="ph2">`behavior`</ph> parametern <ph id="ph3">`KeyInfo`</ph>.&lt;/xref:System.Data.OleDb.OleDbCommand.ExecuteReader%2A&gt;</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, some of the columns in the schema table may return default, null, or incorrect data.</source>
+          <target state="translated">Annars kan vissa av kolumnerna i Schematabellen returnera standardvärdet, null eller felaktiga data.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that describes the column metadata.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Data.DataTable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som beskriver kolumnens metadata.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is closed.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> är stängd.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a string.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som en sträng.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore the data retrieved must already be a string.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara en sträng.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column as a &lt;xref:System.TimeSpan&gt; object.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen som ett &lt;xref:System.TimeSpan&gt;objekt.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>No conversions are performed; therefore, the data retrieved must already be a &lt;xref:System.TimeSpan&gt; object.</source>
+          <target state="translated">Inga konverteringar utförs; data som hämtats måste därför redan vara en &lt;xref:System.TimeSpan&gt;objektet.&lt;/xref:System.TimeSpan&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt; to look for null values before calling this method.</source>
+          <target state="translated">Anropa &lt;xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;att söka efter null-värden innan du anropar den här metoden.&lt;/xref:System.Data.OleDb.OleDbDataReader.IsDBNull%2A&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The value of the specified column.</source>
+          <target state="translated">Värdet för den angivna kolumnen.</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The specified cast is not valid.</source>
+          <target state="translated">Den angivna omvandlingen är inte giltig.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Gets the value of the column at the specified ordinal in its native format.</source>
+          <target state="translated">Hämtar värdet för kolumnen vid det angivna ordningstalet i dess ursprungliga format.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns &lt;xref:System.DBNull&gt; for null database columns.</source>
+          <target state="translated">Den här metoden returnerar &lt;xref:System.DBNull&gt;för null databaskolumner.&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>The value to return.</source>
+          <target state="translated">Värdet som ska returneras.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Populates an array of objects with the column values of the current row.</source>
+          <target state="translated">Fyller i en matris med objekt med kolumnvärden för den aktuella raden.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For most applications, the GetValues method provides an efficient means for retrieving all columns, instead of retrieving each column individually.</source>
+          <target state="translated">För de flesta program innehåller GetValues-metoden ett effektivt sätt för att hämta alla kolumner i stället för att hämta varje kolumn individuellt.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can pass an &lt;xref:System.Object&gt; array that contains fewer than the number of columns that are contained in the resulting row.</source>
+          <target state="translated">Du kan skicka en &lt;xref:System.Object&gt;matris som innehåller färre än antalet kolumner som ingår i den resulterande raden.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only the amount of data the &lt;xref:System.Object&gt; array holds is copied to the array.</source>
+          <target state="translated">Endast mängden data i &lt;xref:System.Object&gt;matris innehåller kopieras till matrisen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also pass an &lt;xref:System.Object&gt; array whose length is more than the number of columns that are contained in the resulting row.</source>
+          <target state="translated">Du kan också skicka ett &lt;xref:System.Object&gt;matris vars längd är större än antalet kolumner som ingår i den resulterande raden.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method returns &lt;xref:System.DBNull&gt; for null database columns.</source>
+          <target state="translated">Den här metoden returnerar &lt;xref:System.DBNull&gt;för null databaskolumner.&lt;/xref:System.DBNull&gt;</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>An array of &lt;xref:System.Object&gt; into which to copy the attribute columns.</source>
+          <target state="translated">En matris med &lt;xref:System.Object&gt;där du vill kopiera attributkolumnerna.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The number of instances of &lt;xref:System.Object&gt; in the array.</source>
+          <target state="translated">Antal instanser av &lt;xref:System.Object&gt;i matrisen.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains one or more rows.</source>
+          <target state="translated">Hämtar ett värde som anger om den <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> innehåller en eller flera rader.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains one or more rows; otherwise <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> innehåller en eller flera rader, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Indicates whether the data reader is closed.</source>
+          <target state="translated">Anger om dataläsaren är stängd.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>IsClosed and &lt;xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt; are the only properties that you can call after the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; is closed.</source>
+          <target state="translated">IsClosed och &lt;xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt;är endast egenskaper som du kan anropa efter den &lt;xref:System.Data.OleDb.OleDbDataReader&gt;är stängd.&lt;/xref:System.Data.OleDb.OleDbDataReader&gt; &lt;/xref:System.Data.OleDb.OleDbDataReader.RecordsAffected%2A&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is closed; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om den <bpt id="p2">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> är stängd, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the column contains nonexistent or missing values.</source>
+          <target state="translated">Hämtar ett värde som anger om kolumnen innehåller värden som inte finns eller saknas.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to look for null column values before calling the typed get methods (for example, &lt;xref:System.Data.OleDb.OleDbDataReader.GetByte%2A&gt;, &lt;xref:System.Data.OleDb.OleDbDataReader.GetChar%2A&gt;, and so on) to avoid raising an error.</source>
+          <target state="translated">Anropa den här metoden ska söka efter null kolumnvärdena innan du anropar den angivna hämta metoder (till exempel &lt;xref:System.Data.OleDb.OleDbDataReader.GetByte%2A&gt;, &lt;xref:System.Data.OleDb.OleDbDataReader.GetChar%2A&gt;och så vidare) att undvika att ett fel.&lt;/xref:System.Data.OleDb.OleDbDataReader.GetChar%2A&gt; &lt;/xref:System.Data.OleDb.OleDbDataReader.GetByte%2A&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>The zero-based column ordinal.</source>
+          <target state="translated">Det nollbaserade kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified column value is equivalent to <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det angivna kolumnvärdet motsvarar <bpt id="p2">&lt;xref href="System.DBNull"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>, annars <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format given the column ordinal.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen i dess ursprungliga format anges kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>The column ordinal.</source>
+          <target state="translated">Kolumnordningstalet.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in its native format.</source>
+          <target state="translated">Värdet för den angivna kolumnen i dess ursprungliga format.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The index passed was outside the range of 0 through &lt;xref:System.Data.IDataRecord.FieldCount*&gt;.</source>
+          <target state="translated">Index som skickades var utanför intervallet 0 till &lt;xref:System.Data.IDataRecord.FieldCount*&gt;.&lt;/xref:System.Data.IDataRecord.FieldCount*&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Gets the value of the specified column in its native format given the column name.</source>
+          <target state="translated">Hämtar värdet för den angivna kolumnen i dess ursprungliga format, beroende på kolumnnamn.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A case-sensitive lookup is performed first.</source>
+          <target state="translated">Först utförs en skiftlägeskänslig sökning.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If it fails, a second case-insensitive search is made.</source>
+          <target state="translated">Om det misslyckas, görs en andra icke skiftlägeskänslig sökning.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is kana-width insensitive.</source>
+          <target state="translated">Den här metoden är kana-bredd skiftlägeskänsligt.</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>The column name.</source>
+          <target state="translated">Kolumnnamnet.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The value of the specified column in its native format.</source>
+          <target state="translated">Värdet för den angivna kolumnen i dess ursprungliga format.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>No column with the specified name was found.</source>
+          <target state="translated">Ingen kolumn med det angivna namnet hittades.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>Advances the data reader to the next result, when reading the results of batch SQL statements.</source>
+          <target state="translated">Avancerar dataläsaren till nästa resultat vid läsning av resultatet av batch SQL-instruktioner.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Used to process multiple results that can be generated by executing batch SQL statements.</source>
+          <target state="translated">Används för att bearbeta flera resultat som kan genereras genom att köra batch SQL-instruktioner.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the data reader is positioned on the first result.</source>
+          <target state="translated">Dataläsaren är placerad på det första resultatet som standard.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are more result sets; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det finns fler resultatmängder; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>Advances the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to the next record.</source>
+          <target state="translated">Flyttar den <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> till nästa post.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default position of the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; is before the first record.</source>
+          <target state="translated">Placering av &lt;xref:System.Data.OleDb.OleDbDataReader&gt;är före den första posten.&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you must call Read to start accessing any data.</source>
+          <target state="translated">Därför måste du anropa Läs om du vill starta åtkomst till några data.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; is being used, the associated &lt;xref:System.Data.OleDb.OleDbConnection&gt; is busy serving it until you call &lt;xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt;.</source>
+          <target state="translated">När den &lt;xref:System.Data.OleDb.OleDbDataReader&gt;används den associerade &lt;xref:System.Data.OleDb.OleDbConnection&gt;är upptagen som hanterar den tills du anropa &lt;xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt;.&lt;/xref:System.Data.OleDb.OleDbDataReader.Close%2A&gt; &lt;/xref:System.Data.OleDb.OleDbConnection&gt; &lt;/xref:System.Data.OleDb.OleDbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are more rows; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Om det finns fler rader; Annars <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets the number of rows changed, inserted, or deleted by execution of the SQL statement.</source>
+          <target state="translated">Hämtar antalet rader ändras, infogas eller tas bort genom att köra SQL-instruktionen.</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The RecordsAffected property is not set until all rows are read and you close the &lt;xref:System.Data.OleDb.OleDbDataReader&gt;.</source>
+          <target state="translated">Egenskapen RecordsAffected anges inte förrän alla rader läses och stänger &lt;xref:System.Data.OleDb.OleDbDataReader&gt;.&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property is cumulative.</source>
+          <target state="translated">Värdet för den här egenskapen är kumulativa.</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if two records are inserted in batch mode, the value of RecordsAffected is two.</source>
+          <target state="translated">Till exempel om två poster infogas i batchläge är värdet för RecordsAffected två.</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Data.OleDb.OleDbDataReader.IsClosed%2A&gt; and RecordsAffected are the only properties that you can call after the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; is closed.</source>
+          <target state="translated">&lt;xref:System.Data.OleDb.OleDbDataReader.IsClosed%2A&gt;och RecordsAffected är endast egenskaper som du kan anropa efter den &lt;xref:System.Data.OleDb.OleDbDataReader&gt;är stängd.&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;&lt;/xref:System.Data.OleDb.OleDbDataReader.IsClosed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The number of rows changed, inserted, or deleted; 0 if no rows were affected or the statement failed; and -1 for SELECT statements.</source>
+          <target state="translated">Antalet rader som ändras, infogas eller tas bort; 0 om inga rader påverkades eller instruktionen misslyckades. och 1 för SELECT-satser.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>Gets the number of fields in the <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that are not hidden.</source>
+          <target state="translated">Hämtar antalet fält i den <bpt id="p1">&lt;xref href="System.Data.OleDb.OleDbDataReader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som inte är dolda.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This value is used to determine how many fields in the &lt;xref:System.Data.OleDb.OleDbDataReader&gt; are visible.</source>
+          <target state="translated">Det här värdet används för att avgöra hur många fält i den &lt;xref:System.Data.OleDb.OleDbDataReader&gt;är synliga.&lt;/xref:System.Data.OleDb.OleDbDataReader&gt;</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, a SELECT on a partial primary key returns the remaining parts of the key as hidden fields.</source>
+          <target state="translated">Exempelvis returnerar en väljer på en partiell primärnyckel övriga delar av nyckeln som dolda fält.</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The hidden fields are always appended behind the visible fields.</source>
+          <target state="translated">Dolda fält läggs alltid bakom synliga fälten.</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>The number of fields that are not hidden.</source>
+          <target state="translated">Antalet fält som inte är dolda.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

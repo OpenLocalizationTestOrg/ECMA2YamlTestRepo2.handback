@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nb-no">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d135be3480fcc921f515a3740b92e812d2fa447d</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.IO.Pipes.AnonymousPipeServerStream.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c795308261830c77c540a71cd696e8a68f5264ab</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8918945a72ef9ee4f21b192ba6a38dc37bfe43ee</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Exposes a stream around an anonymous pipe, which supports both synchronous and asynchronous read and write operations.</source>
+          <target state="translated">Viser en dataflyt rundt en anonym datakanalen som støtter både synkrone og asynkrone lese og skrive operasjoner.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anonymous pipes help provide safe and secure interprocess communication between child and parent processes.</source>
+          <target state="translated">Anonym datakanaler bidra til å angi trygt og sikre interprosesskommunikasjon mellom underordnet og overordnet prosesser.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AnonymousPipeServerStream class enables a parent process to send or receive information from a child process.</source>
+          <target state="translated">Klassen AnonymousPipeServerStream aktiverer en overordnede prosessen for å sende eller motta informasjon fra en underordnet prosess.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anonymous pipes are unnamed, one-way pipes that typically transfer data between parent and child processes.</source>
+          <target state="translated">Anonym datakanaler er uten navn, enveis datakanaler som vanligvis overfører data mellom overordnede og underordnede prosesser.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anonymous pipes are always local; they cannot be used over a network.</source>
+          <target state="translated">Anonym datakanaler er alltid lokale. de kan ikke brukes i et nettverk.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.IO.Pipes.PipeDirection&gt; value of &lt;xref:System.IO.Pipes.PipeDirection&gt; is not supported because anonymous pipes are defined to be one-way.</source>
+          <target state="translated">En &lt;xref:System.IO.Pipes.PipeDirection&gt;verdien &lt;xref:System.IO.Pipes.PipeDirection&gt;støttes ikke fordi anonym datakanaler defineres for å være enveis.&lt;/xref:System.IO.Pipes.PipeDirection&gt; &lt;/xref:System.IO.Pipes.PipeDirection&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anonymous pipes do not support &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt; read modes.</source>
+          <target state="translated">Støtter ikke anonyme datakanaler &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt;lese modi.&lt;/xref:System.IO.Pipes.PipeTransmissionMode&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The client side of an anonymous pipe must be created from a pipe handle provided by the server side by calling the &lt;xref:System.IO.Pipes.AnonymousPipeServerStream.GetClientHandleAsString%2A&gt; method.</source>
+          <target state="translated">Klientsiden av en anonym datakanalen må opprettes fra en datakanalen referansen fra serversiden ved å kalle den &lt;xref:System.IO.Pipes.AnonymousPipeServerStream.GetClientHandleAsString%2A&gt;metoden.&lt;/xref:System.IO.Pipes.AnonymousPipeServerStream.GetClientHandleAsString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string is then passed as a parameter when creating the client process.</source>
+          <target state="translated">Strengen er deretter sendes som en parameter når du oppretter klientprosessen.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>From the client process, it is then passed to the &lt;xref:System.IO.Pipes.AnonymousPipeClientStream&gt; constructor as the <ph id="ph1">`pipeHandleAsString`</ph> parameter.</source>
+          <target state="translated">Fra klientprosessen den deretter sendes til den &lt;xref:System.IO.Pipes.AnonymousPipeClientStream&gt;konstruktør som den <ph id="ph1">`pipeHandleAsString`</ph> parameteren.&lt;/xref:System.IO.Pipes.AnonymousPipeClientStream&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The AnonymousPipeServerStream object must dispose the client handle using the &lt;xref:System.IO.Pipes.AnonymousPipeServerStream.DisposeLocalCopyOfClientHandle%2A&gt; method in order to be notified when the client exits.</source>
+          <target state="translated">AnonymousPipeServerStream-objektet må fjerne referansen klienten bruker den &lt;xref:System.IO.Pipes.AnonymousPipeServerStream.DisposeLocalCopyOfClientHandle%2A&gt;metode for å bli varslet når klienten avslutter.&lt;/xref:System.IO.Pipes.AnonymousPipeServerStream.DisposeLocalCopyOfClientHandle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For <ph id="ph2">[!INCLUDE[winxppro](~/add/includes/winxppro-md.md)]</ph> and <ph id="ph3">[!INCLUDE[win2kserver](~/add/includes/win2kserver-md.md)]</ph>, a maximum of 10 pipes can simultaneously connect over the network.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; For <ph id="ph2">[!INCLUDE[winxppro](~/add/includes/winxppro-md.md)]</ph> og <ph id="ph3">[!INCLUDE[win2kserver](~/add/includes/win2kserver-md.md)]</ph>, maksimalt 10 datakanaler kan koble seg over nettverket.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt; constructors without a &lt;xref:System.IO.Pipes.PipeDirection&gt; parameter, the default direction is &lt;xref:System.IO.Pipes.PipeDirection&gt;.</source>
+          <target state="translated">For &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt;konstruktører uten en &lt;xref:System.IO.Pipes.PipeDirection&gt;parameteren Standardretning er &lt;xref:System.IO.Pipes.PipeDirection&gt;.&lt;/xref:System.IO.Pipes.PipeDirection&gt; &lt;/xref:System.IO.Pipes.PipeDirection&gt; &lt;/xref:System.IO.Pipes.AnonymousPipeServerStream&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.IO.Pipes.PipeDirection&gt; value of &lt;xref:System.IO.Pipes.PipeDirection&gt; is not supported because anonymous pipes are defined to be one-way.</source>
+          <target state="translated">En &lt;xref:System.IO.Pipes.PipeDirection&gt;verdien &lt;xref:System.IO.Pipes.PipeDirection&gt;støttes ikke fordi anonym datakanaler defineres for å være enveis.&lt;/xref:System.IO.Pipes.PipeDirection&gt; &lt;/xref:System.IO.Pipes.PipeDirection&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates an &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt; object that has the default buffer size, no pipe security, and a &lt;xref:System.IO.HandleInheritability&gt; value of &lt;xref:System.IO.HandleInheritability&gt;.</source>
+          <target state="translated">Denne konstruktøren oppretter et &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt;objekt som har standardstørrelsen på bufferen, ingen datakanalen sikkerhet og &lt;xref:System.IO.HandleInheritability&gt;verdien for &lt;xref:System.IO.HandleInheritability&gt;.&lt;/xref:System.IO.HandleInheritability&gt; &lt;/xref:System.IO.HandleInheritability&gt; &lt;/xref:System.IO.Pipes.AnonymousPipeServerStream&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified pipe direction.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse datakanalen retning.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.IO.Pipes.PipeDirection&gt; value of &lt;xref:System.IO.Pipes.PipeDirection&gt; is not supported because anonymous pipes are defined to be one-way.</source>
+          <target state="translated">En &lt;xref:System.IO.Pipes.PipeDirection&gt;verdien &lt;xref:System.IO.Pipes.PipeDirection&gt;støttes ikke fordi anonym datakanaler defineres for å være enveis.&lt;/xref:System.IO.Pipes.PipeDirection&gt; &lt;/xref:System.IO.Pipes.PipeDirection&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates an &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt; object that has the default buffer size, no pipe security, and a &lt;xref:System.IO.HandleInheritability&gt; value of &lt;xref:System.IO.HandleInheritability&gt;.</source>
+          <target state="translated">Denne konstruktøren oppretter et &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt;objekt som har standardstørrelsen på bufferen, ingen datakanalen sikkerhet og &lt;xref:System.IO.HandleInheritability&gt;verdien for &lt;xref:System.IO.HandleInheritability&gt;.&lt;/xref:System.IO.HandleInheritability&gt; &lt;/xref:System.IO.HandleInheritability&gt; &lt;/xref:System.IO.Pipes.AnonymousPipeServerStream&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that determines the direction of the pipe.</source>
+          <target state="translated">En av opplistingsverdiene som som bestemmer retningen på datakanalen.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Anonymous pipes can only be in one direction, so <ph id="ph1">`direction`</ph> cannot be set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anonym datakanaler kan bare ha én retning så <ph id="ph1">`direction`</ph> kan ikke settes til <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph>is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified pipe direction and inheritability mode.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse datakanalen retningen og inheritability modus.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.IO.Pipes.PipeDirection&gt; value of &lt;xref:System.IO.Pipes.PipeDirection&gt; is not supported because anonymous pipes are defined to be one-way.</source>
+          <target state="translated">En &lt;xref:System.IO.Pipes.PipeDirection&gt;verdien &lt;xref:System.IO.Pipes.PipeDirection&gt;støttes ikke fordi anonym datakanaler defineres for å være enveis.&lt;/xref:System.IO.Pipes.PipeDirection&gt; &lt;/xref:System.IO.Pipes.PipeDirection&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates an &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt; object that has the default buffer size and no pipe security.</source>
+          <target state="translated">Denne konstruktøren oppretter en &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt;objektet som har standardstørrelsen på bufferen og ingen datakanalen sikkerhet.&lt;/xref:System.IO.Pipes.AnonymousPipeServerStream&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that determines the direction of the pipe.</source>
+          <target state="translated">En av opplistingsverdiene som som bestemmer retningen på datakanalen.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Anonymous pipes can only be in one direction, so <ph id="ph1">`direction`</ph> cannot be set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anonym datakanaler kan bare ha én retning så <ph id="ph1">`direction`</ph> kan ikke settes til <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that determines whether the underlying handle can be inherited by child processes.</source>
+          <target state="translated">En av verdiene for enumeration som bestemmer om den underliggende referansen arves av underordnede prosesser.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Must be set to either &lt;xref:System.IO.HandleInheritability&gt; or &lt;xref:System.IO.HandleInheritability&gt;.</source>
+          <target state="translated">Må være satt til enten &lt;xref:System.IO.HandleInheritability&gt;eller &lt;xref:System.IO.HandleInheritability&gt;.&lt;/xref:System.IO.HandleInheritability&gt; &lt;/xref:System.IO.HandleInheritability&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;inheritability&lt;/code&gt;</ph> is not set to either <ph id="ph2">&lt;xref:System.IO.HandleInheritability&gt;</ph> or <ph id="ph3">&lt;xref:System.IO.HandleInheritability&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;inheritability&lt;/code&gt;</ph>er ikke satt til enten <ph id="ph2">&lt;xref:System.IO.HandleInheritability&gt;</ph> eller <ph id="ph3">&lt;xref:System.IO.HandleInheritability&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph>is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class from the specified pipe handles.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klassen fra datakanalen håndtakene.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.IO.Pipes.PipeDirection&gt; value of &lt;xref:System.IO.Pipes.PipeDirection&gt; is not supported because anonymous pipes are defined to be one-way.</source>
+          <target state="translated">En &lt;xref:System.IO.Pipes.PipeDirection&gt;verdien &lt;xref:System.IO.Pipes.PipeDirection&gt;støttes ikke fordi anonym datakanaler defineres for å være enveis.&lt;/xref:System.IO.Pipes.PipeDirection&gt; &lt;/xref:System.IO.Pipes.PipeDirection&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that determines the direction of the pipe.</source>
+          <target state="translated">En av opplistingsverdiene som som bestemmer retningen på datakanalen.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Anonymous pipes can only be in one direction, so <ph id="ph1">`direction`</ph> cannot be set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anonym datakanaler kan bare ha én retning så <ph id="ph1">`direction`</ph> kan ikke settes til <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A safe handle for the pipe that this <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object will encapsulate.</source>
+          <target state="translated">En safe håndtere for datakanalen som denne <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet vil omfatter.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A safe handle for the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Sikre referansen for den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serverSafePipeHandle&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;clientSafePipeHandle&lt;/code&gt;</ph> is an invalid handle.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serverSafePipeHandle&lt;/code&gt;</ph>eller <ph id="ph2">&lt;code&gt;clientSafePipeHandle&lt;/code&gt;</ph> er en ugyldig referanse.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serverSafePipeHandle&lt;/code&gt;</ph> or <ph id="ph2">&lt;code&gt;clientSafePipeHandle&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serverSafePipeHandle&lt;/code&gt;</ph>or <ph id="ph2">&lt;code&gt;clientSafePipeHandle&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph>is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>An I/O error, such as a disk error, has occurred.</source>
+          <target state="translated">Det oppstod en i/u-feil, for eksempel en diskfeil.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>-or-       The stream has been closed.</source>
+          <target state="translated">- eller - dataflyten er lukket.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified pipe direction, inheritability mode, and buffer size.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse datakanalen retningen, inheritability modus og bufferstørrelse.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.IO.Pipes.PipeDirection&gt; value of &lt;xref:System.IO.Pipes.PipeDirection&gt; is not supported because anonymous pipes are defined to be one-way.</source>
+          <target state="translated">En &lt;xref:System.IO.Pipes.PipeDirection&gt;verdien &lt;xref:System.IO.Pipes.PipeDirection&gt;støttes ikke fordi anonym datakanaler defineres for å være enveis.&lt;/xref:System.IO.Pipes.PipeDirection&gt; &lt;/xref:System.IO.Pipes.PipeDirection&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor creates an &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt; object without pipe security.</source>
+          <target state="translated">Denne konstruktøren oppretter en &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt;objektet uten datakanalen sikkerhet.&lt;/xref:System.IO.Pipes.AnonymousPipeServerStream&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that determines the direction of the pipe.</source>
+          <target state="translated">En av opplistingsverdiene som som bestemmer retningen på datakanalen.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Anonymous pipes can only be in one direction, so <ph id="ph1">`direction`</ph> cannot be set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anonym datakanaler kan bare ha én retning så <ph id="ph1">`direction`</ph> kan ikke settes til <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that determines whether the underlying handle can be inherited by child processes.</source>
+          <target state="translated">En av verdiene for enumeration som bestemmer om den underliggende referansen arves av underordnede prosesser.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Must be set to either &lt;xref:System.IO.HandleInheritability&gt; or &lt;xref:System.IO.HandleInheritability&gt;.</source>
+          <target state="translated">Må være satt til enten &lt;xref:System.IO.HandleInheritability&gt;eller &lt;xref:System.IO.HandleInheritability&gt;.&lt;/xref:System.IO.HandleInheritability&gt; &lt;/xref:System.IO.HandleInheritability&gt;</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The size of the buffer.</source>
+          <target state="translated">Størrelsen på bufferen.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>This value must be greater than or equal to 0.</source>
+          <target state="translated">Denne verdien må være større enn eller lik 0.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;inheritability&lt;/code&gt;</ph> is not set to either <ph id="ph2">&lt;xref:System.IO.HandleInheritability&gt;</ph> or <ph id="ph3">&lt;xref:System.IO.HandleInheritability&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;inheritability&lt;/code&gt;</ph>er ikke satt til enten <ph id="ph2">&lt;xref:System.IO.HandleInheritability&gt;</ph> eller <ph id="ph3">&lt;xref:System.IO.HandleInheritability&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;bufferSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated">- eller - <ph id="ph1">&lt;code&gt;bufferSize&lt;/code&gt;</ph> er mindre enn 0.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph>is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the specified pipe direction, inheritability mode, buffer size, and pipe security.</source>
+          <target state="translated">Initialiserer en ny forekomst av den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse datakanalen retningen, inheritability modus, bufferstørrelsen og datakanalen sikkerhet.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.IO.Pipes.PipeDirection&gt; value of &lt;xref:System.IO.Pipes.PipeDirection&gt; is not supported because anonymous pipes are defined to be one-way.</source>
+          <target state="translated">En &lt;xref:System.IO.Pipes.PipeDirection&gt;verdien &lt;xref:System.IO.Pipes.PipeDirection&gt;støttes ikke fordi anonym datakanaler defineres for å være enveis.&lt;/xref:System.IO.Pipes.PipeDirection&gt; &lt;/xref:System.IO.Pipes.PipeDirection&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that determines the direction of the pipe.</source>
+          <target state="translated">En av opplistingsverdiene som som bestemmer retningen på datakanalen.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Anonymous pipes can only be in one direction, so <ph id="ph1">`direction`</ph> cannot be set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Anonym datakanaler kan bare ha én retning så <ph id="ph1">`direction`</ph> kan ikke settes til <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>One of the enumeration values that determines whether the underlying handle can be inherited by child processes.</source>
+          <target state="translated">En av verdiene for enumeration som bestemmer om den underliggende referansen arves av underordnede prosesser.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The size of the buffer.</source>
+          <target state="translated">Størrelsen på bufferen.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>This value must be greater than or equal to 0.</source>
+          <target state="translated">Denne verdien må være større enn eller lik 0.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An object that determines the access control and audit security for the pipe.</source>
+          <target state="translated">Et objekt som bestemmer tilgangskontroll og overvåking sikkerhet for datakanalen.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;inheritability&lt;/code&gt;</ph> is not set to either <ph id="ph2">&lt;xref:System.IO.HandleInheritability&gt;</ph> or <ph id="ph3">&lt;xref:System.IO.HandleInheritability&gt;</ph>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;inheritability&lt;/code&gt;</ph>er ikke satt til enten <ph id="ph2">&lt;xref:System.IO.HandleInheritability&gt;</ph> eller <ph id="ph3">&lt;xref:System.IO.HandleInheritability&gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>-or-       <ph id="ph1">&lt;code&gt;bufferSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated">- eller - <ph id="ph1">&lt;code&gt;bufferSize&lt;/code&gt;</ph> er mindre enn 0.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph> is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;direction&lt;/code&gt;</ph>is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeDirection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Gets the safe handle for the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is currently connected to the <bpt id="p2">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Henter den sikre referansen for den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som er koblet til den <bpt id="p2">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.Pipes.AnonymousPipeServerStream.DisposeLocalCopyOfClientHandle%2A&gt; method should be called after a client handle has been passed to a client process.</source>
+          <target state="translated">Den &lt;xref:System.IO.Pipes.AnonymousPipeServerStream.DisposeLocalCopyOfClientHandle%2A&gt;metoden må kalles når en klient-referansen som ble sendt til en klientprosess.&lt;/xref:System.IO.Pipes.AnonymousPipeServerStream.DisposeLocalCopyOfClientHandle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method is not called, the &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt; object will not receive notice when the client disposes of its &lt;xref:System.IO.Pipes.PipeStream&gt; object.</source>
+          <target state="translated">Hvis denne metoden ikke kalles, den &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt;objektet vil ikke motta varsel når klienten disposes av den &lt;xref:System.IO.Pipes.PipeStream&gt;objektet.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.AnonymousPipeServerStream&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>A handle for the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that is currently connected to the <bpt id="p2">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Referansen for den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som er koblet til den <bpt id="p2">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som skal legges til.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Closes the local copy of the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object's handle.</source>
+          <target state="translated">Lukker det lokale eksemplaret av den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektets referansen.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The DisposeLocalCopyOfClientHandle method should be called after the client handle has been passed to the client.</source>
+          <target state="translated">DisposeLocalCopyOfClientHandle-metoden må kalles når klienten-referansen som ble sendt til klienten.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method is not called, the &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt; object will not receive notice when the client disposes of its &lt;xref:System.IO.Pipes.PipeStream&gt; object.</source>
+          <target state="translated">Hvis denne metoden ikke kalles, den &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt;objektet vil ikke motta varsel når klienten disposes av den &lt;xref:System.IO.Pipes.PipeStream&gt;objektet.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.AnonymousPipeServerStream&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Releases unmanaged resources and performs other cleanup operations before the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance is reclaimed by garbage collection.</source>
+          <target state="translated">Frigir uforvaltede ressurser og til å utføre andre operasjoner for opprydding før den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> forekomsten gode av datasanering.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets the connected <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object's handle as a string.</source>
+          <target state="translated">Henter den tilkoblede <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektets referansen som en streng.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.IO.Pipes.AnonymousPipeServerStream.DisposeLocalCopyOfClientHandle%2A&gt; method should be called after a client handle has been passed to a client process.</source>
+          <target state="translated">Den &lt;xref:System.IO.Pipes.AnonymousPipeServerStream.DisposeLocalCopyOfClientHandle%2A&gt;metoden må kalles når en klient-referansen som ble sendt til en klientprosess.&lt;/xref:System.IO.Pipes.AnonymousPipeServerStream.DisposeLocalCopyOfClientHandle%2A&gt;</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If this method is not called, the &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt; object will not receive notice when the client disposes of its &lt;xref:System.IO.Pipes.PipeStream&gt; object.</source>
+          <target state="translated">Hvis denne metoden ikke kalles, den &lt;xref:System.IO.Pipes.AnonymousPipeServerStream&gt;objektet vil ikke motta varsel når klienten disposes av den &lt;xref:System.IO.Pipes.PipeStream&gt;objektet.&lt;/xref:System.IO.Pipes.PipeStream&gt; &lt;/xref:System.IO.Pipes.AnonymousPipeServerStream&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>A string that represents the connected <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object's handle.</source>
+          <target state="translated">En streng som representerer den tilkoblede <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeClientStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektets referansen.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Sets the reading mode for the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Angir lesemodus for den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>For anonymous pipes, transmission mode must be <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Overføringsmodus må være for anonym datakanaler <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anonymous pipes do not support &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt; read mode.</source>
+          <target state="translated">Støtter ikke anonyme datakanaler &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt;lesemodus.&lt;/xref:System.IO.Pipes.PipeTransmissionMode&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The reading mode for the <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lesemodus for den <bpt id="p1">&lt;xref href="System.IO.Pipes.AnonymousPipeServerStream"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektet.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The transmission mode is not valid.</source>
+          <target state="translated">Overføringsmodus er ikke gyldig.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>For anonymous pipes, only <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is supported.</source>
+          <target state="translated">For anonym datakanaler, bare <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> støttes.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The property is set to <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is not supported for anonymous pipes.</source>
+          <target state="translated">Egenskapen er satt til <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, som ikke støttes for anonym datakanaler.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>The connection is broken or another I/O error occurs.</source>
+          <target state="translated">Tilkoblingen er brutt eller en annen i/u-feil oppstår.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The pipe is closed.</source>
+          <target state="translated">Datakanalen er lukket.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets the pipe transmission mode that is supported by the current pipe.</source>
+          <target state="translated">Henter datakanalen overføringsmodus som støttes av gjeldende datakanalen.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Anonymous pipes do not support &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt; read mode.</source>
+          <target state="translated">Støtter ikke anonyme datakanaler &lt;xref:System.IO.Pipes.PipeTransmissionMode&gt;lesemodus.&lt;/xref:System.IO.Pipes.PipeTransmissionMode&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is supported by the current pipe.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.IO.Pipes.PipeTransmissionMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> som støttes av gjeldende datakanalen.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
