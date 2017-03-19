@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e8333e47452da439e51e711c57bb956b33202b18</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Effects.ShaderEffect.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9b6b03649e758ab6b3cca83d05f0f86b3cf92c92</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d4f51ede56aba2d50a3cb41d9665515e6ef0c89d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a custom bitmap effect by using a <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Ger en anpassad bitmapp effekt genom att använda en <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Derive from the ShaderEffect class to implement a custom effect based on a single pixel shader.</source>
+          <target state="translated">Härleds från klassen ShaderEffect att implementera en anpassad effekt baserat på en enda pixelskuggning.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following steps show how to create a custom effect.</source>
+          <target state="translated">Följande steg visar hur du skapar en anpassad effekt.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>1.</source>
+          <target state="translated">1.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Load a &lt;xref:System.Windows.Media.Effects.PixelShader&gt; from precompiled High Level Shading Language (HLSL) bytecode.</source>
+          <target state="translated">Läs in en &lt;xref:System.Windows.Media.Effects.PixelShader&gt;från förkompilerade hög nivå skuggning språk (HLSL) bytekod.&lt;/xref:System.Windows.Media.Effects.PixelShader&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Define dependency properties that represent the parameters of the effect and the &lt;xref:System.Windows.Media.Brush&gt;-based surface inputs.</source>
+          <target state="translated">Definiera beroendeegenskaper som representerar parametrarna för effekt och &lt;xref:System.Windows.Media.Brush&gt;-baserade ytan indata.&lt;/xref:System.Windows.Media.Brush&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use one of the &lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt; overloads to associate these inputs with register numbers that are referenced in the HLSL bytecode.</source>
+          <target state="translated">Använd någon av de &lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;överlagringar associera dessa indata med registrera siffror som refereras i HLSL bytekod.&lt;/xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The number of samplers is limited to 4.</source>
+          <target state="translated">Antalet insamling är begränsad till 4.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following restrictions apply when using a PS 3.0 shader.</source>
+          <target state="translated">Följande begränsningar gäller när du använder en PS 3.0 skuggning.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   When a PS 3.0 shader is assigned, the number of samplers increases to 8.</source>
+          <target state="translated">-När en PS 3.0 skuggning tilldelas, ökar antalet insamling till 8.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assign the PS 3.0 shader before other shaders to enable registering 8 samplers.</source>
+          <target state="translated">Tilldela PS 3.0 shader innan andra Shader-program att registrera 8 insamling.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The full shader constant register limit of 224 for floats is used.</source>
+          <target state="translated">-Fullständig shader konstant registrera högst 224 för flyttal används.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ps_3_0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=166292)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>ps_3_0<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=166292)</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The following data types are supported in PS 3.0 shaders only.</source>
+          <target state="translated">-Följande datatyper stöds i PS 3.0 Shader-program endast.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An exception is thrown if these are used in lower shader versions.</source>
+          <target state="translated">Ett undantag om de används i den nedre shader versioner.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   <ph id="ph1">`int`</ph> and types convertible to <ph id="ph2">`int`</ph>: <ph id="ph3">`uint`</ph>, <ph id="ph4">`byte`</ph>, <ph id="ph5">`sbyte`</ph>, <ph id="ph6">`long`</ph>, <ph id="ph7">`ulong`</ph>, <ph id="ph8">`short`</ph>, <ph id="ph9">`ushort`</ph>, <ph id="ph10">`char`</ph><ph id="ph11">          -   </ph><ph id="ph12">`bool`</ph>      -   If a valid PS 3.0 shader is loaded on a computer that does not have hardware support for PS 3.0, the shader is ignored.</source>
+          <target state="translated">- <ph id="ph1">`int`</ph> och typer som kan omvandlas till <ph id="ph2">`int`</ph>: <ph id="ph3">`uint`</ph>, <ph id="ph4">`byte`</ph>, <ph id="ph5">`sbyte`</ph>, <ph id="ph6">`long`</ph>, <ph id="ph7">`ulong`</ph>, <ph id="ph8">`short`</ph>, <ph id="ph9">`ushort`</ph>, <ph id="ph10">`char`</ph> <ph id="ph11">          -   </ph> <ph id="ph12">`bool`</ph> – om en giltig PS 3.0 shader har lästs in på en dator som inte har maskinvarustöd för PS 3.0 av shader ignoreras.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the shader is invalid, no exception is thrown.</source>
+          <target state="translated">Inget undantag genereras om shader är ogiltig.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a computer has more than one video card, the behavior is defined by the least capable video card.</source>
+          <target state="translated">– Om en dator har fler än ett grafikkort, definieras beteendet av det minst grafikkortet.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if the computer has two video cards, one of which supports PS 3.0 and one of which does not, the behavior is the same as if the computer does not support PS 3.0.</source>
+          <target state="translated">Till exempel om datorn har två grafikkort, varav stöder PS 3.0 och varav inte är beteendet samma som om datorn inte stöder PS 3.0.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If a computer supports rendering PS 3.0 in hardware, but an invalid PS 3.0 shader is assigned, the &lt;xref:System.Windows.Media.Effects.PixelShader.InvalidPixelShaderEncountered&gt; event is raised.</source>
+          <target state="translated">– Om en dator stöder återgivning PS 3.0 i maskinvara, men ett ogiltigt PS 3.0 shader tilldelas den &lt;xref:System.Windows.Media.Effects.PixelShader.InvalidPixelShaderEncountered&gt;händelsen utlöses.&lt;/xref:System.Windows.Media.Effects.PixelShader.InvalidPixelShaderEncountered&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An example of an invalid PS 3.0 shader is one compiled with the <ph id="ph1">`ps_3_sw`</ph> flag.</source>
+          <target state="translated">Ett exempel på en ogiltig PS 3.0 shader är en kompileras med den <ph id="ph1">`ps_3_sw`</ph> flaggan.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The ShaderEffect class accepts only PS 3.0 shaders that are compiled with the <ph id="ph1">`ps_3_0`</ph> flag passed to fxc.exe.</source>
+          <target state="translated">Klassen ShaderEffect accepterar endast PS 3.0 Shader-program som kompileras med den <ph id="ph1">`ps_3_0`</ph> flaggan skickades till fxc.exe.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Effect-Compiler Tool<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=166293)</ept>.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>effekt-kompilatorn verktyget<ept id="p1">](http://go.microsoft.com/fwlink/?LinkId=166293)</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  PS 2.0 shaders run when rendering in software.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Shader PS 2.0-program körs vid återgivning av programvaran.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, even if PS 3.0 is supported by the system's hardware, PS 3.0 shaders do not run during software rendering.</source>
+          <target state="translated">Men även om PS 3.0 stöds av datorns maskinvara, kör PS 3.0 Shader-program inte vid återgivning av programvara.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, making deep copies of this object's values.</source>
+          <target state="translated">Skapar en ändringsbar kloning av detta <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt, gör djup kopior av värden för det här objektet.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>When copying this object's dependency properties, this method copies resource references and data bindings (which may no longer resolve), but not animations or their current values.</source>
+          <target state="translated">När du kopierar det här objektet beroendeegenskaper, kopierar den här metoden resurs referenser och data Bindningar (som inte längre kan lösa), men inte animeringar eller deras aktuella värden.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Clone method can be used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects.</source>
+          <target state="translated">Metoden Clone kan användas för att skapa ändringsbar kopior av fryst &lt;xref:System.Windows.Freezable&gt;objekt.&lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For convenience, this method shadows the inherited &lt;xref:System.Windows.Freezable.Clone%2A&gt; method to provide a strongly typed implementation.</source>
+          <target state="translated">Av praktiska skäl kan den här metoden skuggar den ärvda &lt;xref:System.Windows.Freezable.Clone%2A&gt;metod för att ge en strikt typkontroll implementering.&lt;/xref:System.Windows.Freezable.Clone%2A&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of this instance.</source>
+          <target state="translated">En ändringsbar kloning av den här instansen.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The returned clone is effectively a deep copy of the current object.</source>
+          <target state="translated">Returnerade klon är en djup kopia av det aktuella objektet.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The clone's &lt;xref:System.Windows.Freezable.IsFrozen*&gt; property is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Klonade &lt;xref:System.Windows.Freezable.IsFrozen*&gt;egenskapen är <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Windows.Freezable.IsFrozen*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Makes the instance a clone (deep copy) of the specified <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using base (non-animated) property values.</source>
+          <target state="translated">Gör instansen en klon (djup kopia) för den angivna <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> med grundläggande (icke-animerade) egenskapsvärden.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The object to clone.</source>
+          <target state="translated">Objektet som används för att klona.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Creates a modifiable clone of this <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, making deep copies of this object's current values.</source>
+          <target state="translated">Skapar en ändringsbar kloning av detta <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.ShaderEffect"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt, gör djup kopior av det här objektets aktuella värden.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Resource references, data bindings, and animations are not copied, but their current values are copied.</source>
+          <target state="translated">Resursreferenser, databindningar och animeringar kopieras inte, men deras aktuella värden kopieras.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used to produce modifiable copies of frozen &lt;xref:System.Windows.Freezable&gt; objects (or any &lt;xref:System.Windows.Freezable&gt; object).</source>
+          <target state="translated">Den här metoden används för att skapa ändringsbar kopior av fryst &lt;xref:System.Windows.Freezable&gt;objekt (eller någon &lt;xref:System.Windows.Freezable&gt;objekt).&lt;/xref:System.Windows.Freezable&gt; &lt;/xref:System.Windows.Freezable&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For convenience, this method shadows the inherited version with a strongly typed implementation.</source>
+          <target state="translated">Den här metoden skuggar ärvda version med strikt typkontroll implementering för enkelhetens skull.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.</source>
+          <target state="translated">Mer information finns i &lt;xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;.&lt;/xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A modifiable clone of the current object.</source>
+          <target state="translated">En ändringsbar kloning av det aktuella objektet.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The cloned object's &lt;xref:System.Windows.Freezable.IsFrozen<bpt id="p1">*</bpt>&gt; property will be <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> even if the source's &lt;xref:System.Windows.Freezable.IsFrozen<ept id="p1">*</ept>&gt; property was <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Det klonade objektet &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; egenskapen <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> även om källans &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; egenskapen var <bpt id="p3">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Makes the instance a modifiable clone (deep copy) of the specified <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using current property values.</source>
+          <target state="translated">Gör instansen en ändringsbar klon (djup kopia) för den angivna <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> med aktuella värden.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to be cloned.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> kloning.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Creates a new instance of the <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> derived class.</source>
+          <target state="translated">Skapar en ny instans av den <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> härledd klass.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The new instance.</source>
+          <target state="translated">Den nya instansen.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates the shader register to use for the partial derivatives of the texture coordinates with respect to screen space.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger shader register för partiell härledning struktur koordinater i förhållande till skärmutrymmet.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the DdxUvDdyUvRegisterIndex property to specify the shader register that contains the partial derivatives of the texture coordinates with respect to screen space.</source>
+          <target state="translated">Använd egenskapen DdxUvDdyUvRegisterIndex att ange shader registrera som innehåller partiell derivat av strukturen samordnar med avseende på plats.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if DdxUvDdyUvRegisterIndex is set to 4, the shader register c4 is used.</source>
+          <target state="translated">Om DdxUvDdyUvRegisterIndex är 4 används shader registrera c4.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Register c4 contains four float fields.</source>
+          <target state="translated">Registrera c4 innehåller fyra float fält.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following High Level Shading Language (HLSL) code shows how this register is used.</source>
+          <target state="translated">Hög nivå skuggning språk (HLSL) följande kod visar hur detta register används.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`nextPixelUV`</ph> value represents the next pixel to the right.</source>
+          <target state="translated">Den <ph id="ph1">`nextPixelUV`</ph> värdet representerar nästa pixel till höger.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">```   float4 ddxUvDdyUv : register(c4);   SamplerState  sampler : register(S0);   ...   float2 nextPixelUV;   nextPixelUV.u = ddxUvDdyUv.x + u;   nextPixelUV.v = ddxUvDdyUv.y + v;      tex2D(sampler, nextPixelUV);   ```</ph>       The following table shows how the register specified for DdxUvDdyUvRegisterIndex is filled.</source>
+          <target state="translated"><ph id="ph1">```   float4 ddxUvDdyUv : register(c4);   SamplerState  sampler : register(S0);   ...   float2 nextPixelUV;   nextPixelUV.u = ddxUvDdyUv.x + u;   nextPixelUV.v = ddxUvDdyUv.y + v;      tex2D(sampler, nextPixelUV);   ```</ph>Följande tabell visar hur register som angetts för DdxUvDdyUvRegisterIndex fylls.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Register Constant|Derivative Value|   |-----------------------|----------------------|   |x component|ddx(u)|   |y component|ddx(v)|   |z component|ddy(u)|   |w component|ddy(v)|       Texture coordinates are denoted as <ph id="ph1">`(u, v)`</ph>.</source>
+          <target state="translated">| Registrera konstant | Härledda värdet |   |-----------------------|----------------------|   | x component|ddx(u) |   | y component|ddx(v) |   | z component|ddy(u) |   | w component|ddy(v) |       Struktur koordinater betecknas som <ph id="ph1">`(u, v)`</ph>.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`ddx(u)`</ph> is the constant partial derivative of the texture coordinate component <ph id="ph2">`u`</ph> with respect to the screen-space x-coordinate.</source>
+          <target state="translated"><ph id="ph1">`ddx(u)`</ph>är den konstanta partiell derivat av komponenten struktur koordinaten <ph id="ph2">`u`</ph> med avseende på skärmen utrymme x-koordinat.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`ddy(u)`</ph> is the partial derivative of the texture coordinate <ph id="ph2">`u`</ph> with respect to the screen-space y-coordinate.</source>
+          <target state="translated"><ph id="ph1">`ddy(u)`</ph>är delvis derivat av struktur koordinaten <ph id="ph2">`u`</ph> med avseende på skärmen utrymme y-koordinat.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Similarly, <ph id="ph1">`ddx(v)`</ph> and <ph id="ph2">`ddy(v)`</ph> are the corresponding screen-space derivatives for the texture coordinate component <ph id="ph3">`v`</ph>.</source>
+          <target state="translated">På liknande sätt <ph id="ph1">`ddx(v)`</ph> och <ph id="ph2">`ddy(v)`</ph> är motsvarande skärmutrymmet derivat för komponenten struktur koordinaten <ph id="ph3">`v`</ph>.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  HLSL has the ddx and ddy instructions to calculate these values, but these instructions are not available on all PixelShader 2.0 hardware.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; HLSL har ddx och ddy instruktionerna för att beräkna dessa värden, men dessa instruktioner är inte tillgängliga på alla PixelShader 2.0 maskinvara.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You may think of these constants in the following way.</source>
+          <target state="translated">Du kan se dessa konstanter på följande sätt.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you step 1 pixel to the right in screen space (in the x direction), then <ph id="ph1">`ddx(u)`</ph> is the amount that <ph id="ph2">`u`</ph> changes in texture space, and <ph id="ph3">`ddx(v)`</ph> is the amount that <ph id="ph4">`v`</ph> changes in texture space.</source>
+          <target state="translated">Om du sedan steg 1 bildpunkt till höger på skärmutrymme (i x-led) <ph id="ph1">`ddx(u)`</ph> är den som <ph id="ph2">`u`</ph> förändringar i strukturen utrymme och <ph id="ph3">`ddx(v)`</ph> är den som <ph id="ph4">`v`</ph> förändringar i strukturen utrymme.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the effect is axis-aligned when it is rendered, then <ph id="ph1">`ddx(v)`</ph> is 0.</source>
+          <target state="translated">Om effekten axel-justeras när den återges, sedan <ph id="ph1">`ddx(v)`</ph> är 0.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the effect is rotated when it is rendered, then <ph id="ph1">`ddx(v)`</ph> is non-zero.</source>
+          <target state="translated">Om effekten roteras när den återges, sedan <ph id="ph1">`ddx(v)`</ph> inte är noll.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The index of the register that contains the partial derivatives.</source>
+          <target state="translated">Index för register som innehåller partiell härledning.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the DdxUvDdyUvRegisterIndex property more than one time or after initial processing of the effect.</source>
+          <target state="translated">Ett försök gjordes att ange egenskapen DdxUvDdyUvRegisterIndex mer än en gång eller efter den första bearbetningen av effekten.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Makes the instance a frozen clone of the specified <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using base (non-animated) property values.</source>
+          <target state="translated">Gör instansen en fryst kloning av den angivna <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> med grundläggande (icke-animerade) egenskapsvärden.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The instance to copy.</source>
+          <target state="translated">Instansen som används för att kopiera.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Makes the current instance a frozen clone of the specified <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gör den aktuella instansen en fryst kloning av den angivna <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>If the object has animated dependency properties, their current animated values are copied.</source>
+          <target state="translated">Om objektet har animerade beroendeegenskaper, kopieras deras aktuella animerade värden.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to copy and freeze.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Windows.Freezable"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> att kopiera och lås.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating that the effect's output texture is larger than its input texture along the bottom edge.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger att den effekt utdata struktur är större än dess inkommande struktur längs nederkanten.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The padding along the bottom edge of the effect.</source>
+          <target state="translated">Utfyllnaden längs nederkanten effekt.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>The provided value is less than 0.</source>
+          <target state="translated">Det angivna värdet är mindre än 0.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating that the effect's output texture is larger than its input texture along the left edge.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger att den effekt utdata struktur är större än dess inkommande struktur längs vänster kant.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The padding along the left edge of the effect.</source>
+          <target state="translated">Utfyllnaden till den vänstra sidan av effekten.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The provided value is less than 0.</source>
+          <target state="translated">Det angivna värdet är mindre än 0.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating that the effect's output texture is larger than its input texture along the right edge.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger att den effekt utdata struktur är större än dess inkommande struktur längs höger kant.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The padding along the right edge of the effect.</source>
+          <target state="translated">Utfyllnaden längs höger kant effekten.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The provided value is less than 0.</source>
+          <target state="translated">Det angivna värdet är mindre än 0.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating that the effect's output texture is larger than its input texture along the top edge.</source>
+          <target state="translated">Hämtar eller anger ett värde som anger att den effekt utdata struktur är större än dess inkommande struktur längs överkanten.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The padding along the top edge of the effect.</source>
+          <target state="translated">Utfyllnaden längs överkanten av effekten.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The provided value is less than 0.</source>
+          <target state="translated">Det angivna värdet är mindre än 0.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to use for the effect.</source>
+          <target state="translated">Hämtar eller anger den <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ska användas för effekten.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="dependencyPropertyInfo_PixelShader"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Dependency Property Information      |||   |-|-|   |Identifier field|&lt;xref:System.Windows.Media.Effects.ShaderEffect.PixelShaderProperty&gt;|   |Metadata properties set to <ph id="ph1">`true`</ph>|None|</source>
+          <target state="translated"><bpt id="p1">&lt;a name="dependencyPropertyInfo_PixelShader"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>## Beroendeegenskapsinformation |||   |-|-|   | ID-fältet | &lt;xref:System.Windows.Media.Effects.ShaderEffect.PixelShaderProperty&gt;|   | Metadata egenskaperna <ph id="ph1">`true`</ph>| Ingen |&lt;/xref:System.Windows.Media.Effects.ShaderEffect.PixelShaderProperty&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the effect.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.PixelShader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för effekten.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Associates a dependency property value with a pixel shader's float constant register.</source>
+          <target state="translated">Associerar ett egenskapsvärde i samband med en pixel shader float konstant registrera.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the PixelShaderConstantCallback method when you register a dependency property for a shader constant.</source>
+          <target state="translated">Använd metoden PixelShaderConstantCallback när du registrerar en beroendeegenskap för en skuggningskonstanter.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PixelShaderConstantCallback method constructs a &lt;xref:System.Windows.PropertyChangedCallback&gt; delegate that, when invoked, creates an association between the dependency property and the shader constant register specified by <ph id="ph1">`floatRegisterIndex`</ph>.</source>
+          <target state="translated">Metoden PixelShaderConstantCallback skapar en &lt;xref:System.Windows.PropertyChangedCallback&gt;Delegera som, när den anropas, skapar en association mellan beroendeegenskapen och shader konstant register som anges av <ph id="ph1">`floatRegisterIndex`</ph>.&lt;/xref:System.Windows.PropertyChangedCallback&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The index of the shader register associated with the dependency property.</source>
+          <target state="translated">Index för shader registret som är associerade med beroendeegenskapen.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate that associates a dependency property and the shader constant register specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">floatRegisterIndex</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> delegat som associerar en beroendeegenskap och shader konstant register som anges av <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">floatRegisterIndex</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The dependency property is an unknown type.</source>
+          <target state="translated">Beroendegenskapen är en okänd typ.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;floatRegisterIndex&lt;/code&gt;</ph> is greater than or equal to 32, or <ph id="ph2">&lt;code&gt;floatRegisterIndex&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;floatRegisterIndex&lt;/code&gt;</ph>är större än eller lika med 32, eller <ph id="ph2">&lt;code&gt;floatRegisterIndex&lt;/code&gt;</ph> är mindre än 0.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>Identifies the &lt;xref:System.Windows.Media.Effects.ShaderEffect.PixelShader*&gt; dependency property.</source>
+          <target state="translated">Identifierar den &lt;xref:System.Windows.Media.Effects.ShaderEffect.PixelShader*&gt;beroendeegenskap.&lt;/xref:System.Windows.Media.Effects.ShaderEffect.PixelShader*&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Som ska läggas till.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>Associates a dependency property value with a pixel shader's sampler register.</source>
+          <target state="translated">Associerar ett egenskapsvärde i samband med en pixel shader schemakonstanter register.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the PixelShaderSamplerCallback method when you register a &lt;xref:System.Windows.Media.Brush&gt;-valued dependency property for a shader sampler.</source>
+          <target state="translated">Använd metoden PixelShaderSamplerCallback när du registrerar en &lt;xref:System.Windows.Media.Brush&gt;-valued beroendeegenskap för shader provet.&lt;/xref:System.Windows.Media.Brush&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The PixelShaderSamplerCallback method constructs a &lt;xref:System.Windows.PropertyChangedCallback&gt; delegate that, when invoked, creates an association between the dependency property and the shader sampler register specified by <ph id="ph1">`samplerRegisterIndex`</ph>.</source>
+          <target state="translated">Metoden PixelShaderSamplerCallback skapar en &lt;xref:System.Windows.PropertyChangedCallback&gt;Delegera som, när den anropas, skapar en association mellan beroendeegenskapen och shader schemakonstanter register som anges av <ph id="ph1">`samplerRegisterIndex`</ph>.&lt;/xref:System.Windows.PropertyChangedCallback&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The index of the shader sampler associated with the dependency property.</source>
+          <target state="translated">Index för shader-exempel som är associerade med beroendeegenskapen.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate that associates a dependency property and the shader sampler register specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">samplerRegisterIndex</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> delegat som associerar en beroendeegenskap och shader schemakonstanter register som anges av <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">samplerRegisterIndex</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>Associates a dependency property value with a pixel shader's sampler register and a <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Associerar ett egenskapsvärde i samband med en pixel shader schemakonstanter registrera och en <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt; method when you register a &lt;xref:System.Windows.Media.Brush&gt;-valued dependency property for a shader sampler.</source>
+          <target state="translated">Använd den &lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;metoden när du registrerar en &lt;xref:System.Windows.Media.Brush&gt;-valued beroendeegenskap för shader provet.&lt;/xref:System.Windows.Media.Brush&gt; &lt;/xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt; method constructs a &lt;xref:System.Windows.PropertyChangedCallback&gt; delegate that, when invoked, creates an association between the dependency property and the shader sampler register specified by <ph id="ph1">`samplerRegisterIndex`</ph>.</source>
+          <target state="translated">Den &lt;xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;metoden konstruktioner en &lt;xref:System.Windows.PropertyChangedCallback&gt;Delegera som, när den anropas, skapar en association mellan beroendeegenskapen och shader schemakonstanter register som anges av <ph id="ph1">`samplerRegisterIndex`</ph>.&lt;/xref:System.Windows.PropertyChangedCallback&gt; &lt;/xref:System.Windows.Media.Effects.ShaderEffect.RegisterPixelShaderSamplerProperty%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The index of the shader sampler associated with the dependency property.</source>
+          <target state="translated">Index för shader-exempel som är associerade med beroendeegenskapen.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the shader sampler.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för shader schemakonstanter.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate that associates a dependency property and the shader sampler register specified by <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">samplerRegisterIndex</ph><ept id="p2">&lt;/code&gt;</ept>.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Windows.PropertyChangedCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> delegat som associerar en beroendeegenskap och shader schemakonstanter register som anges av <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">samplerRegisterIndex</ph> <ept id="p2">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>Associates a dependency property with a shader sampler register.</source>
+          <target state="translated">Associerar en beroendeegenskap med ett shader schemakonstanter register.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The name of the dependency property.</source>
+          <target state="translated">Namnet på beroendegenskapen.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The type of the effect that has the dependency property.</source>
+          <target state="translated">Typ av den effekt som har beroendeegenskapen.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The index of the shader sampler associated with the dependency property.</source>
+          <target state="translated">Index för shader-exempel som är associerade med beroendeegenskapen.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>A dependency property associated with the shader sampler specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">samplerRegisterIndex</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">En beroendeegenskap som är associerad med shader-exempel som anges av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">samplerRegisterIndex</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Associates a dependency property with a shader sampler register and a <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Associerar en beroendeegenskap med ett shader schemakonstanter register och en <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The name of the dependency property.</source>
+          <target state="translated">Namnet på beroendegenskapen.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The type of the effect that has the dependency property.</source>
+          <target state="translated">Typ av den effekt som har beroendeegenskapen.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The index of the shader sampler associated with the dependency property.</source>
+          <target state="translated">Index för shader-exempel som är associerade med beroendeegenskapen.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the shader sampler.</source>
+          <target state="translated">Den <bpt id="p1">&lt;xref href="System.Windows.Media.Effects.SamplingMode"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> för shader schemakonstanter.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>A dependency property associated with the shader sampler specified by <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">samplerRegisterIndex</ph><ept id="p1">&lt;/code&gt;</ept>.</source>
+          <target state="translated">En beroendeegenskap som är associerad med shader-exempel som anges av <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">samplerRegisterIndex</ph> <ept id="p1">&lt;/code&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Notifies the effect that the shader constant or sampler corresponding to the specified dependency property should be updated.</source>
+          <target state="translated">Meddelar effekten att skuggningskonstanter eller schemakonstanter som motsvarar den angivna beroendegenskapen ska uppdateras.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The dependency property to be updated.</source>
+          <target state="translated">Beroendeegenskap som ska uppdateras.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

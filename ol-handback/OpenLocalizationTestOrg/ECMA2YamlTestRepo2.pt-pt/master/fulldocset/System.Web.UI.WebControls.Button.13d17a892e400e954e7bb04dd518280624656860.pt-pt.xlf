@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7f84f54488aa6759e36ccbaca3a93f8ac2a72d6c</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.WebControls.Button.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3d7c0235ae05d44192462d1b2b44d7b37b565c75</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">335e58ba9debb5916b970bfa660be1c802ea7187</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Displays a push button control on the Web page.</source>
+          <target state="translated">Apresenta um controlo de botão de push na página Web.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this topic:      -   <bpt id="p1">[</bpt>Introduction<ept id="p1">](#Introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>Button Postback Behavior and Server Events<ept id="p2">](#ButtonPostbackBehaviorandServerEvents)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>Handling Button Events in Client Script<ept id="p3">](#HandlingButtonEventsinClientScript)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>Button Controls and Validation<ept id="p4">](#ButtonControlsAndValidation)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>Buttons in Data Controls<ept id="p5">](#ButtonsInDataControls)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>Binding Data to the Controls<ept id="p6">](#BindingDataToTheControls)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>Using Buttons with UpdatePanel Controls<ept id="p7">](#UsingButtonsWithUpdatePanelControls)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>Declarative Syntax<ept id="p8">](#DeclarativeSyntax)</ept>      <bpt id="p9">&lt;a name="Introduction"&gt;</bpt><ept id="p9">&lt;/a&gt;</ept>    ## Introduction    Use the Button control to create a push button on the Web page that lets users to post a page to the server.</source>
+          <target state="translated">Neste tópico:- <bpt id="p1">[</bpt>introdução<ept id="p1">](#Introduction)</ept><ph id="ph1">      -   </ph><bpt id="p2">[</bpt>eventos de servidor e comportamento de nova colocação do botão<ept id="p2">](#ButtonPostbackBehaviorandServerEvents)</ept><ph id="ph2">      -   </ph><bpt id="p3">[</bpt>processamento de eventos de botão no Script de cliente<ept id="p3">](#HandlingButtonEventsinClientScript)</ept><ph id="ph3">      -   </ph><bpt id="p4">[</bpt>botão controlos e validação<ept id="p4">](#ButtonControlsAndValidation)</ept><ph id="ph4">      -   </ph><bpt id="p5">[</bpt>botões em controlos de dados<ept id="p5">](#ButtonsInDataControls)</ept><ph id="ph5">      -   </ph><bpt id="p6">[</bpt>enlace de dados para os controlos<ept id="p6">](#BindingDataToTheControls)</ept><ph id="ph6">      -   </ph><bpt id="p7">[</bpt>utilizando os botões com controlos de UpdatePanel<ept id="p7">](#UsingButtonsWithUpdatePanelControls)</ept><ph id="ph7">      -   </ph><bpt id="p8">[</bpt>sintaxe declarativa<ept id="p8">](#DeclarativeSyntax)</ept> <bpt id="p9">&lt;a name="Introduction"&gt;</bpt> <ept id="p9">&lt;/a&gt;</ept> # # introdução utilize o controlo de botão para criar um botão de push na página Web que permite aos utilizadores publicar uma página para o servidor.      </target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The control triggers an event in server code that you can handle to respond to the postback.</source>
+          <target state="translated">O controlo é acionado um evento no código de servidor que pode processar responder para a nova colocação.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It can also raise an event in client script that you can handle before the page is posted or that can run and then cancel submission of the page.</source>
+          <target state="translated">Pode também levantar um evento no script de cliente que pode processar antes da página é publicada ou que pode executar e, em seguida, cancelar a submissão da página.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  ASP.NET includes several kinds of button controls, each of which appears differently on Web pages.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; ASP.NET inclui vários tipos de controlos de botão, cada um dos quais é apresentada a forma diferente em páginas Web.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>They are the Button control, which renders as a push button; the &lt;xref:System.Web.UI.WebControls.LinkButton&gt; control, which renders as a link; and the &lt;xref:System.Web.UI.WebControls.ImageButton&gt; control, which renders as an image; and the &lt;xref:System.Web.UI.WebControls.ImageMap&gt; control, which lets you create a graphic that has hotspots that users can click.</source>
+          <target state="translated">São o controlo de botão, o que é apresentada como um botão de push; o &lt;xref:System.Web.UI.WebControls.LinkButton&gt;controlo, que é apresentada como uma ligação; e o &lt;xref:System.Web.UI.WebControls.ImageButton&gt;controlo, que é apresentada como uma imagem; e o &lt;xref:System.Web.UI.WebControls.ImageMap&gt;controlo, o que lhe permite criar um gráfico que tenha hotspots que os utilizadores podem clicar.&lt;/xref:System.Web.UI.WebControls.ImageMap&gt; &lt;/xref:System.Web.UI.WebControls.ImageButton&gt; &lt;/xref:System.Web.UI.WebControls.LinkButton&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, all button controls submit the page when clicked.</source>
+          <target state="translated">Por predefinição, todos os controlos de botão submeter a página quando clicado.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use the &lt;xref:System.Web.UI.HtmlControls.HtmlButton&gt; and &lt;xref:System.Web.UI.HtmlControls.HtmlInputButton&gt; controls to create buttons on the page that are programmable in server code.</source>
+          <target state="translated">Também pode utilizar o &lt;xref:System.Web.UI.HtmlControls.HtmlButton&gt;e &lt;xref:System.Web.UI.HtmlControls.HtmlInputButton&gt;controlos para criar botões na página programáveis no código do servidor.&lt;/xref:System.Web.UI.HtmlControls.HtmlInputButton&gt; &lt;/xref:System.Web.UI.HtmlControls.HtmlButton&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details about the differences between HTML and Web server controls, see <bpt id="p1">[</bpt>ASP.NET Web Server Controls Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter detalhes sobre as diferenças entre os controlos de servidor Web e HTML, consulte <bpt id="p1">[</bpt>descrição geral de controlos do ASP.NET Web Server<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, a Button control is a Submit button.</source>
+          <target state="translated">Por predefinição, um controlo de botão é um botão para submeter.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Submit button does not have a command name (specified by the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property) associated with the button and simply posts the Web page back to the server.</source>
+          <target state="translated">Um botão para submeter não tem um nome de comando (especificada pelo &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;propriedade) associados com o botão e simplesmente a página Web de volta para o servidor de mensagens.&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can provide an event handler for the &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event to programmatically control the actions performed when the Submit button is clicked.</source>
+          <target state="translated">Pode fornecer um processador de eventos para o &lt;xref:System.Web.UI.WebControls.Button.Click&gt;eventos para controlar programaticamente as ações executadas quando clica no botão para submeter.&lt;/xref:System.Web.UI.WebControls.Button.Click&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A Command button has a command name associated with the button, such as <ph id="ph1">`Sort`</ph>, by setting the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property.</source>
+          <target state="translated">Um botão de comando tem um nome de comando associado ao botão, tais como <ph id="ph1">`Sort`</ph>, definindo o &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows you to create multiple Button controls on a Web page and programmatically determine which Button control is clicked.</source>
+          <target state="translated">Isto permite-lhe criar botão vários controlos numa página Web e determinar programaticamente o controlo de botão é clicado.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use the &lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt; property with a command button to provide additional information about the command to perform, such as <ph id="ph1">`Ascending`</ph>.</source>
+          <target state="translated">Também pode utilizar o &lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;propriedade com um botão de comando para fornecer informações adicionais sobre o comando para efetuar, tais como <ph id="ph1">`Ascending`</ph>.&lt;/xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can provide an event handler for the &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event to programmatically control the actions performed when the Command button is clicked.</source>
+          <target state="translated">Pode fornecer um processador de eventos para o &lt;xref:System.Web.UI.WebControls.Button.Command&gt;eventos para controlar programaticamente as ações executadas quando o botão de comando é clicado.&lt;/xref:System.Web.UI.WebControls.Button.Command&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="ButtonPostbackBehaviorandServerEvents"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Button Postback Behavior and Server Events    When a user clicks any Web server control button, the page is sent to the server.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="ButtonPostbackBehaviorandServerEvents"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Comportamento de nova colocação do botão de e servidor eventos quando um utilizador clica em qualquer botão de controlo de servidor Web, a página é enviada para o servidor.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This causes the Web page to be processed and any pending events to be raised in server-based code.</source>
+          <target state="translated">Isto faz com que a página Web a serem processados e quaisquer eventos pendentes gerado no código baseado no servidor.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When all page and control processing has finished, the page renders itself to the browser again.</source>
+          <target state="translated">Quando tiver concluído a todos os página e a processamentos de controlo, a página compõe-se o browser novamente.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The buttons can raise their own &lt;xref:System.Web.UI.WebControls.Button.Click&gt; events or &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event, which you can handle by using server-based code.</source>
+          <target state="translated">Os botões podem aumentar os seus próprios &lt;xref:System.Web.UI.WebControls.Button.Click&gt;eventos ou &lt;xref:System.Web.UI.WebControls.Button.Command&gt;evento, o que pode processar utilizando código baseado no servidor.&lt;/xref:System.Web.UI.WebControls.Button.Command&gt; &lt;/xref:System.Web.UI.WebControls.Button.Click&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is different than events in traditional HTML pages or in client-based Web applications, where a button's <ph id="ph1">`onclick`</ph> event is handled by using JavaScript that runs in the client.</source>
+          <target state="translated">Isto é diferente de eventos no tradicionais páginas HTML ou num cliente baseado na Web Apps, onde um botão <ph id="ph1">`onclick`</ph> evento é processado pelo utilizando JavaScript é executado no cliente.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>ASP.NET Web Forms Server Control Event Model<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>modelo de evento de controlo de servidor formulários Web ASP.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When users click a button control, the page is posted back to the server.</source>
+          <target state="translated">Quando os utilizadores clicarem um controlo de botão, a página é publicada novamente para o servidor.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the page is posted back to itself,       You can configure buttons to post the current page to another page.</source>
+          <target state="translated">Por predefinição, a página é publicada novamente a próprio, pode configurar os botões para publicar a página para outra página atual.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be useful for creating multi-page forms.</source>
+          <target state="translated">Isto pode ser útil para criar formulários multi página.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details, see <bpt id="p1">[</bpt>Cross-Page Posting in ASP.NET Web Forms<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>entre página Publicar em formulários Web ASP.NET<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="HandlingButtonEventsinClientScript"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Handling Button Events in Client Script    Button controls can raise both server events and client events.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="HandlingButtonEventsinClientScript"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Processar eventos de botão de controlos de botão de Script de cliente pode gerar eventos de servidor e eventos de cliente.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Server events occur after postback, and they are handled in the server-side code that you write for the page.</source>
+          <target state="translated">Eventos do servidor ocorrerem depois de nova colocação e estes são processadas com o código do lado do servidor que escrever para a página.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Client events are handled in client script, typically ECMAScript (JavaScript), and are raised before the page is submitted.</source>
+          <target state="translated">Eventos de cliente são processados no script de cliente, normalmente ECMAScript (JavaScript) e são gerados antes da página é submetida.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By adding client-side events to ASP.NET button controls, you can perform tasks such as displaying confirmation dialog boxes before submitting the page, and potentially cancel the submission.</source>
+          <target state="translated">Ao adicionar eventos do lado do cliente para controlos de botão ASP.NET, pode efetuar tarefas, como de apresentação de caixas de diálogo de confirmação antes de submeter a página e potencialmente cancelar a submissão.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For details, see <bpt id="p1">[</bpt>Client Script in ASP.NET Web Pages<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>How to: Respond to Button Web Server Control Events in Client Script<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>Script de cliente no ASP.NET Web Pages<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> e <bpt id="p2">[</bpt>como: responder a eventos de controlo do botão Web Server no Script de cliente<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You might also want the Button control to also use client script to perform the postback (instead of simply performing an HTTP POST operation).</source>
+          <target state="translated">Poderá também o controlo de botão para também utilizar o script de cliente para executar a nova colocação (em vez de basta efetuar uma operação de HTTP POST).</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This can be useful if you want to programmatically manipulate the postback, such as attaching it to other elements on the page.</source>
+          <target state="translated">Isto pode ser útil se pretender manipular programaticamente a nova colocação como ligá-la a outros elementos na página.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the Button control's &lt;xref:System.Web.UI.WebControls.Button.UseSubmitBehavior%2A&gt; property to <ph id="ph1">`true`</ph> to cause the Button control to use client-script based postback.</source>
+          <target state="translated">Pode definir o controlo de botão &lt;xref:System.Web.UI.WebControls.Button.UseSubmitBehavior%2A&gt;propriedade <ph id="ph1">`true`</ph> fazer com que o controlo de botão utilizar o script de cliente baseada em nova colocação.&lt;/xref:System.Web.UI.WebControls.Button.UseSubmitBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="ButtonControlsAndValidation"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Button Controls and Validation    If a page contains ASP.NET validator controls, by default, clicking a button control causes the validator control to perform its check.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="ButtonControlsAndValidation"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Botão de e controlos de validação se uma página contém os controlos de validação do ASP.NET, por predefinição, ao clicar num controlo de botão faz com que o controlo de validação efetuar a verificação.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If client-side validation is enabled for a validator control, the page is not submitted if a validation check has failed.</source>
+          <target state="translated">Se a validação do lado do cliente estiver ativada para um controlo de validação, a página não é submetida se falhou uma verificação de validação.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table describes the properties supported by button controls that enable you to control the validation process more precisely.</source>
+          <target state="translated">A tabela seguinte descreve as propriedades suportadas pelos controlos do botão que lhe permite controlar o processo de validação de forma mais precisa.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Property|Description|   |--------------|-----------------|   |&lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;|Specifies whether clicking the button also performs a validation check.</source>
+          <target state="translated">| Propriedade | Descrição |   |--------------|-----------------|   | &lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;| Especifica se clicar no botão também efetua uma verificação de validação.&lt;/xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Set this property to <ph id="ph1">`false`</ph> to prevent a validation check.|   |&lt;xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt;|Enables you to specify which validators on the page are called when the button is clicked.</source>
+          <target state="translated">Defina esta propriedade como <ph id="ph1">`false`</ph> para impedir que uma verificação de validação. |   | &lt;xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt;| Permite-lhe especificar que validações na página são denominadas quando o botão é clicado.&lt;/xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no validation groups are established, a button click calls all of the validators that are on the page.|       For more information, see <bpt id="p1">[</bpt>Validating User Input in ASP.NET Web Pages<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Se não existem grupos de validação são estabelecidos, um clique no botão chama todas as validações que estão na página. |       Para obter mais informações, consulte <bpt id="p1">[</bpt>a validar a intervenção do utilizador no ASP.NET Web Pages<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="ButtonsInDataControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Buttons in Data Controls    Button Web server controls are often used in data controls, such as in the &lt;xref:System.Web.UI.WebControls.DataList&gt;, &lt;xref:System.Web.UI.WebControls.GridView&gt;, and &lt;xref:System.Web.UI.WebControls.Repeater&gt; list controls.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="ButtonsInDataControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Botões em controlos de servidor Web de botão de controlos de dados são frequentemente utilizados em controlos de dados, tal como no &lt;xref:System.Web.UI.WebControls.DataList&gt;, &lt;xref:System.Web.UI.WebControls.GridView&gt;, e &lt;xref:System.Web.UI.WebControls.Repeater&gt;controlos de lista.&lt;/xref:System.Web.UI.WebControls.Repeater&gt; &lt;/xref:System.Web.UI.WebControls.GridView&gt; &lt;/xref:System.Web.UI.WebControls.DataList&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In those cases, you typically do not respond directly to the button click event.</source>
+          <target state="translated">Nesses casos, normalmente não responder diretamente para o botão clique evento.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instead, a button in a data control raises an event that is specific to the data control.</source>
+          <target state="translated">Em vez disso, um botão num controlo de dados gera um evento que é específico para o controlo de dados.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, in the &lt;xref:System.Web.UI.WebControls.DataList&gt; control, a button might raise the &lt;xref:System.Web.UI.WebControls.DataList&gt; control's &lt;xref:System.Web.UI.WebControls.DataList.ItemCommand&gt; event instead of raising the Button control's &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event.</source>
+          <target state="translated">Por exemplo, no &lt;xref:System.Web.UI.WebControls.DataList&gt;controlo, um botão poderá aumentar o &lt;xref:System.Web.UI.WebControls.DataList&gt;do controlo &lt;xref:System.Web.UI.WebControls.DataList.ItemCommand&gt;eventos em vez de gerar o controlo de botão &lt;xref:System.Web.UI.WebControls.Button.Click&gt;eventos.&lt;/xref:System.Web.UI.WebControls.Button.Click&gt; &lt;/xref:System.Web.UI.WebControls.DataList.ItemCommand&gt; &lt;/xref:System.Web.UI.WebControls.DataList&gt; &lt;/xref:System.Web.UI.WebControls.DataList&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because data-bound list controls can contain many buttons, you can set the button's &lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt; property to specify a value to pass as part of the event.</source>
+          <target state="translated">Porque os controlos vinculados a dados lista podem conter muitos botões, pode definir o botão &lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;propriedade para especificar um valor para passar como parte do evento.&lt;/xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then test for this argument to see which button was clicked.</source>
+          <target state="translated">Em seguida, pode testar para este argumento ver o botão foi clicado.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="BindingDataToTheControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Binding Data to the Controls    You can bind the button Web server controls to a data source in order to control their property settings dynamically.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="BindingDataToTheControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Enlace de dados para os controlos que é possível vincular os controlos de servidor de Web do botão para uma origem de dados para controlar as definições de propriedade dinamicamente.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can set a button's &lt;xref:System.Web.UI.WebControls.Button.Text%2A&gt; property by using data binding.</source>
+          <target state="translated">Por exemplo, pode definir um botão &lt;xref:System.Web.UI.WebControls.Button.Text%2A&gt;propriedade utilizando o enlace de dados.&lt;/xref:System.Web.UI.WebControls.Button.Text%2A&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="UsingButtonsWithUpdatePanelControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Using Buttons with UpdatePanel Controls    Partial-page rendering makes it possible to refresh portions of a page without a postback.</source>
+          <target state="translated"><bpt id="p1">&lt;a name="UsingButtonsWithUpdatePanelControls"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Utilizando botões com a composição de controlos de UpdatePanel parcial-página torna possível atualizar as partes de uma página sem uma nova colocação.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Web.UI.UpdatePanel&gt; controls enable you to mark parts of the page that participate in partial-page rendering.</source>
+          <target state="translated">&lt;xref:System.Web.UI.UpdatePanel&gt;controlos permitem-lhe marcar partes da página que participam numa composição de página parcial.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the behavior of controls inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control, including Button controls, is to perform an asynchronous postback instead of a postback.</source>
+          <target state="translated">Por predefinição, o comportamento dos controlos dentro de um &lt;xref:System.Web.UI.UpdatePanel&gt;controlo, incluindo controlos de botão, consiste em efetuar uma nova colocação assíncrona em vez de uma nova colocação.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This refreshes only the contents of the &lt;xref:System.Web.UI.UpdatePanel&gt; control from which the postback originates.</source>
+          <target state="translated">Isto atualiza apenas o conteúdo a &lt;xref:System.Web.UI.UpdatePanel&gt;controlar de que a nova colocação origina.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In addition to the scenario of a Button control that is inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control, you can use Button controls with &lt;xref:System.Web.UI.UpdatePanel&gt; controls in the following scenarios:      -   Defining a Button control that is outside an &lt;xref:System.Web.UI.UpdatePanel&gt; control as an &lt;xref:System.Web.UI.AsyncPostBackTrigger&gt; control for that panel.</source>
+          <target state="translated">Para além do cenário de um controlo de botão está dentro de um &lt;xref:System.Web.UI.UpdatePanel&gt;controlo, pode utilizar os controlos com o botão &lt;xref:System.Web.UI.UpdatePanel&gt;controlos nos seguintes cenários:-definir um controlo de botão que está fora um &lt;xref:System.Web.UI.UpdatePanel&gt;controlar como um &lt;xref:System.Web.UI.AsyncPostBackTrigger&gt;controlo para esse painel.&lt;/xref:System.Web.UI.AsyncPostBackTrigger&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the button is clicked, it performs an asynchronous postback and refreshes the contents of the panel.</source>
+          <target state="translated">Quando o botão é clicado, executa um postback assíncrono e atualiza o conteúdo do painel.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   Defining a Button control that is inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control as a &lt;xref:System.Web.UI.PostBackTrigger&gt; for the panel.</source>
+          <target state="translated">-Definir um controlo de botão está dentro de um &lt;xref:System.Web.UI.UpdatePanel&gt;controlar como um &lt;xref:System.Web.UI.PostBackTrigger&gt;para o painel.&lt;/xref:System.Web.UI.PostBackTrigger&gt; &lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the button is clicked, it performs a postback even though it is inside an &lt;xref:System.Web.UI.UpdatePanel&gt; control.</source>
+          <target state="translated">Quando o botão é clicado, efetua uma nova colocação apesar de estar no interior de um &lt;xref:System.Web.UI.UpdatePanel&gt;controlo.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about partial-page rendering and using &lt;xref:System.Web.UI.UpdatePanel&gt; controls, see <bpt id="p1">[</bpt>UpdatePanel Control Overview<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and <bpt id="p2">[</bpt>Partial-Page Rendering Overview<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a página parcial composição e utilizar &lt;xref:System.Web.UI.UpdatePanel&gt;controlos, consulte <bpt id="p1">[</bpt>descrição geral do controlo UpdatePanel<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> e <bpt id="p2">[</bpt>descrição geral de composição de página parcial<ept id="p2">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.UpdatePanel&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">&lt;a name="DeclarativeSyntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept>    ## Declarative Syntax      <ph id="ph1">```   &lt;asp:Button       AccessKey="string"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CausesValidation="True|False"       CommandArgument="string"       CommandName="string"       CssClass="string"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       Font-Bold="True|False"       Font-Italic="True|False"       Font-Names="string"       Font-Overline="True|False"       Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|           Large|X-Large|XX-Large"       Font-Strikeout="True|False"       Font-Underline="True|False"       ForeColor="color name|#dddddd"       Height="size"       ID="string"       OnClick="Click event handler"       OnClientClick="string"       OnCommand="Command event handler"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       PostBackUrl="uri"       runat="server"       SkinID="string"       Style="string"       TabIndex="integer"       Text="string"       ToolTip="string"       UseSubmitBehavior="True|False"       ValidationGroup="string"       Visible="True|False"       Width="size"   /&gt;   ```</ph></source>
+          <target state="translated"><bpt id="p1">&lt;a name="DeclarativeSyntax"&gt;</bpt><ept id="p1">&lt;/a&gt;</ept># # Sintaxe declarativa<ph id="ph1">```   &lt;asp:Button       AccessKey="string"       BackColor="color name|#dddddd"       BorderColor="color name|#dddddd"       BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|           Inset|Outset"       BorderWidth="size"       CausesValidation="True|False"       CommandArgument="string"       CommandName="string"       CssClass="string"       Enabled="True|False"       EnableTheming="True|False"       EnableViewState="True|False"       Font-Bold="True|False"       Font-Italic="True|False"       Font-Names="string"       Font-Overline="True|False"       Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|           Large|X-Large|XX-Large"       Font-Strikeout="True|False"       Font-Underline="True|False"       ForeColor="color name|#dddddd"       Height="size"       ID="string"       OnClick="Click event handler"       OnClientClick="string"       OnCommand="Command event handler"       OnDataBinding="DataBinding event handler"       OnDisposed="Disposed event handler"       OnInit="Init event handler"       OnLoad="Load event handler"       OnPreRender="PreRender event handler"       OnUnload="Unload event handler"       PostBackUrl="uri"       runat="server"       SkinID="string"       Style="string"       TabIndex="integer"       Text="string"       ToolTip="string"       UseSubmitBehavior="True|False"       ValidationGroup="string"       Visible="True|False"       Width="size"   /&gt;   ```</ph></target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this constructor to create and initialize a new instance of the &lt;xref:System.Web.UI.WebControls.Button&gt; class.</source>
+          <target state="translated">Utilize este construtor para criar e inicializar uma nova instância de &lt;xref:System.Web.UI.WebControls.Button&gt;classe.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Adds the attributes of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control to the output stream for rendering on the client.</source>
+          <target state="translated">Adiciona os atributos do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo de fluxo de saída para composição no cliente.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the output stream to render on the client.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que contém o fluxo de saída a compor no cliente.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether validation is performed when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">Obtém ou define um valor que indica se a validação é executada quando o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo é clicado.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, page validation is performed when a &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">Por predefinição, é efetuada a validação da página quando um &lt;xref:System.Web.UI.WebControls.Button&gt;controlo é clicado.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Page validation determines whether the input controls associated with a validation control on the page all pass the validation rules specified by the validation control.</source>
+          <target state="translated">Validação da página determina se os controlos de entrada associados a um controlo de validação na página de que passaram todas as regras de validação especificadas pelo controlo de validação.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can specify or determine whether validation is performed on both the client and the server when a &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked by using the CausesValidation property.</source>
+          <target state="translated">Pode especificar ou determinar se a validação é executada no cliente e no servidor quando um &lt;xref:System.Web.UI.WebControls.Button&gt;controlo é clicado utilizando a propriedade CausesValidation.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To prevent validation from being performed, set the CausesValidation property to <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Para evitar a validação de que está a ser efetuada, defina a propriedade CausesValidation <ph id="ph1">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  You should set the CausesValidation property to <ph id="ph2">`false`</ph> when you are using the &lt;xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt; property to post back to a different page.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Deve definir a propriedade CausesValidation para <ph id="ph2">`false`</ph> quando estiver a utilizar o &lt;xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt;propriedade publicar novamente para uma página diferente.&lt;/xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You should explicitly check validation when posting back to a different page.</source>
+          <target state="translated">Deve verificar explicitamente a validação ao publicar novamente para uma página diferente.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For an example, see the Remarks section of the &lt;xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt; property.</source>
+          <target state="translated">Por exemplo, consulte a secção observações o &lt;xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.Button.PostBackUrl%2A&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is commonly set to <ph id="ph1">`false`</ph> for a <ph id="ph2">`reset`</ph> or <ph id="ph3">`clear`</ph> button to prevent validation from being performed when the button is clicked.</source>
+          <target state="translated">Esta propriedade normalmente está definida como <ph id="ph1">`false`</ph> para um <ph id="ph2">`reset`</ph> ou <ph id="ph3">`clear`</ph> botão para impedir a validação de que está a ser executada quando o botão é clicado.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the value of the CausesValidation property is set to <ph id="ph1">`true`</ph>, you can also use the &lt;xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt; property to specify the name of the validation group for which the &lt;xref:System.Web.UI.WebControls.Button&gt; control causes validation.</source>
+          <target state="translated">Quando o valor da propriedade CausesValidation é definido como <ph id="ph1">`true`</ph>, também pode utilizar o &lt;xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt;propriedade para especificar o nome do grupo de validação para o qual o &lt;xref:System.Web.UI.WebControls.Button&gt;controlo aciona a validação.&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button.ValidationGroup%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">Esta propriedade não pode ser definida por temas ou temas de folha de estilo.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte &lt;xref:System.Web.UI.ThemeableAttribute&gt;e <bpt id="p1">[</bpt>temas ASP.NET e das máscaras de<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if validation is performed when the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control is clicked; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se a validação é efetuada quando a <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo é clicado; caso contrário, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">O valor predefinido é <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">Ocorre quando o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo é clicado.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Click event is raised when the &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">O evento de clique é gerado quando o &lt;xref:System.Web.UI.WebControls.Button&gt;controlo é clicado.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is commonly used when no command name is associated with the &lt;xref:System.Web.UI.WebControls.Button&gt; control (for instance, with a Submit button).</source>
+          <target state="translated">Este evento é usado normalmente quando nenhum nome de comando está associado a &lt;xref:System.Web.UI.WebControls.Button&gt;controlo (por exemplo, com um botão para submeter).&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre como lidar com eventos, consulte <bpt id="p1">[</bpt>NIB: consumir eventos<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Occurs when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">Ocorre quando o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo é clicado.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Command event is raised when the &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">O comando o evento é gerado quando o &lt;xref:System.Web.UI.WebControls.Button&gt;controlo é clicado.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is commonly used when a command name, such as <ph id="ph1">`Sort`</ph>, is associated with the &lt;xref:System.Web.UI.WebControls.Button&gt; control.</source>
+          <target state="translated">Este evento é normalmente utilizado quando um nome de comando, tal como <ph id="ph1">`Sort`</ph>, está associado a &lt;xref:System.Web.UI.WebControls.Button&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows you to create multiple &lt;xref:System.Web.UI.WebControls.Button&gt; controls on a Web page and programmatically determine which &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">Isto permite-lhe criar vários &lt;xref:System.Web.UI.WebControls.Button&gt;controlos de uma Web e da página programaticamente determinar qual &lt;xref:System.Web.UI.WebControls.Button&gt;controlo é clicado.&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Command event is raised through the control hierarchy in the form of the <ph id="ph2">`BubbleEvent`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; O comando. o evento é gerado através da hierarquia de controlo sob a forma do <ph id="ph2">`BubbleEvent`</ph>.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about handling events, see <bpt id="p1">[</bpt>NIB: Consuming Events<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre como lidar com eventos, consulte <bpt id="p1">[</bpt>NIB: consumir eventos<ept id="p1">](http://msdn.microsoft.com/en-us/01e4f1bc-e55e-413f-98c7-6588493e5f67)</ept>.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets or sets an optional parameter passed to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event along with the associated &lt;xref:System.Web.UI.WebControls.Button.CommandName*&gt;.</source>
+          <target state="translated">Obtém ou define um parâmetro opcional transmitido para o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos juntamente com o &lt;xref:System.Web.UI.WebControls.Button.CommandName*&gt;.&lt;/xref:System.Web.UI.WebControls.Button.CommandName*&gt; associados</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the CommandArgument property to specify a parameter that compliments the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property.</source>
+          <target state="translated">Utilize a propriedade CommandArgument para especificar um parâmetro que compliments o &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Although you can set the CommandArgument property by itself, it is normally only used when the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property is also set.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Embora, pode definir a propriedade de CommandArgument por si só, é normalmente apenas quando utilizado o &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;propriedade seja também definida.&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CommandArgument property complements the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property by allowing you to provide additional information about the command to perform.</source>
+          <target state="translated">A propriedade de CommandArgument complementa o &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;propriedade, permitindo-lhe fornecer informações adicionais sobre o comando para executar.&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, if you set the &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt; property to <ph id="ph1">`Sort`</ph> and the CommandArgument property to <ph id="ph2">`Ascending`</ph>, you specify a command to sort in ascending order.</source>
+          <target state="translated">Por exemplo, se definir o &lt;xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;propriedade <ph id="ph1">`Sort`</ph> e a propriedade CommandArgument <ph id="ph2">`Ascending`</ph>, especifique um comando para ordenar por ordem ascendente.&lt;/xref:System.Web.UI.WebControls.Button.CommandName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">Esta propriedade não pode ser definida por temas ou temas de folha de estilo.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte &lt;xref:System.Web.UI.ThemeableAttribute&gt;e <bpt id="p1">[</bpt>temas ASP.NET e das máscaras de<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>An optional parameter passed to the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event along with the associated &lt;xref:System.Web.UI.WebControls.Button.CommandName*&gt;.</source>
+          <target state="translated">Um parâmetro opcional transmitido para o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos juntamente com o &lt;xref:System.Web.UI.WebControls.Button.CommandName*&gt;.&lt;/xref:System.Web.UI.WebControls.Button.CommandName*&gt; associados</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">O valor predefinido é <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Gets or sets the command name associated with the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control that is passed to the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Obtém ou define o nome do comando associado a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo é transmitido para o <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> eventos.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you have multiple &lt;xref:System.Web.UI.WebControls.Button&gt; controls on a Web page, use the CommandName property to specify or determine the command name associated with each &lt;xref:System.Web.UI.WebControls.Button&gt; control.</source>
+          <target state="translated">Se tiver múltiplos &lt;xref:System.Web.UI.WebControls.Button&gt;controlos numa página Web, utilize a propriedade de CommandName para especificar ou a determinar o nome do comando associado a cada &lt;xref:System.Web.UI.WebControls.Button&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the CommandName property with any string that identifies the command to perform.</source>
+          <target state="translated">Pode definir a propriedade CommandName com qualquer cadeia que identifica o comando para executar.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can then programmatically determine the command name of the &lt;xref:System.Web.UI.WebControls.Button&gt; control and perform the appropriate actions.</source>
+          <target state="translated">Através de programação, em seguida, pode determinar o nome do comando do &lt;xref:System.Web.UI.WebControls.Button&gt;controlar e executar as ações adequadas.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additional information about the command, such as <ph id="ph1">`Ascending`</ph>, may be specified by using the &lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt; property.</source>
+          <target state="translated">Informações adicionais sobre o comando, tal como <ph id="ph1">`Ascending`</ph>, pode ser especificado utilizando o &lt;xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;propriedade.&lt;/xref:System.Web.UI.WebControls.Button.CommandArgument%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">Esta propriedade não pode ser definida por temas ou temas de folha de estilo.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte &lt;xref:System.Web.UI.ThemeableAttribute&gt;e <bpt id="p1">[</bpt>temas ASP.NET e das máscaras de<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The command name of the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">O nome do comando do <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">O valor predefinido é <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Creates a <bpt id="p1">&lt;xref href="System.Web.UI.PostBackOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's postback behavior.</source>
+          <target state="translated">Cria um <bpt id="p1">&lt;xref href="System.Web.UI.PostBackOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que representa o <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> comportamento de nova colocação do controlo.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The GetPostBackOptions method creates a &lt;xref:System.Web.UI.PostBackOptions&gt; object that represents the &lt;xref:System.Web.UI.WebControls.Button&gt; control's postback behavior.</source>
+          <target state="translated">O método GetPostBackOptions cria um &lt;xref:System.Web.UI.PostBackOptions&gt;objeto que representa o &lt;xref:System.Web.UI.WebControls.Button&gt;comportamento de nova colocação do controlo.&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.PostBackOptions&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.PostBackOptions&gt; object is then typically passed to the &lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%28System.Web.UI.PostBackOptions%29?displayProperty=fullName&gt; method, which is used to obtain a reference to a client-side script function that, when invoked, causes the server to post back to the page.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.PostBackOptions&gt;objeto normalmente é então passado para o &lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%28System.Web.UI.PostBackOptions%29?displayProperty=fullName&gt;método, o que é utilizado para obter uma referência a uma função de script do lado do cliente que, quando foi invocado, faz com que o servidor após regressar à página.&lt;/xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%28System.Web.UI.PostBackOptions%29?displayProperty=fullName&gt; &lt;/xref:System.Web.UI.PostBackOptions&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is used primarily by control developers when extending the &lt;xref:System.Web.UI.WebControls.Button&gt; class.</source>
+          <target state="translated">Este método é utilizado principalmente pelos programadores de controlo, quando expandir a &lt;xref:System.Web.UI.WebControls.Button&gt;classe.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.PostBackOptions"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control's postback behavior.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.PostBackOptions"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que representa o <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> comportamento de nova colocação do controlo.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos do <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event is raised when the &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.WebControls.Button.Click&gt;evento é desencadeado quando o &lt;xref:System.Web.UI.WebControls.Button&gt;controlo é clicado.&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button.Click&gt;</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is commonly used when no command name is associated with the &lt;xref:System.Web.UI.WebControls.Button&gt; control (for instance, with a Submit button).</source>
+          <target state="translated">Este evento é usado normalmente quando nenhum nome de comando está associado a &lt;xref:System.Web.UI.WebControls.Button&gt;controlo (por exemplo, com um botão para submeter).&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o processador de eventos através de um delegado.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>NIB: gerar um evento<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnClick method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnClick também permite que as classes derivadas processar o evento sem anexar um delegado.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Este é a preferido técnica para processar o evento de uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">Os dados de eventos.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets or sets the client-side script that executes when a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event is raised.</source>
+          <target state="translated">Obtém ou define o script do lado do cliente que executa quando um <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do controlo <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> o evento é gerado.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the OnClientClick property to specify additional client-side script that executes when a &lt;xref:System.Web.UI.WebControls.Button&gt; control's &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event is raised.</source>
+          <target state="translated">Utilize a propriedade OnClientClick para especificar o script do lado do cliente adicional que executa quando um &lt;xref:System.Web.UI.WebControls.Button&gt;do controlo &lt;xref:System.Web.UI.WebControls.Button.Click&gt;o evento é gerado.&lt;/xref:System.Web.UI.WebControls.Button.Click&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The script that you specify for this property is rendered in the &lt;xref:System.Web.UI.WebControls.Button&gt; control's <ph id="ph1">`OnClick`</ph> attribute in addition to the control's predefined client-side script.</source>
+          <target state="translated">O script que especificar para esta propriedade é composta no &lt;xref:System.Web.UI.WebControls.Button&gt;do controlo <ph id="ph1">`OnClick`</ph> atributo, além do controlo predefinidas script do lado do cliente&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">Esta propriedade não pode ser definida por temas ou temas de folha de estilo.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte &lt;xref:System.Web.UI.ThemeableAttribute&gt;e <bpt id="p1">[</bpt>temas ASP.NET e das máscaras de<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The client-side script that executes when a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control's <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> event is raised.</source>
+          <target state="translated">O script do lado do cliente que executa quando um <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> do controlo <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button.Click"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> o evento é gerado.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event of the <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Gera o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button.Command"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> eventos do <bpt id="p2">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event is raised when the &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">O &lt;xref:System.Web.UI.WebControls.Button.Command&gt;evento é desencadeado quando o &lt;xref:System.Web.UI.WebControls.Button&gt;controlo é clicado.&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button.Command&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is commonly used when a command name, such as <ph id="ph1">`Sort`</ph>, is associated with the &lt;xref:System.Web.UI.WebControls.Button&gt; control.</source>
+          <target state="translated">Este evento é normalmente utilizado quando um nome de comando, tal como <ph id="ph1">`Sort`</ph>, está associado a &lt;xref:System.Web.UI.WebControls.Button&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows you to create multiple &lt;xref:System.Web.UI.WebControls.Button&gt; controls on a Web page and programmatically determine which &lt;xref:System.Web.UI.WebControls.Button&gt; control is clicked.</source>
+          <target state="translated">Isto permite-lhe criar vários &lt;xref:System.Web.UI.WebControls.Button&gt;controlos de uma Web e da página programaticamente determinar qual &lt;xref:System.Web.UI.WebControls.Button&gt;controlo é clicado.&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event is raised through the control hierarchy in the form of the <ph id="ph2">`BubbleEvent`</ph>.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; O &lt;xref:System.Web.UI.WebControls.Button.Command&gt;o evento é gerado através da hierarquia de controlo sob a forma do <ph id="ph2">`BubbleEvent`</ph>.&lt;/xref:System.Web.UI.WebControls.Button.Command&gt;</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Gerar um evento invoca o processador de eventos através de um delegado.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte <bpt id="p1">[</bpt>NIB: gerar um evento<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnCommand method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">O método OnCommand também permite que as classes derivadas processar o evento sem anexar um delegado.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Este é a preferido técnica para processar o evento de uma classe derivada.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">Os dados de eventos.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>Determines whether the button has been clicked prior to rendering on the client.</source>
+          <target state="translated">Determina se o botão tem sido clicado antes da composição no cliente.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnPreRender method is used primarily by control developers when deriving a custom class from the &lt;xref:System.Web.UI.WebControls.Button&gt; control.</source>
+          <target state="translated">O método OnPreRender é utilizado principalmente pelos programadores de controlo ao efectuar a derivação de uma classe personalizada a partir de &lt;xref:System.Web.UI.WebControls.Button&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The event data.</source>
+          <target state="translated">Os dados de eventos.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Gets or sets the URL of the page to post to from the current page when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">Obtém ou define o URL da página de colocação de atual página quando a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo é clicado.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The URL of the Web page to post to from the current page when the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control is clicked.</source>
+          <target state="translated">O URL da página Web de colocação de atual página quando a <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo é clicado.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string (""), which causes the page to post back to itself.</source>
+          <target state="translated">O valor predefinido é uma cadeia vazia (""), que faz com que a página de colocação em si.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>Raises events for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control when it posts back to the server.</source>
+          <target state="translated">Desencadeia eventos para o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlar quando mensagens para o servidor.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is used internally by the &lt;xref:System.Web.UI.WebControls.Button&gt; control, when it is clicked, to raise a &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event, and if defined, a &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event.</source>
+          <target state="translated">Este evento é utilizado internamente pelo &lt;xref:System.Web.UI.WebControls.Button&gt;controlo, quando se clica, para emitir um &lt;xref:System.Web.UI.WebControls.Button.Click&gt;evento e, se definidas, um &lt;xref:System.Web.UI.WebControls.Button.Command&gt;eventos.&lt;/xref:System.Web.UI.WebControls.Button.Command&gt; &lt;/xref:System.Web.UI.WebControls.Button.Click&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The argument for the event.</source>
+          <target state="translated">O argumento para o evento.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Renders the contents of the control to the specified writer.</source>
+          <target state="translated">Compõe o conteúdo do controlo para o escritor especificado.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the output stream to render HTML content on the client.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objeto que representa o fluxo de saída para compor HTML conteúdo no cliente.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Raises events for the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control when it posts back to the server.</source>
+          <target state="translated">Desencadeia eventos para o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlar quando mensagens para o servidor.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This event is used internally by the &lt;xref:System.Web.UI.WebControls.Button&gt; control, when it is clicked, to raise a &lt;xref:System.Web.UI.WebControls.Button.Click&gt; event, and if defined, a &lt;xref:System.Web.UI.WebControls.Button.Command&gt; event.</source>
+          <target state="translated">Este evento é utilizado internamente pelo &lt;xref:System.Web.UI.WebControls.Button&gt;controlo, quando se clica, para emitir um &lt;xref:System.Web.UI.WebControls.Button.Click&gt;evento e, se definidas, um &lt;xref:System.Web.UI.WebControls.Button.Command&gt;eventos.&lt;/xref:System.Web.UI.WebControls.Button.Command&gt; &lt;/xref:System.Web.UI.WebControls.Button.Click&gt; &lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>The argument for the event.</source>
+          <target state="translated">O argumento para o evento.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text caption displayed in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Obtém ou define a legenda do texto apresentada no <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Text property to specify or determine the caption to display in the &lt;xref:System.Web.UI.WebControls.Button&gt; control.</source>
+          <target state="translated">Utilize a propriedade de texto para especificar ou a determinar a legenda para apresentar o &lt;xref:System.Web.UI.WebControls.Button&gt;controlo.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The value of this property, when set, can be saved automatically to a resource file by using a designer tool.</source>
+          <target state="translated">O valor desta propriedade, se estiver definida, podem ser guardados automaticamente para um ficheiro de recursos utilizando uma ferramenta estruturador.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.ComponentModel.LocalizableAttribute&gt; and <bpt id="p1">[</bpt>Globalization and Localization<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte &lt;xref:System.ComponentModel.LocalizableAttribute&gt;e <bpt id="p1">[</bpt>globalização e localização<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.ComponentModel.LocalizableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The text caption displayed in the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">A legenda do texto apresentada no <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>The default value is <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</source>
+          <target state="translated">O valor predefinido é <ph id="ph1">&amp;lt;</ph>xref:System.String.Empty?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control uses the client browser's submit mechanism or the ASP.NET postback mechanism.</source>
+          <target state="translated">Obtém ou define um valor que indica se o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo utiliza o cliente browser submeter mecanismo ou o mecanismo de nova colocação do ASP.NET.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the UseSubmitBehavior property to specify whether a &lt;xref:System.Web.UI.WebControls.Button&gt; control uses the client browser's submit mechanism or the ASP.NET postback mechanism.</source>
+          <target state="translated">Utilize a propriedade UseSubmitBehavior para especificar se um &lt;xref:System.Web.UI.WebControls.Button&gt;controlo utiliza o cliente browser submeter mecanismo ou o mecanismo de nova colocação do ASP.NET.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default the value of this property is <ph id="ph1">`true`</ph>, causing the &lt;xref:System.Web.UI.WebControls.Button&gt; control to use the browser's submit mechanism.</source>
+          <target state="translated">Por predefinição, o valor desta propriedade é <ph id="ph1">`true`</ph>, que provocou a &lt;xref:System.Web.UI.WebControls.Button&gt;mecanismo de envio de controlo para utilizar o browser.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you specify <ph id="ph1">`false`</ph>, the ASP.NET page framework adds client-side script to the page to post the form to the server.</source>
+          <target state="translated">Se especificar <ph id="ph1">`false`</ph>, a estrutura de página do ASP.NET adiciona o script do lado do cliente para a página de publicação do formulário para o servidor.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the UseSubmitBehavior property is <ph id="ph1">`false`</ph>, control developers can use the &lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt; method to return the client postback event for the &lt;xref:System.Web.UI.WebControls.Button&gt;.</source>
+          <target state="translated">Quando a propriedade de UseSubmitBehavior é <ph id="ph1">`false`</ph>, os programadores do controlo podem utilizar o &lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt;método para devolver o cliente voltar a colocar eventos para &lt;xref:System.Web.UI.WebControls.Button&gt;.&lt;/xref:System.Web.UI.WebControls.Button&gt; &lt;/xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string returned by the &lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt; method contains the text of the client-side function call and can be inserted into a client-side event handler.</source>
+          <target state="translated">A cadeia devolvida pelo &lt;xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt;método contém o texto da chamada de função do lado do cliente e pode ser inserido um processador de eventos do lado do cliente.&lt;/xref:System.Web.UI.ClientScriptManager.GetPostBackEventReference%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">Esta propriedade não pode ser definida por temas ou temas de folha de estilo.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte &lt;xref:System.Web.UI.ThemeableAttribute&gt;e <bpt id="p1">[</bpt>temas ASP.NET e das máscaras de<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control uses the client browser's submit mechanism; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o controlo utiliza o browser cliente submeter mecanismo; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Gets or sets the group of controls for which the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control causes validation when it posts back to the server.</source>
+          <target state="translated">Obtém ou define o grupo de controlos para o qual o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo aciona a validação quando mensagens no servidor.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Validation groups allow you to assign validation controls on a page to a specific category.</source>
+          <target state="translated">Grupos de validação permitem-lhe atribuir controlos de validação numa página a uma categoria específica.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each validation group can be validated independently of other validation groups on the page.</source>
+          <target state="translated">Cada grupo de validação possa ser validado independentemente outros grupos de validação na página.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the ValidationGroup property to specify the name of the validation group for which the &lt;xref:System.Web.UI.WebControls.Button&gt; control causes validation when it posts back to the server.</source>
+          <target state="translated">Utilize a propriedade de ValidationGroup para especificar o nome do grupo de validação para o qual o &lt;xref:System.Web.UI.WebControls.Button&gt;controlo aciona a validação quando mensagens no servidor.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property has an effect only when the value of the &lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt; property is set to <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">Esta propriedade tem um efeito apenas quando o valor da &lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;propriedade está definida como <ph id="ph1">`true`</ph>.&lt;/xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you specify a value for the ValidationGroup property, only the validation controls that are part of the specified group are validated when the &lt;xref:System.Web.UI.WebControls.Button&gt; control posts back to the server.</source>
+          <target state="translated">Quando especificar um valor para a propriedade ValidationGroup, só a validação controla que fazem parte do grupo especificado são validados quando o &lt;xref:System.Web.UI.WebControls.Button&gt;mensagens do controlo para o servidor.&lt;/xref:System.Web.UI.WebControls.Button&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not specify a value for this property and the &lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt; property is set to <ph id="ph1">`true`</ph>, all validation controls on the page that are not assigned to a validation group are validated when the control posts back to the server.</source>
+          <target state="translated">Se não especificar um valor para esta propriedade e o &lt;xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;propriedade está definida como <ph id="ph1">`true`</ph>, todos os controlos de validação na página que não estão atribuídos a um grupo de validação são validados quando o controlo de mensagens para o servidor.&lt;/xref:System.Web.UI.WebControls.Button.CausesValidation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property cannot be set by themes or style sheet themes.</source>
+          <target state="translated">Esta propriedade não pode ser definida por temas ou temas de folha de estilo.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.Web.UI.ThemeableAttribute&gt; and <bpt id="p1">[</bpt>ASP.NET Themes and Skins<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações, consulte &lt;xref:System.Web.UI.ThemeableAttribute&gt;e <bpt id="p1">[</bpt>temas ASP.NET e das máscaras de<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.&lt;/xref:System.Web.UI.ThemeableAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>The group of controls for which the <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control causes validation when it posts back to the server.</source>
+          <target state="translated">O grupo de controlos para o qual o <bpt id="p1">&lt;xref href="System.Web.UI.WebControls.Button"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> controlo aciona a validação quando mensagens no servidor.</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The default value is an empty string ("").</source>
+          <target state="translated">O valor predefinido é uma cadeia vazia ("").</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
