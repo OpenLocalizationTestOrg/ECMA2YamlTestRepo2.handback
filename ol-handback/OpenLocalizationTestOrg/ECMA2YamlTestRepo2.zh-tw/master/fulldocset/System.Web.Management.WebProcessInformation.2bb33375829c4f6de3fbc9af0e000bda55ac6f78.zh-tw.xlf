@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a828d31334bbf08b2c4e86bfe5944f9c3e4023c9</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Management.WebProcessInformation.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8c2cf329960ec4fa8aabb0ce2e6718fa86230801</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cee8457382d3c6a05bf630fcec691f083beb2556</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides information about the worker process that hosts ASP.NET.</source>
+          <target state="translated">請提供裝載 ASP.NET 工作者處理序的相關資訊。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>ASP.NET health monitoring allows production and operations staff to manage deployed Web applications.</source>
+          <target state="translated">ASP.NET 健康監視，可讓管理已部署的 Web 應用程式的生產環境和作業人員。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Web.Management&gt; namespace contains the health-event types responsible for packaging application health-status data, and the provider types responsible for processing this data.</source>
+          <target state="translated">&lt;xref:System.Web.Management&gt;命名空間包含負責封裝應用程式健全狀況狀態資料，健全狀況事件型別和提供者類型負責處理這項資料。&lt;/xref:System.Web.Management&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It also contains supporting types that help during the management of health events.</source>
+          <target state="translated">它也會包含有助於管理健全狀況事件的支援型別。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Instances of the WebProcessInformation class contain information that is obtained using any of the types derived from the &lt;xref:System.Web.Management.WebManagementEvent&gt; type.</source>
+          <target state="translated">WebProcessInformation 類別的執行個體包含使用任何一種衍生自取得的資訊&lt;xref:System.Web.Management.WebManagementEvent&gt;型別。&lt;/xref:System.Web.Management.WebManagementEvent&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Your application needs the appropriate permissions to access protected information provided by this type.</source>
+          <target state="translated">您的應用程式需要存取受保護的資訊，此類型所提供的適當權限。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The following example is an excerpt of the configuration file you could use to enable ASP.NET to log error events that contain process information.</source>
+          <target state="translated">下列範例是您可以使用以包含處理序資訊的記錄檔錯誤事件中啟用 ASP.NET 的組態檔的摘錄。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">```   &lt;healthMonitoring      enabled="true" heartBeatInterval="0"&gt;          &lt;rules&gt;        &lt;add           name="All Errors Default"          eventName="All Errors"          provider="EventLogProvider"          profile="Default"          minInterval="00:01:00" /&gt;       &lt;/rules&gt;      &lt;/healthMonitoring&gt;   ```</ph><ph id="ph2">      &gt; </ph><ph id="ph3">[!NOTE]</ph> &gt;  In most cases you will be able to use the ASP.NET health-monitoring types as implemented, and you will control the health-monitoring system by specifying values in the <ph id="ph4">`healthMonitoring`</ph> configuration section.</source>
+          <target state="translated"><ph id="ph1">```   &lt;healthMonitoring      enabled="true" heartBeatInterval="0"&gt;          &lt;rules&gt;        &lt;add           name="All Errors Default"          eventName="All Errors"          provider="EventLogProvider"          profile="Default"          minInterval="00:01:00" /&gt;       &lt;/rules&gt;      &lt;/healthMonitoring&gt;   ```</ph><ph id="ph2">      &gt; </ph><ph id="ph3">[!NOTE]</ph>&gt; 在大部分情況下您將能夠實作時，使用 ASP.NET 健康監視類型，而您會藉由指定的值控制健全狀況監視系統<ph id="ph4">`healthMonitoring`</ph>組態區段。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>You can also derive from the health-monitoring types to create your own custom events and providers.</source>
+          <target state="translated">您也可以衍生自健全狀況監視類型的類型來建立您自己的自訂事件和提供者。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>For an example of creating a custom event class, see the Example section.</source>
+          <target state="translated">如需建立自訂的事件類別的範例，請參閱 &lt; 範例 &gt; 一節。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Gets the account name for the worker process.</source>
+          <target state="translated">取得背景工作處理序的帳戶名稱。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Your application needs the appropriate permissions to access the information provided by this property.</source>
+          <target state="translated">您的應用程式需要適當的權限來存取這個屬性所提供的資訊。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The worker process account name.</source>
+          <target state="translated">背景工作處理序帳戶名稱。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Formats the application information.</source>
+          <target state="translated">格式化的應用程式資訊。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The FormatToString method provides a uniform format for event information, which is useful if the event data must be logged and later presented to the user.</source>
+          <target state="translated">FormatToString 方法提供統一的格式，如事件資訊，這非常有用，如果必須記錄，並向使用者顯示更新版本的事件資料。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The method is called internally when the provider invokes one of the &lt;xref:System.Web.Management.WebBaseEvent.ToString%2A&gt; methods.</source>
+          <target state="translated">當提供者會叫用的其中一個方法會在內部呼叫&lt;xref:System.Web.Management.WebBaseEvent.ToString%2A&gt;方法。&lt;/xref:System.Web.Management.WebBaseEvent.ToString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.Management.WebEventFormatter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that contains the tab and indentation settings used to format the Web health event information.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.Management.WebEventFormatter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，其中包含用來格式化網頁健全狀況事件資訊的索引標籤和縮排設定。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets the process identifier.</source>
+          <target state="translated">取得處理序識別碼。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>This is the identifier of the worker process that hosts ASP.NET.</source>
+          <target state="translated">這是裝載 ASP.NET 工作者處理序的識別碼。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The process identifier.</source>
+          <target state="translated">處理序識別碼。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Gets the name of the process.</source>
+          <target state="translated">取得處理序名稱。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This is the name of the worker process that hosts ASP.NET.</source>
+          <target state="translated">這是裝載 ASP.NET 工作者處理序的名稱。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The name of the process.</source>
+          <target state="translated">處理序名稱。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

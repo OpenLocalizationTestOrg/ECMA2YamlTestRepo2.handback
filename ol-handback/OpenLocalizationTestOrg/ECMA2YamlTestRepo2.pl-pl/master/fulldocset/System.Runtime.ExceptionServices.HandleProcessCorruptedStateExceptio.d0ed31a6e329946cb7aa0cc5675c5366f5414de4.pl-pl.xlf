@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1ccc3be238b5ca560c46ad2aa68f883a3ba9e97</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">bfa3e857d82851f6c9c66d207e27c72c85a76e1a</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9f968c29f75757d5078b2f56332bba129c7e60d4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Enables managed code to handle exceptions that indicate a corrupted process state.</source>
+          <target state="translated">Umożliwia zarządzanym kod obsługi wyjątków, które wskazują stan uszkodzony procesu.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Corrupted process state exceptions are exceptions that indicate that the state of a process has been corrupted.</source>
+          <target state="translated">Wyjątki stan uszkodzony procesu są wyjątki, które wskazują stan procesu jest uszkodzony.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>We do not recommend executing your application in this state.</source>
+          <target state="translated">Nie zaleca się wykonanie aplikacji w tym stanie.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, the common language runtime (CLR) does not deliver these exceptions to managed code, and the <ph id="ph1">`try`</ph><ph id="ph2">/</ph><ph id="ph3">`catch`</ph> blocks (and other exception-handling clauses) are not invoked for them.</source>
+          <target state="translated">Domyślnie środowisko uruchomieniowe języka wspólnego (CLR) nie dostarcza tych wyjątków do kodu zarządzanego i <ph id="ph1">`try`</ph> <ph id="ph2">/</ph> <ph id="ph3">`catch`</ph> bloki (i inne klauzule obsługi wyjątków) nie są wywoływane dla nich.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you are absolutely sure that you want to maintain your handling of these exceptions, you must apply the HandleProcessCorruptedStateExceptionsAttribute attribute to the method whose exception-handling clauses you want to execute.</source>
+          <target state="translated">Jeśli jesteś czy chcesz zachować programu obsługi tych wyjątków, należy zastosować atrybut HandleProcessCorruptedStateExceptionsAttribute do metody klauzule obsługi wyjątków, którego chcesz wykonać.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CLR delivers the corrupted process state exception to applicable exception clauses only in methods that have both the HandleProcessCorruptedStateExceptionsAttribute and &lt;xref:System.Security.SecurityCriticalAttribute&gt; attributes.</source>
+          <target state="translated">Środowisko CLR zapewnia wyjątek stan procesu uszkodzony klauzulach wyjątków mających zastosowanie tylko w metodach mających zarówno HandleProcessCorruptedStateExceptionsAttribute i &lt;xref:System.Security.SecurityCriticalAttribute&gt;atrybuty.&lt;/xref:System.Security.SecurityCriticalAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also add the  to your application's configuration file.</source>
+          <target state="translated">Można również dodać do pliku konfiguracji aplikacji.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This will ensure that corrupted state exceptions are delivered to your exception handlers without the HandleProcessCorruptedStateExceptionsAttribute or &lt;xref:System.Security.SecurityCriticalAttribute&gt; attribute.</source>
+          <target state="translated">Daje to pewność, że uszkodzony wyjątki są dostarczane do programu obsługi wyjątków bez HandleProcessCorruptedStateExceptionsAttribute lub &lt;xref:System.Security.SecurityCriticalAttribute&gt;atrybutu.&lt;/xref:System.Security.SecurityCriticalAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This configuration element has no effect on applications that were compiled in versions previous to the <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph> but are running in the <ph id="ph2">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> or later; corrupted state exceptions will continue to be delivered for those applications.</source>
+          <target state="translated">Ten element konfiguracji nie ma wpływu na aplikacje, które zostały skompilowane w wersjach się <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph> , ale są uruchomione <ph id="ph2">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph> lub później; uszkodzony wyjątki będą nadal dostępne w ramach tych aplikacji.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HandleProcessCorruptedStateExceptionsAttribute attribute is ignored when it is encountered in partially trusted or transparent code, because a trusted host should not allow an untrusted add-in to catch and ignore these serious exceptions.</source>
+          <target state="translated">Atrybut HandleProcessCorruptedStateExceptionsAttribute jest ignorowane w przypadku napotkano ich w kodzie częściowo zaufanym lub przezroczysty, ponieważ zaufanego hosta nie należy zezwalać niezaufanym dodatku zdołały wychwycić i Ignoruj wyjątki te poważne.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about corrupted process state exceptions, see the entry <bpt id="p1">[</bpt>Handling Corrupted State Exceptions<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=179681)</ept> in the CLR Inside Out blog.</source>
+          <target state="translated">Aby uzyskać więcej informacji o wyjątkach stan uszkodzony procesu, zobacz wpis <bpt id="p1">[</bpt>obsługi wyjątków stan uszkodzony<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=179681)</ept> w blogu CLR Inside Out.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4b5e4958b93c0960ed74d2216686697856e85242</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.Services.Protocols.SoapMessage.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">7f7c4707b26e2d54b3ae9d336307244bda750e8f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">4fd935ca80d9b3e0e8e2dcb5fbb72175029e63a4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the data in a SOAP request or SOAP response at a specific <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">表示 SOAP 请求或在特定的 SOAP 响应中的数据<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The primary use of the SoapMessage class is for SOAP extensions, representing the data in a SOAP request or SOAP response.</source>
+          <target state="translated">SoapMessage 类的主要用途是对于 SOAP 扩展，表示 SOAP 请求或 SOAP 响应中的数据。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>When the &lt;xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt; method is called, a &lt;xref:System.Web.Services.Protocols.SoapExtension&gt; receives a SoapMessage at each &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">当&lt;xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt;调用方法时，&lt;xref:System.Web.Services.Protocols.SoapExtension&gt;接收在每个&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; SoapMessage&lt;/xref:System.Web.Services.Protocols.SoapExtension&gt; &lt;/xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>It is up to the particular SOAP extension to choose how to process the SoapMessage.</source>
+          <target state="translated">负责特定的 SOAP 扩展，选择如何处理 SoapMessage。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Common SOAP extensions include encryption and compression.</source>
+          <target state="translated">常用的 SOAP 扩展包括加密和压缩。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>SOAP extensions can be applied to either or both an XML Web service method created using ASP.NET or an XML Web service client.</source>
+          <target state="translated">可以为应用 SOAP 扩展，或这两个 XML Web 服务方法创建使用 ASP.NET 或 XML Web 服务客户端。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When a SOAP extension is applied to an XML Web service method, the &lt;xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt; method receives an instance of &lt;xref:System.Web.Services.Protocols.SoapServerMessage&gt;, which derives from SoapMessage.</source>
+          <target state="translated">指向 XML Web service 方法，应用的 SOAP 扩展时&lt;xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt;方法接收实例&lt;xref:System.Web.Services.Protocols.SoapServerMessage&gt;，它从 SoapMessage 派生。&lt;/xref:System.Web.Services.Protocols.SoapServerMessage&gt; &lt;/xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Likewise, when a SOAP extension is applied to an XML Web service client, &lt;xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt; receives an instance of &lt;xref:System.Web.Services.Protocols.SoapClientMessage&gt;.</source>
+          <target state="translated">同样，SOAP 扩展被应用于 XML Web 服务客户端，&lt;xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt;接收&lt;xref:System.Web.Services.Protocols.SoapClientMessage&gt;.&lt;/xref:System.Web.Services.Protocols.SoapClientMessage&gt;实例&lt;/xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt;时</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the SOAPAction HTTP request header field for the SOAP request or SOAP response.</source>
+          <target state="translated">当在派生类中重写，获取在 SOAP 请求或 SOAP 响应 SOAPAction HTTP 请求标头字段。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The Action property can be accessed during any &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">可以在任何&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;期间访问的 Action 属性</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The SOAPAction HTTP request header field for the SOAP request or SOAP response.</source>
+          <target state="translated">用于 SOAP 请求或 SOAP 响应 SOAPAction HTTP 请求标头字段。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Gets or sets the contents of the <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">获取或设置的内容<bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 标头。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A SOAP extension can set the ContentEncoding property to provide supplementary information about the encoding of a SOAP message without changing the media type as expressed in the <ph id="ph1">`Content-Type`</ph> HTTP header.</source>
+          <target state="translated">SOAP 扩展可以设置要提供有关 SOAP 消息的编码，而无需更改的媒体类型，如中所表示的补充信息的 ContentEncoding 属性<ph id="ph1">`Content-Type`</ph>HTTP 标头。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>The contents of the <bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> HTTP header.</source>
+          <target state="translated">内容<bpt id="p1">&lt;xref uid="langword_csharp_Content-Encoding" name="Content-Encoding" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> HTTP 标头。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> stages.</source>
+          <target state="translated">The current <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> stages.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Gets or sets the HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Content-Type" name="Content-Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the SOAP request or SOAP response.</source>
+          <target state="translated">获取或设置 HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Content-Type" name="Content-Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的 SOAP 请求或 SOAP 响应。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The ContentType property can only be accessed in the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; and &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; stages; otherwise, an &lt;xref:System.InvalidOperationException&gt; is thrown.</source>
+          <target state="translated">ContentType 属性仅可在访问&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;和&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;暂存; 否则为&lt;xref:System.InvalidOperationException&gt;引发。&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Web.Services.Protocols.SoapMessage.ContentEncoding%2A&gt; property, instead of the ContentType property to provide supplementary information about the encoding of a SOAP message.</source>
+          <target state="translated">使用&lt;xref:System.Web.Services.Protocols.SoapMessage.ContentEncoding%2A&gt;属性，而不是要提供有关 SOAP 消息的编码的补充信息的 ContentType 属性。&lt;/xref:System.Web.Services.Protocols.SoapMessage.ContentEncoding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Content-Type" name="Content-Type" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the SOAP request or SOAP response.</source>
+          <target state="translated">HTTP <bpt id="p1">&lt;xref uid="langword_csharp_Content-Type" name="Content-Type" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的 SOAP 请求或 SOAP 响应。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The default is "text/xml".</source>
+          <target state="translated">默认值是"text/xml"。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>ContentType is accessed <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> stages.</source>
+          <target state="translated">访问 ContentType <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>阶段。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, asserts that the current <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is a stage where in parameters are available.</source>
+          <target state="translated">当在派生类中重写，它断言当前<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> in 参数是一个阶段可用。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The asserted stage is different for XML Web service clients and XML Web service methods.</source>
+          <target state="translated">断言的阶段是不同的 XML Web 服务客户端和 XML Web 服务方法。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>An XML Web service method's in parameters are available after the SOAP request is deserialized in the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; stage.</source>
+          <target state="translated">SOAP 请求进行反序列化后，XML Web 服务中的方法的参数有&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;阶段。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>For an XML Web service client, the in parameters are available prior to the SOAP request serialization process in the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; stage.</source>
+          <target state="translated">XML Web 服务客户端在参数均可用在 SOAP 请求序列化过程中之前&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;阶段。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>EnsureInStage can be called during any &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;, however an &lt;xref:System.InvalidOperationException&gt; is thrown when in parameters are not available.</source>
+          <target state="translated">可以在任何期间调用 EnsureInStage &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;，但是&lt;xref:System.InvalidOperationException&gt;时，将引发参数将不可用。&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>In parameters are not available.</source>
+          <target state="translated">在参数都不可用。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, asserts that the current <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> stage is a stage where out parameters are available.</source>
+          <target state="translated">当在派生类中重写，它断言当前<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>阶段 out 参数是一个阶段可用。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The asserted stage is different for XML Web service clients and XML Web service methods.</source>
+          <target state="translated">断言的阶段是不同的 XML Web 服务客户端和 XML Web 服务方法。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An XML Web service method's out parameters are available prior to the SOAP response serialization process in the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; stage.</source>
+          <target state="translated">XML Web 服务方法的 out 参数有 SOAP 响应序列化过程中之前&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;阶段。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>In an XML Web service client, the out parameters are available after the SOAP response deserialization process in the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; stage.</source>
+          <target state="translated">XML Web 服务客户端中的输出参数后提供在 SOAP 响应反序列化过程&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;阶段。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>EnsureOutStage can be called during any &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;, however an &lt;xref:System.InvalidOperationException&gt; is thrown when out parameters are not available.</source>
+          <target state="translated">可以在任何期间调用 EnsureOutStage &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;，但是&lt;xref:System.InvalidOperationException&gt;时，将引发参数将不可用。&lt;/xref:System.InvalidOperationException&gt; &lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Out parameters are not available.</source>
+          <target state="translated">Out 参数将不可用。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Ensures that the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the call to the XML Web service method is the stage or stages passed in.</source>
+          <target state="translated">确保<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>调用 XML Web 服务的方法是阶段或阶段中传递。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>If the current processing stage is not one of the stages passed in, an exception is thrown.</source>
+          <target state="translated">如果当前的处理阶段不是一个传入的阶段，是引发异常。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Multiple stages can be asserted by performing a bitwise OR operation on multiple instances of the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; class.</source>
+          <target state="translated">多个阶段可以断言通过执行按位或运算，多个实例的&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;类。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>EnsureStage can be called during any &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">可以在任何&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;期间调用 EnsureStage</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> asserted.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>断言。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The current <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not the asserted stage or stages.</source>
+          <target state="translated">当前<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>不断言的阶段。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> from the call to the XML Web service method.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与 XML Web service 方法的调用。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The Exception property can be accessed during any &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">可以在任何&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;期间访问异常属性</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that occurred in the call to the XML Web service method.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>对 XML Web service 方法的调用中发生。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> has occurred during the call to the Web Sevice method.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果没有<bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapException"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>在对 Web 服务方法的调用过程中发生。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>Gets the parameter passed into the XML Web service method at the specified index.</source>
+          <target state="translated">获取传递到 XML Web service 方法的指定索引处的参数。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The GetInParameterValue property is only accessible when in parameters are available.</source>
+          <target state="translated">GetInParameterValue 属性是仅在参数中的可访问时才可用。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>ASP.NET throws &lt;xref:System.InvalidOperationException&gt; when accessing the GetInParameterValue property if in parameters are not available.</source>
+          <target state="translated">ASP.NET 将引发&lt;xref:System.InvalidOperationException&gt;在参数中如果访问 GetInParameterValue 属性不可用时。&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>In a &lt;xref:System.Web.Services.Protocols.SoapClientMessage&gt; the in parameters are available in the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">在&lt;xref:System.Web.Services.Protocols.SoapClientMessage&gt;输入参数是在可用&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapClientMessage&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>In a &lt;xref:System.Web.Services.Protocols.SoapServerMessage&gt; the in parameters are available in the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">在&lt;xref:System.Web.Services.Protocols.SoapServerMessage&gt;输入参数是在可用&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapServerMessage&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The zero-based index of the parameter in the array of parameters.</source>
+          <target state="translated">参数数组中参数的从零开始索引。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the parameter at the specified index.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示指定索引处的参数。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">index</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than 0 or greater than the length of the parameters array.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">index</ph> <ept id="p1">&lt;/code&gt;</ept>参数是小于 0 或大于参数数组的长度。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Accessing this property when in parameters are not available.</source>
+          <target state="translated">访问此属性参数中的将不可用。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>For details see the Remarks section.</source>
+          <target state="translated">有关详细信息，请参阅备注部分。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets the out parameter passed into the XML Web service method at the specified index.</source>
+          <target state="translated">获取传递到 XML Web service 方法的指定索引处的 out 参数。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>If out parameters are not available, ASP.NET throws an &lt;xref:System.InvalidOperationException&gt; when accessing the GetOutParameterValue property.</source>
+          <target state="translated">如果输出参数将不可用，ASP.NET 将引发&lt;xref:System.InvalidOperationException&gt;访问 GetOutParameterValue 属性时。&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>In a &lt;xref:System.Web.Services.Protocols.SoapClientMessage&gt; the out parameters are available in the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">的&lt;xref:System.Web.Services.Protocols.SoapClientMessage&gt;out 参数位于&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapClientMessage&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>In a &lt;xref:System.Web.Services.Protocols.SoapServerMessage&gt; the out parameters are available in the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; of the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">的&lt;xref:System.Web.Services.Protocols.SoapServerMessage&gt;out 参数可用于&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;的&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapServerMessage&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>The zero-based index of the parameter in the array of parameters.</source>
+          <target state="translated">参数数组中参数的从零开始索引。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the parameter at the specified index.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示指定索引处的参数。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">index</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than the length of the parameters array.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">index</ph> <ept id="p1">&lt;/code&gt;</ept>参数大于参数数组的长度。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Accessing this property when out parameters are not available.</source>
+          <target state="translated">访问输出参数时此属性将不可用。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>For details see the Remarks section.</source>
+          <target state="translated">有关详细信息，请参阅备注部分。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets the return value of an XML Web service method.</source>
+          <target state="translated">获取 XML Web service 方法的返回值。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>If a return value is not available, ASP.NET throws &lt;xref:System.InvalidOperationException&gt; when accessing the GetReturnValue property.</source>
+          <target state="translated">如果返回值不可用，ASP.NET 将引发&lt;xref:System.InvalidOperationException&gt;访问 GetReturnValue 属性时。&lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>In a &lt;xref:System.Web.Services.Protocols.SoapClientMessage&gt; the return value is available when the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; value is &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">在&lt;xref:System.Web.Services.Protocols.SoapClientMessage&gt;时，返回值是可用的&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;值为&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapClientMessage&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>In a &lt;xref:System.Web.Services.Protocols.SoapServerMessage&gt; the return value is available when &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; value is &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">在&lt;xref:System.Web.Services.Protocols.SoapServerMessage&gt;时，返回值为可用&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;值为&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapServerMessage&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Object&gt; representing the return value of the XML Web service method.</source>
+          <target state="translated">&lt;xref:System.Object&gt;表示 XML Web service 方法的返回值。&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>The XML Web service method does not have a return value.</source>
+          <target state="translated">XML Web service 方法没有返回值。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>OR       The return value is not available.</source>
+          <target state="translated">或返回值不可用。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>For details see the Remarks section</source>
+          <target state="translated">有关详细信息，请参阅备注部分</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A collection of the SOAP headers applied to the current SOAP request or SOAP response.</source>
+          <target state="translated">应用于当前的 SOAP 请求或 SOAP 响应的 SOAP 标头集合。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>SOAP headers are an optional portion of a SOAP request or SOAP response.</source>
+          <target state="translated">SOAP 标头是的 SOAP 请求或 SOAP 响应的一个可选部分。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For more details on using SOAP headers in XML Web services created using ASP.NET and their clients, see the &lt;xref:System.Web.Services.Protocols.SoapHeader&gt; class.</source>
+          <target state="translated">有关如何使用 ASP.NET 和它们的客户端创建的 XML Web 服务中使用 SOAP 标头的详细信息，请参阅&lt;xref:System.Web.Services.Protocols.SoapHeader&gt;类。&lt;/xref:System.Web.Services.Protocols.SoapHeader&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>Although the Headers property can be accessed at any stage, it is only populated with the SOAP header information in the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; and &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; stages.</source>
+          <target state="translated">尽管可以在任何阶段访问的标头属性，仅填充中的 SOAP 标头信息&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;和&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;阶段。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapHeaderCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the SOAP headers applied to the current SOAP request or SOAP response.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapHeaderCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>应用于当前的 SOAP 请求或 SOAP 响应的 SOAP 标头。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if there are no SOAP headers.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果没有 SOAP 头。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets a representation of the method prototype for the XML Web service method for which the SOAP request is intended.</source>
+          <target state="translated">当在派生类中重写，获取针对 SOAP 请求 XML Web service 方法的表示形式的方法原型。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Although MethodInfo can be accessed during any &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;, it only has data during &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; and &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">尽管可以在任何&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;，它仅有数据期间&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;和&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;期间访问 MethodInfo</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.LogicalMethodInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the XML Web service method for which the SOAP request is intended.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.LogicalMethodInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示 SOAP 请求所针对的 XML Web 服务方法。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating the <ph id="ph1">&amp;lt;</ph>xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute.OneWay%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> property of either the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapDocumentMethodAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> or the <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapRpcMethodAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> attribute applied to the XML Web service method.</source>
+          <target state="translated">获取一个值，该值指示<ph id="ph1">&amp;lt;</ph>xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute.OneWay%2A?displayProperty=fullName<ph id="ph2">&amp;gt;</ph>任一属性<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapDocumentMethodAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>或<bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapRpcMethodAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>应用于 XML Web service 方法的属性。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>See the &lt;xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute.OneWay%2A?displayProperty=fullName&gt; property of &lt;xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute&gt; or &lt;xref:System.Web.Services.Protocols.SoapRpcMethodAttribute&gt; for details about one-way XML Web service methods.</source>
+          <target state="translated">请参阅&lt;xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute.OneWay%2A?displayProperty=fullName&gt;属性&lt;xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute&gt;或&lt;xref:System.Web.Services.Protocols.SoapRpcMethodAttribute&gt;有关单向 XML Web 服务方法的详细信息。&lt;/xref:System.Web.Services.Protocols.SoapRpcMethodAttribute&gt; &lt;/xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute&gt; &lt;/xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute.OneWay%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>The OneWay property is accessible in all stages of &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">OneWay 属性是在&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;的所有阶段中可访问</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the &lt;xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute.OneWay*&gt; property of the <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapDocumentMethodAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> or <bpt id="p3">&lt;xref href="System.Web.Services.Protocols.SoapRpcMethodAttribute"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> applied to the XML Web service method is <bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>; otherwise, <bpt id="p5">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p5">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果&lt;xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute.OneWay*&gt;属性<bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapDocumentMethodAttribute"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>或<bpt id="p3">&lt;xref href="System.Web.Services.Protocols.SoapRpcMethodAttribute"&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>应用于 XML Web 服务方法是<bpt id="p4">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p4">&lt;/xref&gt;</ept>; 否则为<bpt id="p5">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p5">&lt;/xref&gt;</ept>。&lt;/xref:System.Web.Services.Protocols.SoapDocumentMethodAttribute.OneWay*&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Gets the version of the SOAP protocol used to communicate with the XML Web service.</source>
+          <target state="translated">获取与 XML Web 服务进行通信时使用 SOAP 协议的版本。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For a &lt;xref:System.Web.Services.Protocols.SoapServerMessage&gt;, the &lt;xref:System.Web.Services.Protocols.SoapServerMessage.SoapVersion%2A&gt; property is guaranteed to be valid after the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; stage.</source>
+          <target state="translated">有关&lt;xref:System.Web.Services.Protocols.SoapServerMessage&gt;、&lt;xref:System.Web.Services.Protocols.SoapServerMessage.SoapVersion%2A&gt;属性可以保证有效之后&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;阶段。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt; &lt;/xref:System.Web.Services.Protocols.SoapServerMessage.SoapVersion%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapServerMessage&gt;</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>In the &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt; stage the property is available, however the SOAP message has not been completely processed and SOAP extensions that may alter the contents of the SOAP message have not run.</source>
+          <target state="translated">在&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;属性不可用，但不完全处理的 SOAP 消息，并且尚未运行可能会更改 SOAP 消息的内容的 SOAP 扩展的阶段。&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapProtocolVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">之一<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapProtocolVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>值。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapProtocolVersion"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapProtocolVersion"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapMessage"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Gets the <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapMessage"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>The Stage property can be accessed at any &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">可以在任何&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;访问阶段属性</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapMessage"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">The <bpt id="p1">&lt;xref href="System.Web.Services.Protocols.SoapMessageStage"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of the <bpt id="p2">&lt;xref href="System.Web.Services.Protocols.SoapMessage"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Gets the data representing the SOAP request or SOAP response in the form of a &lt;xref:System.IO.Stream&gt;.</source>
+          <target state="translated">获取表示 SOAP 请求或 SOAP 响应所采用的一种&lt;xref:System.IO.Stream&gt;。&lt;/xref:System.IO.Stream&gt;窗体的数据</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>SOAP extensions that inspect the data representing a SOAP request or SOAP response, such as a logging SOAP extension, can use the <ph id="ph1">`Stream`</ph> property to view the data at each &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">检查表示 SOAP 请求或 SOAP 响应，例如日志记录 SOAP 扩展的数据的 SOAP 扩展可以使用<ph id="ph1">`Stream`</ph>属性以在每个&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;查看数据</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>SOAP extensions that modify the data representing a SOAP request or SOAP response, such as encryption or compression SOAP extensions, should do so with the &lt;xref:System.IO.Stream&gt; passed into the &lt;xref:System.Web.Services.Protocols.SoapExtension.ChainStream%2A&gt; method of &lt;xref:System.Web.Services.Protocols.SoapExtension&gt;.</source>
+          <target state="translated">修改表示 SOAP 请求或 SOAP 响应，例如加密或压缩 SOAP 扩展的数据的 SOAP 扩展应与&lt;xref:System.IO.Stream&gt;传递到&lt;xref:System.Web.Services.Protocols.SoapExtension.ChainStream%2A&gt;&lt;xref:System.Web.Services.Protocols.SoapExtension&gt;.&lt;/xref:System.Web.Services.Protocols.SoapExtension&gt;方法&lt;/xref:System.Web.Services.Protocols.SoapExtension.ChainStream%2A&gt;&lt;/xref:System.IO.Stream&gt;执行此操作</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The Stream property of &lt;xref:System.Web.Services.Protocols.SoapMessage&gt; passed into &lt;xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt; is read-only.</source>
+          <target state="translated">流属性&lt;xref:System.Web.Services.Protocols.SoapMessage&gt;传入&lt;xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt;是只读的。&lt;/xref:System.Web.Services.Protocols.SoapExtension.ProcessMessage%2A&gt; &lt;/xref:System.Web.Services.Protocols.SoapMessage&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>For more information on modifying the data representing a SOAP request or SOAP response, see &lt;xref:System.Web.Services.Protocols.SoapExtension.ChainStream%2A&gt;.</source>
+          <target state="translated">有关修改表示 SOAP 请求或 SOAP 响应的数据的详细信息，请参阅&lt;xref:System.Web.Services.Protocols.SoapExtension.ChainStream%2A&gt;。&lt;/xref:System.Web.Services.Protocols.SoapExtension.ChainStream%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>A read-only instance of the &lt;xref:System.IO.Stream&gt; class.</source>
+          <target state="translated">只读实例的&lt;xref:System.IO.Stream&gt;类。&lt;/xref:System.IO.Stream&gt;</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the base URL of the XML Web service.</source>
+          <target state="translated">当在派生类中重写，获取 XML Web 服务的基 URL。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The Url property can be accessed during any &lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.</source>
+          <target state="translated">可以在任何&lt;xref:System.Web.Services.Protocols.SoapMessageStage&gt;.&lt;/xref:System.Web.Services.Protocols.SoapMessageStage&gt;期间访问的 Url 属性</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The base URL of the XML Web service.</source>
+          <target state="translated">XML Web 服务的基 URL。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

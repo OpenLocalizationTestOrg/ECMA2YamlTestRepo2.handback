@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2ae57a649531c96bdae4b358bb3d6b15487f94ab</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Web.UI.HierarchicalDataSourceControl.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3ca27af465530af0016c82c0be534698ae5ada4d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ed260eae41b1315699b105eaa04ef471b09e3367</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a base class for data source controls that represent hierarchical data.</source>
+          <target state="translated">Egy olyan alaposztályból biztosít, amelyek megfelelnek a hierarchikus adatokhoz adatforrás-vezérlők.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>ASP.NET supports a controls data-binding architecture that enables Web server controls to bind to data and present it in a consistent fashion.</source>
+          <target state="translated">Az ASP.NET egy vezérlő adatkötési architektúra, amely lehetővé teszi a webkiszolgáló-vezérlőket adatok kötni, és egységes módon ábrázolhatók azt támogatja.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Web server controls that bind to data are called data-bound controls, and the classes that facilitate binding are called data source controls.</source>
+          <target state="translated">Webkiszolgáló-vezérlőket, hogy az adatokhoz köthető hívják adathoz kötött vezérlők, és az osztályokat, amelyek egyszerűbbé teszik a kötés adatforrás-vezérlők nevezzük.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls can represent any data source: a file, a stream, a relational database, a business object, and so on.</source>
+          <target state="translated">Adatforrás-vezérlők jelenthet bármilyen adatforrást: a fájl, adatfolyam, egy relációs adatbázisban, egy üzleti objektumot, és így tovább.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls present data in a consistent way to data-bound controls, regardless of the source or format of the underlying data.</source>
+          <target state="translated">Az adatforrás található adatok vezérlőket az adathoz kötött vezérlők, függetlenül a forrás vagy a mögöttes adatok formátuma ugyanolyan módon.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls that represent hierarchical data derive from the HierarchicalDataSourceControl class, while data source controls that represent lists or tables of data derive from the &lt;xref:System.Web.UI.DataSourceControl&gt; class.</source>
+          <target state="translated">Adatforrás-vezérlők, amelyek megfelelnek a hierarchikus adatokhoz a alaposztályból származik HierarchicalDataSourceControl, miközben adatforrás-vezérlők, amelyek megfelelnek a listák vagy táblázatok az adatok &lt;xref:System.Web.UI.DataSourceControl&gt;osztályból&lt;/xref:System.Web.UI.DataSourceControl&gt; származik.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The HierarchicalDataSourceControl class is the base implementation of the &lt;xref:System.Web.UI.IHierarchicalDataSource&gt; interface, which defines a single method to retrieve hierarchical data source view objects associated with the data source control, &lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;.</source>
+          <target state="translated">HierarchicalDataSourceControl osztálya: az alapszintű megvalósítás &lt;xref:System.Web.UI.IHierarchicalDataSource&gt;az adatforrás-vezérlő, &lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;.&lt;/xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt; társított felület, amely megadja, hogy egy módszert hierarchikus adatforrás-nézet objektumok beolvasása&lt;/xref:System.Web.UI.IHierarchicalDataSource&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can think of a data source control as the combination of the HierarchicalDataSourceControl object and its associated views on the underlying data, called data source view objects.</source>
+          <target state="translated">Az eltolásokat tekintheti adatforrás-vezérlőhöz, a HierarchicalDataSourceControl objektum és a társított nézetek nevű adatforrás-objektumok megtekintése, az alapul szolgáló adatokon.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While data source controls that represent tabular data are typically associated with only one named view, the HierarchicalDataSourceControl class supports a data source view for each level of hierarchical data that the data source control represents.</source>
+          <target state="translated">Adatforrás-vezérlők, amelyek megfelelnek a táblázatos adatok általában társított csak egy elnevezett nézet, amíg a HierarchicalDataSourceControl osztály adatforrásnézeten az egyes hierarchikus adatok, amelyek az adatforrás-vezérlő támogatja.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The level of hierarchical data is identified by a unique hierarchical path, passed to the &lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt; method in the <ph id="ph1">`viewPath`</ph> parameter.</source>
+          <target state="translated">A hierarchikus adatok szintjét egyedi hierarchikus elérési utat, átadott azonosíthatók a &lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;metódust a <ph id="ph1">`viewPath`</ph> paraméter.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt; object defines the capabilities of a data source control for the hierarchical level represented, and performs operations such as insert, update, delete, and sort.</source>
+          <target state="translated">Minden egyes &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;objektum határozza meg az adatforrás-vezérlőhöz hierarchikus képviselt szintjére vonatkozó képességeit, és végrehajtja a műveleteket, például az insert, update, delete és rendezési.&lt;/xref:System.Web.UI.HierarchicalDataSourceView&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Web server controls that derive from the &lt;xref:System.Web.UI.WebControls.HierarchicalDataBoundControl&gt; class, such as &lt;xref:System.Web.UI.WebControls.TreeView&gt;, use hierarchical data source controls to bind to hierarchical data.</source>
+          <target state="translated">Webalkalmazás-vezérlőket, amelyek a a &lt;xref:System.Web.UI.WebControls.HierarchicalDataBoundControl&gt;osztály, például a &lt;xref:System.Web.UI.WebControls.TreeView&gt;, hierarchikus adatforrás-vezérlők használatával hierarchikus adatokhoz köthető.&lt;/xref:System.Web.UI.WebControls.TreeView&gt; &lt;/xref:System.Web.UI.WebControls.HierarchicalDataBoundControl&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls are implemented as controls to enable declarative persistence and to optionally permit participation in state management.</source>
+          <target state="translated">Adatforrás-vezérlők vezérlők deklaratív adatmegőrzés engedélyezése és opcionálisan engedélyezik a részvétel állapotkezelés megvalósítása.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Data source controls have no visual rendering, and therefore do not support themes.</source>
+          <target state="translated">Adatforrás-vezérlők nem vizuális megjelenítés rendelkezik, és ezért nem támogatják a témák.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Applies the style properties that are defined in the page style sheet to the control.</source>
+          <target state="translated">A stílustulajdonságok a lap stíluslapon a vezérlőhöz definiált vonatkozik.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> containing the control.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.Page"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a vezérlőt tartalmazó.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets the server control identifier generated by ASP.NET.</source>
+          <target state="translated">Lekérdezi az ASP.NET által generált kiszolgáló vezérlő azonosítóját.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The server control identifier generated by ASP.NET.</source>
+          <target state="translated">Az ASP.NET által generált kiszolgáló azonosítóját.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>This property is not used for data source controls.</source>
+          <target state="translated">Ez a tulajdonság nem használható az adatforrás-vezérlők.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property of the &lt;xref:System.Web.UI.Control&gt; base class is not used for data source controls because data source controls do not render markup.</source>
+          <target state="translated">Ez a tulajdonság a &lt;xref:System.Web.UI.Control&gt;alaposztály nem használatos az adatforrás-vezérlők, mert az adatforrás-vezérlők nem képezhető le markup.&lt;/xref:System.Web.UI.Control&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>This property is not used for data source controls.</source>
+          <target state="translated">Ez a tulajdonság nem használható az adatforrás-vezérlők.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the child controls for a specified server control in the UI hierarchy.</source>
+          <target state="translated">Lekérdezi a <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a gyermekvezérlők a felhasználói felület hierarchiát a megadott kiszolgáló vezérlőelem képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>The collection of child controls for the specified server control.</source>
+          <target state="translated">A megadott kiszolgáló vezérlő gyermekvezérlőinek gyűjteménye.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Creates a new <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to hold the child controls (both literal and server) of the server control.</source>
+          <target state="translated">Létrehoz egy új <bpt id="p1">&lt;xref href="System.Web.UI.ControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ahhoz, hogy a gyermekvezérlők (literal és kiszolgáló) a kiszolgálói vezérlőnek az objektum.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CreateControlCollection method is overridden by the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class to prevent child controls from being added.</source>
+          <target state="translated">A CreateControlCollection módszert felülbírálja a &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;osztály megakadályozhatja, hogy a gyermekvezérlők a hozzáadni kívánt.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Web.UI.EmptyControlCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that prevents any child controls from being added.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.Web.UI.EmptyControlCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely megakadályozza, hogy valamennyi alárendelt vezérlő felvenni.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this control supports themes.</source>
+          <target state="translated">Támogatja-e a vezérlő témák jelző érték beolvasása.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class has no visual rendering, it does not support themes.</source>
+          <target state="translated">Mivel a &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;osztály nem vizuális megjelenítés, a nem támogatja a témák.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>minden esetben.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the EnableTheming property.</source>
+          <target state="translated">Kísérlet történt az EnableTheming tulajdonságot értékének beállítására.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Searches the current naming container for a server control with the specified <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">id</ph><ept id="p1">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Megkeresi a megadott kiszolgáló vezérlőt aktuális elnevezési tárolójának <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">id</ph> <ept id="p1">&lt;/code&gt;</ept> paraméter.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The identifier for the control to be found.</source>
+          <target state="translated">A keresett vezérlő azonosítója</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The specified control, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified control does not exist.</source>
+          <target state="translated">A megadott vezérlő vagy <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ha a megadott vezérlő nem létezik.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Sets input focus to the control.</source>
+          <target state="translated">Beállítja az aktuális vezérlő adjon meg.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class has no visual rendering, calling the Focus method on it throws a &lt;xref:System.NotSupportedException&gt; exception.</source>
+          <target state="translated">Mivel a &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;osztály rendelkezik nem vizuális megjelenítés esetén a fókusz jelez metódust hívja a &lt;xref:System.NotSupportedException&gt;kivétel.&lt;/xref:System.NotSupportedException&gt; &lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>An attempt was made to call the Focus method.</source>
+          <target state="translated">Kísérlet történt a fókusz metódus meghívására.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets the view helper object for the <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the specified path.</source>
+          <target state="translated">Lekérdezi a nézet segítő objektuma esetében a <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> felület a megadott elérési út.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This GetHierarchicalView method provides the default implementation for the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class, which simply returns <ph id="ph1">`null`</ph>.</source>
+          <target state="translated">Ez a GetHierarchicalView módszer lehetővé teszi az alapértelmezett implementációja a &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;osztályt, amely egyszerűen adja vissza <ph id="ph1">`null`</ph>.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Classes that derive from the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class override this method and provide an implementation to return a strongly typed view that derives from &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;.</source>
+          <target state="translated">Az &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;osztály bírálja felül ezt a módszert, és vissza &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;.&lt;/xref:System.Web.UI.HierarchicalDataSourceView&gt; származik, amely egy szigorú típusmegadású nézet megvalósítást&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt; származik osztályok</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The hierarchical path of the view to retrieve.</source>
+          <target state="translated">A hierarchikus elérési út lehet beolvasni.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents a single view of the data at the hierarchical level identified by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">viewPath</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy az adatok hierarchiaszinten által azonosított egyetlen nézetben a <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">viewPath</ph> <ept id="p2">&lt;/code&gt;</ept> paraméter.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Determines if the server control contains any child controls.</source>
+          <target state="translated">Azt határozza meg, ha a kiszolgáló valamennyi alárendelt vezérlő tartalmazza.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the control contains other controls; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a vezérlő tartalmaz más vezérlők; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource.DataSourceChanged"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Kiváltja a <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource.DataSourceChanged"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> esemény.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnDataSourceChanged method notifies a data-bound control that the underlying data source or the data cached in memory has changed, that the control should rebind, and that any necessary work should be performed.</source>
+          <target state="translated">A OnDataSourceChanged metódus értesíti az alapul szolgáló adatforrás vagy az adatok a memóriában gyorsítótárazott változott, hogy a vezérlő újítják meg, és hogy történjen-e a szükséges munka adathoz kötött vezérlő.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Raising an event invokes the event handler through a delegate.</source>
+          <target state="translated">Az eseménykezelő keresztül egy delegált esemény indítása hív meg.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>NIB: Raising an Event<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</source>
+          <target state="translated">További információkért lásd: <bpt id="p1">[</bpt>NIB: esemény indítása<ept id="p1">](http://msdn.microsoft.com/en-us/f2adaf01-1ed1-42e1-8c31-8d467e7e0ee2)</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The OnDataSourceChanged method also allows derived classes to handle the event without attaching a delegate.</source>
+          <target state="translated">A OnDataSourceChanged módszert is lehetővé teszi az események kezelésére anélkül egy delegált származtatott osztályok.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the preferred technique for handling the event in a derived class.</source>
+          <target state="translated">Ez az ajánlott módszere az esemény egy származtatott osztályban kezelésére.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains event data.</source>
+          <target state="translated">Egy &lt;xref:System.EventArgs&gt;, amely tartalmazza az eseményadatok.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Outputs server control content to a provided <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and stores tracing information about the control if tracing is enabled.</source>
+          <target state="translated">Kiszolgáló vezérlő tartalmat a megadott kimeneti <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumra, és a vezérlő nyomkövetési adatait tárolja, ha nyomkövetése engedélyezve van.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that receives the control content.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Web.UI.HtmlTextWriter"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely megkapja a vezérlőelem tartalmát.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Gets or sets the skin to apply to the <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> control.</source>
+          <target state="translated">Lekérdezi vagy beállítja a felszín alkalmazása a <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceControl"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> vezérlő.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; has no visual rendering, it does not support themes or skins.</source>
+          <target state="translated">Mivel a &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;nem visual rendelkezik megjelenítést alkalmazni, nem támogatja a témák vagy felszíne.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&amp;lt;</ph>xref:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> in all cases.</source>
+          <target state="translated"><ph id="ph1">&amp;lt;</ph>XRef:System.String?displayProperty=fullName<ph id="ph2">&amp;gt;</ph> minden esetben.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the SkinID property.</source>
+          <target state="translated">Kísérlet történt a Felszínazonosítóval tulajdonság értékének beállítása.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Gets the view helper object for the <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface for the specified path.</source>
+          <target state="translated">Lekérdezi a nézet segítő objektuma esetében a <bpt id="p1">&lt;xref href="System.Web.UI.IHierarchicalDataSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> felület a megadott elérési út.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt; method is called by clients when a &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; is manipulated as an &lt;xref:System.Web.UI.IHierarchicalDataSource&gt; interface.</source>
+          <target state="translated">A &lt;xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;metódus lehívásra kerül az ügyfelek által amikor egy &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;-n egy &lt;xref:System.Web.UI.IHierarchicalDataSource&gt;felületet.&lt;/xref:System.Web.UI.IHierarchicalDataSource&gt; &lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt; &lt;/xref:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It delegates to the &lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt; method, which derived classes override to return strongly typed &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt; objects.</source>
+          <target state="translated">Az ad a &lt;xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;metódus, amely származtatott osztályok bírálja felül, ha vissza szigorú típusmegadású &lt;xref:System.Web.UI.HierarchicalDataSourceView&gt;objektumok.&lt;/xref:System.Web.UI.HierarchicalDataSourceView&gt; &lt;/xref:System.Web.UI.HierarchicalDataSourceControl.GetHierarchicalView%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>The hierarchical path of the view to retrieve.</source>
+          <target state="translated">A hierarchikus elérési út lehet beolvasni.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Returns a <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents a single view of the data at the hierarchical level identified by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">viewPath</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated">Értéket ad vissza egy <bpt id="p1">&lt;xref href="System.Web.UI.HierarchicalDataSourceView"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> , amely jelzi, hogy az adatok hierarchiaszinten által azonosított egyetlen nézetben a <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">viewPath</ph> <ept id="p2">&lt;/code&gt;</ept> paraméter.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the control is visually displayed.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely jelzi, hogy vizuálisan megjelenik-e a vezérlő.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt; class has no visual rendering, Visible always returns <ph id="ph1">`false`</ph>.</source>
+          <target state="translated">Mivel a &lt;xref:System.Web.UI.HierarchicalDataSourceControl&gt;osztály nem vizuális megjelenítés rendelkezik, Visible mindig vissza <ph id="ph1">`false`</ph>.&lt;/xref:System.Web.UI.HierarchicalDataSourceControl&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in all cases.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>minden esetben.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>An attempt was made to set the value of the Visible property.</source>
+          <target state="translated">Kísérlet történt a Visible tulajdonság értékének beállítása.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

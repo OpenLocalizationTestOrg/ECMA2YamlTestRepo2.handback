@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">264b754556f1367bc757225e0adb9642fb6e57b6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Description.DurableServiceAttribute.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">82fa0ebeaca47f8450a4b0e64061d912b16eeb3e</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">87ce7cbc7e070a13720ca3d469e68f2f0cf658a5</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the internal execution behavior of a durable service contract implementation.</source>
+          <target state="translated">Meghatározza a belső végrehajtási viselkedését a tartós szolgáltatási szerződés megvalósítása.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following items are checked as part of the validation logic for durable services:      -   All sessionful bindings have a context binding element such as &lt;xref:System.ServiceModel.Configuration.WSHttpContextBindingElement&gt; or &lt;xref:System.ServiceModel.Configuration.NetTcpContextBindingElement&gt;.</source>
+          <target state="translated">A következő elemeket a rendszer ellenőrzi a tartós szolgáltatások érvényesítési logikája:-az összes munkamenet-alapú kötések például &lt;xref:System.ServiceModel.Configuration.WSHttpContextBindingElement&gt;vagy &lt;xref:System.ServiceModel.Configuration.NetTcpContextBindingElement&gt;.&lt;/xref:System.ServiceModel.Configuration.NetTcpContextBindingElement&gt; &lt;/xref:System.ServiceModel.Configuration.WSHttpContextBindingElement&gt; környezetben kötési elemmel rendelkeznie</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.ServiceModel.ConcurrencyMode&gt; value must not be set to Multiple.</source>
+          <target state="translated">-A &lt;xref:System.ServiceModel.ConcurrencyMode&gt;értéket nem lehet állítani több.&lt;/xref:System.ServiceModel.ConcurrencyMode&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:System.ServiceModel.InstanceContextMode&gt; value must be PerSession.</source>
+          <target state="translated">-A &lt;xref:System.ServiceModel.InstanceContextMode&gt;értéknek kell lennie a PerSession.&lt;/xref:System.ServiceModel.InstanceContextMode&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   There must be one sessionful endpoint configured for the service.</source>
+          <target state="translated">-Csatlakoznia kell egy munkamenet-alapú végpont a szolgáltatáshoz állíthatók be.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the contract disallows sessions, then &lt;xref:System.ServiceModel.Description.DurableOperationAttribute.CanCreateInstance%2A&gt; must be set to <ph id="ph1">`true`</ph> for all operations.</source>
+          <target state="translated">– Ha az egyezmény nem engedélyezi a munkamenetet, majd &lt;xref:System.ServiceModel.Description.DurableOperationAttribute.CanCreateInstance%2A&gt;értékre kell állítani <ph id="ph1">`true`</ph> minden műveletnél.&lt;/xref:System.ServiceModel.Description.DurableOperationAttribute.CanCreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If the contract permits or allows sessions then all operations for which &lt;xref:System.ServiceModel.Description.DurableOperationAttribute.CanCreateInstance%2A&gt; is set to <ph id="ph1">`true`</ph> must be request/response operations, that is &lt;xref:System.Workflow.Activities.OperationInfo.IsOneWay%2A&gt; cannot be set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">-Ha a szerződés lehetővé teszi, vagy lehetővé teszi, hogy a munkamenetek és minden műveletet, amelynek &lt;xref:System.ServiceModel.Description.DurableOperationAttribute.CanCreateInstance%2A&gt;értéke <ph id="ph1">`true`</ph> kell lennie, amely kérelem/válasz műveletek &lt;xref:System.Workflow.Activities.OperationInfo.IsOneWay%2A&gt;nem állítható be <ph id="ph2">`true`</ph>.&lt;/xref:System.Workflow.Activities.OperationInfo.IsOneWay%2A&gt; &lt;/xref:System.ServiceModel.Description.DurableOperationAttribute.CanCreateInstance%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If &lt;xref:System.ServiceModel.Description.DurableServiceAttribute.SaveStateInOperationTransaction%2A&gt; is set to <ph id="ph1">`true`</ph>, then all operations on the service must either be marked with &lt;xref:System.ServiceModel.OperationBehaviorAttribute.TransactionScopeRequired%2A?displayProperty=fullName&gt; set to <ph id="ph2">`true`</ph> or marked with &lt;xref:System.ServiceModel.TransactionFlowOption?displayProperty=fullName&gt;.</source>
+          <target state="translated">-Ha &lt;xref:System.ServiceModel.Description.DurableServiceAttribute.SaveStateInOperationTransaction%2A&gt;értékre van állítva <ph id="ph1">`true`</ph>, majd vagy a szolgáltatás minden műveletet kell ellátni &lt;xref:System.ServiceModel.OperationBehaviorAttribute.TransactionScopeRequired%2A?displayProperty=fullName&gt;beállítása <ph id="ph2">`true`</ph> vagy &lt;xref:System.ServiceModel.TransactionFlowOption?displayProperty=fullName&gt;.&lt;/xref:System.ServiceModel.TransactionFlowOption?displayProperty=fullName&gt; jelölésű&lt;/xref:System.ServiceModel.OperationBehaviorAttribute.TransactionScopeRequired%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Description.DurableServiceAttribute.SaveStateInOperationTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additionally, &lt;xref:System.ServiceModel.ConcurrencyMode&gt; must be set to Single.</source>
+          <target state="translated">Emellett &lt;xref:System.ServiceModel.ConcurrencyMode&gt;egyetlen értékre kell állítani.&lt;/xref:System.ServiceModel.ConcurrencyMode&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ServiceModel.Description.DurableServiceAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.ServiceModel.Description.DurableServiceAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Not implemented in <bpt id="p1">&lt;xref href="System.ServiceModel.Description.DurableServiceAttribute"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Nincs megvalósítva <bpt id="p1">&lt;xref href="System.ServiceModel.Description.DurableServiceAttribute"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Not implemented.</source>
+          <target state="translated">Nincs implementálva.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Not implemented.</source>
+          <target state="translated">Nincs implementálva.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Not implemented.</source>
+          <target state="translated">Nincs implementálva.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Not implemented.</source>
+          <target state="translated">Nincs implementálva.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Customizes the service runtime to support durable service behavior properties, such as specifying a <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the service.</source>
+          <target state="translated">A szolgáltatás futásideje tartós szolgáltatás viselkedés tulajdonságait, például megadják támogatásához testreszabása egy <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a szolgáltatáshoz.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>The service description.</source>
+          <target state="translated">A szolgáltatás leírása.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>The service host.</source>
+          <target state="translated">A szolgáltatásgazda.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the service instance state is persisted to the <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> using the same transaction under which the operation is run.</source>
+          <target state="translated">Lekérdez vagy beállít egy értéket, amely jelzi, hogy a szolgáltatás példány állapotának tárolva legyen a <bpt id="p1">&lt;xref href="System.ServiceModel.Persistence.PersistenceProvider"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ugyanabban a tranzakcióban, amely alatt az a művelet fut használatával.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If SaveStateInOperationTransaction is set to <ph id="ph1">`true`</ph>, then all operations on the service must either be marked with &lt;xref:System.ServiceModel.OperationBehaviorAttribute.TransactionScopeRequired%2A?displayProperty=fullName&gt; set to <ph id="ph2">`true`</ph> or marked with &lt;xref:System.ServiceModel.TransactionFlowOption?displayProperty=fullName&gt;.</source>
+          <target state="translated">Ha a SaveStateInOperationTransaction értéke <ph id="ph1">`true`</ph>, majd vagy a szolgáltatás minden műveletet kell ellátni &lt;xref:System.ServiceModel.OperationBehaviorAttribute.TransactionScopeRequired%2A?displayProperty=fullName&gt;beállítása <ph id="ph2">`true`</ph> vagy &lt;xref:System.ServiceModel.TransactionFlowOption?displayProperty=fullName&gt;.&lt;/xref:System.ServiceModel.TransactionFlowOption?displayProperty=fullName&gt; jelölésű&lt;/xref:System.ServiceModel.OperationBehaviorAttribute.TransactionScopeRequired%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Additionally, &lt;xref:System.ServiceModel.ConcurrencyMode&gt; must be set to Single.</source>
+          <target state="translated">Emellett &lt;xref:System.ServiceModel.ConcurrencyMode&gt;egyetlen értékre kell állítani.&lt;/xref:System.ServiceModel.ConcurrencyMode&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting SaveStateInOperationTransaction to <ph id="ph1">`true`</ph> makes the service state transactional with the operation transaction.</source>
+          <target state="translated">SaveStateInOperationTransaction beállítást <ph id="ph1">`true`</ph> révén a szolgáltatás állapotának tranzakciós a művelet tranzakcióval.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that if the operation's transaction rolls back, the service state also rolls back.</source>
+          <target state="translated">Ez azt jelenti, hogy a tranzakció a művelet visszaállítja a, ha a szolgáltatás állapotát visszaállítja.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the service instance state is persisted using the same transaction; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a szolgáltatás példány állapotának megőrződjenek ugyanabban a tranzakcióban; használatával Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>Gets or sets the <bpt id="p1">&lt;xref href="System.ServiceModel.Description.UnknownExceptionAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value associated with the durable service.</source>
+          <target state="translated">Lekérdezi vagy beállítja a <bpt id="p1">&lt;xref href="System.ServiceModel.Description.UnknownExceptionAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a tartós szolgáltatáshoz tartozó számbavételi érték.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When &lt;xref:System.ServiceModel.Description.DurableServiceAttribute&gt; is instantiated, it sets this property value to &lt;xref:System.ServiceModel.Description.UnknownExceptionAction&gt;.</source>
+          <target state="translated">Ha &lt;xref:System.ServiceModel.Description.DurableServiceAttribute&gt;van példányként létrehozott, beállítja a tulajdonság értéke &lt;xref:System.ServiceModel.Description.UnknownExceptionAction&gt;.&lt;/xref:System.ServiceModel.Description.UnknownExceptionAction&gt; &lt;/xref:System.ServiceModel.Description.DurableServiceAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This means that whenever an unknown exception is encountered by the durable service, the service instance is terminated and any state information is deleted from the persistence store.</source>
+          <target state="translated">Ez azt jelenti, hogy ismeretlen kivételt a rendszer a tartós szolgáltatás által észlelt, amikor a szolgáltatáspéldány befejeződik, és semmilyen állapotra vonatkozó információt törlődik a megőrző tárolóból.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.ServiceModel.Description.UnknownExceptionAction"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration value.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.ServiceModel.Description.UnknownExceptionAction"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> számbavételi érték.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Verifies that all durable operations on the service are set up correctly.</source>
+          <target state="translated">Ellenőrzi, hogy a szolgáltatás összes tartós művelete megfelelően vannak-e beállítva.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The service description.</source>
+          <target state="translated">A szolgáltatás leírása.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The service host.</source>
+          <target state="translated">A szolgáltatásgazda.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
