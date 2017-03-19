@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c562ce3bd1aba9e7033cb25440098817301cf2b5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Diagnostics.Eventing.EventProviderTraceListener.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5b1cd62caf15ccb05f6757174df6c15735aa8951</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eee64e123fb342fdb4630368ebd25103233b2a00</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>A listener for <bpt id="p1">&lt;xref href="System.Diagnostics.TraceSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that writes events to the ETW subsytem.</source>
+          <target state="translated">Um serviço de escuta para <bpt id="p1">&lt;xref href="System.Diagnostics.TraceSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> que escreve eventos para o subsytem ETW.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All event data (trace or debug) from the source event is written to the ETW subsystem as a string.</source>
+          <target state="translated">Todos os dados de eventos (rastreio ou depuração) provenientes do evento de origem é escrito para o subsistema ETW, como uma cadeia.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The data elements are delimited using a comma.</source>
+          <target state="translated">Os elementos de dados são delimitados por com uma vírgula.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To specify a different delimiter, use the &lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter%2A&gt; property.</source>
+          <target state="translated">Para especificar um delimitador diferente, utilize o &lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter%2A&gt;propriedade.&lt;/xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Adding the listener to &lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt; registers the provider with the ETW subsystem.</source>
+          <target state="translated">Adicionar o serviço de escuta para &lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;regista o fornecedor com o subsistema ETW.&lt;/xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You must create an ETW trace session using the Logman.exe executable program (or something similar) to write the events to a log file.</source>
+          <target state="translated">Tem de criar uma sessão de rastreio ETW com o programa do executável Logman.exe (ou semelhante) para escrever os eventos de um ficheiro de registo.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need a manifest to consume events from the listener because the event data is a single string.</source>
+          <target state="translated">Não é necessário um manifesto para consumir eventos a partir do serviço de escuta porque os dados do evento são uma cadeia única.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you call the &lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt; methods to write events, you pass a &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; enumeration value.</source>
+          <target state="translated">Quando chamar o &lt;xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;métodos para escrever eventos no registo, passa uma &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;valor de enumeração.&lt;/xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; &lt;/xref:System.Diagnostics.TraceSource?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The enumeration contains both level and keyword values.</source>
+          <target state="translated">A enumeração contém valores nível e palavra-chave.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When you enable a trace listener provider from an ETW session, the level value that you specify can be the value associated with one of the following &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; enumeration values:      -   Critical (value is 1)      -   Error (value is 2)      -   Information (value is 8)      -   Verbose (value is 16)      -   Warning (value is 4)       The keyword value that you specify for the session can be the value associated with one of the following &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; enumeration values:      -   Resume (value is 2,048)      -   Start (value is 256)      -   Stop (value is 512)      -   Suspend (value is 1,024)      -   Transfer (value is 4,096)</source>
+          <target state="translated">Quando ativa a um fornecedor de serviço de escuta de rastreio a partir de uma sessão ETW, o valor de nível que especificar pode ser o valor associado um dos seguintes valores de enumeração de &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;: - crítico (o valor é 1) - erro (o valor é 2) - informações (o valor é 8) - Verbose (o valor é 16) - aviso (o valor é 4) o valor de palavra-chave que especificar para a sessão pode ser o valor associado um dos seguintes valores de enumeração de &lt;xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; :-Retomar (o valor é 2,048) - Start (o valor é 256) - parar (o valor é 512) - suspender (o valor é 1.024) - transferência (o valor é 4,096)&lt;/xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt; &lt;/xref:System.Diagnostics.TraceEventType?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified provider identifier.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe utilizando o identificador de fornecedor especificado.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A unique string &lt;xref:System.Guid&gt; that identifies the provider.</source>
+          <target state="translated">Uma cadeia exclusiva &lt;xref:System.Guid&gt;que identifica o fornecedor.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified provider identifier and name of the listener.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> utilizando o identificador de fornecedor especificado e o nome do serviço de escuta de classe.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A unique string &lt;xref:System.Guid&gt; that identifies the provider.</source>
+          <target state="translated">Uma cadeia exclusiva &lt;xref:System.Guid&gt;que identifica o fornecedor.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Name of the listener.</source>
+          <target state="translated">Nome do serviço de escuta.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class using the specified provider identifier, name of the listener, and delimiter.</source>
+          <target state="translated">Inicializa uma nova instância do <bpt id="p1">&lt;xref href="System.Diagnostics.Eventing.EventProviderTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> utilizando o identificador de fornecedor especificado, o nome do serviço de escuta e o delimitador de classe.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A unique string &lt;xref:System.Guid&gt; that identifies the provider.</source>
+          <target state="translated">Uma cadeia exclusiva &lt;xref:System.Guid&gt;que identifica o fornecedor.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Name of the listener.</source>
+          <target state="translated">Nome do serviço de escuta.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Delimiter used to delimit the event data.</source>
+          <target state="translated">Delimitador utilizado para delimitar os dados do evento.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>(For more details, see the &lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter*&gt; property.)</source>
+          <target state="translated">(Para obter mais detalhes, consulte o &lt;xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter*&gt;propriedade.)&lt;/xref:System.Diagnostics.Eventing.EventProviderTraceListener.Delimiter*&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Closes the output stream so it no longer receives tracing or debugging output.</source>
+          <target state="translated">Fecha o fluxo de saída para deixará de receber saída de rastreio ou depuração.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets and sets the delimiter used to delimit the event data that is written to the ETW subsystem.</source>
+          <target state="translated">Obtém e define o delimitador utilizado para delimitar os dados do evento que foi escritos para o subsistema ETW.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The listener converts the data elements to strings and then concatenates the strings together, using the specified delimiter to delimit each data element in the string.</source>
+          <target state="translated">O serviço de escuta converte os elementos de dados de cadeias e, em seguida, concatena as cadeias em conjunto, utilizando o delimitador especificado para delimitar cada elemento de dados na cadeia.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The string is then written as the event data in the ETW subsystem.</source>
+          <target state="translated">A cadeia é escrita em seguida, como os dados do evento no subsistema ETW.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To successfully parse the string, the consumer must know the delimiter that was used.</source>
+          <target state="translated">Para analisar com êxito a cadeia, o consumidor tem de saber o delimitador de que foi utilizado.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data contains a string that may contain a comma, specify an appropriate delimiter, so that the event data can be correctly parsed.</source>
+          <target state="translated">Se os dados contêm uma cadeia que pode conter uma vírgula, especifique um delimitador adequado, para que os dados do evento podem ser analisados corretamente.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need a manifest to consume events from the listener because the event data is a single string.</source>
+          <target state="translated">Não é necessário um manifesto para consumir eventos a partir do serviço de escuta porque os dados do evento são uma cadeia única.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The delimiter applies to event data written using the &lt;xref:System.Diagnostics.TraceSource.TraceData%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">O delimitador aplica-se aos dados de evento escritos utilizando o &lt;xref:System.Diagnostics.TraceSource.TraceData%2A?displayProperty=fullName&gt;método.&lt;/xref:System.Diagnostics.TraceSource.TraceData%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The delimiter used to delimit the event data.</source>
+          <target state="translated">O delimitador utilizado para delimitar os dados do evento.</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The default delimiter is a comma.</source>
+          <target state="translated">O delimitador de predefinido é uma vírgula.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Emits an error message and a detailed error message to the listener you create when you implement the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Emite um erro de mensagem e uma mensagem de erro detalhadas para o serviço de escuta criar quando implementa o <bpt id="p1">&lt;xref href="System.Diagnostics.TraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> classe.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A message to emit.</source>
+          <target state="translated">Uma mensagem de emissão.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>A detailed message to emit.</source>
+          <target state="translated">Uma mensagem detalhada para emitir.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Flushes the output buffer.</source>
+          <target state="translated">Esvaziamentos da memória intermédia de saída.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Gets the custom attributes supported by the trace listener.</source>
+          <target state="translated">Obtém os atributos personalizados suportados pelo serviço de escuta de rastreio.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>A string array naming the custom attributes supported by the trace listener, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if there are no custom attributes.</source>
+          <target state="translated">Uma matriz de cadeia, atribuição de nomes de atributos personalizados suportados pelo serviço de escuta de rastreio, ou <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> se existem não existem atributos personalizados.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether the trace listener is thread safe.</source>
+          <target state="translated">Obtém um valor que indica se o serviço de escuta de rastreio é thread seguro.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the trace listener is thread safe; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se o serviço de escuta de rastreio é threads; caso contrário, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A predefinição é <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a data object and event information to the listener specific output.</source>
+          <target state="translated">Escreve rastreio informações, uma informações de objeto e eventos de dados para a saída específico do serviço de escuta.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> processar o ID de objeto que contém o atual, ID de thread e informações de rastreio da pilha.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Um nome utilizado para identificar o resultado, normalmente, o nome da aplicação que gerou o evento de rastreio.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores especificar o tipo de evento que provocou o rastreio.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">Um identificador numérico para o evento.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The trace data to emit.</source>
+          <target state="translated">Os dados de rastreio para emitir.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a data object and event information to the listener specific output.</source>
+          <target state="translated">Escreve rastreio informações, uma informações de objeto e eventos de dados para a saída específico do serviço de escuta.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> processar o ID de objeto que contém o atual, ID de thread e informações de rastreio da pilha.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Um nome utilizado para identificar o resultado, normalmente, o nome da aplicação que gerou o evento de rastreio.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores especificar o tipo de evento que provocou o rastreio.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">Um identificador numérico para o evento.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>An array of objects to emit as data.</source>
+          <target state="translated">Uma matriz de objetos para emitir como dados.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Writes trace and event information to the listener specific output.</source>
+          <target state="translated">Escreve informações de rastreio e de eventos para a saída específico do serviço de escuta.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> processar o ID de objeto que contém o atual, ID de thread e informações de rastreio da pilha.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Um nome utilizado para identificar o resultado, normalmente, o nome da aplicação que gerou o evento de rastreio.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores especificar o tipo de evento que provocou o rastreio.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">Um identificador numérico para o evento.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a message, and event information to the listener specific output.</source>
+          <target state="translated">Informações, uma mensagem e informações de evento para a saída específico do serviço de escuta de rastreio escritas.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> processar o ID de objeto que contém o atual, ID de thread e informações de rastreio da pilha.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Um nome utilizado para identificar o resultado, normalmente, o nome da aplicação que gerou o evento de rastreio.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores especificar o tipo de evento que provocou o rastreio.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">Um identificador numérico para o evento.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">Uma mensagem para escrita.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a formatted array of objects and event information to the listener specific output.</source>
+          <target state="translated">Escritas de rastreio informações, uma matriz de objetos e informações de evento para a saída específico do serviço de escuta formatada.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> processar o ID de objeto que contém o atual, ID de thread e informações de rastreio da pilha.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Um nome utilizado para identificar o resultado, normalmente, o nome da aplicação que gerou o evento de rastreio.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values specifying the type of event that has caused the trace.</source>
+          <target state="translated">Um do <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> valores especificar o tipo de evento que provocou o rastreio.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">Um identificador numérico para o evento.</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>A format string that contains zero or more format items, which correspond to objects in the <ph id="ph1">`args`</ph> array.</source>
+          <target state="translated">Uma cadeia de formato contém zero ou mais itens de formato, que correspondem a objetos no <ph id="ph1">`args`</ph> matriz.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_object" name="object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array containing zero or more objects to format.</source>
+          <target state="translated">Um <bpt id="p1">&lt;xref uid="langword_csharp_object" name="object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> matriz que contenha zero ou mais objetos para formatar.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a message, a related activity identity and event information to the listener specific output.</source>
+          <target state="translated">Escreve informações de rastreio, uma mensagem, uma informações de identidade e de eventos de atividade relacionados para a saída específico do serviço de escuta.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> processar o ID de objeto que contém o atual, ID de thread e informações de rastreio da pilha.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>A name used to identify the output, typically the name of the application that generated the trace event.</source>
+          <target state="translated">Um nome utilizado para identificar o resultado, normalmente, o nome da aplicação que gerou o evento de rastreio.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">Um identificador numérico para o evento.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">Uma mensagem para escrita.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; object identifying a related activity.</source>
+          <target state="translated">A &lt;xref:System.Guid&gt;objeto identificar uma atividade relacionada.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, writes the specified message to the listener you create in the derived class.</source>
+          <target state="translated">Quando substituí-lo de uma classe derivada, escreve a mensagem especificada para o serviço de escuta criar na classe derivada.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">Uma mensagem para escrita.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, writes a message to the listener you create in the derived class, followed by a line terminator.</source>
+          <target state="translated">Quando substituí-lo de uma classe derivada, escreve uma mensagem para o serviço de escuta criar na classe derivada, seguido de um terminador de linha.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">Uma mensagem para escrita.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
