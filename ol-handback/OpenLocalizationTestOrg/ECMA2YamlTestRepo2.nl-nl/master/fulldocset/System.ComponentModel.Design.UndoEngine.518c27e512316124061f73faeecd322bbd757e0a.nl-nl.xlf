@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="nl-nl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">81b05796a739bacecb2b4767c2e09a967faf0c94</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ComponentModel.Design.UndoEngine.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">738d498bf12364af3ce7a38eaee9b4f2c0eadeae</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e645f4fc50a72e0c2ff000e207f782eb1d17c5e2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies generic undo/redo functionality at design time.</source>
+          <target state="translated">Hiermee geeft u functionaliteit voor algemene ongedaan maken opnieuw uitvoeren tijdens de ontwerpfase.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UndoEngine abstract class provides a default implementation of undo functionality at design time.</source>
+          <target state="translated">De abstracte klasse UndoEngine biedt een standaardimplementatie van de functionaliteit voor ongedaan maken in de ontwerpfase.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An undo unit represents a single unit of undoable work.</source>
+          <target state="translated">Een opheffingseenheid vertegenwoordigt een enkele ongedaan werkeenheid.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This unit is added to a stack and the user can then walk the stack to undo each action.</source>
+          <target state="translated">Deze eenheid is toegevoegd aan een stack en de gebruiker vervolgens roept de stack om elke actie ongedaan te maken.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Undo units typically are designed to toggle, which means that calling undo twice returns the application to its starting state.</source>
+          <target state="translated">Eenheden voor ongedaan maken zijn doorgaans ontworpen om te schakelen, wat betekent dat aanroepen ongedaan maken retourneert twee keer de toepassing in de eerste staat.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UndoEngine class takes advantage of the following characteristics of objects running within the designer:      -   All interesting objects can be persisted to some format by the designer loader.</source>
+          <target state="translated">De klasse UndoEngine wordt gebruikgemaakt van de volgende kenmerken van objecten die worden uitgevoerd in de ontwerpfunctie: - alle interessante objecten naar een indeling kan worden gehandhaafd door de lader van de ontwerpfunctie.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   All objects raise property-change notifications when a property is changed.</source>
+          <target state="translated">-Alle objecten genereren eigenschap wijzigingsmeldingen wanneer een eigenschap wordt gewijzigd.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   &lt;xref:System.ComponentModel.Design.IDesignerHost&gt; offers the idea of transactions, which can be used to fabricate an undo action that spans multiple smaller actions.</source>
+          <target state="translated">- &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;biedt het idee van transacties die kunnen worden gebruikt voor het produceren van een actie ongedaan maken die meerdere kleinere acties omvat.&lt;/xref:System.ComponentModel.Design.IDesignerHost&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With these features, UndoEngine can fabricate any undo units it needs automatically.</source>
+          <target state="translated">Met deze functies kunt UndoEngine eventuele automatisch moet ongedaan produceren.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Do not change property values directly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Eigenschapswaarden niet rechtstreeks wijzigen.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The UndoEngine class requires you to use the appropriate &lt;xref:System.ComponentModel.TypeDescriptor&gt; to change property values.</source>
+          <target state="translated">De klasse UndoEngine moet u de juiste &lt;xref:System.ComponentModel.TypeDescriptor&gt;om eigenschapswaarden wijzigen.&lt;/xref:System.ComponentModel.TypeDescriptor&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>UndoEngine monitors for change notifications to create undo units, and the units themselves consist of serialized object states.</source>
+          <target state="translated">UndoEngine monitoren voor wijzigingsmeldingen maken ongedaan maken van eenheden en de eenheden zelf van geserialiseerd object statussen bestaan.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the services that must be available when UndoEngine is created.</source>
+          <target state="translated">De volgende tabel ziet de services die beschikbaar zijn moeten wanneer UndoEngine wordt gemaakt.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Service|Description|   |-------------|-----------------|   |&lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;|Saves property and object values for a component before and after a change is made.|   |&lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;|Notifies the undo engine of changes made to components.|   |&lt;xref:System.ComponentModel.Design.IDesignerHost&gt;|Used to track transactions.|      &gt; <ph id="ph1">[!NOTE]</ph> &gt;  Because the UndoEngine class requires &lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt; and &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;, it is available only at design time.</source>
+          <target state="translated">| Service | Beschrijving |   |-------------|-----------------|   | &lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;| Hiermee slaat u eigenschap en object waarden voor een onderdeel voor en na een wijziging wordt aangebracht. |   | &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;| De engine voor het ongedaan maken van wijzigingen in onderdelen waarschuwt. |   | &lt;xref:System.ComponentModel.Design.IDesignerHost&gt;| Gebruikt voor het bijhouden van transacties. |      &gt; <ph id="ph1">[!NOTE]</ph> &gt; Omdat de klasse UndoEngine vereist &lt;xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;en &lt;xref:System.ComponentModel.Design.IComponentChangeService&gt;, het is beschikbaar in de ontwerpfase.&lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt; &lt;/xref:System.ComponentModel.Design.IDesignerHost&gt; &lt;/xref:System.ComponentModel.Design.IComponentChangeService&gt; &lt;/xref:System.ComponentModel.Design.Serialization.ComponentSerializationService&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The undo engine tracks transactions and creates a single undo unit that encompasses a transaction.</source>
+          <target state="translated">De engine voor het ongedaan maken worden transacties bijgehouden en maakt een eenheid voor één ongedaan maken die een transactie omvat.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>As a result, the undo engine has control over the duration of an undoable action.</source>
+          <target state="translated">Als gevolg hiervan is de engine voor het ongedaan maken controle over de duur van een actie ongedaan maken.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Also, because transactions can be named, undoable actions inherit their names from the current transaction.</source>
+          <target state="translated">Bovendien omdat transacties kunnen worden benoemd, overnemen ongedaan te maken handelingen hun namen van de huidige transactie.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If no transaction is available and a change is reported, the undo engine creates an undo name based on the type of change (for example, "Change property 'Text'").</source>
+          <target state="translated">Als er is geen transactie beschikbaar en een wijziging wordt gerapporteerd, maakt de engine voor het ongedaan maken een naam die op basis van het type wijziging (bijvoorbeeld ' wijziging eigenschap 'Text' ") voor het ongedaan maken.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Initialiseert een nieuw exemplaar van de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasse.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.ComponentModel.Design.UndoEngine&gt; requires several services from the <ph id="ph1">`provider`</ph> parameter to be useful.</source>
+          <target state="translated">De &lt;xref:System.ComponentModel.Design.UndoEngine&gt;vereist verschillende services van de <ph id="ph1">`provider`</ph> parameter nuttig.&lt;/xref:System.ComponentModel.Design.UndoEngine&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A parenting service provider.</source>
+          <target state="translated">Provider van een bovenliggende entiteit.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;provider&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>A required service cannot be found.</source>
+          <target state="translated">Een vereiste service kan niet worden gevonden.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>See <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for required services.</source>
+          <target state="translated">Zie <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> voor de vereiste services.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>If you have removed this service, ensure that you provide a replacement.</source>
+          <target state="translated">Als u deze service hebt verwijderd, zorg ervoor dat u een vervangende bieden.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Creates a new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.</source>
+          <target state="translated">Hiermee maakt u een nieuwe &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default implementation of the CreateUndoUnit method simply returns a new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.</source>
+          <target state="translated">De standaardimplementatie van de methode CreateUndoUnit retourneert gewoon een nieuwe &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;.&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, &lt;xref:System.ComponentModel.Design.UndoEngine&gt; does nothing with the <ph id="ph1">`primary`</ph> parameter, but some implementations of undo, such as those involving the COM <ph id="ph2">`Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit`</ph> design pattern, may need to identify the difference between a primary unit and its children.</source>
+          <target state="translated">Standaard &lt;xref:System.ComponentModel.Design.UndoEngine&gt;, gebeurt er niets met de <ph id="ph1">`primary`</ph> parameter, maar sommige implementaties van ongedaan maken, zoals die met betrekking tot het COM-onderdeel <ph id="ph2">`Microsoft.VisualStudio.OLE.Interop.IOleParentUndoUnit`</ph> ontwerpen patroon, moet het verschil tussen een primaire eenheid en de onderliggende objecten identificeren.&lt;/xref:System.ComponentModel.Design.UndoEngine&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The name of the unit to create.</source>
+          <target state="translated">De naam van de eenheid te maken.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to create the first of a series of nested units; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to create subsequent nested units.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>maken van de eerste dag van een reeks geneste eenheden; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> daaropvolgende geneste eenheden maken.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>A new &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt; with a specified name.</source>
+          <target state="translated">Een nieuwe &lt;xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;met een opgegeven naam.&lt;/xref:System.ComponentModel.Design.UndoEngine.UndoUnit&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Versies van alle resources die worden gebruikt door de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Releases the unmanaged resources used by the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and optionally releases the managed resources.</source>
+          <target state="translated">Heft de niet-beheerde bronnen worden gebruikt door de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> en eventueel de beheerde bronnen vrij.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>voor het vrijgeven van zowel beheerde als onbeheerde hulpbronnen; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> om alleen niet-beheerde bronnen vrij te geven.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Enables or disables the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hiermee schakelt u of de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> is enabled; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als de <bpt id="p2">&lt;xref href="System.ComponentModel.Design.UndoEngine"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> is ingeschakeld, anders, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">De aangevraagde service opgehaald.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">Het type van de service om op te halen.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The requested service, if found.</source>
+          <target state="translated">De aangevraagde service als gevonden.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is required but cannot be found.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is vereist, maar is niet gevonden.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>If you have removed this service, ensure that you provide a replacement.</source>
+          <target state="translated">Als u deze service hebt verwijderd, zorg ervoor dat u een vervangende bieden.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Gets the requested service.</source>
+          <target state="translated">De aangevraagde service opgehaald.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The type of service to retrieve.</source>
+          <target state="translated">Het type van de service om op te halen.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The requested service, or <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the requested service is not found.</source>
+          <target state="translated">De aangevraagde service of <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> als de aangevraagde service is niet gevonden.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;serviceType&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undoing"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Geeft de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undoing"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Een &lt;xref:System.EventArgs&gt;waarin de gebeurtenisgegevens.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Raises the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undone"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> event.</source>
+          <target state="translated">Geeft de <bpt id="p1">&lt;xref href="System.ComponentModel.Design.UndoEngine.Undone"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> gebeurtenis.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.EventArgs&gt; that contains the event data.</source>
+          <target state="translated">Een &lt;xref:System.EventArgs&gt;waarin de gebeurtenisgegevens.&lt;/xref:System.EventArgs&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Occurs immediately before an undo action is performed.</source>
+          <target state="translated">Deze gebeurtenis treedt op vlak voordat een actie ongedaan maken is uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Indicates if an undo action is in progress.</source>
+          <target state="translated">Hiermee wordt aangegeven of een actie ongedaan maken uitgevoerd wordt.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if an undo action is in progress; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Als een actie ongedaan maken voltooid is. anders <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Occurs immediately after an undo action is performed.</source>
+          <target state="translated">Deze gebeurtenis treedt op zodra een actie ongedaan maken is uitgevoerd.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Undone event is always raised, even if an exception is thrown.</source>
+          <target state="translated">De gebeurtenis ongedaan wordt altijd gestart, zelfs als er een uitzondering gegenereerd.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Moet worden toegevoegd.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

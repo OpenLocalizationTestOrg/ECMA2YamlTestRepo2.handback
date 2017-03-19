@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ca694fa893704040c1750b3af4a5b75a4d11345</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Threading.ThreadPool.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">02c04115738a06d9536a575b07c7fa6aa28c5077</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">104685958ab9f148f376ded976c4acf120b8d949</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a pool of threads that can be used to execute tasks, post work items, process asynchronous I/O, wait on behalf of other threads, and process timers.</source>
+          <target state="translated">提供執行緒集區，可用來執行工作、 張貼工作項目、 處理非同步 I/O、 代表其他執行緒等候，以及處理計時器。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>Many applications create threads that spend a great deal of time in the sleeping state, waiting for an event to occur.</source>
+          <target state="translated">許多應用程式建立大部分的時間在睡眠狀態，等候事件發生的執行緒。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Other threads might enter a sleeping state only to be awakened periodically to poll for a change or update status information.</source>
+          <target state="translated">其他執行緒可能會進入休眠狀態，才能定期喚醒輪詢變更或更新狀態資訊。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The thread pool enables you to use threads more efficiently by providing your application with a pool of worker threads that are managed by the system.</source>
+          <target state="translated">執行緒集區可讓您藉由提供您的系統所管理的背景工作執行緒集區的應用程式更有效率地使用執行緒。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Examples of operations that use thread pool threads include the following:      -   When you create a &lt;xref:System.Threading.Tasks.Task&gt; or &lt;xref:System.Threading.Tasks.Task%601&gt; object to perform some task asynchronously, by default the task is scheduled to run on a thread pool thread.</source>
+          <target state="translated">使用執行緒集區執行緒的作業的範例包括下列:-當您建立&lt;xref:System.Threading.Tasks.Task&gt;或&lt;xref:System.Threading.Tasks.Task%601&gt;執行緒集區執行緒上執行排定工作預設以非同步方式執行某些工作的物件。&lt;/xref:System.Threading.Tasks.Task%601&gt; &lt;/xref:System.Threading.Tasks.Task&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>-   Asynchronous timers use the thread pool.</source>
+          <target state="translated">非同步計時器會使用執行緒集區。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Thread pool threads execute callbacks from the &lt;xref:System.Threading.Timer?displayProperty=fullName&gt; class and raise events from the &lt;xref:System.Timers.Timer?displayProperty=fullName&gt; class.</source>
+          <target state="translated">執行緒集區執行緒執行回呼&lt;xref:System.Threading.Timer?displayProperty=fullName&gt;類別，並且引發的事件&lt;xref:System.Timers.Timer?displayProperty=fullName&gt;類別。&lt;/xref:System.Timers.Timer?displayProperty=fullName&gt; &lt;/xref:System.Threading.Timer?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>-   When you use registered wait handles, a system thread monitors the status of the wait handles.</source>
+          <target state="translated">-當您使用已註冊之等候控制代碼時，系統執行緒會監視的狀態，等候控制代碼。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>When a wait operation completes, a worker thread from the thread pool executes the corresponding callback function.</source>
+          <target state="translated">等候作業完成時，執行緒集區的背景工作執行緒會執行對應的回呼函式。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>-   When you call the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; method to queue a method for execution on a thread pool thread.</source>
+          <target state="translated">-當您呼叫&lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;加入佇列的方法，以便在執行緒集區執行緒上執行的方法。&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>You do this by passing the method a &lt;xref:System.Threading.WaitCallback&gt; delegate.</source>
+          <target state="translated">您可以傳遞方法&lt;xref:System.Threading.WaitCallback&gt;委派。&lt;/xref:System.Threading.WaitCallback&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The delegate has the signature      <bpt id="p1">&lt;CodeContentPlaceHolder&gt;</bpt>0<ept id="p1">&lt;/CodeContentPlaceHolder&gt;</ept>   <bpt id="p2">&lt;CodeContentPlaceHolder&gt;</bpt>1<ept id="p2">&lt;/CodeContentPlaceHolder&gt;</ept>        where <ph id="ph1">`state`</ph> is an object that contains data to be used by the delegate.</source>
+          <target state="translated">委派的簽章<bpt id="p1">&lt;CodeContentPlaceHolder&gt;</bpt>0<ept id="p1">&lt;/CodeContentPlaceHolder&gt;</ept><bpt id="p2">&lt;CodeContentPlaceHolder&gt;</bpt>1<ept id="p2">&lt;/CodeContentPlaceHolder&gt;</ept>其中<ph id="ph1">`state`</ph>是物件，包含要由委派所使用的資料。   </target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The actual data can be passed to the delegate by calling the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt; method.</source>
+          <target state="translated">實際的資料可以傳遞給委派，藉由呼叫&lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt;方法。&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The threads in the managed thread pool are background threads.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 中的 managed 的執行緒集區執行緒為背景執行緒。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>That is, their &lt;xref:System.Threading.Thread.IsBackground%2A&gt; properties are <ph id="ph1">`true`</ph>.</source>
+          <target state="translated">也就是說，其&lt;xref:System.Threading.Thread.IsBackground%2A&gt;屬性<ph id="ph1">`true`</ph>。&lt;/xref:System.Threading.Thread.IsBackground%2A&gt;</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>This means that a ThreadPool thread will not keep an application running after all foreground threads have exited.</source>
+          <target state="translated">這表示執行緒集區中的執行緒不會保留所有前景執行緒都結束後執行的應用程式。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  When the thread pool reuses a thread, it does not clear the data in thread local storage or in fields that are marked with the &lt;xref:System.ThreadStaticAttribute&gt; attribute.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 當執行緒集區重複使用的執行緒時，它不會清除執行緒區域儲存區中，或標示的欄位中的資料&lt;xref:System.ThreadStaticAttribute&gt;屬性。&lt;/xref:System.ThreadStaticAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Therefore, when a method examines thread local storage or fields that are marked with the &lt;xref:System.ThreadStaticAttribute&gt; attribute, the values it finds might be left over from an earlier use of the thread pool thread.</source>
+          <target state="translated">因此，當方法會檢查執行緒區域儲存區或欄位，會標記為&lt;xref:System.ThreadStaticAttribute&gt;屬性，它找到的值可能會留下的執行緒集區執行緒的先前使用。&lt;/xref:System.ThreadStaticAttribute&gt;</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>You can also queue work items that are not related to a wait operation to the thread pool.</source>
+          <target state="translated">您也可以將與等候作業的執行緒集區不相關的工作項目佇列。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To request that a work item be handled by a thread in the thread pool, call the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; method.</source>
+          <target state="translated">若要要求在執行緒集區的執行緒所處理的工作項目，呼叫&lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;方法。&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>This method takes as a parameter a reference to the method or delegate that will be called by the thread selected from the thread pool.</source>
+          <target state="translated">這個方法會將參數當成方法或委派，會選取從執行緒集區的執行緒所呼叫的參考。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>There is no way to cancel a work item after it has been queued.</source>
+          <target state="translated">沒有任何取消的工作項目已加入佇列的方法。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Timer-queue timers and registered wait operations also use the thread pool.</source>
+          <target state="translated">計時器佇列中的計時器和已註冊之等候作業也會使用執行緒集區。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Their callback functions are queued to the thread pool.</source>
+          <target state="translated">在執行緒集區佇列及其回呼函式。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>There is one thread pool per process.</source>
+          <target state="translated">沒有一個執行緒集區，每個處理序。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Beginning with the <ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>, the default size of the thread pool for a process depends on several factors, such as the size of the virtual address space.</source>
+          <target state="translated">開頭為<ph id="ph1">[!INCLUDE[net_v40_long](~/add/includes/net-v40-long-md.md)]</ph>，處理程序的執行緒集區的預設大小取決於許多因素，例如虛擬位址空間的大小。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>A process can call the &lt;xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt; method to determine the number of threads.</source>
+          <target state="translated">處理程序可以呼叫&lt;xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt;方法，以判斷執行緒數目。&lt;/xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The number of threads in the thread pool can be changed by using the &lt;xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt; method.</source>
+          <target state="translated">執行緒集區中的執行緒數目可以透過變更&lt;xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt;方法。&lt;/xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Each thread uses the default stack size and runs at the default priority.</source>
+          <target state="translated">每個執行緒使用的預設堆疊大小，並執行預設的優先權。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Unmanaged code that hosts the .NET Framework can change the size of the thread pool by using the <ph id="ph2">`CorSetMaxThreads`</ph> function, defined in the mscoree.h file.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 裝載.NET Framework 的 unmanaged 程式碼可以使用變更的執行緒集區大小<ph id="ph2">`CorSetMaxThreads`</ph>函式，mscoree.h 檔案中定義。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The thread pool provides new worker threads or I/O completion threads on demand until it reaches the minimum for each category.</source>
+          <target state="translated">執行緒集區視需要提供新的背景工作執行緒或 I/O 完成執行緒直到達到每個類別目錄的最小值。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>When a minimum is reached, the thread pool can create additional threads in that category or wait until some tasks complete.</source>
+          <target state="translated">當達到最小值時，執行緒集區可以在該分類建立額外的執行緒，或等候部分工作完成。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Beginning with the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the thread pool creates and destroys worker threads in order to optimize throughput, which is defined as the number of tasks that complete per unit of time.</source>
+          <target state="translated">開頭為<ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>，執行緒集區會建立並終結背景工作執行緒，以便最佳化輸送量，輸送量的定義為每個時間單位完成的工作數目。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Too few threads might not make optimal use of available resources, whereas too many threads could increase resource contention.</source>
+          <target state="translated">執行緒太少可能不會進行最有效地利用可用資源，而執行緒太多可能增加資源爭用的情況。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When demand is low, the actual number of thread pool threads can fall below the minimum values.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 較低需求時，執行緒集區執行緒的實際數目可能低於最小值。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Threading.ThreadPool.GetMinThreads%2A&gt; method to obtain these minimum values.</source>
+          <target state="translated">您可以使用&lt;xref:System.Threading.ThreadPool.GetMinThreads%2A&gt;方法，以取得這些最小值。&lt;/xref:System.Threading.ThreadPool.GetMinThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  You can use the &lt;xref:System.Threading.ThreadPool.SetMinThreads%2A&gt; method to increase the minimum number of threads.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 您可以使用&lt;xref:System.Threading.ThreadPool.SetMinThreads%2A&gt;方法，以增加的執行緒數目下限。&lt;/xref:System.Threading.ThreadPool.SetMinThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>However, unnecessarily increasing these values can cause performance problems.</source>
+          <target state="translated">不過，不必要地增加這些值可能會造成效能問題。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>If too many tasks start at the same time, all of them might appear to be slow.</source>
+          <target state="translated">如果太多的工作會啟動一次，所有工作可能都會變慢。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>In most cases the thread pool will perform better with its own algorithm for allocating threads.</source>
+          <target state="translated">在大部分情況下執行緒集區會執行更好使用它自己的演算法來配置執行緒。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Binds an operating system handle to the <bpt id="p1">&lt;xref href="System.Threading.ThreadPool"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">將繫結到的作業系統控制代碼<bpt id="p1">&lt;xref href="System.Threading.ThreadPool"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; that holds the handle.</source>
+          <target state="translated">&lt;xref:System.IntPtr&gt;，持有控制代碼。&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The handle must have been opened for overlapped I/O on the unmanaged side.</source>
+          <target state="translated">控制代碼必須已經對 unmanaged 側的重疊 I/O 開啟。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the handle is bound; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果控制代碼已繫結。，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">呼叫端沒有必要的權限。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Binds an operating system handle to the <bpt id="p1">&lt;xref href="System.Threading.ThreadPool"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">將繫結到的作業系統控制代碼<bpt id="p1">&lt;xref href="System.Threading.ThreadPool"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`osHandle`</ph> parameter should be a &lt;xref:Microsoft.Win32.SafeHandles.SafeFileHandle&gt;, which derives from the abstract &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; class.</source>
+          <target state="translated"><ph id="ph1">`osHandle`</ph>參數應該是的&lt;xref:Microsoft.Win32.SafeHandles.SafeFileHandle&gt;，而後者衍生自抽象&lt;xref:System.Runtime.InteropServices.SafeHandle&gt;類別。&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt; &lt;/xref:Microsoft.Win32.SafeHandles.SafeFileHandle&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; that holds the operating system handle.</source>
+          <target state="translated">A &lt;xref:System.Runtime.InteropServices.SafeHandle&gt;，持有作業系統控制代碼。&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The handle must have been opened for overlapped I/O on the unmanaged side.</source>
+          <target state="translated">控制代碼必須已經對 unmanaged 側的重疊 I/O 開啟。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the handle is bound; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果控制代碼已繫結。，否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;osHandle&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;osHandle&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Retrieves the difference between the maximum number of thread pool threads returned by the &lt;xref:System.Threading.ThreadPool.GetMaxThreads*&gt; method, and the number currently active.</source>
+          <target state="translated">擷取所傳回的執行緒集區執行緒的數目上限之間的差異&lt;xref:System.Threading.ThreadPool.GetMaxThreads*&gt;方法，以及目前作用中數字。&lt;/xref:System.Threading.ThreadPool.GetMaxThreads*&gt;</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>When GetAvailableThreads returns, the variable specified by <ph id="ph1">`workerThreads`</ph> contains the number of additional worker threads that can be started, and the variable specified by <ph id="ph2">`completionPortThreads`</ph> contains the number of additional asynchronous I/O threads that can be started.</source>
+          <target state="translated">GetAvailableThreads 傳回時，所指定的變數<ph id="ph1">`workerThreads`</ph>包含額外的背景工作執行緒，可以啟動，且指定的變數<ph id="ph2">`completionPortThreads`</ph>包含可啟動的其他非同步 I/O 執行緒數目。</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>If there are no available threads, additional thread pool requests remain queued until thread pool threads become available.</source>
+          <target state="translated">如果沒有可用的執行緒，其他的執行緒集區要求繼續佇列，直到可以使用執行緒集區執行緒為止。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The number of available worker threads.</source>
+          <target state="translated">可用的工作者執行緒數目。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The number of available asynchronous I/O threads.</source>
+          <target state="translated">可用非同步 I/O 執行緒數目。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>Retrieves the number of requests to the thread pool that can be active concurrently.</source>
+          <target state="translated">擷取可並行使用之執行緒集區的要求數目。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>All requests above that number remain queued until thread pool threads become available.</source>
+          <target state="translated">超過該數目的所有要求會都繼續佇列，直到可以使用執行緒集區執行緒為止。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>When GetMaxThreads returns, the variable specified by <ph id="ph1">`workerThreads`</ph> contains the maximum number of worker threads allowed in the thread pool, and the variable specified by <ph id="ph2">`completionPortThreads`</ph> contains the maximum number of asynchronous I/O threads allowed in the thread pool.</source>
+          <target state="translated">GetMaxThreads 傳回時，所指定的變數<ph id="ph1">`workerThreads`</ph>包含背景工作執行緒集區中允許的執行緒和變數所指定的最大數目<ph id="ph2">`completionPortThreads`</ph>包含執行緒集區中允許的非同步 I/O 執行緒最大數目。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Threading.ThreadPool.GetAvailableThreads%2A&gt; method to determine the actual number of threads in the thread pool at any given time.</source>
+          <target state="translated">您可以使用&lt;xref:System.Threading.ThreadPool.GetAvailableThreads%2A&gt;方法，以判斷在任何指定時間的執行緒集區執行緒的實際數目。&lt;/xref:System.Threading.ThreadPool.GetAvailableThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>You can use the &lt;xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt; to set the maximum number of worker threads and asynchronous I/O threads in the thread pool.</source>
+          <target state="translated">您可以使用&lt;xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt;在執行緒集區中設定的工作者執行緒和非同步 I/O 執行緒數目上限。&lt;/xref:System.Threading.ThreadPool.SetMaxThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>You can queue as many thread pool requests as system memory allows.</source>
+          <target state="translated">您可以將佇列無數個執行緒集區要求可讓系統記憶體。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>If there are more requests than thread pool threads, the additional requests remain queued until thread pool threads become available.</source>
+          <target state="translated">如果沒有更多超過執行緒集區執行緒的要求，其他要求會繼續佇列，直到可以使用執行緒集區執行緒為止。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The maximum number of worker threads in the thread pool.</source>
+          <target state="translated">執行緒集區中的背景工作執行緒的數目上限。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>The maximum number of asynchronous I/O threads in the thread pool.</source>
+          <target state="translated">執行緒集區中的非同步 I/O 執行緒的數目上限。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Retrieves the minimum number of threads the thread pool creates on demand, as new requests are made, before switching to an algorithm for managing thread creation and destruction.</source>
+          <target state="translated">隨著提出新要求，切換至管理執行緒建立和解構的演算法之前，請擷取執行緒集區視需要建立的執行緒的最小數目。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>The thread pool provides new worker threads or I/O completion threads on demand until it reaches the minimum for each category.</source>
+          <target state="translated">執行緒集區視需要提供新的背景工作執行緒或 I/O 完成執行緒直到達到每個類別目錄的最小值。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>By default, the minimum number of threads is set to the number of processors on a system.</source>
+          <target state="translated">根據預設，執行緒的最小數目設定為在系統上的處理器數目。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>When the minimum is reached, the thread pool can create additional threads in that category or wait until some tasks complete.</source>
+          <target state="translated">當達到最小值時，執行緒集區可以在該分類建立額外的執行緒，或等候部分工作完成。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>Beginning with the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the thread pool creates and destroys threads in order to optimize throughput, which is defined as the number of tasks that complete per unit of time.</source>
+          <target state="translated">開頭為<ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>，執行緒集區會建立並終結執行緒，以便最佳化輸送量，輸送量的定義為每個時間單位完成的工作數目。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Too few threads might not make optimal use of available resources, whereas too many threads could increase resource contention.</source>
+          <target state="translated">執行緒太少可能不會進行最有效地利用可用資源，而執行緒太多可能增加資源爭用的情況。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  When demand is low, the actual number of thread pool threads can fall below the minimum values.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 較低需求時，執行緒集區執行緒的實際數目可能低於最小值。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the minimum number of worker threads that the thread pool creates on demand.</source>
+          <target state="translated">這個方法傳回時，包含執行緒集區視需要建立的背景工作執行緒最小數目。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>When this method returns, contains the minimum number of asynchronous I/O threads that the thread pool creates on demand.</source>
+          <target state="translated">這個方法傳回時，包含執行緒集區視需要建立的非同步 I/O 執行緒最小數目。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Queues a method for execution.</source>
+          <target state="translated">排入佇列執行的方法。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The method executes when a thread pool thread becomes available.</source>
+          <target state="translated">使用執行緒集區執行緒時，就會執行這個方法。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>You can place data required by the queued method in the instance fields of the class in which the method is defined, or you can use the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt; overload that accepts an object containing the necessary data.</source>
+          <target state="translated">您可以放置在類別定義方法，或者您可以使用的執行個體欄位中排入佇列的方法所需的資料&lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt;多載會接受物件，其中包含必要的資料。&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%28System.Threading.WaitCallback%2CSystem.Object%29&gt;</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Visual Basic users can omit the &lt;xref:System.Threading.WaitCallback&gt; constructor, and simply use the <ph id="ph2">`AddressOf`</ph> operator when passing the callback method to &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 可以省略 Visual Basic 使用者&lt;xref:System.Threading.WaitCallback&gt;建構函式，並只是使用<ph id="ph2">`AddressOf`</ph>運算子，將回呼方法傳遞至&lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;。&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; &lt;/xref:System.Threading.WaitCallback&gt;</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>Visual Basic automatically calls the correct delegate constructor.</source>
+          <target state="translated">Visual Basic 會自動呼叫正確的委派建構函式。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Version Information    In the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; method.</source>
+          <target state="translated">版本資訊中的.NET Framework 2.0 版中，&lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;屬性值會傳播至背景工作執行緒排入佇列使用&lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;方法。&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">在舊版中，主體的資訊不會傳播。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the method to be executed.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>表示要執行的方法。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the method is successfully queued; &lt;xref:System.NotSupportedException&gt; is thrown if the work item could not be queued.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果方法成功排入佇列。&lt;xref:System.NotSupportedException&gt;無法佇列工作項目便會擲回。&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The common language runtime (CLR) is hosted, and the host does not support this action.</source>
+          <target state="translated">裝載 common language runtime (CLR)，與主機不支援此動作。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Queues a method for execution, and specifies an object containing data to be used by the method.</source>
+          <target state="translated">對於執行，方法排入佇列，並指定物件，其中包含要方法所使用的資料。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The method executes when a thread pool thread becomes available.</source>
+          <target state="translated">使用執行緒集區執行緒時，就會執行這個方法。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>If the callback method requires complex data, you can define a class to contain the data.</source>
+          <target state="translated">如果回呼方法需要複雜的資料，您可以定義要包含資料的類別。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Visual Basic users can omit the &lt;xref:System.Threading.WaitCallback&gt; constructor, and simply use the <ph id="ph2">`AddressOf`</ph> operator when passing the callback method to QueueUserWorkItem.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 可以省略 Visual Basic 使用者&lt;xref:System.Threading.WaitCallback&gt;建構函式，並只是使用<ph id="ph2">`AddressOf`</ph>運算子，將回呼方法傳遞至 QueueUserWorkItem。&lt;/xref:System.Threading.WaitCallback&gt;</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Visual Basic automatically calls the correct delegate constructor.</source>
+          <target state="translated">Visual Basic 會自動呼叫正確的委派建構函式。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Version Information    In the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; method.</source>
+          <target state="translated">版本資訊中的.NET Framework 2.0 版中，&lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;屬性值會傳播至背景工作執行緒排入佇列使用&lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;方法。&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">在舊版中，主體的資訊不會傳播。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the method to execute.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代表要執行的方法。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>An object containing data to be used by the method.</source>
+          <target state="translated">物件，包含要方法所使用的資料。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the method is successfully queued; &lt;xref:System.NotSupportedException&gt; is thrown if the work item could not be queued.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果方法成功排入佇列。&lt;xref:System.NotSupportedException&gt;無法佇列工作項目便會擲回。&lt;/xref:System.NotSupportedException&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The common language runtime (CLR) is hosted, and the host does not support this action.</source>
+          <target state="translated">裝載 common language runtime (CLR)，與主機不支援此動作。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a 32-bit signed integer for the time-out in milliseconds.</source>
+          <target state="translated">註冊要等候的委派&lt;xref:System.Threading.WaitHandle&gt;，以毫秒為單位指定逾時值的 32 位元帶正負號的整數。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">完畢時使用&lt;xref:System.Threading.RegisteredWaitHandle&gt;這個方法傳回時，請呼叫其&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，以釋放等候控制代碼的參考。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">我們建議一律呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，即使您指定<ph id="ph1">`true`</ph>如<ph id="ph2">`executeOnlyOnce`</ph>。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">記憶體回收會更有效率地如果您呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，而非根據 已註冊之等候控制代碼的完成項。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>The RegisterWaitForSingleObject method queues the specified delegate to the thread pool.</source>
+          <target state="translated">RegisterWaitForSingleObject 方法排入佇列的執行緒集區指定的委派。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A worker thread will execute the delegate when one of the following occurs:      -   The specified object is in the signaled state.</source>
+          <target state="translated">下列其中之一發生時，背景工作執行緒將會執行委派:-指定的物件處於信號狀態。</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>-   The time-out interval elapses.</source>
+          <target state="translated">-逾時間隔經過的。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The RegisterWaitForSingleObject method checks the current state of the specified object's &lt;xref:System.Threading.WaitHandle&gt;.</source>
+          <target state="translated">RegisterWaitForSingleObject 方法會檢查指定之物件的&lt;xref:System.Threading.WaitHandle&gt;.&lt;/xref:System.Threading.WaitHandle&gt;的目前狀態</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>If the object's state is unsignaled, the method registers a wait operation.</source>
+          <target state="translated">如果未發出信號，物件狀態，方法會註冊等候作業。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The wait operation is performed by a thread from the thread pool.</source>
+          <target state="translated">等候作業是由執行緒集區的執行緒執行。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>The delegate is executed by a worker thread when the object's state becomes signaled or the time-out interval elapses.</source>
+          <target state="translated">委派是物件的狀態變成發出信號，或超過逾時間隔時，工作者執行緒所執行。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`timeOutInterval`</ph> parameter is not 0 (zero) and the <ph id="ph2">`executeOnlyOnce`</ph> parameter is <ph id="ph3">`false`</ph>, the timer is reset every time the event is signaled or the time-out interval elapses.</source>
+          <target state="translated">如果<ph id="ph1">`timeOutInterval`</ph>參數不是 0 （零） 和<ph id="ph2">`executeOnlyOnce`</ph>參數是<ph id="ph3">`false`</ph>，每次事件發出信號，或超過逾時間隔會重設的計時器。</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph2">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 使用&lt;xref:System.Threading.Mutex&gt;如<ph id="ph2">`waitObject`</ph>不提供互斥回呼，因為基礎的 Win32 API 會使用預設<ph id="ph3">`WT_EXECUTEDEFAULT`</ph>旗標，因此每個回呼會在個別的執行緒集區執行緒上分派。&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Instead of a &lt;xref:System.Threading.Mutex&gt;, use a &lt;xref:System.Threading.Semaphore&gt; with a maximum count of 1.</source>
+          <target state="translated">而不是&lt;xref:System.Threading.Mutex&gt;，使用&lt;xref:System.Threading.Semaphore&gt;最大計數為 1。&lt;/xref:System.Threading.Semaphore&gt; &lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>To cancel the wait operation, call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">若要取消的等候作業，請呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The wait thread uses the Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> function to monitor registered wait operations.</source>
+          <target state="translated">等候執行緒會使用 Win32<ph id="ph1">`WaitForMultipleObjects`</ph>函式監視已註冊之等候作業。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Therefore, if you must use the same native operating system handle in multiple calls to RegisterWaitForSingleObject, you must duplicate the handle using the Win32 <ph id="ph1">`DuplicateHandle`</ph> function.</source>
+          <target state="translated">因此，如果您必須使用相同的原生作業系統控制代碼 registerwaitforsingleobject 的多個呼叫中，您必須重複使用 Win32 控制代碼<ph id="ph1">`DuplicateHandle`</ph>函式。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Note that you should not pulse an event object passed to RegisterWaitForSingleObject, because the wait thread might not detect that the event is signaled before it is reset.</source>
+          <target state="translated">請注意，您應該不轉盤式事件物件傳遞至 RegisterWaitForSingleObject，因為等候執行緒可能會偵測事件發出信號之前會重設。</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Before returning, the function modifies the state of some types of synchronization objects.</source>
+          <target state="translated">在傳回之前函式會修改某些類型的同步處理物件的狀態。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Modification occurs only for the object whose signaled state caused the wait condition to be satisfied.</source>
+          <target state="translated">只針對其信號的狀態造成要滿足等候條件的物件進行修改。</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>For example, the count of a semaphore is decreased by one.</source>
+          <target state="translated">例如，一個號誌計數就會減少一個。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>Version Information    Starting with the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method.</source>
+          <target state="translated">以.NET Framework 2.0 版中，開始的版本資訊&lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;屬性值會傳播至背景工作執行緒排入佇列使用&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;方法。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">在舊版中，主體的資訊不會傳播。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">&lt;xref:System.Threading.WaitHandle&gt;註冊。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Threading.WaitHandle&gt;非&lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>時要呼叫的委派<ph id="ph1">`waitObject`</ph>參數會收到信號。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate.</source>
+          <target state="translated">物件，傳遞給委派。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">以毫秒為單位的逾時。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>參數為 0 （零），函式會測試物件的狀態，並立即傳回。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>為-1，永遠不會超過函式的逾時間隔。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示執行緒將不再等候<ph id="ph1">`waitObject`</ph>參數之後被呼叫的委派。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示每當等候作業完成之前等候已取消註冊計時器都會重設。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that encapsulates the native handle.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>封裝原生控制代碼。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">millisecondsTimeOutInterval</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">millisecondsTimeOutInterval</ph> <ept id="p1">&lt;/code&gt;</ept>參數為小於-1。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a 64-bit signed integer for the time-out in milliseconds.</source>
+          <target state="translated">註冊要等候的委派&lt;xref:System.Threading.WaitHandle&gt;，以毫秒為單位指定逾時值的 64 位元帶正負號的整數。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">完畢時使用&lt;xref:System.Threading.RegisteredWaitHandle&gt;這個方法傳回時，請呼叫其&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，以釋放等候控制代碼的參考。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">我們建議一律呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，即使您指定<ph id="ph1">`true`</ph>如<ph id="ph2">`executeOnlyOnce`</ph>。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">記憶體回收會更有效率地如果您呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，而非根據 已註冊之等候控制代碼的完成項。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The RegisterWaitForSingleObject method queues the specified delegate to the thread pool.</source>
+          <target state="translated">RegisterWaitForSingleObject 方法排入佇列的執行緒集區指定的委派。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>A worker thread will execute the delegate when one of the following occurs:      -   The specified object is in the signaled state.</source>
+          <target state="translated">下列其中之一發生時，背景工作執行緒將會執行委派:-指定的物件處於信號狀態。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>-   The time-out interval elapses.</source>
+          <target state="translated">-逾時間隔經過的。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The RegisterWaitForSingleObject method checks the current state of the specified object's &lt;xref:System.Threading.WaitHandle&gt;.</source>
+          <target state="translated">RegisterWaitForSingleObject 方法會檢查指定之物件的&lt;xref:System.Threading.WaitHandle&gt;.&lt;/xref:System.Threading.WaitHandle&gt;的目前狀態</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>If the object's state is unsignaled, the method registers a wait operation.</source>
+          <target state="translated">如果未發出信號，物件狀態，方法會註冊等候作業。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>The wait operation is performed by a thread from the thread pool.</source>
+          <target state="translated">等候作業是由執行緒集區的執行緒執行。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source>The delegate is executed by a worker thread when the object's state becomes signaled or the time-out interval elapses.</source>
+          <target state="translated">委派是物件的狀態變成發出信號，或超過逾時間隔時，工作者執行緒所執行。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`timeOutInterval`</ph> parameter is not 0 (zero) and the <ph id="ph2">`executeOnlyOnce`</ph> parameter is <ph id="ph3">`false`</ph>, the timer is reset every time the event is signaled or the time-out interval elapses.</source>
+          <target state="translated">如果<ph id="ph1">`timeOutInterval`</ph>參數不是 0 （零） 和<ph id="ph2">`executeOnlyOnce`</ph>參數是<ph id="ph3">`false`</ph>，每次事件發出信號，或超過逾時間隔會重設的計時器。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph2">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 使用&lt;xref:System.Threading.Mutex&gt;如<ph id="ph2">`waitObject`</ph>不提供互斥回呼，因為基礎的 Win32 API 會使用預設<ph id="ph3">`WT_EXECUTEDEFAULT`</ph>旗標，因此每個回呼會在個別的執行緒集區執行緒上分派。&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Instead of a &lt;xref:System.Threading.Mutex&gt;, use a &lt;xref:System.Threading.Semaphore&gt; with a maximum count of 1.</source>
+          <target state="translated">而不是&lt;xref:System.Threading.Mutex&gt;，使用&lt;xref:System.Threading.Semaphore&gt;最大計數為 1。&lt;/xref:System.Threading.Semaphore&gt; &lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>To cancel the wait operation, call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">若要取消的等候作業，請呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The wait thread uses the Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> function to monitor registered wait operations.</source>
+          <target state="translated">等候執行緒會使用 Win32<ph id="ph1">`WaitForMultipleObjects`</ph>函式監視已註冊之等候作業。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Therefore, if you must use the same native operating system handle in multiple calls to RegisterWaitForSingleObject, you must duplicate the handle using the Win32 <ph id="ph1">`DuplicateHandle`</ph> function.</source>
+          <target state="translated">因此，如果您必須使用相同的原生作業系統控制代碼 registerwaitforsingleobject 的多個呼叫中，您必須重複使用 Win32 控制代碼<ph id="ph1">`DuplicateHandle`</ph>函式。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Note that you should not pulse an event object passed to RegisterWaitForSingleObject, because the wait thread might not detect that the event is signaled before it is reset.</source>
+          <target state="translated">請注意，您應該不轉盤式事件物件傳遞至 RegisterWaitForSingleObject，因為等候執行緒可能會偵測事件發出信號之前會重設。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Before returning, the function modifies the state of some types of synchronization objects.</source>
+          <target state="translated">在傳回之前函式會修改某些類型的同步處理物件的狀態。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Modification occurs only for the object whose signaled state caused the wait condition to be satisfied.</source>
+          <target state="translated">只針對其信號的狀態造成要滿足等候條件的物件進行修改。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>For example, the count of a semaphore is decreased by one.</source>
+          <target state="translated">例如，一個號誌計數就會減少一個。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>Version Information    Starting with the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method.</source>
+          <target state="translated">以.NET Framework 2.0 版中，開始的版本資訊&lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;屬性值會傳播至背景工作執行緒排入佇列使用&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;方法。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">在舊版中，主體的資訊不會傳播。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">&lt;xref:System.Threading.WaitHandle&gt;註冊。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Threading.WaitHandle&gt;非&lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>時要呼叫的委派<ph id="ph1">`waitObject`</ph>參數會收到信號。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The object passed to the delegate.</source>
+          <target state="translated">物件會傳遞給委派。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">以毫秒為單位的逾時。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>參數為 0 （零），函式會測試物件的狀態，並立即傳回。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>為-1，永遠不會超過函式的逾時間隔。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示執行緒將不再等候<ph id="ph1">`waitObject`</ph>參數之後被呼叫的委派。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示每當等候作業完成之前等候已取消註冊計時器都會重設。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that encapsulates the native handle.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>封裝原生控制代碼。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">millisecondsTimeOutInterval</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">millisecondsTimeOutInterval</ph> <ept id="p1">&lt;/code&gt;</ept>參數為小於-1。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a &lt;xref:System.TimeSpan&gt; value for the time-out.</source>
+          <target state="translated">註冊要等候的委派&lt;xref:System.Threading.WaitHandle&gt;，並指定&lt;xref:System.TimeSpan&gt;逾時值。&lt;/xref:System.TimeSpan&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">完畢時使用&lt;xref:System.Threading.RegisteredWaitHandle&gt;這個方法傳回時，請呼叫其&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，以釋放等候控制代碼的參考。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">我們建議一律呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，即使您指定<ph id="ph1">`true`</ph>如<ph id="ph2">`executeOnlyOnce`</ph>。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">記憶體回收會更有效率地如果您呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，而非根據 已註冊之等候控制代碼的完成項。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>The RegisterWaitForSingleObject method queues the specified delegate to the thread pool.</source>
+          <target state="translated">RegisterWaitForSingleObject 方法排入佇列的執行緒集區指定的委派。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>A worker thread will execute the delegate when one of the following occurs:      -   The specified object is in the signaled state.</source>
+          <target state="translated">下列其中之一發生時，背景工作執行緒將會執行委派:-指定的物件處於信號狀態。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>-   The time-out interval elapses.</source>
+          <target state="translated">-逾時間隔經過的。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>The RegisterWaitForSingleObject method checks the current state of the specified object's &lt;xref:System.Threading.WaitHandle&gt;.</source>
+          <target state="translated">RegisterWaitForSingleObject 方法會檢查指定之物件的&lt;xref:System.Threading.WaitHandle&gt;.&lt;/xref:System.Threading.WaitHandle&gt;的目前狀態</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>If the object's state is unsignaled, the method registers a wait operation.</source>
+          <target state="translated">如果未發出信號，物件狀態，方法會註冊等候作業。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>The wait operation is performed by a thread from the thread pool.</source>
+          <target state="translated">等候作業是由執行緒集區的執行緒執行。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>The delegate is executed by a worker thread when the object's state becomes signaled or the time-out interval elapses.</source>
+          <target state="translated">委派是物件的狀態變成發出信號，或超過逾時間隔時，工作者執行緒所執行。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`timeOutInterval`</ph> parameter is not 0 (zero) and the <ph id="ph2">`executeOnlyOnce`</ph> parameter is <ph id="ph3">`false`</ph>, the timer is reset every time the event is signaled or the time-out interval elapses.</source>
+          <target state="translated">如果<ph id="ph1">`timeOutInterval`</ph>參數不是 0 （零） 和<ph id="ph2">`executeOnlyOnce`</ph>參數是<ph id="ph3">`false`</ph>，每次事件發出信號，或超過逾時間隔會重設的計時器。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph2">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 使用&lt;xref:System.Threading.Mutex&gt;如<ph id="ph2">`waitObject`</ph>不提供互斥回呼，因為基礎的 Win32 API 會使用預設<ph id="ph3">`WT_EXECUTEDEFAULT`</ph>旗標，因此每個回呼會在個別的執行緒集區執行緒上分派。&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Instead of a &lt;xref:System.Threading.Mutex&gt;, use a &lt;xref:System.Threading.Semaphore&gt; with a maximum count of 1.</source>
+          <target state="translated">而不是&lt;xref:System.Threading.Mutex&gt;，使用&lt;xref:System.Threading.Semaphore&gt;最大計數為 1。&lt;/xref:System.Threading.Semaphore&gt; &lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>To cancel the wait operation, call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">若要取消的等候作業，請呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The wait thread uses the Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> function to monitor registered wait operations.</source>
+          <target state="translated">等候執行緒會使用 Win32<ph id="ph1">`WaitForMultipleObjects`</ph>函式監視已註冊之等候作業。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Therefore, if you must use the same native operating system handle in multiple calls to RegisterWaitForSingleObject, you must duplicate the handle using the Win32 <ph id="ph1">`DuplicateHandle`</ph> function.</source>
+          <target state="translated">因此，如果您必須使用相同的原生作業系統控制代碼 registerwaitforsingleobject 的多個呼叫中，您必須重複使用 Win32 控制代碼<ph id="ph1">`DuplicateHandle`</ph>函式。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Note that you should not pulse an event object passed to RegisterWaitForSingleObject, because the wait thread might not detect that the event is signaled before it is reset.</source>
+          <target state="translated">請注意，您應該不轉盤式事件物件傳遞至 RegisterWaitForSingleObject，因為等候執行緒可能會偵測事件發出信號之前會重設。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>Before returning, the function modifies the state of some types of synchronization objects.</source>
+          <target state="translated">在傳回之前函式會修改某些類型的同步處理物件的狀態。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Modification occurs only for the object whose signaled state caused the wait condition to be satisfied.</source>
+          <target state="translated">只針對其信號的狀態造成要滿足等候條件的物件進行修改。</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>For example, the count of a semaphore is decreased by one.</source>
+          <target state="translated">例如，一個號誌計數就會減少一個。</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>Version Information    Starting with the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method.</source>
+          <target state="translated">以.NET Framework 2.0 版中，開始的版本資訊&lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;屬性值會傳播至背景工作執行緒排入佇列使用&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;方法。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">在舊版中，主體的資訊不會傳播。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">&lt;xref:System.Threading.WaitHandle&gt;註冊。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Threading.WaitHandle&gt;非&lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>時要呼叫的委派<ph id="ph1">`waitObject`</ph>參數會收到信號。</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The object passed to the delegate.</source>
+          <target state="translated">物件會傳遞給委派。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>The time-out represented by a &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated">表示&lt;xref:System.TimeSpan&gt;。&lt;/xref:System.TimeSpan&gt;的逾時值</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`timeout`</ph> is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">如果<ph id="ph1">`timeout`</ph>為 0 （零），函式會測試物件的狀態，並立即傳回。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`timeout`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">如果<ph id="ph1">`timeout`</ph>為-1，永遠不會超過函式的逾時間隔。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示執行緒將不再等候<ph id="ph1">`waitObject`</ph>參數之後被呼叫的委派。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示每當等候作業完成之前等候已取消註冊計時器都會重設。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that encapsulates the native handle.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>封裝原生控制代碼。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept>參數為小於-1。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than <ph id="ph2">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept>參數大於<ph id="ph2">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a 32-bit unsigned integer for the time-out in milliseconds.</source>
+          <target state="translated">註冊要等候的委派&lt;xref:System.Threading.WaitHandle&gt;，以毫秒為單位指定逾時值的 32 位元不帶正負號的整數。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">完畢時使用&lt;xref:System.Threading.RegisteredWaitHandle&gt;這個方法傳回時，請呼叫其&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，以釋放等候控制代碼的參考。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">我們建議一律呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，即使您指定<ph id="ph1">`true`</ph>如<ph id="ph2">`executeOnlyOnce`</ph>。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">記憶體回收會更有效率地如果您呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，而非根據 已註冊之等候控制代碼的完成項。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method queues the specified delegate to the thread pool.</source>
+          <target state="translated">&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;方法排入佇列的執行緒集區指定的委派。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>A worker thread will execute the delegate when one of the following occurs:      -   The specified object is in the signaled state.</source>
+          <target state="translated">下列其中之一發生時，背景工作執行緒將會執行委派:-指定的物件處於信號狀態。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>-   The time-out interval elapses.</source>
+          <target state="translated">-逾時間隔經過的。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;method checks the current state of the specified object's &lt;xref:System.Threading.WaitHandle&gt;.</source>
+          <target state="translated">&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;方法會檢查指定的物件的&lt;xref:System.Threading.WaitHandle&gt;.&lt;/xref:System.Threading.WaitHandle&gt;的目前狀態&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>If the object's state is unsignaled, the method registers a wait operation.</source>
+          <target state="translated">如果未發出信號，物件狀態，方法會註冊等候作業。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>The wait operation is performed by a thread from the thread pool.</source>
+          <target state="translated">等候作業是由執行緒集區的執行緒執行。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source>The delegate is executed by a worker thread when the object's state becomes signaled or the time-out interval elapses.</source>
+          <target state="translated">委派是物件的狀態變成發出信號，或超過逾時間隔時，工作者執行緒所執行。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`timeOutInterval`</ph> parameter is not 0 (zero) and the <ph id="ph2">`executeOnlyOnce`</ph> parameter is <ph id="ph3">`false`</ph>, the timer is reset every time the event is signaled or the time-out interval elapses.</source>
+          <target state="translated">如果<ph id="ph1">`timeOutInterval`</ph>參數不是 0 （零） 和<ph id="ph2">`executeOnlyOnce`</ph>參數是<ph id="ph3">`false`</ph>，每次事件發出信號，或超過逾時間隔會重設的計時器。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt;  Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph2">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph3">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">&gt; <ph id="ph1">[!IMPORTANT]</ph> &gt; 使用&lt;xref:System.Threading.Mutex&gt;如<ph id="ph2">`waitObject`</ph>不提供互斥回呼，因為基礎的 Win32 API 會使用預設<ph id="ph3">`WT_EXECUTEDEFAULT`</ph>旗標，因此每個回呼會在個別的執行緒集區執行緒上分派。&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Instead of a &lt;xref:System.Threading.Mutex&gt;, use a &lt;xref:System.Threading.Semaphore&gt; with a maximum count of 1.</source>
+          <target state="translated">而不是&lt;xref:System.Threading.Mutex&gt;，使用&lt;xref:System.Threading.Semaphore&gt;最大計數為 1。&lt;/xref:System.Threading.Semaphore&gt; &lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source>To cancel the wait operation, call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method.</source>
+          <target state="translated">若要取消的等候作業，請呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>The wait thread uses the Win32 <ph id="ph1">`WaitForMultipleObjects`</ph> function to monitor registered wait operations.</source>
+          <target state="translated">等候執行緒會使用 Win32<ph id="ph1">`WaitForMultipleObjects`</ph>函式監視已註冊之等候作業。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Therefore, if you must use the same native operating system handle in multiple calls to &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;, you must duplicate the handle using the Win32 <ph id="ph1">`DuplicateHandle`</ph> function.</source>
+          <target state="translated">因此，如果您必須使用相同的原生作業系統控制代碼，在多個呼叫&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;，您必須重複使用 Win32 控制代碼<ph id="ph1">`DuplicateHandle`</ph>函式。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Note that you should not pulse an event object passed to &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;, because the wait thread might not detect that the event is signaled before it is reset.</source>
+          <target state="translated">請注意，您不應該轉盤式事件物件傳遞至&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;，因為等候執行緒可能無法偵測出事件發出信號之前會重設。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source>Before returning, the function modifies the state of some types of synchronization objects.</source>
+          <target state="translated">在傳回之前函式會修改某些類型的同步處理物件的狀態。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Modification occurs only for the object whose signaled state caused the wait condition to be satisfied.</source>
+          <target state="translated">只針對其信號的狀態造成要滿足等候條件的物件進行修改。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>For example, the count of a semaphore is decreased by one.</source>
+          <target state="translated">例如，一個號誌計數就會減少一個。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Version Information    Starting with the .NET Framework version 2.0, the &lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt; property value is propagated to worker threads queued using the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method.</source>
+          <target state="translated">以.NET Framework 2.0 版中，開始的版本資訊&lt;xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;屬性值會傳播至背景工作執行緒排入佇列使用&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;方法。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; &lt;/xref:System.Threading.Thread.CurrentPrincipal%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>In earlier versions, the principal information is not propagated.</source>
+          <target state="translated">在舊版中，主體的資訊不會傳播。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">&lt;xref:System.Threading.WaitHandle&gt;註冊。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Threading.WaitHandle&gt;非&lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.WaitOrTimerCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>時要呼叫的委派<ph id="ph1">`waitObject`</ph>參數會收到信號。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>The object passed to the delegate.</source>
+          <target state="translated">物件會傳遞給委派。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">以毫秒為單位的逾時。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>參數為 0 （零），函式會測試物件的狀態，並立即傳回。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>為-1，永遠不會超過函式的逾時間隔。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示執行緒將不再等候<ph id="ph1">`waitObject`</ph>參數之後被呼叫的委派。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示每當等候作業完成之前等候已取消註冊計時器都會重設。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that can be used to cancel the registered wait operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ，可用來取消已註冊之等候作業。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">millisecondsTimeOutInterval</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">millisecondsTimeOutInterval</ph> <ept id="p1">&lt;/code&gt;</ept>參數為小於-1。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>Sets the number of requests to the thread pool that can be active concurrently.</source>
+          <target state="translated">可以同時為作用中的執行緒集區設定要求的數目。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>All requests above that number remain queued until thread pool threads become available.</source>
+          <target state="translated">超過該數目的所有要求會都繼續佇列，直到可以使用執行緒集區執行緒為止。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>You cannot set the maximum number of worker threads or I/O completion threads to a number smaller than the number of processors on the computer.</source>
+          <target state="translated">您無法設定背景工作執行緒或 I/O 完成執行緒的最大數目的數字小於電腦上的處理器數目。</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>To determine how many processors are present, retrieve the value of the &lt;xref:System.Environment.ProcessorCount%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">若要判斷有多少處理器，擷取的值&lt;xref:System.Environment.ProcessorCount%2A?displayProperty=fullName&gt;屬性。&lt;/xref:System.Environment.ProcessorCount%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>In addition, you cannot set the maximum number of worker threads or I/O completion threads to a number smaller than the corresponding minimum number of worker threads or I/O completion threads.</source>
+          <target state="translated">此外，您無法設定背景工作執行緒或 I/O 完成執行緒來比對應的最小背景工作執行緒數目較小的數字或 I/O 完成執行緒的最大數目。</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>To determine the minimum thread pool size,  call the &lt;xref:System.Threading.ThreadPool.GetMinThreads%2A&gt; method.</source>
+          <target state="translated">若要判斷最小執行緒集區大小，請呼叫&lt;xref:System.Threading.ThreadPool.GetMinThreads%2A&gt;方法。&lt;/xref:System.Threading.ThreadPool.GetMinThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>If the common language runtime is hosted, for example by Internet Information Services (IIS) or SQL Server, the host can limit or prevent changes to the thread pool size.</source>
+          <target state="translated">如果裝載 common language runtime，例如藉由網際網路資訊服務 (IIS) 或 SQL Server，主機可以限制或阻止變更執行緒集區大小。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Use caution when changing the maximum number of threads in the thread pool.</source>
+          <target state="translated">變更執行緒集區中的執行緒數目上限時，請務必小心。</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>While your code might benefit, the changes might have an adverse effect on code libraries you use.</source>
+          <target state="translated">而獲益的程式碼，所做的變更可能造成負面影響您使用的程式碼程式庫。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Setting the thread pool size too large can cause performance problems.</source>
+          <target state="translated">設定執行緒集區大小太大，可能會造成效能問題。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>If too many threads are executing at the same time, the task switching overhead becomes a significant factor.</source>
+          <target state="translated">如果同時執行太多執行緒，工作切換額外負荷會變成的重要因素。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>The maximum number of worker threads in the thread pool.</source>
+          <target state="translated">執行緒集區中的背景工作執行緒的數目上限。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>The maximum number of asynchronous I/O threads in the thread pool.</source>
+          <target state="translated">執行緒集區中的非同步 I/O 執行緒的數目上限。</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the change is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果變更成功。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>Sets the minimum number of threads the thread pool creates on demand, as new requests are made, before switching to an algorithm for managing thread creation and destruction.</source>
+          <target state="translated">隨著提出新要求，切換至管理執行緒建立和解構的演算法之前，請設定執行緒集區視需要建立的執行緒的最小數目。</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The thread pool provides new worker threads or I/O completion threads on demand until it reaches the minimum for each category.</source>
+          <target state="translated">執行緒集區視需要提供新的背景工作執行緒或 I/O 完成執行緒直到達到每個類別目錄的最小值。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>When the minimum is reached, the thread pool can create additional threads in that category or wait until some tasks complete.</source>
+          <target state="translated">當達到最小值時，執行緒集區可以在該分類建立額外的執行緒，或等候部分工作完成。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>Beginning with the <ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>, the thread pool creates and destroys threads in order to optimize throughput, which is defined as the number of tasks that complete per unit of time.</source>
+          <target state="translated">開頭為<ph id="ph1">[!INCLUDE[net_v40_short](~/add/includes/net-v40-short-md.md)]</ph>，執行緒集區會建立並終結執行緒，以便最佳化輸送量，輸送量的定義為每個時間單位完成的工作數目。</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>Too few threads might not make optimal use of available resources, whereas too many threads could increase resource contention.</source>
+          <target state="translated">執行緒太少可能不會進行最有效地利用可用資源，而執行緒太多可能增加資源爭用的情況。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>When demand is low, the actual number of thread pool threads can fall below the minimum values.</source>
+          <target state="translated">當需求很低時，執行緒集區執行緒的實際數目可能低於最小值。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>If you specify a negative number or a number larger than the maximum number of active thread pool threads (obtained using &lt;xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt;), SetMinThreads returns <ph id="ph1">`false`</ph> and does not change either of the minimum values.</source>
+          <target state="translated">如果您指定為負數或大於的使用中執行緒集區執行緒的數目上限的數字 (使用取得&lt;xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt;)，傳回 SetMinThreads<ph id="ph1">`false`</ph>也不會變更其中一個最小值。&lt;/xref:System.Threading.ThreadPool.GetMaxThreads%2A&gt;</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  By default, the minimum number of threads is set to the number of processors on a system.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 根據預設，執行緒的最小數目設定為在系統上的處理器數目。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>You can use the SetMinThreads method to increase the minimum number ofthreads.</source>
+          <target state="translated">SetMinThreads 方法可用來增加最小的數字 ofthreads。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>However, unnecessarily increasing these values can cause performance problems.</source>
+          <target state="translated">不過，不必要地增加這些值可能會造成效能問題。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>If too many tasks start at the same time, all of them might appear to be slow.</source>
+          <target state="translated">如果太多的工作會啟動一次，所有工作可能都會變慢。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>In most cases, the thread pool will perform better with its own algorithm for allocating threads.</source>
+          <target state="translated">在大部分情況下，執行緒集區會執行更好使用它自己的演算法來配置執行緒。</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>Reducing the minimum to less than the number of processors can also hurt performance.</source>
+          <target state="translated">減少至低於的處理器數目也會降低效能的最小值。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>The minimum number of worker threads that the thread pool creates on demand.</source>
+          <target state="translated">視需要建立執行緒集區的背景工作執行緒最小數目。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>The minimum number of asynchronous I/O threads that the thread pool creates on demand.</source>
+          <target state="translated">執行緒集區視需要建立的非同步 I/O 執行緒最小數目。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the change is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果變更成功。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Queues an overlapped I/O operation for execution.</source>
+          <target state="translated">重疊的 I/O 作業執行排入佇列。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>For information about using native Win32 overlapped I/O, see the &lt;xref:System.Threading.Overlapped&gt; class, the &lt;xref:System.Threading.NativeOverlapped&gt; structure, and the <ph id="ph1">`OVERLAPPED`</ph> structure in the Win32 Platform SDK.</source>
+          <target state="translated">如需有關使用原生 Win32 資訊重疊的 I/O，請參閱 &lt;&lt;c0&gt;類別&lt;xref:System.Threading.NativeOverlapped&gt;結構，而<ph id="ph1">`OVERLAPPED`</ph>Win32 平台 SDK 中的結構。&lt;/xref:System.Threading.NativeOverlapped&gt; </target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using the UnsafeQueueNativeOverlapped method could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 使用 UnsafeQueueNativeOverlapped 方法可能不小心開啟安全性漏洞。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">程式碼存取安全性會根據堆疊中的所有呼叫端的權限的權限檢查。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>When work is queued on a thread pool thread using UnsafeQueueNativeOverlapped, the stack of the thread pool thread does not have the context of the actual callers.</source>
+          <target state="translated">當工作在執行緒集區執行緒使用 UnsafeQueueNativeOverlapped 排入佇列時，執行緒集區執行緒的堆疊中沒有實際的呼叫端的內容。</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">惡意程式碼可能可以利用此選項可避免權限檢查。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.NativeOverlapped"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> structure to queue.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.NativeOverlapped"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>佇列的結構。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the operation was successfully queued to an I/O completion port; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果作業已成功排入 I/O 完成連接埠。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>Queues the specified delegate to the thread pool, but does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">排入佇列的執行緒集區中，指定的委派，但不是會傳播至背景工作執行緒的呼叫堆疊。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Unlike the &lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt; method, UnsafeQueueUserWorkItem does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">不同於&lt;xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;UnsafeQueueUserWorkItem 的方法，並不會傳播至背景工作執行緒的呼叫堆疊。&lt;/xref:System.Threading.ThreadPool.QueueUserWorkItem%2A&gt;</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>This allows code to lose the calling stack and thereby to elevate its security privileges.</source>
+          <target state="translated">這可讓程式碼會遺失呼叫堆疊，因此提高其安全性權限。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using UnsafeQueueUserWorkItem could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 使用 UnsafeQueueUserWorkItem 不慎無法開啟安全性漏洞。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">程式碼存取安全性會根據堆疊中的所有呼叫端的權限的權限檢查。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>When work is queued on a thread pool thread using UnsafeQueueUserWorkItem, the stack of the thread pool thread will not have the context of the actual callers.</source>
+          <target state="translated">當工作在執行緒集區執行緒使用 UnsafeQueueUserWorkItem 排入佇列時，執行緒集區執行緒的堆疊不會有實際的呼叫端的內容。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">惡意程式碼可能可以利用此選項可避免權限檢查。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the delegate to invoke when a thread in the thread pool picks up the work item.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Threading.WaitCallback"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代表在執行緒集區中的執行緒選取工作項目時叫用的委派。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate when serviced from the thread pool.</source>
+          <target state="translated">已傳遞給委派服務時，執行緒集區的物件。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the method succeeds; &lt;xref:System.OutOfMemoryException&gt; is thrown if the work item could not be queued.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果方法成功。&lt;xref:System.OutOfMemoryException&gt;無法佇列工作項目便會擲回。&lt;/xref:System.OutOfMemoryException&gt;</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">呼叫端沒有必要的權限。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>An out-of-memory condition was encountered.</source>
+          <target state="translated">遇到記憶體不足的狀況。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>The work item could not be queued.</source>
+          <target state="translated">無法佇列工作項目。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;callBack&lt;/code&gt;</ph>is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, using a 32-bit signed integer for the time-out in milliseconds.</source>
+          <target state="translated">註冊要等候的委派&lt;xref:System.Threading.WaitHandle&gt;，使用 32 位元帶正負號的整數逾時值以毫秒為單位。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>This method does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">這個方法不會傳播至背景工作執行緒的呼叫堆疊。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>Unlike the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method, UnsafeRegisterWaitForSingleObject does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">不同於&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;UnsafeRegisterWaitForSingleObject 的方法，並不會傳播至背景工作執行緒的呼叫堆疊。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>This allows code to lose the calling stack and thereby to elevate its security privileges.</source>
+          <target state="translated">這可讓程式碼會遺失呼叫堆疊，因此提高其安全性權限。</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using UnsafeRegisterWaitForSingleObject could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 使用 UnsafeRegisterWaitForSingleObject 不慎無法開啟安全性漏洞。</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">程式碼存取安全性會根據堆疊中的所有呼叫端的權限的權限檢查。</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>When work is queued on a thread pool thread using UnsafeRegisterWaitForSingleObject, the stack of the thread pool thread will not have the context of the actual callers.</source>
+          <target state="translated">當工作在執行緒集區執行緒使用 UnsafeRegisterWaitForSingleObject 排入佇列時，執行緒集區執行緒的堆疊不會有實際的呼叫端的內容。</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">惡意程式碼可能可以利用此選項可避免權限檢查。</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph1">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">使用&lt;xref:System.Threading.Mutex&gt;如<ph id="ph1">`waitObject`</ph>不提供互斥回呼，因為基礎的 Win32 API 會使用預設<ph id="ph2">`WT_EXECUTEDEFAULT`</ph>旗標，因此每個回呼會在個別的執行緒集區執行緒上分派。&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">完畢時使用&lt;xref:System.Threading.RegisteredWaitHandle&gt;這個方法傳回時，請呼叫其&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，以釋放等候控制代碼的參考。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">我們建議一律呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，即使您指定<ph id="ph1">`true`</ph>如<ph id="ph2">`executeOnlyOnce`</ph>。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">記憶體回收會更有效率地如果您呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，而非根據 已註冊之等候控制代碼的完成項。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">&lt;xref:System.Threading.WaitHandle&gt;註冊。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Threading.WaitHandle&gt;非&lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">時要呼叫的委派<ph id="ph1">`waitObject`</ph>參數會收到信號。</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate.</source>
+          <target state="translated">物件，傳遞給委派。</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">以毫秒為單位的逾時。</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>參數為 0 （零），函式會測試物件的狀態，並立即傳回。</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>為-1，永遠不會超過函式的逾時間隔。</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示執行緒將不再等候<ph id="ph1">`waitObject`</ph>參數之後被呼叫的委派。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示每當等候作業完成之前等候已取消註冊計時器都會重設。</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to cancel the registered wait operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可以用來取消已註冊之等候作業的物件。</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">millisecondsTimeOutInterval</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">millisecondsTimeOutInterval</ph> <ept id="p1">&lt;/code&gt;</ept>參數為小於-1。</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">呼叫端沒有必要的權限。</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a 64-bit signed integer for the time-out in milliseconds.</source>
+          <target state="translated">註冊要等候的委派&lt;xref:System.Threading.WaitHandle&gt;，以毫秒為單位指定逾時值的 64 位元帶正負號的整數。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>This method does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">這個方法不會傳播至背景工作執行緒的呼叫堆疊。</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>Unlike the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method, UnsafeRegisterWaitForSingleObject does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">不同於&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;UnsafeRegisterWaitForSingleObject 的方法，並不會傳播至背景工作執行緒的呼叫堆疊。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>This allows code to lose the calling stack and thereby to elevate its security privileges.</source>
+          <target state="translated">這可讓程式碼會遺失呼叫堆疊，因此提高其安全性權限。</target>       </trans-unit>
+        <trans-unit id="410" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using UnsafeRegisterWaitForSingleObject could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 使用 UnsafeRegisterWaitForSingleObject 不慎無法開啟安全性漏洞。</target>       </trans-unit>
+        <trans-unit id="411" translate="yes" xml:space="preserve">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">程式碼存取安全性會根據堆疊中的所有呼叫端的權限的權限檢查。</target>       </trans-unit>
+        <trans-unit id="412" translate="yes" xml:space="preserve">
+          <source>When work is queued on a thread pool thread using UnsafeRegisterWaitForSingleObject, the stack of the thread pool thread will not have the context of the actual callers.</source>
+          <target state="translated">當工作在執行緒集區執行緒使用 UnsafeRegisterWaitForSingleObject 排入佇列時，執行緒集區執行緒的堆疊不會有實際的呼叫端的內容。</target>       </trans-unit>
+        <trans-unit id="413" translate="yes" xml:space="preserve">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">惡意程式碼可能可以利用此選項可避免權限檢查。</target>       </trans-unit>
+        <trans-unit id="414" translate="yes" xml:space="preserve">
+          <source>Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph1">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">使用&lt;xref:System.Threading.Mutex&gt;如<ph id="ph1">`waitObject`</ph>不提供互斥回呼，因為基礎的 Win32 API 會使用預設<ph id="ph2">`WT_EXECUTEDEFAULT`</ph>旗標，因此每個回呼會在個別的執行緒集區執行緒上分派。&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="415" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">完畢時使用&lt;xref:System.Threading.RegisteredWaitHandle&gt;這個方法傳回時，請呼叫其&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，以釋放等候控制代碼的參考。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="416" translate="yes" xml:space="preserve">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">我們建議一律呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，即使您指定<ph id="ph1">`true`</ph>如<ph id="ph2">`executeOnlyOnce`</ph>。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="417" translate="yes" xml:space="preserve">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">記憶體回收會更有效率地如果您呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，而非根據 已註冊之等候控制代碼的完成項。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="418" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">&lt;xref:System.Threading.WaitHandle&gt;註冊。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="419" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Threading.WaitHandle&gt;非&lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="420" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">時要呼叫的委派<ph id="ph1">`waitObject`</ph>參數會收到信號。</target>       </trans-unit>
+        <trans-unit id="421" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate.</source>
+          <target state="translated">物件，傳遞給委派。</target>       </trans-unit>
+        <trans-unit id="422" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">以毫秒為單位的逾時。</target>       </trans-unit>
+        <trans-unit id="423" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>參數為 0 （零），函式會測試物件的狀態，並立即傳回。</target>       </trans-unit>
+        <trans-unit id="424" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>為-1，永遠不會超過函式的逾時間隔。</target>       </trans-unit>
+        <trans-unit id="425" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示執行緒將不再等候<ph id="ph1">`waitObject`</ph>參數之後被呼叫的委派。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示每當等候作業完成之前等候已取消註冊計時器都會重設。</target>       </trans-unit>
+        <trans-unit id="426" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to cancel the registered wait operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可以用來取消已註冊之等候作業的物件。</target>       </trans-unit>
+        <trans-unit id="427" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">millisecondsTimeOutInterval</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">millisecondsTimeOutInterval</ph> <ept id="p1">&lt;/code&gt;</ept>參數為小於-1。</target>       </trans-unit>
+        <trans-unit id="428" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">呼叫端沒有必要的權限。</target>       </trans-unit>
+        <trans-unit id="429" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a &lt;xref:System.TimeSpan&gt; value for the time-out.</source>
+          <target state="translated">註冊要等候的委派&lt;xref:System.Threading.WaitHandle&gt;，並指定&lt;xref:System.TimeSpan&gt;逾時值。&lt;/xref:System.TimeSpan&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="430" translate="yes" xml:space="preserve">
+          <source>This method does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">這個方法不會傳播至背景工作執行緒的呼叫堆疊。</target>       </trans-unit>
+        <trans-unit id="431" translate="yes" xml:space="preserve">
+          <source>Unlike the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method, UnsafeRegisterWaitForSingleObject does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">不同於&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;UnsafeRegisterWaitForSingleObject 的方法，並不會傳播至背景工作執行緒的呼叫堆疊。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="432" translate="yes" xml:space="preserve">
+          <source>This allows code to lose the calling stack and thereby to elevate its security privileges.</source>
+          <target state="translated">這可讓程式碼會遺失呼叫堆疊，因此提高其安全性權限。</target>       </trans-unit>
+        <trans-unit id="433" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using UnsafeRegisterWaitForSingleObject could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 使用 UnsafeRegisterWaitForSingleObject 不慎無法開啟安全性漏洞。</target>       </trans-unit>
+        <trans-unit id="434" translate="yes" xml:space="preserve">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">程式碼存取安全性會根據堆疊中的所有呼叫端的權限的權限檢查。</target>       </trans-unit>
+        <trans-unit id="435" translate="yes" xml:space="preserve">
+          <source>When work is queued on a thread pool thread using UnsafeRegisterWaitForSingleObject, the stack of the thread pool thread will not have the context of the actual callers.</source>
+          <target state="translated">當工作在執行緒集區執行緒使用 UnsafeRegisterWaitForSingleObject 排入佇列時，執行緒集區執行緒的堆疊不會有實際的呼叫端的內容。</target>       </trans-unit>
+        <trans-unit id="436" translate="yes" xml:space="preserve">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">惡意程式碼可能可以利用此選項可避免權限檢查。</target>       </trans-unit>
+        <trans-unit id="437" translate="yes" xml:space="preserve">
+          <source>Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph1">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">使用&lt;xref:System.Threading.Mutex&gt;如<ph id="ph1">`waitObject`</ph>不提供互斥回呼，因為基礎的 Win32 API 會使用預設<ph id="ph2">`WT_EXECUTEDEFAULT`</ph>旗標，因此每個回呼會在個別的執行緒集區執行緒上分派。&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="438" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">完畢時使用&lt;xref:System.Threading.RegisteredWaitHandle&gt;這個方法傳回時，請呼叫其&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，以釋放等候控制代碼的參考。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="439" translate="yes" xml:space="preserve">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">我們建議一律呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，即使您指定<ph id="ph1">`true`</ph>如<ph id="ph2">`executeOnlyOnce`</ph>。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="440" translate="yes" xml:space="preserve">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">記憶體回收會更有效率地如果您呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，而非根據 已註冊之等候控制代碼的完成項。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="441" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">&lt;xref:System.Threading.WaitHandle&gt;註冊。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="442" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Threading.WaitHandle&gt;非&lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="443" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">時要呼叫的委派<ph id="ph1">`waitObject`</ph>參數會收到信號。</target>       </trans-unit>
+        <trans-unit id="444" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate.</source>
+          <target state="translated">物件，傳遞給委派。</target>       </trans-unit>
+        <trans-unit id="445" translate="yes" xml:space="preserve">
+          <source>The time-out represented by a &lt;xref:System.TimeSpan&gt;.</source>
+          <target state="translated">表示&lt;xref:System.TimeSpan&gt;。&lt;/xref:System.TimeSpan&gt;的逾時值</target>       </trans-unit>
+        <trans-unit id="446" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`timeout`</ph> is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">如果<ph id="ph1">`timeout`</ph>為 0 （零），函式會測試物件的狀態，並立即傳回。</target>       </trans-unit>
+        <trans-unit id="447" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`timeout`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">如果<ph id="ph1">`timeout`</ph>為-1，永遠不會超過函式的逾時間隔。</target>       </trans-unit>
+        <trans-unit id="448" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示執行緒將不再等候<ph id="ph1">`waitObject`</ph>參數之後被呼叫的委派。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示每當等候作業完成之前等候已取消註冊計時器都會重設。</target>       </trans-unit>
+        <trans-unit id="449" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to cancel the registered wait operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可以用來取消已註冊之等候作業的物件。</target>       </trans-unit>
+        <trans-unit id="450" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is less than -1.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept>參數為小於-1。</target>       </trans-unit>
+        <trans-unit id="451" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">timeout</ph><ept id="p1">&lt;/code&gt;</ept> parameter is greater than <ph id="ph2">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">timeout</ph> <ept id="p1">&lt;/code&gt;</ept>參數大於<ph id="ph2">&amp;lt;</ph>xref:System.Int32.MaxValue?displayProperty=fullName<ph id="ph3">&amp;gt;</ph>。</target>       </trans-unit>
+        <trans-unit id="452" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">呼叫端沒有必要的權限。</target>       </trans-unit>
+        <trans-unit id="453" translate="yes" xml:space="preserve">
+          <source>Registers a delegate to wait for a &lt;xref:System.Threading.WaitHandle&gt;, specifying a 32-bit unsigned integer for the time-out in milliseconds.</source>
+          <target state="translated">註冊要等候的委派&lt;xref:System.Threading.WaitHandle&gt;，以毫秒為單位指定逾時值的 32 位元不帶正負號的整數。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="454" translate="yes" xml:space="preserve">
+          <source>This method does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">這個方法不會傳播至背景工作執行緒的呼叫堆疊。</target>       </trans-unit>
+        <trans-unit id="455" translate="yes" xml:space="preserve">
+          <source>Unlike the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method, UnsafeRegisterWaitForSingleObject does not propagate the calling stack to the worker thread.</source>
+          <target state="translated">不同於&lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;UnsafeRegisterWaitForSingleObject 的方法，並不會傳播至背景工作執行緒的呼叫堆疊。&lt;/xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;</target>       </trans-unit>
+        <trans-unit id="456" translate="yes" xml:space="preserve">
+          <source>This allows code to lose the calling stack and thereby to elevate its security privileges.</source>
+          <target state="translated">這可讓程式碼會遺失呼叫堆疊，因此提高其安全性權限。</target>       </trans-unit>
+        <trans-unit id="457" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  Using UnsafeRegisterWaitForSingleObject could inadvertently open up a security hole.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; 使用 UnsafeRegisterWaitForSingleObject 不慎無法開啟安全性漏洞。</target>       </trans-unit>
+        <trans-unit id="458" translate="yes" xml:space="preserve">
+          <source>Code access security bases its permission checks on the permissions of all the callers on the stack.</source>
+          <target state="translated">程式碼存取安全性會根據堆疊中的所有呼叫端的權限的權限檢查。</target>       </trans-unit>
+        <trans-unit id="459" translate="yes" xml:space="preserve">
+          <source>When work is queued on a thread pool thread using UnsafeRegisterWaitForSingleObject, the stack of the thread pool thread will not have the context of the actual callers.</source>
+          <target state="translated">當工作在執行緒集區執行緒使用 UnsafeRegisterWaitForSingleObject 排入佇列時，執行緒集區執行緒的堆疊不會有實際的呼叫端的內容。</target>       </trans-unit>
+        <trans-unit id="460" translate="yes" xml:space="preserve">
+          <source>Malicious code might be able exploit this to avoid permission checks.</source>
+          <target state="translated">惡意程式碼可能可以利用此選項可避免權限檢查。</target>       </trans-unit>
+        <trans-unit id="461" translate="yes" xml:space="preserve">
+          <source>Using a &lt;xref:System.Threading.Mutex&gt; for <ph id="ph1">`waitObject`</ph> does not provide mutual exclusion for the callbacks because the underlying Win32 API uses the default <ph id="ph2">`WT_EXECUTEDEFAULT`</ph> flag, so each callback is dispatched on a separate thread pool thread.</source>
+          <target state="translated">使用&lt;xref:System.Threading.Mutex&gt;如<ph id="ph1">`waitObject`</ph>不提供互斥回呼，因為基礎的 Win32 API 會使用預設<ph id="ph2">`WT_EXECUTEDEFAULT`</ph>旗標，因此每個回呼會在個別的執行緒集區執行緒上分派。&lt;/xref:System.Threading.Mutex&gt;</target>       </trans-unit>
+        <trans-unit id="462" translate="yes" xml:space="preserve">
+          <source>When you are finished using the &lt;xref:System.Threading.RegisteredWaitHandle&gt; that is returned by this method, call its &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method to release references to the wait handle.</source>
+          <target state="translated">完畢時使用&lt;xref:System.Threading.RegisteredWaitHandle&gt;這個方法傳回時，請呼叫其&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，以釋放等候控制代碼的參考。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; &lt;/xref:System.Threading.RegisteredWaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="463" translate="yes" xml:space="preserve">
+          <source>We recommend that you always call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method, even if you specify <ph id="ph1">`true`</ph> for <ph id="ph2">`executeOnlyOnce`</ph>.</source>
+          <target state="translated">我們建議一律呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，即使您指定<ph id="ph1">`true`</ph>如<ph id="ph2">`executeOnlyOnce`</ph>。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="464" translate="yes" xml:space="preserve">
+          <source>Garbage collection works more efficiently if you call the &lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt; method instead of depending on the registered wait handle's finalizer.</source>
+          <target state="translated">記憶體回收會更有效率地如果您呼叫&lt;xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;方法，而非根據 已註冊之等候控制代碼的完成項。&lt;/xref:System.Threading.RegisteredWaitHandle.Unregister%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="465" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Threading.WaitHandle&gt; to register.</source>
+          <target state="translated">&lt;xref:System.Threading.WaitHandle&gt;註冊。&lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="466" translate="yes" xml:space="preserve">
+          <source>Use a &lt;xref:System.Threading.WaitHandle&gt; other than &lt;xref:System.Threading.Mutex&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Threading.WaitHandle&gt;非&lt;xref:System.Threading.Mutex&gt;.&lt;/xref:System.Threading.Mutex&gt; &lt;/xref:System.Threading.WaitHandle&gt;</target>       </trans-unit>
+        <trans-unit id="467" translate="yes" xml:space="preserve">
+          <source>The delegate to call when the <ph id="ph1">`waitObject`</ph> parameter is signaled.</source>
+          <target state="translated">時要呼叫的委派<ph id="ph1">`waitObject`</ph>參數會收到信號。</target>       </trans-unit>
+        <trans-unit id="468" translate="yes" xml:space="preserve">
+          <source>The object that is passed to the delegate.</source>
+          <target state="translated">物件，傳遞給委派。</target>       </trans-unit>
+        <trans-unit id="469" translate="yes" xml:space="preserve">
+          <source>The time-out in milliseconds.</source>
+          <target state="translated">以毫秒為單位的逾時。</target>       </trans-unit>
+        <trans-unit id="470" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`millisecondsTimeOutInterval`</ph> parameter is 0 (zero), the function tests the object's state and returns immediately.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>參數為 0 （零），函式會測試物件的狀態，並立即傳回。</target>       </trans-unit>
+        <trans-unit id="471" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`millisecondsTimeOutInterval`</ph> is -1, the function's time-out interval never elapses.</source>
+          <target state="translated">如果<ph id="ph1">`millisecondsTimeOutInterval`</ph>為-1，永遠不會超過函式的逾時間隔。</target>       </trans-unit>
+        <trans-unit id="472" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to indicate that the thread will no longer wait on the <ph id="ph1">`waitObject`</ph> parameter after the delegate has been called; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to indicate that the timer is reset every time the wait operation completes until the wait is unregistered.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>表示執行緒將不再等候<ph id="ph1">`waitObject`</ph>參數之後被呼叫的委派。<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>表示每當等候作業完成之前等候已取消註冊計時器都會重設。</target>       </trans-unit>
+        <trans-unit id="473" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that can be used to cancel the registered wait operation.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Threading.RegisteredWaitHandle"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>可以用來取消已註冊之等候作業的物件。</target>       </trans-unit>
+        <trans-unit id="474" translate="yes" xml:space="preserve">
+          <source>The caller does not have the required permission.</source>
+          <target state="translated">呼叫端沒有必要的權限。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

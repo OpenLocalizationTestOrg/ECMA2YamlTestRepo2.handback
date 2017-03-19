@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="hu-hu">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d5db20e0152d72f9bceb6d42d24984805e588c69</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.DirectoryServices.DirectoryEntry.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">9ee853f25979fb9030384b910aa7d789c168df3b</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">931ac6de4bcd673db51ef8da6ac9cb9224166f5a</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>The DirectoryEntry class encapsulates a node or object in the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">A DirectoryEntry osztály egy csomópont vagy egy objektumot az Active Directory tartományi szolgáltatások hierarchia magában foglalja.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this class for binding to objects, or reading and updating attributes.</source>
+          <target state="translated">Ez az osztály használata kötése objektumok, vagy olvasási és attribútumok frissítése.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DirectoryEntry, along with helper classes, provides support for life-cycle management and navigation methods.</source>
+          <target state="translated">DirectoryEntry, segítőosztályok, valamint támogatja az életciklus-kezelési és navigációs módszerek.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These include creating, deleting, renaming, moving a child node, and enumerating children.</source>
+          <target state="translated">Ezek közé tartozik a létrehozása, törlése, átnevezése, áthelyezése egy alárendelt csomópont és gyermekei számbavétele.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you modify a node, you must commit your changes in order for them to be saved to the tree.</source>
+          <target state="translated">A csomópont módosítása után véglegesíteni kell ahhoz, hogy a fa mentheti a módosításokat.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; property.</source>
+          <target state="translated">További információkért lásd: a &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;tulajdonság.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>DirectoryEntry can be used to access regular entries and some, but not all, information from schema entries.</source>
+          <target state="translated">DirectoryEntry séma bejegyzések rendszeres bejegyzést, és néhány, de nem minden információ eléréséhez használható.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Active Directory Domain Services hierarchy contains up to several thousand nodes.</source>
+          <target state="translated">Az Active Directory tartományi szolgáltatások hierarchia akár több ezer csomópontot tartalmaz.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Each node represents an object, such as a network printer or a user in a domain.</source>
+          <target state="translated">Minden csomópont egy objektumot, például egy hálózati vagy egy felhasználói tartományban jelöli.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Corporate networks constantly change as new employees are hired and objects such as network printers and computers are added.</source>
+          <target state="translated">A vállalati hálózatok folyamatosan akkor módosítható, mert az új alkalmazottak menjenek és objektumok, például hálózati nyomtatók és a számítógépek adhatók hozzá.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Active Directory Service Interfaces (ADSI) technology provides ways to programmatically add these objects to the directory tree.</source>
+          <target state="translated">Active Directory Service Interfaces (ADSI) technológia szoftveresen ezek az objektumok hozzáadása a könyvtárfában módszereket biztosítja.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To create a directory entry in the hierarchy, use the &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt; property.</source>
+          <target state="translated">Hozzon létre egy könyvtárat a hierarchiában, használja a &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;tulajdonság.&lt;/xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt; property is a collection that provides an &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt; method, through which you add a node to the collection directly below the parent node that you are currently bound to.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;tulajdonság gyűjteménye, amely egy &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt;módszer, amelyen keresztül, egy csomópontot a gyűjteményhez hozzáadni kívánt közvetlenül alatt a szülő csomópontban, amely jelenleg kötve.&lt;/xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When adding a node to the collection, you must specify a name for the new node and the name of a schema template that you want to associate with the node.</source>
+          <target state="translated">Amikor csomópontot ad hozzá a gyűjteményhez, meg kell adnia egy nevet az új csomópont, és egy séma-sablon, a csomópont társítani kívánt nevét.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might want to use a schema titled "Computer" to add new computers to the hierarchy.</source>
+          <target state="translated">Például előfordulhat, hogy használandó séma "Számítógép" című új számítógépek hozzáadása a hierarchiában.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This class also contains attribute caching, which can be useful for optimizing network traffic.</source>
+          <target state="translated">Ez az osztály is tartalmaz attribútum gyorsítótárazás, amelyek hasznosak lehetnek a hálózati forgalom optimalizálása.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use attribute caching, see the &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; property.</source>
+          <target state="translated">Attribútum-gyorsítótárazás használatát ismerteti a &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;tulajdonság.&lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The classes associated with the DirectoryEntry component can be used with any of the Active Directory Domain Services service providers.</source>
+          <target state="translated">Az Active Directory tartományi szolgáltatások szolgáltatók bármelyikét a DirectoryEntry kapcsolódó osztályok használható.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Some of the current providers are Internet Information Services (IIS), Lightweight Directory Access Protocol (LDAP), Novell NetWare Directory Service (NDS), and WinNT.</source>
+          <target state="translated">Az aktuális szolgáltatók Internet Information Services (IIS), a Lightweight Directory Access Protocol (LDAP), a Novell NetWare Directory Service (NDS) és a Windows NT.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  It is assumed that you have a general understanding of Active Directory Domain Services before using this class.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Feltételezzük, hogy rendelkezik-e ez az osztály használata előtt az Active Directory tartományi szolgáltatások általános ismertetése.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.DirectoryServices?displayProperty=fullName&gt; namespace overview.</source>
+          <target state="translated">További információkért lásd: a &lt;xref:System.DirectoryServices?displayProperty=fullName&gt;névtér áttekintése.&lt;/xref:System.DirectoryServices?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that binds to the specified native Active Directory Domain Services object.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, amely a megadott natív Active Directory tartományi szolgáltatások objektumhoz van kötve.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This constructor enables a program to use the methods and properties of the &lt;xref:System.DirectoryServices.DirectoryEntry&gt; class on a native Active Directory Domain Services object that implements the IADs interface through a native API.</source>
+          <target state="translated">Ez a konstruktor lehetővé teszi, hogy a program a metódusok és tulajdonságainak a &lt;xref:System.DirectoryServices.DirectoryEntry&gt;osztály, amely megvalósítja a IADs felületet natív API-n keresztül natív Active Directory tartományi szolgáltatások-objektum.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the IADs interface, see the topic <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> in the MSDN Library at <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library)</ept>.</source>
+          <target state="translated">A IADs felület kapcsolatos további információkért lásd: a témakör <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> az MSDN-könyvtárban, <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library)</ept>.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>The name of the native Active Directory Domain Services object to bind to.</source>
+          <target state="translated">A natív Active Directory tartományi szolgáltatások objektum lehet kötést létrehozni a neve.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class that binds this instance to the node in Active Directory Domain Services located at the specified path.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály, amely ehhez a példányhoz kötve van a csomópont az Active Directory tartományi szolgáltatásokban a megadott elérési úton található.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>The path at which to bind the DirectoryEntry to the directory.</source>
+          <target state="translated">Az elérési útja, ahol a címtárhoz való kötéshez a DirectoryEntry elemre feloldani a.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt; property is initialized to this value.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt;ezt az értéket a tulajdonság az inicializáláskor felvesz.&lt;/xref:System.DirectoryServices.DirectoryEntry.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The path of this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az elérési útját a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt; property is initialized to this value.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt;ezt az értéket a tulajdonság az inicializáláskor felvesz.&lt;/xref:System.DirectoryServices.DirectoryEntry.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>The user name to use when authenticating the client.</source>
+          <target state="translated">Az ügyfél hitelesítéséhez használt felhasználónév.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Username*&gt; property is initialized to this value.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.Username*&gt;ezt az értéket a tulajdonság az inicializáláskor felvesz.&lt;/xref:System.DirectoryServices.DirectoryEntry.Username*&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The password to use when authenticating the client.</source>
+          <target state="translated">Az ügyfél hitelesítéséhez használt jelszót.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Password*&gt; property is initialized to this value.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.Password*&gt;ezt az értéket a tulajdonság az inicializáláskor felvesz.&lt;/xref:System.DirectoryServices.DirectoryEntry.Password*&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Egy új példányát inicializálja a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> osztály.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>The path of this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az elérési útját a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt; property is initialized to this value.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.Path*&gt;ezt az értéket a tulajdonság az inicializáláskor felvesz.&lt;/xref:System.DirectoryServices.DirectoryEntry.Path*&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>The user name to use when authenticating the client.</source>
+          <target state="translated">Az ügyfél hitelesítéséhez használt felhasználónév.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Username*&gt; property is initialized to this value.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.Username*&gt;ezt az értéket a tulajdonság az inicializáláskor felvesz.&lt;/xref:System.DirectoryServices.DirectoryEntry.Username*&gt;</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>The password to use when authenticating the client.</source>
+          <target state="translated">Az ügyfél hitelesítéséhez használt jelszót.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Password*&gt; property is initialized to this value.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.Password*&gt;ezt az értéket a tulajdonság az inicializáláskor felvesz.&lt;/xref:System.DirectoryServices.DirectoryEntry.Password*&gt;</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.AuthenticationTypes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.DirectoryServices.AuthenticationTypes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékeket.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.AuthenticationType*&gt; property is initialized to this value.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.AuthenticationType*&gt;ezt az értéket a tulajdonság az inicializáláskor felvesz.&lt;/xref:System.DirectoryServices.DirectoryEntry.AuthenticationType*&gt;</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets or sets the type of authentication to use.</source>
+          <target state="translated">Lekérdezi vagy beállítja a hitelesítés típusát.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Prior to <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>, the default value is &lt;xref:System.DirectoryServices.AuthenticationTypes&gt;.</source>
+          <target state="translated">A <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>, az alapértelmezett érték: &lt;xref:System.DirectoryServices.AuthenticationTypes&gt;.&lt;/xref:System.DirectoryServices.AuthenticationTypes&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Beginning with <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>, the default value is &lt;xref:System.DirectoryServices.AuthenticationTypes&gt;.</source>
+          <target state="translated">Kezdve <ph id="ph1">[!INCLUDE[dnprdnlong](~/add/includes/dnprdnlong-md.md)]</ph>, az alapértelmezett érték: &lt;xref:System.DirectoryServices.AuthenticationTypes&gt;.&lt;/xref:System.DirectoryServices.AuthenticationTypes&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.DirectoryServices.AuthenticationTypes"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> values.</source>
+          <target state="translated">Egy a <bpt id="p1">&lt;xref href="System.DirectoryServices.AuthenticationTypes"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> értékeket.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Gets the child entries of this node in the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">A gyermek ennek a csomópontnak bejegyzések lekérdezi az Active Directory tartományi szolgáltatások hierarchia.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The child entries are only the immediate children of this node.</source>
+          <target state="translated">A gyermek a rendszer a csomópont csak a közvetlen gyermekeit.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to find, retrieve, or create a directory entry in the hierarchy.</source>
+          <target state="translated">Ez a tulajdonság használatával található, beolvasása, vagy hozzon létre egy könyvtárat a hierarchiában.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property is a collection that, along with the usual iteration capabilities, provides an &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt; method through which you add a node to the collection directly below the parent node that you are currently bound to.</source>
+          <target state="translated">Ez a tulajdonság gyűjteménye, amely, valamint a szokásos iterációs képességeket biztosít egy &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt;metódus, amelyen keresztül, egy csomópontot a gyűjteményhez hozzáadni kívánt közvetlenül alatt a szülő csomópontban, amely jelenleg kötve.&lt;/xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When adding a node to the collection, you must specify a name for the new node and the name of a schema template that you want to associate with the node.</source>
+          <target state="translated">Amikor csomópontot ad hozzá a gyűjteményhez, meg kell adnia egy nevet az új csomópont, és egy séma-sablon, a csomópont társítani kívánt nevét.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you might want to use a schema titled "Computer" to add new computers to the hierarchy.</source>
+          <target state="translated">Például előfordulhat, hogy használandó séma "Számítógép" című új számítógépek hozzáadása a hierarchiában.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  By default, changes are made locally to a cache.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Alapértelmezés szerint módosításai helyi gyorsítótárhoz.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After you modify or add a node, you must call the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; method to commit your changes in order for them to be saved to the tree.</source>
+          <target state="translated">Ha módosít, vagy vegye fel a csomópont, meg kell hívnia a &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;metódus ahhoz, hogy a fa menthetők a módosítások véglegesítéséhez.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you call &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt; before calling &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;, any uncommitted changes to the property cache will be lost.</source>
+          <target state="translated">Ha meghívja a &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt;hívása előtt &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;, a tulajdonság-gyorsítótár a nem véglegesített módosításokat el fog veszni.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; and &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt; methods, and the &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; property.</source>
+          <target state="translated">További információkért lásd: a &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;és &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt;módszerek, és a &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;tulajdonság.&lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntries"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object containing the child entries of this node in the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntries"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ennek a csomópontnak az Active Directory tartományi szolgáltatások hierarchia gyermek bejegyzéseket tartalmazó objektum.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Closes the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object and releases any system resources that are associated with this component.</source>
+          <target state="translated">Bezárja a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektumra, és kiadja a rendszererőforrások társított ezt az összetevőt.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Call this method to release unmanaged system resources, without waiting for garbage collection.</source>
+          <target state="translated">Ez a metódus nem kezelt rendszererőforrásokat, kibocsátási szemétgyűjtés várakozás nélkül meghívható.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Following a call to Close, any operations on the &lt;xref:System.DirectoryServices.DirectoryEntry&gt; might raise exceptions.</source>
+          <target state="translated">Zárja be, semmilyen hívását követően a &lt;xref:System.DirectoryServices.DirectoryEntry&gt;Kivételek lehet emelni.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Saves changes that are made to a directory entry to the underlying directory store.</source>
+          <target state="translated">A következő könyvtárbejegyzés az alapul szolgáló könyvtár áruház végrehajtott módosítások mentése.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, changes to properties are made locally to a cache, and property values to be read are cached after the first read.</source>
+          <target state="translated">Alapértelmezés szerint tulajdonságok módosul helyileg a gyorsítótárba, és tulajdonságértékeket olvasható gyorsítótárba kerüljenek-e az első olvasott.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;.</source>
+          <target state="translated">További információkért lásd: &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;.&lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Changes made to the cache include changes to the properties as well as calls to &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt; (if this is the newly created entry).</source>
+          <target state="translated">A gyorsítótár módosításai közé tartoznak a tulajdonságainak módosítását, valamint a hívások &lt;xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt;(Ha ez az újonnan létrehozott bejegyzést).&lt;/xref:System.DirectoryServices.DirectoryEntries.Add%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  If you call &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt; before calling CommitChanges, any uncommitted changes to the property cache will be lost.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Hívásakor &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;CommitChanges, mielőtt a tulajdonság-gyorsítótár a nem véglegesített módosításokat el fog veszni.&lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Security      -   Use the &lt;xref:System.DirectoryServices.DirectoryServicesPermission&gt; class for reading, writing, deleting, changing, and adding to the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">Biztonság – használja a &lt;xref:System.DirectoryServices.DirectoryServicesPermission&gt;osztályt, olvasása, írása, törlése, módosítása és az Active Directory tartományi szolgáltatások hierarchia ad hozzá.&lt;/xref:System.DirectoryServices.DirectoryServicesPermission&gt;</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Associated enumeration: &lt;xref:System.DirectoryServices.DirectoryServicesPermissionAccess&gt;.</source>
+          <target state="translated">Kapcsolódó számbavételi: &lt;xref:System.DirectoryServices.DirectoryServicesPermissionAccess&gt;.&lt;/xref:System.DirectoryServices.DirectoryServicesPermissionAccess&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this entry as a child of the specified parent.</source>
+          <target state="translated">Ez a bejegyzés másolatát hozza létre a megadott szülő gyermekeként.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; is <ph id="ph1">`true`</ph>, call &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; on the new object to make the copy permanent.</source>
+          <target state="translated">Ha &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;van <ph id="ph1">`true`</ph>, hívja &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;az állandó másolat új objektumra.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Lightweight Directory Access Protocol (LDAP) provider does not currently support the CopyTo method.</source>
+          <target state="translated">A Lightweight Directory Access Protocol (LDAP) szolgáltató jelenleg nem támogatja a CopyTo metódusának.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>The distinguished name of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that will be the parent for the copy that is being created.</source>
+          <target state="translated">Megkülönböztető nevét, a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely a másolat létrehozása folyamatban van a fölérendelt.</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the copy of this entry as a child of the new parent.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> az új szülőnek gyermekeként Ez a bejegyzés példányát képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not a container.</source>
+          <target state="translated">A megadott <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nincs egy tárolót.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Creates a copy of this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object, as a child of the specified parent <bpt id="p2">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> object, with the specified new name.</source>
+          <target state="translated">Másolat készítése a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, a megadott szülő gyermekeként <bpt id="p2">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> objektum, a megadott új néven.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Lightweight Directory Access Protocol (LDAP) provider does not currently support this method.</source>
+          <target state="translated">A Lightweight Directory Access Protocol (LDAP) szolgáltató jelenleg nem támogatja ezt a módszert.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; is <ph id="ph1">`true`</ph>, call &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; on the new object to make the copy permanent.</source>
+          <target state="translated">Ha &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;van <ph id="ph1">`true`</ph>, hívja &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;az állandó másolat új objektumra.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The DN of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that will be the parent for the copy that is being created.</source>
+          <target state="translated">A megkülönböztető a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely a másolat létrehozása folyamatban van a fölérendelt.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The name of the copy of this entry.</source>
+          <target state="translated">Ez a bejegyzés példányának neve.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>A renamed copy of this entry as a child of the specified parent.</source>
+          <target state="translated">Ez a bejegyzés a megadott szülő gyermekeként átnevezett másolatát.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is not a container.</source>
+          <target state="translated">A megadott <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum nincs a tároló.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>Deletes this entry and its entire subtree from the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">Törli ezt a bejegyzést, és az ahhoz tartozó teljes részfát a Active Directory tartományi szolgáltatásokban történő.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Of the Active Directory Service Interfaces (ADSI) system-supplied providers, only the Lightweight Directory Access Protocol (LDAP) currently supports this operation.</source>
+          <target state="translated">Az Active Directory Service Interfaces (ADSI) rendszer által megadott szolgáltatót csak a Lightweight Directory Access Protocol (LDAP) jelenleg ezt a műveletet.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  The entry and its entire subtree are deleted from the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; A bejegyzést, és az ahhoz tartozó teljes részfát a Active Directory tartományi szolgáltatásokban történő törlődnek.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Security      -   Use &lt;xref:System.DirectoryServices.DirectoryServicesPermission&gt; for deleting entries from the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">Biztonság – használata &lt;xref:System.DirectoryServices.DirectoryServicesPermission&gt;a Active Directory tartományi szolgáltatásokban történő tételek törlésére vonatkozó.&lt;/xref:System.DirectoryServices.DirectoryServicesPermission&gt;</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Associated enumeration: &lt;xref:System.DirectoryServices.DirectoryServicesPermissionAccess?displayProperty=fullName&gt;.</source>
+          <target state="translated">Kapcsolódó számbavételi: &lt;xref:System.DirectoryServices.DirectoryServicesPermissionAccess?displayProperty=fullName&gt;.&lt;/xref:System.DirectoryServices.DirectoryServicesPermissionAccess?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not a container.</source>
+          <target state="translated">A megadott <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nincs egy tárolót.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>Disposes of the resources (other than memory) that are used by the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az erőforrások (eltérő memória) által használt megválik az <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method is called by the public &lt;xref:System.ComponentModel.Component.Dispose%2A&gt; method and the &lt;xref:System.Object.Finalize%2A&gt; method.</source>
+          <target state="translated">Ezt a módszert nevezik nyilvános &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;metódus és a &lt;xref:System.Object.Finalize%2A&gt;metódus.&lt;/xref:System.Object.Finalize%2A&gt; &lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.ComponentModel.Component.Dispose%2A&gt; invokes the protected Dispose method with the <ph id="ph1">`disposing`</ph> parameter set to <ph id="ph2">`true`</ph>.</source>
+          <target state="translated">&lt;xref:System.ComponentModel.Component.Dispose%2A&gt;a védett Dispose metódus meghívja a <ph id="ph1">`disposing`</ph> paraméter <ph id="ph2">`true`</ph>.&lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Object.Finalize%2A&gt; invokes &lt;xref:System.ComponentModel.Component.Dispose%2A&gt; with <ph id="ph1">`disposing`</ph> set to <ph id="ph2">`false`</ph>.</source>
+          <target state="translated">&lt;xref:System.Object.Finalize%2A&gt;Elindítja a &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;rendelkező <ph id="ph1">`disposing`</ph> beállítása <ph id="ph2">`false`</ph>.&lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;&lt;/xref:System.Object.Finalize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`true`</ph>, this method releases all resources that are held by any managed objects that this &lt;xref:System.DirectoryServices.DirectoryEntry&gt; object references.</source>
+          <target state="translated">Ha a <ph id="ph1">`disposing`</ph> paraméter <ph id="ph2">`true`</ph>, ez a módszer kiadott összes erőforrást, amely a felügyelt objektumok tartja fenn, amelyhez a &lt;xref:System.DirectoryServices.DirectoryEntry&gt;objektum hivatkozik.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the &lt;xref:System.ComponentModel.Component.Dispose%2A&gt; method of each referenced object.</source>
+          <target state="translated">Ez a metódus meghívja a &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;minden hivatkozott metódusa.&lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the &lt;xref:System.ComponentModel.Component.Dispose%2A&gt; and &lt;xref:System.Object.Finalize%2A&gt; methods, see <bpt id="p1">[</bpt>Overriding the Finalize Method<ept id="p1">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.</source>
+          <target state="translated">További információ a &lt;xref:System.ComponentModel.Component.Dispose%2A&gt;és &lt;xref:System.Object.Finalize%2A&gt;módszerek, lásd: <bpt id="p1">[</bpt>véglegesítése metódus felülbírálása<ept id="p1">](http://msdn.microsoft.com/en-us/8026cb68-fe93-43fc-96c1-c09ad7d64cd3)</ept>.&lt;/xref:System.Object.Finalize%2A&gt; &lt;/xref:System.ComponentModel.Component.Dispose%2A&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to release both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> to release only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>a kibocsátási felügyelt és a nem felügyelt erőforrások; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> csak a nem felügyelt erőforrások kijelölése.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Determines if the specified path represents an actual entry in the directory service.</source>
+          <target state="translated">Azt határozza meg, ha a megadott elérési út egy bejegyzésnek tényleges a címtárszolgáltatásban.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>The path of the entry to verify.</source>
+          <target state="translated">A bejegyzés ellenőrzése elérési útját.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the specified path represents a valid entry in the directory service; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a megadott elérési út érvényes bejegyzés a címtárszolgáltatásban; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets the GUID of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Lekérdezi a GUID azonosítója a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When binding to an object in Active Directory Domain Services, use the &lt;xref:System.DirectoryServices.DirectoryEntry.NativeGuid%2A&gt; property.</source>
+          <target state="translated">Az objektum az Active Directory tartományi szolgáltatásokban való kötés, használja a &lt;xref:System.DirectoryServices.DirectoryEntry.NativeGuid%2A&gt;tulajdonság.&lt;/xref:System.DirectoryServices.DirectoryEntry.NativeGuid%2A&gt;</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; structure that represents the GUID of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A &lt;xref:System.Guid&gt;képviselő GUID-struktúra a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>Calls a method on the native Active Directory Domain Services object.</source>
+          <target state="translated">A metódus meghívja az Active Directory tartományi szolgáltatások natív objektum.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the return value of the native method implements the IADs interface, a corresponding &lt;xref:System.DirectoryServices.DirectoryEntry&gt; is returned.</source>
+          <target state="translated">Ha az eredményül kapott értéket a natív metódus valósítja meg a IADs felületén, a megfelelő &lt;xref:System.DirectoryServices.DirectoryEntry&gt;adja vissza.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the IADs interface, see the topic <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> in the MSDN Library at <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept>.</source>
+          <target state="translated">A IADs felület kapcsolatos további információkért lásd: a témakör <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> az MSDN-könyvtárban, <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept>.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The name of the method to invoke.</source>
+          <target state="translated">A meghívni kívánt metódus nevét.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>An array of type &lt;xref:System.Object&gt; objects that contains the arguments of the method to invoke.</source>
+          <target state="translated">Típusú tömb &lt;xref:System.Object&gt;objektum, amely tartalmazza a meghívni kívánt metódus argumentumaként.&lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>The return value of the invoked method.</source>
+          <target state="translated">A meghívott metódus visszatérési értéke.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>The native method threw a &lt;xref:System.Runtime.InteropServices.COMException&gt; exception.</source>
+          <target state="translated">A natív metódus kivételt váltott ki a &lt;xref:System.Runtime.InteropServices.COMException&gt;kivétel.&lt;/xref:System.Runtime.InteropServices.COMException&gt;</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>The native method threw a &lt;xref:System.Reflection.TargetInvocationException&gt; exception.</source>
+          <target state="translated">A natív metódus kivételt váltott ki a &lt;xref:System.Reflection.TargetInvocationException&gt;kivétel.&lt;/xref:System.Reflection.TargetInvocationException&gt;</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Exception.InnerException*&gt; property contains a &lt;xref:System.Runtime.InteropServices.COMException&gt; exception that contains information about the actual error that occurred.</source>
+          <target state="translated">A &lt;xref:System.Exception.InnerException*&gt;tulajdonsága tartalmazza a &lt;xref:System.Runtime.InteropServices.COMException&gt;, amely tartalmazza a tényleges hiba történt kivétel.&lt;/xref:System.Runtime.InteropServices.COMException&gt; &lt;/xref:System.Exception.InnerException*&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>Gets a property from the native Active Directory Domain Services object.</source>
+          <target state="translated">A tulajdonság lekérése az Active Directory tartományi szolgáltatások natív objektum.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should not be used.</source>
+          <target state="translated">Ez a metódus nem használható.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt; property should be used to access the properties of the &lt;xref:System.DirectoryServices.DirectoryEntry&gt; object.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt;tulajdonság tulajdonságainak eléréséhez használandó a &lt;xref:System.DirectoryServices.DirectoryEntry&gt;objektum.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>The name of the property to get.</source>
+          <target state="translated">A tulajdonság használatával beolvassa a neve.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>An object that represents the requested property.</source>
+          <target state="translated">A kért tulajdonság képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Sets a property on the native Active Directory Domain Services object.</source>
+          <target state="translated">Beállítja az Active Directory tartományi szolgáltatások natív objektum.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method should not be used.</source>
+          <target state="translated">Ez a metódus nem használható.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt; property should be used to access the properties of the &lt;xref:System.DirectoryServices.DirectoryEntry&gt; object.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt;tulajdonság tulajdonságainak eléréséhez használandó a &lt;xref:System.DirectoryServices.DirectoryEntry&gt;objektum.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.Properties%2A&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>The name of the property to set.</source>
+          <target state="translated">A beállítandó tulajdonság nevét.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The Active Directory Domain Services object to set.</source>
+          <target state="translated">Az Active Directory tartományi szolgáltatások objektumon.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Moves this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the specified parent.</source>
+          <target state="translated">Áthelyezi a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott szülő objektumot.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; is <ph id="ph1">`true`</ph>, call the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; method on the new object to make the move permanent.</source>
+          <target state="translated">Ha &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;van <ph id="ph1">`true`</ph>, hívja az &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;metódus olyan objektumon, a lépés elvégzéséhez állandó új.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>The parent to which you want to move this entry.</source>
+          <target state="translated">A szülő, amelyhez ez a bejegyzés áthelyezni kívánt.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not a container.</source>
+          <target state="translated">A megadott <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nincs egy tárolót.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Moves this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to the specified parent and changes its name to the specified value.</source>
+          <target state="translated">Áthelyezi a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a megadott szülő objektumot, és módosítja a nevét a megadott érték.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; is <ph id="ph1">`true`</ph>, call &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; on the new object to make the move permanent.</source>
+          <target state="translated">Ha &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;van <ph id="ph1">`true`</ph>, hívja &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;az új objektum állandó a lépés elvégzéséhez.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The parent to which you want to move this entry.</source>
+          <target state="translated">A szülő, amelyhez ez a bejegyzés áthelyezni kívánt.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>The new name of this entry.</source>
+          <target state="translated">Ez a bejegyzés új neve.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The specified <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is not a container.</source>
+          <target state="translated">A megadott <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> nincs egy tárolót.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets the name of the object as named with the underlying directory service.</source>
+          <target state="translated">Lekérdezi az objektum neve, mert az alapul szolgáló címtárszolgáltatás nevű.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This name, along with &lt;xref:System.DirectoryServices.DirectoryEntry.SchemaClassName%2A&gt;, distinguishes this entry from its siblings and must be unique among its siblings in each container.</source>
+          <target state="translated">Ez nevével, jelszavat &lt;xref:System.DirectoryServices.DirectoryEntry.SchemaClassName%2A&gt;, ez a bejegyzés megkülönbözteti a testvérei, és az egyes tárolókban testvérei egyedinek kell lennie.&lt;/xref:System.DirectoryServices.DirectoryEntry.SchemaClassName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The name of the object as named with the underlying directory service.</source>
+          <target state="translated">Mivel a mögöttes címtárszolgáltatás nevű objektum neve.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>Gets the GUID of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, as returned from the provider.</source>
+          <target state="translated">Lekérdezi a GUID azonosítója a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, a szolgáltató által visszaadott formában.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the NativeGuid property when binding an object in Active Directory Domain Services.</source>
+          <target state="translated">A NativeGuid tulajdonsággal kötés egy objektumot az Active Directory tartományi szolgáltatásokban.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Lightweight Directory Access Protocol (LDAP) provider returns the globally unique identifier of a &lt;xref:System.DirectoryServices.DirectoryEntry&gt; in a different format than the Internet Information Services (IIS), Novell NetWare Directory Server (NDS), and WinNT providers.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; A Lightweight Directory Access Protocol (LDAP) szolgáltató globálisan egyedi azonosítóját adja vissza egy &lt;xref:System.DirectoryServices.DirectoryEntry&gt;különböző formátumú, mint az Internet Information Services (IIS), a Novell NetWare Directory Server (NDS) és a Windows NT-szolgáltatók.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Guid&gt; structure that represents the GUID of the <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, as returned from the provider.</source>
+          <target state="translated">A &lt;xref:System.Guid&gt;képviselő GUID-struktúra a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>, mert a szolgáltató által visszaadott.&lt;/xref:System.Guid&gt;</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>Gets the native Active Directory Service Interfaces (ADSI) object.</source>
+          <target state="translated">Lekérdezi a natív Active Directory Service Interfaces (ADSI) objektum.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to cast the native Active Directory Domain Services object, which implements the IADs interface, when you want to use a COM interface.</source>
+          <target state="translated">Használja ezt a tulajdonságot a natív Active Directory tartományi szolgáltatások objektum, amikor egy COM-illesztőfelület használni kívánt IADs felület implementálását.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about the IADs interface, see the topic <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> in the MSDN Library at <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept>.</source>
+          <target state="translated">A IADs felület kapcsolatos további információkért lásd: a témakör <bpt id="p1">[</bpt>IADs<ept id="p1">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept> az MSDN-könyvtárban, <bpt id="p2">[</bpt>http://msdn.microsoft.com/library<ept id="p2">](http://msdn.microsoft.com/library/default.asp?url=/library/adsi/adsi/iads.asp)</ept>.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This object is for advanced scenarios that cannot be accomplished with the &lt;xref:System.DirectoryServices?displayProperty=fullName&gt; classes alone.</source>
+          <target state="translated">Speciális forgatókönyvek esetén, amelyek nem végezhető el ez az objektum van az &lt;xref:System.DirectoryServices?displayProperty=fullName&gt;csak osztályok.&lt;/xref:System.DirectoryServices?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To use it, you need to import one of the COM interfaces from the IADs family, then cast this property to that interface.</source>
+          <target state="translated">A használatához szüksége a IADs termékcsalád importálása a COM-illesztőfelület egyik, majd ezt a tulajdonságot, hogy a illesztő konvertálni.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>The native ADSI object.</source>
+          <target state="translated">A natív ADSI objektum.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets or sets the security descriptor for this entry.</source>
+          <target state="translated">Lekérdezi vagy beállítja a bejegyzés a biztonsági leírót.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectorySecurity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the security descriptor for this directory entry.</source>
+          <target state="translated">Egy <bpt id="p1">&lt;xref href="System.DirectoryServices.ActiveDirectorySecurity"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> biztonsági leíróját a következő könyvtárbejegyzés képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>Gets the provider-specific options for this entry.</source>
+          <target state="translated">Lekérdezi a szolgáltatói beállításokat a bejegyzés.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntryConfiguration"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the provider-specific options for this entry.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntryConfiguration"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely tartalmazza a szolgáltatói beállításokat a bejegyzés.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source>Gets this entry's parent in the Active Directory Domain Services hierarchy.</source>
+          <target state="translated">Ez a bejegyzés szülő lekérdezi az Active Directory tartományi szolgáltatások hierarchiában.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the parent of this entry.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Ez a bejegyzés szülőjének képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source>Sets the password to use when authenticating the client.</source>
+          <target state="translated">Beállítja az ügyfél hitelesítéséhez használt jelszót.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the &lt;xref:System.DirectoryServices.DirectoryEntry.Username%2A&gt; and Password properties to specify alternate credentials with which to access the information in Active Directory Domain Services.</source>
+          <target state="translated">Beállíthatja a &lt;xref:System.DirectoryServices.DirectoryEntry.Username%2A&gt;és jelszó tulajdonságokat meg alternatív hitelesítő adatok, amelyekkel hozzáférhet az Active Directory tartományi szolgáltatásokban.&lt;/xref:System.DirectoryServices.DirectoryEntry.Username%2A&gt;</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any other &lt;xref:System.DirectoryServices.DirectoryEntry&gt; objects retrieved from this instance (for example, through &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;) are automatically created with the same alternate credentials.</source>
+          <target state="translated">Bármely más &lt;xref:System.DirectoryServices.DirectoryEntry&gt;objektumok veszi át ezt a példányt (például keresztül &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;) automatikusan létrejönnek az azonos más hitelesítő adatokkal.&lt;/xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>The password to use when authenticating the client.</source>
+          <target state="translated">Az ügyfél hitelesítéséhez használt jelszót.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Gets or sets the path for this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Lekérdezi vagy beállítja azt az elérési út a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>The path of this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Az elérési útját a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The default is an empty string ("").</source>
+          <target state="translated">Az alapértelmezett érték egy üres karakterlánc ("").</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Gets the Active Directory Domain Services properties for this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Active Directory tartományi szolgáltatások tulajdonságait olvassa be a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the property is not initialized, Properties calls the ADSI interface <bpt id="p1">[</bpt>IADs::Get<ept id="p1">](http://msdn2.microsoft.com/library/aa746347.aspx)</ept> method to retrieve the value from the cache.</source>
+          <target state="translated">Ha a tulajdonság nincs inicializálva, tulajdonságok meghívja az ADSI felület <bpt id="p1">[</bpt>IADs::Get<ept id="p1">](http://msdn2.microsoft.com/library/aa746347.aspx)</ept> metódus használatával kikeresheti az értéket a gyorsítótárból.</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the underling cache has not been loaded, <bpt id="p1">[</bpt>IADs::Get<ept id="p1">](http://msdn2.microsoft.com/library/aa746347.aspx)</ept> implicitly calls <bpt id="p2">[</bpt>IADs::GetInfo<ept id="p2">](http://msdn2.microsoft.com/library/aa746349.aspx)</ept>.</source>
+          <target state="translated">Ha a underling gyorsítótár nem lett betöltve, <bpt id="p1">[</bpt>IADs::Get<ept id="p1">](http://msdn2.microsoft.com/library/aa746347.aspx)</ept> implicit módon hívja <bpt id="p2">[</bpt>IADs::GetInfo<ept id="p2">](http://msdn2.microsoft.com/library/aa746349.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method loads the values of the supported properties that have not been set in the cache from the underlying directory store.</source>
+          <target state="translated">Ez a metódus nincs beállítva az alapul szolgáló könyvtár store-ból a gyorsítótárban támogatott tulajdonságok értékeit tölti be.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent calls to Properties retrieves the property values in the cache only.</source>
+          <target state="translated">További tulajdonságok hívások tulajdonságértékeket kér a csak a gyorsítótárban.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To control property cache loading, call &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;.</source>
+          <target state="translated">Tulajdonság-gyorsítótár betöltése szabályozásához hívja meg a &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;.&lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Note<ept id="p1">**</ept> The Properties property is not supported for use with the Active Directory Client Extension (DSClient) for <ph id="ph1">[!INCLUDE[WinNt4Family](~/add/includes/ajax-current-ext-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Megjegyzés:<ept id="p1">**</ept> a Properties tulajdonság nem támogatott az Active Directory-ügyfél bővítmény (DSClient) való használatra <ph id="ph1">[!INCLUDE[WinNt4Family](~/add/includes/ajax-current-ext-md.md)]</ph>.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.PropertyCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the properties that are set on this entry.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.PropertyCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum, amely tartalmazza a tulajdonságokat, amelyeket ez a bejegyzés van beállítva.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Loads the property values for this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object into the property cache.</source>
+          <target state="translated">Ez betölti a tulajdonságértékek <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum a tulajdonság-gyorsítótárba.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Loads the values of the specified properties into the property cache.</source>
+          <target state="translated">A megadott tulajdonságok értékeit betölti a tulajdonság-gyorsítótárba.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>An array of the specified properties.</source>
+          <target state="translated">A megadott tulajdonságok tömbjét.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source>Changes the name of this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Ez a neve megváltozik <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">&gt; [!NOTE]</ph> &gt;  This will also affect the path that is used to refer to this entry.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph>&gt; Ez milyen hatással van a utal, hogy ez a bejegyzés használt elérési utat is.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt; is <ph id="ph1">`true`</ph>, be sure to call the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; method on the new object to make the move permanent.</source>
+          <target state="translated">Ha &lt;xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;van <ph id="ph1">`true`</ph>, ügyeljen arra, hogy a hívás a &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;metódus olyan objektumon, a lépés elvégzéséhez állandó új.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.UsePropertyCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The new name of the entry.</source>
+          <target state="translated">A bejegyzés új nevét.</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Gets the name of the schema class for this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">Lekérdezi a séma osztály nevét a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the same as the &lt;xref:System.DirectoryServices.DirectoryEntry.Name%2A&gt; property of the &lt;xref:System.DirectoryServices.DirectoryEntry.SchemaEntry%2A&gt; property.</source>
+          <target state="translated">Ez megegyezik a &lt;xref:System.DirectoryServices.DirectoryEntry.Name%2A&gt;tulajdonsága a &lt;xref:System.DirectoryServices.DirectoryEntry.SchemaEntry%2A&gt;tulajdonság.&lt;/xref:System.DirectoryServices.DirectoryEntry.SchemaEntry%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A &lt;xref:System.DirectoryServices.DirectoryEntry&gt; object's schema defines its properties and methods.</source>
+          <target state="translated">A &lt;xref:System.DirectoryServices.DirectoryEntry&gt;objektum séma határozza meg a tulajdonságokat és metódusokat.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>The name of the schema class for this <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">A séma osztály nevét a <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objektum.</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>Gets the schema object for this entry.</source>
+          <target state="translated">Ez a bejegyzés a séma objektum beolvasása.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An entry's schema determines a list of its mandatory and optional property names.</source>
+          <target state="translated">Egy bejegyzést séma határozza meg a kötelező és választható tulajdonság neveinek listáját.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use this property to find out what properties and methods are available on the associated object.</source>
+          <target state="translated">Ez a tulajdonság segítségével megtudhatja, milyen tulajdonságok és metódusok érhetők el a társított objektum.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that represents the schema class for this entry.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.DirectoryServices.DirectoryEntry"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> a bejegyzés a séma osztály képviselő objektum.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value indicating whether the cache should be committed after each operation.</source>
+          <target state="translated">Lekérdezi vagy beállítja egy érték, amely jelzi, hogy a gyorsítótár legyen véglegesített minden művelet után.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve" extradata="MT">
+          <source>By default, changes to properties are made locally to a cache, and property values to be read are cached after the first read.</source>
+          <target state="translated">Alapértelmezés szerint tulajdonságok módosul helyileg a gyorsítótárba, és tulajdonságértékeket olvasható gyorsítótárba kerüljenek-e az első olvasott.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the UsePropertyCache property is <ph id="ph1">`true`</ph>, access to the &lt;xref:System.DirectoryServices.DirectoryEntry&gt; object's properties is faster.</source>
+          <target state="translated">A UsePropertyCache tulajdonság esetén <ph id="ph1">`true`</ph>, a hozzáférést a &lt;xref:System.DirectoryServices.DirectoryEntry&gt;objektum tulajdonságainak gyorsabb.&lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Setting this to <ph id="ph1">`false`</ph> will cause the cache to be committed after each operation.</source>
+          <target state="translated">Ezt a beállítást <ph id="ph1">`false`</ph> következtében a gyorsítótár az egyes műveletek után véglegesíthető.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the UsePropertyCache property is <ph id="ph1">`true`</ph> and you want to commit cached changes, call the &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; method.</source>
+          <target state="translated">Ha a UsePropertyCache tulajdonság <ph id="ph1">`true`</ph> és gyorsítótárazott véglegesítési módosításokat szeretne hívja meg a &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;metódus.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To update values in the cache after changes to the directory are made, call the &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt; method.</source>
+          <target state="translated">Frissítse az értékeket a gyorsítótárban, a könyvtár módosítások után, hívja meg a &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;metódus.&lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!CAUTION]</ph> &gt;  If you call &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt; before calling &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;, any uncommitted changes to the property cache will be lost.</source>
+          <target state="translated">&gt; <ph id="ph1">[!CAUTION]</ph> &gt; Hívásakor &lt;xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;hívása előtt &lt;xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt;, a tulajdonság-gyorsítótár a nem véglegesített módosításokat el fog veszni.&lt;/xref:System.DirectoryServices.DirectoryEntry.CommitChanges%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry.RefreshCache%2A&gt;</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The Internet Information Services (IIS) provider does not support committing the cache after each operation.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Az Internet Information Services (IIS) a szolgáltató nem támogatja a gyorsítótár véglegesítése után minden művelethez.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the cache should not be committed after each operation; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Ha a gyorsítótár nem lehet véglegesíteni után minden művelet; Ellenkező esetben <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Az alapértelmezett érték <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source>Gets or sets the user name to use when authenticating the client.</source>
+          <target state="translated">Lekérdezi vagy beállítja a felhasználó nevét, az ügyfél hitelesítéséhez használt.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can set the Username and &lt;xref:System.DirectoryServices.DirectoryEntry.Password%2A&gt; in order to specify alternate credentials with which to access the information in Active Directory Domain Services.</source>
+          <target state="translated">Beállíthatja, hogy a felhasználónév és &lt;xref:System.DirectoryServices.DirectoryEntry.Password%2A&gt;ahhoz, hogy adjon meg más hitelesítő adatokat, amellyel hozzáférhet az adatokhoz, az Active Directory tartományi szolgáltatásokban.&lt;/xref:System.DirectoryServices.DirectoryEntry.Password%2A&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any other &lt;xref:System.DirectoryServices.DirectoryEntry&gt; objects retrieved from this instance (for example, through &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;) are automatically created with the same alternate credentials.</source>
+          <target state="translated">Bármely más &lt;xref:System.DirectoryServices.DirectoryEntry&gt;objektumok veszi át ezt a példányt (például keresztül &lt;xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt;) automatikusan létrejönnek az azonos más hitelesítő adatokkal.&lt;/xref:System.DirectoryServices.DirectoryEntry.Children%2A&gt; &lt;/xref:System.DirectoryServices.DirectoryEntry&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source>The user name to use when authenticating the client.</source>
+          <target state="translated">Az ügyfél hitelesítéséhez használt felhasználónév.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
