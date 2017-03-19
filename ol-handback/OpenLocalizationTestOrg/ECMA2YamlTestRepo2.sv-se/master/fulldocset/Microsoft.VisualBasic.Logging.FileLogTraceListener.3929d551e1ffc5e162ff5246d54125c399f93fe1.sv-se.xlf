@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="sv-se">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">39a12a0be31ddb2a245f9bee1eedb0f7d1bc68d7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.VisualBasic.Logging.FileLogTraceListener.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b81a2c00d5a29c06bfef2f6ec61b0d388a9edd2f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55f4a00e9af3ca035a94b0be2aab8efde96d17b4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a simple listener that directs logging output to file.</source>
+          <target state="translated">Tillhandahåller en enkel lyssnare som leder loggning utdata till fil.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FileLogTraceListener class provides automated maintenance capabilities to archive log files as needed, on a daily or per-application basis.</source>
+          <target state="translated">Klassen FileLogTraceListener ger automatisk Underhåll funktioner för att arkivera loggfiler på dagsvis eller per program.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This automatic archival functionality helps reduce the maintenance responsibilities of developers and administrators.</source>
+          <target state="translated">Funktionen för automatisk arkivering hjälper till att minska Underhåll ansvaret för utvecklare och administratörer.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance of FileLogTraceListener can be added to the &lt;xref:System.Diagnostics.Debug.Listeners%2A?displayProperty=fullName&gt; or &lt;xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt; collections to redirect output from logging to a text file.</source>
+          <target state="translated">En instans av FileLogTraceListener kan läggas till i &lt;xref:System.Diagnostics.Debug.Listeners%2A?displayProperty=fullName&gt;eller &lt;xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt;samlingar för att dirigera om utdata från loggning till en textfil.&lt;/xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt; &lt;/xref:System.Diagnostics.Debug.Listeners%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instances of this class can also be added to <ph id="ph1">`My.Application.Log`</ph> or <ph id="ph2">`My.Log`</ph> (for Web applications) in <ph id="ph3">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph> applications.</source>
+          <target state="translated">Instanser av den här klassen kan också läggas till <ph id="ph1">`My.Application.Log`</ph> eller <ph id="ph2">`My.Log`</ph> (för webbprogram) i <ph id="ph3">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph> program.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Walkthrough: Changing Where My.Application.Log Writes Information<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">`.`</ph>       The main features of this class are:      1.</source>
+          <target state="translated">Mer information finns i <bpt id="p1">[</bpt>genomgång: ändra där My.Application.Log skriver Information<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> <ph id="ph1">`.`</ph> de viktigaste funktionerna i den här klassen är: 1.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">*</bpt>Archival functionality<ept id="p1">*</ept>.</source>
+          <target state="translated"><bpt id="p1">*</bpt>Arkivering funktioner<ept id="p1">*</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The log files generated by this class are named according to the base name and the date, along with a number to distinguish the log file from successive versions of the log.</source>
+          <target state="translated">Loggfiler som skapas av den här klassen är namngivna enligt det grundläggande namnet och det datum då, tillsammans med en siffra och skilja loggfilen från efterföljande versioner av loggen.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>New log files are created on an as-needed basis.</source>
+          <target state="translated">Nya loggfiler skapas på en efter behov.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The explicit form of the file name is <ph id="ph1">`baseName`</ph>[-<ph id="ph2">`dateStamp`</ph>][-<ph id="ph3">`version`</ph>].log, where:          -   The <ph id="ph4">`baseName`</ph> part is the fundamental log name, specified by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt; property.</source>
+          <target state="translated">Den explicita formen av filnamnet är <ph id="ph1">`baseName`</ph>[-<ph id="ph2">`dateStamp`</ph>] [-<ph id="ph3">`version`</ph>] .log, där: – <ph id="ph4">`baseName`</ph> delen är den grundläggande loggnamn som anges av den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt;egenskapen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`dateStamp`</ph> part has the format "YYYY-MM-DD", and it is shown when &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt; is &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; or &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;.</source>
+          <target state="translated">- <ph id="ph1">`dateStamp`</ph> Del har formatet "Åååå-MM-DD" och visas när &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;eller &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If more than one log file is needed with the same <ph id="ph1">`baseName`</ph> and <ph id="ph2">`dateStamp`</ph>, the <ph id="ph3">`version`</ph> part, a positive <ph id="ph4">`Integer`</ph>, is added to the file name.</source>
+          <target state="translated">-Om det behövs mer än en loggfil med samma <ph id="ph1">`baseName`</ph> och <ph id="ph2">`dateStamp`</ph>, <ph id="ph3">`version`</ph> tillhör en positiv <ph id="ph4">`Integer`</ph>, har lagts till i filnamnet.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">*</bpt>Multiple class instances<ept id="p1">*</ept>.</source>
+          <target state="translated"><bpt id="p1">*</bpt>Flera klassinstanser<ept id="p1">*</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an instance of the FileLogTraceListener class writes to a file that is in use:          -   The class shares the file if it is being used by another instance of the FileLogTraceListener class in the same process.</source>
+          <target state="translated">Om en instans av klassen FileLogTraceListener skriver till en fil som används:-klassen delar filen om den används av en annan instans av klassen FileLogTraceListener i samma process.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The class creates a new log file using the next available name if the file is being used by another process.</source>
+          <target state="translated">-Klassen skapas en ny loggfil med hjälp av nästa tillgängliga namnet om filen används av en annan process.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">*</bpt>Thread safety<ept id="p1">*</ept>.</source>
+          <target state="translated"><bpt id="p1">*</bpt>Trådsäkerhet<ept id="p1">*</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FileLogTraceListener class is thread safe.</source>
+          <target state="translated">Klassen FileLogTraceListener är trådsäkra.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows you to safely write messages to the log from multiple threads without using locks.</source>
+          <target state="translated">På så sätt kan du på ett säkert sätt skriva meddelanden till loggen från flera trådar utan att använda lås.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Log-File Location<ept id="p1">**</ept>      -   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt; property takes a &lt;xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt; enumeration to specify one of the typical directories to write the log file to.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Loggfilen plats<ept id="p1">**</ept> – &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt;egenskap tar en &lt;xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt;uppräkningen för att ange en av de vanliga kataloger att skriva till loggfilen.&lt;/xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   To write the log to another location, set the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.CustomLocation%2A&gt; property to that location.</source>
+          <target state="translated">-Om du vill skriva loggfilen till en annan plats, ange den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.CustomLocation%2A&gt;egenskapen på den platsen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.CustomLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Log-File Name<ept id="p1">**</ept>      -   The base name for the log file is specified by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt; property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Namn på loggfilen<ept id="p1">**</ept> -huvudnamnet för loggfilen anges av den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt;egenskapen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The current log file name can be read from the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt; property.</source>
+          <target state="translated">-Aktuella loggfilens namn kan läsas från den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;egenskapen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is derived from several other properties and the current state of the logs in the file system.</source>
+          <target state="translated">Den härleds från flera egenskaper och det aktuella tillståndet i loggar i filsystemet.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Log Maintenance<ept id="p1">**</ept>      -   The minimum frequency for creating new log files is determined by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt; property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Logga Underhåll<ept id="p1">**</ept> -den lägsta frekvensen för att skapa nya loggfiler bestäms av den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;egenskapen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the value is &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; or &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;, a new log file is created at least once every day or week, and a date stamp is incorporated into the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt; name.</source>
+          <target state="translated">När värdet är &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;eller &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;, en ny loggfil skapas minst en gång varje dag eller en vecka och en datumstämpel ingår i den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;namn.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The maximum size (in bytes) of the log file is determined by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt; property.</source>
+          <target state="translated">-Maximal storlek (i byte) för loggfilen bestäms av den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;egenskapen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the log file size exceeds this size, additional messages written to the log are discarded and, depending on the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; property, an exception is thrown.</source>
+          <target state="translated">Om loggfilens storlek överskrider den här storleken ytterligare meddelanden i loggen är borttagna och, beroende på den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;egenskapen genereras ett undantag.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt; property determines how much free space (in bytes) must be available.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;Egenskapen anger hur mycket ledigt utrymme (i byte) måste vara tillgänglig.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This helps ensure that the FileLogTraceListener class will not consume all available disk space.</source>
+          <target state="translated">Detta säkerställer att klassen FileLogTraceListener inte kommer att använda allt tillgängligt diskutrymme.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; property to specify the behavior of log writes when there are less than &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt; bytes free.</source>
+          <target state="translated">Använd den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;att ange beteendet för log skriver när det finns mindre än &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;byte ledigt.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Log-File Output Settings<ept id="p1">**</ept>      -   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.AutoFlush%2A&gt; property specifies whether the underlying stream should be flushed automatically after each write to the log file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Inställningar för loggfilen utdata<ept id="p1">**</ept> – &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.AutoFlush%2A&gt;egenskap anger om den underliggande dataströmmen ska rensas automatiskt efter varje skrivning till loggfilen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.AutoFlush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Append%2A&gt; property specifies whether to append messages to the current log file, if allowed, or write them to a new log file.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Append%2A&gt;Egenskap anger om du vill lägga till meddelanden i den aktuella loggfilen om eller skriva dem till en ny loggfil.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Append%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt; property specifies the string to use for delimiting the fields within a log message.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;Egenskapen anger strängen som ska användas för avgränsar fält inom ett loggmeddelande.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Encoding%2A&gt; property specifies the encoding to use when creating a new log file.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Encoding%2A&gt;Egenskapen anger kodning som ska användas när du skapar en ny loggfil.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Encoding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Log-File Output<ept id="p1">**</ept>      -   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt; and &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt; methods write messages to the log file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Loggfilen utdata<ept id="p1">**</ept> – &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;och &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt;metoder skriva meddelanden till loggfilen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These methods check the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt; property, along with any existing logs with the same base name to determine if a new log should be created.</source>
+          <target state="translated">Dessa metoder Kontrollera den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;egenskapen tillsammans med alla befintliga loggar med samma grundläggande namn att avgöra om en ny loggfil skapas.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt; method flushes any messages currently in the output buffer to the log file.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt;Metoden rensar alla meddelanden som finns i utdatabufferten till loggfilen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt; method closes the log file so that it can be used by other processes.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt;Metod stänger loggfilen så att den kan användas av andra processer.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Enabling Output<ept id="p1">**</ept>       You must enable tracing or debugging to use a trace listener.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Aktivera utgående<ept id="p1">**</ept> måste du aktivera spårning eller felsökning om du vill använda en spårningslyssnaren.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following syntax is compiler specific.</source>
+          <target state="translated">Följande syntax är kompileraren specifika.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you use compilers other than C# or <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, refer to the documentation for your compiler.</source>
+          <target state="translated">Om du använder kompilerare än C# eller <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, finns i dokumentationen för din kompilator.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   To enable debugging in C#, add the <ph id="ph1">`/d:DEBUG`</ph> flag to the compiler command line when you compile your code, or you can add <ph id="ph2">`#define DEBUG`</ph> to the top of your file.</source>
+          <target state="translated">-Om du vill aktivera felsökning i C#, lägger du till den <ph id="ph1">`/d:DEBUG`</ph> flaggan till kommandoraden kompileraren när du kompilerar koden eller du kan lägga till <ph id="ph2">`#define DEBUG`</ph> överst i filen.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, add the <ph id="ph2">`/d:DEBUG=True`</ph> flag to the compiler command line.</source>
+          <target state="translated">I <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, lägga till den <ph id="ph2">`/d:DEBUG=True`</ph> flaggan till kommandoraden kompileraren.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   To enable tracing in C#, add the <ph id="ph1">`/d:TRACE`</ph> flag to the compiler command line when you compile your code, or add <ph id="ph2">`#define TRACE`</ph> to the top of your file.</source>
+          <target state="translated">-Om du vill aktivera spårning i C#, lägger du till den <ph id="ph1">`/d:TRACE`</ph> flaggan till kommandoraden kompileraren när du kompilera koden eller Lägg till <ph id="ph2">`#define TRACE`</ph> överst i filen.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, add the <ph id="ph2">`/d:TRACE=True`</ph> flag to the compiler command line.</source>
+          <target state="translated">I <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, lägga till den <ph id="ph2">`/d:TRACE=True`</ph> flaggan till kommandoraden kompileraren.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set the level of your listener, edit the configuration file for your application.</source>
+          <target state="translated">Om du vill ställa in din lyssnare, redigera konfigurationsfilen för ditt program.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within this file, you can add a listener, set its type and set its parameters, remove a listener, or clear all the listeners previously set by the application.</source>
+          <target state="translated">I den här filen kan du lägga till en lyssnare, ange dess typ och ange dess parametrar, ta bort en lyssnare eller avmarkera alla lyssnare som tidigare har angetts av programmet.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The configuration file should be formatted like the following example.</source>
+          <target state="translated">Konfigurationsfilen ska formateras som i följande exempel.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For this example to run, you must provide the fully qualified assembly name.</source>
+          <target state="translated">Att köra det här exemplet måste du ange fullständigt kvalificerat sammansättningsnamn.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about how to obtain the fully qualified assembly name, see <bpt id="p1">[</bpt>Assembly Names<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Information om hur du hämtar det fullständigt kvalificerade sammansättningsnamnet finns <bpt id="p1">[</bpt>sammansättningsnamn<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.FileLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the default name.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.FileLogTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med standardnamnet.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method sets the instance name of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class to FileLogTraceListener.</source>
+          <target state="translated">Den här metoden anger namnet på den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;klass FileLogTraceListener.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can access the instance name through the &lt;xref:System.Diagnostics.TraceListener.Name%2A&gt; property.</source>
+          <target state="translated">Du kan komma åt instansnamnet via den &lt;xref:System.Diagnostics.TraceListener.Name%2A&gt;egenskapen.&lt;/xref:System.Diagnostics.TraceListener.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.FileLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the supplied name.</source>
+          <target state="translated">Initierar en ny instans av den <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.FileLogTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klass med det angivna namnet.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method sets the instance name of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class to <ph id="ph1">`name`</ph>.</source>
+          <target state="translated">Den här metoden anger namnet på den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;undergrupp till <ph id="ph1">`name`</ph>.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can access the instance name thought the &lt;xref:System.Diagnostics.TraceListener.Name%2A&gt; property.</source>
+          <target state="translated">Du kan komma åt instansnamnet tänkte den &lt;xref:System.Diagnostics.TraceListener.Name%2A&gt;egenskapen.&lt;/xref:System.Diagnostics.TraceListener.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The name of the instance object.</source>
+          <target state="translated">Namnet på instansen-objekt.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Determines whether to append the output to the current file or write it to a new file.</source>
+          <target state="translated">Anger om du vill lägga till utdata till den aktuella filen eller skriva till en ny fil.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the Append property is <ph id="ph1">`False`</ph>, the output is written to a new file.</source>
+          <target state="translated">När egenskapen Append är <ph id="ph1">`False`</ph>, skrivs utdata till en ny fil.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the property is <ph id="ph1">`True`</ph>, the output is appended to the current file, unless:      -   The output file is locked by another process.</source>
+          <target state="translated">När egenskapen är <ph id="ph1">`True`</ph>, utdata läggs till i den aktuella filen, såvida inte:-utdatafilen är låst av en annan process.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this situation, a new log file is created with a version number that is incorporated into the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt; name.</source>
+          <target state="translated">I detta fall skapas en ny loggfil med ett versionsnummer som ingår i den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;namn.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The current file size is greater than what the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt; property allows.</source>
+          <target state="translated">-Den aktuella filstorleken är större än vad den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;egenskap kan.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this situation, additional messages are discarded and, depending on the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; property, an exception is thrown.</source>
+          <target state="translated">Ytterligare meddelanden i den här situationen är borttagna och, beroende på den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;egenskapen genereras ett undantag.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The existing file name is out of date according to the log-creation schedule specified by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt; property.</source>
+          <target state="translated">-Det befintliga filnamnet är för gammal enligt det schema för skapande av loggen som anges av den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;egenskapen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this situation, a new log file is created and the date stamp is incorporated into the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt; name.</source>
+          <target state="translated">I så fall kan en ny loggfil skapas och Datumstämpeln ingår i den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;namn.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, with <bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> indicating that the output is appended to the current file, and <bpt id="p3">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> indicating that output is written to a new file.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, med <bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> som anger att utdata läggs till den aktuella filen och <bpt id="p3">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> som anger att utdata skrivs till en ny fil.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardinställningen för den här egenskapen är <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Indicates whether or not the writing to the log file stream flushes the buffer.</source>
+          <target state="translated">Anger huruvida skrivning till filen loggström tömmer bufferten.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`False`</ph> setting for the AutoFlush property provides the best performance for most applications, because it is more efficient to write multiple messages to the log file at one time.</source>
+          <target state="translated">Den <ph id="ph1">`False`</ph> inställningen för egenskapen AutoFlush ger bästa prestanda för de flesta program eftersom det är mer effektivt att skriva flera meddelanden till loggfilen i taget.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt; method to flush any messages currently in the log file's output buffer.</source>
+          <target state="translated">Du kan använda den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt;metod för att tömma alla meddelanden som finns i loggfilen utdata buffert.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt; method, which implicitly flushes the stream before closing the log file.</source>
+          <target state="translated">Du kan också använda den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt;metod som implicit rensningar dataströmmen innan du stänger loggfilen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, with <bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> indicating that the stream is flushed after every write; otherwise the log entries are buffered and written more efficiently.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, med <bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> som anger att dataströmmen rensas efter varje skrivning; annars loggposterna är buffrade och skrivs mer effektivt.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardinställningen för den här egenskapen är <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets or sets the base name for the log files, which is used to create the full log-file name.</source>
+          <target state="translated">Hämtar eller anger det grundläggande namnet för loggfilerna som används för att skapa loggfilen fullständiga namn.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The base name for the log files.</source>
+          <target state="translated">Det grundläggande namnet på loggfilerna.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default is the application's product name.</source>
+          <target state="translated">Standardvärdet är programmets produktnamn.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Closes the underlying stream for the current log file and releases any resources associated with the current stream.</source>
+          <target state="translated">Stänger den underliggande strömmen för den aktuella loggfilen och frigör alla resurser som är associerade med den aktuella dataströmmen.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need to call the Close method explicitly, because the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class manages the underlying steam.</source>
+          <target state="translated">Du behöver inte explicit anropa metoden Close eftersom den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;klassen hanterar underliggande ångan.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets or sets the log file directory when the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location*&gt; property is set to <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Hämtar eller anger loggfilskatalogen när den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location*&gt;egenskapen <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location*&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the CustomLocation property is set, it also sets the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt; property to &lt;xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt;.</source>
+          <target state="translated">När egenskapen CustomLocation anges också anges &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt;egenskapen &lt;xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CustomLocation property will throw an exception if the directory cannot be resolved.</source>
+          <target state="translated">Egenskapen CustomLocation genereras ett undantagsfel om katalogen inte kan matchas.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is the name of the log-file directory.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, som är namnet på katalogen för loggfilen.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is the user's directory for application data.</source>
+          <target state="translated">Standardinställningen för den här egenskapen är användarens katalog för programdata.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets or sets the delimiter used to delimit fields within a log message.</source>
+          <target state="translated">Hämtar eller anger den avgränsare som används för att avgränsa fält inom ett loggmeddelande.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Delimiter property allows you to change the default delimiter.</source>
+          <target state="translated">Egenskapen avgränsare kan du ändra standardavgränsaren.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is the delimiter used for fields within a log message.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, vilket är avgränsaren som ska användas för fält inom ett loggmeddelande.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is the TAB character.</source>
+          <target state="translated">Standardinställningen för den här egenskapen är FLIKEN tecken.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Determines what to do when writing to the log file and there is less free disk space available than specified by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*&gt; property.</source>
+          <target state="translated">Anger vad du ska göra när du skriver till loggfilen och det finns mindre ledigt utrymme än vad som anges av den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*&gt;egenskapen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the DiskSpaceExhaustedBehavior property is set to &lt;xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;, the log messages are silently discarded if there is not enough reserved disk space.</source>
+          <target state="translated">När egenskapen DiskSpaceExhaustedBehavior har angetts &lt;xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;, loggmeddelanden har ignorerats om det inte finns tillräckligt med diskutrymme för reserverade.&lt;/xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the default behavior, and it prevents simple applications from failing if the disk gets too full.</source>
+          <target state="translated">Detta är standardbeteendet och det förhindrar att enkla program misslyckas om disken blir full.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>More robust applications can set the DiskSpaceExhaustedBehavior property to &lt;xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;, and add <ph id="ph1">`Try...Catch`</ph> blocks around all code that writes to the log.</source>
+          <target state="translated">Mer robusta program kan ange egenskapen DiskSpaceExhaustedBehavior till &lt;xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;, och Lägg till <ph id="ph1">`Try...Catch`</ph> block runt all kod som skriver till loggen&lt;/xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Determines what to do when attempting to write to the log file and there is less free disk space available than specified by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace<bpt id="p1">*</bpt>&gt; property, or if the log file size is greater than what the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize<ept id="p1">*</ept>&gt; property allows.</source>
+          <target state="translated">Anger vad som ska göras vid försök att skriva till loggfilen fil och det finns mindre ledigt utrymme än vad som anges av den &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>&gt; egenskap, eller om loggfilens storlek är större än vad den &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>&gt; egenskap kan.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Closes the underlying stream and optionally releases the managed resources.</source>
+          <target state="translated">Stänger den underliggande dataströmmen och släpper eventuellt hanterade resurser.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`True`</ph>, this method releases all resources held by any managed objects that this &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; references.</source>
+          <target state="translated">När den <ph id="ph1">`disposing`</ph> parametern är <ph id="ph2">`True`</ph>, den här metoden Frigör alla resurser som innehas av alla hanterade objekt som den här &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;referenser.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose`</ph> method of each referenced object.</source>
+          <target state="translated">Den här metoden startar den <ph id="ph1">`Dispose`</ph> metod för varje refererade till objekt.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> releases both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> releases only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Frigör resurser för både hanterade och ohanterade. <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> versioner ohanterad endast resurser.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Gets or sets the encoding to use when creating a new log file.</source>
+          <target state="translated">Hämtar eller anger den teckenkodning som ska använda när du skapar en ny loggfil.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When appending text to an existing log file, the encoding for that file is used instead of the encoding specified by the Encoding property.</source>
+          <target state="translated">När du lägger till text i en befintlig loggfil, används kodning för filen i stället för den kodning som anges av egenskapen kodning.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;, which is the encoding to use when creating a new log file.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;, som kodning som ska användas när du skapar en ny loggfil.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The default value of this property is &lt;xref:System.Text.UTF8Encoding&gt;.</source>
+          <target state="translated">Standardvärdet för den här egenskapen är &lt;xref:System.Text.UTF8Encoding&gt;.&lt;/xref:System.Text.UTF8Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Flushes the underlying stream that writes to the current log file.</source>
+          <target state="translated">Tömmer den underliggande dataströmmen som skriver till den aktuella loggfilen.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Flush method to write all buffered data to the current log file.</source>
+          <target state="translated">Använd metoden Flush för att skriva alla buffrade data till den aktuella loggfilen.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets the current full log-file name.</source>
+          <target state="translated">Hämtar namnet på aktuella fullständig loggfilen.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is the current full log-file name.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, som är namnet på aktuella fullständig loggfilen.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets the custom XML configuration attributes supported by the trace listener.</source>
+          <target state="translated">Hämtar de anpassade XML-konfigurationen attribut som stöds av spårningslyssnaren.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The custom attributes for the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; can be used in the XML configuration file for controlling the behavior of an instance of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class.</source>
+          <target state="translated">Anpassade attribut för som &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;kan användas i XML-konfigurationsfilen för att styra beteendet för en instans av &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;klassen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using any other attribute causes a configuration exception.</source>
+          <target state="translated">Med hjälp av andra attribut gör att ett undantag i konfigurationen.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array containing the XML configuration attributes recognized by this listener.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>matris som innehåller de attribut för XML-konfiguration som identifieras av den här lyssnaren.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Indicates whether or not the host name of the logging machine should be included in the output.</source>
+          <target state="translated">Anger om värdnamnet för datorn för loggning ska ingå i utdata.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the property to configure the behavior of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt; and &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt; methods.</source>
+          <target state="translated">Använd egenskapen för att konfigurera hur den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;och &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt;metoder.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the host identifier should be included; otherwise use <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Använd <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> om värd-ID ska ingå; Använd annars <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets or sets location for the log files.</source>
+          <target state="translated">Hämtar eller anger platsen för filerna.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is the location for the log file.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, som är platsen där loggfilen.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Determines which date to include in the names of the log files.</source>
+          <target state="translated">Anger vilket datum som ska ingå i namnen på loggfilerna.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assign one of the &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; enumeration values to the LogFileCreationSchedule property to specify which date to include in the names of the log files.</source>
+          <target state="translated">Tilldela någon av de &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;LogFileCreationSchedule-egenskapen för att ange vilket datum som ska ingå i namnen på loggfilerna som uppräkningsvärden.&lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The format of the date is YYYY-MM-DD.</source>
+          <target state="translated">Formatet för datum är åååå-MM-DD.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on the format of the log file name, see &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.</source>
+          <target state="translated">Mer information om formatet till loggfilens namn finns &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<bpt id="p1">**</bpt>LogFileCreationSchedule value<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>Date in the log file name<ept id="p2">**</ept>|   |---------------------------------------|-----------------------------------|   |&lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;|Include the current date in the log file name.|   |&lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;|Do not include the date in the log file name.|   |&lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;|Include the first day of the current week in the log file name.</source>
+          <target state="translated">| <bpt id="p1">**</bpt>LogFileCreationSchedule värdet<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>datum i loggfilens namn<ept id="p2">**</ept>|   |---------------------------------------|-----------------------------------|   | &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;| Inkludera det aktuella datumet i loggfilens namn. |   | &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;| Inkludera inte datumet i loggfilens namn. |   | &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;| Ta med den första dagen i den aktuella veckan i loggfilens namn.&lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The week starts on Saturday.|</source>
+          <target state="translated">Veckan börjar med lördag. |</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This indicates which date to include in the log-file names.</source>
+          <target state="translated">Detta anger vilket datum som ska inkluderas i loggfilen namn.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Standardvärdet är <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum allowed size of the log file, in bytes.</source>
+          <target state="translated">Hämtar eller anger den största tillåtna storleken för loggfilen, i byte.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to make sure that the log files do not grow too large.</source>
+          <target state="translated">Använd den här egenskapen för att se till att filerna inte blir för stor.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the log file size (in bytes) is greater than the value of this property, then when the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class attempts to write a message to the log, the message is discarded and the failure is either silent or an exception is thrown depending on the value of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; property.</source>
+          <target state="translated">Om loggen filstorlek (i byte) är större än värdet för den här egenskapen när den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;klassen försök att skriva ett meddelande till loggen, ignoreras detta meddelande och felet är tyst eller ett undantagsfel genereras beroende på värdet för den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;egenskapen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the message is written to the log, if the amount of free disk space (in bytes) is less than &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;.</source>
+          <target state="translated">Annars skrivs meddelandet till loggen, om mängden ledigt utrymme (i byte) är mindre än &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This is the maximum allowed log-file size, in bytes.</source>
+          <target state="translated">Detta är den högsta tillåtna loggfil-storleken i byte.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The default value is 5000000.</source>
+          <target state="translated">Standardvärdet är 5000000.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>When this property is set to a value less than 1000.</source>
+          <target state="translated">När den här egenskapen har angetts till ett värde mindre än 1 000.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets or sets the amount of free disk space, in bytes, necessary before messages can be written to the log file.</source>
+          <target state="translated">Hämtar eller anger mängden ledigt diskutrymme, i byte, krävs innan meddelanden kan skrivas till loggfilen.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to make sure that the log files do not completely fill the disk.</source>
+          <target state="translated">Använd den här egenskapen för att se till att filerna inte helt fyller disken.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the amount of free disk space (in bytes) is less than the value of this property, then when the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class attempts to write a message to the log, the message is discarded and the failure is either silent or an exception is thrown depending on the value of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; property.</source>
+          <target state="translated">Om mängden ledigt utrymme (i byte) är mindre än värdet för den här egenskapen när den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;klassen försök att skriva ett meddelande till loggen, ignoreras detta meddelande och felet är tyst eller ett undantagsfel genereras beroende på värdet för den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;egenskapen.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the message is written to the log, if the log file size (in bytes) is greater than &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;.</source>
+          <target state="translated">Annars skrivs meddelandet till loggen, om loggfilens storlek (i byte) som är större än &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This is the amount of free disk space necessary.</source>
+          <target state="translated">Det här är mängden ledigt diskutrymme krävs.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The default value is 10000000.</source>
+          <target state="translated">Standardvärdet är 10000000.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>When this property is set to a value less than 0.</source>
+          <target state="translated">När den här egenskapen har angetts till ett värde som är mindre än 0.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a data object, and event information to the output file or stream.</source>
+          <target state="translated">Skrivningar spårningsinformation, ett dataobjekt och händelseinformation till utdatafilen eller dataströmmen.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method:      1.</source>
+          <target state="translated">Den här metoden: 1.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Formats the data and context information for output.</source>
+          <target state="translated">Formaterar data och kontext information för utdata.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new log file, if necessary.</source>
+          <target state="translated">Skapar en ny loggfil, om det behövs.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writes the information to the log file.</source>
+          <target state="translated">Skriver informationen till loggfilen.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on creating new log files, see &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.</source>
+          <target state="translated">Mer information om hur du skapar nya loggfiler finns i &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists the output fields in the order they appear.</source>
+          <target state="translated">I följande tabell visas utdata fälten i den ordning de visas.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fields are delimited by the string that the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt; property specifies, and are followed by a line terminator.</source>
+          <target state="translated">Fälten avgränsas med strängen som den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;egenskapen anger och följs av en rad Begränsare.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<bpt id="p1">**</bpt>Field<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>Output condition<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>Description<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   |<ph id="ph3">`source`</ph>|Always|The value of <ph id="ph4">`name`</ph>.|   |<ph id="ph5">`severity`</ph>|Always|The enumeration-value name of <ph id="ph6">`eventType`</ph>.|   |<ph id="ph7">`id`</ph>|Always|The string representation of <ph id="ph8">`id`</ph>.|   |<ph id="ph9">`message`</ph>|Always|The string representation of <ph id="ph10">`data`</ph>.|   |<ph id="ph11">`callStack`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; property of <ph id="ph12">`eventCache`</ph>.|   |<ph id="ph13">`CorrelationID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph14">`eventCache`</ph>.|   |<ph id="ph15">`DateTime`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; property of <ph id="ph16">`eventCache`</ph>.</source>
+          <target state="translated">| <bpt id="p1">**</bpt>Fältet<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>utdata villkoret<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>beskrivning<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   | <ph id="ph3">`source`</ph>| Alltid | Värdet för <ph id="ph4">`name`</ph>. |   | <ph id="ph5">`severity`</ph>| Alltid | Uppräkningsvärdet namnet på <ph id="ph6">`eventType`</ph>. |   | <ph id="ph7">`id`</ph>| Alltid | Strängrepresentation av <ph id="ph8">`id`</ph>. |   | <ph id="ph9">`message`</ph>| Alltid | Strängrepresentation av <ph id="ph10">`data`</ph>. |   | <ph id="ph11">`callStack`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt;för <ph id="ph12">`eventCache`</ph>. |   | <ph id="ph13">`CorrelationID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt;för <ph id="ph14">`eventCache`</ph>. |   | <ph id="ph15">`DateTime`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt;egenskapen för <ph id="ph16">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ProcessID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`ProcessID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt;egenskapen för <ph id="ph2">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ThreadID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.|   |<ph id="ph3">`Timestamp`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; property of <ph id="ph4">`eventCache`</ph>.</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`ThreadID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt;för <ph id="ph2">`eventCache`</ph>. |   | <ph id="ph3">`Timestamp`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt;egenskapen för <ph id="ph4">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`HostName`</ph>|When the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt; property is <ph id="ph2">`True`</ph>.|The name of the computer.|</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`HostName`</ph>| När egenskapen &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;är <ph id="ph2">`True`</ph>. | Namnet på datorn. |&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som innehåller aktuellt process-ID, tråd-ID och stacken spårningsinformation.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>A name of the trace source that invoked this method.</source>
+          <target state="translated">Ett namn på spårningskällan som den här metoden anropas.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> uppräkningsvärden.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">En numerisk identifierare för händelsen.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The trace data to emit.</source>
+          <target state="translated">Att generera spårningsdata.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Writes trace information, an array of data objects, and event information to the output file or stream.</source>
+          <target state="translated">Skrivningar spåra information, en uppsättning dataobjekt och händelseinformation till utdatafilen eller dataströmmen.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method:      1.</source>
+          <target state="translated">Den här metoden: 1.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Formats the data and context information for output,      2.</source>
+          <target state="translated">Formaterar data och kontext information för 2-utdata.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new log file, if necessary,      3.</source>
+          <target state="translated">Skapar en ny logg-fil, om det behövs 3.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writes the information to the log file.</source>
+          <target state="translated">Skriver informationen till loggfilen.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on creating new log files, see &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.</source>
+          <target state="translated">Mer information om hur du skapar nya loggfiler finns i &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This table lists the output fields in the order they appear.</source>
+          <target state="translated">Den här tabellen visas utdata fälten i den ordning de visas.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fields are delimited by the string that the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt; property specifies, and are followed by a line terminator.</source>
+          <target state="translated">Fälten avgränsas med strängen som den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;egenskapen anger och följs av en rad Begränsare.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<bpt id="p1">**</bpt>Field<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>Output condition<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>Description<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   |<ph id="ph3">`source`</ph>|Always|The value of <ph id="ph4">`name`</ph>.|   |<ph id="ph5">`severity`</ph>|Always|The enumeration-value name of <ph id="ph6">`eventType`</ph>.|   |<ph id="ph7">`id`</ph>|Always|The string representation of <ph id="ph8">`id`</ph>.|   |<ph id="ph9">`message`</ph>|Always|The string consisting of the string representation of each element in <ph id="ph10">`data`</ph>, each separated by &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;.|   |<ph id="ph11">`callStack`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; property of <ph id="ph12">`eventCache`</ph>.|   |<ph id="ph13">`CorrelationID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph14">`eventCache`</ph>.|   |<ph id="ph15">`DateTime`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; property of <ph id="ph16">`eventCache`</ph>.</source>
+          <target state="translated">| <bpt id="p1">**</bpt>Fältet<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>utdata villkoret<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>beskrivning<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   | <ph id="ph3">`source`</ph>| Alltid | Värdet för <ph id="ph4">`name`</ph>. |   | <ph id="ph5">`severity`</ph>| Alltid | Uppräkningsvärdet namnet på <ph id="ph6">`eventType`</ph>. |   | <ph id="ph7">`id`</ph>| Alltid | Strängrepresentation av <ph id="ph8">`id`</ph>. |   | <ph id="ph9">`message`</ph>| Alltid | Sträng som består av strängrepresentation av alla element i <ph id="ph10">`data`</ph>, åtskilda med &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;. |   | <ph id="ph11">`callStack`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt;för <ph id="ph12">`eventCache`</ph>. |   | <ph id="ph13">`CorrelationID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt;för <ph id="ph14">`eventCache`</ph>. |   | <ph id="ph15">`DateTime`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt;egenskapen för <ph id="ph16">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ProcessID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`ProcessID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt;egenskapen för <ph id="ph2">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ThreadID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.|   |<ph id="ph3">`Timestamp`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; property of <ph id="ph4">`eventCache`</ph>.</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`ThreadID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt;för <ph id="ph2">`eventCache`</ph>. |   | <ph id="ph3">`Timestamp`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt;egenskapen för <ph id="ph4">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`HostName`</ph>|When the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt; property is <ph id="ph2">`True`</ph>.|The name of the computer.|</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`HostName`</ph>| När egenskapen &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;är <ph id="ph2">`True`</ph>. | Namnet på datorn. |&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som innehåller aktuellt process-ID, tråd-ID och stacken spårningsinformation.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The name of the trace source that invoked this method.</source>
+          <target state="translated">Namnet på spårningskällan som den här metoden anropas.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> uppräkningsvärden.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">En numerisk identifierare för händelsen.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>An array of objects to emit as data.</source>
+          <target state="translated">En matris med objekt som ska generera som data.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a message and event information to the output file or stream.</source>
+          <target state="translated">Skrivningar spåra information, ett meddelande och händelse information till utdatafilen eller dataströmmen.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method:      1.</source>
+          <target state="translated">Den här metoden: 1.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Formats the data and context information for output.</source>
+          <target state="translated">Formaterar data och kontext information för utdata.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new log file, if necessary.</source>
+          <target state="translated">Skapar en ny loggfil, om det behövs.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writes the information to the log file.</source>
+          <target state="translated">Skriver informationen till loggfilen.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on creating new log files, see &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.</source>
+          <target state="translated">Mer information om hur du skapar nya loggfiler finns i &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This table lists the output fields in the order in which they appear.</source>
+          <target state="translated">Den här tabellen visas utdata fälten i den ordning de visas.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fields are delimited by the string that the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt; property specifies, and are followed by a line terminator.</source>
+          <target state="translated">Fälten avgränsas med strängen som den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;egenskapen anger och följs av en rad Begränsare.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<bpt id="p1">**</bpt>Field<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>Output condition<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>Description<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   |<ph id="ph3">`source`</ph>|Always.|The value of <ph id="ph4">`name`</ph>.|   |<ph id="ph5">`severity`</ph>|Always.|The enumeration-value name of <ph id="ph6">`eventType`</ph>.|   |<ph id="ph7">`id`</ph>|Always.|The string representation of <ph id="ph8">`id`</ph>.|   |<ph id="ph9">`message`</ph>|Always.|The value of <ph id="ph10">`message`</ph>.|   |<ph id="ph11">`callStack`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; property of <ph id="ph12">`eventCache`</ph>.|   |<ph id="ph13">`CorrelationID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph14">`eventCache`</ph>.|   |<ph id="ph15">`DateTime`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; property of <ph id="ph16">`eventCache`</ph>.</source>
+          <target state="translated">| <bpt id="p1">**</bpt>Fältet<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>utdata villkoret<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>beskrivning<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   | <ph id="ph3">`source`</ph>| Alltid. | Värdet för <ph id="ph4">`name`</ph>. |   | <ph id="ph5">`severity`</ph>| Alltid. | Uppräkningsvärdet namnet på <ph id="ph6">`eventType`</ph>. |   | <ph id="ph7">`id`</ph>| Alltid. | Strängrepresentation av <ph id="ph8">`id`</ph>. |   | <ph id="ph9">`message`</ph>| Alltid. | Värdet för <ph id="ph10">`message`</ph>. |   | <ph id="ph11">`callStack`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt;för <ph id="ph12">`eventCache`</ph>. |   | <ph id="ph13">`CorrelationID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt;för <ph id="ph14">`eventCache`</ph>. |   | <ph id="ph15">`DateTime`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt;egenskapen för <ph id="ph16">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ProcessID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`ProcessID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt;egenskapen för <ph id="ph2">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ThreadID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.|   |<ph id="ph3">`Timestamp`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; property of <ph id="ph4">`eventCache`</ph>.</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`ThreadID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt;för <ph id="ph2">`eventCache`</ph>. |   | <ph id="ph3">`Timestamp`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt;egenskapen för <ph id="ph4">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`HostName`</ph>|When the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt; property is <ph id="ph2">`True`</ph>.|The name of the computer.|</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`HostName`</ph>| När egenskapen &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;är <ph id="ph2">`True`</ph>. | Namnet på datorn. |&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som innehåller aktuellt process-ID, tråd-ID och stacken spårningsinformation.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A name of the trace source that invoked this method.</source>
+          <target state="translated">Ett namn på spårningskällan som den här metoden anropas.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> uppräkningsvärden.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">En numerisk identifierare för händelsen.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">Ett meddelande att skriva.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a formatted array of objects, and event information to the output file or stream.</source>
+          <target state="translated">Skrivningar spåra information, en formaterad matris av objekt och händelseinformation till utdatafilen eller dataströmmen.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method:      1.</source>
+          <target state="translated">Den här metoden: 1.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Formats the data and context information for output.</source>
+          <target state="translated">Formaterar data och kontext information för utdata.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new a new log file, if necessary.</source>
+          <target state="translated">En ny en ny loggfil skapas, om det behövs.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writes the information to the log file.</source>
+          <target state="translated">Skriver informationen till loggfilen.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on creating new log file, see &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.</source>
+          <target state="translated">Mer information om hur du skapar ny loggfil finns &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This table lists the output fields in the order in which they appear.</source>
+          <target state="translated">Den här tabellen visas utdata fälten i den ordning de visas.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fields are delimited by the string that the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt; property specifies, and followed by a line terminator.</source>
+          <target state="translated">Fälten avgränsas med strängen som den &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;egenskapen anger och följas av en rad Begränsare.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<bpt id="p1">**</bpt>Field<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>Output condition<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>Description<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   |<ph id="ph3">`source`</ph>|Always|The value of <ph id="ph4">`name`</ph>.|   |<ph id="ph5">`severity`</ph>|Always|The enumeration-value name of <ph id="ph6">`eventType`</ph>.|   |<ph id="ph7">`id`</ph>|Always|The string representation of <ph id="ph8">`id`</ph>.|   |<ph id="ph9">`message`</ph>|Always|The data in <ph id="ph10">`args`</ph> formatted with the <ph id="ph11">`format`</ph> string and using the invariant culture for string conversions.|   |<ph id="ph12">`callStack`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; property of <ph id="ph13">`eventCache`</ph>.|   |<ph id="ph14">`CorrelationID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph15">`eventCache`</ph>.|   |<ph id="ph16">`DateTime`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; property of <ph id="ph17">`eventCache`</ph>.</source>
+          <target state="translated">| <bpt id="p1">**</bpt>Fältet<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>utdata villkoret<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>beskrivning<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   | <ph id="ph3">`source`</ph>| Alltid | Värdet för <ph id="ph4">`name`</ph>. |   | <ph id="ph5">`severity`</ph>| Alltid | Uppräkningsvärdet namnet på <ph id="ph6">`eventType`</ph>. |   | <ph id="ph7">`id`</ph>| Alltid | Strängrepresentation av <ph id="ph8">`id`</ph>. |   | <ph id="ph9">`message`</ph>| Alltid | Data i <ph id="ph10">`args`</ph> formaterad med den <ph id="ph11">`format`</ph> sträng och med den invariabla kulturen för strängkonvertering. |   | <ph id="ph12">`callStack`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt;för <ph id="ph13">`eventCache`</ph>. |   | <ph id="ph14">`CorrelationID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt;för <ph id="ph15">`eventCache`</ph>. |   | <ph id="ph16">`DateTime`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt;egenskapen för <ph id="ph17">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ProcessID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`ProcessID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt;egenskapen för <ph id="ph2">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ThreadID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.|   |<ph id="ph3">`Timestamp`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; property of <ph id="ph4">`eventCache`</ph>.</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`ThreadID`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Egenskapen &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt;för <ph id="ph2">`eventCache`</ph>. |   | <ph id="ph3">`Timestamp`</ph>| När flaggan &lt;xref:System.Diagnostics.TraceOptions&gt;har angetts i egenskapen &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Den sträng som innehåller den &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt;egenskapen för <ph id="ph4">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`HostName`</ph>|When the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt; property is <ph id="ph2">`True`</ph>.|The name of the computer.|</source>
+          <target state="translated">Invariabla används för Strängkonverteringen. |   | <ph id="ph1">`HostName`</ph>| När egenskapen &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;är <ph id="ph2">`True`</ph>. | Namnet på datorn. |&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> objekt som innehåller aktuellt process-ID, tråd-ID och stacken spårningsinformation.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>A name of the trace source that invoked this method.</source>
+          <target state="translated">Ett namn på spårningskällan som den här metoden anropas.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">En av de <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> uppräkningsvärden.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">En numerisk identifierare för händelsen.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>A format string that contains zero or more format items, which correspond to objects in the <ph id="ph1">`args`</ph> array.</source>
+          <target state="translated">En formatsträng som innehåller noll eller flera format artiklar som motsvarar objekt i den <ph id="ph1">`args`</ph> matris.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array containing zero or more objects to format.</source>
+          <target state="translated">En <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> matris som innehåller noll eller flera objekt att formatera.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Writes a verbatim message to disk, without any additional context information.</source>
+          <target state="translated">Skriver ett ordagrant meddelande till disk utan ytterligare kontextinformation.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Write method writes a specific message to the log file, without any additional context information.</source>
+          <target state="translated">Metoden Write skriver ett visst meddelande till loggfilen utan ytterligare kontextinformation.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the one of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt; methods to include the context information in the log output.</source>
+          <target state="translated">Använd någon av de &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;metoder med kontextinformation i loggutdata.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The custom message to write.</source>
+          <target state="translated">Det anpassade meddelandet för att skriva.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Writes a verbatim message to disk, followed by the current line terminator, without any additional context information.</source>
+          <target state="translated">Skriver ett ordagrant meddelande till disk, följt av den aktuella raden Begränsare utan ytterligare kontextinformation.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WriteLine method writes a specific message to the log file, without any additional context information.</source>
+          <target state="translated">Metoden WriteLine skriver ett visst meddelande till loggfilen utan ytterligare kontextinformation.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the one of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt; methods to include the context information in the log output.</source>
+          <target state="translated">Använd någon av de &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;metoder med kontextinformation i loggutdata.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>The custom message to write.</source>
+          <target state="translated">Det anpassade meddelandet för att skriva.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

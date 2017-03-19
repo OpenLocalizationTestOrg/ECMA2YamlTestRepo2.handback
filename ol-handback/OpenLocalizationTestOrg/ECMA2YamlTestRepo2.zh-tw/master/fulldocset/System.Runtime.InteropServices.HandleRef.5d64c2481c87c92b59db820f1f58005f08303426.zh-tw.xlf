@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">59d0e692a4f187a91206d925ed26bd10132538f6</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Runtime.InteropServices.HandleRef.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ada1635cafe9c98debfab4ebdd87f47645002dba</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ffde11eda59cc7e4497da620dd922a195c60d014</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Wraps a managed object holding a handle to a resource that is passed to unmanaged code using platform invoke.</source>
+          <target state="translated">會包裝 managed 的物件持有控制代碼到的資源，會傳遞至 unmanaged 程式碼使用平台叫用。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!IMPORTANT]</ph> &gt;  Starting with the .NET Framework 2.0, the functionality of the HandleRef class has been replaced by the &lt;xref:System.Runtime.InteropServices.SafeHandle&gt; class and its derived classes, as well as by the &lt;xref:System.Runtime.InteropServices.CriticalHandle&gt; class.</source>
+          <target state="translated"><ph id="ph1">&gt; [!IMPORTANT]</ph>&gt; 開頭的.NET Framework 2.0，HandleRef 類別的功能已被取代&lt;xref:System.Runtime.InteropServices.SafeHandle&gt;類別和其衍生的類別，也可藉由&lt;xref:System.Runtime.InteropServices.CriticalHandle&gt;類別&lt;/xref:System.Runtime.InteropServices.CriticalHandle&gt;&lt;/xref:System.Runtime.InteropServices.SafeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>If you use platform invoke to call a managed object, and the object is not referenced elsewhere after the platform invoke call, it is possible for the garbage collector to finalize the managed object.</source>
+          <target state="translated">如果您使用平台叫用呼叫 managed 的物件，與平台叫用呼叫之後未其他位置參考物件，便可完成受管理的物件的記憶體回收行程。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>This action releases the resource and invalidates the handle, causing the platform invoke call to fail.</source>
+          <target state="translated">這個動作會釋放資源，並且使控制代碼，造成平台叫用呼叫失敗。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Wrapping a handle with HandleRef guarantees that the managed object is not garbage collected until the platform invoke call completes.</source>
+          <target state="translated">包裝的控制代碼與 HandleRef 保證確認受管理的物件不是平台叫用呼叫之前回收完成。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>For a description of platform invoke services, see <bpt id="p1">[</bpt>Consuming Unmanaged DLL Functions<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需說明的平台叫用服務，請參閱<bpt id="p1">[</bpt>使用 Unmanaged DLL 函式<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>The HandleRef value type, like &lt;xref:System.Runtime.InteropServices.GCHandle&gt;, is a special type recognized by the interop marshaler.</source>
+          <target state="translated">HandleRef 實值類型，例如&lt;xref:System.Runtime.InteropServices.GCHandle&gt;，是一種特殊 interop 封送處理器所辨識。&lt;/xref:System.Runtime.InteropServices.GCHandle&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>A normal, nonpinned &lt;xref:System.Runtime.InteropServices.GCHandle&gt; also prevents untimely garbage collection, yet HandleRef provides better performance.</source>
+          <target state="translated">是標準的 nonpinned&lt;xref:System.Runtime.InteropServices.GCHandle&gt;卻 HandleRef 提供更佳的效能，也會防止延誤回收。&lt;/xref:System.Runtime.InteropServices.GCHandle&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Although using HandleRef to keep an object alive for the duration of a platform invoke call is preferred, you can also use the &lt;xref:System.GC.KeepAlive%2A?displayProperty=fullName&gt; method for the same purpose.</source>
+          <target state="translated">雖然使用 HandleRef 讓物件保持運作期間的平台叫用呼叫慣用，您也可以使用&lt;xref:System.GC.KeepAlive%2A?displayProperty=fullName&gt;達成相同目的的方法。&lt;/xref:System.GC.KeepAlive%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>The HandleRef constructor takes two parameters: an &lt;xref:System.Object&gt; representing the wrapper, and an &lt;xref:System.IntPtr&gt; representing the unmanaged handle.</source>
+          <target state="translated">HandleRef 建構函式接受兩個參數︰&lt;xref:System.Object&gt;代表包裝函式，和&lt;xref:System.IntPtr&gt;代表 unmanaged 控制代碼。&lt;/xref:System.IntPtr&gt; &lt;/xref:System.Object&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>The interop marshaler passes only the handle to unmanaged code, and guarantees that the wrapper (passed as the first parameter to the constructor of the <ph id="ph1">`HandleRef`</ph>) remains alive for the duration of the call.</source>
+          <target state="translated">Interop 封送處理器只控制代碼傳遞至 unmanaged 程式碼，並可確保包裝函式 (當做第一個參數傳遞給建構函式<ph id="ph1">`HandleRef`</ph>) 呼叫期間保持運作。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the object to wrap and a handle to the resource used by unmanaged code.</source>
+          <target state="translated">初始化的新執行個體<bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>要包裝的物件與 unmanaged 程式碼所使用的資源控制代碼的類別。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>A managed object that should not be finalized until the platform invoke call returns.</source>
+          <target state="translated">傳回應該不會結束之前的平台叫用呼叫的 managed 的物件。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; that indicates a handle to a resource.</source>
+          <target state="translated">&lt;xref:System.IntPtr&gt;，表示資源的控制代碼。&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Gets the handle to a resource.</source>
+          <target state="translated">取得資源的控制代碼。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The handle to a resource.</source>
+          <target state="translated">資源控制代碼。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Returns the internal integer representation of a <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">傳回的內部整數表示<bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object to retrieve an internal integer representation from.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>擷取從內部的整數表示的物件。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.IntPtr&gt; object that represents a <bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">&lt;xref:System.IntPtr&gt;物件，代表<bpt id="p1">&lt;xref href="System.Runtime.InteropServices.HandleRef"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.IntPtr&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets the object holding the handle to a resource.</source>
+          <target state="translated">取得存有資源控制代碼的物件。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The object holding the handle to a resource.</source>
+          <target state="translated">存有資源控制代碼的物件。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

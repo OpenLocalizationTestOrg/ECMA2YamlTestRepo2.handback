@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b64572575619f7a896684e2196bf4e2b0992954f</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Reflection.Emit.DynamicILInfo.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a9795995cb91f3681e797fa94c5ddac79197eb8d</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">8886c1867fbf54fb3be60e1ace1708b37380f95d</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides support for alternative ways to generate the Microsoft intermediate language (MSIL) and metadata for a dynamic method, including methods for creating tokens and for inserting the code, exception handling, and local variable signature blobs.</source>
+          <target state="translated">提供產生 Microsoft intermediate language (MSIL) 的替代方式的支援，以及動態方法，包括建立權杖，以及插入程式碼、 例外狀況處理和區域變數簽章 blob 方法的中繼資料。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The DynamicILInfo class allows developers to write their own MSIL generators instead of using &lt;xref:System.Reflection.Emit.ILGenerator&gt;.</source>
+          <target state="translated">DynamicILInfo 類別可讓開發人員撰寫自己的 MSIL 產生器，而不是使用&lt;xref:System.Reflection.Emit.ILGenerator&gt;.&lt;/xref:System.Reflection.Emit.ILGenerator&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>To create instances of other types, call methods, and so on, the MSIL you generate must include tokens for those entities.</source>
+          <target state="translated">若要建立其他類型的執行個體，呼叫方法，以及其他您產生的 MSIL 必須包含語彙基元的這些實體。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>The DynamicILInfo class provides several overloads of the &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt; method, which return tokens valid in the scope of the current DynamicILInfo.</source>
+          <target state="translated">DynamicILInfo 類別提供數個多載的&lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt;方法，傳回權杖有效範圍內的目前 DynamicILInfo。&lt;/xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>For example, if you need to call an overload of the &lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt; method, you can obtain a &lt;xref:System.RuntimeMethodHandle&gt; for that overload and pass it to the &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt; method to obtain a token to embed in your MSIL.</source>
+          <target state="translated">例如，如果您需要呼叫的多載&lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt;方法，您可以取得&lt;xref:System.RuntimeMethodHandle&gt;的多載，並將它傳遞給&lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt;方法，以取得要內嵌在您的 MSIL 的語彙基元。&lt;/xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%2A&gt; &lt;/xref:System.RuntimeMethodHandle&gt; &lt;/xref:System.Console.WriteLine%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Once you have created &lt;xref:System.Byte&gt; arrays for your local variable signature, exceptions, and code body, you can use the &lt;xref:System.Reflection.Emit.DynamicILInfo.SetCode%2A&gt;, &lt;xref:System.Reflection.Emit.DynamicILInfo.SetExceptions%2A&gt;, and &lt;xref:System.Reflection.Emit.DynamicILInfo.SetLocalSignature%2A&gt; methods to insert them into the &lt;xref:System.Reflection.Emit.DynamicMethod&gt; associated with your DynamicILInfo object.</source>
+          <target state="translated">一旦您建立&lt;xref:System.Byte&gt;陣列以進行您的區域變數簽章、 例外狀況，以及程式碼主體，您可以使用&lt;xref:System.Reflection.Emit.DynamicILInfo.SetCode%2A&gt;， &lt;xref:System.Reflection.Emit.DynamicILInfo.SetExceptions%2A&gt;，和&lt;xref:System.Reflection.Emit.DynamicILInfo.SetLocalSignature%2A&gt;方法來插入到&lt;xref:System.Reflection.Emit.DynamicMethod&gt;DynamicILInfo 物件相關聯。&lt;/xref:System.Reflection.Emit.DynamicMethod&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.SetLocalSignature%2A&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.SetExceptions%2A&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.SetCode%2A&gt; &lt;/xref:System.Byte&gt;</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Generating your own metadata and MSIL requires familiarity with the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">產生您自己的中繼資料和 MSIL 必須熟悉的通用語言基礎結構 (CLI) 文件，尤其是 &lt; 磁碟分割第二部分︰ 中繼資料定義和語意 &gt; 以及 &lt; 磁碟分割 iii 部分︰ CIL 指令集 」。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">線上; 也提供文件請參閱<bpt id="p1">[</bpt>ECMA C# 和通用語言基礎結構標準<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>msdn 和<bpt id="p2">[</bpt>標準 ecma-335-通用語言基礎結構 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 網站上。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  Do not use DynamicILInfo to generate code that creates a delegate to another dynamic method by calling the delegate constructor directly.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 請勿使用 DynamicILInfo 來產生程式碼會建立另一個動態方法的委派直接呼叫的委派建構函式。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Instead, use the &lt;xref:System.Reflection.Emit.DynamicMethod.CreateDelegate%2A&gt; method to create the delegate.</source>
+          <target state="translated">請改用&lt;xref:System.Reflection.Emit.DynamicMethod.CreateDelegate%2A&gt;方法來建立委派。&lt;/xref:System.Reflection.Emit.DynamicMethod.CreateDelegate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>A delegate that is created with the delegate constructor does not have a reference to the target dynamic method.</source>
+          <target state="translated">委派建構函式來建立委派沒有目標動態方法的參考。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>The dynamic method might be reclaimed by garbage collection while the delegate is still in use.</source>
+          <target state="translated">動態方法可能會回收進行回收，委派仍在使用中時。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Gets the dynamic method whose body is generated by the current instance.</source>
+          <target state="translated">取得動態方法的主體由目前的執行個體所產生。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object is always associated with a dynamic method.</source>
+          <target state="translated">A&lt;xref:System.Reflection.Emit.DynamicILInfo&gt;物件永遠是動態方法相關聯。&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>The purpose of the &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; class is to provide another way of inserting the MSIL stream, exception handling, and local variable signature into a dynamic method, for developers who want to generate MSIL without using the &lt;xref:System.Reflection.Emit.ILGenerator&gt; class.</source>
+          <target state="translated">&lt;xref:System.Reflection.Emit.DynamicILInfo&gt;類別是要提供另一種插入 MSIL 資料流、 例外狀況處理及執行動態方法，開發人員想要產生 MSIL，而不需使用&lt;xref:System.Reflection.Emit.ILGenerator&gt;類別&lt;/xref:System.Reflection.Emit.ILGenerator&gt;的區域變數簽章&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;的目的</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Reflection.Emit.DynamicMethod&gt; object representing the dynamic method for which the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object is generating code.</source>
+          <target state="translated">A&lt;xref:System.Reflection.Emit.DynamicMethod&gt;物件，代表動態方法為其目前<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件已產生程式碼。&lt;/xref:System.Reflection.Emit.DynamicMethod&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing the signature for the associated dynamic method.</source>
+          <target state="translated">取得語彙基元，在目前範圍中有效<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，代表相關聯的動態方法的簽章。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>For information on signature blobs, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">簽章的 blob 上的資訊，請參閱 Common Language Infrastructure (CLI) 文件，尤其是 &lt; 磁碟分割 II︰ 中繼資料定義和語意 &gt;。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">線上; 也提供文件請參閱<bpt id="p1">[</bpt>ECMA C# 和通用語言基礎結構標準<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>msdn 和<bpt id="p2">[</bpt>標準 ecma-335-通用語言基礎結構 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 網站上。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>An array that contains the signature.</source>
+          <target state="translated">陣列，包含簽章。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A token that can be embedded in the metadata and the MSIL stream for the associated dynamic method.</source>
+          <target state="translated">Token，您可以內嵌在中繼資料和相關聯的動態方法的 MSIL 資料流中。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a dynamic method to be called from the associated method.</source>
+          <target state="translated">取得語彙基元，在目前範圍中有效<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，代表動態方法，從相關聯的方法呼叫。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>The token returned by this method overload allows you to call a dynamic method from the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">這個方法多載所傳回的權杖可讓您從與目前相關聯的動態方法呼叫的動態方法&lt;xref:System.Reflection.Emit.DynamicILInfo&gt;物件。&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>To call the associated dynamic method recursively, pass the value of the &lt;xref:System.Reflection.Emit.DynamicILInfo.DynamicMethod%2A&gt; property.</source>
+          <target state="translated">若要呼叫相關聯的動態方法以遞迴方式，將值傳遞&lt;xref:System.Reflection.Emit.DynamicILInfo.DynamicMethod%2A&gt;屬性。&lt;/xref:System.Reflection.Emit.DynamicILInfo.DynamicMethod%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The dynamic method to call.</source>
+          <target state="translated">要呼叫的動態方法。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>A token that can be embedded in the MSIL stream for the associated dynamic method, as the target of an MSIL instruction.</source>
+          <target state="translated">此語彙基元可以內嵌在相關聯的動態方法的 MSIL 資料流中，做為目標的 MSIL 指令。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a field to be accessed from the associated dynamic method.</source>
+          <target state="translated">取得語彙基元，在目前範圍中有效<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，代表要從相關聯的動態方法存取的欄位。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>You must obtain a token for any field that will be accessed by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">您必須取得的任何欄位，將目前相關聯的動態方法所存取的語彙基元&lt;xref:System.Reflection.Emit.DynamicILInfo&gt;物件。&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.FieldInfo&gt; for the field you want to access, then use the &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; property to get the &lt;xref:System.RuntimeFieldHandle&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt;方法來取得&lt;xref:System.Reflection.FieldInfo&gt;您想要存取，則使用&lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt;屬性來取得&lt;xref:System.RuntimeFieldHandle&gt;.&lt;/xref:System.RuntimeFieldHandle&gt;&lt;/xref:System.Reflection.FieldInfo.FieldHandle%2A&gt;欄位&lt;/xref:System.Reflection.FieldInfo&gt;&lt;/xref:System.Type.GetField%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>The field to be accessed.</source>
+          <target state="translated">要存取的欄位。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses fields, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">可用來當做存取欄位，在目前的範圍內的 MSIL 指令的運算元語彙基元<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a method to be accessed from the associated dynamic method.</source>
+          <target state="translated">取得語彙基元，在目前範圍中有效<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，代表從相關聯的動態方法存取的方法。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>You must obtain a token for any method that will be accessed by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">您必須取得的任何方法，將目前相關聯的動態方法所存取的語彙基元&lt;xref:System.Reflection.Emit.DynamicILInfo&gt;物件。&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.MethodInfo&gt; for the method you want to access, and then use the &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt; property to get the &lt;xref:System.RuntimeMethodHandle&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;方法來取得&lt;xref:System.Reflection.MethodInfo&gt;您想要存取，然後使用&lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt;屬性來取得&lt;xref:System.RuntimeMethodHandle&gt;.&lt;/xref:System.RuntimeMethodHandle&gt;&lt;/xref:System.Reflection.MethodBase.MethodHandle%2A&gt;方法&lt;/xref:System.Reflection.MethodInfo&gt;&lt;/xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  For a method that belongs to a generic type, use the &lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%28System.RuntimeMethodHandle%2CSystem.RuntimeTypeHandle%29&gt; method overload and specify a &lt;xref:System.RuntimeTypeHandle&gt; for the generic type.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; 方法屬於泛型型別，請使用&lt;xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%28System.RuntimeMethodHandle%2CSystem.RuntimeTypeHandle%29&gt;方法多載，並指定&lt;xref:System.RuntimeTypeHandle&gt;泛型型別。&lt;/xref:System.RuntimeTypeHandle&gt; &lt;/xref:System.Reflection.Emit.DynamicILInfo.GetTokenFor%28System.RuntimeMethodHandle%2CSystem.RuntimeTypeHandle%29&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>The method to be accessed.</source>
+          <target state="translated">要存取的方法。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses methods, such as &lt;xref:System.Reflection.Emit.OpCodes.Call&gt; or &lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">可用來當作這類存取方法的 MSIL 指令的運算元語彙基元&lt;xref:System.Reflection.Emit.OpCodes.Call&gt;或&lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;，在目前的範圍內<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.Reflection.Emit.OpCodes.Ldtoken&gt; &lt;/xref:System.Reflection.Emit.OpCodes.Call&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a type to be used in the associated dynamic method.</source>
+          <target state="translated">取得語彙基元，在目前範圍中有效<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，代表使用中相關聯的動態方法的型別。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>The token returned by this method overload allows you to define a local variable type, and emit MSIL to create an instance of a type in the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">這個方法多載所傳回的權杖可讓您定義本機變數的類型，並發出在目前相關聯的動態方法中建立類型的執行個體的 MSIL&lt;xref:System.Reflection.Emit.DynamicILInfo&gt;物件。&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>To get a &lt;xref:System.RuntimeTypeHandle&gt; representing a type, use the &lt;xref:System.Type.TypeHandle%2A?displayProperty=fullName&gt; property.</source>
+          <target state="translated">若要取得&lt;xref:System.RuntimeTypeHandle&gt;代表的類型，使用&lt;xref:System.Type.TypeHandle%2A?displayProperty=fullName&gt;屬性。&lt;/xref:System.Type.TypeHandle%2A?displayProperty=fullName&gt; &lt;/xref:System.RuntimeTypeHandle&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>The type to be used.</source>
+          <target state="translated">要使用的類型。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that requires a type, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">可用來當作要求型別，在目前的範圍內的 MSIL 指令的運算元語彙基元<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a string literal to be used in the associated dynamic method.</source>
+          <target state="translated">取得語彙基元，在目前範圍中有效<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，表示為字串常值，以用於相關聯的動態方法。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>The string to be used.</source>
+          <target state="translated">要使用的字串。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that requires a string, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">可用來當作，必須為字串的目前範圍內的 MSIL 指令的運算元語彙基元<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a field to be accessed from the associated dynamic method; the field is on the specified generic type.</source>
+          <target state="translated">取得語彙基元，在目前範圍中有效<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，表示欄位相關聯的動態方法，從存取欄位是指定的泛型型別。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>You must obtain a token for any field that will be accessed by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">您必須取得的任何欄位，將目前相關聯的動態方法所存取的語彙基元&lt;xref:System.Reflection.Emit.DynamicILInfo&gt;物件。&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.FieldInfo&gt; for the field you want to access, and then use the &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; property to get the &lt;xref:System.RuntimeFieldHandle&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Type.GetField%2A?displayProperty=fullName&gt;方法來取得&lt;xref:System.Reflection.FieldInfo&gt;您想要存取，然後使用&lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt;屬性來取得&lt;xref:System.RuntimeFieldHandle&gt;.&lt;/xref:System.RuntimeFieldHandle&gt;&lt;/xref:System.Reflection.FieldInfo.FieldHandle%2A&gt;欄位&lt;/xref:System.Reflection.FieldInfo&gt;&lt;/xref:System.Type.GetField%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>The field to be accessed.</source>
+          <target state="translated">要存取的欄位。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>The generic type the field belongs to.</source>
+          <target state="translated">欄位所屬的泛型型別。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses fields in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">可用來當做存取在目前的範圍內的欄位 MSIL 指令的運算元語彙基元<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets a token, valid in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, representing a method on a generic type.</source>
+          <target state="translated">取得語彙基元，在目前範圍中有效<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，代表泛型類型上的方法。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You must obtain a token for any method that will be called by the dynamic method associated with the current &lt;xref:System.Reflection.Emit.DynamicILInfo&gt; object.</source>
+          <target state="translated">您必須取得與目前相關聯的動態方法會呼叫任何方法的語彙基元&lt;xref:System.Reflection.Emit.DynamicILInfo&gt;物件。&lt;/xref:System.Reflection.Emit.DynamicILInfo&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.MethodInfo&gt; for the method you want to call, and then use the &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt; property to get the &lt;xref:System.RuntimeMethodHandle&gt;.</source>
+          <target state="translated">使用&lt;xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;方法來取得&lt;xref:System.Reflection.MethodInfo&gt;您想要呼叫，然後使用&lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt;屬性來取得&lt;xref:System.RuntimeMethodHandle&gt;.&lt;/xref:System.RuntimeMethodHandle&gt;&lt;/xref:System.Reflection.MethodBase.MethodHandle%2A&gt;方法&lt;/xref:System.Reflection.MethodInfo&gt;&lt;/xref:System.Type.GetMethod%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>The method.</source>
+          <target state="translated">方法。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>The generic type the method belongs to.</source>
+          <target state="translated">方法屬於泛型型別。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>A token that can be used as the operand of an MSIL instruction that accesses methods, such as &lt;xref:System.Reflection.Emit.OpCodes.Call&gt; or &lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;, in the scope of the current <bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">可用來當作這類存取方法的 MSIL 指令的運算元語彙基元&lt;xref:System.Reflection.Emit.OpCodes.Call&gt;或&lt;xref:System.Reflection.Emit.OpCodes.Ldtoken&gt;，在目前的範圍內<bpt id="p1">&lt;xref href="System.Reflection.Emit.DynamicILInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。&lt;/xref:System.Reflection.Emit.OpCodes.Ldtoken&gt; &lt;/xref:System.Reflection.Emit.OpCodes.Call&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Sets the code body of the associated dynamic method.</source>
+          <target state="translated">設定相關聯的動態方法的程式碼主體。</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>No validity checks are performed on the MSIL stream.</source>
+          <target state="translated">MSIL 資料流上，會不執行任何有效性檢查。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Calling this method a second time replaces the first MSIL stream with the second.</source>
+          <target state="translated">第二次呼叫這個方法的第二個取代第一個的 MSIL 資料流。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Generating your own metadata and MSIL requires familiarity with the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">產生您自己的中繼資料和 MSIL 必須熟悉的通用語言基礎結構 (CLI) 文件，尤其是 &lt; 磁碟分割第二部分︰ 中繼資料定義和語意 &gt; 以及 &lt; 磁碟分割 iii 部分︰ CIL 指令集 」。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">線上; 也提供文件請參閱<bpt id="p1">[</bpt>ECMA C# 和通用語言基礎結構標準<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>msdn 和<bpt id="p2">[</bpt>標準 ecma-335-通用語言基礎結構 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 網站上。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An array that contains the MSIL stream.</source>
+          <target state="translated">陣列，其中包含 MSIL 資料流。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>The maximum number of items on the operand stack when the method is executing.</source>
+          <target state="translated">執行此方法時，運算元堆疊上的項目數目上限。</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>Sets the code body of the associated dynamic method.</source>
+          <target state="translated">設定相關聯的動態方法的程式碼主體。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>No validity checks are performed on the MSIL stream.</source>
+          <target state="translated">MSIL 資料流上，會不執行任何有效性檢查。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>Calling this method a second time replaces the first MSIL stream with the second.</source>
+          <target state="translated">第二次呼叫這個方法的第二個取代第一個的 MSIL 資料流。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Generating your own metadata and MSIL requires familiarity with the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set."</source>
+          <target state="translated">產生您自己的中繼資料和 MSIL 必須熟悉的通用語言基礎結構 (CLI) 文件，特別是 &lt; II︰ 中繼資料定義和語意 」 和 「 第三部分︰ CIL 指令集。 」</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">線上; 也提供文件請參閱<bpt id="p1">[</bpt>ECMA C# 和通用語言基礎結構標準<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>msdn 和<bpt id="p2">[</bpt>標準 ecma-335-通用語言基礎結構 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 網站上。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>A pointer to a byte array containing the MSIL stream.</source>
+          <target state="translated">包含 MSIL 資料流的位元組陣列指標。</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the MSIL stream.</source>
+          <target state="translated">MSIL 資料流中的位元組數目。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The maximum number of items on the operand stack when the method is executing.</source>
+          <target state="translated">執行此方法時，運算元堆疊上的項目數目上限。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;code&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph2">&lt;code&gt;codeSize&lt;/code&gt;</ph> is greater than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;code&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和<ph id="ph2">&lt;code&gt;codeSize&lt;/code&gt;</ph>大於 0。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;codeSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;codeSize&lt;/code&gt;</ph>小於 0。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Sets the exception metadata for the associated dynamic method.</source>
+          <target state="translated">設定相關聯的動態方法的例外狀況中繼資料。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The exception metadata for a method defines the location and size of all <ph id="ph1">`try`</ph>, <ph id="ph2">`catch`</ph>, <ph id="ph3">`finally`</ph>, filter, and fault blocks.</source>
+          <target state="translated">方法的例外狀況中繼資料定義的位置和大小的所有<ph id="ph1">`try`</ph>， <ph id="ph2">`catch`</ph>， <ph id="ph3">`finally`</ph>、 篩選和錯誤區塊。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>For information on the layout of this metadata, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">此中繼資料的配置資訊，請參閱 Common Language Infrastructure (CLI) 文件，尤其是 &lt; 磁碟分割 II︰ 中繼資料定義和語意 &gt;。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">線上; 也提供文件請參閱<bpt id="p1">[</bpt>ECMA C# 和通用語言基礎結構標準<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>msdn 和<bpt id="p2">[</bpt>標準 ecma-335-通用語言基礎結構 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 網站上。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>An array that contains the exception metadata.</source>
+          <target state="translated">陣列，包含例外狀況的中繼資料。</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Sets the exception metadata for the associated dynamic method.</source>
+          <target state="translated">設定相關聯的動態方法的例外狀況中繼資料。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The exception metadata for a method defines the location and size of all <ph id="ph1">`try`</ph>, <ph id="ph2">`catch`</ph>, <ph id="ph3">`finally`</ph>, filter, and fault blocks.</source>
+          <target state="translated">方法的例外狀況中繼資料定義的位置和大小的所有<ph id="ph1">`try`</ph>， <ph id="ph2">`catch`</ph>， <ph id="ph3">`finally`</ph>、 篩選和錯誤區塊。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>For information on the layout of this metadata, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics" and "Partition III: CIL Instruction Set".</source>
+          <target state="translated">此中繼資料的配置資訊，請參閱 Common Language Infrastructure (CLI) 文件，尤其是 &lt; 磁碟分割第二部分︰ 中繼資料定義和語意 &gt; 以及 &lt; 磁碟分割 iii 部分︰ CIL 指令集 」。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">線上; 也提供文件請參閱<bpt id="p1">[</bpt>ECMA C# 和通用語言基礎結構標準<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>msdn 和<bpt id="p2">[</bpt>標準 ecma-335-通用語言基礎結構 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 網站上。</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>A pointer to a byte array containing the exception metadata.</source>
+          <target state="translated">包含例外狀況的中繼資料的位元組陣列指標。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>The number of bytes of exception metadata.</source>
+          <target state="translated">例外狀況的中繼資料的位元組數目。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;exceptions&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph2">&lt;code&gt;exceptionSize&lt;/code&gt;</ph> is greater than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;exceptions&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和<ph id="ph2">&lt;code&gt;exceptionSize&lt;/code&gt;</ph>大於 0。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;exceptionSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;exceptionSize&lt;/code&gt;</ph>小於 0。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Sets the local variable signature that describes the layout of local variables for the associated dynamic method.</source>
+          <target state="translated">設定描述的本機變數相關聯的動態方法配置的本機變數簽章。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The local variable signature describes the layout of a method's local variables.</source>
+          <target state="translated">區域變數簽章描述方法的本機變數的配置。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To simplify construction of the local variable signature, use the <ph id="ph1">`static`</ph> (<ph id="ph2">`Shared`</ph> in Visual Basic) &lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.Emit.SignatureHelper&gt; for the local signature.</source>
+          <target state="translated">若要簡化的區域變數簽章的建構，使用<ph id="ph1">`static`</ph>(<ph id="ph2">`Shared`</ph>在 Visual Basic 中)&lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;方法來取得&lt;xref:System.Reflection.Emit.SignatureHelper&gt;簽章。&lt;/xref:System.Reflection.Emit.SignatureHelper&gt; &lt;/xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>For information on local variable signatures, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">本機變數的簽章的資訊，請參閱 Common Language Infrastructure (CLI) 文件，尤其是 &lt; 磁碟分割 II︰ 中繼資料定義和語意 &gt;。</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">線上; 也提供文件請參閱<bpt id="p1">[</bpt>ECMA C# 和通用語言基礎結構標準<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>msdn 和<bpt id="p2">[</bpt>標準 ecma-335-通用語言基礎結構 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 網站上。</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>An array that contains the layout of local variables for the associated &lt;xref:System.Reflection.Emit.DynamicMethod&gt;.</source>
+          <target state="translated">陣列，其中包含相關聯的&lt;xref:System.Reflection.Emit.DynamicMethod&gt;。&lt;/xref:System.Reflection.Emit.DynamicMethod&gt;本機變數的配置</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Sets the local variable signature that describes the layout of local variables for the associated dynamic method.</source>
+          <target state="translated">設定描述的本機變數相關聯的動態方法配置的本機變數簽章。</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The local variable signature describes the layout of a method's local variables.</source>
+          <target state="translated">區域變數簽章描述方法的本機變數的配置。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>To simplify construction of the local variable signature, use the <ph id="ph1">`static`</ph> (<ph id="ph2">`Shared`</ph> in Visual Basic) &lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt; method to get a &lt;xref:System.Reflection.Emit.SignatureHelper&gt; for the local signature.</source>
+          <target state="translated">若要簡化的區域變數簽章的建構，使用<ph id="ph1">`static`</ph>(<ph id="ph2">`Shared`</ph>在 Visual Basic 中)&lt;xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;方法來取得&lt;xref:System.Reflection.Emit.SignatureHelper&gt;簽章。&lt;/xref:System.Reflection.Emit.SignatureHelper&gt; &lt;/xref:System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>For information on local variable signatures, see the Common Language Infrastructure (CLI) documentation, especially "Partition II: Metadata Definition and Semantics".</source>
+          <target state="translated">本機變數的簽章的資訊，請參閱 Common Language Infrastructure (CLI) 文件，尤其是 &lt; 磁碟分割 II︰ 中繼資料定義和語意 &gt;。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The documentation is available online; see <bpt id="p1">[</bpt>ECMA C# and Common Language Infrastructure Standards<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept> on MSDN and <bpt id="p2">[</bpt>Standard ECMA-335 - Common Language Infrastructure (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> on the Ecma International Web site.</source>
+          <target state="translated">線上; 也提供文件請參閱<bpt id="p1">[</bpt>ECMA C# 和通用語言基礎結構標準<ept id="p1">](http://go.microsoft.com/fwlink/?LinkID=99212)</ept>msdn 和<bpt id="p2">[</bpt>標準 ecma-335-通用語言基礎結構 (CLI)<ept id="p2">](http://go.microsoft.com/fwlink/?LinkID=65552)</ept> Ecma International 網站上。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>An array that contains the layout of local variables for the associated &lt;xref:System.Reflection.Emit.DynamicMethod&gt;.</source>
+          <target state="translated">陣列，其中包含相關聯的&lt;xref:System.Reflection.Emit.DynamicMethod&gt;。&lt;/xref:System.Reflection.Emit.DynamicMethod&gt;本機變數的配置</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>The number of bytes in the signature.</source>
+          <target state="translated">簽章中的位元組數目。</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;localSignature&lt;/code&gt;</ph> is <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> and <ph id="ph2">&lt;code&gt;signatureSize&lt;/code&gt;</ph> is greater than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;localSignature&lt;/code&gt;</ph>是<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>和<ph id="ph2">&lt;code&gt;signatureSize&lt;/code&gt;</ph>大於 0。</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;signatureSize&lt;/code&gt;</ph> is less than 0.</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;signatureSize&lt;/code&gt;</ph>小於 0。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

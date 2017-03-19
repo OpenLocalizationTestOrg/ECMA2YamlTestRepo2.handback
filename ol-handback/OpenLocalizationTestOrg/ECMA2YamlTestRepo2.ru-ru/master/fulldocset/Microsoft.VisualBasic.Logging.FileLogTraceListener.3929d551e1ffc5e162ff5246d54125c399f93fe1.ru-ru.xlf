@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="ru-ru">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">39a12a0be31ddb2a245f9bee1eedb0f7d1bc68d7</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\Microsoft.VisualBasic.Logging.FileLogTraceListener.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b81a2c00d5a29c06bfef2f6ec61b0d388a9edd2f</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">55f4a00e9af3ca035a94b0be2aab8efde96d17b4</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a simple listener that directs logging output to file.</source>
+          <target state="translated">Предоставляет простой прослушиватель, который направляет вывод журнала в файл.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FileLogTraceListener class provides automated maintenance capabilities to archive log files as needed, on a daily or per-application basis.</source>
+          <target state="translated">Класс FileLogTraceListener предоставляет возможности автоматического обслуживания для архивации файлов журнала, при необходимости на основе ежедневно или на уровне приложений.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This automatic archival functionality helps reduce the maintenance responsibilities of developers and administrators.</source>
+          <target state="translated">Эти функции автоматической архивации помогает сократить обслуживания обязанностей разработчиков и администраторов.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An instance of FileLogTraceListener can be added to the &lt;xref:System.Diagnostics.Debug.Listeners%2A?displayProperty=fullName&gt; or &lt;xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt; collections to redirect output from logging to a text file.</source>
+          <target state="translated">Экземпляр FileLogTraceListener могут добавляться к &lt;xref:System.Diagnostics.Debug.Listeners%2A?displayProperty=fullName&gt;или &lt;xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt;коллекций перенаправлять выходные данные ведения журнала в текстовый файл.&lt;/xref:System.Diagnostics.Trace.Listeners%2A?displayProperty=fullName&gt; &lt;/xref:System.Diagnostics.Debug.Listeners%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Instances of this class can also be added to <ph id="ph1">`My.Application.Log`</ph> or <ph id="ph2">`My.Log`</ph> (for Web applications) in <ph id="ph3">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph> applications.</source>
+          <target state="translated">Экземпляры этого класса можно также добавить к <ph id="ph1">`My.Application.Log`</ph> или <ph id="ph2">`My.Log`</ph> (для веб-приложений) в <ph id="ph3">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph> приложений.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see <bpt id="p1">[</bpt>Walkthrough: Changing Where My.Application.Log Writes Information<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept><ph id="ph1">`.`</ph>       The main features of this class are:      1.</source>
+          <target state="translated">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>Пошаговое руководство: изменение информация<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> <ph id="ph1">`.`</ph> основные возможности этого класса: 1.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">*</bpt>Archival functionality<ept id="p1">*</ept>.</source>
+          <target state="translated"><bpt id="p1">*</bpt>Функции архивации<ept id="p1">*</ept>.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The log files generated by this class are named according to the base name and the date, along with a number to distinguish the log file from successive versions of the log.</source>
+          <target state="translated">Файлы журналов, создаваемые этим классом присваиваются в соответствии с базовым именем и даты, вместе с номером, чтобы отличать файл журнала от последовательных версий журнала.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>New log files are created on an as-needed basis.</source>
+          <target state="translated">Новые файлы журнала создаются по мере необходимости.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The explicit form of the file name is <ph id="ph1">`baseName`</ph>[-<ph id="ph2">`dateStamp`</ph>][-<ph id="ph3">`version`</ph>].log, where:          -   The <ph id="ph4">`baseName`</ph> part is the fundamental log name, specified by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt; property.</source>
+          <target state="translated">Явное имя файла является <ph id="ph1">`baseName`</ph>[-<ph id="ph2">`dateStamp`</ph>] [-<ph id="ph3">`version`</ph>] .log, где: - <ph id="ph4">`baseName`</ph> часть — это имя фундаментальные журнала, определяемое &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt;свойство.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The <ph id="ph1">`dateStamp`</ph> part has the format "YYYY-MM-DD", and it is shown when &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt; is &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; or &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;.</source>
+          <target state="translated">- <ph id="ph1">`dateStamp`</ph> Часть имеет формат «Гггг-мм-дд» и при его отображении &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;или &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   If more than one log file is needed with the same <ph id="ph1">`baseName`</ph> and <ph id="ph2">`dateStamp`</ph>, the <ph id="ph3">`version`</ph> part, a positive <ph id="ph4">`Integer`</ph>, is added to the file name.</source>
+          <target state="translated">— Если требуется несколько файлов журнала с таким же <ph id="ph1">`baseName`</ph> и <ph id="ph2">`dateStamp`</ph>, <ph id="ph3">`version`</ph> часть положительное <ph id="ph4">`Integer`</ph>, добавляется к имени файла.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">*</bpt>Multiple class instances<ept id="p1">*</ept>.</source>
+          <target state="translated"><bpt id="p1">*</bpt>Несколько экземпляров класса<ept id="p1">*</ept>.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If an instance of the FileLogTraceListener class writes to a file that is in use:          -   The class shares the file if it is being used by another instance of the FileLogTraceListener class in the same process.</source>
+          <target state="translated">Если экземпляр класса FileLogTraceListener записывает в файл, который используется:-класса совместно использует файл, если он используется другим экземпляром класса FileLogTraceListener в том же процессе.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The class creates a new log file using the next available name if the file is being used by another process.</source>
+          <target state="translated">-Класс создает новый файл журнала, используя следующее доступное имя, если файл используется другим процессом.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">*</bpt>Thread safety<ept id="p1">*</ept>.</source>
+          <target state="translated"><bpt id="p1">*</bpt>Потокобезопасность<ept id="p1">*</ept>.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The FileLogTraceListener class is thread safe.</source>
+          <target state="translated">Класс FileLogTraceListener является потокобезопасным.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This allows you to safely write messages to the log from multiple threads without using locks.</source>
+          <target state="translated">Это позволяет безопасно записывать сообщения в журнал из нескольких потоков без использования блокировки.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Log-File Location<ept id="p1">**</ept>      -   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt; property takes a &lt;xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt; enumeration to specify one of the typical directories to write the log file to.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Расположение файла журнала<ept id="p1">**</ept> - &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt;принимает свойство &lt;xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt;перечисления, чтобы указать один из каталогов, типичные для записи файла журнала.&lt;/xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt;</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   To write the log to another location, set the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.CustomLocation%2A&gt; property to that location.</source>
+          <target state="translated">-Для записи журнала в другое расположение, установите &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.CustomLocation%2A&gt;свойство к этому расположению.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.CustomLocation%2A&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Log-File Name<ept id="p1">**</ept>      -   The base name for the log file is specified by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt; property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Имя файла журнала<ept id="p1">**</ept> -базовое имя для файла журнала задается &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt;свойство.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The current log file name can be read from the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt; property.</source>
+          <target state="translated">-Текущее имя файла журнала может быть считано из &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;свойство.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>It is derived from several other properties and the current state of the logs in the file system.</source>
+          <target state="translated">Он является производным от других свойств и текущего состояния журналов в файловой системе.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Log Maintenance<ept id="p1">**</ept>      -   The minimum frequency for creating new log files is determined by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt; property.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Журнал обслуживания<ept id="p1">**</ept> -минимальную частоту для создания новых файлов журнала определяется &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;свойство.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the value is &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; or &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;, a new log file is created at least once every day or week, and a date stamp is incorporated into the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt; name.</source>
+          <target state="translated">Если значение равно &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;или &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;, создается новый файл журнала создается по крайней мере один раз, каждый день или неделю и дату создания встроен в &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;имя.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The maximum size (in bytes) of the log file is determined by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt; property.</source>
+          <target state="translated">-Максимальный размер (в байтах) файла журнала определяется &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;свойство.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the log file size exceeds this size, additional messages written to the log are discarded and, depending on the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; property, an exception is thrown.</source>
+          <target state="translated">Если размер файла журнала превышает этот размер, дополнительные сообщения, записывается в журнал, удаляется, а, в зависимости от &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;Свойства, создается исключение.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt; property determines how much free space (in bytes) must be available.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;Свойство определяет объем свободного места (в байтах) должны быть доступны.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This helps ensure that the FileLogTraceListener class will not consume all available disk space.</source>
+          <target state="translated">Это позволяет гарантировать, что класс FileLogTraceListener не использует свободное место на диске.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; property to specify the behavior of log writes when there are less than &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt; bytes free.</source>
+          <target state="translated">Используйте &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;свойство, чтобы указать параметры журнала записывает при наличии меньше, чем &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;свободных байтов.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Log-File Output Settings<ept id="p1">**</ept>      -   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.AutoFlush%2A&gt; property specifies whether the underlying stream should be flushed automatically after each write to the log file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Параметры вывода в файл журнала<ept id="p1">**</ept> - &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.AutoFlush%2A&gt;свойство указывает, является ли базовый поток должны быть очищены автоматически после каждой операции записи в файл журнала.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.AutoFlush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Append%2A&gt; property specifies whether to append messages to the current log file, if allowed, or write them to a new log file.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Append%2A&gt;Свойство указывает, следует ли добавить сообщения к текущему файлу журнала, если это разрешено, или записывать их в новый файл журнала.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Append%2A&gt;</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt; property specifies the string to use for delimiting the fields within a log message.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;Свойство указывает строку, используемую для разграничения полей в сообщении журнала.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Encoding%2A&gt; property specifies the encoding to use when creating a new log file.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Encoding%2A&gt;Свойство указывает кодировку для использования при создании нового файла журнала.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Encoding%2A&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Log-File Output<ept id="p1">**</ept>      -   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt; and &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt; methods write messages to the log file.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Выходной файл журнала<ept id="p1">**</ept> — &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;и &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt;методы записывают сообщения в файл журнала.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve" extradata="MT">
+          <source>These methods check the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt; property, along with any existing logs with the same base name to determine if a new log should be created.</source>
+          <target state="translated">Эти методы проверяют &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;Свойства, включая все имеющиеся журналы с тем же базовым именем, чтобы определить, если должен быть создан новый журнал.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt; method flushes any messages currently in the output buffer to the log file.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt;Метод очищает все сообщения в настоящее время в буфер вывода в файле журнала.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt; method closes the log file so that it can be used by other processes.</source>
+          <target state="translated">- &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt;Метод закрывает файл журнала, чтобы он может использоваться другими процессами.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source><bpt id="p1">**</bpt>Enabling Output<ept id="p1">**</ept>       You must enable tracing or debugging to use a trace listener.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Включение вывода<ept id="p1">**</ept> необходимо включить для использования прослушивателя трассировки отладки и трассировки.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following syntax is compiler specific.</source>
+          <target state="translated">Следующий синтаксис зависит от компилятора.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you use compilers other than C# or <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, refer to the documentation for your compiler.</source>
+          <target state="translated">При использовании компиляторов, отличных от C# или <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, обратитесь к документации этого компилятора.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   To enable debugging in C#, add the <ph id="ph1">`/d:DEBUG`</ph> flag to the compiler command line when you compile your code, or you can add <ph id="ph2">`#define DEBUG`</ph> to the top of your file.</source>
+          <target state="translated">— Чтобы включить отладку в C#, добавьте <ph id="ph1">`/d:DEBUG`</ph> флаг командную строку компилятора при компиляции кода, или можно добавить <ph id="ph2">`#define DEBUG`</ph> в начало файла.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, add the <ph id="ph2">`/d:DEBUG=True`</ph> flag to the compiler command line.</source>
+          <target state="translated">В <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, добавьте <ph id="ph2">`/d:DEBUG=True`</ph> флаг компилятора командной строки.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   To enable tracing in C#, add the <ph id="ph1">`/d:TRACE`</ph> flag to the compiler command line when you compile your code, or add <ph id="ph2">`#define TRACE`</ph> to the top of your file.</source>
+          <target state="translated">— Чтобы включить трассировку в C#, добавьте <ph id="ph1">`/d:TRACE`</ph> флаг командную строку компилятора при компиляции кода или добавьте <ph id="ph2">`#define TRACE`</ph> в начало файла.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, add the <ph id="ph2">`/d:TRACE=True`</ph> flag to the compiler command line.</source>
+          <target state="translated">В <ph id="ph1">[!INCLUDE[vbprvb](~/add/includes/vbprvb-md.md)]</ph>, добавьте <ph id="ph2">`/d:TRACE=True`</ph> флаг компилятора командной строки.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To set the level of your listener, edit the configuration file for your application.</source>
+          <target state="translated">Чтобы задать уровень прослушивателя, измените файл конфигурации для приложения.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Within this file, you can add a listener, set its type and set its parameters, remove a listener, or clear all the listeners previously set by the application.</source>
+          <target state="translated">В этом файле можно добавить прослушиватель, задать его тип и параметры, удалить прослушиватель или удалить все прослушиватели, ранее установленный приложением.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The configuration file should be formatted like the following example.</source>
+          <target state="translated">Файл конфигурации необходимо отформатировать как в следующем примере.</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For this example to run, you must provide the fully qualified assembly name.</source>
+          <target state="translated">Для выполнения этого примера необходимо предоставить полное имя сборки.</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For information about how to obtain the fully qualified assembly name, see <bpt id="p1">[</bpt>Assembly Names<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Сведения о том, как получить полное имя сборки см. в разделе <bpt id="p1">[</bpt>имена сборок<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.FileLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the default name.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.FileLogTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класс с именем по умолчанию.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method sets the instance name of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class to FileLogTraceListener.</source>
+          <target state="translated">Этот метод задает имя экземпляра &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;класса FileLogTraceListener.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can access the instance name through the &lt;xref:System.Diagnostics.TraceListener.Name%2A&gt; property.</source>
+          <target state="translated">Можно получить доступ к имени экземпляра через &lt;xref:System.Diagnostics.TraceListener.Name%2A&gt;свойство.&lt;/xref:System.Diagnostics.TraceListener.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.FileLogTraceListener"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class with the supplied name.</source>
+          <target state="translated">Инициализирует новый экземпляр <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.FileLogTraceListener"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> класс с указанным именем.</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method sets the instance name of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class to <ph id="ph1">`name`</ph>.</source>
+          <target state="translated">Этот метод задает имя экземпляра &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;класса <ph id="ph1">`name`</ph>.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can access the instance name thought the &lt;xref:System.Diagnostics.TraceListener.Name%2A&gt; property.</source>
+          <target state="translated">Можно получить доступ к имени экземпляра рассматривать &lt;xref:System.Diagnostics.TraceListener.Name%2A&gt;свойство.&lt;/xref:System.Diagnostics.TraceListener.Name%2A&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>The name of the instance object.</source>
+          <target state="translated">Имя экземпляра объекта.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Determines whether to append the output to the current file or write it to a new file.</source>
+          <target state="translated">Определяет, следует ли добавлять выходные данные в текущий файл или писать его в новый файл.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the Append property is <ph id="ph1">`False`</ph>, the output is written to a new file.</source>
+          <target state="translated">Если свойство Append не <ph id="ph1">`False`</ph>, выходные данные записываются в новый файл.</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the property is <ph id="ph1">`True`</ph>, the output is appended to the current file, unless:      -   The output file is locked by another process.</source>
+          <target state="translated">Если свойство не <ph id="ph1">`True`</ph>, выходные данные добавляются в текущий файл, если не:-выходной файл заблокирован другим процессом.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this situation, a new log file is created with a version number that is incorporated into the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt; name.</source>
+          <target state="translated">В этом случае создается новый файл журнала с номером версии, которые встроены в &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;имя.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The current file size is greater than what the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt; property allows.</source>
+          <target state="translated">-Текущий размер файла больше, чем то, что &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;свойство позволяет.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this situation, additional messages are discarded and, depending on the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; property, an exception is thrown.</source>
+          <target state="translated">В этом случае дополнительные сообщения, удаляется, а, в зависимости от &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;Свойства, создается исключение.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve" extradata="MT">
+          <source>-   The existing file name is out of date according to the log-creation schedule specified by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt; property.</source>
+          <target state="translated">— Имя существующего файла является устаревшим в соответствии с расписанием создания журнала, заданным по &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;свойство.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.LogFileCreationSchedule%2A&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this situation, a new log file is created and the date stamp is incorporated into the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt; name.</source>
+          <target state="translated">В этом случае создается новый файл журнала и отметка даты включается в &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;имя.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, with <bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> indicating that the output is appended to the current file, and <bpt id="p3">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> indicating that output is written to a new file.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, с <bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , указывающее, что выходные данные добавляются к текущему файлу и <bpt id="p3">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept> , указывающее, что выходные данные записываются в новый файл.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию для этого свойства равно <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>Indicates whether or not the writing to the log file stream flushes the buffer.</source>
+          <target state="translated">Указывает ли запись в потоке файла журнала очищает буфер.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`False`</ph> setting for the AutoFlush property provides the best performance for most applications, because it is more efficient to write multiple messages to the log file at one time.</source>
+          <target state="translated"><ph id="ph1">`False`</ph> Установка для свойства AutoFlush обеспечивает лучшую производительность для большинства приложений, так как он является более эффективным для записи нескольких сообщений в файл журнала за один раз.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can use the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt; method to flush any messages currently in the log file's output buffer.</source>
+          <target state="translated">Можно использовать &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt;метода, чтобы очистить все сообщения в данный момент в файле журнала выходного буфера.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You can also use the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt; method, which implicitly flushes the stream before closing the log file.</source>
+          <target state="translated">Можно также использовать &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt;метод, который неявно сбрасывает поток перед закрытием файла журнала.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, with <bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> indicating that the stream is flushed after every write; otherwise the log entries are buffered and written more efficiently.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, с <bpt id="p2">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> , указывающее, что поток очищается после каждой операции записи; в противном случае записи журнала буферизуются и записываются более эффективно.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию для этого свойства равно <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>Gets or sets the base name for the log files, which is used to create the full log-file name.</source>
+          <target state="translated">Возвращает или задает базовое имя для файлов журнала, который используется для создания имени полного файла журнала.</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>The base name for the log files.</source>
+          <target state="translated">Базовое имя для файлов журнала.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>The default is the application's product name.</source>
+          <target state="translated">По умолчанию используется имя продукта приложения.</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>Closes the underlying stream for the current log file and releases any resources associated with the current stream.</source>
+          <target state="translated">Закрывает основной поток для текущего файла журнала и освобождает все ресурсы, связанные с текущим потоком.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve" extradata="MT">
+          <source>You do not need to call the Close method explicitly, because the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class manages the underlying steam.</source>
+          <target state="translated">Необязательно для вызова метода Close явно, так как &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;класс управляет базовый поток.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>Gets or sets the log file directory when the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location*&gt; property is set to <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Возвращает или задает каталог файлов журнала при &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location*&gt;свойству <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location*&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the CustomLocation property is set, it also sets the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt; property to &lt;xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt;.</source>
+          <target state="translated">Если свойству CustomLocation также устанавливает &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt;Свойства &lt;xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.LogFileLocation&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Location%2A&gt;</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The CustomLocation property will throw an exception if the directory cannot be resolved.</source>
+          <target state="translated">Свойство CustomLocation вызовет исключение, если каталог не удается разрешить.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is the name of the log-file directory.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, являющееся именем в каталог файла журнала.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is the user's directory for application data.</source>
+          <target state="translated">Значение по умолчанию для этого свойства — пользовательский каталог для данных приложений.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>Gets or sets the delimiter used to delimit fields within a log message.</source>
+          <target state="translated">Возвращает или задает разделитель, используемый для разделения полей в сообщении журнала.</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Delimiter property allows you to change the default delimiter.</source>
+          <target state="translated">Свойство разделитель дает возможность изменения разделителя по умолчанию.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is the delimiter used for fields within a log message.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, который является разделитель, используемый для полей в сообщении журнала.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>The default setting for this property is the TAB character.</source>
+          <target state="translated">Для этого свойства по умолчанию является символ табуляции.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>Determines what to do when writing to the log file and there is less free disk space available than specified by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*&gt; property.</source>
+          <target state="translated">Определяет, что нужно делать при записи в файл журнала и меньше свободного места от указанных &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*&gt;свойство.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the DiskSpaceExhaustedBehavior property is set to &lt;xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;, the log messages are silently discarded if there is not enough reserved disk space.</source>
+          <target state="translated">Если значение свойства DiskSpaceExhaustedBehavior &lt;xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;, сообщения журнала удаляются без уведомления, если недостаточно места на диске, зарезервированное.&lt;/xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is the default behavior, and it prevents simple applications from failing if the disk gets too full.</source>
+          <target state="translated">Это поведение по умолчанию и позволяет предотвратить сбои при переполнении диска простых приложений.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>More robust applications can set the DiskSpaceExhaustedBehavior property to &lt;xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;, and add <ph id="ph1">`Try...Catch`</ph> blocks around all code that writes to the log.</source>
+          <target state="translated">Более надежные приложения можно задать свойство DiskSpaceExhaustedBehavior &lt;xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;и добавьте <ph id="ph1">`Try...Catch`</ph> блоки кода записи в журнал&lt;/xref:Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption&gt;</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Determines what to do when attempting to write to the log file and there is less free disk space available than specified by the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace<bpt id="p1">*</bpt>&gt; property, or if the log file size is greater than what the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize<ept id="p1">*</ept>&gt; property allows.</source>
+          <target state="translated">Определяет, что нужно делать при попытке записи в журнал файлов и меньше свободного места от указанных &lt;&gt; &lt;/&gt; <bpt id="p1">*</bpt>настроек свойств, или если размер файла журнала больше, чем то, что &lt;&gt; &lt;/&gt; <ept id="p1">*</ept>настроек свойство позволяет.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.DiskSpaceExhaustedOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>Closes the underlying stream and optionally releases the managed resources.</source>
+          <target state="translated">Закрывает основной поток и при необходимости освобождает также управляемые ресурсы.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`disposing`</ph> parameter is <ph id="ph2">`True`</ph>, this method releases all resources held by any managed objects that this &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; references.</source>
+          <target state="translated">При <ph id="ph1">`disposing`</ph> параметр <ph id="ph2">`True`</ph>, данный метод освобождает все ресурсы, занятые любыми управляемыми объектами, которые &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;ссылки.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method invokes the <ph id="ph1">`Dispose`</ph> method of each referenced object.</source>
+          <target state="translated">Этот метод вызывает <ph id="ph1">`Dispose`</ph> метод для каждого объекта, на который указывает ссылка.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> releases both managed and unmanaged resources; <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> releases only unmanaged resources.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Освобождает управляемые и неуправляемые ресурсы; <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> освобождает только неуправляемые ресурсы.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>Gets or sets the encoding to use when creating a new log file.</source>
+          <target state="translated">Возвращает или задает кодировку для использования при создании нового файла журнала.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When appending text to an existing log file, the encoding for that file is used instead of the encoding specified by the Encoding property.</source>
+          <target state="translated">При наращивании текст в существующий файл журнала, для этого файла используется вместо кодировку, заданную свойством Encoding.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Text.Encoding&gt;, which is the encoding to use when creating a new log file.</source>
+          <target state="translated">&lt;xref:System.Text.Encoding&gt;, которой является кодировка для создания файла журнала.&lt;/xref:System.Text.Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The default value of this property is &lt;xref:System.Text.UTF8Encoding&gt;.</source>
+          <target state="translated">Значение по умолчанию этого свойства — &lt;xref:System.Text.UTF8Encoding&gt;.&lt;/xref:System.Text.UTF8Encoding&gt;</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>Flushes the underlying stream that writes to the current log file.</source>
+          <target state="translated">Сохраняет базовый поток, который записывает в текущий файл журнала.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the Flush method to write all buffered data to the current log file.</source>
+          <target state="translated">Используйте метод Flush для записи всех буферизованных данных в текущий файл журнала.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>Gets the current full log-file name.</source>
+          <target state="translated">Возвращает имя текущего полного файла журнала.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is the current full log-file name.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, — имя текущего полного файла журнала.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>Gets the custom XML configuration attributes supported by the trace listener.</source>
+          <target state="translated">Возвращает настраиваемые атрибуты конфигурации XML, поддерживаемые прослушивателем трассировки.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The custom attributes for the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; can be used in the XML configuration file for controlling the behavior of an instance of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class.</source>
+          <target state="translated">Настраиваемые атрибуты, &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;можно использовать в XML-файл конфигурации для управления поведением экземпляра &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;класса.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Using any other attribute causes a configuration exception.</source>
+          <target state="translated">При использовании любого другого атрибута возникает исключение конфигурации.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array containing the XML configuration attributes recognized by this listener.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Массив, содержащий атрибуты конфигурации XML, распознаваемые данным прослушивателем.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>Indicates whether or not the host name of the logging machine should be included in the output.</source>
+          <target state="translated">Указывает, включать ли имя узла компьютера, ведение журнала в выходных данных.</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the property to configure the behavior of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt; and &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt; methods.</source>
+          <target state="translated">Свойство для настройки поведения &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;и &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt;методы.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceEvent%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Use <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the host identifier should be included; otherwise use <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Используйте <bpt id="p1">&lt;xref uid="langword_csharp_True" name="True" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Если идентификатор сервера должна быть включена; в противном случае используйте <bpt id="p2">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>Gets or sets location for the log files.</source>
+          <target state="translated">Возвращает или задает расположение для файлов журнала.</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, which is the location for the log file.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, — расположение для файла журнала.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileLocation"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>Determines which date to include in the names of the log files.</source>
+          <target state="translated">Определяет, какую дату включать в имена файлов журнала.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Assign one of the &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; enumeration values to the LogFileCreationSchedule property to specify which date to include in the names of the log files.</source>
+          <target state="translated">Назначить один из &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;значений перечисления для свойства LogFileCreationSchedule, чтобы указать, какую дату включать в имена файлов журнала.&lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The format of the date is YYYY-MM-DD.</source>
+          <target state="translated">Формат даты: гггг-мм-дд.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on the format of the log file name, see &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.</source>
+          <target state="translated">Дополнительные сведения о формате имени файла журнала см. в разделе &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<bpt id="p1">**</bpt>LogFileCreationSchedule value<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>Date in the log file name<ept id="p2">**</ept>|   |---------------------------------------|-----------------------------------|   |&lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;|Include the current date in the log file name.|   |&lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;|Do not include the date in the log file name.|   |&lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;|Include the first day of the current week in the log file name.</source>
+          <target state="translated">| <bpt id="p1">**</bpt>Значение LogFileCreationSchedule<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>даты в имя файла журнала<ept id="p2">**</ept>|   |---------------------------------------|-----------------------------------|   | &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;| Включить текущую дату в имя файла журнала. |   | &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;| Не включать дату в имя файла журнала. |   | &lt;xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;| Включать в имя файла журнала первый день текущей недели.&lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt; &lt;/xref:Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption&gt;</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The week starts on Saturday.|</source>
+          <target state="translated">Неделя начинается с субботы. |</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>This indicates which date to include in the log-file names.</source>
+          <target state="translated">Указывает, какую дату включать в имена файлов журнала.</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>The default value is <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Значение по умолчанию — <bpt id="p1">&lt;xref href="Microsoft.VisualBasic.Logging.LogFileCreationScheduleOption"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum allowed size of the log file, in bytes.</source>
+          <target state="translated">Возвращает или задает максимально допустимый размер файла журнала, в байтах.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to make sure that the log files do not grow too large.</source>
+          <target state="translated">Используйте это свойство, чтобы убедиться в том, что файлы журналов не слишком большой рост размера.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the log file size (in bytes) is greater than the value of this property, then when the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class attempts to write a message to the log, the message is discarded and the failure is either silent or an exception is thrown depending on the value of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; property.</source>
+          <target state="translated">Если размер файла журнала (в байтах) больше, чем значение этого свойства, затем при &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;класс пытается записать сообщение в журнал сообщение отбрасывается и сбоя автоматическое или исключение возникает в зависимости от значения &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;свойство.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the message is written to the log, if the amount of free disk space (in bytes) is less than &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;.</source>
+          <target state="translated">В противном случае сообщение записывается в журнал, если объем свободного места на диске (в байтах) меньше, чем &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace%2A&gt;</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This is the maximum allowed log-file size, in bytes.</source>
+          <target state="translated">Это максимальный допустимый файл журнала размер в байтах.</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>The default value is 5000000.</source>
+          <target state="translated">Значение по умолчанию является 5000000.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source>When this property is set to a value less than 1000.</source>
+          <target state="translated">Если этому свойству присвоено значение меньше 1000.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source>Gets or sets the amount of free disk space, in bytes, necessary before messages can be written to the log file.</source>
+          <target state="translated">Возвращает или задает объем свободного места на диске, в байтах, необходимые перед сообщения могут записываться в файл журнала.</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use this property to make sure that the log files do not completely fill the disk.</source>
+          <target state="translated">Используйте это свойство, чтобы убедиться в том, что файлы журнала не полностью занимает диска.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the amount of free disk space (in bytes) is less than the value of this property, then when the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt; class attempts to write a message to the log, the message is discarded and the failure is either silent or an exception is thrown depending on the value of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; property.</source>
+          <target state="translated">Если объем свободного дискового пространства (в байтах) меньше, чем значение этого свойства, затем при &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;класс пытается записать сообщение в журнал сообщение отбрасывается и сбоя автоматическое или исключение возникает в зависимости от значения &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt;свойство.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.DiskSpaceExhaustedBehavior%2A&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener&gt;</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Otherwise, the message is written to the log, if the log file size (in bytes) is greater than &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;.</source>
+          <target state="translated">В противном случае сообщение записывается в журнал, если размер файла журнала (в байтах) больше, чем &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize%2A&gt;</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Long" name="Long" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>This is the amount of free disk space necessary.</source>
+          <target state="translated">Это объем свободного места на диске.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>The default value is 10000000.</source>
+          <target state="translated">Значение по умолчанию — 10000000.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>When this property is set to a value less than 0.</source>
+          <target state="translated">Если этому свойству присвоено значение меньше 0.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a data object, and event information to the output file or stream.</source>
+          <target state="translated">Записывает сведения трассировки, объект данных и сведения о событии в выходной файл или поток.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method:      1.</source>
+          <target state="translated">Этот метод: 1.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Formats the data and context information for output.</source>
+          <target state="translated">Форматирование данных и сведений о контексте для вывода.</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new log file, if necessary.</source>
+          <target state="translated">При необходимости, создает новый файл журнала.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writes the information to the log file.</source>
+          <target state="translated">Записывает сведения в файл журнала.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on creating new log files, see &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.</source>
+          <target state="translated">Дополнительные сведения о создании файлов журнала см. в разделе &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists the output fields in the order they appear.</source>
+          <target state="translated">В следующей таблице перечислены поля вывода в порядке их следования.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fields are delimited by the string that the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt; property specifies, and are followed by a line terminator.</source>
+          <target state="translated">Поля разделяются на строку, &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;указывает свойство и следует признак конца строки.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<bpt id="p1">**</bpt>Field<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>Output condition<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>Description<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   |<ph id="ph3">`source`</ph>|Always|The value of <ph id="ph4">`name`</ph>.|   |<ph id="ph5">`severity`</ph>|Always|The enumeration-value name of <ph id="ph6">`eventType`</ph>.|   |<ph id="ph7">`id`</ph>|Always|The string representation of <ph id="ph8">`id`</ph>.|   |<ph id="ph9">`message`</ph>|Always|The string representation of <ph id="ph10">`data`</ph>.|   |<ph id="ph11">`callStack`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; property of <ph id="ph12">`eventCache`</ph>.|   |<ph id="ph13">`CorrelationID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph14">`eventCache`</ph>.|   |<ph id="ph15">`DateTime`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; property of <ph id="ph16">`eventCache`</ph>.</source>
+          <target state="translated">| <bpt id="p1">**</bpt>Поле<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>вывода условие<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>описание<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   | <ph id="ph3">`source`</ph>| Всегда | Значение <ph id="ph4">`name`</ph>. |   | <ph id="ph5">`severity`</ph>| Всегда | Имя значения перечисления <ph id="ph6">`eventType`</ph>. |   | <ph id="ph7">`id`</ph>| Всегда | Строковое представление <ph id="ph8">`id`</ph>. |   | <ph id="ph9">`message`</ph>| Всегда | Строковое представление <ph id="ph10">`data`</ph>. |   | <ph id="ph11">`callStack`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; <ph id="ph12">`eventCache`</ph>. |   | <ph id="ph13">`CorrelationID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; <ph id="ph14">`eventCache`</ph>. |   | <ph id="ph15">`DateTime`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt;свойство <ph id="ph16">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ProcessID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`ProcessID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt;свойство <ph id="ph2">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ThreadID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.|   |<ph id="ph3">`Timestamp`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; property of <ph id="ph4">`eventCache`</ph>.</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`ThreadID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; <ph id="ph2">`eventCache`</ph>. |   | <ph id="ph3">`Timestamp`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt;свойство <ph id="ph4">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`HostName`</ph>|When the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt; property is <ph id="ph2">`True`</ph>.|The name of the computer.|</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`HostName`</ph>| Если свойство &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;не <ph id="ph2">`True`</ph>. | Имя компьютера. |&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект, содержащий текущие идентификатор процесса, идентификатор потока и сведения о трассировке стека.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source>A name of the trace source that invoked this method.</source>
+          <target state="translated">Имя источника трассировки, вызвавшего этот метод.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">Числовой идентификатор события.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>The trace data to emit.</source>
+          <target state="translated">Выдаваемые данные трассировки.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>Writes trace information, an array of data objects, and event information to the output file or stream.</source>
+          <target state="translated">Записывает сведения трассировки, массив объектов данных и сведения о событии в выходной файл или поток.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method:      1.</source>
+          <target state="translated">Этот метод: 1.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Formats the data and context information for output,      2.</source>
+          <target state="translated">Форматирование данных и сведений о контексте для вывода 2.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new log file, if necessary,      3.</source>
+          <target state="translated">Создает новый журнал файла, при необходимости 3.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writes the information to the log file.</source>
+          <target state="translated">Записывает сведения в файл журнала.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on creating new log files, see &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.</source>
+          <target state="translated">Дополнительные сведения о создании файлов журнала см. в разделе &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This table lists the output fields in the order they appear.</source>
+          <target state="translated">В этой таблице приведены поля вывода в порядке их следования.</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fields are delimited by the string that the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt; property specifies, and are followed by a line terminator.</source>
+          <target state="translated">Поля разделяются на строку, &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;указывает свойство и следует признак конца строки.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<bpt id="p1">**</bpt>Field<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>Output condition<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>Description<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   |<ph id="ph3">`source`</ph>|Always|The value of <ph id="ph4">`name`</ph>.|   |<ph id="ph5">`severity`</ph>|Always|The enumeration-value name of <ph id="ph6">`eventType`</ph>.|   |<ph id="ph7">`id`</ph>|Always|The string representation of <ph id="ph8">`id`</ph>.|   |<ph id="ph9">`message`</ph>|Always|The string consisting of the string representation of each element in <ph id="ph10">`data`</ph>, each separated by &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;.|   |<ph id="ph11">`callStack`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; property of <ph id="ph12">`eventCache`</ph>.|   |<ph id="ph13">`CorrelationID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph14">`eventCache`</ph>.|   |<ph id="ph15">`DateTime`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; property of <ph id="ph16">`eventCache`</ph>.</source>
+          <target state="translated">| <bpt id="p1">**</bpt>Поле<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>вывода условие<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>описание<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   | <ph id="ph3">`source`</ph>| Всегда | Значение <ph id="ph4">`name`</ph>. |   | <ph id="ph5">`severity`</ph>| Всегда | Имя значения перечисления <ph id="ph6">`eventType`</ph>. |   | <ph id="ph7">`id`</ph>| Всегда | Строковое представление <ph id="ph8">`id`</ph>. |   | <ph id="ph9">`message`</ph>| Всегда | Строка, состоящая из строкового представления каждого элемента в <ph id="ph10">`data`</ph>, разделяя их &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;. |   | <ph id="ph11">`callStack`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; <ph id="ph12">`eventCache`</ph>. |   | <ph id="ph13">`CorrelationID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; <ph id="ph14">`eventCache`</ph>. |   | <ph id="ph15">`DateTime`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt;свойство <ph id="ph16">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ProcessID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`ProcessID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt;свойство <ph id="ph2">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ThreadID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.|   |<ph id="ph3">`Timestamp`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; property of <ph id="ph4">`eventCache`</ph>.</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`ThreadID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; <ph id="ph2">`eventCache`</ph>. |   | <ph id="ph3">`Timestamp`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt;свойство <ph id="ph4">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`HostName`</ph>|When the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt; property is <ph id="ph2">`True`</ph>.|The name of the computer.|</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`HostName`</ph>| Если свойство &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;не <ph id="ph2">`True`</ph>. | Имя компьютера. |&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект, содержащий текущие идентификатор процесса, идентификатор потока и сведения о трассировке стека.</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>The name of the trace source that invoked this method.</source>
+          <target state="translated">Имя источника трассировки, вызвавшего этот метод.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">Числовой идентификатор события.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>An array of objects to emit as data.</source>
+          <target state="translated">Массив объектов для выдачи в качестве данных.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a message and event information to the output file or stream.</source>
+          <target state="translated">Записывает сведения трассировки, сообщение и сведения о событиях в выходной файл или поток.</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method:      1.</source>
+          <target state="translated">Этот метод: 1.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Formats the data and context information for output.</source>
+          <target state="translated">Форматирование данных и сведений о контексте для вывода.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new log file, if necessary.</source>
+          <target state="translated">При необходимости, создает новый файл журнала.</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writes the information to the log file.</source>
+          <target state="translated">Записывает сведения в файл журнала.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on creating new log files, see &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.</source>
+          <target state="translated">Дополнительные сведения о создании файлов журнала см. в разделе &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This table lists the output fields in the order in which they appear.</source>
+          <target state="translated">В этой таблице приведены поля вывода в порядке, в котором они отображаются.</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fields are delimited by the string that the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt; property specifies, and are followed by a line terminator.</source>
+          <target state="translated">Поля разделяются на строку, &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;указывает свойство и следует признак конца строки.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<bpt id="p1">**</bpt>Field<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>Output condition<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>Description<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   |<ph id="ph3">`source`</ph>|Always.|The value of <ph id="ph4">`name`</ph>.|   |<ph id="ph5">`severity`</ph>|Always.|The enumeration-value name of <ph id="ph6">`eventType`</ph>.|   |<ph id="ph7">`id`</ph>|Always.|The string representation of <ph id="ph8">`id`</ph>.|   |<ph id="ph9">`message`</ph>|Always.|The value of <ph id="ph10">`message`</ph>.|   |<ph id="ph11">`callStack`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; property of <ph id="ph12">`eventCache`</ph>.|   |<ph id="ph13">`CorrelationID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph14">`eventCache`</ph>.|   |<ph id="ph15">`DateTime`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; property of <ph id="ph16">`eventCache`</ph>.</source>
+          <target state="translated">| <bpt id="p1">**</bpt>Поле<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>вывода условие<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>описание<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   | <ph id="ph3">`source`</ph>| Всегда. | Значение <ph id="ph4">`name`</ph>. |   | <ph id="ph5">`severity`</ph>| Всегда. | Имя значения перечисления <ph id="ph6">`eventType`</ph>. |   | <ph id="ph7">`id`</ph>| Всегда. | Строковое представление <ph id="ph8">`id`</ph>. |   | <ph id="ph9">`message`</ph>| Всегда. | Значение <ph id="ph10">`message`</ph>. |   | <ph id="ph11">`callStack`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; <ph id="ph12">`eventCache`</ph>. |   | <ph id="ph13">`CorrelationID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; <ph id="ph14">`eventCache`</ph>. |   | <ph id="ph15">`DateTime`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt;свойство <ph id="ph16">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ProcessID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`ProcessID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt;свойство <ph id="ph2">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ThreadID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.|   |<ph id="ph3">`Timestamp`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; property of <ph id="ph4">`eventCache`</ph>.</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`ThreadID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; <ph id="ph2">`eventCache`</ph>. |   | <ph id="ph3">`Timestamp`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt;свойство <ph id="ph4">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`HostName`</ph>|When the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt; property is <ph id="ph2">`True`</ph>.|The name of the computer.|</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`HostName`</ph>| Если свойство &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;не <ph id="ph2">`True`</ph>. | Имя компьютера. |&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект, содержащий текущие идентификатор процесса, идентификатор потока и сведения о трассировке стека.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>A name of the trace source that invoked this method.</source>
+          <target state="translated">Имя источника трассировки, вызвавшего этот метод.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">Числовой идентификатор события.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source>A message to write.</source>
+          <target state="translated">Записываемое сообщение.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>Writes trace information, a formatted array of objects, and event information to the output file or stream.</source>
+          <target state="translated">Записывает сведения трассировки, форматированный массив объектов и сведения о событии в выходной файл или поток.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method:      1.</source>
+          <target state="translated">Этот метод: 1.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Formats the data and context information for output.</source>
+          <target state="translated">Форматирование данных и сведений о контексте для вывода.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve" extradata="MT">
+          <source>2.</source>
+          <target state="translated">2.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Creates a new a new log file, if necessary.</source>
+          <target state="translated">Создает новый файл журнала, при необходимости.</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>3.</source>
+          <target state="translated">3.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Writes the information to the log file.</source>
+          <target state="translated">Записывает сведения в файл журнала.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on creating new log file, see &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.</source>
+          <target state="translated">Дополнительные сведения о создании нового файла журнала см. в разделе &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.FullLogFileName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This table lists the output fields in the order in which they appear.</source>
+          <target state="translated">В этой таблице приведены поля вывода в порядке, в котором они отображаются.</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The fields are delimited by the string that the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt; property specifies, and followed by a line terminator.</source>
+          <target state="translated">Поля разделяются на строку, &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;указывает свойство и с признаком конца строки.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.Delimiter%2A&gt;</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|<bpt id="p1">**</bpt>Field<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>Output condition<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>Description<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   |<ph id="ph3">`source`</ph>|Always|The value of <ph id="ph4">`name`</ph>.|   |<ph id="ph5">`severity`</ph>|Always|The enumeration-value name of <ph id="ph6">`eventType`</ph>.|   |<ph id="ph7">`id`</ph>|Always|The string representation of <ph id="ph8">`id`</ph>.|   |<ph id="ph9">`message`</ph>|Always|The data in <ph id="ph10">`args`</ph> formatted with the <ph id="ph11">`format`</ph> string and using the invariant culture for string conversions.|   |<ph id="ph12">`callStack`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; property of <ph id="ph13">`eventCache`</ph>.|   |<ph id="ph14">`CorrelationID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph15">`eventCache`</ph>.|   |<ph id="ph16">`DateTime`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; property of <ph id="ph17">`eventCache`</ph>.</source>
+          <target state="translated">| <bpt id="p1">**</bpt>Поле<ept id="p1">**</ept><ph id="ph1">|</ph><bpt id="p2">**</bpt>вывода условие<ept id="p2">**</ept><ph id="ph2">|</ph><bpt id="p3">**</bpt>описание<ept id="p3">**</ept>|   |---------------|--------------------------|---------------------|   | <ph id="ph3">`source`</ph>| Всегда | Значение <ph id="ph4">`name`</ph>. |   | <ph id="ph5">`severity`</ph>| Всегда | Имя значения перечисления <ph id="ph6">`eventType`</ph>. |   | <ph id="ph7">`id`</ph>| Всегда | Строковое представление <ph id="ph8">`id`</ph>. |   | <ph id="ph9">`message`</ph>| Всегда | Данные в <ph id="ph10">`args`</ph> отформатирован <ph id="ph11">`format`</ph> строку и с помощью инвариантного языка и региональных параметров для преобразования строк. |   | <ph id="ph12">`callStack`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; <ph id="ph13">`eventCache`</ph>. |   | <ph id="ph14">`CorrelationID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; <ph id="ph15">`eventCache`</ph>. |   | <ph id="ph16">`DateTime`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt;свойство <ph id="ph17">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.DateTime%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.Callstack%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ProcessID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`ProcessID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt;свойство <ph id="ph2">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.ProcessId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`ThreadID`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; property of <ph id="ph2">`eventCache`</ph>.|   |<ph id="ph3">`Timestamp`</ph>|When the &lt;xref:System.Diagnostics.TraceOptions&gt; flag is set in the &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; property.|The string representation of the &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; property of <ph id="ph4">`eventCache`</ph>.</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`ThreadID`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Свойство &lt;xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; <ph id="ph2">`eventCache`</ph>. |   | <ph id="ph3">`Timestamp`</ph>| Если флаг &lt;xref:System.Diagnostics.TraceOptions&gt;задано в свойстве &lt;xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt;. | Строковое представление &lt;xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt;свойство <ph id="ph4">`eventCache`</ph>.&lt;/xref:System.Diagnostics.TraceEventCache.Timestamp%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt; &lt;/xref:System.Diagnostics.TraceEventCache.ThreadId%2A&gt; &lt;/xref:System.Diagnostics.TraceListener.TraceOutputOptions%2A&gt; &lt;/xref:System.Diagnostics.TraceOptions&gt;</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The invariant culture is used for the string conversion.|   |<ph id="ph1">`HostName`</ph>|When the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt; property is <ph id="ph2">`True`</ph>.|The name of the computer.|</source>
+          <target state="translated">Инвариантный язык и региональные параметры используются для преобразования строк. |   | <ph id="ph1">`HostName`</ph>| Если свойство &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;не <ph id="ph2">`True`</ph>. | Имя компьютера. |&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.IncludeHostName%2A&gt;</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object that contains the current process ID, thread ID, and stack trace information.</source>
+          <target state="translated">Объект <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventCache"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> объект, содержащий текущие идентификатор процесса, идентификатор потока и сведения о трассировке стека.</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>A name of the trace source that invoked this method.</source>
+          <target state="translated">Имя источника трассировки, вызвавшего этот метод.</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>One of the <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> enumeration values.</source>
+          <target state="translated">Один из <bpt id="p1">&lt;xref href="System.Diagnostics.TraceEventType"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> значений перечисления.</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source>A numeric identifier for the event.</source>
+          <target state="translated">Числовой идентификатор события.</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>A format string that contains zero or more format items, which correspond to objects in the <ph id="ph1">`args`</ph> array.</source>
+          <target state="translated">Строка формата, содержащая ноль или более элементов формата, связанных с объектами в <ph id="ph1">`args`</ph> массива.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> array containing zero or more objects to format.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_Object" name="Object" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Массив, содержащий ноль или более объектов для форматирования.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>Writes a verbatim message to disk, without any additional context information.</source>
+          <target state="translated">Дословно записывает сообщение на диск без любой дополнительной контекстной информации.</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Write method writes a specific message to the log file, without any additional context information.</source>
+          <target state="translated">Метод Write записывает конкретное сообщение в файл журнала, без любой дополнительной контекстной информации.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the one of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt; methods to include the context information in the log output.</source>
+          <target state="translated">Используйте одну из &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;методы для включения в выходные данные журнала сведений о контексте.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>The custom message to write.</source>
+          <target state="translated">Настраиваемое сообщение для записи.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Writes a verbatim message to disk, followed by the current line terminator, without any additional context information.</source>
+          <target state="translated">Дословно записывает сообщение на диск, текущий признак конца строки, без любой дополнительной контекстной информации.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The WriteLine method writes a specific message to the log file, without any additional context information.</source>
+          <target state="translated">Метод WriteLine записывает сообщение в файл журнала, без любой дополнительной контекстной информации.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Use the one of the &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt; methods to include the context information in the log output.</source>
+          <target state="translated">Используйте одну из &lt;xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;методы для включения в выходные данные журнала сведений о контексте.&lt;/xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.TraceData%2A&gt;</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_String" name="String" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>The custom message to write.</source>
+          <target state="translated">Настраиваемое сообщение для записи.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

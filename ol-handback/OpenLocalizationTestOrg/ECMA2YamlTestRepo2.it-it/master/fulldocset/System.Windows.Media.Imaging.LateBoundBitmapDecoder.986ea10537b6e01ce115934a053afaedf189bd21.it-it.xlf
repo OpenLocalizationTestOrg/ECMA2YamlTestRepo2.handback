@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="it-it">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">92545b2a01dc35a6a5a4527e85e7038d05ebf3fa</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Media.Imaging.LateBoundBitmapDecoder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c855d4f9a4b0f792338f2013908a425ac1fa74a8</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">785f055f88d39555361e582f490d786abb8283fe</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Defines a decoder that requires delayed bitmap creation such as asynchronous image downloads.</source>
+          <target state="translated">Definisce un decodificatore che richiede la creazione ritardata delle bitmap, ad esempio download di immagini asincrono.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A LateBoundBitmapDecoder is used when &lt;xref:System.Windows.Media.Imaging.BitmapCreateOptions&gt; is specified.</source>
+          <target state="translated">Viene utilizzato un LateBoundBitmapDecoder quando &lt;xref:System.Windows.Media.Imaging.BitmapCreateOptions&gt;è specificato.&lt;/xref:System.Windows.Media.Imaging.BitmapCreateOptions&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder.Decoder%2A&gt; property creates the necessary "real decoder" on an on-demand basis.</source>
+          <target state="translated">Il &lt;xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder.Decoder%2A&gt;proprietà consente di creare il "vero decodificatore" necessario su richiesta.&lt;/xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder.Decoder%2A&gt;</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>All decoder properties return <ph id="ph1">`null`</ph> while content is downloading.</source>
+          <target state="translated">Restituiscono tutte le proprietà del decodificatore <ph id="ph1">`null`</ph> durante il download di contenuto.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>A LateBoundBitmapDecoder can also be created when the system has an image that is being asynchronously downloaded locally.</source>
+          <target state="translated">Un LateBoundBitmapDecoder può essere creato anche quando il sistema disponga di un'immagine che viene scaricata in modo asincrono in locale.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, the decoder also returns <ph id="ph1">`null`</ph> for properties until the image has been downloaded.</source>
+          <target state="translated">In questo caso, il decodificatore restituisce anche <ph id="ph1">`null`</ph> per le proprietà fino a quando non è stato scaricato l'immagine.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The application can check the &lt;xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder.IsDownloading%2A&gt; property or add a delegate for the &lt;xref:System.Windows.Media.Imaging.BitmapDecoder.DownloadCompleted&gt; event to monitor the download status.</source>
+          <target state="translated">L'applicazione può controllare il &lt;xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder.IsDownloading%2A&gt;proprietà o aggiungere un delegato per il &lt;xref:System.Windows.Media.Imaging.BitmapDecoder.DownloadCompleted&gt;evento per monitorare lo stato del download.&lt;/xref:System.Windows.Media.Imaging.BitmapDecoder.DownloadCompleted&gt; &lt;/xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder.IsDownloading%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Furthermore, any frames obtained from a LateBoundBitmapDecoder while the image is downloading will return a width/height of 1,1 until the frames have finished downloading.</source>
+          <target state="translated">Inoltre, qualsiasi frame ottenuto da un LateBoundBitmapDecoder mentre si scarica l'immagine restituirà una larghezza/altezza 1,1 fino a quando i frame hanno terminato il download.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&lt;xref:System.Windows.Media.Imaging.BitmapFrame&gt; objects that are returned by this class are frozen and are therefore immutable.</source>
+          <target state="translated">&lt;xref:System.Windows.Media.Imaging.BitmapFrame&gt;gli oggetti restituiti da questa classe sono bloccati e pertanto non sono modificabili.&lt;/xref:System.Windows.Media.Imaging.BitmapFrame&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>Gets information that describes this codec.</source>
+          <target state="translated">Ottiene informazioni che descrivono questo codec.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapCodecInfo"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Un'istanza di <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapCodecInfo"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>This property has no default value.</source>
+          <target state="translated">Questa proprietà non è previsto alcun valore predefinito.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>If the late bound decoder is still downloading, this property returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se il decodificatore con associazione tardiva sta ancora scaricando, questa proprietà restituisce <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Gets a value that represents the color profile that is associated with a bitmap, if one is defined.</source>
+          <target state="translated">Ottiene un valore che rappresenta il profilo colori associato a una bitmap, se definito.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Windows.Media.ColorContext"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the embedded color profile of the bitmap.</source>
+          <target state="translated">Un'istanza di <bpt id="p1">&lt;xref href="System.Windows.Media.ColorContext"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta il profilo colori incorporato della bitmap.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>If no color profile has been defined, or if the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.LateBoundBitmapDecoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is still downloading content, this property returns <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se non è stato definito alcun profilo colori o se il <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.LateBoundBitmapDecoder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> sta ancora scaricando contenuto, questa proprietà restituisce <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>This property has no default value.</source>
+          <target state="translated">Questa proprietà non è previsto alcun valore predefinito.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Gets the underlying decoder that is associated with this late-bound decoder.</source>
+          <target state="translated">Ottiene il decodificatore sottostante associato a questo decodificatore ad associazione tardiva.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The underlying <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapDecoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Sottostante <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapDecoder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>If the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.LateBoundBitmapDecoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is still downloading a bitmap, the underlying decoder is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se il <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.LateBoundBitmapDecoder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> è ancora scaricando una bitmap, il decodificatore sottostante è <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Otherwise, the underlying decoder is created on first access.</source>
+          <target state="translated">In caso contrario, il decodificatore sottostante viene creato al primo accesso.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Gets the content of an individual frame within a bitmap.</source>
+          <target state="translated">Ottiene il contenuto di un singolo fotogramma all'interno di una bitmap.</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because a &lt;xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder&gt; is downloaded asynchronously, it is possible for the underlying collection of Frames to change after content is downloaded and decoded.</source>
+          <target state="translated">Poiché un &lt;xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder&gt;viene scaricato in modo asincrono, è possibile che la raccolta sottostante di frame da modificare dopo il contenuto viene scaricato e decodificato.&lt;/xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve" extradata="MT">
+          <source>While content is downloading, the collection always returns at least one item.</source>
+          <target state="translated">Durante il download di contenuto, l'insieme restituisce sempre almeno un elemento.</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When downloading and decoding are complete, the &lt;xref:System.Windows.Media.Imaging.BitmapFrame&gt; automatically changes its underlying content.</source>
+          <target state="translated">Quando vengono completate, download e la decodifica il &lt;xref:System.Windows.Media.Imaging.BitmapFrame&gt;modifica automaticamente il contenuto sottostante.&lt;/xref:System.Windows.Media.Imaging.BitmapFrame&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In other words, only the collection object can change; the actual frame object remains the same.</source>
+          <target state="translated">In altre parole, è possibile modificare solo l'oggetto della raccolta; l'oggetto frame effettivo rimane invariato.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any frame obtained from a &lt;xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder&gt; while the image is downloading will return a width/height of <ph id="ph1">`1,1`</ph> until the frames have finished downloading.</source>
+          <target state="translated">Qualsiasi frame ottenuto da un &lt;xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder&gt;mentre si scarica l'immagine restituirà larghezza/altezza <ph id="ph1">`1,1`</ph> fino a quando i frame hanno terminato il download.&lt;/xref:System.Windows.Media.Imaging.LateBoundBitmapDecoder&gt;</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Only <ph id="ph1">[!INCLUDE[TLA#tla_tiff](~/add/includes/tlasharptla-tiff-md.md)]</ph> and <ph id="ph2">[!INCLUDE[TLA#tla_gif](~/add/includes/tlasharptla-gif-md.md)]</ph> images support more than one frame.</source>
+          <target state="translated">Solo <ph id="ph1">[!INCLUDE[TLA#tla_tiff](~/add/includes/tlasharptla-tiff-md.md)]</ph> e <ph id="ph2">[!INCLUDE[TLA#tla_gif](~/add/includes/tlasharptla-gif-md.md)]</ph> immagini supportano più di un frame.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Any &lt;xref:System.Windows.Media.Imaging.BitmapFrame&gt; objects that this property returns are frozen.</source>
+          <target state="translated">Qualsiasi &lt;xref:System.Windows.Media.Imaging.BitmapFrame&gt;gli oggetti che questa proprietà restituisce sono bloccati.&lt;/xref:System.Windows.Media.Imaging.BitmapFrame&gt;</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>An instance of <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapFrame"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Un'istanza di <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapFrame"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>This property has no default value.</source>
+          <target state="translated">Questa proprietà non è previsto alcun valore predefinito.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the decoder is currently downloading content.</source>
+          <target state="translated">Ottiene un valore che indica se il decodificatore attualmente sta scaricando il contenuto.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the decoder is downloading content; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Se il decodificatore sta scaricando il contenuto; in caso contrario, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapPalette"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is associated with this decoder.</source>
+          <target state="translated">Ottiene il <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapPalette"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associato a questo decodificatore.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapPalette"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is associated with this decoder.</source>
+          <target state="translated">Il <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapPalette"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> associato a questo decodificatore.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>If the bitmap has no palette, or if the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.LateBoundBitmapDecoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is still downloading content, this property returns <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se la bitmap non ha alcuna tavolozza o se il <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.LateBoundBitmapDecoder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> sta ancora scaricando contenuto, questa proprietà restituisce <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>This property has no default value.</source>
+          <target state="translated">Questa proprietà non è previsto alcun valore predefinito.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the global preview of this bitmap, if one is defined.</source>
+          <target state="translated">Ottiene un <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'anteprima globale di questa bitmap, se definito.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Imaging.BitmapSource&gt; that this property returns is frozen.</source>
+          <target state="translated">Il &lt;xref:System.Windows.Media.Imaging.BitmapSource&gt;che questa proprietà restituisce è bloccato.&lt;/xref:System.Windows.Media.Imaging.BitmapSource&gt;</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the global preview of the bitmap.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'anteprima globale della bitmap.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>If no preview is defined, or if the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.LateBoundBitmapDecoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is still downloading content, this property returns <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se l'anteprima non è definita o se il <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.LateBoundBitmapDecoder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> sta ancora scaricando contenuto, questa proprietà restituisce <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>This property has no default value.</source>
+          <target state="translated">Questa proprietà non è previsto alcun valore predefinito.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Gets a <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents the thumbnail of the bitmap, if one is defined.</source>
+          <target state="translated">Ottiene un <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'anteprima della bitmap, se definito.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Windows.Media.Imaging.BitmapSource&gt; that this property returns is frozen.</source>
+          <target state="translated">Il &lt;xref:System.Windows.Media.Imaging.BitmapSource&gt;che questa proprietà restituisce è bloccato.&lt;/xref:System.Windows.Media.Imaging.BitmapSource&gt;</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that represents a thumbnail of the bitmap.</source>
+          <target state="translated">Oggetto <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.BitmapSource"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> che rappresenta l'anteprima della bitmap.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>If no thumbnail is defined, or if the <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.LateBoundBitmapDecoder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> is still downloading content, this property returns <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Se l'anteprima non è definita o se il <bpt id="p1">&lt;xref href="System.Windows.Media.Imaging.LateBoundBitmapDecoder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> sta ancora scaricando contenuto, questa proprietà restituisce <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>This property has no default value.</source>
+          <target state="translated">Questa proprietà non è previsto alcun valore predefinito.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pl-pl">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a1c489db10c5dc334479a1ef7ecbaf7e585920d5</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Data.SqlClient.SqlConnectionStringBuilder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c468fb649e6163fd71f1261768bd77bcef199962</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0c744b3f033f0105597fc2476eaeca2513af88f2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides a simple way to create and manage the contents of connection strings used by the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Zapewnia prosty sposób tworzenia i zarządzania zawartością parametrów połączeń używanych przez <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection string builder lets developers programmatically create syntactically correct connection strings, and parse and rebuild existing connection strings, using properties and methods of the class.</source>
+          <target state="translated">Konstruktor ciągów połączenia umożliwiają deweloperom, programowe tworzenie ciągów połączenia poprawna składniowo i przeanalizować i skompiluj ponownie istniejących parametrów połączenia, przy użyciu właściwości i metody klasy.</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection string builder provides strongly typed properties corresponding to the known key/value pairs allowed by SQL Server.</source>
+          <target state="translated">Konstruktor ciągów połączenia zapewnia jednoznacznie właściwości odpowiadającej pary znane klucz/wartość dozwolona przez program SQL Server.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Developers needing to create connection strings as part of applications can use the SqlConnectionStringBuilder class to build and modify connection strings.</source>
+          <target state="translated">Deweloperzy wymagające utworzyć parametry połączenia w ramach aplikacji można użyć klasy SqlConnectionStringBuilder do kompilowania i modyfikowania parametry połączenia.</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class also makes it easy to manage connection strings stored in an application configuration file.</source>
+          <target state="translated">Klasa ułatwia również zarządzać parametry połączenia, przechowywane w pliku konfiguracyjnym aplikacji.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The SqlConnectionStringBuilder performs checks for valid key/value pairs.</source>
+          <target state="translated">SqlConnectionStringBuilder sprawdza pary klucz wartość nieprawidłowa.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Therefore, you cannot use this class to create invalid connection strings; trying to add invalid pairs will throw an exception.</source>
+          <target state="translated">W związku z tym nie można użyć tej klasy, aby utworzyć parametry połączenia nieprawidłowy; Próba dodania pary nieprawidłowy spowoduje zgłoszenie wyjątku.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The class maintains a fixed collection of synonyms and can translate from a synonym to the corresponding well-known key name.</source>
+          <target state="translated">Klasa obsługuje zbiór stałym synonimy i może dokonywać translacji z synonim do odpowiedniego dobrze znanej nazwy klucza.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, when you use the <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> property to retrieve a value, you can specify a string that contains any synonym for the key you need.</source>
+          <target state="translated">Na przykład, jeśli używasz <bpt id="p1">**</bpt>elementu<ept id="p1">**</ept> właściwości można pobrać wartości, można określić ciąg, który zawiera wszystkie synonim klucza należy.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, you can specify "Network Address", "addr", or any other acceptable synonym for this key within a connection string when you use any member that requires a string that contains the key name, such as the <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> property or the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Remove%2A&gt; method.</source>
+          <target state="translated">Na przykład można określić "Adres sieciowy", "addr" lub inne dopuszczalne synonim dla tego klucza w ciągu połączenia korzystając z dowolnego członka wymagającego ciąg znaków zawierający nazwę klucza, takich jak <bpt id="p1">**</bpt>elementu<ept id="p1">**</ept> właściwości lub &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Remove%2A&gt;metody.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder.Remove%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt; property for a full list of acceptable synonyms.</source>
+          <target state="translated">Zobacz &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;Właściwości pełną listę dopuszczalne synonimy.&lt;/xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>Item<ept id="p1">**</ept> property handles tries to insert malicious entries.</source>
+          <target state="translated"><bpt id="p1">**</bpt>Elementu<ept id="p1">**</ept> właściwość obsługuje próbuje Wstaw złośliwego wpisów.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For example, the following code, using the default Item property (the indexer, in C#) correctly escapes the nested key/value pair:       [Visual Basic]      <ph id="ph1">```   Dim builder As New System.Data.SqlClient.SqlConnectionStringBuilder   builder("Data Source") = "(local)"   builder("Integrated Security") = True   builder("Initial Catalog") = "AdventureWorks;NewValue=Bad"   Console.WriteLine(builder.ConnectionString)   ```</ph>       [C#]      <ph id="ph2">```   System.Data.SqlClient.SqlConnectionStringBuilder builder =     new System.Data.SqlClient.SqlConnectionStringBuilder();   builder["Data Source"] = "(local)";   builder["integrated Security"] = true;   builder["Initial Catalog"] = "AdventureWorks;NewValue=Bad";   Console.WriteLine(builder.ConnectionString);      ```</ph>       The result is the following connection string that handles the invalid value in a safe manner:      <ph id="ph3">```   Source=(local);Initial Catalog="AdventureWorks;NewValue=Bad";   Integrated Security=True   ```</ph></source>
+          <target state="translated">Na przykład następujący kod, za pomocą właściwości elementu domyślne (indeksatora, w języku C#) poprawnie specjalne para zagnieżdżonych klucza i wartości: [Visual Basic] <ph id="ph1">```   Dim builder As New System.Data.SqlClient.SqlConnectionStringBuilder   builder("Data Source") = "(local)"   builder("Integrated Security") = True   builder("Initial Catalog") = "AdventureWorks;NewValue=Bad"   Console.WriteLine(builder.ConnectionString)   ```</ph> [C#] <ph id="ph2">```   System.Data.SqlClient.SqlConnectionStringBuilder builder =     new System.Data.SqlClient.SqlConnectionStringBuilder();   builder["Data Source"] = "(local)";   builder["integrated Security"] = true;   builder["Initial Catalog"] = "AdventureWorks;NewValue=Bad";   Console.WriteLine(builder.ConnectionString);      ```</ph> wynik jest następujący ciąg połączenia, który obsługuje nieprawidłową wartość w bezpieczny sposób:<ph id="ph3">```   Source=(local);Initial Catalog="AdventureWorks;NewValue=Bad";   Integrated Security=True   ```</ph></target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Initializes a new instance of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">Inicjuje nowe wystąpienie klasy <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> klasy.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The provided connection string provides the data for the instance's internal connection information.</source>
+          <target state="translated">Podane parametry połączenia zawiera dane wystąpienia informacji połączenia wewnętrznego.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; class provides a fixed internal collection of key/value pairs.</source>
+          <target state="translated">&lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;Klasa zawiera stałe wewnętrznej kolekcji par klucz/wartość.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Even if you supply only a small subset of the possible connection string values in the constructor, the object always provides default values for each key/value pair.</source>
+          <target state="translated">Nawet jeśli podasz tylko mały podzbiór wartości parametrów połączeń możliwe w Konstruktorze obiektu zawsze zapewnia wartości domyślne dla każdej pary klucz wartość.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When the <ph id="ph1">`ConnectionString`</ph> property of the object is retrieved, the string contains only key/value pairs in which the value is not the default value for the item.</source>
+          <target state="translated">Gdy <ph id="ph1">`ConnectionString`</ph> właściwości obiektu są pobierane, ciąg zawiera tylko pary klucz wartość, w których wartość nie jest wartością domyślną dla elementu.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The basis for the object's internal connection information.</source>
+          <target state="translated">Podstawa informacji połączenia wewnętrznego obiektu.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Parsed into name/value pairs.</source>
+          <target state="translated">Przeanalizowany w pary nazwa/wartość.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Invalid key names raise &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.</source>
+          <target state="translated">Podnoszenie nieprawidłowych nazw kluczy &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.&lt;/xref:System.Collections.Generic.KeyNotFoundException&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Invalid key name within the connection string.</source>
+          <target state="translated">Nieprawidłowa nazwa klucza w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Invalid value within the connection string (specifically, when a Boolean or numeric value was expected but not supplied).</source>
+          <target state="translated">Nieprawidłowa wartość ciągu połączenia (w szczególności, gdy wartość logiczna lub liczbowego był oczekiwany, ale nie podano).</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The supplied <bpt id="p1">&lt;code&gt;</bpt><ph id="ph1">connectionString</ph><ept id="p1">&lt;/code&gt;</ept> is not valid.</source>
+          <target state="translated">Podana <bpt id="p1">&lt;code&gt;</bpt> <ph id="ph1">connectionString</ph> <ept id="p1">&lt;/code&gt;</ept> jest nieprawidłowy.</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Declares the application workload type when connecting to a database in an SQL Server Availability Group.</source>
+          <target state="translated">Deklaruje typ obciążenia aplikacji podczas nawiązywania połączenia z bazą danych w grupie dostępności programu SQL Server.</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>You can set the value of this property with <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Można ustawić wartość tej właściwości z <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>For more information about SqlClient support for Always On Availability Groups, see <bpt id="p1">[</bpt>SqlClient Support for High Availability, Disaster Recovery<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji o obsłudze SqlClient dla zawsze włączonych grup dostępności, zobacz <bpt id="p1">[</bpt>SqlClient obsługę wysokiej dostępności, odzyskiwania po awarii<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Returns the current value of the property (a value of type <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>).</source>
+          <target state="translated">Zwraca bieżącą wartość właściwości (wartości typu <bpt id="p1">&lt;xref href="System.Data.SqlClient.ApplicationIntent"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the application associated with the connection string.</source>
+          <target state="translated">Pobiera lub ustawia nazwę aplikacji skojarzonej z parametrami połączenia.</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Application Name" and "app" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczy "Nazwa aplikacji" i "aplikacja" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>The name of the application, or ".NET SqlClient Data Provider" if no name has been supplied.</source>
+          <target state="translated">Nazwa aplikacji lub ".NET dostawcę danych SqlClient" Jeśli nie został dostarczony bez nazwy.</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aby ustawić wartość null, użyj <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether asynchronous processing is allowed by the connection created by using this connection string.</source>
+          <target state="translated">Pobiera lub ustawia wartość Boolean wskazującą, czy przetwarzanie asynchroniczne jest dozwolone przez połączenie utworzone za pomocą tych parametrów połączenia.</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Asynchronous Processing" and "async" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczy "Asynchronous Processing" i "async" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In order to take advantage of the asynchronous processing provided by the &lt;xref:System.Data.SqlClient.SqlCommand&gt; object, this key/value pair must be included within the connection string of the associated &lt;xref:System.Data.SqlClient.SqlConnection&gt; object.</source>
+          <target state="translated">Aby korzystać z przetwarzania asynchronicznego podał &lt;xref:System.Data.SqlClient.SqlCommand&gt;obiektu, ta para klucza i wartości musi być zawarty w ciągu połączenia skojarzonego &lt;xref:System.Data.SqlClient.SqlConnection&gt;obiektu.&lt;/xref:System.Data.SqlClient.SqlConnection&gt; &lt;/xref:System.Data.SqlClient.SqlCommand&gt;</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>The value of the AsynchronousProcessing property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no value has been supplied.</source>
+          <target state="translated">Wartość właściwości AsynchronousProcessing lub <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli podano żadnej wartości.</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string that contains the name of the primary data file.</source>
+          <target state="translated">Pobiera lub ustawia ciąg zawierający nazwę pliku podstawowego.</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>This includes the full path name of an attachable database.</source>
+          <target state="translated">W tym pełną nazwę ścieżki możliwe do dołączenia bazy danych.</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "AttachDBFilename", "extended properties", and "initial file name" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada "AttachDBFilename", "rozszerzonych właściwości" i "początkowa nazwa pliku" kluczy w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">`AttachDBFilename`</ph> is only supported for primary data files with an .mdf extension.</source>
+          <target state="translated"><ph id="ph1">`AttachDBFilename`</ph>jest obsługiwana tylko dla danych podstawowych pliki z rozszerzeniem .mdf.</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An error will be generated if a log file exists in the same directory as the data file and the 'database' keyword is used when attaching the primary data file.</source>
+          <target state="translated">Błąd zostanie wygenerowany, jeśli plik dziennika istnieje w tym samym katalogu co plik danych i słowo kluczowe "baza danych" jest używana podczas dołączania pliku podstawowego.</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In this case, remove the log file.</source>
+          <target state="translated">W takim przypadku usuń plik dziennika.</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Once the database is attached, a new log file will be automatically generated based on the physical path.</source>
+          <target state="translated">Po dołączeniu bazie danych nowy plik dziennika będą automatycznie generowane na podstawie ścieżki fizycznej.</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>The value of the <bpt id="p1">&lt;xref uid="langword_csharp_AttachDBFilename" name="AttachDBFilename" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> property, or <bpt id="p2">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if no value has been supplied.</source>
+          <target state="translated">Wartość <bpt id="p1">&lt;xref uid="langword_csharp_AttachDBFilename" name="AttachDBFilename" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> właściwości, lub <bpt id="p2">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Jeśli podano żadnej wartości.</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aby ustawić wartość null, użyj <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the authentication of the connection string.</source>
+          <target state="translated">Pobiera uwierzytelniania parametrów połączenia.</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The authentication of the connection string.</source>
+          <target state="translated">Uwierzytelnianie w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Clears the contents of the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Czyści zawartość <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienia.</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Data.Common.DbConnectionStringBuilder.Clear%2A&gt; method removes all key/value pairs from the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;, and resets all corresponding properties.</source>
+          <target state="translated">&lt;xref:System.Data.Common.DbConnectionStringBuilder.Clear%2A&gt;Metoda usuwa wszystkie pary klucz wartość z &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;i resetuje wszystkie odpowiednie właściwości.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder.Clear%2A&gt;</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This includes setting the &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt; property to 0, and setting the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt; property to an empty string.</source>
+          <target state="translated">Obejmuje to ustawienia &lt;xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;Właściwości na wartość 0 i ustawienie &lt;xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt;Właściwości na pusty ciąg.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ConnectionString%2A&gt; &lt;/xref:System.Data.Common.DbConnectionStringBuilder.Count%2A&gt;</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Gets and sets the column encryption settings for the connection string builder.</source>
+          <target state="translated">Pobiera i ustawia kolumnę ustawienia szyfrowania dla konstruktora ciągu połączenia.</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>The column encryption settings for the connection string builder.</source>
+          <target state="translated">Ustawienia szyfrowania kolumn dla konstruktora ciągu połączenia.</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>Obsolete.</source>
+          <target state="translated">Przestarzałe.</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the connection is reset when drawn from the connection pool.</source>
+          <target state="translated">Pobiera lub ustawia wartość Boolean wskazującą, czy połączenie jest resetowany podczas rysowania z puli połączeń.</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Connection Reset" key within the &lt;xref:System.Data.SqlClient.SqlConnection&gt; connection string, which has been removed from version 3.5 SP1 of the .NET Framework.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "Zresetowania połączenia" w ramach &lt;xref:System.Data.SqlClient.SqlConnection&gt;ciąg połączenia, który został usunięty z programu .NET Framework w wersji 3.5 z dodatkiem SP1.&lt;/xref:System.Data.SqlClient.SqlConnection&gt;</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>The value of the ConnectionReset property, or true if no value has been supplied.</source>
+          <target state="translated">Wartość właściwości ConnectionReset lub wartość true, jeśli podano żadnej wartości.</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       The number of reconnections attempted after identifying that there was an idle connection failure.</source>
+          <target state="translated">[Obsługiwane w programie .NET Framework 4.5.1 i nowszych wersjach]       Liczba ponowne łączenie podjęto po określeniu, czy wystąpił błąd bezczynnego połączenia.</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>This must be an integer between 0 and 255.</source>
+          <target state="translated">To musi być liczbą całkowitą od 0 do 255.</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>Default is 1.</source>
+          <target state="translated">Domyślna wartość wynosi 1.</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source>Set to 0 to disable reconnecting on idle connection failures.</source>
+          <target state="translated">Ustawiona na 0, aby wyłączyć połączyć się ponownie przy błędach bezczynnego połączenia.</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.ArgumentException&gt; will be thrown if set to a value outside of the allowed range.</source>
+          <target state="translated">&lt;xref:System.ArgumentException&gt;Zostanie element zgłaszany, gdy ustawiona wartość poza dozwolonym zakresem.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>The number of reconnections attempted after identifying that there was an idle connection failure.</source>
+          <target state="translated">Liczba ponowne łączenie podjęto po określeniu, czy wystąpił błąd bezczynnego połączenia.</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>[Supported in the .NET Framework 4.5.1 and later versions]       Amount of time (in seconds) between each reconnection attempt after identifying that there was an idle connection failure.</source>
+          <target state="translated">[Obsługiwane w programie .NET Framework 4.5.1 i nowszych wersjach]       Ilość czasu (w sekundach) między kolejnymi próbami ponownego połączenia po identyfikacji, który był błąd bezczynnego połączenia.</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>This must be an integer between 1 and 60.</source>
+          <target state="translated">To musi być liczbą całkowitą z przedziału od 1 do 60.</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>The default is 10 seconds.</source>
+          <target state="translated">Wartość domyślna to 10 sekund.</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.ArgumentException&gt; will be thrown if set to a value outside of the allowed range.</source>
+          <target state="translated">&lt;xref:System.ArgumentException&gt;Zostanie element zgłaszany, gdy ustawiona wartość poza dozwolonym zakresem.&lt;/xref:System.ArgumentException&gt;</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Amount of time (in seconds) between each reconnection attempt after identifying that there was an idle connection failure.</source>
+          <target state="translated">Ilość czasu (w sekundach) między kolejnymi próbami ponownego połączenia po identyfikacji, który był błąd bezczynnego połączenia.</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>Gets or sets the length of time (in seconds) to wait for a connection to the server before terminating the attempt and generating an error.</source>
+          <target state="translated">Pobiera lub ustawia czas (w sekundach) oczekiwania na połączenie z serwerem przed zakończeniem próby i wygenerowaniem błędu.</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Connect Timeout", "connection timeout", and "timeout" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada "Connect Timeout", "limit czasu połączenia" i "timeout" kluczy w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When opening a connection to a Azure SQL Database, set the connection timeout to 30 seconds.</source>
+          <target state="translated">Po otwarciu połączenia z bazą danych SQL Azure, należy ustawić limit czasu połączenia do 30 sekund.</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>The value of the ConnectTimeout property, or 15 seconds if no value has been supplied.</source>
+          <target state="translated">Wartość właściwości ConnectTimeout lub 15 sekund, jeśli podano żadnej wartości.</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>Determines whether the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains a specific key.</source>
+          <target state="translated">Określa, czy <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawiera określony klucz.</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; contains a fixed-size collection of key/value pairs, the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; method determines only if a particular key name is valid.</source>
+          <target state="translated">Ponieważ &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;zawiera kolekcję par klucz/wartość, stały rozmiar &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;Metoda tylko określa, czy nazwy określonego klucza jest prawidłowy.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; &lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Klucz do zlokalizowania w <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>true if the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> contains an element that has the specified key; otherwise, false.</source>
+          <target state="translated">wartość true, jeśli <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> zawiera element z określonym kluczem; w przeciwnym razie wartość false.</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>ma wartość null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w języku Visual Basic)</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether a client/server or in-process connection to SQL Server should be made.</source>
+          <target state="translated">Pobiera lub ustawia wartość wskazującą, czy należy klient/serwer lub w trakcie połączenia z programem SQL Server.</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Context Connection" key within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "Połączenia kontekstu" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  The &lt;xref:System.Data.SqlClient.SqlConnection.DataSource%2A&gt; property returns <ph id="ph2">`null`</ph> if the connection string for the &lt;xref:System.Data.SqlClient.SqlConnection&gt; is "context connection=true".</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; &lt;xref:System.Data.SqlClient.SqlConnection.DataSource%2A&gt;Zwraca <ph id="ph2">`null`</ph> Jeśli parametrów połączenia dla &lt;xref:System.Data.SqlClient.SqlConnection&gt;jest "połączenia kontekstu = true".&lt;/xref:System.Data.SqlClient.SqlConnection&gt; &lt;/xref:System.Data.SqlClient.SqlConnection.DataSource%2A&gt;</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source>The value of the ContextConnection property, or <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości ContextConnection lub <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Gets or sets the SQL Server Language record name.</source>
+          <target state="translated">Pobiera lub ustawia nazwę rekordu języka programu SQL Server.</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Current Language" and "language" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczy "Bieżący język" i "język" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>The value of the CurrentLanguage property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if no value has been supplied.</source>
+          <target state="translated">Wartość właściwości CurrentLanguage lub <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli podano żadnej wartości.</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aby ustawić wartość null, użyj <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name or network address of the instance of SQL Server to connect to.</source>
+          <target state="translated">Pobiera lub ustawia nazwa lub adres sieciowy wystąpienia programu SQL Server, aby nawiązać połączenie.</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Data Source", "server", "address", "addr", and "network address" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada "Źródła danych", "server", "address", "addr" i "adres sieciowy" kluczy w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Regardless of which of these values has been supplied within the supplied connection string, the connection string created by the <ph id="ph1">`SqlConnectionStringBuilder`</ph> will use the well-known "Data Source" key.</source>
+          <target state="translated">Niezależnie od tego, która z tych wartości zostały podane w dostarczone parametry połączenia, ciąg połączenia utworzone przez <ph id="ph1">`SqlConnectionStringBuilder`</ph> użyje dobrze znanym kluczem "Źródła danych".</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>The value of the DataSource property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości DataSource lub <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aby ustawić wartość null, użyj <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether SQL Server uses SSL encryption for all data sent between the client and server if the server has a certificate installed.</source>
+          <target state="translated">Pobiera lub ustawia wartość Boolean wskazującą, czy program SQL Server używa szyfrowania SSL dla wszystkich danych przesyłanych między klientem a serwerem, jeśli serwer ma zainstalowany certyfikat.</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Encrypt" key within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "Szyfruj" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>The value of the Encrypt property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości szyfruj lub <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the SQL Server connection pooler automatically enlists the connection in the creation thread's current transaction context.</source>
+          <target state="translated">Pobiera lub ustawia wartość Boolean wskazującą, czy pulę połączeń programu SQL Server automatycznie rejestruje połączenia w bieżącym kontekście transakcji wątku tworzenia.</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Enlist" key within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "Enlist" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The value of the Enlist property, or <bpt id="p1">&lt;xref uid="langword_csharp_true " name="true " href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>if none has been supplied.</source>
+          <target state="translated">Wartość właściwości Enlist lub <bpt id="p1">&lt;xref uid="langword_csharp_true " name="true " href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name or address of the partner server to connect to if the primary server is down.</source>
+          <target state="translated">Pobiera lub ustawia nazwę lub adres serwera partnerskiego do połączenia, jeśli serwer podstawowy nie działa.</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>The value of the FailoverPartner property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości FailoverPartner lub <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aby ustawić wartość null, użyj <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">Do dodania.</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the database associated with the connection.</source>
+          <target state="translated">Pobiera lub ustawia nazwę bazy danych, skojarzonych z tym połączeniem.</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Initial Catalog" and "database" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczy "Initial Catalog" i "baza danych" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>The value of the InitialCatalog property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości InitialCatalog lub <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aby ustawić wartość null, użyj <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether User ID and Password are specified in the connection (when <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>) or whether the current Windows account credentials are used for authentication (when <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>).</source>
+          <target state="translated">Pobiera lub ustawia wartość Boolean wskazującą, czy identyfikator użytkownika i hasło są określone w połączeniu (gdy <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>) lub czy bieżące poświadczenia konta systemu Windows są używane do uwierzytelniania (Jeśli <bpt id="p2">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>).</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Integrated Security" and "trusted_connection" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczy "Zintegrowane zabezpieczenia" i "trusted_connection" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>The value of the IntegratedSecurity property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości wartości IntegratedSecurity lub <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> has a fixed size.</source>
+          <target state="translated">Pobiera wartość wskazującą, czy <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> ma stały rozmiar.</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in every case, because the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> supplies a fixed-size collection of key/value pairs.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>w każdym przypadku ponieważ <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> dostarcza kolekcję par klucz/wartość stałym rozmiarze.</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Gets or sets the value associated with the specified key.</source>
+          <target state="translated">Pobiera lub ustawia wartość skojarzoną z określonym kluczem.</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>In C#, this property is the indexer.</source>
+          <target state="translated">W języku C# ta właściwość jest indeksatora.</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; contains a fixed-size dictionary, trying to add a key that does not exist within the dictionary throws a &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.</source>
+          <target state="translated">Ponieważ &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;zawiera słownik stałym rozmiarze dodać klucz, który nie istnieje w słowniku zgłasza &lt;xref:System.Collections.Generic.KeyNotFoundException&gt;.&lt;/xref:System.Collections.Generic.KeyNotFoundException&gt; w trakcie&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The key of the item to get or set.</source>
+          <target state="translated">Klucz elementu do pobrania lub ustawienia.</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>The value associated with the specified key.</source>
+          <target state="translated">Wartość skojarzona z określonym kluczem.</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is a null reference (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>to odwołanie o wartości null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w języku Visual Basic).</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Tried to add a key that does not exist within the available keys.</source>
+          <target state="translated">Próba dodania klucza, który nie istnieje w kluczach dostępne.</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>Invalid value within the connection string (specifically, a Boolean or numeric value was expected but not supplied).</source>
+          <target state="translated">Nieprawidłowa wartość ciągu połączenia (w szczególności wartość logiczna lub liczbowego był oczekiwany, ale nie podano).</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera &lt;xref:System.Collections.ICollection&gt;zawierającą klucze ze słownika w <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is unspecified, but it is the same order as the associated values in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Values%2A&gt; property.</source>
+          <target state="translated">Kolejność wartości na liście &lt;xref:System.Collections.ICollection&gt;jest nieokreślony, ale takiej samej kolejności jak skojarzone wartości w &lt;xref:System.Collections.ICollection&gt;zwrócony przez &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Values%2A&gt;Właściwości.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder.Values%2A&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the keys in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;Zawierającą klucze ze słownika w <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Gets or sets the minimum time, in seconds, for the connection to live in the connection pool before being destroyed.</source>
+          <target state="translated">Pobiera lub ustawia minimalny czas w sekundach dla połączenia na żywo w puli połączeń przed jego usunięciem.</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Load Balance Timeout" and "connection lifetime" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada "Timeout równoważenia obciążenia" i "okres istnienia połączenia" kluczy w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The value of the LoadBalanceTimeout property, or 0 if none has been supplied.</source>
+          <target state="translated">Wartość właściwości LoadBalanceTimeout lub 0, jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source>Gets or sets the maximum number of connections allowed in the connection pool for this specific connection string.</source>
+          <target state="translated">Pobiera lub ustawia maksymalną liczbę połączeń dozwolonych w puli połączeń dla tego określony ciąg połączenia.</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Max Pool Size" key within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "Maksymalny rozmiar puli" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The value of the MaxPoolSize property, or 100 if none has been supplied.</source>
+          <target state="translated">Wartość właściwości MaxPoolSize lub 100, jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>Gets or sets the minimum number of connections allowed in the connection pool for this specific connection string.</source>
+          <target state="translated">Pobiera lub Ustawia minimalną liczbę połączeń dozwolonych w puli połączeń dla tego określony ciąg połączenia.</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Min Pool Size" key within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "Minimalny rozmiar puli" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>The value of the MinPoolSize property, or 0 if none has been supplied.</source>
+          <target state="translated">Wartość właściwości Wartość MinPoolSize lub 0, jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>When true, an application can maintain multiple active result sets (MARS).</source>
+          <target state="translated">W przypadku wartości true, aplikacja może przechowywać się, że zestawy wielu aktywnych wyników (MARS).</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>When false, an application must process or cancel all result sets from one batch before it can execute any other batch on that connection.</source>
+          <target state="translated">W przypadku wartości FAŁSZ, aplikacja musi przetworzyć lub anulować wszystkich zestawów wyników z jednej partii, zanim ją wykonać inne partii dla tego połączenia.</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Multiple Active Result Sets (MARS)<ept id="p1">](http://msdn.microsoft.com//library/cfa084cz.aspx)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji, zobacz <bpt id="p1">[</bpt>wielu aktywnych zestawów wyników (MARS)<ept id="p1">](http://msdn.microsoft.com//library/cfa084cz.aspx)</ept>.</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "MultipleActiveResultSets" key within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "MultipleActiveResultSets" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>The value of the MultipleActiveResultSets property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości MultipleActiveResultSets lub <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>If your application is connecting to an AlwaysOn availability group (AG) on different subnets, setting MultiSubnetFailover=true provides faster detection of and connection to the (currently) active server.</source>
+          <target state="translated">Jeśli aplikacja nawiązuje połączenie z grupy dostępności funkcji AlwaysOn (grupy dostępności) w różnych podsieciach, ustawienie MultiSubnetFailover = true zapewnia szybsze wykrywanie i połączenia do aktualnie aktywnego serwera.</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>For more information about SqlClient support for Always On Availability Groups, see <bpt id="p1">[</bpt>SqlClient Support for High Availability, Disaster Recovery<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Aby uzyskać więcej informacji o obsłudze SqlClient dla zawsze włączonych grup dostępności, zobacz <bpt id="p1">[</bpt>SqlClient obsługę wysokiej dostępności, odzyskiwania po awarii<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>Returns &lt;xref:System.Boolean&gt; indicating the current value of the property.</source>
+          <target state="translated">Zwraca &lt;xref:System.Boolean&gt;wskazujący bieżącą wartość właściwości.&lt;/xref:System.Boolean&gt;</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string that contains the name of the network library used to establish a connection to the SQL Server.</source>
+          <target state="translated">Pobiera lub ustawia ciąg zawierający nazwę biblioteki sieci używane do nawiązania połączenia z programem SQL Server.</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Network Library", "network", and "net" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada "Biblioteka sieciowa", "sieć" i "net" kluczy w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Supported values for this property include dbnmpntw (Named Pipes), dbmsrpcn (Multiprotocol), dbmsadsn (AppleTalk), dbmsgnet (VIA), dbmslpcn (Shared Memory) and dbmsspxn (IPX/SPX), and dbmssocn (TCP/IP).</source>
+          <target state="translated">Obsługiwane wartości dla tej właściwości to dbnmpntw (nazwane potoki), dbmsrpcn (informacje), dbmsadsn (AppleTalk), dbmsgnet (VIA), dbmslpcn (pamięci współużytkowanej) i dbmsspxn (IPX/SPX) i dbmssocn (TCP/IP).</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The corresponding network DLL must be installed on the system to which you connect.</source>
+          <target state="translated">Odpowiednie sieci DLL musi być zainstalowany na komputerze, z którym się łączysz.</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If you do not specify a network and you use a local server (for example, "." or "(local)"), Shared Memory is used.</source>
+          <target state="translated">Jeśli nie określisz sieci i używać lokalnego serwera (na przykład "." lub "(local)"), służy pamięci współużytkowanej.</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source>The value of the NetworkLibrary property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości NetworkLibrary lub <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aby ustawić wartość null, użyj <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>Gets or sets the size in bytes of the network packets used to communicate with an instance of SQL Server.</source>
+          <target state="translated">Pobiera lub ustawia rozmiar w bajtach pakietów sieciowych używanych do komunikowania się z wystąpieniem programu SQL Server.</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Packet Size" key within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "Packet Size" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source>The value of the PacketSize property, or 8000 if none has been supplied.</source>
+          <target state="translated">Wartość właściwości PacketSize lub 8000, jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Gets or sets the password for the SQL Server account.</source>
+          <target state="translated">Pobiera lub ustawia hasło dla konta programu SQL Server.</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Password" and "pwd" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczy "Password" i "pwd" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If Password has not been set and you retrieve the value, the return value is &lt;xref:System.String&gt;.</source>
+          <target state="translated">Jeśli nie ustawiono hasła i pobierania wartości, wartość zwracana jest &lt;xref:System.String&gt;.&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve" extradata="MT">
+          <source>To reset the password for the connection string, pass null to the Item property.</source>
+          <target state="translated">Aby zresetować hasło dla parametrów połączenia, przekazać wartości zerowej do właściwości elementu.</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The value of the Password property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości hasła lub <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source>The password was incorrectly set to null.</source>
+          <target state="translated">Hasło została niepoprawnie ustawiona na wartość null.</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>See code sample below.</source>
+          <target state="translated">Zobacz poniższy przykład kodu.</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates if security-sensitive information, such as the password, is not returned as part of the connection if the connection is open or has ever been in an open state.</source>
+          <target state="translated">Pobiera lub ustawia wartość Boolean wskazującą, czy informacje związane z zabezpieczeniami, takich jak hasła, nie są zwracane jako część połączenia, jeśli połączenie jest otwarte lub kiedykolwiek było w stanie otwartym.</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Persist Security Info" and "persistsecurityinfo" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczy "Persist Security Info" i "persistsecurityinfo" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source>The value of the PersistSecurityInfo property, or <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości PersistSecurityInfo lub <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>The blocking period behavior for a connection pool.</source>
+          <target state="translated">Zachowanie okresu blokowania dla puli połączeń.</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When connection pooling is enabled and  a timeout error or other login error occurs, an exception will be thrown and subsequent connection attempts will fail for the next five seconds, the "blocking period".</source>
+          <target state="translated">Gdy buforowanie połączeń jest włączone i wystąpi błąd upływu limitu czasu lub inny błąd logowania, zostanie wygenerowany wyjątek i kolejne próby połączenia zakończy się niepowodzeniem dla następnego pięć sekund, "okresu blokowania".</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the application attempts to connect within the blocking period, the first exception will be thrown again.</source>
+          <target state="translated">Jeśli aplikacja próbuje nawiązać połączenia w okresie blokowania, pierwszy wyjątek zostanie ponownie wygenerowany.</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Subsequent failures after a blocking period ends will result in a new blocking period that is twice as long as the previous blocking period, up to a maximum of one minute.</source>
+          <target state="translated">Kolejne błędy po zakończeniu okresu blokowania spowoduje nowe blokowania okres dwukrotnie tak długo, jak poprzedniego okresu blokowania maksymalnie jedną minutę.</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Attempting to connect to Azure SQL databases can fail with transient errors which are typically recovered within a few seconds.</source>
+          <target state="translated">Próba nawiązania połączenia z bazami danych Azure SQL może zakończyć się niepowodzeniem z błędami przejściowymi, które zwykle są odzyskiwane w ciągu kilku sekund.</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, with the connection pool blocking period behavior, you may not be able to reach your database for extensive periods even though the database is  available.</source>
+          <target state="translated">Jednak z puli połączeń zachowanie okresu blokowania, nie można nawiązać bazy danych na okresy szeroką gamę nawet, jeśli baza danych jest dostępne.</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This is especially problematic for apps that need to render fast.</source>
+          <target state="translated">Jest to szczególnie kłopotliwe w sytuacji dla aplikacji, które wymagają renderowanie.</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <bpt id="p1">**</bpt>PoolBlockingPeriod<ept id="p1">**</ept> enables you to select the blocking period best suited for your app.</source>
+          <target state="translated"><bpt id="p1">**</bpt>PoolBlockingPeriod<ept id="p1">**</ept> umożliwia wybranie okresu blokowania najlepiej nadaje się do aplikacji.</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve" extradata="MT">
+          <source>See the <bpt id="p1">[</bpt>PoolBlockingPeriod Enumeration<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> for available settings.</source>
+          <target state="translated">Zobacz <bpt id="p1">[</bpt>PoolBlockingPeriod wyliczenie<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> dla dostępne ustawienia.</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source>The available blocking period settings.</source>
+          <target state="translated">Dostępne ustawienia okresu blokowania.</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether the connection will be pooled or explicitly opened every time that the connection is requested.</source>
+          <target state="translated">Pobiera lub ustawia wartość Boolean wskazującą, czy połączenia będą w puli lub jawnie otwarty zawsze żądanego połączenia.</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Pooling" key within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "Buforowanie" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>The value of the Pooling property, or <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości buforowanie lub <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source>Removes the entry with the specified key from the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Usuwa wpis z określonym kluczem z <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienia.</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the <bpt id="p1">**</bpt>Remove<ept id="p1">**</ept> method returns a value that indicates its success, it is not required to look for a key before trying to remove the key/value pair from the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; instance.</source>
+          <target state="translated">Ponieważ <bpt id="p1">**</bpt>Usuń<ept id="p1">**</ept> metoda zwraca wartość wskazującą jego sukces, nie jest wymagane do wyszukiwania przed usunięciem pary klucza/wartości z klucza &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;wystąpienia.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; maintains a fixed-size collection of key/value pairs, calling the Remove method simply resets the value of the key/value pair back to its default value.</source>
+          <target state="translated">Ponieważ &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;zapewnia zbiór stałym rozmiarze pary klucz wartość, wywołanie metody Usuń po prostu resetuje wartość pary klucza/wartości z powrotem na wartość domyślną.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because the collection of keys supported by the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; is fixed, every item within the collection has a known default value.</source>
+          <target state="translated">Ponieważ kolekcja kluczy obsługiwanych przez &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;jest ustalona, każdy element w kolekcji ma wartość domyślną znanych.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table lists the keys, and the value for each when the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; is first initialized, or after the Remove method has been called.</source>
+          <target state="translated">W poniższej tabeli wymieniono klucze i wartości dla każdego przypadku &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;najpierw został zainicjowany lub po wywołaniu metody Remove.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve" extradata="MT">
+          <source>|Key|Default value|   |---------|-------------------|   |Application Name|".Net SqlClient Data Provider"|   |Asynchronous Processing|False|   |AttachDBFilename|Empty string|   |Connection Timeout|15|   |Context Connection|False|   |Current Language|Empty string|   |Data Source|Empty string|   |Encrypt|False|   |Enlist|True|   |Failover Partner|Empty string|   |Initial Catalog|Empty string|   |Integrated Security|False|   |Load Balance Timeout|0|   |Max Pool Size|100|   |Min Pool Size|0|   |MultipleActiveResultSets|False|   |Network Library|Empty string|   |Packet Size|8000|   |Password|Empty string|   |Persist Security Info|False|   |Pooling|True|   |Replication|False|   |Transaction Binding|Implicit Unbind|   |User ID|Empty string|   |User Instance|False|   |Workstation ID|Empty string|</source>
+          <target state="translated">| Klucz | Wartość domyślna |   |---------|-------------------|   | Nazwa aplikacji | ". Dostawca danych SqlClient NET "|   | Przetwarzanie asynchroniczne | FALSE |   | AttachDBFilename | Pusty ciąg |   | Limit czasu połączenia |&amp;15; |   | Połączenie kontekstu | FALSE |   | Bieżący język | Pusty ciąg |   | Źródło danych | Pusty ciąg |   | Szyfrowanie | FALSE |   | Zarejestrować | Wartość true |   | Partner pracy awaryjnej | Pusty ciąg |   | Wykaz początkowy | Pusty ciąg |   | Zabezpieczenia zintegrowane | FALSE |   | Limit czasu Równoważenie obciążenia |&amp;0; |   | Rozmiar maksymalny buforu |&amp;100; |   | Minimalny rozmiar puli |&amp;0; |   | MultipleActiveResultSets | FALSE |   | Biblioteka sieciowa | Pusty ciąg |   | Rozmiar pakietu |&amp;8000; |   | Hasło | Pusty ciąg |   | Utrzymuj informacje o zabezpieczeniach | FALSE |   | Buforowanie | Wartość true |   | Replikacja | FALSE |   | Powiązanie transakcji | Niejawne usunięcia powiązania |   | Identyfikator użytkownika | Pusty ciąg |   | Wystąpienia użytkownika | FALSE |   | Identyfikator stacji roboczej | Pusty ciąg |</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The key of the key/value pair to be removed from the connection string in this <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Klucz parę klucza i wartości do usunięcia z parametrów połączenia w tym <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the key existed within the connection string and was removed; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> if the key did not exist.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli klucz istniał w parametrach połączenia i została usunięta; <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> Jeśli klucz nie istnieje.</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> is null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic)</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>ma wartość null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w języku Visual Basic)</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>Gets or sets a Boolean value that indicates whether replication is supported using the connection.</source>
+          <target state="translated">Pobiera lub ustawia wartość Boolean wskazującą, czy replikacja jest obsługiwana przy użyciu połączenia.</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Replication" key within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "Replikacji" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>The value of the Replication property, or false if none has been supplied.</source>
+          <target state="translated">Wartość właściwości replikacji, lub FAŁSZ, jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>Indicates whether the specified key exists in this <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> instance.</source>
+          <target state="translated">Wskazuje, czy określony klucz istnieje w tym <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> wystąpienia.</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This method behaves identically to the &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt; method.</source>
+          <target state="translated">Ta metoda zachowuje się tak samo &lt;xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;metody.&lt;/xref:System.Data.Common.DbConnectionStringBuilder.ContainsKey%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>The key to locate in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Klucz do zlokalizowania w <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept> contains an entry with the specified key; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept> zawiera wpis z określonym kluczem, a w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string value that indicates how the connection maintains its association with an enlisted <bpt id="p1">&lt;xref uid="langword_csharp_System.Transactions" name="System.Transactions" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> transaction.</source>
+          <target state="translated">Pobiera lub ustawia wartość ciągu, która wskazuje zachowywanie jego skojarzenia z zarejestrowane połączenie <bpt id="p1">&lt;xref uid="langword_csharp_System.Transactions" name="System.Transactions" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> transakcji.</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The Transaction Binding keywords in a &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt; control how a &lt;xref:System.Data.SqlClient.SqlConnection&gt; binds to an enlisted &lt;xref:System.Transactions.Transaction&gt;.</source>
+          <target state="translated">Słowa kluczowe powiązania transakcji w &lt;xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;kontrolować sposób &lt;xref:System.Data.SqlClient.SqlConnection&gt;wiązania do zarejestrowane &lt;xref:System.Transactions.Transaction&gt;.&lt;/xref:System.Transactions.Transaction&gt; &lt;/xref:System.Data.SqlClient.SqlConnection&gt; &lt;/xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A&gt;</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The following table shows the possible values for the TransactionBinding property:      |Value|Description|   |-----------|-----------------|   |Implicit Unbind|The default.</source>
+          <target state="translated">W poniższej tabeli przedstawiono możliwe wartości dla właściwości TransactionBinding: | Wartość | Opis elementu |   |-----------|-----------------|   | Niejawne usunięcia powiązania | Wartość domyślna.</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Causes the connection to detach from the transaction when it ends.</source>
+          <target state="translated">Powoduje, że połączenia można odłączyć od transakcji po jej zakończeniu.</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After detaching, additional requests on the connection are performed in autocommit mode.</source>
+          <target state="translated">Po odłączania, dodatkowe żądania połączenia są wykonywane w trybie autozatwierdzania.</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The &lt;xref:System.Transactions.Transaction.Current%2A&gt; property is not checked when executing requests while the transaction is active.</source>
+          <target state="translated">&lt;xref:System.Transactions.Transaction.Current%2A&gt;Właściwość nie jest sprawdzana podczas wykonywania żądania podczas transakcji jest aktywny.&lt;/xref:System.Transactions.Transaction.Current%2A&gt;</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve" extradata="MT">
+          <source>After the transaction has ended, additional requests are performed in autocommit mode.|   |Explicit Unbind|Causes the connection to remain attached to the transaction until the connection is closed or until &lt;xref:System.Data.SqlClient.SqlConnection.EnlistTransaction%2A&gt; is called with a <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> in Visual Basic) value.</source>
+          <target state="translated">Po zakończeniu transakcji, dodatkowe żądania są wykonywane w trybie autozatwierdzania. |   | Jawne usuwanie powiązania | Powoduje, że połączenie pozostaje dołączony do transakcji do momentu połączenie jest zamknięte lub dopóki &lt;xref:System.Data.SqlClient.SqlConnection.EnlistTransaction%2A&gt;jest wywoływana z <ph id="ph1">`null`</ph> (<ph id="ph2">`Nothing`</ph> w języku Visual Basic) wartość.&lt;/xref:System.Data.SqlClient.SqlConnection.EnlistTransaction%2A&gt;</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve" extradata="MT">
+          <source>An &lt;xref:System.InvalidOperationException&gt; is thrown if &lt;xref:System.Transactions.Transaction.Current%2A&gt; is not the enlisted transaction or if the enlisted transaction is not active.</source>
+          <target state="translated">&lt;xref:System.InvalidOperationException&gt;Jest generowany, jeśli &lt;xref:System.Transactions.Transaction.Current%2A&gt;nie jest zarejestrowane transakcji lub jeśli zarejestrowane transakcja jest nieaktywna.&lt;/xref:System.Transactions.Transaction.Current%2A&gt; &lt;/xref:System.InvalidOperationException&gt;</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This behavior enforces the strict scoping rules required for &lt;xref:System.Transactions.TransactionScope&gt; support.|</source>
+          <target state="translated">To zachowanie wymusza ścisłe zasady ustalania zakresu wymagane w celu &lt;xref:System.Transactions.TransactionScope&gt;obsługuje. |&lt;/xref:System.Transactions.TransactionScope&gt;</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>The value of the TransactionBinding property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości TransactionBinding lub <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Gets or sets a boolean value.</source>
+          <target state="translated">Pobiera lub ustawia wartość logiczną.</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source>A boolean value.</source>
+          <target state="translated">Wartość logiczna.</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether the channel will be encrypted while bypassing walking the certificate chain to validate trust.</source>
+          <target state="translated">Pobiera lub ustawia wartość wskazującą, czy kanał będą szyfrowane podczas pomijanie przejście łańcuch certyfikatów do sprawdzania poprawności zaufania.</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve" extradata="MT">
+          <source>When <ph id="ph1">`TrustServerCertificate`</ph> is set to <ph id="ph2">`true`</ph>, the transport layer will use SSL to encrypt the channel and bypass walking the certificate chain to validate trust.</source>
+          <target state="translated">Gdy <ph id="ph1">`TrustServerCertificate`</ph> ma ustawioną wartość <ph id="ph2">`true`</ph>, warstwy transportowej będą używać protokołu SSL do szyfrowania kanału i obejście przejście łańcuch certyfikatów do sprawdzania poprawności zaufania.</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If <ph id="ph1">`TrustServerCertificate`</ph> is set to <ph id="ph2">`true`</ph> and encryption is turned on, the encryption level specified on the server will be used even if <ph id="ph3">`Encrypt`</ph> is set to <ph id="ph4">`false`</ph>.</source>
+          <target state="translated">Jeśli <ph id="ph1">`TrustServerCertificate`</ph> ustawiono <ph id="ph2">`true`</ph> i szyfrowanie jest włączone, poziom szyfrowania określonych na serwerze, który będzie używany nawet wtedy, gdy <ph id="ph3">`Encrypt`</ph> ma ustawioną wartość <ph id="ph4">`false`</ph>.</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The connection will fail otherwise.</source>
+          <target state="translated">Połączenia zakończy się niepowodzeniem, w przeciwnym razie wartość.</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information, see "Encryption Hierarchy" and "Using Encryption Without Validation" in SQL Server Books Online.</source>
+          <target state="translated">Aby uzyskać więcej informacji zobacz "Hierarchii szyfrowania" i "Za pomocą szyfrowania bez sprawdzania poprawności" w dokumentacji SQL Server — książki Online.</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref uid="langword_csharp_Boolean" name="Boolean" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Recognized values are <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_yes" name="yes" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref uid="langword_csharp_no" name="no" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Recognized values are <bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, <bpt id="p3">&lt;xref uid="langword_csharp_yes" name="yes" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>, and <bpt id="p4">&lt;xref uid="langword_csharp_no" name="no" href=""&gt;</bpt><ept id="p4">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source>Retrieves a value corresponding to the supplied key from this <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera wartość odpowiadającą podany klucz z tego <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The TryGetValue method lets developers safely retrieve a value from a &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; without needing to verify that the supplied key name is a valid key name.</source>
+          <target state="translated">Metoda TryGetValue umożliwia deweloperom bezpiecznie pobrać wartości z &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;bez konieczności Sprawdź, czy podana nazwa klucza jest prawidłową nazwą klucza.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> does not raise an exception when you call it, passing in a nonexistent key, you do not have to look for a key before retrieving its value.</source>
+          <target state="translated">Ponieważ <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> nie zgłaszał wyjątek podczas wywoływania, przekazując nieistniejącą klucza, nie masz do wyszukiwania przed pobraniem jego wartości klucza.</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Calling <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> with a nonexistent key will place the value null (<ph id="ph1">`Nothing`</ph> in Visual Basic) in the <ph id="ph2">`value`</ph> parameter.</source>
+          <target state="translated">Wywoływanie <bpt id="p1">**</bpt>TryGetValue<ept id="p1">**</ept> kluczem nieistniejącą umieści wartość null (<ph id="ph1">`Nothing`</ph> w języku Visual Basic) w <ph id="ph2">`value`</ph> parametru.</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source>The key of the item to retrieve.</source>
+          <target state="translated">Klucz elementu do pobrania.</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>The value corresponding to <ph id="ph1">`keyword.`</ph></source>
+          <target state="translated">Wartością odpowiadającą<ph id="ph1">`keyword.`</ph></target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">keyword</ph><ept id="p2">&lt;/code&gt;</ept> was found within the connection string; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>Jeśli <bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">keyword</ph> <ept id="p2">&lt;/code&gt;</ept> został znaleziony w ciągu połączenia; w przeciwnym razie <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph> contains a null value (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> in Visual Basic).</source>
+          <target state="translated"><ph id="ph1">&lt;code&gt;keyword&lt;/code&gt;</ph>zawiera wartość null (<bpt id="p1">&lt;xref uid="langword_csharp_Nothing" name="Nothing" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> w języku Visual Basic).</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source>Gets or sets a string value that indicates the type system the application expects.</source>
+          <target state="translated">Pobiera lub ustawia wartość ciągu, który wskazuje, że system typów aplikacji oczekuje.</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The <ph id="ph1">`TypeSystemVersion`</ph> property can be used to specify a down-level version of <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> for applications written against that version.</source>
+          <target state="translated"><ph id="ph1">`TypeSystemVersion`</ph> Właściwości może służyć do określ wersję niskiego poziomu <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> dla aplikacji napisanych przy użyciu tej wersji.</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This avoids possible problems with incompatible types in a newer version of <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> that may cause the application to break.</source>
+          <target state="translated">Dzięki temu można uniknąć możliwych problemów z niezgodnymi typami w nowszej wersji <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> mogą powodować awarię aplikacji.</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>The following table shows the possible values for the TypeSystemVersion property:</source>
+          <target state="translated">W poniższej tabeli przedstawiono możliwe wartości dla właściwości TypeSystemVersion:</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Wartość</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Opis</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Uses the <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> 2005 type system.</source>
+          <target state="translated">Używa <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> system typów 2005.</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source>No conversions are made for the current version of ADO.NET.</source>
+          <target state="translated">Konwersje nie są wykonywane dla bieżącej wersji programu ADO.NET.</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>SQL Server 2008</source>
+          <target state="translated">SQL Server 2008</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Uses the SQL Server 2008 type system.</source>
+          <target state="translated">Używa programu SQL Server 2008 system typów.</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>Latest</source>
+          <target state="translated">Najnowsze</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>Use the latest version than this client-server pair can handle.</source>
+          <target state="translated">Użyj najnowszej wersji, nie może obsłużyć tej pary klient serwer.</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>This will automatically move forward as the client and server components are upgraded.</source>
+          <target state="translated">Spowoduje to automatycznie przeniesienie do przodu jako składniki klienta i serwera są uaktualniane.</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>Gets or sets the user ID to be used when connecting to SQL Server.</source>
+          <target state="translated">Pobiera lub ustawia identyfikator użytkownika, który będzie używany podczas nawiązywania połączenia z serwerem SQL.</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "User ID", "user", and "uid" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczy "Identyfikatora użytkownika", "użytkownika" i "uid" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>The value of the UserID property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości identyfikatora użytkownika lub <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aby ustawić wartość null, użyj <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>Gets or sets a value that indicates whether to redirect the connection from the default SQL Server Express instance to a runtime-initiated instance running under the account of the caller.</source>
+          <target state="translated">Pobiera lub ustawia wartość wskazującą, czy do przekierowywania połączenie z domyślnym wystąpieniu programu SQL Server Express do wystąpienia inicjowanych przez środowisko uruchomieniowe działającej na koncie obiektu wywołującego.</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "User Instance" key within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczowi "Wystąpienia użytkownika" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve" extradata="MT">
+          <source>&gt; <ph id="ph1">[!NOTE]</ph> &gt;  This feature is available only with the <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> Express Edition.</source>
+          <target state="translated">&gt; <ph id="ph1">[!NOTE]</ph> &gt; Ta funkcja jest dostępna tylko w przypadku <ph id="ph2">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> Express Edition.</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information on user instances, see <bpt id="p1">[</bpt>SQL Server Express User Instances<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> and "User Instances for Non-Administrators" in <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> Books Online.</source>
+          <target state="translated">Aby uzyskać więcej informacji na wystąpieniach użytkowników, zobacz <bpt id="p1">[</bpt>wystąpienia programu SQL Server Express użytkownika<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept> i "użytkownika wystąpień dla użytkownicy niebędący administratorami" w <ph id="ph1">[!INCLUDE[ssNoVersion](~/add/includes/ssnoversion-md.md)]</ph> — książki Online.</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The value of the UserInstance property, or <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości UserInstance lub <bpt id="p1">&lt;xref uid="langword_csharp_False" name="False" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aby ustawić wartość null, użyj <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>Gets an &lt;xref:System.Collections.ICollection&gt; that contains the values in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Pobiera &lt;xref:System.Collections.ICollection&gt;zawierający wartości w <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The order of the values in the &lt;xref:System.Collections.ICollection&gt; is unspecified, but it is the same order as the associated keys in the &lt;xref:System.Collections.ICollection&gt; returned by the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Keys%2A&gt; property.</source>
+          <target state="translated">Kolejność wartości na liście &lt;xref:System.Collections.ICollection&gt;jest nieokreślony, ale takiej samej kolejności jak skojarzonych kluczy w &lt;xref:System.Collections.ICollection&gt;zwrócony przez &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder.Keys%2A&gt;Właściwości.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder.Keys%2A&gt; &lt;/xref:System.Collections.ICollection&gt; &lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Because each instance of the &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt; always contains the same fixed set of keys, the Values property always returns the values corresponding to the fixed set of keys, in the same order as the keys.</source>
+          <target state="translated">Ponieważ każde wystąpienie &lt;xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;zawsze zawiera ten sam zestaw stałym kluczy i wartości właściwości zawsze zwraca wartości odpowiadających stałym zestaw kluczy, w takiej samej kolejności jak klucze.&lt;/xref:System.Data.SqlClient.SqlConnectionStringBuilder&gt;</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Collections.ICollection&gt; that contains the values in the <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">&lt;xref:System.Collections.ICollection&gt;Zawierający wartości w <bpt id="p1">&lt;xref href="System.Data.SqlClient.SqlConnectionStringBuilder"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.&lt;/xref:System.Collections.ICollection&gt;</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the workstation connecting to SQL Server.</source>
+          <target state="translated">Pobiera lub ustawia nazwę stacji roboczej łączącej się z programem SQL Server.</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This property corresponds to the "Workstation ID" and "wsid" keys within the connection string.</source>
+          <target state="translated">Ta właściwość odpowiada kluczy "Workstation ID" i "wsid" w parametrach połączenia.</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>The value of the WorkstationID property, or <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if none has been supplied.</source>
+          <target state="translated">Wartość właściwości WorkstationID lub <bpt id="p1">&lt;xref uid="langword_csharp_String.Empty" name="String.Empty" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept> Jeśli nie została podana.</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>To set the value to null, use <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">Aby ustawić wartość null, użyj <bpt id="p1">&lt;xref href="System.DBNull.Value"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

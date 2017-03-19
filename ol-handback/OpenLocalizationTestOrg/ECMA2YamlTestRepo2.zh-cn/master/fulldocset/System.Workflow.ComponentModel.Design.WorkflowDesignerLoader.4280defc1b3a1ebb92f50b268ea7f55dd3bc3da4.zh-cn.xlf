@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">0d89187147c4094d38c5a5a357ae5efcb26c0c01</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fdecc389382ad9f84603e55002bfd3058087280c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">5f58fc6f969f682c0f2505eea9d75fe94f103125</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Provides common designer loader functionality that can be used to implement custom workflow designer loaders.</source>
+          <target state="translated">提供可以用来实现自定义工作流设计器加载程序的常见设计器加载程序功能。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>       Designer loader classes are used to load the designer and save any changes to the state of the designer when the user so instructs.</source>
+          <target state="translated"><ph id="ph1">&gt; [!NOTE]</ph><ph id="ph2"> &gt;  </ph><ph id="ph3">[!INCLUDE[DeprecatedContent](~/add/includes/ajax-current-ext-md.md)]</ph>使用设计器加载程序类来加载设计器并将任何更改保存到设计器的状态，当用户的指示。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>The WorkflowDesignerLoader class can be implemented to support custom loading of a workflow designer and workflow designer components.</source>
+          <target state="translated">WorkflowDesignerLoader 类可实现以支持工作流设计器和工作流设计器组件的自定义加载。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>A workflow designer loader is also responsible for writing changes to an open document back to the storage the loader used when loading the document after the &lt;xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.Flush%2A&gt; method is called.</source>
+          <target state="translated">工作流设计器加载程序程序还负责将更改写入到回到存储打开的文档加载程序加载后的文档时将使用&lt;xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.Flush%2A&gt;调用方法。&lt;/xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>When implemented in a derived class, initializes a new instance of the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">派生类中实现时，初始化的新实例<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>类。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Adds an activity to the designer host after it has been added to the parent activities collection.</source>
+          <target state="translated">添加到父活动集合后，请将活动添加到设计器宿主。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to add.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Activity"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>若要添加。</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Releases all resources used by the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">释放使用的所有资源<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Dispose releases all services used by the designer host, but it does not write pending changes to the designer loader.</source>
+          <target state="translated">释放释放使用的设计器宿主中，所有服务，但它不会写入挂起的更改设计器加载程序。</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>If you want to save any pending changes prior to releasing all resources, call &lt;xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.Flush%2A&gt; before you call Dispose.</source>
+          <target state="translated">如果你想要保存任何挂起的更改之前释放所有资源，调用&lt;xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.Flush%2A&gt;之前调用 Dispose。&lt;/xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.Flush%2A&gt;</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets the file name of the designer to load.</source>
+          <target state="translated">当在派生类中重写，获取要加载的设计器的文件名。</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>A string that contains the file name of the designer to load.</source>
+          <target state="translated">包含要加载的设计器的文件名称的字符串。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Writes pending changes to the location that the designer was loaded from.</source>
+          <target state="translated">挂起的更改写入设计器从加载的位置。</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, causes <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> to reload the designer.</source>
+          <target state="translated">在派生类中重写时，将导致<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>重新加载设计器。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, retrieves an object that <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> uses to read from the specified file.</source>
+          <target state="translated">当在派生类中重写，检索的对象， <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>用于读取从指定的文件。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>A string that contains a path to the file to read from.</source>
+          <target state="translated">包含要读取的文件的路径的字符串。</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.TextReader&gt; to read the specified file.</source>
+          <target state="translated">A&lt;xref:System.IO.TextReader&gt;读取指定的文件。&lt;/xref:System.IO.TextReader&gt;</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>When overridden in a derived class, gets an object that the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> uses to write to the specified file.</source>
+          <target state="translated">当在派生类中重写，获取一个对象， <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>使用它来写入到指定的文件。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The following example shows how to create and return a <ph id="ph1">`TextWriter`</ph> object when the GetFileWriter overloaded method is called.</source>
+          <target state="translated">下面的示例演示如何创建和返回<ph id="ph1">`TextWriter`</ph>调用 GetFileWriter 重载的方法的对象。</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>WF_Samples#34<ept id="p2">](~/add/codesnippet/csharp/wf_snippets/snippets.cs#34)</ept><ept id="p1">]</ept>  <bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>WF_Samples#34<ept id="p4">](~/add/codesnippet/visualbasic/wf_snippets/snippets.vb#34)</ept><ept id="p3">]</ept></source>
+          <target state="translated"><bpt id="p1">[!code-cs</bpt><bpt id="p2">[</bpt>WF_Samples&amp;#34;<ept id="p2">](~/add/codesnippet/csharp/wf_snippets/snippets.cs#34)</ept><ept id="p1">]</ept><bpt id="p3">[!code-vb</bpt><bpt id="p4">[</bpt>WF_Samples&amp;#34;  <ept id="p4">](~/add/codesnippet/visualbasic/wf_snippets/snippets.vb#34)</ept><ept id="p3">]</ept></target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A string that contains the path to the file to write to.</source>
+          <target state="translated">包含要写入的文件的路径的字符串。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.IO.TextWriter&gt; to write to the file.</source>
+          <target state="translated">A&lt;xref:System.IO.TextWriter&gt;对文件进行写入。&lt;/xref:System.IO.TextWriter&gt;</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Gets a value that indicates whether the workflow should be loaded in debug mode.</source>
+          <target state="translated">获取一个值，该值指示是否应在调试模式下加载工作流。</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the workflow should be loaded in debug mode; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果应在调试模式，则加载工作流否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>The default is <bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">默认值是<bpt id="p1">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Initializes the <bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> with any services required by the designer loader host.</source>
+          <target state="translated">初始化<bpt id="p1">&lt;xref href="System.Workflow.ComponentModel.Design.WorkflowDesignerLoader"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>与设计器加载程序宿主所需的任何服务。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Applies the serialized layout to the root designer in the current designer host.</source>
+          <target state="translated">将序列化的布局应用于当前设计器宿主中的根设计器。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>An &lt;xref:System.Xml.XmlReader&gt; that is created for the serialized layout.</source>
+          <target state="translated">&lt;xref:System.Xml.XmlReader&gt;为序列化布局创建。&lt;/xref:System.Xml.XmlReader&gt;</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>List of errors that occurred during the deserialization.</source>
+          <target state="translated">反序列化期间发生的错误的列表。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Retrieves the specified resource and calls the &lt;xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.LoadDesignerLayout*&gt; method that applies the serialized layout to the root designer in the current designer host.</source>
+          <target state="translated">检索指定的资源，并调用&lt;xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.LoadDesignerLayout*&gt;将序列化的布局应用于当前设计器宿主中的根设计器的方法。&lt;/xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.LoadDesignerLayout*&gt;</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Type&gt; that the resource is associated with.</source>
+          <target state="translated">&lt;xref:System.Type&gt;与之关联的资源。&lt;/xref:System.Type&gt;</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Name of the resource.</source>
+          <target state="translated">资源名称。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Errors encountered during the call to &lt;xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.LoadDesignerLayout*&gt;.</source>
+          <target state="translated">到&lt;xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.LoadDesignerLayout*&gt;。&lt;/xref:System.Workflow.ComponentModel.Design.WorkflowDesignerLoader.LoadDesignerLayout*&gt;调用过程中遇到错误</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Called when loading of the designer is completed.</source>
+          <target state="translated">设计器加载完成时调用。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if load operation is successful; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果加载操作成功，则否则为<bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Contains the load errors.</source>
+          <target state="translated">包含加载错误。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Writes cached changes to the location that the designer was loaded from.</source>
+          <target state="translated">写入缓存的更改写入设计器的加载位置。</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Class that implements the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface, which manages design-time serialization.</source>
+          <target state="translated">实现类<bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接口，该管理设计时序列化接口。</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Loads the designer from a design document.</source>
+          <target state="translated">从设计文档加载设计器。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Class that implements the <bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> interface, which manages design-time serialization.</source>
+          <target state="translated">实现类<bpt id="p1">&lt;xref href="System.ComponentModel.Design.Serialization.IDesignerSerializationManager"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>接口，该管理设计时序列化接口。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Removes an activity from the designer host after it has been added to the parent activities collection.</source>
+          <target state="translated">添加到父活动集合之后从设计器宿主中移除该活动。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Activity to be removed from the designer.</source>
+          <target state="translated">要从设计器中删除的活动。</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>Serializes the designer layout.</source>
+          <target state="translated">序列化设计器布局。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_XmlWriter" name="XmlWriter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that is used to serialize the layout into.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_XmlWriter" name="XmlWriter" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>用于序列化到的布局。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Root activity from which you get the layout information.</source>
+          <target state="translated">从中获取布局信息的根活动。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Errors encountered during serialization.</source>
+          <target state="translated">在序列化过程中遇到的错误。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Gets the <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> metadata of the target <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated">获取<bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>元数据的目标<ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> metadata of the target <ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.ComponentModel.TypeDescriptor"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>元数据的目标<ph id="ph1">[!INCLUDE[dnprdnshort](~/add/includes/dnprdnshort-md.md)]</ph>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

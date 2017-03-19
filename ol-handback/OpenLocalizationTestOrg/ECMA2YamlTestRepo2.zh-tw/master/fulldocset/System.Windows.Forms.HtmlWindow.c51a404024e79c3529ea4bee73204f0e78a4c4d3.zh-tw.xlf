@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-tw">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">cf6c2fc37544e60741e02c79a2fe937e7e761ce0</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.Windows.Forms.HtmlWindow.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">c089cc741058061ed864b05474f5e2732f0fddb7</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d03376269f5819a3fc01d314cfcd7a20cb773eb2</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Represents the logical window that contains one or more instances of <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">代表邏輯視窗包含一個或多個執行個體<bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>HtmlWindow should not be confused with the concept of a window in Windows Forms or the Win32 API; there is no <ph id="ph1">`HWND`</ph> or similar Windows resource that corresponds directly to an instance of HtmlWindow.</source>
+          <target state="translated">不應與在 Windows Form 或 Win32 API; 視窗的概念混淆 HtmlWindow沒有任何<ph id="ph1">`HWND`</ph>或類似 Windows 資源的直接對應到 HtmlWindow 的執行個體。</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Rather, HtmlWindow provides high-level descriptions of a document's location on a user's screen, as well as methods for interacting with users by way of prompts and dialog boxes.</source>
+          <target state="translated">相反地，HtmlWindow 會提供高層級描述文件的位置上使用者的畫面上，以及利用和對話方塊提示使用者以互動的方法。</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>HtmlWindow acts as a logical container for a Web page's documents and its metadata, such as the document's location and the capabilities of the Web browser.</source>
+          <target state="translated">HtmlWindow 做為網頁文件和它的中繼資料，例如文件的位置和 Web 瀏覽器功能的邏輯容器。</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>A Web page consists of a single document, or a <ph id="ph1">`FRAMESET`</ph> containing one or more <ph id="ph2">`FRAME`</ph> elements, each of which hosts its own document.</source>
+          <target state="translated">Web 網頁組成單一文件，或<ph id="ph1">`FRAMESET`</ph>包含一或多個<ph id="ph2">`FRAME`</ph>項目，其中每個裝載它自己的文件。</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Web developers use framesets to show logically related pages side by side (for example, a content page next to a navigation page).</source>
+          <target state="translated">Web 開發人員使用框架組顯示邏輯相關的網頁以並排方式 （例如，瀏覽頁面旁邊的內容頁面）。</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>When a page consists of a single document, you can access it through the &lt;xref:System.Windows.Forms.HtmlWindow.Document%2A&gt; property of HtmlWindow; if the page uses frames, you can access their documents through the &lt;xref:System.Windows.Forms.HtmlWindow.Frames%2A&gt; collection, which consists of one or more HtmlWindow objects.</source>
+          <target state="translated">當頁面組成單一文件時，您可以存取透過&lt;xref:System.Windows.Forms.HtmlWindow.Document%2A&gt;HtmlWindow; 如果網頁使用畫面格的屬性，您可以存取其文件中的透過&lt;xref:System.Windows.Forms.HtmlWindow.Frames%2A&gt;集合，其中包含一或多個 HtmlWindow 物件。&lt;/xref:System.Windows.Forms.HtmlWindow.Frames%2A&gt; &lt;/xref:System.Windows.Forms.HtmlWindow.Document%2A&gt;</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>When your host the &lt;xref:System.Windows.Forms.WebBrowser&gt; control in a Windows Forms application, you can choose to interact with the user using standard Windows Forms classes, such as &lt;xref:System.Windows.Forms.Form&gt; or &lt;xref:System.Windows.Forms.MessageBox&gt;, or you can use methods on HtmlWindow defined for this purpose.</source>
+          <target state="translated">當您的主機&lt;xref:System.Windows.Forms.WebBrowser&gt;控制項，您可以在 Windows Form 應用程式中，選擇與使用標準 Windows Form 的類別，例如使用者互動&lt;xref:System.Windows.Forms.Form&gt;或&lt;xref:System.Windows.Forms.MessageBox&gt;，或者您可以使用方法上 HtmlWindow 為此用途而定義。&lt;/xref:System.Windows.Forms.MessageBox&gt; &lt;/xref:System.Windows.Forms.Form&gt; &lt;/xref:System.Windows.Forms.WebBrowser&gt;</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.HtmlWindow.Alert%2A&gt; method presents a simple dialog box with custom text and an <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button; &lt;xref:System.Windows.Forms.HtmlWindow.Prompt%2A&gt; presents a line of custom text and a text input field to the user; and &lt;xref:System.Windows.Forms.HtmlWindow.Confirm%2A&gt; presents a dialog box with a line of custom text and <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Cancel<ept id="p3">**</ept> buttons.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.HtmlWindow.Alert%2A&gt;方法提供簡單的對話方塊與自訂文字和<bpt id="p1">**</bpt>確定<ept id="p1">**</ept>按鈕。&lt;xref:System.Windows.Forms.HtmlWindow.Prompt%2A&gt;呈現給使用者，企業自訂文字，以及文字輸入的欄位和&lt;xref:System.Windows.Forms.HtmlWindow.Confirm%2A&gt;顯示對話方塊，自訂文字行和<bpt id="p2">**</bpt>確定<ept id="p2">**</ept>和<bpt id="p3">**</bpt>取消<ept id="p3">**</ept>按鈕。&lt;/xref:System.Windows.Forms.HtmlWindow.Confirm%2A&gt; &lt;/xref:System.Windows.Forms.HtmlWindow.Prompt%2A&gt; &lt;/xref:System.Windows.Forms.HtmlWindow.Alert%2A&gt;</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve">
+          <source>You can use HtmlWindow to open new windows containing new documents.</source>
+          <target state="translated">您可以使用 HtmlWindow 開啟新視窗包含新的文件。</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt; loads the specified URL into the named window, creating it if it does not already exist, while &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt; always opens its URL in a newly created window.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;指定的 URL 載入具名視窗中，如果不存在，請建立它，而&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;一律會開啟新建立的視窗中的 URL。&lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;&lt;/xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Displays a message box.</source>
+          <target state="translated">顯示訊息方塊。</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.MessageBox&gt; class offers a more powerful version of the Alert method.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.MessageBox&gt;類別提供了功能更強大的版本之警示的方法。&lt;/xref:System.Windows.Forms.MessageBox&gt;</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Although Alert accepts Unicode text as input, the Internet Explorer script prompt will not display non-Latin language text appropriately on Windows 95, Windows 98, Windows ME or Windows NT due to operating system limitations.</source>
+          <target state="translated">雖然警示接受 Unicode 文字，做為輸入，Internet Explorer 指令碼提示不會顯示非拉丁語言文字適當地在 Windows 95、 Windows 98、 Windows ME 或 Windows NT 由於作業系統限制。</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>INFO: Internet Explorer Script Prompts and MBCS/Unicode<ept id="p1">](http://support.microsoft.com/default.aspx?scid=kb;en-us;211147)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>資訊︰ Internet Explorer 指令碼會提示和 MBCS/Unicode<ept id="p1">](http://support.microsoft.com/default.aspx?scid=kb;en-us;211147)</ept>。</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.String&gt; to display in the message box.</source>
+          <target state="translated">&lt;xref:System.String&gt;要顯示在訊息方塊。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Adds an event handler for the named HTML DOM event.</source>
+          <target state="translated">將具名的 HTML DOM 事件的事件處理常式。</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>You should not attach an event to an HTML document or one of its objects until the document has completed loading.</source>
+          <target state="translated">您不應該附加至 HTML 文件或其物件事件，直到文件已完成載入。</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>The earliest you should call this method is in the &lt;xref:System.Windows.Forms.WebBrowser.DocumentCompleted&gt; event of the &lt;xref:System.Windows.Forms.WebBrowser&gt; control.</source>
+          <target state="translated">您應該呼叫這個方法最舊的處於&lt;xref:System.Windows.Forms.WebBrowser.DocumentCompleted&gt;事件&lt;xref:System.Windows.Forms.WebBrowser&gt;控制項。&lt;/xref:System.Windows.Forms.WebBrowser&gt; &lt;/xref:System.Windows.Forms.WebBrowser.DocumentCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>The name of the event you want to handle.</source>
+          <target state="translated">您想要處理事件的名稱。</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>A reference to the managed code that handles the event.</source>
+          <target state="translated">處理事件的 managed 程式碼參考。</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>Closes the window.</source>
+          <target state="translated">關閉視窗。</target>       </trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>Use the &lt;xref:System.Windows.Forms.HtmlWindow.IsClosed%2A&gt; property to determine if the window is already closed.</source>
+          <target state="translated">使用&lt;xref:System.Windows.Forms.HtmlWindow.IsClosed%2A&gt;屬性來判斷是否視窗已關閉。&lt;/xref:System.Windows.Forms.HtmlWindow.IsClosed%2A&gt;</target>       </trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>If the window is already closed, this method will have no effect.</source>
+          <target state="translated">如果視窗已關閉，則這個方法會有任何作用。</target>       </trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>When you create new windows using &lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt; or &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;, Close causes the HTML Document Object Model to open a new instance of Internet Explorer.</source>
+          <target state="translated">當您建立新的 windows 使用&lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;或&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;，關閉會導致 HTML 文件物件模型，以開啟 Internet Explorer 的新執行個體。&lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt; &lt;/xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>If you do not call Close on all of the windows you have created, this instance of Internet Explorer will remain running even after your application closes.</source>
+          <target state="translated">如果您不會呼叫關閉所有您已建立的 windows 上，Internet Explorer 的這個執行個體將繼續執行，即使您的應用程式關閉。</target>       </trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Displays a dialog box with a message and buttons to solicit a yes/no response.</source>
+          <target state="translated">顯示對話方塊，使用訊息和按鈕請求是/沒有回應。</target>       </trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Confirm displays a modal dialog box; the user will not be able to access the underlying HTML page without first closing this dialog box.</source>
+          <target state="translated">確認顯示強制回應對話方塊。使用者無法存取基礎的 HTML 網頁不先關閉此對話方塊。</target>       </trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Although Confirm accepts Unicode text as input, the Internet Explorer script prompt will not display non-Latin language text appropriately on Windows 95, Windows 98, Windows ME or Windows NT due to operating system limitations.</source>
+          <target state="translated">確認接受 Unicode 文字，做為輸入，雖然 Internet Explorer 指令碼提示不會顯示非拉丁語言文字適當地在 Windows 95、 Windows 98、 Windows ME 或 Windows NT 由於作業系統限制。</target>       </trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>INFO: Internet Explorer Script Prompts and MBCS/Unicode<ept id="p1">](http://support.microsoft.com/default.aspx?scid=kb;en-us;211147)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>資訊︰ Internet Explorer 指令碼會提示和 MBCS/Unicode<ept id="p1">](http://support.microsoft.com/default.aspx?scid=kb;en-us;211147)</ept>。</target>       </trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>The text to display to the user.</source>
+          <target state="translated">要向使用者顯示的文字。</target>       </trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the user clicked <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>; <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept> if the user clicked <bpt id="p4">**</bpt>No<ept id="p4">**</ept> or closed the dialog box.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果使用者已按下<bpt id="p2">**</bpt>是<ept id="p2">**</ept>;<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>如果使用者已按下<bpt id="p4">**</bpt>否<ept id="p4">**</ept>或關閉此對話方塊。</target>       </trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Removes the named event handler.</source>
+          <target state="translated">移除具名的事件處理常式。</target>       </trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>The name of the event you want to handle.</source>
+          <target state="translated">您想要處理事件的名稱。</target>       </trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>A reference to the managed code that handles the event.</source>
+          <target state="translated">處理事件的 managed 程式碼參考。</target>       </trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>Gets the HTML document contained within the window.</source>
+          <target state="translated">取得視窗內包含的 HTML 文件。</target>       </trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Typically, you will access the Document through the &lt;xref:System.Windows.Forms.WebBrowser.Document%2A&gt; property of the &lt;xref:System.Windows.Forms.WebBrowser&gt; control.</source>
+          <target state="translated">通常，您將存取文件通過&lt;xref:System.Windows.Forms.WebBrowser.Document%2A&gt;屬性&lt;xref:System.Windows.Forms.WebBrowser&gt;控制項。&lt;/xref:System.Windows.Forms.WebBrowser&gt; &lt;/xref:System.Windows.Forms.WebBrowser.Document%2A&gt;</target>       </trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>Use this property when you need to access a document within a <ph id="ph1">`FRAME`</ph> using the &lt;xref:System.Windows.Forms.HtmlWindow.Frames%2A&gt; collection.</source>
+          <target state="translated">當您需要存取文件中的使用這個屬性<ph id="ph1">`FRAME`</ph>使用&lt;xref:System.Windows.Forms.HtmlWindow.Frames%2A&gt;集合。&lt;/xref:System.Windows.Forms.HtmlWindow.Frames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>A valid instance of <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlDocument"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, if a document is loaded.</source>
+          <target state="translated">有效的執行個體<bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlDocument"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，如果在載入的文件。</target>       </trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>If this window contains a <ph id="ph1">`FRAMESET`</ph>, or no document is currently loaded, it will return <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果這個視窗包含<ph id="ph1">`FRAMESET`</ph>，或目前已載入任何文件，它會傳回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Gets the unmanaged interface wrapped by this class.</source>
+          <target state="translated">取得這個類別所包裝的 unmanaged 的介面。</target>       </trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Use the underlying unmanaged interface pointers to the Document Object Model (DOM) to execute methods not exposed by &lt;xref:System.Windows.Forms.HtmlWindow&gt;.</source>
+          <target state="translated">執行&lt;xref:System.Windows.Forms.HtmlWindow&gt;.&lt;/xref:System.Windows.Forms.HtmlWindow&gt;未公開的方法時，用於基礎 unmanaged 的介面指標的文件物件模型 (DOM)</target>       </trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>You must add a referenced to the unmanaged MSHTML.dll in order to use DomWindow.</source>
+          <target state="translated">您必須將參考加入 unmanaged MSHTML.dll 才能使用 DomWindow。</target>       </trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>Importing a Type Library as an Assembly<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>匯入類型程式庫當成組件<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>。</target>       </trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>An object that can be cast to an <bpt id="p1">&lt;xref uid="langword_csharp_IHTMLWindow2" name="IHTMLWindow2" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, <bpt id="p2">&lt;xref uid="langword_csharp_IHTMLWindow3" name="IHTMLWindow3" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or <bpt id="p3">&lt;xref uid="langword_csharp_IHTMLWindow4 " name="IHTMLWindow4 " href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>pointer.</source>
+          <target state="translated">物件，可以轉型為<bpt id="p1">&lt;xref uid="langword_csharp_IHTMLWindow2" name="IHTMLWindow2" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>， <bpt id="p2">&lt;xref uid="langword_csharp_IHTMLWindow3" name="IHTMLWindow3" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，或<bpt id="p3">&lt;xref uid="langword_csharp_IHTMLWindow4 " name="IHTMLWindow4 " href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>指標。</target>       </trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>Tests the object for equality against the current object.</source>
+          <target state="translated">測試目前的物件相等的物件。</target>       </trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>The object to test.</source>
+          <target state="translated">要測試的物件。</target>       </trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the objects are equal; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果物件相等。否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Occurs when script running inside of the window encounters a run-time error.</source>
+          <target state="translated">發生於視窗內執行的指令碼遇到執行階段錯誤。</target>       </trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>HTML pages can contain script code, usually written in JScript or VBScript, that executes when a page is loaded.</source>
+          <target state="translated">HTML 網頁可以包含指令碼撰寫的程式碼，通常在 JScript 或 VBScript、 網頁載入時執行。</target>       </trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Error occurs whenever a script encounters a run-time error.</source>
+          <target state="translated">指令碼遇到執行階段錯誤時，就會發生錯誤。</target>       </trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Because script code is late-bound, which means that calls against the object are not resolved until run-time, errors can include everything from referencing a null object to calling an undefined property or method.</source>
+          <target state="translated">因為指令碼是晚期繫結，也就是說，呼叫對物件不被解析等到執行階段錯誤可以包含參考 null 物件為未定義的屬性或方法呼叫的所有項目。</target>       </trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>You can set the &lt;xref:System.Windows.Forms.HtmlElementErrorEventArgs.Handled%2A&gt; property of &lt;xref:System.Windows.Forms.HtmlElementErrorEventArgs&gt; to true in order to prevent the native error dialog box in Internet Explorer from displaying.</source>
+          <target state="translated">您可以設定&lt;xref:System.Windows.Forms.HtmlElementErrorEventArgs.Handled%2A&gt;屬性&lt;xref:System.Windows.Forms.HtmlElementErrorEventArgs&gt;設定為 true，以避免自發性錯誤 對話方塊，在 Internet Explorer 中的顯示。&lt;/xref:System.Windows.Forms.HtmlElementErrorEventArgs&gt; &lt;/xref:System.Windows.Forms.HtmlElementErrorEventArgs.Handled%2A&gt;</target>       </trans-unit>
+        <trans-unit id="154" translate="yes" xml:space="preserve">
+          <source>For more information about the difference between canceling event bubbling and canceling the default action on an event, see <bpt id="p1">[</bpt>About the DHTML Object Model<ept id="p1">](http://msdn.microsoft.com/library/ms533022.aspx)</ept>.</source>
+          <target state="translated">如需取消事件反昇和取消事件的預設動作之間的差異的詳細資訊，請參閱<bpt id="p1">[</bpt>關於 DHTML 物件模型<ept id="p1">](http://msdn.microsoft.com/library/ms533022.aspx)</ept>。</target>       </trans-unit>
+        <trans-unit id="155" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="156" translate="yes" xml:space="preserve">
+          <source>Puts the focus on the current window.</source>
+          <target state="translated">將焦點放在目前的視窗。</target>       </trans-unit>
+        <trans-unit id="157" translate="yes" xml:space="preserve">
+          <source>If another window held the focus before Focus was called, that window will lose the focus.</source>
+          <target state="translated">如果另一個視窗保留焦點呼叫焦點之前，該視窗會失去焦點。</target>       </trans-unit>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Do not call focus on an element inside of a window until the window's &lt;xref:System.Windows.Forms.HtmlWindow.Load&gt; event has been raised.</source>
+          <target state="translated">請勿呼叫直到視窗的視窗內的項目上焦點&lt;xref:System.Windows.Forms.HtmlWindow.Load&gt;在引發事件。&lt;/xref:System.Windows.Forms.HtmlWindow.Load&gt;</target>       </trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source>Gets a reference to each of the <ph id="ph1">`FRAME`</ph> elements defined within the Web page.</source>
+          <target state="translated">取得每個參考<ph id="ph1">`FRAME`</ph>定義在網頁內的項目。</target>       </trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source>A <ph id="ph1">`FRAME`</ph> is a set of windows defined within a <ph id="ph2">`FRAMESET`</ph>.</source>
+          <target state="translated">A<ph id="ph1">`FRAME`</ph>是 windows 內定義一組<ph id="ph2">`FRAMESET`</ph>。</target>       </trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`FRAME`</ph>s enable hosting multiple documents within a single document.</source>
+          <target state="translated"><ph id="ph1">`FRAME`</ph>可讓裝載單一文件中的多個文件。</target>       </trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source>Each <ph id="ph1">`FRAME`</ph> is defined as possessing a certain row and column width, and is position on the page in relation to the other <ph id="ph2">`FRAME`</ph>s defined within the <ph id="ph3">`FRAMESET`</ph>; the position of a <ph id="ph4">`FRAME`</ph> is fixed, although a user may sometimes use the mouse cursor to grow or shrink the <ph id="ph5">`FRAME`</ph>.</source>
+          <target state="translated">每個<ph id="ph1">`FRAME`</ph>定義為具有特定資料列和資料行寬度，而且彼此頁面上的位置<ph id="ph2">`FRAME`</ph>內定義的 s <ph id="ph3">`FRAMESET`</ph>; 目的位置<ph id="ph4">`FRAME`</ph>固定的雖然使用者可能有時用來擴張或縮小的滑鼠游標<ph id="ph5">`FRAME`</ph>。</target>       </trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>An <ph id="ph1">`IFRAME`</ph> is similar to a frame, but it need not be anchored in a fixed position.</source>
+          <target state="translated"><ph id="ph1">`IFRAME`</ph>類似於在範圍內，但不是需要鎖定在固定的位置。</target>       </trans-unit>
+        <trans-unit id="164" translate="yes" xml:space="preserve">
+          <source>Frames will contain one instance of &lt;xref:System.Windows.Forms.HtmlWindow&gt; for each <ph id="ph1">`FRAME`</ph> or <ph id="ph2">`IFRAME`</ph> defined within a Web page.</source>
+          <target state="translated">框架將包含一個執行個體&lt;xref:System.Windows.Forms.HtmlWindow&gt;每個<ph id="ph1">`FRAME`</ph>或<ph id="ph2">`IFRAME`</ph>的網頁內所定義。&lt;/xref:System.Windows.Forms.HtmlWindow&gt;</target>       </trans-unit>
+        <trans-unit id="165" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindowCollection"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> of a document's <ph id="ph1">`FRAME`</ph> and <ph id="ph2">`IFRAME`</ph> objects.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindowCollection"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>的文件<ph id="ph1">`FRAME`</ph>和<ph id="ph2">`IFRAME`</ph>物件。</target>       </trans-unit>
+        <trans-unit id="166" translate="yes" xml:space="preserve">
+          <source>Serves as a hash function for a particular type.</source>
+          <target state="translated">可做為特定類型的雜湊函式。</target>       </trans-unit>
+        <trans-unit id="167" translate="yes" xml:space="preserve">
+          <source>A hash code for the current <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">目前的雜湊碼<bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="168" translate="yes" xml:space="preserve">
+          <source>Occurs when the current window obtains user input focus.</source>
+          <target state="translated">當目前視窗取得使用者輸入的焦點時發生。</target>       </trans-unit>
+        <trans-unit id="169" translate="yes" xml:space="preserve">
+          <source>GotFocus will occur for:      -   The first window in a <ph id="ph1">`FRAMESET`</ph> when the <ph id="ph2">`FRAMESET`</ph> first loads.</source>
+          <target state="translated">會針對發生 GotFocus:-中的第一個視窗<ph id="ph1">`FRAMESET`</ph>時<ph id="ph2">`FRAMESET`</ph>第一次載入。</target>       </trans-unit>
+        <trans-unit id="170" translate="yes" xml:space="preserve">
+          <source>-   The <ph id="ph1">`FRAME`</ph> that last had focus when the window containing the &lt;xref:System.Windows.Forms.WebBrowser&gt; control is brought to the foreground.</source>
+          <target state="translated">-<ph id="ph1">`FRAME`</ph>的上一次有焦點時含有&lt;xref:System.Windows.Forms.WebBrowser&gt;控制項移到前景。&lt;/xref:System.Windows.Forms.WebBrowser&gt;</target>       </trans-unit>
+        <trans-unit id="171" translate="yes" xml:space="preserve">
+          <source>-   A <ph id="ph1">`FRAME`</ph> clicked by the user, but only if the user's click does not put focus on an element within the window.</source>
+          <target state="translated">-A<ph id="ph1">`FRAME`</ph>按一下使用者，但前提是使用者所按不會將焦點放在視窗內的項目。</target>       </trans-unit>
+        <trans-unit id="172" translate="yes" xml:space="preserve">
+          <source>You cannot cancel the default action for the GotFocus event, or prevent it from bubbling.</source>
+          <target state="translated">您無法取消 Exit 事件中的預設動作，或防止反昇。</target>       </trans-unit>
+        <trans-unit id="173" translate="yes" xml:space="preserve">
+          <source>For more information about the difference between canceling event bubbling and canceling the default action on an event, see <bpt id="p1">[</bpt>About the DHTML Object Model<ept id="p1">](http://msdn.microsoft.com/library/ms533022.aspx)</ept>.</source>
+          <target state="translated">如需取消事件反昇和取消事件的預設動作之間的差異的詳細資訊，請參閱<bpt id="p1">[</bpt>關於 DHTML 物件模型<ept id="p1">](http://msdn.microsoft.com/library/ms533022.aspx)</ept>。</target>       </trans-unit>
+        <trans-unit id="174" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="175" translate="yes" xml:space="preserve">
+          <source>Gets an object containing the user's most recently visited URLs.</source>
+          <target state="translated">取得物件，其中包含使用者最近瀏覽的 Url。</target>       </trans-unit>
+        <trans-unit id="176" translate="yes" xml:space="preserve">
+          <source>History contains all URLs navigated to within the current window, which is referred to as the <bpt id="p1">*</bpt>navigation stack<ept id="p1">*</ept>, and provides methods for navigating back to those documents.</source>
+          <target state="translated">記錄包含已巡覽至目前的視窗中，稱為內的所有 Url<bpt id="p1">*</bpt>巡覽堆疊<ept id="p1">*</ept>，並提供巡覽回這些文件的方法。</target>       </trans-unit>
+        <trans-unit id="177" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlHistory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> for the current window.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlHistory"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>目前的視窗。</target>       </trans-unit>
+        <trans-unit id="178" translate="yes" xml:space="preserve">
+          <source>Gets a value indicating whether this window is open or closed.</source>
+          <target state="translated">取得值，指出這個視窗已開啟還是關閉。</target>       </trans-unit>
+        <trans-unit id="179" translate="yes" xml:space="preserve">
+          <source>If the &lt;xref:System.Windows.Forms.HtmlWindow&gt; has been closed by the user or by way of a call to the &lt;xref:System.Windows.Forms.HtmlWindow.Close%2A&gt; method, attempting to navigate to a new URL or access the window's document will result in an error.</source>
+          <target state="translated">如果&lt;xref:System.Windows.Forms.HtmlWindow&gt;已由使用者或透過呼叫關閉&lt;xref:System.Windows.Forms.HtmlWindow.Close%2A&gt;嘗試瀏覽至新的 URL，或存取視窗的文件的方法，將會產生錯誤。&lt;/xref:System.Windows.Forms.HtmlWindow.Close%2A&gt; &lt;/xref:System.Windows.Forms.HtmlWindow&gt;</target>       </trans-unit>
+        <trans-unit id="180" translate="yes" xml:space="preserve">
+          <source>Use this property to determine whether it is safe to call properties and methods on the current window object.</source>
+          <target state="translated">使用這個屬性來判斷它是否安全地呼叫上目前的視窗物件的屬性和方法。</target>       </trans-unit>
+        <trans-unit id="181" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if the window is still open on the screen; otherwise, <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果視窗是在畫面上仍開啟否則， <bpt id="p2">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="182" translate="yes" xml:space="preserve">
+          <source>Occurs when the window's document and all of its elements have finished initializing.</source>
+          <target state="translated">視窗的文件和其所有項目完成初始化時發生。</target>       </trans-unit>
+        <trans-unit id="183" translate="yes" xml:space="preserve">
+          <source>The Load event works similarly to the &lt;xref:System.Windows.Forms.WebBrowser.DocumentCompleted&gt; event on the &lt;xref:System.Windows.Forms.WebBrowser&gt; control: it signals that it is safe to access HTML elements inside of the document.</source>
+          <target state="translated">載入事件的運作方式類似於&lt;xref:System.Windows.Forms.WebBrowser.DocumentCompleted&gt;事件&lt;xref:System.Windows.Forms.WebBrowser&gt;控制項︰ 它會通知是安全地存取 HTML 文件內的項目。&lt;/xref:System.Windows.Forms.WebBrowser&gt; &lt;/xref:System.Windows.Forms.WebBrowser.DocumentCompleted&gt;</target>       </trans-unit>
+        <trans-unit id="184" translate="yes" xml:space="preserve">
+          <source>You cannot cancel the default action for the Load event.</source>
+          <target state="translated">您無法取消載入事件的預設動作。</target>       </trans-unit>
+        <trans-unit id="185" translate="yes" xml:space="preserve">
+          <source>For more information about the difference between canceling event bubbling and canceling the default action on an event, see <bpt id="p1">[</bpt>About the DHTML Object Model<ept id="p1">](http://msdn.microsoft.com/library/ms533022.aspx)</ept>.</source>
+          <target state="translated">如需取消事件反昇和取消事件的預設動作之間的差異的詳細資訊，請參閱<bpt id="p1">[</bpt>關於 DHTML 物件模型<ept id="p1">](http://msdn.microsoft.com/library/ms533022.aspx)</ept>。</target>       </trans-unit>
+        <trans-unit id="186" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="187" translate="yes" xml:space="preserve">
+          <source>Occurs when user input focus has left the window.</source>
+          <target state="translated">當使用者輸入的焦點離開視窗時發生。</target>       </trans-unit>
+        <trans-unit id="188" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="189" translate="yes" xml:space="preserve">
+          <source>Moves the window to the specified coordinates on the screen.</source>
+          <target state="translated">在畫面上，將視窗移至指定的座標。</target>       </trans-unit>
+        <trans-unit id="190" translate="yes" xml:space="preserve">
+          <source>You cannot use MoveTo to move a window off of the visible edge of the screen; this method is also available through script on a Web page, and allowing untrusted script to render windows invisible is not considered secure.</source>
+          <target state="translated">您無法使用 MoveTo 移動的視窗移開畫面顯示邊緣這個方法也會提供透過網頁上的指令碼，讓不受信任的指令碼，以呈現隱藏的 windows 不會視為安全。</target>       </trans-unit>
+        <trans-unit id="191" translate="yes" xml:space="preserve">
+          <source>MoveTo will raise an &lt;xref:System.UnauthorizedAccessException&gt; if the window you are trying to move and its parent window have different top-level domains.</source>
+          <target state="translated">將會引發 MoveTo&lt;xref:System.UnauthorizedAccessException&gt;如果想要移動的視窗和其父視窗具有不同的最上層網域。&lt;/xref:System.UnauthorizedAccessException&gt;</target>       </trans-unit>
+        <trans-unit id="192" translate="yes" xml:space="preserve">
+          <source>For example, if you are hosting the &lt;xref:System.Windows.Forms.WebBrowser&gt; control pointing to a.adatum.com, create a new window using &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt; to display b.adatum.com.</source>
+          <target state="translated">例如，如果您正在裝載&lt;xref:System.Windows.Forms.WebBrowser&gt;控制項指向 a.adatum.com，建立新的視窗使用&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;顯示 b.adatum.com。&lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt; &lt;/xref:System.Windows.Forms.WebBrowser&gt;</target>       </trans-unit>
+        <trans-unit id="193" translate="yes" xml:space="preserve">
+          <source>In this case, both windows are considered to be part of the same top-level domain, and the exception is not thrown.</source>
+          <target state="translated">在此情況下，這兩個視窗會視為是相同的最上層網域的一部分，且不會擲回例外狀況。</target>       </trans-unit>
+        <trans-unit id="194" translate="yes" xml:space="preserve">
+          <source>However, if you call &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt; to display www,microsoft.com, the two windows now have different top-level domains, and the &lt;xref:System.Windows.Forms.HtmlWindow.MoveTo%2A&gt; operation will cause the exception to throw.</source>
+          <target state="translated">不過，如果您呼叫&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;顯示 www,microsoft.com，兩個視窗現在有不同的最上層網域，而&lt;xref:System.Windows.Forms.HtmlWindow.MoveTo%2A&gt;作業將會導致擲回的例外狀況。&lt;/xref:System.Windows.Forms.HtmlWindow.MoveTo%2A&gt; &lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="195" translate="yes" xml:space="preserve">
+          <source>The x- and y-coordinates of the window's upper-left corner.</source>
+          <target state="translated">視窗左上角的 x 和 y 座標。</target>       </trans-unit>
+        <trans-unit id="196" translate="yes" xml:space="preserve">
+          <source>The code trying to execute this operation does not have permission to manipulate this window.</source>
+          <target state="translated">嘗試執行這項作業的程式碼並沒有管理此視窗的使用權限。</target>       </trans-unit>
+        <trans-unit id="197" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for details.</source>
+          <target state="translated">請參閱 &lt; 備註 &gt; 一節，如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="198" translate="yes" xml:space="preserve">
+          <source>Moves the window to the specified coordinates on the screen.</source>
+          <target state="translated">在畫面上，將視窗移至指定的座標。</target>       </trans-unit>
+        <trans-unit id="199" translate="yes" xml:space="preserve">
+          <source>You cannot use &lt;xref:System.Windows.Forms.HtmlWindow.MoveTo%2A&gt; to move a window off of the visible edge of the screen; this method is also available through script on a Web page, and allowing untrusted script to render windows invisible is not considered secure.</source>
+          <target state="translated">您無法使用&lt;xref:System.Windows.Forms.HtmlWindow.MoveTo%2A&gt;要移動的視窗移開螢幕顯示邊緣; 這個方法也會提供透過網頁上的指令碼，讓不受信任的指令碼，以呈現隱藏的 windows 不會視為安全。&lt;/xref:System.Windows.Forms.HtmlWindow.MoveTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="200" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Forms.HtmlWindow.MoveTo%2A&gt; will raise an &lt;xref:System.UnauthorizedAccessException&gt; if the window you are trying to move and its parent window have different top-level domains.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.HtmlWindow.MoveTo%2A&gt;將會引發&lt;xref:System.UnauthorizedAccessException&gt;如果想要移動的視窗和其父視窗具有不同的最上層網域。&lt;/xref:System.UnauthorizedAccessException&gt;&lt;/xref:System.Windows.Forms.HtmlWindow.MoveTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="201" translate="yes" xml:space="preserve">
+          <source>For example, if you are hosting the &lt;xref:System.Windows.Forms.WebBrowser&gt; control and it is pointing to a.adatum.com, you create a new window using &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt; to display b.adatum.com.</source>
+          <target state="translated">例如，如果您正在裝載&lt;xref:System.Windows.Forms.WebBrowser&gt;控制項和其指向 a.adatum.com，您建立新的視窗使用&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;顯示 b.adatum.com。&lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt; &lt;/xref:System.Windows.Forms.WebBrowser&gt;</target>       </trans-unit>
+        <trans-unit id="202" translate="yes" xml:space="preserve">
+          <source>In this case, both windows are considered to be part of the same top-level domain, and the exception is not thrown.</source>
+          <target state="translated">在此情況下，這兩個視窗會視為是相同的最上層網域的一部分，且不會擲回例外狀況。</target>       </trans-unit>
+        <trans-unit id="203" translate="yes" xml:space="preserve">
+          <source>However, if you call &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt; to display www,microsoft.com, the two windows now have different top-level domains, and the MoveTo operation will cause the exception to throw.</source>
+          <target state="translated">不過，如果您呼叫&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;顯示 www,microsoft.com，兩個視窗現在會有不同的最上層網域，以及移動作業將會導致擲回的例外狀況。&lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="204" translate="yes" xml:space="preserve">
+          <source>The x-coordinate of the window's upper-left corner.</source>
+          <target state="translated">視窗的左上角 x 座標。</target>       </trans-unit>
+        <trans-unit id="205" translate="yes" xml:space="preserve">
+          <source>The y-coordinate of the window's upper-left corner.</source>
+          <target state="translated">視窗的左上角 y 座標。</target>       </trans-unit>
+        <trans-unit id="206" translate="yes" xml:space="preserve">
+          <source>The code trying to execute this operation does not have permission to manipulate this window.</source>
+          <target state="translated">嘗試執行這項作業的程式碼並沒有管理此視窗的使用權限。</target>       </trans-unit>
+        <trans-unit id="207" translate="yes" xml:space="preserve">
+          <source>See the Remarks section for details.</source>
+          <target state="translated">請參閱 &lt; 備註 &gt; 一節，如需詳細資訊。</target>       </trans-unit>
+        <trans-unit id="208" translate="yes" xml:space="preserve">
+          <source>Gets or sets the name of the window.</source>
+          <target state="translated">取得或設定視窗的名稱。</target>       </trans-unit>
+        <trans-unit id="209" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; representing the name.</source>
+          <target state="translated">A&lt;xref:System.String&gt;表示名稱。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="210" translate="yes" xml:space="preserve">
+          <source>Displays or downloads the new content located at the specified URL.</source>
+          <target state="translated">顯示或下載位於指定之 URL 的新內容。</target>       </trans-unit>
+        <trans-unit id="211" translate="yes" xml:space="preserve">
+          <source>If the <ph id="ph1">`url`</ph> parameter points to an HTML page, the page currently displayed in the window will be destroyed and replaced with the new page; any references your application holds to managed DOM objects in the old page will not be valid.</source>
+          <target state="translated">如果<ph id="ph1">`url`</ph>參數指向 HTML 網頁，目前視窗中顯示的頁面將摧毀並取代為新頁面; 任何參考您的應用程式會保留舊的頁面中受管理的 DOM 物件將不再有效。</target>       </trans-unit>
+        <trans-unit id="212" translate="yes" xml:space="preserve">
+          <source>If <ph id="ph1">`url`</ph> points to a resource that cannot be displayed by Internet Explorer, the user will be presented with a dialog box asking whether to open the resource outside of the application, save it to disk, or cancel the download operation.</source>
+          <target state="translated">如果<ph id="ph1">`url`</ph>指向 Internet Explorer 無法顯示的資源時，使用者會看到的對話方塊，詢問是否要開啟應用程式，將其儲存至磁碟，或取消下載作業之外的資源。</target>       </trans-unit>
+        <trans-unit id="213" translate="yes" xml:space="preserve">
+          <source>The resource to display, described by a Uniform Resource Locator.</source>
+          <target state="translated">若要顯示，資源所述的統一資源定位器。</target>       </trans-unit>
+        <trans-unit id="214" translate="yes" xml:space="preserve">
+          <source>Displays a new document in the current window.</source>
+          <target state="translated">在目前的視窗顯示新的文件。</target>       </trans-unit>
+        <trans-unit id="215" translate="yes" xml:space="preserve">
+          <source>The location, specified as a &lt;xref:System.Uri&gt;, of the document or object to display in the current window.</source>
+          <target state="translated">為指定的位置， &lt;xref:System.Uri&gt;、 文件或目前的視窗中顯示的物件。&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="216" translate="yes" xml:space="preserve">
+          <source>Tests the two <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for equality.</source>
+          <target state="translated">測試兩個<bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件是否相等。</target>       </trans-unit>
+        <trans-unit id="217" translate="yes" xml:space="preserve">
+          <source>The equality operator tests the <ph id="ph1">`IUnknown`</ph> pointers of the underlying COM objects wrapped by the supplied &lt;xref:System.Windows.Forms.HtmlWindow&gt; classes.</source>
+          <target state="translated">等號比較運算子測試<ph id="ph1">`IUnknown`</ph>包裝由所提供的基礎 COM 物件的指標&lt;xref:System.Windows.Forms.HtmlWindow&gt;類別。&lt;/xref:System.Windows.Forms.HtmlWindow&gt;</target>       </trans-unit>
+        <trans-unit id="218" translate="yes" xml:space="preserve">
+          <source>The first <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">第一個<bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="219" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">第二個<bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="220" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if both parameters are <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or if both elements have the same underlying COM interface; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果兩個參數都<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，或如果兩個項目有相同的基礎 COM 介面; 否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="221" translate="yes" xml:space="preserve">
+          <source>Tests two <bpt id="p1">&lt;xref uid="langword_csharp_HtmlWindow" name="HtmlWindow" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> objects for inequality.</source>
+          <target state="translated">測試兩個<bpt id="p1">&lt;xref uid="langword_csharp_HtmlWindow" name="HtmlWindow" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件是否不相等。</target>       </trans-unit>
+        <trans-unit id="222" translate="yes" xml:space="preserve">
+          <source>The first <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">第一個<bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="223" translate="yes" xml:space="preserve">
+          <source>The second <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> object.</source>
+          <target state="translated">第二個<bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>物件。</target>       </trans-unit>
+        <trans-unit id="224" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> if one but not both of the objects is <bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, or the underlying COM pointers do not match; otherwise, <bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt><ept id="p3">&lt;/xref&gt;</ept>.</source>
+          <target state="translated"><bpt id="p1">&lt;xref uid="langword_csharp_true" name="true" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>如果其中一個，但不是兩個物件是<bpt id="p2">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，或基礎 COM 指標不相符，否則<bpt id="p3">&lt;xref uid="langword_csharp_false" name="false" href=""&gt;</bpt> <ept id="p3">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="225" translate="yes" xml:space="preserve">
+          <source>Displays a file in the named window.</source>
+          <target state="translated">在具名視窗中顯示檔案。</target>       </trans-unit>
+        <trans-unit id="226" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`target`</ph> parameter can name a window that was created as the result of a previous call to Open.</source>
+          <target state="translated"><ph id="ph1">`target`</ph>參數可以建立為開啟先前呼叫的結果視窗的名稱。</target>       </trans-unit>
+        <trans-unit id="227" translate="yes" xml:space="preserve">
+          <source>The parameter may also point to a window opened by clicking on a hyperlink (<ph id="ph1">`A`</ph> element) or a <ph id="ph2">`FORM`</ph> element that uses the <ph id="ph3">`TARGET`</ph> attribute to open its URL in a new window.</source>
+          <target state="translated">參數可能也會指向按一下超連結會開啟一個視窗 (<ph id="ph1">`A`</ph>項目) 或<ph id="ph2">`FORM`</ph>項目，會使用<ph id="ph3">`TARGET`</ph>屬性，以在新視窗開啟它的 URL。</target>       </trans-unit>
+        <trans-unit id="228" translate="yes" xml:space="preserve">
+          <source>The following HTML code will open a new window named <ph id="ph1">`orderWindow`</ph> when the user clicks it:       <ph id="ph2">`&lt;A HREF="/startOrder.aspx" TARGET="orderWindow"&gt;Click to Start Order&lt;/a&gt;`</ph>       If you supply any options for the <ph id="ph3">`windowOptions`</ph> parameter, any option not included is automatically disabled.</source>
+          <target state="translated">下列 HTML 程式碼會開啟新視窗名為<ph id="ph1">`orderWindow`</ph>當使用者按一下它︰<ph id="ph2">`&lt;A HREF="/startOrder.aspx" TARGET="orderWindow"&gt;Click to Start Order&lt;/a&gt;`</ph>如果您提供的任何選項<ph id="ph3">`windowOptions`</ph>參數，不包含任何選項會自動停用。</target>       </trans-unit>
+        <trans-unit id="229" translate="yes" xml:space="preserve">
+          <source>In other words, if you only specify by way of <ph id="ph1">`windowOptions`</ph> that you want a status bar, then the menu bar, toolbar, title, scroll bars, and so on will not be displayed unless you explicitly enable them by way of <ph id="ph2">`windowOptions`</ph>.</source>
+          <target state="translated">換句話說，如果您藉由只指定<ph id="ph1">`windowOptions`</ph>您想要的狀態 列，則不顯示功能表、 工具列、 標題、 捲軸等除非您明確啟用它們藉由<ph id="ph2">`windowOptions`</ph>。</target>       </trans-unit>
+        <trans-unit id="230" translate="yes" xml:space="preserve">
+          <source>If the file referenced by <ph id="ph1">`url`</ph> is an HTML file, text file, or other file type that can be hosted inside of Internet Explorer, it will be displayed in the named window.</source>
+          <target state="translated">如果所參考的檔案<ph id="ph1">`url`</ph>是 HTML 檔案、 文字檔或其他可以裝載在 Internet Explorer 內的檔案類型將顯示在具名視窗中。</target>       </trans-unit>
+        <trans-unit id="231" translate="yes" xml:space="preserve">
+          <source>If the file cannot be displayed inside of Internet Explorer, and the window named by target does not already exist, then the window will open only long enough for Internet Explorer to download the resource; it will close immediately afterwards.</source>
+          <target state="translated">如果檔案無法顯示在 Internet Explorer 內，而且名為目標的視窗不存在，則會開啟只有時間長度仍足以供 Internet Explorer 下載資源;它會立即關閉之後。</target>       </trans-unit>
+        <trans-unit id="232" translate="yes" xml:space="preserve">
+          <source>When you create new windows using Open or &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;, it causes the HTML Document Object Model to open a new instance of Internet Explorer.</source>
+          <target state="translated">當您建立使用來開啟新視窗或&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;，它會導致 HTML 文件物件模型，以開啟 Internet Explorer 的新執行個體。&lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="233" translate="yes" xml:space="preserve">
+          <source>If you do not call &lt;xref:System.Windows.Forms.HtmlWindow.Close%2A&gt; on all of the windows you have created, this instance of Internet Explorer will remain running even after your application has quit.</source>
+          <target state="translated">如果您不會呼叫&lt;xref:System.Windows.Forms.HtmlWindow.Close%2A&gt;所有您已建立的 windows 上的 Internet Explorer 的這個執行個體將會繼續執行已結束您的應用程式時，即使。&lt;/xref:System.Windows.Forms.HtmlWindow.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="234" translate="yes" xml:space="preserve">
+          <source>If you use Open to load a URL in an existing window, <ph id="ph1">`windowOptions`</ph> will be ignored; the window will retain the dimensions, appearance, and screen location first given it by the initial call to Open.</source>
+          <target state="translated">如果您要載入的 URL，在現有的視窗中，使用開啟<ph id="ph1">`windowOptions`</ph>會被忽略; 維度、 外觀以及第一次開啟一次呼叫所提供它的螢幕位置，將會保留視窗。</target>       </trans-unit>
+        <trans-unit id="235" translate="yes" xml:space="preserve">
+          <source>The Uniform Resource Locator that describes the location of the file to load.</source>
+          <target state="translated">統一資源定位器，描述要載入之檔案的位置。</target>       </trans-unit>
+        <trans-unit id="236" translate="yes" xml:space="preserve">
+          <source>The name of the window in which to open the resource.</source>
+          <target state="translated">在其中開啟資源的視窗名稱。</target>       </trans-unit>
+        <trans-unit id="237" translate="yes" xml:space="preserve">
+          <source>This may be a developer-supplied name, or one of the following special values:       <ph id="ph1">`_blank`</ph>: Opens <ph id="ph2">`url`</ph> in a new window.</source>
+          <target state="translated">這可能是開發人員提供的名稱，或下列特殊值之一︰ <ph id="ph1">`_blank`</ph>︰ 開啟<ph id="ph2">`url`</ph>在新視窗中。</target>       </trans-unit>
+        <trans-unit id="238" translate="yes" xml:space="preserve">
+          <source>Works the same as a call to &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew*&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew*&gt;.&lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew*&gt;呼叫相同的運作方式</target>       </trans-unit>
+        <trans-unit id="239" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`_media`</ph>: Opens <ph id="ph2">`url`</ph> in the Media bar.</source>
+          <target state="translated"><ph id="ph1">`_media`</ph>︰ 開啟<ph id="ph2">`url`</ph>媒體列中。</target>       </trans-unit>
+        <trans-unit id="240" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`_parent`</ph>: Opens <ph id="ph2">`url`</ph> in the window that created the current window.</source>
+          <target state="translated"><ph id="ph1">`_parent`</ph>︰ 開啟<ph id="ph2">`url`</ph>建立目前視窗的視窗。</target>       </trans-unit>
+        <trans-unit id="241" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`_search`</ph>: Opens <ph id="ph2">`url`</ph> in the Search bar.</source>
+          <target state="translated"><ph id="ph1">`_search`</ph>︰ 開啟<ph id="ph2">`url`</ph>搜尋列中。</target>       </trans-unit>
+        <trans-unit id="242" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`_self`</ph>: Opens <ph id="ph2">`url`</ph> in the current window.</source>
+          <target state="translated"><ph id="ph1">`_self`</ph>︰ 開啟<ph id="ph2">`url`</ph>在目前的視窗。</target>       </trans-unit>
+        <trans-unit id="243" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`_top`</ph>: If called against a window belonging to a <ph id="ph2">`FRAME`</ph> element, opens <ph id="ph3">`url`</ph> in the window hosting its <ph id="ph4">`FRAMESET`</ph>.</source>
+          <target state="translated"><ph id="ph1">`_top`</ph>︰ 如果針對屬於視窗呼叫<ph id="ph2">`FRAME`</ph>項目，開啟<ph id="ph3">`url`</ph>視窗裝載其<ph id="ph4">`FRAMESET`</ph>。</target>       </trans-unit>
+        <trans-unit id="244" translate="yes" xml:space="preserve">
+          <source>Otherwise, acts the same as <ph id="ph1">`_self`</ph>.</source>
+          <target state="translated">否則，會與相同<ph id="ph1">`_self`</ph>。</target>       </trans-unit>
+        <trans-unit id="245" translate="yes" xml:space="preserve">
+          <source>A comma-delimited string consisting of zero or more of the following options in the form <ph id="ph1">`name=value`</ph>.</source>
+          <target state="translated">以逗號分隔的字串，其中包含零或多個表單中的下列選項<ph id="ph1">`name=value`</ph>。</target>       </trans-unit>
+        <trans-unit id="246" translate="yes" xml:space="preserve">
+          <source>Except for the <ph id="ph1">`left`</ph>, <ph id="ph2">`top`</ph>, <ph id="ph3">`height`</ph>, and <ph id="ph4">`width`</ph> options, which take arbitrary integers, each option accepts <ph id="ph5">`yes`</ph> or <bpt id="p1">&lt;xref uid="langword_csharp_1" name="1" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and <ph id="ph6">`no`</ph> or <bpt id="p2">&lt;xref uid="langword_csharp_0" name="0" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, as valid values.</source>
+          <target state="translated">除了<ph id="ph1">`left`</ph>， <ph id="ph2">`top`</ph>， <ph id="ph3">`height`</ph>，和<ph id="ph4">`width`</ph>選項，以取得任意整數，每個選項可接受<ph id="ph5">`yes`</ph>或<bpt id="p1">&lt;xref uid="langword_csharp_1" name="1" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，和<ph id="ph6">`no`</ph>或<bpt id="p2">&lt;xref uid="langword_csharp_0" name="0" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，做為有效的值。</target>       </trans-unit>
+        <trans-unit id="247" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`channelmode`</ph>: Used with the deprecated channels technology of Internet Explorer 4.0.</source>
+          <target state="translated"><ph id="ph1">`channelmode`</ph>: 已被取代的通道技術 Internet Explorer 4.0 搭配使用。</target>       </trans-unit>
+        <trans-unit id="248" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`no`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`no`</ph>。</target>       </trans-unit>
+        <trans-unit id="249" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`directories`</ph>: Whether the window should display directory navigation buttons.</source>
+          <target state="translated"><ph id="ph1">`directories`</ph>︰ 是否視窗應該顯示目錄巡覽按鈕。</target>       </trans-unit>
+        <trans-unit id="250" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="251" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`height`</ph>: The height of the window's client area, in pixels.</source>
+          <target state="translated"><ph id="ph1">`height`</ph>: 視窗的工作區，單位為像素的高度。</target>       </trans-unit>
+        <trans-unit id="252" translate="yes" xml:space="preserve">
+          <source>The minimum is 100; attempts to open a window smaller than this will cause the window to open according to the Internet Explorer defaults.</source>
+          <target state="translated">最小值為 100。嘗試開啟比這會導致視窗開啟根據 Internet Explorer 的預設值還要小的視窗。</target>       </trans-unit>
+        <trans-unit id="253" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`left`</ph>: The left (x-coordinate) position of the window, relative to the upper-left corner of the user's screen, in pixels.</source>
+          <target state="translated"><ph id="ph1">`left`</ph>︰ 左方 （x 座標） 位置的視窗中，相對於使用者螢幕左上角像素為單位。</target>       </trans-unit>
+        <trans-unit id="254" translate="yes" xml:space="preserve">
+          <source>Must be a positive integer.</source>
+          <target state="translated">必須是正整數。</target>       </trans-unit>
+        <trans-unit id="255" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`location`</ph>: Whether to display the Address bar, which enables users to navigate the window to a new URL.</source>
+          <target state="translated"><ph id="ph1">`location`</ph>︰ 是否要顯示的位址列中，可讓使用者巡覽視窗至新的 URL。</target>       </trans-unit>
+        <trans-unit id="256" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="257" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`menubar`</ph>: Whether to display menus on the new window.</source>
+          <target state="translated"><ph id="ph1">`menubar`</ph>︰ 是否要在新視窗中顯示功能表。</target>       </trans-unit>
+        <trans-unit id="258" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="259" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`resizable`</ph>: Whether the window can be resized by the user.</source>
+          <target state="translated"><ph id="ph1">`resizable`</ph>︰ 是否可以調整大小使用者視窗。</target>       </trans-unit>
+        <trans-unit id="260" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="261" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`scrollbars`</ph>: Whether the window has horizontal and vertical scroll bars.</source>
+          <target state="translated"><ph id="ph1">`scrollbars`</ph>︰ 視窗是否有水平和垂直捲軸。</target>       </trans-unit>
+        <trans-unit id="262" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="263" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`status`</ph>: Whether the window has a status bar at the bottom.</source>
+          <target state="translated"><ph id="ph1">`status`</ph>︰ 視窗是否有狀態列底部。</target>       </trans-unit>
+        <trans-unit id="264" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="265" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`titlebar`</ph>: Whether the title of the current page is displayed.</source>
+          <target state="translated"><ph id="ph1">`titlebar`</ph>︰ 是否顯示目前頁面的標題。</target>       </trans-unit>
+        <trans-unit id="266" translate="yes" xml:space="preserve">
+          <source>Setting this option to <ph id="ph1">`no`</ph> has no effect within a managed application; the title bar will always appear.</source>
+          <target state="translated">此選項設為<ph id="ph1">`no`</ph>沒有任何作用中的受管理的應用程式; 標題列一律會出現。</target>       </trans-unit>
+        <trans-unit id="267" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`toolbar`</ph>: Whether toolbar buttons such as <bpt id="p1">**</bpt>Back<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Forward<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Stop<ept id="p3">**</ept> are visible.</source>
+          <target state="translated"><ph id="ph1">`toolbar`</ph>︰ 是否等工具列按鈕<bpt id="p1">**</bpt>回<ept id="p1">**</ept>，<bpt id="p2">**</bpt>向前<ept id="p2">**</ept>，和<bpt id="p3">**</bpt>停止<ept id="p3">**</ept>可見。</target>       </trans-unit>
+        <trans-unit id="268" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="269" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`top`</ph>: The top (y-coordinate) position of the window, relative to the upper-left corner of the user's screen, in pixels.</source>
+          <target state="translated"><ph id="ph1">`top`</ph>︰ 上方 （y 座標） 位置的視窗中，相對於使用者螢幕左上角像素為單位。</target>       </trans-unit>
+        <trans-unit id="270" translate="yes" xml:space="preserve">
+          <source>Must be a positive integer.</source>
+          <target state="translated">必須是正整數。</target>       </trans-unit>
+        <trans-unit id="271" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`width`</ph>: The width of the window's client area, in pixels.</source>
+          <target state="translated"><ph id="ph1">`width`</ph>︰ 視窗的用戶端區域寬度，單位為像素。</target>       </trans-unit>
+        <trans-unit id="272" translate="yes" xml:space="preserve">
+          <source>The minimum is 100; attempts to open a window smaller than this will cause the window to open according to the Internet Explorer defaults.</source>
+          <target state="translated">最小值為 100。嘗試開啟比這會導致視窗開啟根據 Internet Explorer 的預設值還要小的視窗。</target>       </trans-unit>
+        <trans-unit id="273" translate="yes" xml:space="preserve">
+          <source>Whether <ph id="ph1">`url`</ph> replaces the current window's URL in the navigation history.</source>
+          <target state="translated">是否<ph id="ph1">`url`</ph>取代目前視窗的巡覽記錄中的 URL。</target>       </trans-unit>
+        <trans-unit id="274" translate="yes" xml:space="preserve">
+          <source>This will effect the operation of methods on the <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlHistory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">這會影響之方法的作業上<bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlHistory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="275" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the new window, or the previously created window named by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代表新視窗中或之前建立的視窗由名為<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p2">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="276" translate="yes" xml:space="preserve">
+          <source>Displays a file in the named window.</source>
+          <target state="translated">在具名視窗中顯示檔案。</target>       </trans-unit>
+        <trans-unit id="277" translate="yes" xml:space="preserve">
+          <source>The <ph id="ph1">`target`</ph> parameter can name a window that was created as the result of a previous call to Open.</source>
+          <target state="translated"><ph id="ph1">`target`</ph>參數可以建立為開啟先前呼叫的結果視窗的名稱。</target>       </trans-unit>
+        <trans-unit id="278" translate="yes" xml:space="preserve">
+          <source>The parameter may also point to a window opened by clicking on a hyperlink (<ph id="ph1">`A`</ph> element) or a <ph id="ph2">`FORM`</ph> element that uses the <ph id="ph3">`TARGET`</ph> attribute to open its URL in a new window.</source>
+          <target state="translated">參數可能也會指向按一下超連結會開啟一個視窗 (<ph id="ph1">`A`</ph>項目) 或<ph id="ph2">`FORM`</ph>項目，會使用<ph id="ph3">`TARGET`</ph>屬性，以在新視窗開啟它的 URL。</target>       </trans-unit>
+        <trans-unit id="279" translate="yes" xml:space="preserve">
+          <source>The following HTML code will open a new window named <ph id="ph1">`orderWindow`</ph> when the user clicks it:       <ph id="ph2">`&lt;A HREF="/startOrder.aspx" TARGET="orderWindow"&gt;Click to Start Order&lt;/a&gt;`</ph>       If you supply any options for the <ph id="ph3">`windowOptions`</ph> parameter, any option not included is automatically disabled.</source>
+          <target state="translated">下列 HTML 程式碼會開啟新視窗名為<ph id="ph1">`orderWindow`</ph>當使用者按一下它︰<ph id="ph2">`&lt;A HREF="/startOrder.aspx" TARGET="orderWindow"&gt;Click to Start Order&lt;/a&gt;`</ph>如果您提供的任何選項<ph id="ph3">`windowOptions`</ph>參數，不包含任何選項會自動停用。</target>       </trans-unit>
+        <trans-unit id="280" translate="yes" xml:space="preserve">
+          <source>In other words, if you only specify by way of <ph id="ph1">`windowOptions`</ph> that you want a status bar, then the menu bar, toolbar, title, scroll bars, and so on will not be displayed unless you explicitly enable them by way of <ph id="ph2">`windowOptions`</ph>.</source>
+          <target state="translated">換句話說，如果您藉由只指定<ph id="ph1">`windowOptions`</ph>您想要的狀態 列，則不顯示功能表、 工具列、 標題、 捲軸等除非您明確啟用它們藉由<ph id="ph2">`windowOptions`</ph>。</target>       </trans-unit>
+        <trans-unit id="281" translate="yes" xml:space="preserve">
+          <source>If the file referenced by <ph id="ph1">`url`</ph> is an HTML file, text file, or other file type that can be hosted inside of Internet Explorer, it will be displayed in the named window.</source>
+          <target state="translated">如果所參考的檔案<ph id="ph1">`url`</ph>是 HTML 檔案、 文字檔或其他可以裝載在 Internet Explorer 內的檔案類型將顯示在具名視窗中。</target>       </trans-unit>
+        <trans-unit id="282" translate="yes" xml:space="preserve">
+          <source>If the file cannot be displayed inside of Internet Explorer, and the window named by target does not already exist, then the window will open only long enough for Internet Explorer to download the resource; it will close immediately afterwards.</source>
+          <target state="translated">如果檔案無法顯示在 Internet Explorer 內，而且名為目標的視窗不存在，則會開啟只有時間長度仍足以供 Internet Explorer 下載資源;它會立即關閉之後。</target>       </trans-unit>
+        <trans-unit id="283" translate="yes" xml:space="preserve">
+          <source>When you create new windows using Open or &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;, it causes the HTML Document Object Model to open a new instance of Internet Explorer.</source>
+          <target state="translated">當您建立使用來開啟新視窗或&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;，它會導致 HTML 文件物件模型，以開啟 Internet Explorer 的新執行個體。&lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;</target>       </trans-unit>
+        <trans-unit id="284" translate="yes" xml:space="preserve">
+          <source>If you do not call &lt;xref:System.Windows.Forms.HtmlWindow.Close%2A&gt; on all of the windows you have created, this instance of Internet Explorer will remain running even after your application has quit.</source>
+          <target state="translated">如果您不會呼叫&lt;xref:System.Windows.Forms.HtmlWindow.Close%2A&gt;所有您已建立的 windows 上的 Internet Explorer 的這個執行個體將會繼續執行已結束您的應用程式時，即使。&lt;/xref:System.Windows.Forms.HtmlWindow.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="285" translate="yes" xml:space="preserve">
+          <source>If you use Open to load a URL in an existing window, <ph id="ph1">`windowOptions`</ph> will be ignored; the window will retain the dimensions, appearance, and screen location first given it by the initial call to Open .</source>
+          <target state="translated">如果您要載入的 URL，在現有的視窗中，使用開啟<ph id="ph1">`windowOptions`</ph>會被忽略; 維度、 外觀以及第一次開啟一次呼叫所提供它的螢幕位置，將會保留視窗。</target>       </trans-unit>
+        <trans-unit id="286" translate="yes" xml:space="preserve">
+          <source>The Uniform Resource Locator that describes the location of the file to load.</source>
+          <target state="translated">統一資源定位器，描述要載入之檔案的位置。</target>       </trans-unit>
+        <trans-unit id="287" translate="yes" xml:space="preserve">
+          <source>The name of the window in which to open the resource.</source>
+          <target state="translated">在其中開啟資源的視窗名稱。</target>       </trans-unit>
+        <trans-unit id="288" translate="yes" xml:space="preserve">
+          <source>This can be a developer-supplied name, or one of the following special values:       <ph id="ph1">`_blank`</ph>: Opens <ph id="ph2">`url`</ph> in a new window.</source>
+          <target state="translated">這可以是開發人員提供的名稱，或下列特殊值之一︰ <ph id="ph1">`_blank`</ph>︰ 開啟<ph id="ph2">`url`</ph>在新視窗中。</target>       </trans-unit>
+        <trans-unit id="289" translate="yes" xml:space="preserve">
+          <source>Works the same as a call to &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew*&gt;.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew*&gt;.&lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew*&gt;呼叫相同的運作方式</target>       </trans-unit>
+        <trans-unit id="290" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`_media`</ph>: Opens <ph id="ph2">`url`</ph> in the Media bar.</source>
+          <target state="translated"><ph id="ph1">`_media`</ph>︰ 開啟<ph id="ph2">`url`</ph>媒體列中。</target>       </trans-unit>
+        <trans-unit id="291" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`_parent`</ph>: Opens <ph id="ph2">`url`</ph> in the window that created the current window.</source>
+          <target state="translated"><ph id="ph1">`_parent`</ph>︰ 開啟<ph id="ph2">`url`</ph>建立目前視窗的視窗。</target>       </trans-unit>
+        <trans-unit id="292" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`_search`</ph>: Opens <ph id="ph2">`url`</ph> in the Search bar.</source>
+          <target state="translated"><ph id="ph1">`_search`</ph>︰ 開啟<ph id="ph2">`url`</ph>搜尋列中。</target>       </trans-unit>
+        <trans-unit id="293" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`_self`</ph>: Opens <ph id="ph2">`url`</ph> in the current window.</source>
+          <target state="translated"><ph id="ph1">`_self`</ph>︰ 開啟<ph id="ph2">`url`</ph>在目前的視窗。</target>       </trans-unit>
+        <trans-unit id="294" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`_top`</ph>: If called against a window belonging to a <ph id="ph2">`FRAME`</ph> element, opens <ph id="ph3">`url`</ph> in the window hosting its <ph id="ph4">`FRAMESET`</ph>.</source>
+          <target state="translated"><ph id="ph1">`_top`</ph>︰ 如果針對屬於視窗呼叫<ph id="ph2">`FRAME`</ph>項目，開啟<ph id="ph3">`url`</ph>視窗裝載其<ph id="ph4">`FRAMESET`</ph>。</target>       </trans-unit>
+        <trans-unit id="295" translate="yes" xml:space="preserve">
+          <source>Otherwise, acts the same as <ph id="ph1">`_self`</ph>.</source>
+          <target state="translated">否則，會與相同<ph id="ph1">`_self`</ph>。</target>       </trans-unit>
+        <trans-unit id="296" translate="yes" xml:space="preserve">
+          <source>A comma-delimited string consisting of zero or more of the following options in the form <ph id="ph1">`name=value`</ph>.</source>
+          <target state="translated">以逗號分隔的字串，其中包含零或多個表單中的下列選項<ph id="ph1">`name=value`</ph>。</target>       </trans-unit>
+        <trans-unit id="297" translate="yes" xml:space="preserve">
+          <source>Except for the <ph id="ph1">`left`</ph>, <ph id="ph2">`top`</ph>, <ph id="ph3">`height`</ph>, and <ph id="ph4">`width`</ph> options, which take arbitrary integers, each option accepts <ph id="ph5">`yes`</ph> or <bpt id="p1">&lt;xref uid="langword_csharp_1" name="1" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>, and <ph id="ph6">`no`</ph> or <bpt id="p2">&lt;xref uid="langword_csharp_0" name="0" href=""&gt;</bpt><ept id="p2">&lt;/xref&gt;</ept>, as valid values.</source>
+          <target state="translated">除了<ph id="ph1">`left`</ph>， <ph id="ph2">`top`</ph>， <ph id="ph3">`height`</ph>，和<ph id="ph4">`width`</ph>選項，以取得任意整數，每個選項可接受<ph id="ph5">`yes`</ph>或<bpt id="p1">&lt;xref uid="langword_csharp_1" name="1" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>，和<ph id="ph6">`no`</ph>或<bpt id="p2">&lt;xref uid="langword_csharp_0" name="0" href=""&gt;</bpt> <ept id="p2">&lt;/xref&gt;</ept>，做為有效的值。</target>       </trans-unit>
+        <trans-unit id="298" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`channelmode`</ph>: Used with the deprecated channels technology of Internet Explorer 4.0.</source>
+          <target state="translated"><ph id="ph1">`channelmode`</ph>: 已被取代的通道技術 Internet Explorer 4.0 搭配使用。</target>       </trans-unit>
+        <trans-unit id="299" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`no`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`no`</ph>。</target>       </trans-unit>
+        <trans-unit id="300" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`directories`</ph>: Whether the window should display directory navigation buttons.</source>
+          <target state="translated"><ph id="ph1">`directories`</ph>︰ 是否視窗應該顯示目錄巡覽按鈕。</target>       </trans-unit>
+        <trans-unit id="301" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="302" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`height`</ph>: The height of the window's client area, in pixels.</source>
+          <target state="translated"><ph id="ph1">`height`</ph>: 視窗的工作區，單位為像素的高度。</target>       </trans-unit>
+        <trans-unit id="303" translate="yes" xml:space="preserve">
+          <source>The minimum is 100; attempts to open a window smaller than this will cause the window to open according to The Internet Explorer defaults.</source>
+          <target state="translated">最小值為 100。嘗試開啟比這會導致視窗開啟根據 Internet Explorer 的預設值還要小的視窗。</target>       </trans-unit>
+        <trans-unit id="304" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`left`</ph>: The left (x-coordinate) position of the window, relative to the upper-left corner of the user's screen, in pixels.</source>
+          <target state="translated"><ph id="ph1">`left`</ph>︰ 左方 （x 座標） 位置的視窗中，相對於使用者螢幕左上角像素為單位。</target>       </trans-unit>
+        <trans-unit id="305" translate="yes" xml:space="preserve">
+          <source>Must be a positive integer.</source>
+          <target state="translated">必須是正整數。</target>       </trans-unit>
+        <trans-unit id="306" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`location`</ph>: Whether to display the Address bar, which enables users to navigate the window to a new URL.</source>
+          <target state="translated"><ph id="ph1">`location`</ph>︰ 是否要顯示的位址列中，可讓使用者巡覽視窗至新的 URL。</target>       </trans-unit>
+        <trans-unit id="307" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="308" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`menubar`</ph>: Whether to display menus on the new window.</source>
+          <target state="translated"><ph id="ph1">`menubar`</ph>︰ 是否要在新視窗中顯示功能表。</target>       </trans-unit>
+        <trans-unit id="309" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="310" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`resizable`</ph>: Whether the window can be resized by the user.</source>
+          <target state="translated"><ph id="ph1">`resizable`</ph>︰ 是否可以調整大小使用者視窗。</target>       </trans-unit>
+        <trans-unit id="311" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="312" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`scrollbars`</ph>: Whether the window has horizontal and vertical scroll bars.</source>
+          <target state="translated"><ph id="ph1">`scrollbars`</ph>︰ 視窗是否有水平和垂直捲軸。</target>       </trans-unit>
+        <trans-unit id="313" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="314" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`status`</ph>: Whether the window has a status bar at the bottom.</source>
+          <target state="translated"><ph id="ph1">`status`</ph>︰ 視窗是否有狀態列底部。</target>       </trans-unit>
+        <trans-unit id="315" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="316" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`titlebar`</ph>: Whether the title of the current page is displayed.</source>
+          <target state="translated"><ph id="ph1">`titlebar`</ph>︰ 是否顯示目前頁面的標題。</target>       </trans-unit>
+        <trans-unit id="317" translate="yes" xml:space="preserve">
+          <source>Setting this option to <ph id="ph1">`no`</ph> has no effect within a managed application; the title bar will always appear.</source>
+          <target state="translated">此選項設為<ph id="ph1">`no`</ph>沒有任何作用中的受管理的應用程式; 標題列一律會出現。</target>       </trans-unit>
+        <trans-unit id="318" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`toolbar`</ph>: Whether toolbar buttons such as <bpt id="p1">**</bpt>Back<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Forward<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Stop<ept id="p3">**</ept> are visible.</source>
+          <target state="translated"><ph id="ph1">`toolbar`</ph>︰ 是否等工具列按鈕<bpt id="p1">**</bpt>回<ept id="p1">**</ept>，<bpt id="p2">**</bpt>向前<ept id="p2">**</ept>，和<bpt id="p3">**</bpt>停止<ept id="p3">**</ept>可見。</target>       </trans-unit>
+        <trans-unit id="319" translate="yes" xml:space="preserve">
+          <source>Default is <ph id="ph1">`yes`</ph>.</source>
+          <target state="translated">預設值是<ph id="ph1">`yes`</ph>。</target>       </trans-unit>
+        <trans-unit id="320" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`top`</ph>: The top (y-coordinate) position of the window, relative to the upper-left corner of the user's screen, in pixels.</source>
+          <target state="translated"><ph id="ph1">`top`</ph>︰ 上方 （y 座標） 位置的視窗中，相對於使用者螢幕左上角像素為單位。</target>       </trans-unit>
+        <trans-unit id="321" translate="yes" xml:space="preserve">
+          <source>Must be a positive integer.</source>
+          <target state="translated">必須是正整數。</target>       </trans-unit>
+        <trans-unit id="322" translate="yes" xml:space="preserve">
+          <source><ph id="ph1">`width`</ph>: The width of the window's client area, in pixels.</source>
+          <target state="translated"><ph id="ph1">`width`</ph>︰ 視窗的用戶端區域寬度，單位為像素。</target>       </trans-unit>
+        <trans-unit id="323" translate="yes" xml:space="preserve">
+          <source>The minimum is 100; attempts to open a window smaller than this will cause the window to open according to The Internet Explorer defaults.</source>
+          <target state="translated">最小值為 100。嘗試開啟比這會導致視窗開啟根據 Internet Explorer 的預設值還要小的視窗。</target>       </trans-unit>
+        <trans-unit id="324" translate="yes" xml:space="preserve">
+          <source>Whether <ph id="ph1">`url`</ph> replaces the current window's URL in the navigation history.</source>
+          <target state="translated">是否<ph id="ph1">`url`</ph>取代目前視窗的巡覽記錄中的 URL。</target>       </trans-unit>
+        <trans-unit id="325" translate="yes" xml:space="preserve">
+          <source>This will effect the operation of methods on the <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlHistory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> class.</source>
+          <target state="translated">這會影響之方法的作業上<bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlHistory"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>類別。</target>       </trans-unit>
+        <trans-unit id="326" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the new window, or the previously created window named by the <bpt id="p2">&lt;code&gt;</bpt><ph id="ph1">target</ph><ept id="p2">&lt;/code&gt;</ept> parameter.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代表新視窗中或之前建立的視窗由名為<bpt id="p2">&lt;code&gt;</bpt> <ph id="ph1">target</ph> <ept id="p2">&lt;/code&gt;</ept>參數。</target>       </trans-unit>
+        <trans-unit id="327" translate="yes" xml:space="preserve">
+          <source>Gets a reference to the window that opened the current window.</source>
+          <target state="translated">取得開啟目前視窗之視窗的參考。</target>       </trans-unit>
+        <trans-unit id="328" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that was created by a call to the &lt;xref:System.Windows.Forms.HtmlWindow.Open<bpt id="p2">*</bpt>&gt; or &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew<ept id="p2">*</ept>&gt; methods.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>呼叫中建立&lt;&gt; <bpt id="p2">*</bpt>&gt; 或&lt;&gt; <ept id="p2">*</ept>&gt; 方法。</target>       </trans-unit>
+        <trans-unit id="329" translate="yes" xml:space="preserve">
+          <source>If the window was not created using one of these methods, this property returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果視窗不是使用其中一種方法，這個屬性會傳回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="330" translate="yes" xml:space="preserve">
+          <source>Displays a file in a new window.</source>
+          <target state="translated">在新視窗中顯示檔案。</target>       </trans-unit>
+        <trans-unit id="331" translate="yes" xml:space="preserve">
+          <source>If the file referenced by <ph id="ph1">`url`</ph> is an HTML file, text file, or other file type that can be hosted inside of Internet Explorer, it will be displayed in a new window.</source>
+          <target state="translated">如果所參考的檔案<ph id="ph1">`url`</ph>是 HTML 檔案、 文字檔或其他可以裝載在 Internet Explorer 內的檔案類型將顯示在新視窗中。</target>       </trans-unit>
+        <trans-unit id="332" translate="yes" xml:space="preserve">
+          <source>If the file cannot be displayed inside of Internet Explorer, then the window will open only long enough for Internet Explorer to download the resource; it will close immediately afterwards.</source>
+          <target state="translated">如果檔案無法顯示在 Internet Explorer 內，則會開啟此視窗只有時間長度仍足以供 Internet Explorer 下載資源;它會立即關閉之後。</target>       </trans-unit>
+        <trans-unit id="333" translate="yes" xml:space="preserve">
+          <source>When you create new windows using &lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt; or OpenNew, it causes the HTML Document Object Model to open a new instance of Internet Explorer.</source>
+          <target state="translated">當您建立新的 windows 使用&lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;或 OpenNew，導致 HTML 文件物件模型，以開啟 Internet Explorer 的新執行個體。&lt;/xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="334" translate="yes" xml:space="preserve">
+          <source>If you do not call &lt;xref:System.Windows.Forms.HtmlWindow.Close%2A&gt; on all of the windows you have created, this instance of Internet Explorer will remain running even after your application has quit.</source>
+          <target state="translated">如果您不會呼叫&lt;xref:System.Windows.Forms.HtmlWindow.Close%2A&gt;所有您已建立的 windows 上的 Internet Explorer 的這個執行個體將會繼續執行已結束您的應用程式時，即使。&lt;/xref:System.Windows.Forms.HtmlWindow.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="335" translate="yes" xml:space="preserve">
+          <source>If you want to load a document into a previously opened window, see the &lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt; method.</source>
+          <target state="translated">如果您想要載入先前開啟的視窗中的文件，請參閱&lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;方法。&lt;/xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="336" translate="yes" xml:space="preserve">
+          <source>The Uniform Resource Locator that describes the location of the file to load.</source>
+          <target state="translated">統一資源定位器，描述要載入之檔案的位置。</target>       </trans-unit>
+        <trans-unit id="337" translate="yes" xml:space="preserve">
+          <source>A comma-delimited string consisting of zero or more of the following options in the form <ph id="ph1">`name=value`</ph>.</source>
+          <target state="translated">以逗號分隔的字串，其中包含零或多個表單中的下列選項<ph id="ph1">`name=value`</ph>。</target>       </trans-unit>
+        <trans-unit id="338" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Windows.Forms.HtmlWindow.Open*&gt; for a full description of the valid options.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Forms.HtmlWindow.Open*&gt;有效選項的完整說明。&lt;/xref:System.Windows.Forms.HtmlWindow.Open*&gt;</target>       </trans-unit>
+        <trans-unit id="339" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the new window.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代表新視窗。</target>       </trans-unit>
+        <trans-unit id="340" translate="yes" xml:space="preserve">
+          <source>Displays a file in a new window.</source>
+          <target state="translated">在新視窗中顯示檔案。</target>       </trans-unit>
+        <trans-unit id="341" translate="yes" xml:space="preserve">
+          <source>If the file referenced by <ph id="ph1">`url`</ph> is an HTML file, text file, or other file type that can be hosted inside of Internet Explorer, it will be displayed in a new window.</source>
+          <target state="translated">如果所參考的檔案<ph id="ph1">`url`</ph>是 HTML 檔案、 文字檔或其他可以裝載在 Internet Explorer 內的檔案類型將顯示在新視窗中。</target>       </trans-unit>
+        <trans-unit id="342" translate="yes" xml:space="preserve">
+          <source>If the file cannot be displayed inside of Internet Explorer, then the window will open only long enough for Internet Explorer to download the resource; it will close immediately afterwards.</source>
+          <target state="translated">如果檔案無法顯示在 Internet Explorer 內，則會開啟此視窗只有時間長度仍足以供 Internet Explorer 下載資源;它會立即關閉之後。</target>       </trans-unit>
+        <trans-unit id="343" translate="yes" xml:space="preserve">
+          <source>When you create new windows using &lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt; or OpenNew, it causes the HTML Document Object Model to open a new instance of Internet Explorer.</source>
+          <target state="translated">當您建立新的 windows 使用&lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;或 OpenNew，導致 HTML 文件物件模型，以開啟 Internet Explorer 的新執行個體。&lt;/xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="344" translate="yes" xml:space="preserve">
+          <source>If you do not call &lt;xref:System.Windows.Forms.HtmlWindow.Close%2A&gt; on all of the windows you have created, this instance of Internet Explorer will remain running even after your application has quit.</source>
+          <target state="translated">如果您不會呼叫&lt;xref:System.Windows.Forms.HtmlWindow.Close%2A&gt;所有您已建立的 windows 上的 Internet Explorer 的這個執行個體將會繼續執行已結束您的應用程式時，即使。&lt;/xref:System.Windows.Forms.HtmlWindow.Close%2A&gt;</target>       </trans-unit>
+        <trans-unit id="345" translate="yes" xml:space="preserve">
+          <source>If you want to load a document into a previously opened window, see the &lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt; method.</source>
+          <target state="translated">如果您想要載入先前開啟的視窗中的文件，請參閱&lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;方法。&lt;/xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="346" translate="yes" xml:space="preserve">
+          <source>The Uniform Resource Locator that describes the location of the file to load.</source>
+          <target state="translated">統一資源定位器，描述要載入之檔案的位置。</target>       </trans-unit>
+        <trans-unit id="347" translate="yes" xml:space="preserve">
+          <source>A comma-delimited string consisting of zero or more of the following options in the form <ph id="ph1">`name=value`</ph>.</source>
+          <target state="translated">以逗號分隔的字串，其中包含零或多個表單中的下列選項<ph id="ph1">`name=value`</ph>。</target>       </trans-unit>
+        <trans-unit id="348" translate="yes" xml:space="preserve">
+          <source>See &lt;xref:System.Windows.Forms.HtmlWindow.Open*&gt; for a full description of the valid options.</source>
+          <target state="translated">請參閱&lt;xref:System.Windows.Forms.HtmlWindow.Open*&gt;有效選項的完整說明。&lt;/xref:System.Windows.Forms.HtmlWindow.Open*&gt;</target>       </trans-unit>
+        <trans-unit id="349" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> representing the new window.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>代表新視窗。</target>       </trans-unit>
+        <trans-unit id="350" translate="yes" xml:space="preserve">
+          <source>Gets the window which resides above the current one in a page containing frames.</source>
+          <target state="translated">取得位於包含框架的網頁中目前的上方視窗的視窗。</target>       </trans-unit>
+        <trans-unit id="351" translate="yes" xml:space="preserve">
+          <source>In a document containing frames, each <ph id="ph1">`FRAME`</ph> within a <ph id="ph2">`FRAMESET`</ph> acts as a separate child window on the page.</source>
+          <target state="translated">包含框架，在文件中每個<ph id="ph1">`FRAME`</ph>內<ph id="ph2">`FRAMESET`</ph>做為頁面上的個別子視窗。</target>       </trans-unit>
+        <trans-unit id="352" translate="yes" xml:space="preserve">
+          <source>The parent of each <ph id="ph1">`FRAME`</ph> is the <ph id="ph2">`FRAMESET`</ph> which contains the <ph id="ph3">`FRAME`</ph>.</source>
+          <target state="translated">每個父<ph id="ph1">`FRAME`</ph>是<ph id="ph2">`FRAMESET`</ph>包含<ph id="ph3">`FRAME`</ph>。</target>       </trans-unit>
+        <trans-unit id="353" translate="yes" xml:space="preserve">
+          <source>The <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> that owns the current window.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlWindow"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>擁有目前的視窗。</target>       </trans-unit>
+        <trans-unit id="354" translate="yes" xml:space="preserve">
+          <source>If the current window is not a <ph id="ph1">`FRAME`</ph>, or is not embedded inside of a <ph id="ph2">`FRAME`</ph>, it returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果目前的視窗不是<ph id="ph1">`FRAME`</ph>，或未內嵌在<ph id="ph2">`FRAME`</ph>，它會傳回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+        <trans-unit id="355" translate="yes" xml:space="preserve">
+          <source>Gets the position of the window's client area on the screen.</source>
+          <target state="translated">取得螢幕上視窗的工作區的位置。</target>       </trans-unit>
+        <trans-unit id="356" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.Control.Location%2A&gt; property of the &lt;xref:System.Windows.Forms.WebBrowser&gt; control will return the position of the control relative to the upper-left corner of the form.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.Control.Location%2A&gt;屬性&lt;xref:System.Windows.Forms.WebBrowser&gt;控制項將會傳回相對於表單的左上角之控制項的位置。&lt;/xref:System.Windows.Forms.WebBrowser&gt; &lt;/xref:System.Windows.Forms.Control.Location%2A&gt;</target>       </trans-unit>
+        <trans-unit id="357" translate="yes" xml:space="preserve">
+          <source>By contrast, Position will return the location of the document's display area relative to the top-left corner of the user's monitor.</source>
+          <target state="translated">相反地，位置將會傳回相對於使用者螢幕左上角的文件的顯示區域的位置。</target>       </trans-unit>
+        <trans-unit id="358" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the x -and y-coordinates of the top-left corner of the screen, in pixels.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Point"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述 x-和畫面上，單位為像素的左上角的 y 座標。</target>       </trans-unit>
+        <trans-unit id="359" translate="yes" xml:space="preserve">
+          <source>Shows a dialog box that displays a message and a text box to the user.</source>
+          <target state="translated">向使用者顯示一個對話方塊，會顯示訊息方塊和一個文字方塊。</target>       </trans-unit>
+        <trans-unit id="360" translate="yes" xml:space="preserve">
+          <source>Prompt provides a quick, easy way to obtain simple text input from the user.</source>
+          <target state="translated">提示提供快速、 簡易的方式，從使用者取得簡單的文字輸入。</target>       </trans-unit>
+        <trans-unit id="361" translate="yes" xml:space="preserve">
+          <source>Although Prompt accepts Unicode text as input, the Internet Explorer script prompt will not display non-Latin language text appropriately on Windows 95, Windows 98, Windows ME or Windows NT due to operating system limitations.</source>
+          <target state="translated">雖然提示接受 Unicode 文字，做為輸入，Internet Explorer 指令碼提示不會顯示非拉丁語言文字適當地在 Windows 95、 Windows 98、 Windows ME 或 Windows NT 由於作業系統限制。</target>       </trans-unit>
+        <trans-unit id="362" translate="yes" xml:space="preserve">
+          <source>For more information, see <bpt id="p1">[</bpt>INFO: Internet Explorer Script Prompts and MBCS/Unicode<ept id="p1">](http://support.microsoft.com/default.aspx?scid=kb;en-us;211147)</ept>.</source>
+          <target state="translated">如需詳細資訊，請參閱<bpt id="p1">[</bpt>資訊︰ Internet Explorer 指令碼會提示和 MBCS/Unicode<ept id="p1">](http://support.microsoft.com/default.aspx?scid=kb;en-us;211147)</ept>。</target>       </trans-unit>
+        <trans-unit id="363" translate="yes" xml:space="preserve">
+          <source>The message to display to the user.</source>
+          <target state="translated">要向使用者顯示的訊息。</target>       </trans-unit>
+        <trans-unit id="364" translate="yes" xml:space="preserve">
+          <source>The default value displayed in the text box.</source>
+          <target state="translated">預設值顯示在文字方塊中。</target>       </trans-unit>
+        <trans-unit id="365" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; representing the text entered by the user.</source>
+          <target state="translated">A&lt;xref:System.String&gt;代表使用者所輸入的文字。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="366" translate="yes" xml:space="preserve">
+          <source>Takes focus off of the current window.</source>
+          <target state="translated">目前視窗失去接受焦點。</target>       </trans-unit>
+        <trans-unit id="367" translate="yes" xml:space="preserve">
+          <source>When called on a <ph id="ph1">`FRAME`</ph> window in a <ph id="ph2">`FRAMESET`</ph>, RemoveFocus will cause that window to lose focus, but it will not automatically set focus on another window.</source>
+          <target state="translated">上呼叫時<ph id="ph1">`FRAME`</ph>視窗<ph id="ph2">`FRAMESET`</ph>，RemoveFocus 會導致該視窗失去焦點，但它將不會自動設定焦點上另一個視窗。</target>       </trans-unit>
+        <trans-unit id="368" translate="yes" xml:space="preserve">
+          <source>Occurs when the user uses the mouse to change the dimensions of the window.</source>
+          <target state="translated">發生於使用者使用滑鼠變更視窗的尺寸。</target>       </trans-unit>
+        <trans-unit id="369" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="370" translate="yes" xml:space="preserve">
+          <source>Changes the size of the window to the specified dimensions.</source>
+          <target state="translated">視窗的大小變更為指定的維度。</target>       </trans-unit>
+        <trans-unit id="371" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the desired width and height of the window, in pixels.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述視窗中，單位為像素的高度與所要的寬度。</target>       </trans-unit>
+        <trans-unit id="372" translate="yes" xml:space="preserve">
+          <source>Must be 100 pixels or more in both dimensions.</source>
+          <target state="translated">必須是 100 像素或多個在兩個維度。</target>       </trans-unit>
+        <trans-unit id="373" translate="yes" xml:space="preserve">
+          <source>The window you are trying to resize is in a different domain than its parent window.</source>
+          <target state="translated">您嘗試調整視窗是其父視窗不同的網域。</target>       </trans-unit>
+        <trans-unit id="374" translate="yes" xml:space="preserve">
+          <source>This restriction is part of cross-frame scripting security; for more information, see <bpt id="p1">[</bpt>About Cross-Frame Scripting and Security<ept id="p1">](http://msdn.microsoft.com/library/ms533028.aspx)</ept>.</source>
+          <target state="translated">這項限制是安全性的跨框架指令碼; 的一部分如需詳細資訊，請參閱<bpt id="p1">[</bpt>關於跨框架指令碼和安全性<ept id="p1">](http://msdn.microsoft.com/library/ms533028.aspx)</ept>。</target>       </trans-unit>
+        <trans-unit id="375" translate="yes" xml:space="preserve">
+          <source>Changes the size of the window to the specified dimensions.</source>
+          <target state="translated">視窗的大小變更為指定的維度。</target>       </trans-unit>
+        <trans-unit id="376" translate="yes" xml:space="preserve">
+          <source>Describes the desired width of the window, in pixels.</source>
+          <target state="translated">描述所需的視窗中，單位為像素寬度。</target>       </trans-unit>
+        <trans-unit id="377" translate="yes" xml:space="preserve">
+          <source>Must be 100 pixels or more.</source>
+          <target state="translated">必須是 100 像素或更多。</target>       </trans-unit>
+        <trans-unit id="378" translate="yes" xml:space="preserve">
+          <source>Describes the desired height of the window, in pixels.</source>
+          <target state="translated">描述所需的視窗中，單位為像素高度。</target>       </trans-unit>
+        <trans-unit id="379" translate="yes" xml:space="preserve">
+          <source>Must be 100 pixels or more.</source>
+          <target state="translated">必須是 100 像素或更多。</target>       </trans-unit>
+        <trans-unit id="380" translate="yes" xml:space="preserve">
+          <source>The window you are trying to resize is in a different domain than its parent window.</source>
+          <target state="translated">您嘗試調整視窗是其父視窗不同的網域。</target>       </trans-unit>
+        <trans-unit id="381" translate="yes" xml:space="preserve">
+          <source>This restriction is part of cross-frame scripting security; for more information, see <bpt id="p1">[</bpt>About Cross-Frame Scripting and Security<ept id="p1">](http://msdn.microsoft.com/library/ms533028.aspx)</ept>.</source>
+          <target state="translated">這項限制是安全性的跨框架指令碼; 的一部分如需詳細資訊，請參閱<bpt id="p1">[</bpt>關於跨框架指令碼和安全性<ept id="p1">](http://msdn.microsoft.com/library/ms533028.aspx)</ept>。</target>       </trans-unit>
+        <trans-unit id="382" translate="yes" xml:space="preserve">
+          <source>Occurs when the user scrolls through the window to view off-screen text.</source>
+          <target state="translated">發生於使用者捲動視窗來檢視螢幕的文字。</target>       </trans-unit>
+        <trans-unit id="383" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="384" translate="yes" xml:space="preserve">
+          <source>Moves the window to the specified coordinates.</source>
+          <target state="translated">將視窗移至指定的座標。</target>       </trans-unit>
+        <trans-unit id="385" translate="yes" xml:space="preserve">
+          <source>ScrollTo will cause the document to scroll so that the specified coordinate on the document is located in the upper-left corner of the document's window.</source>
+          <target state="translated">ScrollTo 會導致文件，以便在文件上的指定的座標位於文件視窗的左上角捲動。</target>       </trans-unit>
+        <trans-unit id="386" translate="yes" xml:space="preserve">
+          <source>If the document is not long or wide enough for this to happen, ScrollTo will scroll through the document as far as possible in the specified direction.</source>
+          <target state="translated">如果文件不是長或太寬的這種情形，ScrollTo 會捲動瀏覽以指定方向盡可能文件。</target>       </trans-unit>
+        <trans-unit id="387" translate="yes" xml:space="preserve">
+          <source>The x- and y-coordinates, relative to the top-left corner of the current window, toward which the page should scroll.</source>
+          <target state="translated">X 和 y 座標，相對於目前視窗中，網頁應該捲動左上角。</target>       </trans-unit>
+        <trans-unit id="388" translate="yes" xml:space="preserve">
+          <source>Scrolls the window to the designated position.</source>
+          <target state="translated">捲動視窗至指定的位置。</target>       </trans-unit>
+        <trans-unit id="389" translate="yes" xml:space="preserve">
+          <source>&lt;xref:System.Windows.Forms.HtmlWindow.ScrollTo%2A&gt; will cause the document to scroll so that the specified coordinate on the document is located in the upper-left corner of the document's window.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.HtmlWindow.ScrollTo%2A&gt;會導致文件，以便在文件上的指定的座標位於文件視窗的左上角捲動。&lt;/xref:System.Windows.Forms.HtmlWindow.ScrollTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="390" translate="yes" xml:space="preserve">
+          <source>If the document is not long or wide enough for this to happen, &lt;xref:System.Windows.Forms.HtmlWindow.ScrollTo%2A&gt; will scroll through the document as far as possible in the specified direction.</source>
+          <target state="translated">如果文件不是長或太寬的這種情形，&lt;xref:System.Windows.Forms.HtmlWindow.ScrollTo%2A&gt;會捲動瀏覽以指定方向盡可能文件。&lt;/xref:System.Windows.Forms.HtmlWindow.ScrollTo%2A&gt;</target>       </trans-unit>
+        <trans-unit id="391" translate="yes" xml:space="preserve">
+          <source>The x-coordinate, relative to the top-left corner of the current window, toward which the page should scroll.</source>
+          <target state="translated">X 軸座標，相對於目前視窗中，網頁應該捲動左上角。</target>       </trans-unit>
+        <trans-unit id="392" translate="yes" xml:space="preserve">
+          <source>The y-coordinate, relative to the top-left corner of the current window, toward which the page should scroll.</source>
+          <target state="translated">Y 軸座標，相對於目前視窗中，網頁應該捲動左上角。</target>       </trans-unit>
+        <trans-unit id="393" translate="yes" xml:space="preserve">
+          <source>Gets or sets the size of the current window.</source>
+          <target state="translated">取得或設定目前視窗的大小。</target>       </trans-unit>
+        <trans-unit id="394" translate="yes" xml:space="preserve">
+          <source>A <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> describing the size of the window in pixels.</source>
+          <target state="translated">A <bpt id="p1">&lt;xref href="System.Drawing.Size"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>描述視窗像素為單位的大小。</target>       </trans-unit>
+        <trans-unit id="395" translate="yes" xml:space="preserve">
+          <source>Gets or sets the text displayed in the status bar of a window.</source>
+          <target state="translated">取得或設定視窗的狀態列中顯示的文字。</target>       </trans-unit>
+        <trans-unit id="396" translate="yes" xml:space="preserve">
+          <source>The &lt;xref:System.Windows.Forms.WebBrowser&gt; control does not display a status bar.</source>
+          <target state="translated">&lt;xref:System.Windows.Forms.WebBrowser&gt;控制項不顯示狀態列&lt;/xref:System.Windows.Forms.WebBrowser&gt;</target>       </trans-unit>
+        <trans-unit id="397" translate="yes" xml:space="preserve">
+          <source>Any new window that you open with the &lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt; or &lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt; methods, however, will display a status bar by default.</source>
+          <target state="translated">您開啟任何新視窗&lt;xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;或&lt;xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt;方法，不過，會顯示狀態列預設。&lt;/xref:System.Windows.Forms.HtmlWindow.OpenNew%2A&gt; &lt;/xref:System.Windows.Forms.HtmlWindow.Open%2A&gt;</target>       </trans-unit>
+        <trans-unit id="398" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.String&gt; containing the current status text.</source>
+          <target state="translated">A&lt;xref:System.String&gt;包含目前狀態的文字。&lt;/xref:System.String&gt;</target>       </trans-unit>
+        <trans-unit id="399" translate="yes" xml:space="preserve">
+          <source>Occurs when the current page is unloading, and a new page is about to be displayed.</source>
+          <target state="translated">正在卸載目前的頁面，且新的頁面即將顯示時發生。</target>       </trans-unit>
+        <trans-unit id="400" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">即將加入。</target>       </trans-unit>
+        <trans-unit id="401" translate="yes" xml:space="preserve">
+          <source>Gets the URL corresponding to the current item displayed in the window.</source>
+          <target state="translated">取得對應到目前的項目顯示在視窗中的 URL。</target>       </trans-unit>
+        <trans-unit id="402" translate="yes" xml:space="preserve">
+          <source>This property is read-only.</source>
+          <target state="translated">這個屬性是唯讀的。</target>       </trans-unit>
+        <trans-unit id="403" translate="yes" xml:space="preserve">
+          <source>To navigate the window to a new document, use the &lt;xref:System.Windows.Forms.HtmlWindow.Navigate%2A&gt; method.</source>
+          <target state="translated">若要瀏覽至新的文件視窗，請使用&lt;xref:System.Windows.Forms.HtmlWindow.Navigate%2A&gt;方法。&lt;/xref:System.Windows.Forms.HtmlWindow.Navigate%2A&gt;</target>       </trans-unit>
+        <trans-unit id="404" translate="yes" xml:space="preserve">
+          <source>A &lt;xref:System.Uri&gt; describing the URL.</source>
+          <target state="translated">A&lt;xref:System.Uri&gt;描述這個 URL。&lt;/xref:System.Uri&gt;</target>       </trans-unit>
+        <trans-unit id="405" translate="yes" xml:space="preserve">
+          <source>Gets the frame element corresponding to this window.</source>
+          <target state="translated">取得對應到這個視窗的框架項目。</target>       </trans-unit>
+        <trans-unit id="406" translate="yes" xml:space="preserve">
+          <source>When you retrieve a <ph id="ph1">`FRAME`</ph> element from the &lt;xref:System.Windows.Forms.HtmlWindow.Frames%2A&gt; collection, it returns an &lt;xref:System.Windows.Forms.HtmlWindow&gt;.</source>
+          <target state="translated">當您擷取<ph id="ph1">`FRAME`</ph>元素的&lt;xref:System.Windows.Forms.HtmlWindow.Frames%2A&gt;集合，它會傳回&lt;xref:System.Windows.Forms.HtmlWindow&gt;.&lt;/xref:System.Windows.Forms.HtmlWindow&gt; &lt;/xref:System.Windows.Forms.HtmlWindow.Frames%2A&gt;</target>       </trans-unit>
+        <trans-unit id="407" translate="yes" xml:space="preserve">
+          <source>Call WindowFrameElement on this object if you need to access attributes of the underlying <ph id="ph1">`FRAME`</ph> element, such as the <ph id="ph2">`SRC`</ph> attribute.</source>
+          <target state="translated">如果您需要存取的基礎屬性，這個物件上呼叫 WindowFrameElement<ph id="ph1">`FRAME`</ph>項目，例如<ph id="ph2">`SRC`</ph>屬性。</target>       </trans-unit>
+        <trans-unit id="408" translate="yes" xml:space="preserve">
+          <source>An <bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlElement"&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept> corresponding to this window's <ph id="ph1">`FRAME`</ph> element.</source>
+          <target state="translated"><bpt id="p1">&lt;xref href="System.Windows.Forms.HtmlElement"&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>對應到這個視窗<ph id="ph1">`FRAME`</ph>項目。</target>       </trans-unit>
+        <trans-unit id="409" translate="yes" xml:space="preserve">
+          <source>If this window is not a frame, it returns <bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt><ept id="p1">&lt;/xref&gt;</ept>.</source>
+          <target state="translated">如果這個視窗不是在範圍內，它會傳回<bpt id="p1">&lt;xref uid="langword_csharp_null" name="null" href=""&gt;</bpt> <ept id="p1">&lt;/xref&gt;</ept>。</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
