@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="markdown" source-language="en-US" target-language="pt-pt">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-192e1fd" tool-company="Microsoft" />
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">eacfd25f843c901f38e13dbe58c22aaeebb44050</xliffext:olfilehash>
+      <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset\System.ServiceModel.Security.MessageProtectionOrder.yml</xliffext:olfilepath>
+      <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">fulldocset</xliffext:oltranslationpriority>
+      <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ae174df1a80cbf50ea364429b6315b0663e1d25c</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">3d1a2e6662b4ea5b4ce1902cd38e249205487063</xliffext:olxliffhash>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Specifies the order of operations that protect a message.</source>
+          <target state="translated">Especifica a ordem das operações que proteger uma mensagem.</target>       </trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This enumeration is used with the &lt;xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt; property of the &lt;xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement&gt; and the &lt;xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt; property of the &lt;xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement&gt; classes.</source>
+          <target state="translated">Esta enumeração é utilizada com o &lt;xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt;propriedade do &lt;xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement&gt;e o &lt;xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt;propriedade o &lt;xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement&gt;classes.&lt;/xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement&gt; &lt;/xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt; &lt;/xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement&gt; &lt;/xref:System.ServiceModel.Channels.AsymmetricSecurityBindingElement.MessageProtectionOrder%2A?displayProperty=fullName&gt;</target>       </trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If a message is vulnerable to a digest attack (for example, if the message is short or the entropy is low), you should use the SignBeforeEncryptAndEncryptSignature or EncryptBeforeSign option.</source>
+          <target state="translated">Se uma mensagem é vulnerável a um ataque de resumo (por exemplo, se a mensagem é pequeno ou a entropia é baixa), deve utilizar a opção SignBeforeEncryptAndEncryptSignature ou EncryptBeforeSign.</target>       </trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve" extradata="MT">
+          <source>(<bpt id="p1">*</bpt>Entropy<ept id="p1">*</ept> is random data provided by a server, a client, or both, and is used to create a shared key for encrypting and decrypting data.)      ## What Is Ordered?</source>
+          <target state="translated">(<bpt id="p1">*</bpt>Entropia<ept id="p1">*</ept> é dados aleatórios fornecidos por um servidor, um cliente ou ambos e é utilizado para criar uma chave partilhada para a encriptação e desencriptação de dados.)      # # Que está a ser ordenado?</target>       </trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve" extradata="MT">
+          <source><ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph> offers three different protection levels that determine how messages are secured using SOAP message security.</source>
+          <target state="translated"><ph id="ph1">[!INCLUDE[indigo2](~/add/includes/ajax-current-ext-md.md)]</ph>oferece três diferentes níveis de proteção que determinam a forma como as mensagens são protegidas através de segurança de mensagens SOAP.</target>       </trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve" extradata="MT">
+          <source>The default is SignBeforeEncryptAndEncryptSignature.</source>
+          <target state="translated">A predefinição é SignBeforeEncryptAndEncryptSignature.</target>       </trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This setting first signs the message, encrypts the message body, and then encrypts the XML signature.</source>
+          <target state="translated">Esta definição primeiro inicia a mensagem, encripta o corpo da mensagem e, em seguida, encripta a assinatura XML.</target>       </trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve" extradata="MT">
+          <source>This reduces the likelihood of a successful cryptographic guessing attack against the signature.</source>
+          <target state="translated">Isto reduz a probabilidade de um ataque de deteção criptográfico com êxito com a assinatura.</target>       </trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve" extradata="MT">
+          <source>However, using the default has performance implications.</source>
+          <target state="translated">No entanto, utilizar a predefinição tem implicações de desempenho.</target>       </trans-unit>
+        <trans-unit id="110" translate="yes" xml:space="preserve" extradata="MT">
+          <source>In effect, there is a tradeoff of performance for increased security.</source>
+          <target state="translated">Em vigor, é um compromisso do desempenho para maior segurança.</target>       </trans-unit>
+        <trans-unit id="111" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Encrypting the signature can decrease performance between 10 percent and 40 percent.</source>
+          <target state="translated">A assinatura de encriptação pode diminuir o desempenho entre 10 por cento e 40 por cento.</target>       </trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve" extradata="MT">
+          <source>If the data content of the message is of low value, and performance throughput is more significant, use SignBeforeEncrypt.</source>
+          <target state="translated">Se o conteúdo de dados da mensagem de valor baixo, e débito de desempenho é mais significativo, utilize SignBeforeEncrypt.</target>       </trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve" extradata="MT">
+          <source>With this setting, the signature digest is sent in clear text, and thus the message is more vulnerable to guess-and-verify attacks on low entropy.</source>
+          <target state="translated">Com esta definição, o resumo de assinatura é enviado em texto não encriptado, e por isso a mensagem mais vulnerável a ataques estimado e verifique no entropia baixa.</target>       </trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve" extradata="MT">
+          <source>Custom Bindings Only    To change the <ph id="ph1">`MessageProtectionOrder`</ph> property requires the creation of a custom security binding.</source>
+          <target state="translated">Personalizado enlaces apenas para alterar o <ph id="ph1">`MessageProtectionOrder`</ph> propriedade requer a criação de um enlace de segurança personalizada.</target>       </trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about creating custom bindings, see <bpt id="p1">[</bpt>Creating User-Defined Bindings<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre a criação de enlaces personalizadas, consulte <bpt id="p1">[</bpt>Creating User-Defined enlaces<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve" extradata="MT">
+          <source>For more information about creating a custom binding for a specific authentication mode, see <bpt id="p1">[</bpt>How to: Create a SecurityBindingElement for a Specified Authentication Mode<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</source>
+          <target state="translated">Para obter mais informações sobre como criar um enlace personalizado para um modo de autenticação específicas, consulte <bpt id="p1">[</bpt>como: criar um SecurityBindingElement para um modo de autenticação especificado<ept id="p1">](~/add/includes/ajax-current-ext-md.md)</ept>.</target>       </trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Specifies that the SOAP message is encrypted before a digital signature is generated for the SOAP message.</source>
+          <target state="translated">Especifica que a mensagem SOAP é encriptada antes de uma assinatura digital é gerada para a mensagem SOAP.</target>       </trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Specifies that a digital signature is generated for the SOAP message before any portion of the SOAP message is encrypted, but the digital signature is not encrypted.</source>
+          <target state="translated">Especifica que é gerada uma assinatura digital para a mensagem SOAP, antes de qualquer parte da mensagem de SOAP é encriptado, mas a assinatura digital não está encriptada.</target>       </trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>Specifies that a digital signature is generated for the SOAP message before any portion of the SOAP message is encrypted, and the digital signature is encrypted.</source>
+          <target state="translated">Especifica que é gerada uma assinatura digital para a mensagem SOAP, antes de qualquer parte da mensagem de SOAP é encriptado e a assinatura digital é encriptada.</target>       </trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>To be added.</source>
+          <target state="translated">A adicionar.</target>       </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
